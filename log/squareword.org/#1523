@@ -1,0 +1,264 @@
+T827.3985086400062 now: 2026-04-03T08:21:16EDT
+TD75 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD23  ...␅
+TD3134408 ␆
+TD92  ...
+TD76 🧩  ? ␅
+TD3807861 ␆#1523
+TD74 🧩  ? #1523
+TD200 puzzle_id: #1523
+TD192 > ␅
+TD1575493 ␆
+TD98 > 
+TD398 > ␅
+TD1007490 ␆*
+TD93 > *
+TD237290 try? ␅
+TD850736 ␆1
+TD75 try? 1
+TD252 questioning: ["setal", "#5"]
+TD218 #1 <IndexError>  📋 "setal" ? ␅
+TD5423586 ␆_E___ ~ SA
+TD76 #1 <IndexError>  📋 "setal" ? _E___ ~ SA
+TD435 attempt 0 SETAL m Y n m n
+TD75 #2 <IndexError>  📋 "setal" ? ␅
+TD3207288 ␆_____ ~ A
+TD81 #2 <IndexError>  📋 "setal" ? _____ ~ A
+TD199 attempt 1 SETAL n n n m n
+TD99 #3 <IndexError>  📋 "setal" ? ␅
+TD1775554 ␆_____ ~ E
+TD79 #3 <IndexError>  📋 "setal" ? _____ ~ E
+TD194 attempt 2 SETAL n m n n n
+TD91 #4 <IndexError>  📋 "setal" ? ␅
+TD2151815 ␆_____ ~ ETA
+TD82 #4 <IndexError>  📋 "setal" ? _____ ~ ETA
+TD185 attempt 3 SETAL n m m m n
+TD85 #5 <IndexError>  📋 "setal" ? ␅
+TD18791886 ␆S____ ~ E
+TD112 #5 <IndexError>  📋 "setal" ? S____ ~ E
+TD258 attempt 4 SETAL Y m n n n
+TD336 ? ␅
+TD247551 ␆
+TD107 ? 
+TD148 question done
+TD296 > ␅
+TD519567 ␆*
+TD81 > *
+TD669803 try? ␅
+TD1330084 ␆1
+TD103 try? 1
+TD306 questioning: ["dears", "#1"]
+TD339 #1 _E___ ~AS -LT  📋 "dears" ? ␅
+TD4463070 ␆_EARS
+TD100 #1 _E___ ~AS -LT  📋 "dears" ? _EARS
+TD237 attempt 0 DEARS n Y Y Y Y
+TD141 #2 _____ ~A -ELST  📋 "dears" ? ␅
+TD2719383 ␆_____ ~ AR
+TD97 #2 _____ ~A -ELST  📋 "dears" ? _____ ~ AR
+TD250 attempt 1 DEARS n n m m n
+TD145 #3 _____ ~E -ALST  📋 "dears" ? ␅
+TD2392174 ␆_____ ~ ER
+TD96 #3 _____ ~E -ALST  📋 "dears" ? _____ ~ ER
+TD262 attempt 2 DEARS n m n m n
+TD145 #4 _____ ~AET -LS  📋 "dears" ? ␅
+TD2023037 ␆.
+TD97 #4 _____ ~AET -LS  📋 "dears" ? .
+TD270 attempt 3 DEARS n m m n n
+TD92 #5 S____ ~E -ALT  📋 "dears" ? ␅
+TD3255470 ␆S____ ~ ER
+TD96 #5 S____ ~E -ALT  📋 "dears" ? S____ ~ ER
+TD265 attempt 4 DEARS n m n m n
+TD331 ? ␅
+TD383237 ␆
+TD86 ? 
+TD124 question done
+TD297 > ␅
+TD623634 ␆*
+TD97 > *
+TD776327 try? ␅
+TD2943617 ␄
+TD135 <EOF>
+TD378 > ␅
+TD2287415 ␆* 4
+TD91 > * 4
+TD1571 try? ␅
+TD1790330 ␄
+TD131 <EOF>
+TD357 > ␅
+TD1223374 ␆* 5
+TD96 > * 5
+TD2073 try? ␅
+TD1990142 ␆4
+TD74 try? 4
+TD209 questioning: ["siren", "#5"]
+TD217 #1 _EARS -DLT  📋 "siren" ? ␅
+TD4639426 ␆.
+TD90 #1 _EARS -DLT  📋 "siren" ? .
+TD195 attempt 0 SIREN n n n n n
+TD67 #2 _____ ~AR -DELST  📋 "siren" ? ␅
+TD2503769 ␆__R_N ~ A
+TD97 #2 _____ ~AR -DELST  📋 "siren" ? __R_N ~ A
+TD257 attempt 1 SIREN n n Y n Y
+TD161 #3 _____ ~ER -ADLST  📋 "siren" ? ␅
+TD975397 ␆.
+TD90 #3 _____ ~ER -ADLST  📋 "siren" ? .
+TD272 attempt 2 SIREN n n m m n
+TD96 #4 _____ ~AET -DLRS  📋 "siren" ? ␅
+TD1039500 ␆.
+TD99 #4 _____ ~AET -DLRS  📋 "siren" ? .
+TD270 attempt 3 SIREN n n n m n
+TD101 #5 S____ ~ER -ADLST  📋 "siren" ? ␅
+TD2327625 ␆S__E_ ~ ER
+TD99 #5 S____ ~ER -ADLST  📋 "siren" ? S__E_ ~ ER
+TD260 attempt 4 SIREN Y n m Y n
+TD350 ? ␅
+TD247415 ␆
+TD96 ? 
+TD115 question done
+TD307 > ␅
+TD831421 ␆*
+TD91 > *
+TD703504 try? ␅
+TD12928568 ␆_EARS ~ P
+TD102 try? _EARS ~ P
+TD370 try? ␅
+TD639524 ␆/it
+TD92 try? /it
+TD356 try? ␅
+TD12879482 ␆1
+TD84 try? 1
+TD207 questioning: ["apron", "#2"]
+TD281 #1 _EARS -DEILNRST  📋 "apron" ? ␅
+TD5519693 ␆_EARS ~ P
+TD114 #1 _EARS -DEILNRST  📋 "apron" ? _EARS ~ P
+TD187 attempt 0 APRON n m n n n
+TD101 #2 __R_N ~A -DEILST  📋 "apron" ? ␅
+TD1743634 ␆/it
+TD105 #2 __R_N ~A -DEILST  📋 "apron" ? /it
+TD265 attempt 1 APRON Y Y Y Y Y
+TD96 #3 _____ ~ER -ADILNST  📋 "apron" ? ␅
+TD3967614 ␆_____ ~ ERO
+TD97 #3 _____ ~ER -ADILNST  📋 "apron" ? _____ ~ ERO
+TD241 attempt 2 APRON n n m m n
+TD141 #4 _____ ~AET -DILNRS  📋 "apron" ? ␅
+TD4031434 ␆A____ ~ ET
+TD104 #4 _____ ~AET -DILNRS  📋 "apron" ? A____ ~ ET
+TD250 attempt 3 APRON Y n n n n
+TD148 #5 S__E_ ~R -ADILNT  📋 "apron" ? ␅
+TD3480300 ␆S__E_ ~ ER
+TD97 #5 S__E_ ~R -ADILNT  📋 "apron" ? S__E_ ~ ER
+TD257 attempt 4 APRON n n m n n
+TD350 ? ␅
+TD278750 ␆
+TD97 ? 
+TD127 question done
+TD318 > ␅
+TD967329 ␆*
+TD78 > *
+TD1590127 questioning: ["pears", "#1"]
+TD204 #1 _EARS ~P -ADEILNORST  📋 "pears" ? ␅
+TD2474509 ␆/it
+TD108 #1 _EARS ~P -ADEILNORST  📋 "pears" ? /it
+TD200 attempt 0 PEARS Y Y Y Y Y
+TD56 #3 _____ ~EOR -ADILNPST  📋 "pears" ? ␅
+TD1654700 ␆.
+TD85 #3 _____ ~EOR -ADILNPST  📋 "pears" ? .
+TD199 attempt 2 PEARS n m n m n
+TD76 #4 A____ ~ET -DILNOPRS  📋 "pears" ? ␅
+TD1303657 ␆.
+TD97 #4 A____ ~ET -DILNOPRS  📋 "pears" ? .
+TD266 attempt 3 PEARS n m n n n
+TD98 #5 S__E_ ~R -ADILNOPT  📋 "pears" ? ␅
+TD3383680 ␆S__E_ ~ ER
+TD96 #5 S__E_ ~R -ADILNOPT  📋 "pears" ? S__E_ ~ ER
+TD247 attempt 4 PEARS n m n m n
+TD840 ? ␅
+TD294759 ␆
+TD71 ? 
+TD93 question done
+TD189 > ␅
+TD591719 ␆*
+TD94 > *
+TD1271991 questioning: ["acute", "#4"]
+TD199 #3 _____ ~EOR -ADILNPST  📋 "acute" ? ␅
+TD4871812 ␆____E ~ ROU
+TD97 #3 _____ ~EOR -ADILNPST  📋 "acute" ? ____E ~ ROU
+TD252 attempt 2 ACUTE n n m n Y
+TD145 #4 A____ ~ET -ADILNOPRS  📋 "acute" ? ␅
+TD799317 ␆/it
+TD80 #4 A____ ~ET -ADILNOPRS  📋 "acute" ? /it
+TD188 attempt 3 ACUTE Y Y Y Y Y
+TD69 #5 S__E_ ~R -ADILNOPST  📋 "acute" ? ␅
+TD3744203 ␆S__E_ ~ ER
+TD100 #5 S__E_ ~R -ADILNOPST  📋 "acute" ? S__E_ ~ ER
+TD261 attempt 4 ACUTE n n n n m
+TD335 ? ␅
+TD199270 ␆
+TD101 ? 
+TD122 question done
+TD308 > ␅
+TD831422 ␆*
+TD95 > *
+TD1377040 questioning: ["rogue", "#3"]
+TD197 #3 ____E ~ORU -ACDILNPST  📋 "rogue" ? ␅
+TD2974234 ␆/it
+TD100 #3 ____E ~ORU -ACDILNPST  📋 "rogue" ? /it
+TD254 attempt 2 ROGUE Y Y Y Y Y
+TD103 #5 S__E_ ~R -ACDILNOPSTU  📋 "rogue" ? ␅
+TD3256006 ␆S__E_ ~ ER
+TD76 #5 S__E_ ~R -ACDILNOPSTU  📋 "rogue" ? S__E_ ~ ER
+TD174 attempt 4 ROGUE m n n n m
+TD207 ? ␅
+TD463246 ␆
+TD69 ? 
+TD91 question done
+TD183 > ␅
+TD647576 ␆*
+TD74 > *
+TD972970 questioning: ["sheer", "#5"]
+TD197 #5 S__E_ ~R -ACDGILNOPSTU  📋 "sheer" ? ␅
+TD3074734 ␆/it
+TD70 #5 S__E_ ~R -ACDGILNOPSTU  📋 "sheer" ? /it
+TD173 attempt 4 SHEER Y Y Y Y Y
+TD176 ? ␅
+TD647720 ␆
+TD91 ? 
+TD107 question done
+TD21476 📋> ␅
+TD5267157 ␆squareword.org 1523: 8 guesses
+TD95 📋> squareword.org 1523: 8 guesses
+TD14 📋> ␅
+TD61 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD14 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD14 ␆🟩🟨🟨🟨🟨
+TD4 📋> 🟩🟨🟨🟨🟨
+TD4 📋> ␅
+TD14 ␆🟩🟨🟨🟩🟨
+TD4 📋> 🟩🟨🟨🟩🟨
+TD4 📋> ␅
+TD13 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD319048 ␆#squareword #squareword1523
+TD94 📋> #squareword #squareword1523
+TD13 📋> ␅
+TD127844 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1523: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1523"}
+TD669 result: "squareword.org 1523: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1523"
+TD67 📆 2026-04-03 ? ␅
+TD158869 ␆
+TD98 📆 2026-04-03 ? 
