@@ -1,0 +1,105 @@
+T85152.82749842099 now: 2026-04-03T07:58:10EDT
+TD144 site: alfagok.diginaut.net
+TD688391 loaded 399624 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1228 words excluded) asof 521aae661af76f2a1f15e1cbebbfe1a511fffaa5
+TD163  ...␅
+TD27 ␆
+TD3  ...
+TD1005 [0 : 199809 : 399624] lijm? ␅
+TD1724953 ␆
+TD99 [0 : 199809 : 399624] lijm? 
+TD392 [0 : 199809 : 399624] lijm? ␅
+TD9047647 ␆b
+TD94 [0 : 199809 : 399624] lijm? b
+TD534 progress: -1 199809 lijm
+TD131 [0 : 99737 : 199809] ex? ␅
+TD1487665 ␆b
+TD96 [0 : 99737 : 199809] ex? b
+TD118 progress: -1 99737 ex
+TD108 [0 : 49841 : 99737] boks? ␅
+TD2071289 ␆a
+TD78 [0 : 49841 : 99737] boks? a
+TD82 progress: 1 49841 boks
+TD96 [49842 : 74754 : 99737] dc? ␅
+TD1848151 ␆a
+TD72 [49842 : 74754 : 99737] dc? a
+TD83 progress: 1 74754 dc
+TD80 [74755 : 87213 : 99737] draag? ␅
+TD1935747 ␆a
+TD91 [74755 : 87213 : 99737] draag? a
+TD106 progress: 1 87213 draag
+TD115 [87214 : 93430 : 99737] eet? ␅
+TD2071531 ␆a
+TD96 [87214 : 93430 : 99737] eet? a
+TD103 progress: 1 93430 eet
+TD105 [93431 : 96569 : 99737] energiek? ␅
+TD1823734 ␆b
+TD76 [93431 : 96569 : 99737] energiek? b
+TD81 progress: -1 96569 energiek
+TD84 [93431 : 94959 : 96569] eiwit? ␅
+TD2039659 ␆a
+TD72 [93431 : 94959 : 96569] eiwit? a
+TD80 progress: 1 94959 eiwit
+TD78 [94960 : 95755 : 96569] elo? ␅
+TD3159780 ␆b
+TD80 [94960 : 95755 : 96569] elo? b
+TD78 progress: -1 95755 elo
+TD79 [94960 : 95292 : 95755] elektro? ␅
+TD1735763 ␆b
+TD96 [94960 : 95292 : 95755] elektro? b
+TD101 progress: -1 95292 elektro
+TD110 [94960 : 95079 : 95292] el? ␅
+TD1655732 ␆a
+TD94 [94960 : 95079 : 95292] el? a
+TD105 progress: 1 95079 el
+TD113 [95080 : 95179 : 95292] elektriciteit? ␅
+TD4527653 ␆b
+TD80 [95080 : 95179 : 95292] elektriciteit? b
+TD79 progress: -1 95179 elektriciteit
+TD107 [95080 : 95127 : 95179] elburg? ␅
+TD2376179 ␆!
+TD99 [95080 : 95127 : 95179] elburg? !
+TD683 [95080 : 95129 : 95178] elburgs? ␅
+TD2903011 ␆!
+TD108 [95080 : 95129 : 95178] elburgs? !
+TD520 [95080 : 95129 : 95177] elburgse? ␅
+TD1855219 ␆!
+TD95 [95080 : 95129 : 95177] elburgse? !
+TD486 [95080 : 95129 : 95176] elch? ␅
+TD1967324 ␆!
+TD78 [95080 : 95129 : 95176] elch? !
+TD350 [95080 : 95129 : 95175] elco? ␅
+TD2255631 ␆a
+TD83 [95080 : 95129 : 95175] elco? a
+TD78 progress: 1 95129 elco
+TD78 [95130 : 95145 : 95175] elect? ␅
+TD10400138 ␆b
+TD101 [95130 : 95145 : 95175] elect? b
+TD112 progress: -1 95145 elect
+TD193 [95130 : 95135 : 95145] elders? ␅
+TD3055532 ␆it
+TD94 [95130 : 95135 : 95145] elders? it
+TD101 progress: 0 95135 elders
+TD25 [95130 : 95135 : 95145] <Done>.
+TD152 📋> ␅
+TD2792445 ␆🧩 Puzzel #517
+TD73 📋> 🧩 Puzzel #517
+TD8 📋> ␅
+TD220 ␆🤔 15 gokken
+TD4 📋> 🤔 15 gokken
+TD3 📋> ␅
+TD6 ␆⏱️ 49s
+TD3 📋> ⏱️ 49s
+TD2 📋> ␅
+TD278920 ␆🔗 alfagok.diginaut.net
+TD73 📋> 🔗 alfagok.diginaut.net
+TD7 📋> ␅
+TD215862 ␄
+TD130 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #517\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 49s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD878 result: "\ud83e\udde9 Puzzel #517\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 49s\n\ud83d\udd17 alfagok.diginaut.net"
+TD45 result puzzle: 517
+TD11 result guesses: 15
+TD6 result time: 49s
+TD5 result link: alfagok.diginaut.net
+TD93 📆 2026-04-03 ? ␅
+TD271208 ␆
+TD93 📆 2026-04-03 ? 
