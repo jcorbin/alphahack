@@ -1,0 +1,108 @@
+T17.74143583800469 now: 2026-04-04T07:56:42EDT
+TD132 site: alfagok.diginaut.net
+TD398460 loaded 399619 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1233 words excluded) asof 831eaed32cda807d0f10c5b1196afae1466fbb58
+TD117  ...␅
+TD27 ␆
+TD3  ...
+TD107 [0 : 199606 : 399619] lij? ␅
+TD9408231 ␆
+TD74 [0 : 199606 : 399619] lij? 
+TD101 [0 : 199606 : 399619] lij? ␅
+TD1360129 ␆a
+TD104 [0 : 199606 : 399619] lij? a
+TD288 progress: 1 199606 lij
+TD79 [199607 : 299475 : 399619] schro? ␅
+TD1591661 ␆b
+TD97 [199607 : 299475 : 399619] schro? b
+TD116 progress: -1 299475 schro
+TD117 [199607 : 247688 : 299475] op? ␅
+TD1527731 ␆a
+TD97 [199607 : 247688 : 299475] op? a
+TD105 progress: 1 247688 op
+TD104 [247689 : 273493 : 299475] proef? ␅
+TD1519254 ␆b
+TD89 [247689 : 273493 : 299475] proef? b
+TD108 progress: -1 273493 proef
+TD107 [247689 : 260574 : 273493] pater? ␅
+TD1471647 ␆b
+TD90 [247689 : 260574 : 273493] pater? b
+TD102 progress: -1 260574 pater
+TD200 [247689 : 254092 : 260574] out? ␅
+TD1487649 ␆a
+TD95 [247689 : 254092 : 260574] out? a
+TD105 progress: 1 254092 out
+TD114 [254093 : 256849 : 260574] pa? ␅
+TD1463795 ␆b
+TD94 [254093 : 256849 : 260574] pa? b
+TD104 progress: -1 256849 pa
+TD107 [254093 : 254279 : 256849] over? ␅
+TD1399586 ␆a
+TD92 [254093 : 254279 : 256849] over? a
+TD106 progress: 1 254279 over
+TD108 [254280 : 255542 : 256849] overleg? ␅
+TD1407833 ␆b
+TD99 [254280 : 255542 : 256849] overleg? b
+TD105 progress: -1 255542 overleg
+TD238 [254280 : 254910 : 255542] overgevoelig? ␅
+TD1359801 ␆a
+TD102 [254280 : 254910 : 255542] overgevoelig? a
+TD103 progress: 1 254910 overgevoelig
+TD104 [254911 : 255033 : 255542] overheids? ␅
+TD3063496 ␆b
+TD89 [254911 : 255033 : 255542] overheids? b
+TD105 progress: -1 255033 overheids
+TD178 [254911 : 254972 : 255033] overhaal? ␅
+TD1639629 ␆a
+TD96 [254911 : 254972 : 255033] overhaal? a
+TD101 progress: 1 254972 overhaal
+TD126 [254973 : 255000 : 255033] overhang? ␅
+TD1575666 ␆a
+TD74 [254973 : 255000 : 255033] overhang? a
+TD77 progress: 1 255000 overhang
+TD191 [255001 : 255017 : 255033] overheek? ␅
+TD2919675 ␆!
+TD72 [255001 : 255017 : 255033] overheek? !
+TD333 [255001 : 255017 : 255032] overheen? ␅
+TD3168101 ␆a
+TD81 [255001 : 255017 : 255032] overheen? a
+TD84 progress: 1 255017 overheen
+TD78 [255018 : 255020 : 255032] overheers? ␅
+TD2095507 ␆a
+TD106 [255018 : 255020 : 255032] overheers? a
+TD106 progress: 1 255020 overheers
+TD209 [255021 : 255026 : 255032] overheersing? ␅
+TD1591623 ␆a
+TD97 [255021 : 255026 : 255032] overheersing? a
+TD104 progress: 1 255026 overheersing
+TD205 [255027 : 255028 : 255032] overheerst? ␅
+TD2063523 ␆a
+TD99 [255027 : 255028 : 255032] overheerst? a
+TD103 progress: 1 255028 overheerst
+TD259 [255029 : 255031 : 255032] overheid? ␅
+TD1879499 ␆it
+TD78 [255029 : 255031 : 255032] overheid? it
+TD106 progress: 0 255031 overheid
+TD27 [255029 : 255031 : 255032] <Done>.
+TD95 📋> ␅
+TD2745106 ␆🧩 Puzzel #518
+TD97 📋> 🧩 Puzzel #518
+TD11 📋> ␅
+TD39 ␆🤔 18 gokken
+TD6 📋> 🤔 18 gokken
+TD5 📋> ␅
+TD11 ␆⏱️ 34s
+TD6 📋> ⏱️ 34s
+TD4 📋> ␅
+TD278834 ␆🔗 alfagok.diginaut.net
+TD80 📋> 🔗 alfagok.diginaut.net
+TD7 📋> ␅
+TD511662 ␄
+TD177 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #518\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD600 result: "\ud83e\udde9 Puzzel #518\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"
+TD20 result puzzle: 518
+TD8 result guesses: 18
+TD6 result time: 34s
+TD5 result link: alfagok.diginaut.net
+TD89 📆 2026-04-04 ? ␅
+TD255082 ␆
+TD93 📆 2026-04-04 ? 
