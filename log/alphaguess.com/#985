@@ -1,0 +1,100 @@
+T68.21393504400476 now: 2026-04-04T07:57:32EDT
+TD127 site: alphaguess.com
+TD141544 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof 831eaed32cda807d0f10c5b1196afae1466fbb58
+TD115  ...␅
+TD378129 ␆
+TD101  ...
+TD173 [0 : 98216 : 196523] mach? ␅
+TD3223324 ␆
+TD103 [0 : 98216 : 196523] mach? 
+TD107 [0 : 98216 : 196523] mach? ␅
+TD1951453 ␆b
+TD98 [0 : 98216 : 196523] mach? b
+TD100 progress: -1 98216 mach
+TD118 [0 : 47380 : 98216] dis? ␅
+TD1343940 ␆vb
+TD111 [0 : 47380 : 98216] dis? vb
+TD153 [0 : 47380 : 98216] dis? ␅
+TD1000020 ␆b
+TD100 [0 : 47380 : 98216] dis? b
+TD101 progress: -1 47380 dis
+TD109 [0 : 23681 : 47380] camp? ␅
+TD1559181 ␆b
+TD98 [0 : 23681 : 47380] camp? b
+TD105 progress: -1 23681 camp
+TD110 [0 : 11763 : 23681] back? ␅
+TD3311763 ␆b
+TD101 [0 : 11763 : 23681] back? b
+TD110 progress: -1 11763 back
+TD107 [0 : 5876 : 11763] angel? ␅
+TD3519686 ␆b
+TD71 [0 : 5876 : 11763] angel? b
+TD83 progress: -1 5876 angel
+TD82 [0 : 2802 : 5876] ag? ␅
+TD1568635 ␆a
+TD101 [0 : 2802 : 5876] ag? a
+TD104 progress: 1 2802 ag
+TD107 [2803 : 4334 : 5876] alma? ␅
+TD1303401 ␆a
+TD98 [2803 : 4334 : 5876] alma? a
+TD104 progress: 1 4334 alma
+TD117 [4335 : 4619 : 5876] am? ␅
+TD2191386 ␆b
+TD87 [4335 : 4619 : 5876] am? b
+TD77 progress: -1 4619 am
+TD103 [4335 : 4477 : 4619] alt? ␅
+TD1576046 ␆b
+TD89 [4335 : 4477 : 4619] alt? b
+TD79 progress: -1 4477 alt
+TD160 [4335 : 4406 : 4477] alone? ␅
+TD1487744 ␆b
+TD100 [4335 : 4406 : 4477] alone? b
+TD106 progress: -1 4406 alone
+TD143 [4335 : 4369 : 4406] alms? ␅
+TD1423632 ␆b
+TD103 [4335 : 4369 : 4406] alms? b
+TD106 progress: -1 4369 alms
+TD124 [4335 : 4350 : 4369] alme? ␅
+TD1431252 ␆a
+TD94 [4335 : 4350 : 4369] alme? a
+TD105 progress: 1 4350 alme
+TD197 [4351 : 4361 : 4369] almond? ␅
+TD1983686 ␆a
+TD76 [4351 : 4361 : 4369] almond? a
+TD79 progress: 1 4361 almond
+TD123 [4362 : 4365 : 4369] almoners? ␅
+TD1871926 ␆a
+TD86 [4362 : 4365 : 4369] almoners? a
+TD102 progress: 1 4365 almoners
+TD181 [4366 : 4367 : 4369] almonry? ␅
+TD1551381 ␆a
+TD97 [4366 : 4367 : 4369] almonry? a
+TD105 progress: 1 4367 almonry
+TD196 [4368 : 4368 : 4369] almost? ␅
+TD2424072 ␆it
+TD116 [4368 : 4368 : 4369] almost? it
+TD105 progress: 0 4368 almost
+TD29 [4368 : 4368 : 4369] <Done>.
+TD84 📋> ␅
+TD2959851 ␆🧩 Puzzle #985
+TD90 📋> 🧩 Puzzle #985
+TD12 📋> ␅
+TD40 ␆🤔 16 guesses
+TD6 📋> 🤔 16 guesses
+TD5 📋> ␅
+TD12 ␆⏱️ 28s
+TD6 📋> ⏱️ 28s
+TD5 📋> ␅
+TD335592 ␆🔗 alphaguess.com/985
+TD100 📋> 🔗 alphaguess.com/985
+TD12 📋> ␅
+TD183978 ␄
+TD174 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #985\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/985"}
+TD97 result: "\ud83e\udde9 Puzzle #985\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/985"
+TD15 result puzzle: 985
+TD6 result guesses: 16
+TD5 result time: 28s
+TD4 result link: alphaguess.com/985
+TD99 📆 2026-04-04 ? ␅
+TD135400 ␆
+TD105 📆 2026-04-04 ? 
