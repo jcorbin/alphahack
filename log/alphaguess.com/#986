@@ -1,0 +1,82 @@
+T84.629779203 now: 2026-04-05T08:17:00EDT
+TD78 site: alphaguess.com
+TD146270 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof def36827693ea0fba0eabf66f06cece824b530d2
+TD127  ...␅
+TD44859 ␆
+TD62  ...
+TD162 [0 : 98216 : 196523] mach? ␅
+TD25576115 ␆b
+TD76 [0 : 98216 : 196523] mach? b
+TD82 progress: -1 98216 mach
+TD84 [0 : 47380 : 98216] dis? ␅
+TD1631561 ␆a
+TD84 [0 : 47380 : 98216] dis? a
+TD81 progress: 1 47380 dis
+TD324 [47381 : 72798 : 98216] gremmy? ␅
+TD1503646 ␆a
+TD75 [47381 : 72798 : 98216] gremmy? a
+TD81 progress: 1 72798 gremmy
+TD77 [72799 : 85502 : 98216] ins? ␅
+TD1303796 ␆a
+TD73 [72799 : 85502 : 98216] ins? a
+TD81 progress: 1 85502 ins
+TD76 [85503 : 91846 : 98216] knot? ␅
+TD1279918 ␆a
+TD128 [85503 : 91846 : 98216] knot? a
+TD112 progress: 1 91846 knot
+TD114 [91847 : 94943 : 98216] lib? ␅
+TD1303661 ␆a
+TD97 [91847 : 94943 : 98216] lib? a
+TD110 progress: 1 94943 lib
+TD112 [94944 : 96576 : 98216] locks? ␅
+TD1319512 ␆b
+TD93 [94944 : 96576 : 98216] locks? b
+TD106 progress: -1 96576 locks
+TD104 [94944 : 95573 : 96576] lin? ␅
+TD1375798 ␆a
+TD96 [94944 : 95573 : 96576] lin? a
+TD112 progress: 1 95573 lin
+TD106 [95574 : 96060 : 96576] literal? ␅
+TD1375518 ␆b
+TD77 [95574 : 96060 : 96576] literal? b
+TD84 progress: -1 96060 literal
+TD80 [95574 : 95807 : 96060] lion? ␅
+TD1295941 ␆a
+TD78 [95574 : 95807 : 96060] lion? a
+TD80 progress: 1 95807 lion
+TD217 [95808 : 95934 : 96060] liqueur? ␅
+TD1343684 ␆a
+TD98 [95808 : 95934 : 96060] liqueur? a
+TD106 progress: 1 95934 liqueur
+TD107 [95935 : 95993 : 96060] lisp? ␅
+TD1367693 ␆a
+TD75 [95935 : 95993 : 96060] lisp? a
+TD81 progress: 1 95993 lisp
+TD80 [95994 : 96009 : 96060] list? ␅
+TD2599671 ␆it
+TD74 [95994 : 96009 : 96060] list? it
+TD79 progress: 0 96009 list
+TD20 [95994 : 96009 : 96060] <Done>.
+TD63 📋> ␅
+TD2696092 ␆🧩 Puzzle #986
+TD76 📋> 🧩 Puzzle #986
+TD8 📋> ␅
+TD28 ␆🤔 13 guesses
+TD3 📋> 🤔 13 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 18s
+TD3 📋> ⏱️ 18s
+TD2 📋> ␅
+TD247524 ␆🔗 alphaguess.com/986
+TD75 📋> 🔗 alphaguess.com/986
+TD7 📋> ␅
+TD176258 ␄
+TD130 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #986\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/986"}
+TD76 result: "\ud83e\udde9 Puzzle #986\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/986"
+TD9 result puzzle: 986
+TD4 result guesses: 13
+TD2 result time: 18s
+TD2 result link: alphaguess.com/986
+TD67 📆 2026-04-05 ? ␅
+TD119298 ␆
+TD91 📆 2026-04-05 ? 
