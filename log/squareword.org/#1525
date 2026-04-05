@@ -1,0 +1,214 @@
+T132.3227578900005 now: 2026-04-05T08:31:30EDT
+TD121 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD26  ...␅
+TD166810 ␆
+TD100  ...
+TD78 🧩  ? ␅
+TD5903897 ␆#1525
+TD78 🧩  ? #1525
+TD200 puzzle_id: #1525
+TD177 > ␅
+TD3183524 ␆*
+TD93 > *
+TD247781 try? ␅
+TD760113 ␆1
+TD95 try? 1
+TD343 questioning: ["lanes", "#5"]
+TD210 #1 <IndexError>  📋 "lanes" ? ␅
+TD6615425 ␆_____ ~ AS
+TD92 #1 <IndexError>  📋 "lanes" ? _____ ~ AS
+TD682 attempt 0 LANES n m n n m
+TD86 #2 <IndexError>  📋 "lanes" ? ␅
+TD2167074 ␆L__E_ ~ E
+TD100 #2 <IndexError>  📋 "lanes" ? L__E_ ~ E
+TD230 attempt 1 LANES Y n n Y n
+TD89 #3 <IndexError>  📋 "lanes" ? ␅
+TD2079755 ␆_____ ~ LA
+TD83 #3 <IndexError>  📋 "lanes" ? _____ ~ LA
+TD321 attempt 2 LANES m m n n n
+TD147 #4 <IndexError>  📋 "lanes" ? ␅
+TD2167452 ␆_____ ~ AE
+TD102 #4 <IndexError>  📋 "lanes" ? _____ ~ AE
+TD261 attempt 3 LANES n m n m n
+TD122 #5 <IndexError>  📋 "lanes" ? ␅
+TD2423449 ␆__N__ ~ ES
+TD72 #5 <IndexError>  📋 "lanes" ? __N__ ~ ES
+TD199 attempt 4 LANES n n Y m m
+TD230 ? ␅
+TD855614 ␆
+TD83 ? 
+TD110 question done
+TD192 > ␅
+TD1111525 ␆*
+TD78 > *
+TD783396 try? ␅
+TD872652 ␆1
+TD96 try? 1
+TD268 questioning: ["senti", "#5"]
+TD206 #1 _____ ~AS -ELN  📋 "senti" ? ␅
+TD4999463 ␆S____ ~ AT
+TD75 #1 _____ ~AS -ELN  📋 "senti" ? S____ ~ AT
+TD186 attempt 0 SENTI Y n n m n
+TD104 #2 L__E_ -ANS  📋 "senti" ? ␅
+TD3543736 ␆LE_E_
+TD108 #2 L__E_ -ANS  📋 "senti" ? LE_E_
+TD246 attempt 1 SENTI n Y n n n
+TD155 #3 _____ ~AL -ENS  📋 "senti" ? ␅
+TD3215838 ␆____I ~ LAI
+TD75 #3 _____ ~AL -ENS  📋 "senti" ? ____I ~ LAI
+TD186 attempt 2 SENTI n n n n Y
+TD106 #4 _____ ~AE -LNS  📋 "senti" ? ␅
+TD4407298 ␆_E___ ~ AT
+TD95 #4 _____ ~AE -LNS  📋 "senti" ? _E___ ~ AT
+TD258 attempt 3 SENTI n Y n m n
+TD149 #5 __N__ ~ES -AL  📋 "senti" ? ␅
+TD4567471 ␆SEN__ ~ ES
+TD78 #5 __N__ ~ES -AL  📋 "senti" ? SEN__ ~ ES
+TD185 attempt 4 SENTI Y Y Y n n
+TD205 ? ␅
+TD511715 ␆
+TD95 ? 
+TD153 question done
+TD309 > ␅
+TD871253 ␆*
+TD75 > *
+TD680966 questioning: ["alibi", "#3"]
+TD167 #1 S____ ~AT -EILN  📋 "alibi" ? ␅
+TD7583034 ␆.
+TD94 #1 S____ ~AT -EILN  📋 "alibi" ? .
+TD262 attempt 0 ALIBI m n n n n
+TD111 #2 LE_E_ -AINST  📋 "alibi" ? ␅
+TD1039394 ␆.
+TD94 #2 LE_E_ -AINST  📋 "alibi" ? .
+TD265 attempt 1 ALIBI n n n n n
+TD99 #3 ____I ~AL -ENST  📋 "alibi" ? ␅
+TD1023576 ␆/it
+TD97 #3 ____I ~AL -ENST  📋 "alibi" ? /it
+TD260 attempt 2 ALIBI Y Y Y Y Y
+TD96 #4 _E___ ~AT -ILNS  📋 "alibi" ? ␅
+TD3679548 ␆_E___ ~ ATB
+TD92 #4 _E___ ~AT -ILNS  📋 "alibi" ? _E___ ~ ATB
+TD247 attempt 3 ALIBI m n n m n
+TD150 #5 SEN__ -AILT  📋 "alibi" ? ␅
+TD3975913 ␆SEN__ ~ ES
+TD105 #5 SEN__ -AILT  📋 "alibi" ? SEN__ ~ ES
+TD253 attempt 4 ALIBI n n n n n
+TD337 ? ␅
+TD350969 ␆
+TD78 ? 
+TD98 question done
+TD182 > ␅
+TD2231676 ␆*
+TD88 > *
+TD692869 questioning: ["smart", "#1"]
+T11.724769292000929 now: 2026-04-05T08:33:18EDT
+TD141 questioning: ["smart", "#1"]
+TD188 #1 S____ ~AT -BEILN  📋 "smart" ? ␅
+TD3179539 ␆/it
+TD105 #1 S____ ~AT -BEILN  📋 "smart" ? /it
+TD445 attempt 0 SMART Y Y Y Y Y
+TD112 #2 LE_E_ -ABILNST  📋 "smart" ? ␅
+TD5159485 ␆LE_E_ ~ R
+TD76 #2 LE_E_ -ABILNST  📋 "smart" ? LE_E_ ~ R
+TD461 attempt 1 SMART n n n m n
+TD109 #4 _E___ ~ABT -ILNS  📋 "smart" ? ␅
+TD3023318 ␆_EA_T ~ B
+TD77 #4 _E___ ~ABT -ILNS  📋 "smart" ? _EA_T ~ B
+TD200 attempt 3 SMART n n Y n Y
+TD103 #5 SEN__ -ABILT  📋 "smart" ? ␅
+TD2327578 ␆SEN__ ~ ES
+TD96 #5 SEN__ -ABILT  📋 "smart" ? SEN__ ~ ES
+TD391 attempt 4 SMART Y n n n n
+TD439 ? ␅
+TD471166 ␆
+TD85 ? 
+TD108 question done
+TD206 > ␅
+TD1520230 ␆*
+TD78 > *
+TD711925 questioning: ["beaut", "#4"]
+TD178 #2 LE_E_ ~R -ABILMNST  📋 "beaut" ? ␅
+TD4231150 ␆.
+TD97 #2 LE_E_ ~R -ABILMNST  📋 "beaut" ? .
+TD282 attempt 1 BEAUT n Y n n n
+TD97 #4 _EA_T ~B -ILMNRS  📋 "beaut" ? ␅
+TD647616 ␆/it
+TD80 #4 _EA_T ~B -ILMNRS  📋 "beaut" ? /it
+TD194 attempt 3 BEAUT Y Y Y Y Y
+TD66 #5 SEN__ -ABILMRT  📋 "beaut" ? ␅
+TD2703804 ␆SEN__ ~ ES
+TD96 #5 SEN__ -ABILMRT  📋 "beaut" ? SEN__ ~ ES
+TD297 attempt 4 BEAUT n Y n n n
+TD244 ? ␅
+TD279266 ␆
+TD94 ? 
+TD112 question done
+TD222 > ␅
+TD695520 ␆*
+TD75 > *
+TD343361 questioning: ["sense", "#5"]
+TD172 #2 LE_E_ ~R -ABILMNSTU  📋 "sense" ? ␅
+TD7488485 ␆.
+TD96 #2 LE_E_ ~R -ABILMNSTU  📋 "sense" ? .
+TD257 attempt 1 SENSE n Y n n n
+TD104 #5 SEN__ -ABILMRTU  📋 "sense" ? ␅
+TD615441 ␆/it
+TD96 #5 SEN__ -ABILMRTU  📋 "sense" ? /it
+TD251 attempt 4 SENSE Y Y Y Y Y
+TD309 ? ␅
+TD159538 ␆
+TD99 ? 
+TD113 question done
+TD318 > ␅
+TD711397 ␆*
+TD93 > *
+TD274628 try? ␅
+TD2629307 ␆2
+TD96 try? 2
+TD238 questioning: ["lever", "#2"]
+TD212 #2 LE_E_ ~R -ABILMNSTU  📋 "lever" ? ␅
+TD2191456 ␆/it
+TD97 #2 LE_E_ ~R -ABILMNSTU  📋 "lever" ? /it
+TD257 attempt 1 LEVER Y Y Y Y Y
+TD292 ? ␅
+TD3031520 ␆
+TD79 ? 
+TD82 question done
+TD22097 📋> ␅
+TD2946204 ␆squareword.org 1525: 7 guesses
+TD95 📋> squareword.org 1525: 7 guesses
+TD17 📋> ␅
+TD40 ␆
+TD7 📋> 
+TD5 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟨🟩🟨
+TD4 📋> 🟩🟩🟨🟩🟨
+TD5 📋> ␅
+TD56 ␆🟩🟩🟩🟩🟩
+TD26 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟨🟨
+TD2 📋> 🟩🟩🟩🟨🟨
+TD2 📋> ␅
+TD6 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD295250 ␆#squareword #squareword1525
+TD93 📋> #squareword #squareword1525
+TD12 📋> ␅
+TD175729 ␄
+TD136 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1525: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1525"}
+TD486 result: "squareword.org 1525: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1525"
+TD66 📆 2026-04-05 ? ␅
+TD199299 ␆
+TD79 📆 2026-04-05 ? 
