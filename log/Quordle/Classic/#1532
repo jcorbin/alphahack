@@ -1,0 +1,146 @@
+T539.3543416329994 now: 2026-04-05T08:24:35EDT
+TD78 site: m-w.com/games/quordle/#/
+TD14 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD85  ...␅
+TD887112 ␆
+TD78  ...
+TD423518 > ␅
+TD3016411 ␆*
+TD79 > *
+TD41573 ? ␅
+TD758290 ␆1
+TD61 ? 1
+TD113 questioning: parse
+TD89 Classic #1 _____? ␅
+TD3031982 ␆YnnYn
+TD74 Classic #1 _____? YnnYn
+TD300 attempt: 0 PARSE Y n n Y n
+TD100 Classic #2 _____? ␅
+TD1191349 ␆nMMnY
+TD62 Classic #2 _____? nMMnY
+TD141 attempt: 1 PARSE n m m n Y
+TD58 Classic #3 _____? ␅
+TD1784613 ␆nMnnM
+TD65 Classic #3 _____? nMnnM
+TD161 attempt: 2 PARSE n m n n m
+TD75 Classic #4 _____? ␅
+TD1494883 ␆nYnnM
+TD65 Classic #4 _____? nYnnM
+TD146 attempt: 3 PARSE n Y n n m
+TD370516 > ␅
+TD797267 ␆*
+TD62 > *
+TD956 ? ␅
+TD734995 ␆1
+TD62 ? 1
+TD121 questioning: delta
+TD90 Classic #1 P__S_ -AER? ␅
+TD2743749 ␆nnMnn
+TD70 Classic #1 P__S_ -AER? nnMnn
+TD134 attempt: 0 DELTA n n m n n
+TD63 Classic #2 ____E ~AR -PS? ␅
+TD1471789 ␆nMnYM
+TD96 Classic #2 ____E ~AR -PS? nMnYM
+TD231 attempt: 1 DELTA n m n Y m
+TD105 Classic #3 _____ ~AE -PRS? ␅
+TD1431637 ␆YYMMM
+TD72 Classic #3 _____ ~AE -PRS? YYMMM
+TD160 attempt: 2 DELTA Y Y m m m
+TD71 Classic #4 _A___ ~E -PRS? ␅
+TD1271676 ␆nMMnM
+TD80 Classic #4 _A___ ~E -PRS? nMMnM
+TD163 attempt: 3 DELTA n m m n m
+TD383841 > ␅
+TD983971 ␆*
+TD79 > *
+TD289 questioning: plush
+TD88 Classic #1 P__S_ ~L -ADERT? ␅
+TD5639514 ␆YYYYY
+TD76 Classic #1 P__S_ ~L -ADERT? YYYYY
+TD172 attempt: 0 PLUSH Y Y Y Y Y
+TD109 Classic #2 ___TE ~AR -DLPS? ␅
+TD1431620 ␆nnnnn
+TD75 Classic #2 ___TE ~AR -DLPS? nnnnn
+TD159 attempt: 1 PLUSH n n n n n
+TD81 Classic #3 DE___ ~ALT -PRS? ␅
+TD1231744 ␆nMnnn
+TD77 Classic #3 DE___ ~ALT -PRS? nMnnn
+TD160 attempt: 2 PLUSH n m n n n
+TD77 Classic #4 _A___ ~EL -DPRST? ␅
+TD1535686 ␆nMnnn
+TD73 Classic #4 _A___ ~EL -DPRST? nMnnn
+TD152 attempt: 3 PLUSH n m n n n
+TD311920 > ␅
+TD871888 ␆*
+TD76 > *
+TD316 questioning: dealt
+TD77 Classic #2 ___TE ~AR -DHLPSU? ␅
+TD3239514 ␆nMYnM
+TD73 Classic #2 ___TE ~AR -DHLPSU? nMYnM
+TD151 attempt: 1 DEALT n m Y n m
+TD75 Classic #3 DE___ ~ALT -HPRSU? ␅
+TD1407722 ␆YYYYY
+TD63 Classic #3 DE___ ~ALT -HPRSU? YYYYY
+TD132 attempt: 2 DEALT Y Y Y Y Y
+TD69 Classic #4 _A___ ~EL -DHPRSTU? ␅
+TD1351842 ␆nMMMn
+TD62 Classic #4 _A___ ~EL -DHPRSTU? nMMMn
+TD130 attempt: 3 DEALT n m m m n
+TD143430 > ␅
+TD1192366 ␆*
+TD76 > *
+TD847 ? ␅
+TD1191047 ␆1
+TD78 ? 1
+TD133 questioning: bagel
+TD106 Classic #2 __ATE ~R -DHLPSU? ␅
+TD2759775 ␆nMMMn
+TD89 Classic #2 __ATE ~R -DHLPSU? nMMMn
+TD168 attempt: 1 BAGEL n m m m n
+TD86 Classic #4 _A___ ~EL -DHPRSTU? ␅
+TD3871567 ␆MYnYY
+TD75 Classic #4 _A___ ~EL -DHPRSTU? MYnYY
+TD160 attempt: 3 BAGEL m Y n Y Y
+TD185332 > ␅
+TD742599 ␆*
+TD71 > *
+TD272 questioning: grate
+TD78 Classic #2 __ATE ~GR -BDHLPSU? ␅
+TD2767551 ␆YYYYY
+TD76 Classic #2 __ATE ~GR -BDHLPSU? YYYYY
+TD156 attempt: 1 GRATE Y Y Y Y Y
+TD77 Classic #4 _A_EL ~B -DGHPRSTU? ␅
+TD1847666 ␆nnMnM
+TD76 Classic #4 _A_EL ~B -DGHPRSTU? nnMnM
+TD168 attempt: 3 GRATE n n m n m
+TD90469 > ␅
+TD749238 ␆*
+TD79 > *
+TD294 questioning: label
+TD77 Classic #4 _A_EL ~B -DGHPRSTU? ␅
+TD4047812 ␆YYYYY
+TD96 Classic #4 _A_EL ~B -DGHPRSTU? YYYYY
+TD158 attempt: 3 LABEL Y Y Y Y Y
+TD66 📋> ␅
+TD4111967 ␆🙂 Daily Quordle 1532
+TD85 📋> 🙂 Daily Quordle 1532
+TD13 📋> ␅
+TD43 ␆3️⃣6️⃣
+TD8 📋> 3️⃣6️⃣
+TD7 📋> ␅
+TD12 ␆4️⃣7️⃣
+TD5 📋> 4️⃣7️⃣
+TD5 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD287372 ␆
+TD84 📋> 
+TD8 📋> ␅
+TD175971 ␄
+TD138 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1532\n3\ufe0f\u20e36\ufe0f\u20e3\n4\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD903 result: "\ud83d\ude42 Daily Quordle 1532\n3\ufe0f\u20e36\ufe0f\u20e3\n4\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD68 📆 2026-04-05 ? ␅
+TD158819 ␆
+TD99 📆 2026-04-05 ? 
