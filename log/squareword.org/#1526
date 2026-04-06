@@ -1,0 +1,243 @@
+T1.0623366590007208 now: 2026-04-06T08:00:10EDT
+TD86 site: squareword.org
+TD17 wordlist: nwl2023.txt
+TD25  ...␅
+TD167266 ␆
+TD94  ...
+TD78 🧩  ? ␅
+TD6951396 ␆#1526
+TD93 🧩  ? #1526
+TD289 puzzle_id: #1526
+TD295 > ␅
+TD1872671 ␆*
+TD84 > *
+TD243098 try? ␅
+TD2027418 ␆3
+TD80 try? 3
+TD345 questioning: ["parse", "#5"]
+TD312 #1 <IndexError>  📋 "parse" ? ␅
+TD5135320 ␆_AR__ ~ E
+TD78 #1 <IndexError>  📋 "parse" ? _AR__ ~ E
+TD497 attempt 0 PARSE n Y Y n m
+TD87 #2 <IndexError>  📋 "parse" ? ␅
+TD2159746 ␆____E ~ A
+TD99 #2 <IndexError>  📋 "parse" ? ____E ~ A
+TD280 attempt 1 PARSE n m n n Y
+TD124 #3 <IndexError>  📋 "parse" ? ␅
+TD2655152 ␆_____ ~ P
+TD77 #3 <IndexError>  📋 "parse" ? _____ ~ P
+TD198 attempt 2 PARSE m n n n n
+TD88 #4 <IndexError>  📋 "parse" ? ␅
+TD2032140 ␆_____ ~ E
+TD102 #4 <IndexError>  📋 "parse" ? _____ ~ E
+TD248 attempt 3 PARSE n n n n m
+TD127 #5 <IndexError>  📋 "parse" ? ␅
+TD2854860 ␆_AR__ ~ S
+TD72 #5 <IndexError>  📋 "parse" ? _AR__ ~ S
+TD176 attempt 4 PARSE n Y Y m n
+TD205 ? ␅
+TD959721 ␆
+TD73 ? 
+TD116 question done
+TD175 > ␅
+TD6055865 ␆*
+TD92 > *
+TD621648 try? ␅
+TD1457938 ␆1
+TD70 try? 1
+TD225 questioning: ["cared", "#1"]
+TD161 #1 _AR__ ~E -PS  📋 "cared" ? ␅
+TD3911741 ␆_ARED
+TD77 #1 _AR__ ~E -PS  📋 "cared" ? _ARED
+TD184 attempt 0 CARED n Y Y Y Y
+TD100 #2 ____E ~A -PRS  📋 "cared" ? ␅
+TD1375535 ␆.
+TD107 #2 ____E ~A -PRS  📋 "cared" ? .
+TD220 attempt 1 CARED n m n n n
+TD64 #3 _____ ~P -AERS  📋 "cared" ? ␅
+TD2239600 ␆_____ ~ PC
+TD86 #3 _____ ~P -AERS  📋 "cared" ? _____ ~ PC
+TD190 attempt 2 CARED m n n n n
+TD102 #4 _____ ~E -APRS  📋 "cared" ? ␅
+TD3064433 ␆C____ ~ EC
+TD90 #4 _____ ~E -APRS  📋 "cared" ? C____ ~ EC
+TD265 attempt 3 CARED Y n n m n
+TD151 #5 _AR__ ~S -EP  📋 "cared" ? ␅
+TD2390672 ␆.
+TD100 #5 _AR__ ~S -EP  📋 "cared" ? .
+TD295 attempt 4 CARED n Y Y n n
+TD239 ? ␅
+TD215442 ␆
+TD105 ? 
+TD166 question done
+TD292 > ␅
+TD671455 ␆*
+TD95 > *
+TD670872 try? ␅
+TD1512943 ␆1
+TD80 try? 1
+TD214 questioning: ["optic", "#3"]
+TD202 #1 _ARED -CPS  📋 "optic" ? ␅
+TD4407943 ␆.
+TD111 #1 _ARED -CPS  📋 "optic" ? .
+TD339 attempt 0 OPTIC n n n n n
+TD129 #2 ____E ~A -CDEPRS  📋 "optic" ? ␅
+TD2367169 ␆____E ~ AI
+TD126 #2 ____E ~A -CDEPRS  📋 "optic" ? ____E ~ AI
+TD256 attempt 1 OPTIC n n n m n
+TD149 #3 _____ ~CP -ADERS  📋 "optic" ? ␅
+TD2847390 ␆___IC ~ POT
+TD80 #3 _____ ~CP -ADERS  📋 "optic" ? ___IC ~ POT
+TD202 attempt 2 OPTIC m m m Y Y
+TD108 #4 C____ ~E -ADPRS  📋 "optic" ? ␅
+TD6207686 ␆C____ ~ EC
+TD109 #4 C____ ~E -ADPRS  📋 "optic" ? C____ ~ EC
+TD242 attempt 3 OPTIC n n n n m
+TD127 #5 _AR__ ~S -CDEP  📋 "optic" ? ␅
+TD3479536 ␆_AR__ ~ ST
+TD74 #5 _AR__ ~S -CDEP  📋 "optic" ? _AR__ ~ ST
+TD184 attempt 4 OPTIC n n m n n
+TD205 ? ␅
+TD311570 ␆
+TD126 ? 
+TD133 question done
+TD302 > ␅
+TD6263896 ␆*
+TD89 > *
+TD597206 questioning: ["topic", "#3"]
+TD180 #1 _ARED -CIOPST  📋 "topic" ? ␅
+TD5913934 ␆.
+TD83 #1 _ARED -CIOPST  📋 "topic" ? .
+TD263 attempt 0 TOPIC n n n n n
+TD104 #2 ____E ~AI -CDEOPRST  📋 "topic" ? ␅
+TD1055553 ␆.
+TD78 #2 ____E ~AI -CDEOPRST  📋 "topic" ? .
+TD189 attempt 1 TOPIC n n n m n
+TD64 #3 ___IC ~OPT -ADERS  📋 "topic" ? ␅
+TD655680 ␆/it
+TD92 #3 ___IC ~OPT -ADERS  📋 "topic" ? /it
+TD190 attempt 2 TOPIC Y Y Y Y Y
+TD87 #4 C____ ~E -ADIOPRST  📋 "topic" ? ␅
+TD4199785 ␆C____ ~ EC
+TD87 #4 C____ ~E -ADIOPRST  📋 "topic" ? C____ ~ EC
+TD215 attempt 3 TOPIC n n n n m
+TD116 #5 _AR__ ~ST -CDEIOP  📋 "topic" ? ␅
+TD1215599 ␆.
+TD81 #5 _AR__ ~ST -CDEIOP  📋 "topic" ? .
+TD205 attempt 4 TOPIC m n n n n
+TD175 ? ␅
+TD383531 ␆
+TD80 ? 
+TD90 question done
+TD186 > ␅
+TD1455667 ␆*
+TD99 > *
+TD641288 questioning: ["check", "#4"]
+TD184 #1 _ARED -CIOPST  📋 "check" ? ␅
+TD4654490 ␆.
+TD81 #1 _ARED -CIOPST  📋 "check" ? .
+TD182 attempt 0 CHECK n n n n n
+TD67 #2 ____E ~AI -CDEOPRST  📋 "check" ? ␅
+TD991936 ␆.
+TD72 #2 ____E ~AI -CDEOPRST  📋 "check" ? .
+TD186 attempt 1 CHECK n n n n n
+TD68 #4 C____ ~E -ADIOPRST  📋 "check" ? ␅
+TD1439317 ␆/it
+TD80 #4 C____ ~E -ADIOPRST  📋 "check" ? /it
+TD195 attempt 3 CHECK Y Y Y Y Y
+TD69 #5 _AR__ ~ST -CDEIOP  📋 "check" ? ␅
+TD3351648 ␆_AR__ ~ STH
+TD78 #5 _AR__ ~ST -CDEIOP  📋 "check" ? _AR__ ~ STH
+TD177 attempt 4 CHECK n m n n n
+TD215 ? ␅
+TD327914 ␆
+TD79 ? 
+TD92 question done
+TD185 > ␅
+TD791681 ␆*
+TD76 > *
+TD1623397 questioning: ["alive", "#2"]
+TD190 #1 _ARED -CEHIKOPST  📋 "alive" ? ␅
+TD6311994 ␆.
+TD74 #1 _ARED -CEHIKOPST  📋 "alive" ? .
+TD165 attempt 0 ALIVE n n n n n
+TD57 #2 ____E ~AI -CDEHKOPRST  📋 "alive" ? ␅
+TD631766 ␆/it
+TD99 #2 ____E ~AI -CDEHKOPRST  📋 "alive" ? /it
+TD257 attempt 1 ALIVE Y Y Y Y Y
+TD99 #5 _AR__ ~HST -CDEIKOP  📋 "alive" ? ␅
+TD1591441 ␆.
+TD95 #5 _AR__ ~HST -CDEIKOP  📋 "alive" ? .
+TD254 attempt 4 ALIVE n n n n n
+TD293 ? ␅
+TD207349 ␆
+TD102 ? 
+TD120 question done
+TD306 > ␅
+TD527468 ␆*
+TD91 > *
+TD1322627 questioning: ["harts", "#5"]
+TD192 #1 _ARED -ACEHIKLOPSTV  📋 "harts" ? ␅
+TD3725220 ␆.
+TD130 #1 _ARED -ACEHIKLOPSTV  📋 "harts" ? .
+TD268 attempt 0 HARTS n Y Y n n
+TD112 #5 _AR__ ~HST -ACDEIKLOPV  📋 "harts" ? ␅
+TD615388 ␆/it
+TD78 #5 _AR__ ~HST -ACDEIKLOPV  📋 "harts" ? /it
+TD184 attempt 4 HARTS Y Y Y Y Y
+TD180 ? ␅
+TD223682 ␆
+TD72 ? 
+TD85 question done
+TD185 > ␅
+TD479667 ␆*
+TD77 > *
+TD922591 try? ␅
+TD5557390 ␆1
+TD95 try? 1
+TD335 questioning: ["bared", "#1"]
+TD317 #1 _ARED -CEHIKLOPSTV  📋 "bared" ? ␅
+TD3063082 ␆/it
+TD91 #1 _ARED -CEHIKLOPSTV  📋 "bared" ? /it
+TD205 attempt 0 BARED Y Y Y Y Y
+TD177 ? ␅
+TD2208046 ␆
+TD98 ? 
+TD262 question done
+TD22295 📋> ␅
+TD2873351 ␆squareword.org 1526: 8 guesses
+TD98 📋> squareword.org 1526: 8 guesses
+TD19 📋> ␅
+TD77 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD24 ␆🟨🟩🟩🟩🟩
+TD5 📋> 🟨🟩🟩🟩🟩
+TD5 📋> ␅
+TD17 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD5 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD13 ␆🟨🟩🟩🟨🟨
+TD4 📋> 🟨🟩🟩🟨🟨
+TD4 📋> ␅
+TD13 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD19 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD319140 ␆#squareword #squareword1526
+TD100 📋> #squareword #squareword1526
+TD12 📋> ␅
+TD207927 ␄
+TD133 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1526: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1526"}
+TD607 result: "squareword.org 1526: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1526"
+TD69 📆 2026-04-06 ? ␅
+TD191213 ␆
+TD100 📆 2026-04-06 ? 
