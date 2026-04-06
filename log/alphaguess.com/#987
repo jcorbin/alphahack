@@ -1,0 +1,86 @@
+T83531.870474267 now: 2026-04-06T07:45:18EDT
+TD72 site: alphaguess.com
+TD199290 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof efa8e16f7bb1016d1d7a7a076988c1ce5028c307
+TD132  ...␅
+TD5247276 ␆
+TD97  ...
+TD176 [0 : 98216 : 196523] mach? ␅
+TD5711390 ␆a
+TD79 [0 : 98216 : 196523] mach? a
+TD92 progress: 1 98216 mach
+TD180 [98217 : 147371 : 196523] rhumb? ␅
+TD3279799 ␆a
+TD91 [98217 : 147371 : 196523] rhumb? a
+TD103 progress: 1 147371 rhumb
+TD108 [147372 : 171636 : 196523] ta? ␅
+TD2071615 ␆b
+TD75 [147372 : 171636 : 196523] ta? b
+TD87 progress: -1 171636 ta
+TD124 [147372 : 159483 : 171636] slop? ␅
+TD1903797 ␆b
+TD113 [147372 : 159483 : 171636] slop? b
+TD106 progress: -1 159483 slop
+TD106 [147372 : 153315 : 159483] sea? ␅
+TD2039593 ␆b
+TD78 [147372 : 153315 : 159483] sea? b
+TD83 progress: -1 153315 sea
+TD78 [147372 : 150337 : 153315] sallow? ␅
+TD1632175 ␆b
+TD96 [147372 : 150337 : 153315] sallow? b
+TD106 progress: -1 150337 sallow
+TD107 [147372 : 148803 : 150337] rot? ␅
+TD1775290 ␆b
+TD78 [147372 : 148803 : 150337] rot? b
+TD81 progress: -1 148803 rot
+TD79 [147372 : 148077 : 148803] river? ␅
+TD1671875 ␆b
+TD94 [147372 : 148077 : 148803] river? b
+TD106 progress: -1 148077 river
+TD106 [147372 : 147692 : 148077] right? ␅
+TD1639636 ␆b
+TD78 [147372 : 147692 : 148077] right? b
+TD81 progress: -1 147692 right
+TD77 [147372 : 147519 : 147692] rick? ␅
+TD3215798 ␆b
+TD79 [147372 : 147519 : 147692] rick? b
+TD79 progress: -1 147519 rick
+TD81 [147372 : 147423 : 147519] rib? ␅
+TD1743878 ␆a
+TD98 [147372 : 147423 : 147519] rib? a
+TD106 progress: 1 147423 rib
+TD423 [147424 : 147471 : 147519] ribonucleases? ␅
+TD1776225 ␆a
+TD97 [147424 : 147471 : 147519] ribonucleases? a
+TD105 progress: 1 147471 ribonucleases
+TD84 [147472 : 147489 : 147519] rice? ␅
+TD2670853 ␆a
+TD96 [147472 : 147489 : 147519] rice? a
+TD116 progress: 1 147489 rice
+TD107 [147490 : 147501 : 147519] rich? ␅
+TD3544281 ␆it
+TD118 [147490 : 147501 : 147519] rich? it
+TD110 progress: 0 147501 rich
+TD25 [147490 : 147501 : 147519] <Done>.
+TD80 📋> ␅
+TD3216436 ␆🧩 Puzzle #987
+TD92 📋> 🧩 Puzzle #987
+TD13 📋> ␅
+TD44 ␆🤔 14 guesses
+TD7 📋> 🤔 14 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 31s
+TD6 📋> ⏱️ 31s
+TD5 📋> ␅
+TD287034 ␆🔗 alphaguess.com/987
+TD105 📋> 🔗 alphaguess.com/987
+TD12 📋> ␅
+TD215574 ␄
+TD172 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #987\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 31s\n\ud83d\udd17 alphaguess.com/987"}
+TD103 result: "\ud83e\udde9 Puzzle #987\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 31s\n\ud83d\udd17 alphaguess.com/987"
+TD16 result puzzle: 987
+TD8 result guesses: 14
+TD5 result time: 31s
+TD5 result link: alphaguess.com/987
+TD105 📆 2026-04-06 ? ␅
+TD279456 ␆
+TD84 📆 2026-04-06 ? 
