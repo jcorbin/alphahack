@@ -1,0 +1,86 @@
+T37828.952200593994 now: 2026-04-07T07:55:03EDT
+TD78 site: alphaguess.com
+TD150965 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof efa8e16f7bb1016d1d7a7a076988c1ce5028c307
+TD125  ...␅
+TD4520121 ␆
+TD79  ...
+TD138 [0 : 98216 : 196523] mach? ␅
+TD2343874 ␆a
+TD98 [0 : 98216 : 196523] mach? a
+TD107 progress: 1 98216 mach
+TD299 [98217 : 147371 : 196523] rhumb? ␅
+TD1431420 ␆a
+TD99 [98217 : 147371 : 196523] rhumb? a
+TD107 progress: 1 147371 rhumb
+TD114 [147372 : 171636 : 196523] ta? ␅
+TD1447788 ␆b
+TD71 [147372 : 171636 : 196523] ta? b
+TD77 progress: -1 171636 ta
+TD112 [147372 : 159483 : 171636] slop? ␅
+TD1383700 ␆a
+TD90 [147372 : 159483 : 171636] slop? a
+TD107 progress: 1 159483 slop
+TD106 [159484 : 165525 : 171636] stick? ␅
+TD1295763 ␆a
+TD93 [159484 : 165525 : 171636] stick? a
+TD105 progress: 1 165525 stick
+TD101 [165526 : 168577 : 171636] sue? ␅
+TD1287742 ␆a
+TD109 [165526 : 168577 : 171636] sue? a
+TD120 progress: 1 168577 sue
+TD120 [168578 : 170084 : 171636] surf? ␅
+TD1831692 ␆b
+TD97 [168578 : 170084 : 171636] surf? b
+TD104 progress: -1 170084 surf
+TD111 [168578 : 169227 : 170084] super? ␅
+TD1567461 ␆b
+TD96 [168578 : 169227 : 170084] super? b
+TD105 progress: -1 169227 super
+TD440 [168578 : 168903 : 169227] sulphur? ␅
+TD1367492 ␆a
+TD95 [168578 : 168903 : 169227] sulphur? a
+TD108 progress: 1 168903 sulphur
+TD163 [168904 : 169065 : 169227] sun? ␅
+TD1303619 ␆a
+TD99 [168904 : 169065 : 169227] sun? a
+TD105 progress: 1 169065 sun
+TD118 [169066 : 169143 : 169227] sunk? ␅
+TD1231801 ␆a
+TD94 [169066 : 169143 : 169227] sunk? a
+TD101 progress: 1 169143 sunk
+TD162 [169144 : 169185 : 169227] suns? ␅
+TD1375447 ␆a
+TD97 [169144 : 169185 : 169227] suns? a
+TD106 progress: 1 169185 suns
+TD260 [169186 : 169206 : 169227] sunstone? ␅
+TD2927687 ␆b
+TD80 [169186 : 169206 : 169227] sunstone? b
+TD83 progress: -1 169206 sunstone
+TD99 [169186 : 169193 : 169206] sunset? ␅
+TD2455700 ␆it
+TD75 [169186 : 169193 : 169206] sunset? it
+TD81 progress: 0 169193 sunset
+TD18 [169186 : 169193 : 169206] <Done>.
+TD61 📋> ␅
+TD3032279 ␆🧩 Puzzle #988
+TD71 📋> 🧩 Puzzle #988
+TD9 📋> ␅
+TD29 ␆🤔 14 guesses
+TD3 📋> 🤔 14 guesses
+TD3 📋> ␅
+TD6 ␆⏱️ 20s
+TD3 📋> ⏱️ 20s
+TD2 📋> ␅
+TD303460 ␆🔗 alphaguess.com/988
+TD101 📋> 🔗 alphaguess.com/988
+TD15 📋> ␅
+TD207909 ␄
+TD167 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #988\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/988"}
+TD101 result: "\ud83e\udde9 Puzzle #988\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/988"
+TD16 result puzzle: 988
+TD7 result guesses: 14
+TD5 result time: 20s
+TD5 result link: alphaguess.com/988
+TD98 📆 2026-04-07 ? ␅
+TD231556 ␆
+TD97 📆 2026-04-07 ? 
