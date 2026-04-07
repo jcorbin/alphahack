@@ -1,0 +1,188 @@
+T38118.675426343994 now: 2026-04-07T07:59:53EDT
+TD74 site: m-w.com/games/quordle/#/
+TD14 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD84  ...␅
+TD5671193 ␆
+TD71  ...
+TD376371 > ␅
+TD999558 ␆*
+TD69 > *
+TD37219 ? ␅
+TD1522750 ␆1
+TD65 ? 1
+TD121 questioning: resat
+TD100 Classic #1 _____? ␅
+TD3799889 ␆nnnnM
+TD71 Classic #1 _____? nnnnM
+TD238 attempt: 0 RESAT n n n n m
+TD64 Classic #2 _____? ␅
+TD1543516 ␆nnMnn
+TD68 Classic #2 _____? nnMnn
+TD140 attempt: 1 RESAT n n m n n
+TD61 Classic #3 _____? ␅
+TD3063939 ␆nYnnn
+TD97 Classic #3 _____? nYnnn
+TD227 attempt: 2 RESAT n Y n n n
+TD98 Classic #4 _____? ␅
+TD2095627 ␆MYnMn
+TD96 Classic #4 _____? MYnMn
+TD229 attempt: 3 RESAT m Y n m n
+TD292319 > ␅
+TD1075309 ␆*
+TD99 > *
+TD3511 ? ␅
+TD932420 ␆1
+TD97 ? 1
+TD184 questioning: shuln
+TD152 Classic #1 _____ ~T -AERS? ␅
+TD2951460 ␆nnnnn
+TD78 Classic #1 _____ ~T -AERS? nnnnn
+TD163 attempt: 0 SHULN n n n n n
+TD77 Classic #2 _____ ~S -AERT? ␅
+TD1415816 ␆YYYnn
+TD72 Classic #2 _____ ~S -AERT? YYYnn
+TD147 attempt: 1 SHULN Y Y Y n n
+TD66 Classic #3 _E___ -ARST? ␅
+TD1727761 ␆nMnYn
+TD96 Classic #3 _E___ -ARST? nMnYn
+TD220 attempt: 2 SHULN n m n Y n
+TD103 Classic #4 _E___ ~AR -ST? ␅
+TD1031493 ␆nnnnn
+TD84 Classic #4 _E___ ~AR -ST? nnnnn
+TD157 attempt: 3 SHULN n n n n n
+TD340647 > ␅
+TD603193 ␆*
+TD96 > *
+TD387 questioning: hello
+TD125 Classic #1 _____ ~T -AEHLNRSU? ␅
+TD2767469 ␆nnnnn
+TD89 Classic #1 _____ ~T -AEHLNRSU? nnnnn
+TD206 attempt: 0 HELLO n n n n n
+TD117 Classic #2 SHU__ -AELNRT? ␅
+TD1383801 ␆Mnnnn
+TD93 Classic #2 SHU__ -AELNRT? Mnnnn
+TD216 attempt: 1 HELLO m n n n n
+TD109 Classic #3 _E_L_ ~H -ANRSTU? ␅
+TD1143404 ␆YYYYY
+TD75 Classic #3 _E_L_ ~H -ANRSTU? YYYYY
+TD148 attempt: 2 HELLO Y Y Y Y Y
+TD84 Classic #4 _E___ ~AR -HLNSTU? ␅
+TD1127521 ␆nYnnn
+TD73 Classic #4 _E___ ~AR -HLNSTU? nYnnn
+TD148 attempt: 3 HELLO n Y n n n
+TD261510 > ␅
+TD2138368 ␆*
+TD98 > *
+TD398 ? ␅
+TD3023460 ␄
+TD104 <EOF>
+TD238375 > ␅
+TD1113609 ␆* 1
+TD69 > * 1
+TD73370 ? ␅
+TD1294505 ␆1
+TD71 ? 1
+TD124 questioning: dicty
+TD96 Classic #1 _____ ~T -AEHLNORSU? ␅
+TD3143781 ␆nYnYY
+TD77 Classic #1 _____ ~T -AEHLNORSU? nYnYY
+TD156 attempt: 0 DICTY n Y n Y Y
+TD87 Classic #2 SHU__ -AELNORT? ␅
+TD1311789 ␆nnnnn
+TD96 Classic #2 SHU__ -AELNORT? nnnnn
+TD217 attempt: 1 DICTY n n n n n
+TD114 Classic #4 _E___ ~AR -HLNOSTU? ␅
+TD1695478 ␆nnnnn
+TD74 Classic #4 _E___ ~AR -HLNOSTU? nnnnn
+TD149 attempt: 3 DICTY n n n n n
+TD238082 > ␅
+TD705670 ␆*
+TD71 > *
+TD256 questioning: shush
+TD66 Classic #1 _I_TY -ACDEHLNORSU? ␅
+TD2639658 ␆nnnnn
+TD90 Classic #1 _I_TY -ACDEHLNORSU? nnnnn
+TD184 attempt: 0 SHUSH n n n n n
+TD107 Classic #2 SHU__ -ACDEILNORTY? ␅
+TD1431658 ␆YYYYY
+TD73 Classic #2 SHU__ -ACDEILNORTY? YYYYY
+TD137 attempt: 1 SHUSH Y Y Y Y Y
+TD72 Classic #4 _E___ ~AR -CDHILNOSTUY? ␅
+TD1087869 ␆nnnnn
+TD91 Classic #4 _E___ ~AR -CDHILNOSTUY? nnnnn
+TD204 attempt: 3 SHUSH n n n n n
+TD197785 > ␅
+TD897867 ␆*
+TD98 > *
+TD528 ? ␅
+TD4343395 ␄
+TD130 <EOF>
+TD184426 > ␅
+TD1031293 ␆* 1
+TD95 > * 1
+TD98349 ? ␅
+TD3805712 ␆4
+TD74 ? 4
+TD124 questioning: bitty
+TD99 Classic #1 _I_TY -ACDEHLNORSU? ␅
+TD5439759 ␆nYnYY
+TD83 Classic #1 _I_TY -ACDEHLNORSU? nYnYY
+TD130 attempt: 0 BITTY n Y n Y Y
+TD69 Classic #4 _E___ ~AR -CDHILNOSTUY? ␅
+TD1431883 ␆Mnnnn
+TD99 Classic #4 _E___ ~AR -CDHILNOSTUY? Mnnnn
+TD216 attempt: 3 BITTY m n n n n
+TD178892 > ␅
+TD1004698 ␆*
+TD72 > *
+TD248 questioning: zebra
+TD72 Classic #1 _I_TY -ABCDEHLNORSU? ␅
+TD3311604 ␆nnnnn
+TD96 Classic #1 _I_TY -ABCDEHLNORSU? nnnnn
+TD217 attempt: 0 ZEBRA n n n n n
+TD127 Classic #4 _E___ ~ABR -CDHILNOSTUY? ␅
+TD1127510 ␆YYYYY
+TD72 Classic #4 _E___ ~ABR -CDHILNOSTUY? YYYYY
+TD126 attempt: 3 ZEBRA Y Y Y Y Y
+TD73318 > ␅
+TD894504 ␆*
+TD66 > *
+TD308 ? ␅
+TD1479672 ␆1
+TD73 ? 1
+TD121 questioning: wifty
+TD96 Classic #1 _I_TY -ABCDEHLNORSUZ? ␅
+TD2503847 ␆nYYYY
+TD84 Classic #1 _I_TY -ABCDEHLNORSUZ? nYYYY
+TD158 attempt: 0 WIFTY n Y Y Y Y
+TD93229 > ␅
+TD666545 ␆*
+TD97 > *
+TD418 questioning: fifty
+TD120 Classic #1 _IFTY -ABCDEHLNORSUWZ? ␅
+TD2480399 ␆YYYYY
+TD128 Classic #1 _IFTY -ABCDEHLNORSUWZ? YYYYY
+TD269 attempt: 0 FIFTY Y Y Y Y Y
+TD126 📋> ␅
+TD4695042 ␆🙂 Daily Quordle 1534
+TD93 📋> 🙂 Daily Quordle 1534
+TD11 📋> ␅
+TD37 ␆9️⃣5️⃣
+TD6 📋> 9️⃣5️⃣
+TD6 📋> ␅
+TD14 ␆3️⃣7️⃣
+TD5 📋> 3️⃣7️⃣
+TD6 📋> ␅
+TD12 ␆m-w.com/games/quordle/
+TD6 📋> m-w.com/games/quordle/
+TD6 📋> ␅
+TD303217 ␆
+TD81 📋> 
+TD13 📋> ␅
+TD296069 ␄
+TD196 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1534\n9\ufe0f\u20e35\ufe0f\u20e3\n3\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1375 result: "\ud83d\ude42 Daily Quordle 1534\n9\ufe0f\u20e35\ufe0f\u20e3\n3\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD66 📆 2026-04-07 ? ␅
+TD310304 ␆
+TD84 📆 2026-04-07 ? 
