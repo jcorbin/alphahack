@@ -1,0 +1,95 @@
+T37756.471963451 now: 2026-04-07T07:53:50EDT
+TD160 site: alfagok.diginaut.net
+TD353453 loaded 399618 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1234 words excluded) asof efa8e16f7bb1016d1d7a7a076988c1ce5028c307
+TD120  ...␅
+TD8165086 ␆
+TD95  ...
+TD4938 [0 : 199606 : 399618] lij? ␅
+TD3538865 ␆a
+TD64 [0 : 199606 : 399618] lij? a
+TD286 progress: 1 199606 lij
+TD73 [199607 : 299474 : 399618] schro? ␅
+TD1575541 ␆a
+TD74 [199607 : 299474 : 399618] schro? a
+TD90 progress: 1 299474 schro
+TD76 [299475 : 349458 : 399618] vakantie? ␅
+TD1599902 ␆b
+TD69 [299475 : 349458 : 399618] vakantie? b
+TD82 progress: -1 349458 vakantie
+TD79 [299475 : 324412 : 349458] subsidie? ␅
+TD1463667 ␆b
+TD79 [299475 : 324412 : 349458] subsidie? b
+TD82 progress: -1 324412 subsidie
+TD89 [299475 : 311860 : 324412] spier? ␅
+TD1519741 ␆b
+TD82 [299475 : 311860 : 324412] spier? b
+TD81 progress: -1 311860 spier
+TD80 [299475 : 305553 : 311860] sleutel? ␅
+TD1503733 ␆a
+TD78 [299475 : 305553 : 311860] sleutel? a
+TD80 progress: 1 305553 sleutel
+TD80 [305554 : 308700 : 311860] snurk? ␅
+TD1439955 ␆a
+TD76 [305554 : 308700 : 311860] snurk? a
+TD75 progress: 1 308700 snurk
+TD80 [308701 : 310087 : 311860] spa? ␅
+TD1671752 ␆a
+TD69 [308701 : 310087 : 311860] spa? a
+TD79 progress: 1 310087 spa
+TD84 [310088 : 310827 : 311860] speel? ␅
+TD2023753 ␆b
+TD81 [310088 : 310827 : 311860] speel? b
+TD80 progress: -1 310827 speel
+TD83 [310088 : 310422 : 310827] spanning? ␅
+TD1751747 ␆a
+TD78 [310088 : 310422 : 310827] spanning? a
+TD80 progress: 1 310422 spanning
+TD130 [310423 : 310625 : 310827] spauwen? ␅
+TD2319777 ␆!
+TD82 [310423 : 310625 : 310827] spauwen? !
+TD446 [310423 : 310625 : 310826] spawater? ␅
+TD2551530 ␆a
+TD83 [310423 : 310625 : 310826] spawater? a
+TD77 progress: 1 310625 spawater
+TD83 [310626 : 310627 : 310826] spe? ␅
+TD2047795 ␆!
+TD78 [310626 : 310627 : 310826] spe? !
+TD398 [310626 : 310726 : 310825] spect? ␅
+TD2343538 ␆!
+TD80 [310626 : 310726 : 310825] spect? !
+TD277 [310626 : 310726 : 310824] spectaculair? ␅
+TD2431984 ␆b
+TD83 [310626 : 310726 : 310824] spectaculair? b
+TD76 progress: -1 310726 spectaculair
+TD78 [310626 : 310670 : 310726] specialisten? ␅
+TD1663520 ␆b
+TD77 [310626 : 310670 : 310726] specialisten? b
+TD79 progress: -1 310670 specialisten
+TD102 [310626 : 310645 : 310670] speciaal? ␅
+TD1767683 ␆it
+TD80 [310626 : 310645 : 310670] speciaal? it
+TD85 progress: 0 310645 speciaal
+TD17 [310626 : 310645 : 310670] <Done>.
+TD73 📋> ␅
+TD2712097 ␆🧩 Puzzel #521
+TD82 📋> 🧩 Puzzel #521
+TD7 📋> ␅
+TD31 ␆🤔 14 gokken
+TD3 📋> 🤔 14 gokken
+TD3 📋> ␅
+TD7 ␆⏱️ 30s
+TD3 📋> ⏱️ 30s
+TD2 📋> ␅
+TD343548 ␆🔗 alfagok.diginaut.net
+TD78 📋> 🔗 alfagok.diginaut.net
+TD7 📋> ␅
+TD207878 ␄
+TD133 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #521\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 30s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD509 result: "\ud83e\udde9 Puzzel #521\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 30s\n\ud83d\udd17 alfagok.diginaut.net"
+TD13 result puzzle: 521
+TD4 result guesses: 14
+TD3 result time: 30s
+TD2 result link: alfagok.diginaut.net
+TD80 📆 2026-04-07 ? ␅
+TD455492 ␆
+TD75 📆 2026-04-07 ? 
