@@ -1,0 +1,70 @@
+T62131.271830353 now: 2026-04-08T07:39:27EDT
+TD84 site: alfagok.diginaut.net
+TD370233 loaded 399618 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1234 words excluded) asof 74af00ac1c7699ca2bbaebfc66281981b042aeeb
+TD219  ...␅
+TD3268515 ␆
+TD74  ...
+TD4531 [0 : 199606 : 399618] lij? ␅
+TD5779531 ␆a
+TD83 [0 : 199606 : 399618] lij? a
+TD326 progress: 1 199606 lij
+TD85 [199607 : 299474 : 399618] schro? ␅
+TD3263659 ␆b
+TD116 [199607 : 299474 : 399618] schro? b
+TD161 progress: -1 299474 schro
+TD135 [199607 : 247688 : 299474] op? ␅
+TD1687764 ␆a
+TD114 [199607 : 247688 : 299474] op? a
+TD124 progress: 1 247688 op
+TD133 [247689 : 273492 : 299474] proef? ␅
+TD1655497 ␆a
+TD108 [247689 : 273492 : 299474] proef? a
+TD121 progress: 1 273492 proef
+TD126 [273493 : 286476 : 299474] rijns? ␅
+TD2167655 ␆b
+TD118 [273493 : 286476 : 299474] rijns? b
+TD144 progress: -1 286476 rijns
+TD165 [273493 : 279758 : 286476] rechts? ␅
+TD1959708 ␆b
+TD109 [273493 : 279758 : 286476] rechts? b
+TD118 progress: -1 279758 rechts
+TD126 [273493 : 276621 : 279758] quarantaine? ␅
+TD1727648 ␆a
+TD112 [273493 : 276621 : 279758] quarantaine? a
+TD122 progress: 1 276621 quarantaine
+TD127 [276622 : 278102 : 279758] ram? ␅
+TD2271458 ␆b
+TD88 [276622 : 278102 : 279758] ram? b
+TD88 progress: -1 278102 ram
+TD80 [276622 : 277304 : 278102] rad? ␅
+TD1967813 ␆b
+TD108 [276622 : 277304 : 278102] rad? b
+TD135 progress: -1 277304 rad
+TD100 [276622 : 276846 : 277304] raad? ␅
+TD2519718 ␆it
+TD135 [276622 : 276846 : 277304] raad? it
+TD137 progress: 0 276846 raad
+TD36 [276622 : 276846 : 277304] <Done>.
+TD118 📋> ␅
+TD4160052 ␆🧩 Puzzel #522
+TD78 📋> 🧩 Puzzel #522
+TD11 📋> ␅
+TD61 ␆🤔 10 gokken
+TD4 📋> 🤔 10 gokken
+TD3 📋> ␅
+TD6 ␆⏱️ 21s
+TD3 📋> ⏱️ 21s
+TD2 📋> ␅
+TD567830 ␆🔗 alfagok.diginaut.net
+TD105 📋> 🔗 alfagok.diginaut.net
+TD9 📋> ␅
+TD207455 ␄
+TD252 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #522\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 21s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD644 result: "\ud83e\udde9 Puzzel #522\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 21s\n\ud83d\udd17 alfagok.diginaut.net"
+TD16 result puzzle: 522
+TD3 result guesses: 10
+TD2 result time: 21s
+TD2 result link: alfagok.diginaut.net
+TD86 📆 2026-04-08 ? ␅
+TD214994 ␆
+TD134 📆 2026-04-08 ? 
