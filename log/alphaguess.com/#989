@@ -1,0 +1,79 @@
+T62519.84463281401 now: 2026-04-08T07:45:56EDT
+TD149 site: alphaguess.com
+TD318080 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof 74af00ac1c7699ca2bbaebfc66281981b042aeeb
+TD228  ...␅
+TD13728604 ␆
+TD135  ...
+TD228 [0 : 98216 : 196523] mach? ␅
+TD2575680 ␆a
+TD147 [0 : 98216 : 196523] mach? a
+TD157 progress: 1 98216 mach
+TD373 [98217 : 147371 : 196523] rhumb? ␅
+TD1815277 ␆a
+TD114 [98217 : 147371 : 196523] rhumb? a
+TD176 progress: 1 147371 rhumb
+T14.502923362975707 now: 2026-04-08T07:46:34EDT
+TD152 [147372 : 171636 : 196523] ta? ␅
+TD1695345 ␆a
+TD86 [147372 : 171636 : 196523] ta? a
+TD355 progress: 1 171636 ta
+TD141 [171637 : 182000 : 196523] un? ␅
+TD1815454 ␆a
+TD92 [171637 : 182000 : 196523] un? a
+TD104 progress: 1 182000 un
+TD184 [182001 : 189262 : 196523] vicar? ␅
+TD1512183 ␆a
+TD111 [182001 : 189262 : 196523] vicar? a
+TD127 progress: 1 189262 vicar
+TD240 [189263 : 192866 : 196523] whir? ␅
+TD2711036 ␆b
+TD85 [189263 : 192866 : 196523] whir? b
+TD92 progress: -1 192866 whir
+TD92 [189263 : 191042 : 192866] walk? ␅
+TD1719744 ␆a
+TD99 [189263 : 191042 : 192866] walk? a
+TD107 progress: 1 191042 walk
+TD118 [191043 : 191905 : 192866] we? ␅
+TD1815436 ␆b
+TD77 [191043 : 191905 : 192866] we? b
+TD81 progress: -1 191905 we
+TD83 [191043 : 191453 : 191905] wash? ␅
+TD1647937 ␆b
+TD92 [191043 : 191453 : 191905] wash? b
+TD93 progress: -1 191453 wash
+TD112 [191043 : 191246 : 191453] war? ␅
+TD1623886 ␆b
+TD108 [191043 : 191246 : 191453] war? b
+TD121 progress: -1 191246 war
+TD158 [191043 : 191140 : 191246] wame? ␅
+TD1655551 ␆b
+TD83 [191043 : 191140 : 191246] wame? b
+TD84 progress: -1 191140 wame
+TD82 [191043 : 191069 : 191140] wall? ␅
+TD28111520 ␆it
+TD111 [191043 : 191069 : 191140] wall? it
+TD120 progress: 0 191069 wall
+TD26 [191043 : 191069 : 191140] <Done>.
+TD104 📋> ␅
+TD3465000 ␆🧩 Puzzle #989
+TD121 📋> 🧩 Puzzle #989
+TD22 📋> ␅
+TD53 ␆🤔 12 guesses
+TD10 📋> 🤔 12 guesses
+TD8 📋> ␅
+TD20 ␆⏱️ 40s
+TD9 📋> ⏱️ 40s
+TD8 📋> ␅
+TD318299 ␆🔗 alphaguess.com/989
+TD76 📋> 🔗 alphaguess.com/989
+TD7 📋> ␅
+TD183915 ␄
+TD173 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #989\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 40s\n\ud83d\udd17 alphaguess.com/989"}
+TD625 result: "\ud83e\udde9 Puzzle #989\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 40s\n\ud83d\udd17 alphaguess.com/989"
+TD21 result puzzle: 989
+TD9 result guesses: 12
+TD6 result time: 40s
+TD5 result link: alphaguess.com/989
+TD87 📆 2026-04-08 ? ␅
+TD287098 ␆
+TD100 📆 2026-04-08 ? 
