@@ -1,0 +1,184 @@
+T130.55724116400233 now: 2026-04-08T08:02:09EDT
+TD112 site: squareword.org
+TD25 wordlist: nwl2023.txt
+TD35  ...␅
+TD670886 ␆
+TD84  ...
+TD55 🧩  ? ␅
+TD8863838 ␆#1528
+TD60 🧩  ? #1528
+TD162 puzzle_id: #1528
+TD148 > ␅
+TD967724 ␆*
+TD95 > *
+TD202365 try? ␅
+TD669647 ␆1
+TD92 try? 1
+TD292 questioning: ["serai", "#5"]
+TD161 #1 <IndexError>  📋 "serai" ? ␅
+TD8991344 ␆__R__ ~ SA
+TD74 #1 <IndexError>  📋 "serai" ? __R__ ~ SA
+TD445 attempt 0 SERAI m n Y m n
+TD82 #2 <IndexError>  📋 "serai" ? ␅
+TD2167440 ␆_____ ~ ERAI
+TD77 #2 <IndexError>  📋 "serai" ? _____ ~ ERAI
+TD195 attempt 1 SERAI n m m m m
+TD89 #3 <IndexError>  📋 "serai" ? ␅
+TD1871627 ␆_____ ~ EI
+TD77 #3 <IndexError>  📋 "serai" ? _____ ~ EI
+TD177 attempt 2 SERAI n m n n m
+TD96 #4 <IndexError>  📋 "serai" ? ␅
+TD1519549 ␆_____ ~ E
+TD80 #4 <IndexError>  📋 "serai" ? _____ ~ E
+TD179 attempt 3 SERAI n m n n n
+TD86 #5 <IndexError>  📋 "serai" ? ␅
+TD2671785 ␆__R__ ~ SA
+TD97 #5 <IndexError>  📋 "serai" ? __R__ ~ SA
+TD255 attempt 4 SERAI m n Y m n
+TD361 ? ␅
+TD799290 ␆
+TD103 ? 
+TD156 question done
+TD309 > ␅
+TD6911583 ␆*
+TD126 > *
+TD489756 try? ␅
+TD8382187 ␆6
+TD95 try? 6
+TD326 questioning: ["irate", "#2"]
+TD908 #1 __R__ ~AS -EI  📋 "irate" ? ␅
+TD3790592 ␆.
+TD68 #1 __R__ ~AS -EI  📋 "irate" ? .
+TD200 attempt 0 IRATE n n m n n
+TD61 #2 _____ ~AEIR -S  📋 "irate" ? ␅
+TD975598 ␆/it
+TD63 #2 _____ ~AEIR -S  📋 "irate" ? /it
+TD166 attempt 1 IRATE Y Y Y Y Y
+TD55 #3 _____ ~EI -ARS  📋 "irate" ? ␅
+TD2831821 ␆____E ~ I
+TD65 #3 _____ ~EI -ARS  📋 "irate" ? ____E ~ I
+TD165 attempt 2 IRATE m n n n Y
+TD92 #4 _____ ~E -AIRS  📋 "irate" ? ␅
+TD728326 ␆.
+TD73 #4 _____ ~E -AIRS  📋 "irate" ? .
+TD230 attempt 3 IRATE n n n n m
+TD65 #5 __R__ ~AS -EI  📋 "irate" ? ␅
+TD2734910 ␆__RT_ ~ SA
+TD68 #5 __R__ ~AS -EI  📋 "irate" ? __RT_ ~ SA
+TD185 attempt 4 IRATE n n m Y n
+TD222 ? ␅
+TD375638 ␆
+TD100 ? 
+TD128 question done
+TD318 > ␅
+TD655471 ␆*
+TD81 > *
+TD682864 try? ␅
+TD2668893 ␆1
+TD91 try? 1
+TD296 questioning: ["marsh", "#1"]
+TD320 #1 __R__ ~AS -EIRT  📋 "marsh" ? ␅
+TD2199370 ␆/it
+TD71 #1 __R__ ~AS -EIRT  📋 "marsh" ? /it
+TD190 attempt 0 MARSH Y Y Y Y Y
+TD65 #3 ____E ~I -ARST  📋 "marsh" ? ␅
+TD3679738 ␆M___E ~ I
+TD108 #3 ____E ~I -ARST  📋 "marsh" ? M___E ~ I
+TD257 attempt 2 MARSH Y n n n n
+TD149 #4 _____ ~E -AIRST  📋 "marsh" ? ␅
+TD2567610 ␆_____ ~ EM
+TD77 #4 _____ ~E -AIRST  📋 "marsh" ? _____ ~ EM
+TD184 attempt 3 MARSH m n n n n
+TD103 #5 __RT_ ~AS -EIR  📋 "marsh" ? ␅
+TD3823529 ␆_ART_ ~ S
+TD91 #5 __RT_ ~AS -EIR  📋 "marsh" ? _ART_ ~ S
+TD255 attempt 4 MARSH n Y Y m n
+TD352 ? ␅
+TD343328 ␆
+TD94 ? 
+TD131 question done
+TD316 > ␅
+TD551451 ␆*
+TD75 > *
+TD570983 questioning: ["movie", "#3"]
+TD183 #3 M___E ~I -AHRST  📋 "movie" ? ␅
+TD3196797 ␆/it
+TD93 #3 M___E ~I -AHRST  📋 "movie" ? /it
+TD259 attempt 2 MOVIE Y Y Y Y Y
+TD97 #4 _____ ~EM -AHIRST  📋 "movie" ? ␅
+TD2095611 ␆.
+TD97 #4 _____ ~EM -AHIRST  📋 "movie" ? .
+TD278 attempt 3 MOVIE m n n n m
+TD99 #5 _ART_ ~S -EHIM  📋 "movie" ? ␅
+TD1015566 ␆.
+TD79 #5 _ART_ ~S -EHIM  📋 "movie" ? .
+TD205 attempt 4 MOVIE n n n n n
+TD183 ? ␅
+TD167781 ␆
+TD75 ? 
+TD82 question done
+TD181 > ␅
+TD1439282 ␆*
+TD95 > *
+TD709088 questioning: ["emend", "#4"]
+TD249 #4 _____ ~EM -AHIORSTV  📋 "emend" ? ␅
+TD4122755 ␆/it
+TD95 #4 _____ ~EM -AHIORSTV  📋 "emend" ? /it
+TD212 attempt 3 EMEND Y Y Y Y Y
+TD73 #5 _ART_ ~S -EHIMOV  📋 "emend" ? ␅
+TD4215660 ␆_ART_ ~ SD
+TD84 #5 _ART_ ~S -EHIMOV  📋 "emend" ? _ART_ ~ SD
+TD190 attempt 4 EMEND n n n n m
+TD211 ? ␅
+TD399375 ␆
+TD72 ? 
+TD103 question done
+TD192 > ␅
+TD751836 ␆*
+TD73 > *
+TD834078 questioning: ["darts", "#5"]
+TD191 #5 _ART_ ~DS -EHIMNOV  📋 "darts" ? ␅
+TD3157768 ␆/it
+TD108 #5 _ART_ ~DS -EHIMNOV  📋 "darts" ? /it
+TD305 attempt 4 DARTS Y Y Y Y Y
+TD367 ? ␅
+TD743028 ␆
+TD78 ? 
+TD84 question done
+TD21788 📋> ␅
+TD4346439 ␆squareword.org 1528: 6 guesses
+TD108 📋> squareword.org 1528: 6 guesses
+TD15 📋> ␅
+TD43 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD26 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟨🟩🟩🟩🟨
+TD4 📋> 🟨🟩🟩🟩🟨
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD287345 ␆#squareword #squareword1528
+TD99 📋> #squareword #squareword1528
+TD12 📋> ␅
+TD215770 ␄
+TD144 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1528: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1528"}
+TD777 result: "squareword.org 1528: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1528"
+TD96 📆 2026-04-08 ? ␅
+TD198959 ␆
+TD84 📆 2026-04-08 ? 
