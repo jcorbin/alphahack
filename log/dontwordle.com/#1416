@@ -1,0 +1,181 @@
+T161.63542076999875 now: 2026-04-09T07:53:48EDT
+TD75 site: dontwordle.com
+TD15 wordlist: nwl2023.txt
+TD24  ...␅
+TD3470853 ␆
+TD100  ...
+TD121 1> ␅
+TD3767693 ␆* -bot 10
+TD97 1> * -bot 10
+TD206036 ? ␅
+TD1082003 ␆1
+TD95 ? 1
+TD254 📋 "lares" ? ␅
+TD4352095 ␆nnMnn
+TD96 📋 "lares" ? nnMnn
+TD578 tried: LARES n n m n n
+TD201 2> ␅
+TD822705 ␆*
+TD94 2> *
+TD101825 ? ␅
+TD1106085 ␄
+TD128 <EOF>
+TD119 2> ␅
+TD1183661 ␆undo
+TD74 2> undo
+TD112 undo
+TD105 1> ␅
+TD2640332 ␆*
+TD76 1> *
+TD128657 ? ␅
+TD518849 ␆1
+TD94 ? 1
+TD244 📋 "boffo" ? ␅
+TD4311631 ␆Ynnnn
+TD79 📋 "boffo" ? Ynnnn
+TD158 tried: BOFFO Y n n n n
+TD124 2> ␅
+TD648704 ␆undo
+TD100 2> undo
+TD148 undo
+TD146 1> ␅
+TD2774569 ␆*
+TD91 1> *
+TD147398 ? ␅
+TD700863 ␆1
+TD96 ? 1
+TD232 📋 "zizit" ? ␅
+TD3671718 ␆nMnnn
+TD79 📋 "zizit" ? nMnnn
+TD157 tried: ZIZIT n m n n n
+TD119 2> ␅
+TD647627 ␆undo
+TD134 2> undo
+TD133 undo
+TD128 1> ␅
+TD2935276 ␆*
+TD80 1> *
+TD115042 ? ␅
+TD596982 ␆1
+TD82 ? 1
+TD186 📋 "doggo" ? ␅
+TD4064012 ␆nnnnn
+TD102 📋 "doggo" ? nnnnn
+TD194 tried: DOGGO n n n n n
+TD175 2> ␅
+TD447616 ␆*
+TD98 2> *
+TD106195 ? ␅
+TD949299 ␆1
+TD97 ? 1
+TD234 📋 "yummy" ? ␅
+TD4152309 ␆nnnnn
+TD94 📋 "yummy" ? nnnnn
+TD206 tried: YUMMY n n n n n
+TD186 3> ␅
+TD614966 ␆*
+TD94 3> *
+TD94142 ? ␅
+TD729661 ␆1
+TD94 ? 1
+TD245 📋 "vexes" ? ␅
+TD12615795 ␆
+TD101 📋 "vexes" ? 
+TD180 ? ␅
+TD1319854 ␆*
+TD97 ? *
+TD252 ? ␅
+TD1863522 ␄
+TD150 <EOF>
+TD160 3> ␅
+TD655782 ␆*
+TD96 3> *
+TD98190 ? ␅
+TD2454464 ␄
+TD133 <EOF>
+TD142 3> ␅
+TD5231023 ␆/help
+TD77 3> /help
+TD396 3> ␅
+TD3783565 ␆tried sexes
+TD79 3> tried sexes
+TD206 3> ␅
+TD9944093 ␆tried sexes nnnnn
+TD81 3> tried sexes nnnnn
+TD178 tried: SEXES n n n n n
+TD126 4> ␅
+TD1951394 ␆* 
+TD78 4> * 
+TD88175 ? ␅
+TD800236 ␆1
+TD95 ? 1
+TD229 📋 "phpht" ? ␅
+TD8839286 ␆nnnnn
+TD108 📋 "phpht" ? nnnnn
+TD161 tried: PHPHT n n n n n
+TD128 5> ␅
+TD503536 ␆*
+TD104 5> *
+TD92487 ? ␅
+TD1235782 ␆1
+TD96 ? 1
+TD231 📋 "zanza" ? ␅
+TD4831431 ␆nnnnn
+TD98 📋 "zanza" ? nnnnn
+TD198 tried: ZANZA n n n n n
+TD202 6> ␅
+TD375690 ␆*
+TD96 6> *
+TD177914 ? ␅
+TD1069803 ␆1
+TD80 ? 1
+TD179 📋 "civic" ? ␅
+TD3912127 ␆MMnnn
+TD98 📋 "civic" ? MMnnn
+TD206 tried: CIVIC m m n n n
+TD201 📋> ␅
+TD4015781 ␆Don't Wordle 1416 - SURVIVED
+TD105 📋> Don't Wordle 1416 - SURVIVED
+TD12 📋> ␅
+TD37 ␆Hooray! I didn't Wordle today!
+TD6 📋> Hooray! I didn't Wordle today!
+TD5 📋> ␅
+TD14 ␆⬜⬜⬜⬜⬜6524
+TD5 📋> ⬜⬜⬜⬜⬜6524
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜3556
+TD4 📋> ⬜⬜⬜⬜⬜3556
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜592
+TD7 📋> ⬜⬜⬜⬜⬜592
+TD6 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜219
+TD4 📋> ⬜⬜⬜⬜⬜219
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜20
+TD4 📋> ⬜⬜⬜⬜⬜20
+TD4 📋> ␅
+TD10 ␆🟨🟨⬜⬜⬜4
+TD4 📋> 🟨🟨⬜⬜⬜4
+TD4 📋> ␅
+TD10 ␆Undos used: 3
+TD5 📋> Undos used: 3
+TD5 📋> ␅
+TD9 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD10 ␆  4 words remaining
+TD5 📋>   4 words remaining
+TD5 📋> ␅
+TD15 ␆x 8 unused letters
+TD7 📋> x 8 unused letters
+TD5 📋> ␅
+TD287390 ␆= 32 total score
+TD98 📋> = 32 total score
+TD13 📋> ␅
+TD143555 ␄
+TD175 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1416 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6524\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3556\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c592\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c219\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c20\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c4\nUndos used: 3\n\n  4 words remaining\nx 8 unused letters\n= 32 total score"}
+TD953 result: "Don't Wordle 1416 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6524\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3556\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c592\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c219\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c20\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c4\nUndos used: 3\n\n  4 words remaining\nx 8 unused letters\n= 32 total score"
+TD65 📆 2026-04-09 ? ␅
+TD142808 ␆
+TD96 📆 2026-04-09 ? 
