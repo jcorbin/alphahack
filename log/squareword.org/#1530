@@ -1,0 +1,209 @@
+T2031.860074280994 now: 2026-04-10T08:48:57EDT
+TD76 site: squareword.org
+TD17 wordlist: nwl2023.txt
+TD24  ...␅
+TD150905 ␆
+TD97  ...
+TD70 🧩  ? ␅
+TD9176121 ␆#1530
+TD95 🧩  ? #1530
+TD271 puzzle_id: #1530
+TD292 > ␅
+TD1079293 ␆*
+TD98 > *
+TD206679 try? ␅
+TD1537680 ␆1
+TD107 try? 1
+TD356 questioning: ["laser", "#5"]
+TD327 #1 <IndexError>  📋 "laser" ? ␅
+TD3215034 ␆_____
+TD79 #1 <IndexError>  📋 "laser" ? _____
+TD456 attempt 0 LASER n n n n n
+TD79 #2 <IndexError>  📋 "laser" ? ␅
+TD1935143 ␆_A___ ~ R
+TD94 #2 <IndexError>  📋 "laser" ? _A___ ~ R
+TD271 attempt 1 LASER n Y n n m
+TD120 #3 <IndexError>  📋 "laser" ? ␅
+TD1735880 ␆_____ ~ ER
+TD118 #3 <IndexError>  📋 "laser" ? _____ ~ ER
+TD309 attempt 2 LASER n n n m m
+TD134 #4 <IndexError>  📋 "laser" ? ␅
+TD1960363 ␆_____ ~ AER
+TD98 #4 <IndexError>  📋 "laser" ? _____ ~ AER
+TD249 attempt 3 LASER n m n m m
+TD161 #5 <IndexError>  📋 "laser" ? ␅
+TD2494379 ␆__S__ ~ ASE
+TD91 #5 <IndexError>  📋 "laser" ? __S__ ~ ASE
+TD261 attempt 4 LASER n m Y m n
+TD356 ? ␅
+TD255497 ␆
+TD99 ? 
+TD151 question done
+TD285 > ␅
+TD527128 ␆*
+TD97 > *
+TD671426 try? ␅
+TD1064493 ␆1
+TD98 try? 1
+TD309 questioning: ["cesta", "#5"]
+TD373 #1 _____ -AELRS  📋 "cesta" ? ␅
+TD5439612 ␆C____ ~ C
+TD94 #1 _____ -AELRS  📋 "cesta" ? C____ ~ C
+TD201 attempt 0 CESTA Y n n n n
+TD101 #2 _A___ ~R -ELS  📋 "cesta" ? ␅
+TD1791289 ␆.
+TD72 #2 _A___ ~R -ELS  📋 "cesta" ? .
+TD200 attempt 1 CESTA n n n n n
+TD99 #3 _____ ~ER -ALS  📋 "cesta" ? ␅
+TD3439772 ␆_____ ~ ERT
+TD82 #3 _____ ~ER -ALS  📋 "cesta" ? _____ ~ ERT
+TD187 attempt 2 CESTA n m n m n
+TD104 #4 _____ ~AER -LS  📋 "cesta" ? ␅
+TD3687489 ␆_E___ ~ ARCT
+TD95 #4 _____ ~AER -LS  📋 "cesta" ? _E___ ~ ARCT
+TD258 attempt 3 CESTA m Y n m m
+TD149 #5 __S__ ~AE -LR  📋 "cesta" ? ␅
+TD4335669 ␆__S__ ~ ASE
+TD111 #5 __S__ ~AE -LR  📋 "cesta" ? __S__ ~ ASE
+TD263 attempt 4 CESTA n m Y n m
+TD329 ? ␅
+TD239618 ␆
+TD101 ? 
+TD135 question done
+TD308 > ␅
+TD471422 ␆*
+TD109 > *
+TD628793 questioning: ["react", "#4"]
+TD176 #1 C____ -AELRST  📋 "react" ? ␅
+TD5004351 ␆C__C_
+TD99 #1 C____ -AELRST  📋 "react" ? C__C_
+TD250 attempt 0 REACT n n n Y n
+TD150 #2 _A___ ~R -ACELST  📋 "react" ? ␅
+TD2061823 ␆RA___
+TD83 #2 _A___ ~R -ACELST  📋 "react" ? RA___
+TD1299 attempt 1 REACT Y n n n n
+TD145 #3 _____ ~ERT -ACLS  📋 "react" ? ␅
+TD4494763 ␆____T ~ ER
+TD103 #3 _____ ~ERT -ACLS  📋 "react" ? ____T ~ ER
+TD251 attempt 2 REACT m m n n Y
+TD146 #4 _E___ ~ACRT -LS  📋 "react" ? ␅
+TD2127148 ␆/it
+TD74 #4 _E___ ~ACRT -LS  📋 "react" ? /it
+TD199 attempt 3 REACT Y Y Y Y Y
+TD66 #5 __S__ ~AE -CLRT  📋 "react" ? ␅
+TD3424169 ␆__S__ ~ ASE
+TD100 #5 __S__ ~AE -CLRT  📋 "react" ? __S__ ~ ASE
+TD242 attempt 4 REACT n m m n n
+TD331 ? ␅
+TD238975 ␆
+TD90 ? 
+TD104 question done
+TD261 > ␅
+TD639648 ␆*
+TD102 > *
+TD566817 questioning: ["overt", "#3"]
+TD182 #1 C__C_ -AELRST  📋 "overt" ? ␅
+TD6393000 ␆.
+TD84 #1 C__C_ -AELRST  📋 "overt" ? .
+TD196 attempt 0 OVERT n n n n n
+TD67 #2 RA___ -ACELST  📋 "overt" ? ␅
+TD1535872 ␆.
+TD120 #2 RA___ -ACELST  📋 "overt" ? .
+TD363 attempt 1 OVERT n n n n n
+TD128 #3 ____T ~ER -ACLS  📋 "overt" ? ␅
+TD759056 ␆/it
+TD81 #3 ____T ~ER -ACLS  📋 "overt" ? /it
+TD195 attempt 2 OVERT Y Y Y Y Y
+TD65 #5 __S__ ~AE -CLRT  📋 "overt" ? ␅
+TD3591885 ␆__S__ ~ ASE
+TD89 #5 __S__ ~AE -CLRT  📋 "overt" ? __S__ ~ ASE
+TD174 attempt 4 OVERT n n m n n
+TD194 ? ␅
+TD271469 ␆
+TD77 ? 
+TD85 question done
+TD168 > ␅
+TD503658 ␆*
+TD115 > *
+TD1290732 questioning: ["radii", "#2"]
+TD196 #1 C__C_ -AELORSTV  📋 "radii" ? ␅
+TD5461172 ␆C__C_ ~ I
+TD125 #1 C__C_ -AELORSTV  📋 "radii" ? C__C_ ~ I
+TD314 attempt 0 RADII n n n m m
+TD188 #2 RA___ -ACELORSTV  📋 "radii" ? ␅
+TD623857 ␆/it
+TD110 #2 RA___ -ACELORSTV  📋 "radii" ? /it
+TD319 attempt 1 RADII Y Y Y Y Y
+TD120 #5 __S__ ~AE -CLORTV  📋 "radii" ? ␅
+TD3967053 ␆__S__ ~ ASE
+TD104 #5 __S__ ~AE -CLORTV  📋 "radii" ? __S__ ~ ASE
+TD272 attempt 4 RADII n m n n n
+TD579 ? ␅
+TD222952 ␆
+TD95 ? 
+TD126 question done
+TD312 > ␅
+TD711501 ␆*
+TD106 > *
+TD3319709 questioning: ["chick", "#1"]
+TD478 #1 C__C_ ~I -ADELORSTV  📋 "chick" ? ␅
+TD4384291 ␆/it
+TD125 #1 C__C_ ~I -ADELORSTV  📋 "chick" ? /it
+TD302 attempt 0 CHICK Y Y Y Y Y
+TD121 #5 __S__ ~AE -CDILORTV  📋 "chick" ? ␅
+TD3191042 ␆__S__ ~ ASE
+TD111 #5 __S__ ~AE -CDILORTV  📋 "chick" ? __S__ ~ ASE
+TD291 attempt 4 CHICK n n n n n
+TD423 ? ␅
+TD263198 ␆
+TD114 ? 
+TD141 question done
+TD369 > ␅
+TD455334 ␆*
+TD113 > *
+TD2014875 questioning: ["essay", "#5"]
+TD398 #5 __S__ ~AE -CDHIKLORTV  📋 "essay" ? ␅
+TD2544662 ␆/it
+TD140 #5 __S__ ~AE -CDHIKLORTV  📋 "essay" ? /it
+TD271 attempt 4 ESSAY Y Y Y Y Y
+TD183 ? ␅
+TD759469 ␆
+TD128 ? 
+TD145 question done
+TD22728 📋> ␅
+TD5609357 ␆squareword.org 1530: 7 guesses
+TD125 📋> squareword.org 1530: 7 guesses
+TD15 📋> ␅
+TD64 ␆
+TD8 📋> 
+TD6 📋> ␅
+TD23 ␆🟩🟨🟨🟩🟨
+TD7 📋> 🟩🟨🟨🟩🟨
+TD6 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟨🟨🟩🟨🟨
+TD1 📋> 🟨🟨🟩🟨🟨
+TD1 📋> ␅
+TD4 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD5 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD319335 ␆#squareword #squareword1530
+TD137 📋> #squareword #squareword1530
+TD13 📋> ␅
+TD167917 ␄
+TD230 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1530: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1530"}
+TD1036 result: "squareword.org 1530: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1530"
+TD92 📆 2026-04-10 ? ␅
+TD190608 ␆
+TD121 📆 2026-04-10 ? 
