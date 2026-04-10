@@ -1,0 +1,82 @@
+T112.3671838549999 now: 2026-04-10T08:16:58EDT
+TD89 site: alphaguess.com
+TD150523 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof 622120999554dd4b8054d47e84374a61433cb679
+TD122  ...␅
+TD57608783 ␆
+TD119  ...
+TD182 [0 : 98216 : 196523] mach? ␅
+TD2111685 ␆a
+TD94 [0 : 98216 : 196523] mach? a
+TD103 progress: 1 98216 mach
+TD308 [98217 : 147371 : 196523] rhumb? ␅
+TD1567420 ␆a
+TD92 [98217 : 147371 : 196523] rhumb? a
+TD101 progress: 1 147371 rhumb
+TD111 [147372 : 171636 : 196523] ta? ␅
+TD1775706 ␆b
+TD93 [147372 : 171636 : 196523] ta? b
+TD100 progress: -1 171636 ta
+TD168 [147372 : 159483 : 171636] slop? ␅
+TD1535642 ␆a
+TD97 [147372 : 159483 : 171636] slop? a
+TD102 progress: 1 159483 slop
+TD106 [159484 : 165525 : 171636] stick? ␅
+TD1496121 ␆a
+TD112 [159484 : 165525 : 171636] stick? a
+TD115 progress: 1 165525 stick
+TD119 [165526 : 168577 : 171636] sue? ␅
+TD4023681 ␆a
+TD104 [165526 : 168577 : 171636] sue? a
+TD107 progress: 1 168577 sue
+TD97 [168578 : 170084 : 171636] surf? ␅
+TD2055294 ␆a
+TD100 [168578 : 170084 : 171636] surf? a
+TD111 progress: 1 170084 surf
+TD100 [170085 : 170857 : 171636] switch? ␅
+TD1639724 ␆b
+TD73 [170085 : 170857 : 171636] switch? b
+TD73 progress: -1 170857 switch
+TD70 [170085 : 170468 : 170857] swamp? ␅
+TD2135948 ␆b
+TD97 [170085 : 170468 : 170857] swamp? b
+TD113 progress: -1 170468 swamp
+TD375 [170085 : 170277 : 170468] survival? ␅
+TD1991410 ␆b
+TD88 [170085 : 170277 : 170468] survival? b
+TD79 progress: -1 170277 survival
+TD94 [170085 : 170176 : 170277] surpass? ␅
+TD1559953 ␆a
+TD95 [170085 : 170176 : 170277] surpass? a
+TD99 progress: 1 170176 surpass
+TD359 [170177 : 170227 : 170277] surrebutters? ␅
+TD2287752 ␆b
+TD104 [170177 : 170227 : 170277] surrebutters? b
+TD106 progress: -1 170227 surrebutters
+TD292 [170177 : 170202 : 170227] surprise? ␅
+TD2655793 ␆it
+TD97 [170177 : 170202 : 170227] surprise? it
+TD105 progress: 0 170202 surprise
+TD27 [170177 : 170202 : 170227] <Done>.
+TD82 📋> ␅
+TD2879965 ␆🧩 Puzzle #991
+TD228 📋> 🧩 Puzzle #991
+TD20 📋> ␅
+TD35 ␆🤔 13 guesses
+TD4 📋> 🤔 13 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 23s
+TD3 📋> ⏱️ 23s
+TD2 📋> ␅
+TD359115 ␆🔗 alphaguess.com/991
+TD111 📋> 🔗 alphaguess.com/991
+TD13 📋> ␅
+TD287622 ␄
+TD168 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #991\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/991"}
+TD98 result: "\ud83e\udde9 Puzzle #991\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/991"
+TD15 result puzzle: 991
+TD7 result guesses: 13
+TD6 result time: 23s
+TD5 result link: alphaguess.com/991
+TD92 📆 2026-04-10 ? ␅
+TD552020 ␆
+TD113 📆 2026-04-10 ? 
