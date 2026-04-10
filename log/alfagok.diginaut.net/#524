@@ -1,0 +1,100 @@
+T30.10974125299981 now: 2026-04-10T08:15:35EDT
+TD85 site: alfagok.diginaut.net
+TD353319 loaded 399615 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1237 words excluded) asof 622120999554dd4b8054d47e84374a61433cb679
+TD105  ...␅
+TD23 ␆
+TD2  ...
+TD90 [0 : 199606 : 399615] lij? ␅
+TD2165858 ␆
+TD94 [0 : 199606 : 399615] lij? 
+TD140 [0 : 199606 : 399615] lij? ␅
+TD7031815 ␆b
+TD83 [0 : 199606 : 399615] lij? b
+TD233 progress: -1 199606 lij
+TD84 [0 : 99737 : 199606] ex? ␅
+TD1831937 ␆a
+TD104 [0 : 99737 : 199606] ex? a
+TD120 progress: 1 99737 ex
+TD110 [99738 : 149640 : 199606] huishoud? ␅
+TD1487356 ␆a
+TD102 [99738 : 149640 : 199606] huishoud? a
+TD110 progress: 1 149640 huishoud
+TD138 [149641 : 174538 : 199606] kind? ␅
+TD1391600 ␆a
+TD92 [149641 : 174538 : 199606] kind? a
+TD103 progress: 1 174538 kind
+TD92 [174539 : 187068 : 199606] kromme? ␅
+TD1383740 ␆a
+TD96 [174539 : 187068 : 199606] kromme? a
+TD103 progress: 1 187068 kromme
+TD106 [187069 : 193269 : 199606] lat? ␅
+TD1351830 ␆a
+TD98 [187069 : 193269 : 199606] lat? a
+TD103 progress: 1 193269 lat
+TD106 [193270 : 196435 : 199606] leraars? ␅
+TD1399787 ␆a
+TD99 [193270 : 196435 : 199606] leraars? a
+TD100 progress: 1 196435 leraars
+TD101 [196436 : 197914 : 199606] li? ␅
+TD1535476 ␆b
+TD95 [196436 : 197914 : 199606] li? b
+TD107 progress: -1 197914 li
+TD115 [196436 : 197083 : 197914] levens? ␅
+TD1487660 ␆b
+TD75 [196436 : 197083 : 197914] levens? b
+TD77 progress: -1 197083 levens
+TD74 [196436 : 196728 : 197083] letter? ␅
+TD1560080 ␆a
+TD94 [196436 : 196728 : 197083] letter? a
+TD99 progress: 1 196728 letter
+TD103 [196729 : 196886 : 197083] leugen? ␅
+TD1616049 ␆a
+TD94 [196729 : 196886 : 197083] leugen? a
+TD108 progress: 1 196886 leugen
+TD122 [196887 : 196975 : 197083] leur? ␅
+TD1599186 ␆b
+TD101 [196887 : 196975 : 197083] leur? b
+TD98 progress: -1 196975 leur
+TD103 [196887 : 196923 : 196975] leuke? ␅
+TD3247765 ␆a
+TD100 [196887 : 196923 : 196975] leuke? a
+TD104 progress: 1 196923 leuke
+TD144 [196924 : 196948 : 196975] leun? ␅
+TD1815962 ␆a
+TD99 [196924 : 196948 : 196975] leun? a
+TD102 progress: 1 196948 leun
+TD305 [196949 : 196957 : 196975] leuning? ␅
+TD1735163 ␆b
+TD109 [196949 : 196957 : 196975] leuning? b
+TD106 progress: -1 196957 leuning
+TD154 [196949 : 196951 : 196957] leune? ␅
+TD2792545 ␆!
+TD103 [196949 : 196951 : 196957] leune? !
+TD408 [196949 : 196951 : 196956] leunen? ␅
+TD2430965 ␆it
+TD101 [196949 : 196951 : 196956] leunen? it
+TD121 progress: 0 196951 leunen
+TD27 [196949 : 196951 : 196956] <Done>.
+TD100 📋> ␅
+TD2783816 ␆🧩 Puzzel #524
+TD101 📋> 🧩 Puzzel #524
+TD12 📋> ␅
+TD38 ␆🤔 16 gokken
+TD6 📋> 🤔 16 gokken
+TD6 📋> ␅
+TD11 ␆⏱️ 29s
+TD5 📋> ⏱️ 29s
+TD4 📋> ␅
+TD311309 ␆🔗 alfagok.diginaut.net
+TD77 📋> 🔗 alfagok.diginaut.net
+TD6 📋> ␅
+TD144016 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #524\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD601 result: "\ud83e\udde9 Puzzel #524\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"
+TD20 result puzzle: 524
+TD8 result guesses: 16
+TD6 result time: 29s
+TD5 result link: alfagok.diginaut.net
+TD87 📆 2026-04-10 ? ␅
+TD207058 ␆
+TD96 📆 2026-04-10 ? 
