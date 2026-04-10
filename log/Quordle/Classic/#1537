@@ -1,0 +1,208 @@
+T1669.9265578299965 now: 2026-04-10T08:42:55EDT
+TD80 site: m-w.com/games/quordle/#/
+TD15 wordlist: nwl2023.txt
+TD5 num_words: 4
+TD88  ...␅
+TD4758736 ␆
+TD70  ...
+TD388231 > ␅
+TD691869 ␆*
+TD74 > *
+TD35794 ? ␅
+TD1891936 ␆3
+TD66 ? 3
+TD116 questioning: hares
+TD98 Classic #1 _____? ␅
+TD2911810 ␆nnnnn
+TD74 Classic #1 _____? nnnnn
+TD278 attempt: 0 HARES n n n n n
+TD77 Classic #2 _____? ␅
+TD1223584 ␆nMMMn
+TD67 Classic #2 _____? nMMMn
+TD134 attempt: 1 HARES n m m m n
+TD56 Classic #3 _____? ␅
+TD1111826 ␆nMMnn
+TD62 Classic #3 _____? nMMnn
+TD131 attempt: 2 HARES n m m n n
+TD59 Classic #4 _____? ␅
+TD991775 ␆nnnnn
+TD93 Classic #4 _____? nnnnn
+TD215 attempt: 3 HARES n n n n n
+TD364484 > ␅
+TD835208 ␆*
+TD72 > *
+TD2962 ? ␅
+TD1013000 ␆1
+TD75 ? 1
+TD125 questioning: lying
+TD103 Classic #1 _____ -AEHRS? ␅
+TD2551641 ␆nMnnn
+TD76 Classic #1 _____ -AEHRS? nMnnn
+TD149 attempt: 0 LYING n m n n n
+TD72 Classic #2 _____ ~AER -HS? ␅
+TD1071771 ␆nnnnn
+TD78 Classic #2 _____ ~AER -HS? nnnnn
+TD158 attempt: 1 LYING n n n n n
+TD79 Classic #3 _____ ~AR -EHS? ␅
+TD1247775 ␆nnnYn
+TD76 Classic #3 _____ ~AR -EHS? nnnYn
+TD163 attempt: 2 LYING n n n Y n
+TD79 Classic #4 _____ -AEHRS? ␅
+TD968620 ␆nnnMn
+TD78 Classic #4 _____ -AEHRS? nnnMn
+TD152 attempt: 3 LYING n n n m n
+TD381434 > ␅
+TD625364 ␆*
+TD73 > *
+TD727 ? ␅
+TD1487300 ␆1
+TD87 ? 1
+TD158 questioning: pouty
+TD134 Classic #1 _____ ~Y -AEGHILNRS? ␅
+TD3991717 ␆YnMnY
+TD112 Classic #1 _____ ~Y -AEGHILNRS? YnMnY
+TD228 attempt: 0 POUTY Y n m n Y
+TD111 Classic #2 _____ ~AER -GHILNSY? ␅
+TD1055500 ␆nnnMn
+TD102 Classic #2 _____ ~AER -GHILNSY? nnnMn
+TD235 attempt: 1 POUTY n n n m n
+TD112 Classic #3 ___N_ ~AR -EGHILSY? ␅
+TD1567557 ␆nnnnn
+TD131 Classic #3 ___N_ ~AR -EGHILSY? nnnnn
+TD215 attempt: 2 POUTY n n n n n
+TD112 Classic #4 _____ ~N -AEGHILRSY? ␅
+TD1375619 ␆nMnnn
+TD161 Classic #4 _____ ~N -AEGHILRSY? nMnnn
+TD222 attempt: 3 POUTY n m n n n
+TD381860 > ␅
+TD1561895 ␆*
+TD93 > *
+TD531 ? ␅
+TD4127245 ␄
+TD93 <EOF>
+TD408850 > ␅
+TD1319167 ␆* 2
+TD63 > * 2
+TD119520 ? ␅
+TD13632698 ␆9
+TD85 ? 9
+TD149 questioning: trefa
+TD131 Classic #1 P___Y ~U -AEGHILNORST? ␅
+TD3407747 ␆nnnnn
+TD99 Classic #1 P___Y ~U -AEGHILNORST? nnnnn
+TD216 attempt: 0 TREFA n n n n n
+TD115 Classic #2 _____ ~AERT -GHILNOPSUY? ␅
+TD1983512 ␆YYMnM
+TD98 Classic #2 _____ ~AERT -GHILNOPSUY? YYMnM
+TD224 attempt: 1 TREFA Y Y m n m
+TD115 Classic #3 ___N_ ~AR -EGHILOPSTUY? ␅
+TD1735715 ␆nYnnM
+TD97 Classic #3 ___N_ ~AR -EGHILOPSTUY? nYnnM
+TD203 attempt: 2 TREFA n Y n n m
+TD76 Classic #4 _____ ~NO -AEGHILPRSTUY? ␅
+TD1079468 ␆nnnnn
+TD108 Classic #4 _____ ~NO -AEGHILPRSTUY? nnnnn
+TD218 attempt: 3 TREFA n n n n n
+TD374493 > ␅
+TD801205 ␆*
+TD76 > *
+TD282 questioning: puppy
+TD79 Classic #1 P___Y ~U -AEFGHILNORST? ␅
+TD3191506 ␆YYYYY
+TD79 Classic #1 P___Y ~U -AEFGHILNORST? YYYYY
+TD141 attempt: 0 PUPPY Y Y Y Y Y
+TD80 Classic #2 TR___ ~AE -FGHILNOPSUY? ␅
+TD1167841 ␆nnnnn
+TD85 Classic #2 TR___ ~AE -FGHILNOPSUY? nnnnn
+TD153 attempt: 1 PUPPY n n n n n
+TD83 Classic #3 _R_N_ ~A -EFGHILOPSTUY? ␅
+TD1183790 ␆nnnnn
+TD97 Classic #3 _R_N_ ~A -EFGHILOPSTUY? nnnnn
+TD202 attempt: 2 PUPPY n n n n n
+TD127 Classic #4 _____ ~NO -AEFGHILPRSTUY? ␅
+TD1503454 ␆nnnnn
+TD93 Classic #4 _____ ~NO -AEFGHILPRSTUY? nnnnn
+TD194 attempt: 3 PUPPY n n n n n
+TD261325 > ␅
+TD834405 ␆*
+TD68 > *
+TD294 ? ␅
+TD4703836 ␄
+TD131 <EOF>
+TD277460 > ␅
+TD1426315 ␆* 3
+TD91 > * 3
+TD89990 ? ␅
+TD1653978 ␆4
+TD99 ? 4
+TD180 questioning: crank
+TD159 Classic #2 TR___ ~AE -FGHILNOPSUY? ␅
+TD4287716 ␆nYYnn
+TD77 Classic #2 TR___ ~AE -FGHILNOPSUY? nYYnn
+TD159 attempt: 1 CRANK n Y Y n n
+TD79 Classic #3 _R_N_ ~A -EFGHILOPSTUY? ␅
+TD1663659 ␆nYYYn
+TD94 Classic #3 _R_N_ ~A -EFGHILOPSTUY? nYYYn
+TD222 attempt: 2 CRANK n Y Y Y n
+TD115 Classic #4 _____ ~NO -AEFGHILPRSTUY? ␅
+TD1599493 ␆MnnMY
+TD75 Classic #4 _____ ~NO -AEFGHILPRSTUY? MnnMY
+TD363 attempt: 3 CRANK m n n m Y
+TD272669 > ␅
+TD1222916 ␆*
+TD95 > *
+TD386 questioning: brand
+TD122 Classic #2 TRA__ ~E -CFGHIKLNOPSUY? ␅
+TD4551417 ␆nYYnM
+TD83 Classic #2 TRA__ ~E -CFGHIKLNOPSUY? nYYnM
+TD238 attempt: 1 BRAND n Y Y n m
+TD159 Classic #3 _RAN_ -CEFGHIKLOPSTUY? ␅
+TD1151677 ␆YYYYY
+TD104 Classic #3 _RAN_ -CEFGHIKLOPSTUY? YYYYY
+TD213 attempt: 2 BRAND Y Y Y Y Y
+TD118 Classic #4 ____K ~CNO -AEFGHILPRSTUY? ␅
+TD1159622 ␆nnnMn
+TD97 Classic #4 ____K ~CNO -AEFGHILPRSTUY? nnnMn
+TD225 attempt: 3 BRAND n n n m n
+TD188048 > ␅
+TD731531 ␆*
+TD79 > *
+TD287 questioning: trade
+TD93 Classic #2 TRA__ ~DE -BCFGHIKLNOPSUY? ␅
+TD3639738 ␆YYYYY
+TD94 Classic #2 TRA__ ~DE -BCFGHIKLNOPSUY? YYYYY
+TD206 attempt: 1 TRADE Y Y Y Y Y
+TD123 Classic #4 ____K ~CNO -ABDEFGHILPRSTUY? ␅
+TD1151472 ␆nnnnn
+TD74 Classic #4 ____K ~CNO -ABDEFGHILPRSTUY? nnnnn
+TD147 attempt: 3 TRADE n n n n n
+TD81575 > ␅
+TD806252 ␆*
+TD61 > *
+TD256 questioning: knock
+TD69 Classic #4 ____K ~CNO -ABDEFGHILPRSTUY? ␅
+TD3591673 ␆YYYYY
+TD111 Classic #4 ____K ~CNO -ABDEFGHILPRSTUY? YYYYY
+TD225 attempt: 3 KNOCK Y Y Y Y Y
+TD110 📋> ␅
+TD4097485 ␆🙂 Daily Quordle 1537
+TD106 📋> 🙂 Daily Quordle 1537
+TD19 📋> ␅
+TD60 ␆5️⃣8️⃣
+TD11 📋> 5️⃣8️⃣
+TD10 📋> ␅
+TD21 ␆7️⃣9️⃣
+TD9 📋> 7️⃣9️⃣
+TD9 📋> ␅
+TD20 ␆m-w.com/games/quordle/
+TD10 📋> m-w.com/games/quordle/
+TD9 📋> ␅
+TD350123 ␆
+TD106 📋> 
+TD20 📋> ␅
+TD183998 ␄
+TD180 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1537\n5\ufe0f\u20e38\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1504 result: "\ud83d\ude42 Daily Quordle 1537\n5\ufe0f\u20e38\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD67 📆 2026-04-10 ? ␅
+TD206320 ␆
+TD98 📆 2026-04-10 ? 
