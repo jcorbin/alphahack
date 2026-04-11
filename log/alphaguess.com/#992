@@ -1,0 +1,102 @@
+T50219.086835252005 now: 2026-04-11T07:52:06EDT
+TD68 site: alphaguess.com
+TD157693 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof 9e065770399a17766e573777c48fb2ef70d7b871
+TD118  ...␅
+TD2937744 ␆
+TD98  ...
+TD183 [0 : 98216 : 196523] mach? ␅
+TD2247702 ␆a
+TD96 [0 : 98216 : 196523] mach? a
+TD119 progress: 1 98216 mach
+TD320 [98217 : 147371 : 196523] rhumb? ␅
+TD1351044 ␆a
+TD97 [98217 : 147371 : 196523] rhumb? a
+TD105 progress: 1 147371 rhumb
+TD116 [147372 : 171636 : 196523] ta? ␅
+TD1983845 ␆b
+TD96 [147372 : 171636 : 196523] ta? b
+TD103 progress: -1 171636 ta
+TD173 [147372 : 159483 : 171636] slop? ␅
+TD1351947 ␆b
+TD96 [147372 : 159483 : 171636] slop? b
+TD112 progress: -1 159483 slop
+TD108 [147372 : 153315 : 159483] sea? ␅
+TD1303067 ␆a
+TD94 [147372 : 153315 : 159483] sea? a
+TD106 progress: 1 153315 sea
+TD115 [153316 : 156351 : 159483] ship? ␅
+TD2495883 ␆a
+TD94 [153316 : 156351 : 159483] ship? a
+TD104 progress: 1 156351 ship
+TD114 [156352 : 157879 : 159483] sim? ␅
+TD2344814 ␆a
+TD102 [156352 : 157879 : 159483] sim? a
+TD103 progress: 1 157879 sim
+TD103 [157880 : 158529 : 159483] ski? ␅
+TD1487679 ␆a
+TD102 [157880 : 158529 : 159483] ski? a
+TD105 progress: 1 158529 ski
+TD136 [158530 : 159003 : 159483] slaps? ␅
+TD1342728 ␆a
+TD97 [158530 : 159003 : 159483] slaps? a
+TD106 progress: 1 159003 slaps
+TD106 [159004 : 159240 : 159483] slicken? ␅
+TD1464452 ␆b
+TD103 [159004 : 159240 : 159483] slicken? b
+TD105 progress: -1 159240 slicken
+TD105 [159004 : 159114 : 159240] sled? ␅
+TD1366820 ␆a
+TD98 [159004 : 159114 : 159240] sled? a
+TD101 progress: 1 159114 sled
+TD144 [159115 : 159147 : 159240] sleep? ␅
+TD1575445 ␆a
+TD96 [159115 : 159147 : 159240] sleep? a
+TD107 progress: 1 159147 sleep
+TD191 [159148 : 159186 : 159240] sleeve? ␅
+TD1375828 ␆a
+TD97 [159148 : 159186 : 159240] sleeve? a
+TD105 progress: 1 159186 sleeve
+TD168 [159187 : 159205 : 159240] slender? ␅
+TD1384219 ␆b
+TD102 [159187 : 159205 : 159240] slender? b
+TD106 progress: -1 159205 slender
+TD164 [159187 : 159196 : 159205] sleigh? ␅
+TD1295023 ␆b
+TD95 [159187 : 159196 : 159205] sleigh? b
+TD105 progress: -1 159196 sleigh
+TD271 [159187 : 159191 : 159196] sleevelet? ␅
+TD1287516 ␆a
+TD93 [159187 : 159191 : 159196] sleevelet? a
+TD107 progress: 1 159191 sleevelet
+TD185 [159192 : 159194 : 159196] sleeving? ␅
+TD1336025 ␆b
+TD107 [159192 : 159194 : 159196] sleeving? b
+TD106 progress: -1 159194 sleeving
+TD184 [159192 : 159193 : 159194] sleeves? ␅
+TD2855334 ␆it
+TD98 [159192 : 159193 : 159194] sleeves? it
+TD110 progress: 0 159193 sleeves
+TD27 [159192 : 159193 : 159194] <Done>.
+TD141 📋> ␅
+TD2585833 ␆🧩 Puzzle #992
+TD105 📋> 🧩 Puzzle #992
+TD13 📋> ␅
+TD41 ␆🤔 18 guesses
+TD7 📋> 🤔 18 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 26s
+TD6 📋> ⏱️ 26s
+TD5 📋> ␅
+TD278685 ␆🔗 alphaguess.com/992
+TD97 📋> 🔗 alphaguess.com/992
+TD13 📋> ␅
+TD126586 ␄
+TD135 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #992\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 26s\n\ud83d\udd17 alphaguess.com/992"}
+TD91 result: "\ud83e\udde9 Puzzle #992\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 26s\n\ud83d\udd17 alphaguess.com/992"
+TD15 result puzzle: 992
+TD7 result guesses: 18
+TD6 result time: 26s
+TD5 result link: alphaguess.com/992
+TD92 📆 2026-04-11 ? ␅
+TD137263 ␆
+TD115 📆 2026-04-11 ? 
