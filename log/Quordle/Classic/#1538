@@ -1,0 +1,181 @@
+T52011.912708833 now: 2026-04-11T08:21:59EDT
+TD113 site: m-w.com/games/quordle/#/
+TD22 wordlist: nwl2023.txt
+TD7 num_words: 4
+TD165  ...␅
+TD190805 ␆
+TD101  ...
+TD957184 > ␅
+TD9146770 ␆*
+TD108 > *
+TD112267 ? ␅
+TD1727644 ␆3
+TD105 ? 3
+TD206 questioning: stole
+TD180 Classic #1 _____? ␅
+TD2759525 ␆nnnnM
+TD100 Classic #1 _____? nnnnM
+TD436 attempt: 0 STOLE n n n n m
+TD119 Classic #2 _____? ␅
+TD1151350 ␆nnnMM
+TD110 Classic #2 _____? nnnMM
+TD267 attempt: 1 STOLE n n n m m
+TD113 Classic #3 _____? ␅
+TD1799628 ␆MMnnY
+TD114 Classic #3 _____? MMnnY
+TD265 attempt: 2 STOLE m m n n Y
+TD136 Classic #4 _____? ␅
+TD1183394 ␆nMnnn
+TD100 Classic #4 _____? nMnnn
+TD256 attempt: 3 STOLE n m n n n
+TD995088 > ␅
+TD932591 ␆*
+TD99 > *
+TD6487 ? ␅
+TD825286 ␆1
+TD90 ? 1
+TD173 questioning: ready
+TD149 Classic #1 _____ ~E -LOST? ␅
+TD2439719 ␆MMnnn
+TD94 Classic #1 _____ ~E -LOST? MMnnn
+TD225 attempt: 0 READY m m n n n
+TD108 Classic #2 _____ ~EL -OST? ␅
+TD1639734 ␆MMnnn
+TD112 Classic #2 _____ ~EL -OST? MMnnn
+TD259 attempt: 1 READY m m n n n
+TD130 Classic #3 ____E ~ST -LO? ␅
+TD1615457 ␆nMMnn
+TD104 Classic #3 ____E ~ST -LO? nMMnn
+TD274 attempt: 2 READY n m m n n
+TD148 Classic #4 _____ ~T -ELOS? ␅
+TD1015697 ␆nnnnn
+TD117 Classic #4 _____ ~T -ELOS? nnnnn
+TD269 attempt: 3 READY n n n n n
+TD1130735 > ␅
+TD884544 ␆*
+TD110 > *
+TD1620 ? ␅
+TD3662374 ␆8
+TD177 ? 8
+TD286 questioning: grief
+TD247 Classic #1 _____ ~ER -ADLOSTY? ␅
+TD3375383 ␆nMMYn
+TD114 Classic #1 _____ ~ER -ADLOSTY? nMMYn
+TD270 attempt: 0 GRIEF n m m Y n
+TD140 Classic #2 _____ ~ELR -ADOSTY? ␅
+TD1863426 ␆nMYYn
+TD112 Classic #2 _____ ~ELR -ADOSTY? nMYYn
+TD269 attempt: 1 GRIEF n m Y Y n
+TD138 Classic #3 ____E ~AST -DLORY? ␅
+TD1407493 ␆nnnMn
+TD112 Classic #3 ____E ~AST -DLORY? nnnMn
+TD268 attempt: 2 GRIEF n n n m n
+TD139 Classic #4 _____ ~T -ADELORSY? ␅
+TD1063381 ␆nnMnn
+TD109 Classic #4 _____ ~T -ADELORSY? nnMnn
+TD257 attempt: 3 GRIEF n n m n n
+TD978160 > ␅
+TD677484 ␆*
+TD110 > *
+TD452 questioning: plier
+TD144 Classic #1 ___E_ ~IR -ADFGLOSTY? ␅
+TD3239555 ␆nnMYY
+TD111 Classic #1 ___E_ ~IR -ADFGLOSTY? nnMYY
+TD277 attempt: 0 PLIER n n m Y Y
+TD141 Classic #2 __IE_ ~LR -ADFGOSTY? ␅
+TD1415354 ␆YYYYY
+TD115 Classic #2 __IE_ ~LR -ADFGOSTY? YYYYY
+TD252 attempt: 1 PLIER Y Y Y Y Y
+TD137 Classic #3 ____E ~AST -DFGILORY? ␅
+TD1495454 ␆YnnMn
+TD109 Classic #3 ____E ~AST -DFGILORY? YnnMn
+TD261 attempt: 2 PLIER Y n n m n
+TD147 Classic #4 _____ ~IT -ADEFGLORSY? ␅
+TD2559533 ␆YnMnn
+TD103 Classic #4 _____ ~IT -ADEFGLORSY? YnMnn
+TD262 attempt: 3 PLIER Y n m n n
+TD647259 > ␅
+TD704977 ␆*
+TD105 > *
+TD448 questioning: paste
+TD145 Classic #1 ___ER ~I -ADFGLOPSTY? ␅
+TD2966856 ␆nnnnM
+TD119 Classic #1 ___ER ~I -ADFGLOPSTY? nnnnM
+TD277 attempt: 0 PASTE n n n n m
+TD137 Classic #3 P___E ~AST -DFGILORY? ␅
+TD1199367 ␆YYYYY
+TD115 Classic #3 P___E ~AST -DFGILORY? YYYYY
+TD260 attempt: 2 PASTE Y Y Y Y Y
+TD139 Classic #4 P____ ~IT -ADEFGLORSY? ␅
+TD1903560 ␆YnnMn
+TD149 Classic #4 P____ ~IT -ADEFGLORSY? YnnMn
+TD375 attempt: 3 PASTE Y n n m n
+TD418615 > ␅
+TD1108943 ␆*
+TD115 > *
+TD743 ? ␅
+TD5687201 ␄
+TD196 <EOF>
+TD207739 > ␅
+TD1087753 ␆* 1
+TD106 > * 1
+TD95667 ? ␅
+TD5072458 ␆4
+TD104 ? 4
+TD203 questioning: nicer
+TD176 Classic #1 ___ER ~I -ADFGLOPSTY? ␅
+TD3975566 ␆MYnYY
+TD99 Classic #1 ___ER ~I -ADFGLOPSTY? MYnYY
+TD216 attempt: 0 NICER m Y n Y Y
+TD123 Classic #4 P____ ~IT -ADEFGLORSY? ␅
+TD1999585 ␆nYMnn
+TD133 Classic #4 P____ ~IT -ADEFGLORSY? nYMnn
+TD316 attempt: 3 NICER n Y m n n
+TD196819 > ␅
+TD818869 ␆*
+TD99 > *
+TD432 questioning: pitch
+TD142 Classic #1 _I_ER ~N -ACDFGLOPSTY? ␅
+TD3007343 ␆nYnnn
+TD100 Classic #1 _I_ER ~N -ACDFGLOPSTY? nYnnn
+TD257 attempt: 0 PITCH n Y n n n
+TD137 Classic #4 PI___ ~CT -ADEFGLNORSY? ␅
+TD1071517 ␆YYYYY
+TD108 Classic #4 PI___ ~CT -ADEFGLNORSY? YYYYY
+TD270 attempt: 3 PITCH Y Y Y Y Y
+TD195567 > ␅
+TD771770 ␆*
+TD71 > *
+TD328 ? ␅
+TD2015692 ␆2
+TD121 ? 2
+TD164 questioning: miner
+TD118 Classic #1 _I_ER ~N -ACDFGHLOPSTY? ␅
+TD3463918 ␆YYYYY
+TD134 Classic #1 _I_ER ~N -ACDFGHLOPSTY? YYYYY
+TD322 attempt: 0 MINER Y Y Y Y Y
+TD138 📋> ␅
+TD1167451 ␆
+TD76 📋> 
+TD7 📋> ␅
+TD3239940 ␆🙂 Daily Quordle 1538
+TD72 📋> 🙂 Daily Quordle 1538
+TD6 📋> ␅
+TD35 ␆8️⃣4️⃣
+TD4 📋> 8️⃣4️⃣
+TD3 📋> ␅
+TD10 ␆5️⃣7️⃣
+TD3 📋> 5️⃣7️⃣
+TD2 📋> ␅
+TD7 ␆m-w.com/games/quordle/
+TD3 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD279709 ␆
+TD101 📋> 
+TD14 📋> ␅
+TD143798 ␄
+TD172 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\n\ud83d\ude42 Daily Quordle 1538\n8\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1380 result: "\n\ud83d\ude42 Daily Quordle 1538\n8\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD57 📆 2026-04-11 ? ␅
+TD166461 ␆
+TD98 📆 2026-04-11 ? 
