@@ -1,0 +1,247 @@
+T52308.35566835501 now: 2026-04-11T08:26:55EDT
+TD117 site: squareword.org
+TD28 wordlist: nwl2023.txt
+TD43  ...␅
+TD182877 ␆
+TD104  ...
+TD75 🧩  ? ␅
+TD4831957 ␆#1531
+TD106 🧩  ? #1531
+TD282 puzzle_id: #1531
+TD297 > ␅
+TD543341 ␆
+TD101 > 
+TD390 > ␅
+TD2215517 ␆*
+TD102 > *
+TD977147 try? ␅
+TD782698 ␆1
+TD99 try? 1
+TD370 questioning: ["arose", "#5"]
+TD319 #1 <IndexError>  📋 "arose" ? ␅
+TD4183154 ␆_____ ~ RSE
+TD79 #1 <IndexError>  📋 "arose" ? _____ ~ RSE
+TD458 attempt 0 AROSE n m n m m
+TD84 #2 <IndexError>  📋 "arose" ? ␅
+TD2375423 ␆_____ ~ AOE
+TD78 #2 <IndexError>  📋 "arose" ? _____ ~ AOE
+TD189 attempt 1 AROSE m n m n m
+TD86 #3 <IndexError>  📋 "arose" ? ␅
+TD2247840 ␆A_O__
+TD97 #3 <IndexError>  📋 "arose" ? A_O__
+TD252 attempt 2 AROSE Y n Y n n
+T8.488954936998198 now: 2026-04-11T08:27:27EDT
+TD117 questioning: ["arose", "#5"]
+TD174 #4 <IndexError>  📋 "arose" ? ␅
+TD4704968 ␆_____ ~ AE
+TD70 #4 <IndexError>  📋 "arose" ? _____ ~ AE
+TD495 attempt 3 AROSE m n n n m
+TD92 #5 <IndexError>  📋 "arose" ? ␅
+TD2415187 ␆_R___ ~ SE
+TD72 #5 <IndexError>  📋 "arose" ? _R___ ~ SE
+TD188 attempt 4 AROSE n Y n m m
+TD220 ? ␅
+TD351432 ␆
+TD72 ? 
+TD100 question done
+TD190 > ␅
+TD623875 ␆*
+TD96 > *
+TD849645 try? ␅
+TD2222109 ␆4
+TD99 try? 4
+TD318 questioning: ["ocean", "#2"]
+TD268 #1 _____ ~ERS -AO  📋 "ocean" ? ␅
+TD3903293 ␆__E__ ~ RS
+TD81 #1 _____ ~ERS -AO  📋 "ocean" ? __E__ ~ RS
+TD191 attempt 0 OCEAN n n Y n n
+TD101 #2 _____ ~AEO -RS  📋 "ocean" ? ␅
+TD2695717 ␆_____ ~ AOEC
+TD83 #2 _____ ~AEO -RS  📋 "ocean" ? _____ ~ AOEC
+TD183 attempt 1 OCEAN m m m m n
+TD101 #3 A_O__ -ERS  📋 "ocean" ? ␅
+TD2319787 ␆.
+TD96 #3 A_O__ -ERS  📋 "ocean" ? .
+TD279 attempt 2 OCEAN n n n n n
+TD90 #4 _____ ~AE -ORS  📋 "ocean" ? ␅
+TD2255399 ␆___A_ ~ E
+TD99 #4 _____ ~AE -ORS  📋 "ocean" ? ___A_ ~ E
+TD267 attempt 3 OCEAN n n m Y n
+TD157 #5 _R___ ~ES -AO  📋 "ocean" ? ␅
+TD4071460 ␆_RE__ ~ S
+TD82 #5 _R___ ~ES -AO  📋 "ocean" ? _RE__ ~ S
+TD180 attempt 4 OCEAN n n Y n n
+TD242 ? ␅
+TD559667 ␆
+TD98 ? 
+TD134 question done
+TD332 > ␅
+TD5719950 ␆*
+TD100 > *
+TD555304 questioning: ["cameo", "#2"]
+TD180 #1 __E__ ~RS -ACNO  📋 "cameo" ? ␅
+TD5340083 ␆.
+TD144 #1 __E__ ~RS -ACNO  📋 "cameo" ? .
+TD264 attempt 0 CAMEO n n n n n
+TD92 #2 _____ ~ACEO -NRS  📋 "cameo" ? ␅
+TD575853 ␆/it
+TD101 #2 _____ ~ACEO -NRS  📋 "cameo" ? /it
+TD263 attempt 1 CAMEO Y Y Y Y Y
+TD98 #3 A_O__ -ACENORS  📋 "cameo" ? ␅
+TD847389 ␆.
+TD100 #3 A_O__ -ACENORS  📋 "cameo" ? .
+TD267 attempt 2 CAMEO n n n n n
+TD96 #4 ___A_ ~E -CNORS  📋 "cameo" ? ␅
+TD3023759 ␆___A_ ~ EM
+TD81 #4 ___A_ ~E -CNORS  📋 "cameo" ? ___A_ ~ EM
+TD153 attempt 3 CAMEO n n m m n
+TD89 #5 _RE__ ~S -ACNO  📋 "cameo" ? ␅
+TD1063435 ␆.
+TD80 #5 _RE__ ~S -ACNO  📋 "cameo" ? .
+TD190 attempt 4 CAMEO n n n n n
+TD182 ? ␅
+TD159715 ␆
+TD100 ? 
+TD112 question done
+TD295 > ␅
+TD903331 ␆*
+TD99 > *
+TD696638 questioning: ["sherd", "#1"]
+TD192 #1 __E__ ~RS -ACEMNO  📋 "sherd" ? ␅
+TD3167105 ␆/it
+TD97 #1 __E__ ~RS -ACEMNO  📋 "sherd" ? /it
+TD260 attempt 0 SHERD Y Y Y Y Y
+TD108 #3 A_O__ -ACEMNORS  📋 "sherd" ? ␅
+TD1191373 ␆.
+TD102 #3 A_O__ -ACEMNORS  📋 "sherd" ? .
+TD191 attempt 2 SHERD n n n n n
+TD66 #4 ___A_ ~EM -ACNORS  📋 "sherd" ? ␅
+TD1095624 ␆.
+TD86 #4 ___A_ ~EM -ACNORS  📋 "sherd" ? .
+TD260 attempt 3 SHERD n n m n n
+TD89 #5 _RE__ ~S -ACEMNO  📋 "sherd" ? ␅
+TD1143599 ␆.
+TD97 #5 _RE__ ~S -ACEMNO  📋 "sherd" ? .
+TD268 attempt 4 SHERD m n Y n n
+TD248 ? ␅
+TD231339 ␆
+TD104 ? 
+TD114 question done
+TD319 > ␅
+TD504515 ␆*
+TD99 > *
+TD1399494 questioning: ["metal", "#4"]
+TD190 #3 A_O__ -ACDEHMNORS  📋 "metal" ? ␅
+TD6823349 ␆A_O_L ~ TL
+TD104 #3 A_O__ -ACDEHMNORS  📋 "metal" ? A_O_L ~ TL
+TD254 attempt 2 METAL n n m n Y
+TD175 #4 ___A_ ~EM -ACDHNORS  📋 "metal" ? ␅
+TD799329 ␆/it
+TD95 #4 ___A_ ~EM -ACDHNORS  📋 "metal" ? /it
+TD259 attempt 3 METAL Y Y Y Y Y
+TD98 #5 _RE__ ~S -ACDHMNOR  📋 "metal" ? ␅
+TD663989 ␆.
+TD102 #5 _RE__ ~S -ACDHMNOR  📋 "metal" ? .
+TD250 attempt 4 METAL n n n n n
+TD233 ? ␅
+TD167434 ␆
+TD102 ? 
+TD115 question done
+TD357 > ␅
+TD623049 ␆*
+TD80 > *
+TD1286634 questioning: ["atoll", "#3"]
+TD209 #3 A_O_L ~T -ACDEHMNORS  📋 "atoll" ? ␅
+TD4248858 ␆/it
+TD100 #3 A_O_L ~T -ACDEHMNORS  📋 "atoll" ? /it
+TD254 attempt 2 ATOLL Y Y Y Y Y
+TD103 #5 _RE__ ~S -ACDEHLMNORT  📋 "atoll" ? ␅
+TD2239823 ␆.
+TD97 #5 _RE__ ~S -ACDEHLMNORT  📋 "atoll" ? .
+TD260 attempt 4 ATOLL n n n n n
+TD302 ? ␅
+TD175353 ␆
+TD84 ? 
+TD85 question done
+TD224 > ␅
+TD471496 ␆*
+TD95 > *
+TD916345 questioning: ["preys", "#5"]
+TD248 #5 _RE__ ~S -ACDEHLMNORT  📋 "preys" ? ␅
+TD7155835 ␆/it
+TD108 #5 _RE__ ~S -ACDEHLMNORT  📋 "preys" ? /it
+TD280 attempt 4 PREYS Y Y Y Y Y
+TD267 ? ␅
+TD3263499 ␆squareword.org 1531: 7 guesses
+TD89 ? squareword.org 1531: 7 guesses
+TD436 ? ␅
+TD38 ␆
+TD7 ? 
+TD37 question done
+TD21265 📋> ␅
+TD66 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟨🟩🟨🟩
+TD2 📋> 🟩🟨🟩🟨🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟨🟩🟩🟨🟨
+TD2 📋> 🟨🟩🟩🟨🟨
+TD2 📋> ␅
+TD5 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD233962 ␆#squareword #squareword1531
+TD100 📋> #squareword #squareword1531
+TD13 📋> ␅
+TD143507 ␄
+TD172 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1531"}
+TD524 📋> ␅
+TD175365 ␆
+TD105 📋> 
+TD12 📋> ␅
+TD1624193 ␆squareword.org 1531: 7 guesses
+TD102 📋> squareword.org 1531: 7 guesses
+TD12 📋> ␅
+TD47 ␆
+TD7 📋> 
+TD5 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟨🟩🟨🟩
+TD14 📋> 🟩🟨🟩🟨🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟩🟩🟨🟨
+TD6 📋> 🟨🟩🟩🟨🟨
+TD4 📋> ␅
+TD10 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> ␅
+TD271541 ␆#squareword #squareword1531
+TD102 📋> #squareword #squareword1531
+TD12 📋> ␅
+TD351916 ␄
+TD180 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\nsquareword.org 1531: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1531"}
+TD603 result: "\nsquareword.org 1531: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1531"
+TD93 📆 2026-04-11 ? ␅
+TD407048 ␆
+TD103 📆 2026-04-11 ? 
