@@ -1,0 +1,178 @@
+T80251.156733627 now: 2026-04-12T09:21:30EDT
+TD76 site: m-w.com/games/quordle/#/
+TD14 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD83  ...␅
+TD158973 ␆
+TD92  ...
+TD400810 > ␅
+TD3959038 ␆*
+TD70 > *
+TD44776 ? ␅
+TD875025 ␆1
+TD69 ? 1
+TD128 questioning: saner
+TD102 Classic #1 _____? ␅
+TD2847788 ␆YMnnn
+TD61 Classic #1 _____? YMnnn
+TD219 attempt: 0 SANER Y m n n n
+TD59 Classic #2 _____? ␅
+TD1687833 ␆nnMYn
+TD86 Classic #2 _____? nnMYn
+TD237 attempt: 1 SANER n n m Y n
+TD111 Classic #3 _____? ␅
+TD1167421 ␆nnnnn
+TD68 Classic #3 _____? nnnnn
+TD131 attempt: 2 SANER n n n n n
+TD62 Classic #4 _____? ␅
+TD1407904 ␆nMnMn
+TD98 Classic #4 _____? nMnMn
+TD229 attempt: 3 SANER n m n m n
+TD330702 > ␅
+TD1164952 ␆*
+TD68 > *
+TD2504 ? ␅
+TD1053373 ␆1
+TD75 ? 1
+TD130 questioning: pouty
+TD109 Classic #1 S____ ~A -ENR? ␅
+TD2623716 ␆nnnMn
+TD95 Classic #1 S____ ~A -ENR? nnnMn
+TD230 attempt: 0 POUTY n n n m n
+TD110 Classic #2 ___E_ ~N -ARS? ␅
+TD1263758 ␆nMnMn
+TD95 Classic #2 ___E_ ~N -ARS? nMnMn
+TD217 attempt: 1 POUTY n m n m n
+TD115 Classic #3 _____ -AENRS? ␅
+TD1415428 ␆nMnnn
+TD79 Classic #3 _____ -AENRS? nMnnn
+TD153 attempt: 2 POUTY n m n n n
+TD75 Classic #4 _____ ~AE -NRS? ␅
+TD2359745 ␆nnnnn
+TD97 Classic #4 _____ ~AE -NRS? nnnnn
+TD218 attempt: 3 POUTY n n n n n
+TD363470 > ␅
+TD892185 ␆*
+TD95 > *
+TD520 ? ␅
+TD3295414 ␆1
+TD79 ? 1
+TD153 questioning: often
+TD147 Classic #1 S____ ~AT -ENOPRUY? ␅
+TD3335771 ␆nnMnn
+TD98 Classic #1 S____ ~AT -ENOPRUY? nnMnn
+TD230 attempt: 0 OFTEN n n m n n
+TD109 Classic #2 ___E_ ~NOT -APRSUY? ␅
+TD1535494 ␆YYYYY
+TD96 Classic #2 ___E_ ~NOT -APRSUY? YYYYY
+TD213 attempt: 1 OFTEN Y Y Y Y Y
+TD87 Classic #3 _____ ~O -AENPRSTUY? ␅
+TD2359788 ␆Mnnnn
+TD66 Classic #3 _____ ~O -AENPRSTUY? Mnnnn
+TD155 attempt: 2 OFTEN m n n n n
+TD75 Classic #4 _____ ~AE -NOPRSTUY? ␅
+TD1047517 ␆nnnMn
+TD98 Classic #4 _____ ~AE -NOPRSTUY? nnnMn
+TD221 attempt: 3 OFTEN n n n m n
+TD284499 > ␅
+TD1251227 ␆*
+TD77 > *
+TD781 ? ␅
+TD1007529 ␆1
+TD102 ? 1
+TD158 questioning: medal
+TD105 Classic #1 S____ ~AT -EFNOPRUY? ␅
+TD2831406 ␆nnnMM
+TD89 Classic #1 S____ ~AT -EFNOPRUY? nnnMM
+TD221 attempt: 0 MEDAL n n n m m
+TD111 Classic #3 _____ ~O -AEFNPRSTUY? ␅
+TD3335656 ␆nnnnM
+TD101 Classic #3 _____ ~O -AEFNPRSTUY? nnnnM
+TD217 attempt: 2 MEDAL n n n n m
+TD111 Classic #4 _____ ~AE -FNOPRSTUY? ␅
+TD3159426 ␆nMnMn
+TD90 Classic #4 _____ ~AE -FNOPRSTUY? nMnMn
+TD221 attempt: 3 MEDAL n m n m n
+TD279699 > ␅
+TD1136247 ␆*
+TD92 > *
+TD491 ? ␅
+TD1968068 ␄
+TD131 <EOF>
+TD293251 > ␅
+TD4705906 ␆* 3
+TD111 > * 3
+TD100760 ? ␅
+TD2059333 ␆2
+TD97 ? 2
+TD175 questioning: block
+TD157 Classic #1 S____ ~ALT -DEFMNOPRUY? ␅
+TD4488033 ␆nMnnY
+TD99 Classic #1 S____ ~ALT -DEFMNOPRUY? nMnnY
+TD226 attempt: 0 BLOCK n m n n Y
+TD122 Classic #3 _____ ~LO -ADEFMNPRSTUY? ␅
+TD1207722 ␆nYYYY
+TD95 Classic #3 _____ ~LO -ADEFMNPRSTUY? nYYYY
+TD218 attempt: 2 BLOCK n Y Y Y Y
+TD115 Classic #4 _____ ~AE -DFLMNOPRSTUY? ␅
+TD1350780 ␆nnnnM
+TD83 Classic #4 _____ ~AE -DFLMNOPRSTUY? nnnnM
+TD223 attempt: 3 BLOCK n n n n m
+TD284655 > ␅
+TD698998 ␆*
+TD82 > *
+TD311 questioning: stalk
+TD106 Classic #1 S___K ~ALT -BCDEFMNOPRUY? ␅
+TD2879870 ␆YYYYY
+TD114 Classic #1 S___K ~ALT -BCDEFMNOPRUY? YYYYY
+TD216 attempt: 0 STALK Y Y Y Y Y
+TD116 Classic #3 _LOCK -ABDEFMNPRSTUY? ␅
+TD1327275 ␆nnnMY
+TD76 Classic #3 _LOCK -ABDEFMNPRSTUY? nnnMY
+TD167 attempt: 2 STALK n n n m Y
+TD87 Classic #4 _____ ~AEK -BCDFLMNOPRSTUY? ␅
+TD1199771 ␆nnYnM
+TD98 Classic #4 _____ ~AEK -BCDFLMNOPRSTUY? nnYnM
+TD217 attempt: 3 STALK n n Y n m
+TD191465 > ␅
+TD560228 ␆*
+TD96 > *
+TD374 questioning: clock
+TD117 Classic #3 _LOCK -ABDEFMNPRSTUY? ␅
+TD3903453 ␆YYYYY
+TD98 Classic #3 _LOCK -ABDEFMNPRSTUY? YYYYY
+TD206 attempt: 2 CLOCK Y Y Y Y Y
+TD117 Classic #4 __A__ ~EK -BCDFLMNOPRSTUY? ␅
+TD1343490 ␆nnnnM
+TD76 Classic #4 __A__ ~EK -BCDFLMNOPRSTUY? nnnnM
+TD149 attempt: 3 CLOCK n n n n m
+TD96141 > ␅
+TD751692 ␆*
+TD90 > *
+TD366 questioning: awake
+TD78 Classic #4 __A__ ~EK -BCDFLMNOPRSTUY? ␅
+TD3407669 ␆YYYYY
+TD93 Classic #4 __A__ ~EK -BCDFLMNOPRSTUY? YYYYY
+TD177 attempt: 3 AWAKE Y Y Y Y Y
+TD82 📋> ␅
+TD5672768 ␆🙂 Daily Quordle 1539
+TD109 📋> 🙂 Daily Quordle 1539
+TD11 📋> ␅
+TD63 ␆6️⃣3️⃣
+TD7 📋> 6️⃣3️⃣
+TD6 📋> ␅
+TD16 ␆7️⃣8️⃣
+TD5 📋> 7️⃣8️⃣
+TD4 📋> ␅
+TD14 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD318568 ␆
+TD95 📋> 
+TD13 📋> ␅
+TD192060 ␄
+TD172 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1539\n6\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1522 result: "\ud83d\ude42 Daily Quordle 1539\n6\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD66 📆 2026-04-12 ? ␅
+TD158684 ␆
+TD103 📆 2026-04-12 ? 
