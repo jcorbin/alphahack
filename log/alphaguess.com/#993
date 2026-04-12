@@ -1,0 +1,70 @@
+T78221.348359202 now: 2026-04-12T08:47:40EDT
+TD91 site: alphaguess.com
+TD139154 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof 9e065770399a17766e573777c48fb2ef70d7b871
+TD119  ...␅
+TD28458 ␆
+TD102  ...
+TD182 [0 : 98216 : 196523] mach? ␅
+TD4766925 ␆b
+TD95 [0 : 98216 : 196523] mach? b
+TD115 progress: -1 98216 mach
+TD119 [0 : 47380 : 98216] dis? ␅
+TD1519800 ␆b
+TD94 [0 : 47380 : 98216] dis? b
+TD103 progress: -1 47380 dis
+TD114 [0 : 23681 : 47380] camp? ␅
+TD1415430 ␆a
+TD75 [0 : 23681 : 47380] camp? a
+TD76 progress: 1 23681 camp
+TD80 [23682 : 35524 : 47380] convention? ␅
+TD1513068 ␆b
+TD102 [23682 : 35524 : 47380] convention? b
+TD102 progress: -1 35524 convention
+TD219 [23682 : 29602 : 35524] circuit? ␅
+TD1406750 ␆b
+TD108 [23682 : 29602 : 35524] circuit? b
+TD107 progress: -1 29602 circuit
+TD120 [23682 : 26634 : 29602] cep? ␅
+TD1359539 ␆b
+TD98 [23682 : 26634 : 29602] cep? b
+TD106 progress: -1 26634 cep
+TD107 [23682 : 25103 : 26634] carp? ␅
+TD1431381 ␆b
+TD75 [23682 : 25103 : 26634] carp? b
+TD83 progress: -1 25103 carp
+TD83 [23682 : 24227 : 25103] cap? ␅
+TD1415852 ␆a
+TD106 [23682 : 24227 : 25103] cap? a
+TD114 progress: 1 24227 cap
+TD104 [24228 : 24662 : 25103] carbon? ␅
+TD1335904 ␆a
+TD101 [24228 : 24662 : 25103] carbon? a
+TD111 progress: 1 24662 carbon
+TD118 [24663 : 24862 : 25103] care? ␅
+TD2279650 ␆it
+TD101 [24663 : 24862 : 25103] care? it
+TD111 progress: 0 24862 care
+TD27 [24663 : 24862 : 25103] <Done>.
+TD91 📋> ␅
+TD2584367 ␆🧩 Puzzle #993
+TD79 📋> 🧩 Puzzle #993
+TD7 📋> ␅
+TD28 ␆🤔 10 guesses
+TD3 📋> 🤔 10 guesses
+TD3 📋> ␅
+TD8 ␆⏱️ 13s
+TD3 📋> ⏱️ 13s
+TD2 📋> ␅
+TD263420 ␆🔗 alphaguess.com/993
+TD82 📋> 🔗 alphaguess.com/993
+TD8 📋> ␅
+TD127661 ␄
+TD142 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #993\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 13s\n\ud83d\udd17 alphaguess.com/993"}
+TD532 result: "\ud83e\udde9 Puzzle #993\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 13s\n\ud83d\udd17 alphaguess.com/993"
+TD11 result puzzle: 993
+TD4 result guesses: 10
+TD3 result time: 13s
+TD2 result link: alphaguess.com/993
+TD60 📆 2026-04-12 ? ␅
+TD143091 ␆
+TD82 📆 2026-04-12 ? 
