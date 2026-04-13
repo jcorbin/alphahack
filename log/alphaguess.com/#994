@@ -1,0 +1,90 @@
+T160996.52799185802 now: 2026-04-13T07:47:16EDT
+TD139 site: alphaguess.com
+TD130835 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof 1173fb1799a7a7556fbc6e081fdf8ac61db2311a
+TD93  ...␅
+TD3707567 ␆
+TD103  ...
+TD172 [0 : 98216 : 196523] mach? ␅
+TD5351487 ␆a
+TD95 [0 : 98216 : 196523] mach? a
+TD115 progress: 1 98216 mach
+TD301 [98217 : 147371 : 196523] rhumb? ␅
+TD1607574 ␆b
+TD106 [98217 : 147371 : 196523] rhumb? b
+TD105 progress: -1 147371 rhumb
+TD106 [98217 : 122777 : 147371] parr? ␅
+TD1375203 ␆a
+TD95 [98217 : 122777 : 147371] parr? a
+TD105 progress: 1 122777 parr
+TD110 [122778 : 135068 : 147371] proper? ␅
+TD1296170 ␆a
+TD104 [122778 : 135068 : 147371] proper? a
+TD105 progress: 1 135068 proper
+TD114 [135069 : 140516 : 147371] rec? ␅
+TD1320134 ␆a
+TD99 [135069 : 140516 : 147371] rec? a
+TD111 progress: 1 140516 rec
+TD110 [140517 : 143940 : 147371] reminisce? ␅
+TD1246763 ␆a
+TD95 [140517 : 143940 : 147371] reminisce? a
+TD110 progress: 1 143940 reminisce
+TD127 [143941 : 145192 : 147371] res? ␅
+TD1423761 ␆b
+TD94 [143941 : 145192 : 147371] res? b
+TD108 progress: -1 145192 res
+TD115 [143941 : 144412 : 145192] rep? ␅
+TD1335781 ␆a
+TD70 [143941 : 144412 : 145192] rep? a
+TD82 progress: 1 144412 rep
+TD106 [144413 : 144802 : 145192] repp? ␅
+TD1416606 ␆b
+TD102 [144413 : 144802 : 145192] repp? b
+TD106 progress: -1 144802 repp
+TD161 [144413 : 144601 : 144802] replace? ␅
+TD1350771 ␆a
+TD77 [144413 : 144601 : 144802] replace? a
+TD80 progress: 1 144601 replace
+TD111 [144602 : 144700 : 144802] replumb? ␅
+TD1247897 ␆a
+TD99 [144602 : 144700 : 144802] replumb? a
+TD150 progress: 1 144700 replumb
+TD132 [144701 : 144710 : 144802] repo? ␅
+TD1303379 ␆a
+TD97 [144701 : 144710 : 144802] repo? a
+TD105 progress: 1 144710 repo
+TD105 [144711 : 144752 : 144802] repos? ␅
+TD1496151 ␆b
+TD103 [144711 : 144752 : 144802] repos? b
+TD107 progress: -1 144752 repos
+TD257 [144711 : 144729 : 144752] repopularize? ␅
+TD1368061 ␆a
+TD92 [144711 : 144729 : 144752] repopularize? a
+TD114 progress: 1 144729 repopularize
+TD127 [144730 : 144739 : 144752] report? ␅
+TD2334882 ␆it
+TD97 [144730 : 144739 : 144752] report? it
+TD111 progress: 0 144739 report
+TD23 [144730 : 144739 : 144752] <Done>.
+TD81 📋> ␅
+TD2688765 ␆🧩 Puzzle #994
+TD120 📋> 🧩 Puzzle #994
+TD13 📋> ␅
+TD47 ␆🤔 15 guesses
+TD10 📋> 🤔 15 guesses
+TD8 📋> ␅
+TD18 ␆⏱️ 19s
+TD8 📋> ⏱️ 19s
+TD7 📋> ␅
+TD263027 ␆🔗 alphaguess.com/994
+TD98 📋> 🔗 alphaguess.com/994
+TD13 📋> ␅
+TD144200 ␄
+TD177 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #994\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/994"}
+TD105 result: "\ud83e\udde9 Puzzle #994\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/994"
+TD11 result puzzle: 994
+TD7 result guesses: 15
+TD5 result time: 19s
+TD4 result link: alphaguess.com/994
+TD146 📆 2026-04-13 ? ␅
+TD143282 ␆
+TD103 📆 2026-04-13 ? 
