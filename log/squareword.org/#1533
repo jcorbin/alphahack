@@ -1,0 +1,271 @@
+T161580.647174261 now: 2026-04-13T07:57:00EDT
+TD75 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD26  ...␅
+TD774775 ␆
+TD107  ...
+TD79 🧩  ? ␅
+TD3935885 ␆#1533
+TD89 🧩  ? #1533
+TD322 puzzle_id: #1533
+TD409 > ␅
+TD4559095 ␆*
+TD102 > *
+TD106976 try? ␅
+TD845258 ␆1
+TD103 try? 1
+TD483 questioning: ["rales", "#5"]
+TD349 #1 <IndexError>  📋 "rales" ? ␅
+TD3990829 ␆_____ ~ RAS
+TD95 #1 <IndexError>  📋 "rales" ? _____ ~ RAS
+TD778 attempt 0 RALES m m n n m
+TD112 #2 <IndexError>  📋 "rales" ? ␅
+TD2127429 ␆_A_E_ ~ RL
+TD102 #2 <IndexError>  📋 "rales" ? _A_E_ ~ RL
+TD186 attempt 1 RALES m Y m Y n
+TD93 #3 <IndexError>  📋 "rales" ? ␅
+TD3047360 ␆_____ ~ RAES
+TD94 #3 <IndexError>  📋 "rales" ? _____ ~ RAES
+TD249 attempt 2 RALES m m n m m
+TD97 #4 <IndexError>  📋 "rales" ? ␅
+TD2359592 ␆___ES ~ R
+TD105 #4 <IndexError>  📋 "rales" ? ___ES ~ R
+TD273 attempt 3 RALES m n n Y Y
+TD138 #5 <IndexError>  📋 "rales" ? ␅
+TD1775414 ␆_____ ~ S
+TD80 #5 <IndexError>  📋 "rales" ? _____ ~ S
+TD296 attempt 4 RALES n n n n m
+TD320 ? ␅
+TD287322 ␆
+TD97 ? 
+TD142 question done
+TD286 > ␅
+TD463605 ␆*
+TD107 > *
+TD3024480 try? ␅
+TD967382 ␆1
+TD93 try? 1
+TD349 questioning: ["lacer", "#2"]
+TD296 #1 _____ ~ARS -EL  📋 "lacer" ? ␅
+TD7263289 ␆_____ ~ RASC
+TD87 #1 _____ ~ARS -EL  📋 "lacer" ? _____ ~ RASC
+TD185 attempt 0 LACER n m m n m
+TD102 #2 _A_E_ ~LR -S  📋 "lacer" ? ␅
+TD1695564 ␆LA_ER
+TD100 #2 _A_E_ ~LR -S  📋 "lacer" ? LA_ER
+TD212 attempt 1 LACER Y Y n Y Y
+TD129 #3 _____ ~AERS -L  📋 "lacer" ? ␅
+TD1335763 ␆.
+TD110 #3 _____ ~AERS -L  📋 "lacer" ? .
+TD272 attempt 2 LACER n m n m m
+TD89 #4 ___ES ~R -AL  📋 "lacer" ? ␅
+TD1255540 ␆.
+TD98 #4 ___ES ~R -AL  📋 "lacer" ? .
+TD274 attempt 3 LACER n n n Y m
+TD107 #5 _____ ~S -AELR  📋 "lacer" ? ␅
+TD751504 ␆.
+TD77 #5 _____ ~S -AELR  📋 "lacer" ? .
+TD191 attempt 4 LACER n n n n n
+TD217 ? ␅
+TD184194 ␆
+TD105 ? 
+TD117 question done
+TD333 > ␅
+TD438874 ␆*
+TD104 > *
+TD3074570 try? ␅
+TD3487104 ␆2
+TD104 try? 2
+TD293 questioning: ["scrap", "#1"]
+TD230 #1 _____ ~ACRS -EL  📋 "scrap" ? ␅
+TD6622109 ␆SC___ ~ RA
+TD96 #1 _____ ~ACRS -EL  📋 "scrap" ? SC___ ~ RA
+TD257 attempt 0 SCRAP Y Y m m n
+TD144 #2 LA_ER -CS  📋 "scrap" ? ␅
+TD1159131 ␆.
+TD96 #2 LA_ER -CS  📋 "scrap" ? .
+TD259 attempt 1 SCRAP n n n n n
+TD88 #3 _____ ~AERS -CL  📋 "scrap" ? ␅
+TD1495873 ␆.
+TD92 #3 _____ ~AERS -CL  📋 "scrap" ? .
+TD262 attempt 2 SCRAP m n m m n
+TD86 #4 ___ES ~R -ACL  📋 "scrap" ? ␅
+TD2023830 ␆.
+TD101 #4 ___ES ~R -ACL  📋 "scrap" ? .
+TD258 attempt 3 SCRAP n n m n n
+TD91 #5 _____ ~S -ACELR  📋 "scrap" ? ␅
+TD1320768 ␆S____
+TD102 #5 _____ ~S -ACELR  📋 "scrap" ? S____
+TD312 attempt 4 SCRAP Y n n n n
+TD343 ? ␅
+TD277528 ␆
+TD100 ? 
+TD124 question done
+TD317 > ␅
+TD735675 ␆*
+TD100 > *
+TD2907481 try? ␅
+TD11156646 ␆1
+TD112 try? 1
+TD304 questioning: ["scarf", "#1"]
+TD369 #1 SC___ ~AR -ELP  📋 "scarf" ? ␅
+TD2862732 ␆/it
+TD72 #1 SC___ ~AR -ELP  📋 "scarf" ? /it
+TD164 attempt 0 SCARF Y Y Y Y Y
+TD60 #2 LA_ER -ACPRS  📋 "scarf" ? ␅
+TD1407803 ␆.
+TD93 #2 LA_ER -ACPRS  📋 "scarf" ? .
+TD205 attempt 1 SCARF n n n n n
+TD76 #3 _____ ~AERS -CLP  📋 "scarf" ? ␅
+TD4407852 ␆__A__ ~ RES
+TD100 #3 _____ ~AERS -CLP  📋 "scarf" ? __A__ ~ RES
+TD284 attempt 2 SCARF m n Y m n
+TD152 #4 ___ES ~R -ACLPS  📋 "scarf" ? ␅
+TD1119313 ␆.
+TD98 #4 ___ES ~R -ACLPS  📋 "scarf" ? .
+TD273 attempt 3 SCARF n n n m n
+TD107 #5 S____ -ACELPR  📋 "scarf" ? ␅
+TD543744 ␆.
+TD96 #5 S____ -ACELPR  📋 "scarf" ? .
+TD275 attempt 4 SCARF Y n n n n
+TD290 ? ␅
+TD151238 ␆
+TD79 ? 
+TD106 question done
+TD302 > ␅
+TD655393 ␆*
+TD90 > *
+TD2660310 try? ␅
+TD2131756 ␆2
+TD95 try? 2
+TD300 questioning: ["erase", "#3"]
+TD235 #2 LA_ER -ACFPRS  📋 "erase" ? ␅
+TD4871430 ␆.
+TD92 #2 LA_ER -ACFPRS  📋 "erase" ? .
+TD263 attempt 1 ERASE n n n n n
+TD97 #3 __A__ ~ERS -CFLP  📋 "erase" ? ␅
+TD775499 ␆/it
+TD100 #3 __A__ ~ERS -CFLP  📋 "erase" ? /it
+TD266 attempt 2 ERASE Y Y Y Y Y
+TD103 #4 ___ES ~R -ACFLPS  📋 "erase" ? ␅
+TD2392024 ␆_R_ES
+TD106 #4 ___ES ~R -ACFLPS  📋 "erase" ? _R_ES
+TD238 attempt 3 ERASE n Y n n n
+TD153 #5 S____ -ACEFLPR  📋 "erase" ? ␅
+TD519188 ␆
+TD112 #5 S____ -ACEFLPR  📋 "erase" ? 
+TD365 #5 S____ -ACEFLPR  ? ␅
+TD895396 ␆.
+TD94 #5 S____ -ACEFLPR  ? .
+TD266 attempt 4 ERASE n n n n n
+TD292 ? ␅
+TD175410 ␆
+TD82 ? 
+TD89 question done
+TD192 > ␅
+TD607724 ␆*
+TD100 > *
+TD1763116 questioning: ["synth", "#5"]
+TD193 #2 LA_ER -ACEFPRS  📋 "synth" ? ␅
+TD3980624 ␆.
+TD101 #2 LA_ER -ACEFPRS  📋 "synth" ? .
+TD273 attempt 1 SYNTH n n n n n
+TD102 #4 _R_ES -ACEFLPS  📋 "synth" ? ␅
+TD1463981 ␆.
+TD79 #4 _R_ES -ACEFLPS  📋 "synth" ? .
+TD194 attempt 3 SYNTH n n n n n
+TD68 #5 S____ -ACEFLPRS  📋 "synth" ? ␅
+TD599525 ␆/it
+TD78 #5 S____ -ACEFLPRS  📋 "synth" ? /it
+TD185 attempt 4 SYNTH Y Y Y Y Y
+TD174 ? ␅
+TD215673 ␆
+TD76 ? 
+TD83 question done
+TD190 > ␅
+TD720368 ␆*
+TD100 > *
+TD1372245 try? ␅
+TD2107187 ␆2
+TD98 try? 2
+TD287 questioning: ["lamer", "#2"]
+TD313 #2 LA_ER -ACEFHNPRSTY  📋 "lamer" ? ␅
+TD3647837 ␆.
+TD101 #2 LA_ER -ACEFHNPRSTY  📋 "lamer" ? .
+TD264 attempt 1 LAMER Y Y n Y Y
+TD99 #4 _R_ES -ACEFHLNPSTY  📋 "lamer" ? ␅
+TD1038509 ␆.
+TD100 #4 _R_ES -ACEFHLNPSTY  📋 "lamer" ? .
+TD260 attempt 3 LAMER n n n Y n
+TD229 ? ␅
+TD175750 ␆
+TD102 ? 
+TD116 question done
+TD325 > ␅
+TD439152 ␆*
+TD97 > *
+TD1513508 questioning: ["lager", "#2"]
+TD190 #2 LA_ER -CFHMNPSTY  📋 "lager" ? ␅
+TD2566067 ␆/it
+TD82 #2 LA_ER -CFHMNPSTY  📋 "lager" ? /it
+TD186 attempt 1 LAGER Y Y Y Y Y
+TD72 #4 _R_ES -ACFHLMNPRSTY  📋 "lager" ? ␅
+TD912185 ␆.
+TD100 #4 _R_ES -ACFHLMNPRSTY  📋 "lager" ? .
+TD207 attempt 3 LAGER n n n Y n
+TD193 ? ␅
+TD110973 ␆
+TD80 ? 
+TD87 question done
+TD185 > ␅
+TD408339 ␆*
+TD96 > *
+TD1057753 try? ␅
+TD1358143 ␆1
+TD118 try? 1
+TD331 questioning: ["dries", "#4"]
+TD388 #4 _R_ES -ACFGHLMNPRSTY  📋 "dries" ? ␅
+TD5646744 ␆/it
+TD88 #4 _R_ES -ACFGHLMNPRSTY  📋 "dries" ? /it
+TD233 attempt 3 DRIES Y Y Y Y Y
+TD259 ? ␅
+TD375646 ␆
+TD99 ? 
+TD122 question done
+TD32631 📋> ␅
+TD3295419 ␆squareword.org 1533: 9 guesses
+TD95 📋> squareword.org 1533: 9 guesses
+TD49 📋> ␅
+TD45 ␆
+TD7 📋> 
+TD12 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD12 ␆🟩🟩🟨🟩🟩
+TD5 📋> 🟩🟩🟨🟩🟩
+TD9 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD11 ␆🟨🟩🟨🟩🟩
+TD4 📋> 🟨🟩🟨🟩🟩
+TD9 📋> ␅
+TD18 ␆🟩🟨🟨🟨🟨
+TD5 📋> 🟩🟨🟨🟨🟨
+TD9 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD9 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> ␅
+TD318989 ␆#squareword #squareword1533
+TD77 📋> #squareword #squareword1533
+TD22 📋> ␅
+TD200018 ␄
+TD207 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1533: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1533"}
+TD980 result: "squareword.org 1533: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1533"
+TD71 📆 2026-04-13 ? ␅
+TD190674 ␆
+TD98 📆 2026-04-13 ? 
