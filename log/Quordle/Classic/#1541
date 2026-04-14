@@ -1,0 +1,155 @@
+T604.127407981 now: 2026-04-14T07:49:26EDT
+TD126 site: m-w.com/games/quordle/#/
+TD26 wordlist: nwl2023.txt
+TD8 num_words: 4
+TD128  ...␅
+TD1662734 ␆
+TD101  ...
+TD405102 > ␅
+TD8266849 ␆*
+TD89 > *
+TD44666 ? ␅
+TD915290 ␆1
+TD75 ? 1
+TD128 questioning: urase
+TD103 Classic #1 _____? ␅
+TD3487501 ␆MnnMn
+TD68 Classic #1 _____? MnnMn
+TD219 attempt: 0 URASE m n n m n
+TD60 Classic #2 _____? ␅
+TD2775829 ␆nnMnn
+TD90 Classic #2 _____? nnMnn
+TD265 attempt: 1 URASE n n m n n
+TD99 Classic #3 _____? ␅
+TD2495515 ␆nnMnY
+TD77 Classic #3 _____? nnMnY
+TD151 attempt: 2 URASE n n m n Y
+TD64 Classic #4 _____? ␅
+TD1271780 ␆nnnMn
+TD93 Classic #4 _____? nnnMn
+TD221 attempt: 3 URASE n n n m n
+TD317856 > ␅
+TD19890489 ␆*
+TD72 > *
+TD4706 ? ␅
+TD962796 ␆1
+TD77 ? 1
+TD136 questioning: coils
+TD118 Classic #1 _____ ~SU -AER? ␅
+TD2735688 ␆nnnnM
+TD69 Classic #1 _____ ~SU -AER? nnnnM
+TD138 attempt: 0 COILS n n n n m
+TD69 Classic #2 _____ ~A -ERSU? ␅
+TD1367794 ␆YnYnn
+TD72 Classic #2 _____ ~A -ERSU? YnYnn
+TD151 attempt: 1 COILS Y n Y n n
+TD76 Classic #3 ____E ~A -RSU? ␅
+TD1319697 ␆MnnMn
+TD69 Classic #3 ____E ~A -RSU? MnnMn
+TD150 attempt: 2 COILS m n n m n
+TD77 Classic #4 _____ ~S -AERU? ␅
+TD1479729 ␆nnYMM
+TD71 Classic #4 _____ ~S -AERU? nnYMM
+TD157 attempt: 3 COILS n n Y m m
+TD406247 > ␅
+TD881529 ␆*
+TD67 > *
+TD265 questioning: lance
+TD77 Classic #1 _____ ~SU -ACEILOR? ␅
+TD3847669 ␆nnMnn
+TD71 Classic #1 _____ ~SU -ACEILOR? nnMnn
+TD148 attempt: 0 LANCE n n m n n
+TD78 Classic #2 C_I__ ~A -ELORSU? ␅
+TD1143705 ␆nMMMn
+TD75 Classic #2 C_I__ ~A -ELORSU? nMMMn
+TD160 attempt: 1 LANCE n m m m n
+TD74 Classic #3 ____E ~ACL -IORSU? ␅
+TD2391879 ␆YYYYY
+TD111 Classic #3 ____E ~ACL -IORSU? YYYYY
+TD248 attempt: 2 LANCE Y Y Y Y Y
+TD115 Classic #4 __I__ ~LS -ACEORU? ␅
+TD1127499 ␆MnMnn
+TD70 Classic #4 __I__ ~LS -ACEORU? MnMnn
+TD210 attempt: 3 LANCE m n m n n
+TD292965 > ␅
+TD1162769 ␆*
+TD72 > *
+TD327 ? ␅
+TD2568014 ␆1
+TD71 ? 1
+TD133 questioning: china
+TD95 Classic #1 _____ ~NSU -ACEILOR? ␅
+TD3183947 ␆nnnYn
+TD68 Classic #1 _____ ~NSU -ACEILOR? nnnYn
+TD136 attempt: 0 CHINA n n n Y n
+TD66 Classic #2 C_I__ ~AN -ELORSU? ␅
+TD1279359 ␆YYYYY
+TD106 Classic #2 C_I__ ~AN -ELORSU? YYYYY
+TD244 attempt: 1 CHINA Y Y Y Y Y
+TD140 Classic #4 __I__ ~LNS -ACEORU? ␅
+TD1439501 ␆nnYYn
+TD120 Classic #4 __I__ ~LNS -ACEORU? nnYYn
+TD256 attempt: 3 CHINA n n Y Y n
+TD412546 > ␅
+TD1051024 ␆*
+TD111 > *
+TD575 ? ␅
+TD1783416 ␄
+TD154 <EOF>
+TD379258 > ␅
+TD804614 ␆* 1
+TD100 > * 1
+TD224293 ? ␅
+TD2295541 ␆1
+TD107 ? 1
+TD230 questioning: stung
+TD175 Classic #1 ___N_ ~SU -ACEHILOR? ␅
+TD5631686 ␆YYYYn
+TD144 Classic #1 ___N_ ~SU -ACEHILOR? YYYYn
+TD256 attempt: 0 STUNG Y Y Y Y n
+TD127 Classic #4 __IN_ ~LS -ACEHORU? ␅
+TD3455544 ␆YnnYn
+TD102 Classic #4 __IN_ ~LS -ACEHORU? YnnYn
+TD197 attempt: 3 STUNG Y n n Y n
+TD177565 > ␅
+TD854043 ␆*
+TD94 > *
+TD309 questioning: slink
+TD84 Classic #1 STUN_ -ACEGHILOR? ␅
+TD5079628 ␆YnnYn
+TD124 Classic #1 STUN_ -ACEGHILOR? YnnYn
+TD300 attempt: 0 SLINK Y n n Y n
+TD171 Classic #4 S_IN_ ~L -ACEGHORTU? ␅
+TD1103464 ␆YYYYY
+TD128 Classic #4 S_IN_ ~L -ACEGHORTU? YYYYY
+TD236 attempt: 3 SLINK Y Y Y Y Y
+TD84960 > ␅
+TD786605 ␆*
+TD109 > *
+TD467 questioning: stunt
+TD143 Classic #1 STUN_ -ACEGHIKLOR? ␅
+TD3119394 ␆YYYYY
+TD96 Classic #1 STUN_ -ACEGHIKLOR? YYYYY
+TD202 attempt: 0 STUNT Y Y Y Y Y
+TD96 📋> ␅
+TD12632036 ␆🙂 Daily Quordle 1541
+TD115 📋> 🙂 Daily Quordle 1541
+TD13 📋> ␅
+TD48 ␆7️⃣4️⃣
+TD7 📋> 7️⃣4️⃣
+TD7 📋> ␅
+TD14 ␆3️⃣6️⃣
+TD5 📋> 3️⃣6️⃣
+TD5 📋> ␅
+TD12 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD287868 ␆
+TD103 📋> 
+TD12 📋> ␅
+TD183786 ␄
+TD193 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1541\n7\ufe0f\u20e34\ufe0f\u20e3\n3\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1079 result: "\ud83d\ude42 Daily Quordle 1541\n7\ufe0f\u20e34\ufe0f\u20e3\n3\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD66 📆 2026-04-14 ? ␅
+TD158900 ␆
+TD115 📆 2026-04-14 ? 
