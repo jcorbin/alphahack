@@ -1,0 +1,211 @@
+T1081.091134002 now: 2026-04-14T07:57:23EDT
+TD78 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD24  ...␅
+TD1622269 ␆
+TD95  ...
+TD72 🧩  ? ␅
+TD5016202 ␆#1534
+TD101 🧩  ? #1534
+TD262 puzzle_id: #1534
+TD376 > ␅
+TD2520022 ␆
+TD102 > 
+TD365 > ␅
+TD607007 ␆*
+TD99 > *
+TD282058 try? ␅
+TD1037714 ␆1
+TD79 try? 1
+TD229 questioning: ["saner", "#5"]
+TD239 #1 <IndexError>  📋 "saner" ? ␅
+TD3831445 ␆_A___ ~ R
+TD91 #1 <IndexError>  📋 "saner" ? _A___ ~ R
+TD602 attempt 0 SANER n Y n n m
+TD76 #2 <IndexError>  📋 "saner" ? ␅
+TD3703702 ␆_____ ~ NE
+TD100 #2 <IndexError>  📋 "saner" ? _____ ~ NE
+TD258 attempt 1 SANER n n m m n
+TD116 #3 <IndexError>  📋 "saner" ? ␅
+TD2415219 ␆_A___ ~ E
+TD98 #3 <IndexError>  📋 "saner" ? _A___ ~ E
+TD255 attempt 2 SANER n Y n m n
+TD122 #4 <IndexError>  📋 "saner" ? ␅
+TD5872169 ␆___E_ ~ A
+TD79 #4 <IndexError>  📋 "saner" ? ___E_ ~ A
+TD185 attempt 3 SANER n m n Y n
+TD162 #5 <IndexError>  📋 "saner" ? ␅
+TD4423047 ␆_____ ~ SANER
+TD125 #5 <IndexError>  📋 "saner" ? _____ ~ SANER
+TD252 attempt 4 SANER m m m m m
+TD334 ? ␅
+TD768868 ␆
+TD101 ? 
+TD143 question done
+TD296 > ␅
+TD6638153 ␆*
+TD99 > *
+TD691814 questioning: ["nears", "#5"]
+TD178 #1 _A___ ~R -ENS  📋 "nears" ? ␅
+TD8811551 ␆.
+TD100 #1 _A___ ~R -ENS  📋 "nears" ? .
+TD276 attempt 0 NEARS n n n m n
+TD94 #2 _____ ~EN -ARS  📋 "nears" ? ␅
+TD1176298 ␆.
+TD102 #2 _____ ~EN -ARS  📋 "nears" ? .
+TD262 attempt 1 NEARS m m n n n
+TD98 #3 _A___ ~E -NRS  📋 "nears" ? ␅
+TD2567376 ␆.
+TD101 #3 _A___ ~E -NRS  📋 "nears" ? .
+TD260 attempt 2 NEARS n m n n n
+TD91 #4 ___E_ ~A -NRS  📋 "nears" ? ␅
+TD895626 ␆.
+TD102 #4 ___E_ ~A -NRS  📋 "nears" ? .
+TD227 attempt 3 NEARS n n m n n
+TD63 #5 _____ ~AENRS  📋 "nears" ? ␅
+TD695923 ␆/it
+TD102 #5 _____ ~AENRS  📋 "nears" ? /it
+TD916 attempt 4 NEARS Y Y Y Y Y
+TD191 ? ␅
+TD190747 ␆
+TD194 ? 
+TD207 question done
+TD323 > ␅
+TD582669 ␆*
+TD94 > *
+TD731757 try? ␅
+TD1547968 ␆1
+TD95 try? 1
+TD274 questioning: ["aglet", "#4"]
+TD317 #1 _A___ ~R -AENS  📋 "aglet" ? ␅
+TD3896070 ␆.
+TD99 #1 _A___ ~R -AENS  📋 "aglet" ? .
+TD272 attempt 0 AGLET n n n n n
+TD95 #2 _____ ~EN -ARS  📋 "aglet" ? ␅
+TD2063135 ␆.
+TD100 #2 _____ ~EN -ARS  📋 "aglet" ? .
+TD271 attempt 1 AGLET n n n m n
+TD95 #3 _A___ ~E -ANRS  📋 "aglet" ? ␅
+TD3559713 ␆_A___ ~ ET
+TD99 #3 _A___ ~E -ANRS  📋 "aglet" ? _A___ ~ ET
+TD239 attempt 2 AGLET n n n m m
+TD153 #4 ___E_ ~A -ENRS  📋 "aglet" ? ␅
+TD2791395 ␆A__E_ ~ T
+TD96 #4 ___E_ ~A -ENRS  📋 "aglet" ? A__E_ ~ T
+TD242 attempt 3 AGLET Y n n Y m
+TD348 ? ␅
+TD431625 ␆
+TD99 ? 
+TD119 question done
+TD308 > ␅
+TD848184 ␆*
+TD171 > *
+TD439781 try? ␅
+TD5048028 ␆1
+TD96 try? 1
+TD284 questioning: ["acted", "#4"]
+TD360 #1 _A___ ~R -AEGLNST  📋 "acted" ? ␅
+TD5318435 ␆_A__D ~ R
+TD98 #1 _A___ ~R -AEGLNST  📋 "acted" ? _A__D ~ R
+TD183 attempt 0 ACTED n n n n Y
+TD119 #2 _____ ~EN -AGLRST  📋 "acted" ? ␅
+TD1175598 ␆.
+TD99 #2 _____ ~EN -AGLRST  📋 "acted" ? .
+TD279 attempt 1 ACTED n n n m n
+TD97 #3 _A___ ~ET -AGLNRS  📋 "acted" ? ␅
+TD5031196 ␆_AT__ ~ ET
+TD70 #3 _A___ ~ET -AGLNRS  📋 "acted" ? _AT__ ~ ET
+TD181 attempt 2 ACTED n n Y m n
+TD102 #4 A__E_ ~T -GLNRS  📋 "acted" ? ␅
+TD1512573 ␆/it
+TD97 #4 A__E_ ~T -GLNRS  📋 "acted" ? /it
+TD249 attempt 3 ACTED Y Y Y Y Y
+TD313 ? ␅
+TD255316 ␆
+TD99 ? 
+TD108 question done
+TD292 > ␅
+TD752393 ␆*
+TD80 > *
+TD980532 questioning: ["opine", "#2"]
+TD184 #1 _A__D ~R -ACEGLNST  📋 "opine" ? ␅
+TD17082086 ␆_A__D ~ RPI
+TD79 #1 _A__D ~R -ACEGLNST  📋 "opine" ? _A__D ~ RPI
+TD162 attempt 0 OPINE n m m n n
+TD91 #2 _____ ~EN -ACDGLRST  📋 "opine" ? ␅
+TD1015912 ␆/it
+TD79 #2 _____ ~EN -ACDGLRST  📋 "opine" ? /it
+TD181 attempt 1 OPINE Y Y Y Y Y
+TD65 #3 _AT__ ~E -ACDGLNRS  📋 "opine" ? ␅
+TD3783488 ␆_AT_E ~ T
+TD100 #3 _AT__ ~E -ACDGLNRS  📋 "opine" ? _AT_E ~ T
+TD255 attempt 2 OPINE n n n n Y
+TD305 ? ␅
+TD767686 ␆
+TD99 ? 
+TD117 question done
+TD285 > ␅
+TD6518914 ␆*
+TD95 > *
+TD1289184 questioning: ["rapid", "#1"]
+TD186 #1 _A__D ~IPR -ACEGLNOST  📋 "rapid" ? ␅
+TD11886740 ␆/it
+TD94 #1 _A__D ~IPR -ACEGLNOST  📋 "rapid" ? /it
+TD260 attempt 0 RAPID Y Y Y Y Y
+TD101 #3 _AT_E -ACDGILNOPRS  📋 "rapid" ? ␅
+TD6056209 ␆_AT_E ~ T
+TD106 #3 _AT_E -ACDGILNOPRS  📋 "rapid" ? _AT_E ~ T
+TD250 attempt 2 RAPID n Y n n n
+TD358 ? ␅
+TD262695 ␆
+TD99 ? 
+TD126 question done
+TD308 > ␅
+TD863372 ␆*
+TD67 > *
+TD886335 questioning: ["matte", "#3"]
+TD187 #3 _AT_E -CDGILNOPRS  📋 "matte" ? ␅
+TD3929508 ␆/it
+TD96 #3 _AT_E -CDGILNOPRS  📋 "matte" ? /it
+TD249 attempt 2 MATTE Y Y Y Y Y
+TD290 ? ␅
+TD903392 ␆
+TD97 ? 
+TD111 question done
+TD22796 📋> ␅
+TD4953498 ␆squareword.org 1534: 7 guesses
+TD88 📋> squareword.org 1534: 7 guesses
+TD13 📋> ␅
+TD43 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD15 ␆🟨🟩🟨🟨🟩
+TD6 📋> 🟨🟩🟨🟨🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟨🟩🟩🟨🟩
+TD4 📋> 🟨🟩🟩🟨🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD295579 ␆#squareword #squareword1534
+TD93 📋> #squareword #squareword1534
+TD12 📋> ␅
+TD207980 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1534: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1534"}
+TD1629 result: "squareword.org 1534: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1534"
+TD79 📆 2026-04-14 ? ␅
+TD262397 ␆
+TD98 📆 2026-04-14 ? 
