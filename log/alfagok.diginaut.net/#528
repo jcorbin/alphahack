@@ -1,0 +1,113 @@
+T15.980719198000031 now: 2026-04-14T07:39:01EDT
+TD137 site: alfagok.diginaut.net
+TD386366 loaded 399614 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1238 words excluded) asof aa9affab0edd47dbedcbdd99461fe775fac8283e
+TD117  ...␅
+TD292450 ␆
+TD96  ...
+TD224 [0 : 199606 : 399614] lij? ␅
+TD7015825 ␆
+TD104 [0 : 199606 : 399614] lij? 
+TD141 [0 : 199606 : 399614] lij? ␅
+TD2464162 ␆b
+TD100 [0 : 199606 : 399614] lij? b
+TD336 progress: -1 199606 lij
+TD127 [0 : 99737 : 199606] ex? ␅
+TD2313100 ␆b
+TD103 [0 : 99737 : 199606] ex? b
+TD117 progress: -1 99737 ex
+TD106 [0 : 49841 : 99737] boks? ␅
+TD1566953 ␆b
+TD101 [0 : 49841 : 99737] boks? b
+TD104 progress: -1 49841 boks
+TD106 [0 : 24910 : 49841] bad? ␅
+TD1526952 ␆a
+TD98 [0 : 24910 : 49841] bad? a
+TD105 progress: 1 24910 bad
+TD113 [24911 : 37357 : 49841] bescherm? ␅
+TD1568295 ␆a
+TD100 [24911 : 37357 : 49841] bescherm? a
+TD105 progress: 1 37357 bescherm
+T10.868325905999995 now: 2026-04-14T07:39:33EDT
+TD192 [37358 : 43062 : 49841] bij? ␅
+TD2047726 ␆b
+TD101 [37358 : 43062 : 49841] bij? b
+TD334 progress: -1 43062 bij
+TD114 [37358 : 39992 : 43062] beurs? ␅
+TD2415980 ␆b
+TD97 [37358 : 39992 : 43062] beurs? b
+TD120 progress: -1 39992 beurs
+TD121 [37358 : 38195 : 39992] best? ␅
+TD1536142 ␆a
+TD126 [37358 : 38195 : 39992] best? a
+TD100 progress: 1 38195 best
+TD117 [38196 : 39092 : 39992] bet? ␅
+TD1654334 ␆b
+TD96 [38196 : 39092 : 39992] bet? b
+TD99 progress: -1 39092 bet
+TD232 [38196 : 38640 : 39092] bestraal? ␅
+TD1688326 ␆a
+TD100 [38196 : 38640 : 39092] bestraal? a
+TD98 progress: 1 38640 bestraal
+TD119 [38641 : 38810 : 39092] bestuur? ␅
+TD1630629 ␆b
+TD72 [38641 : 38810 : 39092] bestuur? b
+TD76 progress: -1 38810 bestuur
+TD78 [38641 : 38722 : 38810] bestse? ␅
+TD2288544 ␆!
+TD99 [38641 : 38722 : 38810] bestse? !
+TD397 [38641 : 38722 : 38809] bestseller? ␅
+TD1911774 ␆a
+TD84 [38641 : 38722 : 38809] bestseller? a
+TD78 progress: 1 38722 bestseller
+TD81 [38723 : 38760 : 38809] besturing? ␅
+TD2880377 ␆b
+TD118 [38723 : 38760 : 38809] besturing? b
+TD98 progress: -1 38760 besturing
+TD195 [38723 : 38741 : 38760] bestudering? ␅
+TD1686602 ␆b
+TD89 [38723 : 38741 : 38760] bestudering? b
+TD136 progress: -1 38741 bestudering
+TD183 [38723 : 38728 : 38741] bestsellers? ␅
+TD1920498 ␆a
+TD99 [38723 : 38728 : 38741] bestsellers? a
+TD113 progress: 1 38728 bestsellers
+TD135 [38729 : 38734 : 38741] bestudeer? ␅
+TD1664596 ␆a
+TD220 [38729 : 38734 : 38741] bestudeer? a
+TD173 progress: 1 38734 bestudeer
+TD264 [38735 : 38738 : 38741] bestudeert? ␅
+TD1838370 ␆a
+TD97 [38735 : 38738 : 38741] bestudeert? a
+TD121 progress: 1 38738 bestudeert
+TD199 [38739 : 38740 : 38741] bestuderende? ␅
+TD1616093 ␆b
+TD100 [38739 : 38740 : 38741] bestuderende? b
+TD101 progress: -1 38740 bestuderende
+TD183 [38739 : 38739 : 38740] bestuderen? ␅
+TD1870621 ␆it
+TD100 [38739 : 38739 : 38740] bestuderen? it
+TD108 progress: 0 38739 bestuderen
+TD26 [38739 : 38739 : 38740] <Done>.
+TD101 📋> ␅
+TD3081615 ␆🧩 Puzzel #528
+TD100 📋> 🧩 Puzzel #528
+TD16 📋> ␅
+TD50 ␆🤔 19 gokken
+TD7 📋> 🤔 19 gokken
+TD6 📋> ␅
+TD12 ␆⏱️ 50s
+TD6 📋> ⏱️ 50s
+TD5 📋> ␅
+TD263655 ␆🔗 alfagok.diginaut.net
+TD104 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD118558 ␄
+TD199 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #528\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 50s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD599 result: "\ud83e\udde9 Puzzel #528\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 50s\n\ud83d\udd17 alfagok.diginaut.net"
+TD17 result puzzle: 528
+TD9 result guesses: 19
+TD6 result time: 50s
+TD5 result link: alfagok.diginaut.net
+TD89 📆 2026-04-14 ? ␅
+TD175256 ␆
+TD175 📆 2026-04-14 ? 
