@@ -1,0 +1,97 @@
+T57.17579906399999 now: 2026-04-14T07:40:19EDT
+TD80 site: alphaguess.com
+TD128475 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof aa9affab0edd47dbedcbdd99461fe775fac8283e
+TD93  ...␅
+TD63202 ␆
+TD76  ...
+TD123 [0 : 98216 : 196523] mach? ␅
+TD5862232 ␆
+TD81 [0 : 98216 : 196523] mach? 
+TD87 [0 : 98216 : 196523] mach? ␅
+TD2008062 ␆b
+TD88 [0 : 98216 : 196523] mach? b
+TD80 progress: -1 98216 mach
+TD83 [0 : 47380 : 98216] dis? ␅
+TD1856158 ␆b
+TD98 [0 : 47380 : 98216] dis? b
+TD100 progress: -1 47380 dis
+TD106 [0 : 23681 : 47380] camp? ␅
+TD1688064 ␆b
+TD101 [0 : 23681 : 47380] camp? b
+TD104 progress: -1 23681 camp
+TD123 [0 : 11763 : 23681] back? ␅
+TD1806878 ␆b
+TD83 [0 : 11763 : 23681] back? b
+TD80 progress: -1 11763 back
+TD78 [0 : 5876 : 11763] angel? ␅
+TD1657087 ␆b
+TD100 [0 : 5876 : 11763] angel? b
+TD99 progress: -1 5876 angel
+TD112 [0 : 2802 : 5876] ag? ␅
+TD2527107 ␆b
+TD99 [0 : 2802 : 5876] ag? b
+TD105 progress: -1 2802 ag
+TD338 [0 : 1398 : 2802] acrogen? ␅
+TD1607274 ␆a
+TD103 [0 : 1398 : 2802] acrogen? a
+TD102 progress: 1 1398 acrogen
+TD101 [1399 : 2097 : 2802] ads? ␅
+TD2639777 ␆b
+TD100 [1399 : 2097 : 2802] ads? b
+TD104 progress: -1 2097 ads
+TD113 [1399 : 1616 : 2097] ad? ␅
+TD1631133 ␆a
+TD89 [1399 : 1616 : 2097] ad? a
+TD104 progress: 1 1616 ad
+TD208 [1617 : 1857 : 2097] adjudge? ␅
+TD2288298 ␆b
+TD79 [1617 : 1857 : 2097] adjudge? b
+TD78 progress: -1 1857 adjudge
+TD109 [1617 : 1737 : 1857] adeem? ␅
+TD1615591 ␆a
+TD98 [1617 : 1737 : 1857] adeem? a
+TD103 progress: 1 1737 adeem
+TD215 [1738 : 1786 : 1857] adhere? ␅
+TD1593368 ␆b
+TD167 [1738 : 1786 : 1857] adhere? b
+TD156 progress: -1 1786 adhere
+TD294 [1738 : 1762 : 1786] adenosine? ␅
+TD1557215 ␆a
+TD94 [1738 : 1762 : 1786] adenosine? a
+TD103 progress: 1 1762 adenosine
+TD122 [1763 : 1772 : 1786] adept? ␅
+TD1408171 ␆a
+TD100 [1763 : 1772 : 1786] adept? a
+TD105 progress: 1 1772 adept
+TD229 [1773 : 1779 : 1786] adequacies? ␅
+TD1479416 ␆a
+TD99 [1773 : 1779 : 1786] adequacies? a
+TD109 progress: 1 1779 adequacies
+TD110 [1780 : 1781 : 1786] adequate? ␅
+TD2672172 ␆it
+TD107 [1780 : 1781 : 1786] adequate? it
+TD107 progress: 0 1781 adequate
+TD25 [1780 : 1781 : 1786] <Done>.
+TD79 📋> ␅
+TD2639899 ␆🧩 Puzzle #995
+TD95 📋> 🧩 Puzzle #995
+TD12 📋> ␅
+TD41 ␆🤔 16 guesses
+TD6 📋> 🤔 16 guesses
+TD6 📋> ␅
+TD12 ␆⏱️ 26s
+TD6 📋> ⏱️ 26s
+TD5 📋> ␅
+TD287204 ␆🔗 alphaguess.com/995
+TD95 📋> 🔗 alphaguess.com/995
+TD11 📋> ␅
+TD159977 ␄
+TD177 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #995\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 26s\n\ud83d\udd17 alphaguess.com/995"}
+TD104 result: "\ud83e\udde9 Puzzle #995\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 26s\n\ud83d\udd17 alphaguess.com/995"
+TD13 result puzzle: 995
+TD6 result guesses: 16
+TD5 result time: 26s
+TD4 result link: alphaguess.com/995
+TD91 📆 2026-04-14 ? ␅
+TD136102 ␆
+TD100 📆 2026-04-14 ? 
