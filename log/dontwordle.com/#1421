@@ -1,0 +1,185 @@
+T113.93690984800003 now: 2026-04-14T07:41:16EDT
+TD76 site: dontwordle.com
+TD14 wordlist: nwl2023.txt
+TD24  ...␅
+TD431650 ␆
+TD102  ...
+TD125 1> ␅
+TD27120973 ␆* 
+TD185 1> * 
+TD205273 ? ␅
+TD802898 ␄
+TD258 <EOF>
+TD179 1> ␅
+TD3104372 ␆* -bot 10
+TD182 1> * -bot 10
+TD142755 ? ␅
+TD1375873 ␆1
+TD100 ? 1
+TD254 📋 "aisle" ? ␅
+TD4624229 ␆MnMnn
+TD100 📋 "aisle" ? MnMnn
+TD538 tried: AISLE m n m n n
+TD187 2> ␅
+TD1046771 ␆undo
+TD117 2> undo
+TD152 undo
+TD163 1> ␅
+TD2646946 ␆*
+TD102 1> *
+TD137872 ? ␅
+TD639123 ␆1
+TD102 ? 1
+TD247 📋 "tenne" ? ␅
+TD4592036 ␆nnnnn
+TD103 📋 "tenne" ? nnnnn
+TD209 tried: TENNE n n n n n
+TD190 2> ␅
+TD7776264 ␆* :v [aisle] -bot 10
+TD96 2> * :v [aisle] -bot 10
+TD94063 ? ␅
+TD2313006 ␆1
+TD80 ? 1
+TD172 📋 "dormy" ? ␅
+TD6303603 ␆nnnnn
+TD73 📋 "dormy" ? nnnnn
+TD150 tried: DORMY n n n n n
+TD126 3> ␅
+TD1495961 ␆undo
+TD100 3> undo
+TD142 undo
+TD216 2> ␅
+TD2903143 ␆*
+TD77 2> *
+TD96555 ? ␅
+TD1527989 ␆1
+TD112 ? 1
+TD236 📋 "ovolo" ? ␅
+TD4655463 ␆nnnnn
+TD97 📋 "ovolo" ? nnnnn
+TD203 tried: OVOLO n n n n n
+TD181 3> ␅
+TD543448 ␆*
+TD106 3> *
+TD88561 ? ␅
+TD4895197 ␆1
+TD102 ? 1
+TD226 📋 "puppy" ? ␅
+TD6438062 ␆nnnnn
+TD80 📋 "puppy" ? nnnnn
+TD153 tried: PUPPY n n n n n
+TD124 4> ␅
+TD35491853 ␆*
+TD116 4> *
+TD84977 ? ␅
+TD16130641 ␆1
+TD200 ? 1
+TD390 📋 "immix" ? ␅
+TD13429352 ␆nnnnn
+TD101 📋 "immix" ? nnnnn
+TD214 tried: IMMIX n n n n n
+TD181 5> ␅
+TD3119165 ␆*
+TD99 5> *
+TD174197 ? ␅
+TD1386125 ␆1
+TD101 ? 1
+TD246 📋 "aargh" ? ␅
+TD10039043 ␆MnnnM
+TD100 📋 "aargh" ? MnnnM
+TD202 tried: AARGH m n n n m
+TD209 6> ␅
+TD999561 ␆undo
+TD100 6> undo
+TD136 undo
+TD288 5> ␅
+TD790214 ␆*
+TD95 5> *
+TD179796 ? ␅
+TD4468011 ␆1
+TD106 ? 1
+TD222 📋 "abaca" ? ␅
+TD8023277 ␆nnYYn
+TD80 📋 "abaca" ? nnYYn
+TD149 tried: ABACA n n Y Y n
+TD126 6> ␅
+TD767561 ␆undo
+TD96 6> undo
+TD132 undo
+TD291 5> ␅
+TD2542915 ␆*
+TD109 5> *
+TD172906 ? ␅
+TD915092 ␆1
+TD100 ? 1
+TD223 📋 "abaka" ? ␅
+TD6568260 ␆nnYMn
+TD111 📋 "abaka" ? nnYMn
+TD209 tried: ABAKA n n Y m n
+TD206 6> ␅
+TD1095350 ␆undo
+TD95 6> undo
+TD140 undo
+TD280 5> ␅
+TD2503108 ␆*
+TD95 5> *
+TD177055 ? ␅
+TD830484 ␆1
+TD75 ? 1
+TD189 📋 "award" ? ␅
+TD4887585 ␆nnYnn
+TD96 📋 "award" ? nnYnn
+TD200 tried: AWARD n n Y n n
+TD217 6> ␅
+TD535852 ␆*
+TD114 6> *
+TD170504 📋 "skags" ? ␅
+TD5396514 ␆YMYnn
+TD95 📋 "skags" ? YMYnn
+TD200 tried: SKAGS Y m Y n n
+TD200 📋> ␅
+TD3424385 ␆Don't Wordle 1421 - SURVIVED
+TD101 📋> Don't Wordle 1421 - SURVIVED
+TD12 📋> ␅
+TD41 ␆Hooray! I didn't Wordle today!
+TD6 📋> Hooray! I didn't Wordle today!
+TD5 📋> ␅
+TD14 ␆⬜⬜⬜⬜⬜4097
+TD6 📋> ⬜⬜⬜⬜⬜4097
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜1646
+TD4 📋> ⬜⬜⬜⬜⬜1646
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜653
+TD4 📋> ⬜⬜⬜⬜⬜653
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜223
+TD4 📋> ⬜⬜⬜⬜⬜223
+TD4 📋> ␅
+TD10 ␆⬜⬜🟩⬜⬜11
+TD4 📋> ⬜⬜🟩⬜⬜11
+TD4 📋> ␅
+TD9 ␆🟩🟨🟩⬜⬜1
+TD4 📋> 🟩🟨🟩⬜⬜1
+TD4 📋> ␅
+TD9 ␆Undos used: 5
+TD4 📋> Undos used: 5
+TD4 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD9 ␆  1 words remaining
+TD5 📋>   1 words remaining
+TD4 📋> ␅
+TD9 ␆x 7 unused letters
+TD4 📋> x 7 unused letters
+TD4 📋> ␅
+TD303608 ␆= 7 total score
+TD117 📋> = 7 total score
+TD11 📋> ␅
+TD198846 ␄
+TD201 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1421 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4097\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1646\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c653\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c223\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c11\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c1\nUndos used: 5\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"}
+TD986 result: "Don't Wordle 1421 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4097\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1646\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c653\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c223\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c11\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c1\nUndos used: 5\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TD76 📆 2026-04-14 ? ␅
+TD199007 ␆
+TD98 📆 2026-04-14 ? 
