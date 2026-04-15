@@ -1,0 +1,104 @@
+T84696.041025237 now: 2026-04-15T08:02:58EDT
+TD121 site: alphaguess.com
+TD167142 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof 5b12d6ef6ac4f0aaef2dbde872c89f3ff837f54a
+TD111  ...␅
+TD28 ␆
+TD3  ...
+TD76 [0 : 98216 : 196523] mach? ␅
+TD646530 ␆
+TD95 [0 : 98216 : 196523] mach? 
+TD125 [0 : 98216 : 196523] mach? ␅
+TD2359480 ␆
+TD78 [0 : 98216 : 196523] mach? 
+TD117 [0 : 98216 : 196523] mach? ␅
+TD3097458 ␆b
+TD105 [0 : 98216 : 196523] mach? b
+TD107 progress: -1 98216 mach
+TD117 [0 : 47380 : 98216] dis? ␅
+TD1366833 ␆a
+TD99 [0 : 47380 : 98216] dis? a
+TD109 progress: 1 47380 dis
+TD432 [47381 : 72798 : 98216] gremmy? ␅
+TD1342742 ␆a
+TD97 [47381 : 72798 : 98216] gremmy? a
+TD104 progress: 1 72798 gremmy
+TD112 [72799 : 85502 : 98216] ins? ␅
+TD1384591 ␆a
+TD191 [72799 : 85502 : 98216] ins? a
+TD203 progress: 1 85502 ins
+TD303 [85503 : 91846 : 98216] knot? ␅
+TD1318490 ␆a
+TD101 [85503 : 91846 : 98216] knot? a
+TD109 progress: 1 91846 knot
+TD117 [91847 : 94943 : 98216] lib? ␅
+TD1441148 ␆b
+TD102 [91847 : 94943 : 98216] lib? b
+TD106 progress: -1 94943 lib
+TD123 [91847 : 93266 : 94943] lar? ␅
+TD2790220 ␆b
+TD98 [91847 : 93266 : 94943] lar? b
+TD116 progress: -1 93266 lar
+TD111 [91847 : 92423 : 93266] lac? ␅
+TD1407769 ␆a
+TD114 [91847 : 92423 : 93266] lac? a
+TD105 progress: 1 92423 lac
+TD105 [92424 : 92799 : 93266] lam? ␅
+TD1376058 ␆a
+TD105 [92424 : 92799 : 93266] lam? a
+TD107 progress: 1 92799 lam
+TD114 [92800 : 92998 : 93266] land? ␅
+TD1407685 ␆a
+TD107 [92800 : 92998 : 93266] land? a
+TD107 progress: 1 92998 land
+TD122 [92999 : 93094 : 93266] lang? ␅
+TD1359307 ␆a
+TD102 [92999 : 93094 : 93266] lang? a
+TD108 progress: 1 93094 lang
+TD255 [93095 : 93180 : 93266] lantern? ␅
+TD1335691 ␆a
+TD107 [93095 : 93180 : 93266] lantern? a
+TD106 progress: 1 93180 lantern
+TD123 [93181 : 93199 : 93266] lap? ␅
+TD1296031 ␆a
+TD100 [93181 : 93199 : 93266] lap? a
+TD107 progress: 1 93199 lap
+TD289 [93200 : 93233 : 93266] lapilli? ␅
+TD1303233 ␆a
+TD86 [93200 : 93233 : 93266] lapilli? a
+TD82 progress: 1 93233 lapilli
+TD85 [93234 : 93248 : 93266] laps? ␅
+TD2448510 ␆a
+TD103 [93234 : 93248 : 93266] laps? a
+TD105 progress: 1 93248 laps
+TD192 [93249 : 93257 : 93266] lapstrake? ␅
+TD1351174 ␆a
+TD103 [93249 : 93257 : 93266] lapstrake? a
+TD107 progress: 1 93257 lapstrake
+TD204 [93258 : 93262 : 93266] laptop? ␅
+TD2480208 ␆it
+TD116 [93258 : 93262 : 93266] laptop? it
+TD108 progress: 0 93262 laptop
+TD26 [93258 : 93262 : 93266] <Done>.
+TD88 📋> ␅
+TD2678867 ␆🧩 Puzzle #996
+TD69 📋> 🧩 Puzzle #996
+TD8 📋> ␅
+TD69 ␆🤔 17 guesses
+TD3 📋> 🤔 17 guesses
+TD3 📋> ␅
+TD6 ␆⏱️ 24s
+TD3 📋> ⏱️ 24s
+TD2 📋> ␅
+TD256744 ␆🔗 alphaguess.com/996
+TD101 📋> 🔗 alphaguess.com/996
+TD12 📋> ␅
+TD118991 ␄
+TD181 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #996\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/996"}
+TD102 result: "\ud83e\udde9 Puzzle #996\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/996"
+TD15 result puzzle: 996
+TD6 result guesses: 17
+TD5 result time: 24s
+TD4 result link: alphaguess.com/996
+TD95 📆 2026-04-15 ? ␅
+TD127334 ␆
+TD73 📆 2026-04-15 ? 
