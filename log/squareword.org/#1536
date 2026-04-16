@@ -1,0 +1,242 @@
+T21.163607059017522 now: 2026-04-16T08:13:41EDT
+TD75 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD28  ...␅
+TD559824 ␆
+TD103  ...
+TD76 🧩  ? ␅
+TD5006892 ␆#1536
+TD74 🧩  ? #1536
+TD196 puzzle_id: #1536
+TD175 > ␅
+TD2320550 ␆*
+TD97 > *
+TD236068 try? ␅
+TD2171417 ␆1
+TD100 try? 1
+TD328 questioning: ["rates", "#5"]
+TD295 #1 <IndexError>  📋 "rates" ? ␅
+TD4792384 ␆_____ ~ RAT
+TD79 #1 <IndexError>  📋 "rates" ? _____ ~ RAT
+TD584 attempt 0 RATES m m m n n
+TD135 #2 <IndexError>  📋 "rates" ? ␅
+TD2166180 ␆_____ ~ RE
+TD100 #2 <IndexError>  📋 "rates" ? _____ ~ RE
+TD278 attempt 1 RATES m n n m n
+TD131 #3 <IndexError>  📋 "rates" ? ␅
+TD2096441 ␆_____ ~ RAE
+TD97 #3 <IndexError>  📋 "rates" ? _____ ~ RAE
+TD256 attempt 2 RATES m m n m n
+TD122 #4 <IndexError>  📋 "rates" ? ␅
+TD2398891 ␆R____ ~ ES
+TD99 #4 <IndexError>  📋 "rates" ? R____ ~ ES
+TD217 attempt 3 RATES Y n n m m
+TD82 #5 <IndexError>  📋 "rates" ? ␅
+TD2063030 ␆___E_ ~ E
+TD98 #5 <IndexError>  📋 "rates" ? ___E_ ~ E
+TD246 attempt 4 RATES n n n Y n
+TD337 ? ␅
+TD608293 ␆
+TD106 ? 
+TD147 question done
+TD286 > ␅
+TD2030541 ␆
+TD79 > 
+TD279 > ␅
+TD585006 ␆*
+TD102 > *
+TD673512 try? ␅
+TD1742080 ␆2
+TD101 try? 2
+TD302 questioning: ["resin", "#4"]
+TD295 #1 _____ ~ART -ES  📋 "resin" ? ␅
+TD2782636 ␆.
+TD99 #1 _____ ~ART -ES  📋 "resin" ? .
+TD277 attempt 0 RESIN m n n n n
+TD90 #2 _____ ~ER -AST  📋 "resin" ? ␅
+TD2640083 ␆_E___ ~ R
+TD109 #2 _____ ~ER -AST  📋 "resin" ? _E___ ~ R
+TD247 attempt 1 RESIN m Y n n n
+TD137 #3 _____ ~AER -ST  📋 "resin" ? ␅
+TD1302500 ␆.
+TD79 #3 _____ ~AER -ST  📋 "resin" ? .
+TD207 attempt 2 RESIN m m n n n
+TD94 #4 R____ ~ES -AT  📋 "resin" ? ␅
+TD3880821 ␆R____ ~ ESIN
+TD106 #4 R____ ~ES -AT  📋 "resin" ? R____ ~ ESIN
+TD244 attempt 3 RESIN Y m m m m
+TD140 #5 ___E_ -ARST  📋 "resin" ? ␅
+TD2935507 ␆___E_ ~ E
+TD101 #5 ___E_ -ARST  📋 "resin" ? ___E_ ~ E
+TD242 attempt 4 RESIN n m n n n
+TD361 ? ␅
+TD326969 ␆
+TD105 ? 
+TD132 question done
+TD286 > ␅
+TD6191304 ␆*
+TD114 > *
+TD654701 questioning: ["rinse", "#4"]
+TD217 #1 _____ ~ART -EINS  📋 "rinse" ? ␅
+TD4081544 ␆.
+TD101 #1 _____ ~ART -EINS  📋 "rinse" ? .
+TD257 attempt 0 RINSE m n n n n
+TD93 #2 _E___ ~R -AINST  📋 "rinse" ? ␅
+TD1023131 ␆.
+TD93 #2 _E___ ~R -AINST  📋 "rinse" ? .
+TD262 attempt 1 RINSE m n n n n
+TD92 #3 _____ ~AER -INST  📋 "rinse" ? ␅
+TD2935174 ␆____E ~ RA
+TD102 #3 _____ ~AER -INST  📋 "rinse" ? ____E ~ RA
+TD265 attempt 2 RINSE m n n n Y
+TD161 #4 R____ ~EINS -AT  📋 "rinse" ? ␅
+TD903934 ␆/it
+TD100 #4 R____ ~EINS -AT  📋 "rinse" ? /it
+TD257 attempt 3 RINSE Y Y Y Y Y
+TD89 #5 ___E_ -AINRST  📋 "rinse" ? ␅
+TD2711972 ␆___E_ ~ E
+TD101 #5 ___E_ -AINRST  📋 "rinse" ? ___E_ ~ E
+TD251 attempt 4 RINSE n n n n m
+TD356 ? ␅
+TD462473 ␆
+TD77 ? 
+TD90 question done
+TD195 > ␅
+TD895951 ␆*
+TD96 > *
+TD606028 try? ␅
+TD1114047 ␆1
+TD94 try? 1
+TD290 questioning: ["glare", "#3"]
+TD234 #1 _____ ~ART -EINS  📋 "glare" ? ␅
+TD3527996 ␆__A__ ~ RT
+TD117 #1 _____ ~ART -EINS  📋 "glare" ? __A__ ~ RT
+TD276 attempt 0 GLARE n n Y m n
+TD146 #2 _E___ ~R -AEINST  📋 "glare" ? ␅
+TD2799149 ␆_E___ ~ RL
+TD80 #2 _E___ ~R -AEINST  📋 "glare" ? _E___ ~ RL
+TD185 attempt 1 GLARE n m n m n
+TD108 #3 ____E ~AR -INST  📋 "glare" ? ␅
+TD2231068 ␆___RE ~ A
+TD107 #3 ____E ~AR -INST  📋 "glare" ? ___RE ~ A
+TD257 attempt 2 GLARE n n m Y Y
+TD151 #5 ___E_ -AINRST  📋 "glare" ? ␅
+TD4016067 ␆___E_ ~ EG
+TD99 #5 ___E_ -AINRST  📋 "glare" ? ___E_ ~ EG
+TD252 attempt 4 GLARE m n n n m
+TD352 ? ␅
+TD230807 ␆
+TD102 ? 
+TD132 question done
+TD289 > ␅
+TD728079 ␆*
+TD94 > *
+TD749090 questioning: ["lemur", "#2"]
+TD191 #1 __A__ ~RT -EGILNS  📋 "lemur" ? ␅
+TD3618038 ␆.
+TD121 #1 __A__ ~RT -EGILNS  📋 "lemur" ? .
+TD258 attempt 0 LEMUR n n n n m
+TD92 #2 _E___ ~LR -AEGINST  📋 "lemur" ? ␅
+TD543933 ␆/it
+TD101 #2 _E___ ~LR -AEGINST  📋 "lemur" ? /it
+TD251 attempt 1 LEMUR Y Y Y Y Y
+TD91 #3 ___RE ~A -GILNST  📋 "lemur" ? ␅
+TD727080 ␆.
+TD91 #3 ___RE ~A -GILNST  📋 "lemur" ? .
+TD269 attempt 2 LEMUR n n n n n
+TD106 #5 ___E_ ~G -AILNRST  📋 "lemur" ? ␅
+TD3071659 ␆___E_ ~ EG
+TD76 #5 ___E_ ~G -AILNRST  📋 "lemur" ? ___E_ ~ EG
+TD181 attempt 4 LEMUR n m n n n
+TD232 ? ␅
+TD191150 ␆
+TD89 ? 
+TD191 question done
+TD367 > ␅
+TD431729 ␆*
+TD88 > *
+TD1566897 questioning: ["bract", "#1"]
+TD200 #1 __A__ ~RT -EGILMNSU  📋 "bract" ? ␅
+TD2832390 ␆/it
+TD97 #1 __A__ ~RT -EGILMNSU  📋 "bract" ? /it
+TD267 attempt 0 BRACT Y Y Y Y Y
+TD100 #3 ___RE ~A -EGILMNRSTU  📋 "bract" ? ␅
+TD1879974 ␆.
+TD89 #3 ___RE ~A -EGILMNRSTU  📋 "bract" ? .
+TD264 attempt 2 BRACT n n m n n
+TD98 #5 ___E_ ~G -AILMNRSTU  📋 "bract" ? ␅
+TD3687246 ␆___E_ ~ EG
+TD102 #5 ___E_ ~G -AILMNRSTU  📋 "bract" ? ___E_ ~ EG
+TD258 attempt 4 BRACT n n n n n
+TD350 ? ␅
+TD231285 ␆
+TD75 ? 
+TD111 question done
+TD276 > ␅
+TD511497 ␆*
+TD73 > *
+TD1310525 try? ␅
+TD2017554 ␆1
+TD95 try? 1
+TD289 questioning: ["adore", "#3"]
+TD321 #3 ___RE ~A -BCEGILMNRSTU  📋 "adore" ? ␅
+TD4575353 ␆/it
+TD92 #3 ___RE ~A -BCEGILMNRSTU  📋 "adore" ? /it
+TD290 attempt 2 ADORE Y Y Y Y Y
+TD129 #5 ___E_ ~G -ABCILMNRSTU  📋 "adore" ? ␅
+TD3599394 ␆_D_E_ ~ EGD
+TD153 #5 ___E_ ~G -ABCILMNRSTU  📋 "adore" ? _D_E_ ~ EGD
+TD263 attempt 4 ADORE n Y n n m
+TD342 ? ␅
+TD231548 ␆
+TD98 ? 
+TD118 question done
+TD270 > ␅
+TD863238 ␆*
+TD88 > *
+TD929786 questioning: ["edged", "#5"]
+TD191 #5 _D_E_ ~G -ABCILMNORSTU  📋 "edged" ? ␅
+TD3333982 ␆/it
+TD87 #5 _D_E_ ~G -ABCILMNORSTU  📋 "edged" ? /it
+TD246 attempt 4 EDGED Y Y Y Y Y
+TD294 ? ␅
+TD567259 ␆
+TD79 ? 
+TD79 question done
+TD21148 📋> ␅
+TD5579613 ␆squareword.org 1536: 8 guesses
+TD97 📋> squareword.org 1536: 8 guesses
+TD14 📋> ␅
+TD76 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD21 ␆🟨🟨🟩🟨🟨
+TD6 📋> 🟨🟨🟩🟨🟨
+TD5 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD16 ␆🟨🟨🟨🟩🟩
+TD4 📋> 🟨🟨🟨🟩🟩
+TD5 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD14 ␆🟨🟨🟨🟩🟨
+TD4 📋> 🟨🟨🟨🟩🟨
+TD4 📋> ␅
+TD14 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD16 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD271290 ␆#squareword #squareword1536
+TD97 📋> #squareword #squareword1536
+TD13 📋> ␅
+TD176121 ␄
+TD143 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1536: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1536"}
+TD908 result: "squareword.org 1536: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1536"
+TD97 📆 2026-04-16 ? ␅
+TD158575 ␆
+TD98 📆 2026-04-16 ? 
