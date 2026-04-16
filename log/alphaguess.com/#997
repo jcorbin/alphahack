@@ -1,0 +1,98 @@
+T86.2731248199998 now: 2026-04-16T07:54:14EDT
+TD126 site: alphaguess.com
+TD173137 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof 522c6ff14cb52cdc8c5d549696654e4507c74bed
+TD110  ...␅
+TD2168804 ␆
+TD93  ...
+TD177 [0 : 98216 : 196523] mach? ␅
+TD2840304 ␆b
+TD101 [0 : 98216 : 196523] mach? b
+TD103 progress: -1 98216 mach
+TD108 [0 : 47380 : 98216] dis? ␅
+TD2175230 ␆b
+TD91 [0 : 47380 : 98216] dis? b
+TD106 progress: -1 47380 dis
+TD121 [0 : 23681 : 47380] camp? ␅
+TD1904157 ␆b
+TD81 [0 : 23681 : 47380] camp? b
+TD78 progress: -1 23681 camp
+TD77 [0 : 11763 : 23681] back? ␅
+TD1487602 ␆a
+TD91 [0 : 11763 : 23681] back? a
+TD76 progress: 1 11763 back
+TD74 [11764 : 17714 : 23681] blind? ␅
+TD1424150 ␆a
+TD100 [11764 : 17714 : 23681] blind? a
+TD101 progress: 1 17714 blind
+TD131 [17715 : 20686 : 23681] brill? ␅
+TD2143099 ␆b
+TD106 [17715 : 20686 : 23681] brill? b
+TD91 progress: -1 20686 brill
+TD76 [17715 : 19159 : 20686] boot? ␅
+TD1832671 ␆b
+TD97 [17715 : 19159 : 20686] boot? b
+TD119 progress: -1 19159 boot
+TD114 [17715 : 18426 : 19159] bobs? ␅
+TD1583362 ␆b
+TD98 [17715 : 18426 : 19159] bobs? b
+TD101 progress: -1 18426 bobs
+TD103 [17715 : 18031 : 18426] blow? ␅
+TD2247641 ␆a
+TD95 [17715 : 18031 : 18426] blow? a
+TD101 progress: 1 18031 blow
+TD276 [18032 : 18229 : 18426] bluish? ␅
+TD3911488 ␆a
+TD98 [18032 : 18229 : 18426] bluish? a
+TD104 progress: 1 18229 bluish
+TD103 [18230 : 18305 : 18426] boar? ␅
+TD1944546 ␆a
+TD97 [18230 : 18305 : 18426] boar? a
+TD106 progress: 1 18305 boar
+TD100 [18306 : 18351 : 18426] boat? ␅
+TD1758976 ␆b
+TD98 [18306 : 18351 : 18426] boat? b
+TD103 progress: -1 18351 boat
+TD160 [18306 : 18322 : 18351] boards? ␅
+TD1560689 ␆b
+TD119 [18306 : 18322 : 18351] boards? b
+TD103 progress: -1 18322 boards
+TD576 [18306 : 18313 : 18322] boarding? ␅
+TD1717656 ␆b
+TD99 [18306 : 18313 : 18322] boarding? b
+TD100 progress: -1 18313 boarding
+TD164 [18306 : 18309 : 18313] boarder? ␅
+TD1695607 ␆b
+TD96 [18306 : 18309 : 18313] boarder? b
+TD102 progress: -1 18309 boarder
+TD189 [18306 : 18307 : 18309] boardable? ␅
+TD1576250 ␆b
+TD100 [18306 : 18307 : 18309] boardable? b
+TD103 progress: -1 18307 boardable
+TD189 [18306 : 18306 : 18307] board? ␅
+TD2735302 ␆it
+TD100 [18306 : 18306 : 18307] board? it
+TD105 progress: 0 18306 board
+TD26 [18306 : 18306 : 18307] <Done>.
+TD97 📋> ␅
+TD2619377 ␆🧩 Puzzle #997
+TD93 📋> 🧩 Puzzle #997
+TD13 📋> ␅
+TD42 ␆🤔 17 guesses
+TD6 📋> 🤔 17 guesses
+TD5 📋> ␅
+TD12 ␆⏱️ 30s
+TD6 📋> ⏱️ 30s
+TD5 📋> ␅
+TD364167 ␆🔗 alphaguess.com/997
+TD92 📋> 🔗 alphaguess.com/997
+TD11 📋> ␅
+TD223792 ␄
+TD164 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #997\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 30s\n\ud83d\udd17 alphaguess.com/997"}
+TD99 result: "\ud83e\udde9 Puzzle #997\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 30s\n\ud83d\udd17 alphaguess.com/997"
+TD16 result puzzle: 997
+TD7 result guesses: 17
+TD6 result time: 30s
+TD5 result link: alphaguess.com/997
+TD74 📆 2026-04-16 ? ␅
+TD184232 ␆
+TD106 📆 2026-04-16 ? 
