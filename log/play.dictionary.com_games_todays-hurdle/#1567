@@ -1,0 +1,252 @@
+T65221.463659916 now: 2026-04-17T07:57:42EDT
+TD77 site: https://play.dictionary.com/games/todays-hurdle
+TD14 wordlist: nwl2023.txt
+TD22  ...␅
+TD188270 ␆
+TD97  ...
+TD147 1.1> ␅
+TD17983570 ␆
+TD91 1.1> 
+TD173 1.1> ␅
+TD607671 ␆*
+TD95 1.1> *
+TD178075 1.1 ? ␅
+TD24078324 ␆1
+TD73 1.1 ? 1
+TD184 1.1 📋 "elans" ? ␅
+TD4343997 ␆nMnnn
+TD107 1.1 📋 "elans" ? nMnnn
+TD217 tried: ELANS n m n n n
+TD468 1.2> ␅
+TD439290 ␆*
+TD72 1.2> *
+TD110169 1.2 ? ␅
+TD633650 ␆1
+TD94 1.2 ? 1
+TD245 1.2 📋 "doily" ? ␅
+TD3335802 ␆nMMMn
+TD95 1.2 📋 "doily" ? nMMMn
+TD213 tried: DOILY n m m m n
+TD208 1.3> ␅
+TD399502 ␆*
+TD92 1.3> *
+TD131209 1.3 ? ␅
+TD956651 ␆1
+TD93 1.3 ? 1
+TD239 1.3 📋 "cibol" ? ␅
+TD3737702 ␆nYnYM
+TD78 1.3 📋 "cibol" ? nYnYM
+TD152 tried: CIBOL n Y n Y m
+TD160 1.4> ␅
+TD389721 ␆*
+TD95 1.4> *
+TD101255 1.4 ? ␅
+TD1482654 ␆1
+TD75 1.4 ? 1
+TD183 1.4 📋 "lirot" ? ␅
+TD1895731 ␄
+TD127 <EOF>
+TD195 1.4> ␅
+TD583692 ␆*
+TD92 1.4> *
+TD92222 1.4 ? ␅
+TD739730 ␆2
+TD91 1.4 ? 2
+TD239 1.4 📋 "pilot" ? ␅
+TD3239874 ␆YYYYY
+TD97 1.4 📋 "pilot" ? YYYYY
+TD210 tried: PILOT Y Y Y Y Y
+TD456 2.1 📋 "pilot" ? ␅
+TD8063413 ␆nnnMY
+TD121 2.1 📋 "pilot" ? nnnMY
+TD213 tried: PILOT n n n m Y
+TD221 2.2> ␅
+TD479349 ␆*
+TD97 2.2> *
+TD95932 2.2 ? ␅
+TD911918 ␆1
+TD92 2.2 ? 1
+TD245 2.2 📋 "frost" ? ␅
+TD5496278 ␆YYYnY
+TD87 2.2 📋 "frost" ? YYYnY
+TD197 tried: FROST Y Y Y n Y
+TD219 2.3> ␅
+TD431196 ␆*
+TD92 2.3> *
+TD88967 2.3 📋 "front" ? ␅
+TD2863149 ␆YYYYY
+TD101 2.3 📋 "front" ? YYYYY
+TD194 tried: FRONT Y Y Y Y Y
+TD304 3.1 📋 "front" ? ␅
+TD8719462 ␆nnMnn
+TD96 3.1 📋 "front" ? nnMnn
+TD210 tried: FRONT n n m n n
+TD216 3.2> ␅
+TD447236 ␆*
+TD94 3.2> *
+TD103699 3.2 ? ␅
+TD896348 ␆1
+TD95 3.2 ? 1
+TD238 3.2 📋 "comes" ? ␅
+TD3679787 ␆nYnMn
+TD92 3.2 📋 "comes" ? nYnMn
+TD208 tried: COMES n Y n m n
+TD263 3.3> ␅
+TD471606 ␆*
+TD95 3.3> *
+TD94709 3.3 ? ␅
+TD1833080 ␆2
+TD95 3.3 ? 2
+TD230 3.3 📋 "lodge" ? ␅
+TD3687885 ␆YYYYY
+TD97 3.3 📋 "lodge" ? YYYYY
+TD211 tried: LODGE Y Y Y Y Y
+TD315 4.1 📋 "lodge" ? ␅
+TD7783306 ␆nYnnn
+TD108 4.1 📋 "lodge" ? nYnnn
+TD209 tried: LODGE n Y n n n
+TD220 4.2> ␅
+TD695667 ␆*
+TD91 4.2> *
+TD93603 4.2 ? ␅
+TD3842408 ␆8
+TD104 4.2 ? 8
+TD223 4.2 📋 "roast" ? ␅
+TD5359838 ␆nYnMM
+TD95 4.2 📋 "roast" ? nYnMM
+TD205 tried: ROAST n Y n m m
+TD250 4.3> ␅
+TD1159328 ␆*
+TD96 4.3> *
+TD107586 4.3 ? ␅
+TD1164414 ␆1
+TD76 4.3 ? 1
+TD179 4.3 📋 "fonts" ? ␅
+TD3751726 ␆nYnYM
+TD70 4.3 📋 "fonts" ? nYnYM
+TD150 tried: FONTS n Y n Y m
+TD156 4.4> ␅
+TD551778 ␆*
+TD85 4.4> *
+TD91276 4.4 ? ␅
+TD932573 ␆1
+TD86 4.4 ? 1
+TD230 4.4 📋 "south" ? ␅
+TD3431908 ␆YYYYY
+TD76 4.4 📋 "south" ? YYYYY
+TD149 tried: SOUTH Y Y Y Y Y
+TD200 5.1 📋 "pilot" ? ␅
+TD7111631 ␆nnnnn
+TD94 5.1 📋 "pilot" ? nnnnn
+TD200 tried: PILOT n n n n n
+TD263 5.2 📋 "front" ? ␅
+TD1311759 ␆nnnnn
+TD93 5.2 📋 "front" ? nnnnn
+TD206 tried: FRONT n n n n n
+TD251 5.3 📋 "lodge" ? ␅
+TD1119351 ␆nnnMM
+TD97 5.3 📋 "lodge" ? nnnMM
+TD203 tried: LODGE n n n m m
+TD262 5.4 📋 "south" ? ␅
+TD1031419 ␆nnnnn
+TD85 5.4 📋 "south" ? nnnnn
+TD194 tried: SOUTH n n n n n
+TD228 5.5> ␅
+TD695480 ␆*
+TD89 5.5> *
+TD112529 5.5 ? ␅
+TD1487308 ␆2
+TD92 5.5 ? 2
+TD233 5.5 📋 "cagey" ? ␅
+TD3927851 ␆nnMMY
+TD92 5.5 📋 "cagey" ? nnMMY
+TD202 tried: CAGEY n n m m Y
+TD240 5.6> ␅
+TD383371 ␆*
+TD72 5.6> *
+TD92381 5.6 ? ␅
+TD1867586 ␆1
+TD90 5.6 ? 1
+TD229 5.6 📋 "geeky" ? ␅
+TD5831902 ␆YYYYY
+TD100 5.6 📋 "geeky" ? YYYYY
+TD198 tried: GEEKY Y Y Y Y Y
+TD245 📋> ␅
+TD5479806 ␆Hurdle 1567
+TD93 📋> Hurdle 1567
+TD13 📋> ␅
+TD39 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD13 ␆4/6
+TD5 📋> 4/6
+TD5 📋> ␅
+TD14 ␆⬜🟨⬜⬜⬜
+TD5 📋> ⬜🟨⬜⬜⬜
+TD5 📋> ␅
+TD10 ␆⬜🟨🟨🟨⬜
+TD5 📋> ⬜🟨🟨🟨⬜
+TD5 📋> ␅
+TD10 ␆⬜🟩⬜🟩🟨
+TD4 📋> ⬜🟩⬜🟩🟨
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD10 ␆3/6
+TD5 📋> 3/6
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜🟨🟩
+TD4 📋> ⬜⬜⬜🟨🟩
+TD17 📋> ␅
+TD22 ␆🟩🟩🟩⬜🟩
+TD5 📋> 🟩🟩🟩⬜🟩
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆3/6
+TD5 📋> 3/6
+TD4 📋> ␅
+TD9 ␆⬜⬜🟨⬜⬜
+TD4 📋> ⬜⬜🟨⬜⬜
+TD4 📋> ␅
+TD9 ␆⬜🟩⬜🟨⬜
+TD4 📋> ⬜🟩⬜🟨⬜
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆4/6
+TD4 📋> 4/6
+TD4 📋> ␅
+TD9 ␆⬜🟩⬜⬜⬜
+TD4 📋> ⬜🟩⬜⬜⬜
+TD4 📋> ␅
+TD9 ␆⬜🟩⬜🟨🟨
+TD4 📋> ⬜🟩⬜🟨🟨
+TD4 📋> ␅
+TD9 ␆⬜🟩⬜🟩🟨
+TD4 📋> ⬜🟩⬜🟩🟨
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆Final 2/2
+TD5 📋> Final 2/2
+TD4 📋> ␅
+TD10 ␆⬜⬜🟨🟨🟩
+TD4 📋> ⬜⬜🟨🟨🟩
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD278988 ␆score: 10,000
+TD79 📋> score: 10,000
+TD8 📋> ␅
+TD279970 ␄
+TD180 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1567\n\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"}
+TD744 result: "Hurdle 1567\n\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"
+TD93 📆 2026-04-17 ? ␅
+TD199101 ␆
+TD88 📆 2026-04-17 ? 
