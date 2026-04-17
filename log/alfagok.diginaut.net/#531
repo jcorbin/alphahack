@@ -1,0 +1,66 @@
+T65064.368081105 now: 2026-04-17T07:55:05EDT
+TD78 site: alfagok.diginaut.net
+TD401783 loaded 399613 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1239 words excluded) asof 522c6ff14cb52cdc8c5d549696654e4507c74bed
+TD126  ...␅
+TD1605110 ␆
+TD83  ...
+TD217 [0 : 199605 : 399613] lij? ␅
+TD4055805 ␆a
+TD94 [0 : 199605 : 399613] lij? a
+TD339 progress: 1 199605 lij
+TD117 [199606 : 299472 : 399613] schro? ␅
+TD1464475 ␆a
+TD95 [199606 : 299472 : 399613] schro? a
+TD123 progress: 1 299472 schro
+TD104 [299473 : 349453 : 399613] vakantie? ␅
+TD1551306 ␆b
+TD79 [299473 : 349453 : 399613] vakantie? b
+TD82 progress: -1 349453 vakantie
+TD81 [299473 : 324407 : 349453] subsidie? ␅
+TD2927758 ␆b
+TD95 [299473 : 324407 : 349453] subsidie? b
+TD108 progress: -1 324407 subsidie
+TD159 [299473 : 311855 : 324407] spier? ␅
+TD1680279 ␆a
+TD100 [299473 : 311855 : 324407] spier? a
+TD103 progress: 1 311855 spier
+TD103 [311856 : 318048 : 324407] stem? ␅
+TD1582536 ␆a
+TD71 [311856 : 318048 : 324407] stem? a
+TD84 progress: 1 318048 stem
+TD84 [318049 : 321022 : 324407] straat? ␅
+TD1544709 ␆a
+TD96 [318049 : 321022 : 324407] straat? a
+TD103 progress: 1 321022 straat
+TD84 [321023 : 322685 : 324407] strooi? ␅
+TD1471359 ␆a
+TD96 [321023 : 322685 : 324407] strooi? a
+TD103 progress: 1 322685 strooi
+TD117 [322686 : 323410 : 324407] studie? ␅
+TD2567845 ␆it
+TD164 [322686 : 323410 : 324407] studie? it
+TD137 progress: 0 323410 studie
+TD26 [322686 : 323410 : 324407] <Done>.
+TD94 📋> ␅
+TD3008105 ␆🧩 Puzzel #531
+TD78 📋> 🧩 Puzzel #531
+TD8 📋> ␅
+TD28 ␆🤔 9 gokken
+TD3 📋> 🤔 9 gokken
+TD3 📋> ␅
+TD7 ␆⏱️ 15s
+TD3 📋> ⏱️ 15s
+TD2 📋> ␅
+TD287023 ␆🔗 alfagok.diginaut.net
+TD95 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD136638 ␄
+TD181 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #531\n\ud83e\udd14 9 gokken\n\u23f1\ufe0f 15s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD659 result: "\ud83e\udde9 Puzzel #531\n\ud83e\udd14 9 gokken\n\u23f1\ufe0f 15s\n\ud83d\udd17 alfagok.diginaut.net"
+TD23 result puzzle: 531
+TD5 result guesses: 9
+TD3 result time: 15s
+TD2 result link: alfagok.diginaut.net
+TD71 📆 2026-04-17 ? ␅
+TD215110 ␆
+TD95 📆 2026-04-17 ? 
