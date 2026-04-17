@@ -1,0 +1,97 @@
+T65098.9617711 now: 2026-04-17T07:55:39EDT
+TD111 site: alphaguess.com
+TD170003 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof 522c6ff14cb52cdc8c5d549696654e4507c74bed
+TD112  ...␅
+TD5381768 ␆
+TD115  ...
+TD174 [0 : 98216 : 196523] mach? ␅
+TD1926225 ␆a
+TD97 [0 : 98216 : 196523] mach? a
+TD107 progress: 1 98216 mach
+TD280 [98217 : 147371 : 196523] rhumb? ␅
+TD2463350 ␆a
+TD71 [98217 : 147371 : 196523] rhumb? a
+TD85 progress: 1 147371 rhumb
+TD80 [147372 : 171636 : 196523] ta? ␅
+TD2848044 ␆a
+TD94 [147372 : 171636 : 196523] ta? a
+TD106 progress: 1 171636 ta
+TD131 [171637 : 182000 : 196523] un? ␅
+TD1840727 ␆a
+TD96 [171637 : 182000 : 196523] un? a
+TD104 progress: 1 182000 un
+TD219 [182001 : 189262 : 196523] vicar? ␅
+TD2648045 ␆a
+TD100 [182001 : 189262 : 196523] vicar? a
+TD103 progress: 1 189262 vicar
+TD170 [189263 : 192866 : 196523] whir? ␅
+TD1775906 ␆a
+TD90 [189263 : 192866 : 196523] whir? a
+TD83 progress: 1 192866 whir
+TD81 [192867 : 194691 : 196523] worship? ␅
+TD2223193 ␆b
+TD97 [192867 : 194691 : 196523] worship? b
+TD102 progress: -1 194691 worship
+TD98 [192867 : 193482 : 194691] win? ␅
+TD1783514 ␆b
+TD97 [192867 : 193482 : 194691] win? b
+TD104 progress: -1 193482 win
+TD151 [192867 : 193174 : 193482] wicca? ␅
+TD1823495 ␆b
+TD100 [192867 : 193174 : 193482] wicca? b
+TD107 progress: -1 193174 wicca
+TD107 [192867 : 192942 : 193174] whit? ␅
+TD2079249 ␆a
+TD99 [192867 : 192942 : 193174] whit? a
+TD102 progress: 1 192942 whit
+TD99 [192943 : 193050 : 193174] who? ␅
+TD1759644 ␆a
+TD85 [192943 : 193050 : 193174] who? a
+TD101 progress: 1 193050 who
+TD179 [193051 : 193109 : 193174] whoosh? ␅
+TD1560082 ␆a
+TD97 [193051 : 193109 : 193174] whoosh? a
+TD106 progress: 1 193109 whoosh
+TD202 [193110 : 193140 : 193174] whorl? ␅
+TD1543180 ␆a
+TD93 [193110 : 193140 : 193174] whorl? a
+TD99 progress: 1 193140 whorl
+TD352 [193141 : 193157 : 193174] whosits? ␅
+TD3112572 ␆!
+TD100 [193141 : 193157 : 193174] whosits? !
+TD335 [193141 : 193157 : 193173] whoso? ␅
+TD2767898 ␆b
+TD116 [193141 : 193157 : 193173] whoso? b
+TD105 progress: -1 193157 whoso
+TD138 [193141 : 193144 : 193157] whort? ␅
+TD1718604 ␆a
+TD98 [193141 : 193144 : 193157] whort? a
+TD104 progress: 1 193144 whort
+TD160 [193145 : 193150 : 193157] whose? ␅
+TD3064386 ␆it
+TD100 [193145 : 193150 : 193157] whose? it
+TD106 progress: 0 193150 whose
+TD37 [193145 : 193150 : 193157] <Done>.
+TD84 📋> ␅
+TD2703645 ␆🧩 Puzzle #998
+TD97 📋> 🧩 Puzzle #998
+TD12 📋> ␅
+TD39 ␆🤔 16 guesses
+TD6 📋> 🤔 16 guesses
+TD6 📋> ␅
+TD11 ␆⏱️ 33s
+TD6 📋> ⏱️ 33s
+TD5 📋> ␅
+TD264146 ␆🔗 alphaguess.com/998
+TD97 📋> 🔗 alphaguess.com/998
+TD11 📋> ␅
+TD207771 ␄
+TD186 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #998\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 33s\n\ud83d\udd17 alphaguess.com/998"}
+TD97 result: "\ud83e\udde9 Puzzle #998\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 33s\n\ud83d\udd17 alphaguess.com/998"
+TD15 result puzzle: 998
+TD6 result guesses: 16
+TD5 result time: 33s
+TD4 result link: alphaguess.com/998
+TD89 📆 2026-04-17 ? ␅
+TD183854 ␆
+TD103 📆 2026-04-17 ? 
