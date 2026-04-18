@@ -1,0 +1,82 @@
+T93.94766422300017 now: 2026-04-18T07:48:12EDT
+TD134 site: alphaguess.com
+TD153706 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof d682176cb68b86f2d7bee64b48ddf6fefdb9af11
+TD106  ...␅
+TD1740936 ␆
+TD63  ...
+TD107 [0 : 98216 : 196523] mach? ␅
+TD2279891 ␆b
+TD75 [0 : 98216 : 196523] mach? b
+TD76 progress: -1 98216 mach
+TD74 [0 : 47380 : 98216] dis? ␅
+TD1271658 ␆a
+TD71 [0 : 47380 : 98216] dis? a
+TD69 progress: 1 47380 dis
+TD187 [47381 : 72798 : 98216] gremmy? ␅
+TD1183771 ␆a
+TD94 [47381 : 72798 : 98216] gremmy? a
+TD108 progress: 1 72798 gremmy
+TD116 [72799 : 85502 : 98216] ins? ␅
+TD1343666 ␆b
+TD105 [72799 : 85502 : 98216] ins? b
+TD134 progress: -1 85502 ins
+TD105 [72799 : 79130 : 85502] hood? ␅
+TD1255782 ␆b
+TD96 [72799 : 79130 : 85502] hood? b
+TD106 progress: -1 79130 hood
+TD103 [72799 : 75954 : 79130] haw? ␅
+TD1311787 ␆b
+TD100 [72799 : 75954 : 79130] haw? b
+TD130 progress: -1 75954 haw
+TD115 [72799 : 74359 : 75954] had? ␅
+TD1271487 ␆a
+TD95 [72799 : 74359 : 75954] had? a
+TD106 progress: 1 74359 had
+TD115 [74360 : 75051 : 75954] hand? ␅
+TD1215755 ␆a
+TD71 [74360 : 75051 : 75954] hand? a
+TD70 progress: 1 75051 hand
+TD69 [75052 : 75444 : 75954] hard? ␅
+TD2551705 ␆a
+TD97 [75052 : 75444 : 75954] hard? a
+TD105 progress: 1 75444 hard
+TD86 [75445 : 75693 : 75954] harsh? ␅
+TD1479686 ␆a
+TD66 [75445 : 75693 : 75954] harsh? a
+TD64 progress: 1 75693 harsh
+TD63 [75694 : 75785 : 75954] hat? ␅
+TD1351738 ␆a
+TD69 [75694 : 75785 : 75954] hat? a
+TD71 progress: 1 75785 hat
+TD91 [75786 : 75869 : 75954] haul? ␅
+TD1639944 ␆b
+TD97 [75786 : 75869 : 75954] haul? b
+TD104 progress: -1 75869 haul
+TD102 [75786 : 75823 : 75869] hate? ␅
+TD2487442 ␆it
+TD73 [75786 : 75823 : 75869] hate? it
+TD75 progress: 0 75823 hate
+TD16 [75786 : 75823 : 75869] <Done>.
+TD53 📋> ␅
+TD3288367 ␆🧩 Puzzle #999
+TD101 📋> 🧩 Puzzle #999
+TD12 📋> ␅
+TD39 ␆🤔 13 guesses
+TD7 📋> 🤔 13 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 17s
+TD6 📋> ⏱️ 17s
+TD5 📋> ␅
+TD255375 ␆🔗 alphaguess.com/999
+TD94 📋> 🔗 alphaguess.com/999
+TD12 📋> ␅
+TD143869 ␄
+TD165 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #999\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/999"}
+TD101 result: "\ud83e\udde9 Puzzle #999\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/999"
+TD16 result puzzle: 999
+TD7 result guesses: 13
+TD6 result time: 17s
+TD5 result link: alphaguess.com/999
+TD94 📆 2026-04-18 ? ␅
+TD119758 ␆
+TD98 📆 2026-04-18 ? 
