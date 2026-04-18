@@ -1,0 +1,212 @@
+T84.56541943500633 now: 2026-04-18T07:58:28EDT
+TD119 site: squareword.org
+TD23 wordlist: nwl2023.txt
+TD24  ...␅
+TD166760 ␆
+TD74  ...
+TD57 🧩  ? ␅
+TD3903892 ␆#1538
+TD93 🧩  ? #1538
+TD279 puzzle_id: #1538
+TD299 > ␅
+TD2343160 ␆*
+TD75 > *
+TD176290 try? ␅
+TD631869 ␆1
+TD95 try? 1
+TD331 questioning: ["lares", "#5"]
+TD301 #1 <IndexError>  📋 "lares" ? ␅
+TD6607389 ␆_____ ~ RS
+TD96 #1 <IndexError>  📋 "lares" ? _____ ~ RS
+TD613 attempt 0 LARES n n m n m
+TD92 #2 <IndexError>  📋 "lares" ? ␅
+TD2222940 ␆_____ ~ AE
+TD112 #2 <IndexError>  📋 "lares" ? _____ ~ AE
+TD275 attempt 1 LARES n m n m n
+TD131 #3 <IndexError>  📋 "lares" ? ␅
+TD2063732 ␆___E_ ~ LAR
+TD97 #3 <IndexError>  📋 "lares" ? ___E_ ~ LAR
+TD260 attempt 2 LARES m m m Y n
+TD136 #4 <IndexError>  📋 "lares" ? ␅
+TD2327265 ␆__RES 
+TD78 #4 <IndexError>  📋 "lares" ? __RES 
+TD182 attempt 3 LARES n n Y Y Y
+TD86 #5 <IndexError>  📋 "lares" ? ␅
+TD2583813 ␆_____ ~ RES
+TD97 #5 <IndexError>  📋 "lares" ? _____ ~ RES
+TD257 attempt 4 LARES n n m m m
+TD349 ? ␅
+TD279328 ␆
+TD93 ? 
+TD146 question done
+TD302 > ␅
+TD455388 ␆*
+TD95 > *
+TD703622 try? ␅
+TD1600186 ␆1
+TD80 try? 1
+TD265 questioning: ["alter", "#3"]
+TD162 #1 _____ ~RS -AEL  📋 "alter" ? ␅
+TD2455522 ␆.
+TD70 #1 _____ ~RS -AEL  📋 "alter" ? .
+TD171 attempt 0 ALTER n n n n m
+TD55 #2 _____ ~AE -LRS  📋 "alter" ? ␅
+TD639881 ␆.
+TD94 #2 _____ ~AE -LRS  📋 "alter" ? .
+TD274 attempt 1 ALTER m n n m n
+TD168 #3 ___E_ ~ALR -S  📋 "alter" ? ␅
+TD1423443 ␆/it
+TD98 #3 ___E_ ~ALR -S  📋 "alter" ? /it
+TD272 attempt 2 ALTER Y Y Y Y Y
+TD103 #4 __RES -AL  📋 "alter" ? ␅
+TD4759571 ␆__RES ~ T
+TD114 #4 __RES -AL  📋 "alter" ? __RES ~ T
+TD288 attempt 3 ALTER n n m Y n
+T9.273997713986319 now: 2026-04-18T07:59:21EDT
+TD109 questioning: ["alter", "#3"]
+TD153 #5 _____ ~ERS -AL  📋 "alter" ? ␅
+TD1990647 ␆.
+TD96 #5 _____ ~ERS -AL  📋 "alter" ? .
+TD477 attempt 4 ALTER n n n m m
+TD136 ? ␅
+TD135243 ␆
+TD72 ? 
+TD87 question done
+TD175 > ␅
+TD343644 ␆
+TD70 > 
+TD252 > ␅
+TD855726 ␆*
+TD97 > *
+TD766754 try? ␅
+TD961098 ␆1
+TD69 try? 1
+TD226 questioning: ["tires", "#4"]
+TD190 #1 _____ ~RS -AELT  📋 "tires" ? ␅
+TD5287583 ␆_____ ~ RSI
+TD64 #1 _____ ~RS -AELT  📋 "tires" ? _____ ~ RSI
+TD388 attempt 0 TIRES n m m n m
+TD83 #2 _____ ~AE -LRST  📋 "tires" ? ␅
+TD991547 ␆.
+TD65 #2 _____ ~AE -LRST  📋 "tires" ? .
+TD287 attempt 1 TIRES n n n m n
+TD128 #4 __RES ~T -ALR  📋 "tires" ? ␅
+TD720278 ␆/it
+TD98 #4 __RES ~T -ALR  📋 "tires" ? /it
+TD268 attempt 3 TIRES Y Y Y Y Y
+TD105 #5 _____ ~ERS -ALT  📋 "tires" ? ␅
+TD702816 ␆.
+TD97 #5 _____ ~ERS -ALT  📋 "tires" ? .
+TD278 attempt 4 TIRES n n m m m
+TD311 ? ␅
+TD159339 ␆
+TD110 ? 
+TD125 question done
+TD307 > ␅
+TD415450 ␆*
+TD97 > *
+TD436879 try? ␅
+TD1107050 ␆1
+TD101 try? 1
+TD350 questioning: ["brisk", "#1"]
+TD345 #1 _____ ~IRS -AELT  📋 "brisk" ? ␅
+TD3311076 ␆_RIS_
+TD93 #1 _____ ~IRS -AELT  📋 "brisk" ? _RIS_
+TD275 attempt 0 BRISK n Y Y Y n
+TD159 #2 _____ ~AE -ILRST  📋 "brisk" ? ␅
+TD2183754 ␆.
+TD111 #2 _____ ~AE -ILRST  📋 "brisk" ? .
+TD279 attempt 1 BRISK n n n n n
+TD100 #5 _____ ~ERS -AILT  📋 "brisk" ? ␅
+TD751340 ␆.
+TD72 #5 _____ ~ERS -AILT  📋 "brisk" ? .
+TD184 attempt 4 BRISK n m n m n
+TD141 ? ␅
+TD183632 ␆
+TD75 ? 
+TD75 question done
+TD148 > ␅
+TD408018 ␆*
+TD91 > *
+TD449991 questioning: ["score", "#5"]
+TD181 #1 _RIS_ -ABEKLT  📋 "score" ? ␅
+TD5405358 ␆_RIS_ ~ C
+TD97 #1 _RIS_ -ABEKLT  📋 "score" ? _RIS_ ~ C
+TD266 attempt 0 SCORE n m n n n
+TD151 #2 _____ ~AE -BIKLRST  📋 "score" ? ␅
+TD1215830 ␆.
+TD96 #2 _____ ~AE -BIKLRST  📋 "score" ? .
+TD211 attempt 1 SCORE n n n n m
+TD64 #5 _____ ~ERS -ABIKLT  📋 "score" ? ␅
+TD671478 ␆/it
+TD76 #5 _____ ~ERS -ABIKLT  📋 "score" ? /it
+TD172 attempt 4 SCORE Y Y Y Y Y
+TD141 ? ␅
+TD175338 ␆
+TD71 ? 
+TD76 question done
+TD158 > ␅
+TD567769 ␆*
+TD71 > *
+TD741214 questioning: ["crisp", "#1"]
+TD177 #1 _RIS_ ~C -ABEKLORST  📋 "crisp" ? ␅
+TD2762541 ␆/it
+TD97 #1 _RIS_ ~C -ABEKLORST  📋 "crisp" ? /it
+TD275 attempt 0 CRISP Y Y Y Y Y
+TD113 #2 _____ ~AE -BCIKLORST  📋 "crisp" ? ␅
+TD911484 ␆.
+TD63 #2 _____ ~AE -BCIKLORST  📋 "crisp" ? .
+TD161 attempt 1 CRISP n n n n n
+TD134 ? ␅
+TD159701 ␆
+TD103 ? 
+TD117 question done
+TD350 > ␅
+TD415672 ␆*
+TD90 > *
+TD646684 questioning: ["henna", "#2"]
+TD193 #2 _____ ~AE -BCIKLOPRST  📋 "henna" ? ␅
+TD2904851 ␆/it
+TD114 #2 _____ ~AE -BCIKLOPRST  📋 "henna" ? /it
+TD267 attempt 1 HENNA Y Y Y Y Y
+TD304 ? ␅
+TD335281 ␆
+TD103 ? 
+TD112 question done
+TD23857 📋> ␅
+TD5736357 ␆squareword.org 1538: 7 guesses
+TD74 📋> squareword.org 1538: 7 guesses
+TD10 📋> ␅
+TD26 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD7 ␆🟨🟩🟩🟩🟨
+TD2 📋> 🟨🟩🟩🟩🟨
+TD1 📋> ␅
+TD4 ␆🟨🟨🟨🟨🟨
+TD1 📋> 🟨🟨🟨🟨🟨
+TD1 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD3 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD4 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD263394 ␆#squareword #squareword1538
+TD80 📋> #squareword #squareword1538
+TD6 📋> ␅
+TD168019 ␄
+TD120 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1538: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1538"}
+TD395 result: "squareword.org 1538: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1538"
+TD58 📆 2026-04-18 ? ␅
+TD167426 ␆
+TD73 📆 2026-04-18 ? 
