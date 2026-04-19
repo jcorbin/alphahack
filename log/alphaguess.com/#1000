@@ -1,0 +1,82 @@
+T78416.410511352 now: 2026-04-19T07:43:28EDT
+TD123 site: alphaguess.com
+TD239924 loaded 196523 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (81 words excluded) asof d682176cb68b86f2d7bee64b48ddf6fefdb9af11
+TD129  ...␅
+TD4206787 ␆
+TD98  ...
+TD181 [0 : 98216 : 196523] mach? ␅
+TD2263770 ␆a
+TD98 [0 : 98216 : 196523] mach? a
+TD108 progress: 1 98216 mach
+TD310 [98217 : 147371 : 196523] rhumb? ␅
+TD1687908 ␆b
+TD98 [98217 : 147371 : 196523] rhumb? b
+TD101 progress: -1 147371 rhumb
+TD110 [98217 : 122777 : 147371] parr? ␅
+TD1679357 ␆b
+TD77 [98217 : 122777 : 147371] parr? b
+TD82 progress: -1 122777 parr
+TD78 [98217 : 109933 : 122777] ne? ␅
+TD1632007 ␆b
+TD96 [98217 : 109933 : 122777] ne? b
+TD99 progress: -1 109933 ne
+TD103 [98217 : 104071 : 109933] minor? ␅
+TD1559164 ␆b
+TD96 [98217 : 104071 : 109933] minor? b
+TD105 progress: -1 104071 minor
+TD110 [98217 : 101133 : 104071] medieval? ␅
+TD4007925 ␆a
+TD77 [98217 : 101133 : 104071] medieval? a
+TD83 progress: 1 101133 medieval
+TD81 [101134 : 102588 : 104071] methyl? ␅
+TD1799920 ␆b
+TD77 [101134 : 102588 : 104071] methyl? b
+TD79 progress: -1 102588 methyl
+TD75 [101134 : 101847 : 102588] merc? ␅
+TD1839756 ␆a
+TD96 [101134 : 101847 : 102588] merc? a
+TD104 progress: 1 101847 merc
+TD107 [101848 : 102029 : 102588] mes? ␅
+TD1744002 ␆a
+TD103 [101848 : 102029 : 102588] mes? a
+TD150 progress: 1 102029 mes
+TD109 [102030 : 102286 : 102588] metal? ␅
+TD3711662 ␆b
+TD99 [102030 : 102286 : 102588] metal? b
+TD113 progress: -1 102286 metal
+TD341 [102030 : 102158 : 102286] mesothelia? ␅
+TD2199260 ␆a
+TD97 [102030 : 102158 : 102286] mesothelia? a
+TD100 progress: 1 102158 mesothelia
+TD259 [102159 : 102221 : 102286] mestino? ␅
+TD5839529 ␆b
+TD96 [102159 : 102221 : 102286] mestino? b
+TD89 progress: -1 102221 mestino
+TD83 [102159 : 102178 : 102221] mess? ␅
+TD2520259 ␆it
+TD102 [102159 : 102178 : 102221] mess? it
+TD107 progress: 0 102178 mess
+TD26 [102159 : 102178 : 102221] <Done>.
+TD78 📋> ␅
+TD3264930 ␆🧩 Puzzle #1000
+TD98 📋> 🧩 Puzzle #1000
+TD11 📋> ␅
+TD40 ␆🤔 13 guesses
+TD6 📋> 🤔 13 guesses
+TD68 📋> ␅
+TD11 ␆⏱️ 29s
+TD5 📋> ⏱️ 29s
+TD4 📋> ␅
+TD310178 ␆🔗 alphaguess.com/1000
+TD70 📋> 🔗 alphaguess.com/1000
+TD8 📋> ␅
+TD143869 ␄
+TD126 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1000\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 29s\n\ud83d\udd17 alphaguess.com/1000"}
+TD75 result: "\ud83e\udde9 Puzzle #1000\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 29s\n\ud83d\udd17 alphaguess.com/1000"
+TD10 result puzzle: 1000
+TD3 result guesses: 13
+TD3 result time: 29s
+TD52 result link: alphaguess.com/1000
+TD140 📆 2026-04-19 ? ␅
+TD167966 ␆
+TD85 📆 2026-04-19 ? 
