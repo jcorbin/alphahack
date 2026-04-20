@@ -1,0 +1,195 @@
+T529.9380766800023 now: 2026-04-20T08:01:15EDT
+TD73 site: m-w.com/games/quordle/#/
+TD15 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD88  ...␅
+TD167051 ␆
+TD102  ...
+TD394051 > ␅
+TD8285571 ␆*
+TD62 > *
+TD33398 ? ␅
+TD982574 ␆1
+TD83 ? 1
+TD113 questioning: antes
+TD89 Classic #1 _____? ␅
+TD3360185 ␆MnMnn
+TD96 Classic #1 _____? MnMnn
+TD378 attempt: 0 ANTES m n m n n
+TD107 Classic #2 _____? ␅
+TD1527116 ␆nnMnn
+TD95 Classic #2 _____? nnMnn
+TD244 attempt: 1 ANTES n n m n n
+TD98 Classic #3 _____? ␅
+TD2183693 ␆MnMnM
+TD105 Classic #3 _____? MnMnM
+TD169 attempt: 2 ANTES m n m n m
+TD69 Classic #4 _____? ␅
+TD1927685 ␆MnnMn
+TD96 Classic #4 _____? MnnMn
+TD217 attempt: 3 ANTES m n n m n
+TD444433 > ␅
+TD1603248 ␆*
+TD94 > *
+TD2123 ? ␅
+TD893897 ␆1
+TD97 ? 1
+TD177 questioning: flare
+TD148 Classic #1 _____ ~AT -ENS? ␅
+TD4375583 ␆nnYYn
+TD94 Classic #1 _____ ~AT -ENS? nnYYn
+TD210 attempt: 0 FLARE n n Y Y n
+TD103 Classic #2 _____ ~T -AENS? ␅
+TD1159603 ␆nnnMn
+TD97 Classic #2 _____ ~T -AENS? nnnMn
+TD221 attempt: 1 FLARE n n n m n
+TD106 Classic #3 _____ ~AST -EN? ␅
+TD1943564 ␆MnYnn
+TD79 Classic #3 _____ ~AST -EN? MnYnn
+TD154 attempt: 2 FLARE m n Y n n
+TD73 Classic #4 _____ ~AE -NST? ␅
+TD1487750 ␆nMMnY
+TD94 Classic #4 _____ ~AE -NST? nMMnY
+TD224 attempt: 3 FLARE n m m n Y
+TD419763 > ␅
+TD16812268 ␆*
+TD90 > *
+TD418 ? ␅
+TD1231430 ␆1
+TD93 ? 1
+TD171 questioning: shaft
+TD153 Classic #1 __AR_ ~T -EFLNS? ␅
+TD3743478 ␆nnYnY
+TD95 Classic #1 __AR_ ~T -EFLNS? nnYnY
+TD222 attempt: 0 SHAFT n n Y n Y
+TD115 Classic #2 _____ ~RT -AEFLNS? ␅
+TD1399814 ␆nnnnM
+TD99 Classic #2 _____ ~RT -AEFLNS? nnnnM
+TD237 attempt: 1 SHAFT n n n n m
+TD127 Classic #3 __A__ ~FST -ELNR? ␅
+TD2487757 ␆YnYYM
+TD98 Classic #3 __A__ ~FST -ELNR? YnYYM
+TD226 attempt: 2 SHAFT Y n Y Y m
+TD110 Classic #4 ____E ~AL -FNRST? ␅
+TD1351617 ␆nnMnn
+TD99 Classic #4 ____E ~AL -FNRST? nnMnn
+TD221 attempt: 3 SHAFT n n m n n
+TD374197 > ␅
+TD866251 ␆*
+TD98 > *
+TD389 questioning: staff
+TD108 Classic #1 __ART -EFHLNS? ␅
+TD3302349 ␆nMYnn
+TD65 Classic #1 __ART -EFHLNS? nMYnn
+TD148 attempt: 0 STAFF n m Y n n
+TD87 Classic #2 _____ ~RT -AEFHLNS? ␅
+TD1159583 ␆nMnnn
+TD68 Classic #2 _____ ~RT -AEFHLNS? nMnnn
+TD153 attempt: 1 STAFF n m n n n
+TD81 Classic #3 S_AF_ ~T -EHLNR? ␅
+TD1416127 ␆YYYYY
+TD102 Classic #3 S_AF_ ~T -EHLNR? YYYYY
+TD203 attempt: 2 STAFF Y Y Y Y Y
+TD113 Classic #4 ____E ~AL -FHNRST? ␅
+TD1111470 ␆nnMnn
+TD96 Classic #4 ____E ~AL -FHNRST? nnMnn
+TD221 attempt: 3 STAFF n n m n n
+TD289186 > ␅
+TD918227 ␆*
+TD70 > *
+TD348 ? ␅
+TD2447759 ␆2
+TD78 ? 2
+TD127 questioning: quart
+TD108 Classic #1 __ART -EFHLNS? ␅
+TD3271672 ␆YYYYY
+TD67 Classic #1 __ART -EFHLNS? YYYYY
+TD135 attempt: 0 QUART Y Y Y Y Y
+TD74 Classic #2 _____ ~RT -AEFHLNS? ␅
+TD1536139 ␆nYnMM
+TD95 Classic #2 _____ ~RT -AEFHLNS? nYnMM
+TD208 attempt: 1 QUART n Y n m m
+TD104 Classic #4 ____E ~AL -FHNRST? ␅
+TD1327224 ␆nnMnn
+TD77 Classic #4 ____E ~AL -FHNRST? nnMnn
+TD154 attempt: 3 QUART n n m n n
+TD185056 > ␅
+TD1478664 ␆*
+TD92 > *
+TD542 ? ␅
+TD6279931 ␄
+TD153 <EOF>
+TD180412 > ␅
+TD1507012 ␆* 4
+TD89 > * 4
+TD100001 ? ␅
+TD12684021 ␆3
+TD73 ? 3
+TD131 questioning: maple
+TD105 Classic #2 _U___ ~RT -AEFHLNQS? ␅
+TD3983929 ␆Mnnnn
+TD96 Classic #2 _U___ ~RT -AEFHLNQS? Mnnnn
+TD220 attempt: 1 MAPLE m n n n n
+TD111 Classic #4 ____E ~AL -FHNQRSTU? ␅
+TD1519595 ␆nYnYY
+TD96 Classic #4 ____E ~AL -FHNQRSTU? nYnYY
+TD211 attempt: 3 MAPLE n Y n Y Y
+TD184019 > ␅
+TD2103451 ␆*
+TD70 > *
+TD257 questioning: tumor
+TD307 Classic #2 _U___ ~MRT -AEFHLNPQS? ␅
+TD3047665 ␆YYYYY
+TD96 Classic #2 _U___ ~MRT -AEFHLNPQS? YYYYY
+TD207 attempt: 1 TUMOR Y Y Y Y Y
+TD118 Classic #4 _A_LE -FHMNPQRSTU? ␅
+TD1391499 ␆nnnnn
+TD95 Classic #4 _A_LE -FHMNPQRSTU? nnnnn
+TD210 attempt: 3 TUMOR n n n n n
+TD86918 > ␅
+TD960805 ␆*
+TD76 > *
+TD382 ? ␅
+TD6200839 ␆2
+TD109 ? 2
+TD172 questioning: cable
+TD143 Classic #4 _A_LE -FHMNOPQRSTU? ␅
+TD3710410 ␆nYnYY
+TD87 Classic #4 _A_LE -FHMNOPQRSTU? nYnYY
+TD216 attempt: 3 CABLE n Y n Y Y
+TD90974 > ␅
+TD1045162 ␆
+TD89 > 
+TD172 > ␅
+TD807194 ␆*
+TD106 > *
+TD576 ? ␅
+TD1431477 ␆1
+TD94 ? 1
+TD202 questioning: eagle
+TD148 Classic #4 _A_LE -BCFHMNOPQRSTU? ␅
+TD3639443 ␆YYYYY
+TD98 Classic #4 _A_LE -BCFHMNOPQRSTU? YYYYY
+TD215 attempt: 3 EAGLE Y Y Y Y Y
+TD102 📋> ␅
+TD4225133 ␆🙂 Daily Quordle 1547
+TD109 📋> 🙂 Daily Quordle 1547
+TD17 📋> ␅
+TD56 ␆5️⃣7️⃣
+TD13 📋> 5️⃣7️⃣
+TD10 📋> ␅
+TD20 ␆4️⃣9️⃣
+TD8 📋> 4️⃣9️⃣
+TD9 📋> ␅
+TD19 ␆m-w.com/games/quordle/
+TD10 📋> m-w.com/games/quordle/
+TD8 📋> ␅
+TD310432 ␆
+TD101 📋> 
+TD19 📋> ␅
+TD192814 ␄
+TD182 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1547\n5\ufe0f\u20e37\ufe0f\u20e3\n4\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1241 result: "\ud83d\ude42 Daily Quordle 1547\n5\ufe0f\u20e37\ufe0f\u20e3\n4\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD73 📆 2026-04-20 ? ␅
+TD165614 ␆
+TD98 📆 2026-04-20 ? 
