@@ -1,0 +1,94 @@
+T121.07677450100164 now: 2026-04-20T07:54:26EDT
+TD158 site: alphaguess.com
+TD148299 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof fa10eef2e0fd95e8fe3de467f54da8c14f34433c
+TD122  ...␅
+TD1689228 ␆
+TD73  ...
+TD127 [0 : 98216 : 196522] mach? ␅
+TD4248894 ␆b
+TD100 [0 : 98216 : 196522] mach? b
+TD106 progress: -1 98216 mach
+TD108 [0 : 47380 : 98216] dis? ␅
+TD1432023 ␆a
+TD78 [0 : 47380 : 98216] dis? a
+TD79 progress: 1 47380 dis
+TD272 [47381 : 72798 : 98216] gremmy? ␅
+TD1423523 ␆a
+TD98 [47381 : 72798 : 98216] gremmy? a
+TD103 progress: 1 72798 gremmy
+TD107 [72799 : 85502 : 98216] ins? ␅
+TD1383548 ␆b
+TD99 [72799 : 85502 : 98216] ins? b
+TD106 progress: -1 85502 ins
+TD103 [72799 : 79130 : 85502] hood? ␅
+TD4015684 ␆a
+TD97 [72799 : 79130 : 85502] hood? a
+TD95 progress: 1 79130 hood
+TD129 [79131 : 82307 : 85502] immaterial? ␅
+TD1952666 ␆b
+TD185 [79131 : 82307 : 85502] immaterial? b
+TD184 progress: -1 82307 immaterial
+TD168 [79131 : 80715 : 82307] hydroxy? ␅
+TD1550377 ␆b
+TD96 [79131 : 80715 : 82307] hydroxy? b
+TD100 progress: -1 80715 hydroxy
+TD139 [79131 : 79913 : 80715] hoy? ␅
+TD1631273 ␆b
+TD108 [79131 : 79913 : 80715] hoy? b
+TD104 progress: -1 79913 hoy
+TD214 [79131 : 79450 : 79913] horse? ␅
+TD1495323 ␆a
+TD93 [79131 : 79450 : 79913] horse? a
+TD103 progress: 1 79450 horse
+TD97 [79451 : 79640 : 79913] hot? ␅
+TD1888801 ␆b
+TD96 [79451 : 79640 : 79913] hot? b
+TD98 progress: -1 79640 hot
+TD432 [79451 : 79545 : 79640] horticulturist? ␅
+TD1783002 ␆a
+TD101 [79451 : 79545 : 79640] horticulturist? a
+TD102 progress: 1 79545 horticulturist
+TD103 [79546 : 79578 : 79640] hospital? ␅
+TD2937263 ␆a
+TD188 [79546 : 79578 : 79640] hospital? a
+TD171 progress: 1 79578 hospital
+TD141 [79579 : 79604 : 79640] host? ␅
+TD1758542 ␆a
+TD143 [79579 : 79604 : 79640] host? a
+TD113 progress: 1 79604 host
+TD99 [79605 : 79612 : 79640] hostel? ␅
+TD1918695 ␆a
+TD99 [79605 : 79612 : 79640] hostel? a
+TD115 progress: 1 79612 hostel
+TD166 [79613 : 79626 : 79640] hostess? ␅
+TD1591810 ␆a
+TD108 [79613 : 79626 : 79640] hostess? a
+TD102 progress: 1 79626 hostess
+TD193 [79627 : 79630 : 79640] hostile? ␅
+TD3007901 ␆it
+TD97 [79627 : 79630 : 79640] hostile? it
+TD104 progress: 0 79630 hostile
+TD26 [79627 : 79630 : 79640] <Done>.
+TD80 📋> ␅
+TD4161095 ␆🧩 Puzzle #1001
+TD110 📋> 🧩 Puzzle #1001
+TD10 📋> ␅
+TD40 ␆🤔 16 guesses
+TD6 📋> 🤔 16 guesses
+TD5 📋> ␅
+TD11 ␆⏱️ 28s
+TD5 📋> ⏱️ 28s
+TD4 📋> ␅
+TD295473 ␆🔗 alphaguess.com/1001
+TD96 📋> 🔗 alphaguess.com/1001
+TD12 📋> ␅
+TD263148 ␄
+TD222 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1001\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/1001"}
+TD93 result: "\ud83e\udde9 Puzzle #1001\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/1001"
+TD10 result puzzle: 1001
+TD4 result guesses: 16
+TD3 result time: 28s
+TD2 result link: alphaguess.com/1001
+TD72 📆 2026-04-20 ? ␅
+TD343138 ␆
+TD101 📆 2026-04-20 ? 
