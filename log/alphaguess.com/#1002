@@ -1,0 +1,106 @@
+T62.99139840499265 now: 2026-04-21T07:43:59EDT
+TD129 site: alphaguess.com
+TD136229 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof a0ff8afd7820c9904b206fb48ce26fd606ca93bb
+TD111  ...␅
+TD30425 ␆
+TD93  ...
+TD180 [0 : 98216 : 196522] mach? ␅
+TD5759870 ␆b
+TD93 [0 : 98216 : 196522] mach? b
+TD107 progress: -1 98216 mach
+TD115 [0 : 47380 : 98216] dis? ␅
+TD1519452 ␆b
+TD93 [0 : 47380 : 98216] dis? b
+TD106 progress: -1 47380 dis
+TD113 [0 : 23681 : 47380] camp? ␅
+TD1343777 ␆b
+TD74 [0 : 23681 : 47380] camp? b
+TD76 progress: -1 23681 camp
+TD75 [0 : 11763 : 23681] back? ␅
+TD1367897 ␆a
+TD75 [0 : 11763 : 23681] back? a
+TD76 progress: 1 11763 back
+TD72 [11764 : 17714 : 23681] blind? ␅
+TD1391644 ␆b
+TD93 [11764 : 17714 : 23681] blind? b
+TD103 progress: -1 17714 blind
+TD118 [11764 : 13801 : 17714] be? ␅
+TD1408036 ␆a
+TD75 [11764 : 13801 : 17714] be? a
+TD75 progress: 1 13801 be
+TD113 [13802 : 15757 : 17714] bewrap? ␅
+TD1440192 ␆b
+TD74 [13802 : 15757 : 17714] bewrap? b
+TD75 progress: -1 15757 bewrap
+TD88 [13802 : 14778 : 15757] bel? ␅
+TD1838875 ␆b
+TD91 [13802 : 14778 : 15757] bel? b
+TD103 progress: -1 14778 bel
+TD105 [13802 : 14164 : 14778] bed? ␅
+TD1344399 ␆a
+TD75 [13802 : 14164 : 14778] bed? a
+TD75 progress: 1 14164 bed
+TD76 [14165 : 14390 : 14778] bee? ␅
+TD1463136 ␆a
+TD83 [14165 : 14390 : 14778] bee? a
+TD100 progress: 1 14390 bee
+TD109 [14391 : 14553 : 14778] beg? ␅
+TD1383747 ␆b
+TD73 [14391 : 14553 : 14778] beg? b
+TD74 progress: -1 14553 beg
+TD90 [14391 : 14471 : 14553] beet? ␅
+TD1303782 ␆a
+TD61 [14391 : 14471 : 14553] beet? a
+TD66 progress: 1 14471 beet
+TD132 [14472 : 14512 : 14553] beflower? ␅
+TD1296326 ␆b
+TD96 [14472 : 14512 : 14553] beflower? b
+TD104 progress: -1 14512 beflower
+TD208 [14472 : 14491 : 14512] befinger? ␅
+TD1383019 ␆b
+TD95 [14472 : 14491 : 14512] befinger? b
+TD108 progress: -1 14491 befinger
+TD192 [14472 : 14481 : 14491] beeves? ␅
+TD1319736 ␆b
+TD74 [14472 : 14481 : 14491] beeves? b
+TD78 progress: -1 14481 beeves
+TD121 [14472 : 14476 : 14481] beetles? ␅
+TD1335924 ␆b
+TD84 [14472 : 14476 : 14481] beetles? b
+TD117 progress: -1 14476 beetles
+TD190 [14472 : 14474 : 14476] beetler? ␅
+TD1447283 ␆b
+TD77 [14472 : 14474 : 14476] beetler? b
+TD79 progress: -1 14474 beetler
+TD120 [14472 : 14473 : 14474] beetled? ␅
+TD1303840 ␆b
+TD92 [14472 : 14473 : 14474] beetled? b
+TD101 progress: -1 14473 beetled
+TD189 [14472 : 14472 : 14473] beetle? ␅
+TD2431403 ␆it
+TD83 [14472 : 14472 : 14473] beetle? it
+TD79 progress: 0 14472 beetle
+TD17 [14472 : 14472 : 14473] <Done>.
+TD56 📋> ␅
+TD2656553 ␆🧩 Puzzle #1002
+TD94 📋> 🧩 Puzzle #1002
+TD11 📋> ␅
+TD39 ␆🤔 19 guesses
+TD7 📋> 🤔 19 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 25s
+TD6 📋> ⏱️ 25s
+TD5 📋> ␅
+TD239801 ␆🔗 alphaguess.com/1002
+TD96 📋> 🔗 alphaguess.com/1002
+TD13 📋> ␅
+TD143430 ␄
+TD172 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1002\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1002"}
+TD159 result: "\ud83e\udde9 Puzzle #1002\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1002"
+TD43 result puzzle: 1002
+TD10 result guesses: 19
+TD6 result time: 25s
+TD5 result link: alphaguess.com/1002
+TD100 📆 2026-04-21 ? ␅
+TD151243 ␆
+TD35 📆 2026-04-21 ? 
