@@ -1,0 +1,229 @@
+T852.8929180319828 now: 2026-04-21T07:57:09EDT
+TD71 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD26  ...␅
+TD335617 ␆
+TD96  ...
+TD73 🧩  ? ␅
+TD535557 ␆
+TD71 🧩  ? 
+TD120  ...␅
+TD1312092 ␆
+TD74  ...
+TD58 🧩  ? ␅
+TD2471495 ␆#1541
+TD71 🧩  ? #1541
+TD198 puzzle_id: #1541
+TD187 > ␅
+TD1471677 ␆*
+TD90 > *
+TD221944 try? ␅
+TD753845 ␆1
+TD68 try? 1
+TD226 questioning: ["arose", "#5"]
+TD170 #1 <IndexError>  📋 "arose" ? ␅
+TD3159676 ␆_____ ~ AS
+TD80 #1 <IndexError>  📋 "arose" ? _____ ~ AS
+TD483 attempt 0 AROSE m n n m n
+TD85 #2 <IndexError>  📋 "arose" ? ␅
+TD2511361 ␆____E ~ E
+TD78 #2 <IndexError>  📋 "arose" ? ____E ~ E
+TD205 attempt 1 AROSE n n n n Y
+TD96 #3 <IndexError>  📋 "arose" ? ␅
+TD2383537 ␆____E ~ O
+TD94 #3 <IndexError>  📋 "arose" ? ____E ~ O
+TD262 attempt 2 AROSE n n m n Y
+TD135 #4 <IndexError>  📋 "arose" ? ␅
+TD3055482 ␆_____ ~ ROE
+TD67 #4 <IndexError>  📋 "arose" ? _____ ~ ROE
+TD160 attempt 3 AROSE n m m n m
+TD78 #5 <IndexError>  📋 "arose" ? ␅
+TD7191973 ␆_____ ~ SE
+TD89 #5 <IndexError>  📋 "arose" ? _____ ~ SE
+TD270 attempt 4 AROSE n n n m m
+TD353 ? ␅
+TD1351334 ␆
+TD99 ? 
+TD162 question done
+TD301 > ␅
+TD31015516 ␆*
+TD96 > *
+TD627585 try? ␅
+TD3540521 ␆7
+TD91 try? 7
+TD306 questioning: ["voice", "#3"]
+T5.487355563993333 now: 2026-04-21T07:58:24EDT
+TD111 questioning: ["voice", "#3"]
+TD176 #1 _____ ~AS -EOR  📋 "voice" ? ␅
+TD120394 ␆
+TD96 #1 _____ ~AS -EOR  📋 "voice" ? 
+TD815 #1 _____ ~AS -EOR  ? ␅
+TD1167300 ␆
+TD97 #1 _____ ~AS -EOR  ? 
+TD302 #1 _____ ~AS -EOR  ? ␅
+TD2135589 ␆.
+TD107 #1 _____ ~AS -EOR  ? .
+TD203 attempt 0 VOICE n n n n n
+TD67 #2 ____E -AORS  📋 "voice" ? ␅
+TD3207466 ␆____E ~ E
+TD96 #2 ____E -AORS  📋 "voice" ? ____E ~ E
+TD254 attempt 1 VOICE n n n n Y
+TD151 #3 ____E ~O -ARS  📋 "voice" ? ␅
+TD5479501 ␆__I_E ~ OV
+TD96 #3 ____E ~O -ARS  📋 "voice" ? __I_E ~ OV
+TD258 attempt 2 VOICE m m Y n Y
+TD158 #4 _____ ~EOR -AS  📋 "voice" ? ␅
+TD4399460 ␆_O___ ~ REVC
+TD75 #4 _____ ~EOR -AS  📋 "voice" ? _O___ ~ REVC
+TD187 attempt 3 VOICE m Y n m m
+TD102 #5 _____ ~ES -AOR  📋 "voice" ? ␅
+TD1983651 ␆.
+TD81 #5 _____ ~ES -AOR  📋 "voice" ? .
+TD291 attempt 4 VOICE n n n n m
+TD291 ? ␅
+TD183558 ␆
+TD75 ? 
+TD100 question done
+TD325 > ␅
+TD1959312 ␆*
+TD97 > *
+TD813341 questioning: ["cover", "#4"]
+TD182 #1 _____ ~AS -CEIORV  📋 "cover" ? ␅
+TD4426346 ␆.
+TD73 #1 _____ ~AS -CEIORV  📋 "cover" ? .
+TD187 attempt 0 COVER n n n n n
+TD71 #2 ____E -ACIORSV  📋 "cover" ? ␅
+TD2599947 ␆___EE ~ E
+TD98 #2 ____E -ACIORSV  📋 "cover" ? ___EE ~ E
+TD226 attempt 1 COVER n n n Y n
+TD107 #3 __I_E ~OV -ACRS  📋 "cover" ? ␅
+TD2687489 ␆.
+TD95 #3 __I_E ~OV -ACRS  📋 "cover" ? .
+TD271 attempt 2 COVER n m m n n
+TD95 #4 _O___ ~CERV -AIS  📋 "cover" ? ␅
+TD655546 ␆/it
+TD95 #4 _O___ ~CERV -AIS  📋 "cover" ? /it
+TD262 attempt 3 COVER Y Y Y Y Y
+TD97 #5 _____ ~ES -ACIORV  📋 "cover" ? ␅
+TD5087513 ␆___E_ ~ SE
+TD97 #5 _____ ~ES -ACIORV  📋 "cover" ? ___E_ ~ SE
+TD261 attempt 4 COVER n n n Y n
+TD358 ? ␅
+TD279289 ␆
+TD78 ? 
+TD92 question done
+TD198 > ␅
+TD832399 ␆
+TD107 > 
+TD352 > ␅
+TD606719 ␆*
+TD96 > *
+TD612710 try? ␅
+TD2571377 ␆2
+TD94 try? 2
+TD322 questioning: ["olive", "#3"]
+TD350 #1 _____ ~AS -CEIORV  📋 "olive" ? ␅
+TD5063169 ␆_____ ~ ASL
+TD104 #1 _____ ~AS -CEIORV  📋 "olive" ? _____ ~ ASL
+TD260 attempt 0 OLIVE n m n n n
+TD160 #2 ___EE -ACIORSV  📋 "olive" ? ␅
+TD3335968 ␆___EE ~ EL
+TD93 #2 ___EE -ACIORSV  📋 "olive" ? ___EE ~ EL
+TD258 attempt 1 OLIVE n m n n Y
+TD108 #3 __I_E ~OV -ACERS  📋 "olive" ? ␅
+TD1423228 ␆/it
+TD91 #3 __I_E ~OV -ACERS  📋 "olive" ? /it
+TD249 attempt 2 OLIVE Y Y Y Y Y
+TD65 #5 ___E_ ~S -ACIORV  📋 "olive" ? ␅
+TD3783622 ␆___E_ ~ SE
+TD97 #5 ___E_ ~S -ACIORV  📋 "olive" ? ___E_ ~ SE
+TD261 attempt 4 OLIVE n n n n m
+TD319 ? ␅
+TD215279 ␆
+TD86 ? 
+TD118 question done
+TD313 > ␅
+TD839890 ␆*
+TD92 > *
+TD610040 questioning: ["melee", "#2"]
+TD199 #1 _____ ~ALS -CEIORV  📋 "melee" ? ␅
+TD11125317 ␆_____ ~ ASLM
+TD78 #1 _____ ~ALS -CEIORV  📋 "melee" ? _____ ~ ASLM
+TD188 attempt 0 MELEE m n m n n
+TD121 #2 ___EE ~L -ACIORSV  📋 "melee" ? ␅
+TD871850 ␆/it
+TD80 #2 ___EE ~L -ACIORSV  📋 "melee" ? /it
+TD182 attempt 1 MELEE Y Y Y Y Y
+TD67 #5 ___E_ ~S -ACILORV  📋 "melee" ? ␅
+TD3007750 ␆___E_ ~ SE
+TD96 #5 ___E_ ~S -ACILORV  📋 "melee" ? ___E_ ~ SE
+TD249 attempt 4 MELEE n m n Y m
+TD244 ? ␅
+TD279224 ␆
+TD93 ? 
+TD119 question done
+TD307 > ␅
+TD535453 ␆*
+TD105 > *
+TD689607 questioning: ["small", "#1"]
+TD185 #1 _____ ~ALMS -CEIORV  📋 "small" ? ␅
+TD2933998 ␆/it
+TD95 #1 _____ ~ALMS -CEIORV  📋 "small" ? /it
+TD254 attempt 0 SMALL Y Y Y Y Y
+TD102 #5 ___E_ ~S -ACILMORV  📋 "small" ? ␅
+TD3759535 ␆___E_ ~ SE
+TD93 #5 ___E_ ~S -ACILMORV  📋 "small" ? ___E_ ~ SE
+TD265 attempt 4 SMALL m n n n n
+TD358 ? ␅
+TD495519 ␆
+TD98 ? 
+TD124 question done
+TD315 > ␅
+TD1007390 ␆*
+TD102 > *
+TD900341 questioning: ["knees", "#5"]
+TD196 #5 ___E_ ~S -ACILMORV  📋 "knees" ? ␅
+TD2635454 ␆/it
+TD90 #5 ___E_ ~S -ACILMORV  📋 "knees" ? /it
+TD254 attempt 4 KNEES Y Y Y Y Y
+TD2550 ? ␅
+TD1412984 ␆
+TD84 ? 
+TD81 question done
+TD21772 📋> ␅
+TD7850750 ␆squareword.org 1541: 7 guesses
+TD78 📋> squareword.org 1541: 7 guesses
+TD12 📋> ␅
+TD31 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD9 ␆🟨🟨🟨🟨🟨
+TD3 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟨🟨🟨🟩🟨
+TD2 📋> 🟨🟨🟨🟩🟨
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD335304 ␆#squareword #squareword1541
+TD75 📋> #squareword #squareword1541
+TD8 📋> ␅
+TD215964 ␄
+TD161 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1541: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1541"}
+TD786 result: "squareword.org 1541: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1541"
+TD96 📆 2026-04-21 ? ␅
+TD335054 ␆
+TD92 📆 2026-04-21 ? 
