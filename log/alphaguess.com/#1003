@@ -1,0 +1,108 @@
+T86277.54009857998 now: 2026-04-22T07:56:16EDT
+TD79 site: alphaguess.com
+TD209744 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 0cae284cbd94e22c6c3079c43d9551c50c00ca69
+TD108  ...␅
+TD26 ␆
+TD3  ...
+TD70 [0 : 98216 : 196522] mach? ␅
+TD548725 ␆
+TD96 [0 : 98216 : 196522] mach? 
+TD114 [0 : 98216 : 196522] mach? ␅
+TD528159 ␆
+TD103 [0 : 98216 : 196522] mach? 
+TD160 [0 : 98216 : 196522] mach? ␅
+TD4359351 ␆a
+TD97 [0 : 98216 : 196522] mach? a
+TD112 progress: 1 98216 mach
+TD249 [98217 : 147366 : 196522] rhotic? ␅
+TD1423525 ␆a
+TD78 [98217 : 147366 : 196522] rhotic? a
+TD81 progress: 1 147366 rhotic
+TD81 [147367 : 171636 : 196522] ta? ␅
+TD1463746 ␆b
+TD97 [147367 : 171636 : 196522] ta? b
+TD105 progress: -1 171636 ta
+TD103 [147367 : 159483 : 171636] slop? ␅
+TD1367860 ␆b
+TD100 [147367 : 159483 : 171636] slop? b
+TD108 progress: -1 159483 slop
+TD110 [147367 : 153315 : 159483] sea? ␅
+TD1535680 ␆a
+TD96 [147367 : 153315 : 159483] sea? a
+TD105 progress: 1 153315 sea
+TD118 [153316 : 156351 : 159483] ship? ␅
+TD2103602 ␆a
+TD96 [153316 : 156351 : 159483] ship? a
+TD105 progress: 1 156351 ship
+TD114 [156352 : 157879 : 159483] sim? ␅
+TD1487997 ␆b
+TD97 [156352 : 157879 : 159483] sim? b
+TD107 progress: -1 157879 sim
+TD221 [156352 : 157115 : 157879] shrub? ␅
+TD1383220 ␆a
+TD96 [156352 : 157115 : 157879] shrub? a
+TD105 progress: 1 157115 shrub
+TD116 [157116 : 157260 : 157879] si? ␅
+TD1631878 ␆a
+TD91 [157116 : 157260 : 157879] si? a
+TD106 progress: 1 157260 si
+TD108 [157261 : 157552 : 157879] sight? ␅
+TD1335617 ␆a
+TD97 [157261 : 157552 : 157879] sight? a
+TD106 progress: 1 157552 sight
+TD354 [157553 : 157716 : 157879] silesia? ␅
+TD1335260 ␆a
+TD95 [157553 : 157716 : 157879] silesia? a
+TD102 progress: 1 157716 silesia
+TD111 [157717 : 157788 : 157879] sill? ␅
+TD1256100 ␆a
+TD96 [157717 : 157788 : 157879] sill? a
+TD105 progress: 1 157788 sill
+TD177 [157789 : 157833 : 157879] silver? ␅
+TD1735564 ␆b
+TD94 [157789 : 157833 : 157879] silver? b
+TD106 progress: -1 157833 silver
+TD157 [157789 : 157805 : 157833] silo? ␅
+TD3007537 ␆b
+TD98 [157789 : 157805 : 157833] silo? b
+TD106 progress: -1 157805 silo
+TD289 [157789 : 157797 : 157805] silliest? ␅
+TD1367673 ␆a
+TD97 [157789 : 157797 : 157805] silliest? a
+TD105 progress: 1 157797 silliest
+TD194 [157798 : 157801 : 157805] silliness? ␅
+TD1511959 ␆a
+TD101 [157798 : 157801 : 157805] silliness? a
+TD119 progress: 1 157801 silliness
+TD236 [157802 : 157803 : 157805] sills? ␅
+TD1471228 ␆a
+TD96 [157802 : 157803 : 157805] sills? a
+TD106 progress: 1 157803 sills
+TD203 [157804 : 157804 : 157805] silly? ␅
+TD2199443 ␆it
+TD108 [157804 : 157804 : 157805] silly? it
+TD105 progress: 0 157804 silly
+TD28 [157804 : 157804 : 157805] <Done>.
+TD84 📋> ␅
+TD3456266 ␆🧩 Puzzle #1003
+TD102 📋> 🧩 Puzzle #1003
+TD12 📋> ␅
+TD42 ␆🤔 18 guesses
+TD7 📋> 🤔 18 guesses
+TD6 📋> ␅
+TD14 ␆⏱️ 27s
+TD6 📋> ⏱️ 27s
+TD5 📋> ␅
+TD247383 ␆🔗 alphaguess.com/1003
+TD97 📋> 🔗 alphaguess.com/1003
+TD12 📋> ␅
+TD144030 ␄
+TD138 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1003\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 27s\n\ud83d\udd17 alphaguess.com/1003"}
+TD76 result: "\ud83e\udde9 Puzzle #1003\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 27s\n\ud83d\udd17 alphaguess.com/1003"
+TD10 result puzzle: 1003
+TD3 result guesses: 18
+TD3 result time: 27s
+TD2 result link: alphaguess.com/1003
+TD89 📆 2026-04-22 ? ␅
+TD152040 ␆
+TD96 📆 2026-04-22 ? 
