@@ -1,0 +1,315 @@
+T228.72043468500488 now: 2026-04-22T08:09:02EDT
+TD81 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD24  ...␅
+TD766916 ␆
+TD99  ...
+TD72 🧩  ? ␅
+TD1983730 ␆
+TD75 🧩  ? 
+TD118  ...␅
+TD727994 ␆
+TD91  ...
+TD80 🧩  ? ␅
+TD1783912 ␆#1542
+TD97 🧩  ? #1542
+TD273 puzzle_id: #1542
+TD272 > ␅
+TD679213 ␆
+TD91 > 
+TD363 > ␅
+TD3488282 ␆*
+TD98 > *
+TD242322 try? ␅
+TD653594 ␆1
+TD97 try? 1
+TD324 questioning: ["aures", "#5"]
+TD319 #1 <IndexError>  📋 "aures" ? ␅
+TD8151537 ␆A____ 
+TD99 #1 <IndexError>  📋 "aures" ? A____ 
+TD677 attempt 0 AURES Y n n n n
+TD87 #2 <IndexError>  📋 "aures" ? ␅
+TD2150356 ␆_____ ~ ARE
+TD96 #2 <IndexError>  📋 "aures" ? _____ ~ ARE
+TD279 attempt 1 AURES m n m m n
+TD131 #3 <IndexError>  📋 "aures" ? ␅
+TD3031608 ␆____S ~ AS
+TD70 #3 <IndexError>  📋 "aures" ? ____S ~ AS
+TD179 attempt 2 AURES m n n n Y
+TD81 #4 <IndexError>  📋 "aures" ? ␅
+TD3023716 ␆___E_ 
+TD98 #4 <IndexError>  📋 "aures" ? ___E_ 
+TD249 attempt 3 AURES n n n Y n
+TD118 #5 <IndexError>  📋 "aures" ? ␅
+TD1983800 ␆_____ ~ E
+TD108 #5 <IndexError>  📋 "aures" ? _____ ~ E
+TD245 attempt 4 AURES n n n m n
+TD351 ? ␅
+TD255064 ␆
+TD93 ? 
+TD151 question done
+TD297 > ␅
+TD919505 ␆*
+TD97 > *
+TD652678 try? ␅
+TD979174 ␆1
+TD95 try? 1
+TD317 questioning: ["recta", "#2"]
+TD333 #1 A____ -ERSU  📋 "recta" ? ␅
+TD5607139 ␆A____ ~ T
+TD106 #1 A____ -ERSU  📋 "recta" ? A____ ~ T
+TD254 attempt 0 RECTA n n n m n
+TD168 #2 _____ ~AER -SU  📋 "recta" ? ␅
+TD1375863 ␆.
+TD88 #2 _____ ~AER -SU  📋 "recta" ? .
+TD270 attempt 1 RECTA m m n n m
+TD93 #3 ____S ~A -ERU  📋 "recta" ? ␅
+TD2783357 ␆___TS ~ AS
+TD90 #3 ____S ~A -ERU  📋 "recta" ? ___TS ~ AS
+TD267 attempt 2 RECTA n n n Y m
+TD145 #4 ___E_ -ARSU  📋 "recta" ? ␅
+TD7327577 ␆___E_ ~ CT
+TD103 #4 ___E_ -ARSU  📋 "recta" ? ___E_ ~ CT
+TD251 attempt 3 RECTA n n m m n
+TD147 #5 _____ ~E -ARSU  📋 "recta" ? ␅
+TD4375551 ␆_E___ ~ E
+TD109 #5 _____ ~E -ARSU  📋 "recta" ? _E___ ~ E
+TD251 attempt 4 RECTA n Y n n n
+TD316 ? ␅
+TD983851 ␆
+TD101 ? 
+TD132 question done
+TD302 > ␅
+TD7535110 ␆*
+TD99 > *
+TD637067 try? ␅
+TD1875663 ␆1
+TD104 try? 1
+TD288 questioning: ["cited", "#4"]
+TD347 #1 A____ ~T -ACERSU  📋 "cited" ? ␅
+TD3630485 ␆.
+TD107 #1 A____ ~T -ACERSU  📋 "cited" ? .
+TD273 attempt 0 CITED n n m n n
+TD97 #2 _____ ~AER -CSTU  📋 "cited" ? ␅
+TD1231729 ␆.
+TD90 #2 _____ ~AER -CSTU  📋 "cited" ? .
+TD261 attempt 1 CITED n n n m n
+TD94 #3 ___TS ~A -CERU  📋 "cited" ? ␅
+TD3679370 ␆___TS ~ AS
+TD75 #3 ___TS ~A -CERU  📋 "cited" ? ___TS ~ AS
+TD182 attempt 2 CITED n n n n n
+TD101 #4 ___E_ ~CT -AERSU  📋 "cited" ? ␅
+TD2927708 ␆__TE_ ~ CT
+TD95 #4 ___E_ ~CT -AERSU  📋 "cited" ? __TE_ ~ CT
+TD258 attempt 3 CITED m n Y Y n
+TD145 #5 _E___ -ACRSTU  📋 "cited" ? ␅
+TD2799482 ␆_E___ ~ ED
+TD100 #5 _E___ -ACRSTU  📋 "cited" ? _E___ ~ ED
+TD252 attempt 4 CITED n n n m m
+TD359 ? ␅
+TD375236 ␆
+TD100 ? 
+TD127 question done
+TD283 > ␅
+TD4015686 ␆*
+TD98 > *
+TD554744 questioning: ["octet", "#4"]
+TD177 #1 A____ ~T -ACDEIRSU  📋 "octet" ? ␅
+TD5004922 ␆A___T ~ O
+TD97 #1 A____ ~T -ACDEIRSU  📋 "octet" ? A___T ~ O
+TD205 attempt 0 OCTET m n n n Y
+TD110 #2 _____ ~AER -CDISTU  📋 "octet" ? ␅
+TD1751526 ␆.
+TD95 #2 _____ ~AER -CDISTU  📋 "octet" ? .
+TD274 attempt 1 OCTET n n n m n
+TD109 #3 ___TS ~A -CDEIRTU  📋 "octet" ? ␅
+TD4047475 ␆___TS ~ AS
+TD96 #3 ___TS ~A -CDEIRTU  📋 "octet" ? ___TS ~ AS
+TD270 attempt 2 OCTET n n n n n
+TD166 #4 __TE_ ~C -ADIRSU  📋 "octet" ? ␅
+TD2175802 ␆/it
+TD111 #4 __TE_ ~C -ADIRSU  📋 "octet" ? /it
+TD274 attempt 3 OCTET Y Y Y Y Y
+TD110 #5 _E___ ~D -ACIRSTU  📋 "octet" ? ␅
+TD3831362 ␆_E___ ~ ED
+TD129 #5 _E___ ~D -ACIRSTU  📋 "octet" ? _E___ ~ ED
+TD255 attempt 4 OCTET n n n m n
+TD367 ? ␅
+TD335365 ␆
+TD100 ? 
+TD122 question done
+TD323 > ␅
+TD1351782 ␆*
+TD112 > *
+TD1333565 try? ␅
+TD4249913 ␆1
+TD93 try? 1
+TD238 questioning: ["needy", "#5"]
+TD230 #1 A___T ~O -ACDEIRSU  📋 "needy" ? ␅
+TD7609013 ␆.
+TD102 #1 A___T ~O -ACDEIRSU  📋 "needy" ? .
+TD242 attempt 0 NEEDY n n n n n
+TD112 #2 _____ ~AER -CDIOSTU  📋 "needy" ? ␅
+TD903077 ␆.
+TD95 #2 _____ ~AER -CDIOSTU  📋 "needy" ? .
+TD256 attempt 1 NEEDY n m m n n
+TD105 #3 ___TS ~A -CDEIORTU  📋 "needy" ? ␅
+TD4174635 ␆___TS ~ AS
+TD68 #3 ___TS ~A -CDEIORTU  📋 "needy" ? ___TS ~ AS
+TD167 attempt 2 NEEDY n n n n n
+TD95 #5 _E___ ~D -ACIORSTU  📋 "needy" ? ␅
+TD3215788 ␆_EEDY
+TD96 #5 _E___ ~D -ACIORSTU  📋 "needy" ? _EEDY
+TD238 attempt 4 NEEDY n Y Y Y Y
+TD329 ? ␅
+TD383215 ␆
+TD90 ? 
+TD117 question done
+TD304 > ␅
+TD815477 ␆*
+TD94 > *
+TD2132327 questioning: ["grape", "#2"]
+TD196 #1 A___T ~O -ACDEINRSUY  📋 "grape" ? ␅
+TD4491572 ␆.
+TD78 #1 A___T ~O -ACDEINRSUY  📋 "grape" ? .
+TD202 attempt 0 GRAPE n n n n n
+TD69 #2 _____ ~AER -CDINOSTUY  📋 "grape" ? ␅
+TD743412 ␆/it
+TD92 #2 _____ ~AER -CDINOSTUY  📋 "grape" ? /it
+TD267 attempt 1 GRAPE Y Y Y Y Y
+TD104 #3 ___TS ~A -CDEINORTUY  📋 "grape" ? ␅
+TD3064123 ␆___TS ~ AS
+TD96 #3 ___TS ~A -CDEINORTUY  📋 "grape" ? ___TS ~ AS
+TD259 attempt 2 GRAPE n n m n n
+TD150 #5 _EEDY -ACINORSTU  📋 "grape" ? ␅
+TD1887716 ␆.
+TD97 #5 _EEDY -ACINORSTU  📋 "grape" ? .
+TD262 attempt 4 GRAPE n n n n n
+TD311 ? ␅
+TD191321 ␆
+TD96 ? 
+TD112 question done
+TD313 > ␅
+TD703525 ␆*
+TD96 > *
+TD1811523 questioning: ["abbot", "#1"]
+TD238 #1 A___T ~O -ACDEGINPRSUY  📋 "abbot" ? ␅
+TD13139588 ␆/it
+TD105 #1 A___T ~O -ACDEGINPRSUY  📋 "abbot" ? /it
+TD243 attempt 0 ABBOT Y Y Y Y Y
+TD100 #3 ___TS ~A -CDEGINOPRTUY  📋 "abbot" ? ␅
+TD3895689 ␆___TS ~ AS
+TD88 #3 ___TS ~A -CDEGINOPRTUY  📋 "abbot" ? ___TS ~ AS
+TD245 attempt 2 ABBOT m n n n n
+TD150 #5 _EEDY -ACEGINOPRSTU  📋 "abbot" ? ␅
+TD2191674 ␆.
+TD120 #5 _EEDY -ACEGINOPRSTU  📋 "abbot" ? .
+TD315 attempt 4 ABBOT n n n n n
+TD349 ? ␅
+TD175204 ␆
+TD99 ? 
+TD109 question done
+TD285 > ␅
+TD1183366 ␆*
+TD99 > *
+TD1291358 questioning: ["lasts", "#3"]
+TD201 #3 ___TS ~A -BCDEGINOPRTUY  📋 "lasts" ? ␅
+TD3772715 ␆/it
+TD117 #3 ___TS ~A -BCDEGINOPRTUY  📋 "lasts" ? /it
+TD267 attempt 2 LASTS Y Y Y Y Y
+TD100 #5 _EEDY -ABCEGINOPRSTU  📋 "lasts" ? ␅
+TD1367322 ␆.
+TD78 #5 _EEDY -ABCEGINOPRSTU  📋 "lasts" ? .
+TD189 attempt 4 LASTS n n n n n
+TD173 ? ␅
+TD176229 ␆
+TD85 ? 
+TD83 question done
+TD180 > ␅
+TD583015 ␆*
+TD93 > *
+TD865338 questioning: ["weedy", "#5"]
+TD215 #5 _EEDY -ABCEGILNOPRSTU  📋 "weedy" ? ␅
+TD3278262 ␆/it
+TD107 #5 _EEDY -ABCEGILNOPRSTU  📋 "weedy" ? /it
+TD331 attempt 4 WEEDY Y Y Y Y Y
+TD393 ? ␅
+TD9151811 ␆squareword.org 1542: 9 guesses
+TD115 ? squareword.org 1542: 9 guesses
+TD560 ? ␅
+TD62 ␆
+TD18 ? 
+TD38 question done
+TD21472 📋> ␅
+TD60 ␆🟩🟨🟨🟨🟩
+TD3 📋> 🟩🟨🟨🟨🟩
+TD6 📋> ␅
+TD6 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD6 ␆🟨🟨🟨🟩🟩
+TD2 📋> 🟨🟨🟨🟩🟩
+TD5 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD5 ␆🟨🟩🟩🟩🟩
+TD2 📋> 🟨🟩🟩🟩🟩
+TD4 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD5 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD312991 ␆#squareword #squareword1542
+TD79 📋> #squareword #squareword1542
+TD38 📋> ␅
+TD255909 ␄
+TD219 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1542"}
+TD607 📋> ␅
+TD207972 ␆
+TD88 📋> 
+TD43 📋> ␅
+TD951225 ␄
+TD200 pasted: {"subject": "share result", "method": "read:must:stdin", "content": ""}
+TD118 📋> ␅
+TD455592 ␆
+TD93 📋> 
+TD39 📋> ␅
+TD848258 ␆squareword.org 1542: 9 guesses
+TD79 📋> squareword.org 1542: 9 guesses
+TD39 📋> ␅
+TD33 ␆
+TD3 📋> 
+TD7 📋> ␅
+TD9 ␆🟩🟨🟨🟨🟩
+TD7 📋> 🟩🟨🟨🟨🟩
+TD17 📋> ␅
+TD6 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD5 ␆🟨🟨🟨🟩🟩
+TD2 📋> 🟨🟨🟨🟩🟩
+TD5 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD11 📋> ␅
+TD7 ␆🟨🟩🟩🟩🟩
+TD3 📋> 🟨🟩🟩🟩🟩
+TD6 📋> ␅
+TD6 ␆
+TD2 📋> 
+TD5 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD335344 ␆#squareword #squareword1542
+TD93 📋> #squareword #squareword1542
+TD54 📋> ␅
+TD239966 ␄
+TD201 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\nsquareword.org 1542: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1542"}
+TD737 result: "\nsquareword.org 1542: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1542"
+TD120 📆 2026-04-22 ? ␅
+TD214876 ␆
+TD78 📆 2026-04-22 ? 
