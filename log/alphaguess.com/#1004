@@ -1,0 +1,97 @@
+T86219.46916126399 now: 2026-04-23T08:02:12EDT
+TD165 site: alphaguess.com
+TD263030 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 9340bfc3bd0cd980f621098ce55912a1433e7d94
+TD121  ...␅
+TD23 ␆
+TD2  ...
+TD72 [0 : 98216 : 196522] mach? ␅
+TD839865 ␆
+TD100 [0 : 98216 : 196522] mach? 
+TD118 [0 : 98216 : 196522] mach? ␅
+TD6015873 ␆a
+TD111 [0 : 98216 : 196522] mach? a
+TD461 progress: 1 98216 mach
+TD237 [98217 : 147366 : 196522] rhotic? ␅
+TD1319046 ␆a
+TD96 [98217 : 147366 : 196522] rhotic? a
+TD110 progress: 1 147366 rhotic
+TD108 [147367 : 171636 : 196522] ta? ␅
+TD2103911 ␆b
+TD96 [147367 : 171636 : 196522] ta? b
+TD109 progress: -1 171636 ta
+TD104 [147367 : 159483 : 171636] slop? ␅
+TD1519699 ␆b
+TD101 [147367 : 159483 : 171636] slop? b
+TD108 progress: -1 159483 slop
+TD105 [147367 : 153315 : 159483] sea? ␅
+TD1511387 ␆b
+TD95 [147367 : 153315 : 159483] sea? b
+TD107 progress: -1 153315 sea
+TD111 [147367 : 150337 : 153315] sallow? ␅
+TD1535957 ␆b
+TD99 [147367 : 150337 : 153315] sallow? b
+TD108 progress: -1 150337 sallow
+TD112 [147367 : 148803 : 150337] rot? ␅
+TD1375507 ␆a
+TD98 [147367 : 148803 : 150337] rot? a
+TD110 progress: 1 148803 rot
+TD109 [148804 : 149528 : 150337] run? ␅
+TD1311680 ␆a
+TD99 [148804 : 149528 : 150337] run? a
+TD113 progress: 1 149528 run
+TD123 [149529 : 149818 : 150337] sac? ␅
+TD1503679 ␆a
+TD98 [149529 : 149818 : 150337] sac? a
+TD109 progress: 1 149818 sac
+TD108 [149819 : 150061 : 150337] sag? ␅
+TD1351752 ␆a
+TD90 [149819 : 150061 : 150337] sag? a
+TD95 progress: 1 150061 sag
+TD155 [150062 : 150199 : 150337] saiyid? ␅
+TD1367753 ␆b
+TD81 [150062 : 150199 : 150337] saiyid? b
+TD82 progress: -1 150199 saiyid
+TD136 [150062 : 150130 : 150199] sail? ␅
+TD1647753 ␆b
+TD94 [150062 : 150130 : 150199] sail? b
+TD108 progress: -1 150130 sail
+TD227 [150062 : 150096 : 150130] sagger? ␅
+TD1415609 ␆a
+TD97 [150062 : 150096 : 150130] sagger? a
+TD111 progress: 1 150096 sagger
+TD197 [150097 : 150113 : 150130] sags? ␅
+TD1455610 ␆a
+TD98 [150097 : 150113 : 150130] sags? a
+TD109 progress: 1 150113 sags
+TD239 [150114 : 150122 : 150130] sahuaro? ␅
+TD1303470 ␆a
+TD79 [150114 : 150122 : 150130] sahuaro? a
+TD84 progress: 1 150122 sahuaro
+TD149 [150123 : 150126 : 150130] said? ␅
+TD2111670 ␆it
+TD97 [150123 : 150126 : 150130] said? it
+TD111 progress: 0 150126 said
+TD28 [150123 : 150126 : 150130] <Done>.
+TD82 📋> ␅
+TD2696036 ␆🧩 Puzzle #1004
+TD75 📋> 🧩 Puzzle #1004
+TD7 📋> ␅
+TD45 ␆🤔 16 guesses
+TD4 📋> 🤔 16 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 22s
+TD3 📋> ⏱️ 22s
+TD2 📋> ␅
+TD255708 ␆🔗 alphaguess.com/1004
+TD95 📋> 🔗 alphaguess.com/1004
+TD11 📋> ␅
+TD191865 ␄
+TD148 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1004\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1004"}
+TD82 result: "\ud83e\udde9 Puzzle #1004\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1004"
+TD11 result puzzle: 1004
+TD4 result guesses: 16
+TD3 result time: 22s
+TD3 result link: alphaguess.com/1004
+TD70 📆 2026-04-23 ? ␅
+TD119701 ␆
+TD101 📆 2026-04-23 ? 
