@@ -1,0 +1,237 @@
+T754.0977441050345 now: 2026-04-23T08:29:45EDT
+TD77 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD24  ...␅
+TD2878977 ␆*
+TD71  ...*
+TD65  ...␅
+TD512106 ␆
+TD74  ...
+TD57 🧩  ? ␅
+TD367713 ␆
+TD94 🧩  ? 
+TD162  ...␅
+TD855692 ␆
+TD76  ...
+TD60 🧩  ? ␅
+TD2431860 ␆#1543
+TD72 🧩  ? #1543
+TD204 puzzle_id: #1543
+TD184 > ␅
+TD351549 ␆
+TD79 > 
+TD370 > ␅
+TD719614 ␆*
+TD80 > *
+TD220791 try? ␅
+TD691312 ␆1
+TD110 try? 1
+TD365 questioning: ["rales", "#5"]
+T6.924396018963307 now: 2026-04-23T08:30:16EDT
+TD120 questioning: ["rales", "#5"]
+TD163 #1 <IndexError>  📋 "rales" ? ␅
+TD3376795 ␆___E_ ~ RS
+TD93 #1 <IndexError>  📋 "rales" ? ___E_ ~ RS
+TD806 attempt 0 RALES m n n Y m
+TD129 #2 <IndexError>  📋 "rales" ? ␅
+TD2238900 ␆_____ ~ RE
+TD77 #2 <IndexError>  📋 "rales" ? _____ ~ RE
+TD189 attempt 1 RALES m n n m n
+TD90 #3 <IndexError>  📋 "rales" ? ␅
+TD3191631 ␆R___S 
+TD68 #3 <IndexError>  📋 "rales" ? R___S 
+TD152 attempt 2 RALES Y n n n Y
+TD74 #4 <IndexError>  📋 "rales" ? ␅
+TD2607878 ␆___E_ ~ S
+TD76 #4 <IndexError>  📋 "rales" ? ___E_ ~ S
+TD153 attempt 3 RALES n n n Y m
+T11.76085146603873 now: 2026-04-23T08:30:45EDT
+TD111 questioning: ["rales", "#5"]
+TD173 #5 <IndexError>  📋 "rales" ? ␅
+TD3821233 ␆_____ ~ RE
+TD82 #5 <IndexError>  📋 "rales" ? _____ ~ RE
+TD496 attempt 4 RALES m n n m n
+TD190 ? ␅
+TD1527445 ␆
+TD96 ? 
+TD127 question done
+TD299 > ␅
+TD20391522 ␆*
+TD77 > *
+TD657031 try? ␅
+TD878951 ␆1
+TD96 try? 1
+TD324 questioning: ["roups", "#3"]
+TD369 #1 ___E_ ~RS -AL  📋 "roups" ? ␅
+TD6023475 ␆___E_ ~ RSP
+TD107 #1 ___E_ ~RS -AL  📋 "roups" ? ___E_ ~ RSP
+TD265 attempt 0 ROUPS m n n m m
+TD158 #2 _____ ~ER -ALS  📋 "roups" ? ␅
+TD2463581 ␆_____ ~ REO
+TD99 #2 _____ ~ER -ALS  📋 "roups" ? _____ ~ REO
+TD261 attempt 1 ROUPS m m n n n
+TD148 #3 R___S -AEL  📋 "roups" ? ␅
+TD4103349 ␆R___S ~ O
+TD91 #3 R___S -AEL  📋 "roups" ? R___S ~ O
+TD257 attempt 2 ROUPS Y m n n Y
+TD183 #4 ___E_ ~S -ALR  📋 "roups" ? ␅
+TD2831515 ␆___E_ ~ SUP
+TD103 #4 ___E_ ~S -ALR  📋 "roups" ? ___E_ ~ SUP
+TD265 attempt 3 ROUPS n n m m m
+TD167 #5 _____ ~ER -ALS  📋 "roups" ? ␅
+TD2967505 ␆_____ ~ REO
+TD88 #5 _____ ~ER -ALS  📋 "roups" ? _____ ~ REO
+TD263 attempt 4 ROUPS m m n n n
+TD341 ? ␅
+TD223209 ␆
+TD96 ? 
+TD155 question done
+TD310 > ␅
+TD623366 ␆*
+TD76 > *
+TD431117 questioning: ["upset", "#4"]
+TD219 #1 ___E_ ~PRS -ALOU  📋 "upset" ? ␅
+TD13984731 ␆___E_ ~ RSPT
+TD87 #1 ___E_ ~PRS -ALOU  📋 "upset" ? ___E_ ~ RSPT
+TD246 attempt 0 UPSET n m m Y m
+TD155 #2 _____ ~EOR -ALPSU  📋 "upset" ? ␅
+TD1319554 ␆.
+TD99 #2 _____ ~EOR -ALPSU  📋 "upset" ? .
+TD286 attempt 1 UPSET n n n m n
+TD103 #3 R___S ~O -AELPU  📋 "upset" ? ␅
+TD3863691 ␆R___S ~ OT
+TD113 #3 R___S ~O -AELPU  📋 "upset" ? R___S ~ OT
+TD277 attempt 2 UPSET n n n n m
+TD154 #4 ___E_ ~PSU -ALOR  📋 "upset" ? ␅
+TD1087777 ␆/it
+TD98 #4 ___E_ ~PSU -ALOR  📋 "upset" ? /it
+TD269 attempt 3 UPSET Y Y Y Y Y
+TD97 #5 _____ ~EOR -ALPSU  📋 "upset" ? ␅
+TD3015226 ␆_____ ~ REOT
+TD98 #5 _____ ~EOR -ALPSU  📋 "upset" ? _____ ~ REOT
+TD264 attempt 4 UPSET n n n m m
+TD319 ? ␅
+TD271414 ␆
+TD105 ? 
+TD121 question done
+TD308 > ␅
+TD783677 ␆*
+TD100 > *
+TD759032 questioning: ["strep", "#1"]
+TD181 #1 ___E_ ~PRST -ALOU  📋 "strep" ? ␅
+TD3352283 ␆/it
+TD78 #1 ___E_ ~PRST -ALOU  📋 "strep" ? /it
+TD191 attempt 0 STREP Y Y Y Y Y
+TD72 #2 _____ ~EOR -ALPSTU  📋 "strep" ? ␅
+TD1207811 ␆.
+TD93 #2 _____ ~EOR -ALPSTU  📋 "strep" ? .
+TD275 attempt 1 STREP n n m m n
+TD98 #3 R___S ~OT -AELPSU  📋 "strep" ? ␅
+TD1127344 ␆.
+TD92 #3 R___S ~OT -AELPSU  📋 "strep" ? .
+TD274 attempt 2 STREP n m n n n
+TD98 #5 _____ ~EORT -ALPSU  📋 "strep" ? ␅
+TD1303624 ␆.
+TD100 #5 _____ ~EORT -ALPSU  📋 "strep" ? .
+TD300 attempt 4 STREP n m m m n
+TD312 ? ␅
+TD183301 ␆
+TD95 ? 
+TD113 question done
+TD290 > ␅
+TD407517 ␆*
+TD90 > *
+TD764198 questioning: ["riots", "#3"]
+TD190 #2 _____ ~EOR -ALPSTU  📋 "riots" ? ␅
+TD4939677 ␆__O__ ~ RE
+TD105 #2 _____ ~EOR -ALPSTU  📋 "riots" ? __O__ ~ RE
+TD260 attempt 1 RIOTS m n Y n n
+TD170 #3 R___S ~OT -AELPRSU  📋 "riots" ? ␅
+TD799261 ␆/it
+TD90 #3 R___S ~OT -AELPRSU  📋 "riots" ? /it
+TD270 attempt 2 RIOTS Y Y Y Y Y
+TD100 #5 _____ ~EORT -ALPSU  📋 "riots" ? ␅
+TD1015682 ␆
+TD95 #5 _____ ~EORT -ALPSU  📋 "riots" ? 
+TD307 #5 _____ ~EORT -ALPSU  ? ␅
+TD439790 ␆
+TD74 #5 _____ ~EORT -ALPSU  ? 
+TD304 #5 _____ ~EORT -ALPSU  ? ␅
+TD983369 ␆
+TD75 #5 _____ ~EORT -ALPSU  ? 
+TD273 #5 _____ ~EORT -ALPSU  ? ␅
+TD175684 ␆
+TD78 #5 _____ ~EORT -ALPSU  ? 
+TD287 #5 _____ ~EORT -ALPSU  ? ␅
+TD1247737 ␆.
+TD89 #5 _____ ~EORT -ALPSU  ? .
+TD211 attempt 4 RIOTS m n m m n
+TD185 ? ␅
+TD223759 ␆
+TD98 ? 
+TD115 question done
+TD319 > ␅
+TD2183306 ␆*
+TD95 > *
+TD1125563 questioning: ["crone", "#2"]
+TD248 #2 __O__ ~ER -AILPSTU  📋 "crone" ? ␅
+TD4282142 ␆/it
+TD98 #2 __O__ ~ER -AILPSTU  📋 "crone" ? /it
+TD257 attempt 1 CRONE Y Y Y Y Y
+TD100 #5 _____ ~EORT -AILPSU  📋 "crone" ? ␅
+TD736182 ␆.
+TD102 #5 _____ ~EORT -AILPSU  📋 "crone" ? .
+TD271 attempt 4 CRONE n m m n m
+TD308 ? ␅
+TD158785 ␆
+TD102 ? 
+TD110 question done
+TD321 > ␅
+TD367399 ␆*
+TD91 > *
+TD916125 questioning: ["metro", "#5"]
+TD188 #5 _____ ~EORT -ACILNPSU  📋 "metro" ? ␅
+TD7188012 ␆/it
+TD101 #5 _____ ~EORT -ACILNPSU  📋 "metro" ? /it
+TD172 attempt 4 METRO Y Y Y Y Y
+TD172 ? ␅
+TD367074 ␆
+TD78 ? 
+TD84 question done
+TD23704 📋> ␅
+TD3360590 ␆squareword.org 1543: 7 guesses
+TD98 📋> squareword.org 1543: 7 guesses
+TD18 📋> ␅
+TD40 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟨🟨🟩🟨🟨
+TD4 📋> 🟨🟨🟩🟨🟨
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD335182 ␆#squareword #squareword1543
+TD69 📋> #squareword #squareword1543
+TD8 📋> ␅
+TD183966 ␄
+TD131 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1543: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1543"}
+TD471 result: "squareword.org 1543: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1543"
+TD67 📆 2026-04-23 ? ␅
+TD615285 ␆
+TD75 📆 2026-04-23 ? 
