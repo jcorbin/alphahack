@@ -1,0 +1,193 @@
+T466.14437725900007 now: 2026-04-24T08:57:53EDT
+TD72 site: m-w.com/games/quordle/#/
+TD15 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD88  ...␅
+TD391466 ␆
+TD100  ...
+TD348850 > ␅
+TD3706964 ␆*
+TD78 > *
+TD32908 ? ␅
+TD1262798 ␆1
+TD63 ? 1
+TD123 questioning: redos
+TD99 Classic #1 _____? ␅
+TD3343695 ␆nnnMn
+TD59 Classic #1 _____? nnnMn
+TD221 attempt: 0 REDOS n n n m n
+TD60 Classic #2 _____? ␅
+TD1791701 ␆YYnnn
+TD65 Classic #2 _____? YYnnn
+TD159 attempt: 1 REDOS Y Y n n n
+TD65 Classic #3 _____? ␅
+TD3207799 ␆MnnnY
+TD104 Classic #3 _____? MnnnY
+TD144 attempt: 2 REDOS m n n n Y
+TD62 Classic #4 _____? ␅
+TD1167690 ␆nnnnn
+TD70 Classic #4 _____? nnnnn
+TD152 attempt: 3 REDOS n n n n n
+TD310826 > ␅
+TD3521164 ␆*
+TD96 > *
+TD5851 ? ␅
+TD858024 ␆1
+TD74 ? 1
+TD140 questioning: lingy
+TD108 Classic #1 _____ ~O -DERS? ␅
+TD4463548 ␆YnnnY
+TD70 Classic #1 _____ ~O -DERS? YnnnY
+TD126 attempt: 0 LINGY Y n n n Y
+TD61 Classic #2 RE___ -DOS? ␅
+TD1408471 ␆Mnnnn
+TD95 Classic #2 RE___ -DOS? Mnnnn
+TD230 attempt: 1 LINGY m n n n n
+TD106 Classic #3 ____S ~R -DEO? ␅
+TD1374980 ␆nnnnn
+TD99 Classic #3 ____S ~R -DEO? nnnnn
+TD216 attempt: 2 LINGY n n n n n
+TD102 Classic #4 _____ -DEORS? ␅
+TD1319439 ␆YnYnn
+TD76 Classic #4 _____ -DEORS? YnYnn
+TD150 attempt: 3 LINGY Y n Y n n
+TD326876 > ␅
+TD584958 ␆*
+TD99 > *
+TD550 ? ␅
+TD2367319 ␆2
+TD88 ? 2
+TD173 questioning: lunch
+TD148 Classic #1 L___Y ~O -DEGINRS? ␅
+TD3431698 ␆Ynnnn
+TD92 Classic #1 L___Y ~O -DEGINRS? Ynnnn
+TD222 attempt: 0 LUNCH Y n n n n
+TD116 Classic #2 RE___ ~L -DGINOSY? ␅
+TD1303582 ␆Mnnnn
+TD72 Classic #2 RE___ ~L -DGINOSY? Mnnnn
+TD152 attempt: 1 LUNCH m n n n n
+TD73 Classic #3 ____S ~R -DEGILNOY? ␅
+TD1423632 ␆nnnnn
+TD65 Classic #3 ____S ~R -DEGILNOY? nnnnn
+TD131 attempt: 2 LUNCH n n n n n
+TD63 Classic #4 L_N__ -DEGIORSY? ␅
+TD1079880 ␆YYYYY
+TD74 Classic #4 L_N__ -DEGIORSY? YYYYY
+TD131 attempt: 3 LUNCH Y Y Y Y Y
+TD205600 > ␅
+TD826170 ␆*
+TD94 > *
+TD1026 ? ␅
+TD822902 ␆1
+TD68 ? 1
+TD115 questioning: tarps
+TD91 Classic #1 L___Y ~O -CDEGHINRSU? ␅
+TD2807703 ␆nnnnn
+TD75 Classic #1 L___Y ~O -CDEGHINRSU? nnnnn
+TD152 attempt: 0 TARPS n n n n n
+TD84 Classic #2 RE___ ~L -CDGHINOSUY? ␅
+TD1375812 ␆nMMnn
+TD75 Classic #2 RE___ ~L -CDGHINOSUY? nMMnn
+TD151 attempt: 1 TARPS n m m n n
+TD86 Classic #3 ____S ~R -CDEGHILNOUY? ␅
+TD1471671 ␆nMMnY
+TD95 Classic #3 ____S ~R -CDEGHILNOUY? nMMnY
+TD219 attempt: 2 TARPS n m m n Y
+TD248527 > ␅
+TD1303256 ␆*
+TD100 > *
+TD730 ? ␅
+TD1542972 ␄
+TD103 <EOF>
+TD234515 > ␅
+TD1293373 ␆* 3
+TD78 > * 3
+TD86891 ? ␅
+TD9681225 ␄
+TD129 <EOF>
+TD257044 > ␅
+TD1006861 ␆* 1
+TD102 > * 1
+TD83221 ? ␅
+TD3916648 ␄
+TD94 <EOF>
+TD253603 > ␅
+TD626399 ␆*
+TD69 > *
+TD310 ? ␅
+TD903444 ␆1
+TD73 ? 1
+TD127 questioning: realm
+TD108 Classic #1 L___Y ~O -ACDEGHINPRSTU? ␅
+TD4951727 ␆nnnYn
+TD72 Classic #1 L___Y ~O -ACDEGHINPRSTU? nnnYn
+TD153 attempt: 0 REALM n n n Y n
+TD77 Classic #2 RE___ ~AL -CDGHINOPSTUY? ␅
+TD2783837 ␆YYMMn
+TD78 Classic #2 RE___ ~AL -CDGHINOPSTUY? YYMMn
+TD154 attempt: 1 REALM Y Y m m n
+TD75 Classic #3 ____S ~AR -CDEGHILNOPTUY? ␅
+TD1431696 ␆MnYnn
+TD77 Classic #3 ____S ~AR -CDEGHILNOPTUY? MnYnn
+TD155 attempt: 2 REALM m n Y n n
+TD252284 > ␅
+TD691403 ␆*
+TD99 > *
+TD391 questioning: relax
+TD131 Classic #1 L__LY ~O -ACDEGHIMNPRSTU? ␅
+TD2767459 ␆nnMnn
+TD94 Classic #1 L__LY ~O -ACDEGHIMNPRSTU? nnMnn
+TD214 attempt: 0 RELAX n n m n n
+TD117 Classic #2 RE___ ~AL -CDGHIMNOPSTUY? ␅
+TD1407829 ␆YYYYY
+TD102 Classic #2 RE___ ~AL -CDGHIMNOPSTUY? YYYYY
+TD228 attempt: 1 RELAX Y Y Y Y Y
+TD120 Classic #3 __A_S ~R -CDEGHILMNOPTUY? ␅
+TD1535290 ␆MnnMn
+TD81 Classic #3 __A_S ~R -CDEGHILMNOPTUY? MnnMn
+TD159 attempt: 2 RELAX m n n m n
+TD163675 > ␅
+TD836091 ␆*
+TD71 > *
+TD257 questioning: lowly
+TD79 Classic #1 L__LY ~O -ACDEGHIMNPRSTUX? ␅
+TD2887752 ␆YYYYY
+TD96 Classic #1 L__LY ~O -ACDEGHIMNPRSTUX? YYYYY
+TD209 attempt: 0 LOWLY Y Y Y Y Y
+TD135 Classic #3 __A_S ~R -CDEGHILMNOPTUXY? ␅
+TD1135371 ␆nnnnn
+TD74 Classic #3 __A_S ~R -CDEGHILMNOPTUXY? nnnnn
+TD148 attempt: 2 LOWLY n n n n n
+TD93763 > ␅
+TD802186 ␆*
+TD106 > *
+TD589 ? ␅
+TD4743059 ␆4
+TD74 ? 4
+TD131 questioning: brass
+TD105 Classic #3 __A_S ~R -CDEGHILMNOPTUWXY? ␅
+TD2968021 ␆YYYYY
+TD107 Classic #3 __A_S ~R -CDEGHILMNOPTUWXY? YYYYY
+TD229 attempt: 2 BRASS Y Y Y Y Y
+TD92 📋> ␅
+TD4079972 ␆🙂 Daily Quordle 1551
+TD75 📋> 🙂 Daily Quordle 1551
+TD7 📋> ␅
+TD50 ␆7️⃣6️⃣
+TD4 📋> 7️⃣6️⃣
+TD3 📋> ␅
+TD9 ␆8️⃣3️⃣
+TD3 📋> 8️⃣3️⃣
+TD2 📋> ␅
+TD8 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD287353 ␆
+TD103 📋> 
+TD14 📋> ␅
+TD191982 ␄
+TD165 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1551\n7\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1317 result: "\ud83d\ude42 Daily Quordle 1551\n7\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD65 📆 2026-04-24 ? ␅
+TD166341 ␆
+TD75 📆 2026-04-24 ? 
