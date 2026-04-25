@@ -1,0 +1,82 @@
+T204.18731247600226 now: 2026-04-25T08:21:54EDT
+TD109 site: alphaguess.com
+TD175907 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 833304e8d8d110b29b19e277a5d634865f0c6091
+TD115  ...␅
+TD11846927 ␆
+TD91  ...
+TD176 [0 : 98216 : 196522] mach? ␅
+TD1703873 ␆b
+TD95 [0 : 98216 : 196522] mach? b
+TD105 progress: -1 98216 mach
+TD111 [0 : 47380 : 98216] dis? ␅
+TD1456245 ␆a
+TD99 [0 : 47380 : 98216] dis? a
+TD103 progress: 1 47380 dis
+TD433 [47381 : 72798 : 98216] gremmy? ␅
+TD1358573 ␆a
+TD96 [47381 : 72798 : 98216] gremmy? a
+TD102 progress: 1 72798 gremmy
+TD187 [72799 : 85502 : 98216] ins? ␅
+TD1591906 ␆b
+TD93 [72799 : 85502 : 98216] ins? b
+TD112 progress: -1 85502 ins
+TD105 [72799 : 79130 : 85502] hood? ␅
+TD1392328 ␆a
+TD111 [72799 : 79130 : 85502] hood? a
+TD117 progress: 1 79130 hood
+TD183 [79131 : 82307 : 85502] immaterial? ␅
+TD1470737 ␆b
+TD99 [79131 : 82307 : 85502] immaterial? b
+TD122 progress: -1 82307 immaterial
+TD117 [79131 : 80715 : 82307] hydroxy? ␅
+TD3831940 ␆a
+TD106 [79131 : 80715 : 82307] hydroxy? a
+TD111 progress: 1 80715 hydroxy
+TD171 [80716 : 81506 : 82307] iamb? ␅
+TD1511528 ␆a
+TD116 [80716 : 81506 : 82307] iamb? a
+TD105 progress: 1 81506 iamb
+TD560 [81507 : 81907 : 82307] ignitor? ␅
+TD1455067 ␆a
+TD146 [81507 : 81907 : 82307] ignitor? a
+TD112 progress: 1 81907 ignitor
+TD137 [81908 : 81978 : 82307] ill? ␅
+TD1815719 ␆b
+TD100 [81908 : 81978 : 82307] ill? b
+TD103 progress: -1 81978 ill
+TD421 [81908 : 81943 : 81978] iguanians? ␅
+TD2327651 ␆b
+TD133 [81908 : 81943 : 81978] iguanians? b
+TD121 progress: -1 81943 iguanians
+TD339 [81908 : 81925 : 81943] ignorami? ␅
+TD1431393 ␆a
+TD104 [81908 : 81925 : 81943] ignorami? a
+TD115 progress: 1 81925 ignorami
+TD192 [81926 : 81934 : 81943] ignore? ␅
+TD1983508 ␆it
+TD105 [81926 : 81934 : 81943] ignore? it
+TD120 progress: 0 81934 ignore
+TD29 [81926 : 81934 : 81943] <Done>.
+TD94 📋> ␅
+TD2176235 ␆🧩 Puzzle #1006
+TD110 📋> 🧩 Puzzle #1006
+TD13 📋> ␅
+TD44 ␆🤔 13 guesses
+TD8 📋> 🤔 13 guesses
+TD6 📋> ␅
+TD21 ␆⏱️ 21s
+TD7 📋> ⏱️ 21s
+TD5 📋> ␅
+TD263201 ␆🔗 alphaguess.com/1006
+TD95 📋> 🔗 alphaguess.com/1006
+TD14 📋> ␅
+TD192550 ␄
+TD182 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1006\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/1006"}
+TD113 result: "\ud83e\udde9 Puzzle #1006\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/1006"
+TD18 result puzzle: 1006
+TD8 result guesses: 13
+TD6 result time: 21s
+TD6 result link: alphaguess.com/1006
+TD101 📆 2026-04-25 ? ␅
+TD182987 ␆
+TD87 📆 2026-04-25 ? 
