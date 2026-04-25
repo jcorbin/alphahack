@@ -1,0 +1,157 @@
+T540.7429157689912 now: 2026-04-25T08:27:31EDT
+TD122 site: m-w.com/games/quordle/#/
+TD24 wordlist: nwl2023.txt
+TD7 num_words: 4
+TD107  ...␅
+TD174911 ␆
+TD76  ...
+TD351369 > ␅
+TD7416412 ␆*
+TD60 > *
+TD33523 ? ␅
+TD854447 ␆1
+TD63 ? 1
+TD115 questioning: tiers
+TD91 Classic #1 _____? ␅
+TD3047758 ␆MnMMM
+TD62 Classic #1 _____? MnMMM
+TD234 attempt: 0 TIERS m n m m m
+TD77 Classic #2 _____? ␅
+TD1512519 ␆nMnMn
+TD86 Classic #2 _____? nMnMn
+TD167 attempt: 1 TIERS n m n m n
+TD63 Classic #3 _____? ␅
+TD1374790 ␆MMMnn
+TD67 Classic #3 _____? MMMnn
+TD420 attempt: 2 TIERS m m m n n
+TD59 Classic #4 _____? ␅
+TD1175703 ␆nnnnM
+TD72 Classic #4 _____? nnnnM
+TD135 attempt: 3 TIERS n n n n m
+TD441513 > ␅
+TD1678151 ␆*
+TD70 > *
+TD1208 ? ␅
+TD4566738 ␆10
+TD76 ? 10
+TD119 questioning: slung
+TD92 Classic #1 _____ ~ERST -I? ␅
+TD2895854 ␆Mnnnn
+TD103 Classic #1 _____ ~ERST -I? Mnnnn
+TD264 attempt: 0 SLUNG m n n n n
+TD121 Classic #2 _____ ~IR -EST? ␅
+TD1231650 ␆nnnYn
+TD170 Classic #2 _____ ~IR -EST? nnnYn
+TD260 attempt: 1 SLUNG n n n Y n
+TD140 Classic #3 _____ ~EIT -RS? ␅
+TD1175271 ␆nnnnn
+TD92 Classic #3 _____ ~EIT -RS? nnnnn
+TD227 attempt: 2 SLUNG n n n n n
+TD113 Classic #4 _____ ~S -EIRT? ␅
+TD1439533 ␆YYnnn
+TD97 Classic #4 _____ ~S -EIRT? YYnnn
+TD236 attempt: 3 SLUNG Y Y n n n
+TD367451 > ␅
+TD880270 ␆*
+TD94 > *
+TD823 ? ␅
+TD1407186 ␆1
+TD127 ? 1
+TD178 questioning: edict
+TD150 Classic #1 _____ ~ERST -GILNU? ␅
+TD4255449 ␆MnnnY
+TD99 Classic #1 _____ ~ERST -GILNU? MnnnY
+TD237 attempt: 0 EDICT m n n n Y
+TD110 Classic #2 ___N_ ~IR -EGLSTU? ␅
+TD1391618 ␆nMYnn
+TD86 Classic #2 ___N_ ~IR -EGLSTU? nMYnn
+TD226 attempt: 1 EDICT n m Y n n
+TD109 Classic #3 _____ ~EIT -GLNRSU? ␅
+TD1775656 ␆MMYnM
+TD91 Classic #3 _____ ~EIT -GLNRSU? MMYnM
+TD228 attempt: 2 EDICT m m Y n m
+TD121 Classic #4 SL___ -EGINRTU? ␅
+TD1343503 ␆nnnYn
+TD71 Classic #4 SL___ -EGINRTU? nnnYn
+TD135 attempt: 3 EDICT n n n Y n
+TD282477 > ␅
+TD1205472 ␆*
+TD97 > *
+TD383 questioning: drink
+TD118 Classic #1 ____T ~ERS -CDGILNU? ␅
+TD3071464 ␆nMnnn
+TD112 Classic #1 ____T ~ERS -CDGILNU? nMnnn
+TD216 attempt: 0 DRINK n m n n n
+TD110 Classic #2 __IN_ ~DR -CEGLSTU? ␅
+TD1439602 ␆YYYYY
+TD92 Classic #2 __IN_ ~DR -CEGLSTU? YYYYY
+TD211 attempt: 1 DRINK Y Y Y Y Y
+TD118 Classic #3 __I__ ~DET -CGLNRSU? ␅
+TD1463482 ␆YnYnn
+TD104 Classic #3 __I__ ~DET -CGLNRSU? YnYnn
+TD242 attempt: 2 DRINK Y n Y n n
+TD128 Classic #4 SL_C_ -DEGINRTU? ␅
+TD1647627 ␆nnnnY
+TD75 Classic #4 SL_C_ -DEGINRTU? nnnnY
+TD152 attempt: 3 DRINK n n n n Y
+TD235068 > ␅
+TD788636 ␆*
+TD70 > *
+TD248 questioning: deity
+TD67 Classic #1 ____T ~ERS -CDGIKLNU? ␅
+TD3567622 ␆nYnMn
+TD75 Classic #1 ____T ~ERS -CDGIKLNU? nYnMn
+TD155 attempt: 0 DEITY n Y n m n
+TD79 Classic #3 D_I__ ~ET -CGKLNRSU? ␅
+TD1191763 ␆YYYYY
+TD72 Classic #3 D_I__ ~ET -CGKLNRSU? YYYYY
+TD149 attempt: 2 DEITY Y Y Y Y Y
+TD81 Classic #4 SL_CK -DEGINRTU? ␅
+TD1039779 ␆nnnnn
+TD75 Classic #4 SL_CK -DEGINRTU? nnnnn
+TD137 attempt: 3 DEITY n n n n n
+TD162747 > ␅
+TD693097 ␆*
+TD104 > *
+TD309 questioning: slack
+TD65 Classic #1 _E__T ~RS -CDGIKLNUY? ␅
+TD3063485 ␆Mnnnn
+TD97 Classic #1 _E__T ~RS -CDGIKLNUY? Mnnnn
+TD221 attempt: 0 SLACK m n n n n
+TD118 Classic #4 SL_CK -DEGINRTUY? ␅
+TD1359470 ␆YYYYY
+TD69 Classic #4 SL_CK -DEGINRTUY? YYYYY
+TD125 attempt: 3 SLACK Y Y Y Y Y
+TD72746 > ␅
+TD807098 ␆*
+TD96 > *
+TD506 ? ␅
+TD1447559 ␆2
+TD79 ? 2
+TD131 questioning: reset
+TD101 Classic #1 _E__T ~RS -ACDGIKLNUY? ␅
+TD2879748 ␆YYYYY
+TD100 Classic #1 _E__T ~RS -ACDGIKLNUY? YYYYY
+TD202 attempt: 0 RESET Y Y Y Y Y
+TD86 📋> ␅
+TD3991851 ␆🙂 Daily Quordle 1552
+TD77 📋> 🙂 Daily Quordle 1552
+TD7 📋> ␅
+TD35 ␆7️⃣4️⃣
+TD4 📋> 7️⃣4️⃣
+TD3 📋> ␅
+TD6 ␆5️⃣6️⃣
+TD3 📋> 5️⃣6️⃣
+TD2 📋> ␅
+TD5 ␆m-w.com/games/quordle/
+TD3 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD255694 ␆
+TD115 📋> 
+TD13 📋> ␅
+TD159781 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1552\n7\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1297 result: "\ud83d\ude42 Daily Quordle 1552\n7\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD82 📆 2026-04-25 ? ␅
+TD158593 ␆
+TD77 📆 2026-04-25 ? 
