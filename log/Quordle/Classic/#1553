@@ -1,0 +1,183 @@
+T536.4442128020019 now: 2026-04-26T07:46:44EDT
+TD78 site: m-w.com/games/quordle/#/
+TD16 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD79  ...␅
+TD207170 ␆
+TD97  ...
+TD403212 > ␅
+TD8692649 ␆*
+TD70 > *
+TD34539 ? ␅
+TD941334 ␆1
+TD63 ? 1
+TD122 questioning: setal
+TD93 Classic #1 _____? ␅
+TD3103848 ␆nnYnn
+TD82 Classic #1 _____? nnYnn
+TD220 attempt: 0 SETAL n n Y n n
+TD61 Classic #2 _____? ␅
+TD1655675 ␆MnMMn
+TD99 Classic #2 _____? MnMMn
+TD238 attempt: 1 SETAL m n m m n
+TD114 Classic #3 _____? ␅
+TD1111427 ␆nMnnn
+TD83 Classic #3 _____? nMnnn
+TD165 attempt: 2 SETAL n m n n n
+TD72 Classic #4 _____? ␅
+TD1231770 ␆nnnnM
+TD74 Classic #4 _____? nnnnM
+TD150 attempt: 3 SETAL n n n n m
+TD390904 > ␅
+TD768877 ␆*
+TD71 > *
+TD3455 ? ␅
+TD4908601 ␆1
+TD94 ? 1
+TD187 questioning: uredo
+TD153 Classic #1 __T__ -AELS? ␅
+TD2943546 ␆nnnnn
+TD96 Classic #1 __T__ -AELS? nnnnn
+TD235 attempt: 0 UREDO n n n n n
+TD117 Classic #2 _____ ~AST -EL? ␅
+TD1535581 ␆nnnnM
+TD79 Classic #2 _____ ~AST -EL? nnnnM
+TD278 attempt: 1 UREDO n n n n m
+TD79 Classic #3 _____ ~E -ALST? ␅
+TD2071640 ␆nYMMn
+TD99 Classic #3 _____ ~E -ALST? nYMMn
+TD233 attempt: 2 UREDO n Y m m n
+TD111 Classic #4 _____ ~L -AEST? ␅
+TD1007493 ␆nnnnn
+TD97 Classic #4 _____ ~L -AEST? nnnnn
+TD227 attempt: 3 UREDO n n n n n
+TD406689 > ␅
+TD1104993 ␆*
+TD97 > *
+TD1068 ? ␅
+TD1086764 ␆1
+TD97 ? 1
+TD176 questioning: filmy
+TD169 Classic #1 __T__ -ADELORSU? ␅
+TD3327710 ␆nYnnY
+TD105 Classic #1 __T__ -ADELORSU? nYnnY
+TD235 attempt: 0 FILMY n Y n n Y
+TD115 Classic #2 _____ ~AOST -DELRU? ␅
+TD1151659 ␆nnnnn
+TD83 Classic #2 _____ ~AOST -DELRU? nnnnn
+TD205 attempt: 1 FILMY n n n n n
+TD115 Classic #3 _R___ ~DE -ALOSTU? ␅
+TD1295479 ␆nMnnn
+TD97 Classic #3 _R___ ~DE -ALOSTU? nMnnn
+TD240 attempt: 2 FILMY n m n n n
+TD119 Classic #4 _____ ~L -ADEORSTU? ␅
+TD1407508 ␆nMMYn
+TD62 Classic #4 _____ ~L -ADEORSTU? nMMYn
+TD148 attempt: 3 FILMY n m m Y n
+TD352252 > ␅
+TD1431793 ␆*
+TD103 > *
+TD581 ? ␅
+TD7863368 ␄
+TD132 <EOF>
+TD341930 > ␅
+TD1441791 ␆* 2
+TD109 > * 2
+TD111515 ? ␅
+TD8536637 ␆1
+TD98 ? 1
+TD180 questioning: tacos
+TD157 Classic #1 _IT_Y -ADEFLMORSU? ␅
+TD3111540 ␆Mnnnn
+TD98 Classic #1 _IT_Y -ADEFLMORSU? Mnnnn
+TD223 attempt: 0 TACOS m n n n n
+TD114 Classic #2 _____ ~AOST -DEFILMRUY? ␅
+TD1551520 ␆MMnMM
+TD72 Classic #2 _____ ~AOST -DEFILMRUY? MMnMM
+TD150 attempt: 1 TACOS m m n m m
+TD79 Classic #3 _R___ ~DEI -AFLMOSTUY? ␅
+TD1103773 ␆nnnnn
+TD80 Classic #3 _R___ ~DEI -AFLMOSTUY? nnnnn
+TD154 attempt: 2 TACOS n n n n n
+TD79 Classic #4 ___M_ ~IL -ADEFORSTUY? ␅
+TD1007644 ␆nnnnn
+TD87 Classic #4 ___M_ ~IL -ADEFORSTUY? nnnnn
+TD208 attempt: 3 TACOS n n n n n
+TD433686 > ␅
+TD774164 ␆*
+TD96 > *
+TD386 questioning: blimp
+TD125 Classic #1 _IT_Y -ACDEFLMORSU? ␅
+TD5367440 ␆nnMnM
+TD97 Classic #1 _IT_Y -ACDEFLMORSU? nnMnM
+TD216 attempt: 0 BLIMP n n m n m
+TD119 Classic #2 _____ ~AOST -CDEFILMRUY? ␅
+TD1543462 ␆Ynnnn
+TD76 Classic #2 _____ ~AOST -CDEFILMRUY? Ynnnn
+TD154 attempt: 1 BLIMP Y n n n n
+TD80 Classic #3 _R___ ~DEI -ACFLMOSTUY? ␅
+TD1392007 ␆nnYnM
+TD91 Classic #3 _R___ ~DEI -ACFLMOSTUY? nnYnM
+TD220 attempt: 2 BLIMP n n Y n m
+TD140 Classic #4 ___M_ ~IL -ACDEFORSTUY? ␅
+TD1639283 ␆YYYYY
+TD97 Classic #4 ___M_ ~IL -ACDEFORSTUY? YYYYY
+TD212 attempt: 3 BLIMP Y Y Y Y Y
+TD248016 > ␅
+TD847900 ␆*
+TD96 > *
+TD387 questioning: pithy
+TD121 Classic #1 _IT_Y ~P -ABCDEFLMORSU? ␅
+TD3343138 ␆YYYYY
+TD94 Classic #1 _IT_Y ~P -ABCDEFLMORSU? YYYYY
+TD206 attempt: 0 PITHY Y Y Y Y Y
+TD119 Classic #2 B____ ~AOST -CDEFILMPRUY? ␅
+TD1183964 ␆nnMnn
+TD99 Classic #2 B____ ~AOST -CDEFILMPRUY? nnMnn
+TD230 attempt: 1 PITHY n n m n n
+TD118 Classic #3 _RI__ ~DEP -ABCFLMOSTUY? ␅
+TD1559623 ␆YMnnn
+TD162 Classic #3 _RI__ ~DEP -ABCFLMOSTUY? YMnnn
+TD216 attempt: 2 PITHY Y m n n n
+TD182486 > ␅
+TD752737 ␆*
+TD95 > *
+TD292 questioning: boast
+TD84 Classic #2 B____ ~AOST -CDEFHILMPRUY? ␅
+TD2959587 ␆YYYYY
+TD98 Classic #2 B____ ~AOST -CDEFHILMPRUY? YYYYY
+TD213 attempt: 1 BOAST Y Y Y Y Y
+TD122 Classic #3 PRI__ ~DE -ABCFHLMOSTUY? ␅
+TD1591596 ␆nnnnn
+TD98 Classic #3 PRI__ ~DE -ABCFHLMOSTUY? nnnnn
+TD235 attempt: 2 BOAST n n n n n
+TD94456 > ␅
+TD3921995 ␆*
+TD100 > *
+TD378 questioning: pried
+TD123 Classic #3 PRI__ ~DE -ABCFHLMOSTUY? ␅
+TD4094881 ␆YYYYY
+TD102 Classic #3 PRI__ ~DE -ABCFHLMOSTUY? YYYYY
+TD224 attempt: 2 PRIED Y Y Y Y Y
+TD94 📋> ␅
+TD8927705 ␆🙂 Daily Quordle 1553
+TD70 📋> 🙂 Daily Quordle 1553
+TD7 📋> ␅
+TD57 ␆6️⃣7️⃣
+TD4 📋> 6️⃣7️⃣
+TD3 📋> ␅
+TD10 ␆8️⃣5️⃣
+TD2 📋> 8️⃣5️⃣
+TD2 📋> ␅
+TD8 ␆m-w.com/games/quordle/
+TD3 📋> m-w.com/games/quordle/
+TD3 📋> ␅
+TD319589 ␆
+TD98 📋> 
+TD13 📋> ␅
+TD176008 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1553\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1538 result: "\ud83d\ude42 Daily Quordle 1553\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD77 📆 2026-04-26 ? ␅
+TD214102 ␆
+TD65 📆 2026-04-26 ? 
