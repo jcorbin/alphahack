@@ -1,0 +1,99 @@
+T49.9273226410005 now: 2026-04-26T07:38:37EDT
+TD122 site: alphaguess.com
+TD153580 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof e6884ee368f9548026d1c3c541c33626153b1354
+TD109  ...␅
+TD27 ␆
+TD3  ...
+TD80 [0 : 98216 : 196522] mach? ␅
+TD717118 ␆
+TD98 [0 : 98216 : 196522] mach? 
+TD95 [0 : 98216 : 196522] mach? ␅
+TD424300 ␆
+TD98 [0 : 98216 : 196522] mach? 
+TD168 [0 : 98216 : 196522] mach? ␅
+TD175224 ␆
+TD97 [0 : 98216 : 196522] mach? 
+TD111 [0 : 98216 : 196522] mach? ␅
+TD4023897 ␆a
+TD96 [0 : 98216 : 196522] mach? a
+TD102 progress: 1 98216 mach
+TD225 [98217 : 147366 : 196522] rhotic? ␅
+TD1495392 ␆a
+TD98 [98217 : 147366 : 196522] rhotic? a
+TD104 progress: 1 147366 rhotic
+TD103 [147367 : 171636 : 196522] ta? ␅
+TD1343878 ␆a
+TD96 [147367 : 171636 : 196522] ta? a
+TD107 progress: 1 171636 ta
+TD127 [171637 : 182000 : 196522] un? ␅
+TD1423602 ␆b
+TD94 [171637 : 182000 : 196522] un? b
+TD100 progress: -1 182000 un
+TD100 [171637 : 176813 : 182000] toilet? ␅
+TD1319758 ␆a
+TD94 [171637 : 176813 : 182000] toilet? a
+TD107 progress: 1 176813 toilet
+TD433 [176814 : 179407 : 182000] trictrac? ␅
+TD1263228 ␆a
+TD96 [176814 : 179407 : 182000] trictrac? a
+TD107 progress: 1 179407 trictrac
+TD121 [179408 : 180635 : 182000] tum? ␅
+TD1327797 ␆b
+TD94 [179408 : 180635 : 182000] tum? b
+TD103 progress: -1 180635 tum
+TD123 [179408 : 180009 : 180635] trop? ␅
+TD1295676 ␆a
+TD95 [179408 : 180009 : 180635] trop? a
+TD106 progress: 1 180009 trop
+TD109 [180010 : 180311 : 180635] trust? ␅
+TD1407867 ␆b
+TD96 [180010 : 180311 : 180635] trust? b
+TD104 progress: -1 180311 trust
+TD106 [180010 : 180149 : 180311] trow? ␅
+TD1288785 ␆a
+TD98 [180010 : 180149 : 180311] trow? a
+TD108 progress: 1 180149 trow
+TD115 [180150 : 180224 : 180311] true? ␅
+TD5374581 ␆b
+TD97 [180150 : 180224 : 180311] true? b
+TD105 progress: -1 180224 true
+TD108 [180150 : 180182 : 180224] truck? ␅
+TD2575804 ␆b
+TD98 [180150 : 180182 : 180224] truck? b
+TD102 progress: -1 180182 truck
+TD199 [180150 : 180166 : 180182] troy? ␅
+TD1728133 ␆a
+TD101 [180150 : 180166 : 180182] troy? a
+TD109 progress: 1 180166 troy
+TD127 [180167 : 180170 : 180182] truant? ␅
+TD3702987 ␆a
+TD97 [180167 : 180170 : 180182] truant? a
+TD104 progress: 1 180170 truant
+TD192 [180171 : 180177 : 180182] truce? ␅
+TD3503699 ␆it
+TD79 [180171 : 180177 : 180182] truce? it
+TD83 progress: 0 180177 truce
+TD18 [180171 : 180177 : 180182] <Done>.
+TD65 📋> ␅
+TD3112427 ␆🧩 Puzzle #1007
+TD94 📋> 🧩 Puzzle #1007
+TD12 📋> ␅
+TD39 ␆🤔 15 guesses
+TD7 📋> 🤔 15 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 27s
+TD6 📋> ⏱️ 27s
+TD5 📋> ␅
+TD327156 ␆🔗 alphaguess.com/1007
+TD102 📋> 🔗 alphaguess.com/1007
+TD11 📋> ␅
+TD184068 ␄
+TD185 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1007\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 27s\n\ud83d\udd17 alphaguess.com/1007"}
+TD98 result: "\ud83e\udde9 Puzzle #1007\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 27s\n\ud83d\udd17 alphaguess.com/1007"
+TD13 result puzzle: 1007
+TD6 result guesses: 15
+TD5 result time: 27s
+TD4 result link: alphaguess.com/1007
+TD88 📆 2026-04-26 ? ␅
+TD176501 ␆
+TD102 📆 2026-04-26 ? 
