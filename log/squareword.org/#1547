@@ -1,0 +1,211 @@
+T734.557437979005 now: 2026-04-27T08:15:57EDT
+TD231 site: squareword.org
+TD50 wordlist: nwl2023.txt
+TD64  ...␅
+TD166304 ␆
+TD115  ...
+TD97 🧩  ? ␅
+TD12183958 ␆#1547
+TD150 🧩  ? #1547
+TD363 puzzle_id: #1547
+TD435 > ␅
+TD1695128 ␆*
+TD165 > *
+TD536566 try? ␅
+TD999293 ␆1
+TD131 try? 1
+TD332 questioning: ["eyras", "#5"]
+TD346 #1 <IndexError>  📋 "eyras" ? ␅
+TD7727096 ␆_____ ~ RA
+TD97 #1 <IndexError>  📋 "eyras" ? _____ ~ RA
+TD670 attempt 0 EYRAS n n m m n
+TD118 #2 <IndexError>  📋 "eyras" ? ␅
+TD2735240 ␆E____ ~ ERAS
+TD130 #2 <IndexError>  📋 "eyras" ? E____ ~ ERAS
+TD297 attempt 1 EYRAS Y n m m m
+TD133 #3 <IndexError>  📋 "eyras" ? ␅
+TD2023409 ␆_____ ~ EA
+TD106 #3 <IndexError>  📋 "eyras" ? _____ ~ EA
+TD257 attempt 2 EYRAS m n n m n
+TD130 #4 <IndexError>  📋 "eyras" ? ␅
+TD2175551 ␆__R__ ~ E
+TD100 #4 <IndexError>  📋 "eyras" ? __R__ ~ E
+TD257 attempt 3 EYRAS m n Y n n
+TD124 #5 <IndexError>  📋 "eyras" ? ␅
+TD2031624 ␆____S ~ E
+TD104 #5 <IndexError>  📋 "eyras" ? ____S ~ E
+TD261 attempt 4 EYRAS m n n n Y
+TD330 ? ␅
+TD511373 ␆
+TD142 ? 
+TD154 question done
+TD299 > ␅
+TD7255455 ␆*
+TD98 > *
+TD1943390 try? ␅
+TD4024627 ␆2
+TD110 try? 2
+TD303 questioning: ["erase", "#2"]
+TD325 #1 _____ ~AR -ESY  📋 "erase" ? ␅
+TD3391751 ␆.
+TD143 #1 _____ ~AR -ESY  📋 "erase" ? .
+TD348 attempt 0 ERASE n m m n n
+TD125 #2 E____ ~ARS -Y  📋 "erase" ? ␅
+TD591035 ␆/it
+TD152 #2 E____ ~ARS -Y  📋 "erase" ? /it
+TD364 attempt 1 ERASE Y Y Y Y Y
+TD121 #3 _____ ~AE -RSY  📋 "erase" ? ␅
+TD2703286 ␆____E ~ A
+TD129 #3 _____ ~AE -RSY  📋 "erase" ? ____E ~ A
+TD374 attempt 2 ERASE n n m n Y
+TD176 #4 __R__ ~E -ASY  📋 "erase" ? ␅
+TD2031499 ␆.
+TD134 #4 __R__ ~E -ASY  📋 "erase" ? .
+TD357 attempt 3 ERASE m n n n m
+TD121 #5 ____S ~E -ARY  📋 "erase" ? ␅
+TD1095437 ␆.
+TD135 #5 ____S ~E -ARY  📋 "erase" ? .
+TD275 attempt 4 ERASE m n n n m
+TD335 ? ␅
+TD191278 ␆
+TD166 ? 
+TD172 question done
+TD355 > ␅
+TD687817 ␆*
+TD96 > *
+TD1978360 try? ␅
+TD1157066 ␆1
+TD175 try? 1
+TD409 questioning: ["tired", "#4"]
+TD429 #1 _____ ~AR -ESY  📋 "tired" ? ␅
+TD4735119 ␆____D ~ RAI
+TD166 #1 _____ ~AR -ESY  📋 "tired" ? ____D ~ RAI
+TD339 attempt 0 TIRED n m m n Y
+TD244 #3 ____E ~A -RSY  📋 "tired" ? ␅
+TD3135314 ␆____E ~ AI
+TD159 #3 ____E ~A -RSY  📋 "tired" ? ____E ~ AI
+TD376 attempt 2 TIRED n m n n n
+TD224 #4 __R__ ~E -ARSY  📋 "tired" ? ␅
+TD2287064 ␆__RED
+TD125 #4 __R__ ~E -ARSY  📋 "tired" ? __RED
+TD209 attempt 3 TIRED n n Y Y Y
+TD97 #5 ____S ~E -ARSY  📋 "tired" ? ␅
+TD2279624 ␆T___S ~ ET
+TD111 #5 ____S ~E -ARSY  📋 "tired" ? T___S ~ ET
+TD367 attempt 4 TIRED Y n n m n
+TD472 ? ␅
+TD334967 ␆
+TD197 ? 
+TD191 question done
+TD249 > ␅
+TD20671840 ␆*
+TD124 > *
+TD1440329 try? ␅
+TD855855 ␆1
+TD104 try? 1
+TD343 questioning: ["rabid", "#1"]
+TD407 #1 ____D ~AIR -ESTY  📋 "rabid" ? ␅
+TD2231035 ␆/it
+TD124 #1 ____D ~AIR -ESTY  📋 "rabid" ? /it
+TD337 attempt 0 RABID Y Y Y Y Y
+TD121 #3 ____E ~AI -DERSTY  📋 "rabid" ? ␅
+TD1639484 ␆.
+TD108 #3 ____E ~AI -DERSTY  📋 "rabid" ? .
+TD311 attempt 2 RABID n m n m n
+TD115 #4 __RED -AISTY  📋 "rabid" ? ␅
+TD2535540 ␆.
+TD160 #4 __RED -AISTY  📋 "rabid" ? .
+TD341 attempt 3 RABID n n n n Y
+TD148 #5 T___S ~E -ADIRSY  📋 "rabid" ? ␅
+TD5655234 ␆T___S ~ ET
+TD98 #5 T___S ~E -ADIRSY  📋 "rabid" ? T___S ~ ET
+TD259 attempt 4 RABID n n n n n
+TD276 ? ␅
+TD335377 ␆
+TD143 ? 
+TD136 question done
+TD201 > ␅
+TD759624 ␆*
+TD178 > *
+TD2693879 questioning: ["agile", "#3"]
+TD360 #3 ____E ~AI -BDERSTY  📋 "agile" ? ␅
+TD2961757 ␆/it
+TD166 #3 ____E ~AI -BDERSTY  📋 "agile" ? /it
+TD352 attempt 2 AGILE Y Y Y Y Y
+TD120 #4 __RED -ABIRSTY  📋 "agile" ? ␅
+TD1487458 ␆.
+TD103 #4 __RED -ABIRSTY  📋 "agile" ? .
+TD309 attempt 3 AGILE n n n n n
+TD132 #5 T___S ~E -ABDIRSY  📋 "agile" ? ␅
+TD4559602 ␆T___S ~ ET
+TD133 #5 T___S ~E -ABDIRSY  📋 "agile" ? T___S ~ ET
+TD206 attempt 4 AGILE n n n n m
+TD294 ? ␅
+TD695346 ␆
+TD117 ? 
+TD128 question done
+TD252 > ␅
+TD591567 ␆*
+TD99 > *
+TD2135487 questioning: ["tents", "#5"]
+TD271 #4 __RED -ABEGILRSTY  📋 "tents" ? ␅
+TD3743977 ␆.
+TD173 #4 __RED -ABEGILRSTY  📋 "tents" ? .
+TD345 attempt 3 TENTS n n n n n
+TD111 #5 T___S ~E -ABDGILRSY  📋 "tents" ? ␅
+TD647472 ␆/it
+TD133 #5 T___S ~E -ABDGILRSY  📋 "tents" ? /it
+TD255 attempt 4 TENTS Y Y Y Y Y
+TD334 ? ␅
+TD239250 ␆
+TD127 ? 
+TD185 question done
+TD339 > ␅
+TD535524 ␆*
+TD135 > *
+TD1492846 questioning: ["cured", "#4"]
+TD364 #4 __RED -ABEGILNRSTY  📋 "cured" ? ␅
+TD2746814 ␆/it
+TD160 #4 __RED -ABEGILNRSTY  📋 "cured" ? /it
+TD389 attempt 3 CURED Y Y Y Y Y
+TD240 ? ␅
+TD6247182 ␆
+TD112 ? 
+TD133 question done
+TD49687 📋> ␅
+TD702544 ␆squareword.org 1547: 7 guesses
+TD113 📋> squareword.org 1547: 7 guesses
+TD13 📋> ␅
+TD66 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD12 ␆🟨🟨🟩🟩🟩
+TD4 📋> 🟨🟨🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟩🟨🟨🟨🟩
+TD4 📋> 🟩🟨🟨🟨🟩
+TD4 📋> ␅
+TD11 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD13 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD263163 ␆#squareword #squareword1547
+TD96 📋> #squareword #squareword1547
+TD12 📋> ␅
+TD176809 ␄
+TD180 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1547: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1547"}
+TD1231 result: "squareword.org 1547: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1547"
+TD95 📆 2026-04-27 ? ␅
+TD157671 ␆
+TD112 📆 2026-04-27 ? 
