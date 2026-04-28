@@ -1,0 +1,94 @@
+T91.51759388300707 now: 2026-04-28T08:32:46EDT
+TD176 site: alphaguess.com
+TD119772 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 77e261cad57bbbcaf224b1d8315bbd2e0d3fd926
+TD107  ...␅
+TD3782870 ␆
+TD100  ...
+TD189 [0 : 98216 : 196522] mach? ␅
+TD3479528 ␆a
+TD96 [0 : 98216 : 196522] mach? a
+TD109 progress: 1 98216 mach
+TD252 [98217 : 147366 : 196522] rhotic? ␅
+TD1471702 ␆a
+TD72 [98217 : 147366 : 196522] rhotic? a
+TD71 progress: 1 147366 rhotic
+TD67 [147367 : 171636 : 196522] ta? ␅
+TD1679744 ␆a
+TD76 [147367 : 171636 : 196522] ta? a
+TD74 progress: 1 171636 ta
+TD76 [171637 : 182000 : 196522] un? ␅
+TD1375894 ␆a
+TD97 [171637 : 182000 : 196522] un? a
+TD114 progress: 1 182000 un
+TD309 [182001 : 189262 : 196522] vicar? ␅
+TD1263331 ␆a
+TD97 [182001 : 189262 : 196522] vicar? a
+TD106 progress: 1 189262 vicar
+TD154 [189263 : 192866 : 196522] whir? ␅
+TD1551788 ␆b
+TD71 [189263 : 192866 : 196522] whir? b
+TD70 progress: -1 192866 whir
+TD71 [189263 : 191042 : 192866] walk? ␅
+TD1375500 ␆b
+TD68 [189263 : 191042 : 192866] walk? b
+TD63 progress: -1 191042 walk
+TD64 [189263 : 190145 : 191042] vivisect? ␅
+TD1264214 ␆a
+TD75 [189263 : 190145 : 191042] vivisect? a
+TD72 progress: 1 190145 vivisect
+TD148 [190146 : 190594 : 191042] vouvray? ␅
+TD1231494 ␆a
+TD81 [190146 : 190594 : 191042] vouvray? a
+TD70 progress: 1 190594 vouvray
+TD83 [190595 : 190813 : 191042] wae? ␅
+TD1288070 ␆a
+TD71 [190595 : 190813 : 191042] wae? a
+TD72 progress: 1 190813 wae
+TD82 [190814 : 190926 : 191042] wail? ␅
+TD1423551 ␆b
+TD72 [190814 : 190926 : 191042] wail? b
+TD70 progress: -1 190926 wail
+TD70 [190814 : 190855 : 190926] wag? ␅
+TD1239867 ␆a
+TD68 [190814 : 190855 : 190926] wag? a
+TD134 progress: 1 190855 wag
+TD136 [190856 : 190886 : 190926] waggon? ␅
+TD1359502 ␆b
+TD98 [190856 : 190886 : 190926] waggon? b
+TD107 progress: -1 190886 waggon
+TD269 [190856 : 190870 : 190886] wagger? ␅
+TD1191526 ␆a
+TD98 [190856 : 190870 : 190886] wagger? a
+TD105 progress: 1 190870 wagger
+TD152 [190871 : 190875 : 190886] waggish? ␅
+TD1247825 ␆a
+TD106 [190871 : 190875 : 190886] waggish? a
+TD105 progress: 1 190875 waggish
+TD190 [190876 : 190879 : 190886] waggle? ␅
+TD2575471 ␆it
+TD98 [190876 : 190879 : 190886] waggle? it
+TD116 progress: 0 190879 waggle
+TD26 [190876 : 190879 : 190886] <Done>.
+TD83 📋> ␅
+TD2615933 ␆🧩 Puzzle #1009
+TD119 📋> 🧩 Puzzle #1009
+TD12 📋> ␅
+TD41 ␆🤔 16 guesses
+TD7 📋> 🤔 16 guesses
+TD6 📋> ␅
+TD12 ␆⏱️ 21s
+TD6 📋> ⏱️ 21s
+TD5 📋> ␅
+TD263586 ␆🔗 alphaguess.com/1009
+TD98 📋> 🔗 alphaguess.com/1009
+TD13 📋> ␅
+TD167855 ␄
+TD177 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1009\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/1009"}
+TD101 result: "\ud83e\udde9 Puzzle #1009\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/1009"
+TD16 result puzzle: 1009
+TD7 result guesses: 16
+TD6 result time: 21s
+TD5 result link: alphaguess.com/1009
+TD93 📆 2026-04-28 ? ␅
+TD168277 ␆
+TD107 📆 2026-04-28 ? 
