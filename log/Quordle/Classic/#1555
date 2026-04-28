@@ -1,0 +1,156 @@
+T504.7127639169921 now: 2026-04-28T08:39:39EDT
+TD69 site: m-w.com/games/quordle/#/
+TD16 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD70  ...␅
+TD167584 ␆
+TD83  ...
+TD327369 > ␅
+TD8248167 ␆*
+TD71 > *
+TD33659 ? ␅
+TD886257 ␆1
+TD66 ? 1
+TD126 questioning: snare
+TD95 Classic #1 _____? ␅
+TD3591785 ␆nMnnn
+TD61 Classic #1 _____? nMnnn
+TD227 attempt: 0 SNARE n m n n n
+TD62 Classic #2 _____? ␅
+TD1415692 ␆MMnnn
+TD64 Classic #2 _____? MMnnn
+TD146 attempt: 1 SNARE m m n n n
+TD60 Classic #3 _____? ␅
+TD1407672 ␆MnnMn
+TD63 Classic #3 _____? MnnMn
+TD133 attempt: 2 SNARE m n n m n
+TD59 Classic #4 _____? ␅
+TD1120020 ␆nnnMM
+TD97 Classic #4 _____? nnnMM
+TD138 attempt: 3 SNARE n n n m m
+TD372321 > ␅
+TD739260 ␆*
+TD96 > *
+TD1877 ? ␅
+TD845998 ␆1
+TD74 ? 1
+TD130 questioning: tried
+TD100 Classic #1 _____ ~N -AERS? ␅
+TD3231776 ␆nnYnn
+TD71 Classic #1 _____ ~N -AERS? nnYnn
+TD157 attempt: 0 TRIED n n Y n n
+TD71 Classic #2 _____ ~NS -AER? ␅
+TD1319760 ␆nnnnn
+TD76 Classic #2 _____ ~NS -AER? nnnnn
+TD155 attempt: 1 TRIED n n n n n
+TD75 Classic #3 _____ ~RS -AEN? ␅
+TD1415893 ␆nYnnn
+TD87 Classic #3 _____ ~RS -AEN? nYnnn
+TD216 attempt: 2 TRIED n Y n n n
+TD100 Classic #4 _____ ~ER -ANS? ␅
+TD1823536 ␆nYYYM
+TD94 Classic #4 _____ ~ER -ANS? nYYYM
+TD224 attempt: 3 TRIED n Y Y Y m
+TD334932 > ␅
+TD7632607 ␆*
+TD71 > *
+TD244 questioning: drier
+TD69 Classic #1 __I__ ~N -ADERST? ␅
+TD5439893 ␆nnYnn
+TD84 Classic #1 __I__ ~N -ADERST? nnYnn
+TD145 attempt: 0 DRIER n n Y n n
+TD72 Classic #2 _____ ~NS -ADEIRT? ␅
+TD1103499 ␆nnnnn
+TD68 Classic #2 _____ ~NS -ADEIRT? nnnnn
+TD138 attempt: 1 DRIER n n n n n
+TD66 Classic #3 _R___ ~S -ADEINT? ␅
+TD1464095 ␆nYnnn
+TD93 Classic #3 _R___ ~S -ADEINT? nYnnn
+TD151 attempt: 2 DRIER n Y n n n
+TD70 Classic #4 _RIE_ ~D -ANST? ␅
+TD1159336 ␆YYYYY
+TD66 Classic #4 _RIE_ ~D -ANST? YYYYY
+TD122 attempt: 3 DRIER Y Y Y Y Y
+TD231381 > ␅
+TD3984554 ␆*
+TD92 > *
+TD636 ? ␅
+TD1359586 ␆1
+TD82 ? 1
+TD125 questioning: gunks
+TD91 Classic #1 __I__ ~N -ADERST? ␅
+TD6719825 ␆nnMMn
+TD73 Classic #1 __I__ ~N -ADERST? nnMMn
+TD140 attempt: 0 GUNKS n n m m n
+TD66 Classic #2 _____ ~NS -ADEIRT? ␅
+TD1687430 ␆nMYnY
+TD94 Classic #2 _____ ~NS -ADEIRT? nMYnY
+TD232 attempt: 1 GUNKS n m Y n Y
+TD112 Classic #3 _R___ ~S -ADEINT? ␅
+TD1407559 ␆nMnnM
+TD99 Classic #3 _R___ ~S -ADEINT? nMnnM
+TD230 attempt: 2 GUNKS n m n n m
+TD233826 > ␅
+TD3733819 ␆*
+TD117 > *
+TD519 ? ␅
+TD1495380 ␆1
+TD100 ? 1
+TD178 questioning: bonus
+TD160 Classic #1 __I__ ~KN -ADEGRSTU? ␅
+TD3463612 ␆nnMnn
+TD99 Classic #1 __I__ ~KN -ADEGRSTU? nnMnn
+TD231 attempt: 0 BONUS n n m n n
+TD114 Classic #2 __N_S ~U -ADEGIKRT? ␅
+TD1183460 ␆YYYYY
+TD76 Classic #2 __N_S ~U -ADEGIKRT? YYYYY
+TD131 attempt: 1 BONUS Y Y Y Y Y
+TD69 Classic #3 _R___ ~SU -ADEGIKNT? ␅
+TD1951816 ␆YnnMM
+TD98 Classic #3 _R___ ~SU -ADEGIKNT? YnnMM
+TD224 attempt: 2 BONUS Y n n m m
+TD148785 > ␅
+TD882825 ␆*
+TD65 > *
+TD238 questioning: brush
+TD63 Classic #1 __I__ ~KN -ABDEGORSTU? ␅
+TD4247915 ␆nnnnn
+TD113 Classic #1 __I__ ~KN -ABDEGORSTU? nnnnn
+TD222 attempt: 0 BRUSH n n n n n
+TD104 Classic #3 BR___ ~SU -ADEGIKNOT? ␅
+TD1399371 ␆YYYYY
+TD95 Classic #3 BR___ ~SU -ADEGIKNOT? YYYYY
+TD220 attempt: 2 BRUSH Y Y Y Y Y
+TD86535 > ␅
+TD1809235 ␆*
+TD96 > *
+TD533 ? ␅
+TD1983350 ␆1
+TD71 ? 1
+TD116 questioning: clink
+TD91 Classic #1 __I__ ~KN -ABDEGHORSTU? ␅
+TD3351803 ␆YYYYY
+TD94 Classic #1 __I__ ~KN -ABDEGHORSTU? YYYYY
+TD221 attempt: 0 CLINK Y Y Y Y Y
+TD94 📋> ␅
+TD5104046 ␆🙂 Daily Quordle 1555
+TD73 📋> 🙂 Daily Quordle 1555
+TD6 📋> ␅
+TD26 ␆7️⃣5️⃣
+TD3 📋> 7️⃣5️⃣
+TD2 📋> ␅
+TD4 ␆6️⃣3️⃣
+TD2 📋> 6️⃣3️⃣
+TD1 📋> ␅
+TD3 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD1 📋> ␅
+TD295863 ␆
+TD98 📋> 
+TD13 📋> ␅
+TD231418 ␄
+TD118 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1555\n7\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD717 result: "\ud83d\ude42 Daily Quordle 1555\n7\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD64 📆 2026-04-28 ? ␅
+TD175259 ␆
+TD99 📆 2026-04-28 ? 
