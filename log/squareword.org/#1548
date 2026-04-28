@@ -1,0 +1,245 @@
+T920.5971508329967 now: 2026-04-28T08:46:35EDT
+TD65 site: squareword.org
+TD16 wordlist: nwl2023.txt
+TD19  ...␅
+TD158978 ␆
+TD99  ...
+TD80 🧩  ? ␅
+TD11687845 ␆#1548
+TD80 🧩  ? #1548
+TD180 puzzle_id: #1548
+TD147 > ␅
+TD575855 ␆
+TD81 > 
+TD253 > ␅
+TD2047522 ␆*
+TD98 > *
+TD185960 try? ␅
+TD989794 ␆1
+TD72 try? 1
+TD211 questioning: ["lares", "#5"]
+TD166 #1 <IndexError>  📋 "lares" ? ␅
+TD3960231 ␆_____ ~ RES
+TD77 #1 <IndexError>  📋 "lares" ? _____ ~ RES
+TD386 attempt 0 LARES n n m m m
+TD71 #2 <IndexError>  📋 "lares" ? ␅
+TD2278907 ␆__R__ ~ A
+TD73 #2 <IndexError>  📋 "lares" ? __R__ ~ A
+TD171 attempt 1 LARES n m Y n n
+TD80 #3 <IndexError>  📋 "lares" ? ␅
+TD2152116 ␆__R__ ~ LA
+TD99 #3 <IndexError>  📋 "lares" ? __R__ ~ LA
+TD268 attempt 2 LARES m m Y n n
+TD124 #4 <IndexError>  📋 "lares" ? ␅
+TD2271234 ␆_____ ~ E
+TD76 #4 <IndexError>  📋 "lares" ? _____ ~ E
+TD168 attempt 3 LARES n n n m n
+TD75 #5 <IndexError>  📋 "lares" ? ␅
+TD2280398 ␆L_RES
+TD98 #5 <IndexError>  📋 "lares" ? L_RES
+TD253 attempt 4 LARES Y n Y Y Y
+TD364 ? ␅
+TD630693 ␆
+TD103 ? 
+TD170 question done
+TD338 > ␅
+TD7655247 ␆*
+TD88 > *
+TD813725 try? ␅
+TD2394208 ␆1
+TD68 try? 1
+TD198 questioning: ["lores", "#5"]
+TD163 #1 _____ ~ERS -AL  📋 "lores" ? ␅
+TD3679734 ␆.
+TD83 #1 _____ ~ERS -AL  📋 "lores" ? .
+TD162 attempt 0 LORES n n m m m
+TD52 #2 __R__ ~A -ELS  📋 "lores" ? ␅
+TD2647756 ␆_OR__ ~ A
+TD86 #2 __R__ ~A -ELS  📋 "lores" ? _OR__ ~ A
+TD181 attempt 1 LORES n Y Y n n
+TD98 #3 __R__ ~AL -ES  📋 "lores" ? ␅
+TD2719709 ␆_OR__ ~ LA
+TD82 #3 __R__ ~AL -ES  📋 "lores" ? _OR__ ~ LA
+TD176 attempt 2 LORES m Y Y n n
+TD99 #4 _____ ~E -ALRS  📋 "lores" ? ␅
+TD2367652 ␆_____ ~ EO
+TD79 #4 _____ ~E -ALRS  📋 "lores" ? _____ ~ EO
+TD190 attempt 3 LORES n m n m n
+TD107 #5 L_RES -A  📋 "lores" ? ␅
+TD1695649 ␆
+TD103 #5 L_RES -A  📋 "lores" ? 
+TD316 #5 L_RES -A  ? ␅
+TD1127672 ␆
+TD78 #5 L_RES -A  ? 
+TD275 #5 L_RES -A  ? ␅
+TD1335368 ␆.
+TD78 #5 L_RES -A  ? .
+TD183 attempt 4 LORES Y n Y Y Y
+TD164 ? ␅
+TD215530 ␆
+TD76 ? 
+TD113 question done
+TD211 > ␅
+TD623687 ␆*
+TD109 > *
+TD554596 questioning: ["lyres", "#5"]
+TD173 #1 _____ ~ERS -ALO  📋 "lyres" ? ␅
+TD4069113 ␆.
+TD83 #1 _____ ~ERS -ALO  📋 "lyres" ? .
+TD191 attempt 0 LYRES n n m m m
+TD62 #2 _OR__ ~A -ELS  📋 "lyres" ? ␅
+TD1752436 ␆.
+TD104 #2 _OR__ ~A -ELS  📋 "lyres" ? .
+TD285 attempt 1 LYRES n n Y n n
+TD96 #3 _OR__ ~AL -ES  📋 "lyres" ? ␅
+TD1246887 ␆.
+TD99 #3 _OR__ ~AL -ES  📋 "lyres" ? .
+TD281 attempt 2 LYRES m n Y n n
+TD99 #4 _____ ~EO -ALRS  📋 "lyres" ? ␅
+TD831669 ␆.
+TD100 #4 _____ ~EO -ALRS  📋 "lyres" ? .
+TD280 attempt 3 LYRES n n n m n
+TD98 #5 L_RES -AO  📋 "lyres" ? ␅
+TD1575317 ␆/it
+TD79 #5 L_RES -AO  📋 "lyres" ? /it
+TD183 attempt 4 LYRES Y Y Y Y Y
+TD167 ? ␅
+TD239679 ␆
+TD85 ? 
+TD90 question done
+TD193 > ␅
+TD567665 ␆*
+TD79 > *
+TD498735 try? ␅
+TD12613292 ␆2
+TD114 try? 2
+TD295 questioning: ["coral", "#3"]
+TD416 #1 _____ ~ERS -ALOY  📋 "coral" ? ␅
+TD5975312 ␆C____ ~ RES
+TD93 #1 _____ ~ERS -ALOY  📋 "coral" ? C____ ~ RES
+TD184 attempt 0 CORAL Y n m n n
+TD86 #2 _OR__ ~A -ELSY  📋 "coral" ? ␅
+TD2255479 ␆.
+TD69 #2 _OR__ ~A -ELSY  📋 "coral" ? .
+TD163 attempt 1 CORAL n Y Y m n
+TD52 #3 _OR__ ~AL -ESY  📋 "coral" ? ␅
+TD1591752 ␆_ORAL
+TD98 #3 _OR__ ~AL -ESY  📋 "coral" ? _ORAL
+TD259 attempt 2 CORAL n Y Y Y Y
+TD139 #4 _____ ~EO -ALRSY  📋 "coral" ? ␅
+TD1039517 ␆.
+TD72 #4 _____ ~EO -ALRSY  📋 "coral" ? .
+TD180 attempt 3 CORAL n m n n n
+TD176 ? ␅
+TD247700 ␆
+TD73 ? 
+TD81 question done
+TD182 > ␅
+TD1031559 ␆*
+TD79 > *
+TD1026549 questioning: ["crest", "#1"]
+TD188 #1 C____ ~ERS -ALOY  📋 "crest" ? ␅
+TD3477091 ␆/it
+TD114 #1 C____ ~ERS -ALOY  📋 "crest" ? /it
+TD270 attempt 0 CREST Y Y Y Y Y
+TD99 #2 _OR__ ~A -CELSY  📋 "crest" ? ␅
+TD3663693 ␆_OR__ ~ AT
+TD99 #2 _OR__ ~A -CELSY  📋 "crest" ? _OR__ ~ AT
+TD264 attempt 1 CREST n n n n m
+TD149 #3 _ORAL -CESY  📋 "crest" ? ␅
+TD759466 ␆.
+TD95 #3 _ORAL -CESY  📋 "crest" ? .
+TD280 attempt 2 CREST n n n n n
+TD117 #4 _____ ~EO -ACLRSY  📋 "crest" ? ␅
+TD2807439 ␆_____ ~ EOT
+TD77 #4 _____ ~EO -ACLRSY  📋 "crest" ? _____ ~ EOT
+TD168 attempt 3 CREST n n m n m
+TD180 ? ␅
+TD287626 ␆
+TD74 ? 
+TD80 question done
+TD146 > ␅
+TD679841 ␆*
+TD98 > *
+TD1786606 questioning: ["aorta", "#2"]
+TD189 #2 _OR__ ~AT -CELRSY  📋 "aorta" ? ␅
+TD2932854 ␆/it
+TD70 #2 _OR__ ~AT -CELRSY  📋 "aorta" ? /it
+TD162 attempt 1 AORTA Y Y Y Y Y
+TD58 #3 _ORAL -CERSTY  📋 "aorta" ? ␅
+TD2383891 ␆.
+TD75 #3 _ORAL -CERSTY  📋 "aorta" ? .
+TD165 attempt 2 AORTA n Y Y n n
+TD56 #4 _____ ~EOT -ACLRSY  📋 "aorta" ? ␅
+TD3639951 ␆___T_ ~ EO
+TD114 #4 _____ ~EOT -ACLRSY  📋 "aorta" ? ___T_ ~ EO
+TD337 attempt 3 AORTA n m n Y n
+TD432 ? ␅
+TD262975 ␆
+TD111 ? 
+TD142 question done
+TD410 > ␅
+TD647463 ␆*
+TD82 > *
+TD1363794 questioning: ["emote", "#4"]
+TD187 #3 _ORAL -ACESTY  📋 "emote" ? ␅
+TD5139938 ␆_ORAL ~ M
+TD97 #3 _ORAL -ACESTY  📋 "emote" ? _ORAL ~ M
+TD30976 attempt 2 EMOTE n m n n n
+TD104 #4 ___T_ ~EO -ACLRSY  📋 "emote" ? ␅
+TD737373 ␆/it
+TD99 #4 ___T_ ~EO -ACLRSY  📋 "emote" ? /it
+TD265 attempt 3 EMOTE Y Y Y Y Y
+TD312 ? ␅
+TD175333 ␆
+TD101 ? 
+TD116 question done
+TD317 > ␅
+TD422948 ␆*
+TD98 > *
+TD895484 questioning: ["moral", "#3"]
+TD186 #3 _ORAL ~M -ACEOSTY  📋 "moral" ? ␅
+TD3144078 ␆/it
+TD98 #3 _ORAL ~M -ACEOSTY  📋 "moral" ? /it
+TD272 attempt 2 MORAL Y Y Y Y Y
+TD303 ? ␅
+TD407410 ␆
+TD79 ? 
+TD87 question done
+TD21800 📋> ␅
+TD3386651 ␆squareword.org 1548: 8 guesses
+TD73 📋> squareword.org 1548: 8 guesses
+TD7 📋> ␅
+TD40 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD6 ␆🟨🟩🟩🟨🟨
+TD1 📋> 🟨🟩🟩🟨🟨
+TD1 📋> ␅
+TD6 ␆🟨🟩🟩🟩🟩
+TD1 📋> 🟨🟩🟩🟩🟩
+TD1 📋> ␅
+TD6 ␆🟨🟨🟨🟨🟨
+TD1 📋> 🟨🟨🟨🟨🟨
+TD1 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD5 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD343352 ␆#squareword #squareword1548
+TD95 📋> #squareword #squareword1548
+TD22 📋> ␅
+TD183921 ␄
+TD228 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1548: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1548"}
+TD615 result: "squareword.org 1548: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1548"
+TD67 📆 2026-04-28 ? ␅
+TD199165 ␆
+TD147 📆 2026-04-28 ? 
