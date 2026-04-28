@@ -1,0 +1,157 @@
+T125.22170886400272 now: 2026-04-28T08:33:20EDT
+TD131 site: dontwordle.com
+TD22 wordlist: nwl2023.txt
+TD43  ...␅
+TD191188 ␆
+TD108  ...
+TD125 1> ␅
+TD799403 ␆
+TD105 1> 
+TD180 1> ␅
+TD5039942 ␆sol -bot 10
+TD101 1> sol -bot 10
+TD360 1> ␅
+TD5615366 ␆* -bot 10
+TD110 1> * -bot 10
+TD186089 ? ␅
+TD789875 ␆1
+TD71 ? 1
+TD168 📋 "aster" ? ␅
+TD5927646 ␆nnnMn
+TD84 📋 "aster" ? nnnMn
+TD343 tried: ASTER n n n m n
+TD111 2> ␅
+TD1951649 ␆undo
+TD106 2> undo
+TD158 undo
+TD163 1> ␅
+TD2991422 ␆*
+TD75 1> *
+TD86994 ? ␅
+TD353070 ␆1
+TD75 ? 1
+TD230 📋 "immix" ? ␅
+TD4167561 ␆nnnnn
+TD66 📋 "immix" ? nnnnn
+TD149 tried: IMMIX n n n n n
+TD105 2> ␅
+TD7831960 ␆* :v [aster] -bot 10
+TD98 2> * :v [aster] -bot 10
+TD84042 ? ␅
+TD683617 ␆1
+TD91 ? 1
+TD242 📋 "fungo" ? ␅
+TD5047946 ␆nYnMn
+TD98 📋 "fungo" ? nYnMn
+TD209 tried: FUNGO n Y n m n
+TD213 3> ␅
+TD607297 ␆undo
+TD97 3> undo
+TD147 undo
+TD211 2> ␅
+TD2783958 ␆*
+TD94 2> *
+TD76122 ? ␅
+TD795465 ␆1
+TD99 ? 1
+TD260 📋 "tazza" ? ␅
+TD4624402 ␆nnnnn
+TD98 📋 "tazza" ? nnnnn
+TD190 tried: TAZZA n n n n n
+TD96 3> ␅
+TD3407062 ␆*
+TD95 3> *
+TD72079 ? ␅
+TD728598 ␆1
+TD96 ? 1
+TD240 📋 "oppos" ? ␅
+TD4495002 ␆nnnnn
+TD93 📋 "oppos" ? nnnnn
+TD206 tried: OPPOS n n n n n
+TD199 4> ␅
+TD823626 ␆*
+TD97 4> *
+TD65935 ? ␅
+TD790040 ␆1
+TD99 ? 1
+TD239 📋 "flyby" ? ␅
+TD5455666 ␆nMnMn
+TD98 📋 "flyby" ? nMnMn
+TD216 tried: FLYBY n m n m n
+TD214 5> ␅
+TD1199184 ␆undo
+TD73 5> undo
+TD96 undo
+TD127 4> ␅
+TD2399807 ␆*
+TD74 4> *
+TD167331 ? ␅
+TD1256517 ␆1
+TD99 ? 1
+TD231 📋 "dryly" ? ␅
+TD7599811 ␆nnnYn
+TD85 📋 "dryly" ? nnnYn
+TD141 tried: DRYLY n n n Y n
+TD110 5> ␅
+TD391742 ␆*
+TD97 5> *
+TD167432 ? ␅
+TD808289 ␆1
+TD72 ? 1
+TD156 📋 "knell" ? ␅
+TD3943904 ␆nnMYn
+TD87 📋 "knell" ? nnMYn
+TD234 tried: KNELL n n m Y n
+TD218 6> ␅
+TD463620 ␆*
+TD91 6> *
+TD132352 📋 "belle" ? ␅
+TD7995438 ␄
+TD104 <EOF>
+TD114 6> ␅
+TD8015797 ␆* :v l.*l
+TD84 6> * :v l.*l
+TD78138 6> ␅
+TD8857976 ␆* -sans :v l.*l
+TD123 6> * -sans :v l.*l
+TD86055 ? ␅
+TD1137827 ␆1
+TD105 ? 1
+TD241 📋 "bugle" ? ␅
+TD7871662 ␆YYYYY
+TD103 📋 "bugle" ? YYYYY
+TD207 tried: BUGLE Y Y Y Y Y
+TD196 📋> ␅
+TD2647963 ␆Don't Wordle 1435 - WORDLED
+TD100 📋> Don't Wordle 1435 - WORDLED
+TD14 📋> ␅
+TD43 ␆I must admit that I Wordled!
+TD7 📋> I must admit that I Wordled!
+TD6 📋> ␅
+TD16 ␆⬜⬜⬜⬜⬜7870
+TD6 📋> ⬜⬜⬜⬜⬜7870
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜3091
+TD5 📋> ⬜⬜⬜⬜⬜3091
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜569
+TD5 📋> ⬜⬜⬜⬜⬜569
+TD5 📋> ␅
+TD12 ␆⬜⬜⬜🟩⬜9
+TD5 📋> ⬜⬜⬜🟩⬜9
+TD5 📋> ␅
+TD11 ␆⬜⬜🟨🟩⬜2
+TD5 📋> ⬜⬜🟨🟩⬜2
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩0
+TD5 📋> 🟩🟩🟩🟩🟩0
+TD5 📋> ␅
+TD263248 ␆Undos used: 3
+TD97 📋> Undos used: 3
+TD15 📋> ␅
+TD167893 ␄
+TD121 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1435 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3091\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c569\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c9\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"}
+TD582 result: "Don't Wordle 1435 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3091\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c569\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c9\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"
+TD58 📆 2026-04-28 ? ␅
+TD183276 ␆
+TD109 📆 2026-04-28 ? 
