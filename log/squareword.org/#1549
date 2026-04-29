@@ -1,0 +1,257 @@
+T791.7310170799974 now: 2026-04-29T08:09:35EDT
+TD73 site: squareword.org
+TD21 wordlist: nwl2023.txt
+TD25  ...␅
+TD159236 ␆
+TD97  ...
+TD73 🧩  ? ␅
+TD4527713 ␆#1549
+TD73 🧩  ? #1549
+TD182 puzzle_id: #1549
+TD155 > ␅
+TD559646 ␆
+TD74 > 
+TD238 > ␅
+TD1711637 ␆*
+TD66 > *
+TD174910 try? ␅
+TD641242 ␆1
+TD97 try? 1
+TD316 questioning: ["laser", "#5"]
+TD306 #1 <IndexError>  📋 "laser" ? ␅
+TD3311488 ␆_____ ~ LS
+TD89 #1 <IndexError>  📋 "laser" ? _____ ~ LS
+TD474 attempt 0 LASER m n m n n
+TD84 #2 <IndexError>  📋 "laser" ? ␅
+TD1927094 ␆_____ ~ LAE
+TD95 #2 <IndexError>  📋 "laser" ? _____ ~ LAE
+TD272 attempt 1 LASER m m n m n
+TD126 #3 <IndexError>  📋 "laser" ? ␅
+TD1991529 ␆LA_ER
+TD76 #3 <IndexError>  📋 "laser" ? LA_ER
+TD185 attempt 2 LASER Y Y n Y Y
+TD86 #4 <IndexError>  📋 "laser" ? ␅
+TD2519774 ␆_____ ~ AR
+TD98 #4 <IndexError>  📋 "laser" ? _____ ~ AR
+TD264 attempt 3 LASER n m n n m
+TD122 #5 <IndexError>  📋 "laser" ? ␅
+TD1935374 ␆_____ ~ SE
+TD97 #5 <IndexError>  📋 "laser" ? _____ ~ SE
+TD269 attempt 4 LASER n n m m n
+TD347 ? ␅
+TD239432 ␆
+TD100 ? 
+TD152 question done
+TD306 > ␅
+TD463338 ␆*
+TD80 > *
+TD793974 try? ␅
+TD6910214 ␄
+TD132 <EOF>
+TD317 > ␅
+TD911299 ␆* 2
+TD78 > * 2
+TD2848 try? ␅
+TD845158 ␆1
+TD88 try? 1
+TD300 questioning: ["place", "#2"]
+TD309 #1 _____ ~LS -AER  📋 "place" ? ␅
+TD4295310 ␆_____ ~ LSP
+TD78 #1 _____ ~LS -AER  📋 "place" ? _____ ~ LSP
+TD169 attempt 0 PLACE m m n n n
+TD93 #2 _____ ~AEL -RS  📋 "place" ? ␅
+TD2327679 ␆_L__E ~ A
+TD81 #2 _____ ~AEL -RS  📋 "place" ? _L__E ~ A
+TD183 attempt 1 PLACE n Y m n Y
+T16.886704470998666 now: 2026-04-29T08:10:42EDT
+TD116 questioning: ["place", "#2"]
+TD188 #3 LA_ER -S  📋 "place" ? ␅
+TD5208284 ␆.
+TD97 #3 LA_ER -S  📋 "place" ? .
+TD481 attempt 2 PLACE n n n n n
+TD111 #4 _____ ~AR -ELS  📋 "place" ? ␅
+TD2655113 ␆_____ ~ ARC
+TD76 #4 _____ ~AR -ELS  📋 "place" ? _____ ~ ARC
+TD465 attempt 3 PLACE n n m m n
+TD96 #5 _____ ~ES -ALR  📋 "place" ? ␅
+TD2015574 ␆_____ ~ SE
+TD97 #5 _____ ~ES -ALR  📋 "place" ? _____ ~ SE
+TD265 attempt 4 PLACE n n n n m
+TD277 ? ␅
+TD311249 ␆
+TD81 ? 
+TD101 question done
+TD200 > ␅
+TD1015606 ␆*
+TD80 > *
+TD952402 try? ␅
+TD5063458 ␆1
+TD98 try? 1
+TD315 questioning: ["gulps", "#1"]
+TD345 #1 _____ ~LPS -ACER  📋 "gulps" ? ␅
+TD5967450 ␆__L__ ~ SP
+TD67 #1 _____ ~LPS -ACER  📋 "gulps" ? __L__ ~ SP
+TD163 attempt 0 GULPS n n Y m m
+TD89 #2 _L__E ~A -CPRS  📋 "gulps" ? ␅
+TD2511763 ␆.
+TD79 #2 _L__E ~A -CPRS  📋 "gulps" ? .
+TD191 attempt 1 GULPS n n n n n
+TD65 #3 LA_ER -ACELPS  📋 "gulps" ? ␅
+TD5727701 ␆LA_ER ~ G
+TD108 #3 LA_ER -ACELPS  📋 "gulps" ? LA_ER ~ G
+TD335 attempt 2 GULPS m n n n n
+TD190 #4 _____ ~ACR -ELPS  📋 "gulps" ? ␅
+TD2303409 ␆.
+TD96 #4 _____ ~ACR -ELPS  📋 "gulps" ? .
+TD274 attempt 3 GULPS n n n n n
+TD96 #5 _____ ~ES -ACLPR  📋 "gulps" ? ␅
+TD2375495 ␆____S ~ E
+TD93 #5 _____ ~ES -ACLPR  📋 "gulps" ? ____S ~ E
+TD266 attempt 4 GULPS n n n n Y
+TD345 ? ␅
+TD351325 ␆
+TD94 ? 
+TD120 question done
+TD319 > ␅
+TD711497 ␆*
+TD98 > *
+TD608174 questioning: ["split", "#1"]
+TD167 #1 __L__ ~PS -ACEGRU  📋 "split" ? ␅
+TD2847433 ␆/it
+TD86 #1 __L__ ~PS -ACEGRU  📋 "split" ? /it
+TD262 attempt 0 SPLIT Y Y Y Y Y
+TD110 #2 _L__E ~A -CGLPRSU  📋 "split" ? ␅
+TD1535737 ␆.
+TD75 #2 _L__E ~A -CGLPRSU  📋 "split" ? .
+TD187 attempt 1 SPLIT n n n n n
+TD67 #3 LA_ER ~G -ACELPSU  📋 "split" ? ␅
+TD1439600 ␆.
+TD76 #3 LA_ER ~G -ACELPSU  📋 "split" ? .
+TD188 attempt 2 SPLIT n n n n n
+TD64 #4 _____ ~ACR -EGLPSU  📋 "split" ? ␅
+TD1087640 ␆.
+TD75 #4 _____ ~ACR -EGLPSU  📋 "split" ? .
+TD187 attempt 3 SPLIT n n n n n
+TD69 #5 ____S ~E -ACGLPRU  📋 "split" ? ␅
+TD2623781 ␆____S ~ ET
+TD77 #5 ____S ~E -ACGLPRU  📋 "split" ? ____S ~ ET
+TD179 attempt 4 SPLIT n n n n m
+TD203 ? ␅
+TD303490 ␆
+TD74 ? 
+TD83 question done
+TD181 > ␅
+TD735715 ␆*
+TD70 > *
+TD614940 questioning: ["alone", "#2"]
+TD180 #2 _L__E ~A -CGILPRSTU  📋 "alone" ? ␅
+TD2944727 ␆/it
+TD95 #2 _L__E ~A -CGILPRSTU  📋 "alone" ? /it
+TD287 attempt 1 ALONE Y Y Y Y Y
+TD119 #3 LA_ER ~G -ACEILPSTU  📋 "alone" ? ␅
+TD2071636 ␆.
+TD79 #3 LA_ER ~G -ACEILPSTU  📋 "alone" ? .
+TD197 attempt 2 ALONE n n n n n
+TD63 #4 _____ ~ACR -EGILPSTU  📋 "alone" ? ␅
+TD3647631 ␆A_O__ ~ RCN
+TD76 #4 _____ ~ACR -EGILPSTU  📋 "alone" ? A_O__ ~ RCN
+TD188 attempt 3 ALONE Y n Y m n
+TD109 #5 ____S ~ET -ACGILPRSU  📋 "alone" ? ␅
+TD3223697 ␆____S ~ ETN
+TD86 #5 ____S ~ET -ACGILPRSU  📋 "alone" ? ____S ~ ETN
+TD181 attempt 4 ALONE n n n m m
+TD216 ? ␅
+TD279498 ␆
+TD83 ? 
+TD99 question done
+TD195 > ␅
+TD3791821 ␆
+TD99 > 
+TD449 > ␅
+TD2431470 ␆*
+TD72 > *
+TD962135 questioning: ["lager", "#3"]
+TD180 #3 LA_ER ~G -ACEILNOPSTU  📋 "lager" ? ␅
+TD4629429 ␆/it
+TD106 #3 LA_ER ~G -ACEILNOPSTU  📋 "lager" ? /it
+TD253 attempt 2 LAGER Y Y Y Y Y
+TD102 #4 A_O__ ~CNR -EGILPSTU  📋 "lager" ? ␅
+TD2447774 ␆.
+TD97 #4 A_O__ ~CNR -EGILPSTU  📋 "lager" ? .
+TD260 attempt 3 LAGER n n n n m
+TD100 #5 ____S ~ENT -ACGILOPRSU  📋 "lager" ? ␅
+TD1143467 ␆.
+TD95 #5 ____S ~ENT -ACGILOPRSU  📋 "lager" ? .
+TD264 attempt 4 LAGER n n n m n
+TD298 ? ␅
+TD303457 ␆
+TD80 ? 
+TD88 question done
+TD186 > ␅
+TD487646 ␆*
+TD99 > *
+TD805059 questioning: ["acorn", "#4"]
+TD196 #4 A_O__ ~CNR -AEGILPSTU  📋 "acorn" ? ␅
+TD4610542 ␆/it
+TD93 #4 A_O__ ~CNR -AEGILPSTU  📋 "acorn" ? /it
+TD258 attempt 3 ACORN Y Y Y Y Y
+TD101 #5 ____S ~ENT -ACGILOPRSU  📋 "acorn" ? ␅
+TD1503616 ␆.
+TD96 #5 ____S ~ENT -ACGILOPRSU  📋 "acorn" ? .
+TD266 attempt 4 ACORN n n n n m
+TD320 ? ␅
+TD207414 ␆
+TD91 ? 
+TD113 question done
+TD330 > ␅
+TD359583 ␆*
+TD99 > *
+TD836598 try? ␅
+TD1531249 ␆1
+TD98 try? 1
+TD296 questioning: ["dents", "#5"]
+TD342 #5 ____S ~ENT -ACGILOPRSU  📋 "dents" ? ␅
+TD2455048 ␆/it
+TD81 #5 ____S ~ENT -ACGILOPRSU  📋 "dents" ? /it
+TD189 attempt 4 DENTS Y Y Y Y Y
+TD170 ? ␅
+TD1991833 ␆
+TD98 ? 
+TD113 question done
+TD21630 📋> ␅
+TD3362625 ␆squareword.org 1549: 8 guesses
+TD118 📋> squareword.org 1549: 8 guesses
+TD37 📋> ␅
+TD33 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟨🟩🟩
+TD2 📋> 🟩🟩🟨🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟨🟩🟨🟨
+TD2 📋> 🟩🟨🟩🟨🟨
+TD2 📋> ␅
+TD5 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD359159 ␆#squareword #squareword1549
+TD74 📋> #squareword #squareword1549
+TD8 📋> ␅
+TD151928 ␄
+TD129 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1549: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1549"}
+TD471 result: "squareword.org 1549: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1549"
+TD71 📆 2026-04-29 ? ␅
+TD135347 ␆
+TD94 📆 2026-04-29 ? 
