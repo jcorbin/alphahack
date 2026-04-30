@@ -1,0 +1,183 @@
+T110.40607621199888 now: 2026-04-30T07:45:42EDT
+TD75 site: dontwordle.com
+TD14 wordlist: nwl2023.txt
+TD24  ...␅
+TD2870943 ␆
+TD94  ...
+TD116 1> ␅
+TD903797 ␆*
+TD95 1> *
+TD202697 ? ␅
+TD1510464 ␄
+TD114 <EOF>
+TD76 1> ␅
+TD1910631 ␆* -bot 10
+TD94 1> * -bot 10
+TD145928 ? ␅
+TD5390286 ␆8
+TD97 ? 8
+TD251 📋 "hares" ? ␅
+TD4455711 ␆MMnnn
+TD93 📋 "hares" ? MMnnn
+TD580 tried: HARES m m n n n
+TD194 2> ␅
+TD1070885 ␆undo
+TD96 2> undo
+TD151 undo
+TD153 1> ␅
+TD3279611 ␆*
+TD78 1> *
+TD139537 ? ␅
+TD516165 ␆1
+TD98 ? 1
+TD248 📋 "yuppy" ? ␅
+TD4304030 ␆nnnnn
+TD97 📋 "yuppy" ? nnnnn
+TD208 tried: YUPPY n n n n n
+TD184 2> ␅
+TD6712094 ␆* :v [hares] -bot 10
+TD96 2> * :v [hares] -bot 10
+TD109421 ? ␅
+TD777917 ␆1
+TD110 ? 1
+TD232 📋 "tondi" ? ␅
+TD4055980 ␆nnnnn
+TD119 📋 "tondi" ? nnnnn
+TD228 tried: TONDI n n n n n
+TD140 3> ␅
+TD671335 ␆undo
+TD97 3> undo
+TD143 undo
+TD200 2> ␅
+TD3855701 ␆*
+TD135 2> *
+TD106033 ? ␅
+TD413785 ␆1
+TD99 ? 1
+TD243 📋 "emcee" ? ␅
+TD4727591 ␆nnMnn
+TD99 📋 "emcee" ? nnMnn
+TD203 tried: EMCEE n n m n n
+TD184 3> ␅
+TD615646 ␆undo
+TD114 3> undo
+TD143 undo
+TD180 2> ␅
+TD2527709 ␆*
+TD80 2> *
+TD109104 ? ␅
+TD482804 ␆1
+TD71 ? 1
+TD181 📋 "deked" ? ␅
+TD3712563 ␆nnMnn
+TD99 📋 "deked" ? nnMnn
+TD202 tried: DEKED n n m n n
+TD186 3> ␅
+TD614966 ␆undo
+TD98 3> undo
+TD134 undo
+TD204 2> ␅
+TD2551691 ␆*
+TD101 2> *
+TD101584 ? ␅
+TD314008 ␆1
+TD87 ? 1
+TD219 📋 "motto" ? ␅
+TD3719744 ␆nnnnn
+TD106 📋 "motto" ? nnnnn
+TD190 tried: MOTTO n n n n n
+TD168 3> ␅
+TD375717 ␆*
+TD95 3> *
+TD93572 ? ␅
+TD282009 ␆1
+TD96 ? 1
+TD223 📋 "innie" ? ␅
+TD6887769 ␆
+TD111 📋 "innie" ? 
+TD171 ? ␅
+TD863823 ␄
+TD133 <EOF>
+TD136 3> ␅
+TD479654 ␆*
+TD95 3> *
+TD93857 ? ␅
+TD834169 ␆2
+TD96 ? 2
+TD189 📋 "frere" ? ␅
+TD4599802 ␆nnnnn
+TD96 📋 "frere" ? nnnnn
+TD208 tried: FRERE n n n n n
+TD188 4> ␅
+TD495290 ␆*
+TD96 4> *
+TD92294 ? ␅
+TD667681 ␆1
+TD96 ? 1
+TD230 📋 "swiss" ? ␅
+TD4072044 ␆nnnnn
+TD95 📋 "swiss" ? nnnnn
+TD192 tried: SWISS n n n n n
+TD189 5> ␅
+TD655664 ␆*
+TD100 5> *
+TD185749 ? ␅
+TD1197830 ␆1
+TD96 ? 1
+TD234 📋 "addax" ? ␅
+TD4279929 ␆Mnnnn
+TD97 📋 "addax" ? Mnnnn
+TD189 tried: ADDAX m n n n n
+TD188 6> ␅
+TD423744 ␆*
+TD94 6> *
+TD188245 📋 "blank" ? ␅
+TD5123095 ␆nMYnY
+TD73 📋 "blank" ? nMYnY
+TD148 tried: BLANK n m Y n Y
+TD156 📋> ␅
+TD2800146 ␆Don't Wordle 1437 - SURVIVED
+TD77 📋> Don't Wordle 1437 - SURVIVED
+TD8 📋> ␅
+TD31 ␆Hooray! I didn't Wordle today!
+TD4 📋> Hooray! I didn't Wordle today!
+TD3 📋> ␅
+TD8 ␆⬜⬜⬜⬜⬜7572
+TD4 📋> ⬜⬜⬜⬜⬜7572
+TD3 📋> ␅
+TD7 ␆⬜⬜⬜⬜⬜3052
+TD2 📋> ⬜⬜⬜⬜⬜3052
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜704
+TD2 📋> ⬜⬜⬜⬜⬜704
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜80
+TD3 📋> ⬜⬜⬜⬜⬜80
+TD2 📋> ␅
+TD6 ␆🟨⬜⬜⬜⬜16
+TD2 📋> 🟨⬜⬜⬜⬜16
+TD2 📋> ␅
+TD6 ␆⬜🟨🟩⬜🟩1
+TD2 📋> ⬜🟨🟩⬜🟩1
+TD2 📋> ␅
+TD6 ␆Undos used: 4
+TD2 📋> Undos used: 4
+TD3 📋> ␅
+TD6 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆  1 words remaining
+TD2 📋>   1 words remaining
+TD2 📋> ␅
+TD5 ␆x 7 unused letters
+TD2 📋> x 7 unused letters
+TD2 📋> ␅
+TD247622 ␆= 7 total score
+TD99 📋> = 7 total score
+TD12 📋> ␅
+TD160022 ␄
+TD141 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1437 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3052\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c704\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c80\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c16\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"}
+TD789 result: "Don't Wordle 1437 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3052\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c704\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c80\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c16\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TD81 📆 2026-04-30 ? ␅
+TD159208 ␆
+TD102 📆 2026-04-30 ? 
