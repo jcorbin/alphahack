@@ -1,0 +1,94 @@
+T62.88490903100319 now: 2026-04-30T07:44:55EDT
+TD65 site: alphaguess.com
+TD121521 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 3862228ba91afade7e08de9bf2554d0e7184f85b
+TD112  ...␅
+TD93624 ␆
+TD64  ...
+TD114 [0 : 98216 : 196522] mach? ␅
+TD4815906 ␆a
+TD74 [0 : 98216 : 196522] mach? a
+TD80 progress: 1 98216 mach
+TD229 [98217 : 147366 : 196522] rhotic? ␅
+TD1391704 ␆a
+TD100 [98217 : 147366 : 196522] rhotic? a
+TD105 progress: 1 147366 rhotic
+TD105 [147367 : 171636 : 196522] ta? ␅
+TD4175916 ␆a
+TD99 [147367 : 171636 : 196522] ta? a
+TD104 progress: 1 171636 ta
+TD127 [171637 : 182000 : 196522] un? ␅
+TD1703548 ␆b
+TD95 [171637 : 182000 : 196522] un? b
+TD101 progress: -1 182000 un
+TD103 [171637 : 176813 : 182000] toilet? ␅
+TD1799772 ␆b
+TD101 [171637 : 176813 : 182000] toilet? b
+TD108 progress: -1 176813 toilet
+TD107 [171637 : 174185 : 176813] term? ␅
+TD1591761 ␆a
+TD92 [171637 : 174185 : 176813] term? a
+TD101 progress: 1 174185 term
+TD103 [174186 : 175493 : 176813] thrash? ␅
+TD1751830 ␆a
+TD100 [174186 : 175493 : 176813] thrash? a
+TD105 progress: 1 175493 thrash
+TD107 [175494 : 176142 : 176813] till? ␅
+TD1607330 ␆a
+TD102 [175494 : 176142 : 176813] till? a
+TD93 progress: 1 176142 till
+TD108 [176143 : 176477 : 176813] tire? ␅
+TD1527833 ␆a
+TD74 [176143 : 176477 : 176813] tire? a
+TD70 progress: 1 176477 tire
+TD87 [176478 : 176642 : 176813] tizz? ␅
+TD1448916 ␆a
+TD97 [176478 : 176642 : 176813] tizz? a
+TD106 progress: 1 176642 tizz
+TD107 [176643 : 176648 : 176813] to? ␅
+TD1510527 ␆a
+TD95 [176643 : 176648 : 176813] to? a
+TD104 progress: 1 176648 to
+TD108 [176649 : 176726 : 176813] tod? ␅
+TD1391980 ␆a
+TD99 [176649 : 176726 : 176813] tod? a
+TD105 progress: 1 176726 tod
+TD122 [176727 : 176768 : 176813] toff? ␅
+TD1551562 ␆a
+TD101 [176727 : 176768 : 176813] toff? a
+TD114 progress: 1 176768 toff
+TD111 [176769 : 176780 : 176813] tog? ␅
+TD2759776 ␆b
+TD80 [176769 : 176780 : 176813] tog? b
+TD81 progress: -1 176780 tog
+TD123 [176769 : 176774 : 176780] toft? ␅
+TD1543610 ␆a
+TD91 [176769 : 176774 : 176780] toft? a
+TD103 progress: 1 176774 toft
+TD160 [176775 : 176776 : 176780] tofu? ␅
+TD2183692 ␆it
+TD95 [176775 : 176776 : 176780] tofu? it
+TD106 progress: 0 176776 tofu
+TD27 [176775 : 176776 : 176780] <Done>.
+TD90 📋> ␅
+TD2528324 ␆🧩 Puzzle #1011
+TD109 📋> 🧩 Puzzle #1011
+TD13 📋> ␅
+TD38 ␆🤔 16 guesses
+TD7 📋> 🤔 16 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 27s
+TD6 📋> ⏱️ 27s
+TD5 📋> ␅
+TD271214 ␆🔗 alphaguess.com/1011
+TD90 📋> 🔗 alphaguess.com/1011
+TD11 📋> ␅
+TD2304878 ␄
+TD179 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1011\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 27s\n\ud83d\udd17 alphaguess.com/1011"}
+TD100 result: "\ud83e\udde9 Puzzle #1011\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 27s\n\ud83d\udd17 alphaguess.com/1011"
+TD15 result puzzle: 1011
+TD7 result guesses: 16
+TD5 result time: 27s
+TD5 result link: alphaguess.com/1011
+TD76 📆 2026-04-30 ? ␅
+TD359071 ␆
+TD85 📆 2026-04-30 ? 
