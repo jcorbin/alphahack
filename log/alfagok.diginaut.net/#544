@@ -1,0 +1,105 @@
+T2.0606106010018266 now: 2026-04-30T07:43:54EDT
+TD90 site: alfagok.diginaut.net
+TD349252 loaded 399601 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1251 words excluded) asof 3862228ba91afade7e08de9bf2554d0e7184f85b
+TD103  ...␅
+TD129662 ␆
+TD109  ...
+TD252 [0 : 199704 : 399601] lijk? ␅
+TD10671626 ␆
+TD101 [0 : 199704 : 399601] lijk? 
+TD142 [0 : 199704 : 399601] lijk? ␅
+TD2103958 ␆b
+TD101 [0 : 199704 : 399601] lijk? b
+TD338 progress: -1 199704 lijk
+TD132 [0 : 99736 : 199704] ex? ␅
+TD1815314 ␆b
+TD94 [0 : 99736 : 199704] ex? b
+TD115 progress: -1 99736 ex
+TD110 [0 : 49840 : 99736] boks? ␅
+TD6440001 ␆a
+TD103 [0 : 49840 : 99736] boks? a
+TD102 progress: 1 49840 boks
+TD139 [49841 : 74753 : 99736] dc? ␅
+TD2777113 ␆a
+TD82 [49841 : 74753 : 99736] dc? a
+TD84 progress: 1 74753 dc
+TD77 [74754 : 87212 : 99736] draag? ␅
+TD2845955 ␆a
+TD76 [74754 : 87212 : 99736] draag? a
+TD75 progress: 1 87212 draag
+TD79 [87213 : 93429 : 99736] eet? ␅
+TD2024294 ␆b
+TD82 [87213 : 93429 : 99736] eet? b
+TD80 progress: -1 93429 eet
+TD101 [87213 : 90062 : 93429] dubbel? ␅
+TD1639339 ␆b
+TD78 [87213 : 90062 : 93429] dubbel? b
+TD97 progress: -1 90062 dubbel
+TD109 [87213 : 88619 : 90062] drink? ␅
+TD1631718 ␆b
+TD99 [87213 : 88619 : 90062] drink? b
+TD107 progress: -1 88619 drink
+TD152 [87213 : 87910 : 88619] dreg? ␅
+TD1711881 ␆a
+TD102 [87213 : 87910 : 88619] dreg? a
+TD102 progress: 1 87910 dreg
+TD115 [87911 : 88137 : 88619] drie? ␅
+TD1623500 ␆a
+TD99 [87911 : 88137 : 88619] drie? a
+TD105 progress: 1 88137 drie
+TD104 [88138 : 88371 : 88619] driest? ␅
+TD1495878 ␆a
+TD105 [88138 : 88371 : 88619] driest? a
+TD99 progress: 1 88371 driest
+TD100 [88372 : 88489 : 88619] drift? ␅
+TD1783679 ␆a
+TD102 [88372 : 88489 : 88619] drift? a
+TD101 progress: 1 88489 drift
+TD111 [88490 : 88522 : 88619] drijf? ␅
+TD1511598 ␆a
+TD97 [88490 : 88522 : 88619] drijf? a
+TD105 progress: 1 88522 drijf
+TD180 [88523 : 88566 : 88619] drijft? ␅
+TD1440033 ␆a
+TD112 [88523 : 88566 : 88619] drijft? a
+TD105 progress: 1 88566 drijft
+TD101 [88567 : 88588 : 88619] dril? ␅
+TD2087773 ␆b
+TD99 [88567 : 88588 : 88619] dril? b
+TD101 progress: -1 88588 dril
+TD228 [88567 : 88577 : 88588] drijfwiel? ␅
+TD1535230 ␆a
+TD95 [88567 : 88577 : 88588] drijfwiel? a
+TD103 progress: 1 88577 drijfwiel
+TD275 [88578 : 88583 : 88588] drijver? ␅
+TD2703629 ␆b
+TD100 [88578 : 88583 : 88588] drijver? b
+TD125 progress: -1 88583 drijver
+TD193 [88578 : 88580 : 88583] drijven? ␅
+TD1847565 ␆it
+TD98 [88578 : 88580 : 88583] drijven? it
+TD116 progress: 0 88580 drijven
+TD25 [88578 : 88580 : 88583] <Done>.
+TD98 📋> ␅
+TD2544314 ␆🧩 Puzzel #544
+TD93 📋> 🧩 Puzzel #544
+TD16 📋> ␅
+TD40 ␆🤔 18 gokken
+TD6 📋> 🤔 18 gokken
+TD6 📋> ␅
+TD13 ␆⏱️ 37s
+TD7 📋> ⏱️ 37s
+TD5 📋> ␅
+TD239167 ␆🔗 alfagok.diginaut.net
+TD92 📋> 🔗 alfagok.diginaut.net
+TD11 📋> ␅
+TD127924 ␄
+TD179 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #544\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 37s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD517 result: "\ud83e\udde9 Puzzel #544\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 37s\n\ud83d\udd17 alfagok.diginaut.net"
+TD10 result puzzle: 544
+TD5 result guesses: 18
+TD3 result time: 37s
+TD2 result link: alfagok.diginaut.net
+TD61 📆 2026-04-30 ? ␅
+TD151072 ␆
+TD93 📆 2026-04-30 ? 
