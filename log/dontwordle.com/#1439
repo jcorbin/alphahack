@@ -1,0 +1,171 @@
+T288.77799933898496 now: 2026-05-02T08:05:51EDT
+TD158 site: dontwordle.com
+TD28 wordlist: nwl2023.txt
+TD45  ...␅
+TD2862751 ␆
+TD91  ...
+TD115 1> ␅
+TD5007788 ␆* -bot 10
+TD103 1> * -bot 10
+TD406243 ? ␅
+TD1001666 ␆1
+TD109 ? 1
+TD289 📋 "arose" ? ␅
+TD6287640 ␆nMnnn
+TD98 📋 "arose" ? nMnnn
+TD550 tried: AROSE n m n n n
+TD366 2> ␅
+TD1079098 ␆undo
+TD130 2> undo
+TD190 undo
+TD170 1> ␅
+TD6431528 ␆* :v [arose] -bot 10
+TD106 1> * :v [arose] -bot 10
+TD314188 ? ␅
+TD837775 ␆1
+TD98 ? 1
+TD250 📋 "linty" ? ␅
+TD4375510 ␆nnnnY
+TD129 📋 "linty" ? nnnnY
+TD247 tried: LINTY n n n n Y
+TD210 2> ␅
+TD783656 ␆undo
+TD111 2> undo
+TD175 undo
+TD163 1> ␅
+TD10831441 ␆* :v [aroselinty] -bot 10
+TD93 1> * :v [aroselinty] -bot 10
+TD156889 ? ␅
+TD899155 ␆1
+TD163 ? 1
+TD321 📋 "whump" ? ␅
+TD4103558 ␆nnMnn
+TD118 📋 "whump" ? nnMnn
+TD249 tried: WHUMP n n m n n
+TD230 2> ␅
+TD719414 ␆undo
+TD92 2> undo
+TD132 undo
+TD125 1> ␅
+TD2672107 ␆*
+TD121 1> *
+TD243240 ? ␅
+TD868104 ␆1
+TD107 ? 1
+TD254 📋 "egged" ? ␅
+TD4935693 ␆nnnnM
+TD96 📋 "egged" ? nnnnM
+TD196 tried: EGGED n n n n m
+TD180 2> ␅
+TD631517 ␆undo
+TD99 2> undo
+TD136 undo
+TD128 1> ␅
+TD2527742 ␆*
+TD98 1> *
+TD240303 ? ␅
+TD807537 ␆1
+TD142 ? 1
+TD329 📋 "innie" ? ␅
+TD2991546 ␆
+TD94 📋 "innie" ? 
+TD135 ? ␅
+TD7408149 ␄
+TD178 <EOF>
+TD159 1> ␅
+TD1487568 ␆*
+TD125 1> *
+TD252867 ? ␅
+TD818754 ␆1
+TD80 ? 1
+TD146 📋 "papaw" ? ␅
+TD4816001 ␆nnnnn
+TD102 📋 "papaw" ? nnnnn
+TD202 tried: PAPAW n n n n n
+TD172 2> ␅
+TD391591 ␆*
+TD144 2> *
+TD214772 ? ␅
+TD872881 ␆1
+TD109 ? 1
+TD278 📋 "sexes" ? ␅
+TD3847915 ␆nnnnn
+TD96 📋 "sexes" ? nnnnn
+TD205 tried: SEXES n n n n n
+TD172 3> ␅
+TD447387 ␆*
+TD99 3> *
+TD185222 ? ␅
+TD774645 ␆1
+TD97 ? 1
+TD230 📋 "onion" ? ␅
+TD3727800 ␆nnnnn
+TD95 📋 "onion" ? nnnnn
+TD202 tried: ONION n n n n n
+TD181 4> ␅
+TD831665 ␆*
+TD119 4> *
+TD416749 📋 "grrrl" ? ␅
+TD5847029 ␆nMnnn
+TD125 📋 "grrrl" ? nMnnn
+TD262 tried: GRRRL n m n n n
+TD240 5> ␅
+TD503344 ␆*
+TD141 5> *
+TD172700 📋 "rhumb" ? ␅
+TD4788259 ␆YnMnn
+TD101 📋 "rhumb" ? YnMnn
+TD175 tried: RHUMB Y n m n n
+TD176 6> ␅
+TD598463 ␆*
+TD85 6> *
+TD163191 📋 "rutty" ? ␅
+TD6532916 ␆YYnnY
+TD121 📋 "rutty" ? YYnnY
+TD227 tried: RUTTY Y Y n n Y
+TD231 📋> ␅
+TD3935736 ␆Don't Wordle 1439 - SURVIVED
+TD104 📋> Don't Wordle 1439 - SURVIVED
+TD11 📋> ␅
+TD44 ␆Hooray! I didn't Wordle today!
+TD3 📋> Hooray! I didn't Wordle today!
+TD2 📋> ␅
+TD7 ␆⬜⬜⬜⬜⬜5916
+TD3 📋> ⬜⬜⬜⬜⬜5916
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜1272
+TD2 📋> ⬜⬜⬜⬜⬜1272
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜152
+TD2 📋> ⬜⬜⬜⬜⬜152
+TD2 📋> ␅
+TD5 ␆⬜🟨⬜⬜⬜5
+TD2 📋> ⬜🟨⬜⬜⬜5
+TD2 📋> ␅
+TD5 ␆🟩⬜🟨⬜⬜2
+TD2 📋> 🟩⬜🟨⬜⬜2
+TD2 📋> ␅
+TD5 ␆🟩🟩⬜⬜🟩1
+TD2 📋> 🟩🟩⬜⬜🟩1
+TD2 📋> ␅
+TD5 ␆Undos used: 4
+TD2 📋> Undos used: 4
+TD3 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆  1 words remaining
+TD3 📋>   1 words remaining
+TD2 📋> ␅
+TD4 ␆x 8 unused letters
+TD3 📋> x 8 unused letters
+TD2 📋> ␅
+TD279356 ␆= 8 total score
+TD95 📋> = 8 total score
+TD7 📋> ␅
+TD184053 ␄
+TD199 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1439 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5916\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1272\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c152\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c5\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\u2b1c2\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"}
+TD1539 result: "Don't Wordle 1439 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5916\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1272\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c152\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c5\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\u2b1c2\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"
+TD122 📆 2026-05-02 ? ␅
+TD189986 ␆
+TD139 📆 2026-05-02 ? 
