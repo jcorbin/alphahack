@@ -1,0 +1,90 @@
+T17.55880933898152 now: 2026-05-02T08:01:20EDT
+TD125 site: alfagok.diginaut.net
+TD364542 loaded 399589 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1263 words excluded) asof 61ab769a8411a99a68adb5cf9dc110329d1a0e63
+TD109  ...␅
+TD88979324 ␆
+TD124  ...
+TD247 [0 : 199704 : 399589] lijk? ␅
+TD5375681 ␆a
+TD110 [0 : 199704 : 399589] lijk? a
+TD423 progress: 1 199704 lijk
+TD147 [199705 : 299460 : 399589] schro? ␅
+TD1591274 ␆a
+TD119 [199705 : 299460 : 399589] schro? a
+TD171 progress: 1 299460 schro
+TD155 [299461 : 349441 : 399589] vakantie? ␅
+TD1391548 ␆a
+TD93 [299461 : 349441 : 399589] vakantie? a
+TD111 progress: 1 349441 vakantie
+TD88 [349442 : 374181 : 399589] vrij? ␅
+TD1551747 ␆b
+TD119 [349442 : 374181 : 399589] vrij? b
+TD139 progress: -1 374181 vrij
+TD157 [349442 : 353009 : 374181] ver? ␅
+TD1511555 ␆a
+TD91 [349442 : 353009 : 374181] ver? a
+TD82 progress: 1 353009 ver
+TD137 [353010 : 363591 : 374181] verzot? ␅
+TD1367620 ␆a
+TD92 [353010 : 363591 : 374181] verzot? a
+TD94 progress: 1 363591 verzot
+TD79 [363592 : 368603 : 374181] voetbal? ␅
+TD1343794 ␆a
+TD90 [363592 : 368603 : 374181] voetbal? a
+TD87 progress: 1 368603 voetbal
+TD93 [368604 : 370452 : 374181] voor? ␅
+TD1480729 ␆b
+TD141 [368604 : 370452 : 374181] voor? b
+TD143 progress: -1 370452 voor
+TD138 [368604 : 369312 : 370452] vol? ␅
+TD3614761 ␆a
+TD125 [368604 : 369312 : 370452] vol? a
+TD132 progress: 1 369312 vol
+TD138 [369313 : 369590 : 370452] volks? ␅
+TD1599837 ␆b
+TD146 [369313 : 369590 : 370452] volks? b
+TD166 progress: -1 369590 volks
+TD159 [369313 : 369391 : 369590] volg? ␅
+TD1559462 ␆a
+TD114 [369313 : 369391 : 369590] volg? a
+TD110 progress: 1 369391 volg
+TD230 [369392 : 369491 : 369590] volgroeide? ␅
+TD1655288 ␆b
+TD110 [369392 : 369491 : 369590] volgroeide? b
+TD130 progress: -1 369491 volgroeide
+TD194 [369392 : 369440 : 369491] volger? ␅
+TD2647722 ␆b
+TD126 [369392 : 369440 : 369491] volger? b
+TD150 progress: -1 369440 volger
+TD401 [369392 : 369416 : 369440] volgeling? ␅
+TD1703252 ␆a
+TD127 [369392 : 369416 : 369440] volgeling? a
+TD151 progress: 1 369416 volgeling
+TD177 [369417 : 369423 : 369440] volgen? ␅
+TD1855915 ␆it
+TD121 [369417 : 369423 : 369440] volgen? it
+TD142 progress: 0 369423 volgen
+TD39 [369417 : 369423 : 369440] <Done>.
+TD136 📋> ␅
+TD2536578 ␆🧩 Puzzel #546
+TD138 📋> 🧩 Puzzel #546
+TD9 📋> ␅
+TD37 ␆🤔 15 gokken
+TD3 📋> 🤔 15 gokken
+TD4 📋> ␅
+TD6 ␆⏱️ 25s
+TD3 📋> ⏱️ 25s
+TD2 📋> ␅
+TD702633 ␆🔗 alfagok.diginaut.net
+TD110 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD263868 ␄
+TD244 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #546\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD971 result: "\ud83e\udde9 Puzzel #546\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"
+TD20 result puzzle: 546
+TD4 result guesses: 15
+TD2 result time: 25s
+TD2 result link: alfagok.diginaut.net
+TD75 📆 2026-05-02 ? ␅
+TD414708 ␆
+TD131 📆 2026-05-02 ? 
