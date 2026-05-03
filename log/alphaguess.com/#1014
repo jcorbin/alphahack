@@ -1,0 +1,74 @@
+T82598.242283353 now: 2026-05-03T09:32:24EDT
+TD65 site: alphaguess.com
+TD117481 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 44ca06c0fa213a5383ff07fe16bab194a7553e1e
+TD109  ...␅
+TD6121836 ␆
+TD61  ...
+TD107 [0 : 98216 : 196522] mach? ␅
+TD1935916 ␆a
+TD59 [0 : 98216 : 196522] mach? a
+TD69 progress: 1 98216 mach
+TD114 [98217 : 147366 : 196522] rhotic? ␅
+TD1375718 ␆a
+TD74 [98217 : 147366 : 196522] rhotic? a
+TD77 progress: 1 147366 rhotic
+TD72 [147367 : 171636 : 196522] ta? ␅
+TD2447736 ␆b
+TD71 [147367 : 171636 : 196522] ta? b
+TD74 progress: -1 171636 ta
+TD70 [147367 : 159483 : 171636] slop? ␅
+TD1367857 ␆a
+TD74 [147367 : 159483 : 171636] slop? a
+TD80 progress: 1 159483 slop
+TD76 [159484 : 165525 : 171636] stick? ␅
+TD1527678 ␆a
+TD68 [159484 : 165525 : 171636] stick? a
+TD75 progress: 1 165525 stick
+TD73 [165526 : 168577 : 171636] sue? ␅
+TD1487962 ␆vb
+TD66 [165526 : 168577 : 171636] sue? vb
+TD107 [165526 : 168577 : 171636] sue? ␅
+TD719658 ␆b
+TD74 [165526 : 168577 : 171636] sue? b
+TD77 progress: -1 168577 sue
+T5.792688963003457 now: 2026-05-03T09:33:16EDT
+TD177 [165526 : 167044 : 168577] stuff? ␅
+TD1762657 ␆b
+TD73 [165526 : 167044 : 168577] stuff? b
+TD246 progress: -1 167044 stuff
+TD133 [165526 : 166284 : 167044] straddle? ␅
+TD1799483 ␆a
+TD85 [165526 : 166284 : 167044] straddle? a
+TD102 progress: 1 166284 straddle
+TD91 [166285 : 166660 : 167044] stria? ␅
+TD1871925 ␆a
+TD82 [166285 : 166660 : 167044] stria? a
+TD81 progress: 1 166660 stria
+TD78 [166661 : 166846 : 167044] strong? ␅
+TD3055540 ␆it
+TD71 [166661 : 166846 : 167044] strong? it
+TD71 progress: 0 166846 strong
+TD16 [166661 : 166846 : 167044] <Done>.
+TD65 📋> ␅
+TD3520560 ␆🧩 Puzzle #1014
+TD95 📋> 🧩 Puzzle #1014
+TD16 📋> ␅
+TD44 ␆🤔 10 guesses
+TD7 📋> 🤔 10 guesses
+TD6 📋> ␅
+TD9 ␆⏱️ 50s
+TD3 📋> ⏱️ 50s
+TD2 📋> ␅
+TD295293 ␆🔗 alphaguess.com/1014
+TD80 📋> 🔗 alphaguess.com/1014
+TD8 📋> ␅
+TD127748 ␄
+TD140 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1014\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 50s\n\ud83d\udd17 alphaguess.com/1014"}
+TD366 result: "\ud83e\udde9 Puzzle #1014\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 50s\n\ud83d\udd17 alphaguess.com/1014"
+TD10 result puzzle: 1014
+TD4 result guesses: 10
+TD3 result time: 50s
+TD2 result link: alphaguess.com/1014
+TD63 📆 2026-05-03 ? ␅
+TD127471 ␆
+TD77 📆 2026-05-03 ? 
