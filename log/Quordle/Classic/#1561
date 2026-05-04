@@ -1,0 +1,157 @@
+T498.23571897798683 now: 2026-05-04T08:05:00EDT
+TD101 site: m-w.com/games/quordle/#/
+TD16 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD98  ...␅
+TD353018 ␆
+TD77  ...
+TD366527 > ␅
+TD13689625 ␆*
+TD74 > *
+TD31782 ? ␅
+TD1312293 ␆1
+TD94 ? 1
+TD181 questioning: saner
+TD162 Classic #1 _____? ␅
+TD6479779 ␆nnnMn
+TD96 Classic #1 _____? nnnMn
+TD380 attempt: 0 SANER n n n m n
+TD103 Classic #2 _____? ␅
+TD1471387 ␆nnnnn
+TD90 Classic #2 _____? nnnnn
+TD224 attempt: 1 SANER n n n n n
+TD107 Classic #3 _____? ␅
+TD2207537 ␆YnnYn
+TD73 Classic #3 _____? YnnYn
+TD148 attempt: 2 SANER Y n n Y n
+TD62 Classic #4 _____? ␅
+TD1255908 ␆nnYnn
+TD92 Classic #4 _____? nnYnn
+TD224 attempt: 3 SANER n n Y n n
+TD347450 > ␅
+TD2876240 ␆*
+TD82 > *
+TD3405 ? ␅
+TD2244525 ␆1
+TD84 ? 1
+TD150 questioning: choli
+TD117 Classic #1 _____ ~E -ANRS? ␅
+TD4375732 ␆nnnnM
+TD75 Classic #1 _____ ~E -ANRS? nnnnM
+TD205 attempt: 0 CHOLI n n n n m
+TD106 Classic #2 _____ -AENRS? ␅
+TD1247616 ␆nnnnM
+TD98 Classic #2 _____ -AENRS? nnnnM
+TD219 attempt: 1 CHOLI n n n n m
+TD112 Classic #3 S__E_ -ANR? ␅
+TD1807595 ␆nnnnn
+TD70 Classic #3 S__E_ -ANR? nnnnn
+TD134 attempt: 2 CHOLI n n n n n
+TD63 Classic #4 __N__ -AERS? ␅
+TD1984070 ␆nnMnM
+TD94 Classic #4 __N__ -AERS? nnMnM
+TD217 attempt: 3 CHOLI n n m n m
+TD344881 > ␅
+TD2622548 ␆*
+TD87 > *
+TD784 ? ␅
+TD2863240 ␆3
+TD75 ? 3
+TD126 questioning: wifty
+TD104 Classic #1 _____ ~EI -ACHLNORS? ␅
+TD2791863 ␆nMnnn
+TD79 Classic #1 _____ ~EI -ACHLNORS? nMnnn
+TD313 attempt: 0 WIFTY n m n n n
+TD76 Classic #2 _____ ~I -ACEHLNORS? ␅
+TD1551466 ␆nYYYY
+TD92 Classic #2 _____ ~I -ACEHLNORS? nYYYY
+TD211 attempt: 1 WIFTY n Y Y Y Y
+TD112 Classic #3 S__E_ -ACHILNOR? ␅
+TD1871621 ␆nnnMn
+TD77 Classic #3 S__E_ -ACHILNOR? nnnMn
+TD150 attempt: 2 WIFTY n n n m n
+TD70 Classic #4 __N__ ~IO -ACEHLRS? ␅
+TD1343689 ␆nYnYn
+TD78 Classic #4 __N__ ~IO -ACEHLRS? nYnYn
+TD161 attempt: 3 WIFTY n Y n Y n
+TD348253 > ␅
+TD827593 ␆*
+TD69 > *
+TD271 questioning: fifty
+TD77 Classic #1 _____ ~EI -ACFHLNORSTWY? ␅
+TD2911700 ␆nMnnn
+TD69 Classic #1 _____ ~EI -ACFHLNORSTWY? nMnnn
+TD123 attempt: 0 FIFTY n m n n n
+TD63 Classic #2 _IFTY -ACEHLNORSW? ␅
+TD1431679 ␆YYYYY
+TD69 Classic #2 _IFTY -ACEHLNORSW? YYYYY
+TD123 attempt: 1 FIFTY Y Y Y Y Y
+TD67 Classic #3 S__E_ ~T -ACFHILNORWY? ␅
+TD1191725 ␆nnnMn
+TD74 Classic #3 S__E_ ~T -ACFHILNORWY? nnnMn
+TD146 attempt: 2 FIFTY n n n m n
+TD75 Classic #4 _INT_ ~O -ACEFHLRSWY? ␅
+TD1519707 ␆nYnYn
+TD91 Classic #4 _INT_ ~O -ACEFHLRSWY? nYnYn
+TD150 attempt: 3 FIFTY n Y n Y n
+TD252305 > ␅
+TD715587 ␆*
+TD91 > *
+TD249 questioning: pinto
+TD66 Classic #1 _____ ~EI -ACFHLNORSTWY? ␅
+TD3135571 ␆nMnnn
+TD70 Classic #1 _____ ~EI -ACFHLNORSTWY? nMnnn
+TD136 attempt: 0 PINTO n m n n n
+TD66 Classic #3 S__E_ ~T -ACFHILNORWY? ␅
+TD2079761 ␆MnnMn
+TD67 Classic #3 S__E_ ~T -ACFHILNORWY? MnnMn
+TD133 attempt: 2 PINTO m n n m n
+TD67 Classic #4 _INT_ ~O -ACEFHLRSWY? ␅
+TD3487900 ␆YYYYY
+TD75 Classic #4 _INT_ ~O -ACEFHLRSWY? YYYYY
+TD146 attempt: 3 PINTO Y Y Y Y Y
+TD173477 > ␅
+TD898250 ␆*
+TD68 > *
+TD244 questioning: steep
+TD73 Classic #1 _____ ~EI -ACFHLNOPRSTWY? ␅
+TD3847683 ␆nnMnn
+TD88 Classic #1 _____ ~EI -ACFHLNOPRSTWY? nnMnn
+TD145 attempt: 0 STEEP n n m n n
+TD82 Classic #3 S__E_ ~PT -ACFHILNORWY? ␅
+TD1415708 ␆YYYYY
+TD71 Classic #3 S__E_ ~PT -ACFHILNORWY? YYYYY
+TD131 attempt: 2 STEEP Y Y Y Y Y
+TD103637 > ␅
+TD904149 ␆*
+TD70 > *
+TD423 ? ␅
+TD2431999 ␆2
+TD76 ? 2
+TD131 questioning: imbue
+TD104 Classic #1 _____ ~EI -ACFHLNOPRSTWY E:1? ␅
+TD3191355 ␆YYYYY
+TD69 Classic #1 _____ ~EI -ACFHLNOPRSTWY E:1? YYYYY
+TD178 attempt: 0 IMBUE Y Y Y Y Y
+TD69 📋> ␅
+TD9717175 ␆🙂 Daily Quordle 1561
+TD74 📋> 🙂 Daily Quordle 1561
+TD7 📋> ␅
+TD36 ␆7️⃣4️⃣
+TD4 📋> 7️⃣4️⃣
+TD4 📋> ␅
+TD6 ␆6️⃣5️⃣
+TD3 📋> 6️⃣5️⃣
+TD2 📋> ␅
+TD5 ␆m-w.com/games/quordle/
+TD3 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD298646 ␆
+TD99 📋> 
+TD14 📋> ␅
+TD223895 ␄
+TD130 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1561\n7\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1289 result: "\ud83d\ude42 Daily Quordle 1561\n7\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD83 📆 2026-05-04 ? ␅
+TD262365 ␆
+TD79 📆 2026-05-04 ? 
