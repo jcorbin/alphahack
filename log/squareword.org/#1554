@@ -1,0 +1,212 @@
+T830.1002714249771 now: 2026-05-04T08:10:31EDT
+TD74 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD26  ...␅
+TD614903 ␆
+TD69  ...
+TD50 🧩  ? ␅
+TD5464021 ␆#1554
+TD75 🧩  ? #1554
+TD193 puzzle_id: #1554
+TD188 > ␅
+TD44192360 ␆*
+TD106 > *
+TD218840 try? ␅
+TD805141 ␆1
+TD93 try? 1
+TD296 questioning: ["caste", "#5"]
+TD314 #1 <IndexError>  📋 "caste" ? ␅
+TD4183244 ␆_____ ~ AS
+TD73 #1 <IndexError>  📋 "caste" ? _____ ~ AS
+TD439 attempt 0 CASTE n m m n n
+TD85 #2 <IndexError>  📋 "caste" ? ␅
+TD2263424 ␆_____ ~ ATE
+TD78 #2 <IndexError>  📋 "caste" ? _____ ~ ATE
+TD212 attempt 1 CASTE n m n m m
+TD80 #3 <IndexError>  📋 "caste" ? ␅
+TD1551637 ␆_____ ~ A
+TD67 #3 <IndexError>  📋 "caste" ? _____ ~ A
+TD149 attempt 2 CASTE n m n n n
+TD71 #4 <IndexError>  📋 "caste" ? ␅
+TD2128002 ␆_____ ~ CTE
+TD74 #4 <IndexError>  📋 "caste" ? _____ ~ CTE
+TD168 attempt 3 CASTE m n n m m
+TD83 #5 <IndexError>  📋 "caste" ? ␅
+TD2543519 ␆_____ ~ AE
+TD94 #5 <IndexError>  📋 "caste" ? _____ ~ AE
+TD245 attempt 4 CASTE n m n n m
+TD347 ? ␅
+TD1127304 ␆
+TD77 ? 
+TD112 question done
+TD181 > ␅
+TD11096452 ␆*
+TD80 > *
+TD520007 try? ␅
+TD864410 ␆1
+TD109 try? 1
+TD313 questioning: ["ethic", "#4"]
+TD331 #1 _____ ~AS -CET  📋 "ethic" ? ␅
+TD3038262 ␆.
+TD104 #1 _____ ~AS -CET  📋 "ethic" ? .
+TD276 attempt 0 ETHIC n n n n n
+TD96 #2 _____ ~AET -CS  📋 "ethic" ? ␅
+TD2343723 ␆E____ ~ AT
+TD114 #2 _____ ~AET -CS  📋 "ethic" ? E____ ~ AT
+TD271 attempt 1 ETHIC Y m n n n
+TD134 #3 _____ ~A -CEST  📋 "ethic" ? ␅
+TD2759235 ␆_____ ~ AI
+TD69 #3 _____ ~A -CEST  📋 "ethic" ? _____ ~ AI
+TD162 attempt 2 ETHIC n n n m n
+TD83 #4 _____ ~CET -AS  📋 "ethic" ? ␅
+TD3567826 ␆E____ ~ CTI
+TD75 #4 _____ ~CET -AS  📋 "ethic" ? E____ ~ CTI
+TD170 attempt 3 ETHIC Y m n m m
+TD95 #5 _____ ~AE -CST  📋 "ethic" ? ␅
+TD1231802 ␆.
+TD82 #5 _____ ~AE -CST  📋 "ethic" ? .
+TD212 attempt 4 ETHIC m n n n n
+TD171 ? ␅
+TD183502 ␆
+TD94 ? 
+TD113 question done
+TD302 > ␅
+TD471537 ␆*
+TD71 > *
+TD561377 try? ␅
+TD3302450 ␆1
+TD68 try? 1
+TD204 questioning: ["edict", "#4"]
+TD339 #1 _____ ~AS -CEHIT  📋 "edict" ? ␅
+TD3239693 ␆.
+TD79 #1 _____ ~AS -CEHIT  📋 "edict" ? .
+TD193 attempt 0 EDICT n n n n n
+TD70 #2 E____ ~AT -CHIS  📋 "edict" ? ␅
+TD1479428 ␆.
+TD70 #2 E____ ~AT -CHIS  📋 "edict" ? .
+TD185 attempt 1 EDICT Y n n n m
+TD61 #3 _____ ~AI -CEHST  📋 "edict" ? ␅
+TD943714 ␆.
+TD73 #3 _____ ~AI -CEHST  📋 "edict" ? .
+TD185 attempt 2 EDICT n n m n n
+TD64 #4 E____ ~CIT -AHS  📋 "edict" ? ␅
+TD1007645 ␆/it
+TD91 #4 E____ ~CIT -AHS  📋 "edict" ? /it
+TD257 attempt 3 EDICT Y Y Y Y Y
+TD95 #5 _____ ~AE -CHIST  📋 "edict" ? ␅
+TD799819 ␆.
+TD78 #5 _____ ~AE -CHIST  📋 "edict" ? .
+TD192 attempt 4 EDICT m n n n n
+TD177 ? ␅
+TD191369 ␆
+TD97 ? 
+TD110 question done
+TD318 > ␅
+TD584145 ␆*
+TD83 > *
+TD704852 questioning: ["extra", "#2"]
+TD211 #1 _____ ~AS -CDEHIT  📋 "extra" ? ␅
+TD9814476 ␆.
+TD87 #1 _____ ~AS -CDEHIT  📋 "extra" ? .
+TD191 attempt 0 EXTRA n n n n m
+TD64 #2 E____ ~AT -CDHIS  📋 "extra" ? ␅
+TD631423 ␆/it
+TD74 #2 E____ ~AT -CDHIS  📋 "extra" ? /it
+TD180 attempt 1 EXTRA Y Y Y Y Y
+TD63 #3 _____ ~AI -CDEHST  📋 "extra" ? ␅
+TD3863945 ␆_____ ~ AIR
+TD75 #3 _____ ~AI -CDEHST  📋 "extra" ? _____ ~ AIR
+TD183 attempt 2 EXTRA n n n m m
+TD104 #5 _____ ~AE -CDHIST  📋 "extra" ? ␅
+TD815656 ␆.
+TD94 #5 _____ ~AE -CDHIST  📋 "extra" ? .
+TD192 attempt 4 EXTRA m n n n m
+TD185 ? ␅
+TD175444 ␆
+TD99 ? 
+TD112 question done
+TD324 > ␅
+TD487441 ␆*
+TD76 > *
+TD845104 questioning: ["viral", "#3"]
+TD184 #1 _____ ~AS -CDEHIRTX  📋 "viral" ? ␅
+TD5026742 ␆_____ ~ ASL
+TD69 #1 _____ ~AS -CDEHIRTX  📋 "viral" ? _____ ~ ASL
+TD153 attempt 0 VIRAL n n n m m
+TD93 #3 _____ ~AIR -CDEHSTX  📋 "viral" ? ␅
+TD623773 ␆/it
+TD69 #3 _____ ~AIR -CDEHSTX  📋 "viral" ? /it
+TD159 attempt 2 VIRAL Y Y Y Y Y
+TD54 #5 _____ ~AE -CDHIRSTX  📋 "viral" ? ␅
+TD4199854 ␆_____ ~ AEL
+TD76 #5 _____ ~AE -CDHIRSTX  📋 "viral" ? _____ ~ AEL
+TD167 attempt 4 VIRAL n n n m m
+TD181 ? ␅
+TD335538 ␆
+TD78 ? 
+TD90 question done
+TD386 > ␅
+TD647388 ␆*
+TD75 > *
+TD1546261 questioning: ["loafs", "#1"]
+TD197 #1 _____ ~ALS -CDEHIRTVX  📋 "loafs" ? ␅
+TD2797432 ␆/it
+TD70 #1 _____ ~ALS -CDEHIRTVX  📋 "loafs" ? /it
+TD165 attempt 0 LOAFS Y Y Y Y Y
+TD61 #5 _____ ~AEL -CDHIRSTVX  📋 "loafs" ? ␅
+TD4128013 ␆L_A__ ~ E
+TD77 #5 _____ ~AEL -CDHIRSTVX  📋 "loafs" ? L_A__ ~ E
+TD164 attempt 4 LOAFS Y n Y n n
+TD171 ? ␅
+TD415398 ␆
+TD70 ? 
+TD81 question done
+TD155 > ␅
+TD767802 ␆*
+TD64 > *
+TD899898 questioning: ["leaky", "#5"]
+TD184 #5 L_A__ ~E -CDFHIORSTVX  📋 "leaky" ? ␅
+TD3307715 ␆/it
+TD68 #5 L_A__ ~E -CDFHIORSTVX  📋 "leaky" ? /it
+TD171 attempt 4 LEAKY Y Y Y Y Y
+TD126 ? ␅
+TD975739 ␆
+TD94 ? 
+TD117 question done
+TD16735 📋> ␅
+TD4567430 ␆squareword.org 1554: 7 guesses
+TD72 📋> squareword.org 1554: 7 guesses
+TD8 📋> ␅
+TD31 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD8 ␆🟨🟨🟨🟨🟨
+TD3 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD271613 ␆#squareword #squareword1554
+TD66 📋> #squareword #squareword1554
+TD7 📋> ␅
+TD183995 ␄
+TD222 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1554: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1554"}
+TD732 result: "squareword.org 1554: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1554"
+TD61 📆 2026-05-04 ? ␅
+TD246929 ␆
+TD74 📆 2026-05-04 ? 
