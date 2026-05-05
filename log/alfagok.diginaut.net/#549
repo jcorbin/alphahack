@@ -1,0 +1,105 @@
+T20.61071630800143 now: 2026-05-05T07:55:27EDT
+TD83 site: alfagok.diginaut.net
+TD389490 loaded 399580 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1272 words excluded) asof 150de67f3acee9645aa890a54bce15728b803676
+TD113  ...␅
+TD6153771 ␆
+TD95  ...
+TD218 [0 : 199695 : 399580] lijk? ␅
+TD2783575 ␆a
+TD100 [0 : 199695 : 399580] lijk? a
+TD248 progress: 1 199695 lijk
+TD92 [199696 : 299451 : 399580] schro? ␅
+TD1567673 ␆b
+TD112 [199696 : 299451 : 399580] schro? b
+TD97 progress: -1 299451 schro
+TD87 [199696 : 247667 : 299451] op? ␅
+TD1575501 ␆b
+TD75 [199696 : 247667 : 299451] op? b
+TD84 progress: -1 247667 op
+TD81 [199696 : 223673 : 247667] molens? ␅
+TD1335968 ␆a
+TD94 [199696 : 223673 : 247667] molens? a
+TD107 progress: 1 223673 molens
+TD138 [223674 : 235668 : 247667] oda? ␅
+TD1831668 ␆!
+TD93 [223674 : 235668 : 247667] oda? !
+TD422 [223674 : 235668 : 247666] odalisk? ␅
+TD1823485 ␆a
+TD96 [223674 : 235668 : 247666] odalisk? a
+TD108 progress: 1 235668 odalisk
+TD123 [235669 : 238724 : 247666] on? ␅
+TD2007740 ␆a
+TD87 [235669 : 238724 : 247666] on? a
+TD104 progress: 1 238724 on
+TD171 [238725 : 243194 : 247666] onroerend? ␅
+TD1439553 ␆a
+TD94 [238725 : 243194 : 247666] onroerend? a
+TD103 progress: 1 243194 onroerend
+TD131 [243195 : 245411 : 247666] ontwikkeling? ␅
+TD1463708 ␆b
+TD88 [243195 : 245411 : 247666] ontwikkeling? b
+TD107 progress: -1 245411 ontwikkeling
+TD125 [243195 : 243354 : 245411] ont? ␅
+TD1823664 ␆a
+TD77 [243195 : 243354 : 245411] ont? a
+TD79 progress: 1 243354 ont
+TD109 [243355 : 244374 : 245411] ontraad? ␅
+TD1375694 ␆a
+TD75 [243355 : 244374 : 245411] ontraad? a
+TD77 progress: 1 244374 ontraad
+TD162 [244375 : 244892 : 245411] onttakeld? ␅
+TD1592112 ␆b
+TD94 [244375 : 244892 : 245411] onttakeld? b
+TD108 progress: -1 244892 onttakeld
+TD159 [244375 : 244631 : 244892] ontsluier? ␅
+TD5439395 ␆a
+TD91 [244375 : 244631 : 244892] ontsluier? a
+TD108 progress: 1 244631 ontsluier
+TD232 [244632 : 244759 : 244892] ontspring? ␅
+TD2031662 ␆b
+TD94 [244632 : 244759 : 244892] ontspring? b
+TD107 progress: -1 244759 ontspring
+TD155 [244632 : 244673 : 244759] ontsnap? ␅
+TD1551536 ␆a
+TD98 [244632 : 244673 : 244759] ontsnap? a
+TD108 progress: 1 244673 ontsnap
+TD114 [244674 : 244702 : 244759] ontspan? ␅
+TD1655693 ␆b
+TD93 [244674 : 244702 : 244759] ontspan? b
+TD104 progress: -1 244702 ontspan
+TD112 [244674 : 244676 : 244702] ontsnapping? ␅
+TD1511885 ␆b
+TD80 [244674 : 244676 : 244702] ontsnapping? b
+TD84 progress: -1 244676 ontsnapping
+TD132 [244674 : 244675 : 244676] ontsnappende? ␅
+TD1471540 ␆b
+TD102 [244674 : 244675 : 244676] ontsnappende? b
+TD116 progress: -1 244675 ontsnappende
+TD218 [244674 : 244674 : 244675] ontsnappen? ␅
+TD1687644 ␆it
+TD97 [244674 : 244674 : 244675] ontsnappen? it
+TD109 progress: 0 244674 ontsnappen
+TD26 [244674 : 244674 : 244675] <Done>.
+TD99 📋> ␅
+TD2584156 ␆🧩 Puzzel #549
+TD71 📋> 🧩 Puzzel #549
+TD8 📋> ␅
+TD28 ␆🤔 18 gokken
+TD3 📋> 🤔 18 gokken
+TD3 📋> ␅
+TD7 ␆⏱️ 33s
+TD3 📋> ⏱️ 33s
+TD5 📋> ␅
+TD239384 ␆🔗 alfagok.diginaut.net
+TD71 📋> 🔗 alfagok.diginaut.net
+TD8 📋> ␅
+TD176009 ␄
+TD132 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #549\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD374 result: "\ud83e\udde9 Puzzel #549\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"
+TD12 result puzzle: 549
+TD9 result guesses: 18
+TD3 result time: 33s
+TD2 result link: alfagok.diginaut.net
+TD62 📆 2026-05-05 ? ␅
+TD111193 ␆
+TD48 📆 2026-05-05 ? 
