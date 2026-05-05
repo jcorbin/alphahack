@@ -1,0 +1,70 @@
+T73.51546578299894 now: 2026-05-05T07:56:20EDT
+TD85 site: alphaguess.com
+TD153103 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 150de67f3acee9645aa890a54bce15728b803676
+TD118  ...␅
+TD165902 ␆
+TD75  ...
+TD163 [0 : 98216 : 196522] mach? ␅
+TD3895761 ␆b
+TD91 [0 : 98216 : 196522] mach? b
+TD107 progress: -1 98216 mach
+TD113 [0 : 47380 : 98216] dis? ␅
+TD1431677 ␆b
+TD93 [0 : 47380 : 98216] dis? b
+TD103 progress: -1 47380 dis
+TD85 [0 : 23681 : 47380] camp? ␅
+TD1391723 ␆b
+TD74 [0 : 23681 : 47380] camp? b
+TD81 progress: -1 23681 camp
+TD76 [0 : 11763 : 23681] back? ␅
+TD1463812 ␆a
+TD70 [0 : 11763 : 23681] back? a
+TD82 progress: 1 11763 back
+TD74 [11764 : 17714 : 23681] blind? ␅
+TD4135894 ␆a
+TD93 [11764 : 17714 : 23681] blind? a
+TD107 progress: 1 17714 blind
+TD145 [17715 : 20686 : 23681] brill? ␅
+TD1823616 ␆a
+TD95 [17715 : 20686 : 23681] brill? a
+TD105 progress: 1 20686 brill
+TD136 [20687 : 22026 : 23681] bur? ␅
+TD1671514 ␆a
+TD77 [20687 : 22026 : 23681] bur? a
+TD87 progress: 1 22026 bur
+TD225 [22027 : 22854 : 23681] cachalot? ␅
+TD1351786 ␆a
+TD95 [22027 : 22854 : 23681] cachalot? a
+TD105 progress: 1 22854 cachalot
+TD547 [22855 : 23266 : 23681] calculation? ␅
+TD1543115 ␆b
+TD95 [22855 : 23266 : 23681] calculation? b
+TD106 progress: -1 23266 calculation
+TD182 [22855 : 23048 : 23266] cage? ␅
+TD2255693 ␆it
+TD94 [22855 : 23048 : 23266] cage? it
+TD104 progress: 0 23048 cage
+TD26 [22855 : 23048 : 23266] <Done>.
+TD86 📋> ␅
+TD2632243 ␆🧩 Puzzle #1016
+TD79 📋> 🧩 Puzzle #1016
+TD7 📋> ␅
+TD29 ␆🤔 10 guesses
+TD4 📋> 🤔 10 guesses
+TD3 📋> ␅
+TD6 ␆⏱️ 16s
+TD3 📋> ⏱️ 16s
+TD2 📋> ␅
+TD295549 ␆🔗 alphaguess.com/1016
+TD76 📋> 🔗 alphaguess.com/1016
+TD12 📋> ␅
+TD151677 ␄
+TD94 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1016\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1016"}
+TD70 result: "\ud83e\udde9 Puzzle #1016\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1016"
+TD9 result puzzle: 1016
+TD3 result guesses: 10
+TD3 result time: 16s
+TD2 result link: alphaguess.com/1016
+TD63 📆 2026-05-05 ? ␅
+TD135842 ␆
+TD68 📆 2026-05-05 ? 
