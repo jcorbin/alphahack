@@ -1,0 +1,214 @@
+T223.10248806899472 now: 2026-05-05T08:07:28EDT
+TD86 site: squareword.org
+TD22 wordlist: nwl2023.txt
+TD27  ...␅
+TD294836 ␆
+TD114  ...
+TD85 🧩  ? ␅
+TD7952025 ␆#1555
+TD91 🧩  ? #1555
+TD279 puzzle_id: #1555
+TD298 > ␅
+TD1079172 ␆*
+TD76 > *
+TD217952 try? ␅
+TD854026 ␆1
+TD83 try? 1
+TD223 questioning: ["taser", "#5"]
+TD184 #1 <IndexError>  📋 "taser" ? ␅
+TD5487774 ␆_____ ~ ASER
+TD96 #1 <IndexError>  📋 "taser" ? _____ ~ ASER
+TD598 attempt 0 TASER n m m m m
+TD101 #2 <IndexError>  📋 "taser" ? ␅
+TD1231189 ␆_____
+TD95 #2 <IndexError>  📋 "taser" ? _____
+TD260 attempt 1 TASER n n n n n
+TD121 #3 <IndexError>  📋 "taser" ? ␅
+TD1719407 ␆_____ ~ A
+TD97 #3 <IndexError>  📋 "taser" ? _____ ~ A
+TD262 attempt 2 TASER n m n n n
+TD123 #4 <IndexError>  📋 "taser" ? ␅
+TD5495550 ␆_____ ~ E
+TD79 #4 <IndexError>  📋 "taser" ? _____ ~ E
+TD182 attempt 3 TASER n n n m n
+TD84 #5 <IndexError>  📋 "taser" ? ␅
+TD2511858 ␆__SE_ 
+TD96 #5 <IndexError>  📋 "taser" ? __SE_ 
+TD252 attempt 4 TASER n n Y Y n
+TD347 ? ␅
+TD4191245 ␆
+TD80 ? 
+TD111 question done
+TD188 > ␅
+TD647563 ␆*
+TD75 > *
+TD636680 try? ␅
+TD1763306 ␆2
+TD74 try? 2
+TD232 questioning: ["spare", "#1"]
+TD209 #1 _____ ~AERS -T  📋 "spare" ? ␅
+TD2303399 ␆/it
+TD78 #1 _____ ~AERS -T  📋 "spare" ? /it
+TD193 attempt 0 SPARE Y Y Y Y Y
+TD68 #2 _____ -AERST  📋 "spare" ? ␅
+TD1536323 ␆.
+TD99 #2 _____ -AERST  📋 "spare" ? .
+TD266 attempt 1 SPARE n n n n n
+TD95 #3 _____ ~A -ERST  📋 "spare" ? ␅
+TD823039 ␆.
+TD73 #3 _____ ~A -ERST  📋 "spare" ? .
+TD189 attempt 2 SPARE n n m n n
+TD63 #4 _____ ~E -ARST  📋 "spare" ? ␅
+TD2903749 ␆____E ~ E
+TD97 #4 _____ ~E -ARST  📋 "spare" ? ____E ~ E
+TD253 attempt 3 SPARE n n n n Y
+TD153 #5 __SE_ -ART  📋 "spare" ? ␅
+TD2863543 ␆.
+TD80 #5 __SE_ -ART  📋 "spare" ? .
+TD193 attempt 4 SPARE n n n n n
+TD183 ? ␅
+TD207401 ␆
+TD98 ? 
+TD118 question done
+TD308 > ␅
+TD447865 ␆*
+TD75 > *
+TD771326 try? ␅
+TD6476396 ␆3
+TD96 try? 3
+TD302 questioning: ["nosed", "#5"]
+TD353 #2 _____ -AEPRST  📋 "nosed" ? ␅
+TD4807434 ␆_O___ ~ NO
+TD71 #2 _____ -AEPRST  📋 "nosed" ? _O___ ~ NO
+TD193 attempt 1 NOSED m Y n n n
+TD104 #3 _____ ~A -EPRST  📋 "nosed" ? ␅
+TD2407594 ␆____D ~ AO
+TD96 #3 _____ ~A -EPRST  📋 "nosed" ? ____D ~ AO
+TD266 attempt 2 NOSED n m n n Y
+TD149 #4 ____E -APRST  📋 "nosed" ? ␅
+TD3303536 ␆____E ~ E
+TD94 #4 ____E -APRST  📋 "nosed" ? ____E ~ E
+TD260 attempt 3 NOSED n n n m n
+TD146 #5 __SE_ -AEPRST  📋 "nosed" ? ␅
+TD3751579 ␆_OSED ~ D
+TD107 #5 __SE_ -AEPRST  📋 "nosed" ? _OSED ~ D
+TD253 attempt 4 NOSED n Y Y Y Y
+TD248 ? ␅
+TD263382 ␆
+TD105 ? 
+TD138 question done
+TD281 > ␅
+TD439342 ␆*
+TD97 > *
+TD516482 try? ␅
+TD1851447 ␆1
+TD70 try? 1
+TD214 questioning: ["aloud", "#3"]
+TD208 #2 _O___ ~N -ADEPRST  📋 "aloud" ? ␅
+TD4791681 ␆_O___ ~ NOL
+TD82 #2 _O___ ~N -ADEPRST  📋 "aloud" ? _O___ ~ NOL
+TD184 attempt 1 ALOUD n m m n n
+TD102 #3 ____D ~AO -ENPRST  📋 "aloud" ? ␅
+TD711423 ␆/it
+TD79 #3 ____D ~AO -ENPRST  📋 "aloud" ? /it
+TD222 attempt 2 ALOUD Y Y Y Y Y
+TD94 #4 ____E -ADNOPRST  📋 "aloud" ? ␅
+TD3191797 ␆____E ~ EL
+TD81 #4 ____E -ADNOPRST  📋 "aloud" ? ____E ~ EL
+TD183 attempt 3 ALOUD n m n n n
+TD96 #5 _OSED -ANPRT  📋 "aloud" ? ␅
+TD4111640 ␆_OSED ~ D
+TD102 #5 _OSED -ANPRT  📋 "aloud" ? _OSED ~ D
+TD254 attempt 4 ALOUD n n n n Y
+TD348 ? ␅
+TD415750 ␆
+TD75 ? 
+TD97 question done
+TD193 > ␅
+TD687154 ␆*
+TD100 > *
+TD1413583 try? ␅
+TD2306383 ␆1
+TD77 try? 1
+TD218 questioning: ["colon", "#2"]
+TD210 #2 _O___ ~LN -ADEPRSTU  📋 "colon" ? ␅
+TD2119493 ␆/it
+TD85 #2 _O___ ~LN -ADEPRSTU  📋 "colon" ? /it
+TD187 attempt 1 COLON Y Y Y Y Y
+TD69 #4 ____E ~L -ADNOPRSTU  📋 "colon" ? ␅
+TD2631723 ␆____E ~ EL
+TD116 #4 ____E ~L -ADNOPRSTU  📋 "colon" ? ____E ~ EL
+TD250 attempt 3 COLON n n m n n
+TD150 #5 _OSED -ALNOPRTU  📋 "colon" ? ␅
+TD2639553 ␆_OSED ~ D
+TD94 #5 _OSED -ALNOPRTU  📋 "colon" ? _OSED ~ D
+TD238 attempt 4 COLON n Y n n n
+TD342 ? ␅
+TD207284 ␆
+TD75 ? 
+TD88 question done
+TD180 > ␅
+TD439689 ␆*
+TD101 > *
+TD1451566 questioning: ["liege", "#4"]
+TD190 #4 ____E ~L -ACDNOPRSTU  📋 "liege" ? ␅
+TD3212203 ␆/it
+TD95 #4 ____E ~L -ACDNOPRSTU  📋 "liege" ? /it
+TD243 attempt 3 LIEGE Y Y Y Y Y
+TD94 #5 _OSED -ACLNPRTU  📋 "liege" ? ␅
+TD2863747 ␆_OSED ~ D
+TD77 #5 _OSED -ACLNPRTU  📋 "liege" ? _OSED ~ D
+TD183 attempt 4 LIEGE n n n n n
+TD212 ? ␅
+TD455341 ␆
+TD97 ? 
+TD125 question done
+TD304 > ␅
+TD479626 ␆*
+TD92 > *
+TD1076130 questioning: ["dosed", "#5"]
+TD186 #5 _OSED -ACEGILNPRTU  📋 "dosed" ? ␅
+TD2363549 ␆/it
+TD94 #5 _OSED -ACEGILNPRTU  📋 "dosed" ? /it
+TD243 attempt 4 DOSED Y Y Y Y Y
+TD289 ? ␅
+TD1255385 ␆
+TD77 ? 
+TD84 question done
+TD22281 📋> ␅
+TD3633776 ␆squareword.org 1555: 7 guesses
+TD70 📋> squareword.org 1555: 7 guesses
+TD8 📋> ␅
+TD30 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD5 ␆🟨🟩🟩🟩🟩
+TD2 📋> 🟨🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD287697 ␆#squareword #squareword1555
+TD92 📋> #squareword #squareword1555
+TD13 📋> ␅
+TD111885 ␄
+TD133 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1555: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1555"}
+TD790 result: "squareword.org 1555: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1555"
+TD68 📆 2026-05-05 ? ␅
+TD159044 ␆
+TD76 📆 2026-05-05 ? 
