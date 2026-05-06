@@ -1,0 +1,87 @@
+T86303.10022806401 now: 2026-05-06T08:02:08EDT
+TD142 site: alphaguess.com
+TD405387 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 66036bc67680d8e4af6faa1a7be59d2c7a1abd0b
+TD184  ...␅
+TD3105215 ␆
+TD108  ...
+TD192 [0 : 98216 : 196522] mach? ␅
+TD2127618 ␆a
+TD104 [0 : 98216 : 196522] mach? a
+TD255 progress: 1 98216 mach
+TD278 [98217 : 147366 : 196522] rhotic? ␅
+TD1671543 ␆b
+TD142 [98217 : 147366 : 196522] rhotic? b
+TD145 progress: -1 147366 rhotic
+TD140 [98217 : 122777 : 147366] parr? ␅
+TD1447462 ␆a
+TD140 [98217 : 122777 : 147366] parr? a
+TD154 progress: 1 122777 parr
+TD152 [122778 : 135068 : 147366] proper? ␅
+TD1511493 ␆b
+TD133 [122778 : 135068 : 147366] proper? b
+TD127 progress: -1 135068 proper
+TD141 [122778 : 128846 : 135068] play? ␅
+TD1383664 ␆a
+TD122 [122778 : 128846 : 135068] play? a
+TD141 progress: 1 128846 play
+TD345 [128847 : 131956 : 135068] prearm? ␅
+TD1439436 ␆b
+TD128 [128847 : 131956 : 135068] prearm? b
+TD125 progress: -1 131956 prearm
+TD134 [128847 : 130060 : 131956] poly? ␅
+TD1343649 ␆a
+TD125 [128847 : 130060 : 131956] poly? a
+TD126 progress: 1 130060 poly
+TD129 [130061 : 130928 : 131956] pos? ␅
+TD1591741 ␆a
+TD122 [130061 : 130928 : 131956] pos? a
+TD133 progress: 1 130928 pos
+TD140 [130929 : 131368 : 131956] pot? ␅
+TD1311398 ␆a
+TD118 [130929 : 131368 : 131956] pot? a
+TD119 progress: 1 131368 pot
+TD161 [131369 : 131615 : 131956] pow? ␅
+TD1383710 ␆b
+TD131 [131369 : 131615 : 131956] pow? b
+TD116 progress: -1 131615 pow
+TD126 [131369 : 131486 : 131615] pots? ␅
+TD1255810 ␆a
+TD105 [131369 : 131486 : 131615] pots? a
+TD112 progress: 1 131486 pots
+TD107 [131487 : 131548 : 131615] poult? ␅
+TD1335777 ␆b
+TD98 [131487 : 131548 : 131615] poult? b
+TD105 progress: -1 131548 poult
+TD290 [131487 : 131517 : 131548] pottiest? ␅
+TD1623175 ␆a
+TD95 [131487 : 131517 : 131548] pottiest? a
+TD100 progress: 1 131517 pottiest
+T14.621706867998 now: 2026-05-06T08:02:57EDT
+TD169 [131518 : 131528 : 131548] pouch? ␅
+TD1210981 ␆it
+TD102 [131518 : 131528 : 131548] pouch? it
+TD324 progress: 0 131528 pouch
+TD29 [131518 : 131528 : 131548] <Done>.
+TD104 📋> ␅
+TD2687755 ␆🧩 Puzzle #1017
+TD79 📋> 🧩 Puzzle #1017
+TD10 📋> ␅
+TD29 ␆🤔 14 guesses
+TD4 📋> 🤔 14 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 18s
+TD3 📋> ⏱️ 18s
+TD2 📋> ␅
+TD279868 ␆🔗 alphaguess.com/1017
+TD89 📋> 🔗 alphaguess.com/1017
+TD11 📋> ␅
+TD151709 ␄
+TD172 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1017\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1017"}
+TD526 result: "\ud83e\udde9 Puzzle #1017\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1017"
+TD12 result puzzle: 1017
+TD5 result guesses: 14
+TD3 result time: 18s
+TD3 result link: alphaguess.com/1017
+TD87 📆 2026-05-06 ? ␅
+TD207229 ␆
+TD81 📆 2026-05-06 ? 
