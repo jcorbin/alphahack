@@ -1,0 +1,90 @@
+T86217.171869772 now: 2026-05-06T08:00:42EDT
+TD120 site: alfagok.diginaut.net
+TD555719 loaded 399576 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1276 words excluded) asof 66036bc67680d8e4af6faa1a7be59d2c7a1abd0b
+TD123  ...␅
+TD3562153 ␆
+TD85  ...
+TD4840 [0 : 199695 : 399576] lijk? ␅
+TD4186982 ␆b
+TD79 [0 : 199695 : 399576] lijk? b
+TD832 progress: -1 199695 lijk
+TD140 [0 : 99727 : 199695] ex? ␅
+TD1750948 ␆b
+TD76 [0 : 99727 : 199695] ex? b
+TD136 progress: -1 99727 ex
+TD77 [0 : 49840 : 99727] boks? ␅
+TD3007878 ␆b
+TD97 [0 : 49840 : 99727] boks? b
+TD106 progress: -1 49840 boks
+TD113 [0 : 24910 : 49840] bad? ␅
+TD1695515 ␆a
+TD75 [0 : 24910 : 49840] bad? a
+TD77 progress: 1 24910 bad
+TD79 [24911 : 37372 : 49840] beschermen? ␅
+TD1663747 ␆b
+TD75 [24911 : 37372 : 49840] beschermen? b
+TD77 progress: -1 37372 beschermen
+TD81 [24911 : 31137 : 37372] begeleiding? ␅
+TD1616035 ␆a
+TD94 [24911 : 31137 : 37372] begeleiding? a
+TD109 progress: 1 31137 begeleiding
+TD126 [31138 : 34010 : 37372] beleid? ␅
+TD1863443 ␆a
+TD73 [31138 : 34010 : 37372] beleid? a
+TD78 progress: 1 34010 beleid
+TD81 [34011 : 35654 : 37372] beoordeling? ␅
+TD1575879 ␆a
+TD73 [34011 : 35654 : 37372] beoordeling? a
+TD80 progress: 1 35654 beoordeling
+TD80 [35655 : 36491 : 37372] bericht? ␅
+TD3552225 ␆b
+TD119 [35655 : 36491 : 37372] bericht? b
+TD90 progress: -1 36491 bericht
+TD111 [35655 : 36071 : 36491] bereken? ␅
+TD1727220 ␆b
+TD97 [35655 : 36071 : 36491] bereken? b
+TD105 progress: -1 36071 bereken
+TD306 [35655 : 35860 : 36071] bepreek? ␅
+TD3063646 ␆b
+TD94 [35655 : 35860 : 36071] bepreek? b
+TD101 progress: -1 35860 bepreek
+TD164 [35655 : 35755 : 35860] bepantser? ␅
+TD1783648 ␆a
+TD76 [35655 : 35755 : 35860] bepantser? a
+TD78 progress: 1 35755 bepantser
+TD78 [35756 : 35804 : 35860] beplant? ␅
+TD1783736 ␆b
+TD78 [35756 : 35804 : 35860] beplant? b
+TD82 progress: -1 35804 beplant
+TD79 [35756 : 35776 : 35804] beperk? ␅
+TD2567746 ␆a
+TD72 [35756 : 35776 : 35804] beperk? a
+TD80 progress: 1 35776 beperk
+TD87 [35777 : 35788 : 35804] beperkt? ␅
+TD1847826 ␆it
+TD77 [35777 : 35788 : 35804] beperkt? it
+TD84 progress: 0 35788 beperkt
+TD18 [35777 : 35788 : 35804] <Done>.
+TD221 📋> ␅
+TD2744194 ␆🧩 Puzzel #550
+TD104 📋> 🧩 Puzzel #550
+TD13 📋> ␅
+TD40 ␆🤔 15 gokken
+TD7 📋> 🤔 15 gokken
+TD7 📋> ␅
+TD13 ␆⏱️ 30s
+TD6 📋> ⏱️ 30s
+TD5 📋> ␅
+TD271413 ␆🔗 alfagok.diginaut.net
+TD93 📋> 🔗 alfagok.diginaut.net
+TD18 📋> ␅
+TD191842 ␄
+TD128 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #550\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 30s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD637 result: "\ud83e\udde9 Puzzel #550\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 30s\n\ud83d\udd17 alfagok.diginaut.net"
+TD24 result puzzle: 550
+TD5 result guesses: 15
+TD3 result time: 30s
+TD2 result link: alfagok.diginaut.net
+TD70 📆 2026-05-06 ? ␅
+TD223185 ␆
+TD81 📆 2026-05-06 ? 
