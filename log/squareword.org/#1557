@@ -1,0 +1,208 @@
+T279.0632548170106 now: 2026-05-07T07:58:23EDT
+TD66 site: squareword.org
+TD17 wordlist: nwl2023.txt
+TD25  ...␅
+TD3006976 ␆
+TD69  ...
+TD53 🧩  ? ␅
+TD2503901 ␆#1557
+TD65 🧩  ? #1557
+TD177 puzzle_id: #1557
+TD151 > ␅
+TD2103603 ␆*
+TD77 > *
+TD199190 try? ␅
+TD720698 ␆1
+TD62 try? 1
+TD214 questioning: ["marse", "#5"]
+TD171 #1 <IndexError>  📋 "marse" ? ␅
+TD5287800 ␆__R__ ~ AS
+TD72 #1 <IndexError>  📋 "marse" ? __R__ ~ AS
+TD395 attempt 0 MARSE n m Y m n
+TD75 #2 <IndexError>  📋 "marse" ? ␅
+TD1823368 ␆_____ ~ AR
+TD74 #2 <IndexError>  📋 "marse" ? _____ ~ AR
+TD196 attempt 1 MARSE n m m n n
+TD88 #3 <IndexError>  📋 "marse" ? ␅
+TD1767718 ␆_____ ~ AR
+TD77 #3 <IndexError>  📋 "marse" ? _____ ~ AR
+TD173 attempt 2 MARSE n m m n n
+TD83 #4 <IndexError>  📋 "marse" ? ␅
+TD2287629 ␆_A_SE ~ R
+TD81 #4 <IndexError>  📋 "marse" ? _A_SE ~ R
+TD188 attempt 3 MARSE n Y m Y Y
+TD93 #5 <IndexError>  📋 "marse" ? ␅
+TD1927767 ␆_____ ~ SE
+TD95 #5 <IndexError>  📋 "marse" ? _____ ~ SE
+TD257 attempt 4 MARSE n n n m m
+TD285 ? ␅
+TD207232 ␆
+TD100 ? 
+TD140 question done
+TD292 > ␅
+TD415487 ␆*
+TD101 > *
+TD679776 questioning: ["raise", "#4"]
+TD206 #1 __R__ ~AS -EM  📋 "raise" ? ␅
+TD4048093 ␆.
+TD94 #1 __R__ ~AS -EM  📋 "raise" ? .
+TD255 attempt 0 RAISE n m n m n
+TD93 #2 _____ ~AR -EMS  📋 "raise" ? ␅
+TD647458 ␆.
+TD93 #2 _____ ~AR -EMS  📋 "raise" ? .
+TD266 attempt 1 RAISE m m n n n
+TD94 #3 _____ ~AR -EMS  📋 "raise" ? ␅
+TD791730 ␆.
+TD90 #3 _____ ~AR -EMS  📋 "raise" ? .
+TD185 attempt 2 RAISE m m n n n
+TD59 #4 _A_SE ~R -M  📋 "raise" ? ␅
+TD599924 ␆/it
+TD72 #4 _A_SE ~R -M  📋 "raise" ? /it
+TD178 attempt 3 RAISE Y Y Y Y Y
+TD70 #5 _____ ~ES -AMR  📋 "raise" ? ␅
+TD2839341 ␆__I__ ~ SE
+TD75 #5 _____ ~ES -AMR  📋 "raise" ? __I__ ~ SE
+TD181 attempt 4 RAISE n n Y m m
+TD219 ? ␅
+TD311594 ␆
+TD76 ? 
+TD91 question done
+TD190 > ␅
+TD527567 ␆*
+TD96 > *
+TD431035 try? ␅
+TD5488990 ␆2
+TD105 try? 2
+TD281 questioning: ["hydra", "#3"]
+TD303 #1 __R__ ~AS -EIMR  📋 "hydra" ? ␅
+TD14431354 ␆.
+TD77 #1 __R__ ~AS -EIMR  📋 "hydra" ? .
+TD239 attempt 0 HYDRA n n n n m
+TD94 #2 _____ ~AR -EIMS  📋 "hydra" ? ␅
+TD2823627 ␆H__R_ ~ AY
+TD69 #2 _____ ~AR -EIMS  📋 "hydra" ? H__R_ ~ AY
+TD150 attempt 1 HYDRA Y m n Y m
+TD85 #3 _____ ~AR -EIMS  📋 "hydra" ? ␅
+TD2847763 ␆__D__ ~ AR
+TD105 #3 _____ ~AR -EIMS  📋 "hydra" ? __D__ ~ AR
+TD224 attempt 2 HYDRA n n Y m m
+TD95 #5 __I__ ~ES -AMR  📋 "hydra" ? ␅
+TD1887645 ␆.
+TD74 #5 __I__ ~ES -AMR  📋 "hydra" ? .
+TD187 attempt 4 HYDRA n n n n n
+TD177 ? ␅
+TD215482 ␆
+TD74 ? 
+TD81 question done
+TD190 > ␅
+TD551618 ␆*
+TD68 > *
+TD594315 questioning: ["hoary", "#2"]
+TD192 #1 __R__ ~AS -DEHIMRY  📋 "hoary" ? ␅
+TD7373676 ␆.
+TD92 #1 __R__ ~AS -DEHIMRY  📋 "hoary" ? .
+TD256 attempt 0 HOARY n n m n n
+TD106 #2 H__R_ ~AY -DEIMS  📋 "hoary" ? ␅
+TD1167393 ␆/it
+TD112 #2 H__R_ ~AY -DEIMS  📋 "hoary" ? /it
+TD259 attempt 1 HOARY Y Y Y Y Y
+TD98 #3 __D__ ~AR -EHIMSY  📋 "hoary" ? ␅
+TD3599695 ␆__D__ ~ ARO
+TD72 #3 __D__ ~AR -EHIMSY  📋 "hoary" ? __D__ ~ ARO
+TD171 attempt 2 HOARY n m m m n
+TD96 #5 __I__ ~ES -ADHMRY  📋 "hoary" ? ␅
+TD1327558 ␆.
+TD101 #5 __I__ ~ES -ADHMRY  📋 "hoary" ? .
+TD298 attempt 4 HOARY n n n n n
+TD363 ? ␅
+TD183196 ␆
+TD74 ? 
+TD81 question done
+TD189 > ␅
+TD583635 ␆*
+TD74 > *
+TD828723 questioning: ["ardor", "#3"]
+TD199 #1 __R__ ~AS -DEHIMORY  📋 "ardor" ? ␅
+TD3779207 ␆.
+TD94 #1 __R__ ~AS -DEHIMORY  📋 "ardor" ? .
+TD261 attempt 0 ARDOR m n n n n
+TD107 #3 __D__ ~AOR -EHIMSY  📋 "ardor" ? ␅
+TD607373 ␆/it
+TD94 #3 __D__ ~AOR -EHIMSY  📋 "ardor" ? /it
+TD257 attempt 2 ARDOR Y Y Y Y Y
+TD81 #5 __I__ ~ES -ADHMORY  📋 "ardor" ? ␅
+TD2047781 ␆.
+TD99 #5 __I__ ~ES -ADHMORY  📋 "ardor" ? .
+TD278 attempt 4 ARDOR n n n n n
+TD299 ? ␅
+TD223821 ␆
+TD118 ? 
+TD90 question done
+TD183 > ␅
+TD503138 ␆*
+TD77 > *
+TD1179386 try? ␅
+TD4300431 ␆2
+TD94 try? 2
+TD292 questioning: ["scrap", "#1"]
+TD310 #1 __R__ ~AS -DEHIMORY  📋 "scrap" ? ␅
+TD2087402 ␆/it
+TD97 #1 __R__ ~AS -DEHIMORY  📋 "scrap" ? /it
+TD279 attempt 0 SCRAP Y Y Y Y Y
+TD117 #5 __I__ ~ES -ADHMORY  📋 "scrap" ? ␅
+TD3783496 ␆__I__ ~ SEP
+TD109 #5 __I__ ~ES -ADHMORY  📋 "scrap" ? __I__ ~ SEP
+TD266 attempt 4 SCRAP m n n n m
+TD353 ? ␅
+TD367326 ␆
+TD93 ? 
+TD127 question done
+TD314 > ␅
+TD455400 ␆*
+TD94 > *
+TD951553 questioning: ["plies", "#5"]
+TD195 #5 __I__ ~EPS -ACDHMORY  📋 "plies" ? ␅
+TD4040121 ␆/it
+TD73 #5 __I__ ~EPS -ACDHMORY  📋 "plies" ? /it
+TD174 attempt 4 PLIES Y Y Y Y Y
+TD160 ? ␅
+TD1543663 ␆
+TD94 ? 
+TD82 question done
+TD25239 📋> ␅
+TD3798915 ␆squareword.org 1557: 7 guesses
+TD104 📋> squareword.org 1557: 7 guesses
+TD15 📋> ␅
+TD49 ␆
+TD9 📋> 
+TD7 📋> ␅
+TD22 ␆🟨🟨🟩🟨🟨
+TD6 📋> 🟨🟨🟩🟨🟨
+TD7 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD15 ␆🟨🟨🟩🟨🟨
+TD6 📋> 🟨🟨🟩🟨🟨
+TD6 📋> ␅
+TD14 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD287393 ␆#squareword #squareword1557
+TD99 📋> #squareword #squareword1557
+TD13 📋> ␅
+TD183979 ␄
+TD137 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1557: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1557"}
+TD734 result: "squareword.org 1557: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1557"
+TD75 📆 2026-05-07 ? ␅
+TD166938 ␆
+TD98 📆 2026-05-07 ? 
