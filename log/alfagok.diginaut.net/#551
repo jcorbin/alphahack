@@ -1,0 +1,70 @@
+T132.9899080460018 now: 2026-05-07T07:44:08EDT
+TD77 site: alfagok.diginaut.net
+TD351648 loaded 399579 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1273 words excluded) asof d77e914a055b2d7e381b1d4d5307ffcdfce32672
+TD126  ...␅
+TD4807669 ␆
+TD77  ...
+TD176 [0 : 199695 : 399579] lijk? ␅
+TD3135575 ␆b
+TD75 [0 : 199695 : 399579] lijk? b
+TD237 progress: -1 199695 lijk
+TD89 [0 : 99727 : 199695] ex? ␅
+TD2415649 ␆a
+TD87 [0 : 99727 : 199695] ex? a
+TD99 progress: 1 99727 ex
+TD85 [99728 : 149421 : 199695] huis? ␅
+TD2079849 ␆a
+TD89 [99728 : 149421 : 199695] huis? a
+TD107 progress: 1 149421 huis
+TD126 [149422 : 174528 : 199695] kind? ␅
+TD3103638 ␆a
+TD79 [149422 : 174528 : 199695] kind? a
+TD78 progress: 1 174528 kind
+TD129 [174529 : 187109 : 199695] kronen? ␅
+TD4671759 ␆b
+TD94 [174529 : 187109 : 199695] kronen? b
+TD108 progress: -1 187109 kronen
+TD105 [174529 : 180720 : 187109] koel? ␅
+TD1583654 ␆a
+TD76 [174529 : 180720 : 187109] koel? a
+TD99 progress: 1 180720 koel
+TD106 [180721 : 183850 : 187109] kor? ␅
+TD2119770 ␆b
+TD94 [180721 : 183850 : 187109] kor? b
+TD86 progress: -1 183850 kor
+TD75 [180721 : 182123 : 183850] kom? ␅
+TD2743851 ␆a
+TD98 [180721 : 182123 : 183850] kom? a
+TD101 progress: 1 182123 kom
+TD108 [182124 : 182836 : 183850] kool? ␅
+TD1599500 ␆a
+TD80 [182124 : 182836 : 183850] kool? a
+TD79 progress: 1 182836 kool
+TD76 [182837 : 183338 : 183850] koorts? ␅
+TD2992853 ␆it
+TD79 [182837 : 183338 : 183850] koorts? it
+TD78 progress: 0 183338 koorts
+TD17 [182837 : 183338 : 183850] <Done>.
+TD69 📋> ␅
+TD2711290 ␆🧩 Puzzel #551
+TD79 📋> 🧩 Puzzel #551
+TD8 📋> ␅
+TD30 ␆🤔 10 gokken
+TD3 📋> 🤔 10 gokken
+TD3 📋> ␅
+TD10 ␆⏱️ 24s
+TD3 📋> ⏱️ 24s
+TD2 📋> ␅
+TD367486 ␆🔗 alfagok.diginaut.net
+TD69 📋> 🔗 alfagok.diginaut.net
+TD7 📋> ␅
+TD239935 ␄
+TD179 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #551\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD572 result: "\ud83e\udde9 Puzzel #551\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TD17 result puzzle: 551
+TD4 result guesses: 10
+TD3 result time: 24s
+TD2 result link: alfagok.diginaut.net
+TD64 📆 2026-05-07 ? ␅
+TD279090 ␆
+TD82 📆 2026-05-07 ? 
