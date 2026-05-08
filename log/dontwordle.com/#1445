@@ -1,0 +1,162 @@
+T71651.33390450303 now: 2026-05-08T08:05:23EDT
+TD73 site: dontwordle.com
+TD23 wordlist: nwl2023.txt
+TD22  ...␅
+TD4350643 ␆
+TD120  ...
+TD212 1> ␅
+TD4855512 ␆* -bot 10'
+TD104 1> * -bot 10'
+TD229023 ? ␅
+TD1018945 ␆1
+TD94 ? 1
+TD290 📋 "saner" ? ␅
+TD4239807 ␆Ynnnn
+TD126 📋 "saner" ? Ynnnn
+TD986 tried: SANER Y n n n n
+TD296 2> ␅
+TD1350577 ␆undo
+TD125 2> undo
+TD203 undo
+TD361 1> ␅
+TD9127343 ␆* :v [saner] -bot 10
+TD95 1> * :v [saner] -bot 10
+TD283183 ? ␅
+TD2804726 ␆1
+TD97 ? 1
+TD290 📋 "cibol" ? ␅
+TD11911821 ␆nnnnM
+TD112 📋 "cibol" ? nnnnM
+TD221 tried: CIBOL n n n n m
+TD185 2> ␅
+TD759370 ␆undo
+TD96 2> undo
+TD142 undo
+TD132 1> ␅
+TD2544239 ␆*
+TD95 1> *
+TD199522 ? ␅
+TD679798 ␆1
+TD98 ? 1
+TD223 📋 "immix" ? ␅
+TD5231842 ␆nnnnn
+TD97 📋 "immix" ? nnnnn
+TD207 tried: IMMIX n n n n n
+TD170 2> ␅
+TD1495500 ␆*
+TD111 2> *
+TD222432 ? ␅
+TD1033525 ␆1
+TD104 ? 1
+TD260 📋 "papaw" ? ␅
+TD5055787 ␆nnnnn
+TD145 📋 "papaw" ? nnnnn
+TD260 tried: PAPAW n n n n n
+TD237 3> ␅
+TD9103396 ␆* :v [sanercibol] -bot 10
+TD129 3> * :v [sanercibol] -bot 10
+TD196782 ? ␅
+TD1155033 ␆1
+TD137 ? 1
+TD290 📋 "judgy" ? ␅
+TD7023393 ␆nMnnn
+TD85 📋 "judgy" ? nMnnn
+TD153 tried: JUDGY n m n n n
+TD135 4> ␅
+TD695726 ␆undo
+TD94 4> undo
+TD127 undo
+TD144 3> ␅
+TD2647712 ␆*
+TD103 3> *
+TD183485 ? ␅
+TD512327 ␆1
+TD87 ? 1
+TD310 📋 "cooee" ? ␅
+TD4855692 ␆nnnnn
+TD79 📋 "cooee" ? nnnnn
+TD154 tried: COOEE n n n n n
+TD121 4> ␅
+TD5287850 ␆*
+TD101 4> *
+TD191880 ? ␅
+TD999904 ␆1
+TD79 ? 1
+TD176 📋 "rynds" ? ␅
+TD8143954 ␆nnnnM
+TD76 📋 "rynds" ? nnnnM
+TD147 tried: RYNDS n n n n m
+TD129 5> ␅
+TD455474 ␆*
+TD78 5> *
+TD196946 ? ␅
+TD2635186 ␆1
+TD96 ? 1
+TD232 📋 "shush" ? ␅
+TD2671736 ␆YnYYY
+TD96 📋 "shush" ? YnYYY
+TD199 tried: SHUSH Y n Y Y Y
+TD212 6> ␅
+TD5031384 ␆undo
+TD114 6> undo
+TD141 undo
+TD293 5> ␅
+TD455442 ␆*
+TD96 5> *
+TD192192 📋 "stuff" ? ␅
+TD11415783 ␆YnYnn
+TD76 📋 "stuff" ? YnYnn
+TD144 tried: STUFF Y n Y n n
+TD138 6> ␅
+TD415753 ␆*
+TD76 6> *
+TD170763 📋 "shush" ? ␅
+TD5629303 ␆YnYYY
+TD93 📋 "shush" ? YnYYY
+TD196 tried: SHUSH Y n Y Y Y
+TD134 📋> ␅
+TD3087998 ␆Don't Wordle 1445 - SURVIVED
+TD75 📋> Don't Wordle 1445 - SURVIVED
+TD8 📋> ␅
+TD30 ␆Hooray! I didn't Wordle today!
+TD4 📋> Hooray! I didn't Wordle today!
+TD3 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜7870
+TD3 📋> ⬜⬜⬜⬜⬜7870
+TD2 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜3181
+TD2 📋> ⬜⬜⬜⬜⬜3181
+TD2 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜379
+TD2 📋> ⬜⬜⬜⬜⬜379
+TD2 📋> ␅
+TD7 ␆⬜⬜⬜⬜🟨13
+TD2 📋> ⬜⬜⬜⬜🟨13
+TD2 📋> ␅
+TD7 ␆🟩⬜🟩⬜⬜5
+TD2 📋> 🟩⬜🟩⬜⬜5
+TD2 📋> ␅
+TD6 ␆🟩⬜🟩🟩🟩1
+TD2 📋> 🟩⬜🟩🟩🟩1
+TD2 📋> ␅
+TD6 ␆Undos used: 4
+TD2 📋> Undos used: 4
+TD3 📋> ␅
+TD6 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD7 ␆  1 words remaining
+TD3 📋>   1 words remaining
+TD2 📋> ␅
+TD6 ␆x 8 unused letters
+TD2 📋> x 8 unused letters
+TD2 📋> ␅
+TD327266 ␆= 8 total score
+TD79 📋> = 8 total score
+TD8 📋> ␅
+TD208021 ␄
+TD134 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1445 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3181\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c379\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe813\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c5\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"}
+TD787 result: "Don't Wordle 1445 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3181\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c379\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe813\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c5\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"
+TD64 📆 2026-05-08 ? ␅
+TD391023 ␆
+TD82 📆 2026-05-08 ? 
