@@ -1,0 +1,78 @@
+T71574.20460402302 now: 2026-05-08T08:04:05EDT
+TD80 site: alphaguess.com
+TD146410 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 9a702d386179f5b531c2c6802b5b091e4a745ecf
+TD109  ...␅
+TD3788614 ␆
+TD94  ...
+TD165 [0 : 98216 : 196522] mach? ␅
+TD2536020 ␆a
+TD81 [0 : 98216 : 196522] mach? a
+TD83 progress: 1 98216 mach
+TD150 [98217 : 147366 : 196522] rhotic? ␅
+TD1919107 ␆b
+TD76 [98217 : 147366 : 196522] rhotic? b
+TD83 progress: -1 147366 rhotic
+TD81 [98217 : 122777 : 147366] parr? ␅
+TD1503861 ␆b
+TD75 [98217 : 122777 : 147366] parr? b
+TD77 progress: -1 122777 parr
+TD76 [98217 : 109933 : 122777] ne? ␅
+TD1519745 ␆a
+TD85 [98217 : 109933 : 122777] ne? a
+TD88 progress: 1 109933 ne
+TD86 [109934 : 116351 : 122777] orchard? ␅
+TD2839912 ␆a
+TD81 [109934 : 116351 : 122777] orchard? a
+TD89 progress: 1 116351 orchard
+TD93 [116352 : 118732 : 122777] over? ␅
+TD1927522 ␆a
+TD66 [116352 : 118732 : 122777] over? a
+TD76 progress: 1 118732 over
+TD71 [118733 : 120656 : 122777] ox? ␅
+TD1560906 ␆a
+TD112 [118733 : 120656 : 122777] ox? a
+TD109 progress: 1 120656 ox
+TD115 [120657 : 121641 : 122777] pan? ␅
+TD1638659 ␆a
+TD73 [120657 : 121641 : 122777] pan? a
+TD69 progress: 1 121641 pan
+TD66 [121642 : 122100 : 122777] para? ␅
+TD1575969 ␆b
+TD98 [121642 : 122100 : 122777] para? b
+TD110 progress: -1 122100 para
+TD110 [121642 : 121867 : 122100] pans? ␅
+TD1535990 ␆b
+TD80 [121642 : 121867 : 122100] pans? b
+TD81 progress: -1 121867 pans
+TD69 [121642 : 121744 : 121867] panel? ␅
+TD1423249 ␆a
+TD74 [121642 : 121744 : 121867] panel? a
+TD73 progress: 1 121744 panel
+TD68 [121745 : 121803 : 121867] panic? ␅
+TD2496071 ␆it
+TD110 [121745 : 121803 : 121867] panic? it
+TD126 progress: 0 121803 panic
+TD31 [121745 : 121803 : 121867] <Done>.
+TD115 📋> ␅
+TD2704108 ␆🧩 Puzzle #1019
+TD104 📋> 🧩 Puzzle #1019
+TD14 📋> ␅
+TD47 ␆🤔 12 guesses
+TD8 📋> 🤔 12 guesses
+TD7 📋> ␅
+TD16 ␆⏱️ 19s
+TD7 📋> ⏱️ 19s
+TD6 📋> ␅
+TD296512 ␆🔗 alphaguess.com/1019
+TD103 📋> 🔗 alphaguess.com/1019
+TD14 📋> ␅
+TD158627 ␄
+TD184 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1019\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/1019"}
+TD116 result: "\ud83e\udde9 Puzzle #1019\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/1019"
+TD17 result puzzle: 1019
+TD8 result guesses: 12
+TD6 result time: 19s
+TD6 result link: alphaguess.com/1019
+TD110 📆 2026-05-08 ? ␅
+TD191569 ␆
+TD102 📆 2026-05-08 ? 
