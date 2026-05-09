@@ -1,0 +1,245 @@
+T2.8629254440020304 now: 2026-05-09T08:44:28EDT
+TD85 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD25  ...␅
+TD590277 ␆
+TD96  ...
+TD79 🧩  ? ␅
+TD3743882 ␆#1559
+TD95 🧩  ? #1559
+TD272 puzzle_id: #1559
+TD242 > ␅
+TD1671250 ␆*
+TD74 > *
+TD213379 try? ␅
+TD330623 ␆1
+TD91 try? 1
+TD359 questioning: ["raise", "#5"]
+TD287 #1 <IndexError>  📋 "raise" ? ␅
+TD4536016 ␆_____ ~ AS
+TD95 #1 <IndexError>  📋 "raise" ? _____ ~ AS
+TD720 attempt 0 RAISE n m n m n
+TD129 #2 <IndexError>  📋 "raise" ? ␅
+TD3006639 ␆_A___ ~ I
+TD101 #2 <IndexError>  📋 "raise" ? _A___ ~ I
+TD292 attempt 1 RAISE n Y m n n
+TD125 #3 <IndexError>  📋 "raise" ? ␅
+TD1911410 ␆____E ~ RE
+TD96 #3 <IndexError>  📋 "raise" ? ____E ~ RE
+TD272 attempt 2 RAISE m n n n Y
+TD122 #4 <IndexError>  📋 "raise" ? ␅
+TD2439452 ␆____E
+TD101 #4 <IndexError>  📋 "raise" ? ____E
+TD260 attempt 3 RAISE n n n n Y
+TD120 #5 <IndexError>  📋 "raise" ? ␅
+TD2887601 ␆_____ ~ SE
+TD99 #5 <IndexError>  📋 "raise" ? _____ ~ SE
+TD262 attempt 4 RAISE n n n m m
+TD336 ? ␅
+TD744257 ␆
+TD84 ? 
+TD115 question done
+TD211 > ␅
+TD6982634 ␆*
+TD100 > *
+TD647388 try? ␅
+TD856315 ␆1
+TD80 try? 1
+TD234 questioning: ["mavin", "#2"]
+TD215 #1 _____ ~AS -EIR  📋 "mavin" ? ␅
+TD5168171 ␆_____ ~ ASM
+TD92 #1 _____ ~AS -EIR  📋 "mavin" ? _____ ~ ASM
+TD262 attempt 0 MAVIN m m n n n
+TD147 #2 _A___ ~I -ERS  📋 "mavin" ? ␅
+TD5607125 ␆_A_I_ 
+TD149 #2 _A___ ~I -ERS  📋 "mavin" ? _A_I_ 
+TD269 attempt 1 MAVIN n Y n Y n
+TD146 #3 ____E ~R -AIS  📋 "mavin" ? ␅
+TD3303438 ␆____E ~ RE
+TD107 #3 ____E ~R -AIS  📋 "mavin" ? ____E ~ RE
+TD255 attempt 2 MAVIN n n n n n
+TD144 #4 ____E -AIRS  📋 "mavin" ? ␅
+TD1007486 ␆.
+TD118 #4 ____E -AIRS  📋 "mavin" ? .
+TD241 attempt 3 MAVIN n n n n n
+TD65 #5 _____ ~ES -AIR  📋 "mavin" ? ␅
+TD959592 ␆.
+TD113 #5 _____ ~ES -AIR  📋 "mavin" ? .
+TD260 attempt 4 MAVIN n n n n n
+TD257 ? ␅
+TD167371 ␆
+TD100 ? 
+TD114 question done
+TD288 > ␅
+TD424002 ␆*
+TD96 > *
+TD574056 try? ␅
+TD6689421 ␆3
+TD80 try? 3
+TD219 questioning: ["habit", "#2"]
+TD205 #1 _____ ~AMS -EINRV  📋 "habit" ? ␅
+TD2743494 ␆.
+TD71 #1 _____ ~AMS -EINRV  📋 "habit" ? .
+TD200 attempt 0 HABIT n m n n n
+TD65 #2 _A_I_ -EMNRSV  📋 "habit" ? ␅
+TD615636 ␆/it
+TD82 #2 _A_I_ -EMNRSV  📋 "habit" ? /it
+TD246 attempt 1 HABIT Y Y Y Y Y
+TD97 #3 ____E ~R -AIMNSV  📋 "habit" ? ␅
+TD3263852 ␆____E ~ RE
+TD105 #3 ____E ~R -AIMNSV  📋 "habit" ? ____E ~ RE
+TD257 attempt 2 HABIT n n n n n
+TD153 #4 ____E -AIMNRSV  📋 "habit" ? ␅
+TD1007409 ␆.
+TD85 #4 ____E -AIMNRSV  📋 "habit" ? .
+TD245 attempt 3 HABIT n n n n n
+TD97 #5 _____ ~ES -AIMNRV  📋 "habit" ? ␅
+TD1008137 ␆.
+TD101 #5 _____ ~ES -AIMNRV  📋 "habit" ? .
+TD265 attempt 4 HABIT n n n n n
+TD275 ? ␅
+TD190701 ␆
+TD102 ? 
+TD110 question done
+TD281 > ␅
+TD479617 ␆*
+TD101 > *
+TD654387 try? ␅
+TD1497194 ␆1
+TD80 try? 1
+TD210 questioning: ["prude", "#3"]
+TD210 #1 _____ ~AMS -BEHINRTV  📋 "prude" ? ␅
+TD3183711 ␆.
+TD96 #1 _____ ~AMS -BEHINRTV  📋 "prude" ? .
+TD261 attempt 0 PRUDE n n n n n
+TD102 #3 ____E ~R -ABHIMNSTV  📋 "prude" ? ␅
+TD2695643 ␆_R_DE ~ E
+TD110 #3 ____E ~R -ABHIMNSTV  📋 "prude" ? _R_DE ~ E
+TD256 attempt 2 PRUDE n Y n Y Y
+TD149 #4 ____E -ABHIMNRSTV  📋 "prude" ? ␅
+TD3703557 ␆____E ~ D
+TD96 #4 ____E -ABHIMNRSTV  📋 "prude" ? ____E ~ D
+TD237 attempt 3 PRUDE n n n m Y
+TD146 #5 _____ ~ES -ABHIMNRTV  📋 "prude" ? ␅
+TD3559493 ␆_____ ~ SEP
+TD80 #5 _____ ~ES -ABHIMNRTV  📋 "prude" ? _____ ~ SEP
+TD182 attempt 4 PRUDE m n n n m
+TD213 ? ␅
+TD519527 ␆
+TD81 ? 
+TD98 question done
+TD181 > ␅
+TD703694 ␆*
+TD95 > *
+TD767921 questioning: ["erode", "#3"]
+TD198 #1 _____ ~AMS -BDEHINPRTUV  📋 "erode" ? ␅
+TD4120139 ␆.
+TD74 #1 _____ ~AMS -BDEHINPRTUV  📋 "erode" ? .
+TD177 attempt 0 ERODE n n n n n
+TD71 #3 _R_DE -ABHIMNPSTUV  📋 "erode" ? ␅
+TD584055 ␆/it
+TD96 #3 _R_DE -ABHIMNPSTUV  📋 "erode" ? /it
+TD259 attempt 2 ERODE Y Y Y Y Y
+TD109 #4 ____E ~D -ABHIMNPRSTUV  📋 "erode" ? ␅
+TD2726882 ␆____E ~ DO
+TD96 #4 ____E ~D -ABHIMNPRSTUV  📋 "erode" ? ____E ~ DO
+TD252 attempt 3 ERODE n n m m Y
+TD162 #5 _____ ~EPS -ABDHIMNRTUV  📋 "erode" ? ␅
+TD2031475 ␆.
+TD77 #5 _____ ~EPS -ABDHIMNRTUV  📋 "erode" ? .
+TD188 attempt 4 ERODE m n n n m
+TD180 ? ␅
+TD159550 ␆
+TD92 ? 
+TD111 question done
+TD290 > ␅
+TD447560 ␆*
+TD97 > *
+TD1470710 try? ␅
+TD1666256 ␆2
+TD98 try? 2
+TD283 questioning: ["sleep", "#5"]
+TD328 #1 _____ ~AMS -BDEHINOPRTUV  📋 "sleep" ? ␅
+TD4582221 ␆S____ ~ ASM
+TD98 #1 _____ ~AMS -BDEHINOPRTUV  📋 "sleep" ? S____ ~ ASM
+TD275 attempt 0 SLEEP Y n n n n
+TD169 #4 ____E ~DO -ABHIMNPRSTUV  📋 "sleep" ? ␅
+TD1599402 ␆.
+TD98 #4 ____E ~DO -ABHIMNPRSTUV  📋 "sleep" ? .
+TD263 attempt 3 SLEEP n n n n n
+TD101 #5 _____ ~EPS -ABDHIMNORTUV  📋 "sleep" ? ␅
+TD591529 ␆/it
+TD99 #5 _____ ~EPS -ABDHIMNORTUV  📋 "sleep" ? /it
+TD245 attempt 4 SLEEP Y Y Y Y Y
+TD301 ? ␅
+TD127434 ␆
+TD93 ? 
+TD113 question done
+TD326 > ␅
+TD391497 ␆*
+TD79 > *
+TD1250285 questioning: ["scams", "#1"]
+TD196 #1 S____ ~AM -BDEHILNOPRTUV  📋 "scams" ? ␅
+TD2421255 ␆/it
+TD95 #1 S____ ~AM -BDEHILNOPRTUV  📋 "scams" ? /it
+TD252 attempt 0 SCAMS Y Y Y Y Y
+TD106 #4 ____E ~DO -ABEHILMNPRSTUV  📋 "scams" ? ␅
+TD1287709 ␆.
+TD68 #4 ____E ~DO -ABEHILMNPRSTUV  📋 "scams" ? .
+TD183 attempt 3 SCAMS n n n n n
+TD194 ? ␅
+TD239627 ␆
+TD95 ? 
+TD112 question done
+TD318 > ␅
+TD375942 ␆*
+TD118 > *
+TD874638 try? ␅
+TD1812705 ␆2
+TD67 try? 2
+TD221 questioning: ["dodge", "#4"]
+TD363 #4 ____E ~DO -ABCEHILMNPRSTUV  📋 "dodge" ? ␅
+TD3855350 ␆/it
+TD97 #4 ____E ~DO -ABCEHILMNPRSTUV  📋 "dodge" ? /it
+TD217 attempt 3 DODGE Y Y Y Y Y
+TD188 ? ␅
+TD303670 ␆
+TD97 ? 
+TD110 question done
+TD21703 📋> ␅
+TD5458707 ␆squareword.org 1559: 8 guesses
+TD98 📋> squareword.org 1559: 8 guesses
+TD17 📋> ␅
+TD65 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD23 ␆🟨🟨🟨🟨🟨
+TD6 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD16 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD4 📋> ␅
+TD15 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD15 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD17 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD287147 ␆#squareword #squareword1559
+TD98 📋> #squareword #squareword1559
+TD13 📋> ␅
+TD143582 ␄
+TD160 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1559: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1559"}
+TD869 result: "squareword.org 1559: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1559"
+TD73 📆 2026-05-09 ? ␅
+TD182945 ␆
+TD84 📆 2026-05-09 ? 
