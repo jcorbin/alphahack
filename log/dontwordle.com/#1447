@@ -1,0 +1,182 @@
+T196.620951830002 now: 2026-05-10T06:21:48EDT
+TD77 site: dontwordle.com
+TD15 wordlist: nwl2023.txt
+TD25  ...␅
+TD2326866 ␆
+TD74  ...
+TD95 1> ␅
+TD4719970 ␆* -bot 10
+TD94 1> * -bot 10
+TD207086 ? ␅
+TD952799 ␆1
+TD97 ? 1
+TD254 📋 "rales" ? ␅
+TD4263837 ␆nnnnn
+TD97 📋 "rales" ? nnnnn
+TD583 tried: RALES n n n n n
+TD199 2> ␅
+TD438882 ␆*
+TD89 2> *
+TD95952 ? ␅
+TD632592 ␆1
+TD106 ? 1
+TD253 📋 "jugum" ? ␅
+TD5511802 ␆nnnnn
+TD102 📋 "jugum" ? nnnnn
+TD213 tried: JUGUM n n n n n
+TD178 3> ␅
+TD408943 ␆*
+TD80 3> *
+TD89693 ? ␅
+TD894828 ␆1
+TD102 ? 1
+TD226 📋 "civic" ? ␅
+TD3773645 ␆nYnnn
+TD98 📋 "civic" ? nYnnn
+TD194 tried: CIVIC n Y n n n
+TD167 4> ␅
+TD5928281 ␆undo
+TD103 4> undo
+TD161 undo
+TD262 3> ␅
+TD4031202 ␆undo
+TD101 3> undo
+TD140 undo
+TD216 2> ␅
+TD646643 ␆undo
+TD79 2> undo
+TD105 undo
+TD86 1> ␅
+TD935785 ␆*
+TD94 1> *
+TD129869 ? ␅
+TD398017 ␆1
+TD98 ? 1
+TD243 📋 "yobbo" ? ␅
+TD8360273 ␆Mnnnn
+TD110 📋 "yobbo" ? Mnnnn
+TD199 tried: YOBBO m n n n n
+TD172 2> ␅
+TD606936 ␆undo
+TD80 2> undo
+TD108 undo
+TD96 1> ␅
+TD344958 ␆*
+TD226 1> *
+TD143976 ? ␅
+TD623414 ␆1
+TD102 ? 1
+TD190 1> ␅
+TD3176235 ␆*
+TD100 1> *
+TD117665 ? ␅
+TD953079 ␆1
+TD94 ? 1
+TD233 📋 "bacca" ? ␅
+TD13263982 <INT>
+T1.298911546000454 now: 2026-05-10T06:23:06EDT
+TD102 1> ␅
+TD1071024 ␆*
+TD93 1> *
+TD161082 ? ␅
+TD902495 ␆1
+TD95 ? 1
+TD288 📋 "wowee" ? ␅
+TD5280635 ␄
+TD147 <EOF>
+TD137 1> ␅
+T28.087161923001986 now: 2026-05-10T06:24:22EDT
+TD123 1> ␅
+TD993963 ␆?
+TD105 1> ?
+TD597 1> ␅
+TD3182966 ␆tried manna
+TD117 1> tried manna
+TD272 1> ␅
+TD7103742 ␆tried manna nnYnn
+TD100 1> tried manna nnYnn
+TD219 tried: MANNA n n Y n n
+TD141 2> ␅
+TD1311570 ␆undo
+TD99 2> undo
+TD111 undo
+TD94 1> ␅
+TD951750 ␆*
+TD103 1> *
+TD154006 ? ␅
+TD557798 ␆1
+TD97 ? 1
+TD280 📋 "jocko" ? ␅
+TD5648039 ␆nnnnn
+TD103 📋 "jocko" ? nnnnn
+TD451 tried: JOCKO n n n n n
+TD241 2> ␅
+TD520663 ␆*
+TD101 2> *
+TD109595 ? ␅
+TD656479 ␆1
+TD99 ? 1
+TD204 📋 "bubbe" ? ␅
+TD4335875 ␆nnnnn
+TD98 📋 "bubbe" ? nnnnn
+TD209 tried: BUBBE n n n n n
+TD190 3> ␅
+TD431361 ␆*
+TD95 3> *
+TD94669 ? ␅
+TD1017561 ␆1
+TD95 ? 1
+TD223 📋 "madam" ? ␅
+TD4927530 ␆nnMnn
+TD110 📋 "madam" ? nnMnn
+TD206 tried: MADAM n n m n n
+TD197 4> ␅
+TD775470 ␆*
+TD97 4> *
+TD187385 📋 "dryly" ? ␅
+TD6916980 ␆MnnnY
+TD121 📋 "dryly" ? MnnnY
+TD204 tried: DRYLY m n n n Y
+TD205 5> ␅
+TD559043 ␆*
+TD96 5> *
+TD174414 📋 "windy" ? ␅
+TD3393568 ␄
+TD92 <EOF>
+TD101 5> ␅
+TD1503980 ␆/res
+TD74 5> /res
+TD151 📋> ␅
+TD696086 ␆Don't Wordle 1447 - ELIMINATED
+TD92 📋> Don't Wordle 1447 - ELIMINATED
+TD12 📋> ␅
+TD29 ␆Well technically I didn't Wordle!
+TD4 📋> Well technically I didn't Wordle!
+TD3 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜6709
+TD3 📋> ⬜⬜⬜⬜⬜6709
+TD2 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜1926
+TD2 📋> ⬜⬜⬜⬜⬜1926
+TD2 📋> ␅
+TD6 ␆⬜⬜🟨⬜⬜64
+TD2 📋> ⬜⬜🟨⬜⬜64
+TD2 📋> ␅
+TD5 ␆🟨⬜⬜⬜🟩1
+TD2 📋> 🟨⬜⬜⬜🟩1
+TD2 📋> ␅
+TD5 ␆⬛⬛⬛⬛⬛
+TD2 📋> ⬛⬛⬛⬛⬛
+TD2 📋> ␅
+TD5 ␆⬛⬛⬛⬛⬛
+TD2 📋> ⬛⬛⬛⬛⬛
+TD2 📋> ␅
+TD319370 ␆Undos used: 5
+TD98 📋> Undos used: 5
+TD14 📋> ␅
+TD159833 ␄
+TD140 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Don't Wordle 1447 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6709\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1926\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c64\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe91\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"}
+TD1221 result: "Don't Wordle 1447 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6709\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1926\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c64\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe91\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"
+TD102 📆 2026-05-10 ? ␅
+TD366574 ␆
+TD83 📆 2026-05-10 ? 
