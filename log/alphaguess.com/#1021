@@ -1,0 +1,82 @@
+T144.8522730850018 now: 2026-05-10T06:20:56EDT
+TD129 site: alphaguess.com
+TD149456 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 9a702d386179f5b531c2c6802b5b091e4a745ecf
+TD120  ...␅
+TD129768 ␆
+TD120  ...
+TD175 [0 : 98216 : 196522] mach? ␅
+TD5759642 ␆b
+TD102 [0 : 98216 : 196522] mach? b
+TD102 progress: -1 98216 mach
+TD108 [0 : 47380 : 98216] dis? ␅
+TD1424362 ␆b
+TD99 [0 : 47380 : 98216] dis? b
+TD102 progress: -1 47380 dis
+TD107 [0 : 23681 : 47380] camp? ␅
+TD1462868 ␆a
+TD93 [0 : 23681 : 47380] camp? a
+TD115 progress: 1 23681 camp
+TD106 [23682 : 35524 : 47380] convention? ␅
+TD1639854 ␆b
+TD103 [23682 : 35524 : 47380] convention? b
+TD105 progress: -1 35524 convention
+TD235 [23682 : 29602 : 35524] circuit? ␅
+TD1687228 ␆b
+TD94 [23682 : 29602 : 35524] circuit? b
+TD105 progress: -1 29602 circuit
+TD124 [23682 : 26634 : 29602] cep? ␅
+TD1519623 ␆b
+TD72 [23682 : 26634 : 29602] cep? b
+TD81 progress: -1 26634 cep
+TD77 [23682 : 25103 : 26634] carp? ␅
+TD1751784 ␆a
+TD73 [23682 : 25103 : 26634] carp? a
+TD82 progress: 1 25103 carp
+TD84 [25104 : 25585 : 26634] cat? ␅
+TD2031911 ␆a
+TD97 [25104 : 25585 : 26634] cat? a
+TD104 progress: 1 25585 cat
+TD108 [25586 : 26107 : 26634] cavalier? ␅
+TD1335749 ␆a
+TD98 [25586 : 26107 : 26634] cavalier? a
+TD111 progress: 1 26107 cavalier
+TD101 [26108 : 26330 : 26634] cell? ␅
+TD1559685 ␆b
+TD97 [26108 : 26330 : 26634] cell? b
+TD112 progress: -1 26330 cell
+TD160 [26108 : 26212 : 26330] cease? ␅
+TD1471691 ␆b
+TD95 [26108 : 26212 : 26330] cease? b
+TD111 progress: -1 26212 cease
+TD159 [26108 : 26158 : 26212] caviar? ␅
+TD1567641 ␆b
+TD80 [26108 : 26158 : 26212] caviar? b
+TD86 progress: -1 26158 caviar
+TD76 [26108 : 26127 : 26158] cave? ␅
+TD2529031 ␆it
+TD92 [26108 : 26127 : 26158] cave? it
+TD101 progress: 0 26127 cave
+TD25 [26108 : 26127 : 26158] <Done>.
+TD79 📋> ␅
+TD2510980 ␆🧩 Puzzle #1021
+TD99 📋> 🧩 Puzzle #1021
+TD12 📋> ␅
+TD43 ␆🤔 13 guesses
+TD7 📋> 🤔 13 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 19s
+TD6 📋> ⏱️ 19s
+TD5 📋> ␅
+TD303311 ␆🔗 alphaguess.com/1021
+TD93 📋> 🔗 alphaguess.com/1021
+TD11 📋> ␅
+TD127896 ␄
+TD177 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1021\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/1021"}
+TD99 result: "\ud83e\udde9 Puzzle #1021\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/1021"
+TD15 result puzzle: 1021
+TD7 result guesses: 13
+TD5 result time: 19s
+TD4 result link: alphaguess.com/1021
+TD90 📆 2026-05-10 ? ␅
+TD215573 ␆
+TD106 📆 2026-05-10 ? 
