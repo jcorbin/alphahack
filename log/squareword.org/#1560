@@ -1,0 +1,212 @@
+T874.9074008440002 now: 2026-05-10T06:38:29EDT
+TD79 site: squareword.org
+TD22 wordlist: nwl2023.txt
+TD27  ...␅
+TD133475 ␆
+TD75  ...
+TD62 🧩  ? ␅
+TD5143722 ␆#1560
+TD71 🧩  ? #1560
+TD215 puzzle_id: #1560
+TD203 > ␅
+TD1351532 ␆*
+TD89 > *
+TD215311 try? ␅
+TD1616646 ␆1
+TD62 try? 1
+TD200 questioning: ["races", "#5"]
+TD151 #1 <IndexError>  📋 "races" ? ␅
+TD4423710 ␆_____ ~ S
+TD100 #1 <IndexError>  📋 "races" ? _____ ~ S
+TD668 attempt 0 RACES n n n n m
+TD114 #2 <IndexError>  📋 "races" ? ␅
+TD2455110 ␆_____ ~ RACE
+TD89 #2 <IndexError>  📋 "races" ? _____ ~ RACE
+TD271 attempt 1 RACES m m m m n
+TD126 #3 <IndexError>  📋 "races" ? ␅
+TD7959699 ␆R____ ~ A
+TD97 #3 <IndexError>  📋 "races" ? R____ ~ A
+TD259 attempt 2 RACES Y m n n n
+TD127 #4 <IndexError>  📋 "races" ? ␅
+TD2223488 ␆_____ ~ AE
+TD97 #4 <IndexError>  📋 "races" ? _____ ~ AE
+TD236 attempt 3 RACES n m n m n
+TD118 #5 <IndexError>  📋 "races" ? ␅
+TD1719540 ␆___ES 
+TD98 #5 <IndexError>  📋 "races" ? ___ES 
+TD249 attempt 4 RACES n n n Y Y
+TD358 ? ␅
+TD327329 ␆
+TD100 ? 
+TD149 question done
+TD310 > ␅
+TD463334 ␆*
+TD100 > *
+TD769355 try? ␅
+TD1950676 ␆3
+TD79 try? 3
+TD226 questioning: ["royal", "#3"]
+TD204 #1 _____ ~S -ACER  📋 "royal" ? ␅
+TD3599353 ␆_____ ~ SL
+TD77 #1 _____ ~S -ACER  📋 "royal" ? _____ ~ SL
+TD186 attempt 0 ROYAL n n n n m
+TD106 #2 _____ ~ACER -S  📋 "royal" ? ␅
+TD1119720 ␆.
+TD93 #2 _____ ~ACER -S  📋 "royal" ? .
+TD254 attempt 1 ROYAL m n n m n
+TD95 #3 R____ ~A -CES  📋 "royal" ? ␅
+TD1991674 ␆RO_A_ 
+TD101 #3 R____ ~A -CES  📋 "royal" ? RO_A_ 
+TD250 attempt 2 ROYAL Y Y n Y n
+TD159 #4 _____ ~AE -CRS  📋 "royal" ? ␅
+TD1511425 ␆.
+TD110 #4 _____ ~AE -CRS  📋 "royal" ? .
+TD259 attempt 3 ROYAL n n n m n
+TD89 #5 ___ES -ACR  📋 "royal" ? ␅
+TD1751503 ␆_O_ES
+TD76 #5 ___ES -ACR  📋 "royal" ? _O_ES
+TD175 attempt 4 ROYAL n Y n n n
+TD209 ? ␅
+TD279571 ␆
+TD79 ? 
+TD94 question done
+TD190 > ␅
+TD551527 ␆*
+TD74 > *
+TD639694 try? ␅
+TD2752310 ␆1
+TD94 try? 1
+TD283 questioning: ["roman", "#3"]
+TD357 #1 _____ ~LS -ACEORY  📋 "roman" ? ␅
+TD2815243 ␆.
+TD97 #1 _____ ~LS -ACEORY  📋 "roman" ? .
+TD263 attempt 0 ROMAN n n n n n
+TD98 #2 _____ ~ACER -LOSY  📋 "roman" ? ␅
+TD3183716 ␆_____ ~ RACEN
+TD98 #2 _____ ~ACER -LOSY  📋 "roman" ? _____ ~ RACEN
+TD244 attempt 1 ROMAN m n n m m
+TD159 #3 RO_A_ -CELSY  📋 "roman" ? ␅
+TD1567506 ␆/it
+TD99 #3 RO_A_ -CELSY  📋 "roman" ? /it
+TD265 attempt 2 ROMAN Y Y Y Y Y
+TD108 #4 _____ ~AE -CLORSY  📋 "roman" ? ␅
+TD4119450 ␆_____ ~ AEMN
+TD79 #4 _____ ~AE -CLORSY  📋 "roman" ? _____ ~ AEMN
+TD187 attempt 3 ROMAN n n m m m
+TD104 #5 _O_ES -ACLRY  📋 "roman" ? ␅
+TD6039766 ␆_O_ES ~ M
+TD99 #5 _O_ES -ACLRY  📋 "roman" ? _O_ES ~ M
+TD267 attempt 4 ROMAN n Y m n n
+TD348 ? ␅
+TD255187 ␆
+TD97 ? 
+TD126 question done
+TD320 > ␅
+TD423567 ␆*
+TD106 > *
+TD637205 questioning: ["crane", "#2"]
+TD194 #1 _____ ~LS -ACEMNORY  📋 "crane" ? ␅
+TD3651182 ␆.
+TD96 #1 _____ ~LS -ACEMNORY  📋 "crane" ? .
+TD264 attempt 0 CRANE n n n n n
+TD98 #2 _____ ~ACENR -LMOSY  📋 "crane" ? ␅
+TD670786 ␆/it
+TD81 #2 _____ ~ACENR -LMOSY  📋 "crane" ? /it
+TD190 attempt 1 CRANE Y Y Y Y Y
+TD69 #4 _____ ~AEMN -CLORSY  📋 "crane" ? ␅
+TD4159731 ␆___N_ ~ AEM
+TD110 #4 _____ ~AEMN -CLORSY  📋 "crane" ? ___N_ ~ AEM
+TD1428 attempt 3 CRANE n n m Y m
+TD105 #5 _O_ES ~M -ACLNRY  📋 "crane" ? ␅
+TD2590388 ␆.
+TD81 #5 _O_ES ~M -ACLNRY  📋 "crane" ? .
+TD204 attempt 4 CRANE n n n n n
+TD190 ? ␅
+TD159543 ␆
+TD74 ? 
+TD82 question done
+TD203 > ␅
+TD447583 ␆*
+TD93 > *
+TD1195937 questioning: ["split", "#1"]
+TD196 #1 _____ ~LS -ACEMNORY  📋 "split" ? ␅
+TD2763733 ␆/it
+TD75 #1 _____ ~LS -ACEMNORY  📋 "split" ? /it
+TD191 attempt 0 SPLIT Y Y Y Y Y
+TD70 #4 ___N_ ~AEM -CLORSY  📋 "split" ? ␅
+TD2063761 ␆.
+TD95 #4 ___N_ ~AEM -CLORSY  📋 "split" ? .
+TD342 attempt 3 SPLIT n n n n n
+TD127 #5 _O_ES ~M -ACELNRY  📋 "split" ? ␅
+TD2663415 ␆.
+TD79 #5 _O_ES ~M -ACELNRY  📋 "split" ? .
+TD190 attempt 4 SPLIT n n n n n
+TD187 ? ␅
+TD175542 ␆
+TD109 ? 
+TD128 question done
+TD320 > ␅
+TD416071 ␆*
+TD79 > *
+TD1403957 questioning: ["amend", "#4"]
+TD205 #4 ___N_ ~AEM -CILOPRSTY  📋 "amend" ? ␅
+TD2323132 ␆/it
+TD98 #4 ___N_ ~AEM -CILOPRSTY  📋 "amend" ? /it
+TD264 attempt 3 AMEND Y Y Y Y Y
+TD103 #5 _O_ES ~M -ACEILNPRSTY  📋 "amend" ? ␅
+TD3567576 ␆_O_ES ~ MD
+TD81 #5 _O_ES ~M -ACEILNPRSTY  📋 "amend" ? _O_ES ~ MD
+TD223 attempt 4 AMEND n m n n m
+TD350 ? ␅
+TD247483 ␆
+TD107 ? 
+TD120 question done
+TD308 > ␅
+TD431404 ␆*
+TD98 > *
+TD934018 questioning: ["modes", "#5"]
+TD200 #5 _O_ES ~DM -ACEILNPRSTY  📋 "modes" ? ␅
+TD3001684 ␆/it
+TD93 #5 _O_ES ~DM -ACEILNPRSTY  📋 "modes" ? /it
+TD266 attempt 4 MODES Y Y Y Y Y
+TD285 ? ␅
+TD2351472 ␆
+TD100 ? 
+TD106 question done
+TD22155 📋> ␅
+TD2762170 ␆squareword.org 1560: 7 guesses
+TD96 📋> squareword.org 1560: 7 guesses
+TD13 📋> ␅
+TD44 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD10 ␆🟨🟨🟨🟩🟨
+TD4 📋> 🟨🟨🟨🟩🟨
+TD4 📋> ␅
+TD12 ␆🟨🟩🟨🟩🟩
+TD4 📋> 🟨🟩🟨🟩🟩
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD287488 ␆#squareword #squareword1560
+TD98 📋> #squareword #squareword1560
+TD13 📋> ␅
+TD159485 ␄
+TD192 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1560: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1560"}
+TD928 result: "squareword.org 1560: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1560"
+TD66 📆 2026-05-10 ? ␅
+TD158839 ␆
+TD107 📆 2026-05-10 ? 
