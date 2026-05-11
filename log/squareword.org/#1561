@@ -1,0 +1,212 @@
+T92534.471586558 now: 2026-05-11T08:06:09EDT
+TD79 site: squareword.org
+TD21 wordlist: nwl2023.txt
+TD27  ...␅
+TD454696 ␆
+TD100  ...
+TD75 🧩  ? ␅
+TD3687679 ␆#1561
+TD100 🧩  ? #1561
+TD301 puzzle_id: #1561
+TD215 > ␅
+TD2135401 ␆*
+TD86 > *
+TD93441 try? ␅
+TD594759 ␆1
+TD66 try? 1
+TD206 questioning: ["pales", "#5"]
+TD149 #1 <IndexError>  📋 "pales" ? ␅
+TD4039452 ␆_____ ~ S
+TD80 #1 <IndexError>  📋 "pales" ? _____ ~ S
+TD469 attempt 0 PALES n n n n m
+TD92 #2 <IndexError>  📋 "pales" ? ␅
+TD3583331 ␆___E_ ~ PLE
+TD98 #2 <IndexError>  📋 "pales" ? ___E_ ~ PLE
+TD262 attempt 1 PALES m n m Y n
+TD129 #3 <IndexError>  📋 "pales" ? ␅
+TD3367527 ␆_____ ~ AE
+TD81 #3 <IndexError>  📋 "pales" ? _____ ~ AE
+TD189 attempt 2 PALES n m n m n
+TD130 #4 <IndexError>  📋 "pales" ? ␅
+TD2119655 ␆_____ ~ E
+TD99 #4 <IndexError>  📋 "pales" ? _____ ~ E
+TD195 attempt 3 PALES n n n m n
+TD92 #5 <IndexError>  📋 "pales" ? ␅
+TD2415574 ␆___E_ ~ ES
+TD78 #5 <IndexError>  📋 "pales" ? ___E_ ~ ES
+TD188 attempt 4 PALES n n n Y m
+TD326 ? ␅
+TD519488 ␆
+TD84 ? 
+TD109 question done
+TD192 > ␅
+TD599556 ␆*
+TD96 > *
+TD2376490 try? ␅
+TD983459 ␆1
+TD71 try? 1
+TD194 questioning: ["loper", "#2"]
+TD169 #1 _____ ~S -AELP  📋 "loper" ? ␅
+TD4599726 ␆_____ ~ SOR
+TD92 #1 _____ ~S -AELP  📋 "loper" ? _____ ~ SOR
+TD190 attempt 0 LOPER n m n n m
+TD103 #2 ___E_ ~LP -AS  📋 "loper" ? ␅
+TD2607528 ␆L_PER ~ E
+TD80 #2 ___E_ ~LP -AS  📋 "loper" ? L_PER ~ E
+TD184 attempt 1 LOPER Y n Y Y Y
+TD110 #3 _____ ~AE -LPS  📋 "loper" ? ␅
+TD3559846 ␆_____ ~ AER
+TD83 #3 _____ ~AE -LPS  📋 "loper" ? _____ ~ AER
+TD185 attempt 2 LOPER n n n m m
+TD103 #4 _____ ~E -ALPS  📋 "loper" ? ␅
+TD783575 ␆.
+TD101 #4 _____ ~E -ALPS  📋 "loper" ? .
+TD280 attempt 3 LOPER n n n m n
+TD102 #5 ___E_ ~S -ALP  📋 "loper" ? ␅
+TD3767615 ␆___E_ ~ ES
+TD81 #5 ___E_ ~S -ALP  📋 "loper" ? ___E_ ~ ES
+TD184 attempt 4 LOPER n n n Y n
+TD204 ? ␅
+TD311336 ␆
+TD82 ? 
+TD93 question done
+TD187 > ␅
+TD592400 ␆*
+TD91 > *
+TD3577361 questioning: ["leper", "#2"]
+TD193 #1 _____ ~ORS -AELP  📋 "leper" ? ␅
+TD3493790 ␆.
+TD98 #1 _____ ~ORS -AELP  📋 "leper" ? .
+TD261 attempt 0 LEPER n n n n m
+TD105 #2 L_PER -AOS  📋 "leper" ? ␅
+TD599498 ␆/it
+TD95 #2 L_PER -AOS  📋 "leper" ? /it
+TD252 attempt 1 LEPER Y Y Y Y Y
+TD101 #3 _____ ~AER -LOPS  📋 "leper" ? ␅
+TD1239638 ␆.
+TD99 #3 _____ ~AER -LOPS  📋 "leper" ? .
+TD265 attempt 2 LEPER n m n m m
+TD98 #4 _____ ~E -ALOPRS  📋 "leper" ? ␅
+TD1071532 ␆.
+TD101 #4 _____ ~E -ALOPRS  📋 "leper" ? .
+TD269 attempt 3 LEPER n m n m n
+TD94 #5 ___E_ ~S -ALOPR  📋 "leper" ? ␅
+TD2983595 ␆___E_ ~ ES
+TD101 #5 ___E_ ~S -ALOPR  📋 "leper" ? ___E_ ~ ES
+TD254 attempt 4 LEPER n m n Y n
+TD284 ? ␅
+TD327444 ␆
+TD101 ? 
+TD128 question done
+TD310 > ␅
+TD839299 ␆*
+TD90 > *
+TD2867380 try? ␅
+TD4260594 ␆3
+TD75 try? 3
+TD258 questioning: ["frost", "#1"]
+TD368 #1 _____ ~ORS -AELP  📋 "frost" ? ␅
+TD2527392 ␆/it
+TD93 #1 _____ ~ORS -AELP  📋 "frost" ? /it
+TD257 attempt 0 FROST Y Y Y Y Y
+TD99 #3 _____ ~AER -LOPS  📋 "frost" ? ␅
+TD4751646 ␆_____ ~ AERF
+TD77 #3 _____ ~AER -LOPS  📋 "frost" ? _____ ~ AERF
+TD180 attempt 2 FROST m m n n n
+TD101 #4 _____ ~E -ALOPRS  📋 "frost" ? ␅
+TD3335612 ␆_____ ~ ET
+TD71 #4 _____ ~E -ALOPRS  📋 "frost" ? _____ ~ ET
+TD186 attempt 3 FROST n n n n m
+TD105 #5 ___E_ ~S -ALOPR  📋 "frost" ? ␅
+TD2479697 ␆___E_ ~ EST
+TD82 #5 ___E_ ~S -ALOPR  📋 "frost" ? ___E_ ~ EST
+TD183 attempt 4 FROST n n n m m
+TD213 ? ␅
+TD279498 ␆
+TD84 ? 
+TD101 question done
+TD195 > ␅
+TD455646 ␆*
+TD81 > *
+TD2417238 questioning: ["afire", "#3"]
+TD222 #3 _____ ~AEFR -LOPST  📋 "afire" ? ␅
+TD4862445 ␆/it
+TD102 #3 _____ ~AEFR -LOPST  📋 "afire" ? /it
+TD268 attempt 2 AFIRE Y Y Y Y Y
+TD102 #4 _____ ~ET -AFLOPRS  📋 "afire" ? ␅
+TD3192006 ␆____E ~ TI
+TD105 #4 _____ ~ET -AFLOPRS  📋 "afire" ? ____E ~ TI
+TD273 attempt 3 AFIRE n n m n Y
+TD152 #5 ___E_ ~ST -AFLOPR  📋 "afire" ? ␅
+TD3399156 ␆___E_ ~ EST
+TD69 #5 ___E_ ~ST -AFLOPR  📋 "afire" ? ___E_ ~ EST
+TD182 attempt 4 AFIRE n n n n m
+TD215 ? ␅
+TD335454 ␆
+TD84 ? 
+TD101 question done
+TD190 > ␅
+TD471614 ␆*
+TD107 > *
+TD1750388 questioning: ["tinge", "#4"]
+TD208 #4 ____E ~IT -AFLOPRS  📋 "tinge" ? ␅
+TD3681310 ␆/it
+TD71 #4 ____E ~IT -AFLOPRS  📋 "tinge" ? /it
+TD161 attempt 3 TINGE Y Y Y Y Y
+TD61 #5 ___E_ ~ST -AFILOPR  📋 "tinge" ? ␅
+TD3479973 ␆___E_ ~ EST
+TD75 #5 ___E_ ~ST -AFILOPR  📋 "tinge" ? ___E_ ~ EST
+TD184 attempt 4 TINGE m n n n m
+TD216 ? ␅
+TD551509 ␆
+TD98 ? 
+TD122 question done
+TD322 > ␅
+TD407357 ␆*
+TD75 > *
+TD1093271 questioning: ["steed", "#5"]
+TD196 #5 ___E_ ~ST -AFGILNOPR  📋 "steed" ? ␅
+TD6050637 ␆/it
+TD77 #5 ___E_ ~ST -AFGILNOPR  📋 "steed" ? /it
+TD187 attempt 4 STEED Y Y Y Y Y
+TD179 ? ␅
+TD1015546 ␆
+TD93 ? 
+TD99 question done
+TD35116 📋> ␅
+TD5125065 ␆squareword.org 1561: 7 guesses
+TD81 📋> squareword.org 1561: 7 guesses
+TD9 📋> ␅
+TD30 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD7 ␆🟨🟨🟨🟩🟨
+TD2 📋> 🟨🟨🟨🟩🟨
+TD2 📋> ␅
+TD6 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD287363 ␆#squareword #squareword1561
+TD81 📋> #squareword #squareword1561
+TD8 📋> ␅
+TD160357 ␄
+TD176 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1561: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1561"}
+TD1546 result: "squareword.org 1561: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1561"
+TD127 📆 2026-05-11 ? ␅
+TD167824 ␆
+TD102 📆 2026-05-11 ? 
