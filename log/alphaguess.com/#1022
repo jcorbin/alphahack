@@ -1,0 +1,85 @@
+T91808.270461533 now: 2026-05-11T07:54:02EDT
+TD144 site: alphaguess.com
+TD155043 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 9a702d386179f5b531c2c6802b5b091e4a745ecf
+TD97  ...␅
+TD1403726 ␆
+TD80  ...
+TD139 [0 : 98216 : 196522] mach? ␅
+TD62688623 ␆
+TD95 [0 : 98216 : 196522] mach? 
+TD90 [0 : 98216 : 196522] mach? ␅
+TD2047727 ␆a
+TD113 [0 : 98216 : 196522] mach? a
+TD111 progress: 1 98216 mach
+TD242 [98217 : 147366 : 196522] rhotic? ␅
+TD1607632 ␆a
+TD97 [98217 : 147366 : 196522] rhotic? a
+TD102 progress: 1 147366 rhotic
+TD104 [147367 : 171636 : 196522] ta? ␅
+TD4543660 ␆b
+TD100 [147367 : 171636 : 196522] ta? b
+TD109 progress: -1 171636 ta
+TD105 [147367 : 159483 : 171636] slop? ␅
+TD1495709 ␆a
+TD90 [147367 : 159483 : 171636] slop? a
+TD89 progress: 1 159483 slop
+TD78 [159484 : 165525 : 171636] stick? ␅
+TD1455675 ␆b
+TD76 [159484 : 165525 : 171636] stick? b
+TD78 progress: -1 165525 stick
+TD87 [159484 : 162470 : 165525] spec? ␅
+TD1519890 ␆b
+TD100 [159484 : 162470 : 165525] spec? b
+TD106 progress: -1 162470 spec
+TD92 [159484 : 160962 : 162470] soft? ␅
+TD1615710 ␆a
+TD98 [159484 : 160962 : 162470] soft? a
+TD107 progress: 1 160962 soft
+TD108 [160963 : 161713 : 162470] sore? ␅
+TD1399696 ␆a
+TD74 [160963 : 161713 : 162470] sore? a
+TD81 progress: 1 161713 sore
+TD123 [161714 : 162088 : 162470] sozin? ␅
+TD1463743 ␆b
+TD79 [161714 : 162088 : 162470] sozin? b
+TD82 progress: -1 162088 sozin
+TD79 [161714 : 161818 : 162088] sou? ␅
+TD2359691 ␆a
+TD99 [161714 : 161818 : 162088] sou? a
+TD103 progress: 1 161818 sou
+TD120 [161819 : 161951 : 162088] sous? ␅
+TD1407812 ␆b
+TD102 [161819 : 161951 : 162088] sous? b
+TD108 progress: -1 161951 sous
+TD118 [161819 : 161862 : 161951] sound? ␅
+TD1447591 ␆a
+TD100 [161819 : 161862 : 161951] sound? a
+TD106 progress: 1 161862 sound
+TD109 [161863 : 161902 : 161951] soup? ␅
+TD1984351 ␆it
+TD99 [161863 : 161902 : 161951] soup? it
+TD109 progress: 0 161902 soup
+TD27 [161863 : 161902 : 161951] <Done>.
+TD59 📋> ␅
+TD2544306 ␆🧩 Puzzle #1022
+TD101 📋> 🧩 Puzzle #1022
+TD12 📋> ␅
+TD64 ␆🤔 13 guesses
+TD7 📋> 🤔 13 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 21s
+TD6 📋> ⏱️ 21s
+TD5 📋> ␅
+TD294749 ␆🔗 alphaguess.com/1022
+TD96 📋> 🔗 alphaguess.com/1022
+TD12 📋> ␅
+TD175979 ␄
+TD226 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1022\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/1022"}
+TD135 result: "\ud83e\udde9 Puzzle #1022\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/1022"
+TD19 result puzzle: 1022
+TD7 result guesses: 13
+TD5 result time: 21s
+TD5 result link: alphaguess.com/1022
+TD88 📆 2026-05-11 ? ␅
+TD215519 ␆
+TD98 📆 2026-05-11 ? 
