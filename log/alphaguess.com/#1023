@@ -1,0 +1,69 @@
+T105.43055817700224 now: 2026-05-12T07:51:24EDT
+TD128 site: alphaguess.com
+TD178564 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 296c663cb5c16441889075b77b68cd6108447714
+TD126  ...␅
+TD7004178 ␆
+TD101  ...
+TD175 [0 : 98216 : 196522] mach? ␅
+TD2447631 ␆b
+TD78 [0 : 98216 : 196522] mach? b
+TD83 progress: -1 98216 mach
+TD83 [0 : 47380 : 98216] dis? ␅
+TD1847691 ␆a
+TD96 [0 : 47380 : 98216] dis? a
+TD102 progress: 1 47380 dis
+TD463 [47381 : 72798 : 98216] gremmy? ␅
+TD1967333 ␆a
+TD79 [47381 : 72798 : 98216] gremmy? a
+TD77 progress: 1 72798 gremmy
+TD77 [72799 : 85502 : 98216] ins? ␅
+TD1679786 ␆b
+TD98 [72799 : 85502 : 98216] ins? b
+TD102 progress: -1 85502 ins
+TD104 [72799 : 79130 : 85502] hood? ␅
+TD1767873 ␆b
+TD80 [72799 : 79130 : 85502] hood? b
+TD79 progress: -1 79130 hood
+TD74 [72799 : 75954 : 79130] haw? ␅
+TD2063638 ␆a
+TD80 [72799 : 75954 : 79130] haw? a
+TD78 progress: 1 75954 haw
+TD80 [75955 : 77498 : 79130] hetero? ␅
+TD1751847 ␆b
+TD76 [75955 : 77498 : 79130] hetero? b
+TD77 progress: -1 77498 hetero
+TD107 [75955 : 76697 : 77498] helio? ␅
+TD1551660 ␆bv
+TD95 [75955 : 76697 : 77498] helio? bv
+TD145 [75955 : 76697 : 77498] helio? ␅
+TD2743888 ␆b
+TD98 [75955 : 76697 : 77498] helio? b
+TD101 progress: -1 76697 helio
+TD103 [75955 : 76289 : 76697] heart? ␅
+TD3343590 ␆it
+TD96 [75955 : 76289 : 76697] heart? it
+TD101 progress: 0 76289 heart
+TD28 [75955 : 76289 : 76697] <Done>.
+TD86 📋> ␅
+TD2985047 ␆🧩 Puzzle #1023
+TD120 📋> 🧩 Puzzle #1023
+TD13 📋> ␅
+TD38 ␆🤔 9 guesses
+TD6 📋> 🤔 9 guesses
+TD6 📋> ␅
+TD70 ␆⏱️ 17s
+TD19 📋> ⏱️ 17s
+TD5 📋> ␅
+TD270484 ␆🔗 alphaguess.com/1023
+TD77 📋> 🔗 alphaguess.com/1023
+TD7 📋> ␅
+TD199802 ␄
+TD172 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1023\n\ud83e\udd14 9 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/1023"}
+TD100 result: "\ud83e\udde9 Puzzle #1023\n\ud83e\udd14 9 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/1023"
+TD16 result puzzle: 1023
+TD8 result guesses: 9
+TD6 result time: 17s
+TD5 result link: alphaguess.com/1023
+TD92 📆 2026-05-12 ? ␅
+TD1480035 ␆
+TD80 📆 2026-05-12 ? 
