@@ -1,0 +1,175 @@
+T203.09500585799833 now: 2026-05-12T07:53:01EDT
+TD134 site: dontwordle.com
+TD23 wordlist: nwl2023.txt
+TD43  ...␅
+TD1358756 ␆
+TD105  ...
+TD120 1> ␅
+TD9807989 ␆
+TD98 1> 
+TD175 1> ␅
+TD3375672 ␆* -bot 10
+TD77 1> * -bot 10
+TD183898 ? ␅
+TD1111868 ␆1
+TD77 ? 1
+TD196 📋 "arose" ? ␅
+TD4095841 ␆MnnMn
+TD98 📋 "arose" ? MnnMn
+TD568 tried: AROSE m n n m n
+TD194 2> ␅
+TD2519383 ␆undo
+TD96 2> undo
+TD147 undo
+TD142 1> ␅
+TD3431356 ␆*
+TD97 1> *
+TD112492 ? ␅
+TD655468 ␆1
+TD95 ? 1
+TD252 📋 "deked" ? ␅
+TD4607661 ␆nnnnn
+TD100 📋 "deked" ? nnnnn
+TD165 tried: DEKED n n n n n
+TD112 2> ␅
+TD815759 ␆*(
+TD98 2> *(
+TD172 2> ␅
+TD631631 ␆*
+TD98 2> *
+TD107629 ? ␅
+TD772401 ␆1
+TD98 ? 1
+TD229 📋 "lotto" ? ␅
+TD3687547 ␆Mnnnn
+TD81 📋 "lotto" ? Mnnnn
+TD149 tried: LOTTO m n n n n
+TD121 3> ␅
+TD735746 ␆undo
+TD102 3> undo
+TD148 undo
+TD207 2> ␅
+TD2687417 ␆*
+TD108 2> *
+TD100274 ? ␅
+TD619618 ␆1
+TD90 ? 1
+TD174 📋 "mommy" ? ␅
+TD6239830 ␆nnnnY
+TD77 📋 "mommy" ? nnnnY
+TD145 tried: MOMMY n n n n Y
+TD123 3> ␅
+TD975737 ␆undo
+TD79 3> undo
+TD104 undo
+TD127 2> ␅
+TD3120102 ␆*
+TD77 2> *
+TD95552 ? ␅
+TD959945 ␆1
+TD77 ? 1
+TD175 📋 "zizit" ? ␅
+TD5079839 ␆nnnnn
+TD82 📋 "zizit" ? nnnnn
+TD147 tried: ZIZIT n n n n n
+TD116 3> ␅
+TD415949 ␆*
+TD96 3> *
+TD94660 ? ␅
+TD1200808 ␆1
+TD99 ? 1
+TD226 📋 "jomon" ? ␅
+TD4527771 ␆nnnnn
+TD72 📋 "jomon" ? nnnnn
+TD133 tried: JOMON n n n n n
+TD103 4> ␅
+TD415674 ␆*
+TD74 4> *
+TD74293 ? ␅
+TD749667 ␆1
+TD76 ? 1
+TD173 📋 "churr" ? ␅
+TD6775897 ␆nnnnn
+TD105 📋 "churr" ? nnnnn
+TD193 tried: CHURR n n n n n
+TD127 5> ␅
+TD559548 ␆*
+TD92 5> *
+TD188319 ? ␅
+TD3283520 ␆1
+TD74 ? 1
+TD165 📋 "gabba" ? ␅
+TD5119862 ␆nYnnn
+TD98 📋 "gabba" ? nYnnn
+TD199 tried: GABBA n Y n n n
+TD206 6> ␅
+TD855450 ␆*
+TD98 6> *
+TD186230 📋 "papaw" ? ␅
+TD6413814 ␄
+TD135 <EOF>
+TD166 6> ␅
+TD1839698 ␆* -bot 10
+TD99 6> * -bot 10
+TD92275 6> ␅
+TD1291464 ␆*
+TD96 6> *
+TD182832 📋 "papaw" ? ␅
+TD1025115 ␄
+TD122 <EOF>
+TD156 6> ␅
+TD1287779 ␆* -sans
+TD78 6> * -sans
+TD89385 ? ␅
+TD990530 ␆1
+TD97 ? 1
+TD226 📋 "lalls" ? ␅
+TD4583758 ␆nYYYM
+TD100 📋 "lalls" ? nYYYM
+TD201 tried: LALLS n Y Y Y m
+TD199 📋> ␅
+TD4120440 ␆Don't Wordle 1449 - SURVIVED
+TD118 📋> Don't Wordle 1449 - SURVIVED
+TD14 📋> ␅
+TD44 ␆Hooray! I didn't Wordle today!
+TD8 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD16 ␆⬜⬜⬜⬜⬜5348
+TD6 📋> ⬜⬜⬜⬜⬜5348
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜2482
+TD5 📋> ⬜⬜⬜⬜⬜2482
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜760
+TD5 📋> ⬜⬜⬜⬜⬜760
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜160
+TD4 📋> ⬜⬜⬜⬜⬜160
+TD5 📋> ␅
+TD11 ␆⬜🟩⬜⬜⬜31
+TD5 📋> ⬜🟩⬜⬜⬜31
+TD5 📋> ␅
+TD10 ␆⬜🟩🟩🟩🟨1
+TD4 📋> ⬜🟩🟩🟩🟨1
+TD4 📋> ␅
+TD10 ␆Undos used: 3
+TD5 📋> Undos used: 3
+TD5 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD10 ␆  1 words remaining
+TD5 📋>   1 words remaining
+TD5 📋> ␅
+TD10 ␆x 7 unused letters
+TD5 📋> x 7 unused letters
+TD4 📋> ␅
+TD462757 ␆= 7 total score
+TD99 📋> = 7 total score
+TD12 📋> ␅
+TD199827 ␄
+TD181 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1449 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5348\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2482\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c760\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c160\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c31\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe81\nUndos used: 3\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"}
+TD1036 result: "Don't Wordle 1449 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5348\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2482\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c760\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c160\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c31\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe81\nUndos used: 3\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TD65 📆 2026-05-12 ? ␅
+TD230665 ␆
+TD102 📆 2026-05-12 ? 
