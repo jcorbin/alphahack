@@ -1,0 +1,179 @@
+T1016.1497050149992 now: 2026-05-12T08:06:34EDT
+TD78 site: m-w.com/games/quordle/#/
+TD14 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD82  ...␅
+TD583067 ␆
+TD82  ...
+TD391753 > ␅
+TD4544067 ␆*
+TD65 > *
+TD32235 ? ␅
+TD783729 ␆1
+TD63 ? 1
+TD125 questioning: reals
+TD94 Classic #1 _____? ␅
+TD5543757 ␆nnMMn
+TD65 Classic #1 _____? nnMMn
+TD233 attempt: 0 REALS n n m m n
+TD61 Classic #2 _____? ␅
+TD1583644 ␆nnYMn
+TD63 Classic #2 _____? nnYMn
+TD169 attempt: 1 REALS n n Y m n
+TD61 Classic #3 _____? ␅
+TD2503750 ␆nnMYn
+TD74 Classic #3 _____? nnMYn
+TD136 attempt: 2 REALS n n m Y n
+TD55 Classic #4 _____? ␅
+TD1367717 ␆nnnnM
+TD62 Classic #4 _____? nnnnM
+TD139 attempt: 3 REALS n n n n m
+TD292220 > ␅
+TD995659 ␆*
+TD89 > *
+TD1225 ? ␅
+TD4014648 ␆1
+TD81 ? 1
+TD132 questioning: situp
+TD105 Classic #1 _____ ~AL -ERS? ␅
+TD3079837 ␆nnnnn
+TD82 Classic #1 _____ ~AL -ERS? nnnnn
+TD161 attempt: 0 SITUP n n n n n
+TD74 Classic #2 __A__ ~L -ERS? ␅
+TD1031557 ␆nMnnn
+TD102 Classic #2 __A__ ~L -ERS? nMnnn
+TD227 attempt: 1 SITUP n m n n n
+TD112 Classic #3 ___L_ ~A -ERS? ␅
+TD2167729 ␆nnnnn
+TD93 Classic #3 ___L_ ~A -ERS? nnnnn
+TD224 attempt: 2 SITUP n n n n n
+TD113 Classic #4 _____ ~S -AELR? ␅
+TD1959482 ␆YMMnn
+TD73 Classic #4 _____ ~S -AELR? YMMnn
+TD132 attempt: 3 SITUP Y m m n n
+TD369544 > ␅
+TD734396 ␆*
+TD69 > *
+TD587 ? ␅
+TD2455284 ␆1
+TD73 ? 1
+TD132 questioning: modal
+TD105 Classic #1 _____ ~AL -EIPRSTU? ␅
+TD4791755 ␆nMnMM
+TD76 Classic #1 _____ ~AL -EIPRSTU? nMnMM
+TD153 attempt: 0 MODAL n m n m m
+TD72 Classic #2 __A__ ~IL -EPRSTU? ␅
+TD1471811 ␆nnnMY
+TD86 Classic #2 __A__ ~IL -EPRSTU? nnnMY
+TD224 attempt: 1 MODAL n n n m Y
+TD105 Classic #3 ___L_ ~A -EIPRSTU? ␅
+TD1703597 ␆nnYMM
+TD78 Classic #3 ___L_ ~A -EIPRSTU? nnYMM
+TD162 attempt: 2 MODAL n n Y m m
+TD79 Classic #4 S____ ~IT -AELPRU? ␅
+TD1295556 ␆nnnnn
+TD78 Classic #4 S____ ~IT -AELPRU? nnnnn
+TD160 attempt: 3 MODAL n n n n n
+TD345684 > ␅
+TD782075 ␆*
+TD65 > *
+TD232 questioning: badly
+TD61 Classic #1 _____ ~ALO -DEIMPRSTU? ␅
+TD3319722 ␆nMnMn
+TD75 Classic #1 _____ ~ALO -DEIMPRSTU? nMnMn
+TD156 attempt: 0 BADLY n m n m n
+TD77 Classic #2 __A_L ~I -DEMOPRSTU? ␅
+TD1383712 ␆nMnMn
+TD71 Classic #2 __A_L ~I -DEMOPRSTU? nMnMn
+TD163 attempt: 1 BADLY n m n m n
+TD82 Classic #3 __DL_ ~A -EIMOPRSTU? ␅
+TD1303863 ␆YYYYY
+TD80 Classic #3 __DL_ ~A -EIMOPRSTU? YYYYY
+TD157 attempt: 2 BADLY Y Y Y Y Y
+TD81 Classic #4 S____ ~IT -ADELMOPRU? ␅
+TD1071530 ␆nnnnn
+TD93 Classic #4 S____ ~IT -ADELMOPRU? nnnnn
+TD217 attempt: 3 BADLY n n n n n
+TD270574 > ␅
+TD1081226 ␆*
+TD91 > *
+TD494 ? ␅
+TD2767333 ␆2
+TD94 ? 2
+TD190 questioning: flail
+TD176 Classic #1 _____ ~ALO -BDEIMPRSTUY? ␅
+TD4855535 ␆nMMnn
+TD81 Classic #1 _____ ~ALO -BDEIMPRSTUY? nMMnn
+TD161 attempt: 0 FLAIL n m m n n
+TD81 Classic #2 __A_L ~I -BDEMOPRSTUY? ␅
+TD1559867 ␆nnYYY
+TD97 Classic #2 __A_L ~I -BDEMOPRSTUY? nnYYY
+TD215 attempt: 1 FLAIL n n Y Y Y
+TD129 Classic #4 S____ ~IT -ABDELMOPRUY? ␅
+TD1199449 ␆nnnMn
+TD96 Classic #4 S____ ~IT -ABDELMOPRUY? nnnMn
+TD212 attempt: 3 FLAIL n n n m n
+TD257603 > ␅
+TD1486114 ␆*
+TD96 > *
+TD380 questioning: avail
+TD158 Classic #1 _____ ~ALO -BDEFIMPRSTUY L:1? ␅
+TD3935424 ␆YnnnM
+TD69 Classic #1 _____ ~ALO -BDEFIMPRSTUY L:1? YnnnM
+TD152 attempt: 0 AVAIL Y n n n m
+TD80 Classic #2 __AIL -BDEFMOPRSTUY? ␅
+TD1319799 ␆YYYYY
+TD106 Classic #2 __AIL -BDEFMOPRSTUY? YYYYY
+TD156 attempt: 1 AVAIL Y Y Y Y Y
+TD81 Classic #4 S____ ~IT -ABDEFLMOPRUY? ␅
+TD1079460 ␆nnnMn
+TD79 Classic #4 S____ ~IT -ABDEFLMOPRUY? nnnMn
+TD150 attempt: 3 AVAIL n n n m n
+TD188069 > ␅
+TD715830 ␆*
+TD93 > *
+TD524 ? ␅
+TD2151334 ␆1
+TD97 ? 1
+TD174 questioning: aglow
+TD160 Classic #1 A____ ~LO -BDEFIMPRSTUVY L:1? ␅
+TD3535738 ␆YYYYY
+TD75 Classic #1 A____ ~LO -BDEFIMPRSTUVY L:1? YYYYY
+TD149 attempt: 0 AGLOW Y Y Y Y Y
+TD81 Classic #4 S____ ~IT -ABDEFLMOPRUVY? ␅
+TD687559 ␆*
+TD73 Classic #4 S____ ~IT -ABDEFLMOPRUVY? *
+TD138 Classic #4 S____ ~IT -ABDEFLMOPRUVY? ␅
+TD3207876 ␆nMnnn
+TD137 Classic #4 S____ ~IT -ABDEFLMOPRUVY? nMnnn
+TD244 attempt: 3 AGLOW n m n n n
+TD96134 > ␅
+TD687458 ␆*
+TD93 > *
+TD301 questioning: sting
+TD75 Classic #4 S____ ~GIT -ABDEFLMOPRUVWY? ␅
+TD3023699 ␆YYYYY
+TD97 Classic #4 S____ ~GIT -ABDEFLMOPRUVWY? YYYYY
+TD215 attempt: 3 STING Y Y Y Y Y
+TD93 📋> ␅
+TD4544157 ␆🙂 Daily Quordle 1569
+TD76 📋> 🙂 Daily Quordle 1569
+TD7 📋> ␅
+TD40 ␆7️⃣6️⃣
+TD4 📋> 7️⃣6️⃣
+TD3 📋> ␅
+TD10 ␆4️⃣8️⃣
+TD2 📋> 4️⃣8️⃣
+TD2 📋> ␅
+TD8 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD367150 ␆
+TD71 📋> 
+TD6 📋> ␅
+TD199903 ␄
+TD119 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1569\n7\ufe0f\u20e36\ufe0f\u20e3\n4\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD762 result: "\ud83d\ude42 Daily Quordle 1569\n7\ufe0f\u20e36\ufe0f\u20e3\n4\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD55 📆 2026-05-12 ? ␅
+TD303398 ␆
+TD76 📆 2026-05-12 ? 
