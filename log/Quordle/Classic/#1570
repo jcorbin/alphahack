@@ -1,0 +1,183 @@
+T85973.715031525 now: 2026-05-13T08:27:23EDT
+TD108 site: m-w.com/games/quordle/#/
+TD73 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD231  ...␅
+TD5390447 ␆
+TD75  ...
+TD439888 > ␅
+TD863982 ␆*
+TD63 > *
+TD52295 ? ␅
+TD6147735 ␆6
+TD65 ? 6
+TD132 questioning: antes
+TD127 Classic #1 _____? ␅
+TD2815694 ␆nMnnM
+TD69 Classic #1 _____? nMnnM
+TD290 attempt: 0 ANTES n m n n m
+TD58 Classic #2 _____? ␅
+TD1815649 ␆MnnMn
+TD78 Classic #2 _____? MnnMn
+TD169 attempt: 1 ANTES m n n m n
+TD67 Classic #3 _____? ␅
+TD1279850 ␆nYYYn
+TD85 Classic #3 _____? nYYYn
+TD168 attempt: 2 ANTES n Y Y Y n
+TD73 Classic #4 _____? ␅
+TD1119756 ␆nnMnM
+TD95 Classic #4 _____? nnMnM
+TD212 attempt: 3 ANTES n n m n m
+TD420519 > ␅
+TD779016 ␆*
+TD98 > *
+TD595 ? ␅
+TD1599274 ␆3
+TD63 ? 3
+TD125 questioning: enter
+TD665 Classic #1 _____ ~NS -AET? ␅
+TD2831133 ␆nMnnn
+TD76 Classic #1 _____ ~NS -AET? nMnnn
+TD152 attempt: 0 ENTER n m n n n
+TD75 Classic #2 _____ ~AE -NST? ␅
+TD1623718 ␆Mnnnn
+TD83 Classic #2 _____ ~AE -NST? Mnnnn
+TD162 attempt: 1 ENTER m n n n n
+TD76 Classic #3 _NTE_ -AS? ␅
+TD1863813 ␆nYYYY
+TD75 Classic #3 _NTE_ -AS? nYYYY
+TD148 attempt: 2 ENTER n Y Y Y Y
+TD77 Classic #4 _____ ~ST -AEN? ␅
+TD1103721 ␆nnMnn
+TD77 Classic #4 _____ ~ST -AEN? nnMnn
+TD150 attempt: 3 ENTER n n m n n
+TD482900 > ␅
+TD1108930 ␆*
+TD97 > *
+TD370 questioning: inter
+TD75 Classic #1 _____ ~NS -AERT? ␅
+TD2823717 ␆nMnnn
+TD85 Classic #1 _____ ~NS -AERT? nMnnn
+TD182 attempt: 0 INTER n m n n n
+TD94 Classic #2 _____ ~AE -NRST E:1? ␅
+TD1215350 ␆nnnMn
+TD81 Classic #2 _____ ~AE -NRST E:1? nnnMn
+TD164 attempt: 1 INTER n n n m n
+TD76 Classic #3 _NTER -AS? ␅
+TD1679678 ␆YYYYY
+TD91 Classic #3 _NTER -AS? YYYYY
+TD153 attempt: 2 INTER Y Y Y Y Y
+TD74 Classic #4 _____ ~ST -AENR? ␅
+TD1119562 ␆nnMnn
+TD70 Classic #4 _____ ~ST -AENR? nnMnn
+TD155 attempt: 3 INTER n n m n n
+TD319061 > ␅
+TD1176765 ␆*
+TD75 > *
+TD1047 ? ␅
+TD998908 ␆1
+TD70 ? 1
+TD117 questioning: blame
+TD88 Classic #1 _____ ~NS -AEIRT? ␅
+TD2335891 ␆nnnnn
+TD79 Classic #1 _____ ~NS -AEIRT? nnnnn
+TD156 attempt: 0 BLAME n n n n n
+TD80 Classic #2 _____ ~AE -INRST E:1? ␅
+TD1783687 ␆nnYnY
+TD85 Classic #2 _____ ~AE -INRST E:1? nnYnY
+TD170 attempt: 1 BLAME n n Y n Y
+TD92 Classic #4 _____ ~ST -AEINR? ␅
+TD1231767 ␆nnnnn
+TD100 Classic #4 _____ ~ST -AEINR? nnnnn
+TD221 attempt: 3 BLAME n n n n n
+TD339511 > ␅
+TD1012136 ␆*
+TD101 > *
+TD1136 ? ␅
+TD1726617 ␆2
+TD77 ? 2
+TD130 questioning: dusty
+TD103 Classic #1 _____ ~NS -ABEILMRT? ␅
+TD3343892 ␆nMMnn
+TD81 Classic #1 _____ ~NS -ABEILMRT? nMMnn
+TD156 attempt: 0 DUSTY n m m n n
+TD80 Classic #2 __A_E -BILMNRST? ␅
+TD1127551 ␆nnnnn
+TD80 Classic #2 __A_E -BILMNRST? nnnnn
+TD156 attempt: 1 DUSTY n n n n n
+TD79 Classic #4 _____ ~ST -ABEILMNR? ␅
+TD1407817 ␆nnMYn
+TD83 Classic #4 _____ ~ST -ABEILMNR? nnMYn
+TD160 attempt: 3 DUSTY n n m Y n
+TD299126 > ␅
+TD836507 ␆*
+TD96 > *
+TD572 ? ␅
+TD6431409 ␆1
+TD99 ? 1
+TD181 questioning: chafe
+TD168 Classic #1 _____ ~NSU -ABDEILMRTY? ␅
+TD3239604 ␆nnnnn
+TD86 Classic #1 _____ ~NSU -ABDEILMRTY? nnnnn
+TD171 attempt: 0 CHAFE n n n n n
+TD88 Classic #2 __A_E -BDILMNRSTUY? ␅
+TD1191771 ␆YYYYY
+TD98 Classic #2 __A_E -BDILMNRSTUY? YYYYY
+TD225 attempt: 1 CHAFE Y Y Y Y Y
+TD118 Classic #4 ___T_ ~S -ABDEILMNRUY? ␅
+TD1231544 ␆nMnnn
+TD91 Classic #4 ___T_ ~S -ABDEILMNRUY? nMnnn
+TD204 attempt: 3 CHAFE n m n n n
+TD256054 > ␅
+TD895579 ␆*
+TD103 > *
+TD430 questioning: sooth
+TD125 Classic #1 _____ ~NSU -ABCDEFHILMRTY? ␅
+TD3295406 ␆Ynnnn
+TD80 Classic #1 _____ ~NSU -ABCDEFHILMRTY? Ynnnn
+TD164 attempt: 0 SOOTH Y n n n n
+TD86 Classic #4 ___T_ ~HS -ABCDEFILMNRUY? ␅
+TD1359815 ␆YYYYY
+TD123 Classic #4 ___T_ ~HS -ABCDEFILMNRUY? YYYYY
+TD156 attempt: 3 SOOTH Y Y Y Y Y
+TD103468 > ␅
+TD1480348 ␆*
+TD73 > *
+TD421 ? ␅
+TD1423182 ␆1
+TD78 ? 1
+TD130 questioning: spunk
+TD110 Classic #1 S____ ~NU -ABCDEFHILMORTY? ␅
+TD3567850 ␆YnYYY
+TD81 Classic #1 S____ ~NU -ABCDEFHILMORTY? YnYYY
+TD211 attempt: 0 SPUNK Y n Y Y Y
+TD104541 > ␅
+TD303272 ␆*
+TD102 > *
+TD412 questioning: skunk
+TD90 Classic #1 S_UNK -ABCDEFHILMOPRTY? ␅
+TD3383493 ␆YYYYY
+TD97 Classic #1 S_UNK -ABCDEFHILMOPRTY? YYYYY
+TD157 attempt: 0 SKUNK Y Y Y Y Y
+TD81 📋> ␅
+TD8736051 ␆🙂 Daily Quordle 1570
+TD83 📋> 🙂 Daily Quordle 1570
+TD19 📋> ␅
+TD39 ␆9️⃣6️⃣
+TD6 📋> 9️⃣6️⃣
+TD6 📋> ␅
+TD11 ␆3️⃣7️⃣
+TD4 📋> 3️⃣7️⃣
+TD4 📋> ␅
+TD10 ␆m-w.com/games/quordle/
+TD4 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD319519 ␆
+TD106 📋> 
+TD19 📋> ␅
+TD215867 ␄
+TD186 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1570\n9\ufe0f\u20e36\ufe0f\u20e3\n3\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1519 result: "\ud83d\ude42 Daily Quordle 1570\n9\ufe0f\u20e36\ufe0f\u20e3\n3\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD68 📆 2026-05-13 ? ␅
+TD206182 ␆
+TD98 📆 2026-05-13 ? 
