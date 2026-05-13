@@ -1,0 +1,102 @@
+T85477.429152361 now: 2026-05-13T08:19:07EDT
+TD157 site: alfagok.diginaut.net
+TD564080 loaded 399579 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1273 words excluded) asof 141147f485bffa45d55c1f169324dc3bc8ec8da9
+TD162  ...␅
+TD4226565 ␆
+TD98  ...
+TD5661 [0 : 199695 : 399579] lijk? ␅
+TD2466344 ␆a
+TD80 [0 : 199695 : 399579] lijk? a
+TD527 progress: 1 199695 lijk
+TD97 [199696 : 299450 : 399579] schro? ␅
+TD1583299 ␆a
+TD97 [199696 : 299450 : 399579] schro? a
+TD235 progress: 1 299450 schro
+TD116 [299451 : 349431 : 399579] vakantie? ␅
+TD1399566 ␆a
+TD83 [299451 : 349431 : 399579] vakantie? a
+TD86 progress: 1 349431 vakantie
+TD88 [349432 : 374171 : 399579] vrij? ␅
+TD1423551 ␆b
+TD102 [349432 : 374171 : 399579] vrij? b
+TD111 progress: -1 374171 vrij
+TD133 [349432 : 352999 : 374171] ver? ␅
+TD2727600 ␆a
+TD80 [349432 : 352999 : 374171] ver? a
+TD94 progress: 1 352999 ver
+TD149 [353000 : 363581 : 374171] verzot? ␅
+TD1631868 ␆a
+TD102 [353000 : 363581 : 374171] verzot? a
+TD107 progress: 1 363581 verzot
+TD113 [363582 : 368593 : 374171] voetbal? ␅
+TD1455736 ␆a
+TD96 [363582 : 368593 : 374171] voetbal? a
+TD102 progress: 1 368593 voetbal
+TD120 [368594 : 370442 : 374171] voor? ␅
+TD1543721 ␆a
+TD108 [368594 : 370442 : 374171] voor? a
+TD115 progress: 1 370442 voor
+TD129 [370443 : 372294 : 374171] voortplanting? ␅
+TD1831720 ␆a
+TD99 [370443 : 372294 : 374171] voortplanting? a
+TD110 progress: 1 372294 voortplanting
+TD126 [372295 : 373165 : 374171] vos? ␅
+TD1703706 ␆a
+TD99 [372295 : 373165 : 374171] vos? a
+TD130 progress: 1 373165 vos
+TD111 [373166 : 373633 : 374171] vredes? ␅
+TD2127665 ␆a
+TD101 [373166 : 373633 : 374171] vredes? a
+TD108 progress: 1 373633 vredes
+TD119 [373634 : 373834 : 374171] vreemd? ␅
+TD2895604 ␆a
+TD97 [373634 : 373834 : 374171] vreemd? a
+TD105 progress: 1 373834 vreemd
+TD114 [373835 : 373974 : 374171] vreugde? ␅
+TD1952148 ␆a
+TD132 [373835 : 373974 : 374171] vreugde? a
+TD105 progress: 1 373974 vreugde
+TD107 [373975 : 374024 : 374171] vriend? ␅
+TD1991236 ␆a
+TD101 [373975 : 374024 : 374171] vriend? a
+TD105 progress: 1 374024 vriend
+TD108 [374025 : 374090 : 374171] vriendschap? ␅
+TD1895754 ␆b
+TD101 [374025 : 374090 : 374171] vriendschap? b
+TD112 progress: -1 374090 vriendschap
+TD112 [374025 : 374034 : 374090] vrienden? ␅
+TD1735595 ␆a
+TD97 [374025 : 374034 : 374090] vrienden? a
+TD105 progress: 1 374034 vrienden
+TD221 [374035 : 374062 : 374090] vriendennetwerken? ␅
+TD1599711 ␆a
+TD99 [374035 : 374062 : 374090] vriendennetwerken? a
+TD109 progress: 1 374062 vriendennetwerken
+TD147 [374063 : 374075 : 374090] vriendin? ␅
+TD1879599 ␆it
+TD101 [374063 : 374075 : 374090] vriendin? it
+TD111 progress: 0 374075 vriendin
+TD27 [374063 : 374075 : 374090] <Done>.
+TD93 📋> ␅
+TD2736210 ␆🧩 Puzzel #557
+TD109 📋> 🧩 Puzzel #557
+TD13 📋> ␅
+TD41 ␆🤔 18 gokken
+TD7 📋> 🤔 18 gokken
+TD6 📋> ␅
+TD13 ␆⏱️ 31s
+TD6 📋> ⏱️ 31s
+TD5 📋> ␅
+TD1183400 ␆🔗 alfagok.diginaut.net
+TD77 📋> 🔗 alfagok.diginaut.net
+TD7 📋> ␅
+TD319922 ␄
+TD194 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #557\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1049 result: "\ud83e\udde9 Puzzel #557\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"
+TD23 result puzzle: 557
+TD18 result guesses: 18
+TD6 result time: 31s
+TD5 result link: alfagok.diginaut.net
+TD88 📆 2026-05-13 ? ␅
+TD302696 ␆
+TD83 📆 2026-05-13 ? 
