@@ -1,0 +1,326 @@
+T86350.327219928 now: 2026-05-13T08:33:40EDT
+TD123 site: squareword.org
+TD48 wordlist: nwl2023.txt
+TD24  ...␅
+TD166843 ␆
+TD80  ...
+TD103 🧩  ? ␅
+TD5175715 ␆#1563
+TD67 🧩  ? #1563
+TD216 puzzle_id: #1563
+TD321 > ␅
+TD5311672 ␆*
+TD142 > *
+TD258633 try? ␅
+TD1109103 ␆1
+TD83 try? 1
+TD350 questioning: ["aeons", "#5"]
+TD383 #1 <IndexError>  📋 "aeons" ? ␅
+TD4487295 ␆____S ~ A
+TD103 #1 <IndexError>  📋 "aeons" ? ____S ~ A
+TD676 attempt 0 AEONS m n n n Y
+TD84 #2 <IndexError>  📋 "aeons" ? ␅
+TD2191144 ␆A____ ~ E
+TD86 #2 <IndexError>  📋 "aeons" ? A____ ~ E
+TD224 attempt 1 AEONS Y m n n n
+TD99 #3 <IndexError>  📋 "aeons" ? ␅
+TD2296134 ␆_____ ~ AON
+TD103 #3 <IndexError>  📋 "aeons" ? _____ ~ AON
+TD261 attempt 2 AEONS m n m m n
+TD130 #4 <IndexError>  📋 "aeons" ? ␅
+TD2247049 ␆___NS ~ E
+TD104 #4 <IndexError>  📋 "aeons" ? ___NS ~ E
+TD260 attempt 3 AEONS n m n Y Y
+TD131 #5 <IndexError>  📋 "aeons" ? ␅
+TD1951418 ␆_E___ ~ E
+TD101 #5 <IndexError>  📋 "aeons" ? _E___ ~ E
+TD259 attempt 4 AEONS n Y n n n
+TD378 ? ␅
+TD311272 ␆
+TD105 ? 
+TD147 question done
+TD220 > ␅
+TD487549 ␆*
+TD105 > *
+TD873102 try? ␅
+TD2790761 ␆1
+TD79 try? 1
+TD226 questioning: ["liens", "#4"]
+TD226 #1 ____S ~A -ENO  📋 "liens" ? ␅
+TD5935654 ␆L___S ~ A
+TD79 #1 ____S ~A -ENO  📋 "liens" ? L___S ~ A
+TD187 attempt 0 LIENS Y n n n Y
+TD109 #2 A____ ~E -NOS  📋 "liens" ? ␅
+TD4103675 ␆A____ ~ ELI
+TD95 #2 A____ ~E -NOS  📋 "liens" ? A____ ~ ELI
+TD197 attempt 1 LIENS m m m n n
+TD110 #3 _____ ~ANO -ES  📋 "liens" ? ␅
+TD1215670 ␆.
+TD100 #3 _____ ~ANO -ES  📋 "liens" ? .
+TD292 attempt 2 LIENS n n n m n
+TD98 #4 ___NS ~E -AO  📋 "liens" ? ␅
+TD3327411 ␆__ENS ~ E
+TD101 #4 ___NS ~E -AO  📋 "liens" ? __ENS ~ E
+TD269 attempt 3 LIENS n n Y Y Y
+TD152 #5 _E___ -ANOS  📋 "liens" ? ␅
+TD2303576 ␆LE___ ~ E
+TD91 #5 _E___ -ANOS  📋 "liens" ? LE___ ~ E
+TD278 attempt 4 LIENS Y n m n n
+TD278 ? ␅
+TD383285 ␆
+TD83 ? 
+TD100 question done
+TD201 > ␅
+TD735597 ␆*
+TD99 > *
+TD657376 questioning: ["evens", "#4"]
+TD184 #1 L___S ~A -EINO  📋 "evens" ? ␅
+TD52951024 ␆.
+TD84 #1 L___S ~A -EINO  📋 "evens" ? .
+TD195 attempt 0 EVENS n n n n Y
+TD74 #2 A____ ~EIL -NOS  📋 "evens" ? ␅
+TD1663670 ␆.
+TD98 #2 A____ ~EIL -NOS  📋 "evens" ? .
+TD266 attempt 1 EVENS m n m n n
+TD92 #3 _____ ~ANO -EILS  📋 "evens" ? ␅
+TD919445 ␆.
+TD81 #3 _____ ~ANO -EILS  📋 "evens" ? .
+TD194 attempt 2 EVENS n n n m n
+TD67 #4 __ENS -AILO  📋 "evens" ? ␅
+TD3279880 ␆__ENS ~ E
+TD81 #4 __ENS -AILO  📋 "evens" ? __ENS ~ E
+TD184 attempt 3 EVENS m n Y Y Y
+TD107 #5 LE___ -AINOS  📋 "evens" ? ␅
+TD3479508 ␆LE___ ~ E
+TD97 #5 LE___ -AINOS  📋 "evens" ? LE___ ~ E
+TD249 attempt 4 EVENS m n m n n
+TD394 ? ␅
+TD335427 ␆
+TD103 ? 
+TD128 question done
+TD320 > ␅
+TD943181 ␆*
+TD70 > *
+TD445527 try? ␅
+TD1330814 ␆1
+TD99 try? 1
+TD293 questioning: ["alike", "#2"]
+TD400 #1 L___S ~A -EINOV  📋 "alike" ? ␅
+TD3511022 ␆.
+TD98 #1 L___S ~A -EINOV  📋 "alike" ? .
+TD270 attempt 0 ALIKE m n n n n
+TD113 #2 A____ ~EIL -NOSV  📋 "alike" ? ␅
+TD2423646 ␆A_I_E ~ L
+TD105 #2 A____ ~EIL -NOSV  📋 "alike" ? A_I_E ~ L
+TD287 attempt 1 ALIKE Y m Y n Y
+TD163 #3 _____ ~ANO -EILSV  📋 "alike" ? ␅
+TD983313 ␆.
+TD81 #3 _____ ~ANO -EILSV  📋 "alike" ? .
+TD197 attempt 2 ALIKE m n n n n
+TD66 #4 __ENS -AILOV  📋 "alike" ? ␅
+TD4279766 ␆__ENS ~ E
+TD79 #4 __ENS -AILOV  📋 "alike" ? __ENS ~ E
+TD181 attempt 3 ALIKE n n n n m
+TD108 #5 LE___ -AINOSV  📋 "alike" ? ␅
+TD3471681 ␆LE__E 
+TD100 #5 LE___ -AINOSV  📋 "alike" ? LE__E 
+TD255 attempt 4 ALIKE n n n n Y
+TD353 ? ␅
+TD255417 ␆
+TD79 ? 
+TD171 question done
+TD374 > ␅
+TD495163 ␆*
+TD76 > *
+TD1455805 questioning: ["ledge", "#5"]
+TD210 #1 L___S ~A -EIKLNOV  📋 "ledge" ? ␅
+TD5408015 ␆.
+TD97 #1 L___S ~A -EIKLNOV  📋 "ledge" ? .
+TD206 attempt 0 LEDGE Y n n n n
+TD73 #2 A_I_E ~L -KNOSV  📋 "ledge" ? ␅
+TD4007732 ␆A_I_E ~ LG
+TD112 #2 A_I_E ~L -KNOSV  📋 "ledge" ? A_I_E ~ LG
+TD253 attempt 1 LEDGE m n n m Y
+TD156 #3 _____ ~ANO -EIKLSV  📋 "ledge" ? ␅
+TD807615 ␆.
+TD93 #3 _____ ~ANO -EIKLSV  📋 "ledge" ? .
+TD202 attempt 2 LEDGE n n n n n
+TD67 #4 __ENS -AIKLOV  📋 "ledge" ? ␅
+TD3335636 ␆__ENS ~ E
+TD100 #4 __ENS -AIKLOV  📋 "ledge" ? __ENS ~ E
+TD251 attempt 3 LEDGE n m n n m
+TD159 #5 LE__E -AIKLNOSV  📋 "ledge" ? ␅
+TD807193 ␆/it
+TD102 #5 LE__E -AIKLNOSV  📋 "ledge" ? /it
+TD269 attempt 4 LEDGE Y Y Y Y Y
+TD304 ? ␅
+TD175416 ␆
+TD98 ? 
+TD123 question done
+TD334 > ␅
+TD415633 ␆*
+TD98 > *
+TD2158398 questioning: ["agile", "#2"]
+TD213 #1 L___S ~A -DEGIKNOV  📋 "agile" ? ␅
+TD3305506 ␆.
+TD102 #1 L___S ~A -DEGIKNOV  📋 "agile" ? .
+TD272 attempt 0 AGILE m n n n n
+TD103 #2 A_I_E ~GL -DKNOSV  📋 "agile" ? ␅
+TD607185 ␆/it
+TD93 #2 A_I_E ~GL -DKNOSV  📋 "agile" ? /it
+TD209 attempt 1 AGILE Y Y Y Y Y
+TD77 #3 _____ ~ANO -DEGIKLSV  📋 "agile" ? ␅
+TD703778 ␆.
+TD79 #3 _____ ~ANO -DEGIKLSV  📋 "agile" ? .
+TD197 attempt 2 AGILE m n n n n
+TD67 #4 __ENS -ADGIKLOV  📋 "agile" ? ␅
+TD3024029 ␆__ENS ~ E
+TD81 #4 __ENS -ADGIKLOV  📋 "agile" ? __ENS ~ E
+TD181 attempt 3 AGILE n n n n m
+TD223 ? ␅
+TD255190 ␆
+TD101 ? 
+TD118 question done
+TD200 > ␅
+TD455455 ␆*
+TD80 > *
+TD1904362 try? ␅
+TD6215647 ␆1
+TD77 try? 1
+TD216 questioning: ["lambs", "#1"]
+TD222 #1 L___S ~A -DEGIKLNOV  📋 "lambs" ? ␅
+TD5631686 ␆LAM_S ~ A
+TD102 #1 L___S ~A -DEGIKLNOV  📋 "lambs" ? LAM_S ~ A
+TD258 attempt 0 LAMBS Y Y Y n Y
+TD160 #3 _____ ~ANO -DEGIKLSV  📋 "lambs" ? ␅
+TD3191418 ␆_A___ ~ ONB
+TD96 #3 _____ ~ANO -DEGIKLSV  📋 "lambs" ? _A___ ~ ONB
+TD263 attempt 2 LAMBS n Y n m n
+TD152 #4 __ENS -ADGIKLOV  📋 "lambs" ? ␅
+TD2367585 ␆__ENS ~ E
+TD98 #4 __ENS -ADGIKLOV  📋 "lambs" ? __ENS ~ E
+TD256 attempt 3 LAMBS n n n n Y
+TD566 ? ␅
+TD214987 ␆
+TD99 ? 
+TD126 question done
+TD317 > ␅
+TD423392 ␆*
+TD81 > *
+TD1527542 questioning: ["lamas", "#1"]
+TD195 #1 LAM_S -BDEGIKNOV  📋 "lamas" ? ␅
+TD2824322 ␆/it
+TD99 #1 LAM_S -BDEGIKNOV  📋 "lamas" ? /it
+TD242 attempt 0 LAMAS Y Y Y Y Y
+TD83 #3 _A___ ~BNO -DEGIKLMSV  📋 "lamas" ? ␅
+TD4239806 ␆.
+TD98 #3 _A___ ~BNO -DEGIKLMSV  📋 "lamas" ? .
+TD248 attempt 2 LAMAS n Y n n n
+TD105 #4 __ENS -ABDGIKLMOV  📋 "lamas" ? ␅
+TD2607469 ␆__ENS ~ E
+TD94 #4 __ENS -ABDGIKLMOV  📋 "lamas" ? __ENS ~ E
+TD238 attempt 3 LAMAS n n n n Y
+TD288 ? ␅
+TD199393 ␆
+TD99 ? 
+TD123 question done
+TD322 > ␅
+TD479379 ␆*
+TD75 > *
+TD1395413 questioning: ["baron", "#3"]
+TD259 #3 _A___ ~BNO -DEGIKLMSV  📋 "baron" ? ␅
+TD6420402 ␆/it
+TD116 #3 _A___ ~BNO -DEGIKLMSV  📋 "baron" ? /it
+TD325 attempt 2 BARON Y Y Y Y Y
+TD145 #4 __ENS -ABDGIKLMOV  📋 "baron" ? ␅
+TD2575400 ␆__ENS ~ E
+TD115 #4 __ENS -ABDGIKLMOV  📋 "baron" ? __ENS ~ E
+TD284 attempt 3 BARON n n n n n
+TD381 ? ␅
+TD255137 ␆
+TD91 ? 
+TD147 question done
+TD300 > ␅
+TD447464 ␆*
+TD90 > *
+TD551679 > ␅
+TD4016243 ␆*
+TD92 > *
+TD502782 > ␅
+TD37137860 ␆?
+TD87 > ?
+TD626 > ␅
+TD2919202 <INT>
+TD135 <INT>
+TD29 <INT>
+TD21 <INT>
+TD19 <INT>
+TD18 <INT>
+TD51 <INT>
+TD39 <INT>
+TD18 <INT>
+T2.4251095279905712 now: 2026-05-13T08:39:18EDT
+TD212  ...␅
+TD877093 ␆
+TD127  ...
+TD530 > ␅
+TD1631366 ␆/?
+TD127 > /?
+TD992 > ␅
+TD1422835 ␆?
+TD118 > ?
+TD786 > ␅
+TD10319084 ␆/man
+TD108 > /man
+TD402 > ␅
+TD4999534 ␆/man 4
+TD106 > /man 4
+TD557 > ␅
+TD3559565 ␆/man 4 evens
+TD92 > /man 4 evens
+TD540351 questioning: ["EVENS", "#4"]
+TD402 #4 __ENS -ABDGIKLMNORV  📋 "EVENS" ? ␅
+TD1763048 ␆/it
+TD99 #4 __ENS -ABDGIKLMNORV  📋 "EVENS" ? /it
+TD211 attempt 3 EVENS Y Y Y Y Y
+TD207 ? ␅
+TD495575 ␆
+TD116 ? 
+TD134 question done
+TD46992 📋> ␅
+TD3627525 ␆squareword.org 1563: 9 guesses
+TD132 📋> squareword.org 1563: 9 guesses
+TD20 📋> ␅
+TD55 ␆
+TD8 📋> 
+TD7 📋> ␅
+TD19 ␆🟩🟨🟨🟨🟩
+TD7 📋> 🟩🟨🟨🟨🟩
+TD6 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD12 ␆🟨🟨🟩🟩🟩
+TD5 📋> 🟨🟨🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD23 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD28 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD276951 ␆#squareword #squareword1563
+TD130 📋> #squareword #squareword1563
+TD15 📋> ␅
+TD167852 ␄
+TD244 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1563: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1563"}
+TD995 result: "squareword.org 1563: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1563"
+TD186 📆 2026-05-13 ? ␅
+TD158332 ␆
+TD132 📆 2026-05-13 ? 
