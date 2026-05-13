@@ -1,0 +1,82 @@
+T85543.453619404 now: 2026-05-13T08:20:13EDT
+TD80 site: alphaguess.com
+TD227526 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 141147f485bffa45d55c1f169324dc3bc8ec8da9
+TD156  ...␅
+TD3451983 ␆
+TD103  ...
+TD181 [0 : 98216 : 196522] mach? ␅
+TD2591372 ␆a
+TD92 [0 : 98216 : 196522] mach? a
+TD121 progress: 1 98216 mach
+TD241 [98217 : 147366 : 196522] rhotic? ␅
+TD1743635 ␆a
+TD82 [98217 : 147366 : 196522] rhotic? a
+TD80 progress: 1 147366 rhotic
+TD75 [147367 : 171636 : 196522] ta? ␅
+TD1439610 ␆a
+TD96 [147367 : 171636 : 196522] ta? a
+TD110 progress: 1 171636 ta
+TD134 [171637 : 182000 : 196522] un? ␅
+TD1591670 ␆b
+TD114 [171637 : 182000 : 196522] un? b
+TD118 progress: -1 182000 un
+TD122 [171637 : 176813 : 182000] toilet? ␅
+TD1391691 ␆a
+TD78 [171637 : 176813 : 182000] toilet? a
+TD78 progress: 1 176813 toilet
+TD256 [176814 : 179407 : 182000] trictrac? ␅
+TD1887886 ␆a
+TD105 [176814 : 179407 : 182000] trictrac? a
+TD110 progress: 1 179407 trictrac
+TD126 [179408 : 180635 : 182000] tum? ␅
+TD1423848 ␆a
+TD94 [179408 : 180635 : 182000] tum? a
+TD107 progress: 1 180635 tum
+TD105 [180636 : 181313 : 182000] twirl? ␅
+TD4743177 ␆a
+TD101 [180636 : 181313 : 182000] twirl? a
+TD108 progress: 1 181313 twirl
+TD182 [181314 : 181655 : 182000] uh? ␅
+TD1663846 ␆b
+TD101 [181314 : 181655 : 182000] uh? b
+TD109 progress: -1 181655 uh
+TD258 [181314 : 181479 : 181655] typical? ␅
+TD1487452 ␆b
+TD98 [181314 : 181479 : 181655] typical? b
+TD104 progress: -1 181479 typical
+TD286 [181314 : 181396 : 181479] tyke? ␅
+TD2191959 ␆b
+TD102 [181314 : 181396 : 181479] tyke? b
+TD108 progress: -1 181396 tyke
+TD154 [181314 : 181337 : 181396] twit? ␅
+TD1487124 ␆b
+TD80 [181314 : 181337 : 181396] twit? b
+TD82 progress: -1 181337 twit
+TD135 [181314 : 181324 : 181337] twist? ␅
+TD3343772 ␆it
+TD101 [181314 : 181324 : 181337] twist? it
+TD110 progress: 0 181324 twist
+TD27 [181314 : 181324 : 181337] <Done>.
+TD84 📋> ␅
+TD2744282 ␆🧩 Puzzle #1024
+TD98 📋> 🧩 Puzzle #1024
+TD12 📋> ␅
+TD92 ␆🤔 13 guesses
+TD52 📋> 🤔 13 guesses
+TD10 📋> ␅
+TD25 ␆⏱️ 22s
+TD7 📋> ⏱️ 22s
+TD6 📋> ␅
+TD311340 ␆🔗 alphaguess.com/1024
+TD98 📋> 🔗 alphaguess.com/1024
+TD13 📋> ␅
+TD215896 ␄
+TD170 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1024\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1024"}
+TD102 result: "\ud83e\udde9 Puzzle #1024\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1024"
+TD14 result puzzle: 1024
+TD6 result guesses: 13
+TD5 result time: 22s
+TD5 result link: alphaguess.com/1024
+TD87 📆 2026-05-13 ? ␅
+TD239449 ␆
+TD103 📆 2026-05-13 ? 
