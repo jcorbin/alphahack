@@ -1,0 +1,223 @@
+T7835.349647414987 now: 2026-05-14T08:27:26EDT
+TD123 site: squareword.org
+TD32 wordlist: nwl2023.txt
+TD43  ...␅
+TD206755 ␆
+TD90  ...
+TD75 🧩  ? ␅
+TD5591914 ␆#1564
+TD76 🧩  ? #1564
+TD199 puzzle_id: #1564
+TD181 > ␅
+TD599386 ␆
+TD74 > 
+TD267 > ␅
+TD751882 ␆*
+TD64 > *
+TD234974 try? ␅
+TD644714 ␆1
+TD62 try? 1
+TD203 questioning: ["reais", "#5"]
+TD155 #1 <IndexError>  📋 "reais" ? ␅
+TD5799722 ␆!
+TD77 #1 <IndexError>  📋 "reais" ? !
+TD127 reject: reais
+TD14 question done
+TD151 > ␅
+TD1447762 ␆*
+TD80 > *
+TD113646 try? ␅
+TD1142299 ␆1
+TD98 try? 1
+TD302 questioning: ["caste", "#5"]
+TD292 #1 <IndexError>  📋 "caste" ? ␅
+TD4967273 ␆_____ ~ CSTE
+TD78 #1 <IndexError>  📋 "caste" ? _____ ~ CSTE
+TD479 attempt 0 CASTE m n m m m
+TD77 #2 <IndexError>  📋 "caste" ? ␅
+TD2263291 ␆____E ~ A
+TD76 #2 <IndexError>  📋 "caste" ? ____E ~ A
+TD198 attempt 1 CASTE n m n n Y
+TD87 #3 <IndexError>  📋 "caste" ? ␅
+TD2455881 ␆_A___ ~ A
+TD81 #3 <IndexError>  📋 "caste" ? _A___ ~ A
+TD180 attempt 2 CASTE n Y n n n
+TD90 #4 <IndexError>  📋 "caste" ? ␅
+TD2656048 ␆_____ ~ ASE
+TD74 #4 <IndexError>  📋 "caste" ? _____ ~ ASE
+TD179 attempt 3 CASTE n m m n m
+TD86 #5 <IndexError>  📋 "caste" ? ␅
+TD2023115 ␆_____ ~ AT
+TD67 #5 <IndexError>  📋 "caste" ? _____ ~ AT
+TD178 attempt 4 CASTE n m n m n
+TD217 ? ␅
+TD583709 ␆
+TD89 ? 
+TD108 question done
+TD186 > ␅
+TD8815533 ␆*
+TD78 > *
+TD695057 try? ␅
+TD2369066 ␆2
+TD97 try? 2
+TD306 questioning: ["scent", "#1"]
+TD337 #1 _____ ~CEST -A  📋 "scent" ? ␅
+TD2495055 ␆/it
+TD79 #1 _____ ~CEST -A  📋 "scent" ? /it
+TD195 attempt 0 SCENT Y Y Y Y Y
+TD75 #2 ____E ~A -CST  📋 "scent" ? ␅
+TD1519832 ␆.
+TD96 #2 ____E ~A -CST  📋 "scent" ? .
+TD281 attempt 1 SCENT n n n n n
+TD103 #3 _A___ -CEST  📋 "scent" ? ␅
+TD3031504 ␆_A___ ~ A
+TD98 #3 _A___ -CEST  📋 "scent" ? _A___ ~ A
+TD207 attempt 2 SCENT n n n n n
+TD103 #4 _____ ~AES -CT  📋 "scent" ? ␅
+TD3135702 ␆S_E__ ~ A
+TD110 #4 _____ ~AES -CT  📋 "scent" ? S_E__ ~ A
+TD253 attempt 3 SCENT Y n Y n n
+TD147 #5 _____ ~AT -CES  📋 "scent" ? ␅
+TD1055460 ␆.
+TD106 #5 _____ ~AT -CES  📋 "scent" ? .
+TD280 attempt 4 SCENT n n n n m
+TD291 ? ␅
+TD159437 ␆
+TD99 ? 
+TD114 question done
+TD299 > ␅
+TD367416 ␆*
+TD107 > *
+TD746367 try? ␅
+TD1253581 ␆1
+TD99 try? 1
+TD284 questioning: ["speak", "#4"]
+TD209 #2 ____E ~A -CENST  📋 "speak" ? ␅
+TD7967378 ␆___AE ~ A
+TD90 #2 ____E ~A -CENST  📋 "speak" ? ___AE ~ A
+TD183 attempt 1 SPEAK n n n Y n
+TD104 #3 _A___ -CENST  📋 "speak" ? ␅
+TD2975593 ␆_A___ ~ A
+TD105 #3 _A___ -CENST  📋 "speak" ? _A___ ~ A
+TD253 attempt 2 SPEAK n n n m n
+TD152 #4 S_E__ ~A -CNT  📋 "speak" ? ␅
+TD9647829 ␆S_EA_
+TD78 #4 S_E__ ~A -CNT  📋 "speak" ? S_EA_
+TD218 attempt 3 SPEAK Y n Y Y n
+TD147 #5 _____ ~AT -CENS  📋 "speak" ? ␅
+TD2175416 ␆_P___ ~ AT
+TD97 #5 _____ ~AT -CENS  📋 "speak" ? _P___ ~ AT
+TD260 attempt 4 SPEAK n Y n m n
+TD349 ? ␅
+TD231402 ␆
+TD101 ? 
+TD134 question done
+TD309 > ␅
+TD479322 ␆*
+TD92 > *
+TD502199 questioning: ["algae", "#2"]
+TD188 #2 ___AE -CEKNPST  📋 "algae" ? ␅
+TD2689445 ␆/it
+TD74 #2 ___AE -CEKNPST  📋 "algae" ? /it
+TD187 attempt 1 ALGAE Y Y Y Y Y
+TD66 #3 _A___ -CEKNPST  📋 "algae" ? ␅
+TD3343972 ␆_A___ ~ AL
+TD97 #3 _A___ -CEKNPST  📋 "algae" ? _A___ ~ AL
+TD247 attempt 2 ALGAE m m n m n
+TD160 #4 S_EA_ -CKNPT  📋 "algae" ? ␅
+TD1415303 ␆.
+TD78 #4 S_EA_ -CKNPT  📋 "algae" ? .
+TD188 attempt 3 ALGAE n n n Y n
+TD67 #5 _P___ ~AT -CEKNS  📋 "algae" ? ␅
+TD2479891 ␆AP___ ~ TL
+TD99 #5 _P___ ~AT -CEKNS  📋 "algae" ? AP___ ~ TL
+TD252 attempt 4 ALGAE Y m n n n
+TD369 ? ␅
+TD207293 ␆
+TD98 ? 
+TD122 question done
+TD314 > ␅
+TD431301 ␆*
+TD95 > *
+TD1029827 questioning: ["larva", "#3"]
+TD200 #3 _A___ ~L -CEGKNPST  📋 "larva" ? ␅
+TD2738100 ␆/it
+TD100 #3 _A___ ~L -CEGKNPST  📋 "larva" ? /it
+TD261 attempt 2 LARVA Y Y Y Y Y
+TD104 #4 S_EA_ -CEGKLNPT  📋 "larva" ? ␅
+TD3759463 ␆S_EA_ ~ R
+TD112 #4 S_EA_ -CEGKLNPT  📋 "larva" ? S_EA_ ~ R
+TD248 attempt 3 LARVA n n m n n
+TD153 #5 AP___ ~LT -CEGKNS  📋 "larva" ? ␅
+TD1639667 ␆.
+TD113 #5 AP___ ~LT -CEGKNS  📋 "larva" ? .
+TD187 attempt 4 LARVA m n n n n
+TD189 ? ␅
+TD167397 ␆
+TD99 ? 
+TD118 question done
+TD197 > ␅
+TD399440 ␆*
+TD95 > *
+TD1354441 questioning: ["smear", "#4"]
+TD214 #4 S_EA_ ~R -ACEGKLNPTV  📋 "smear" ? ␅
+TD2405522 ␆/it
+TD80 #4 S_EA_ ~R -ACEGKLNPTV  📋 "smear" ? /it
+TD184 attempt 3 SMEAR Y Y Y Y Y
+TD69 #5 AP___ ~LT -ACEGKNRSV  📋 "smear" ? ␅
+TD1439598 ␆.
+TD98 #5 AP___ ~LT -ACEGKNRSV  📋 "smear" ? .
+TD263 attempt 4 SMEAR n n n n n
+TD408 ? ␅
+TD159084 ␆
+TD76 ? 
+TD75 question done
+TD171 > ␅
+TD351622 ␆*
+TD78 > *
+TD869762 questioning: ["aptly", "#5"]
+TD201 #5 AP___ ~LT -ACEGKMNRSV  📋 "aptly" ? ␅
+TD2946243 ␆/it
+TD83 #5 AP___ ~LT -ACEGKMNRSV  📋 "aptly" ? /it
+TD196 attempt 4 APTLY Y Y Y Y Y
+TD182 ? ␅
+TD503458 ␆
+TD78 ? 
+TD79 question done
+TD22189 📋> ␅
+TD4770174 ␆squareword.org 1564: 7 guesses
+TD72 📋> squareword.org 1564: 7 guesses
+TD8 📋> ␅
+TD40 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD8 ␆🟩🟨🟩🟩🟨
+TD2 📋> 🟩🟨🟩🟩🟨
+TD2 📋> ␅
+TD8 ␆🟩🟩🟨🟨🟨
+TD2 📋> 🟩🟩🟨🟨🟨
+TD2 📋> ␅
+TD8 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD9 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD279250 ␆#squareword #squareword1564
+TD72 📋> #squareword #squareword1564
+TD7 📋> ␅
+TD184173 ␄
+TD128 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1564: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1564"}
+TD649 result: "squareword.org 1564: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1564"
+TD72 📆 2026-05-14 ? ␅
+TD158839 ␆
+TD74 📆 2026-05-14 ? 
