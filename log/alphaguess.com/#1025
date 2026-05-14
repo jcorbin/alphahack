@@ -1,0 +1,101 @@
+T6988.955873397004 now: 2026-05-14T08:13:20EDT
+TD77 site: alphaguess.com
+TD145823 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 68bc4af933a32b478a57e7dc8005ec5cb000d92e
+TD120  ...␅
+TD237349 ␆
+TD74  ...
+TD164 [0 : 98216 : 196522] mach? ␅
+TD5287696 ␆b
+TD85 [0 : 98216 : 196522] mach? b
+TD79 progress: -1 98216 mach
+TD80 [0 : 47380 : 98216] dis? ␅
+TD1855775 ␆a
+TD136 [0 : 47380 : 98216] dis? a
+TD115 progress: 1 47380 dis
+TD429 [47381 : 72798 : 98216] gremmy? ␅
+TD1327366 ␆a
+TD95 [47381 : 72798 : 98216] gremmy? a
+TD91 progress: 1 72798 gremmy
+TD82 [72799 : 85502 : 98216] ins? ␅
+TD1359685 ␆b
+TD89 [72799 : 85502 : 98216] ins? b
+TD80 progress: -1 85502 ins
+TD74 [72799 : 79130 : 85502] hood? ␅
+TD1423724 ␆a
+TD96 [72799 : 79130 : 85502] hood? a
+TD80 progress: 1 79130 hood
+TD130 [79131 : 82307 : 85502] immaterial? ␅
+TD1311929 ␆a
+TD95 [79131 : 82307 : 85502] immaterial? a
+TD102 progress: 1 82307 immaterial
+TD86 [82308 : 83238 : 85502] in? ␅
+TD1439523 ␆b
+TD93 [82308 : 83238 : 85502] in? b
+TD80 progress: -1 83238 in
+TD90 [82308 : 82557 : 83238] imp? ␅
+TD1296519 ␆a
+TD94 [82308 : 82557 : 83238] imp? a
+TD105 progress: 1 82557 imp
+TD110 [82558 : 82891 : 83238] implement? ␅
+TD1302876 ␆a
+TD86 [82558 : 82891 : 83238] implement? a
+TD86 progress: 1 82891 implement
+TD87 [82892 : 83059 : 83238] impregn? ␅
+TD1975959 ␆b
+TD71 [82892 : 83059 : 83238] impregn? b
+TD78 progress: -1 83059 impregn
+TD77 [82892 : 82958 : 83059] import? ␅
+TD1407913 ␆
+TD103 [82892 : 82958 : 83059] import? 
+TD114 [82892 : 82958 : 83059] import? ␅
+TD543565 ␆a
+TD97 [82892 : 82958 : 83059] import? a
+TD104 progress: 1 82958 import
+TD109 [82959 : 83000 : 83059] impost? ␅
+TD2207819 ␆b
+TD99 [82959 : 83000 : 83059] impost? b
+TD108 progress: -1 83000 impost
+TD129 [82959 : 82976 : 83000] importune? ␅
+TD1583539 ␆b
+TD80 [82959 : 82976 : 83000] importune? b
+TD81 progress: -1 82976 importune
+TD122 [82959 : 82967 : 82976] importations? ␅
+TD1511761 ␆b
+TD100 [82959 : 82967 : 82976] importations? b
+TD104 progress: -1 82967 importations
+TD264 [82959 : 82963 : 82967] importancy? ␅
+TD1383668 ␆a
+TD95 [82959 : 82963 : 82967] importancy? a
+TD102 progress: 1 82963 importancy
+TD189 [82964 : 82965 : 82967] importantly? ␅
+TD2047557 ␆b
+TD81 [82964 : 82965 : 82967] importantly? b
+TD79 progress: -1 82965 importantly
+TD125 [82964 : 82964 : 82965] important? ␅
+TD2463738 ␆it
+TD90 [82964 : 82964 : 82965] important? it
+TD94 progress: 0 82964 important
+TD25 [82964 : 82964 : 82965] <Done>.
+TD91 📋> ␅
+TD2328258 ␆🧩 Puzzle #1025
+TD76 📋> 🧩 Puzzle #1025
+TD7 📋> ␅
+TD31 ␆🤔 17 guesses
+TD4 📋> 🤔 17 guesses
+TD3 📋> ␅
+TD6 ␆⏱️ 25s
+TD3 📋> ⏱️ 25s
+TD2 📋> ␅
+TD367380 ␆🔗 alphaguess.com/1025
+TD77 📋> 🔗 alphaguess.com/1025
+TD7 📋> ␅
+TD167844 ␄
+TD127 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1025\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1025"}
+TD75 result: "\ud83e\udde9 Puzzle #1025\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1025"
+TD9 result puzzle: 1025
+TD4 result guesses: 17
+TD3 result time: 25s
+TD2 result link: alphaguess.com/1025
+TD63 📆 2026-05-14 ? ␅
+TD192042 ␆
+TD100 📆 2026-05-14 ? 
