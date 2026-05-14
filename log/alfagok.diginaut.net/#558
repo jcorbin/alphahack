@@ -1,0 +1,94 @@
+T6844.234621516982 now: 2026-05-14T08:10:55EDT
+TD83 site: alfagok.diginaut.net
+TD311285 loaded 399579 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1273 words excluded) asof 68bc4af933a32b478a57e7dc8005ec5cb000d92e
+TD137  ...␅
+TD8647603 ␆
+TD94  ...
+TD1797 [0 : 199695 : 399579] lijk? ␅
+TD2557944 ␆a
+TD90 [0 : 199695 : 399579] lijk? a
+TD439 progress: 1 199695 lijk
+TD91 [199696 : 299450 : 399579] schro? ␅
+TD1551558 ␆b
+TD96 [199696 : 299450 : 399579] schro? b
+TD177 progress: -1 299450 schro
+TD126 [199696 : 247666 : 299450] op? ␅
+TD1439596 ␆a
+TD97 [199696 : 247666 : 299450] op? a
+TD106 progress: 1 247666 op
+TD107 [247667 : 273468 : 299450] proef? ␅
+TD1439796 ␆b
+TD79 [247667 : 273468 : 299450] proef? b
+TD82 progress: -1 273468 proef
+TD77 [247667 : 260551 : 273468] pater? ␅
+TD1471515 ␆b
+TD98 [247667 : 260551 : 273468] pater? b
+TD107 progress: -1 260551 pater
+TD203 [247667 : 254070 : 260551] out? ␅
+TD1615842 ␆a
+TD97 [247667 : 254070 : 260551] out? a
+TD105 progress: 1 254070 out
+TD117 [254071 : 256826 : 260551] pa? ␅
+TD1591583 ␆b
+TD94 [254071 : 256826 : 260551] pa? b
+TD107 progress: -1 256826 pa
+TD106 [254071 : 254257 : 256826] over? ␅
+TD1480105 ␆a
+TD89 [254071 : 254257 : 256826] over? a
+TD80 progress: 1 254257 over
+TD78 [254258 : 255519 : 256826] overleg? ␅
+TD1407218 ␆a
+TD99 [254258 : 255519 : 256826] overleg? a
+TD108 progress: 1 255519 overleg
+TD126 [255520 : 255952 : 256826] overs? ␅
+TD1560226 ␆b
+TD86 [255520 : 255952 : 256826] overs? b
+TD80 progress: -1 255952 overs
+TD110 [255520 : 255731 : 255952] overmeester? ␅
+TD1415414 ␆a
+TD91 [255520 : 255731 : 255952] overmeester? a
+TD102 progress: 1 255731 overmeester
+TD129 [255732 : 255840 : 255952] overoud? ␅
+TD1439589 ␆b
+TD98 [255732 : 255840 : 255952] overoud? b
+TD103 progress: -1 255840 overoud
+TD106 [255732 : 255771 : 255840] overname? ␅
+TD1471572 ␆a
+TD96 [255732 : 255771 : 255840] overname? a
+TD104 progress: 1 255771 overname
+TD293 [255772 : 255806 : 255840] overnamepogingen? ␅
+TD1391734 ␆a
+TD97 [255772 : 255806 : 255840] overnamepogingen? a
+TD105 progress: 1 255806 overnamepogingen
+TD125 [255807 : 255817 : 255840] overnames? ␅
+TD1391590 ␆a
+TD93 [255807 : 255817 : 255840] overnames? a
+TD104 progress: 1 255817 overnames
+TD234 [255818 : 255830 : 255840] overnemen? ␅
+TD1719681 ␆it
+TD77 [255818 : 255830 : 255840] overnemen? it
+TD92 progress: 0 255830 overnemen
+TD25 [255818 : 255830 : 255840] <Done>.
+TD102 📋> ␅
+TD3088191 ␆🧩 Puzzel #558
+TD98 📋> 🧩 Puzzel #558
+TD12 📋> ␅
+TD41 ␆🤔 16 gokken
+TD6 📋> 🤔 16 gokken
+TD5 📋> ␅
+TD12 ␆⏱️ 22s
+TD6 📋> ⏱️ 22s
+TD4 📋> ␅
+TD319283 ␆🔗 alfagok.diginaut.net
+TD99 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD175926 ␄
+TD183 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #558\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD831 result: "\ud83e\udde9 Puzzel #558\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"
+TD23 result puzzle: 558
+TD8 result guesses: 16
+TD6 result time: 22s
+TD5 result link: alfagok.diginaut.net
+TD92 📆 2026-05-14 ? ␅
+TD158827 ␆
+TD82 📆 2026-05-14 ? 
