@@ -1,0 +1,177 @@
+T202.1054359539994 now: 2026-05-15T08:16:27EDT
+TD80 site: dontwordle.com
+TD14 wordlist: nwl2023.txt
+TD24  ...␅
+TD2767370 ␆
+TD79  ...
+TD93 1> ␅
+TD2535576 ␆* -bot 10
+TD75 1> * -bot 10
+TD178312 ? ␅
+TD909616 ␆1
+TD81 ? 1
+TD194 📋 "arose" ? ␅
+TD4639832 ␆nnnnM
+TD103 📋 "arose" ? nnnnM
+TD573 tried: AROSE n n n n m
+TD201 2> ␅
+TD671100 ␆undo
+TD88 2> undo
+TD145 undo
+TD137 1> ␅
+TD8799821 ␆* :v [arose] -bot 10
+TD101 1> * :v [arose] -bot 10
+TD136134 ? ␅
+TD1047848 ␆1
+TD95 ? 1
+TD224 📋 "linty" ? ␅
+TD5191663 ␆Mnnnn
+TD102 📋 "linty" ? Mnnnn
+TD221 tried: LINTY m n n n n
+TD194 2> ␅
+TD1063451 ␆undo
+TD80 2> undo
+TD110 undo
+TD103 1> ␅
+TD9751803 ␆* :v [aroselinty] -bot 10
+TD100 1> * :v [aroselinty] -bot 10
+TD122983 ? ␅
+TD845161 ␆1
+TD93 ? 1
+TD175 📋 "kudzu" ? ␅
+TD5791762 ␄
+TD130 <EOF>
+TD121 1> ␅
+TD8679624 ␆* :v [aroselinty] -bot 10
+TD76 1> * :v [aroselinty] -bot 10
+TD149778 ? ␅
+TD3482136 ␆3
+TD80 ? 3
+TD168 📋 "chump" ? ␅
+TD5696527 ␆nnnnn
+TD84 📋 "chump" ? nnnnn
+TD153 tried: CHUMP n n n n n
+TD125 2> ␅
+TD2102991 ␆undo
+TD81 2> undo
+TD104 undo
+TD94 1> ␅
+TD2695878 ␆*
+TD76 1> *
+TD112146 ? ␅
+TD823676 ␆1
+TD94 ? 1
+TD226 📋 "immix" ? ␅
+TD3863834 ␆nnnnn
+TD80 📋 "immix" ? nnnnn
+TD132 tried: IMMIX n n n n n
+TD98 2> ␅
+TD391671 ␆*
+TD99 2> *
+TD74146 ? ␅
+TD357770 ␆1
+TD99 ? 1
+TD238 📋 "tazza" ? ␅
+TD4727728 ␆nnnnn
+TD101 📋 "tazza" ? nnnnn
+TD202 tried: TAZZA n n n n n
+TD185 3> ␅
+TD399489 ␆*
+TD97 3> *
+TD95733 ? ␅
+TD632004 ␆1
+TD99 ? 1
+TD232 📋 "poppy" ? ␅
+TD4767783 ␆nnnnn
+TD96 📋 "poppy" ? nnnnn
+TD193 tried: POPPY n n n n n
+TD184 4> ␅
+TD415636 ␆*
+TD99 4> *
+TD90101 ? ␅
+TD597859 ␆1
+TD104 ? 1
+TD229 📋 "vuggs" ? ␅
+TD4871600 ␆nnnnn
+TD80 📋 "vuggs" ? nnnnn
+TD147 tried: VUGGS n n n n n
+TD127 5> ␅
+TD375548 ␆*
+TD100 5> *
+TD177022 ? ␅
+TD846984 ␆1
+TD75 ? 1
+TD160 📋 "bedew" ? ␅
+TD6007822 ␆nYnYM
+TD78 📋 "bedew" ? nYnYM
+TD142 tried: BEDEW n Y n Y m
+TD139 6> ␅
+TD703736 ␆undo
+TD79 6> undo
+TD107 undo
+TD186 5> ␅
+TD4839615 ␆*
+TD96 5> *
+TD181646 ? ␅
+TD1146300 ␆1
+TD108 ? 1
+TD230 📋 "beech" ? ␅
+TD4239672 ␆nYMnn
+TD101 📋 "beech" ? nYMnn
+TD200 tried: BEECH n Y m n n
+TD225 6> ␅
+TD847480 ␆*
+TD99 6> *
+TD180459 ? ␅
+TD1027445 ␆1
+TD99 ? 1
+TD263 📋 "defer" ? ␅
+TD4231806 ␆nYnYn
+TD99 📋 "defer" ? nYnYn
+TD205 tried: DEFER n Y n Y n
+TD198 📋> ␅
+TD2695840 ␆Don't Wordle 1452 - SURVIVED
+TD98 📋> Don't Wordle 1452 - SURVIVED
+TD13 📋> ␅
+TD39 ␆Hooray! I didn't Wordle today!
+TD7 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜7870
+TD6 📋> ⬜⬜⬜⬜⬜7870
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜3091
+TD5 📋> ⬜⬜⬜⬜⬜3091
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜903
+TD5 📋> ⬜⬜⬜⬜⬜903
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜121
+TD5 📋> ⬜⬜⬜⬜⬜121
+TD4 📋> ␅
+TD11 ␆⬜🟩🟨⬜⬜25
+TD5 📋> ⬜🟩🟨⬜⬜25
+TD5 📋> ␅
+TD10 ␆⬜🟩⬜🟩⬜2
+TD5 📋> ⬜🟩⬜🟩⬜2
+TD5 📋> ␅
+TD9 ␆Undos used: 4
+TD5 📋> Undos used: 4
+TD5 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD10 ␆  2 words remaining
+TD5 📋>   2 words remaining
+TD5 📋> ␅
+TD9 ␆x 6 unused letters
+TD5 📋> x 6 unused letters
+TD4 📋> ␅
+TD279183 ␆= 12 total score
+TD95 📋> = 12 total score
+TD12 📋> ␅
+TD159950 ␄
+TD180 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1452 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3091\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c903\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c121\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c25\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c2\nUndos used: 4\n\n  2 words remaining\nx 6 unused letters\n= 12 total score"}
+TD1256 result: "Don't Wordle 1452 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3091\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c903\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c121\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c25\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c2\nUndos used: 4\n\n  2 words remaining\nx 6 unused letters\n= 12 total score"
+TD74 📆 2026-05-15 ? ␅
+TD158392 ␆
+TD82 📆 2026-05-15 ? 
