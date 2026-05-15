@@ -1,0 +1,101 @@
+T148.95292069902644 now: 2026-05-15T08:15:34EDT
+TD80 site: alphaguess.com
+TD142843 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 68bc4af933a32b478a57e7dc8005ec5cb000d92e
+TD128  ...␅
+TD600217 ␆
+TD83  ...
+TD134 [0 : 98216 : 196522] mach? ␅
+TD6959897 ␆
+TD78 [0 : 98216 : 196522] mach? 
+TD84 [0 : 98216 : 196522] mach? ␅
+TD2391717 ␆a
+TD105 [0 : 98216 : 196522] mach? a
+TD105 progress: 1 98216 mach
+TD243 [98217 : 147366 : 196522] rhotic? ␅
+TD1631770 ␆b
+TD76 [98217 : 147366 : 196522] rhotic? b
+TD74 progress: -1 147366 rhotic
+TD80 [98217 : 122777 : 147366] parr? ␅
+TD1479467 ␆a
+TD79 [98217 : 122777 : 147366] parr? a
+TD81 progress: 1 122777 parr
+TD78 [122778 : 135068 : 147366] proper? ␅
+TD1431899 ␆a
+TD83 [122778 : 135068 : 147366] proper? a
+TD79 progress: 1 135068 proper
+TD88 [135069 : 140516 : 147366] rec? ␅
+TD1503718 ␆a
+TD80 [135069 : 140516 : 147366] rec? a
+TD79 progress: 1 140516 rec
+TD87 [140517 : 143779 : 147366] rem? ␅
+TD2576186 ␆a
+TD97 [140517 : 143779 : 147366] rem? a
+TD106 progress: 1 143779 rem
+TD114 [143780 : 145192 : 147366] res? ␅
+TD1447394 ␆a
+TD82 [143780 : 145192 : 147366] res? a
+TD78 progress: 1 145192 res
+TD84 [145193 : 146124 : 147366] ret? ␅
+TD2207596 ␆a
+TD85 [145193 : 146124 : 147366] ret? a
+TD82 progress: 1 146124 ret
+TD86 [146125 : 146680 : 147366] rev? ␅
+TD1399806 ␆a
+TD99 [146125 : 146680 : 147366] rev? a
+TD104 progress: 1 146680 rev
+TD323 [146681 : 147023 : 147366] revulsed? ␅
+TD1855729 ␆b
+TD97 [146681 : 147023 : 147366] revulsed? b
+TD107 progress: -1 147023 revulsed
+TD104 [146681 : 146846 : 147023] revert? ␅
+TD1591687 ␆b
+TD95 [146681 : 146846 : 147023] revert? b
+TD102 progress: -1 146846 revert
+TD145 [146681 : 146745 : 146846] revel? ␅
+TD1351518 ␆a
+TD97 [146681 : 146745 : 146846] revel? a
+TD105 progress: 1 146745 revel
+TD127 [146746 : 146783 : 146846] reverb? ␅
+TD1503695 ␆a
+TD98 [146746 : 146783 : 146846] reverb? a
+TD104 progress: 1 146783 reverb
+TD154 [146784 : 146799 : 146846] revere? ␅
+TD1335887 ␆a
+TD98 [146784 : 146799 : 146846] revere? a
+TD103 progress: 1 146799 revere
+TD170 [146800 : 146823 : 146846] revers? ␅
+TD1415490 ␆b
+TD80 [146800 : 146823 : 146846] revers? b
+TD80 progress: -1 146823 revers
+TD112 [146800 : 146809 : 146823] reverent? ␅
+TD1439868 ␆b
+TD98 [146800 : 146809 : 146823] reverent? b
+TD103 progress: -1 146809 reverent
+TD152 [146800 : 146801 : 146809] reverence? ␅
+TD2327535 ␆it
+TD99 [146800 : 146801 : 146809] reverence? it
+TD106 progress: 0 146801 reverence
+TD29 [146800 : 146801 : 146809] <Done>.
+TD85 📋> ␅
+TD3400214 ␆🧩 Puzzle #1026
+TD96 📋> 🧩 Puzzle #1026
+TD12 📋> ␅
+TD43 ␆🤔 17 guesses
+TD7 📋> 🤔 17 guesses
+TD6 📋> ␅
+TD13 ␆⏱️ 25s
+TD6 📋> ⏱️ 25s
+TD5 📋> ␅
+TD359324 ␆🔗 alphaguess.com/1026
+TD79 📋> 🔗 alphaguess.com/1026
+TD7 📋> ␅
+TD159939 ␄
+TD168 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1026\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1026"}
+TD99 result: "\ud83e\udde9 Puzzle #1026\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1026"
+TD16 result puzzle: 1026
+TD7 result guesses: 17
+TD6 result time: 25s
+TD5 result link: alphaguess.com/1026
+TD90 📆 2026-05-15 ? ␅
+TD215526 ␆
+TD79 📆 2026-05-15 ? 
