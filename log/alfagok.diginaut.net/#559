@@ -1,0 +1,102 @@
+T101.4164846779895 now: 2026-05-15T08:14:46EDT
+TD128 site: alfagok.diginaut.net
+TD341837 loaded 399579 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1273 words excluded) asof 68bc4af933a32b478a57e7dc8005ec5cb000d92e
+TD109  ...␅
+TD9465179 ␆
+TD69  ...
+TD157 [0 : 199695 : 399579] lijk? ␅
+TD3815814 ␆b
+TD76 [0 : 199695 : 399579] lijk? b
+TD241 progress: -1 199695 lijk
+TD86 [0 : 99727 : 199695] ex? ␅
+TD1783587 ␆a
+TD79 [0 : 99727 : 199695] ex? a
+TD93 progress: 1 99727 ex
+TD88 [99728 : 149421 : 199695] huis? ␅
+TD1623652 ␆b
+TD75 [99728 : 149421 : 199695] huis? b
+TD76 progress: -1 149421 huis
+TD89 [99728 : 111382 : 149421] ge? ␅
+TD1567829 ␆b
+TD71 [99728 : 111382 : 149421] ge? b
+TD69 progress: -1 111382 ge
+TD174 [99728 : 105555 : 111382] flemer? ␅
+TD1471892 ␆a
+TD75 [99728 : 105555 : 111382] flemer? a
+TD78 progress: 1 105555 flemer
+TD75 [105556 : 108456 : 111382] fries? ␅
+TD2159591 ␆b
+TD76 [105556 : 108456 : 111382] fries? b
+TD74 progress: -1 108456 fries
+TD83 [105556 : 106847 : 108456] form? ␅
+TD1543928 ␆a
+TD105 [105556 : 106847 : 108456] form? a
+TD115 progress: 1 106847 form
+TD126 [106848 : 107609 : 108456] fout? ␅
+TD1575570 ␆b
+TD76 [106848 : 107609 : 108456] fout? b
+TD77 progress: -1 107609 fout
+TD86 [106848 : 107226 : 107609] fot? ␅
+TD1535619 ␆b
+TD78 [106848 : 107226 : 107609] fot? b
+TD78 progress: -1 107226 fot
+TD76 [106848 : 107034 : 107226] fort? ␅
+TD1607807 ␆b
+TD75 [106848 : 107034 : 107226] fort? b
+TD75 progress: -1 107034 fort
+TD114 [106848 : 106939 : 107034] formeel? ␅
+TD1447983 ␆a
+TD91 [106848 : 106939 : 107034] formeel? a
+TD110 progress: 1 106939 formeel
+TD108 [106940 : 106972 : 107034] formule? ␅
+TD1495607 ␆a
+TD108 [106940 : 106972 : 107034] formule? a
+TD102 progress: 1 106972 formule
+TD201 [106973 : 107004 : 107034] formulier? ␅
+TD1663621 ␆b
+TD95 [106973 : 107004 : 107034] formulier? b
+TD104 progress: -1 107004 formulier
+TD210 [106973 : 106988 : 107004] formulekaarten? ␅
+TD1599746 ␆a
+TD98 [106973 : 106988 : 107004] formulekaarten? a
+TD152 progress: 1 106988 formulekaarten
+TD202 [106989 : 106994 : 107004] formulering? ␅
+TD1631236 ␆b
+TD69 [106989 : 106994 : 107004] formulering? b
+TD77 progress: -1 106994 formulering
+TD126 [106989 : 106991 : 106994] formulemanipulatie? ␅
+TD1839776 ␆a
+TD84 [106989 : 106991 : 106994] formulemanipulatie? a
+TD82 progress: 1 106991 formulemanipulatie
+TD130 [106992 : 106993 : 106994] formulerende? ␅
+TD1927928 ␆b
+TD79 [106992 : 106993 : 106994] formulerende? b
+TD172 progress: -1 106993 formulerende
+TD181 [106992 : 106992 : 106993] formuleren? ␅
+TD1879411 ␆it
+TD66 [106992 : 106992 : 106993] formuleren? it
+TD69 progress: 0 106992 formuleren
+TD13 [106992 : 106992 : 106993] <Done>.
+TD62 📋> ␅
+TD2848313 ␆🧩 Puzzel #559
+TD77 📋> 🧩 Puzzel #559
+TD7 📋> ␅
+TD29 ␆🤔 18 gokken
+TD4 📋> 🤔 18 gokken
+TD3 📋> ␅
+TD6 ␆⏱️ 29s
+TD3 📋> ⏱️ 29s
+TD2 📋> ␅
+TD303611 ␆🔗 alfagok.diginaut.net
+TD84 📋> 🔗 alfagok.diginaut.net
+TD7 📋> ␅
+TD199917 ␄
+TD146 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #559\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD370 result: "\ud83e\udde9 Puzzel #559\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"
+TD11 result puzzle: 559
+TD4 result guesses: 18
+TD3 result time: 29s
+TD2 result link: alfagok.diginaut.net
+TD60 📆 2026-05-15 ? ␅
+TD271262 ␆
+TD82 📆 2026-05-15 ? 
