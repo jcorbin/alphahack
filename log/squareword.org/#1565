@@ -1,0 +1,281 @@
+T833.6166562960134 now: 2026-05-15T08:26:59EDT
+TD142 site: squareword.org
+TD35 wordlist: nwl2023.txt
+TD46  ...␅
+TD398963 ␆
+TD99  ...
+TD73 🧩  ? ␅
+TD552084 ␆
+TD99 🧩  ? 
+TD179  ...␅
+TD1799217 ␆
+TD67  ...
+TD48 🧩  ? ␅
+TD1944313 ␆#1565
+TD76 🧩  ? #1565
+TD194 puzzle_id: #1565
+TD166 > ␅
+TD1375198 ␆*
+TD67 > *
+TD192111 try? ␅
+TD927735 ␆1
+TD88 try? 1
+TD297 questioning: ["arose", "#5"]
+TD318 #1 <IndexError>  📋 "arose" ? ␅
+TD4511497 ␆_____ ~ RS
+TD94 #1 <IndexError>  📋 "arose" ? _____ ~ RS
+TD733 attempt 0 AROSE n m n m n
+TD119 #2 <IndexError>  📋 "arose" ? ␅
+TD1935138 ␆_____ ~ A
+TD97 #2 <IndexError>  📋 "arose" ? _____ ~ A
+TD302 attempt 1 AROSE m n n n n
+TD130 #3 <IndexError>  📋 "arose" ? ␅
+TD1823408 ␆_____ ~ OSE
+TD101 #3 <IndexError>  📋 "arose" ? _____ ~ OSE
+TD257 attempt 2 AROSE n n m m m
+TD136 #4 <IndexError>  📋 "arose" ? ␅
+TD2063451 ␆___SE ~ RE
+TD79 #4 <IndexError>  📋 "arose" ? ___SE ~ RE
+TD183 attempt 3 AROSE n m n Y Y
+TD88 #5 <IndexError>  📋 "arose" ? ␅
+TD2151659 ␆_____ ~ RE
+TD77 #5 <IndexError>  📋 "arose" ? _____ ~ RE
+TD177 attempt 4 AROSE n m n n m
+TD220 ? ␅
+TD407613 ␆
+TD77 ? 
+TD104 question done
+TD194 > ␅
+TD6207794 ␆*
+TD103 > *
+TD776483 try? ␅
+TD2103579 ␆2
+TD101 try? 2
+TD306 questioning: ["nurse", "#4"]
+TD344 #1 _____ ~RS -AEO  📋 "nurse" ? ␅
+TD3911020 ␆.
+TD79 #1 _____ ~RS -AEO  📋 "nurse" ? .
+TD205 attempt 0 NURSE n n m m n
+TD73 #2 _____ ~A -EORS  📋 "nurse" ? ␅
+TD2567811 ␆_____ ~ AN
+TD75 #2 _____ ~A -EORS  📋 "nurse" ? _____ ~ AN
+TD211 attempt 1 NURSE m n n n n
+TD146 #3 _____ ~EOS -AR  📋 "nurse" ? ␅
+TD2295680 ␆_____ ~ OSEN
+TD99 #3 _____ ~EOS -AR  📋 "nurse" ? _____ ~ OSEN
+TD259 attempt 2 NURSE m n n m m
+TD149 #4 ___SE ~R -AO  📋 "nurse" ? ␅
+TD2927368 ␆__RSE ~ E
+TD99 #4 ___SE ~R -AO  📋 "nurse" ? __RSE ~ E
+TD250 attempt 3 NURSE n n Y Y Y
+TD149 #5 _____ ~ER -AOS  📋 "nurse" ? ␅
+TD2743468 ␆_____ ~ REN
+TD75 #5 _____ ~ER -AOS  📋 "nurse" ? _____ ~ REN
+TD189 attempt 4 NURSE m n m n m
+TD218 ? ␅
+TD359626 ␆
+TD101 ? 
+TD134 question done
+TD282 > ␅
+TD1071388 ␆*
+TD95 > *
+TD665709 try? ␅
+TD7470329 ␆4
+TD77 try? 4
+TD211 questioning: ["verse", "#4"]
+TD214 #1 _____ ~RS -AENOU  📋 "verse" ? ␅
+TD3599461 ␆.
+TD80 #1 _____ ~RS -AENOU  📋 "verse" ? .
+TD218 attempt 0 VERSE n n m m n
+TD98 #2 _____ ~AN -EORSU  📋 "verse" ? ␅
+TD831666 ␆.
+TD73 #2 _____ ~AN -EORSU  📋 "verse" ? .
+TD181 attempt 1 VERSE n n n n n
+TD66 #3 _____ ~ENOS -ARU  📋 "verse" ? ␅
+TD3719858 ␆_____ ~ OSENV
+TD100 #3 _____ ~ENOS -ARU  📋 "verse" ? _____ ~ OSENV
+TD268 attempt 2 VERSE m m n m m
+TD142 #4 __RSE -ANOU  📋 "verse" ? ␅
+TD2295338 ␆_ERSE
+TD80 #4 __RSE -ANOU  📋 "verse" ? _ERSE
+TD170 attempt 3 VERSE n Y Y Y Y
+TD103 #5 _____ ~ENR -AOSU  📋 "verse" ? ␅
+TD1024317 ␆.
+TD105 #5 _____ ~ENR -AOSU  📋 "verse" ? .
+TD258 attempt 4 VERSE n m m n m
+TD270 ? ␅
+TD182748 ␆
+TD83 ? 
+TD88 question done
+TD199 > ␅
+TD375665 ␆*
+TD82 > *
+TD512684 questioning: ["ovens", "#3"]
+TD189 #1 _____ ~RS -AENOUV  📋 "ovens" ? ␅
+TD3255004 ␆.
+TD91 #1 _____ ~RS -AENOUV  📋 "ovens" ? .
+TD190 attempt 0 OVENS n n n n m
+TD68 #2 _____ ~AN -EORSUV  📋 "ovens" ? ␅
+TD1208234 ␆.
+TD81 #2 _____ ~AN -EORSUV  📋 "ovens" ? .
+TD201 attempt 1 OVENS n n n m n
+TD68 #3 _____ ~ENOSV -ARU  📋 "ovens" ? ␅
+TD767107 ␆/it
+TD94 #3 _____ ~ENOSV -ARU  📋 "ovens" ? /it
+TD190 attempt 2 OVENS Y Y Y Y Y
+TD67 #4 _ERSE -ANOUV  📋 "ovens" ? ␅
+TD1223660 ␆.
+TD75 #4 _ERSE -ANOUV  📋 "ovens" ? .
+TD183 attempt 3 OVENS n n n n n
+TD66 #5 _____ ~ENR -AOSUV  📋 "ovens" ? ␅
+TD823803 ␆.
+TD80 #5 _____ ~ENR -AOSUV  📋 "ovens" ? .
+TD192 attempt 4 OVENS n n m m n
+TD177 ? ␅
+TD175501 ␆
+TD98 ? 
+TD110 question done
+TD322 > ␅
+TD351367 ␆*
+TD78 > *
+TD1160713 try? ␅
+TD3159284 ␄
+TD103 <EOF>
+TD237 > ␅
+TD4231847 ␆* 5
+TD96 > * 5
+TD267278 try? ␅
+TD4332651 ␆1
+TD97 try? 1
+TD288 questioning: ["inter", "#5"]
+TD359 #1 _____ ~RS -AENOUV  📋 "inter" ? ␅
+TD5335339 ␆_____ ~ RSIT
+TD78 #1 _____ ~RS -AENOUV  📋 "inter" ? _____ ~ RSIT
+TD198 attempt 0 INTER m n m n m
+TD115 #2 _____ ~AN -EORSUV  📋 "inter" ? ␅
+TD2119580 ␆_____ ~ ANI
+TD77 #2 _____ ~AN -EORSUV  📋 "inter" ? _____ ~ ANI
+TD180 attempt 1 INTER m m n n n
+T12.235905968002044 now: 2026-05-15T08:28:59EDT
+TD124 questioning: ["inter", "#5"]
+TD209 #4 _ERSE -AENOSUV  📋 "inter" ? ␅
+TD3282886 ␆_ERSE ~ T
+TD104 #4 _ERSE -AENOSUV  📋 "inter" ? _ERSE ~ T
+TD737 attempt 3 INTER n n m n n
+TD113 #5 _____ ~ENR -AOSUV  📋 "inter" ? ␅
+TD3126994 ␆_NTER ~ E
+TD76 #5 _____ ~ENR -AOSUV  📋 "inter" ? _NTER ~ E
+TD190 attempt 4 INTER n Y Y Y Y
+TD217 ? ␅
+TD439601 ␆
+TD156 ? 
+TD158 question done
+TD347 > ␅
+TD1063225 ␆*
+TD101 > *
+TD701660 questioning: ["shirt", "#1"]
+TD185 #1 _____ ~IRST -AENOUV  📋 "shirt" ? ␅
+TD3649984 ␆/it
+TD102 #1 _____ ~IRST -AENOUV  📋 "shirt" ? /it
+TD276 attempt 0 SHIRT Y Y Y Y Y
+TD103 #2 _____ ~AIN -EORSTUV  📋 "shirt" ? ␅
+TD1479632 ␆.
+TD83 #2 _____ ~AIN -EORSTUV  📋 "shirt" ? .
+TD200 attempt 1 SHIRT n n m n n
+TD70 #4 _ERSE ~T -AEINORSUV  📋 "shirt" ? ␅
+TD1463727 ␆.
+TD130 #4 _ERSE ~T -AEINORSUV  📋 "shirt" ? .
+TD280 attempt 3 SHIRT n n n n m
+TD95 #5 _NTER -AIOSUV  📋 "shirt" ? ␅
+TD4727462 ␆_NTER ~ E
+TD83 #5 _NTER -AIOSUV  📋 "shirt" ? _NTER ~ E
+TD173 attempt 4 SHIRT n n n n n
+TD220 ? ␅
+TD1567628 ␆
+TD82 ? 
+TD95 question done
+TD190 > ␅
+TD2375623 ␆*
+TD81 > *
+TD577843 questioning: ["mania", "#2"]
+TD187 #2 _____ ~AIN -EHORSTUV  📋 "mania" ? ␅
+TD2933951 ␆/it
+TD95 #2 _____ ~AIN -EHORSTUV  📋 "mania" ? /it
+TD267 attempt 1 MANIA Y Y Y Y Y
+TD105 #4 _ERSE ~T -AEHINORSUV  📋 "mania" ? ␅
+TD3071538 ␆.
+TD77 #4 _ERSE ~T -AEHINORSUV  📋 "mania" ? .
+TD204 attempt 3 MANIA n n n n n
+TD98 #5 _NTER -AHIORSTUV  📋 "mania" ? ␅
+TD3135528 ␆_NTER ~ E
+TD70 #5 _NTER -AHIORSTUV  📋 "mania" ? _NTER ~ E
+TD143 attempt 4 MANIA n n n n n
+TD162 ? ␅
+TD807835 ␆
+TD79 ? 
+TD93 question done
+TD182 > ␅
+TD631605 ␆*
+TD97 > *
+TD546617 questioning: ["terse", "#4"]
+TD220 #4 _ERSE ~T -AEHIMNORSUV  📋 "terse" ? ␅
+TD4885094 ␆/it
+TD98 #4 _ERSE ~T -AEHIMNORSUV  📋 "terse" ? /it
+TD252 attempt 3 TERSE Y Y Y Y Y
+TD98 #5 _NTER -AHIMNORSTUV  📋 "terse" ? ␅
+TD7055664 ␆_NTER ~ E
+TD79 #5 _NTER -AHIMNORSTUV  📋 "terse" ? _NTER ~ E
+TD176 attempt 4 TERSE n m n n m
+TD214 ? ␅
+TD575551 ␆
+TD101 ? 
+TD120 question done
+TD305 > ␅
+TD607374 ␆*
+TD100 > *
+TD88075 questioning: ["enter", "#5"]
+TD220 #5 _NTER -AHIMNORSTUV  📋 "enter" ? ␅
+TD8207637 ␆/it
+TD78 #5 _NTER -AHIMNORSTUV  📋 "enter" ? /it
+TD180 attempt 4 ENTER Y Y Y Y Y
+TD199 ? ␅
+TD3279738 ␆
+TD80 ? 
+TD87 question done
+TD21481 📋> ␅
+TD714766 ␆squareword.org 1565: 9 guesses
+TD76 📋> squareword.org 1565: 9 guesses
+TD12 📋> ␅
+TD38 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD9 ␆🟨🟨🟨🟨🟨
+TD3 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD6 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟨🟩🟩🟩🟩
+TD2 📋> 🟨🟩🟩🟩🟩
+TD2 📋> ␅
+TD13 ␆🟨🟩🟩🟩🟩
+TD2 📋> 🟨🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD263396 ␆#squareword #squareword1565
+TD80 📋> #squareword #squareword1565
+TD8 📋> ␅
+TD247882 ␄
+TD134 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1565: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1565"}
+TD495 result: "squareword.org 1565: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1565"
+TD70 📆 2026-05-15 ? ␅
+TD375263 ␆
+TD84 📆 2026-05-15 ? 
