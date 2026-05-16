@@ -1,0 +1,267 @@
+T78174.52479127499 now: 2026-05-16T08:04:26EDT
+TD75 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD26  ...␅
+TD335016 ␆
+TD98  ...
+TD73 🧩  ? ␅
+TD5751621 ␆#1566
+TD91 🧩  ? #1566
+TD274 puzzle_id: #1566
+TD293 > ␅
+TD3311533 ␆*
+TD95 > *
+TD287942 try? ␅
+TD3399938 ␆5
+TD73 try? 5
+TD271 questioning: ["roast", "#5"]
+TD313 #1 <IndexError>  📋 "roast" ? ␅
+TD6071348 ␆__A__ ~ RS
+TD100 #1 <IndexError>  📋 "roast" ? __A__ ~ RS
+TD617 attempt 0 ROAST m n Y m n
+TD91 #2 <IndexError>  📋 "roast" ? ␅
+TD2255344 ␆_O___ ~ R
+TD100 #2 <IndexError>  📋 "roast" ? _O___ ~ R
+TD285 attempt 1 ROAST m Y n n n
+TD125 #3 <IndexError>  📋 "roast" ? ␅
+TD2071550 ␆__A__ ~ A
+TD99 #3 <IndexError>  📋 "roast" ? __A__ ~ A
+TD262 attempt 2 ROAST n n Y n n
+TD131 #4 <IndexError>  📋 "roast" ? ␅
+TD1823320 ␆_____ ~ RT
+TD95 #4 <IndexError>  📋 "roast" ? _____ ~ RT
+TD253 attempt 3 ROAST m n n n m
+TD122 #5 <IndexError>  📋 "roast" ? ␅
+TD2319708 ␆_____ ~ AST
+TD99 #5 <IndexError>  📋 "roast" ? _____ ~ AST
+TD261 attempt 4 ROAST n n m m m
+TD367 ? ␅
+TD855288 ␆
+TD83 ? 
+TD115 question done
+TD196 > ␅
+TD831511 ␆*
+TD100 > *
+TD761757 try? ␅
+TD4518234 ␆2
+TD71 try? 2
+TD309 questioning: ["timer", "#4"]
+TD386 #1 __A__ ~RS -OT  📋 "timer" ? ␅
+TD4687329 ␆.
+TD109 #1 __A__ ~RS -OT  📋 "timer" ? .
+TD289 attempt 0 TIMER n n n n m
+TD103 #2 _O___ ~R -AST  📋 "timer" ? ␅
+TD2495444 ␆_O_ER
+TD78 #2 _O___ ~R -AST  📋 "timer" ? _O_ER
+TD186 attempt 1 TIMER n n n Y Y
+TD107 #3 __A__ -ORST  📋 "timer" ? ␅
+TD4535727 ␆__A__ ~ AE
+TD96 #3 __A__ -ORST  📋 "timer" ? __A__ ~ AE
+TD256 attempt 2 TIMER n n n m n
+TD170 #4 _____ ~RT -AOS  📋 "timer" ? ␅
+TD4079723 ␆T____ ~ RIE
+TD81 #4 _____ ~RT -AOS  📋 "timer" ? T____ ~ RIE
+TD189 attempt 3 TIMER Y m n m m
+TD108 #5 _____ ~AST -OR  📋 "timer" ? ␅
+TD5463442 ␆___E_ ~ AST
+TD94 #5 _____ ~AST -OR  📋 "timer" ? ___E_ ~ AST
+TD266 attempt 4 TIMER m n n Y n
+TD368 ? ␅
+TD383272 ␆
+TD90 ? 
+TD120 question done
+TD207 > ␅
+TD639650 ␆*
+TD92 > *
+TD773847 try? ␅
+TD7009954 ␆2
+TD75 try? 2
+TD213 questioning: ["hates", "#5"]
+TD214 #1 __A__ ~RS -EIMOT  📋 "hates" ? ␅
+TD4055808 ␆.
+TD110 #1 __A__ ~RS -EIMOT  📋 "hates" ? .
+TD282 attempt 0 HATES n n n n m
+TD97 #2 _O_ER -AIMST  📋 "hates" ? ␅
+TD1151370 ␆.
+TD97 #2 _O_ER -AIMST  📋 "hates" ? .
+TD421 attempt 1 HATES n n n Y n
+TD140 #3 __A__ ~E -IMORST  📋 "hates" ? ␅
+TD3343759 ␆__A__ ~ AE
+TD101 #3 __A__ ~E -IMORST  📋 "hates" ? __A__ ~ AE
+TD246 attempt 2 HATES n m n m n
+TD142 #4 T____ ~EIR -AMOS  📋 "hates" ? ␅
+TD1575087 ␆.
+TD95 #4 T____ ~EIR -AMOS  📋 "hates" ? .
+TD276 attempt 3 HATES n n n m n
+TD95 #5 ___E_ ~AST -IMOR  📋 "hates" ? ␅
+TD2679683 ␆_ATE_ ~ S
+TD80 #5 ___E_ ~AST -IMOR  📋 "hates" ? _ATE_ ~ S
+TD311 attempt 4 HATES n Y Y Y m
+TD379 ? ␅
+TD5207239 ␆
+TD95 ? 
+TD119 question done
+TD219 > ␅
+TD711458 ␆*
+TD96 > *
+TD614779 questioning: ["sated", "#5"]
+TD187 #1 __A__ ~RS -AEHIMOT  📋 "sated" ? ␅
+TD6993214 ␆S_A__ ~ R
+TD99 #1 __A__ ~RS -AEHIMOT  📋 "sated" ? S_A__ ~ R
+TD256 attempt 0 SATED Y n n n n
+TD147 #2 _O_ER -AHIMST  📋 "sated" ? ␅
+TD1623506 ␆.
+TD97 #2 _O_ER -AHIMST  📋 "sated" ? .
+TD277 attempt 1 SATED n n n Y n
+TD104 #3 __A__ ~E -HIMORST  📋 "sated" ? ␅
+TD3279631 ␆__A__ ~ AE
+TD88 #3 __A__ ~E -HIMORST  📋 "sated" ? __A__ ~ AE
+TD258 attempt 2 SATED n m n m n
+TD147 #4 T____ ~EIR -AHMOST  📋 "sated" ? ␅
+TD1415313 ␆.
+TD99 #4 T____ ~EIR -AHMOST  📋 "sated" ? .
+TD267 attempt 3 SATED n n n m n
+TD100 #5 _ATE_ ~S -HIMOR  📋 "sated" ? ␅
+TD623427 ␆/it
+TD95 #5 _ATE_ ~S -HIMOR  📋 "sated" ? /it
+TD263 attempt 4 SATED Y Y Y Y Y
+TD297 ? ␅
+TD199405 ␆
+TD92 ? 
+TD112 question done
+TD315 > ␅
+TD687595 ␆*
+TD96 > *
+TD1424249 try? ␅
+TD5247682 ␆3
+TD97 try? 3
+TD302 questioning: ["snarf", "#1"]
+TD369 #1 S_A__ ~R -ADEHIMOT  📋 "snarf" ? ␅
+TD5199385 ␆S_ARF
+TD99 #1 S_A__ ~R -ADEHIMOT  📋 "snarf" ? S_ARF
+TD206 attempt 0 SNARF Y n Y Y Y
+TD113 #2 _O_ER -ADHIMST  📋 "snarf" ? ␅
+TD1431442 ␆.
+TD74 #2 _O_ER -ADHIMST  📋 "snarf" ? .
+TD203 attempt 1 SNARF n n n n n
+TD81 #3 __A__ ~E -DHIMORST  📋 "snarf" ? ␅
+TD3031673 ␆__A__ ~ AE
+TD76 #3 __A__ ~E -DHIMORST  📋 "snarf" ? __A__ ~ AE
+TD191 attempt 2 SNARF n n Y n n
+TD105 #4 T____ ~EIR -ADHMOST  📋 "snarf" ? ␅
+TD1224374 ␆.
+TD77 #4 T____ ~EIR -ADHMOST  📋 "snarf" ? .
+TD202 attempt 3 SNARF n n n m n
+TD187 ? ␅
+TD238895 ␆
+TD79 ? 
+TD85 question done
+TD199 > ␅
+TD807560 ␆*
+TD78 > *
+TD2691652 questioning: ["scarf", "#1"]
+TD222 #1 S_ARF -DEHIMNOT  📋 "scarf" ? ␅
+TD6596170 ␆/it
+TD79 #1 S_ARF -DEHIMNOT  📋 "scarf" ? /it
+TD193 attempt 0 SCARF Y Y Y Y Y
+TD68 #2 _O_ER -ADFHIMNRST  📋 "scarf" ? ␅
+TD1935714 ␆.
+TD78 #2 _O_ER -ADFHIMNRST  📋 "scarf" ? .
+TD195 attempt 1 SCARF n n n n n
+TD67 #3 __A__ ~E -DFHIMNORST  📋 "scarf" ? ␅
+TD3207703 ␆__A__ ~AEC
+TD77 #3 __A__ ~E -DFHIMNORST  📋 "scarf" ? __A__ ~AEC
+TD221 attempt 2 SCARF n m Y n n
+TD152 #4 T____ ~EIR -ADFHMNOST  📋 "scarf" ? ␅
+TD4039697 ␆T____ ~ RIEC
+TD99 #4 T____ ~EIR -ADFHMNOST  📋 "scarf" ? T____ ~ RIEC
+TD248 attempt 3 SCARF n m n m n
+TD398 ? ␅
+TD303292 ␆
+TD98 ? 
+TD129 question done
+TD334 > ␅
+TD415320 ␆*
+TD96 > *
+TD1895955 questioning: ["trice", "#4"]
+TD194 #2 _O_ER -ACDFHIMNRST  📋 "trice" ? ␅
+TD6311839 ␆.
+TD96 #2 _O_ER -ACDFHIMNRST  📋 "trice" ? .
+TD270 attempt 1 TRICE n n n n n
+TD115 #3 __A__ ~CE -DFHIMNORST  📋 "trice" ? ␅
+TD3207639 ␆__ACE ~ A
+TD89 #3 __A__ ~CE -DFHIMNORST  📋 "trice" ? __ACE ~ A
+TD308 attempt 2 TRICE n n n Y Y
+TD130 #4 T____ ~CEIR -ADFHMNOST  📋 "trice" ? ␅
+TD671623 ␆/it
+TD106 #4 T____ ~CEIR -ADFHMNOST  📋 "trice" ? /it
+TD289 attempt 3 TRICE Y Y Y Y Y
+TD308 ? ␅
+TD223077 ␆
+TD96 ? 
+TD112 question done
+TD322 > ␅
+TD447304 ␆*
+TD97 > *
+TD1616515 questioning: ["apace", "#3"]
+TD246 #2 _O_ER -ACDEFHIMNRST  📋 "apace" ? ␅
+TD3975703 ␆.
+TD79 #2 _O_ER -ACDEFHIMNRST  📋 "apace" ? .
+TD179 attempt 1 APACE n n n n n
+TD66 #3 __ACE -DFHIMNORST  📋 "apace" ? ␅
+TD559262 ␆/it
+TD86 #3 __ACE -DFHIMNORST  📋 "apace" ? /it
+TD249 attempt 2 APACE Y Y Y Y Y
+TD307 ? ␅
+TD191315 ␆
+TD77 ? 
+TD84 question done
+TD189 > ␅
+TD551711 ␆*
+TD75 > *
+TD1161739 questioning: ["lower", "#2"]
+TD223 #2 _O_ER -ACDEFHIMNPRST  📋 "lower" ? ␅
+TD3270272 ␆/it
+TD96 #2 _O_ER -ACDEFHIMNPRST  📋 "lower" ? /it
+TD316 attempt 1 LOWER Y Y Y Y Y
+TD392 ? ␅
+TD791065 ␆
+TD89 ? 
+TD99 question done
+TD29888 📋> ␅
+TD10699116 ␆squareword.org 1566: 9 guesses
+TD81 📋> squareword.org 1566: 9 guesses
+TD41 📋> ␅
+TD37 ␆
+TD3 📋> 
+TD8 📋> ␅
+TD11 ␆🟩🟨🟩🟩🟩
+TD3 📋> 🟩🟨🟩🟩🟩
+TD6 📋> ␅
+TD7 ␆🟨🟩🟨🟩🟩
+TD2 📋> 🟨🟩🟨🟩🟩
+TD6 📋> ␅
+TD7 ␆🟨🟨🟩🟨🟨
+TD2 📋> 🟨🟨🟩🟨🟨
+TD5 📋> ␅
+TD7 ␆🟩🟨🟨🟨🟨
+TD2 📋> 🟩🟨🟨🟨🟨
+TD5 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD7 ␆
+TD2 📋> 
+TD5 📋> ␅
+TD8 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD238534 ␆#squareword #squareword1566
+TD94 📋> #squareword #squareword1566
+TD46 📋> ␅
+TD199777 ␄
+TD161 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1566: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1566"}
+TD590 result: "squareword.org 1566: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1566"
+TD96 📆 2026-05-16 ? ␅
+TD159237 ␆
+TD96 📆 2026-05-16 ? 
