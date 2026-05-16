@@ -1,0 +1,74 @@
+T77429.957050673 now: 2026-05-16T07:52:01EDT
+TD121 site: alphaguess.com
+TD147244 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof e330da591bf57f336909c770e5d6187393d70e8f
+TD118  ...␅
+TD203444 ␆
+TD77  ...
+TD131 [0 : 98216 : 196522] mach? ␅
+TD5263976 ␆a
+TD97 [0 : 98216 : 196522] mach? a
+TD105 progress: 1 98216 mach
+TD237 [98217 : 147366 : 196522] rhotic? ␅
+TD1399565 ␆a
+TD77 [98217 : 147366 : 196522] rhotic? a
+TD77 progress: 1 147366 rhotic
+TD74 [147367 : 171636 : 196522] ta? ␅
+TD1423950 ␆a
+TD97 [147367 : 171636 : 196522] ta? a
+TD104 progress: 1 171636 ta
+TD130 [171637 : 182000 : 196522] un? ␅
+TD1432128 ␆b
+TD97 [171637 : 182000 : 196522] un? b
+TD103 progress: -1 182000 un
+TD101 [171637 : 176813 : 182000] toilet? ␅
+TD1455692 ␆a
+TD95 [171637 : 176813 : 182000] toilet? a
+TD105 progress: 1 176813 toilet
+TD388 [176814 : 179407 : 182000] trictrac? ␅
+TD1374876 ␆b
+TD97 [176814 : 179407 : 182000] trictrac? b
+TD106 progress: -1 179407 trictrac
+TD143 [176814 : 178104 : 179407] tragic? ␅
+TD1335857 ␆a
+TD96 [176814 : 178104 : 179407] tragic? a
+TD102 progress: 1 178104 tragic
+TD144 [178105 : 178738 : 179407] trap? ␅
+TD2351677 ␆b
+TD97 [178105 : 178738 : 179407] trap? b
+TD79 progress: -1 178738 trap
+TD82 [178105 : 178406 : 178738] transfer? ␅
+TD1367425 ␆b
+TD76 [178105 : 178406 : 178738] transfer? b
+TD80 progress: -1 178406 transfer
+TD83 [178105 : 178198 : 178406] tram? ␅
+TD1799929 ␆b
+TD83 [178105 : 178198 : 178406] tram? b
+TD81 progress: -1 178198 tram
+TD77 [178105 : 178143 : 178198] train? ␅
+TD6272065 ␆it
+TD102 [178105 : 178143 : 178198] train? it
+TD102 progress: 0 178143 train
+TD26 [178105 : 178143 : 178198] <Done>.
+TD77 📋> ␅
+TD2535992 ␆🧩 Puzzle #1027
+TD95 📋> 🧩 Puzzle #1027
+TD11 📋> ␅
+TD40 ␆🤔 11 guesses
+TD6 📋> 🤔 11 guesses
+TD5 📋> ␅
+TD11 ␆⏱️ 18s
+TD5 📋> ⏱️ 18s
+TD4 📋> ␅
+TD263572 ␆🔗 alphaguess.com/1027
+TD117 📋> 🔗 alphaguess.com/1027
+TD11 📋> ␅
+TD167458 ␄
+TD138 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1027\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1027"}
+TD84 result: "\ud83e\udde9 Puzzle #1027\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1027"
+TD10 result puzzle: 1027
+TD3 result guesses: 11
+TD3 result time: 18s
+TD2 result link: alphaguess.com/1027
+TD69 📆 2026-05-16 ? ␅
+TD136059 ␆
+TD108 📆 2026-05-16 ? 
