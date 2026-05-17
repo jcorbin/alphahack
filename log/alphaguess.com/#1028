@@ -1,0 +1,85 @@
+T68069.68899900201 now: 2026-05-17T08:06:04EDT
+TD97 site: alphaguess.com
+TD191206 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof e330da591bf57f336909c770e5d6187393d70e8f
+TD116  ...␅
+TD1415609 ␆
+TD74  ...
+TD128 [0 : 98216 : 196522] mach? ␅
+TD4167918 ␆b
+TD94 [0 : 98216 : 196522] mach? b
+TD108 progress: -1 98216 mach
+TD120 [0 : 47380 : 98216] dis? ␅
+TD1479632 ␆a
+TD79 [0 : 47380 : 98216] dis? a
+TD83 progress: 1 47380 dis
+TD250 [47381 : 72798 : 98216] gremmy? ␅
+TD1423586 ␆a
+TD71 [47381 : 72798 : 98216] gremmy? a
+TD67 progress: 1 72798 gremmy
+TD68 [72799 : 85502 : 98216] ins? ␅
+TD1447827 ␆a
+TD70 [72799 : 85502 : 98216] ins? a
+TD68 progress: 1 85502 ins
+TD66 [85503 : 91846 : 98216] knot? ␅
+TD5648069 ␆b
+TD81 [85503 : 91846 : 98216] knot? b
+TD90 progress: -1 91846 knot
+TD88 [85503 : 88662 : 91846] jacks? ␅
+TD2895710 ␆a
+TD94 [85503 : 88662 : 91846] jacks? a
+TD110 progress: 1 88662 jacks
+TD105 [88663 : 90193 : 91846] ka? ␅
+TD2759655 ␆b
+TD94 [88663 : 90193 : 91846] ka? b
+TD111 progress: -1 90193 ka
+TD279 [88663 : 89428 : 90193] jird? ␅
+TD2111682 ␆a
+TD199 [88663 : 89428 : 90193] jird? a
+TD118 progress: 1 89428 jird
+TD126 [89429 : 89775 : 90193] joy? ␅
+TD2487290 ␆a
+TD92 [89429 : 89775 : 90193] joy? a
+TD101 progress: 1 89775 joy
+TD260 [89776 : 89980 : 90193] jumble? ␅
+TD2287615 ␆a
+TD92 [89776 : 89980 : 90193] jumble? a
+TD102 progress: 1 89980 jumble
+TD117 [89981 : 90084 : 90193] jura? ␅
+TD1871690 ␆b
+TD71 [89981 : 90084 : 90193] jura? b
+TD82 progress: -1 90084 jura
+TD92 [89981 : 90016 : 90084] jun? ␅
+TD1815812 ␆a
+TD101 [89981 : 90016 : 90084] jun? a
+TD120 progress: 1 90016 jun
+TD109 [90017 : 90047 : 90084] junk? ␅
+TD3511553 ␆it'
+TD76 [90017 : 90047 : 90084] junk? it'
+TD115 [90017 : 90047 : 90084] junk? ␅
+TD1240153 ␆it
+TD82 [90017 : 90047 : 90084] junk? it
+TD81 progress: 0 90047 junk
+TD21 [90017 : 90047 : 90084] <Done>.
+TD62 📋> ␅
+TD2872093 ␆🧩 Puzzle #1028
+TD74 📋> 🧩 Puzzle #1028
+TD9 📋> ␅
+TD57 ␆🤔 13 guesses
+TD4 📋> 🤔 13 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 28s
+TD3 📋> ⏱️ 28s
+TD2 📋> ␅
+TD319400 ␆🔗 alphaguess.com/1028
+TD106 📋> 🔗 alphaguess.com/1028
+TD12 📋> ␅
+TD192227 ␄
+TD137 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1028\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/1028"}
+TD75 result: "\ud83e\udde9 Puzzle #1028\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/1028"
+TD10 result puzzle: 1028
+TD3 result guesses: 13
+TD3 result time: 28s
+TD2 result link: alphaguess.com/1028
+TD71 📆 2026-05-17 ? ␅
+TD215448 ␆
+TD78 📆 2026-05-17 ? 
