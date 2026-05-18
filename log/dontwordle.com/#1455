@@ -1,0 +1,183 @@
+T70826.74753693 now: 2026-05-18T08:33:45EDT
+TD95 site: dontwordle.com
+TD40 wordlist: nwl2023.txt
+TD25  ...␅
+TD302033 ␆
+TD104  ...
+TD229 1> ␅
+TD3055418 ␆
+TD99 1> 
+TD170 1> ␅
+TD2503767 ␆* -bot 10
+TD95 1> * -bot 10
+TD286923 ? ␅
+TD5281162 ␆10
+TD91 ? 10
+TD314 📋 "acres" ? ␅
+TD4207530 ␆nnnYn
+TD99 📋 "acres" ? nnnYn
+TD831 tried: ACRES n n n Y n
+TD263 2> ␅
+TD774745 ␆undo
+TD82 2> undo
+TD143 undo
+TD149 1> ␅
+TD2375605 ␆*
+TD74 1> *
+TD143035 ? ␅
+TD697011 ␆1
+TD97 ? 1
+TD249 📋 "jujus" ? ␅
+TD5807718 ␆nnnnn
+TD97 📋 "jujus" ? nnnnn
+TD215 tried: JUJUS n n n n n
+TD197 2> ␅
+TD7431458 ␆* :v [acres] -bot 10
+TD95 2> * :v [acres] -bot 10
+TD115271 ? ␅
+TD924741 ␆1
+TD95 ? 1
+TD220 📋 "tondi" ? ␅
+TD3815708 ␆nnMnn
+TD102 📋 "tondi" ? nnMnn
+TD195 tried: TONDI n n m n n
+TD151 3> ␅
+TD1767618 ␆undo
+TD99 3> undo
+TD153 undo
+TD214 2> ␅
+TD487340 ␆*
+TD88 2> *
+TD109587 ? ␅
+TD2978730 ␆1
+TD112 ? 1
+TD269 📋 "llama" ? ␅
+TD5031537 ␆nnnMn
+TD124 📋 "llama" ? nnnMn
+TD216 tried: LLAMA n n n m n
+TD167 3> ␅
+TD3023389 ␆undo
+TD93 3> undo
+TD139 undo
+TD197 2> ␅
+TD4095708 ␆*
+TD81 2> *
+TD126111 ? ␅
+TD433538 ␆1
+TD94 ? 1
+TD237 📋 "babka" ? ␅
+TD4103898 ␆nnnnn
+TD78 📋 "babka" ? nnnnn
+TD148 tried: BABKA n n n n n
+TD113 3> ␅
+TD527675 ␆*
+TD99 3> *
+TD106778 ? ␅
+TD925119 ␆1
+TD98 ? 1
+TD245 📋 "pipit" ? ␅
+TD4991630 ␆nnnnn
+TD79 📋 "pipit" ? nnnnn
+TD155 tried: PIPIT n n n n n
+TD122 4> ␅
+TD1159805 ␆*
+TD104 4> *
+TD112578 ? ␅
+TD1183282 ␆1
+TD77 ? 1
+TD171 📋 "xylyl" ? ␅
+TD5095765 ␆nYnnn
+TD78 📋 "xylyl" ? nYnnn
+TD145 tried: XYLYL n Y n n n
+TD119 5> ␅
+TD679745 ␆undo
+TD94 5> undo
+TD135 undo
+TD278 4> ␅
+TD2775335 ␆*
+TD77 4> *
+TD67102 ? ␅
+TD989231 ␆1
+TD98 ? 1
+TD241 📋 "ovolo" ? ␅
+TD4583498 ␆nnnnn
+TD92 📋 "ovolo" ? nnnnn
+TD147 tried: OVOLO n n n n n
+TD123 5> ␅
+TD640150 ␆*(
+TD78 5> *(
+TD129 5> ␅
+TD631775 ␆*
+TD81 5> *
+TD196469 ? ␅
+TD1082932 ␆1
+TD69 ? 1
+TD152 📋 "ceded" ? ␅
+TD6007947 ␆nnnYn
+TD80 📋 "ceded" ? nnnYn
+TD152 tried: CEDED n n n Y n
+TD133 6> ␅
+TD503576 ␆*
+TD73 6> *
+TD183473 ? ␅
+TD1504442 ␆1
+TD93 ? 1
+TD219 📋 "egger" ? ␅
+TD4551772 ␄
+TD131 <EOF>
+TD152 6> ␅
+TD2671540 ␆* -sans
+TD96 6> * -sans
+TD89359 ? ␅
+TD3654743 ␆4
+TD76 ? 4
+TD174 📋 "fryer" ? ␅
+TD6015777 ␆nnMYn
+TD86 📋 "fryer" ? nnMYn
+TD189 tried: FRYER n n m Y n
+TD247 📋> ␅
+TD3840713 ␆Don't Wordle 1455 - SURVIVED
+TD118 📋> Don't Wordle 1455 - SURVIVED
+TD14 📋> ␅
+TD44 ␆Hooray! I didn't Wordle today!
+TD6 📋> Hooray! I didn't Wordle today!
+TD5 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜5557
+TD5 📋> ⬜⬜⬜⬜⬜5557
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜2266
+TD4 📋> ⬜⬜⬜⬜⬜2266
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜756
+TD4 📋> ⬜⬜⬜⬜⬜756
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜169
+TD4 📋> ⬜⬜⬜⬜⬜169
+TD4 📋> ␅
+TD11 ␆⬜⬜⬜🟩⬜4
+TD4 📋> ⬜⬜⬜🟩⬜4
+TD4 📋> ␅
+TD9 ␆⬜⬜🟨🟩⬜1
+TD4 📋> ⬜⬜🟨🟩⬜1
+TD4 📋> ␅
+TD9 ␆Undos used: 4
+TD4 📋> Undos used: 4
+TD4 📋> ␅
+TD26 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD10 ␆  1 words remaining
+TD6 📋>   1 words remaining
+TD7 📋> ␅
+TD11 ␆x 8 unused letters
+TD4 📋> x 8 unused letters
+TD4 📋> ␅
+TD350477 ␆= 8 total score
+TD99 📋> = 8 total score
+TD13 📋> ␅
+TD215975 ␄
+TD283 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1455 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5557\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2266\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c756\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c169\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c4\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c1\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"}
+TD1473 result: "Don't Wordle 1455 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5557\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2266\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c756\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c169\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c4\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c1\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"
+TD78 📆 2026-05-18 ? ␅
+TD166134 ␆
+TD106 📆 2026-05-18 ? 
