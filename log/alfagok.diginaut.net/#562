@@ -1,0 +1,97 @@
+T70701.21007030999 now: 2026-05-18T08:31:40EDT
+TD175 site: alfagok.diginaut.net
+TD589101 loaded 399579 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1273 words excluded) asof e330da591bf57f336909c770e5d6187393d70e8f
+TD129  ...␅
+TD2240776 ␆
+TD100  ...
+TD5330 [0 : 199695 : 399579] lijk? ␅
+TD5906697 ␆a
+TD99 [0 : 199695 : 399579] lijk? a
+TD752 progress: 1 199695 lijk
+TD90 [199696 : 299450 : 399579] schro? ␅
+TD1823019 ␆a
+TD98 [199696 : 299450 : 399579] schro? a
+TD176 progress: 1 299450 schro
+TD109 [299451 : 349431 : 399579] vakantie? ␅
+TD1575681 ␆a
+TD78 [299451 : 349431 : 399579] vakantie? a
+TD76 progress: 1 349431 vakantie
+TD84 [349432 : 374171 : 399579] vrij? ␅
+TD1919712 ␆b
+TD77 [349432 : 374171 : 399579] vrij? b
+TD80 progress: -1 374171 vrij
+TD91 [349432 : 352999 : 374171] ver? ␅
+TD1599851 ␆a
+TD75 [349432 : 352999 : 374171] ver? a
+TD75 progress: 1 352999 ver
+TD143 [353000 : 363581 : 374171] verzot? ␅
+TD1631595 ␆b
+TD87 [353000 : 363581 : 374171] verzot? b
+TD105 progress: -1 363581 verzot
+TD363 [353000 : 358285 : 363581] verluid? ␅
+TD1567595 ␆a
+TD84 [353000 : 358285 : 363581] verluid? a
+TD73 progress: 1 358285 verluid
+TD82 [358286 : 360605 : 363581] verst? ␅
+TD1575750 ␆a
+TD80 [358286 : 360605 : 363581] verst? a
+TD119 progress: 1 360605 verst
+TD78 [360606 : 362021 : 363581] vervolg? ␅
+TD1487738 ␆a
+TD95 [360606 : 362021 : 363581] vervolg? a
+TD105 progress: 1 362021 vervolg
+TD82 [362022 : 362797 : 363581] verwin? ␅
+TD1799629 ␆b
+TD70 [362022 : 362797 : 363581] verwin? b
+TD69 progress: -1 362797 verwin
+TD154 [362022 : 362405 : 362797] verweef? ␅
+TD1799800 ␆b
+TD90 [362022 : 362405 : 362797] verweef? b
+TD107 progress: -1 362405 verweef
+TD505 [362022 : 362213 : 362405] vervrouwelijken? ␅
+TD1455354 ␆b
+TD77 [362022 : 362213 : 362405] vervrouwelijken? b
+TD74 progress: -1 362213 vervrouwelijken
+TD157 [362022 : 362117 : 362213] vervolgstuk? ␅
+TD2040244 ␆b
+TD99 [362022 : 362117 : 362213] vervolgstuk? b
+TD102 progress: -1 362117 vervolgstuk
+TD177 [362022 : 362070 : 362117] vervolging? ␅
+TD1599085 ␆b
+TD98 [362022 : 362070 : 362117] vervolging? b
+TD103 progress: -1 362070 vervolging
+TD263 [362022 : 362046 : 362070] vervolgcontacten? ␅
+TD1480128 ␆a
+TD71 [362022 : 362046 : 362070] vervolgcontacten? a
+TD70 progress: 1 362046 vervolgcontacten
+TD82 [362047 : 362057 : 362070] vervolge? ␅
+TD2031656 ␆!
+TD79 [362047 : 362057 : 362070] vervolge? !
+TD451 [362047 : 362057 : 362069] vervolgen? ␅
+TD2575050 ␆it
+TD94 [362047 : 362057 : 362069] vervolgen? it
+TD105 progress: 0 362057 vervolgen
+TD25 [362047 : 362057 : 362069] <Done>.
+TD148 📋> ␅
+TD2543962 ␆🧩 Puzzel #562
+TD69 📋> 🧩 Puzzel #562
+TD7 📋> ␅
+TD26 ␆🤔 16 gokken
+TD3 📋> 🤔 16 gokken
+TD2 📋> ␅
+TD5 ␆⏱️ 28s
+TD3 📋> ⏱️ 28s
+TD2 📋> ␅
+TD271626 ␆🔗 alfagok.diginaut.net
+TD145 📋> 🔗 alfagok.diginaut.net
+TD14 📋> ␅
+TD192081 ␄
+TD232 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #562\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 28s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD611 result: "\ud83e\udde9 Puzzel #562\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 28s\n\ud83d\udd17 alfagok.diginaut.net"
+TD22 result puzzle: 562
+TD3 result guesses: 16
+TD2 result time: 28s
+TD2 result link: alfagok.diginaut.net
+TD68 📆 2026-05-18 ? ␅
+TD158697 ␆
+TD73 📆 2026-05-18 ? 
