@@ -1,0 +1,90 @@
+T84488.277912321 now: 2026-05-19T08:42:07EDT
+TD158 site: alphaguess.com
+TD218626 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 0d3d5b33d30418932c51b6b305bdf6c0411ef687
+TD118  ...␅
+TD827828 ␆
+TD101  ...
+TD175 [0 : 98216 : 196522] mach? ␅
+TD5287747 ␆a
+TD97 [0 : 98216 : 196522] mach? a
+TD112 progress: 1 98216 mach
+TD242 [98217 : 147366 : 196522] rhotic? ␅
+TD1583533 ␆b
+TD96 [98217 : 147366 : 196522] rhotic? b
+TD106 progress: -1 147366 rhotic
+TD119 [98217 : 122777 : 147366] parr? ␅
+TD2543672 ␆a
+TD78 [98217 : 122777 : 147366] parr? a
+TD93 progress: 1 122777 parr
+TD105 [122778 : 135068 : 147366] proper? ␅
+TD1599718 ␆a
+TD99 [122778 : 135068 : 147366] proper? a
+TD111 progress: 1 135068 proper
+TD130 [135069 : 140516 : 147366] rec? ␅
+TD1543739 ␆b
+TD96 [135069 : 140516 : 147366] rec? b
+TD108 progress: -1 140516 rec
+TD144 [135069 : 137787 : 140516] quart? ␅
+TD1367840 ␆a
+TD81 [135069 : 137787 : 140516] quart? a
+TD81 progress: 1 137787 quart
+TD73 [137788 : 139056 : 140516] ram? ␅
+TD1935578 ␆b
+TD75 [137788 : 139056 : 140516] ram? b
+TD78 progress: -1 139056 ram
+TD81 [137788 : 138415 : 139056] rabbit? ␅
+TD1663855 ␆a
+TD80 [137788 : 138415 : 139056] rabbit? a
+TD84 progress: 1 138415 rabbit
+TD77 [138416 : 138651 : 139056] radio? ␅
+TD1535625 ␆a
+TD77 [138416 : 138651 : 139056] radio? a
+TD78 progress: 1 138651 radio
+TD96 [138652 : 138817 : 139056] rag? ␅
+TD1623730 ␆a
+TD78 [138652 : 138817 : 139056] rag? a
+TD80 progress: 1 138817 rag
+TD80 [138818 : 138932 : 139056] rain? ␅
+TD3799786 ␆a
+TD79 [138818 : 138932 : 139056] rain? a
+TD83 progress: 1 138932 rain
+TD76 [138933 : 138989 : 139056] rais? ␅
+TD3559843 ␆b
+TD81 [138933 : 138989 : 139056] rais? b
+TD80 progress: -1 138989 rais
+TD194 [138933 : 138961 : 138989] rainmaking? ␅
+TD3303721 ␆b
+TD93 [138933 : 138961 : 138989] rainmaking? b
+TD108 progress: -1 138961 rainmaking
+TD195 [138933 : 138947 : 138961] rained? ␅
+TD1759732 ␆b
+TD94 [138933 : 138947 : 138961] rained? b
+TD109 progress: -1 138947 rained
+TD152 [138933 : 138937 : 138947] rainbow? ␅
+TD2799522 ␆it
+TD100 [138933 : 138937 : 138947] rainbow? it
+TD109 progress: 0 138937 rainbow
+TD26 [138933 : 138937 : 138947] <Done>.
+TD86 📋> ␅
+TD3864182 ␆🧩 Puzzle #1030
+TD72 📋> 🧩 Puzzle #1030
+TD7 📋> ␅
+TD30 ␆🤔 15 guesses
+TD4 📋> 🤔 15 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 29s
+TD3 📋> ⏱️ 29s
+TD2 📋> ␅
+TD503477 ␆🔗 alphaguess.com/1030
+TD79 📋> 🔗 alphaguess.com/1030
+TD8 📋> ␅
+TD128045 ␄
+TD166 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1030\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 29s\n\ud83d\udd17 alphaguess.com/1030"}
+TD100 result: "\ud83e\udde9 Puzzle #1030\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 29s\n\ud83d\udd17 alphaguess.com/1030"
+TD16 result puzzle: 1030
+TD7 result guesses: 15
+TD6 result time: 29s
+TD5 result link: alphaguess.com/1030
+TD91 📆 2026-05-19 ? ␅
+TD231558 ␆
+TD95 📆 2026-05-19 ? 
