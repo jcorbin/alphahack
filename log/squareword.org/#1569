@@ -1,0 +1,258 @@
+T85364.17021048002 now: 2026-05-19T08:56:43EDT
+TD84 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD27  ...␅
+TD558913 ␆
+TD94  ...
+TD73 🧩  ? ␅
+TD7079844 ␆#1569
+TD95 🧩  ? #1569
+TD327 puzzle_id: #1569
+TD583 > ␅
+TD455019 ␆
+TD94 > 
+TD528 > ␅
+TD1415392 ␆*
+TD91 > *
+TD256365 try? ␅
+TD599451 ␆1
+TD72 try? 1
+TD302 questioning: ["earls", "#5"]
+TD207 #1 <IndexError>  📋 "earls" ? ␅
+TD5407767 ␆_____ ~ RS
+TD80 #1 <IndexError>  📋 "earls" ? _____ ~ RS
+TD582 attempt 0 EARLS n n m n m
+TD108 #2 <IndexError>  📋 "earls" ? ␅
+TD2535141 ␆_____ ~ EA
+TD92 #2 <IndexError>  📋 "earls" ? _____ ~ EA
+TD273 attempt 1 EARLS m m n n n
+TD129 #3 <IndexError>  📋 "earls" ? ␅
+TD2495491 ␆_____ ~ EARS
+TD78 #3 <IndexError>  📋 "earls" ? _____ ~ EARS
+TD187 attempt 2 EARLS m m m n m
+TD86 #4 <IndexError>  📋 "earls" ? ␅
+TD2527771 ␆__R_S ~ E
+TD95 #4 <IndexError>  📋 "earls" ? __R_S ~ E
+TD259 attempt 3 EARLS m n Y n Y
+TD135 #5 <IndexError>  📋 "earls" ? ␅
+TD2023342 ␆_____ ~ ERS
+TD75 #5 <IndexError>  📋 "earls" ? _____ ~ ERS
+TD187 attempt 4 EARLS m n m n m
+TD321 ? ␅
+TD511915 ␆
+TD103 ? 
+TD151 question done
+TD307 > ␅
+TD446947 ␆*
+TD75 > *
+TD1035091 try? ␅
+TD6132950 ␆4
+TD85 try? 4
+TD235 questioning: ["spare", "#3"]
+TD217 #1 _____ ~RS -AEL  📋 "spare" ? ␅
+TD4503562 ␆_____ ~ RSP
+TD99 #1 _____ ~RS -AEL  📋 "spare" ? _____ ~ RSP
+TD275 attempt 0 SPARE m m n m n
+TD136 #2 _____ ~AE -LRS  📋 "spare" ? ␅
+TD1679647 ␆.
+TD94 #2 _____ ~AE -LRS  📋 "spare" ? .
+TD295 attempt 1 SPARE n n m n m
+TD99 #3 _____ ~AERS -L  📋 "spare" ? ␅
+TD799532 ␆.
+TD94 #3 _____ ~AERS -L  📋 "spare" ? .
+TD271 attempt 2 SPARE m n m m m
+TD92 #4 __R_S ~E -AL  📋 "spare" ? ␅
+TD4455496 ␆.
+TD77 #4 __R_S ~E -AL  📋 "spare" ? .
+TD199 attempt 3 SPARE n n n n m
+TD67 #5 _____ ~ERS -AL  📋 "spare" ? ␅
+TD1679732 ␆S__RE
+TD81 #5 _____ ~ERS -AL  📋 "spare" ? S__RE
+TD182 attempt 4 SPARE Y n n Y Y
+TD213 ? ␅
+TD295380 ␆
+TD78 ? 
+TD97 question done
+TD207 > ␅
+TD519736 ␆*
+TD76 > *
+TD975875 try? ␅
+TD5552129 ␆1
+TD98 try? 1
+TD296 questioning: ["asker", "#3"]
+TD338 #1 _____ ~PRS -AEL  📋 "asker" ? ␅
+TD4047363 ␆.
+TD76 #1 _____ ~PRS -AEL  📋 "asker" ? .
+TD243 attempt 0 ASKER n m n n m
+TD101 #2 _____ ~AE -LPRS  📋 "asker" ? ␅
+TD647665 ␆.
+TD75 #2 _____ ~AE -LPRS  📋 "asker" ? .
+TD206 attempt 1 ASKER m n n m n
+TD69 #3 _____ ~AERS -LP  📋 "asker" ? ␅
+TD2063595 ␆AS_ER
+TD75 #3 _____ ~AERS -LP  📋 "asker" ? AS_ER
+TD177 attempt 2 ASKER Y Y n Y Y
+TD152 #4 __R_S ~E -ALPRS  📋 "asker" ? ␅
+TD1655779 ␆_RES
+TD96 #4 __R_S ~E -ALPRS  📋 "asker" ? _RES
+TD329 #4 __R_S ~E -ALPRS  ? ␅
+TD1239408 ␆.
+TD106 #4 __R_S ~E -ALPRS  ? .
+TD326 attempt 3 ASKER n n n m n
+TD177 #5 S__RE -ALP  📋 "asker" ? ␅
+TD127415 ␆
+TD93 #5 S__RE -ALP  📋 "asker" ? 
+TD302 #5 S__RE -ALP  ? ␅
+TD471535 ␆*
+TD92 #5 S__RE -ALP  ? *
+TD589 #5 S__RE -ALP  ? ␅
+TD3559320 ␆.
+TD107 #5 S__RE -ALP  ? .
+TD269 attempt 4 ASKER n n n n n
+TD336 ? ␅
+TD1095451 ␆*
+TD92 ? *
+TD451 ? ␅
+TD775388 ␆
+TD95 ? 
+TD113 question done
+TD306 > ␅
+TD583657 ␆*
+TD89 > *
+TD843334 questioning: ["aster", "#3"]
+TD188 #1 _____ ~PRS -AEKL  📋 "aster" ? ␅
+TD5428349 ␆.
+TD76 #1 _____ ~PRS -AEKL  📋 "aster" ? .
+TD196 attempt 0 ASTER n m n n m
+TD65 #2 _____ ~AE -KLPRS  📋 "aster" ? ␅
+TD895734 ␆.
+TD75 #2 _____ ~AE -KLPRS  📋 "aster" ? .
+TD191 attempt 1 ASTER m n n m n
+TD67 #3 AS_ER -KLP  📋 "aster" ? ␅
+TD3127539 ␆/it
+TD71 #3 AS_ER -KLP  📋 "aster" ? /it
+TD175 attempt 2 ASTER Y Y Y Y Y
+TD66 #4 __R_S ~E -AKLPRS  📋 "aster" ? ␅
+TD2863868 ␆__RES ~ T
+TD82 #4 __R_S ~E -AKLPRS  📋 "aster" ? __RES ~ T
+TD191 attempt 3 ASTER n n m Y n
+TD109 #5 S__RE -AEKLPRS  📋 "aster" ? ␅
+TD815492 ␆.
+TD76 #5 S__RE -AEKLPRS  📋 "aster" ? .
+TD198 attempt 4 ASTER n n n n n
+TD183 ? ␅
+TD151595 ␆
+TD98 ? 
+TD116 question done
+TD322 > ␅
+TD455368 ␆*
+TD95 > *
+TD1925850 try? ␅
+TD1626127 ␆1
+TD77 try? 1
+TD218 questioning: ["crisp", "#1"]
+TD226 #1 _____ ~PRS -AEKLT  📋 "crisp" ? ␅
+TD3591938 ␆/it
+TD76 #1 _____ ~PRS -AEKLT  📋 "crisp" ? /it
+TD203 attempt 0 CRISP Y Y Y Y Y
+TD82 #2 _____ ~AE -KLPRST  📋 "crisp" ? ␅
+TD1119247 ␆.
+TD78 #2 _____ ~AE -KLPRST  📋 "crisp" ? .
+TD187 attempt 1 CRISP n n n n n
+TD68 #4 __RES ~T -AKLPRS  📋 "crisp" ? ␅
+TD2567754 ␆__RES ~ TI
+TD80 #4 __RES ~T -AKLPRS  📋 "crisp" ? __RES ~ TI
+TD227 attempt 3 CRISP n n m n n
+TD111 #5 S__RE -AEKLPRST  📋 "crisp" ? ␅
+TD1423530 ␆.
+TD79 #5 S__RE -AEKLPRST  📋 "crisp" ? .
+TD197 attempt 4 CRISP n n n n n
+TD188 ? ␅
+TD175587 ␆
+TD80 ? 
+TD86 question done
+TD201 > ␅
+TD527752 ␆*
+TD75 > *
+TD1966501 questioning: ["henna", "#2"]
+TD196 #2 _____ ~AE -CIKLPRST  📋 "henna" ? ␅
+TD2689017 ␆/it
+TD79 #2 _____ ~AE -CIKLPRST  📋 "henna" ? /it
+TD187 attempt 1 HENNA Y Y Y Y Y
+TD72 #4 __RES ~IT -ACKLPRS  📋 "henna" ? ␅
+TD1743917 ␆.
+TD80 #4 __RES ~IT -ACKLPRS  📋 "henna" ? .
+TD192 attempt 3 HENNA n n n n n
+TD77 #5 S__RE -ACEIKLPRST  📋 "henna" ? ␅
+TD4151602 ␆S__RE ~ N
+TD78 #5 S__RE -ACEIKLPRST  📋 "henna" ? S__RE ~ N
+TD178 attempt 4 HENNA n n m m n
+TD228 ? ␅
+TD191488 ␆
+TD78 ? 
+TD89 question done
+TD189 > ␅
+TD448058 ␆*
+TD78 > *
+TD1927839 questioning: ["tires", "#4"]
+TD230 #4 __RES ~IT -ACEHKLNPRS  📋 "tires" ? ␅
+TD2839520 ␆/it
+TD77 #4 __RES ~IT -ACEHKLNPRS  📋 "tires" ? /it
+TD185 attempt 3 TIRES Y Y Y Y Y
+TD77 #5 S__RE ~N -ACEHIKLPRST  📋 "tires" ? ␅
+TD1575825 ␆.
+TD99 #5 S__RE ~N -ACEHIKLPRST  📋 "tires" ? .
+TD337 attempt 4 TIRES n n n n n
+TD332 ? ␅
+TD167229 ␆
+TD97 ? 
+TD122 question done
+TD320 > ␅
+TD463300 ␆*
+TD73 > *
+TD1174688 questioning: ["snore", "#5"]
+TD247 #5 S__RE ~N -ACEHIKLPRST  📋 "snore" ? ␅
+TD2913215 ␆/it
+TD103 #5 S__RE ~N -ACEHIKLPRST  📋 "snore" ? /it
+TD255 attempt 4 SNORE Y Y Y Y Y
+TD300 ? ␅
+TD791272 ␆
+TD96 ? 
+TD117 question done
+TD32489 📋> ␅
+TD4655939 ␆squareword.org 1569: 8 guesses
+TD95 📋> squareword.org 1569: 8 guesses
+TD14 📋> ␅
+TD62 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD23 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD16 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD25 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD14 ␆🟨🟨🟩🟩🟩
+TD4 📋> 🟨🟨🟩🟩🟩
+TD5 📋> ␅
+TD15 ␆🟩🟨🟨🟩🟩
+TD5 📋> 🟩🟨🟨🟩🟩
+TD4 📋> ␅
+TD14 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD17 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD271025 ␆#squareword #squareword1569
+TD89 📋> #squareword #squareword1569
+TD8 📋> ␅
+TD208401 ␄
+TD167 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1569: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1569"}
+TD1135 result: "squareword.org 1569: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1569"
+TD70 📆 2026-05-19 ? ␅
+TD270116 ␆
+TD105 📆 2026-05-19 ? 
