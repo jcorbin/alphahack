@@ -1,0 +1,106 @@
+T5.480368390970398 now: 2026-05-20T09:47:09EDT
+TD85 site: alfagok.diginaut.net
+TD396681 loaded 399578 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1274 words excluded) asof d6c6904995fcb9e6f77531b68a28c02a8d6cd790
+TD128  ...␅
+TD537993 ␆
+TD102  ...
+TD238 [0 : 199695 : 399578] lijk? ␅
+TD4656001 ␆a
+TD77 [0 : 199695 : 399578] lijk? a
+TD250 progress: 1 199695 lijk
+TD93 [199696 : 299450 : 399578] schro? ␅
+TD2583256 ␆a
+TD76 [199696 : 299450 : 399578] schro? a
+TD89 progress: 1 299450 schro
+TD76 [299451 : 349431 : 399578] vakantie? ␅
+TD1567681 ␆b
+TD95 [299451 : 349431 : 399578] vakantie? b
+TD103 progress: -1 349431 vakantie
+TD104 [299451 : 324385 : 349431] subsidie? ␅
+TD1600066 ␆a
+TD104 [299451 : 324385 : 349431] subsidie? a
+TD125 progress: 1 324385 subsidie
+TD110 [324386 : 335575 : 349431] toe? ␅
+TD6079400 ␆a
+TD81 [324386 : 335575 : 349431] toe? a
+TD80 progress: 1 335575 toe
+TD77 [335576 : 342481 : 349431] tunnel? ␅
+TD1815907 ␆a
+TD81 [335576 : 342481 : 349431] tunnel? a
+TD79 progress: 1 342481 tunnel
+TD86 [342482 : 344085 : 349431] uit? ␅
+TD1695528 ␆a
+TD78 [342482 : 344085 : 349431] uit? a
+TD77 progress: 1 344085 uit
+TD234 [344086 : 346753 : 349431] uitschreeuw? ␅
+TD1479577 ␆a
+TD94 [344086 : 346753 : 349431] uitschreeuw? a
+TD102 progress: 1 346753 uitschreeuw
+TD220 [346754 : 348092 : 349431] uitzuig? ␅
+TD1543602 ␆b
+TD80 [346754 : 348092 : 349431] uitzuig? b
+TD80 progress: -1 348092 uitzuig
+TD113 [346754 : 347409 : 348092] uitvind? ␅
+TD1743935 ␆a
+TD77 [346754 : 347409 : 348092] uitvind? a
+TD77 progress: 1 347409 uitvind
+TD216 [347410 : 347751 : 348092] uitwiedt? ␅
+TD1639572 ␆a
+TD85 [347410 : 347751 : 348092] uitwiedt? a
+TD75 progress: 1 347751 uitwiedt
+TD76 [347752 : 347886 : 348092] uitzend? ␅
+TD1471674 ␆a
+TD77 [347752 : 347886 : 348092] uitzend? a
+TD74 progress: 1 347886 uitzend
+TD73 [347887 : 347986 : 348092] uitzetting? ␅
+TD1527853 ␆a
+TD92 [347887 : 347986 : 348092] uitzetting? a
+TD101 progress: 1 347986 uitzetting
+TD162 [347987 : 348037 : 348092] uitzoek? ␅
+TD1559588 ␆a
+TD93 [347987 : 348037 : 348092] uitzoek? a
+TD102 progress: 1 348037 uitzoek
+TD112 [348038 : 348049 : 348092] uitzondering? ␅
+TD1479796 ␆b
+TD99 [348038 : 348049 : 348092] uitzondering? b
+TD108 progress: -1 348049 uitzondering
+TD230 [348038 : 348043 : 348049] uitzond? ␅
+TD2535717 ␆b
+TD112 [348038 : 348043 : 348049] uitzond? b
+TD111 progress: -1 348043 uitzond
+TD206 [348038 : 348040 : 348043] uitzoekt? ␅
+TD1551471 ␆b
+TD93 [348038 : 348040 : 348043] uitzoekt? b
+TD103 progress: -1 348040 uitzoekt
+TD208 [348038 : 348039 : 348040] uitzoekerij? ␅
+TD1599721 ␆b
+TD93 [348038 : 348039 : 348040] uitzoekerij? b
+TD106 progress: -1 348039 uitzoekerij
+TD131 [348038 : 348038 : 348039] uitzoeken? ␅
+TD1839520 ␆it
+TD95 [348038 : 348038 : 348039] uitzoeken? it
+TD103 progress: 0 348038 uitzoeken
+TD25 [348038 : 348038 : 348039] <Done>.
+TD107 📋> ␅
+TD2488323 ␆🧩 Puzzel #564
+TD98 📋> 🧩 Puzzel #564
+TD17 📋> ␅
+TD38 ␆🤔 19 gokken
+TD6 📋> 🤔 19 gokken
+TD9 📋> ␅
+TD18 ␆⏱️ 35s
+TD9 📋> ⏱️ 35s
+TD8 📋> ␅
+TD327340 ␆🔗 alfagok.diginaut.net
+TD93 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD199923 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #564\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD555 result: "\ud83e\udde9 Puzzel #564\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"
+TD19 result puzzle: 564
+TD9 result guesses: 19
+TD6 result time: 35s
+TD5 result link: alfagok.diginaut.net
+TD85 📆 2026-05-20 ? ␅
+TD231111 ␆
+TD96 📆 2026-05-20 ? 
