@@ -1,0 +1,245 @@
+T2003.8529300229857 now: 2026-05-20T10:20:28EDT
+TD68 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD24  ...␅
+TD1927281 ␆
+TD95  ...
+TD71 🧩  ? ␅
+TD4743738 ␆#1570
+TD69 🧩  ? #1570
+TD196 puzzle_id: #1570
+TD185 > ␅
+TD703714 ␆
+TD97 > 
+TD395 > ␅
+TD1231462 ␆*
+TD92 > *
+TD234581 try? ␅
+TD1021228 ␆1
+TD89 try? 1
+TD278 questioning: ["stare", "#5"]
+TD223 #1 <IndexError>  📋 "stare" ? ␅
+TD6632045 ␆S____ ~ TAE
+TD103 #1 <IndexError>  📋 "stare" ? S____ ~ TAE
+TD492 attempt 0 STARE Y m m n m
+TD91 #2 <IndexError>  📋 "stare" ? ␅
+TD3806943 ␆____E ~ TA
+TD92 #2 <IndexError>  📋 "stare" ? ____E ~ TA
+TD899 attempt 1 STARE n m m n Y
+TD83 #3 <IndexError>  📋 "stare" ? ␅
+TD2270971 ␆_____ ~ SRE
+TD94 #3 <IndexError>  📋 "stare" ? _____ ~ SRE
+TD253 attempt 2 STARE m n n m m
+TD119 #4 <IndexError>  📋 "stare" ? ␅
+TD2535529 ␆ST___ ~ AE
+TD78 #4 <IndexError>  📋 "stare" ? ST___ ~ AE
+TD205 attempt 3 STARE Y Y m n m
+TD120 #5 <IndexError>  📋 "stare" ? ␅
+TD3127569 ␆_____ ~ SRE
+TD92 #5 <IndexError>  📋 "stare" ? _____ ~ SRE
+TD256 attempt 4 STARE m n n m m
+TD351 ? ␅
+TD407455 ␆
+TD106 ? 
+TD148 question done
+TD309 > ␅
+TD10095527 ␆*
+TD109 > *
+TD724799 try? ␅
+TD3995113 ␆4
+TD87 try? 4
+TD221 questioning: ["steak", "#4"]
+TD210 #1 S____ ~AET -R  📋 "steak" ? ␅
+TD4063534 ␆S_EA_ ~ T
+TD76 #1 S____ ~AET -R  📋 "steak" ? S_EA_ ~ T
+TD177 attempt 0 STEAK Y m Y Y n
+TD101 #2 ____E ~AT -RS  📋 "steak" ? ␅
+TD2455688 ␆.
+TD95 #2 ____E ~AT -RS  📋 "steak" ? .
+TD279 attempt 1 STEAK n m n m n
+TD93 #3 _____ ~ERS -AT  📋 "steak" ? ␅
+TD1175293 ␆.
+TD76 #3 _____ ~ERS -AT  📋 "steak" ? .
+TD199 attempt 2 STEAK m n m n n
+TD65 #4 ST___ ~AE -R  📋 "steak" ? ␅
+TD2319957 ␆STEA_ 
+TD70 #4 ST___ ~AE -R  📋 "steak" ? STEA_ 
+TD152 attempt 3 STEAK Y Y Y Y n
+TD89 #5 _____ ~ERS -AT  📋 "steak" ? ␅
+TD1192295 ␆.
+TD78 #5 _____ ~ERS -AT  📋 "steak" ? .
+TD194 attempt 4 STEAK m n m n n
+TD172 ? ␅
+TD183080 ␆
+TD78 ? 
+TD85 question done
+TD183 > ␅
+TD423504 ␆*
+TD92 > *
+TD593228 questioning: ["sweat", "#1"]
+TD212 #1 S_EA_ ~T -KR  📋 "sweat" ? ␅
+TD4118280 ␆/it
+TD98 #1 S_EA_ ~T -KR  📋 "sweat" ? /it
+TD247 attempt 0 SWEAT Y Y Y Y Y
+TD97 #2 ____E ~AT -EKRS  📋 "sweat" ? ␅
+TD1727855 ␆.
+TD94 #2 ____E ~AT -EKRS  📋 "sweat" ? .
+TD262 attempt 1 SWEAT n n n m m
+TD80 #3 _____ ~ERS -AKT  📋 "sweat" ? ␅
+TD879497 ␆.
+TD72 #3 _____ ~ERS -AKT  📋 "sweat" ? .
+TD183 attempt 2 SWEAT m n m n n
+TD65 #4 STEA_ -KR  📋 "sweat" ? ␅
+TD1808594 ␆.
+TD81 #4 STEA_ -KR  📋 "sweat" ? .
+TD192 attempt 3 SWEAT Y n Y Y n
+TD65 #5 _____ ~ERS -AKT  📋 "sweat" ? ␅
+TD742795 ␆.
+TD80 #5 _____ ~ERS -AKT  📋 "sweat" ? .
+TD192 attempt 4 SWEAT m n m n n
+TD181 ? ␅
+TD167529 ␆
+TD88 ? 
+TD110 question done
+TD307 > ␅
+TD359421 ␆*
+TD68 > *
+TD492265 try? ␅
+TD2331667 ␆2
+TD95 try? 2
+TD282 questioning: ["steal", "#4"]
+TD349 #2 ____E ~AT -EKRSW  📋 "steal" ? ␅
+TD4791527 ␆____E ~ TAL
+TD82 #2 ____E ~AT -EKRSW  📋 "steal" ? ____E ~ TAL
+TD183 attempt 1 STEAL n m n m m
+TD106 #3 _____ ~ERS -AKTW  📋 "steal" ? ␅
+TD1167569 ␆.
+TD88 #3 _____ ~ERS -AKTW  📋 "steal" ? .
+TD187 attempt 2 STEAL m n m n n
+TD66 #4 STEA_ -KRTW  📋 "steal" ? ␅
+TD2295678 ␆.
+TD77 #4 STEA_ -KRTW  📋 "steal" ? .
+TD181 attempt 3 STEAL Y Y Y Y n
+TD64 #5 _____ ~ERS -AKTW  📋 "steal" ? ␅
+TD1271533 ␆.
+TD92 #5 _____ ~ERS -AKTW  📋 "steal" ? .
+TD193 attempt 4 STEAL m n m n n
+TD194 ? ␅
+TD2127720 ␆
+TD79 ? 
+TD84 question done
+TD189 > ␅
+TD3935706 ␆*
+TD94 > *
+TD290872 try? ␅
+TD2405065 ␆2
+TD79 try? 2
+TD215 questioning: ["steam", "#4"]
+TD213 #2 ____E ~ALT -EKRSW  📋 "steam" ? ␅
+TD3383393 ␆.
+TD78 #2 ____E ~ALT -EKRSW  📋 "steam" ? .
+TD184 attempt 1 STEAM n m n m n
+TD69 #3 _____ ~ERS -AKLTW  📋 "steam" ? ␅
+TD839608 ␆.
+TD76 #3 _____ ~ERS -AKLTW  📋 "steam" ? .
+TD193 attempt 2 STEAM m n m n n
+TD68 #4 STEA_ -KLRW  📋 "steam" ? ␅
+TD695656 ␆/it
+TD75 #4 STEA_ -KLRW  📋 "steam" ? /it
+TD182 attempt 3 STEAM Y Y Y Y Y
+TD68 #5 _____ ~ERS -AKLTW  📋 "steam" ? ␅
+TD607747 ␆.
+TD75 #5 _____ ~ERS -AKLTW  📋 "steam" ? .
+TD188 attempt 4 STEAM m n m n n
+TD378 ? ␅
+TD175424 ␆
+TD91 ? 
+TD108 question done
+TD309 > ␅
+TD383431 ␆*
+TD95 > *
+TD334453 try? ␅
+TD3073592 ␆2
+TD95 try? 2
+TD289 questioning: ["usher", "#3"]
+TD357 #2 ____E ~ALT -EKMRSW  📋 "usher" ? ␅
+TD5351361 ␆____E ~ TALH
+TD97 #2 ____E ~ALT -EKMRSW  📋 "usher" ? ____E ~ TALH
+TD266 attempt 1 USHER n n m n n
+TD151 #3 _____ ~ERS -AKLMTW  📋 "usher" ? ␅
+TD799167 ␆/it
+TD76 #3 _____ ~ERS -AKLMTW  📋 "usher" ? /it
+TD187 attempt 2 USHER Y Y Y Y Y
+TD67 #5 _____ ~ERS -AKLMTW  📋 "usher" ? ␅
+TD2848203 ␆_____ ~ SREH
+TD85 #5 _____ ~ERS -AKLMTW  📋 "usher" ? _____ ~ SREH
+TD181 attempt 4 USHER n m m m m
+TD232 ? ␅
+TD247256 ␆
+TD108 ? 
+TD121 question done
+TD325 > ␅
+TD471680 ␆*
+TD80 > *
+TD1565749 questioning: ["lathe", "#2"]
+TD198 #2 ____E ~AHLT -EKMRSUW  📋 "lathe" ? ␅
+TD2433665 ␆/it
+TD78 #2 ____E ~AHLT -EKMRSUW  📋 "lathe" ? /it
+TD177 attempt 1 LATHE Y Y Y Y Y
+TD66 #5 _____ ~EHRS -AKLMTUW  📋 "lathe" ? ␅
+TD831908 ␆.
+TD94 #5 _____ ~EHRS -AKLMTUW  📋 "lathe" ? .
+TD266 attempt 4 LATHE n n n m m
+TD306 ? ␅
+TD135242 ␆
+TD72 ? 
+TD81 question done
+TD199 > ␅
+TD375700 ␆*
+TD77 > *
+TD1057919 questioning: ["herds", "#5"]
+TD197 #5 _____ ~EHRS -AKLMTUW  📋 "herds" ? ␅
+TD3301780 ␆/it
+TD95 #5 _____ ~EHRS -AKLMTUW  📋 "herds" ? /it
+TD260 attempt 4 HERDS Y Y Y Y Y
+TD294 ? ␅
+TD455503 ␆
+TD90 ? 
+TD89 question done
+TD33384 📋> ␅
+TD7295620 ␆squareword.org 1570: 8 guesses
+TD93 📋> squareword.org 1570: 8 guesses
+TD12 📋> ␅
+TD72 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD25 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD18 ␆🟨🟨🟨🟨🟩
+TD5 📋> 🟨🟨🟨🟨🟩
+TD4 📋> ␅
+TD16 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD15 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD16 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD32 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD286396 ␆#squareword #squareword1570
+TD103 📋> #squareword #squareword1570
+TD12 📋> ␅
+TD159778 ␄
+TD170 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1570: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1570"}
+TD1013 result: "squareword.org 1570: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1570"
+TD79 📆 2026-05-20 ? ␅
+TD238886 ␆
+TD99 📆 2026-05-20 ? 
