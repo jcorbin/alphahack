@@ -1,0 +1,240 @@
+T105.61917434100178 now: 2026-05-21T13:48:42EDT
+TD76 site: squareword.org
+TD17 wordlist: nwl2023.txt
+TD24  ...␅
+TD4566916 ␆
+TD71  ...
+TD56 🧩  ? ␅
+TD8087983 ␆#1571
+TD90 🧩  ? #1571
+TD273 puzzle_id: #1571
+TD300 > ␅
+TD1847307 ␆*
+TD66 > *
+TD237365 try? ␅
+TD714543 ␆1
+TD75 try? 1
+TD232 questioning: ["arose", "#5"]
+TD189 #1 <IndexError>  📋 "arose" ? ␅
+TD9623825 ␆___S_ ~ AS
+TD97 #1 <IndexError>  📋 "arose" ? ___S_ ~ AS
+TD705 attempt 0 AROSE m n n Y n
+TD128 #2 <IndexError>  📋 "arose" ? ␅
+TD2302983 ␆____E ~ RO
+TD76 #2 <IndexError>  📋 "arose" ? ____E ~ RO
+TD192 attempt 1 AROSE n m m n Y
+TD94 #3 <IndexError>  📋 "arose" ? ␅
+TD2055812 ␆A____ ~ A
+TD99 #3 <IndexError>  📋 "arose" ? A____ ~ A
+TD253 attempt 2 AROSE Y n n n n
+TD129 #4 <IndexError>  📋 "arose" ? ␅
+TD5087536 ␆__O__ ~ R
+TD114 #4 <IndexError>  📋 "arose" ? __O__ ~ R
+TD263 attempt 3 AROSE n m Y n n
+TD145 #5 <IndexError>  📋 "arose" ? ␅
+TD2295456 ␆_____ ~ OS
+TD98 #5 <IndexError>  📋 "arose" ? _____ ~ OS
+TD258 attempt 4 AROSE n n m m n
+TD361 ? ␅
+TD1583252 ␆
+TD91 ? 
+TD146 question done
+TD321 > ␅
+TD10311647 ␆*
+TD97 > *
+TD765739 try? ␅
+TD2050469 ␆1
+TD85 try? 1
+TD240 questioning: ["route", "#2"]
+TD201 #1 ___S_ ~A -EOR  📋 "route" ? ␅
+TD11079276 ␆___S_ ~ AS
+TD80 #1 ___S_ ~A -EOR  📋 "route" ? ___S_ ~ AS
+TD188 attempt 0 ROUTE n n n n n
+TD104 #2 ____E ~OR -AS  📋 "route" ? ␅
+TD2311662 ␆_O_TE ~ RT
+TD79 #2 ____E ~OR -AS  📋 "route" ? _O_TE ~ RT
+TD188 attempt 1 ROUTE m Y n Y Y
+TD107 #3 A____ -EORS  📋 "route" ? ␅
+TD4799711 ␆A____ ~ A
+TD102 #3 A____ -EORS  📋 "route" ? A____ ~ A
+TD248 attempt 2 ROUTE n n n n n
+TD147 #4 __O__ ~R -AES  📋 "route" ? ␅
+TD1719587 ␆.
+TD97 #4 __O__ ~R -AES  📋 "route" ? .
+TD284 attempt 3 ROUTE m n n n n
+TD96 #5 _____ ~OS -AER  📋 "route" ? ␅
+TD3551520 ␆_O_T_ ~ S
+TD81 #5 _____ ~OS -AER  📋 "route" ? _O_T_ ~ S
+TD183 attempt 4 ROUTE n Y n Y n
+TD214 ? ␅
+TD2943536 ␆
+TD99 ? 
+TD127 question done
+TD278 > ␅
+TD2159659 ␆*
+TD97 > *
+TD582883 try? ␅
+TD1512939 ␆1
+TD96 try? 1
+TD283 questioning: ["forte", "#2"]
+TD295 #1 ___S_ ~A -EORTU  📋 "forte" ? ␅
+TD7495348 ␆___S_ ~ AS
+TD80 #1 ___S_ ~A -EORTU  📋 "forte" ? ___S_ ~ AS
+TD180 attempt 0 FORTE n n n n n
+TD115 #2 _O_TE ~R -ASU  📋 "forte" ? ␅
+TD2039749 ␆_ORTE ~ T
+TD86 #2 _O_TE ~R -ASU  📋 "forte" ? _ORTE ~ T
+TD248 attempt 1 FORTE n Y Y Y Y
+TD154 #3 A____ -EORSTU  📋 "forte" ? ␅
+TD2583572 ␆A____ ~ A
+TD76 #3 A____ -EORSTU  📋 "forte" ? A____ ~ A
+TD173 attempt 2 FORTE n n n n n
+TD104 #4 __O__ ~R -AEOSTU  📋 "forte" ? ␅
+TD2807606 ␆F_O__ ~ R
+TD87 #4 __O__ ~R -AEOSTU  📋 "forte" ? F_O__ ~ R
+TD178 attempt 3 FORTE Y n m n n
+TD98 #5 _O_T_ ~S -AERU  📋 "forte" ? ␅
+TD2687667 ␆FO_T_ ~ S
+TD76 #5 _O_T_ ~S -AERU  📋 "forte" ? FO_T_ ~ S
+TD176 attempt 4 FORTE Y Y n Y n
+TD206 ? ␅
+TD559539 ␆
+TD83 ? 
+TD103 question done
+TD181 > ␅
+TD687637 ␆*
+TD77 > *
+TD591508 questioning: ["torte", "#2"]
+TD189 #1 ___S_ ~A -EFORTU  📋 "torte" ? ␅
+TD10440407 ␆___S_ ~ AS
+TD78 #1 ___S_ ~A -EFORTU  📋 "torte" ? ___S_ ~ AS
+TD173 attempt 0 TORTE n n n n n
+TD101 #2 _ORTE -AFSU  📋 "torte" ? ␅
+TD911654 ␆/it
+TD77 #2 _ORTE -AFSU  📋 "torte" ? /it
+TD182 attempt 1 TORTE Y Y Y Y Y
+TD68 #3 A____ -EFORSTU  📋 "torte" ? ␅
+TD3095756 ␆A____ ~ A
+TD78 #3 A____ -EFORSTU  📋 "torte" ? A____ ~ A
+TD178 attempt 2 TORTE n n n n n
+TD105 #4 F_O__ ~R -AEOSTU  📋 "torte" ? ␅
+TD6088069 ␆.
+TD78 #4 F_O__ ~R -AEOSTU  📋 "torte" ? .
+TD201 attempt 3 TORTE n n m n n
+TD70 #5 FO_T_ ~S -AERU  📋 "torte" ? ␅
+TD2223245 ␆.
+TD75 #5 FO_T_ ~S -AERU  📋 "torte" ? .
+TD183 attempt 4 TORTE n Y n Y n
+TD171 ? ␅
+TD191722 ␆
+TD99 ? 
+TD125 question done
+TD308 > ␅
+TD391443 ␆*
+TD99 > *
+TD94047 questioning: ["fiord", "#4"]
+TD214 #1 ___S_ ~A -EFORTU  📋 "fiord" ? ␅
+TD6185751 ␆___S_ ~ AS
+TD124 #1 ___S_ ~A -EFORTU  📋 "fiord" ? ___S_ ~ AS
+TD251 attempt 0 FIORD n n n n n
+TD162 #3 A____ -EFORSTU  📋 "fiord" ? ␅
+TD3071341 ␆A____ ~ A
+TD73 #3 A____ -EFORSTU  📋 "fiord" ? A____ ~ A
+TD185 attempt 2 FIORD n n n n n
+TD116 #4 F_O__ ~R -AEOSTU  📋 "fiord" ? ␅
+TD839592 ␆/it
+TD103 #4 F_O__ ~R -AEOSTU  📋 "fiord" ? /it
+TD286 attempt 3 FIORD Y Y Y Y Y
+TD102 #5 FO_T_ ~S -AERU  📋 "fiord" ? ␅
+TD1015710 ␆.
+TD106 #5 FO_T_ ~S -AERU  📋 "fiord" ? .
+TD260 attempt 4 FIORD Y n n n n
+TD284 ? ␅
+TD159320 ␆
+TD110 ? 
+TD123 question done
+TD314 > ␅
+TD407329 ␆*
+TD100 > *
+TD1399669 questioning: ["spasm", "#1"]
+TD191 #1 ___S_ ~A -DEFIORTU  📋 "spasm" ? ␅
+TD2912017 ␆/it
+TD79 #1 ___S_ ~A -DEFIORTU  📋 "spasm" ? /it
+TD186 attempt 0 SPASM Y Y Y Y Y
+TD72 #3 A____ -DEFIORSTU  📋 "spasm" ? ␅
+TD2599814 ␆A____ ~ A
+TD74 #3 A____ -DEFIORSTU  📋 "spasm" ? A____ ~ A
+TD178 attempt 2 SPASM n n m n n
+TD108 #5 FO_T_ ~S -ADEIORU  📋 "spasm" ? ␅
+TD1087695 ␆.
+TD97 #5 FO_T_ ~S -ADEIORU  📋 "spasm" ? .
+TD261 attempt 4 SPASM m n n m n
+TD307 ? ␅
+TD175527 ␆
+TD75 ? 
+TD85 question done
+TD192 > ␅
+TD391526 ␆*
+TD75 > *
+TD1250774 questioning: ["algal", "#3"]
+TD202 #3 A____ -DEFIMOPRSTU  📋 "algal" ? ␅
+TD3596777 ␆/it
+TD81 #3 A____ -DEFIMOPRSTU  📋 "algal" ? /it
+TD189 attempt 2 ALGAL Y Y Y Y Y
+TD70 #5 FO_T_ ~S -ADEIMOPRU  📋 "algal" ? ␅
+TD1752051 ␆.
+TD76 #5 FO_T_ ~S -ADEIMOPRU  📋 "algal" ? .
+TD178 attempt 4 ALGAL n n n n n
+TD181 ? ␅
+TD215387 ␆
+TD104 ? 
+TD114 question done
+TD310 > ␅
+TD415567 ␆*
+TD95 > *
+TD891267 questioning: ["fonts", "#5"]
+TD196 #5 FO_T_ ~S -ADEGILMOPRU  📋 "fonts" ? ␅
+TD2604534 ␆/it
+TD99 #5 FO_T_ ~S -ADEGILMOPRU  📋 "fonts" ? /it
+TD257 attempt 4 FONTS Y Y Y Y Y
+TD303 ? ␅
+TD1679274 ␆
+TD96 ? 
+TD108 question done
+TD22604 📋> ␅
+TD3281574 ␆squareword.org 1571: 8 guesses
+TD97 📋> squareword.org 1571: 8 guesses
+TD13 📋> ␅
+TD55 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD22 ␆🟨🟨🟨🟩🟨
+TD6 📋> 🟨🟨🟨🟩🟨
+TD6 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD15 ␆🟩🟨🟨🟨🟨
+TD4 📋> 🟩🟨🟨🟨🟨
+TD4 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD16 ␆🟩🟩🟨🟩🟨
+TD5 📋> 🟩🟩🟨🟩🟨
+TD4 📋> ␅
+TD15 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD17 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> ␅
+TD271144 ␆#squareword #squareword1571
+TD75 📋> #squareword #squareword1571
+TD7 📋> ␅
+TD151988 ␄
+TD175 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1571: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1571"}
+TD962 result: "squareword.org 1571: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1571"
+TD67 📆 2026-05-21 ? ␅
+TD174825 ␆
+TD76 📆 2026-05-21 ? 
