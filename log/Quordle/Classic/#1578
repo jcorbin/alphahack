@@ -1,0 +1,201 @@
+T290.4794673340075 now: 2026-05-21T13:41:38EDT
+TD69 site: m-w.com/games/quordle/#/
+TD11 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD64  ...␅
+TD287084 ␆
+TD98  ...
+TD303164 > ␅
+TD3712718 ␆*
+TD70 > *
+TD46092 ? ␅
+TD1025848 ␆1
+TD90 ? 1
+TD196 questioning: rales
+TD153 Classic #1 _____? ␅
+TD4687616 ␆YYnnn
+TD63 Classic #1 _____? YYnnn
+TD224 attempt: 0 RALES Y Y n n n
+TD66 Classic #2 _____? ␅
+TD1847905 ␆MnnYn
+TD65 Classic #2 _____? MnnYn
+TD150 attempt: 1 RALES m n n Y n
+TD62 Classic #3 _____? ␅
+TD1663643 ␆MnnMM
+TD95 Classic #3 _____? MnnMM
+TD215 attempt: 2 RALES m n n m m
+TD94 Classic #4 _____? ␅
+TD1119583 ␆nMMnn
+TD94 Classic #4 _____? nMMnn
+TD173 attempt: 3 RALES n m m n n
+TD415162 > ␅
+TD1272585 ␆*
+TD94 > *
+TD1983 ? ␅
+TD973845 ␆1
+TD80 ? 1
+TD138 questioning: dicer
+TD116 Classic #1 RA___ -ELS? ␅
+TD3207770 ␆nnMnM
+TD98 Classic #1 RA___ -ELS? nnMnM
+TD225 attempt: 0 DICER n n m n m
+TD115 Classic #2 ___E_ ~R -ALS? ␅
+TD1223542 ␆nnnYY
+TD72 Classic #2 ___E_ ~R -ALS? nnnYY
+TD156 attempt: 1 DICER n n n Y Y
+TD79 Classic #3 _____ ~ERS -AL? ␅
+TD1095692 ␆nnnMM
+TD71 Classic #3 _____ ~ERS -AL? nnnMM
+TD151 attempt: 2 DICER n n n m m
+TD77 Classic #4 _____ ~AL -ERS? ␅
+TD1295886 ␆nMMnn
+TD92 Classic #4 _____ ~AL -ERS? nMMnn
+TD223 attempt: 3 DICER n m m n n
+TD434669 > ␅
+TD5676994 ␆*
+TD99 > *
+TD523 ? ␅
+TD1871364 ␆1
+TD75 ? 1
+TD131 questioning: ranch
+TD104 Classic #1 RA___ ~C -DEILS? ␅
+TD2855796 ␆YYYYY
+TD91 Classic #1 RA___ ~C -DEILS? YYYYY
+TD222 attempt: 0 RANCH Y Y Y Y Y
+TD118 Classic #2 ___ER -ACDILS? ␅
+TD1479593 ␆Mnnnn
+TD86 Classic #2 ___ER -ACDILS? Mnnnn
+TD155 attempt: 1 RANCH m n n n n
+TD81 Classic #3 _____ ~ERS -ACDIL? ␅
+TD1551619 ␆Mnnnn
+TD70 Classic #3 _____ ~ERS -ACDIL? Mnnnn
+TD157 attempt: 2 RANCH m n n n n
+TD73 Classic #4 _____ ~ACIL -DERS? ␅
+TD1119774 ␆nMnMn
+TD77 Classic #4 _____ ~ACIL -DERS? nMnMn
+TD167 attempt: 3 RANCH n m n m n
+TD380347 > ␅
+TD667301 ␆*
+TD68 > *
+TD324 ? ␅
+TD5975744 ␄
+TD100 <EOF>
+TD332314 > ␅
+TD1452125 ␆* 2
+TD102 > * 2
+TD89404 ? ␅
+TD3701976 ␆1
+TD94 ? 1
+TD178 questioning: muter
+TD157 Classic #2 ___ER -ACDHILNS? ␅
+TD2663705 ␆nnYYY
+TD88 Classic #2 ___ER -ACDHILNS? nnYYY
+TD157 attempt: 1 MUTER n n Y Y Y
+TD81 Classic #3 _____ ~ERS -ACDHILN? ␅
+TD1351668 ␆nnMMM
+TD77 Classic #3 _____ ~ERS -ACDHILN? nnMMM
+TD154 attempt: 2 MUTER n n m m m
+TD78 Classic #4 _____ ~ACIL -DEHNRS? ␅
+TD903603 ␆nnnnn
+TD81 Classic #4 _____ ~ACIL -DEHNRS? nnnnn
+TD154 attempt: 3 MUTER n n n n n
+TD430799 > ␅
+TD73036 ␆*
+TD81 > *
+TD360 ? ␅
+TD4031659 ␄
+TD129 <EOF>
+TD306699 > ␅
+TD3893230 ␆* 3
+TD98 > * 3
+TD164005 ? ␅
+TD4596111 ␆4
+TD110 ? 4
+TD175 questioning: verst
+TD152 Classic #2 __TER -ACDHILMNSU? ␅
+TD4751517 ␆nMMnM
+TD96 Classic #2 __TER -ACDHILMNSU? nMMnM
+TD565 attempt: 1 VERST n m m n m
+TD84 Classic #3 _____ ~ERST -ACDHILMNU? ␅
+TD1575237 ␆nMMYY
+TD94 Classic #3 _____ ~ERST -ACDHILMNU? nMMYY
+TD220 attempt: 2 VERST n m m Y Y
+TD114 Classic #4 _____ ~ACIL -DEHMNRSTU? ␅
+TD951547 ␆nnnnn
+TD98 Classic #4 _____ ~ACIL -DEHMNRSTU? nnnnn
+TD226 attempt: 3 VERST n n n n n
+TD313312 > ␅
+TD654435 ␆*
+TD74 > *
+TD273 questioning: iliac
+TD80 Classic #2 __TER -ACDHILMNSUV? ␅
+TD2807601 ␆nnnnn
+TD100 Classic #2 __TER -ACDHILMNSUV? nnnnn
+TD207 attempt: 1 ILIAC n n n n n
+TD117 Classic #3 ___ST ~ER -ACDHILMNUV? ␅
+TD983631 ␆nnnnn
+TD99 Classic #3 ___ST ~ER -ACDHILMNUV? nnnnn
+TD209 attempt: 2 ILIAC n n n n n
+TD114 Classic #4 _____ ~ACIL -DEHMNRSTUV? ␅
+TD2271486 ␆YYYYY
+TD76 Classic #4 _____ ~ACIL -DEHMNRSTUV? YYYYY
+TD145 attempt: 3 ILIAC Y Y Y Y Y
+TD192181 > ␅
+TD6183695 ␆*
+TD78 > *
+TD351 ? ␅
+TD2519649 ␆2
+TD97 ? 2
+TD172 questioning: wrest
+TD152 Classic #2 __TER -ACDHILMNSUV? ␅
+TD3535693 ␆nMMnM
+TD74 Classic #2 __TER -ACDHILMNSUV? nMMnM
+TD147 attempt: 1 WREST n m m n m
+TD74 Classic #3 ___ST ~ER -ACDHILMNUV? ␅
+TD1399687 ␆YYYYY
+TD78 Classic #3 ___ST ~ER -ACDHILMNUV? YYYYY
+TD147 attempt: 2 WREST Y Y Y Y Y
+TD94329 > ␅
+TD321391 ␆*
+TD75 > *
+TD381 ? ␅
+TD2391544 ␆1
+TD110 ? 1
+TD177 questioning: ofter
+TD151 Classic #2 __TER -ACDHILMNSUVW? ␅
+TD2911685 ␆YnYYY
+TD108 Classic #2 __TER -ACDHILMNSUVW? YnYYY
+TD235 attempt: 1 OFTER Y n Y Y Y
+TD93030 > ␅
+TD282557 ␆*
+TD79 > *
+TD386 ? ␅
+TD2007667 ␆2
+TD99 ? 2
+TD205 questioning: otter
+TD151 Classic #2 O_TER -ACDFHILMNSUVW? ␅
+TD2735535 ␆YYYYY
+TD84 Classic #2 O_TER -ACDFHILMNSUVW? YYYYY
+TD153 attempt: 1 OTTER Y Y Y Y Y
+TD74 📋> ␅
+TD4112096 ␆🙂 Daily Quordle 1578
+TD116 📋> 🙂 Daily Quordle 1578
+TD15 📋> ␅
+TD48 ␆3️⃣9️⃣
+TD10 📋> 3️⃣9️⃣
+TD9 📋> ␅
+TD18 ␆7️⃣6️⃣
+TD7 📋> 7️⃣6️⃣
+TD8 📋> ␅
+TD17 ␆m-w.com/games/quordle/
+TD7 📋> m-w.com/games/quordle/
+TD7 📋> ␅
+TD263307 ␆
+TD83 📋> 
+TD10 📋> ␅
+TD208083 ␄
+TD192 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1578\n3\ufe0f\u20e39\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD932 result: "\ud83d\ude42 Daily Quordle 1578\n3\ufe0f\u20e39\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD70 📆 2026-05-21 ? ␅
+TD214771 ␆
+TD82 📆 2026-05-21 ? 
