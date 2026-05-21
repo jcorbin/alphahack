@@ -1,0 +1,98 @@
+T61.383746602994506 now: 2026-05-21T13:33:38EDT
+TD77 site: alphaguess.com
+TD146542 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof a77c9cdd87138c09b9f5e846ed60ffaf15c75fb8
+TD125  ...␅
+TD1076584 ␆
+TD75  ...
+TD122 [0 : 98216 : 196522] mach? ␅
+TD695788 ␆
+TD75 [0 : 98216 : 196522] mach? 
+TD83 [0 : 98216 : 196522] mach? ␅
+TD27800161 ␆b
+TD69 [0 : 98216 : 196522] mach? b
+TD83 progress: -1 98216 mach
+TD83 [0 : 47380 : 98216] dis? ␅
+TD1735733 ␆a
+TD89 [0 : 47380 : 98216] dis? a
+TD85 progress: 1 47380 dis
+TD236 [47381 : 72798 : 98216] gremmy? ␅
+TD1359690 ␆a
+TD84 [47381 : 72798 : 98216] gremmy? a
+TD78 progress: 1 72798 gremmy
+TD80 [72799 : 85502 : 98216] ins? ␅
+TD1295923 ␆a
+TD78 [72799 : 85502 : 98216] ins? a
+TD78 progress: 1 85502 ins
+TD75 [85503 : 91846 : 98216] knot? ␅
+TD6975678 ␆a
+TD78 [85503 : 91846 : 98216] knot? a
+TD78 progress: 1 91846 knot
+TD83 [91847 : 94943 : 98216] lib? ␅
+TD1527856 ␆a
+TD79 [91847 : 94943 : 98216] lib? a
+TD83 progress: 1 94943 lib
+TD74 [94944 : 96576 : 98216] locks? ␅
+TD1871698 ␆b
+TD71 [94944 : 96576 : 98216] locks? b
+TD78 progress: -1 96576 locks
+TD77 [94944 : 95573 : 96576] lin? ␅
+TD1503871 ␆b
+TD74 [94944 : 95573 : 96576] lin? b
+TD79 progress: -1 95573 lin
+TD244 [94944 : 95258 : 95573] ligation? ␅
+TD2143684 ␆b
+TD97 [94944 : 95258 : 95573] ligation? b
+TD104 progress: -1 95258 ligation
+TD113 [94944 : 95093 : 95258] lichen? ␅
+TD1823734 ␆b
+TD77 [94944 : 95093 : 95258] lichen? b
+TD76 progress: -1 95093 lichen
+T15.815407311994932 now: 2026-05-21T13:34:50EDT
+TD183 [94944 : 94977 : 95093] liber? ␅
+TD1165446 ␆a
+TD98 [94944 : 94977 : 95093] liber? a
+TD329 progress: 1 94977 liber
+TD224 [94978 : 95035 : 95093] liblab? ␅
+TD1591450 ␆a
+TD84 [94978 : 95035 : 95093] liblab? a
+TD97 progress: 1 95035 liblab
+TD88 [95036 : 95062 : 95093] lice? ␅
+TD2071655 ␆b
+TD81 [95036 : 95062 : 95093] lice? b
+TD79 progress: -1 95062 lice
+TD82 [95036 : 95037 : 95062] libra? ␅
+TD2111740 ␆a
+TD81 [95036 : 95037 : 95062] libra? a
+TD77 progress: 1 95037 libra
+TD161 [95038 : 95050 : 95062] libration? ␅
+TD1503697 ␆b
+TD72 [95038 : 95050 : 95062] libration? b
+TD81 progress: -1 95050 libration
+TD206 [95038 : 95044 : 95050] library? ␅
+TD2999781 ␆it
+TD85 [95038 : 95044 : 95050] library? it
+TD80 progress: 0 95044 library
+TD17 [95038 : 95044 : 95050] <Done>.
+TD85 📋> ␅
+TD2735991 ␆🧩 Puzzle #1032
+TD96 📋> 🧩 Puzzle #1032
+TD11 📋> ␅
+TD34 ␆🤔 16 guesses
+TD3 📋> 🤔 16 guesses
+TD3 📋> ␅
+TD8 ␆⏱️ 53s
+TD3 📋> ⏱️ 53s
+TD2 📋> ␅
+TD239607 ␆🔗 alphaguess.com/1032
+TD99 📋> 🔗 alphaguess.com/1032
+TD13 📋> ␅
+TD167843 ␄
+TD172 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1032\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 53s\n\ud83d\udd17 alphaguess.com/1032"}
+TD618 result: "\ud83e\udde9 Puzzle #1032\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 53s\n\ud83d\udd17 alphaguess.com/1032"
+TD18 result puzzle: 1032
+TD9 result guesses: 16
+TD6 result time: 53s
+TD5 result link: alphaguess.com/1032
+TD86 📆 2026-05-21 ? ␅
+TD215084 ␆
+TD95 📆 2026-05-21 ? 
