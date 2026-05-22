@@ -1,0 +1,202 @@
+T356.4479392039939 now: 2026-05-22T09:55:49EDT
+TD61 site: m-w.com/games/quordle/#/
+TD11 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD70  ...␅
+TD5383142 ␆
+TD76  ...
+TD326439 > ␅
+TD633436 ␆*
+TD67 > *
+TD32187 ? ␅
+TD703903 ␆1
+TD66 ? 1
+TD119 questioning: stane
+TD99 Classic #1 _____? ␅
+TD3223633 ␆nnMnn
+TD92 Classic #1 _____? nnMnn
+TD393 attempt: 0 STANE n n m n n
+TD105 Classic #2 _____? ␅
+TD1215366 ␆nMnnn
+TD69 Classic #2 _____? nMnnn
+TD141 attempt: 1 STANE n m n n n
+TD60 Classic #3 _____? ␅
+TD2575792 ␆nnnYn
+TD64 Classic #3 _____? nnnYn
+TD141 attempt: 2 STANE n n n Y n
+TD66 Classic #4 _____? ␅
+TD1975714 ␆nMnYn
+TD69 Classic #4 _____? nMnYn
+TD157 attempt: 3 STANE n m n Y n
+TD330769 > ␅
+TD933055 ␆*
+TD71 > *
+TD2484 ? ␅
+TD1653409 ␆2
+TD85 ? 2
+TD134 questioning: labor
+TD115 Classic #1 _____ ~A -ENST? ␅
+TD4511714 ␆MYnnn
+TD76 Classic #1 _____ ~A -ENST? MYnnn
+TD159 attempt: 0 LABOR m Y n n n
+TD72 Classic #2 _____ ~T -AENS? ␅
+TD1047672 ␆nnnnn
+TD80 Classic #2 _____ ~T -AENS? nnnnn
+TD155 attempt: 1 LABOR n n n n n
+TD73 Classic #3 ___N_ -AEST? ␅
+TD1111788 ␆nnnnM
+TD73 Classic #3 ___N_ -AEST? nnnnM
+TD165 attempt: 2 LABOR n n n n m
+TD74 Classic #4 ___N_ ~T -AES? ␅
+TD2415695 ␆nnnMn
+TD75 Classic #4 ___N_ ~T -AES? nnnMn
+TD159 attempt: 3 LABOR n n n m n
+TD388712 > ␅
+TD827055 ␆*
+TD75 > *
+TD721 ? ␅
+TD1871140 ␆3
+TD76 ? 3
+TD153 questioning: thump
+TD134 Classic #1 _A___ ~L -BENORST? ␅
+TD2967771 ␆nnnnn
+TD81 Classic #1 _A___ ~L -BENORST? nnnnn
+TD145 attempt: 0 THUMP n n n n n
+TD71 Classic #2 _____ ~T -ABELNORS? ␅
+TD1431705 ␆MMnnn
+TD78 Classic #2 _____ ~T -ABELNORS? MMnnn
+TD146 attempt: 1 THUMP m m n n n
+TD71 Classic #3 ___N_ ~R -ABELOST? ␅
+TD1143690 ␆nnYnn
+TD118 Classic #3 ___N_ ~R -ABELOST? nnYnn
+TD162 attempt: 2 THUMP n n Y n n
+TD84 Classic #4 ___N_ ~OT -ABELRS? ␅
+TD1591728 ␆MnYnn
+TD97 Classic #4 ___N_ ~OT -ABELRS? MnYnn
+TD225 attempt: 3 THUMP m n Y n n
+TD370552 > ␅
+TD701089 ␆*
+TD76 > *
+TD345 ? ␅
+TD1415599 ␆1
+TD91 ? 1
+TD172 questioning: count
+TD151 Classic #1 _A___ ~L -BEHMNOPRSTU? ␅
+TD3191713 ␆nnnnn
+TD78 Classic #1 _A___ ~L -BEHMNOPRSTU? nnnnn
+TD333 attempt: 0 COUNT n n n n n
+TD75 Classic #2 _____ ~HT -ABELMNOPRSU? ␅
+TD1455514 ␆MnnnM
+TD75 Classic #2 _____ ~HT -ABELMNOPRSU? MnnnM
+TD152 attempt: 1 COUNT m n n n m
+TD77 Classic #3 __UN_ ~R -ABEHLMOPST? ␅
+TD1375622 ␆nnYYn
+TD74 Classic #3 __UN_ ~R -ABEHLMOPST? nnYYn
+TD149 attempt: 2 COUNT n n Y Y n
+TD77 Classic #4 __UN_ ~OT -ABEHLMPRS? ␅
+TD983818 ␆YYYYY
+TD80 Classic #4 __UN_ ~OT -ABEHLMPRS? YYYYY
+TD151 attempt: 3 COUNT Y Y Y Y Y
+TD296592 > ␅
+TD775053 ␆8
+TD68 > 8
+TD122 > ␅
+TD823851 ␆*(
+TD97 > *(
+TD384 > ␅
+TD823470 ␆*
+TD75 > *
+TD348 ? ␅
+TD5327776 ␄
+TD100 <EOF>
+TD252384 > ␅
+TD1419750 ␆* 1
+TD77 > * 1
+TD89919 ? ␅
+TD3749655 ␆2
+TD79 ? 2
+TD129 questioning: daily
+TD110 Classic #1 _A___ ~L -BCEHMNOPRSTU? ␅
+TD2759934 ␆nYYYY
+TD86 Classic #1 _A___ ~L -BCEHMNOPRSTU? nYYYY
+TD156 attempt: 0 DAILY n Y Y Y Y
+TD77 Classic #2 _____ ~CHT -ABELMNOPRSU? ␅
+TD1303636 ␆nnMnn
+TD81 Classic #2 _____ ~CHT -ABELMNOPRSU? nnMnn
+TD153 attempt: 1 DAILY n n m n n
+TD74 Classic #3 __UN_ ~R -ABCEHLMOPST? ␅
+TD1359626 ␆Ynnnn
+TD92 Classic #3 __UN_ ~R -ABCEHLMOPST? Ynnnn
+TD217 attempt: 2 DAILY Y n n n n
+TD320735 > ␅
+TD1262945 ␆* 3
+TD75 > * 3
+TD93988 questioning: drunk
+TD106 Classic #1 _AILY -BCDEHMNOPRSTU? ␅
+TD3673912 ␆nnnnn
+TD71 Classic #1 _AILY -BCDEHMNOPRSTU? nnnnn
+TD127 attempt: 0 DRUNK n n n n n
+TD73 Classic #2 _____ ~CHIT -ABDELMNOPRSUY? ␅
+TD1208113 ␆nnnnn
+TD77 Classic #2 _____ ~CHIT -ABDELMNOPRSUY? nnnnn
+TD154 attempt: 1 DRUNK n n n n n
+TD79 Classic #3 D_UN_ ~R -ABCEHILMOPSTY? ␅
+TD1111420 ␆YYYYY
+TD99 Classic #3 D_UN_ ~R -ABCEHILMOPSTY? YYYYY
+TD219 attempt: 2 DRUNK Y Y Y Y Y
+TD217072 > ␅
+TD814558 ␆*
+TD79 > *
+TD271 questioning: gaily
+TD78 Classic #1 _AILY -BCDEHKMNOPRSTU? ␅
+TD2727565 ␆YYYYY
+TD80 Classic #1 _AILY -BCDEHKMNOPRSTU? YYYYY
+TD148 attempt: 0 GAILY Y Y Y Y Y
+TD84 Classic #2 _____ ~CHIT -ABDEKLMNOPRSUY? ␅
+TD1879812 ␆nnMnn
+TD78 Classic #2 _____ ~CHIT -ABDEKLMNOPRSUY? nnMnn
+TD155 attempt: 1 GAILY n n m n n
+TD126208 > ␅
+TD297490 ␆*
+TD78 > *
+TD374 ? ␅
+TD3047577 ␆2
+TD75 ? 2
+TD131 questioning: witch
+TD105 Classic #2 _____ ~CHIT -ABDEGKLMNOPRSUY? ␅
+TD3071713 ␆nYYYY
+TD75 Classic #2 _____ ~CHIT -ABDEGKLMNOPRSUY? nYYYY
+TD153 attempt: 1 WITCH n Y Y Y Y
+TD77614 > ␅
+TD330239 ␆*
+TD79 > *
+TD392 ? ␅
+TD1423455 ␆2
+TD76 ? 2
+TD142 questioning: hitch
+TD97 Classic #2 _ITCH -ABDEGKLMNOPRSUWY? ␅
+TD2567679 ␆YYYYY
+TD91 Classic #2 _ITCH -ABDEGKLMNOPRSUWY? YYYYY
+TD161 attempt: 1 HITCH Y Y Y Y Y
+TD80 📋> ␅
+TD4536175 ␆🙂 Daily Quordle 1579
+TD80 📋> 🙂 Daily Quordle 1579
+TD11 📋> ␅
+TD40 ␆7️⃣9️⃣
+TD7 📋> 7️⃣9️⃣
+TD6 📋> ␅
+TD13 ␆6️⃣4️⃣
+TD5 📋> 6️⃣4️⃣
+TD5 📋> ␅
+TD13 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD247401 ␆
+TD100 📋> 
+TD19 📋> ␅
+TD135837 ␄
+TD173 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1579\n7\ufe0f\u20e39\ufe0f\u20e3\n6\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1234 result: "\ud83d\ude42 Daily Quordle 1579\n7\ufe0f\u20e39\ufe0f\u20e3\n6\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD67 📆 2026-05-22 ? ␅
+TD182516 ␆
+TD70 📆 2026-05-22 ? 
