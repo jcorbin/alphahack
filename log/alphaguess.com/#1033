@@ -1,0 +1,85 @@
+T49.82072012301069 now: 2026-05-22T09:50:42EDT
+TD73 site: alphaguess.com
+TD123267 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof c627cade06923a9e8785f4c1bcb6ed8964e2673b
+TD122  ...␅
+TD51795 ␆
+TD32  ...
+TD129 [0 : 98216 : 196522] mach? ␅
+TD552098 ␆
+TD96 [0 : 98216 : 196522] mach? 
+TD110 [0 : 98216 : 196522] mach? ␅
+TD4799524 ␆b
+TD98 [0 : 98216 : 196522] mach? b
+TD107 progress: -1 98216 mach
+TD113 [0 : 47380 : 98216] dis? ␅
+TD1367811 ␆a
+TD78 [0 : 47380 : 98216] dis? a
+TD77 progress: 1 47380 dis
+TD236 [47381 : 72798 : 98216] gremmy? ␅
+TD1399519 ␆b
+TD96 [47381 : 72798 : 98216] gremmy? b
+TD103 progress: -1 72798 gremmy
+TD105 [47381 : 60083 : 72798] face? ␅
+TD1263795 ␆a
+TD79 [47381 : 60083 : 72798] face? a
+TD79 progress: 1 60083 face
+TD111 [60084 : 66439 : 72798] french? ␅
+TD1311660 ␆a
+TD102 [60084 : 66439 : 72798] french? a
+TD105 progress: 1 66439 french
+TD449 [66440 : 69619 : 72798] geosynclinal? ␅
+TD1327494 ␆b
+TD80 [66440 : 69619 : 72798] geosynclinal? b
+TD79 progress: -1 69619 geosynclinal
+TD81 [66440 : 68005 : 69619] gall? ␅
+TD1271656 ␆b
+TD80 [66440 : 68005 : 69619] gall? b
+TD103 progress: -1 68005 gall
+TD104 [66440 : 67219 : 68005] full? ␅
+TD1223895 ␆b
+TD74 [66440 : 67219 : 68005] full? b
+TD77 progress: -1 67219 full
+TD75 [66440 : 66823 : 67219] front? ␅
+TD1199583 ␆b
+TD75 [66440 : 66823 : 67219] front? b
+TD78 progress: -1 66823 front
+TD77 [66440 : 66606 : 66823] frig? ␅
+TD1175807 ␆b
+TD94 [66440 : 66606 : 66823] frig? b
+TD101 progress: -1 66606 frig
+TD140 [66440 : 66522 : 66606] fret? ␅
+TD1223688 ␆b
+TD96 [66440 : 66522 : 66606] fret? b
+TD101 progress: -1 66522 fret
+TD101 [66440 : 66473 : 66522] frequent? ␅
+TD1311612 ␆a
+TD77 [66440 : 66473 : 66522] frequent? a
+TD79 progress: 1 66473 frequent
+TD133 [66474 : 66498 : 66522] fresh? ␅
+TD2288119 ␆it
+TD85 [66474 : 66498 : 66522] fresh? it
+TD192 progress: 0 66498 fresh
+TD93 [66474 : 66498 : 66522] <Done>.
+TD96 📋> ␅
+TD3167735 ␆🧩 Puzzle #1033
+TD76 📋> 🧩 Puzzle #1033
+TD7 📋> ␅
+TD28 ␆🤔 13 guesses
+TD4 📋> 🤔 13 guesses
+TD3 📋> ␅
+TD6 ␆⏱️ 15s
+TD3 📋> ⏱️ 15s
+TD2 📋> ␅
+TD263473 ␆🔗 alphaguess.com/1033
+TD66 📋> 🔗 alphaguess.com/1033
+TD6 📋> ␅
+TD119796 ␄
+TD115 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1033\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 15s\n\ud83d\udd17 alphaguess.com/1033"}
+TD61 result: "\ud83e\udde9 Puzzle #1033\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 15s\n\ud83d\udd17 alphaguess.com/1033"
+TD7 result puzzle: 1033
+TD2 result guesses: 13
+TD1 result time: 15s
+TD1 result link: alphaguess.com/1033
+TD57 📆 2026-05-22 ? ␅
+TD159693 ␆
+TD63 📆 2026-05-22 ? 
