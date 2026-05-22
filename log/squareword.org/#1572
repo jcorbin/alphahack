@@ -1,0 +1,269 @@
+T652.8673790270113 now: 2026-05-22T10:00:46EDT
+TD121 site: squareword.org
+TD31 wordlist: nwl2023.txt
+TD53  ...␅
+TD174830 ␆
+TD81  ...
+TD64 🧩  ? ␅
+TD3831811 ␆
+TD79 🧩  ? 
+TD120  ...␅
+TD656130 ␆
+TD78  ...
+TD52 🧩  ? ␅
+TD2152091 ␆#1572
+TD75 🧩  ? #1572
+TD194 puzzle_id: #1572
+TD178 > ␅
+TD2007038 ␆*
+TD67 > *
+TD214287 try? ␅
+TD929643 ␆1
+TD89 try? 1
+TD314 questioning: ["acres", "#5"]
+TD308 #1 <IndexError>  📋 "acres" ? ␅
+TD18834473 ␆_____ ~ AS
+TD101 #1 <IndexError>  📋 "acres" ? _____ ~ AS
+TD594 attempt 0 ACRES m n n n m
+TD82 #2 <IndexError>  📋 "acres" ? ␅
+TD1943301 ␆_____ ~ ARE
+TD78 #2 <IndexError>  📋 "acres" ? _____ ~ ARE
+TD191 attempt 1 ACRES m n m m n
+TD87 #3 <IndexError>  📋 "acres" ? ␅
+TD2231467 ␆___E_ ~ E
+TD102 #3 <IndexError>  📋 "acres" ? ___E_ ~ E
+TD251 attempt 2 ACRES n n n Y n
+TD124 #4 <IndexError>  📋 "acres" ? ␅
+TD2319494 ␆___E_ ~ E
+TD75 #4 <IndexError>  📋 "acres" ? ___E_ ~ E
+TD176 attempt 3 ACRES n n n Y n
+TD82 #5 <IndexError>  📋 "acres" ? ␅
+TD2207838 ␆__R_S ~ A
+TD87 #5 <IndexError>  📋 "acres" ? __R_S ~ A
+TD190 attempt 4 ACRES m n Y n Y
+TD220 ? ␅
+TD295548 ␆
+TD101 ? 
+TD153 question done
+TD299 > ␅
+TD623245 ␆*
+TD104 > *
+TD677679 try? ␅
+TD1218152 ␆1
+TD75 try? 1
+TD221 questioning: ["nards", "#5"]
+TD188 #1 _____ ~AS -CER  📋 "nards" ? ␅
+TD3767833 ␆_A___ ~ S
+TD74 #1 _____ ~AS -CER  📋 "nards" ? _A___ ~ S
+TD168 attempt 0 NARDS n Y n n m
+TD90 #2 _____ ~AER -CS  📋 "nards" ? ␅
+TD1159540 ␆.
+TD73 #2 _____ ~AER -CS  📋 "nards" ? .
+TD190 attempt 1 NARDS n m m n n
+TD57 #3 ___E_ -ACRS  📋 "nards" ? ␅
+TD2815871 ␆___E_ ~ E
+TD78 #3 ___E_ -ACRS  📋 "nards" ? ___E_ ~ E
+TD182 attempt 2 NARDS n n n n n
+TD108 #4 ___E_ -ACRS  📋 "nards" ? ␅
+TD3063647 ␆___E_ ~ EN
+TD94 #4 ___E_ -ACRS  📋 "nards" ? ___E_ ~ EN
+TD262 attempt 3 NARDS m n n n n
+TD150 #5 __R_S ~A -CE  📋 "nards" ? ␅
+TD1175322 ␆_ARDS
+TD68 #5 __R_S ~A -CE  📋 "nards" ? _ARDS
+TD150 attempt 4 NARDS n Y Y Y Y
+TD174 ? ␅
+TD479824 ␆
+TD107 ? 
+TD154 question done
+TD305 > ␅
+TD471257 ␆*
+TD69 > *
+TD625395 try? ␅
+TD4382602 ␆1
+TD94 try? 1
+TD287 questioning: ["liken", "#4"]
+TD1108 #1 _A___ ~S -CDENR  📋 "liken" ? ␅
+TD4142547 ␆.
+TD72 #1 _A___ ~S -CDENR  📋 "liken" ? .
+TD174 attempt 0 LIKEN n n n n n
+TD92 #2 _____ ~AER -CDNS  📋 "liken" ? ␅
+TD3223865 ␆_____ ~ AREI
+TD77 #2 _____ ~AER -CDNS  📋 "liken" ? _____ ~ AREI
+TD188 attempt 1 LIKEN n m n m n
+TD104 #3 ___E_ -ACDNRS  📋 "liken" ? ␅
+TD4311535 ␆L__E_ ~ EL
+TD84 #3 ___E_ -ACDNRS  📋 "liken" ? L__E_ ~ EL
+TD163 attempt 2 LIKEN Y n n Y n
+TD91 #4 ___E_ ~N -ACDRS  📋 "liken" ? ␅
+TD5319613 ␆___E_ ~ ENLK
+TD72 #4 ___E_ ~N -ACDRS  📋 "liken" ? ___E_ ~ ENLK
+TD162 attempt 3 LIKEN m n m Y m
+TD95 #5 _ARDS -CEN  📋 "liken" ? ␅
+TD399712 ␆
+TD73 #5 _ARDS -CEN  📋 "liken" ? 
+TD211 #5 _ARDS -CEN  ? ␅
+TD2599768 ␆.
+TD77 #5 _ARDS -CEN  ? .
+TD181 attempt 4 LIKEN n n n n n
+TD173 ? ␅
+TD367554 ␆
+TD81 ? 
+TD104 question done
+TD195 > ␅
+TD495589 ␆*
+TD97 > *
+TD511279 questioning: ["irate", "#2"]
+TD179 #1 _A___ ~S -CDEIKLNR  📋 "irate" ? ␅
+TD3200509 ␆.
+TD82 #1 _A___ ~S -CDEIKLNR  📋 "irate" ? .
+TD199 attempt 0 IRATE n n n n n
+TD68 #2 _____ ~AEIR -CDKLNS  📋 "irate" ? ␅
+TD583775 ␆/it
+TD99 #2 _____ ~AEIR -CDKLNS  📋 "irate" ? /it
+TD250 attempt 1 IRATE Y Y Y Y Y
+TD107 #3 L__E_ -ACDIKNRS  📋 "irate" ? ␅
+TD3383486 ␆L__E_ ~ LE
+TD78 #3 L__E_ -ACDIKNRS  📋 "irate" ? L__E_ ~ LE
+TD181 attempt 2 IRATE n n n n m
+TD103 #4 ___E_ ~KLN -ACDIRS  📋 "irate" ? ␅
+TD3551798 ␆___E_ ~ ENLK
+TD68 #4 ___E_ ~KLN -ACDIRS  📋 "irate" ? ___E_ ~ ENLK
+TD179 attempt 3 IRATE n n n n m
+TD103 #5 _ARDS -CEIKLN  📋 "irate" ? ␅
+TD503556 ␆.
+TD79 #5 _ARDS -CEIKLN  📋 "irate" ? .
+TD195 attempt 4 IRATE n n n n n
+TD187 ? ␅
+TD167581 ␆
+TD76 ? 
+TD79 question done
+TD190 > ␅
+TD423589 ␆*
+TD80 > *
+TD1645751 questioning: ["level", "#3"]
+TD234 #1 _A___ ~S -ACDEIKLNRT  📋 "level" ? ␅
+TD3578058 ␆.
+TD95 #1 _A___ ~S -ACDEIKLNRT  📋 "level" ? .
+TD256 attempt 0 LEVEL n n n n n
+TD102 #3 L__E_ -ACDIKNRST  📋 "level" ? ␅
+TD607540 ␆/it
+TD89 #3 L__E_ -ACDIKNRST  📋 "level" ? /it
+TD184 attempt 2 LEVEL Y Y Y Y Y
+T19.44877139199525 now: 2026-05-22T10:02:48EDT
+TD120 questioning: ["level", "#3"]
+TD199 #4 ___E_ ~KLN -ACDIRST  📋 "level" ? ␅
+TD3490534 ␆___EL ~ ENK
+TD88 #4 ___E_ ~KLN -ACDIRST  📋 "level" ? ___EL ~ ENK
+TD496 attempt 3 LEVEL n m n Y Y
+TD116 #5 _ARDS -ACEIKLNRT  📋 "level" ? ␅
+TD8143457 ␆.
+TD103 #5 _ARDS -ACEIKLNRT  📋 "level" ? .
+TD298 attempt 4 LEVEL n n n n n
+TD324 ? ␅
+TD631229 ␆
+TD76 ? 
+TD76 question done
+TD160 > ␅
+TD991775 ␆*
+TD73 > *
+TD550165 questioning: ["kneel", "#4"]
+TD185 #1 _A___ ~S -ACDEIKLNRTV  📋 "kneel" ? ␅
+TD4201684 ␆.
+TD96 #1 _A___ ~S -ACDEIKLNRTV  📋 "kneel" ? .
+TD207 attempt 0 KNEEL n n n n n
+TD68 #4 ___EL ~KN -ACDIRSTV  📋 "kneel" ? ␅
+TD991460 ␆/it
+TD85 #4 ___EL ~KN -ACDIRSTV  📋 "kneel" ? /it
+TD248 attempt 3 KNEEL Y Y Y Y Y
+TD95 #5 _ARDS -ACEIKLNRTV  📋 "kneel" ? ␅
+TD1151703 ␆.
+TD76 #5 _ARDS -ACEIKLNRTV  📋 "kneel" ? .
+TD193 attempt 4 KNEEL n n n n n
+TD183 ? ␅
+TD239601 ␆
+TD100 ? 
+TD117 question done
+TD318 > ␅
+TD1183580 ␆*
+TD99 > *
+TD268060 try? ␅
+TD1347705 ␆1
+TD99 try? 1
+TD307 questioning: ["yards", "#5"]
+TD351 #1 _A___ ~S -ACDEIKLNRTV  📋 "yards" ? ␅
+TD5295206 ␆_A___ ~ SY
+TD73 #1 _A___ ~S -ACDEIKLNRTV  📋 "yards" ? _A___ ~ SY
+TD188 attempt 0 YARDS m Y n n m
+TD108 #5 _ARDS -ACEIKLNRTV  📋 "yards" ? ␅
+TD615646 ␆/it
+TD92 #5 _ARDS -ACEIKLNRTV  📋 "yards" ? /it
+TD261 attempt 4 YARDS Y Y Y Y Y
+TD307 ? ␅
+TD183399 ␆
+TD79 ? 
+TD90 question done
+TD197 > ␅
+TD543579 ␆*
+TD92 > *
+TD145156 try? ␅
+TD1422801 ␆1
+TD78 try? 1
+TD226 questioning: ["massy", "#1"]
+TD216 #1 _A___ ~SY -CDEIKLNRTV  📋 "massy" ? ␅
+TD5631886 ␆_ASSY ~ S
+TD95 #1 _A___ ~SY -CDEIKLNRTV  📋 "massy" ? _ASSY ~ S
+TD247 attempt 0 MASSY n Y Y Y Y
+TD342 ? ␅
+TD278936 ␆
+TD93 ? 
+TD114 question done
+TD291 > ␅
+TD999618 ␆*
+TD79 > *
+TD342481 questioning: ["sassy", "#1"]
+TD178 #1 _ASSY -CDEIKLMNRTV  📋 "sassy" ? ␅
+TD1705087 ␆/it
+TD81 #1 _ASSY -CDEIKLMNRTV  📋 "sassy" ? /it
+TD182 attempt 0 SASSY Y Y Y Y Y
+TD186 ? ␅
+TD295621 ␆
+TD81 ? 
+TD84 question done
+TD22303 📋> ␅
+TD4890134 ␆squareword.org 1572: 9 guesses
+TD104 📋> squareword.org 1572: 9 guesses
+TD18 📋> ␅
+TD44 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD18 ␆🟨🟩🟨🟨🟨
+TD5 📋> 🟨🟩🟨🟨🟨
+TD5 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟨🟨🟩🟩
+TD4 📋> 🟨🟨🟨🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟩🟩🟩🟩
+TD4 📋> 🟨🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD247195 ␆#squareword #squareword1572
+TD74 📋> #squareword #squareword1572
+TD8 📋> ␅
+TD127818 ␄
+TD129 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1572: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1572"}
+TD486 result: "squareword.org 1572: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1572"
+TD67 📆 2026-05-22 ? ␅
+TD183334 ␆
+TD70 📆 2026-05-22 ? 
