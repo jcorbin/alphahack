@@ -1,0 +1,169 @@
+T234.50955998897552 now: 2026-05-23T07:41:45EDT
+TD76 site: dontwordle.com
+TD14 wordlist: nwl2023.txt
+TD22  ...␅
+TD375001 ␆
+TD100  ...
+TD122 1> ␅
+TD3567649 ␆*
+TD79 1> *
+TD218494 ? ␅
+TD869459 ␆1
+TD101 ? 1
+TD287 📋 "boffo" ? ␅
+TD2399656 ␄
+TD103 <EOF>
+TD80 1> ␅
+TD5071989 ␆* -bot 10
+TD79 1> * -bot 10
+TD150184 ? ␅
+TD689645 ␆1
+TD80 ? 1
+TD187 📋 "stoae" ? ␅
+TD4231740 ␆MnnMn
+TD99 📋 "stoae" ? MnnMn
+TD563 tried: STOAE m n n m n
+TD126 2> ␅
+TD2087215 ␆undo
+TD77 2> undo
+TD115 undo
+TD104 1> ␅
+TD4719869 ␆*
+TD81 1> *
+TD134596 ? ␅
+TD377138 ␆1
+TD80 ? 1
+TD170 📋 "levee" ? ␅
+TD4959945 ␆nnnnn
+TD89 📋 "levee" ? nnnnn
+TD211 tried: LEVEE n n n n n
+TD193 2> ␅
+TD8975846 ␆* :v [stoae] -bot 10
+TD154 2> * :v [stoae] -bot 10
+TD98203 ? ␅
+TD1277471 ␆1
+TD98 ? 1
+TD235 📋 "unrig" ? ␅
+TD4056179 ␆nMnnn
+TD80 📋 "unrig" ? nMnnn
+TD150 tried: UNRIG n m n n n
+TD132 3> ␅
+TD575022 ␆undo
+TD77 3> undo
+TD112 undo
+TD140 2> ␅
+TD3511780 ␆*
+TD80 2> *
+TD91007 ? ␅
+TD532875 ␆1
+TD101 ? 1
+TD240 📋 "kibbi" ? ␅
+TD3975772 ␆nnnnn
+TD80 📋 "kibbi" ? nnnnn
+TD154 tried: KIBBI n n n n n
+TD116 3> ␅
+TD359648 ␆*
+TD101 3> *
+TD93610 ? ␅
+TD298217 ␆1
+TD84 ? 1
+TD239 📋 "doody" ? ␅
+TD4663850 ␆nnnnY
+TD85 📋 "doody" ? nnnnY
+TD187 tried: DOODY n n n n Y
+TD190 4> ␅
+TD696270 ␆undo
+TD102 4> undo
+TD142 undo
+TD235 3> ␅
+TD2550833 ␆*
+TD100 3> *
+TD96052 ? ␅
+TD551870 ␆1
+TD100 ? 1
+TD213 📋 "hooch" ? ␅
+TD3535726 ␆nnnnn
+TD80 📋 "hooch" ? nnnnn
+TD149 tried: HOOCH n n n n n
+TD118 4> ␅
+TD503564 ␆*
+TD99 4> *
+TD88607 ? ␅
+TD775333 ␆1
+TD99 ? 1
+TD223 📋 "durum" ? ␅
+TD4167911 ␆nnnnn
+TD99 📋 "durum" ? nnnnn
+TD201 tried: DURUM n n n n n
+TD202 5> ␅
+TD1271290 ␆*
+TD80 5> *
+TD180346 ? ␅
+TD1355749 ␆1
+TD97 ? 1
+TD221 📋 "fatwa" ? ␅
+TD5463752 ␆nYnnn
+TD95 📋 "fatwa" ? nYnnn
+TD163 tried: FATWA n Y n n n
+TD138 6> ␅
+TD375504 ␆*
+TD77 6> *
+TD181825 📋 "qajaq" ? ␅
+TD5906113 ␄
+TD102 <EOF>
+TD116 6> ␅
+TD2103803 ␆* -sans
+TD101 6> * -sans
+TD88043 ? ␅
+TD5152084 ␆4
+TD110 ? 4
+TD229 📋 "yappy" ? ␅
+TD4511543 ␆nYMnY
+TD102 📋 "yappy" ? nYMnY
+TD208 tried: YAPPY n Y m n Y
+TD196 📋> ␅
+TD2919837 ␆Don't Wordle 1460 - SURVIVED
+TD99 📋> Don't Wordle 1460 - SURVIVED
+TD14 📋> ␅
+TD43 ␆Hooray! I didn't Wordle today!
+TD7 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜5302
+TD6 📋> ⬜⬜⬜⬜⬜5302
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜2592
+TD5 📋> ⬜⬜⬜⬜⬜2592
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜919
+TD4 📋> ⬜⬜⬜⬜⬜919
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜193
+TD4 📋> ⬜⬜⬜⬜⬜193
+TD4 📋> ␅
+TD24 ␆⬜🟩⬜⬜⬜26
+TD5 📋> ⬜🟩⬜⬜⬜26
+TD5 📋> ␅
+TD12 ␆⬜🟩🟨⬜🟩1
+TD4 📋> ⬜🟩🟨⬜🟩1
+TD4 📋> ␅
+TD11 ␆Undos used: 3
+TD5 📋> Undos used: 3
+TD5 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD11 ␆  1 words remaining
+TD5 📋>   1 words remaining
+TD5 📋> ␅
+TD10 ␆x 7 unused letters
+TD5 📋> x 7 unused letters
+TD4 📋> ␅
+TD239194 ␆= 7 total score
+TD99 📋> = 7 total score
+TD13 📋> ␅
+TD199904 ␄
+TD133 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1460 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5302\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2592\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c919\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c193\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c26\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"}
+TD768 result: "Don't Wordle 1460 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5302\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2592\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c919\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c193\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c26\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TD64 📆 2026-05-23 ? ␅
+TD175429 ␆
+TD103 📆 2026-05-23 ? 
