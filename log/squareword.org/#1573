@@ -1,0 +1,208 @@
+T779.7955881959933 now: 2026-05-23T07:50:50EDT
+TD121 site: squareword.org
+TD33 wordlist: nwl2023.txt
+TD44  ...␅
+TD1174901 ␆
+TD94  ...
+TD75 🧩  ? ␅
+TD3567927 ␆#1573
+TD95 🧩  ? #1573
+TD278 puzzle_id: #1573
+TD283 > ␅
+TD911248 ␆*
+TD88 > *
+TD213369 try? ␅
+TD1018544 ␆1
+TD63 try? 1
+TD207 questioning: ["raise", "#5"]
+TD162 #1 <IndexError>  📋 "raise" ? ␅
+TD4543573 ␆_A___ ~ RRS
+TD65 #1 <IndexError>  📋 "raise" ? _A___ ~ RRS
+TD381 attempt 0 RAISE m Y n m n
+TD70 #2 <IndexError>  📋 "raise" ? ␅
+TD4631556 ␆_____ ~ RA
+TD99 #2 <IndexError>  📋 "raise" ? _____ ~ RA
+TD271 attempt 1 RAISE m m n n n
+TD134 #3 <IndexError>  📋 "raise" ? ␅
+TD2359543 ␆_____ ~ AIE
+TD77 #3 <IndexError>  📋 "raise" ? _____ ~ AIE
+TD173 attempt 2 RAISE n m m n m
+TD82 #4 <IndexError>  📋 "raise" ? ␅
+TD1839751 ␆__I__ ~ R
+TD101 #4 <IndexError>  📋 "raise" ? __I__ ~ R
+TD273 attempt 3 RAISE m n Y n n
+TD122 #5 <IndexError>  📋 "raise" ? ␅
+TD1847457 ␆__I__ ~ S
+TD81 #5 <IndexError>  📋 "raise" ? __I__ ~ S
+TD187 attempt 4 RAISE n n Y m n
+TD224 ? ␅
+TD351514 ␆
+TD75 ? 
+TD118 question done
+TD188 > ␅
+TD599630 ␆*
+TD72 > *
+TD668473 try? ␅
+TD8587572 ␆5
+TD75 try? 5
+TD226 questioning: ["media", "#3"]
+TD195 #1 _A___ ~RS -EI  📋 "media" ? ␅
+TD4919536 ␆.
+TD114 #1 _A___ ~RS -EI  📋 "media" ? .
+TD290 attempt 0 MEDIA n n n n n
+TD98 #2 _____ ~AR -EIS  📋 "media" ? ␅
+TD2583606 ␆_____ ~ RAM
+TD80 #2 _____ ~AR -EIS  📋 "media" ? _____ ~ RAM
+TD189 attempt 1 MEDIA m n n n m
+TD103 #3 _____ ~AEI -RS  📋 "media" ? ␅
+TD871569 ␆/it
+TD73 #3 _____ ~AEI -RS  📋 "media" ? /it
+TD169 attempt 2 MEDIA Y Y Y Y Y
+TD54 #4 __I__ ~R -AES  📋 "media" ? ␅
+TD1095779 ␆.
+TD77 #4 __I__ ~R -AES  📋 "media" ? .
+TD175 attempt 3 MEDIA n n n n n
+TD55 #5 __I__ ~S -AER  📋 "media" ? ␅
+TD855714 ␆.
+TD151 #5 __I__ ~S -AER  📋 "media" ? .
+TD304 attempt 4 MEDIA n n n n n
+TD307 ? ␅
+TD223137 ␆
+TD79 ? 
+TD94 question done
+TD207 > ␅
+TD407615 ␆*
+TD82 > *
+TD791169 try? ␅
+TD3184871 ␆1
+TD92 try? 1
+TD213 questioning: ["cramp", "#2"]
+TD215 #1 _A___ ~RS -ADEIM  📋 "cramp" ? ␅
+TD3791442 ␆.
+TD75 #1 _A___ ~RS -ADEIM  📋 "cramp" ? .
+TD195 attempt 0 CRAMP n m n n n
+TD65 #2 _____ ~AMR -DEIS  📋 "cramp" ? ␅
+TD2263862 ␆__A__ ~ RAM
+TD83 #2 _____ ~AMR -DEIS  📋 "cramp" ? __A__ ~ RAM
+TD188 attempt 1 CRAMP n m Y m n
+TD109 #4 __I__ ~R -ADEIMS  📋 "cramp" ? ␅
+TD2399691 ␆_RI__
+TD99 #4 __I__ ~R -ADEIMS  📋 "cramp" ? _RI__
+TD250 attempt 3 CRAMP n Y n n n
+TD154 #5 __I__ ~S -ADEIMR  📋 "cramp" ? ␅
+TD1055372 ␆.
+TD74 #5 __I__ ~S -ADEIMR  📋 "cramp" ? .
+TD196 attempt 4 CRAMP n n n n n
+TD188 ? ␅
+TD167457 ␆
+TD83 ? 
+TD86 question done
+TD205 > ␅
+TD383610 ␆*
+TD85 > *
+TD561138 questioning: ["alarm", "#2"]
+TD198 #1 _A___ ~RS -ACDEIMP  📋 "alarm" ? ␅
+TD5502677 ␆_A___ ~ RSL
+TD77 #1 _A___ ~RS -ACDEIMP  📋 "alarm" ? _A___ ~ RSL
+TD170 attempt 0 ALARM n m n m n
+TD104 #2 __A__ ~MR -CDEIPS  📋 "alarm" ? ␅
+TD1279640 ␆/it
+TD98 #2 __A__ ~MR -CDEIPS  📋 "alarm" ? /it
+TD264 attempt 1 ALARM Y Y Y Y Y
+TD102 #4 _RI__ -ACDEIMPS  📋 "alarm" ? ␅
+TD3927648 ␆_RI__ ~ L
+TD85 #4 _RI__ -ACDEIMPS  📋 "alarm" ? _RI__ ~ L
+TD180 attempt 3 ALARM n m n n n
+TD111 #5 __I__ ~S -ACDEIMPR  📋 "alarm" ? ␅
+TD2927629 ␆__I__ ~ SL
+TD78 #5 __I__ ~S -ACDEIMPR  📋 "alarm" ? __I__ ~ SL
+TD176 attempt 4 ALARM n m n n n
+TD219 ? ␅
+TD367536 ␆
+TD82 ? 
+TD99 question done
+TD197 > ␅
+TD567689 ␆*
+TD79 > *
+TD1443193 questioning: ["larks", "#1"]
+TD196 #1 _A___ ~LRS -ACDEIMP  📋 "larks" ? ␅
+TD2548568 ␆/it
+TD100 #1 _A___ ~LRS -ACDEIMP  📋 "larks" ? /it
+TD263 attempt 0 LARKS Y Y Y Y Y
+TD106 #4 _RI__ ~L -ACDEIMPRS  📋 "larks" ? ␅
+TD4487519 ␆.
+TD93 #4 _RI__ ~L -ACDEIMPRS  📋 "larks" ? .
+TD278 attempt 3 LARKS m n n n n
+TD99 #5 __I__ ~LS -ACDEIMPR  📋 "larks" ? ␅
+TD2351537 ␆.
+TD99 #5 __I__ ~LS -ACDEIMPR  📋 "larks" ? .
+TD276 attempt 4 LARKS m n n n m
+TD303 ? ␅
+TD223468 ␆
+TD98 ? 
+TD120 question done
+TD322 > ␅
+TD407215 ␆*
+TD80 > *
+TD1371477 questioning: ["brill", "#4"]
+TD193 #4 _RI__ ~L -ACDEIKMPRS  📋 "brill" ? ␅
+TD3020300 ␆/it
+TD92 #4 _RI__ ~L -ACDEIKMPRS  📋 "brill" ? /it
+TD187 attempt 3 BRILL Y Y Y Y Y
+TD73 #5 __I__ ~LS -ACDEIKMPR  📋 "brill" ? ␅
+TD3407748 ␆__ILL ~ S
+TD80 #5 __I__ ~LS -ACDEIKMPR  📋 "brill" ? __ILL ~ S
+TD187 attempt 4 BRILL n n Y Y Y
+TD208 ? ␅
+TD271550 ␆
+TD78 ? 
+TD95 question done
+TD194 > ␅
+TD423641 ␆*
+TD79 > *
+TD927484 questioning: ["still", "#5"]
+TD194 #5 __ILL ~S -ABCDEKMPR  📋 "still" ? ␅
+TD2936158 ␆/it
+TD80 #5 __ILL ~S -ABCDEKMPR  📋 "still" ? /it
+TD184 attempt 4 STILL Y Y Y Y Y
+TD175 ? ␅
+TD1911891 ␆
+TD82 ? 
+TD82 question done
+TD22001 📋> ␅
+TD3338035 ␆squareword.org 1573: 7 guesses
+TD98 📋> squareword.org 1573: 7 guesses
+TD15 📋> ␅
+TD44 ␆
+TD13 📋> 
+TD6 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟩🟩🟨🟨
+TD5 📋> 🟨🟩🟩🟨🟨
+TD4 📋> ␅
+TD11 ␆🟨🟨🟩🟨🟨
+TD4 📋> 🟨🟨🟩🟨🟨
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD511674 ␆#squareword #squareword1573
+TD75 📋> #squareword #squareword1573
+TD6 📋> ␅
+TD167517 ␄
+TD140 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1573: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1573"}
+TD800 result: "squareword.org 1573: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1573"
+TD66 📆 2026-05-23 ? ␅
+TD479098 ␆
+TD84 📆 2026-05-23 ? 
