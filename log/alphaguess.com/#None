@@ -1,0 +1,89 @@
+T1732.1154181789607 now: 2026-05-24T07:32:50EDT
+TD126 site: alphaguess.com
+TD148655 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 7e40f320c48ad65483c27e32bc703e6a5463a7cc
+TD123  ...␅
+TD4026345 ␆
+TD100  ...
+TD172 [0 : 98216 : 196522] mach? ␅
+TD3095437 ␆b
+TD78 [0 : 98216 : 196522] mach? b
+TD79 progress: -1 98216 mach
+TD83 [0 : 47380 : 98216] dis? ␅
+TD1287730 ␆b
+TD74 [0 : 47380 : 98216] dis? b
+TD78 progress: -1 47380 dis
+TD81 [0 : 23681 : 47380] camp? ␅
+TD1655762 ␆b
+TD91 [0 : 23681 : 47380] camp? b
+TD106 progress: -1 23681 camp
+TD109 [0 : 11763 : 23681] back? ␅
+TD1983827 ␆b
+TD96 [0 : 11763 : 23681] back? b
+TD104 progress: -1 11763 back
+TD107 [0 : 5876 : 11763] angel? ␅
+TD1399626 ␆b
+TD79 [0 : 5876 : 11763] angel? b
+TD82 progress: -1 5876 angel
+TD83 [0 : 2802 : 5876] ag? ␅
+TD1447717 ␆b
+TD71 [0 : 2802 : 5876] ag? b
+TD80 progress: -1 2802 ag
+TD195 [0 : 1398 : 2802] acrogen? ␅
+TD1951745 ␆a
+TD81 [0 : 1398 : 2802] acrogen? a
+TD78 progress: 1 1398 acrogen
+TD92 [1399 : 2097 : 2802] ads? ␅
+TD1447661 ␆b
+TD79 [1399 : 2097 : 2802] ads? b
+TD79 progress: -1 2097 ads
+TD87 [1399 : 1616 : 2097] ad? ␅
+TD1319945 ␆b
+TD96 [1399 : 1616 : 2097] ad? b
+TD107 progress: -1 1616 ad
+TD115 [1399 : 1452 : 1616] act? ␅
+TD1295653 ␆a
+TD98 [1399 : 1452 : 1616] act? a
+TD107 progress: 1 1452 act
+TD191 [1453 : 1531 : 1616] activize? ␅
+TD1319529 ␆b
+TD95 [1453 : 1531 : 1616] activize? b
+TD106 progress: -1 1531 activize
+TD136 [1453 : 1458 : 1531] actin? ␅
+TD1367810 ␆a
+TD95 [1453 : 1458 : 1531] actin? a
+TD105 progress: 1 1458 actin
+TD280 [1459 : 1495 : 1531] actinomycosis? ␅
+TD1231575 ␆a
+TD96 [1459 : 1495 : 1531] actinomycosis? a
+TD108 progress: 1 1495 actinomycosis
+TD426 [1496 : 1513 : 1531] activation? ␅
+TD1335252 ␆a
+TD78 [1496 : 1513 : 1531] activation? a
+TD79 progress: 1 1513 activation
+TD93 [1514 : 1517 : 1531] active? ␅
+TD2495962 ␆it
+TD78 [1514 : 1517 : 1531] active? it
+TD80 progress: 0 1517 active
+TD18 [1514 : 1517 : 1531] <Done>.
+TD59 📋> ␅
+TD2359971 ␆🧩 Puzzle #1035
+TD87 📋> 🧩 Puzzle #1035
+TD8 📋> ␅
+TD27 ␆🤔 15 guesses
+TD3 📋> 🤔 15 guesses
+TD3 📋> ␅
+TD5 ␆⏱️ 20s
+TD3 📋> ⏱️ 20s
+TD2 📋> ␅
+TD207543 ␆🔗 alphaguess.com/1035
+TD76 📋> 🔗 alphaguess.com/1035
+TD7 📋> ␅
+TD167717 ␄
+TD128 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\u001b\ud83e\udde9 Puzzle #1035\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1035"}
+TD74 result: "\u001b\ud83e\udde9 Puzzle #1035\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1035"
+TD10 result guesses: 15
+TD3 result time: 20s
+TD2 result link: alphaguess.com/1035
+TD67 📆 2026-05-24 ? ␅
+TD143995 ␆
+TD91 📆 2026-05-24 ? 
