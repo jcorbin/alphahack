@@ -1,0 +1,89 @@
+T93.24871341598919 now: 2026-05-25T07:55:39EDT
+TD79 site: alphaguess.com
+TD144548 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 3e88c1d61cf8c9d83293d744202e526cda0e6e59
+TD123  ...␅
+TD566321 ␆
+TD83  ...
+TD124 [0 : 98216 : 196522] mach? ␅
+TD6552005 ␆
+TD100 [0 : 98216 : 196522] mach? 
+TD113 [0 : 98216 : 196522] mach? ␅
+TD1775442 ␆b
+TD73 [0 : 98216 : 196522] mach? b
+TD79 progress: -1 98216 mach
+TD80 [0 : 47380 : 98216] dis? ␅
+TD1383853 ␆a
+TD96 [0 : 47380 : 98216] dis? a
+TD105 progress: 1 47380 dis
+TD417 [47381 : 72798 : 98216] gremmy? ␅
+TD1271390 ␆b
+TD95 [47381 : 72798 : 98216] gremmy? b
+TD103 progress: -1 72798 gremmy
+TD103 [47381 : 60083 : 72798] face? ␅
+TD1351638 ␆a
+TD78 [47381 : 60083 : 72798] face? a
+TD81 progress: 1 60083 face
+TD109 [60084 : 66439 : 72798] french? ␅
+TD1344403 ␆b
+TD78 [60084 : 66439 : 72798] french? b
+TD87 progress: -1 66439 french
+TD81 [60084 : 63239 : 66439] flag? ␅
+TD1239100 ␆b
+TD78 [60084 : 63239 : 66439] flag? b
+TD78 progress: -1 63239 flag
+TD75 [60084 : 61619 : 63239] fen? ␅
+TD1223813 ␆a
+TD77 [60084 : 61619 : 63239] fen? a
+TD79 progress: 1 61619 fen
+TD77 [61620 : 62423 : 63239] fila? ␅
+TD1239871 ␆a
+TD98 [61620 : 62423 : 63239] fila? a
+TD104 progress: 1 62423 fila
+TD102 [62424 : 62826 : 63239] fire? ␅
+TD1327548 ␆a
+TD79 [62424 : 62826 : 63239] fire? a
+TD79 progress: 1 62826 fire
+TD80 [62827 : 63012 : 63239] fish? ␅
+TD1359789 ␆b
+TD73 [62827 : 63012 : 63239] fish? b
+TD79 progress: -1 63012 fish
+TD145 [62827 : 62916 : 63012] fireplace? ␅
+TD1151659 ␆a
+TD78 [62827 : 62916 : 63012] fireplace? a
+TD79 progress: 1 62916 fireplace
+TD156 [62917 : 62964 : 63012] fireworms? ␅
+TD1159731 ␆a
+TD77 [62917 : 62964 : 63012] fireworms? a
+TD80 progress: 1 62964 fireworms
+TD124 [62965 : 62988 : 63012] firrier? ␅
+TD1255618 ␆a
+TD76 [62965 : 62988 : 63012] firrier? a
+TD86 progress: 1 62988 firrier
+TD83 [62989 : 62992 : 63012] first? ␅
+TD2223943 ␆it
+TD76 [62989 : 62992 : 63012] first? it
+TD96 progress: 0 62992 first
+TD18 [62989 : 62992 : 63012] <Done>.
+TD58 📋> ␅
+TD2640268 ␆🧩 Puzzle #1036
+TD98 📋> 🧩 Puzzle #1036
+TD12 📋> ␅
+TD45 ␆🤔 14 guesses
+TD7 📋> 🤔 14 guesses
+TD6 📋> ␅
+TD12 ␆⏱️ 16s
+TD6 📋> ⏱️ 16s
+TD5 📋> ␅
+TD247228 ␆🔗 alphaguess.com/1036
+TD78 📋> 🔗 alphaguess.com/1036
+TD8 📋> ␅
+TD447840 ␄
+TD149 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1036\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1036"}
+TD70 result: "\ud83e\udde9 Puzzle #1036\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1036"
+TD9 result puzzle: 1036
+TD4 result guesses: 14
+TD3 result time: 16s
+TD2 result link: alphaguess.com/1036
+TD64 📆 2026-05-25 ? ␅
+TD431713 ␆
+TD82 📆 2026-05-25 ? 
