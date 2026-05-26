@@ -1,0 +1,83 @@
+T428.8754081369989 now: 2026-05-26T07:27:57EDT
+TD133 site: alphaguess.com
+TD146811 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 6d433e0258c261dd1e1495609117d1bc347c0070
+TD127  ...␅
+TD4096 ␆
+TD4  ...
+TD81 [0 : 98216 : 196522] mach? ␅
+T79.8125950850008 now: 2026-05-26T07:29:42EDT
+TD151  ...␅
+TD696460 ␆
+TD101  ...
+TD235 [0 : 98216 : 196522] mach? ␅
+TD2807436 ␆a
+TD68 [0 : 98216 : 196522] mach? a
+TD242 progress: 1 98216 mach
+TD167 [98217 : 147366 : 196522] rhotic? ␅
+TD2279575 ␆a
+TD71 [98217 : 147366 : 196522] rhotic? a
+TD92 progress: 1 147366 rhotic
+TD78 [147367 : 171636 : 196522] ta? ␅
+TD1712101 ␆a
+TD84 [147367 : 171636 : 196522] ta? a
+TD77 progress: 1 171636 ta
+TD94 [171637 : 182000 : 196522] un? ␅
+TD3287536 ␆b
+TD77 [171637 : 182000 : 196522] un? b
+TD80 progress: -1 182000 un
+TD82 [171637 : 176813 : 182000] toilet? ␅
+TD1551770 ␆a
+TD99 [171637 : 176813 : 182000] toilet? a
+TD105 progress: 1 176813 toilet
+TD446 [176814 : 179407 : 182000] trictrac? ␅
+TD1295458 ␆b
+TD97 [176814 : 179407 : 182000] trictrac? b
+TD115 progress: -1 179407 trictrac
+TD140 [176814 : 178104 : 179407] tragic? ␅
+TD1471599 ␆b
+TD98 [176814 : 178104 : 179407] tragic? b
+TD106 progress: -1 178104 tragic
+TD101 [176814 : 177360 : 178104] tor? ␅
+TD1327711 ␆a
+TD95 [176814 : 177360 : 178104] tor? a
+TD130 progress: 1 177360 tor
+TD98 [177361 : 177710 : 178104] tour? ␅
+TD1303709 ␆a
+TD99 [177361 : 177710 : 178104] tour? a
+TD127 progress: 1 177710 tour
+TD105 [177711 : 177903 : 178104] toy? ␅
+TD1287749 ␆a
+TD78 [177711 : 177903 : 178104] toy? a
+TD80 progress: 1 177903 toy
+TD78 [177904 : 177978 : 178104] track? ␅
+TD1231969 ␆a
+TD78 [177904 : 177978 : 178104] track? a
+TD79 progress: 1 177978 track
+TD83 [177979 : 178034 : 178104] trade? ␅
+TD2151927 ␆it
+TD75 [177979 : 178034 : 178104] trade? it
+TD77 progress: 0 178034 trade
+TD18 [177979 : 178034 : 178104] <Done>.
+TD72 📋> ␅
+TD2407664 ␆🧩 Puzzle #1037
+TD81 📋> 🧩 Puzzle #1037
+TD10 📋> ␅
+TD34 ␆🤔 12 guesses
+TD4 📋> 🤔 12 guesses
+TD3 📋> ␅
+TD8 ␆⏱️ 18s
+TD3 📋> ⏱️ 18s
+TD2 📋> ␅
+TD215600 ␆🔗 alphaguess.com/1037
+TD85 📋> 🔗 alphaguess.com/1037
+TD11 📋> ␅
+TD143856 ␄
+TD180 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1037\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1037"}
+TD545 result: "\ud83e\udde9 Puzzle #1037\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1037"
+TD11 result puzzle: 1037
+TD5 result guesses: 12
+TD3 result time: 18s
+TD2 result link: alphaguess.com/1037
+TD66 📆 2026-05-26 ? ␅
+TD111085 ␆
+TD72 📆 2026-05-26 ? 
