@@ -1,0 +1,315 @@
+T29.504096509997908 now: 2026-05-26T07:43:18EDT
+TD81 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD26  ...␅
+TD151154 ␆
+TD73  ...
+TD55 🧩  ? ␅
+TD575871 ␆
+TD82 🧩  ? 
+TD119  ...␅
+TD37216219 ␆
+TD77  ...
+TD52 🧩  ? ␅
+TD3664113 ␆#1576
+TD77 🧩  ? #1576
+TD232 puzzle_id: #1576
+TD229 > ␅
+TD1719218 ␆*
+TD67 > *
+TD196360 try? ␅
+TD683615 ␆1
+TD70 try? 1
+TD210 questioning: ["aisle", "#5"]
+TD153 #1 <IndexError>  📋 "aisle" ? ␅
+TD3839729 ␆_____ ~ E
+TD88 #1 <IndexError>  📋 "aisle" ? _____ ~ E
+TD587 attempt 0 AISLE n n n n m
+TD88 #2 <IndexError>  📋 "aisle" ? ␅
+TD1647137 ␆_____ ~ AL
+TD70 #2 <IndexError>  📋 "aisle" ? _____ ~ AL
+TD192 attempt 1 AISLE m n n m n
+TD86 #3 <IndexError>  📋 "aisle" ? ␅
+TD1671625 ␆_____ ~ AE
+TD97 #3 <IndexError>  📋 "aisle" ? _____ ~ AE
+TD259 attempt 2 AISLE m n n n m
+TD136 #4 <IndexError>  📋 "aisle" ? ␅
+TD2311710 ␆____E 
+TD78 #4 <IndexError>  📋 "aisle" ? ____E 
+TD177 attempt 3 AISLE n n n n Y
+TD90 #5 <IndexError>  📋 "aisle" ? ␅
+TD2015493 ␆_____ ~ SE
+TD80 #5 <IndexError>  📋 "aisle" ? _____ ~ SE
+TD182 attempt 4 AISLE n n m n m
+TD215 ? ␅
+TD183745 ␆
+TD94 ? 
+TD152 question done
+TD295 > ␅
+TD463438 ␆*
+TD98 > *
+TD563016 try? ␅
+TD1940812 ␆2
+TD96 try? 2
+TD307 questioning: ["prune", "#4"]
+TD333 #1 _____ ~E -AILS  📋 "prune" ? ␅
+TD2423429 ␆.
+TD93 #1 _____ ~E -AILS  📋 "prune" ? .
+TD269 attempt 0 PRUNE n n n n m
+TD98 #2 _____ ~AL -EIS  📋 "prune" ? ␅
+TD943389 ␆.
+TD96 #2 _____ ~AL -EIS  📋 "prune" ? .
+TD269 attempt 1 PRUNE n n n n n
+TD100 #3 _____ ~AE -ILS  📋 "prune" ? ␅
+TD2623568 ␆_____ ~ AER
+TD98 #3 _____ ~AE -ILS  📋 "prune" ? _____ ~ AER
+TD254 attempt 2 PRUNE n m n n m
+TD151 #4 ____E -AILS  📋 "prune" ? ␅
+TD2279498 ␆_R_NE
+TD78 #4 ____E -AILS  📋 "prune" ? _R_NE
+TD189 attempt 3 PRUNE n Y n Y Y
+TD107 #5 _____ ~ES -AIL  📋 "prune" ? ␅
+TD2383689 ␆_____ ~ SEN
+TD106 #5 _____ ~ES -AIL  📋 "prune" ? _____ ~ SEN
+TD270 attempt 4 PRUNE n n n m m
+TD375 ? ␅
+TD239182 ␆
+TD59 ? 
+TD80 question done
+TD151 > ␅
+TD431847 ␆*
+TD63 > *
+TD631494 try? ␅
+TD3048542 ␆2
+TD75 try? 2
+TD212 questioning: ["drone", "#4"]
+TD203 #1 _____ ~E -AILNPRSU  📋 "drone" ? ␅
+TD4327513 ␆_____ ~ ED
+TD97 #1 _____ ~E -AILNPRSU  📋 "drone" ? _____ ~ ED
+TD260 attempt 0 DRONE m n n n m
+TD159 #2 _____ ~AL -EINPRSU  📋 "drone" ? ␅
+TD783385 ␆.
+TD74 #2 _____ ~AL -EINPRSU  📋 "drone" ? .
+TD168 attempt 1 DRONE n n n n n
+TD57 #3 _____ ~AER -ILNPSU  📋 "drone" ? ␅
+TD823815 ␆.
+TD72 #3 _____ ~AER -ILNPSU  📋 "drone" ? .
+TD164 attempt 2 DRONE n m n n m
+TD54 #4 _R_NE -AILPSU  📋 "drone" ? ␅
+TD1871675 ␆_RONE
+TD76 #4 _R_NE -AILPSU  📋 "drone" ? _RONE
+TD176 attempt 3 DRONE n Y Y Y Y
+TD105 #5 _____ ~ENS -AILPRU  📋 "drone" ? ␅
+TD3447788 ␆_____ ~ SEND
+TD97 #5 _____ ~ENS -AILPRU  📋 "drone" ? _____ ~ SEND
+TD259 attempt 4 DRONE m n n m m
+TD347 ? ␅
+TD935184 ␆*
+TD100 ? *
+TD183 #6 <IndexError>  📋 "drone" ? ␅
+TD839847 ␄
+TD129 question done
+TD452 > ␅
+TD1519355 ␆* 5
+TD90 > * 5
+TD267148 try? ␅
+TD4756785 ␆1
+TD67 try? 1
+TD205 questioning: ["bends", "#5"]
+TD209 #1 _____ ~DE -AILNOPRSU  📋 "bends" ? ␅
+TD7575632 ␆_____ ~ EDB
+TD86 #1 _____ ~DE -AILNOPRSU  📋 "bends" ? _____ ~ EDB
+TD191 attempt 0 BENDS m m n m n
+TD103 #2 _____ ~AL -DEINOPRSU  📋 "bends" ? ␅
+TD1911576 ␆.
+TD76 #2 _____ ~AL -DEINOPRSU  📋 "bends" ? .
+TD192 attempt 1 BENDS n n n n n
+TD65 #3 _____ ~AER -DILNOPSU  📋 "bends" ? ␅
+TD671820 ␆.
+TD101 #3 _____ ~AER -DILNOPSU  📋 "bends" ? .
+TD271 attempt 2 BENDS n m n n n
+T17.171700783990673 now: 2026-05-26T07:45:32EDT
+TD130 questioning: ["bends", "#5"]
+TD191 #4 _RONE -ADILPSU  📋 "bends" ? ␅
+TD2132468 ␆.
+TD76 #4 _RONE -ADILPSU  📋 "bends" ? .
+TD320 attempt 3 BENDS n n n n n
+TD108 #5 _____ ~DENS -AILOPRU  📋 "bends" ? ␅
+TD2319506 ␆_ENDS
+TD70 #5 _____ ~DENS -AILOPRU  📋 "bends" ? _ENDS
+TD365 attempt 4 BENDS n Y Y Y Y
+TD158 ? ␅
+TD415406 ␆
+TD71 ? 
+TD86 question done
+TD163 > ␅
+TD703741 ␆*
+TD71 > *
+TD825258 try? ␅
+TD1894912 ␆1
+TD98 try? 1
+TD311 questioning: ["embed", "#1"]
+TD220 #1 _____ ~BDE -AILNOPRSU  📋 "embed" ? ␅
+TD5943172 ␆E_BED ~ B
+TD79 #1 _____ ~BDE -AILNOPRSU  📋 "embed" ? E_BED ~ B
+TD191 attempt 0 EMBED Y n Y Y Y
+TD107 #2 _____ ~AL -BDEINOPRSU  📋 "embed" ? ␅
+TD2991566 ␆_____ ~ ALM
+TD100 #2 _____ ~AL -BDEINOPRSU  📋 "embed" ? _____ ~ ALM
+TD249 attempt 1 EMBED n m n n n
+TD162 #3 _____ ~AER -BDILNOPSU  📋 "embed" ? ␅
+TD2743608 ␆E__E_ ~ AR
+TD76 #3 _____ ~AER -BDILNOPSU  📋 "embed" ? E__E_ ~ AR
+TD175 attempt 2 EMBED Y n n Y n
+TD100 #4 _RONE -ABDEILNPSU  📋 "embed" ? ␅
+TD2879525 ␆.
+TD76 #4 _RONE -ABDEILNPSU  📋 "embed" ? .
+TD188 attempt 3 EMBED n n n n n
+TD72 #5 _ENDS -ABILOPRU  📋 "embed" ? ␅
+TD1599699 ␆.
+TD78 #5 _ENDS -ABILOPRU  📋 "embed" ? .
+TD178 attempt 4 EMBED n n n n n
+TD172 ? ␅
+TD799569 ␆
+TD80 ? 
+TD87 question done
+TD186 > ␅
+TD3127774 ␆*
+TD77 > *
+TD772162 questioning: ["ebbed", "#1"]
+TD193 #1 E_BED -AILMNOPRSU  📋 "ebbed" ? ␅
+TD4339413 ␆/it
+TD102 #1 E_BED -AILMNOPRSU  📋 "ebbed" ? /it
+TD253 attempt 0 EBBED Y Y Y Y Y
+TD101 #2 _____ ~ALM -BDEINOPRSU  📋 "ebbed" ? ␅
+TD935595 ␆.
+TD79 #2 _____ ~ALM -BDEINOPRSU  📋 "ebbed" ? .
+TD182 attempt 1 EBBED n n n n n
+TD70 #3 E__E_ ~AR -BDILMNOPSU  📋 "ebbed" ? ␅
+TD1039849 ␆.
+TD99 #3 E__E_ ~AR -BDILMNOPSU  📋 "ebbed" ? .
+TD249 attempt 2 EBBED Y n n Y n
+TD98 #4 _RONE -ABDEILMNPSU  📋 "ebbed" ? ␅
+TD847379 ␆.
+TD83 #4 _RONE -ABDEILMNPSU  📋 "ebbed" ? .
+TD179 attempt 3 EBBED n n n n n
+TD64 #5 _ENDS -ABDEILMOPRU  📋 "ebbed" ? ␅
+TD391707 ␆.
+TD77 #5 _ENDS -ABDEILMOPRU  📋 "ebbed" ? .
+TD182 attempt 4 EBBED n n n n n
+TD170 ? ␅
+TD167547 ␆
+TD92 ? 
+TD108 question done
+TD305 > ␅
+TD423544 ␆*
+TD79 > *
+TD90898 questioning: ["llama", "#2"]
+TD214 #2 _____ ~ALM -BDEINOPRSU  📋 "llama" ? ␅
+TD2676833 ␆/it
+TD70 #2 _____ ~ALM -BDEINOPRSU  📋 "llama" ? /it
+TD176 attempt 1 LLAMA Y Y Y Y Y
+TD67 #3 E__E_ ~AR -BDILMNOPSU  📋 "llama" ? ␅
+TD2175637 ␆.
+TD81 #3 E__E_ ~AR -BDILMNOPSU  📋 "llama" ? .
+TD182 attempt 2 LLAMA n n m n m
+TD67 #4 _RONE -ABDEILMNPSU  📋 "llama" ? ␅
+TD559816 ␆.
+TD71 #4 _RONE -ABDEILMNPSU  📋 "llama" ? .
+TD179 attempt 3 LLAMA n n n n n
+TD67 #5 _ENDS -ABDEILMOPRU  📋 "llama" ? ␅
+TD1191538 ␆.
+TD76 #5 _ENDS -ABDEILMOPRU  📋 "llama" ? .
+TD186 attempt 4 LLAMA n n n n n
+TD183 ? ␅
+TD1047548 ␆
+TD78 ? 
+TD86 question done
+TD197 > ␅
+TD415830 ␆*
+TD75 > *
+TD688860 questioning: ["eater", "#3"]
+TD189 #3 E__E_ ~AR -BDILMNOPSU  📋 "eater" ? ␅
+TD2758737 ␆/it
+TD73 #3 E__E_ ~AR -BDILMNOPSU  📋 "eater" ? /it
+TD172 attempt 2 EATER Y Y Y Y Y
+TD65 #4 _RONE -ABDEILMNPSU  📋 "eater" ? ␅
+TD279654 ␆
+TD81 #4 _RONE -ABDEILMNPSU  📋 "eater" ? 
+TD227 #4 _RONE -ABDEILMNPSU  ? ␅
+TD871717 ␆.
+TD92 #4 _RONE -ABDEILMNPSU  ? .
+TD254 attempt 3 EATER n n n n n
+TD100 #5 _ENDS -ABDEILMOPRU  📋 "eater" ? ␅
+TD4447612 ␆_ENDS ~ T
+TD100 #5 _ENDS -ABDEILMOPRU  📋 "eater" ? _ENDS ~ T
+TD249 attempt 4 EATER n n m n n
+TD252 ? ␅
+TD255629 ␆
+TD76 ? 
+TD89 question done
+TD162 > ␅
+TD439434 ␆*
+TD64 > *
+TD956686 questioning: ["crone", "#4"]
+TD190 #4 _RONE -ABDEILMNPRSTU  📋 "crone" ? ␅
+TD3259005 ␆/it
+TD79 #4 _RONE -ABDEILMNPRSTU  📋 "crone" ? /it
+TD176 attempt 3 CRONE Y Y Y Y Y
+TD64 #5 _ENDS ~T -ABDEILMOPRU  📋 "crone" ? ␅
+TD1239751 ␆.
+TD78 #5 _ENDS ~T -ABDEILMOPRU  📋 "crone" ? .
+TD173 attempt 4 CRONE n n n n n
+TD173 ? ␅
+TD167508 ␆
+TD78 ? 
+TD83 question done
+TD187 > ␅
+TD343673 ␆*
+TD74 > *
+TD841907 questioning: ["tends", "#5"]
+TD195 #5 _ENDS ~T -ABCDEILMNOPRU  📋 "tends" ? ␅
+TD1813969 ␆/it
+TD99 #5 _ENDS ~T -ABCDEILMNOPRU  📋 "tends" ? /it
+TD258 attempt 4 TENDS Y Y Y Y Y
+TD313 ? ␅
+TD599241 ␆
+TD98 ? 
+TD112 question done
+TD16366 📋> ␅
+TD4815780 ␆squareword.org 1576: 10 guesses
+TD95 📋> squareword.org 1576: 10 guesses
+TD17 📋> ␅
+TD45 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD18 ␆🟩🟨🟩🟩🟩
+TD5 📋> 🟩🟨🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD11 ␆🟩🟨🟨🟩🟨
+TD4 📋> 🟩🟨🟨🟩🟨
+TD4 📋> ␅
+TD21 ␆🟨🟩🟩🟩🟩
+TD21 📋> 🟨🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟨🟩🟩🟩🟩
+TD4 📋> 🟨🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD575288 ␆#squareword #squareword1576
+TD89 📋> #squareword #squareword1576
+TD13 📋> ␅
+TD223968 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1576: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1576"}
+TD795 result: "squareword.org 1576: 10 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1576"
+TD98 📆 2026-05-26 ? ␅
+TD334842 ␆
+TD80 📆 2026-05-26 ? 
