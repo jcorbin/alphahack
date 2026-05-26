@@ -1,0 +1,94 @@
+T391.63496778099943 now: 2026-05-26T07:27:20EDT
+TD76 site: alfagok.diginaut.net
+TD407521 loaded 399574 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1278 words excluded) asof 6d433e0258c261dd1e1495609117d1bc347c0070
+TD127  ...␅
+TD7191667 ␆
+TD104  ...
+TD185 [0 : 199695 : 399574] lijk? ␅
+TD2255708 ␆a
+TD104 [0 : 199695 : 399574] lijk? a
+TD336 progress: 1 199695 lijk
+TD129 [199696 : 299448 : 399574] schro? ␅
+TD1367406 ␆a
+TD107 [199696 : 299448 : 399574] schro? a
+TD122 progress: 1 299448 schro
+TD111 [299449 : 349426 : 399574] vakantie? ␅
+TD2887797 ␆a
+TD93 [299449 : 349426 : 399574] vakantie? a
+TD103 progress: 1 349426 vakantie
+TD118 [349427 : 374166 : 399574] vrij? ␅
+TD1471658 ␆a
+TD100 [349427 : 374166 : 399574] vrij? a
+TD106 progress: 1 374166 vrij
+TD121 [374167 : 386703 : 399574] wind? ␅
+TD1463631 ␆b
+TD104 [374167 : 386703 : 399574] wind? b
+TD111 progress: -1 386703 wind
+TD112 [374167 : 380378 : 386703] weer? ␅
+TD1375620 ␆b
+TD103 [374167 : 380378 : 386703] weer? b
+TD105 progress: -1 380378 weer
+TD115 [374167 : 377229 : 380378] wandel? ␅
+TD1343959 ␆b
+TD96 [374167 : 377229 : 380378] wandel? b
+TD106 progress: -1 377229 wandel
+TD109 [374167 : 375611 : 377229] vuur? ␅
+TD1407536 ␆a
+TD71 [374167 : 375611 : 377229] vuur? a
+TD76 progress: 1 375611 vuur
+TD86 [375612 : 376407 : 377229] waarneming? ␅
+TD1695907 ␆b
+TD73 [375612 : 376407 : 377229] waarneming? b
+TD78 progress: -1 376407 waarneming
+TD80 [375612 : 376005 : 376407] waak? ␅
+TD1463619 ␆a
+TD98 [375612 : 376005 : 376407] waak? a
+TD104 progress: 1 376005 waak
+TD110 [376006 : 376202 : 376407] waardering? ␅
+TD1319710 ␆a
+TD96 [376006 : 376202 : 376407] waardering? a
+TD106 progress: 1 376202 waardering
+TD182 [376203 : 376302 : 376407] waardin? ␅
+TD1303706 ␆a
+TD74 [376203 : 376302 : 376407] waardin? a
+TD79 progress: 1 376302 waardin
+TD144 [376303 : 376355 : 376407] waarlijk? ␅
+TD1311684 ␆a
+TD77 [376303 : 376355 : 376407] waarlijk? a
+TD79 progress: 1 376355 waarlijk
+TD104 [376356 : 376377 : 376407] waarna? ␅
+TD1247786 ␆a
+TD95 [376356 : 376377 : 376407] waarna? a
+TD103 progress: 1 376377 waarna
+TD153 [376378 : 376383 : 376407] waarneem? ␅
+TD1255745 ␆a
+TD77 [376378 : 376383 : 376407] waarneem? a
+TD80 progress: 1 376383 waarneem
+TD142 [376384 : 376394 : 376407] waarnemen? ␅
+TD1567690 ␆it
+TD115 [376384 : 376394 : 376407] waarnemen? it
+TD108 progress: 0 376394 waarnemen
+TD24 [376384 : 376394 : 376407] <Done>.
+TD98 📋> ␅
+TD2952117 ␆🧩 Puzzel #570
+TD78 📋> 🧩 Puzzel #570
+TD8 📋> ␅
+TD29 ␆🤔 17 gokken
+TD3 📋> 🤔 17 gokken
+TD3 📋> ␅
+TD6 ␆⏱️ 26s
+TD3 📋> ⏱️ 26s
+TD2 📋> ␅
+TD255375 ␆🔗 alfagok.diginaut.net
+TD76 📋> 🔗 alfagok.diginaut.net
+TD7 📋> ␅
+TD119819 ␄
+TD139 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #570\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 26s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD376 result: "\ud83e\udde9 Puzzel #570\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 26s\n\ud83d\udd17 alfagok.diginaut.net"
+TD12 result puzzle: 570
+TD4 result guesses: 17
+TD3 result time: 26s
+TD2 result link: alfagok.diginaut.net
+TD65 📆 2026-05-26 ? ␅
+TD119410 ␆
+TD95 📆 2026-05-26 ? 
