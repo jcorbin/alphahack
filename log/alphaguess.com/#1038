@@ -1,0 +1,66 @@
+T86657.17283124999 now: 2026-05-27T07:49:32EDT
+TD121 site: alphaguess.com
+TD180170 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 9cb4cd6bf716e6f46b6b12c898aa8fba0e33e8d1
+TD120  ...␅
+TD162903 ␆
+TD93  ...
+TD172 [0 : 98216 : 196522] mach? ␅
+TD9639777 ␆b
+TD99 [0 : 98216 : 196522] mach? b
+TD106 progress: -1 98216 mach
+TD121 [0 : 47380 : 98216] dis? ␅
+TD1703741 ␆a
+TD75 [0 : 47380 : 98216] dis? a
+TD80 progress: 1 47380 dis
+TD251 [47381 : 72798 : 98216] gremmy? ␅
+TD2455699 ␆a
+TD71 [47381 : 72798 : 98216] gremmy? a
+TD91 progress: 1 72798 gremmy
+TD84 [72799 : 85502 : 98216] ins? ␅
+TD1719562 ␆b
+TD79 [72799 : 85502 : 98216] ins? b
+TD79 progress: -1 85502 ins
+TD78 [72799 : 79130 : 85502] hood? ␅
+TD1455954 ␆b
+TD106 [72799 : 79130 : 85502] hood? b
+TD106 progress: -1 79130 hood
+TD105 [72799 : 75954 : 79130] haw? ␅
+TD1319773 ␆a
+TD101 [72799 : 75954 : 79130] haw? a
+TD104 progress: 1 75954 haw
+TD113 [75955 : 77498 : 79130] hetero? ␅
+TD1303541 ␆a
+TD98 [75955 : 77498 : 79130] hetero? a
+TD112 progress: 1 77498 hetero
+TD117 [77499 : 78279 : 79130] ho? ␅
+TD1279720 ␆a
+TD119 [77499 : 78279 : 79130] ho? a
+TD102 progress: 1 78279 ho
+TD102 [78280 : 78683 : 79130] home? ␅
+TD2495764 ␆it
+TD138 [78280 : 78683 : 79130] home? it
+TD116 progress: 0 78683 home
+TD26 [78280 : 78683 : 79130] <Done>.
+TD89 📋> ␅
+TD2888329 ␆🧩 Puzzle #1038
+TD98 📋> 🧩 Puzzle #1038
+TD11 📋> ␅
+TD39 ␆🤔 9 guesses
+TD6 📋> 🤔 9 guesses
+TD5 📋> ␅
+TD13 ␆⏱️ 12s
+TD5 📋> ⏱️ 12s
+TD4 📋> ␅
+TD327066 ␆🔗 alphaguess.com/1038
+TD76 📋> 🔗 alphaguess.com/1038
+TD8 📋> ␅
+TD159974 ␄
+TD218 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1038\n\ud83e\udd14 9 guesses\n\u23f1\ufe0f 12s\n\ud83d\udd17 alphaguess.com/1038"}
+TD107 result: "\ud83e\udde9 Puzzle #1038\n\ud83e\udd14 9 guesses\n\u23f1\ufe0f 12s\n\ud83d\udd17 alphaguess.com/1038"
+TD17 result puzzle: 1038
+TD7 result guesses: 9
+TD6 result time: 12s
+TD5 result link: alphaguess.com/1038
+TD93 📆 2026-05-27 ? ␅
+TD175496 ␆
+TD88 📆 2026-05-27 ? 
