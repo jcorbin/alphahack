@@ -1,0 +1,62 @@
+T86629.29313188199 now: 2026-05-27T07:49:04EDT
+TD128 site: alfagok.diginaut.net
+TD623365 loaded 399573 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1279 words excluded) asof 9cb4cd6bf716e6f46b6b12c898aa8fba0e33e8d1
+TD149  ...␅
+TD4760293 ␆
+TD213  ...
+TD5995 [0 : 199695 : 399573] lijk? ␅
+TD4768608 ␆b
+TD104 [0 : 199695 : 399573] lijk? b
+TD502 progress: -1 199695 lijk
+TD94 [0 : 99727 : 199695] ex? ␅
+TD2079322 ␆b
+TD99 [0 : 99727 : 199695] ex? b
+TD128 progress: -1 99727 ex
+TD110 [0 : 49840 : 99727] boks? ␅
+TD1631758 ␆a
+TD99 [0 : 49840 : 99727] boks? a
+TD104 progress: 1 49840 boks
+TD117 [49841 : 74744 : 99727] dc? ␅
+TD1311586 ␆a
+TD98 [49841 : 74744 : 99727] dc? a
+TD109 progress: 1 74744 dc
+TD110 [74745 : 87203 : 99727] draag? ␅
+TD1903812 ␆b
+TD99 [74745 : 87203 : 99727] draag? b
+TD105 progress: -1 87203 draag
+TD108 [74745 : 80877 : 87203] dijk? ␅
+TD1511709 ␆a
+TD102 [74745 : 80877 : 87203] dijk? a
+TD104 progress: 1 80877 dijk
+TD107 [80878 : 83983 : 87203] donor? ␅
+TD1343737 ␆a
+TD80 [80878 : 83983 : 87203] donor? a
+TD81 progress: 1 83983 donor
+TD78 [83984 : 84662 : 87203] door? ␅
+TD1631683 ␆it
+TD83 [83984 : 84662 : 87203] door? it
+TD114 progress: 0 84662 door
+TD17 [83984 : 84662 : 87203] <Done>.
+TD83 📋> ␅
+TD3880561 ␆🧩 Puzzel #571
+TD98 📋> 🧩 Puzzel #571
+TD12 📋> ␅
+TD42 ␆🤔 8 gokken
+TD5 📋> 🤔 8 gokken
+TD5 📋> ␅
+TD12 ␆⏱️ 11s
+TD5 📋> ⏱️ 11s
+TD4 📋> ␅
+TD246969 ␆🔗 alfagok.diginaut.net
+TD100 📋> 🔗 alfagok.diginaut.net
+TD13 📋> ␅
+TD295923 ␄
+TD195 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #571\n\ud83e\udd14 8 gokken\n\u23f1\ufe0f 11s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD623 result: "\ud83e\udde9 Puzzel #571\n\ud83e\udd14 8 gokken\n\u23f1\ufe0f 11s\n\ud83d\udd17 alfagok.diginaut.net"
+TD13 result puzzle: 571
+TD5 result guesses: 8
+TD3 result time: 11s
+TD2 result link: alfagok.diginaut.net
+TD66 📆 2026-05-27 ? ␅
+TD543063 ␆
+TD96 📆 2026-05-27 ? 
