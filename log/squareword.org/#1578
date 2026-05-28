@@ -1,0 +1,263 @@
+T224.7881473840098 now: 2026-05-28T07:42:03EDT
+TD63 site: squareword.org
+TD16 wordlist: nwl2023.txt
+TD22  ...␅
+TD207275 ␆
+TD76  ...
+TD53 🧩  ? ␅
+TD20992139 ␆#1578
+TD65 🧩  ? #1578
+TD168 puzzle_id: #1578
+TD143 > ␅
+TD1791669 ␆*
+TD71 > *
+TD188309 try? ␅
+TD307560 ␆1
+TD57 try? 1
+TD191 questioning: ["lares", "#5"]
+TD148 #1 <IndexError>  📋 "lares" ? ␅
+TD3623760 ␆____S ~ AS
+TD98 #1 <IndexError>  📋 "lares" ? ____S ~ AS
+TD726 attempt 0 LARES n m n n Y
+TD115 #2 <IndexError>  📋 "lares" ? ␅
+TD1622997 ␆_A___
+TD70 #2 <IndexError>  📋 "lares" ? _A___
+TD167 attempt 1 LARES n Y n n n
+TD76 #3 <IndexError>  📋 "lares" ? ␅
+TD1719608 ␆_____ ~ E
+TD74 #3 <IndexError>  📋 "lares" ? _____ ~ E
+TD154 attempt 2 LARES n n n m n
+TD76 #4 <IndexError>  📋 "lares" ? ␅
+TD1751772 ␆_____ ~ E
+TD71 #4 <IndexError>  📋 "lares" ? _____ ~ E
+TD155 attempt 3 LARES n n n m n
+TD73 #5 <IndexError>  📋 "lares" ? ␅
+TD2047745 ␆___E_ ~ LES
+TD66 #5 <IndexError>  📋 "lares" ? ___E_ ~ LES
+TD146 attempt 4 LARES m n n Y m
+TD164 ? ␅
+TD951715 ␆*
+TD68 ? *
+TD121 #6 <IndexError>  📋 "lares" ? ␅
+TD687804 ␆
+TD100 #6 <IndexError>  📋 "lares" ? 
+TD270 #6 <IndexError>  ? ␅
+TD1143696 ␄
+TD116 question done
+TD179 > ␅
+TD711586 ␆*
+TD78 > *
+TD567845 try? ␅
+TD2840120 ␆5
+TD77 try? 5
+TD206 questioning: ["islet", "#5"]
+TD160 #1 ____S ~A -ELR  📋 "islet" ? ␅
+TD6231648 ␆____S ~ AS
+TD70 #1 ____S ~A -ELR  📋 "islet" ? ____S ~ AS
+TD149 attempt 0 ISLET n m n n n
+TD85 #2 _A___ -ELRS  📋 "islet" ? ␅
+TD3087707 ␆_A__T ~ I
+TD71 #2 _A___ -ELRS  📋 "islet" ? _A__T ~ I
+TD155 attempt 1 ISLET m n n n Y
+TD95 #3 _____ ~E -ALRS  📋 "islet" ? ␅
+TD935734 ␆.
+TD71 #3 _____ ~E -ALRS  📋 "islet" ? .
+TD168 attempt 2 ISLET n n n m n
+TD54 #4 _____ ~E -ALRS  📋 "islet" ? ␅
+TD775725 ␆.
+TD75 #4 _____ ~E -ALRS  📋 "islet" ? .
+TD173 attempt 3 ISLET n n n m n
+TD58 #5 ___E_ ~LS -AR  📋 "islet" ? ␅
+TD2775733 ␆___E_ ~ LES
+TD72 #5 ___E_ ~LS -AR  📋 "islet" ? ___E_ ~ LES
+TD160 attempt 4 ISLET n m m Y n
+TD181 ? ␅
+TD215601 ␆
+TD76 ? 
+TD84 question done
+TD149 > ␅
+TD431662 ␆*
+TD71 > *
+TD447005 try? ␅
+TD4449011 ␆3
+TD88 try? 3
+TD292 questioning: ["paint", "#2"]
+TD300 #1 ____S ~A -EILRT  📋 "paint" ? ␅
+TD7895360 ␆____S ~ AS
+TD84 #1 ____S ~A -EILRT  📋 "paint" ? ____S ~ AS
+TD184 attempt 0 PAINT n m n n n
+TD102 #2 _A__T ~I -ELRS  📋 "paint" ? ␅
+TD1823778 ␆.
+TD103 #2 _A__T ~I -ELRS  📋 "paint" ? .
+TD272 attempt 1 PAINT n Y m n Y
+TD98 #3 _____ ~E -AILRST  📋 "paint" ? ␅
+TD2607519 ␆___N_ ~ E
+TD102 #3 _____ ~E -AILRST  📋 "paint" ? ___N_ ~ E
+TD263 attempt 2 PAINT n n n Y n
+TD149 #4 _____ ~E -AILRST  📋 "paint" ? ␅
+TD639480 ␆.
+TD70 #4 _____ ~E -AILRST  📋 "paint" ? .
+TD176 attempt 3 PAINT n n n n n
+TD60 #5 ___E_ ~LS -AIRT  📋 "paint" ? ␅
+TD2591660 ␆___E_ ~ LESP
+TD67 #5 ___E_ ~LS -AIRT  📋 "paint" ? ___E_ ~ LESP
+TD283 attempt 4 PAINT m n n n n
+TD176 ? ␅
+TD231593 ␆
+TD94 ? 
+TD126 question done
+TD317 > ␅
+TD463485 ␆*
+TD95 > *
+TD462778 try? ␅
+TD1601088 ␆1
+TD102 try? 1
+TD295 questioning: ["sleep", "#5"]
+TD344 #1 ____S ~A -EILNPRT  📋 "sleep" ? ␅
+TD5087459 ␆S___S ~ A
+TD99 #1 ____S ~A -EILNPRT  📋 "sleep" ? S___S ~ A
+TD247 attempt 0 SLEEP Y n n n n
+TD153 #2 _A__T ~I -ELNPRS  📋 "sleep" ? ␅
+TD2583409 ␆.
+TD98 #2 _A__T ~I -ELNPRS  📋 "sleep" ? .
+TD265 attempt 1 SLEEP n n n n n
+TD104 #3 ___N_ ~E -AILPRST  📋 "sleep" ? ␅
+TD1271523 ␆.
+TD75 #3 ___N_ ~E -AILPRST  📋 "sleep" ? .
+TD160 attempt 2 SLEEP n n m m n
+TD60 #4 _____ ~E -AILNPRST  📋 "sleep" ? ␅
+TD671747 ␆.
+TD74 #4 _____ ~E -AILNPRST  📋 "sleep" ? .
+TD162 attempt 3 SLEEP n n m m n
+TD61 #5 ___E_ ~LPS -AINRT  📋 "sleep" ? ␅
+TD623561 ␆/it
+TD73 #5 ___E_ ~LPS -AINRT  📋 "sleep" ? /it
+TD165 attempt 4 SLEEP Y Y Y Y Y
+TD142 ? ␅
+TD151704 ␆
+TD99 ? 
+TD115 question done
+TD315 > ␅
+TD407458 ␆*
+TD83 > *
+TD434157 questioning: ["ozone", "#3"]
+TD177 #1 S___S ~A -EILNPRT  📋 "ozone" ? ␅
+TD5397714 ␆.
+TD72 #1 S___S ~A -EILNPRT  📋 "ozone" ? .
+TD165 attempt 0 OZONE n n n n n
+TD59 #2 _A__T ~I -ELNPRS  📋 "ozone" ? ␅
+TD1151822 ␆.
+TD83 #2 _A__T ~I -ELNPRS  📋 "ozone" ? .
+TD168 attempt 1 OZONE n n n n n
+TD65 #3 ___N_ ~E -AILPRST  📋 "ozone" ? ␅
+TD639471 ␆/it
+TD69 #3 ___N_ ~E -AILPRST  📋 "ozone" ? /it
+TD155 attempt 2 OZONE Y Y Y Y Y
+TD56 #4 _____ ~E -AILNPRST  📋 "ozone" ? ␅
+TD3207890 ␆____E ~ E
+TD68 #4 _____ ~E -AILNPRST  📋 "ozone" ? ____E ~ E
+TD147 attempt 3 OZONE n n n n Y
+TD168 ? ␅
+TD295556 ␆
+TD70 ? 
+TD84 question done
+TD156 > ␅
+TD439778 ␆*
+TD69 > *
+TD1467604 try? ␅
+TD1724270 ␆1
+TD63 try? 1
+TD169 questioning: ["habit", "#2"]
+TD161 #1 S___S ~A -EILNOPRTZ  📋 "habit" ? ␅
+TD4799665 ␆S___S ~ AH
+TD79 #1 S___S ~A -EILNOPRTZ  📋 "habit" ? S___S ~ AH
+TD182 attempt 0 HABIT m m n n n
+TD106 #2 _A__T ~I -ELNOPRSZ  📋 "habit" ? ␅
+TD615552 ␆/it
+TD99 #2 _A__T ~I -ELNOPRSZ  📋 "habit" ? /it
+TD262 attempt 1 HABIT Y Y Y Y Y
+TD102 #4 ____E -AILNOPRSTZ  📋 "habit" ? ␅
+TD663753 ␆.
+TD78 #4 ____E -AILNOPRSTZ  📋 "habit" ? .
+TD190 attempt 3 HABIT n n n n n
+TD177 ? ␅
+TD167644 ␆
+TD102 ? 
+TD117 question done
+TD328 > ␅
+TD383448 ␆*
+TD74 > *
+TD1295443 questioning: ["wedge", "#4"]
+TD194 #1 S___S ~AH -BEILNOPRTZ  📋 "wedge" ? ␅
+TD3584216 ␆.
+TD95 #1 S___S ~AH -BEILNOPRTZ  📋 "wedge" ? .
+TD253 attempt 0 WEDGE n n n n n
+TD106 #4 ____E -ABHILNOPRSTZ  📋 "wedge" ? ␅
+TD719495 ␆/it
+TD97 #4 ____E -ABHILNOPRSTZ  📋 "wedge" ? /it
+TD182 attempt 3 WEDGE Y Y Y Y Y
+TD161 ? ␅
+TD135514 ␆
+TD93 ? 
+TD110 question done
+TD304 > ␅
+TD367586 ␆*
+TD76 > *
+TD896035 questioning: ["shahs", "#1"]
+TD195 #1 S___S ~AH -BDEGILNOPRTWZ  📋 "shahs" ? ␅
+TD6487946 ␆YYYYY
+TD66 #1 S___S ~AH -BDEGILNOPRTWZ  📋 "shahs" ? YYYYY
+TD152 attempt 0 SHAHS n n n n n
+TD207 ? ␅
+TD871378 ␆
+TD72 ? 
+TD77 question done
+TD138 > ␅
+TD6783804 ␆shahs
+TD78 > shahs
+TD405 questioning: ["shahs", "entered"]
+TD207 #1 S___S -ABDEGHILNOPRSTWZ  📋 "shahs" ? ␅
+TD879501 ␆/it
+TD76 #1 S___S -ABDEGHILNOPRSTWZ  📋 "shahs" ? /it
+TD179 attempt 0 SHAHS Y Y Y Y Y
+TD168 ? ␅
+TD535586 ␆
+TD90 ? 
+TD90 question done
+TD22195 📋> ␅
+TD3409872 ␆squareword.org 1578: 8 guesses
+TD79 📋> squareword.org 1578: 8 guesses
+TD8 📋> ␅
+TD40 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD13 ␆🟩🟨🟨🟨🟩
+TD3 📋> 🟩🟨🟨🟨🟩
+TD2 📋> ␅
+TD9 ␆🟨🟩🟨🟨🟩
+TD2 📋> 🟨🟩🟨🟨🟩
+TD2 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD9 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD8 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD9 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD255355 ␆#squareword #squareword1578
+TD75 📋> #squareword #squareword1578
+TD9 📋> ␅
+TD191891 ␄
+TD188 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1578: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1578"}
+TD866 result: "squareword.org 1578: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1578"
+TD68 📆 2026-05-28 ? ␅
+TD271030 ␆
+TD77 📆 2026-05-28 ? 
