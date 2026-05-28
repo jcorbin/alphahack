@@ -1,0 +1,86 @@
+T37315.861689299985 now: 2026-05-28T07:27:15EDT
+TD133 site: alphaguess.com
+TD125544 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof c604d6cfe0243483d54b244a34a0c7420e799e8b
+TD123  ...␅
+TD49273 ␆
+TD44  ...
+TD111 [0 : 98216 : 196522] mach? ␅
+TD6495813 ␆a
+TD96 [0 : 98216 : 196522] mach? a
+TD110 progress: 1 98216 mach
+TD248 [98217 : 147366 : 196522] rhotic? ␅
+TD1311546 ␆a
+TD98 [98217 : 147366 : 196522] rhotic? a
+TD107 progress: 1 147366 rhotic
+TD107 [147367 : 171636 : 196522] ta? ␅
+TD1207629 ␆a
+TD80 [147367 : 171636 : 196522] ta? a
+TD82 progress: 1 171636 ta
+TD93 [171637 : 182000 : 196522] un? ␅
+TD1167774 ␆a
+TD74 [171637 : 182000 : 196522] un? a
+TD77 progress: 1 182000 un
+TD174 [182001 : 189262 : 196522] vicar? ␅
+TD1143817 ␆a
+TD87 [182001 : 189262 : 196522] vicar? a
+TD96 progress: 1 189262 vicar
+TD123 [189263 : 192866 : 196522] whir? ␅
+TD1359532 ␆b
+TD75 [189263 : 192866 : 196522] whir? b
+TD77 progress: -1 192866 whir
+TD76 [189263 : 191042 : 192866] walk? ␅
+TD9319923 ␆b
+TD75 [189263 : 191042 : 192866] walk? b
+TD78 progress: -1 191042 walk
+TD79 [189263 : 190145 : 191042] vivisect? ␅
+TD4504042 ␆b
+TD97 [189263 : 190145 : 191042] vivisect? b
+TD106 progress: -1 190145 vivisect
+TD112 [189263 : 189672 : 190145] viol? ␅
+TD1543526 ␆a
+TD75 [189263 : 189672 : 190145] viol? a
+TD81 progress: 1 189672 viol
+TD74 [189673 : 189858 : 190145] vis? ␅
+TD1271815 ␆a
+TD101 [189673 : 189858 : 190145] vis? a
+TD107 progress: 1 189858 vis
+TD103 [189859 : 189985 : 190145] vital? ␅
+TD1279576 ␆b
+TD78 [189859 : 189985 : 190145] vital? b
+TD79 progress: -1 189985 vital
+TD98 [189859 : 189920 : 189985] vision? ␅
+TD1255854 ␆a
+TD75 [189859 : 189920 : 189985] vision? a
+TD72 progress: 1 189920 vision
+TD92 [189921 : 189949 : 189985] visor? ␅
+TD1311735 ␆b
+TD79 [189921 : 189949 : 189985] visor? b
+TD78 progress: -1 189949 visor
+TD74 [189921 : 189932 : 189949] visit? ␅
+TD2719846 ␆it
+TD79 [189921 : 189932 : 189949] visit? it
+TD85 progress: 0 189932 visit
+TD18 [189921 : 189932 : 189949] <Done>.
+TD59 📋> ␅
+TD2440055 ␆🧩 Puzzle #1039
+TD75 📋> 🧩 Puzzle #1039
+TD7 📋> ␅
+TD30 ␆🤔 14 guesses
+TD4 📋> 🤔 14 guesses
+TD3 📋> ␅
+TD6 ␆⏱️ 28s
+TD3 📋> ⏱️ 28s
+TD2 📋> ␅
+TD279728 ␆🔗 alphaguess.com/1039
+TD81 📋> 🔗 alphaguess.com/1039
+TD8 📋> ␅
+TD159758 ␄
+TD141 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1039\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/1039"}
+TD74 result: "\ud83e\udde9 Puzzle #1039\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/1039"
+TD10 result puzzle: 1039
+TD4 result guesses: 14
+TD3 result time: 28s
+TD2 result link: alphaguess.com/1039
+TD66 📆 2026-05-28 ? ␅
+TD135724 ␆
+TD93 📆 2026-05-28 ? 
