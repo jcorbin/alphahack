@@ -1,0 +1,281 @@
+T37611.67256113401 now: 2026-05-28T07:32:11EDT
+TD68 site: m-w.com/games/quordle/#/
+TD11 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD65  ...␅
+TD151211 ␆
+TD68  ...
+TD339300 > ␅
+TD4548697 ␆*
+TD70 > *
+TD34809 ? ␅
+TD501142 ␆1
+TD67 ? 1
+TD128 questioning: lares
+TD96 Classic #1 _____? ␅
+TD2367733 ␆nMMMn
+TD64 Classic #1 _____? nMMMn
+TD213 attempt: 0 LARES n m m m n
+TD60 Classic #2 _____? ␅
+TD2063686 ␆MYnMn
+TD66 Classic #2 _____? MYnMn
+TD137 attempt: 1 LARES m Y n m n
+TD58 Classic #3 _____? ␅
+TD1167717 ␆nMMMn
+TD65 Classic #3 _____? nMMMn
+TD131 attempt: 2 LARES n m m m n
+TD56 Classic #4 _____? ␅
+TD1311902 ␆nnMYn
+TD61 Classic #4 _____? nnMYn
+TD132 attempt: 3 LARES n n m Y n
+TD421045 > ␅
+TD602640 ␆*
+TD63 > *
+TD1536 ? ␅
+TD782401 ␆1
+TD69 ? 1
+TD119 questioning: wried
+TD87 Classic #1 _____ ~AER -LS? ␅
+TD3719778 ␆nYnMn
+TD68 Classic #1 _____ ~AER -LS? nYnMn
+TD136 attempt: 0 WRIED n Y n m n
+TD60 Classic #2 _A___ ~EL -RS? ␅
+TD959758 ␆nnnMn
+TD63 Classic #2 _A___ ~EL -RS? nnnMn
+TD126 attempt: 1 WRIED n n n m n
+TD59 Classic #3 _____ ~AER -LS? ␅
+TD2279771 ␆nMnMn
+TD66 Classic #3 _____ ~AER -LS? nMnMn
+TD139 attempt: 2 WRIED n m n m n
+TD65 Classic #4 ___E_ ~R -ALS? ␅
+TD1639775 ␆nMMYn
+TD74 Classic #4 ___E_ ~R -ALS? nMMYn
+TD144 attempt: 3 WRIED n m m Y n
+TD364945 > ␅
+TD42794 ␆*
+TD60 > *
+TD502 ? ␅
+TD1007477 ␆1
+TD73 ? 1
+TD125 questioning: inter
+TD92 Classic #1 _R___ ~AE -DILSW? ␅
+TD2687724 ␆nnnMM
+TD71 Classic #1 _R___ ~AE -DILSW? nnnMM
+TD141 attempt: 0 INTER n n n m m
+TD68 Classic #2 _A___ ~EL -DIRSW? ␅
+TD1831824 ␆nnnMn
+TD82 Classic #2 _A___ ~EL -DIRSW? nnnMn
+TD175 attempt: 1 INTER n n n m n
+TD81 Classic #3 _____ ~AER -DILSW? ␅
+TD2143571 ␆nMnMM
+TD85 Classic #3 _____ ~AER -DILSW? nMnMM
+TD152 attempt: 2 INTER n m n m m
+TD73 Classic #4 ___E_ ~IR -ADLSW? ␅
+TD1559783 ␆YYnYY
+TD76 Classic #4 ___E_ ~IR -ADLSW? YYnYY
+TD148 attempt: 3 INTER Y Y n Y Y
+TD343497 > ␅
+TD4120425 ␆*
+TD99 > *
+TD564 ? ␅
+TD7383290 ␄
+TD144 <EOF>
+TD320573 > ␅
+TD1415296 ␆* 1
+TD68 > * 1
+TD96825 ? ␅
+TD3439204 ␆5
+TD98 ? 5
+TD173 questioning: cream
+TD147 Classic #1 _R___ ~AE -DILNSTW? ␅
+TD3631528 ␆nYMMn
+TD72 Classic #1 _R___ ~AE -DILNSTW? nYMMn
+TD149 attempt: 0 CREAM n Y m m n
+TD74 Classic #2 _A___ ~EL -DINRSTW? ␅
+TD1191845 ␆nnMMn
+TD94 Classic #2 _A___ ~EL -DINRSTW? nnMMn
+TD217 attempt: 1 CREAM n n m m n
+TD118 Classic #3 _____ ~AENR -DILSTW? ␅
+TD1879519 ␆nMMMn
+TD99 Classic #3 _____ ~AENR -DILSTW? nMMMn
+TD215 attempt: 2 CREAM n m m m n
+TD114 Classic #4 IN_ER -ADLSTW? ␅
+TD1247523 ␆nMMnn
+TD73 Classic #4 IN_ER -ADLSTW? nMMnn
+TD148 attempt: 3 CREAM n m m n n
+TD287045 > ␅
+TD1864770 ␆*
+TD68 > *
+TD304 ? ␅
+TD9239775 ␄
+TD93 <EOF>
+TD300167 > ␅
+TD1459786 ␆* 1
+TD65 > * 1
+TD85808 ? ␅
+TD3626177 ␆3
+TD72 ? 3
+TD119 questioning: graze
+TD101 Classic #1 _R___ ~AE -CDILMNSTW? ␅
+TD7752524 ␆YYYnY
+TD82 Classic #1 _R___ ~AE -CDILMNSTW? YYYnY
+TD149 attempt: 0 GRAZE Y Y Y n Y
+TD73 Classic #2 _A___ ~EL -CDIMNRSTW? ␅
+TD2319170 ␆nnMnY
+TD80 Classic #2 _A___ ~EL -CDIMNRSTW? nnMnY
+TD156 attempt: 1 GRAZE n n m n Y
+TD75 Classic #3 _____ ~AENR -CDILMSTW? ␅
+TD1671666 ␆nMYnM
+TD100 Classic #3 _____ ~AENR -CDILMSTW? nMYnM
+TD221 attempt: 2 GRAZE n m Y n m
+TD113 Classic #4 IN_ER -ACDLMSTW? ␅
+TD1503476 ␆nMnnM
+TD93 Classic #4 IN_ER -ACDLMSTW? nMnnM
+TD156 attempt: 3 GRAZE n m n n m
+TD317984 > ␅
+TD737892 ␆*
+TD68 > *
+TD260 questioning: yearn
+TD68 Classic #1 GRA_E -CDILMNSTWZ? ␅
+TD5543629 ␆nMYMn
+TD67 Classic #1 GRA_E -CDILMNSTWZ? nMYMn
+TD127 attempt: 0 YEARN n m Y m n
+TD67 Classic #2 _A__E ~L -CDGIMNRSTWZ? ␅
+TD1207872 ␆nMMnn
+TD72 Classic #2 _A__E ~L -CDGIMNRSTWZ? nMMnn
+TD135 attempt: 1 YEARN n m m n n
+TD79 Classic #3 __A__ ~ENR -CDGILMSTWZ? ␅
+TD1071586 ␆YYYYY
+TD69 Classic #3 __A__ ~ENR -CDGILMSTWZ? YYYYY
+TD127 attempt: 2 YEARN Y Y Y Y Y
+TD64 Classic #4 IN_ER -ACDGLMSTWZ? ␅
+TD1111846 ␆nMnMM
+TD66 Classic #4 IN_ER -ACDGLMSTWZ? nMnMM
+TD127 attempt: 3 YEARN n m n m m
+TD202503 > ␅
+TD997207 ␆*
+TD92 > *
+TD500 ? ␅
+TD1695430 ␄
+TD90 <EOF>
+TD245586 > ␅
+TD835284 ␆* 2
+TD99 > * 2
+TD65784 ? ␅
+TD4901174 ␆2
+TD89 ? 2
+TD128 questioning: halve
+TD111 Classic #1 GRA_E -CDILMNSTWYZ? ␅
+TD5207925 ␆nMnnY
+TD71 Classic #1 GRA_E -CDILMNSTWYZ? nMnnY
+TD154 attempt: 0 HALVE n m n n Y
+TD86 Classic #2 _A__E ~L -CDGIMNRSTWYZ? ␅
+TD2447592 ␆nYYMY
+TD72 Classic #2 _A__E ~L -CDGIMNRSTWYZ? nYYMY
+TD143 attempt: 1 HALVE n Y Y m Y
+TD75 Classic #4 IN_ER -ACDGLMSTWYZ? ␅
+TD1343734 ␆nnnnM
+TD69 Classic #4 IN_ER -ACDGLMSTWYZ? nnnnM
+TD154 attempt: 3 HALVE n n n n m
+TD216178 > ␅
+TD695656 ␆*
+TD71 > *
+TD299 questioning: grape
+TD126 Classic #1 GRA_E -CDHILMNSTVWYZ? ␅
+TD4703625 ␆YYYYY
+TD96 Classic #1 GRA_E -CDHILMNSTVWYZ? YYYYY
+TD206 attempt: 0 GRAPE Y Y Y Y Y
+TD120 Classic #2 _AL_E ~V -CDGHIMNRSTWYZ? ␅
+TD3591679 ␆nnMnY
+TD79 Classic #2 _AL_E ~V -CDGHIMNRSTWYZ? nnMnY
+TD146 attempt: 1 GRAPE n n m n Y
+TD76 Classic #4 IN_ER -ACDGHLMSTVWYZ? ␅
+TD1743645 ␆nMnnM
+TD93 Classic #4 IN_ER -ACDGHLMSTVWYZ? nMnnM
+TD218 attempt: 3 GRAPE n m n n m
+TD138682 > ␅
+TD588989 ␆*
+TD95 > *
+TD416 questioning: value
+TD123 Classic #2 _AL_E ~V -CDGHIMNPRSTWYZ? ␅
+TD3535424 ␆YYYYY
+TD76 Classic #2 _AL_E ~V -CDGHIMNPRSTWYZ? YYYYY
+TD135 attempt: 1 VALUE Y Y Y Y Y
+TD65 Classic #4 IN_ER -ACDGHLMPSTVWYZ? ␅
+TD3631750 ␆nnnnM
+TD77 Classic #4 IN_ER -ACDGHLMPSTVWYZ? nnnnM
+TD144 attempt: 3 VALUE n n n n m
+TD75107 > ␅
+TD2884712 ␆/res
+TD97 > /res
+TD231 📋> ␅
+TD2488104 ␆🙂 Daily Quordle 1585
+TD93 📋> 🙂 Daily Quordle 1585
+TD13 📋> ␅
+TD56 ␆8️⃣9️⃣
+TD7 📋> 8️⃣9️⃣
+TD7 📋> ␅
+TD14 ␆6️⃣🟥
+TD5 📋> 6️⃣🟥
+TD5 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD255358 ␆
+TD97 📋> 
+TD14 📋> ␅
+TD135934 ␄
+TD228 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1585\n8\ufe0f\u20e39\ufe0f\u20e3\n6\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TD1220 result: "\ud83d\ude42 Daily Quordle 1585\n8\ufe0f\u20e39\ufe0f\u20e3\n6\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TD73512 > ␅
+TD61001 ␆
+TD80 > 
+TD186 > ␅
+TD2215810 ␄
+TD101 <EOF>
+TD73 > ␅
+TD3279939 ␄
+TD100 <EOF>
+TD63 > ␅
+TD1527752 ␄
+TD94 <EOF>
+TD66 > ␅
+TD1304615 ␆🙂 Daily Quordle 1585
+TD97 > 🙂 Daily Quordle 1585
+TD462 > ␅
+TD39 ␆8️⃣9️⃣
+TD7 > 8️⃣9️⃣
+TD170 > ␅
+TD15 ␆6️⃣🟥
+TD5 > 6️⃣🟥
+TD104 > ␅
+TD4 ␆m-w.com/games/quordle/
+TD2 > m-w.com/games/quordle/
+TD48 > ␅
+TD1358263 ␆/res
+TD70 > /res
+TD124 📋> ␅
+TD704132 ␆🙂 Daily Quordle 1585
+TD74 📋> 🙂 Daily Quordle 1585
+TD6 📋> ␅
+TD31 ␆8️⃣9️⃣
+TD3 📋> 8️⃣9️⃣
+TD2 📋> ␅
+TD4 ␆6️⃣🟥
+TD2 📋> 6️⃣🟥
+TD2 📋> ␅
+TD3 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD1 📋> ␅
+TD375644 ␆
+TD70 📋> 
+TD6 📋> ␅
+TD424015 ␄
+TD118 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1585\n8\ufe0f\u20e39\ufe0f\u20e3\n6\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TD118 result: "\ud83d\ude42 Daily Quordle 1585\n8\ufe0f\u20e39\ufe0f\u20e3\n6\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TD75818 > ␅
+TD1051756 ␆/store
+TD67 > /store
+TD144 📆 2026-05-28 ? ␅
+TD712438 ␆
+TD77 📆 2026-05-28 ? 
