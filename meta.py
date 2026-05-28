@@ -405,11 +405,11 @@ def quordle_variant(mode: str, site: str):
 
 solvers.add(
     'quordle',
-    quordle_variant('Classic', 'm-w.com/games/quordle/#/'),
-    quordle_variant('Rescue', 'm-w.com/games/quordle/#/rescue'),
-    quordle_variant('Sequence', 'm-w.com/games/quordle/#/sequence'),
-    quordle_variant('Extreme', 'm-w.com/games/quordle/#/extreme'),
-    quordle_variant('Practice', 'm-w.com/games/quordle/#/practice'),
+    quordle_variant('Classic', 'https://www.merriam-webster.com/games/quordle/#/'),
+    quordle_variant('Rescue', 'https://www.merriam-webster.com/games/quordle/#/rescue'),
+    quordle_variant('Sequence', 'https://www.merriam-webster.com/games/quordle/#/sequence'),
+    quordle_variant('Extreme', 'https://www.merriam-webster.com/games/quordle/#/extreme'),
+    quordle_variant('Practice', 'https://www.merriam-webster.com/games/quordle/#/practice'),
 )
 
 def octordle_variant(mode: str, site: str):
@@ -429,10 +429,10 @@ def octordle_variant(mode: str, site: str):
 
 solvers.add(
     'octordle',
-    octordle_variant('Classic', 'britannica.com/games/octordle/daily'),
-    octordle_variant('Rescue', 'britannica.com/games/octordle/daily-rescue'),
-    octordle_variant('Sequence', 'britannica.com/games/octordle/daily-sequence'),
-    octordle_variant('Extreme', 'britannica.com/games/octordle/extreme'),
+    octordle_variant('Classic', 'https://www.merriam-webster.com/games/octordle/daily'),
+    octordle_variant('Rescue', 'https://www.merriam-webster.com/games/octordle/daily-rescue'),
+    octordle_variant('Sequence', 'https://www.merriam-webster.com/games/octordle/daily-sequence'),
+    octordle_variant('Extreme', 'https://www.merriam-webster.com/games/octordle/extreme'),
 )
 
 from square import Search as Square
