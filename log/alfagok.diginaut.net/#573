@@ -1,0 +1,78 @@
+T80901.11421571401 now: 2026-05-29T09:51:19EDT
+TD162 site: alfagok.diginaut.net
+TD654928 loaded 399573 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1279 words excluded) asof f7c1ea61b29f7be9d13b948f7cc80fdb6ecf2435
+TD156  ...␅
+TD3671255 ␆
+TD111  ...
+TD5262 [0 : 199695 : 399573] lijk? ␅
+TD2770489 ␆a
+TD97 [0 : 199695 : 399573] lijk? a
+TD759 progress: 1 199695 lijk
+TD123 [199696 : 299447 : 399573] schro? ␅
+TD1367349 ␆a
+TD100 [199696 : 299447 : 399573] schro? a
+TD249 progress: 1 299447 schro
+TD114 [299448 : 349425 : 399573] vakantie? ␅
+TD1392098 ␆b
+TD100 [299448 : 349425 : 399573] vakantie? b
+TD104 progress: -1 349425 vakantie
+TD106 [299448 : 324379 : 349425] subsidie? ␅
+TD1807258 ␆b
+TD77 [299448 : 324379 : 349425] subsidie? b
+TD81 progress: -1 324379 subsidie
+TD83 [299448 : 311827 : 324379] spier? ␅
+TD1335905 ␆a
+TD101 [299448 : 311827 : 324379] spier? a
+TD104 progress: 1 311827 spier
+TD104 [311828 : 318020 : 324379] stem? ␅
+TD1463947 ␆b
+TD101 [311828 : 318020 : 324379] stem? b
+TD104 progress: -1 318020 stem
+TD103 [311828 : 314820 : 318020] staats? ␅
+TD1991268 ␆a
+TD102 [311828 : 314820 : 318020] staats? a
+TD102 progress: 1 314820 staats
+TD113 [314821 : 316308 : 318020] standaard? ␅
+TD1447283 ␆a
+TD77 [314821 : 316308 : 318020] standaard? a
+TD86 progress: 1 316308 standaard
+TD88 [316309 : 316950 : 318020] stat? ␅
+TD1504197 ␆b
+TD99 [316309 : 316950 : 318020] stat? b
+TD108 progress: -1 316950 stat
+TD177 [316309 : 316629 : 316950] stans? ␅
+TD1383301 ␆a
+TD109 [316309 : 316629 : 316950] stans? a
+TD125 progress: 1 316629 stans
+TD104 [316630 : 316751 : 316950] start? ␅
+TD1375618 ␆b
+TD122 [316630 : 316751 : 316950] start? b
+TD106 progress: -1 316751 start
+TD111 [316630 : 316634 : 316751] stap? ␅
+TD1615466 ␆it
+TD100 [316630 : 316634 : 316751] stap? it
+TD109 progress: 0 316634 stap
+TD26 [316630 : 316634 : 316751] <Done>.
+TD285 📋> ␅
+TD2696515 ␆🧩 Puzzel #573
+TD99 📋> 🧩 Puzzel #573
+TD11 📋> ␅
+TD86 ␆🤔 12 gokken
+TD6 📋> 🤔 12 gokken
+TD6 📋> ␅
+TD23 ␆⏱️ 17s
+TD6 📋> ⏱️ 17s
+TD5 📋> ␅
+TD286915 ␆🔗 alfagok.diginaut.net
+TD110 📋> 🔗 alfagok.diginaut.net
+TD13 📋> ␅
+TD143769 ␄
+TD153 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #573\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 17s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1024 result: "\ud83e\udde9 Puzzel #573\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 17s\n\ud83d\udd17 alfagok.diginaut.net"
+TD22 result puzzle: 573
+TD9 result guesses: 12
+TD5 result time: 17s
+TD5 result link: alfagok.diginaut.net
+TD93 📆 2026-05-29 ? ␅
+TD454862 ␆
+TD90 📆 2026-05-29 ? 
