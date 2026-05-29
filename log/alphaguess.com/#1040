@@ -1,0 +1,105 @@
+T80930.62654486301 now: 2026-05-29T09:51:48EDT
+TD143 site: alphaguess.com
+TD191989 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof f7c1ea61b29f7be9d13b948f7cc80fdb6ecf2435
+TD111  ...␅
+TD462359 ␆
+TD101  ...
+TD175 [0 : 98216 : 196522] mach? ␅
+TD5144140 ␆b
+TD104 [0 : 98216 : 196522] mach? b
+TD109 progress: -1 98216 mach
+TD195 [0 : 47380 : 98216] dis? ␅
+TD1830729 ␆b
+TD100 [0 : 47380 : 98216] dis? b
+TD105 progress: -1 47380 dis
+TD111 [0 : 23681 : 47380] camp? ␅
+TD6263778 ␆b
+TD84 [0 : 23681 : 47380] camp? b
+TD79 progress: -1 23681 camp
+TD79 [0 : 11763 : 23681] back? ␅
+TD1424029 ␆
+TD97 [0 : 11763 : 23681] back? 
+TD155 [0 : 11763 : 23681] back? ␅
+TD1751996 ␆a
+TD100 [0 : 11763 : 23681] back? a
+TD107 progress: 1 11763 back
+TD106 [11764 : 17714 : 23681] blind? ␅
+TD3447575 ␆b
+TD99 [11764 : 17714 : 23681] blind? b
+TD102 progress: -1 17714 blind
+TD115 [11764 : 13801 : 17714] be? ␅
+TD1511364 ␆a
+TD86 [11764 : 13801 : 17714] be? a
+TD79 progress: 1 13801 be
+TD113 [13802 : 15757 : 17714] bewrap? ␅
+TD1431740 ␆b
+TD100 [13802 : 15757 : 17714] bewrap? b
+TD104 progress: -1 15757 bewrap
+TD142 [13802 : 14778 : 15757] bel? ␅
+TD1335969 ␆a
+TD100 [13802 : 14778 : 15757] bel? a
+TD105 progress: 1 14778 bel
+TD245 [14779 : 15267 : 15757] berascal? ␅
+TD1375325 ␆b
+TD99 [14779 : 15267 : 15757] berascal? b
+TD93 progress: -1 15267 berascal
+TD111 [14779 : 15020 : 15267] bemoan? ␅
+TD1303607 ␆a
+TD95 [14779 : 15020 : 15267] bemoan? a
+TD106 progress: 1 15020 bemoan
+TD112 [15021 : 15047 : 15267] ben? ␅
+TD4599939 ␆a
+TD102 [15021 : 15047 : 15267] ben? a
+TD106 progress: 1 15047 ben
+TD125 [15048 : 15152 : 15267] benign? ␅
+TD1551933 ␆b
+TD78 [15048 : 15152 : 15267] benign? b
+TD105 progress: -1 15152 benign
+TD111 [15048 : 15092 : 15152] bene? ␅
+TD1431354 ␆a
+TD81 [15048 : 15092 : 15152] bene? a
+TD81 progress: 1 15092 bene
+TD89 [15093 : 15109 : 15152] benefic? ␅
+TD1855669 ␆a
+TD98 [15093 : 15109 : 15152] benefic? a
+TD106 progress: 1 15109 benefic
+TD147 [15110 : 15130 : 15152] benefit? ␅
+TD1279713 ␆a
+TD78 [15110 : 15130 : 15152] benefit? a
+TD79 progress: 1 15130 benefit
+TD160 [15131 : 15141 : 15152] benevolence? ␅
+TD1231624 ␆a
+TD98 [15131 : 15141 : 15152] benevolence? a
+TD105 progress: 1 15141 benevolence
+TD197 [15142 : 15148 : 15152] benighted? ␅
+TD1223665 ␆b
+TD101 [15142 : 15148 : 15152] benighted? b
+TD104 progress: -1 15148 benighted
+TD178 [15142 : 15143 : 15148] benevolent? ␅
+TD2639739 ␆it
+TD80 [15142 : 15143 : 15148] benevolent? it
+TD77 progress: 0 15143 benevolent
+TD18 [15142 : 15143 : 15148] <Done>.
+TD57 📋> ␅
+TD2736428 ␆🧩 Puzzle #1040
+TD80 📋> 🧩 Puzzle #1040
+TD8 📋> ␅
+TD286 ␆🤔 18 guesses
+TD4 📋> 🤔 18 guesses
+TD3 📋> ␅
+TD21 ␆⏱️ 36s
+TD5 📋> ⏱️ 36s
+TD2 📋> ␅
+TD262895 ␆🔗 alphaguess.com/1040
+TD79 📋> 🔗 alphaguess.com/1040
+TD8 📋> ␅
+TD384143 ␄
+TD165 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1040\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 36s\n\ud83d\udd17 alphaguess.com/1040"}
+TD98 result: "\ud83e\udde9 Puzzle #1040\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 36s\n\ud83d\udd17 alphaguess.com/1040"
+TD15 result puzzle: 1040
+TD6 result guesses: 18
+TD5 result time: 36s
+TD4 result link: alphaguess.com/1040
+TD95 📆 2026-05-29 ? ␅
+TD255766 ␆
+TD101 📆 2026-05-29 ? 
