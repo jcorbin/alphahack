@@ -1,0 +1,350 @@
+T38.656565094017424 now: 2026-05-29T10:03:07EDT
+TD88 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD28  ...␅
+TD2759038 ␆
+TD85  ...
+TD71 🧩  ? ␅
+TD2503845 ␆#1579
+TD76 🧩  ? #1579
+TD197 puzzle_id: #1579
+TD182 > ␅
+TD1087576 ␆*
+TD96 > *
+TD233233 try? ␅
+TD1950741 ␆3
+TD83 try? 3
+TD262 questioning: ["steal", "#5"]
+TD206 #1 <IndexError>  📋 "steal" ? ␅
+TD3823524 ␆_____ ~ STE
+TD84 #1 <IndexError>  📋 "steal" ? _____ ~ STE
+TD475 attempt 0 STEAL m m m n n
+TD96 #2 <IndexError>  📋 "steal" ? ␅
+TD2031787 ␆_____ ~ EL
+TD102 #2 <IndexError>  📋 "steal" ? _____ ~ EL
+TD280 attempt 1 STEAL n n m n m
+TD128 #3 <IndexError>  📋 "steal" ? ␅
+TD1574991 ␆_____ ~ A
+TD97 #3 <IndexError>  📋 "steal" ? _____ ~ A
+TD254 attempt 2 STEAL n n n m n
+TD136 #4 <IndexError>  📋 "steal" ? ␅
+TD2176006 ␆_____ ~ E
+TD98 #4 <IndexError>  📋 "steal" ? _____ ~ E
+TD265 attempt 3 STEAL n n m n n
+TD124 #5 <IndexError>  📋 "steal" ? ␅
+TD5031588 ␆S_E__ ~ E
+TD101 #5 <IndexError>  📋 "steal" ? S_E__ ~ E
+TD267 attempt 4 STEAL Y n Y n n
+TD364 ? ␅
+TD422891 ␆
+TD102 ? 
+TD153 question done
+TD312 > ␅
+TD743500 ␆*
+TD102 > *
+TD684665 try? ␅
+TD3995535 ␆3
+TD99 try? 3
+TD323 questioning: ["spend", "#5"]
+TD330 #1 _____ ~EST -AL  📋 "spend" ? ␅
+TD3286804 ␆.
+TD67 #1 _____ ~EST -AL  📋 "spend" ? .
+TD187 attempt 0 SPEND m n m n n
+TD69 #2 _____ ~EL -AST  📋 "spend" ? ␅
+TD928254 ␆.
+TD97 #2 _____ ~EL -AST  📋 "spend" ? .
+TD262 attempt 1 SPEND n n m n n
+TD91 #3 _____ ~A -ELST  📋 "spend" ? ␅
+TD975118 ␆.
+TD98 #3 _____ ~A -ELST  📋 "spend" ? .
+TD266 attempt 2 SPEND n n n n n
+TD106 #4 _____ ~E -ALST  📋 "spend" ? ␅
+TD3159415 ␆_____ ~ EP
+TD91 #4 _____ ~E -ALST  📋 "spend" ? _____ ~ EP
+TD252 attempt 3 SPEND n m m n n
+TD147 #5 S_E__ -ALT  📋 "spend" ? ␅
+TD3623774 ␆S_E__ ~ ED
+TD99 #5 S_E__ -ALT  📋 "spend" ? S_E__ ~ ED
+TD248 attempt 4 SPEND Y n Y n m
+TD321 ? ␅
+TD367213 ␆
+TD99 ? 
+TD132 question done
+TD313 > ␅
+TD615592 ␆*
+TD118 > *
+TD514509 try? ␅
+TD12149229 ␆2
+TD96 try? 2
+TD296 questioning: ["sheds", "#5"]
+TD332 #1 _____ ~EST -ADLNP  📋 "sheds" ? ␅
+TD6239376 ␆____S ~ STE
+TD77 #1 _____ ~EST -ADLNP  📋 "sheds" ? ____S ~ STE
+TD182 attempt 0 SHEDS m n m n Y
+TD113 #2 _____ ~EL -ADNPST  📋 "sheds" ? ␅
+TD1591681 ␆.
+TD98 #2 _____ ~EL -ADNPST  📋 "sheds" ? .
+TD270 attempt 1 SHEDS n n m n n
+TD99 #3 _____ ~A -DELNPST  📋 "sheds" ? ␅
+TD807528 ␆.
+TD99 #3 _____ ~A -DELNPST  📋 "sheds" ? .
+TD238 attempt 2 SHEDS n n n n n
+TD86 #4 _____ ~EP -ADLNST  📋 "sheds" ? ␅
+TD791651 ␆.
+TD98 #4 _____ ~EP -ADLNST  📋 "sheds" ? .
+TD266 attempt 3 SHEDS n n m n n
+TD101 #5 S_E__ ~D -ALNPT  📋 "sheds" ? ␅
+TD2383592 ␆S_ED_ ~ E
+TD106 #5 S_E__ ~D -ALNPT  📋 "sheds" ? S_ED_ ~ E
+TD243 attempt 4 SHEDS Y n Y Y n
+TD333 ? ␅
+TD207471 ␆
+TD97 ? 
+TD116 question done
+TD202 > ␅
+TD463517 ␆*
+TD96 > *
+TD682838 try? ␅
+TD11757212 ␆2
+TD114 try? 2
+TD293 questioning: ["suede", "#5"]
+TD272 #1 ____S ~EST -ADHLNP  📋 "suede" ? ␅
+TD5151346 ␆.
+TD100 #1 ____S ~EST -ADHLNP  📋 "suede" ? .
+TD258 attempt 0 SUEDE m n m n m
+TD100 #2 _____ ~EL -ADHNPST  📋 "suede" ? ␅
+TD775916 ␆.
+TD101 #2 _____ ~EL -ADHNPST  📋 "suede" ? .
+TD262 attempt 1 SUEDE n n m n m
+TD116 #3 _____ ~A -DEHLNPST  📋 "suede" ? ␅
+TD751004 ␆.
+TD103 #3 _____ ~A -DEHLNPST  📋 "suede" ? .
+TD256 attempt 2 SUEDE n n n n n
+TD100 #4 _____ ~EP -ADHLNST  📋 "suede" ? ␅
+TD783612 ␆.
+TD98 #4 _____ ~EP -ADHLNST  📋 "suede" ? .
+TD249 attempt 3 SUEDE n n m n m
+TD100 #5 S_ED_ -AHLNPT  📋 "suede" ? ␅
+TD3455657 ␆S_ED_ ~ E
+TD102 #5 S_ED_ -AHLNPT  📋 "suede" ? S_ED_ ~ E
+TD250 attempt 4 SUEDE Y n Y Y m
+TD336 ? ␅
+TD527546 ␆
+TD80 ? 
+TD90 question done
+TD184 > ␅
+TD439790 ␆*
+TD97 > *
+TD486317 questioning: ["seedy", "#5"]
+TD192 #1 ____S ~EST -ADHLNPU  📋 "seedy" ? ␅
+TD7433061 ␆_E__S ~ ST
+TD97 #1 ____S ~EST -ADHLNPU  📋 "seedy" ? _E__S ~ ST
+TD252 attempt 0 SEEDY m Y n n n
+TD138 #2 _____ ~EL -ADHNPSTU  📋 "seedy" ? ␅
+TD2104517 ␆_E___ ~ L
+TD101 #2 _____ ~EL -ADHNPSTU  📋 "seedy" ? _E___ ~ L
+TD248 attempt 1 SEEDY n Y n n n
+TD168 #3 _____ ~A -DEHLNPSTU  📋 "seedy" ? ␅
+TD1102948 ␆.
+TD103 #3 _____ ~A -DEHLNPSTU  📋 "seedy" ? .
+TD274 attempt 2 SEEDY n n n n n
+TD98 #4 _____ ~EP -ADHLNSTU  📋 "seedy" ? ␅
+TD912002 ␆.
+TD103 #4 _____ ~EP -ADHLNSTU  📋 "seedy" ? .
+TD252 attempt 3 SEEDY n m m n n
+TD100 #5 S_ED_ -AHLNPTU  📋 "seedy" ? ␅
+TD814657 ␆/it
+TD83 #5 S_ED_ -AHLNPTU  📋 "seedy" ? /it
+TD182 attempt 4 SEEDY Y Y Y Y Y
+TD192 ? ␅
+TD167872 ␆
+TD101 ? 
+TD112 question done
+TD293 > ␅
+TD423499 ␆*
+TD88 > *
+TD1635573 try? ␅
+TD1452187 ␆1
+TD102 try? 1
+TD290 questioning: ["bicep", "#4"]
+TD304 #1 _E__S ~ST -ADHLNPUY  📋 "bicep" ? ␅
+TD6551229 ␆.
+TD97 #1 _E__S ~ST -ADHLNPUY  📋 "bicep" ? .
+TD237 attempt 0 BICEP n n n n n
+TD69 #2 _E___ ~L -ADHNPSTUY  📋 "bicep" ? ␅
+TD3079553 ␆_E___ ~ LIC
+TD99 #2 _E___ ~L -ADHNPSTUY  📋 "bicep" ? _E___ ~ LIC
+TD253 attempt 1 BICEP n m m n n
+TD156 #3 _____ ~A -DEHLNPSTUY  📋 "bicep" ? ␅
+TD952137 ␆.
+TD104 #3 _____ ~A -DEHLNPSTUY  📋 "bicep" ? .
+TD271 attempt 2 BICEP n n n n n
+TD100 #4 _____ ~EP -ADHLNSTUY  📋 "bicep" ? ␅
+TD2639002 ␆_I_E_ ~ P
+TD91 #4 _____ ~EP -ADHLNSTUY  📋 "bicep" ? _I_E_ ~ P
+TD244 attempt 3 BICEP n Y n Y m
+TD344 ? ␅
+TD735238 ␆
+TD81 ? 
+TD91 question done
+TD181 > ␅
+TD4055672 ␆*
+TD96 > *
+TD2266627 try? ␅
+TD2157138 ␆1
+TD95 try? 1
+TD275 questioning: ["armor", "#3"]
+TD354 #1 _E__S ~ST -ABCDEHILNPUY  📋 "armor" ? ␅
+TD5255907 ␆_E__S ~ ET
+TD114 #1 _E__S ~ST -ABCDEHILNPUY  📋 "armor" ? _E__S ~ ET
+TD253 attempt 0 ARMOR n n n n n
+TD162 #2 _E___ ~CIL -ABDEHNPSTUY  📋 "armor" ? ␅
+TD3095090 ␆_E___ ~ LICR
+TD97 #2 _E___ ~CIL -ABDEHNPSTUY  📋 "armor" ? _E___ ~ LICR
+TD242 attempt 1 ARMOR n m n n m
+TD163 #3 _____ ~A -BCDEHILNPSTUY  📋 "armor" ? ␅
+TD2375628 ␆AR___ ~ AMO
+TD98 #3 _____ ~A -BCDEHILNPSTUY  📋 "armor" ? AR___ ~ AMO
+TD257 attempt 2 ARMOR Y Y m m n
+TD153 #4 _I_E_ ~P -ABCDHLNSTUY  📋 "armor" ? ␅
+TD3735521 ␆_I_ER ~ P
+TD96 #4 _I_E_ ~P -ABCDHLNSTUY  📋 "armor" ? _I_ER ~ P
+TD255 attempt 3 ARMOR n n n n Y
+TD247 ? ␅
+TD255366 ␆
+TD93 ? 
+TD127 question done
+TD294 > ␅
+TD519870 ␆*
+TD103 > *
+TD2130575 questioning: ["relic", "#2"]
+TD190 #1 _E__S ~ST -ABCDEHILMNOPRUY  📋 "relic" ? ␅
+TD4276750 ␆.
+TD99 #1 _E__S ~ST -ABCDEHILMNOPRUY  📋 "relic" ? .
+TD266 attempt 0 RELIC n Y n n n
+TD102 #2 _E___ ~CILR -ABDEHMNOPSTUY  📋 "relic" ? ␅
+TD599645 ␆/it
+TD100 #2 _E___ ~CILR -ABDEHMNOPSTUY  📋 "relic" ? /it
+TD266 attempt 1 RELIC Y Y Y Y Y
+TD103 #3 AR___ ~MO -BCDEHILNPSTUY  📋 "relic" ? ␅
+TD3895610 ␆AR___ ~ AMO
+TD98 #3 AR___ ~MO -BCDEHILNPSTUY  📋 "relic" ? AR___ ~ AMO
+TD252 attempt 2 RELIC n n n n n
+TD155 #4 _I_ER ~P -ABCDHLMNOSTUY  📋 "relic" ? ␅
+TD1679444 ␆.
+TD75 #4 _I_ER ~P -ABCDHLMNOSTUY  📋 "relic" ? .
+TD437 attempt 3 RELIC n n n n n
+TD176 ? ␅
+TD1215705 ␆
+TD101 ? 
+TD94 question done
+TD205 > ␅
+TD1303576 ␆*
+TD78 > *
+TD1766428 questioning: ["aroma", "#3"]
+TD220 #1 _E__S ~ST -ABCDHILMNOPRUY  📋 "aroma" ? ␅
+TD4809077 ␆.
+TD87 #1 _E__S ~ST -ABCDHILMNOPRUY  📋 "aroma" ? .
+TD291 attempt 0 AROMA n n n n n
+TD144 #3 AR___ ~MO -BCDEHILNPRSTUY  📋 "aroma" ? ␅
+TD975716 ␆/it
+TD114 #3 AR___ ~MO -BCDEHILNPRSTUY  📋 "aroma" ? /it
+TD325 attempt 2 AROMA Y Y Y Y Y
+TD145 #4 _I_ER ~P -ABCDEHILMNORSTUY  📋 "aroma" ? ␅
+TD2359079 ␆.
+TD95 #4 _I_ER ~P -ABCDEHILMNORSTUY  📋 "aroma" ? .
+TD238 attempt 3 AROMA n n n n n
+TD223 ? ␅
+TD159387 ␆
+TD91 ? 
+TD97 question done
+TD187 > ␅
+TD408132 ␆*
+TD93 > *
+TD1297602 try? ␅
+TD3942028 ␆2
+TD101 try? 2
+TD289 questioning: ["wiper", "#4"]
+TD305 #1 _E__S ~ST -ABCDHILMNOPRUY  📋 "wiper" ? ␅
+TD7888021 ␆.
+TD99 #1 _E__S ~ST -ABCDHILMNOPRUY  📋 "wiper" ? .
+TD272 attempt 0 WIPER n n n n n
+TD101 #4 _I_ER ~P -ABCDEHILMNORSTUY  📋 "wiper" ? ␅
+TD2182799 ␆_IPER ~ P
+TD96 #4 _I_ER ~P -ABCDEHILMNORSTUY  📋 "wiper" ? _IPER ~ P
+TD253 attempt 3 WIPER n Y Y Y Y
+TD363 ? ␅
+TD231366 ␆
+TD93 ? 
+TD89 question done
+TD191 > ␅
+TD447641 ␆*
+TD94 > *
+TD1294083 questioning: ["piper", "#4"]
+TD195 #1 _E__S ~ST -ABCDEHILMNOPRUWY  📋 "piper" ? ␅
+TD3969561 ␆.
+TD88 #1 _E__S ~ST -ABCDEHILMNOPRUWY  📋 "piper" ? .
+TD189 attempt 0 PIPER n n n n n
+TD75 #4 _IPER -ABCDHLMNOSTUWY  📋 "piper" ? ␅
+TD807648 ␆/it
+TD77 #4 _IPER -ABCDHLMNOSTUWY  📋 "piper" ? /it
+TD180 attempt 3 PIPER Y Y Y Y Y
+TD178 ? ␅
+TD192095 ␆
+TD103 ? 
+TD116 question done
+TD321 > ␅
+TD415100 ␆*
+TD96 > *
+TD901844 try? ␅
+TD4474116 ␆2
+TD95 try? 2
+TD268 questioning: ["tests", "#1"]
+TD330 #1 _E__S ~ST -ABCDEHILMNOPRUWY  📋 "tests" ? ␅
+TD2247018 ␆/it
+TD85 #1 _E__S ~ST -ABCDEHILMNOPRUWY  📋 "tests" ? /it
+TD249 attempt 0 TESTS Y Y Y Y Y
+TD301 ? ␅
+TD1655660 ␆
+TD84 ? 
+TD84 question done
+TD22891 📋> ␅
+TD3689541 ␆squareword.org 1579: 12 guesses
+TD114 📋> squareword.org 1579: 12 guesses
+TD14 📋> ␅
+TD45 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD17 ␆🟧🟩🟧🟧🟩
+TD6 📋> 🟧🟩🟧🟧🟩
+TD5 📋> ␅
+TD10 ␆🟨🟩🟨🟨🟨
+TD5 📋> 🟨🟩🟨🟨🟨
+TD5 📋> ␅
+TD13 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD11 ␆🟧🟨🟨🟨🟨
+TD5 📋> 🟧🟨🟨🟨🟨
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD503056 ␆#squareword #squareword1579
+TD105 📋> #squareword #squareword1579
+TD15 📋> ␅
+TD159991 ␄
+TD181 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1579: 12 guesses\n\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe7\ud83d\udfe7\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe7\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1579"}
+TD515 result: "squareword.org 1579: 12 guesses\n\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe7\ud83d\udfe7\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe7\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1579"
+TD70 📆 2026-05-29 ? ␅
+TD399055 ␆/
+TD100 📆 2026-05-29 ? /
+TD6706 📆 2026-05-29 ? ␅
+TD921329 ␆
+TD100 📆 2026-05-29 ? 
