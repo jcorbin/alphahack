@@ -1,0 +1,185 @@
+T396.254212723994 now: 2026-05-30T09:09:50EDT
+TD78 site: cemantle.certitudes.org
+TD24 system_prompt: "You are a related word suggestion oracle. Give your responses as a simple numbered list of words, one per line."
+TD6 auto_affix: "!prob"
+TD5154 request: {"method": "GET", "url": "https://cemantle.certitudes.org/", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantle.certitudes.org", "Referer": "https://cemantle.certitudes.org/"}, "data": []}
+TD193003 response: {"url": "https://cemantle.certitudes.org/", "status": 200, "reason": "OK", "headers": {"content-type": "text/html; charset=utf-8", "vary": "Accept-Encoding", "set-cookie": "v=207; Path=/", "x-frame-options": "SAMEORIGIN", "content-encoding": "gzip", "x-cloud-trace-context": "066c66c70fafba1a08efea5dd381702c", "date": "Sat, 30 May 2026 13:09:50 GMT", "server": "Google Frontend", "Expires": "Sat, 30 May 2026 13:09:50 GMT", "Cache-Control": "private", "Transfer-Encoding": "chunked"}, "content": "<!DOCTYPE html>    <html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\"content=\"width=device-width,initial-scale=1\"><meta name=\"description\"content=\"Find the secret word by trying to get as semantically close as possible.\"><meta property=\"og:title\"content=\"cemantle - Find the secret word!\"><meta property=\"og:description\"content=\"Find the secret word by trying to get as semantically close as possible.\"><meta property=\"og:type\"content=\"website\"><meta property=\"og:image\"content=\"https://static.certitudes.org/images/cemantle.png\"><meta property=\"og:url\"content=\"https://cemantle.certitudes.org/\"><meta property=\"og:site_name\"content=\"cemantle\"><title id=\"app-title\">cemantle</title><link rel=\"stylesheet\"href=\"https://static.certitudes.org/html/cemantle.css\"><link rel=\"stylesheet\"href=\"https://fonts.googleapis.com/icon?family=Material+Icons\"><link rel=\"icon\"type=\"image/png\"sizes=\"32x32\"href=\"https://static.certitudes.org/images/cemantle-32x32.png\"><link rel=\"icon\"type=\"image/png\"sizes=\"16x16\"href=\"https://static.certitudes.org/images/cemantle-16x16.png\"><link rel=\"apple-touch-icon\"href=\"https://static.certitudes.org/images/cemantle-192x192.png\"><link rel=\"apple-touch-icon-precomposed\"href=\"https://static.certitudes.org/images/cemantle-192x192.png\"><link rel=\"apple-touch-icon-120x120\"href=\"https://static.certitudes.org/images/cemantle-192x192.png\"><link rel=\"apple-touch-icon-120x120-precomposed\"href=\"https://static.certitudes.org/images/cemantle-192x192.png\"><link rel=\"apple-touch-icon-152x152\"href=\"https://static.certitudes.org/images/cemantle-192x192.png\"><link rel=\"apple-touch-icon-152x152-precomposed\"href=\"https://static.certitudes.org/images/cemantle-192x192.png\"><link rel=\"manifest\"href=\"https://static.certitudes.org/html/cemantle.webmanifest\"><script src=\"https://static.certitudes.org/html/cemantle-check.js\"></script><script id=\"script\"type=\"module\"src=\"https://static.certitudes.org/html/cemantle.js\"data-puzzle-number=\"1517\"data-utc-time=\"111600\"data-app=\"cemantle\"></script><base target=\"_blank\"></head><body><div id=\"dialog-underlay\"><div aria-modal=\"true\"role=\"dialog\"id=\"dialog\"><a id=\"dialog-close\"aria-label=\"Close\">&times;</a><div class=\"dialog-content\"id=\"rules\"><div id=\"rulesbody\"></div></div><div class=\"dialog-content\"id=\"faq\"><div id=\"faqbody\"></div></div><div class=\"dialog-content\"id=\"theme\"><div id=\"themebody\"></div></div><div class=\"dialog-content\"id=\"history\"><div id=\"historybody\"></div></div><div class=\"dialog-content\"id=\"cloud\"><div id=\"cloudbody\"></div></div><div class=\"dialog-content\"id=\"story\"><h3 class=\"noselect\">Share</h3><p class=\"headline\"id=\"share-story\"></p><span class=\"footer noselect\"id=\"clipboard\"></span></div><div class=\"dialog-content\"id=\"yestertable\"><h3>Words close to <i>packet</i></h3><table><thead><tr><th class=\"number\">#</th><th class=\"word\">Word&nbsp;&nbsp;&nbsp;</th><th class=\"number\">\u00b0C</th><th>&nbsp;&nbsp;&nbsp;</th><th class=\"number\">\u2030</th><th></th></tr></thead><tbody id=\"yesterbody\"></tbody></table></div></div></div><section><article><aside><nav><a class=\"material-icons icon\"id=\"rules-button\"title=\"Rules\"aria-label=\"Rules\">info</a> <a class=\"material-icons icon\"id=\"faq-button\"title=\"FAQ\"aria-label=\"FAQ\">quiz</a> <a class=\"material-icons icon\"id=\"theme-button\"title=\"Colors\"aria-label=\"Colors\">palette</a> <a class=\"material-icons icon\"id=\"history-button\"title=\"History\"aria-label=\"History\">history</a> <a class=\"material-icons icon\"id=\"cloud-button\"title=\"Collaborate\"aria-label=\"Collaborate\">cloud</a><sup id=\"team-members\"></sup></nav><div class=\"summary\"><h3>Day <b id=\"puzzle-num\">1517</b></h3><div id=\"solved\"></div><div id=\"summary\"><p id=\"day-meter\">\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca\ud83e\uddca</p><table class=\"story\"><thead><tr><th class=\"number\"><b>\u2030</b></th><th class=\"emoji\">\ud83c\udf21</th><th class=\"number\"><b>\u00b0C</b></th></tr></thead><tr><td class=\"number\">1000</td><td class=\"emoji\">\ud83e\udd73</td><td class=\"decimal number\">100</td></tr><tr><td class=\"number\">999</td><td class=\"emoji\">\ud83d\ude31</td><td class=\"decimal number\">69.18</td></tr><tr><td class=\"number\">990</td><td class=\"emoji\">\ud83d\udd25</td><td class=\"decimal number\">54.49</td></tr><tr><td class=\"number\">900</td><td class=\"emoji\">\ud83e\udd75</td><td class=\"decimal number\">38.79</td></tr><tr><td class=\"number\">1</td><td class=\"emoji\">\ud83d\ude0e</td><td class=\"decimal number\">22.64</td></tr><tr><td class=\"number\"></td><td class=\"emoji\">\ud83e\udd76</td><td class=\"decimal number\">0</td></tr><tr><td class=\"number\"></td><td class=\"emoji\">\ud83e\uddca</td><td class=\"decimal number\">-100</td></tr></table><div class=\"yesterday\">Yesterday\u2019s word was <a id=\"yesterday\"><b><u>packet</u></b></a></div>\ud83c\uddeb\ud83c\uddf7 <a href=\"https://cemantix.certitudes.org/\">c\u00e9mantix</a></div></div></aside><div class=\"main\"><div id=\"tabs\"><a id=\"cemantle\"class=\"active tab\"><img alt=\"Find the secret word!\"src=\"https://static.certitudes.org/images/cemantle.svg\"width=\"240\"height=\"180\"> <span id=\"title\"class=\"caption\">Find the secret word!</span> </a><a id=\"pedantle\"class=\"inactive tab\"><img alt=\"Uncover the Wikipedia page!\"src=\"https://static.certitudes.org/images/pedantle.svg\"width=\"240\"height=\"180\"> <span id=\"pedantle-title\"class=\"caption\">Uncover the Wikipedia page!</span></a></div><div id=\"content\"><div id=\"game\"><div id=\"success\"class=\"success\"><p><b>Congrats!</b> You\u2019re the <b><span id=\"ranking\"></span></b> to find it, in <b><span id=\"tries\"></span></b>. Summary of the day:</p><p><span id=\"meter\"></span></p><p><a id=\"share\"><u><b>Share</b></u></a> and come back to play tomorrow.</p><p><input type=\"checkbox\"id=\"see\"class=\"see\"> See the <span id=\"solution\"></span>nearest words</p></div><form id=\"form\"class=\"form\"><div class=\"guessbox\"><input placeholder=\"Word\"autocorrect=\"off\"autocapitalize=\"none\"autocomplete=\"off\"type=\"search\"name=\"searchTerm\"id=\"guess\"class=\"guess\"><div id=\"previous\"class=\"previous\">&#10554;</div></div><input type=\"submit\"value=\"Submit\"id=\"guess-btn\"class=\"guess-btn\"disabled=\"disabled\"> <label id=\"error\"class=\"error\"></label></form><div id=\"secret\"class=\"secret\"><a id=\"reveal\"title=\"Reveal\"aria-label=\"Reveal\"><u>Reveal the secret word</u>&nbsp;\ud83d\udc40</a></div><table id=\"guessable\"class=\"guessable game\"><thead><tr><th class=\"number order\"id=\"chronoOrder\">#</th><th class=\"word order\"id=\"alphaOrder\">Word&nbsp;&nbsp;&nbsp;</th><th class=\"number order\"id=\"temperatureOrder\">\u00b0C</th><th class=\"emoji\">\ud83c\udf21</th><th class=\"number\">\u2030</th><th class=\"progress\">Progress</th></tr><tr id=\"guessed\"class=\"guesses\"><td></td><td></td><td></td><td></td><td></td><td></td></tr></thead><tbody id=\"guesses\"class=\"guesses\"></tbody></table><div><script async src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1367635413731794\"crossorigin=\"anonymous\"></script><ins id=\"ad\"style=\"display:block;text-align:center\"data-ad-layout=\"in-article\"data-ad-format=\"fluid\"data-ad-client=\"ca-pub-1367635413731794\"data-ad-slot=\"4601015864\"></ins></div></div></div></div></article><footer><div>Maintained by <a href=\"https://twitter.com/enigmathix\">enigmatix</a>. Inspired from <a href=\"https://semantle.com/\">Semantle</a> by David Turner. Data from <a href=\"https://code.google.com/archive/p/word2vec/\">Google</a>. <a href=\"https://static.certitudes.org/html/cemantle-privacy.html\">Privacy Policy</a>.</div></footer></section></body></html>"}
+TD61 http cookie: v "207"
+TD9505 puzzle_id: #1517
+TD30 pubtime: 111600
+TD685 scale: 🥳 100.00 °C
+TD101 scale: 😱 69.18 °C
+TD77 scale: 🔥 54.49 °C
+TD71 scale: 🥵 38.79 °C
+TD68 scale: 😎 22.64 °C
+TD69 scale: 🥶 0.00 °C
+TD70 scale: 🧊 -100.00 °C
+TD430 request: {"method": "GET", "url": "https://cemantle.certitudes.org/stats?n=1517", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantle.certitudes.org", "Referer": "https://cemantle.certitudes.org/", "Cookie": "v=207"}, "data": []}
+TD48205 response: {"url": "https://cemantle.certitudes.org/stats?n=1517", "status": 200, "reason": "OK", "headers": {"content-type": "application/json", "x-cloud-trace-context": "c196f4a2a29a6a4008efea5dd3817fb9;o=1", "date": "Sat, 30 May 2026 13:09:50 GMT", "server": "Google Frontend", "Content-Length": "10"}, "content": "{\"v\":207}\n"}
+TD18 http cookie: v _
+TD4722 session model: dolphin3:latest
+TD126 ? ␅
+TD33637626 ␆?
+TD101 ? ?
+TD999 request: {"method": "POST", "url": "https://cemantle.certitudes.org/score?n=1517", "headers": {"User-Agent": "github.com/jcorbin/alhpahack", "Accept-Encoding": "gzip, deflate", "Accept": "*/*", "Connection": "keep-alive", "Origin": "https://cemantle.certitudes.org", "Referer": "https://cemantle.certitudes.org/", "Cookie": "v=207", "Content-Length": "8", "Content-Type": "application/x-www-form-urlencoded"}, "data": {"word": "?"}}
+TD60078 response: {"url": "https://cemantle.certitudes.org/score?n=1517", "status": 200, "reason": "OK", "headers": {"content-type": "application/json", "vary": "Accept-Encoding", "content-encoding": "gzip", "x-cloud-trace-context": "340679155be385cb88d5a366873d9fd2", "date": "Sat, 30 May 2026 13:10:24 GMT", "server": "Google Frontend", "Transfer-Encoding": "chunked"}, "content": "{\"e\":\"I don't know this word.\",\"v\":207}\n"}
+TD36 http cookie: v _
+TD81 reject: "?"
+TD124 ? ␅
+TD2850721 ␆/help
+TD98 ? /help
+TD641 ? ␅
+TD2967222 ␆/auto
+TD66 ? /auto
+TD223 ? ␅
+TD15951764 ␆/auto score
+TD99 ? /auto score
+TD507 ? ␅
+TD83808603 ␆* 10
+TD100 ? * 10
+TD682 chat_prompt: give me 10 words that are not related to each other; rank each one with a probability score
+TD170 session: {"role":"system","content":"You are a related word suggestion oracle. Give your responses as a simple numbered list of words, one per line.","thinking":null,"images":null,"tool_name":null,"tool_calls":null}
+TD24 session: {"role":"user","content":"give me 10 words that are not related to each other; rank each one with a probability score","thinking":null,"images":null,"tool_name":null,"tool_calls":null}
+TD6442648 session: {"role":"assistant","content":"1. Tiger - 0.98\n2. Banana - 0.96\n3. Quantum - 0.94\n4. Symphony - 0.92\n5. Chocolate - 0.90\n6. Satellite - 0.88\n7. Umbrella - 0.86\n8. Algorithm - 0.84\n9. Dinosaur - 0.82\n10. Lava - 0.80","thinking":null,"images":null,"tool_name":null,"tool_calls":null}
+TD561 🤔 extract_1/10 #1 "algorithm" score? ␅
+TD8363838 ␆8.44
+TD96 🤔 extract_1/10 #1 "algorithm" score? 8.44
+TD204 attempt_0: "algorithm" score:8.44 prog:None source:"dolphin3:latest"
+TD430 🤔 extract_1/9 #2 "banana" score? ␅
+TD6023335 ␆4.98
+TD131 🤔 extract_1/9 #2 "banana" score? 4.98
+TD245 attempt_1: "banana" score:4.98 prog:None source:"dolphin3:latest"
+TD451 🤔 extract_1/8 #3 "chocolate" score? ␅
+TD3567232 ␆15.28
+TD100 🤔 extract_1/8 #3 "chocolate" score? 15.28
+TD177 attempt_2: "chocolate" score:15.28 prog:None source:"dolphin3:latest"
+TD393 🤔 extract_1/7 #4 "dinosaur" score? ␅
+TD7711608 ␆7.06
+TD98 🤔 extract_1/7 #4 "dinosaur" score? 7.06
+TD278 attempt_3: "dinosaur" score:7.06 prog:None source:"dolphin3:latest"
+TD500 🤔 extract_1/6 #5 "lava" score? ␅
+TD3142945 ␆12.72
+TD78 🤔 extract_1/6 #5 "lava" score? 12.72
+TD130 attempt_4: "lava" score:12.72 prog:None source:"dolphin3:latest"
+TD254 🤔 extract_1/5 #6 "quantum" score? ␅
+TD2879552 ␆7.72
+TD79 🤔 extract_1/5 #6 "quantum" score? 7.72
+TD131 attempt_5: "quantum" score:7.72 prog:None source:"dolphin3:latest"
+TD474 🤔 extract_1/4 #7 "satellite" score? ␅
+TD3311516 ␆5.6
+TD97 🤔 extract_1/4 #7 "satellite" score? 5.6
+TD185 attempt_6: "satellite" score:5.60 prog:None source:"dolphin3:latest"
+TD373 🤔 extract_1/3 #8 "symphony" score? ␅
+TD5239273 ␆23.03
+TD97 🤔 extract_1/3 #8 "symphony" score? 23.03
+TD120 🤔 extract_1/3 #8 "symphony" 23.03°C prog‰ ? ␅
+TD3375855 ␆78
+TD96 🤔 extract_1/3 #8 "symphony" 23.03°C prog‰ ? 78
+TD179 attempt_7: "symphony" score:23.03 prog:78 source:"dolphin3:latest"
+TD401 🤔 extract_1/2 #9 "tiger" score? ␅
+TD3247840 ␆1.42
+TD97 🤔 extract_1/2 #9 "tiger" score? 1.42
+TD173 attempt_8: "tiger" score:1.42 prog:None source:"dolphin3:latest"
+TD401 🤔 extract_1/1 #10 "umbrella" score? ␅
+TD3038809 ␆2.88
+TD79 🤔 extract_1/1 #10 "umbrella" score? 2.88
+TD136 attempt_9: "umbrella" score:2.88 prog:None source:"dolphin3:latest"
+TD450 ? ␅
+TD2623782 ␆/prog
+TD100 ? /prog
+TD722 ? ␅
+TD14846911 ␆* 5
+TD74 ? * 5
+TD288 chat_prompt: give me 5 words that are not related to each other; rank each one with a probability score
+TD124 session: {"role":"user","content":"give me 5 words that are not related to each other; rank each one with a probability score","thinking":null,"images":null,"tool_name":null,"tool_calls":null}
+TD1198474 session: {"role":"assistant","content":"1. Banana - 0.98\n2. Quantum - 0.96\n3. Symphony - 0.94\n4. Chocolate - 0.92\n5. Satellite - 0.90","thinking":null,"images":null,"tool_name":null,"tool_calls":null}
+TD249 ? ␅
+TD10177106 ␆*5 $1
+TD78 ? *5 $1
+TD493 chat_prompt: give me 5 words that are related to $1; rank each one with a probability score
+TD217 session: {"role":"user","content":"give me 5 words that are related to \"symphony\"; rank each one with a probability score","thinking":null,"images":null,"tool_name":null,"tool_calls":null}
+TD1236057 session: {"role":"assistant","content":"1. Orchestra - 0.98\n2. Melody - 0.96\n3. Harmony - 0.94\n4. Composition - 0.92\n5. Performance - 0.90","thinking":null,"images":null,"tool_name":null,"tool_calls":null}
+TD419 🤔 extract_1/5 #11 "composition" score? ␅
+TD4378706 ␆18.58
+TD78 🤔 extract_1/5 #11 "composition" score? 18.58
+TD134 attempt_10: "composition" score:18.58 prog:None source:"dolphin3:latest"
+TD225 🤔 extract_1/4 #12 "harmony" score? ␅
+TD3215583 ␆20.76
+TD98 🤔 extract_1/4 #12 "harmony" score? 20.76
+TD179 attempt_11: "harmony" score:20.76 prog:None source:"dolphin3:latest"
+TD358 🤔 extract_1/3 #13 "melody" score? ␅
+TD4343463 ␆49.29
+TD92 🤔 extract_1/3 #13 "melody" score? 49.29
+TD125 🤔 extract_1/3 #13 "melody" 49.29°C prog‰ ? ␅
+TD1839888 ␆975
+TD81 🤔 extract_1/3 #13 "melody" 49.29°C prog‰ ? 975
+TD131 attempt_12: "melody" score:49.29 prog:975 source:"dolphin3:latest"
+TD359 ? ␅
+TD4015316 ␆/prog
+TD77 ? /prog
+TD678 ? ␅
+TD1967773 ␆_
+TD80 ? _
+TD88 chat_prompt: _
+TD157 session: {"role":"user","content":"give me 5 words that are related to \"melody\"; rank each one with a probability score","thinking":null,"images":null,"tool_name":null,"tool_calls":null}
+TD1257515 session: {"role":"assistant","content":"1. Song - 0.98\n2. Tune - 0.96\n3. Rhythm - 0.94\n4. Harmony - 0.92\n5. Instrumental - 0.90","thinking":null,"images":null,"tool_name":null,"tool_calls":null}
+TD431 🤔 extract_1/4 #14 "instrumental" score? ␅
+TD4349291 ␆12.23
+TD95 🤔 extract_1/4 #14 "instrumental" score? 12.23
+TD171 attempt_13: "instrumental" score:12.23 prog:None source:"dolphin3:latest"
+TD356 🤔 extract_1/3 #15 "rhythm" score? ␅
+TD2895485 ␆20.29
+TD99 🤔 extract_1/3 #15 "rhythm" score? 20.29
+TD182 attempt_14: "rhythm" score:20.29 prog:None source:"dolphin3:latest"
+TD367 🤔 extract_1/2 #16 "song" score? ␅
+TD6759455 ␆69.18
+TD98 🤔 extract_1/2 #16 "song" score? 69.18
+TD124 🤔 extract_1/2 #16 "song" 69.18°C prog‰ ? ␅
+TD1255737 ␆999
+TD96 🤔 extract_1/2 #16 "song" 69.18°C prog‰ ? 999
+TD167 attempt_15: "song" score:69.18 prog:999 source:"dolphin3:latest"
+TD551 ? ␅
+TD2958994 ␆/prog
+TD73 ? /prog
+TD574 ? ␅
+TD1775517 ␆_
+TD102 ? _
+TD115 chat_prompt: _
+TD200 session: {"role":"user","content":"give me 5 words that are related to \"song\"; rank each one with a probability score","thinking":null,"images":null,"tool_name":null,"tool_calls":null}
+TD1210610 session: {"role":"assistant","content":"1. Music - 0.98\n2. Lyrics - 0.96\n3. Singer - 0.94\n4. Album - 0.92\n5. Artist - 0.90","thinking":null,"images":null,"tool_name":null,"tool_calls":null}
+TD263 🤔 extract_1/5 #17 "album" score? ␅
+TD7660948 ␆100
+TD99 🤔 extract_1/5 #17 "album" score? 100
+TD118 🤔 extract_1/5 #17 "album" 100.00°C prog‰ ? ␅
+TD8247837 ␆1000
+TD89 🤔 extract_1/5 #17 "album" 100.00°C prog‰ ? 1000
+TD124 attempt_16: "album" score:100.00 prog:1000 source:"dolphin3:latest"
+TD105 Press <Enter> to 📋, or `>` for line prompt ␅
+TD6032271 ␆I found #cemantle #1517 in 17 guesses!
+TD95 Press <Enter> to 📋, or `>` for line prompt I found #cemantle #1517 in 17 guesses!
+TD255 📋> ␅
+TD45 ␆🥳
+TD6 📋> 🥳
+TD5 📋> ␅
+TD10 ␆😱
+TD4 📋> 😱
+TD4 📋> ␅
+TD10 ␆🥵
+TD4 📋> 🥵
+TD4 📋> ␅
+TD10 ␆😎
+TD4 📋> 😎
+TD4 📋> ␅
+TD9 ␆🥶1️⃣3️⃣
+TD4 📋> 🥶1️⃣3️⃣
+TD4 📋> ␅
+TD615060 ␆https://cemantle.certitudes.org/ 
+TD79 📋> https://cemantle.certitudes.org/ 
+TD8 📋> ␅
+TD535855 ␄
+TD139 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83e\udd73\n\ud83d\ude31\n\ud83e\udd75\n\ud83d\ude0e\n\ud83e\udd761\ufe0f\u20e33\ufe0f\u20e3\nhttps://cemantle.certitudes.org/ "}
+T1.5733100840006955 now: 2026-05-30T09:15:41EDT
+TD166 Press <Enter> to 📋, or `>` for line prompt ␅
+TD3964547 ␆auto
+TD95 Press <Enter> to 📋, or `>` for line prompt auto
+TD1086 share result: "I found #cemantle #1517 in 16 guesses!\n\ud83d\ude311\ufe0f\u20e3\n\ud83e\udd751\ufe0f\u20e3\n\ud83d\ude0e1\ufe0f\u20e3\n\ud83e\udd761\ufe0f\u20e33\ufe0f\u20e3\nhttps://cemantle.certitudes.org"
