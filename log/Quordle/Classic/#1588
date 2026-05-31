@@ -1,0 +1,175 @@
+T54441.296280414004 now: 2026-05-31T07:07:19EDT
+TD80 site: https://www.merriam-webster.com/games/quordle/#/
+TD14 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD268  ...␅
+TD222412 ␆
+TD91  ...
+TD500954 > ␅
+TD5586987 ␆*
+TD107 > *
+TD58565 ? ␅
+TD693249 ␆1
+TD62 ? 1
+TD119 questioning: elans
+TD93 Classic #1 _____? ␅
+TD2223802 ␆nMnnn
+TD63 Classic #1 _____? nMnnn
+TD247 attempt: 0 ELANS n m n n n
+TD64 Classic #2 _____? ␅
+TD1439570 ␆nnnYn
+TD60 Classic #2 _____? nnnYn
+TD142 attempt: 1 ELANS n n n Y n
+TD58 Classic #3 _____? ␅
+TD1704005 ␆Mnnnn
+TD103 Classic #3 _____? Mnnnn
+TD244 attempt: 2 ELANS m n n n n
+TD118 Classic #4 _____? ␅
+TD1151402 ␆nnMnn
+TD71 Classic #4 _____? nnMnn
+TD177 attempt: 3 ELANS n n m n n
+TD437301 > ␅
+TD698480 ␆*
+TD75 > *
+TD5043 ? ␅
+TD923066 ␆1
+TD109 ? 1
+TD203 questioning: toper
+TD152 Classic #1 _____ ~L -AENS? ␅
+TD2663508 ␆nnnnM
+TD97 Classic #1 _____ ~L -AENS? nnnnM
+TD236 attempt: 0 TOPER n n n n m
+TD112 Classic #2 ___N_ -AELS? ␅
+TD1607579 ␆MYnnn
+TD96 Classic #2 ___N_ -AELS? MYnnn
+TD232 attempt: 1 TOPER m Y n n n
+TD114 Classic #3 _____ ~E -ALNS? ␅
+TD1799517 ␆MMnMM
+TD91 Classic #3 _____ ~E -ALNS? MMnMM
+TD223 attempt: 2 TOPER m m n m m
+TD113 Classic #4 _____ ~A -ELNS? ␅
+TD1207475 ␆nMnnn
+TD101 Classic #4 _____ ~A -ELNS? nMnnn
+TD226 attempt: 3 TOPER n m n n n
+TD524946 > ␅
+TD691621 ␆*
+TD99 > *
+TD960 ? ␅
+TD3174183 ␆5
+TD100 ? 5
+TD182 questioning: amigo
+TD147 Classic #1 _____ ~LR -AENOPST? ␅
+TD2583634 ␆nnnnn
+TD95 Classic #1 _____ ~LR -AENOPST? nnnnn
+TD231 attempt: 0 AMIGO n n n n n
+TD166 Classic #2 _O_N_ ~T -AELPRS? ␅
+TD1255578 ␆nMnnM
+TD99 Classic #2 _O_N_ ~T -AELPRS? nMnnM
+TD221 attempt: 1 AMIGO n m n n m
+TD156 Classic #3 _____ ~EORT -ALNPS? ␅
+TD1431565 ␆nnnnM
+TD96 Classic #3 _____ ~EORT -ALNPS? nnnnM
+TD219 attempt: 2 AMIGO n n n n m
+TD163 Classic #4 _____ ~AO -ELNPRST? ␅
+TD1559484 ␆MnnnY
+TD75 Classic #4 _____ ~AO -ELNPRST? MnnnY
+TD164 attempt: 3 AMIGO m n n n Y
+TD465223 > ␅
+TD950609 ␆*
+TD80 > *
+TD360 questioning: mount
+TD82 Classic #1 _____ ~LR -AEGIMNOPST? ␅
+TD3255331 ␆nnnnn
+TD66 Classic #1 _____ ~LR -AEGIMNOPST? nnnnn
+TD164 attempt: 0 MOUNT n n n n n
+TD80 Classic #2 _O_N_ ~MT -AEGILPRS? ␅
+TD1415651 ␆YYYYY
+TD73 Classic #2 _O_N_ ~MT -AEGILPRS? YYYYY
+TD136 attempt: 1 MOUNT Y Y Y Y Y
+TD69 Classic #3 _____ ~EORT -AGILMNPS? ␅
+TD1335924 ␆nMnnY
+TD109 Classic #3 _____ ~EORT -AGILMNPS? nMnnY
+TD240 attempt: 2 MOUNT n m n n Y
+TD124 Classic #4 ____O ~A -EGILMNPRST? ␅
+TD1575569 ␆nMnnn
+TD76 Classic #4 ____O ~A -EGILMNPRST? nMnnn
+TD155 attempt: 3 MOUNT n m n n n
+TD341360 > ␅
+TD1762273 ␆*
+TD95 > *
+TD450 questioning: overt
+TD117 Classic #1 _____ ~LR -AEGIMNOPSTU? ␅
+TD3367495 ␆nnnMn
+TD81 Classic #1 _____ ~LR -AEGIMNOPSTU? nnnMn
+TD159 attempt: 0 OVERT n n n m n
+TD82 Classic #3 ____T ~EOR -AGILMNPSU? ␅
+TD1991735 ␆YYYYY
+TD98 Classic #3 ____T ~EOR -AGILMNPSU? YYYYY
+TD221 attempt: 2 OVERT Y Y Y Y Y
+TD121 Classic #4 ____O ~A -EGILMNPRSTU? ␅
+TD2871492 ␆Mnnnn
+TD75 Classic #4 ____O ~A -EGILMNPRSTU? Mnnnn
+TD162 attempt: 3 OVERT m n n n n
+TD235312 > ␅
+TD1172345 ␆*
+TD78 > *
+TD447 ? ␅
+TD2151597 ␄
+TD136 <EOF>
+TD216876 > ␅
+TD1191072 ␆* 4
+TD98 > * 4
+TD106616 ? ␅
+TD2589414 ␆1
+TD98 ? 1
+TD181 questioning: wacko
+TD201 Classic #1 _____ ~LR -AEGIMNOPSTUV? ␅
+TD3439572 ␆Ynnnn
+TD99 Classic #1 _____ ~LR -AEGIMNOPSTUV? Ynnnn
+TD230 attempt: 0 WACKO Y n n n n
+TD132 Classic #4 ____O ~A -EGILMNPRSTUV? ␅
+TD1447620 ␆nYYnY
+TD98 Classic #4 ____O ~A -EGILMNPRSTUV? nYYnY
+TD241 attempt: 3 WACKO n Y Y n Y
+TD213079 > ␅
+TD642705 ␆*
+TD101 > *
+TD430 questioning: wryly
+TD124 Classic #1 W____ ~LR -ACEGIKMNOPSTUV? ␅
+TD2911143 ␆YYYYY
+TD77 Classic #1 W____ ~LR -ACEGIKMNOPSTUV? YYYYY
+TD186 attempt: 0 WRYLY Y Y Y Y Y
+TD112 Classic #4 _AC_O -EGIKLMNPRSTUVW? ␅
+TD2151623 ␆nnnnn
+TD104 Classic #4 _AC_O -EGIKLMNPRSTUVW? nnnnn
+TD224 attempt: 3 WRYLY n n n n n
+TD103640 > ␅
+TD319970 ␆*
+TD81 > *
+TD342 questioning: cacao
+TD86 Classic #4 _AC_O -EGIKLMNPRSTUVWY? ␅
+TD4768475 ␆YYYYY
+TD110 Classic #4 _AC_O -EGIKLMNPRSTUVWY? YYYYY
+TD268 attempt: 3 CACAO Y Y Y Y Y
+TD125 📋> ␅
+TD4255540 ␆🙂 Daily Quordle 1588
+TD79 📋> 🙂 Daily Quordle 1588
+TD8 📋> ␅
+TD48 ␆7️⃣4️⃣
+TD4 📋> 7️⃣4️⃣
+TD3 📋> ␅
+TD10 ␆5️⃣8️⃣
+TD2 📋> 5️⃣8️⃣
+TD2 📋> ␅
+TD8 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD254993 ␆
+TD100 📋> 
+TD13 📋> ␅
+TD159785 ␄
+TD139 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1588\n7\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1488 result: "\ud83d\ude42 Daily Quordle 1588\n7\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD67 📆 2026-05-31 ? ␅
+TD158429 ␆
+TD99 📆 2026-05-31 ? 
