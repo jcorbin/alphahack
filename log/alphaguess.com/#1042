@@ -1,0 +1,86 @@
+T54159.38847440099 now: 2026-05-31T07:02:37EDT
+TD125 site: alphaguess.com
+TD226436 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 1662bf5a7521e7f5fda0acc0cc4d96b330dfdc47
+TD117  ...␅
+TD8876593 ␆
+TD97  ...
+TD172 [0 : 98216 : 196522] mach? ␅
+TD6351606 ␆a
+TD87 [0 : 98216 : 196522] mach? a
+TD111 progress: 1 98216 mach
+TD219 [98217 : 147366 : 196522] rhotic? ␅
+TD1959548 ␆b
+TD101 [98217 : 147366 : 196522] rhotic? b
+TD103 progress: -1 147366 rhotic
+TD114 [98217 : 122777 : 147366] parr? ␅
+TD1400128 ␆a
+TD99 [98217 : 122777 : 147366] parr? a
+TD104 progress: 1 122777 parr
+TD119 [122778 : 135068 : 147366] proper? ␅
+TD1455375 ␆b
+TD99 [122778 : 135068 : 147366] proper? b
+TD100 progress: -1 135068 proper
+TD102 [122778 : 128846 : 135068] play? ␅
+TD1423912 ␆b
+TD99 [122778 : 128846 : 135068] play? b
+TD107 progress: -1 128846 play
+TD106 [122778 : 125809 : 128846] petti? ␅
+TD1287408 ␆b
+TD98 [122778 : 125809 : 128846] petti? b
+TD100 progress: -1 125809 petti
+TD98 [122778 : 123690 : 125809] pe? ␅
+TD1223851 ␆b
+TD97 [122778 : 123690 : 125809] pe? b
+TD102 progress: -1 123690 pe
+TD119 [122778 : 123125 : 123690] past? ␅
+TD1312211 ␆b
+TD100 [122778 : 123125 : 123690] past? b
+TD107 progress: -1 123125 past
+TD113 [122778 : 122838 : 123125] part? ␅
+TD1223787 ␆a
+TD96 [122778 : 122838 : 123125] part? a
+TD105 progress: 1 122838 part
+TD153 [122839 : 122980 : 123125] parve? ␅
+TD1279046 ␆b
+TD96 [122839 : 122980 : 123125] parve? b
+TD100 progress: -1 122980 parve
+TD193 [122839 : 122893 : 122980] particular? ␅
+TD1271628 ␆a
+TD91 [122839 : 122893 : 122980] particular? a
+TD103 progress: 1 122893 particular
+TD234 [122894 : 122936 : 122980] partitive? ␅
+TD1231601 ␆a
+TD95 [122894 : 122936 : 122980] partitive? a
+TD81 progress: 1 122936 partitive
+TD105 [122937 : 122955 : 122980] partridge? ␅
+TD1303714 ␆a
+TD99 [122937 : 122955 : 122980] partridge? a
+TD106 progress: 1 122955 partridge
+TD122 [122956 : 122964 : 122980] party? ␅
+TD2720564 ␆it
+TD97 [122956 : 122964 : 122980] party? it
+TD108 progress: 0 122964 party
+TD26 [122956 : 122964 : 122980] <Done>.
+TD88 📋> ␅
+TD3015344 ␆🧩 Puzzle #1042
+TD83 📋> 🧩 Puzzle #1042
+TD8 📋> ␅
+TD33 ␆🤔 14 guesses
+TD4 📋> 🤔 14 guesses
+TD3 📋> ␅
+TD33 ␆⏱️ 20s
+TD4 📋> ⏱️ 20s
+TD2 📋> ␅
+TD255669 ␆🔗 alphaguess.com/1042
+TD106 📋> 🔗 alphaguess.com/1042
+TD8 📋> ␅
+TD167783 ␄
+TD182 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1042\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1042"}
+TD98 result: "\ud83e\udde9 Puzzle #1042\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1042"
+TD15 result puzzle: 1042
+TD6 result guesses: 14
+TD5 result time: 20s
+TD4 result link: alphaguess.com/1042
+TD88 📆 2026-05-31 ? ␅
+TD135187 ␆
+TD51 📆 2026-05-31 ? 
