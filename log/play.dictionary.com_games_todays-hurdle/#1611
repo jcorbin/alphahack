@@ -1,0 +1,227 @@
+T54285.046188190005 now: 2026-05-31T07:04:43EDT
+TD87 site: https://play.dictionary.com/games/todays-hurdle
+TD14 wordlist: nwl2023.txt
+TD24  ...␅
+TD151183 ␆
+TD99  ...
+TD199 1.1> ␅
+TD631403 ␆
+TD112 1.1> 
+TD128 1.1> ␅
+TD35088197 ␆*
+TD95 1.1> *
+TD227434 1.1 ? ␅
+TD652358 ␆1
+TD98 1.1 ? 1
+TD253 1.1 📋 "arise" ? ␅
+TD4103699 ␆MnnnM
+TD98 1.1 📋 "arise" ? MnnnM
+TD216 tried: ARISE m n n n m
+TD495 1.2> ␅
+TD511437 ␆*
+TD98 1.2> *
+TD154197 1.2 ? ␅
+TD1445433 ␆2
+TD67 1.2 ? 2
+TD182 1.2 📋 "medal" ? ␅
+TD5311902 ␆nYMYM
+TD68 1.2 📋 "medal" ? nYMYM
+TD157 tried: MEDAL n Y m Y m
+TD193 1.3> ␅
+TD399497 ␆*
+TD91 1.3> *
+TD116928 1.3 📋 "delay" ? ␅
+TD4483262 ␆YYYYY
+TD101 1.3 📋 "delay" ? YYYYY
+TD258 tried: DELAY Y Y Y Y Y
+TD338 2.1 📋 "delay" ? ␅
+TD8103181 ␆nnMnn
+TD94 2.1 📋 "delay" ? nnMnn
+TD212 tried: DELAY n n m n n
+TD237 2.2> ␅
+TD495601 ␆*
+TD93 2.2> *
+TD122829 2.2 ? ␅
+TD1100835 ␆1
+TD78 2.2 ? 1
+TD186 2.2 📋 "boils" ? ␅
+TD3544222 ␆nMnMM
+TD80 2.2 📋 "boils" ? nMnMM
+TD152 tried: BOILS n m n m m
+TD211 2.3> ␅
+TD423306 ␆*
+TD94 2.3> *
+TD153607 2.3 ? ␅
+TD702246 ␆1
+TD75 2.3 ? 1
+TD191 2.3 📋 "sloth" ? ␅
+TD4288121 ␆YMYMn
+TD84 2.3 📋 "sloth" ? YMYMn
+TD148 tried: SLOTH Y m Y m n
+TD163 2.4> ␅
+TD455310 ␆*
+TD93 2.4> *
+TD110770 2.4 📋 "stool" ? ␅
+TD4625372 ␆YYYYY
+TD82 2.4 📋 "stool" ? YYYYY
+TD231 tried: STOOL Y Y Y Y Y
+TD335 3.1 📋 "stool" ? ␅
+TD8415372 ␆nnnnY
+TD103 3.1 📋 "stool" ? nnnnY
+TD203 tried: STOOL n n n n Y
+TD204 3.2> ␅
+TD863464 ␆*
+TD93 3.2> *
+TD123047 3.2 ? ␅
+TD1252887 ␆1
+TD106 3.2 ? 1
+TD247 3.2 📋 "peril" ? ␅
+TD4479714 ␆nnMYY
+TD102 3.2 📋 "peril" ? nnMYY
+TD197 tried: PERIL n n m Y Y
+TD255 3.3> ␅
+TD431381 ␆*
+TD104 3.3> *
+TD115965 3.3 ? ␅
+TD1772001 ␆2
+TD104 3.3 ? 2
+TD197 3.3 📋 "grail" ? ␅
+TD3495838 ␆nYYYY
+TD112 3.3 📋 "grail" ? nYYYY
+TD205 tried: GRAIL n Y Y Y Y
+TD246 3.4> ␅
+TD359388 ␆*
+TD119 3.4> *
+TD107186 3.4 ? ␅
+TD2372560 ␆3
+TD102 3.4 ? 3
+TD293 3.4 📋 "frail" ? ␅
+TD3167744 ␆YYYYY
+TD99 3.4 📋 "frail" ? YYYYY
+TD202 tried: FRAIL Y Y Y Y Y
+TD331 4.1 📋 "frail" ? ␅
+TD8543554 ␆nnnYn
+TD80 4.1 📋 "frail" ? nnnYn
+TD158 tried: FRAIL n n n Y n
+TD143 4.2> ␅
+TD415618 ␆*
+TD95 4.2> *
+TD112136 4.2 ? ␅
+TD1191598 ␆1
+TD81 4.2 ? 1
+TD185 4.2 📋 "sonic" ? ␅
+TD4407851 ␆MYnYn
+TD81 4.2 📋 "sonic" ? MYnYn
+TD153 tried: SONIC m Y n Y n
+TD172 4.3> ␅
+TD423656 ␆*
+TD92 4.3> *
+TD105355 4.3 ? ␅
+TD4278915 ␆2
+TD82 4.3 ? 2
+TD186 4.3 📋 "posit" ? ␅
+TD3359491 ␆YYYYY
+TD96 4.3 📋 "posit" ? YYYYY
+TD201 tried: POSIT Y Y Y Y Y
+TD332 5.1 📋 "delay" ? ␅
+TD8815349 ␆nYnnn
+TD86 5.1 📋 "delay" ? nYnnn
+TD154 tried: DELAY n Y n n n
+TD180 5.2 📋 "stool" ? ␅
+TD1343715 ␆nMMnn
+TD74 5.2 📋 "stool" ? nMMnn
+TD156 tried: STOOL n m m n n
+TD169 5.3 📋 "frail" ? ␅
+TD1895592 ␆nMnnn
+TD96 5.3 📋 "frail" ? nMnnn
+TD202 tried: FRAIL n m n n n
+TD366 5.4 📋 "posit" ? ␅
+TD1559490 ␆nMnnM
+TD98 5.4 📋 "posit" ? nMnnM
+TD209 tried: POSIT n m n n m
+TD255 5.5> ␅
+TD919233 ␆*
+TD98 5.5> *
+TD130307 5.5 ? ␅
+TD1221596 ␆1
+TD80 5.5 ? 1
+TD190 5.5 📋 "metro" ? ␅
+TD5248070 ␆YYYYY
+TD74 5.5 📋 "metro" ? YYYYY
+TD153 tried: METRO Y Y Y Y Y
+TD179 📋> ␅
+TD5816008 ␆Hurdle 1611
+TD78 📋> Hurdle 1611
+TD8 📋> ␅
+TD27 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD6 ␆3/6
+TD3 📋> 3/6
+TD2 📋> ␅
+TD8 ␆🟨⬜⬜⬜🟨
+TD2 📋> 🟨⬜⬜⬜🟨
+TD2 📋> ␅
+TD6 ␆⬜🟩🟨🟩🟨
+TD2 📋> ⬜🟩🟨🟩🟨
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆4/6
+TD3 📋> 4/6
+TD2 📋> ␅
+TD48 ␆⬜⬜🟨⬜⬜
+TD2 📋> ⬜⬜🟨⬜⬜
+TD2 📋> ␅
+TD7 ␆⬜🟨⬜🟨🟨
+TD2 📋> ⬜🟨⬜🟨🟨
+TD3 📋> ␅
+TD6 ␆🟩🟨🟩🟨⬜
+TD2 📋> 🟩🟨🟩🟨⬜
+TD2 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆4/6
+TD2 📋> 4/6
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜🟩
+TD2 📋> ⬜⬜⬜⬜🟩
+TD2 📋> ␅
+TD5 ␆⬜⬜🟨🟩🟩
+TD2 📋> ⬜⬜🟨🟩🟩
+TD2 📋> ␅
+TD6 ␆⬜🟩🟩🟩🟩
+TD8 📋> ⬜🟩🟩🟩🟩
+TD12 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆3/6
+TD2 📋> 3/6
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜🟩⬜
+TD2 📋> ⬜⬜⬜🟩⬜
+TD2 📋> ␅
+TD5 ␆🟨🟩⬜🟩⬜
+TD2 📋> 🟨🟩⬜🟩⬜
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆Final 1/2
+TD2 📋> Final 1/2
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD295154 ␆score: 10,100
+TD96 📋> score: 10,100
+TD13 📋> ␅
+TD208114 ␄
+TD182 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1611\n\n3/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"}
+TD882 result: "Hurdle 1611\n\n3/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"
+TD93 📆 2026-05-31 ? ␅
+TD214624 ␆
+TD102 📆 2026-05-31 ? 
