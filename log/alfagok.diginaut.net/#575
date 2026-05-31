@@ -1,0 +1,98 @@
+T54063.491660616004 now: 2026-05-31T07:01:01EDT
+TD104 site: alfagok.diginaut.net
+TD622219 loaded 399573 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1279 words excluded) asof 1662bf5a7521e7f5fda0acc0cc4d96b330dfdc47
+TD124  ...␅
+TD4056504 ␆
+TD101  ...
+TD4641 [0 : 199695 : 399573] lijk? ␅
+TD8419902 ␆b
+TD85 [0 : 199695 : 399573] lijk? b
+TD326 progress: -1 199695 lijk
+TD95 [0 : 99727 : 199695] ex? ␅
+TD2766503 ␆a
+TD84 [0 : 99727 : 199695] ex? a
+TD95 progress: 1 99727 ex
+TD85 [99728 : 149421 : 199695] huis? ␅
+TD1514283 ␆a
+TD186 [99728 : 149421 : 199695] huis? a
+TD192 progress: 1 149421 huis
+TD218 [149422 : 174528 : 199695] kind? ␅
+TD1789091 ␆a
+TD99 [149422 : 174528 : 199695] kind? a
+TD158 progress: 1 174528 kind
+TD234 [174529 : 187109 : 199695] kronen? ␅
+TD1343366 ␆a
+TD92 [174529 : 187109 : 199695] kronen? a
+TD100 progress: 1 187109 kronen
+TD116 [187110 : 190333 : 199695] la? ␅
+TD1511715 ␆b
+TD98 [187110 : 190333 : 199695] la? b
+TD105 progress: -1 190333 la
+TD169 [187110 : 188251 : 190333] kunst? ␅
+TD1351881 ␆a
+TD106 [187110 : 188251 : 190333] kunst? a
+TD106 progress: 1 188251 kunst
+TD113 [188252 : 189274 : 190333] kwakkel? ␅
+TD2119974 ␆b
+TD102 [188252 : 189274 : 190333] kwakkel? b
+TD105 progress: -1 189274 kwakkel
+TD278 [188252 : 188739 : 189274] kunststof? ␅
+TD1511150 ␆b
+TD97 [188252 : 188739 : 189274] kunststof? b
+TD99 progress: -1 188739 kunststof
+TD213 [188252 : 188496 : 188739] kunstig? ␅
+TD1943588 ␆b
+TD96 [188252 : 188496 : 188739] kunstig? b
+TD102 progress: -1 188496 kunstig
+TD106 [188252 : 188358 : 188496] kunstenaars? ␅
+TD1503587 ␆b
+TD81 [188252 : 188358 : 188496] kunstenaars? b
+TD82 progress: -1 188358 kunstenaars
+TD191 [188252 : 188306 : 188358] kunstbloem? ␅
+TD1375873 ␆a
+TD101 [188252 : 188306 : 188358] kunstbloem? a
+TD85 progress: 1 188306 kunstbloem
+TD201 [188307 : 188332 : 188358] kunstcommissies? ␅
+TD1367949 ␆a
+TD97 [188307 : 188332 : 188358] kunstcommissies? a
+TD83 progress: 1 188332 kunstcommissies
+TD184 [188333 : 188345 : 188358] kunstdocent? ␅
+TD1375322 ␆a
+TD94 [188333 : 188345 : 188358] kunstdocent? a
+TD101 progress: 1 188345 kunstdocent
+TD268 [188346 : 188352 : 188358] kunstelite? ␅
+TD1359716 ␆a
+TD97 [188346 : 188352 : 188358] kunstelite? a
+TD101 progress: 1 188352 kunstelite
+TD164 [188353 : 188355 : 188358] kunsten? ␅
+TD1471434 ␆a
+TD98 [188353 : 188355 : 188358] kunsten? a
+TD103 progress: 1 188355 kunsten
+TD164 [188356 : 188357 : 188358] kunstenaar? ␅
+TD1759940 ␆it
+TD117 [188356 : 188357 : 188358] kunstenaar? it
+TD110 progress: 0 188357 kunstenaar
+TD25 [188356 : 188357 : 188358] <Done>.
+TD101 📋> ␅
+TD2687590 ␆🧩 Puzzel #575
+TD77 📋> 🧩 Puzzel #575
+TD8 📋> ␅
+TD59 ␆🤔 17 gokken
+TD3 📋> 🤔 17 gokken
+TD3 📋> ␅
+TD7 ␆⏱️ 32s
+TD3 📋> ⏱️ 32s
+TD2 📋> ␅
+TD319726 ␆🔗 alfagok.diginaut.net
+TD81 📋> 🔗 alfagok.diginaut.net
+TD7 📋> ␅
+TD208281 ␄
+TD186 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #575\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD705 result: "\ud83e\udde9 Puzzel #575\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"
+TD21 result puzzle: 575
+TD9 result guesses: 17
+TD6 result time: 32s
+TD5 result link: alfagok.diginaut.net
+TD91 📆 2026-05-31 ? ␅
+TD254493 ␆
+TD85 📆 2026-05-31 ? 
