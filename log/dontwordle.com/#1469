@@ -1,0 +1,128 @@
+T83648.906969941 now: 2026-06-01T08:47:29EDT
+TD84 site: dontwordle.com
+TD30 wordlist: nwl2023.txt
+TD25  ...␅
+TD454735 ␆
+TD88  ...
+TD160 1> ␅
+TD5392497 ␆* -bot 10
+TD119 1> * -bot 10
+TD357915 ? ␅
+TD761401 ␆1
+TD112 ? 1
+TD491 📋 "taser" ? ␅
+TD4351269 ␆nMnMM
+TD88 📋 "taser" ? nMnMM
+TD671 tried: TASER n m n m m
+TD160 2> ␅
+TD2479080 ␆undo
+TD81 2> undo
+TD116 undo
+TD154 1> ␅
+TD2791508 ␆*
+TD111 1> *
+TD85913 ? ␅
+TD129776 ␆1
+TD71 ? 1
+TD176 📋 "butut" ? ␅
+TD3776107 ␆nnnnn
+TD97 📋 "butut" ? nnnnn
+TD217 tried: BUTUT n n n n n
+TD182 2> ␅
+TD1583801 ␆*
+TD96 2> *
+TD95089 ? ␅
+TD769049 ␆1
+TD106 ? 1
+TD242 📋 "doody" ? ␅
+TD3903069 ␆nnnnn
+TD102 📋 "doody" ? nnnnn
+TD204 tried: DOODY n n n n n
+TD178 3> ␅
+TD391481 ␆*
+TD100 3> *
+TD92775 ? ␅
+TD747157 ␆1
+TD97 ? 1
+TD228 📋 "civic" ? ␅
+TD6263867 ␆nMnnn
+TD75 📋 "civic" ? nMnnn
+TD150 tried: CIVIC n m n n n
+TD147 4> ␅
+TD599389 ␆undo
+TD98 4> undo
+TD143 undo
+TD234 3> ␅
+TD2367517 ␆*
+TD77 3> *
+TD229422 📋 "grrrl" ? ␅
+TD394669 ␆1
+TD97 📋 "grrrl" ? 1
+TD249 📋 "grrrl" ? ␅
+TD5784452 ␆nnnYn
+TD111 📋 "grrrl" ? nnnYn
+TD201 tried: GRRRL n n n Y n
+TD197 4> ␅
+TD990705 ␆*
+TD78 4> *
+TD266681 ? ␅
+TD814136 ␆1
+TD96 ? 1
+TD234 📋 "ewers" ? ␅
+TD4910937 ␆MnnYn
+TD78 📋 "ewers" ? MnnYn
+TD147 tried: EWERS m n n Y n
+TD135 5> ␅
+TD383455 ␆*
+TD80 5> *
+TD184012 ? ␅
+TD1808007 ␆1
+TD97 ? 1
+TD249 📋 "chare" ? ␅
+TD5215731 ␆nnMYY
+TD95 📋 "chare" ? nnMYY
+TD207 tried: CHARE n n m Y Y
+TD247 6> ␅
+TD359163 ␆*
+TD72 6> *
+TD176266 ? ␅
+TD1984260 ␆1
+TD91 ? 1
+TD229 📋 "afire" ? ␅
+TD4351379 ␆YYYYY
+TD81 📋 "afire" ? YYYYY
+TD149 tried: AFIRE Y Y Y Y Y
+TD130 📋> ␅
+TD2751954 ␆Don't Wordle 1469 - WORDLED
+TD92 📋> Don't Wordle 1469 - WORDLED
+TD13 📋> ␅
+TD38 ␆I must admit that I Wordled!
+TD7 📋> I must admit that I Wordled!
+TD6 📋> ␅
+TD23 ␆⬜⬜⬜⬜⬜7042
+TD6 📋> ⬜⬜⬜⬜⬜7042
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜3007
+TD5 📋> ⬜⬜⬜⬜⬜3007
+TD4 📋> ␅
+TD11 ␆⬜⬜⬜🟩⬜121
+TD5 📋> ⬜⬜⬜🟩⬜121
+TD4 📋> ␅
+TD11 ␆🟨⬜⬜🟩⬜10
+TD5 📋> 🟨⬜⬜🟩⬜10
+TD4 📋> ␅
+TD10 ␆⬜⬜🟨🟩🟩5
+TD4 📋> ⬜⬜🟨🟩🟩5
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩0
+TD4 📋> 🟩🟩🟩🟩🟩0
+TD4 📋> ␅
+TD263450 ␆Undos used: 2
+TD97 📋> Undos used: 2
+TD14 📋> ␅
+TD143810 ␄
+TD128 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1469 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7042\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3007\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c121\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\u2b1c10\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe95\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 2"}
+TD761 result: "Don't Wordle 1469 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7042\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3007\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c121\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\u2b1c10\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe95\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 2"
+TD65 📆 2026-06-01 ? ␅
+TD150947 ␆
+TD80 📆 2026-06-01 ? 
