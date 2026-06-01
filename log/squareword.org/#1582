@@ -1,0 +1,232 @@
+T84111.88630793 now: 2026-06-01T08:55:12EDT
+TD74 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD24  ...␅
+TD3439177 ␆
+TD72  ...
+TD48 🧩  ? ␅
+TD1615872 ␆#1582
+TD105 🧩  ? #1582
+TD198 puzzle_id: #1582
+TD151 > ␅
+TD423739 ␆
+TD87 > 
+TD355 > ␅
+TD479481 ␆*
+TD75 > *
+TD260535 try? ␅
+TD139171 ␆1
+TD63 try? 1
+TD198 questioning: ["raise", "#5"]
+TD153 #1 <IndexError>  📋 "raise" ? ␅
+TD5592404 ␆_A_S_ ~ AS
+TD71 #1 <IndexError>  📋 "raise" ? _A_S_ ~ AS
+TD679 attempt 0 RAISE n Y n Y n
+TD119 #2 <IndexError>  📋 "raise" ? ␅
+TD2158692 ␆_____ ~ S
+TD89 #2 <IndexError>  📋 "raise" ? _____ ~ S
+TD268 attempt 1 RAISE n n n m n
+TD123 #3 <IndexError>  📋 "raise" ? ␅
+TD1695427 ␆_____ ~ AI
+TD77 #3 <IndexError>  📋 "raise" ? _____ ~ AI
+TD178 attempt 2 RAISE n m m n n
+TD87 #4 <IndexError>  📋 "raise" ? ␅
+TD2751771 ␆R____ ~ RE
+TD75 #4 <IndexError>  📋 "raise" ? R____ ~ RE
+TD177 attempt 3 RAISE Y n n n m
+TD83 #5 <IndexError>  📋 "raise" ? ␅
+TD2119666 ␆___S_ ~ R
+TD83 #5 <IndexError>  📋 "raise" ? ___S_ ~ R
+TD180 attempt 4 RAISE m n n Y n
+TD212 ? ␅
+TD895508 ␆*
+TD94 ? *
+TD195 #6 <IndexError>  📋 "raise" ? ␅
+TD879797 ␆
+TD110 #6 <IndexError>  📋 "raise" ? 
+TD266 #6 <IndexError>  ? ␅
+TD943630 ␆
+TD76 #6 <IndexError>  ? 
+TD257 #6 <IndexError>  ? ␅
+TD688156 ␆
+TD82 #6 <IndexError>  ? 
+TD246 #6 <IndexError>  ? ␅
+TD367261 ␄
+TD108 question done
+TD217 > ␅
+TD687815 ␆
+TD73 > 
+TD292 > ␅
+TD631775 ␆*
+TD92 > *
+TD729395 try? ␅
+TD566111 ␆1
+TD93 try? 1
+TD294 questioning: ["hurst", "#5"]
+TD319 #1 _A_S_ -EIR  📋 "hurst" ? ␅
+TD6767729 ␆_A_S_ ~ AS
+TD107 #1 _A_S_ -EIR  📋 "hurst" ? _A_S_ ~ AS
+TD257 attempt 0 HURST n n n Y n
+TD146 #2 _____ ~S -AEIR  📋 "hurst" ? ␅
+TD2231189 ␆_____ ~ ST
+TD79 #2 _____ ~S -AEIR  📋 "hurst" ? _____ ~ ST
+TD181 attempt 1 HURST n n n m m
+TD106 #3 _____ ~AI -ERS  📋 "hurst" ? ␅
+TD2551918 ␆_____ ~ AIT
+TD103 #3 _____ ~AI -ERS  📋 "hurst" ? _____ ~ AIT
+TD260 attempt 2 HURST n n n n m
+TD150 #4 R____ ~E -AIS  📋 "hurst" ? ␅
+TD3191322 ␆R____ ~ RET
+TD99 #4 R____ ~E -AIS  📋 "hurst" ? R____ ~ RET
+TD254 attempt 3 HURST n n m n m
+TD160 #5 ___S_ ~R -AEI  📋 "hurst" ? ␅
+TD5127426 ␆___ST ~ R
+TD99 #5 ___S_ ~R -AEI  📋 "hurst" ? ___ST ~ R
+TD259 attempt 4 HURST n n m Y Y
+TD361 ? ␅
+TD415291 ␆
+TD96 ? 
+TD141 question done
+TD320 > ␅
+TD407422 ␆*
+TD96 > *
+TD560496 try? ␅
+TD4615399 ␆2
+TD96 try? 2
+TD289 questioning: ["retro", "#4"]
+TD339 #1 _A_S_ -EHIRTU  📋 "retro" ? ␅
+TD6031529 ␆_A_S_ ~ AS
+TD78 #1 _A_S_ -EHIRTU  📋 "retro" ? _A_S_ ~ AS
+TD179 attempt 0 RETRO n n n n n
+TD120 #2 _____ ~ST -AEHIRU  📋 "retro" ? ␅
+TD2599945 ␆_____ ~ STO
+TD80 #2 _____ ~ST -AEHIRU  📋 "retro" ? _____ ~ STO
+TD178 attempt 1 RETRO n n m n m
+TD106 #3 _____ ~AIT -EHRSU  📋 "retro" ? ␅
+TD2767373 ␆__T__ ~ AIT
+TD68 #3 _____ ~AIT -EHRSU  📋 "retro" ? __T__ ~ AIT
+TD184 attempt 2 RETRO n n Y n n
+TD103 #4 R____ ~ET -AHISU  📋 "retro" ? ␅
+TD1368360 ␆/it
+TD94 #4 R____ ~ET -AHISU  📋 "retro" ? /it
+TD201 attempt 3 RETRO Y Y Y Y Y
+TD72 #5 ___ST ~R -AEHIU  📋 "retro" ? ␅
+TD2800334 ␆___ST ~ RO
+TD78 #5 ___ST ~R -AEHIU  📋 "retro" ? ___ST ~ RO
+TD180 attempt 4 RETRO m n n m m
+TD212 ? ␅
+TD222073 ␆
+TD97 ? 
+TD127 question done
+TD333 > ␅
+TD424023 ␆*
+TD79 > *
+TD713784 try? ␅
+TD1357536 ␆1
+TD80 try? 1
+TD221 questioning: ["frost", "#5"]
+TD222 #1 _A_S_ -EHIORTU  📋 "frost" ? ␅
+TD6568830 ␆_A_S_ ~ AS
+TD96 #1 _A_S_ -EHIORTU  📋 "frost" ? _A_S_ ~ AS
+TD241 attempt 0 FROST n n n Y n
+TD144 #2 _____ ~OST -AEHIRU  📋 "frost" ? ␅
+TD2718276 ␆__O__ ~ ST
+TD106 #2 _____ ~OST -AEHIRU  📋 "frost" ? __O__ ~ ST
+TD264 attempt 1 FROST n n Y m m
+TD156 #3 __T__ ~AI -EHORSU  📋 "frost" ? ␅
+TD4800767 ␆__T__ ~ AIT
+TD100 #3 __T__ ~AI -EHORSU  📋 "frost" ? __T__ ~ AIT
+TD267 attempt 2 FROST n n n n m
+TD165 #5 ___ST ~OR -AEHITU  📋 "frost" ? ␅
+TD622300 ␆/it
+TD73 #5 ___ST ~OR -AEHITU  📋 "frost" ? /it
+TD188 attempt 4 FROST Y Y Y Y Y
+TD177 ? ␅
+TD391482 ␆
+TD98 ? 
+TD175 question done
+TD374 > ␅
+TD671339 ␆*
+TD98 > *
+TD1171625 questioning: ["salsa", "#1"]
+TD206 #1 _A_S_ -EFHIORTU  📋 "salsa" ? ␅
+TD2884006 ␆/it
+TD97 #1 _A_S_ -EFHIORTU  📋 "salsa" ? /it
+TD257 attempt 0 SALSA Y Y Y Y Y
+TD102 #2 __O__ ~ST -AEFHIRU  📋 "salsa" ? ␅
+TD3807955 ␆__O__ ~ STL
+TD98 #2 __O__ ~ST -AEFHIRU  📋 "salsa" ? __O__ ~ STL
+TD235 attempt 1 SALSA m n m m n
+TD148 #3 __T__ ~AI -EFHORSU  📋 "salsa" ? ␅
+TD2999922 ␆__T__ ~ AIT
+TD97 #3 __T__ ~AI -EFHORSU  📋 "salsa" ? __T__ ~ AIT
+TD174 attempt 2 SALSA n m n n m
+TD227 ? ␅
+TD254788 ␆
+TD86 ? 
+TD98 question done
+TD194 > ␅
+TD799746 ␆*
+TD89 > *
+TD1387037 questioning: ["clots", "#2"]
+TD190 #2 __O__ ~LST -AEFHIRU  📋 "clots" ? ␅
+TD3028462 ␆/it
+TD96 #2 __O__ ~LST -AEFHIRU  📋 "clots" ? /it
+TD263 attempt 1 CLOTS Y Y Y Y Y
+TD100 #3 __T__ ~AI -EFHLORSU  📋 "clots" ? ␅
+TD3207746 ␆__T__ ~ AITC
+TD80 #3 __T__ ~AI -EFHLORSU  📋 "clots" ? __T__ ~ AITC
+TD180 attempt 2 CLOTS m n n m n
+TD207 ? ␅
+TD495475 ␆
+TD106 ? 
+TD123 question done
+TD315 > ␅
+TD671439 ␆*
+TD84 > *
+TD978167 questioning: ["attic", "#3"]
+TD187 #3 __T__ ~ACI -EFHLORSU  📋 "attic" ? ␅
+TD2837575 ␆/it
+TD101 #3 __T__ ~ACI -EFHLORSU  📋 "attic" ? /it
+TD247 attempt 2 ATTIC Y Y Y Y Y
+TD290 ? ␅
+TD1327454 ␆
+TD74 ? 
+TD82 question done
+TD22423 📋> ␅
+TD5410570 ␆squareword.org 1582: 7 guesses
+TD101 📋> squareword.org 1582: 7 guesses
+TD13 📋> ␅
+TD46 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟨🟨🟩🟨🟨
+TD5 📋> 🟨🟨🟩🟨🟨
+TD4 📋> ␅
+TD10 ␆🟨🟨🟩🟨🟨
+TD4 📋> 🟨🟨🟩🟨🟨
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD287056 ␆#squareword #squareword1582
+TD100 📋> #squareword #squareword1582
+TD13 📋> ␅
+TD127534 ␄
+TD184 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1582: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1582"}
+TD1076 result: "squareword.org 1582: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1582"
+TD69 📆 2026-06-01 ? ␅
+TD142611 ␆
+TD97 📆 2026-06-01 ? 
