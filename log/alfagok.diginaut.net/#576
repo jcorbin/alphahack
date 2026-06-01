@@ -1,0 +1,70 @@
+T83589.41863532602 now: 2026-06-01T08:46:29EDT
+TD141 site: alfagok.diginaut.net
+TD772602 loaded 399567 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1285 words excluded) asof c14faf990e7d97065a1242d6bf3401d93be39613
+TD232  ...␅
+TD5369672 ␆
+TD94  ...
+TD6663 [0 : 199689 : 399567] lijk? ␅
+TD1985680 ␆a
+TD95 [0 : 199689 : 399567] lijk? a
+TD469 progress: 1 199689 lijk
+TD118 [199690 : 299441 : 399567] schro? ␅
+TD1278715 ␆b
+TD96 [199690 : 299441 : 399567] schro? b
+TD116 progress: -1 299441 schro
+TD109 [199690 : 247660 : 299441] op? ␅
+TD1424077 ␆b
+TD92 [199690 : 247660 : 299441] op? b
+TD98 progress: -1 247660 op
+TD97 [199690 : 223667 : 247660] molens? ␅
+TD1247625 ␆a
+TD109 [199690 : 223667 : 247660] molens? a
+TD111 progress: 1 223667 molens
+TD132 [223668 : 235662 : 247660] odalisk? ␅
+TD1319648 ␆b
+TD94 [223668 : 235662 : 247660] odalisk? b
+TD90 progress: -1 235662 odalisk
+TD108 [223668 : 229567 : 235662] natuur? ␅
+TD1344430 ␆b
+TD96 [223668 : 229567 : 235662] natuur? b
+TD107 progress: -1 229567 natuur
+TD105 [223668 : 226591 : 229567] museum? ␅
+TD1390971 ␆b
+TD99 [223668 : 226591 : 229567] museum? b
+TD94 progress: -1 226591 museum
+TD105 [223668 : 225078 : 226591] mos? ␅
+TD1383646 ␆b
+TD204 [223668 : 225078 : 226591] mos? b
+TD96 progress: -1 225078 mos
+TD99 [223668 : 224287 : 225078] monster? ␅
+TD1344061 ␆b
+TD92 [223668 : 224287 : 225078] monster? b
+TD96 progress: -1 224287 monster
+TD102 [223668 : 223889 : 224287] mond? ␅
+TD1839374 ␆it
+TD86 [223668 : 223889 : 224287] mond? it
+TD99 progress: 0 223889 mond
+TD17 [223668 : 223889 : 224287] <Done>.
+TD81 📋> ␅
+TD3080693 ␆🧩 Puzzel #576
+TD87 📋> 🧩 Puzzel #576
+TD9 📋> ␅
+TD36 ␆🤔 10 gokken
+TD5 📋> 🤔 10 gokken
+TD4 📋> ␅
+TD8 ␆⏱️ 12s
+TD4 📋> ⏱️ 12s
+TD3 📋> ␅
+TD246627 ␆🔗 alfagok.diginaut.net
+TD82 📋> 🔗 alfagok.diginaut.net
+TD8 📋> ␅
+TD112463 ␄
+TD160 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #576\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 12s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD661 result: "\ud83e\udde9 Puzzel #576\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 12s\n\ud83d\udd17 alfagok.diginaut.net"
+TD529 result puzzle: 576
+TD7 result guesses: 10
+TD4 result time: 12s
+TD3 result link: alfagok.diginaut.net
+TD79 📆 2026-06-01 ? ␅
+TD126205 ␆
+TD87 📆 2026-06-01 ? 
