@@ -1,0 +1,93 @@
+T169560.42081909103 now: 2026-06-02T08:39:20EDT
+TD168 site: alphaguess.com
+TD222154 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof c14faf990e7d97065a1242d6bf3401d93be39613
+TD143  ...␅
+TD98 ␆
+TD3  ...
+TD90 [0 : 98216 : 196522] mach? ␅
+TD5336343 ␆
+TD109 [0 : 98216 : 196522] mach? 
+TD114 [0 : 98216 : 196522] mach? ␅
+TD2735763 ␆a
+TD111 [0 : 98216 : 196522] mach? a
+TD127 progress: 1 98216 mach
+TD235 [98217 : 147366 : 196522] rhotic? ␅
+TD1511564 ␆a
+TD135 [98217 : 147366 : 196522] rhotic? a
+TD134 progress: 1 147366 rhotic
+TD147 [147367 : 171636 : 196522] ta? ␅
+TD1471548 ␆b
+TD136 [147367 : 171636 : 196522] ta? b
+TD144 progress: -1 171636 ta
+TD137 [147367 : 159483 : 171636] slop? ␅
+TD1367402 ␆b
+TD132 [147367 : 159483 : 171636] slop? b
+TD136 progress: -1 159483 slop
+TD147 [147367 : 153315 : 159483] sea? ␅
+TD1231709 ␆a
+TD103 [147367 : 153315 : 159483] sea? a
+TD112 progress: 1 153315 sea
+TD116 [153316 : 156351 : 159483] ship? ␅
+TD1391519 ␆b
+TD74 [153316 : 156351 : 159483] ship? b
+TD72 progress: -1 156351 ship
+TD148 [153316 : 154830 : 156351] sequence? ␅
+TD1279995 ␆a
+TD95 [153316 : 154830 : 156351] sequence? a
+TD101 progress: 1 154830 sequence
+TD103 [154831 : 155429 : 156351] sha? ␅
+TD1191619 ␆a
+TD96 [154831 : 155429 : 156351] sha? a
+TD99 progress: 1 155429 sha
+TD108 [155430 : 155881 : 156351] shaw? ␅
+TD1279891 ␆b
+TD102 [155430 : 155881 : 156351] shaw? b
+TD102 progress: -1 155881 shaw
+TD105 [155430 : 155649 : 155881] shame? ␅
+TD1399296 ␆b
+TD104 [155430 : 155649 : 155881] shame? b
+TD102 progress: -1 155649 shame
+TD113 [155430 : 155526 : 155649] shag? ␅
+TD1527754 ␆a
+TD99 [155430 : 155526 : 155649] shag? a
+TD104 progress: 1 155526 shag
+TD237 [155527 : 155587 : 155649] shako? ␅
+TD1279592 ␆a
+TD74 [155527 : 155587 : 155649] shako? a
+TD84 progress: 1 155587 shako
+TD160 [155588 : 155618 : 155649] shalt? ␅
+TD1327646 ␆b
+TD86 [155588 : 155618 : 155649] shalt? b
+TD81 progress: -1 155618 shalt
+TD82 [155588 : 155600 : 155618] shall? ␅
+TD2040080 ␆a
+TD89 [155588 : 155600 : 155618] shall? a
+TD107 progress: 1 155600 shall
+TD130 [155601 : 155607 : 155618] shallow? ␅
+TD2679523 ␆it
+TD96 [155601 : 155607 : 155618] shallow? it
+TD109 progress: 0 155607 shallow
+TD24 [155601 : 155607 : 155618] <Done>.
+TD83 📋> ␅
+TD3168185 ␆🧩 Puzzle #1044
+TD110 📋> 🧩 Puzzle #1044
+TD12 📋> ␅
+TD43 ␆🤔 15 guesses
+TD7 📋> 🤔 15 guesses
+TD27 📋> ␅
+TD14 ␆⏱️ 19s
+TD6 📋> ⏱️ 19s
+TD5 📋> ␅
+TD287724 ␆🔗 alphaguess.com/1044
+TD93 📋> 🔗 alphaguess.com/1044
+TD13 📋> ␅
+TD167440 ␄
+TD137 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1044\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/1044"}
+TD73 result: "\ud83e\udde9 Puzzle #1044\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/1044"
+TD7 result puzzle: 1044
+TD4 result guesses: 15
+TD3 result time: 19s
+TD2 result link: alphaguess.com/1044
+TD66 📆 2026-06-02 ? ␅
+TD167714 ␆
+TD101 📆 2026-06-02 ? 
