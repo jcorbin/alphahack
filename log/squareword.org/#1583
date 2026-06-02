@@ -1,0 +1,242 @@
+T170458.78391044604 now: 2026-06-02T08:54:18EDT
+TD78 site: squareword.org
+TD30 wordlist: nwl2023.txt
+TD38  ...␅
+TD614319 ␆
+TD80  ...
+TD58 🧩  ? ␅
+TD8327718 ␆#1583
+TD62 🧩  ? #1583
+TD240 puzzle_id: #1583
+TD288 > ␅
+TD3511594 ␆
+TD69 > 
+TD379 > ␅
+TD879413 ␆*
+TD89 > *
+TD126056 try? ␅
+TD906007 ␆1
+TD99 try? 1
+TD509 questioning: ["snare", "#5"]
+TD383 #1 <IndexError>  📋 "snare" ? ␅
+TD4174935 ␆S____ ~ E
+TD99 #1 <IndexError>  📋 "snare" ? S____ ~ E
+TD707 attempt 0 SNARE Y n n n m
+TD96 #2 <IndexError>  📋 "snare" ? ␅
+TD1879008 ␆_____ ~ AR
+TD77 #2 <IndexError>  📋 "snare" ? _____ ~ AR
+TD181 attempt 1 SNARE n n m m n
+TD86 #3 <IndexError>  📋 "snare" ? ␅
+TD2199605 ␆____E ~ SA
+TD77 #3 <IndexError>  📋 "snare" ? ____E ~ SA
+TD184 attempt 2 SNARE m n m n Y
+TD88 #4 <IndexError>  📋 "snare" ? ␅
+TD2567725 ␆____E
+TD91 #4 <IndexError>  📋 "snare" ? ____E
+TD201 attempt 3 SNARE n n n n Y
+TD95 #5 <IndexError>  📋 "snare" ? ␅
+TD3527723 ␆S____ ~ E
+TD97 #5 <IndexError>  📋 "snare" ? S____ ~ E
+TD249 attempt 4 SNARE Y n n n m
+TD428 ? ␅
+TD335186 ␆
+TD73 ? 
+TD111 question done
+TD199 > ␅
+TD503554 ␆*
+TD93 > *
+TD1933406 try? ␅
+TD1698493 ␆1
+TD95 try? 1
+TD247 questioning: ["paste", "#3"]
+TD228 #1 S____ ~E -ANR  📋 "paste" ? ␅
+TD5479506 ␆S____ ~ EPT
+TD100 #1 S____ ~E -ANR  📋 "paste" ? S____ ~ EPT
+TD271 attempt 0 PASTE m n n m m
+TD152 #2 _____ ~AR -ENS  📋 "paste" ? ␅
+TD2831626 ␆P____ ~ AR
+TD75 #2 _____ ~AR -ENS  📋 "paste" ? P____ ~ AR
+TD181 attempt 1 PASTE Y m n n n
+TD103 #3 ____E ~AS -NR  📋 "paste" ? ␅
+TD1679335 ␆.
+TD72 #3 ____E ~AS -NR  📋 "paste" ? .
+TD206 attempt 2 PASTE n m m n Y
+TD72 #4 ____E -ANRS  📋 "paste" ? ␅
+TD2439758 ␆____E ~ T
+TD78 #4 ____E -ANRS  📋 "paste" ? ____E ~ T
+TD187 attempt 3 PASTE n n n m Y
+TD201 #5 S____ ~E -ANR  📋 "paste" ? ␅
+TD2799607 ␆S____ ~ ET
+TD99 #5 S____ ~E -ANR  📋 "paste" ? S____ ~ ET
+TD264 attempt 4 PASTE n n n m m
+TD340 ? ␅
+TD255236 ␆
+TD79 ? 
+TD94 question done
+TD193 > ␅
+TD471500 ␆*
+TD74 > *
+TD2052500 try? ␅
+TD2299771 ␆2
+TD103 try? 2
+TD284 questioning: ["polar", "#2"]
+TD333 #1 S____ ~EPT -ANRS  📋 "polar" ? ␅
+TD5007148 ␆S____ ~ EPTL
+TD99 #1 S____ ~EPT -ANRS  📋 "polar" ? S____ ~ EPTL
+TD264 attempt 0 POLAR m n m n n
+TD162 #2 P____ ~AR -ENST  📋 "polar" ? ␅
+TD903459 ␆/it
+TD86 #2 P____ ~AR -ENST  📋 "polar" ? /it
+TD300 attempt 1 POLAR Y Y Y Y Y
+TD77 #3 ____E ~AS -NPRT  📋 "polar" ? ␅
+TD1471475 ␆.
+TD94 #3 ____E ~AS -NPRT  📋 "polar" ? .
+TD293 attempt 2 POLAR n n n m n
+TD98 #4 ____E ~T -ANPRS  📋 "polar" ? ␅
+TD2767564 ␆____E ~ TL
+TD113 #4 ____E ~T -ANPRS  📋 "polar" ? ____E ~ TL
+TD259 attempt 3 POLAR n n m n n
+TD152 #5 S____ ~ET -ANPRS  📋 "polar" ? ␅
+TD1103633 ␆.
+TD109 #5 S____ ~ET -ANPRS  📋 "polar" ? .
+TD273 attempt 4 POLAR n n n n n
+TD297 ? ␅
+TD175061 ␆
+TD71 ? 
+TD84 question done
+TD195 > ␅
+TD1655678 ␆*
+TD232 > *
+TD2868593 try? ␅
+TD1275269 ␆1
+TD104 try? 1
+TD403 questioning: ["slept", "#1"]
+TD294 #1 S____ ~ELPT -ANORS  📋 "slept" ? ␅
+TD6719091 ␆S_E_T ~ PL
+TD98 #1 S____ ~ELPT -ANORS  📋 "slept" ? S_E_T ~ PL
+TD264 attempt 0 SLEPT Y m Y m Y
+TD157 #3 ____E ~AS -LNOPRT  📋 "slept" ? ␅
+TD1247456 ␆.
+TD96 #3 ____E ~AS -LNOPRT  📋 "slept" ? .
+TD217 attempt 2 SLEPT m n n n n
+TD75 #4 ____E ~LT -ANOPRS  📋 "slept" ? ␅
+TD735957 ␆.
+TD82 #4 ____E ~LT -ANOPRS  📋 "slept" ? .
+TD197 attempt 3 SLEPT n m n n m
+TD72 #5 S____ ~ET -ALNOPRS  📋 "slept" ? ␅
+TD2935436 ␆S_E__ ~ ET
+TD91 #5 S____ ~ET -ALNOPRS  📋 "slept" ? S_E__ ~ ET
+TD257 attempt 4 SLEPT Y n Y n m
+TD343 ? ␅
+TD447332 ␆
+TD98 ? 
+TD139 question done
+TD192 > ␅
+TD775448 ␆*
+TD74 > *
+TD2745682 questioning: ["spelt", "#1"]
+TD199 #1 S_E_T ~LP -ANOR  📋 "spelt" ? ␅
+TD3790044 ␆/it
+TD98 #1 S_E_T ~LP -ANOR  📋 "spelt" ? /it
+TD268 attempt 0 SPELT Y Y Y Y Y
+TD104 #3 ____E ~AS -ELNOPRT  📋 "spelt" ? ␅
+TD7336767 ␆.
+TD134 #3 ____E ~AS -ELNOPRT  📋 "spelt" ? .
+TD269 attempt 2 SPELT m n n n n
+TD103 #4 ____E ~LT -AENOPRS  📋 "spelt" ? ␅
+TD3174295 ␆___LE ~ T
+TD98 #4 ____E ~LT -AENOPRS  📋 "spelt" ? ___LE ~ T
+TD216 attempt 3 SPELT n n n Y m
+TD118 #5 S_E__ ~T -ALNOPR  📋 "spelt" ? ␅
+TD4007539 ␆S_E__ ~ ET
+TD80 #5 S_E__ ~T -ALNOPR  📋 "spelt" ? S_E__ ~ ET
+TD182 attempt 4 SPELT Y n Y n m
+TD214 ? ␅
+TD231524 ␆
+TD83 ? 
+TD95 question done
+TD293 > ␅
+TD479503 ␆*
+TD75 > *
+TD2295785 questioning: ["aside", "#3"]
+TD201 #3 ____E ~AS -ELNOPRT  📋 "aside" ? ␅
+TD4632094 ␆/it
+TD97 #3 ____E ~AS -ELNOPRT  📋 "aside" ? /it
+TD265 attempt 2 ASIDE Y Y Y Y Y
+TD104 #4 ___LE ~T -AENOPRS  📋 "aside" ? ␅
+TD2911362 ␆___LE ~ TI
+TD90 #4 ___LE ~T -AENOPRS  📋 "aside" ? ___LE ~ TI
+TD5441 attempt 3 ASIDE n n m n Y
+TD128 #5 S_E__ ~T -ALNOPR  📋 "aside" ? ␅
+TD3730489 ␆S_E__ ~ ETD
+TD99 #5 S_E__ ~T -ALNOPR  📋 "aside" ? S_E__ ~ ETD
+TD266 attempt 4 ASIDE n n n m m
+TD368 ? ␅
+TD519319 ␆
+TD100 ? 
+TD137 question done
+TD321 > ␅
+TD631299 ␆*
+TD95 > *
+TD1701301 questioning: ["title", "#4"]
+TD202 #4 ___LE ~IT -ADNOPRS  📋 "title" ? ␅
+TD2730284 ␆/it
+TD80 #4 ___LE ~IT -ADNOPRS  📋 "title" ? /it
+TD240 attempt 3 TITLE Y Y Y Y Y
+TD81 #5 S_E__ ~DT -AILNOPRS  📋 "title" ? ␅
+TD4007499 ␆S_E__ ~ ETD
+TD81 #5 S_E__ ~DT -AILNOPRS  📋 "title" ? S_E__ ~ ETD
+TD184 attempt 4 TITLE m n m n m
+TD226 ? ␅
+TD271677 ␆
+TD81 ? 
+TD91 question done
+TD191 > ␅
+TD399616 ␆*
+TD94 > *
+TD1189576 questioning: ["steed", "#5"]
+TD202 #5 S_E__ ~DT -AILNOPRS  📋 "steed" ? ␅
+TD2746070 ␆/it
+TD100 #5 S_E__ ~DT -AILNOPRS  📋 "steed" ? /it
+TD251 attempt 4 STEED Y Y Y Y Y
+TD221 ? ␅
+TD2280185 ␆
+TD101 ? 
+TD110 question done
+TD35447 📋> ␅
+TD3652188 ␆squareword.org 1583: 8 guesses
+TD78 📋> squareword.org 1583: 8 guesses
+TD9 📋> ␅
+TD38 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD8 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD8 ␆🟨🟨🟨🟩🟩
+TD2 📋> 🟨🟨🟨🟩🟩
+TD2 📋> ␅
+TD8 ␆🟩🟨🟩🟨🟨
+TD2 📋> 🟩🟨🟩🟨🟨
+TD2 📋> ␅
+TD8 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD399226 ␆#squareword #squareword1583
+TD76 📋> #squareword #squareword1583
+TD8 📋> ␅
+TD215827 ␄
+TD128 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1583: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1583"}
+TD990 result: "squareword.org 1583: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1583"
+TD68 📆 2026-06-02 ? ␅
+TD207025 ␆
+TD103 📆 2026-06-02 ? 
