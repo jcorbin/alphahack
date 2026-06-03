@@ -1,0 +1,230 @@
+T775.6489742799895 now: 2026-06-03T09:32:49EDT
+TD77 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD24  ...␅
+TD1790974 ␆
+TD100  ...
+TD75 🧩  ? ␅
+TD14143664 ␆#1584
+TD100 🧩  ? #1584
+TD278 puzzle_id: #1584
+TD289 > ␅
+TD4591290 ␆*
+TD80 > *
+TD255179 try? ␅
+TD7321315 ␆1
+TD69 try? 1
+TD206 questioning: ["tears", "#5"]
+TD161 #1 <IndexError>  📋 "tears" ? ␅
+TD44191541 ␆_____ ~ S
+TD70 #1 <IndexError>  📋 "tears" ? _____ ~ S
+TD386 attempt 0 TEARS n n n n m
+TD72 #2 <IndexError>  📋 "tears" ? ␅
+TD2383994 ␆_____ ~ AR
+TD93 #2 <IndexError>  📋 "tears" ? _____ ~ AR
+TD280 attempt 1 TEARS n n m m n
+TD128 #3 <IndexError>  📋 "tears" ? ␅
+TD2399751 ␆__A__ ~ EA
+TD104 #3 <IndexError>  📋 "tears" ? __A__ ~ EA
+TD262 attempt 2 TEARS n m Y n n
+TD126 #4 <IndexError>  📋 "tears" ? ␅
+TD4286902 ␆____S ~ TEAR
+TD94 #4 <IndexError>  📋 "tears" ? ____S ~ TEAR
+TD242 attempt 3 TEARS m m m m Y
+TD122 #5 <IndexError>  📋 "tears" ? ␅
+TD2471961 ␆TE___ ~ TE
+TD99 #5 <IndexError>  📋 "tears" ? TE___ ~ TE
+TD266 attempt 4 TEARS Y Y n n n
+TD368 ? ␅
+TD39095357 ␆
+TD101 ? 
+TD149 question done
+TD312 > ␅
+TD3743606 ␆*
+TD106 > *
+TD842477 questioning: ["rates", "#4"]
+TD184 #1 _____ ~S -AERT  📋 "rates" ? ␅
+TD6821015 ␆.
+TD98 #1 _____ ~S -AERT  📋 "rates" ? .
+TD279 attempt 0 RATES n n n n m
+TD102 #2 _____ ~AR -EST  📋 "rates" ? ␅
+TD1071736 ␆.
+TD91 #2 _____ ~AR -EST  📋 "rates" ? .
+TD281 attempt 1 RATES m m n n n
+TD97 #3 __A__ ~E -RST  📋 "rates" ? ␅
+TD3639523 ␆__A__ ~ EA
+TD73 #3 __A__ ~E -RST  📋 "rates" ? __A__ ~ EA
+TD176 attempt 2 RATES n m n m n
+TD97 #4 ____S ~AERT  📋 "rates" ? ␅
+TD807503 ␆/it
+TD79 #4 ____S ~AERT  📋 "rates" ? /it
+TD192 attempt 3 RATES Y Y Y Y Y
+TD69 #5 TE___ -ARS  📋 "rates" ? ␅
+TD5511751 ␆TE___ ~ TE
+TD72 #5 TE___ -ARS  📋 "rates" ? TE___ ~ TE
+TD178 attempt 4 RATES n n m m n
+TD212 ? ␅
+TD639653 ␆
+TD104 ? 
+TD130 question done
+TD416 > ␅
+TD2215392 ␆*
+TD95 > *
+TD631641 try? ␅
+TD4776248 ␆2
+TD78 try? 2
+TD219 questioning: ["teeth", "#5"]
+TD215 #1 _____ ~S -AERT  📋 "teeth" ? ␅
+TD3551417 ␆.
+TD84 #1 _____ ~S -AERT  📋 "teeth" ? .
+TD178 attempt 0 TEETH n n n n n
+TD68 #2 _____ ~AR -EST  📋 "teeth" ? ␅
+TD831651 ␆.
+TD63 #2 _____ ~AR -EST  📋 "teeth" ? .
+TD165 attempt 1 TEETH n n n n n
+TD58 #3 __A__ ~E -RST  📋 "teeth" ? ␅
+TD2655916 ␆__A__ ~ EA
+TD99 #3 __A__ ~E -RST  📋 "teeth" ? __A__ ~ EA
+TD259 attempt 2 TEETH n m m n n
+TD158 #5 TE___ -ARS  📋 "teeth" ? ␅
+TD623588 ␆/it
+TD97 #5 TE___ -ARS  📋 "teeth" ? /it
+TD251 attempt 4 TEETH Y Y Y Y Y
+TD275 ? ␅
+TD279701 ␆
+TD100 ? 
+TD112 question done
+TD246 > ␅
+TD535151 ␆*
+TD110 > *
+TD419630 try? ␅
+TD2740318 ␆3
+TD60 try? 3
+TD209 questioning: ["image", "#3"]
+TD312 #1 _____ ~S -AEHRT  📋 "image" ? ␅
+TD5999309 ␆_____ ~ SI
+TD68 #1 _____ ~S -AEHRT  📋 "image" ? _____ ~ SI
+TD185 attempt 0 IMAGE m n n n n
+TD104 #2 _____ ~AR -EHST  📋 "image" ? ␅
+TD2607711 ␆_____ ~ ARM
+TD73 #2 _____ ~AR -EHST  📋 "image" ? _____ ~ ARM
+TD159 attempt 1 IMAGE n m m n n
+TD95 #3 __A__ ~E -HRST  📋 "image" ? ␅
+TD2688058 ␆__A_E ~ A
+TD63 #3 __A__ ~E -HRST  📋 "image" ? __A_E ~ A
+TD163 attempt 2 IMAGE n n Y n Y
+TD171 ? ␅
+TD343450 ␆
+TD108 ? 
+TD162 question done
+TD327 > ␅
+TD2647288 ␆*
+TD89 > *
+TD621942 try? ␅
+TD3786078 ␆3
+TD84 try? 3
+TD225 questioning: ["evade", "#3"]
+TD224 #1 _____ ~IS -AEGHMRT  📋 "evade" ? ␅
+TD4911507 ␆.
+TD137 #1 _____ ~IS -AEGHMRT  📋 "evade" ? .
+TD262 attempt 0 EVADE n n n n n
+TD98 #2 _____ ~AMR -EGHIST  📋 "evade" ? ␅
+TD1071525 ␆.
+TD100 #2 _____ ~AMR -EGHIST  📋 "evade" ? .
+TD266 attempt 1 EVADE n n m n n
+TD100 #3 __A_E -GHIMRST  📋 "evade" ? ␅
+TD4151616 ␆__A_E ~ A
+TD88 #3 __A_E -GHIMRST  📋 "evade" ? __A_E ~ A
+TD245 attempt 2 EVADE n n Y n Y
+TD341 ? ␅
+TD271309 ␆
+TD81 ? 
+TD93 question done
+TD197 > ␅
+TD551638 ␆*
+TD96 > *
+TD1365307 try? ␅
+TD2538365 ␆2
+TD95 try? 2
+TD306 questioning: ["apace", "#3"]
+TD370 #1 _____ ~IS -ADEGHMRTV  📋 "apace" ? ␅
+TD4568024 ␆_P___ ~ SI
+TD95 #1 _____ ~IS -ADEGHMRTV  📋 "apace" ? _P___ ~ SI
+TD273 attempt 0 APACE n Y n n n
+TD171 #2 _____ ~AMR -DEGHISTV  📋 "apace" ? ␅
+TD814871 ␆.
+TD71 #2 _____ ~AMR -DEGHISTV  📋 "apace" ? .
+TD166 attempt 1 APACE m n m n n
+TD59 #3 __A_E -DGHIMRSTV  📋 "apace" ? ␅
+TD591567 ␆/it
+TD77 #3 __A_E -DGHIMRSTV  📋 "apace" ? /it
+TD162 attempt 2 APACE Y Y Y Y Y
+TD150 ? ␅
+TD176078 ␆
+TD73 ? 
+TD70 question done
+TD149 > ␅
+TD383424 ␆*
+TD67 > *
+TD1431417 questioning: ["spiff", "#1"]
+TD249 #1 _P___ ~IS -ACDEGHMRTV  📋 "spiff" ? ␅
+TD2760226 ␆/it
+TD104 #1 _P___ ~IS -ACDEGHMRTV  📋 "spiff" ? /it
+TD257 attempt 0 SPIFF Y Y Y Y Y
+TD109 #2 _____ ~AMR -CDEGHIPSTV  📋 "spiff" ? ␅
+TD903917 ␆.
+TD102 #2 _____ ~AMR -CDEGHIPSTV  📋 "spiff" ? .
+TD255 attempt 1 SPIFF n n n n n
+TD313 ? ␅
+TD150941 ␆
+TD103 ? 
+TD116 question done
+TD325 > ␅
+TD423566 ␆*
+TD81 > *
+TD798591 questioning: ["mural", "#2"]
+TD198 #2 _____ ~AMR -CDEFGHIPSTV  📋 "mural" ? ␅
+TD3377217 ␆/it
+TD98 #2 _____ ~AMR -CDEFGHIPSTV  📋 "mural" ? /it
+TD264 attempt 1 MURAL Y Y Y Y Y
+TD304 ? ␅
+TD743443 ␆
+TD71 ? 
+TD73 question done
+TD17094 📋> ␅
+TD5711103 ␆squareword.org 1584: 8 guesses
+TD66 📋> squareword.org 1584: 8 guesses
+TD7 📋> ␅
+TD37 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD10 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD1 📋> ␅
+TD6 ␆🟨🟨🟨🟨🟨
+TD1 📋> 🟨🟨🟨🟨🟨
+TD1 📋> ␅
+TD6 ␆🟨🟨🟩🟨🟩
+TD1 📋> 🟨🟨🟩🟨🟩
+TD1 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD6 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD279767 ␆#squareword #squareword1584
+TD95 📋> #squareword #squareword1584
+TD14 📋> ␅
+TD143552 ␄
+TD125 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1584: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1584"}
+TD968 result: "squareword.org 1584: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1584"
+TD55 📆 2026-06-03 ? ␅
+TD175183 ␆
+TD52 📆 2026-06-03 ? 
