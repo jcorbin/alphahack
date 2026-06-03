@@ -1,0 +1,157 @@
+T43.82372972898884 now: 2026-06-03T09:20:38EDT
+TD135 site: dontwordle.com
+TD24 wordlist: nwl2023.txt
+TD47  ...␅
+TD159333 ␆
+TD106  ...
+TD129 1> ␅
+TD823431 ␆
+TD100 1> 
+TD331 1> ␅
+TD3127048 ␆* -bot 10
+TD92 1> * -bot 10
+TD192147 ? ␅
+TD895765 ␆1
+TD69 ? 1
+TD186 📋 "seral" ? ␅
+TD3496816 ␆nnMnn
+TD98 📋 "seral" ? nnMnn
+TD594 tried: SERAL n n m n n
+TD207 2> ␅
+TD679170 ␆undo
+TD95 2> undo
+TD152 undo
+TD152 1> ␅
+TD6151027 ␆* :v [seral] -bot 10
+TD90 1> * :v [seral] -bot 10
+TD95340 ? ␅
+TD960518 ␆1
+TD93 ? 1
+TD254 📋 "pingo" ? ␅
+TD4168114 ␆nnnMM
+TD91 📋 "pingo" ? nnnMM
+TD140 tried: PINGO n n n m m
+TD108 2> ␅
+TD695035 ␆undo
+TD96 2> undo
+TD149 undo
+TD141 1> ␅
+TD4680177 ␆*
+TD117 1> *
+TD85792 ? ␅
+TD721453 ␆1
+TD69 ? 1
+TD223 📋 "ebbed" ? ␅
+TD5431748 ␆nnnnn
+TD91 📋 "ebbed" ? nnnnn
+TD202 tried: EBBED n n n n n
+TD175 2> ␅
+TD487580 ␆*
+TD74 2> *
+TD112246 ? ␅
+TD600011 ␆1
+TD97 ? 1
+TD236 📋 "shahs" ? ␅
+TD3951428 ␆nnnnn
+TD82 📋 "shahs" ? nnnnn
+TD129 tried: SHAHS n n n n n
+TD96 3> ␅
+TD383752 ␆*
+TD71 3> *
+TD82781 ? ␅
+TD300945 ␆1
+TD99 ? 1
+TD226 📋 "linin" ? ␅
+TD4136488 ␆nnnnn
+TD96 📋 "linin" ? nnnnn
+TD608 tried: LININ n n n n n
+TD303 4> ␅
+TD310372 ␆*
+TD102 4> *
+TD85088 ? ␅
+TD155130 ␆1
+TD104 ? 1
+TD228 📋 "yukky" ? ␅
+TD4207525 ␆nMnnn
+TD83 📋 "yukky" ? nMnnn
+TD148 tried: YUKKY n m n n n
+TD123 5> ␅
+TD551993 ␆undo
+TD102 5> undo
+TD138 undo
+TD286 4> ␅
+TD3214812 ␆*
+TD142 4> *
+TD154953 📋 "crypt" ? ␅
+TD6821369 ␆nYnnY
+TD90 📋 "crypt" ? nYnnY
+TD206 tried: CRYPT n Y n n Y
+TD177 5> ␅
+TD1263909 ␆undo
+TD93 5> undo
+TD203 undo
+TD298 4> ␅
+TD2694760 ␆*
+TD96 4> *
+TD168407 📋 "pygmy" ? ␅
+TD5480330 ␆nnMnn
+TD99 📋 "pygmy" ? nnMnn
+TD151 tried: PYGMY n n m n n
+TD134 5> ␅
+TD335261 ␆*
+TD83 5> *
+TD181080 📋 "forgo" ? ␅
+TD5042967 ␆nMMMn
+TD103 📋 "forgo" ? nMMMn
+TD207 tried: FORGO n m m m n
+TD206 6> ␅
+TD807028 ␆undo
+TD100 6> undo
+TD135 undo
+TD276 5> ␅
+TD7303852 ␆* -sans
+TD101 5> * -sans
+TD79828 ? ␅
+TD7568432 ␆2
+TD98 ? 2
+TD232 📋 "gruff" ? ␅
+TD5735020 ␆YYMnn
+TD96 📋 "gruff" ? YYMnn
+TD203 tried: GRUFF Y Y m n n
+TD217 6> ␅
+TD2223542 ␆/res
+TD73 6> /res
+TD188 📋> ␅
+TD4032393 ␆Don't Wordle 1471 - ELIMINATED
+TD65 📋> Don't Wordle 1471 - ELIMINATED
+TD6 📋> ␅
+TD24 ␆Well technically I didn't Wordle!
+TD2 📋> Well technically I didn't Wordle!
+TD2 📋> ␅
+TD7 ␆⬜⬜⬜⬜⬜5399
+TD2 📋> ⬜⬜⬜⬜⬜5399
+TD1 📋> ␅
+TD4 ␆⬜⬜⬜⬜⬜877
+TD2 📋> ⬜⬜⬜⬜⬜877
+TD1 📋> ␅
+TD4 ␆⬜⬜⬜⬜⬜197
+TD1 📋> ⬜⬜⬜⬜⬜197
+TD1 📋> ␅
+TD5 ␆⬜⬜🟨⬜⬜7
+TD2 📋> ⬜⬜🟨⬜⬜7
+TD1 📋> ␅
+TD4 ␆🟩🟩🟨⬜⬜1
+TD1 📋> 🟩🟩🟨⬜⬜1
+TD1 📋> ␅
+TD4 ␆⬛⬛⬛⬛⬛
+TD1 📋> ⬛⬛⬛⬛⬛
+TD1 📋> ␅
+TD447897 ␆Undos used: 5
+TD71 📋> Undos used: 5
+TD7 📋> ␅
+TD159685 ␄
+TD192 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Don't Wordle 1471 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5399\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c877\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c197\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c7\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c1\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"}
+TD616 result: "Don't Wordle 1471 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5399\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c877\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c197\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c7\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c1\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"
+TD75 📆 2026-06-03 ? ␅
+TD334846 ␆
+TD73 📆 2026-06-03 ? 
