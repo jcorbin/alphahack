@@ -1,0 +1,74 @@
+T77276.27345684398 now: 2026-06-04T06:47:50EDT
+TD80 site: alphaguess.com
+TD158286 loaded 196522 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (82 words excluded) asof 595344a1c687f5a2d6d2c5c53262a15f84ff9df8
+TD105  ...␅
+TD200856 ␆
+TD73  ...
+TD121 [0 : 98216 : 196522] mach? ␅
+TD4423915 ␆a
+TD71 [0 : 98216 : 196522] mach? a
+TD79 progress: 1 98216 mach
+TD118 [98217 : 147366 : 196522] rhotic? ␅
+TD1575711 ␆b
+TD101 [98217 : 147366 : 196522] rhotic? b
+TD107 progress: -1 147366 rhotic
+TD118 [98217 : 122777 : 147366] parr? ␅
+TD1415711 ␆a
+TD72 [98217 : 122777 : 147366] parr? a
+TD70 progress: 1 122777 parr
+TD65 [122778 : 135068 : 147366] proper? ␅
+TD1415775 ␆b
+TD99 [122778 : 135068 : 147366] proper? b
+TD109 progress: -1 135068 proper
+TD109 [122778 : 128846 : 135068] play? ␅
+TD1279830 ␆a
+TD72 [122778 : 128846 : 135068] play? a
+TD69 progress: 1 128846 play
+TD140 [128847 : 131956 : 135068] prearm? ␅
+TD1279655 ␆a
+TD98 [128847 : 131956 : 135068] prearm? a
+TD107 progress: 1 131956 prearm
+TD107 [131957 : 133508 : 135068] press? ␅
+TD2775565 ␆b
+TD97 [131957 : 133508 : 135068] press? b
+TD109 progress: -1 133508 press
+TD366 [131957 : 132732 : 133508] prehensions? ␅
+TD1551580 ␆a
+TD98 [131957 : 132732 : 133508] prehensions? a
+TD107 progress: 1 132732 prehensions
+TD144 [132733 : 133059 : 133508] prep? ␅
+TD1383529 ␆a
+TD66 [132733 : 133059 : 133508] prep? a
+TD69 progress: 1 133059 prep
+TD113 [133060 : 133285 : 133508] presa? ␅
+TD1711904 ␆a
+TD98 [133060 : 133285 : 133508] presa? a
+TD108 progress: 1 133285 presa
+TD107 [133286 : 133368 : 133508] present? ␅
+TD2423644 ␆it
+TD68 [133286 : 133368 : 133508] present? it
+TD71 progress: 0 133368 present
+TD13 [133286 : 133368 : 133508] <Done>.
+TD49 📋> ␅
+TD3072763 ␆🧩 Puzzle #1046
+TD63 📋> 🧩 Puzzle #1046
+TD6 📋> ␅
+TD26 ␆🤔 11 guesses
+TD3 📋> 🤔 11 guesses
+TD2 📋> ␅
+TD11 ␆⏱️ 16s
+TD2 📋> ⏱️ 16s
+TD2 📋> ␅
+TD703084 ␆🔗 alphaguess.com/1046
+TD74 📋> 🔗 alphaguess.com/1046
+TD6 📋> ␅
+TD215834 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1046\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1046"}
+TD104 result: "\ud83e\udde9 Puzzle #1046\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1046"
+TD12 result puzzle: 1046
+TD7 result guesses: 11
+TD6 result time: 16s
+TD5 result link: alphaguess.com/1046
+TD77 📆 2026-06-04 ? ␅
+TD264236 ␆
+TD96 📆 2026-06-04 ? 
