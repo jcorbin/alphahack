@@ -1,0 +1,286 @@
+T78302.62019985402 now: 2026-06-04T07:04:56EDT
+TD117 site: squareword.org
+TD28 wordlist: nwl2023.txt
+TD40  ...␅
+TD2854819 ␆
+TD102  ...
+TD110 🧩  ? ␅
+TD3479951 ␆#1585
+TD72 🧩  ? #1585
+TD219 puzzle_id: #1585
+TD164 > ␅
+TD1119526 ␆*
+TD97 > *
+TD114076 try? ␅
+TD2453797 ␆2
+TD64 try? 2
+TD195 questioning: ["nears", "#5"]
+TD147 #1 <IndexError>  📋 "nears" ? ␅
+TD5183786 ␆_____ ~ EAS
+TD68 #1 <IndexError>  📋 "nears" ? _____ ~ EAS
+TD369 attempt 0 NEARS n m m n m
+TD68 #2 <IndexError>  📋 "nears" ? ␅
+TD1519562 ␆_____
+TD92 #2 <IndexError>  📋 "nears" ? _____
+TD265 attempt 1 NEARS n n n n n
+TD130 #3 <IndexError>  📋 "nears" ? ␅
+TD3607611 ␆_____ ~ A
+TD75 #3 <IndexError>  📋 "nears" ? _____ ~ A
+TD166 attempt 2 NEARS n n m n n
+TD75 #4 <IndexError>  📋 "nears" ? ␅
+TD2087739 ␆_____ ~ ES
+TD104 #4 <IndexError>  📋 "nears" ? _____ ~ ES
+TD259 attempt 3 NEARS n m n n m
+TD132 #5 <IndexError>  📋 "nears" ? ␅
+TD2191570 ␆____S ~ EAR
+TD79 #5 <IndexError>  📋 "nears" ? ____S ~ EAR
+TD182 attempt 4 NEARS n m m m Y
+TD204 ? ␅
+TD407723 ␆
+TD101 ? 
+TD142 question done
+TD289 > ␅
+TD34416340 ␆*
+TD75 > *
+TD1422597 try? ␅
+TD657248 ␆1
+TD70 try? 1
+TD196 questioning: ["rales", "#5"]
+TD165 #1 _____ ~AES -NR  📋 "rales" ? ␅
+TD2983744 ␆.
+TD72 #1 _____ ~AES -NR  📋 "rales" ? .
+TD167 attempt 0 RALES n m n m m
+TD65 #2 _____ -AENRS  📋 "rales" ? ␅
+TD2127883 ␆_____ ~ L
+TD75 #2 _____ -AENRS  📋 "rales" ? _____ ~ L
+TD181 attempt 1 RALES n n m n n
+TD106 #3 _____ ~A -ENRS  📋 "rales" ? ␅
+TD1199702 ␆.
+TD96 #3 _____ ~A -ENRS  📋 "rales" ? .
+TD279 attempt 2 RALES n m n n n
+TD102 #4 _____ ~ES -ANR  📋 "rales" ? ␅
+TD823406 ␆.
+TD72 #4 _____ ~ES -ANR  📋 "rales" ? .
+TD168 attempt 3 RALES n n n m m
+TD57 #5 ____S ~AER -N  📋 "rales" ? ␅
+TD2399884 ␆_A_ES ~ R
+TD71 #5 ____S ~AER -N  📋 "rales" ? _A_ES ~ R
+TD165 attempt 4 RALES m Y n Y Y
+TD170 ? ␅
+TD279502 ␆
+TD74 ? 
+TD82 question done
+TD156 > ␅
+TD551608 ␆*
+TD69 > *
+TD2688436 try? ␅
+TD6775948 ␄
+TD139 <EOF>
+TD347 > ␅
+TD2247587 ␆* 1
+TD101 > * 1
+TD420846 try? ␅
+TD2234990 ␆3
+TD92 try? 3
+TD291 questioning: ["steak", "#1"]
+TD308 #1 _____ ~AES -LNR  📋 "steak" ? ␅
+TD4231386 ␆STEA_ 
+TD78 #1 _____ ~AES -LNR  📋 "steak" ? STEA_ 
+TD188 attempt 0 STEAK Y Y Y Y n
+TD108 #2 _____ ~L -AENRS  📋 "steak" ? ␅
+TD935664 ␆.
+TD73 #2 _____ ~L -AENRS  📋 "steak" ? .
+TD202 attempt 1 STEAK n n n n n
+TD69 #3 _____ ~A -ELNRS  📋 "steak" ? ␅
+TD3759896 ␆_____ ~ AT
+TD82 #3 _____ ~A -ELNRS  📋 "steak" ? _____ ~ AT
+TD185 attempt 2 STEAK n m n m n
+TD106 #4 _____ ~ES -ALNR  📋 "steak" ? ␅
+TD3015490 ␆S_E__ ~ E
+TD131 #4 _____ ~ES -ALNR  📋 "steak" ? S_E__ ~ E
+TD167 attempt 3 STEAK Y n Y n n
+TD90 #5 _A_ES ~R -LN  📋 "steak" ? ␅
+TD1383657 ␆.
+TD75 #5 _A_ES ~R -LN  📋 "steak" ? .
+TD169 attempt 4 STEAK n n n n n
+TD142 ? ␅
+TD223687 ␆
+TD74 ? 
+TD78 question done
+TD158 > ␅
+TD599786 ␆*
+TD72 > *
+TD2460266 try? ␅
+TD1771719 ␄
+TD109 <EOF>
+TD244 > ␅
+TD1495664 ␆* 4
+TD80 > * 4
+TD413233 try? ␅
+TD5610922 ␆1
+TD100 try? 1
+TD292 questioning: ["siege", "#4"]
+TD332 #1 STEA_ -KLNR  📋 "siege" ? ␅
+TD4335215 ␆.
+TD74 #1 STEA_ -KLNR  📋 "siege" ? .
+TD177 attempt 0 SIEGE Y n Y n n
+TD68 #2 _____ ~L -AEKNRST  📋 "siege" ? ␅
+TD2663949 ␆_I___ ~ L
+TD96 #2 _____ ~L -AEKNRST  📋 "siege" ? _I___ ~ L
+TD264 attempt 1 SIEGE n Y n n n
+TD154 #3 _____ ~AT -EKLNRS  📋 "siege" ? ␅
+TD1087808 ␆.
+TD101 #3 _____ ~AT -EKLNRS  📋 "siege" ? .
+TD253 attempt 2 SIEGE n n n n n
+TD97 #4 S_E__ -AKLNRT  📋 "siege" ? ␅
+TD4159409 ␆SIE_E 
+TD120 #4 S_E__ -AKLNRT  📋 "siege" ? SIE_E 
+TD248 attempt 3 SIEGE Y Y Y n Y
+TD155 #5 _A_ES ~R -AEKLNST  📋 "siege" ? ␅
+TD1831503 ␆.
+TD100 #5 _A_ES ~R -AEKLNST  📋 "siege" ? .
+TD265 attempt 4 SIEGE n n n n n
+TD297 ? ␅
+TD527309 ␆
+TD96 ? 
+TD115 question done
+TD314 > ␅
+TD41136452 ␆*
+TD120 > *
+TD2436337 questioning: ["abbot", "#3"]
+TD192 #1 STEA_ -GIKLNR  📋 "abbot" ? ␅
+TD6219528 ␆.
+TD67 #1 STEA_ -GIKLNR  📋 "abbot" ? .
+TD162 attempt 0 ABBOT n n n n n
+TD60 #2 _I___ ~L -AEGKNRST  📋 "abbot" ? ␅
+TD3407759 ␆_I___ ~ LBO
+TD81 #2 _I___ ~L -AEGKNRST  📋 "abbot" ? _I___ ~ LBO
+TD158 attempt 1 ABBOT n m m m n
+TD93 #3 _____ ~AT -EGIKLNRS  📋 "abbot" ? ␅
+TD695730 ␆/it
+TD72 #3 _____ ~AT -EGIKLNRS  📋 "abbot" ? /it
+TD160 attempt 2 ABBOT Y Y Y Y Y
+TD58 #4 SIE_E -AGKLNRT  📋 "abbot" ? ␅
+TD1111730 ␆.
+TD66 #4 SIE_E -AGKLNRT  📋 "abbot" ? .
+TD163 attempt 3 ABBOT n n n n n
+TD57 #5 _A_ES ~R -AEGIKLNST  📋 "abbot" ? ␅
+TD919807 ␆.
+TD99 #5 _A_ES ~R -AEGIKLNST  📋 "abbot" ? .
+TD265 attempt 4 ABBOT n n n n n
+TD286 ? ␅
+TD183375 ␆
+TD71 ? 
+TD74 question done
+TD158 > ␅
+TD391925 ␆*
+TD71 > *
+TD2365344 questioning: ["limbo", "#2"]
+TD203 #1 STEA_ -ABGIKLNORT  📋 "limbo" ? ␅
+TD3474194 ␆.
+TD96 #1 STEA_ -ABGIKLNORT  📋 "limbo" ? .
+TD263 attempt 0 LIMBO n n n n n
+TD106 #2 _I___ ~BLO -AEGKNRST  📋 "limbo" ? ␅
+TD631406 ␆/it
+TD74 #2 _I___ ~BLO -AEGKNRST  📋 "limbo" ? /it
+TD169 attempt 1 LIMBO Y Y Y Y Y
+TD60 #4 SIE_E -ABGKLNORT  📋 "limbo" ? ␅
+TD1863980 ␆.
+TD68 #4 SIE_E -ABGKLNORT  📋 "limbo" ? .
+TD164 attempt 3 LIMBO n Y n n n
+TD57 #5 _A_ES ~R -ABEGIKLNOST  📋 "limbo" ? ␅
+TD575708 ␆.
+TD61 #5 _A_ES ~R -ABEGIKLNOST  📋 "limbo" ? .
+TD155 attempt 4 LIMBO n n n n n
+TD137 ? ␅
+TD167596 ␆
+TD62 ? 
+TD71 question done
+TD159 > ␅
+TD407863 ␆*
+TD71 > *
+TD1813133 questioning: ["stead", "#1"]
+TD197 #1 STEA_ -ABGIKLMNORT  📋 "stead" ? ␅
+TD16698873 ␆/it
+TD68 #1 STEA_ -ABGIKLMNORT  📋 "stead" ? /it
+TD169 attempt 0 STEAD Y Y Y Y Y
+TD64 #4 SIE_E -ABGKLMNORT  📋 "stead" ? ␅
+TD1839863 ␆.
+TD96 #4 SIE_E -ABGKLMNORT  📋 "stead" ? .
+TD272 attempt 3 STEAD Y n Y n n
+TD104 #5 _A_ES ~R -ABEGIKLMNOST  📋 "stead" ? ␅
+TD983663 ␆.
+TD97 #5 _A_ES ~R -ABEGIKLMNOST  📋 "stead" ? .
+TD271 attempt 4 STEAD n n n n n
+TD318 ? ␅
+TD607298 ␆
+TD67 ? 
+TD77 question done
+TD160 > ␅
+TD831735 ␆*
+TD96 > *
+TD1430267 questioning: ["sieve", "#4"]
+TD196 #4 SIE_E -ABDGKLMNORT  📋 "sieve" ? ␅
+TD2801334 ␆/it
+TD69 #4 SIE_E -ABDGKLMNORT  📋 "sieve" ? /it
+TD157 attempt 3 SIEVE Y Y Y Y Y
+TD61 #5 _A_ES ~R -ABDEGIKLMNOST  📋 "sieve" ? ␅
+TD359813 ␆
+TD71 #5 _A_ES ~R -ABDEGIKLMNOST  📋 "sieve" ? 
+TD216 #5 _A_ES ~R -ABDEGIKLMNOST  ? ␅
+TD1295638 ␆.
+TD66 #5 _A_ES ~R -ABDEGIKLMNOST  ? .
+TD159 attempt 4 SIEVE n n n n n
+TD139 ? ␅
+TD167785 ␆
+TD94 ? 
+TD107 question done
+TD314 > ␅
+TD455513 ␆*
+TD94 > *
+TD986194 questioning: ["hares", "#5"]
+TD266 #5 _A_ES ~R -ABDEGIKLMNOSTV  📋 "hares" ? ␅
+TD3365390 ␆/it
+TD91 #5 _A_ES ~R -ABDEGIKLMNOSTV  📋 "hares" ? /it
+TD228 attempt 4 HARES Y Y Y Y Y
+TD221 ? ␅
+TD175480 ␆
+TD109 ? 
+TD150 question done
+TD26707 📋> ␅
+TD4445648 ␆squareword.org 1585: 9 guesses
+TD103 📋> squareword.org 1585: 9 guesses
+TD56 📋> ␅
+TD50 ␆
+TD7 📋> 
+TD13 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟨
+TD6 📋> 🟩🟩🟩🟩🟨
+TD11 📋> ␅
+TD11 ␆🟨🟩🟨🟨🟨
+TD4 📋> 🟨🟩🟨🟨🟨
+TD9 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD10 ␆🟩🟩🟩🟨🟩
+TD4 📋> 🟩🟩🟩🟨🟩
+TD9 📋> ␅
+TD11 ␆🟨🟩🟨🟩🟩
+TD4 📋> 🟨🟩🟨🟩🟩
+TD19 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD9 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> ␅
+TD263048 ␆#squareword #squareword1585
+TD100 📋> #squareword #squareword1585
+TD42 📋> ␅
+TD159868 ␄
+TD253 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1585: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1585"}
+TD808 result: "squareword.org 1585: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1585"
+TD71 📆 2026-06-04 ? ␅
+TD153136 ␆
+TD103 📆 2026-06-04 ? 
