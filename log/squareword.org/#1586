@@ -1,0 +1,233 @@
+T227.21129041502718 now: 2026-06-05T09:08:12EDT
+TD67 site: squareword.org
+TD16 wordlist: nwl2023.txt
+TD23  ...␅
+TD191127 ␆
+TD64  ...
+TD58 🧩  ? ␅
+TD5631888 ␆#1586
+TD60 🧩  ? #1586
+TD172 puzzle_id: #1586
+TD151 > ␅
+TD1103604 ␆*
+TD67 > *
+TD176590 try? ␅
+TD87540 ␆1
+TD85 try? 1
+TD299 questioning: ["sorel", "#5"]
+TD158 #1 <IndexError>  📋 "sorel" ? ␅
+TD4599269 ␆_____ ~ SR
+TD97 #1 <IndexError>  📋 "sorel" ? _____ ~ SR
+TD616 attempt 0 SOREL m n m n n
+TD73 #2 <IndexError>  📋 "sorel" ? ␅
+TD2839377 ␆_OR__ 
+TD94 #2 <IndexError>  📋 "sorel" ? _OR__ 
+TD275 attempt 1 SOREL n Y Y n n
+TD130 #3 <IndexError>  📋 "sorel" ? ␅
+TD3095495 ␆_O___ ~ L
+TD97 #3 <IndexError>  📋 "sorel" ? _O___ ~ L
+TD264 attempt 2 SOREL n Y n n m
+TD126 #4 <IndexError>  📋 "sorel" ? ␅
+TD2807616 ␆S____ ~ OEL
+TD73 #4 <IndexError>  📋 "sorel" ? S____ ~ OEL
+TD158 attempt 3 SOREL Y m n m m
+TD74 #5 <IndexError>  📋 "sorel" ? ␅
+TD3487721 ␆___E_ ~ SR
+TD68 #5 <IndexError>  📋 "sorel" ? ___E_ ~ SR
+TD157 attempt 4 SOREL m n m Y n
+TD175 ? ␅
+TD391491 ␆m
+TD69 ? m
+TD130 #6 <IndexError>  📋 "sorel" ? ␅
+TD2007984 ␆
+TD75 #6 <IndexError>  📋 "sorel" ? 
+TD176 #6 <IndexError>  ? ␅
+TD663695 ␄
+TD107 question done
+TD179 > ␅
+TD1071612 ␆*
+TD72 > *
+TD718931 try? ␅
+TD1393036 ␆1
+TD94 try? 1
+TD302 questioning: ["slope", "#4"]
+TD349 #1 _____ ~RS -ELO  📋 "slope" ? ␅
+TD3575220 ␆.
+TD87 #1 _____ ~RS -ELO  📋 "slope" ? .
+TD273 attempt 0 SLOPE m n n n n
+TD98 #2 _OR__ -ELS  📋 "slope" ? ␅
+TD1567575 ␆.
+TD72 #2 _OR__ -ELS  📋 "slope" ? .
+TD163 attempt 1 SLOPE n n n n n
+TD54 #3 _O___ ~L -ERS  📋 "slope" ? ␅
+TD1311856 ␆.
+TD107 #3 _O___ ~L -ERS  📋 "slope" ? .
+TD277 attempt 2 SLOPE n m n n n
+TD100 #4 S____ ~ELO -R  📋 "slope" ? ␅
+TD3239438 ␆S_O_E ~ L
+TD98 #4 S____ ~ELO -R  📋 "slope" ? S_O_E ~ L
+TD272 attempt 3 SLOPE Y m Y n Y
+TD153 #5 ___E_ ~RS -LO  📋 "slope" ? ␅
+TD2255667 ␆.
+TD98 #5 ___E_ ~RS -LO  📋 "slope" ? .
+TD279 attempt 4 SLOPE m n n n n
+TD304 ? ␅
+TD151279 ␆
+TD73 ? 
+TD104 question done
+TD306 > ␅
+TD391316 ␆*
+TD98 > *
+TD505610 questioning: ["stole", "#4"]
+TD406 #1 _____ ~RS -ELOP  📋 "stole" ? ␅
+TD3854031 ␆.
+TD89 #1 _____ ~RS -ELOP  📋 "stole" ? .
+TD224 attempt 0 STOLE m n n n n
+TD88 #2 _OR__ -ELOPS  📋 "stole" ? ␅
+TD4223781 ␆_OR__ ~ T
+TD120 #2 _OR__ -ELOPS  📋 "stole" ? _OR__ ~ T
+TD288 attempt 1 STOLE n m n n n
+TD195 #3 _O___ ~L -EOPRS  📋 "stole" ? ␅
+TD3647495 ␆.
+TD113 #3 _O___ ~L -EOPRS  📋 "stole" ? .
+TD331 attempt 2 STOLE n n n m n
+TD116 #4 S_O_E ~L -PR  📋 "stole" ? ␅
+TD1239281 ␆/it
+TD90 #4 S_O_E ~L -PR  📋 "stole" ? /it
+TD274 attempt 3 STOLE Y Y Y Y Y
+TD99 #5 ___E_ ~RS -ELOP  📋 "stole" ? ␅
+TD3527687 ␆___E_ ~ SRT
+TD99 #5 ___E_ ~RS -ELOP  📋 "stole" ? ___E_ ~ SRT
+TD266 attempt 4 STOLE m m n n n
+TD329 ? ␅
+TD527403 ␆
+TD121 ? 
+TD139 question done
+TD300 > ␅
+TD455335 ␆*
+TD97 > *
+TD1357832 questioning: ["aster", "#5"]
+TD425 #1 _____ ~RS -ELOPT  📋 "aster" ? ␅
+TD6409544 ␆_____ ~ SRA
+TD132 #1 _____ ~RS -ELOPT  📋 "aster" ? _____ ~ SRA
+TD217 attempt 0 ASTER m m n n m
+TD122 #2 _OR__ ~T -ELOPS  📋 "aster" ? ␅
+TD4759692 ␆AOR__ ~ TA
+TD97 #2 _OR__ ~T -ELOPS  📋 "aster" ? AOR__ ~ TA
+TD263 attempt 1 ASTER Y n m n n
+TD152 #3 _O___ ~L -EOPRST  📋 "aster" ? ␅
+TD3263507 ␆.
+TD96 #3 _O___ ~L -EOPRST  📋 "aster" ? .
+TD281 attempt 2 ASTER n n n n n
+TD102 #5 ___E_ ~RST -ELOP  📋 "aster" ? ␅
+TD927542 ␆/it
+TD89 #5 ___E_ ~RST -ELOP  📋 "aster" ? /it
+TD337 attempt 4 ASTER Y Y Y Y Y
+TD331 ? ␅
+TD231301 ␆
+TD128 ? 
+TD118 question done
+TD328 > ␅
+TD439326 ␆*
+TD99 > *
+TD2259411 questioning: ["aorta", "#2"]
+TD233 #1 _____ ~ARS -ELOPT  📋 "aorta" ? ␅
+TD3252201 ␆.
+TD90 #1 _____ ~ARS -ELOPT  📋 "aorta" ? .
+TD204 attempt 0 AORTA m n m n m
+TD76 #2 AOR__ ~T -ELOPRS  📋 "aorta" ? ␅
+TD599553 ␆/it
+TD89 #2 AOR__ ~T -ELOPRS  📋 "aorta" ? /it
+TD274 attempt 1 AORTA Y Y Y Y Y
+TD166 #3 _O___ ~L -AEOPRST  📋 "aorta" ? ␅
+TD1551942 ␆.
+TD165 #3 _O___ ~L -AEOPRST  📋 "aorta" ? .
+TD353 attempt 2 AORTA n Y n n n
+TD399 ? ␅
+TD150808 ␆
+TD197 ? 
+TD160 question done
+TD326 > ␅
+TD351453 ␆*
+TD120 > *
+TD1449631 try? ␅
+TD1750121 ␆1
+TD124 try? 1
+TD290 questioning: ["brash", "#1"]
+TD225 #1 _____ ~ARS -ELOPT  📋 "brash" ? ␅
+TD4375562 ␆BRAS_ ~ S
+TD68 #1 _____ ~ARS -ELOPT  📋 "brash" ? BRAS_ ~ S
+TD165 attempt 0 BRASH Y Y Y Y n
+TD89 #3 _O___ ~L -AEPRST  📋 "brash" ? ␅
+TD1455484 ␆.
+TD75 #3 _O___ ~L -AEPRST  📋 "brash" ? .
+TD166 attempt 2 BRASH n n n n n
+TD141 ? ␅
+TD167723 ␆
+TD70 ? 
+TD74 question done
+TD150 > ␅
+TD335641 ␆*
+TD70 > *
+TD1261890 questioning: ["brass", "#1"]
+TD196 #1 BRAS_ -EHLOPT  📋 "brass" ? ␅
+TD9209988 ␆/it
+TD81 #1 BRAS_ -EHLOPT  📋 "brass" ? /it
+TD152 attempt 0 BRASS Y Y Y Y Y
+TD59 #3 _O___ ~L -ABEHPRST  📋 "brass" ? ␅
+TD791813 ␆.
+TD79 #3 _O___ ~L -ABEHPRST  📋 "brass" ? .
+TD188 attempt 2 BRASS n n n n n
+TD182 ? ␅
+TD151568 ␆
+TD73 ? 
+TD81 question done
+TD183 > ␅
+TD871669 ␆*
+TD78 > *
+TD859941 questioning: ["login", "#3"]
+TD193 #3 _O___ ~L -ABEHPRST  📋 "login" ? ␅
+TD3043905 ␆/it
+TD90 #3 _O___ ~L -ABEHPRST  📋 "login" ? /it
+TD261 attempt 2 LOGIN Y Y Y Y Y
+TD295 ? ␅
+TD791398 ␆
+TD69 ? 
+TD70 question done
+TD15880 📋> ␅
+TD4704364 ␆squareword.org 1586: 8 guesses
+TD71 📋> squareword.org 1586: 8 guesses
+TD8 📋> ␅
+TD37 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD9 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD1 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD5 ␆🟨🟩🟨🟨🟨
+TD1 📋> 🟨🟩🟨🟨🟨
+TD1 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD5 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD8 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD247568 ␆#squareword #squareword1586
+TD75 📋> #squareword #squareword1586
+TD6 📋> ␅
+TD151804 ␄
+TD83 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1586: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1586"}
+TD496 result: "squareword.org 1586: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1586"
+TD62 📆 2026-06-05 ? ␅
+TD143432 ␆
+TD94 📆 2026-06-05 ? 
