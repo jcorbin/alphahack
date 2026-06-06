@@ -1,0 +1,244 @@
+T291.9465806520311 now: 2026-06-06T16:51:05EDT
+TD55 site: https://www.merriam-webster.com/games/quordle/#/
+TD10 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD60  ...␅
+TD247565 ␆
+TD97  ...
+TD345748 > ␅
+TD65 ␆
+TD4 > 
+TD105 > ␅
+TD2909705 ␆
+TD101 > 
+TD381 > ␅
+TD3575765 ␆*
+TD75 > *
+TD46461 ? ␅
+TD1449267 ␆2
+TD68 ? 2
+TD134 questioning: leans
+TD110 Classic #1 _____? ␅
+TD2679630 ␆nMnnM
+TD73 Classic #1 _____? nMnnM
+TD252 attempt: 0 LEANS n m n n m
+TD71 Classic #2 _____? ␅
+TD1383867 ␆nnnYn
+TD69 Classic #2 _____? nnnYn
+TD148 attempt: 1 LEANS n n n Y n
+TD58 Classic #3 _____? ␅
+TD1279800 ␆nMnnn
+TD69 Classic #3 _____? nMnnn
+TD137 attempt: 2 LEANS n m n n n
+TD62 Classic #4 _____? ␅
+TD1127440 ␆nnnMn
+TD82 Classic #4 _____? nnnMn
+TD168 attempt: 3 LEANS n n n m n
+TD306771 > ␅
+TD781372 ␆*'
+TD96 > *'
+TD165 > ␅
+TD847410 ␆*
+TD69 > *
+TD2373 ? ␅
+TD3965603 ␆9
+TD93 ? 9
+TD174 questioning: mitre
+TD147 Classic #1 _____ ~ES -ALN? ␅
+TD2759570 ␆nYnnY
+TD76 Classic #1 _____ ~ES -ALN? nYnnY
+TD151 attempt: 0 MITRE n Y n n Y
+TD72 Classic #2 ___N_ -AELS? ␅
+TD1183755 ␆nnnnn
+TD77 Classic #2 ___N_ -AELS? nnnnn
+TD162 attempt: 1 MITRE n n n n n
+TD101 Classic #3 _____ ~E -ALNS? ␅
+TD1527706 ␆nYnMM
+TD96 Classic #3 _____ ~E -ALNS? nYnMM
+TD224 attempt: 2 MITRE n Y n m m
+TD107 Classic #4 _____ ~N -AELS? ␅
+TD1135582 ␆nnnnn
+TD100 Classic #4 _____ ~N -AELS? nnnnn
+TD214 attempt: 3 MITRE n n n n n
+TD331063 > ␅
+TD988652 ␆*
+TD71 > *
+TD316 ? ␅
+TD3215555 ␄
+TD101 <EOF>
+TD306927 > ␅
+TD1325086 ␆* 4
+TD98 > * 4
+TD166 > ␅
+TD1383706 ␆* 4
+TD71 > * 4
+TD88152 ? ␅
+TD1911881 ␆1
+TD103 ? 1
+TD168 questioning: punch
+TD156 Classic #1 _I__E ~S -ALMNRT? ␅
+TD3023446 ␆nnnnn
+TD70 Classic #1 _I__E ~S -ALMNRT? nnnnn
+TD147 attempt: 0 PUNCH n n n n n
+TD79 Classic #2 ___N_ -AEILMRST? ␅
+TD3455805 ␆YnMnM
+TD69 Classic #2 ___N_ -AEILMRST? YnMnM
+TD149 attempt: 1 PUNCH Y n m n m
+TD72 Classic #3 _I___ ~ER -ALMNST? ␅
+TD1592433 ␆nnnnn
+TD89 Classic #3 _I___ ~ER -ALMNST? nnnnn
+TD221 attempt: 2 PUNCH n n n n n
+TD114 Classic #4 _____ ~N -AEILMRST? ␅
+TD1550999 ␆nnMnn
+TD98 Classic #4 _____ ~N -AEILMRST? nnMnn
+TD495 attempt: 3 PUNCH n n m n n
+TD307469 > ␅
+TD2667899 ␆*
+TD97 > *
+TD524 ? ␅
+TD1167383 ␄
+TD138 <EOF>
+TD303685 > ␅
+TD1048174 ␆* 2
+TD91 > * 2
+TD70257 ? ␅
+TD2857660 ␄
+TD136 <EOF>
+TD292568 > ␅
+TD2435334 ␆* 3
+TD68 > * 3
+TD68587 ? ␅
+TD3395398 ␆3
+TD71 ? 3
+TD130 questioning: diver
+TD91 Classic #1 _I__E ~S -ACHLMNPRTU? ␅
+TD3143690 ␆nYMMn
+TD75 Classic #1 _I__E ~S -ACHLMNPRTU? nYMMn
+TD138 attempt: 0 DIVER n Y m m n
+TD69 Classic #2 P__N_ ~H -ACEILMRSTU? ␅
+TD1199649 ␆nnnnn
+TD80 Classic #2 P__N_ ~H -ACEILMRSTU? nnnnn
+TD157 attempt: 1 DIVER n n n n n
+TD80 Classic #3 _I___ ~ER -ACHLMNPSTU? ␅
+TD1663863 ␆nYYYY
+TD113 Classic #3 _I___ ~ER -ACHLMNPSTU? nYYYY
+TD225 attempt: 2 DIVER n Y Y Y Y
+TD114 Classic #4 _____ ~N -ACEHILMPRSTU? ␅
+TD1151453 ␆nnnnn
+TD72 Classic #4 _____ ~N -ACEHILMPRSTU? nnnnn
+TD134 attempt: 3 DIVER n n n n n
+TD310144 > ␅
+TD1361722 ␆*
+TD78 > *
+TD286 questioning: sieve
+TD89 Classic #1 _I__E ~SV -ACDHLMNPRTU? ␅
+TD3183520 ␆YYYYY
+TD71 Classic #1 _I__E ~SV -ACDHLMNPRTU? YYYYY
+TD123 attempt: 0 SIEVE Y Y Y Y Y
+TD70 Classic #2 P__N_ ~H -ACDEILMRSTUV? ␅
+TD1215731 ␆nnnnn
+TD74 Classic #2 P__N_ ~H -ACDEILMRSTUV? nnnnn
+TD126 attempt: 1 SIEVE n n n n n
+TD69 Classic #3 _IVER -ACDHLMNPSTU? ␅
+TD1759758 ␆nYMMn
+TD69 Classic #3 _IVER -ACDHLMNPSTU? nYMMn
+TD125 attempt: 2 SIEVE n Y m m n
+TD66 Classic #4 _____ ~N -ACDEHILMPRSTUV? ␅
+TD1031746 ␆nnnnn
+TD72 Classic #4 _____ ~N -ACDEHILMPRSTUV? nnnnn
+TD123 attempt: 3 SIEVE n n n n n
+TD193711 > ␅
+TD1038274 ␆*
+TD98 > *
+TD522 ? ␅
+TD1391855 ␄
+TD113 <EOF>
+TD217029 > ␅
+TD5006339 ␆* 3
+TD69 > * 3
+TD65493 ? ␅
+TD1958673 ␄
+TD93 <EOF>
+TD199058 > ␅
+TD1680702 ␆* 4
+TD71 > * 4
+TD71692 ? ␅
+TD7528198 ␆2
+TD74 ? 2
+TD126 questioning: nobby
+TD114 Classic #2 P__N_ ~H -ACDEILMRSTUV? ␅
+TD3911941 ␆MMnnY
+TD114 Classic #2 P__N_ ~H -ACDEILMRSTUV? MMnnY
+TD218 attempt: 1 NOBBY m m n n Y
+TD115 Classic #3 _IVER -ACDHLMNPSTU E:1? ␅
+TD1287419 ␆nnnnn
+TD117 Classic #3 _IVER -ACDHLMNPSTU E:1? nnnnn
+TD232 attempt: 2 NOBBY n n n n n
+TD121 Classic #4 _____ ~N -ACDEHILMPRSTUV? ␅
+TD1295692 ␆MMnnn
+TD74 Classic #4 _____ ~N -ACDEHILMPRSTUV? MMnnn
+TD148 attempt: 3 NOBBY m m n n n
+TD256360 > ␅
+TD647451 ␆*
+TD72 > *
+TD241 questioning: phony
+TD71 Classic #2 P__NY ~HO -ABCDEILMRSTUV? ␅
+TD2591514 ␆YYYYY
+TD71 Classic #2 P__NY ~HO -ABCDEILMRSTUV? YYYYY
+TD128 attempt: 1 PHONY Y Y Y Y Y
+TD67 Classic #3 _IVER -ABCDHLMNOPSTUY E:1? ␅
+TD1159696 ␆nnnnn
+TD69 Classic #3 _IVER -ABCDHLMNOPSTUY E:1? nnnnn
+TD128 attempt: 2 PHONY n n n n n
+TD69 Classic #4 _____ ~NO -ABCDEHILMPRSTUVY? ␅
+TD1543794 ␆nnYMn
+TD97 Classic #4 _____ ~NO -ABCDEHILMPRSTUVY? nnYMn
+TD226 attempt: 3 PHONY n n Y m n
+TD147679 > ␅
+TD819967 ␆*
+TD78 > *
+TD262 questioning: known
+TD76 Classic #3 _IVER -ABCDHLMNOPSTUY E:1? ␅
+TD3183717 ␆nnnnn
+TD98 Classic #3 _IVER -ABCDHLMNOPSTUY E:1? nnnnn
+TD199 attempt: 2 KNOWN n n n n n
+TD115 Classic #4 __O__ ~N -ABCDEHILMPRSTUVY? ␅
+TD1071525 ␆YYYYY
+TD80 Classic #4 __O__ ~N -ABCDEHILMPRSTUVY? YYYYY
+TD147 attempt: 3 KNOWN Y Y Y Y Y
+TD95362 > ␅
+TD1432401 ␆0*
+TD102 > 0*
+TD171 > ␅
+TD615749 ␆*
+TD76 > *
+TD394 ? ␅
+TD4023484 ␆2
+TD103 ? 2
+TD184 questioning: giver
+TD151 Classic #3 _IVER -ABCDHKLMNOPSTUWY E:1? ␅
+TD3631688 ␆YYYYY
+TD103 Classic #3 _IVER -ABCDHKLMNOPSTUWY E:1? YYYYY
+TD240 attempt: 2 GIVER Y Y Y Y Y
+TD113 📋> ␅
+TD4232108 ␆🙂 Daily Quordle 1594
+TD97 📋> 🙂 Daily Quordle 1594
+TD12 📋> ␅
+TD72 ␆5️⃣7️⃣
+TD7 📋> 5️⃣7️⃣
+TD6 📋> ␅
+TD21 ␆9️⃣8️⃣
+TD5 📋> 9️⃣8️⃣
+TD5 📋> ␅
+TD17 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD263156 ␆
+TD101 📋> 
+TD13 📋> ␅
+TD160149 ␄
+TD179 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1594\n5\ufe0f\u20e37\ufe0f\u20e3\n9\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1294 result: "\ud83d\ude42 Daily Quordle 1594\n5\ufe0f\u20e37\ufe0f\u20e3\n9\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD68 📆 2026-06-06 ? ␅
+TD182443 ␆
+TD103 📆 2026-06-06 ? 
