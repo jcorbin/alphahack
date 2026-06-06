@@ -1,0 +1,192 @@
+T637.1184556360822 now: 2026-06-06T16:56:51EDT
+TD60 site: squareword.org
+TD15 wordlist: nwl2023.txt
+TD18  ...␅
+TD311239 ␆
+TD62  ...
+TD51 🧩  ? ␅
+TD8151814 ␆#1587
+TD74 🧩  ? #1587
+TD174 puzzle_id: #1587
+TD146 > ␅
+TD703650 ␆
+TD70 > 
+TD222 > ␅
+TD439637 ␆*
+TD65 > *
+TD253093 try? ␅
+TD802905 ␆1
+TD99 try? 1
+TD317 questioning: ["raise", "#5"]
+TD319 #1 <IndexError>  📋 "raise" ? ␅
+TD3895373 ␆_____ ~ RAS
+TD88 #1 <IndexError>  📋 "raise" ? _____ ~ RAS
+TD471 attempt 0 RAISE m m n m n
+TD85 #2 <IndexError>  📋 "raise" ? ␅
+TD2847533 ␆_A___
+TD82 #2 <IndexError>  📋 "raise" ? _A___
+TD197 attempt 1 RAISE n Y n n n
+TD87 #3 <IndexError>  📋 "raise" ? ␅
+TD2215534 ␆____E ~ RA
+TD68 #3 <IndexError>  📋 "raise" ? ____E ~ RA
+TD156 attempt 2 RAISE m m n n Y
+TD76 #4 <IndexError>  📋 "raise" ? ␅
+TD3056206 ␆RA__E
+TD101 #4 <IndexError>  📋 "raise" ? RA__E
+TD263 attempt 3 RAISE Y Y n n Y
+TD126 #5 <IndexError>  📋 "raise" ? ␅
+TD2071043 ␆_____ ~ RE
+TD74 #5 <IndexError>  📋 "raise" ? _____ ~ RE
+TD159 attempt 4 RAISE m n n n m
+TD175 ? ␅
+TD511699 ␆
+TD74 ? 
+TD99 question done
+TD160 > ␅
+TD479780 ␆*
+TD84 > *
+TD635324 try? ␅
+TD1108404 ␆1
+TD91 try? 1
+TD303 questioning: ["range", "#4"]
+TD266 #1 _____ ~ARS -EI  📋 "range" ? ␅
+TD5223317 ␆___G_ ~ RAS
+TD69 #1 _____ ~ARS -EI  📋 "range" ? ___G_ ~ RAS
+TD158 attempt 0 RANGE m m n Y n
+TD84 #2 _A___ -EIRS  📋 "range" ? ␅
+TD2663653 ␆_A___ ~ NG
+TD76 #2 _A___ -EIRS  📋 "range" ? _A___ ~ NG
+TD165 attempt 1 RANGE n Y m m n
+TD91 #3 ____E ~AR -IS  📋 "range" ? ␅
+TD1952085 ␆.
+TD69 #3 ____E ~AR -IS  📋 "range" ? .
+TD166 attempt 2 RANGE m m n n Y
+TD53 #4 RA__E -IS  📋 "range" ? ␅
+TD671374 ␆/it
+TD75 #4 RA__E -IS  📋 "range" ? /it
+TD163 attempt 3 RANGE Y Y Y Y Y
+TD58 #5 _____ ~ER -AIS  📋 "range" ? ␅
+TD743693 ␆.
+TD68 #5 _____ ~ER -AIS  📋 "range" ? .
+TD166 attempt 4 RANGE m n n n m
+TD137 ? ␅
+TD160332 ␆
+TD93 ? 
+TD115 question done
+TD312 > ␅
+TD414994 ␆*
+TD92 > *
+TD470179 try? ␅
+TD2553691 ␆1
+TD75 try? 1
+TD192 questioning: ["wagon", "#2"]
+TD171 #1 ___G_ ~ARS -EIN  📋 "wagon" ? ␅
+TD3951440 ␆.
+TD82 #1 ___G_ ~ARS -EIN  📋 "wagon" ? .
+TD170 attempt 0 WAGON n m n n n
+TD56 #2 _A___ ~GN -EIRS  📋 "wagon" ? ␅
+TD703645 ␆/it
+TD64 #2 _A___ ~GN -EIRS  📋 "wagon" ? /it
+TD168 attempt 1 WAGON Y Y Y Y Y
+TD55 #3 ____E ~AR -GINS  📋 "wagon" ? ␅
+TD2711805 ␆____E ~ RAO
+TD68 #3 ____E ~AR -GINS  📋 "wagon" ? ____E ~ RAO
+TD158 attempt 2 WAGON n m n m n
+TD91 #5 _____ ~ER -AGINS  📋 "wagon" ? ␅
+TD2303854 ␆.
+TD78 #5 _____ ~ER -AGINS  📋 "wagon" ? .
+TD174 attempt 4 WAGON n n n n n
+TD142 ? ␅
+TD167607 ␆
+TD62 ? 
+TD70 question done
+TD151 > ␅
+TD423446 ␆*
+TD68 > *
+TD491878 questioning: ["drags", "#1"]
+TD189 #1 ___G_ ~ARS -EGINOW  📋 "drags" ? ␅
+TD2556070 ␆/it
+TD72 #1 ___G_ ~ARS -EGINOW  📋 "drags" ? /it
+TD160 attempt 0 DRAGS Y Y Y Y Y
+TD57 #3 ____E ~AOR -GINSW  📋 "drags" ? ␅
+TD5095887 ␆____E ~ RAOD
+TD68 #3 ____E ~AOR -GINSW  📋 "drags" ? ____E ~ RAOD
+TD164 attempt 2 DRAGS m m m n n
+TD99 #5 _____ ~ER -AGINOSW  📋 "drags" ? ␅
+TD3111675 ␆_R___ ~ RE
+TD71 #5 _____ ~ER -AGINOSW  📋 "drags" ? _R___ ~ RE
+TD159 attempt 4 DRAGS n Y n n n
+TD182 ? ␅
+TD631674 ␆
+TD75 ? 
+TD83 question done
+TD152 > ␅
+TD607526 ␆*
+TD94 > *
+TD760587 questioning: ["adore", "#3"]
+TD196 #3 ____E ~ADOR -GINSW  📋 "adore" ? ␅
+TD2711171 ␆/it
+TD70 #3 ____E ~ADOR -GINSW  📋 "adore" ? /it
+TD162 attempt 2 ADORE Y Y Y Y Y
+TD58 #5 _R___ ~E -ADGINOSW  📋 "adore" ? ␅
+TD3671936 ␆_R___ ~ RE
+TD100 #5 _R___ ~E -ADGINOSW  📋 "adore" ? _R___ ~ RE
+TD260 attempt 4 ADORE n n n m m
+TD364 ? ␅
+TD407023 ␆
+TD66 ? 
+TD77 question done
+TD147 > ␅
+TD911859 ␆*
+TD67 > *
+TD792443 try? ␅
+TD2647416 ␆1
+TD113 try? 1
+TD298 questioning: ["fryer", "#5"]
+T7.295307929045521 now: 2026-06-06T16:58:27EDT
+TD116 questioning: ["fryer", "#5"]
+TD154 #5 _R___ ~E -ADGINOSW  📋 "fryer" ? ␅
+TD1731769 ␆/it
+TD80 #5 _R___ ~E -ADGINOSW  📋 "fryer" ? /it
+TD285 attempt 4 FRYER Y Y Y Y Y
+TD135 ? ␅
+TD606916 ␆
+TD76 ? 
+TD79 question done
+TD51559 📋> ␅
+TD3132770 ␆squareword.org 1587: 6 guesses
+TD72 📋> squareword.org 1587: 6 guesses
+TD10 📋> ␅
+TD24 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟨🟩🟨🟨🟨
+TD1 📋> 🟨🟩🟨🟨🟨
+TD1 📋> ␅
+TD4 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD4 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD255441 ␆#squareword #squareword1587
+TD97 📋> #squareword #squareword1587
+TD15 📋> ␅
+TD151904 ␄
+TD181 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1587: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1587"}
+TD544 result: "squareword.org 1587: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1587"
+TD60 📆 2026-06-06 ? ␅
+TD159131 ␆
+TD90 📆 2026-06-06 ? 
