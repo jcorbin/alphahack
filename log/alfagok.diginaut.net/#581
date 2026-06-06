@@ -1,0 +1,62 @@
+T112877.47358512902 now: 2026-06-06T16:25:42EDT
+TD122 site: alfagok.diginaut.net
+TD582435 loaded 399544 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1308 words excluded) asof 1719b08704543f2b743c5aedf750390d798c5ff2
+TD112  ...␅
+TD25 ␆
+TD2  ...
+TD733 [0 : 199766 : 399544] lijm? ␅
+TD7799268 ␆b
+TD73 [0 : 199766 : 399544] lijm? b
+TD405 progress: -1 199766 lijm
+TD75 [0 : 99704 : 199766] ex? ␅
+TD1303353 ␆a
+TD76 [0 : 99704 : 199766] ex? a
+TD86 progress: 1 99704 ex
+TD77 [99705 : 149392 : 199766] huis? ␅
+TD1423800 ␆a
+TD75 [99705 : 149392 : 199766] huis? a
+TD72 progress: 1 149392 huis
+TD82 [149393 : 174499 : 199766] kind? ␅
+TD2296006 ␆a
+TD98 [149393 : 174499 : 199766] kind? a
+TD109 progress: 1 174499 kind
+TD271 [174500 : 187100 : 199766] kronkel? ␅
+TD1343410 ␆a
+TD81 [174500 : 187100 : 199766] kronkel? a
+TD85 progress: 1 187100 kronkel
+TD93 [187101 : 190304 : 199766] la? ␅
+TD1367954 ␆b
+TD104 [187101 : 190304 : 199766] la? b
+TD112 progress: -1 190304 la
+TD121 [187101 : 188222 : 190304] kunst? ␅
+TD1383465 ␆b
+TD111 [187101 : 188222 : 190304] kunst? b
+TD105 progress: -1 188222 kunst
+TD117 [187101 : 187558 : 188222] kruis? ␅
+TD2183567 ␆it
+TD85 [187101 : 187558 : 188222] kruis? it
+TD93 progress: 0 187558 kruis
+TD20 [187101 : 187558 : 188222] <Done>.
+TD167 📋> ␅
+TD2864811 ␆🧩 Puzzel #581
+TD100 📋> 🧩 Puzzel #581
+TD11 📋> ␅
+TD43 ␆🤔 8 gokken
+TD6 📋> 🤔 8 gokken
+TD5 📋> ␅
+TD12 ␆⏱️ 11s
+TD5 📋> ⏱️ 11s
+TD4 📋> ␅
+TD255155 ␆🔗 alfagok.diginaut.net
+TD101 📋> 🔗 alfagok.diginaut.net
+TD13 📋> ␅
+TD160073 ␄
+TD294 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #581\n\ud83e\udd14 8 gokken\n\u23f1\ufe0f 11s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD800 result: "\ud83e\udde9 Puzzel #581\n\ud83e\udd14 8 gokken\n\u23f1\ufe0f 11s\n\ud83d\udd17 alfagok.diginaut.net"
+TD12 result puzzle: 581
+TD5 result guesses: 8
+TD3 result time: 11s
+TD2 result link: alfagok.diginaut.net
+TD78 📆 2026-06-06 ? ␅
+TD126415 ␆
+TD105 📆 2026-06-06 ? 
