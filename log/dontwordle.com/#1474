@@ -1,0 +1,173 @@
+T4.096068948041648 now: 2026-06-06T16:46:18EDT
+TD66 site: dontwordle.com
+TD10 wordlist: nwl2023.txt
+TD22  ...␅
+TD5126981 ␆
+TD97  ...
+TD135 1> ␅
+TD1919753 ␆* -bot 10
+TD97 1> * -bot 10
+TD175038 ? ␅
+TD1240884 ␆1
+TD99 ? 1
+TD286 📋 "arose" ? ␅
+TD4255729 ␆Mnnnn
+TD100 📋 "arose" ? Mnnnn
+TD595 tried: AROSE m n n n n
+TD223 2> ␅
+TD799408 ␆undo
+TD97 2> undo
+TD218 undo
+TD178 1> ␅
+TD5895136 ␆* :v [arose] -bot 10
+TD98 1> * :v [arose] -bot 10
+TD93819 ? ␅
+TD5722210 ␆1
+TD69 ? 1
+TD168 📋 "cunit" ? ␅
+TD7864127 ␆nnnYn
+TD101 📋 "cunit" ? nnnYn
+TD218 tried: CUNIT n n n Y n
+TD212 2> ␅
+TD1216654 ␆undo
+TD72 2> undo
+TD104 undo
+TD83 1> ␅
+TD4126307 ␆*
+TD71 1> *
+TD80819 ? ␅
+TD599085 ␆1
+TD100 ? 1
+TD277 📋 "vexed" ? ␅
+TD4695722 ␆nnnnY
+TD99 📋 "vexed" ? nnnnY
+TD205 tried: VEXED n n n n Y
+TD191 2> ␅
+TD647596 ␆undo
+TD115 2> undo
+TD141 undo
+TD125 1> ␅
+TD2519764 ␆*
+TD119 1> *
+TD93793 ? ␅
+TD137919 ␆1
+TD68 ? 1
+TD150 📋 "peeve" ? ␅
+TD4663705 ␆Ynnnn
+TD100 📋 "peeve" ? Ynnnn
+TD216 tried: PEEVE Y n n n n
+TD183 2> ␅
+TD1831511 ␆undo
+TD68 2> undo
+TD98 undo
+TD79 1> ␅
+TD3151887 ␆*
+TD114 1> *
+TD101693 ? ␅
+TD698101 ␆1
+TD74 ? 1
+TD157 📋 "benne" ? ␅
+TD3895720 ␆nnnnn
+TD67 📋 "benne" ? nnnnn
+TD127 tried: BENNE n n n n n
+TD132 2> ␅
+TD319828 ␆*
+TD101 2> *
+TD74341 ? ␅
+TD581649 ␆1
+TD66 ? 1
+TD153 📋 "ovolo" ? ␅
+TD4503704 ␆nnnMn
+TD77 📋 "ovolo" ? nnnMn
+TD133 tried: OVOLO n n n m n
+TD99 3> ␅
+TD623709 ␆undo
+TD68 3> undo
+TD98 undo
+TD107 2> ␅
+TD2567765 ␆*
+TD71 2> *
+TD67463 ? ␅
+TD588273 ␆1
+TD93 ? 1
+TD232 📋 "kooks" ? ␅
+TD3719860 ␆nnnnn
+TD100 📋 "kooks" ? nnnnn
+TD200 tried: KOOKS n n n n n
+TD184 3> ␅
+TD351575 ␆*
+TD97 3> *
+TD87507 ? ␅
+TD688408 ␆1
+TD113 ? 1
+TD223 📋 "mummy" ? ␅
+TD4167733 ␆nnnnn
+TD100 📋 "mummy" ? nnnnn
+TD199 tried: MUMMY n n n n n
+TD161 4> ␅
+TD415562 ␆*
+TD79 4> *
+TD74537 📋 "crwth" ? ␅
+TD4525365 ␆nnnnn
+TD96 📋 "crwth" ? nnnnn
+TD201 tried: CRWTH n n n n n
+TD224 5> ␅
+TD359452 ␆*
+TD86 5> *
+TD126434 📋 "qajaq" ? ␅
+TD6625518 ␆nMnnn
+TD69 📋 "qajaq" ? nMnnn
+TD122 tried: QAJAQ n m n n n
+TD109 6> ␅
+TD359887 ␆*
+TD70 6> *
+TD174477 📋 "pzazz" ? ␅
+TD5865487 ␆YnYnn
+TD99 📋 "pzazz" ? YnYnn
+TD203 tried: PZAZZ Y n Y n n
+TD222 📋> ␅
+TD3079655 ␆Don't Wordle 1474 - SURVIVED
+TD88 📋> Don't Wordle 1474 - SURVIVED
+TD11 📋> ␅
+TD26 ␆Hooray! I didn't Wordle today!
+TD3 📋> Hooray! I didn't Wordle today!
+TD3 📋> ␅
+TD8 ␆⬜⬜⬜⬜⬜4801
+TD3 📋> ⬜⬜⬜⬜⬜4801
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜1155
+TD2 📋> ⬜⬜⬜⬜⬜1155
+TD2 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜431
+TD2 📋> ⬜⬜⬜⬜⬜431
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜60
+TD2 📋> ⬜⬜⬜⬜⬜60
+TD2 📋> ␅
+TD6 ␆⬜🟨⬜⬜⬜12
+TD2 📋> ⬜🟨⬜⬜⬜12
+TD2 📋> ␅
+TD5 ␆🟩⬜🟩⬜⬜1
+TD2 📋> 🟩⬜🟩⬜⬜1
+TD2 📋> ␅
+TD5 ␆Undos used: 5
+TD2 📋> Undos used: 5
+TD3 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆  1 words remaining
+TD3 📋>   1 words remaining
+TD2 📋> ␅
+TD5 ␆x 7 unused letters
+TD2 📋> x 7 unused letters
+TD2 📋> ␅
+TD263642 ␆= 7 total score
+TD97 📋> = 7 total score
+TD13 📋> ␅
+TD135794 ␄
+TD188 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1474 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4801\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1155\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c431\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c60\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c12\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c1\nUndos used: 5\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"}
+TD1165 result: "Don't Wordle 1474 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4801\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1155\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c431\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c60\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c12\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c1\nUndos used: 5\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TD71 📆 2026-06-06 ? ␅
+TD150581 ␆
+TD84 📆 2026-06-06 ? 
