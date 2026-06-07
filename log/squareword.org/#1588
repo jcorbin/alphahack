@@ -1,0 +1,180 @@
+T788.9007774709971 now: 2026-06-07T08:56:30EDT
+TD79 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD28  ...␅
+TD334384 ␆
+TD101  ...
+TD78 🧩  ? ␅
+TD5960049 ␆#1588
+TD80 🧩  ? #1588
+TD238 puzzle_id: #1588
+TD301 > ␅
+TD1487214 ␆*
+TD77 > *
+TD214706 try? ␅
+TD1609211 ␆2
+TD66 try? 2
+TD204 questioning: ["arose", "#5"]
+TD155 #1 <IndexError>  📋 "arose" ? ␅
+TD4823739 ␆_____ ~ AS
+TD95 #1 <IndexError>  📋 "arose" ? _____ ~ AS
+TD647 attempt 0 AROSE m n n m n
+TD84 #2 <IndexError>  📋 "arose" ? ␅
+TD2095534 ␆_____ 
+TD86 #2 <IndexError>  📋 "arose" ? _____ 
+TD194 attempt 1 AROSE n n n n n
+TD90 #3 <IndexError>  📋 "arose" ? ␅
+TD2743182 ␆/it
+TD83 #3 <IndexError>  📋 "arose" ? /it
+TD187 attempt 2 AROSE Y Y Y Y Y
+TD49 #4 <IndexError>  📋 "arose" ? ␅
+TD3479932 ␆_____ ~ A
+TD78 #4 <IndexError>  📋 "arose" ? _____ ~ A
+TD188 attempt 3 AROSE m n n n n
+TD88 #5 <IndexError>  📋 "arose" ? ␅
+TD3287788 ␆_____ ~ SE
+TD100 #5 <IndexError>  📋 "arose" ? _____ ~ SE
+TD264 attempt 4 AROSE n n n m m
+TD371 ? ␅
+TD1111230 ␆
+TD94 ? 
+TD130 question done
+TD319 > ␅
+TD8463372 ␆*
+TD84 > *
+TD801827 try? ␅
+TD9310400 ␆4
+TD77 try? 4
+TD229 questioning: ["unzip", "#2"]
+TD232 #1 _____ ~AS -EOR  📋 "unzip" ? ␅
+TD5479459 ␆.
+TD100 #1 _____ ~AS -EOR  📋 "unzip" ? .
+TD227 attempt 0 UNZIP n n n n n
+TD74 #2 _____ -AEORS  📋 "unzip" ? ␅
+TD2167722 ␆___IP ~ U
+TD79 #2 _____ -AEORS  📋 "unzip" ? ___IP ~ U
+TD232 attempt 1 UNZIP m n n Y Y
+TD148 #4 _____ ~A -EORS  📋 "unzip" ? ␅
+TD1759738 ␆.
+TD86 #4 _____ ~A -EORS  📋 "unzip" ? .
+TD986 attempt 3 UNZIP n n n n n
+TD65 #5 _____ ~ES -AOR  📋 "unzip" ? ␅
+TD1070507 ␆.
+TD77 #5 _____ ~ES -AOR  📋 "unzip" ? .
+TD188 attempt 4 UNZIP n n n n n
+TD197 ? ␅
+TD167623 ␆
+TD83 ? 
+TD95 question done
+TD213 > ␅
+TD391834 ␆*
+TD109 > *
+TD547652 questioning: ["tulip", "#2"]
+TD190 #1 _____ ~AS -EINOPRUZ  📋 "tulip" ? ␅
+TD3331823 ␆.
+TD83 #1 _____ ~AS -EINOPRUZ  📋 "tulip" ? .
+TD196 attempt 0 TULIP n n n n n
+TD74 #2 ___IP ~U -AENORSZ  📋 "tulip" ? ␅
+TD575869 ␆/it
+TD81 #2 ___IP ~U -AENORSZ  📋 "tulip" ? /it
+TD200 attempt 1 TULIP Y Y Y Y Y
+TD72 #4 _____ ~A -EINOPRSUZ  📋 "tulip" ? ␅
+TD3247505 ␆T____ ~ AL
+TD97 #4 _____ ~A -EINOPRSUZ  📋 "tulip" ? T____ ~ AL
+TD271 attempt 3 TULIP Y n m n n
+TD113 #5 _____ ~ES -AINOPRUZ  📋 "tulip" ? ␅
+TD3527610 ␆_____ ~ SEL
+TD110 #5 _____ ~ES -AINOPRUZ  📋 "tulip" ? _____ ~ SEL
+TD262 attempt 4 TULIP n n m n n
+TD354 ? ␅
+TD431247 ␆
+TD81 ? 
+TD96 question done
+TD192 > ␅
+TD543803 ␆*
+TD95 > *
+TD596304 try? ␅
+TD2491373 ␆1
+TD75 try? 1
+TD225 questioning: ["tabla", "#4"]
+TD214 #1 _____ ~AS -EILNOPRTUZ  📋 "tabla" ? ␅
+TD4584375 ␆_A___ ~ AS
+TD80 #1 _____ ~AS -EILNOPRTUZ  📋 "tabla" ? _A___ ~ AS
+TD189 attempt 0 TABLA n Y n n m
+TD122 #4 T____ ~AL -EINOPRSUZ  📋 "tabla" ? ␅
+TD974953 ␆/it
+TD138 #4 T____ ~AL -EINOPRSUZ  📋 "tabla" ? /it
+TD264 attempt 3 TABLA Y Y Y Y Y
+TD102 #5 _____ ~ELS -AINOPRTUZ  📋 "tabla" ? ␅
+TD1424888 ␆.
+TD97 #5 _____ ~ELS -AINOPRTUZ  📋 "tabla" ? .
+TD260 attempt 4 TABLA n n n m n
+TD225 ? ␅
+TD253946 ␆
+TD86 ? 
+TD84 question done
+TD190 > ␅
+TD479820 ␆*
+TD98 > *
+TD800584 questioning: ["sagas", "#1"]
+TD206 #1 _A___ ~AS -BEILNOPRTUZ  📋 "sagas" ? ␅
+TD3383447 ␆/it
+TD98 #1 _A___ ~AS -BEILNOPRTUZ  📋 "sagas" ? /it
+TD247 attempt 0 SAGAS Y Y Y Y Y
+TD104 #5 _____ ~ELS -ABINOPRTUZ  📋 "sagas" ? ␅
+TD3991180 ␆S____ ~ EL
+TD99 #5 _____ ~ELS -ABINOPRTUZ  📋 "sagas" ? S____ ~ EL
+TD244 attempt 4 SAGAS Y n n n n
+TD350 ? ␅
+TD223323 ␆
+TD89 ? 
+TD123 question done
+TD316 > ␅
+TD415990 ␆*
+TD94 > *
+TD948601 questioning: ["sleek", "#5"]
+TD236 #5 S____ ~EL -ABGINOPRTUZ  📋 "sleek" ? ␅
+TD6138781 ␆/it
+TD97 #5 S____ ~EL -ABGINOPRTUZ  📋 "sleek" ? /it
+TD250 attempt 4 SLEEK Y Y Y Y Y
+TD294 ? ␅
+TD1623177 ␆
+TD77 ? 
+TD81 question done
+TD21993 📋> ␅
+TD3298456 ␆squareword.org 1588: 6 guesses
+TD108 📋> squareword.org 1588: 6 guesses
+TD14 📋> ␅
+TD42 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD30 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟩🟨🟨🟨🟨
+TD4 📋> 🟩🟨🟨🟨🟨
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD327090 ␆#squareword #squareword1588
+TD77 📋> #squareword #squareword1588
+TD7 📋> ␅
+TD176089 ␄
+TD138 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1588: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1588"}
+TD500 result: "squareword.org 1588: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1588"
+TD68 📆 2026-06-07 ? ␅
+TD167264 ␆
+TD102 📆 2026-06-07 ? 
