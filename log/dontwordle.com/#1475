@@ -1,0 +1,180 @@
+T121.7486228380003 now: 2026-06-07T08:45:23EDT
+TD174 site: dontwordle.com
+TD28 wordlist: nwl2023.txt
+TD50  ...␅
+TD174745 ␆
+TD83  ...
+TD104 1> ␅
+TD3447676 ␆*
+TD96 1> *
+TD202628 ? ␅
+TD845251 ␆1
+TD79 ? 1
+TD199 📋 "jinni" ? ␅
+TD1775940 ␄
+TD130 <EOF>
+TD107 1> ␅
+TD1615650 ␆* -bot 10
+TD98 1> * -bot 10
+TD140384 ? ␅
+TD2435596 ␆4
+TD96 ? 4
+TD246 📋 "tales" ? ␅
+TD4303635 ␆nnnnn
+TD89 📋 "tales" ? nnnnn
+TD582 tried: TALES n n n n n
+TD206 2> ␅
+TD3375343 ␄
+T143.92569051800092 now: 2026-06-07T08:45:45EDT
+TD78 2> ␅
+TD1374080 ␆undo
+TD99 2> undo
+TD143 undo
+TD111 1> ␅
+TD4495530 ␆* :v [tales] -bot 10
+TD73 1> * :v [tales] -bot 10
+TD234151 ? ␅
+TD1461942 ␆1
+TD100 ? 1
+TD233 📋 "prion" ? ␅
+TD4751619 ␆nnnnn
+TD98 📋 "prion" ? nnnnn
+TD215 tried: PRION n n n n n
+TD181 2> ␅
+TD1599610 ␆undo
+TD96 2> undo
+TD142 undo
+TD103 1> ␅
+TD11407707 ␆* :v [talesprion] -bot 10
+TD85 1> * :v [talesprion] -bot 10
+TD161894 ? ␅
+TD3398137 ␆2
+TD96 ? 2
+TD236 📋 "ducky" ? ␅
+TD5279754 ␆YYnnY
+TD79 📋 "ducky" ? YYnnY
+TD155 tried: DUCKY Y Y n n Y
+TD143 2> ␅
+TD591441 ␆undo
+TD93 2> undo
+TD138 undo
+TD139 1> ␅
+TD2583689 ␆*
+TD77 1> *
+TD118140 ? ␅
+TD201956 ␆1
+TD92 ? 1
+TD235 📋 "nanna" ? ␅
+TD4535762 ␆nnnnn
+TD104 📋 "nanna" ? nnnnn
+TD202 tried: NANNA n n n n n
+TD172 2> ␅
+TD383455 ␆*
+TD97 2> *
+TD106953 ? ␅
+TD116782 ␆1
+TD88 ? 1
+TD238 📋 "jesse" ? ␅
+TD4767791 ␆nnnnn
+TD94 📋 "jesse" ? nnnnn
+TD209 tried: JESSE n n n n n
+TD447 3> ␅
+TD407334 ␆*
+TD105 3> *
+TD99063 ? ␅
+TD188735 ␆1
+TD74 ? 1
+TD178 📋 "villi" ? ␅
+TD5447976 ␆nnnnn
+TD113 📋 "villi" ? nnnnn
+TD199 tried: VILLI n n n n n
+TD189 4> ␅
+TD399489 ␆*
+TD97 4> *
+TD91314 ? ␅
+TD148472 ␆1
+TD149 ? 1
+TD263 📋 "tooth" ? ␅
+TD4575808 ␆nnnnn
+TD94 📋 "tooth" ? nnnnn
+TD196 tried: TOOTH n n n n n
+TD186 5> ␅
+TD415410 ␆*
+TD97 5> *
+TD188004 📋 "pygmy" ? ␅
+TD83697 ␆1
+TD60 📋 "pygmy" ? 1
+TD196 📋 "pygmy" ? ␅
+TD7440111 ␆nnnYY
+TD78 📋 "pygmy" ? nnnYY
+TD149 tried: PYGMY n n n Y Y
+TD135 6> ␅
+TD1039610 ␆undo
+TD98 6> undo
+TD137 undo
+TD279 5> ␅
+TD2607414 ␆*
+TD97 5> *
+TD182002 ? ␅
+TD2722075 ␆1
+TD102 ? 1
+TD233 📋 "cruck" ? ␅
+TD4239942 ␆nnMnn
+TD79 📋 "cruck" ? nnMnn
+TD149 tried: CRUCK n n m n n
+TD137 6> ␅
+TD543758 ␆*
+TD71 6> *
+TD188440 ? ␅
+TD1018951 ␆1
+TD94 ? 1
+TD231 📋 "bubby" ? ␅
+TD4759886 ␆nYnnY
+TD110 📋 "bubby" ? nYnnY
+TD204 tried: BUBBY n Y n n Y
+TD194 📋> ␅
+TD5720059 ␆Don't Wordle 1475 - SURVIVED
+TD105 📋> Don't Wordle 1475 - SURVIVED
+TD12 📋> ␅
+TD41 ␆Hooray! I didn't Wordle today!
+TD7 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD16 ␆⬜⬜⬜⬜⬜5978
+TD6 📋> ⬜⬜⬜⬜⬜5978
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜1190
+TD5 📋> ⬜⬜⬜⬜⬜1190
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜469
+TD5 📋> ⬜⬜⬜⬜⬜469
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜73
+TD5 📋> ⬜⬜⬜⬜⬜73
+TD4 📋> ␅
+TD10 ␆⬜⬜🟨⬜⬜31
+TD4 📋> ⬜⬜🟨⬜⬜31
+TD4 📋> ␅
+TD10 ␆⬜🟩⬜⬜🟩23
+TD4 📋> ⬜🟩⬜⬜🟩23
+TD4 📋> ␅
+TD9 ␆Undos used: 4
+TD5 📋> Undos used: 4
+TD5 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD10 ␆  23 words remaining
+TD5 📋>   23 words remaining
+TD5 📋> ␅
+TD9 ␆x 9 unused letters
+TD5 📋> x 9 unused letters
+TD4 📋> ␅
+TD279087 ␆= 207 total score
+TD79 📋> = 207 total score
+TD8 📋> ␅
+TD239856 ␄
+TD177 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1475 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5978\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1190\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c469\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c73\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c31\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe923\nUndos used: 4\n\n  23 words remaining\nx 9 unused letters\n= 207 total score"}
+TD1127 result: "Don't Wordle 1475 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5978\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1190\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c469\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c73\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c31\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe923\nUndos used: 4\n\n  23 words remaining\nx 9 unused letters\n= 207 total score"
+TD74 📆 2026-06-07 ? ␅
+TD654750 ␆
+TD100 📆 2026-06-07 ? 
