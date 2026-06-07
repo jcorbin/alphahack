@@ -1,0 +1,105 @@
+T55.731298851002066 now: 2026-06-07T08:44:17EDT
+TD72 site: alfagok.diginaut.net
+TD345488 loaded 399544 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1308 words excluded) asof 40d3b5ada692ff4991017c0ba01e01c6c70d665e
+TD98  ...␅
+TD61688 ␆
+TD62  ...
+TD140 [0 : 199766 : 399544] lijm? ␅
+TD4992402 ␆
+TD71 [0 : 199766 : 399544] lijm? 
+TD134 [0 : 199766 : 399544] lijm? ␅
+TD2103423 ␆a
+TD64 [0 : 199766 : 399544] lijm? a
+TD234 progress: 1 199766 lijm
+TD76 [199767 : 299634 : 399544] schub? ␅
+TD1351500 ␆a
+TD85 [199767 : 299634 : 399544] schub? a
+TD114 progress: 1 299634 schub
+TD106 [299635 : 349396 : 399544] vakantie? ␅
+TD1343815 ␆a
+TD60 [299635 : 349396 : 399544] vakantie? a
+TD67 progress: 1 349396 vakantie
+TD69 [349397 : 374136 : 399544] vrij? ␅
+TD1303734 ␆a
+TD92 [349397 : 374136 : 399544] vrij? a
+TD104 progress: 1 374136 vrij
+TD121 [374137 : 386673 : 399544] wind? ␅
+TD1343680 ␆a
+TD69 [374137 : 386673 : 399544] wind? a
+TD78 progress: 1 386673 wind
+TD81 [386674 : 393090 : 399544] zelfmoord? ␅
+TD1271914 ␆a
+TD69 [386674 : 393090 : 399544] zelfmoord? a
+TD81 progress: 1 393090 zelfmoord
+TD79 [393091 : 396120 : 399544] zon? ␅
+TD1559653 ␆b
+TD78 [393091 : 396120 : 399544] zon? b
+TD77 progress: -1 396120 zon
+TD75 [393091 : 394591 : 396120] zien? ␅
+TD1303819 ␆a
+TD83 [393091 : 394591 : 396120] zien? a
+TD101 progress: 1 394591 zien
+TD104 [394592 : 395343 : 396120] zit? ␅
+TD1343794 ␆a
+TD86 [394592 : 395343 : 396120] zit? a
+TD104 progress: 1 395343 zit
+TD106 [395344 : 395677 : 396120] zoet? ␅
+TD1424437 ␆b
+TD99 [395344 : 395677 : 396120] zoet? b
+TD109 progress: -1 395677 zoet
+TD110 [395344 : 395480 : 395677] zoek? ␅
+TD1367063 ␆b
+TD96 [395344 : 395480 : 395677] zoek? b
+TD103 progress: -1 395480 zoek
+TD125 [395344 : 395407 : 395480] zitting? ␅
+TD1799533 ␆a
+TD76 [395344 : 395407 : 395480] zitting? a
+TD74 progress: 1 395407 zitting
+TD123 [395408 : 395445 : 395480] zmlk? ␅
+TD1327690 ␆a
+TD86 [395408 : 395445 : 395480] zmlk? a
+TD104 progress: 1 395445 zmlk
+TD104 [395446 : 395460 : 395480] zode? ␅
+TD1359738 ␆b
+TD66 [395446 : 395460 : 395480] zode? b
+TD74 progress: -1 395460 zode
+TD77 [395446 : 395450 : 395460] zo? ␅
+TD1352193 ␆a
+TD111 [395446 : 395450 : 395460] zo? a
+TD99 progress: 1 395450 zo
+TD187 [395451 : 395455 : 395460] zocht? ␅
+TD1303141 ␆a
+TD97 [395451 : 395455 : 395460] zocht? a
+TD104 progress: 1 395455 zocht
+TD240 [395456 : 395458 : 395460] zodanige? ␅
+TD2631639 ␆b
+TD88 [395456 : 395458 : 395460] zodanige? b
+TD99 progress: -1 395458 zodanige
+TD215 [395456 : 395457 : 395458] zodanig? ␅
+TD1647764 ␆it
+TD96 [395456 : 395457 : 395458] zodanig? it
+TD106 progress: 0 395457 zodanig
+TD25 [395456 : 395457 : 395458] <Done>.
+TD105 📋> ␅
+TD3672815 ␆🧩 Puzzel #582
+TD109 📋> 🧩 Puzzel #582
+TD14 📋> ␅
+TD41 ␆🤔 18 gokken
+TD7 📋> 🤔 18 gokken
+TD6 📋> ␅
+TD13 ␆⏱️ 25s
+TD6 📋> ⏱️ 25s
+TD5 📋> ␅
+TD231253 ␆🔗 alfagok.diginaut.net
+TD96 📋> 🔗 alfagok.diginaut.net
+TD10 📋> ␅
+TD175220 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #582\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD598 result: "\ud83e\udde9 Puzzel #582\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"
+TD20 result puzzle: 582
+TD8 result guesses: 18
+TD6 result time: 25s
+TD5 result link: alfagok.diginaut.net
+TD89 📆 2026-06-07 ? ␅
+TD143145 ␆
+TD101 📆 2026-06-07 ? 
