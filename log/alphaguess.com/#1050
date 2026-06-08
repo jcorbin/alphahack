@@ -1,0 +1,82 @@
+T83.9533125369926 now: 2026-06-08T13:57:08EDT
+TD70 site: alphaguess.com
+TD142571 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 40d3b5ada692ff4991017c0ba01e01c6c70d665e
+TD119  ...␅
+TD784618 ␆
+TD96  ...
+TD179 [0 : 98214 : 196520] mach? ␅
+TD7247564 ␆a
+TD170 [0 : 98214 : 196520] mach? a
+TD113 progress: 1 98214 mach
+TD246 [98215 : 147364 : 196520] rhotic? ␅
+TD1375431 ␆a
+TD102 [98215 : 147364 : 196520] rhotic? a
+TD105 progress: 1 147364 rhotic
+TD104 [147365 : 171634 : 196520] ta? ␅
+TD1431808 ␆b
+TD93 [147365 : 171634 : 196520] ta? b
+TD102 progress: -1 171634 ta
+TD83 [147365 : 159481 : 171634] slop? ␅
+TD1343518 ␆a
+TD96 [147365 : 159481 : 171634] slop? a
+TD109 progress: 1 159481 slop
+TD106 [159482 : 165523 : 171634] stick? ␅
+TD1671972 ␆b
+TD112 [159482 : 165523 : 171634] stick? b
+TD104 progress: -1 165523 stick
+TD124 [159482 : 162468 : 165523] spec? ␅
+TD1447592 ␆b
+TD90 [159482 : 162468 : 165523] spec? b
+TD102 progress: -1 162468 spec
+TD104 [159482 : 160960 : 162468] soft? ␅
+TD1559723 ␆b
+TD96 [159482 : 160960 : 162468] soft? b
+TD107 progress: -1 160960 soft
+TD288 [159482 : 160220 : 160960] snath? ␅
+TD1727575 ␆b
+TD93 [159482 : 160220 : 160960] snath? b
+TD102 progress: -1 160220 snath
+TD184 [159482 : 159842 : 160220] smell? ␅
+TD1679529 ␆b
+TD72 [159482 : 159842 : 160220] smell? b
+TD78 progress: -1 159842 smell
+TD148 [159482 : 159660 : 159842] slung? ␅
+TD1352080 ␆a
+TD97 [159482 : 159660 : 159842] slung? a
+TD107 progress: 1 159660 slung
+TD107 [159661 : 159747 : 159842] smalt? ␅
+TD1423349 ␆a
+TD77 [159661 : 159747 : 159842] smalt? a
+TD80 progress: 1 159747 smalt
+TD80 [159748 : 159773 : 159842] smart? ␅
+TD1303815 ␆a
+TD75 [159748 : 159773 : 159842] smart? a
+TD78 progress: 1 159773 smart
+TD90 [159774 : 159800 : 159842] smash? ␅
+TD25400323 ␆it
+TD111 [159774 : 159800 : 159842] smash? it
+TD108 progress: 0 159800 smash
+TD28 [159774 : 159800 : 159842] <Done>.
+TD99 📋> ␅
+TD3672294 ␆🧩 Puzzle #1050
+TD76 📋> 🧩 Puzzle #1050
+TD7 📋> ␅
+TD29 ␆🤔 13 guesses
+TD4 📋> 🤔 13 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 17s
+TD3 📋> ⏱️ 17s
+TD2 📋> ␅
+TD343361 ␆🔗 alphaguess.com/1050
+TD86 📋> 🔗 alphaguess.com/1050
+TD12 📋> ␅
+TD311945 ␄
+TD140 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1050\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/1050"}
+TD72 result: "\ud83e\udde9 Puzzle #1050\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/1050"
+TD8 result puzzle: 1050
+TD4 result guesses: 13
+TD3 result time: 17s
+TD2 result link: alphaguess.com/1050
+TD65 📆 2026-06-08 ? ␅
+TD367736 ␆
+TD109 📆 2026-06-08 ? 
