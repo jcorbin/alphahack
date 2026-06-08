@@ -1,0 +1,241 @@
+T113.88842614597525 now: 2026-06-08T15:52:39EDT
+TD81 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD25  ...␅
+TD231001 ␆
+TD101  ...
+TD74 🧩  ? ␅
+TD4031742 ␆#1589
+TD74 🧩  ? #1589
+TD193 puzzle_id: #1589
+TD177 > ␅
+TD271571 ␆
+TD79 > 
+TD266 > ␅
+TD863683 ␆*
+TD87 > *
+TD242472 try? ␅
+TD485431 ␆1
+TD70 try? 1
+TD221 questioning: ["steal", "#5"]
+TD164 #1 <IndexError>  📋 "steal" ? ␅
+TD4407937 ␆S____ ~ S
+TD75 #1 <IndexError>  📋 "steal" ? S____ ~ S
+TD427 attempt 0 STEAL Y n n n n
+TD82 #2 <IndexError>  📋 "steal" ? ␅
+TD1711024 ␆_____ ~ T
+TD71 #2 <IndexError>  📋 "steal" ? _____ ~ T
+TD167 attempt 1 STEAL n m n n n
+TD81 #3 <IndexError>  📋 "steal" ? ␅
+TD2144335 ␆___AL ~ E
+TD96 #3 <IndexError>  📋 "steal" ? ___AL ~ E
+TD267 attempt 2 STEAL n n m Y Y
+TD130 #4 <IndexError>  📋 "steal" ? ␅
+TD4111140 ␆_____ ~ SEA
+TD76 #4 <IndexError>  📋 "steal" ? _____ ~ SEA
+TD182 attempt 3 STEAL m n m m n
+TD87 #5 <IndexError>  📋 "steal" ? ␅
+TD1855722 ␆_____ ~ STE
+TD94 #5 <IndexError>  📋 "steal" ? _____ ~ STE
+TD248 attempt 4 STEAL m m m n n
+TD237 ? ␅
+TD351795 ␆
+TD80 ? 
+TD109 question done
+TD177 > ␅
+TD1383264 ␆*
+TD94 > *
+TD889922 try? ␅
+TD1110004 ␆1
+TD77 try? 1
+TD225 questioning: ["decal", "#3"]
+TD219 #1 S____ -AELT  📋 "decal" ? ␅
+TD6367549 ␆S____ ~ S
+TD72 #1 S____ -AELT  📋 "decal" ? S____ ~ S
+TD177 attempt 0 DECAL n n n n n
+TD108 #2 _____ ~T -AELS  📋 "decal" ? ␅
+TD1807656 ␆.
+TD66 #2 _____ ~T -AELS  📋 "decal" ? .
+TD194 attempt 1 DECAL n n n n n
+TD72 #3 ___AL ~E -ST  📋 "decal" ? ␅
+TD2143709 ␆_E_AL
+TD69 #3 ___AL ~E -ST  📋 "decal" ? _E_AL
+TD169 attempt 2 DECAL n Y n Y Y
+TD110 #4 _____ ~AES -LT  📋 "decal" ? ␅
+TD1199663 ␆.
+TD70 #4 _____ ~AES -LT  📋 "decal" ? .
+TD208 attempt 3 DECAL n m n m n
+TD67 #5 _____ ~EST -AL  📋 "decal" ? ␅
+TD2383765 ␆_EC__ ~ ST
+TD91 #5 _____ ~EST -AL  📋 "decal" ? _EC__ ~ ST
+TD289 attempt 4 DECAL n Y Y n n
+TD347 ? ␅
+TD223491 ␆
+TD79 ? 
+TD95 question done
+TD192 > ␅
+TD423426 ␆*
+TD93 > *
+TD584381 questioning: ["techs", "#5"]
+T6.747412305994658 now: 2026-06-08T15:53:33EDT
+TD107 questioning: ["techs", "#5"]
+TD181 #1 S____ -ACDELT  📋 "techs" ? ␅
+TD4108903 ␆S____ ~ SH
+TD99 #1 S____ -ACDELT  📋 "techs" ? S____ ~ SH
+TD779 attempt 0 TECHS n n n m m
+TD137 #2 _____ ~T -ACDELS  📋 "techs" ? ␅
+TD6319095 ␆_____ ~ TH
+TD72 #2 _____ ~T -ACDELS  📋 "techs" ? _____ ~ TH
+TD195 attempt 1 TECHS m n n m n
+TD104 #3 _E_AL -CDST  📋 "techs" ? ␅
+TD1351602 ␆.
+TD73 #3 _E_AL -CDST  📋 "techs" ? .
+TD255 attempt 2 TECHS n Y n n n
+TD67 #4 _____ ~AES -CDLT  📋 "techs" ? ␅
+TD1735573 ␆.
+TD96 #4 _____ ~AES -CDLT  📋 "techs" ? .
+TD270 attempt 3 TECHS n m n n m
+TD93 #5 _EC__ ~ST -ADL  📋 "techs" ? ␅
+TD871501 ␆/it
+TD69 #5 _EC__ ~ST -ADL  📋 "techs" ? /it
+TD180 attempt 4 TECHS Y Y Y Y Y
+TD183 ? ␅
+TD151596 ␆
+TD68 ? 
+TD89 question done
+TD199 > ␅
+TD407701 ␆*
+TD78 > *
+TD781381 try? ␅
+TD1498723 ␆1
+TD68 try? 1
+TD229 questioning: ["regal", "#3"]
+TD215 #1 S____ ~H -ACDELT  📋 "regal" ? ␅
+TD5535610 ␆S____ ~ SH
+TD94 #1 S____ ~H -ACDELT  📋 "regal" ? S____ ~ SH
+TD267 attempt 0 REGAL n n n n n
+TD153 #2 _____ ~HT -ACDELS  📋 "regal" ? ␅
+TD1079489 ␆.
+TD96 #2 _____ ~HT -ACDELS  📋 "regal" ? .
+TD277 attempt 1 REGAL n n n n n
+TD94 #3 _E_AL -CDHST  📋 "regal" ? ␅
+TD2039572 ␆RE_AL
+TD94 #3 _E_AL -CDHST  📋 "regal" ? RE_AL
+TD250 attempt 2 REGAL Y Y n Y Y
+TD143 #4 _____ ~AES -CDHLT  📋 "regal" ? ␅
+TD3135554 ␆_____ ~ SEAR
+TD96 #4 _____ ~AES -CDHLT  📋 "regal" ? _____ ~ SEAR
+TD258 attempt 3 REGAL m m n m n
+TD349 ? ␅
+TD279335 ␆
+TD96 ? 
+TD137 question done
+TD306 > ␅
+TD431302 ␆*
+TD98 > *
+TD483563 questioning: ["photo", "#2"]
+TD178 #1 S____ ~H -ACDEGLRT  📋 "photo" ? ␅
+TD5460314 ␆S____ ~ Sh
+TD75 #1 S____ ~H -ACDEGLRT  📋 "photo" ? S____ ~ Sh
+TD170 attempt 0 PHOTO n m n n n
+TD104 #2 _____ ~HT -ACDEGLRS  📋 "photo" ? ␅
+TD2543780 ␆/it
+TD100 #2 _____ ~HT -ACDEGLRS  📋 "photo" ? /it
+TD252 attempt 1 PHOTO Y Y Y Y Y
+TD97 #3 RE_AL -CDGHST  📋 "photo" ? ␅
+TD1071585 ␆.
+TD110 #3 RE_AL -CDGHST  📋 "photo" ? .
+TD243 attempt 2 PHOTO n n n n n
+TD84 #4 _____ ~AERS -CDGHLT  📋 "photo" ? ␅
+TD1023614 ␆.
+TD99 #4 _____ ~AERS -CDGHLT  📋 "photo" ? .
+TD249 attempt 3 PHOTO n n n n n
+TD301 ? ␅
+TD159253 ␆
+TD109 ? 
+TD114 question done
+TD325 > ␅
+TD367526 ␆*
+TD95 > *
+TD689879 questioning: ["swish", "#1"]
+TD187 #1 S____ ~H -ACDEGLOPRT  📋 "swish" ? ␅
+TD2933747 ␆/it
+TD108 #1 S____ ~H -ACDEGLOPRT  📋 "swish" ? /it
+TD252 attempt 0 SWISH Y Y Y Y Y
+TD106 #3 RE_AL -CDGHOPST  📋 "swish" ? ␅
+TD4055651 ␆.
+TD75 #3 RE_AL -CDGHOPST  📋 "swish" ? .
+TD175 attempt 2 SWISH n n n n n
+TD66 #4 _____ ~AERS -CDGHLOPT  📋 "swish" ? ␅
+TD2903820 ␆__IS_ ~ EAR
+TD101 #4 _____ ~AERS -CDGHLOPT  📋 "swish" ? __IS_ ~ EAR
+TD254 attempt 3 SWISH n n Y Y n
+TD346 ? ␅
+TD191187 ␆
+TD98 ? 
+TD122 question done
+TD309 > ␅
+TD415626 ␆*
+TD98 > *
+TD846458 questioning: ["renal", "#3"]
+TD188 #3 RE_AL -CDGHIOPSTW  📋 "renal" ? ␅
+TD3657296 ␆/it
+TD95 #3 RE_AL -CDGHIOPSTW  📋 "renal" ? /it
+TD246 attempt 2 RENAL Y Y Y Y Y
+TD96 #4 __IS_ ~AER -CDGHLOPTW  📋 "renal" ? ␅
+TD1431530 ␆.
+TD75 #4 __IS_ ~AER -CDGHLOPTW  📋 "renal" ? .
+TD181 attempt 3 RENAL m m n m n
+TD188 ? ␅
+TD151524 ␆
+TD95 ? 
+TD113 question done
+TD324 > ␅
+TD359397 ␆*
+TD93 > *
+TD676195 questioning: ["arise", "#4"]
+TD2343 #4 __IS_ ~AER -CDGHLNOPTW  📋 "arise" ? ␅
+TD2441434 ␆/it
+TD71 #4 __IS_ ~AER -CDGHLNOPTW  📋 "arise" ? /it
+TD157 attempt 3 ARISE Y Y Y Y Y
+TD137 ? ␅
+TD1271774 ␆
+TD76 ? 
+TD84 question done
+TD29563 📋> ␅
+TD4530836 ␆squareword.org 1589: 8 guesses
+TD74 📋> squareword.org 1589: 8 guesses
+TD12 📋> ␅
+TD83 ␆
+TD41 📋> 
+TD11 📋> ␅
+TD22 ␆🟩🟨🟨🟨🟨
+TD6 📋> 🟩🟨🟨🟨🟨
+TD5 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD13 ␆🟩🟩🟨🟩🟩
+TD4 📋> 🟩🟩🟨🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD13 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD238994 ␆#squareword #squareword1589
+TD78 📋> #squareword #squareword1589
+TD8 📋> ␅
+TD183979 ␄
+TD130 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1589: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1589"}
+TD476 result: "squareword.org 1589: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1589"
+TD70 📆 2026-06-08 ? ␅
+TD151325 ␆
+TD76 📆 2026-06-08 ? 
