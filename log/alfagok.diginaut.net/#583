@@ -1,0 +1,108 @@
+T3.4957135879958514 now: 2026-06-08T13:55:48EDT
+TD86 site: alfagok.diginaut.net
+TD466438 loaded 399544 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1308 words excluded) asof 40d3b5ada692ff4991017c0ba01e01c6c70d665e
+TD130  ...␅
+TD30 ␆
+TD3  ...
+TD113 [0 : 199766 : 399544] lijm? ␅
+TD13 ␆
+TD2 [0 : 199766 : 399544] lijm? 
+TD30 [0 : 199766 : 399544] lijm? ␅
+TD828167 ␆
+TD99 [0 : 199766 : 399544] lijm? 
+TD183 [0 : 199766 : 399544] lijm? ␅
+TD535689 ␆[C
+TD96 [0 : 199766 : 399544] lijm? [C
+TD373 [0 : 199766 : 399544] lijm? ␅
+TD175731 ␆
+TD84 [0 : 199766 : 399544] lijm? 
+TD123 [0 : 199766 : 399544] lijm? ␅
+TD15679956 ␆b
+TD95 [0 : 199766 : 399544] lijm? b
+TD119 progress: -1 199766 lijm
+TD119 [0 : 99704 : 199766] ex? ␅
+TD2647614 ␆b
+TD76 [0 : 99704 : 199766] ex? b
+TD85 progress: -1 99704 ex
+TD78 [0 : 49817 : 99704] boks? ␅
+TD1615874 ␆b
+TD98 [0 : 49817 : 99704] boks? b
+TD105 progress: -1 49817 boks
+TD104 [0 : 24905 : 49817] bade? ␅
+TD2087921 ␆!
+TD97 [0 : 24905 : 49817] bade? !
+TD472 [0 : 24887 : 49816] bad? ␅
+TD2103245 ␆a
+TD94 [0 : 24887 : 49816] bad? a
+TD107 progress: 1 24887 bad
+TD115 [24888 : 37333 : 49816] bescherm? ␅
+TD1615803 ␆a
+TD99 [24888 : 37333 : 49816] bescherm? a
+TD106 progress: 1 37333 bescherm
+TD160 [37334 : 43037 : 49816] bij? ␅
+TD1599613 ␆b
+TD97 [37334 : 43037 : 49816] bij? b
+TD107 progress: -1 43037 bij
+TD115 [37334 : 39967 : 43037] beurs? ␅
+TD1423712 ␆b
+TD95 [37334 : 39967 : 43037] beurs? b
+TD107 progress: -1 39967 beurs
+TD133 [37334 : 38171 : 39967] best? ␅
+TD1583721 ␆b
+TD104 [37334 : 38171 : 39967] best? b
+TD112 progress: -1 38171 best
+TD121 [37334 : 37721 : 38171] beslissing? ␅
+TD1943663 ␆a
+TD76 [37334 : 37721 : 38171] beslissing? a
+TD81 progress: 1 37721 beslissing
+TD114 [37722 : 37946 : 38171] bespaar? ␅
+TD1543650 ␆b
+TD90 [37722 : 37946 : 38171] bespaar? b
+TD101 progress: -1 37946 bespaar
+TD125 [37722 : 37826 : 37946] besluitvorming? ␅
+TD1839873 ␆b
+TD73 [37722 : 37826 : 37946] besluitvorming? b
+TD100 progress: -1 37826 besluitvorming
+TD170 [37722 : 37774 : 37826] beslist? ␅
+TD1559470 ␆a
+TD71 [37722 : 37774 : 37826] beslist? a
+TD77 progress: 1 37774 beslist
+TD80 [37775 : 37795 : 37826] besluit? ␅
+TD1447871 ␆a
+TD80 [37775 : 37795 : 37826] besluit? a
+TD79 progress: 1 37795 besluit
+TD136 [37796 : 37811 : 37826] besluitmoratorium? ␅
+TD1583821 ␆b
+TD104 [37796 : 37811 : 37826] besluitmoratorium? b
+TD101 progress: -1 37811 besluitmoratorium
+TD106 [37796 : 37798 : 37811] besluite? ␅
+TD1807700 ␆!
+TD101 [37796 : 37798 : 37811] besluite? !
+TD539 [37796 : 37803 : 37810] besluiten? ␅
+TD1943329 ␆it
+TD99 [37796 : 37803 : 37810] besluiten? it
+TD106 progress: 0 37803 besluiten
+TD25 [37796 : 37803 : 37810] <Done>.
+TD105 📋> ␅
+TD3233424 ␆🧩 Puzzel #583
+TD98 📋> 🧩 Puzzel #583
+TD17 📋> ␅
+TD43 ␆🤔 15 gokken
+TD6 📋> 🤔 15 gokken
+TD6 📋> ␅
+TD13 ␆⏱️ 29s
+TD7 📋> ⏱️ 29s
+TD5 📋> ␅
+TD278288 ␆🔗 alfagok.diginaut.net
+TD92 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD167911 ␄
+TD177 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #583\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD590 result: "\ud83e\udde9 Puzzel #583\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"
+TD18 result puzzle: 583
+TD9 result guesses: 15
+TD16 result time: 29s
+TD5 result link: alfagok.diginaut.net
+TD89 📆 2026-06-08 ? ␅
+TD263177 ␆
+TD95 📆 2026-06-08 ? 
