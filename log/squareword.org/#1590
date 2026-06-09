@@ -1,0 +1,240 @@
+T59614.644027022994 now: 2026-06-09T08:27:01EDT
+TD151 site: squareword.org
+TD74 wordlist: nwl2023.txt
+TD62  ...␅
+TD288031 ␆
+TD82  ...
+TD62 🧩  ? ␅
+TD5943879 ␆#1590
+TD91 🧩  ? #1590
+TD327 puzzle_id: #1590
+TD735 > ␅
+TD1374709 ␆*
+TD68 > *
+TD261637 try? ␅
+TD2450483 ␆2
+TD99 try? 2
+TD540 questioning: ["bears", "#5"]
+TD284 #1 <IndexError>  📋 "bears" ? ␅
+TD4294997 ␆_____ ~ ARS
+TD99 #1 <IndexError>  📋 "bears" ? _____ ~ ARS
+TD825 attempt 0 BEARS n n m m m
+TD146 #2 <IndexError>  📋 "bears" ? ␅
+TD1887015 ␆_____ ~ ER
+TD98 #2 <IndexError>  📋 "bears" ? _____ ~ ER
+TD254 attempt 1 BEARS n m n m n
+TD119 #3 <IndexError>  📋 "bears" ? ␅
+TD2271541 ␆_____ ~ EAR
+TD96 #3 <IndexError>  📋 "bears" ? _____ ~ EAR
+TD247 attempt 2 BEARS n m m m n
+TD119 #4 <IndexError>  📋 "bears" ? ␅
+TD1903512 ␆_____ ~ E
+TD94 #4 <IndexError>  📋 "bears" ? _____ ~ E
+TD254 attempt 3 BEARS n m n n n
+TD121 #5 <IndexError>  📋 "bears" ? ␅
+TD2527602 ␆_E__S 
+TD78 #5 <IndexError>  📋 "bears" ? _E__S 
+TD183 attempt 4 BEARS n Y n n Y
+TD264 ? ␅
+TD935595 ␆
+TD100 ? 
+TD147 question done
+TD300 > ␅
+TD655475 ␆*
+TD98 > *
+TD2513063 try? ␅
+TD1246769 ␆1
+TD72 try? 1
+TD188 questioning: ["sorta", "#1"]
+TD167 #1 _____ ~ARS -BE  📋 "sorta" ? ␅
+TD4039752 ␆S_R__ ~ A
+TD92 #1 _____ ~ARS -BE  📋 "sorta" ? S_R__ ~ A
+TD258 attempt 0 SORTA Y n Y n m
+TD148 #2 _____ ~ER -ABS  📋 "sorta" ? ␅
+TD3295375 ␆_____ ~ ERO
+TD95 #2 _____ ~ER -ABS  📋 "sorta" ? _____ ~ ERO
+TD184 attempt 1 SORTA n m m n n
+TD105 #3 _____ ~AER -BS  📋 "sorta" ? ␅
+TD1255711 ␆.
+TD81 #3 _____ ~AER -BS  📋 "sorta" ? .
+TD199 attempt 2 SORTA n n m n m
+TD66 #4 _____ ~E -ABRS  📋 "sorta" ? ␅
+TD2935740 ␆_____ ~ ET
+TD114 #4 _____ ~E -ABRS  📋 "sorta" ? _____ ~ ET
+TD259 attempt 3 SORTA n n n m n
+TD162 #5 _E__S -ABR  📋 "sorta" ? ␅
+TD3351780 ␆_E_TS 
+TD97 #5 _E__S -ABR  📋 "sorta" ? _E_TS 
+TD256 attempt 4 SORTA n n n Y n
+TD332 ? ␅
+TD366860 ␆
+TD69 ? 
+TD95 question done
+TD185 > ␅
+TD8207860 ␆*
+TD93 > *
+TD3233406 try? ␅
+TD2462639 ␆1
+TD69 try? 1
+TD192 questioning: ["scrap", "#1"]
+TD183 #1 S_R__ ~A -BEOT  📋 "scrap" ? ␅
+TD4543629 ␆SCRA_
+TD74 #1 S_R__ ~A -BEOT  📋 "scrap" ? SCRA_
+TD180 attempt 0 SCRAP Y Y Y Y n
+TD102 #2 _____ ~EOR -ABST  📋 "scrap" ? ␅
+TD3103560 ␆_____ ~ EROC
+TD76 #2 _____ ~EOR -ABST  📋 "scrap" ? _____ ~ EROC
+TD181 attempt 1 SCRAP n m m n n
+TD177 #3 _____ ~AER -BOST  📋 "scrap" ? ␅
+TD1095599 ␆.
+TD92 #3 _____ ~AER -BOST  📋 "scrap" ? .
+TD248 attempt 2 SCRAP n n m m n
+TD66 #4 _____ ~ET -ABORS  📋 "scrap" ? ␅
+TD2815828 ␆_____ ~ ETP
+TD131 #4 _____ ~ET -ABORS  📋 "scrap" ? _____ ~ ETP
+TD261 attempt 3 SCRAP n n n n m
+TD150 #5 _E_TS -ABORS  📋 "scrap" ? ␅
+TD3615462 ␆_E_TS ~ P
+TD119 #5 _E_TS -ABORS  📋 "scrap" ? _E_TS ~ P
+TD276 attempt 4 SCRAP n n n n m
+TD343 ? ␅
+TD383298 ␆
+TD118 ? 
+TD135 question done
+TD362 > ␅
+TD671260 ␆*
+TD94 > *
+TD3139186 questioning: ["pelts", "#5"]
+TD281 #1 SCRA_ -BEOPT  📋 "pelts" ? ␅
+TD5028442 ␆.
+TD72 #1 SCRA_ -BEOPT  📋 "pelts" ? .
+TD193 attempt 0 PELTS n n n n n
+TD66 #2 _____ ~CEOR -ABPST  📋 "pelts" ? ␅
+TD1095797 ␆.
+TD80 #2 _____ ~CEOR -ABPST  📋 "pelts" ? .
+TD196 attempt 1 PELTS n m n n n
+TD69 #3 _____ ~AER -BCOPST  📋 "pelts" ? ␅
+TD3543635 ␆_____ ~ EARL
+TD100 #3 _____ ~AER -BCOPST  📋 "pelts" ? _____ ~ EARL
+TD259 attempt 2 PELTS n m m n n
+TD156 #4 _____ ~EPT -ABCORS  📋 "pelts" ? ␅
+TD1799638 ␆.
+TD79 #4 _____ ~EPT -ABCORS  📋 "pelts" ? .
+TD198 attempt 3 PELTS m m n m n
+TD69 #5 _E_TS ~P -ABCORS  📋 "pelts" ? ␅
+TD663432 ␆/it
+TD82 #5 _E_TS ~P -ABCORS  📋 "pelts" ? /it
+TD182 attempt 4 PELTS Y Y Y Y Y
+TD183 ? ␅
+TD303650 ␆
+TD79 ? 
+TD87 question done
+TD201 > ␅
+TD1215729 ␆*
+TD93 > *
+TD2754853 questioning: ["inept", "#4"]
+TD217 #1 SCRA_ -BELOPST  📋 "inept" ? ␅
+TD4692787 ␆.
+TD75 #1 SCRA_ -BELOPST  📋 "inept" ? .
+TD185 attempt 0 INEPT n n n n n
+TD69 #2 _____ ~CEOR -ABLPST  📋 "inept" ? ␅
+TD2399733 ␆__E__ ~ ROC
+TD77 #2 _____ ~CEOR -ABLPST  📋 "inept" ? __E__ ~ ROC
+TD184 attempt 1 INEPT n n Y n n
+TD114 #3 _____ ~AELR -BCOPST  📋 "inept" ? ␅
+TD1319672 ␆.
+TD82 #3 _____ ~AELR -BCOPST  📋 "inept" ? .
+TD195 attempt 2 INEPT n n m n n
+TD69 #4 _____ ~EPT -ABCLORS  📋 "inept" ? ␅
+TD671656 ␆/it
+TD101 #4 _____ ~EPT -ABCLORS  📋 "inept" ? /it
+TD269 attempt 3 INEPT Y Y Y Y Y
+TD297 ? ␅
+TD159565 ␆
+TD101 ? 
+TD116 question done
+TD331 > ␅
+TD471277 ␆*
+TD100 > *
+TD2269355 questioning: ["credo", "#2"]
+TD205 #1 SCRA_ -BEILNOPST  📋 "credo" ? ␅
+TD4282357 ␆.
+TD73 #1 SCRA_ -BEILNOPST  📋 "credo" ? .
+TD192 attempt 0 CREDO n n n n n
+TD72 #2 __E__ ~COR -ABILNPST  📋 "credo" ? ␅
+TD551602 ␆/it
+TD80 #2 __E__ ~COR -ABILNPST  📋 "credo" ? /it
+TD195 attempt 1 CREDO Y Y Y Y Y
+TD69 #3 _____ ~AELR -BCINOPST  📋 "credo" ? ␅
+TD1223936 ␆.
+TD94 #3 _____ ~AELR -BCINOPST  📋 "credo" ? .
+TD268 attempt 2 CREDO n m m n n
+TD318 ? ␅
+TD175111 ␆
+TD78 ? 
+TD89 question done
+TD199 > ␅
+TD367789 ␆*
+TD77 > *
+TD1564391 questioning: ["ravel", "#3"]
+TD201 #1 SCRA_ -BCDEILNOPRST  📋 "ravel" ? ␅
+TD3939217 ␆.
+TD165 #1 SCRA_ -BCDEILNOPRST  📋 "ravel" ? .
+TD166 attempt 0 RAVEL n n n n n
+TD62 #3 _____ ~AELR -BCDINOPST  📋 "ravel" ? ␅
+TD575498 ␆/it
+TD62 #3 _____ ~AELR -BCDINOPST  📋 "ravel" ? /it
+TD170 attempt 2 RAVEL Y Y Y Y Y
+TD148 ? ␅
+TD199731 ␆
+TD68 ? 
+TD78 question done
+TD155 > ␅
+TD992414 ␆*
+TD65 > *
+TD907194 questioning: ["scram", "#1"]
+TD186 #1 SCRA_ -ABCDEILNOPRSTV  📋 "scram" ? ␅
+TD4212054 ␆/it
+TD95 #1 SCRA_ -ABCDEILNOPRSTV  📋 "scram" ? /it
+TD257 attempt 0 SCRAM Y Y Y Y Y
+TD226 ? ␅
+TD2279406 ␆
+TD78 ? 
+TD82 question done
+TD27563 📋> ␅
+TD2749000 ␆squareword.org 1590: 8 guesses
+TD75 📋> squareword.org 1590: 8 guesses
+TD8 📋> ␅
+TD38 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟨
+TD3 📋> 🟩🟩🟩🟩🟨
+TD2 📋> ␅
+TD8 ␆🟨🟨🟩🟨🟨
+TD2 📋> 🟨🟨🟩🟨🟨
+TD2 📋> ␅
+TD9 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD8 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD8 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD295049 ␆#squareword #squareword1590
+TD92 📋> #squareword #squareword1590
+TD13 📋> ␅
+TD159941 ␄
+TD179 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1590: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1590"}
+TD1028 result: "squareword.org 1590: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1590"
+TD76 📆 2026-06-09 ? ␅
+TD230828 ␆
+TD83 📆 2026-06-09 ? 
