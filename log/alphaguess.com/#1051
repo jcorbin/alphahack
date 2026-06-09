@@ -1,0 +1,94 @@
+T57806.29986869701 now: 2026-06-09T07:56:52EDT
+TD104 site: alphaguess.com
+TD175896 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 076f06f9ecf9c0b2ad06ff2c37e04028751ca048
+TD121  ...␅
+TD8735088 ␆
+TD87  ...
+TD128 [0 : 98214 : 196520] mach? ␅
+TD1583814 ␆a
+TD89 [0 : 98214 : 196520] mach? a
+TD107 progress: 1 98214 mach
+TD175 [98215 : 147364 : 196520] rhotic? ␅
+TD1567591 ␆b
+TD79 [98215 : 147364 : 196520] rhotic? b
+TD79 progress: -1 147364 rhotic
+TD83 [98215 : 122775 : 147364] parr? ␅
+TD1231582 ␆a
+TD76 [98215 : 122775 : 147364] parr? a
+TD77 progress: 1 122775 parr
+TD79 [122776 : 135066 : 147364] proper? ␅
+TD1463906 ␆b
+TD69 [122776 : 135066 : 147364] proper? b
+TD79 progress: -1 135066 proper
+TD80 [122776 : 128844 : 135066] play? ␅
+TD1231737 ␆b
+TD80 [122776 : 128844 : 135066] play? b
+TD83 progress: -1 128844 play
+TD79 [122776 : 125807 : 128844] petti? ␅
+TD1431828 ␆a
+TD93 [122776 : 125807 : 128844] petti? a
+TD99 progress: 1 125807 petti
+TD214 [125808 : 127320 : 128844] pidgin? ␅
+TD1951668 ␆a
+TD73 [125808 : 127320 : 128844] pidgin? a
+TD78 progress: 1 127320 pidgin
+TD83 [127321 : 128073 : 128844] pis? ␅
+TD1359676 ␆a
+TD96 [127321 : 128073 : 128844] pis? a
+TD100 progress: 1 128073 pis
+TD112 [128074 : 128450 : 128844] plain? ␅
+TD1288265 ␆a
+TD97 [128074 : 128450 : 128844] plain? a
+TD101 progress: 1 128450 plain
+TD101 [128451 : 128634 : 128844] plasm? ␅
+TD2591136 ␆a
+TD72 [128451 : 128634 : 128844] plasm? a
+TD79 progress: 1 128634 plasm
+TD76 [128635 : 128732 : 128844] plat? ␅
+TD1503986 ␆a
+TD103 [128635 : 128732 : 128844] plat? a
+TD105 progress: 1 128732 plat
+TD390 [128733 : 128788 : 128844] platinoid? ␅
+TD1263319 ␆a
+TD74 [128733 : 128788 : 128844] platinoid? a
+TD102 progress: 1 128788 platinoid
+TD216 [128789 : 128817 : 128844] platter? ␅
+TD1271645 ␆a
+TD83 [128789 : 128817 : 128844] platter? a
+TD77 progress: 1 128817 platter
+TD76 [128818 : 128823 : 128844] platy? ␅
+TD1311748 ␆a
+TD78 [128818 : 128823 : 128844] platy? a
+TD82 progress: 1 128823 platy
+TD124 [128824 : 128834 : 128844] platys? ␅
+TD1303656 ␆a
+TD106 [128824 : 128834 : 128844] platys? a
+TD110 progress: 1 128834 platys
+TD291 [128835 : 128839 : 128844] plausible? ␅
+TD2375946 ␆it
+TD90 [128835 : 128839 : 128844] plausible? it
+TD100 progress: 0 128839 plausible
+TD24 [128835 : 128839 : 128844] <Done>.
+TD90 📋> ␅
+TD3175901 ␆🧩 Puzzle #1051
+TD94 📋> 🧩 Puzzle #1051
+TD12 📋> ␅
+TD44 ␆🤔 16 guesses
+TD7 📋> 🤔 16 guesses
+TD6 📋> ␅
+TD15 ␆⏱️ 22s
+TD6 📋> ⏱️ 22s
+TD5 📋> ␅
+TD271554 ␆🔗 alphaguess.com/1051
+TD92 📋> 🔗 alphaguess.com/1051
+TD13 📋> ␅
+TD184113 ␄
+TD176 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1051\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1051"}
+TD99 result: "\ud83e\udde9 Puzzle #1051\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1051"
+TD15 result puzzle: 1051
+TD6 result guesses: 16
+TD5 result time: 22s
+TD4 result link: alphaguess.com/1051
+TD91 📆 2026-06-09 ? ␅
+TD175181 ␆
+TD97 📆 2026-06-09 ? 
