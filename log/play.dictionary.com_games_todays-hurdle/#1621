@@ -1,0 +1,234 @@
+T129.10628651600564 now: 2026-06-10T20:01:45EDT
+TD67 site: https://play.dictionary.com/games/todays-hurdle
+TD11 wordlist: nwl2023.txt
+TD21  ...␅
+TD1086639 ␆
+TD73  ...
+TD101 1.1> ␅
+TD128986675 ␆*
+TD115 1.1> *
+TD163458 1.1 ? ␅
+TD1548275 ␆2
+TD70 1.1 ? 2
+TD167 1.1 📋 "years" ? ␅
+TD4000029 ␆nnnnn
+TD80 1.1 📋 "years" ? nnnnn
+TD145 tried: YEARS n n n n n
+TD304 1.2> ␅
+TD471400 ␆*
+TD70 1.2> *
+TD74305 1.2 ? ␅
+TD1853644 ␆2
+TD72 1.2 ? 2
+TD161 1.2 📋 "ludic" ? ␅
+TD3551811 ␆nMYYn
+TD75 1.2 📋 "ludic" ? nMYYn
+TD136 tried: LUDIC n m Y Y n
+TD155 1.3> ␅
+TD423625 ␆*
+TD145 1.3> *
+TD77319 1.3 📋 "undid" ? ␅
+TD3810590 ␆YYYYY
+TD94 1.3 📋 "undid" ? YYYYY
+TD205 tried: UNDID Y Y Y Y Y
+TD487 2.1 📋 "undid" ? ␅
+TD8015442 ␆nnnMn
+TD66 2.1 📋 "undid" ? nnnMn
+TD129 tried: UNDID n n n m n
+TD116 2.2> ␅
+TD615566 ␆*
+TD68 2.2> *
+TD89320 2.2 ? ␅
+TD814735 ␆1
+TD72 2.2 ? 1
+TD160 2.2 📋 "liers" ? ␅
+TD5711799 ␆nYnnn
+TD64 2.2 📋 "liers" ? nYnnn
+TD133 tried: LIERS n Y n n n
+TD145 2.3> ␅
+TD399688 ␆*
+TD97 2.3> *
+TD76186 2.3 ? ␅
+TD971789 ␆1
+TD96 2.3 ? 1
+TD246 2.3 📋 "pithy" ? ␅
+TD3735752 ␆MYnMn
+TD92 2.3 📋 "pithy" ? MYnMn
+TD208 tried: PITHY m Y n m n
+TD336 2.4> ␅
+TD439341 ␆*
+TD97 2.4> *
+TD93287 2.4 📋 "hippo" ? ␅
+TD5146892 ␆YYYYY
+TD97 2.4 📋 "hippo" ? YYYYY
+TD205 tried: HIPPO Y Y Y Y Y
+TD327 3.1 📋 "hippo" ? ␅
+TD35992052 ␆nnnnY
+TD110 3.1 📋 "hippo" ? nnnnY
+TD211 tried: HIPPO n n n n Y
+TD215 3.2> ␅
+TD871451 ␆*
+TD75 3.2> *
+TD74193 3.2 ? ␅
+TD4437874 ␆3
+TD113 3.2 ? 3
+TD243 3.2 📋 "macro" ? ␅
+TD3879590 ␆nnYnY
+TD78 3.2 📋 "macro" ? nnYnY
+TD145 tried: MACRO n n Y n Y
+TD154 3.3> ␅
+TD351958 ␆*
+TD103 3.3> *
+TD81208 3.3 ? ␅
+TD3606708 ␆1
+TD75 3.3 ? 1
+TD164 3.3 📋 "gecko" ? ␅
+TD4623656 ␆YYYYY
+TD72 3.3 📋 "gecko" ? YYYYY
+TD132 tried: GECKO Y Y Y Y Y
+TD175 4.1 📋 "gecko" ? ␅
+TD7447759 ␆YYnnn
+TD105 4.1 📋 "gecko" ? YYnnn
+TD203 tried: GECKO Y Y n n n
+TD219 4.2> ␅
+TD671453 ␆*
+TD98 4.2> *
+TD87283 4.2 ? ␅
+TD1312736 ␆1
+TD72 4.2 ? 1
+TD154 4.2 📋 "gents" ? ␅
+TD4087727 ␆YYYnn
+TD70 4.2 📋 "gents" ? YYYnn
+TD130 tried: GENTS Y Y Y n n
+TD121 4.3> ␅
+TD375746 ␆*
+TD67 4.3> *
+TD65631 4.3 ? ␅
+TD7630523 ␆3
+TD94 4.3 ? 3
+TD235 4.3 📋 "genre" ? ␅
+TD3967564 ␆YYYnY
+TD71 4.3 📋 "genre" ? YYYnY
+TD129 tried: GENRE Y Y Y n Y
+TD122 4.4> ␅
+TD343544 ␆*
+TD69 4.4> *
+TD68988 4.4 📋 "genie" ? ␅
+TD3395301 ␆YYYYY
+TD90 4.4 📋 "genie" ? YYYYY
+TD198 tried: GENIE Y Y Y Y Y
+TD314 5.1 📋 "undid" ? ␅
+TD7455658 ␆nnnnY
+TD96 5.1 📋 "undid" ? nnnnY
+TD201 tried: UNDID n n n n Y
+TD1205 5.2 📋 "hippo" ? ␅
+TD1126229 ␆nnnnn
+TD99 5.2 📋 "hippo" ? nnnnn
+TD206 tried: HIPPO n n n n n
+TD247 5.3 📋 "gecko" ? ␅
+TD1679548 ␆YMnnn
+TD99 5.3 📋 "gecko" ? YMnnn
+TD206 tried: GECKO Y m n n n
+TD265 5.4 📋 "genie" ? ␅
+TD1663592 ␆YMnnM
+TD100 5.4 📋 "genie" ? YMnnM
+TD204 tried: GENIE Y m n n m
+TD239 5.5> ␅
+TD735425 ␆*
+TD98 5.5> *
+TD91426 5.5 ? ␅
+TD3340371 ␆3
+TD88 5.5 ? 3
+TD174 5.5 📋 "gated" ? ␅
+TD4351812 ␆YnnYY
+TD73 5.5 📋 "gated" ? YnnYY
+TD143 tried: GATED Y n n Y Y
+TD158 5.6> ␅
+TD375603 ␆*
+TD67 5.6> *
+TD92690 5.6 ? ␅
+TD5579455 ␆4
+TD97 5.6 ? 4
+TD243 5.6 📋 "greed" ? ␅
+TD4735899 ␆YYYYY
+TD98 5.6 📋 "greed" ? YYYYY
+TD201 tried: GREED Y Y Y Y Y
+TD253 📋> ␅
+TD4863838 ␆Hurdle 1621
+TD94 📋> Hurdle 1621
+TD13 📋> ␅
+TD39 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD12 ␆3/6
+TD5 📋> 3/6
+TD5 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜
+TD5 📋> ⬜⬜⬜⬜⬜
+TD5 📋> ␅
+TD11 ␆⬜🟨🟩🟩⬜
+TD5 📋> ⬜🟨🟩🟩⬜
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD9 ␆4/6
+TD5 📋> 4/6
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜🟨⬜
+TD4 📋> ⬜⬜⬜🟨⬜
+TD4 📋> ␅
+TD10 ␆⬜🟩⬜⬜⬜
+TD4 📋> ⬜🟩⬜⬜⬜
+TD5 📋> ␅
+TD10 ␆🟨🟩⬜🟨⬜
+TD4 📋> 🟨🟩⬜🟨⬜
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆3/6
+TD5 📋> 3/6
+TD4 📋> ␅
+TD11 ␆⬜⬜⬜⬜🟩
+TD4 📋> ⬜⬜⬜⬜🟩
+TD4 📋> ␅
+TD21 ␆⬜⬜🟩⬜🟩
+TD19 📋> ⬜⬜🟩⬜🟩
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆4/6
+TD4 📋> 4/6
+TD4 📋> ␅
+TD10 ␆🟩🟩⬜⬜⬜
+TD4 📋> 🟩🟩⬜⬜⬜
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩⬜⬜
+TD4 📋> 🟩🟩🟩⬜⬜
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩⬜🟩
+TD4 📋> 🟩🟩🟩⬜🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆Final 2/2
+TD2 📋> Final 2/2
+TD2 📋> ␅
+TD5 ␆🟩⬜⬜🟩🟩
+TD2 📋> 🟩⬜⬜🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD279048 ␆score: 10,000
+TD97 📋> score: 10,000
+TD13 📋> ␅
+TD191920 ␄
+TD187 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1621\n\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"}
+TD683 result: "Hurdle 1621\n\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"
+TD101 📆 2026-06-10 ? ␅
+TD231063 ␆
+TD97 📆 2026-06-10 ? 
