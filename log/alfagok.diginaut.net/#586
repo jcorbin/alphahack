@@ -1,0 +1,89 @@
+T42120.49567558401 now: 2026-06-11T08:11:13EDT
+TD144 site: alfagok.diginaut.net
+TD560035 loaded 399539 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1313 words excluded) asof 114d22f841060e3be1e5ad10861a02ceeebb2a2e
+TD159  ...␅
+TD637892 ␆
+TD106  ...
+TD2516 [0 : 199766 : 399539] lijm? ␅
+TD5189132 ␆a
+TD103 [0 : 199766 : 399539] lijm? a
+TD691 progress: 1 199766 lijm
+TD112 [199767 : 299629 : 399539] schub? ␅
+TD1470813 ␆b
+TD100 [199767 : 299629 : 399539] schub? b
+TD128 progress: -1 299629 schub
+TD132 [199767 : 247637 : 299629] op? ␅
+TD1455925 ␆a
+TD94 [199767 : 247637 : 299629] op? a
+TD107 progress: 1 247637 op
+TD116 [247638 : 273434 : 299629] proef? ␅
+TD1631914 ␆a
+TD97 [247638 : 273434 : 299629] proef? a
+TD111 progress: 1 273434 proef
+TD105 [273435 : 286502 : 299629] rijs? ␅
+TD1303330 ␆a
+TD100 [273435 : 286502 : 299629] rijs? a
+TD169 progress: 1 286502 rijs
+TD103 [286503 : 292730 : 299629] samen? ␅
+TD2088380 ␆b
+TD94 [286503 : 292730 : 299629] samen? b
+TD103 progress: -1 292730 samen
+TD101 [286503 : 289597 : 292730] roof? ␅
+TD1494889 ␆b
+TD74 [286503 : 289597 : 292730] roof? b
+TD78 progress: -1 289597 roof
+TD79 [286503 : 288046 : 289597] roemrucht? ␅
+TD1456271 ␆a
+TD111 [286503 : 288046 : 289597] roemrucht? a
+TD108 progress: 1 288046 roemrucht
+TD106 [288047 : 288788 : 289597] rommel? ␅
+TD1895430 ␆b
+TD97 [288047 : 288788 : 289597] rommel? b
+TD114 progress: -1 288788 rommel
+TD118 [288047 : 288370 : 288788] rok? ␅
+TD1423644 ␆a
+TD75 [288047 : 288370 : 288788] rok? a
+TD81 progress: 1 288370 rok
+TD82 [288371 : 288435 : 288788] rol? ␅
+TD1519604 ␆b
+TD106 [288371 : 288435 : 288788] rol? b
+TD119 progress: -1 288435 rol
+TD212 [288371 : 288382 : 288435] roker? ␅
+TD1511661 ␆b
+TD103 [288371 : 288382 : 288435] roker? b
+TD114 progress: -1 288382 roker
+TD118 [288371 : 288373 : 288382] roke? ␅
+TD1695617 ␆!
+TD101 [288371 : 288373 : 288382] roke? !
+TD448 [288371 : 288374 : 288381] rokeer? ␅
+TD1887897 ␆a
+TD114 [288371 : 288374 : 288381] rokeer? a
+TD111 progress: 1 288374 rokeer
+TD187 [288375 : 288378 : 288381] roken? ␅
+TD2359303 ␆it
+TD105 [288375 : 288378 : 288381] roken? it
+TD119 progress: 0 288378 roken
+TD37 [288375 : 288378 : 288381] <Done>.
+TD158 📋> ␅
+TD2864582 ␆🧩 Puzzel #586
+TD110 📋> 🧩 Puzzel #586
+TD13 📋> ␅
+TD41 ␆🤔 14 gokken
+TD7 📋> 🤔 14 gokken
+TD6 📋> ␅
+TD13 ␆⏱️ 23s
+TD6 📋> ⏱️ 23s
+TD5 📋> ␅
+TD286938 ␆🔗 alfagok.diginaut.net
+TD93 📋> 🔗 alfagok.diginaut.net
+TD17 📋> ␅
+TD152850 ␄
+TD190 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #586\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 23s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD870 result: "\ud83e\udde9 Puzzel #586\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 23s\n\ud83d\udd17 alfagok.diginaut.net"
+TD21 result puzzle: 586
+TD9 result guesses: 14
+TD6 result time: 23s
+TD5 result link: alfagok.diginaut.net
+TD95 📆 2026-06-11 ? ␅
+TD182033 ␆
+TD202 📆 2026-06-11 ? 
