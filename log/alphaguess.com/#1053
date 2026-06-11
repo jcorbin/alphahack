@@ -1,0 +1,77 @@
+T42155.71959568403 now: 2026-06-11T08:11:48EDT
+TD217 site: alphaguess.com
+TD379044 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 114d22f841060e3be1e5ad10861a02ceeebb2a2e
+TD184  ...␅
+TD44 ␆
+TD7  ...
+TD118 [0 : 98214 : 196520] mach? ␅
+TD794794 ␆
+TD107 [0 : 98214 : 196520] mach? 
+TD118 [0 : 98214 : 196520] mach? ␅
+TD3943590 ␆a
+TD110 [0 : 98214 : 196520] mach? a
+TD147 progress: 1 98214 mach
+TD274 [98215 : 147364 : 196520] rhotic? ␅
+TD1255582 ␆b
+TD137 [98215 : 147364 : 196520] rhotic? b
+TD137 progress: -1 147364 rhotic
+TD169 [98215 : 122775 : 147364] parr? ␅
+TD1183704 ␆a
+TD142 [98215 : 122775 : 147364] parr? a
+TD133 progress: 1 122775 parr
+TD156 [122776 : 135066 : 147364] proper? ␅
+TD1247497 ␆b
+TD138 [122776 : 135066 : 147364] proper? b
+TD129 progress: -1 135066 proper
+TD143 [122776 : 128844 : 135066] play? ␅
+TD3295595 ␆b
+TD147 [122776 : 128844 : 135066] play? b
+TD111 progress: -1 128844 play
+TD136 [122776 : 125807 : 128844] petti? ␅
+TD1255982 ␆a
+TD136 [122776 : 125807 : 128844] petti? a
+TD130 progress: 1 125807 petti
+TD245 [125808 : 127320 : 128844] pidgin? ␅
+TD1271231 ␆a
+TD149 [125808 : 127320 : 128844] pidgin? a
+TD147 progress: 1 127320 pidgin
+TD143 [127321 : 128073 : 128844] pis? ␅
+TD1367311 ␆b
+TD115 [127321 : 128073 : 128844] pis? b
+TD173 progress: -1 128073 pis
+TD145 [127321 : 127657 : 128073] pin? ␅
+TD1295696 ␆b
+TD123 [127321 : 127657 : 128073] pin? b
+TD156 progress: -1 127657 pin
+TD196 [127321 : 127404 : 127657] pig? ␅
+TD1271735 ␆a
+TD136 [127321 : 127404 : 127657] pig? a
+TD151 progress: 1 127404 pig
+TD143 [127405 : 127526 : 127657] pile? ␅
+TD2575462 ␆it
+TD134 [127405 : 127526 : 127657] pile? it
+TD129 progress: 0 127526 pile
+TD38 [127405 : 127526 : 127657] <Done>.
+TD121 📋> ␅
+TD2856292 ␆🧩 Puzzle #1053
+TD102 📋> 🧩 Puzzle #1053
+TD14 📋> ␅
+TD70 ␆🤔 11 guesses
+TD4 📋> 🤔 11 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 14s
+TD4 📋> ⏱️ 14s
+TD2 📋> ␅
+TD287143 ␆🔗 alphaguess.com/1053
+TD108 📋> 🔗 alphaguess.com/1053
+TD15 📋> ␅
+TD231877 ␄
+TD168 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1053\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 14s\n\ud83d\udd17 alphaguess.com/1053"}
+TD87 result: "\ud83e\udde9 Puzzle #1053\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 14s\n\ud83d\udd17 alphaguess.com/1053"
+TD11 result puzzle: 1053
+TD3 result guesses: 11
+TD2 result time: 14s
+TD2 result link: alphaguess.com/1053
+TD90 📆 2026-06-11 ? ␅
+TD191505 ␆
+TD139 📆 2026-06-11 ? 
