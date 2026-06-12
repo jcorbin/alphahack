@@ -1,0 +1,218 @@
+T85.25770108599681 now: 2026-06-11T21:43:45EDT
+TD144 site: squareword.org
+TD32 wordlist: nwl2023.txt
+TD51  ...␅
+TD294374 ␆
+TD141  ...
+TD98 🧩  ? ␅
+TD343723 ␆
+TD142 🧩  ? 
+TD197  ...␅
+TD1511761 ␆
+TD107  ...
+TD87 🧩  ? ␅
+TD1807709 ␆#1592
+TD121 🧩  ? #1592
+TD302 puzzle_id: #1592
+TD306 > ␅
+TD263926 ␆
+TD95 > 
+TD519 > ␅
+TD815381 ␆*
+TD103 > *
+TD548666 try? ␅
+TD111 ␆1
+TD9 try? 1
+TD325 questioning: ["ureas", "#5"]
+TD320 #1 <IndexError>  📋 "ureas" ? ␅
+TD7769938 ␆__E_S
+TD141 #1 <IndexError>  📋 "ureas" ? __E_S
+TD1132 attempt 0 UREAS n n Y n Y
+TD194 #2 <IndexError>  📋 "ureas" ? ␅
+TD2710546 ␆_____ ~ REA
+TD148 #2 <IndexError>  📋 "ureas" ? _____ ~ REA
+TD345 attempt 1 UREAS n m m m n
+TD173 #3 <IndexError>  📋 "ureas" ? ␅
+TD3479405 ␆_R___ ~ UE
+TD127 #3 <IndexError>  📋 "ureas" ? _R___ ~ UE
+TD337 attempt 2 UREAS m Y m n n
+TD169 #4 <IndexError>  📋 "ureas" ? ␅
+TD1719193 ␆_____ ~ E
+TD114 #4 <IndexError>  📋 "ureas" ? _____ ~ E
+TD350 attempt 3 UREAS n n m n n
+TD162 #5 <IndexError>  📋 "ureas" ? ␅
+TD2119668 ␆_____ ~ RE
+TD108 #5 <IndexError>  📋 "ureas" ? _____ ~ RE
+TD300 attempt 4 UREAS n m m n n
+TD409 ? ␅
+TD295114 ␆
+TD115 ? 
+TD188 question done
+TD305 > ␅
+TD703296 ␆*
+TD131 > *
+TD1566419 try? ␅
+TD76 ␆1
+TD8 try? 1
+TD207 questioning: ["cruet", "#3"]
+TD250 #1 __E_S -ARU  📋 "cruet" ? ␅
+TD6177206 ␆C_E_S
+TD118 #1 __E_S -ARU  📋 "cruet" ? C_E_S
+TD280 attempt 0 CRUET Y n n n n
+TD180 #2 _____ ~AER -SU  📋 "cruet" ? ␅
+TD919346 ␆.
+TD112 #2 _____ ~AER -SU  📋 "cruet" ? .
+TD311 attempt 1 CRUET n m n m n
+TD119 #3 _R___ ~EU -AS  📋 "cruet" ? ␅
+TD2343480 ␆CRU__ ~ E
+TD132 #3 _R___ ~EU -AS  📋 "cruet" ? CRU__ ~ E
+TD305 attempt 2 CRUET Y Y Y m n
+TD446 #4 _____ ~E -ARSU  📋 "cruet" ? ␅
+TD3847514 ␆___E_
+TD158 #4 _____ ~E -ARSU  📋 "cruet" ? ___E_
+TD289 attempt 3 CRUET n n n Y n
+TD159 #5 _____ ~ER -ASU  📋 "cruet" ? ␅
+TD2758901 ␆_____ ~ RET
+TD100 #5 _____ ~ER -ASU  📋 "cruet" ? _____ ~ RET
+TD260 attempt 4 CRUET n m n m m
+TD338 ? ␅
+TD327327 ␆
+TD97 ? 
+TD132 question done
+TD297 > ␅
+TD951538 ␆*
+TD95 > *
+TD1516575 questioning: ["crude", "#3"]
+TD342 #1 C_E_S -AERTU  📋 "crude" ? ␅
+TD3651223 ␆.
+TD122 #1 C_E_S -AERTU  📋 "crude" ? .
+TD309 attempt 0 CRUDE Y n n n n
+TD116 #2 _____ ~AER -CSTU  📋 "crude" ? ␅
+TD2663212 ␆____E ~ REA
+TD95 #2 _____ ~AER -CSTU  📋 "crude" ? ____E ~ REA
+TD259 attempt 1 CRUDE n m n n Y
+TD160 #3 CRU__ ~E -AST  📋 "crude" ? ␅
+TD1335434 ␆/it
+TD107 #3 CRU__ ~E -AST  📋 "crude" ? /it
+TD296 attempt 2 CRUDE Y Y Y Y Y
+TD110 #4 ___E_ -ACRSTU  📋 "crude" ? ␅
+TD2215624 ␆___E_ ~ D
+TD105 #4 ___E_ -ACRSTU  📋 "crude" ? ___E_ ~ D
+TD296 attempt 3 CRUDE n n n m n
+TD184 #5 _____ ~ERT -ACSU  📋 "crude" ? ␅
+TD615590 ␆.
+TD110 #5 _____ ~ERT -ACSU  📋 "crude" ? .
+TD312 attempt 4 CRUDE n m n n m
+TD354 ? ␅
+TD183008 ␆
+TD107 ? 
+TD123 question done
+TD367 > ␅
+TD431330 ␆*
+TD105 > *
+TD1234803 questioning: ["aerie", "#2"]
+TD417 #1 C_E_S -ADERTU  📋 "aerie" ? ␅
+TD3948797 ␆.
+TD112 #1 C_E_S -ADERTU  📋 "aerie" ? .
+TD325 attempt 0 AERIE n n n n n
+TD122 #2 ____E ~AR -CDSTU  📋 "aerie" ? ␅
+TD663372 ␆/it
+TD111 #2 ____E ~AR -CDSTU  📋 "aerie" ? /it
+TD313 attempt 1 AERIE Y Y Y Y Y
+TD142 #4 ___E_ ~D -ACERSTU  📋 "aerie" ? ␅
+TD1543568 ␆.
+TD102 #4 ___E_ ~D -ACERSTU  📋 "aerie" ? .
+TD314 attempt 3 AERIE n n n n n
+TD121 #5 _____ ~ERT -ACDSU  📋 "aerie" ? ␅
+TD687401 ␆.
+TD115 #5 _____ ~ERT -ACDSU  📋 "aerie" ? .
+TD297 attempt 4 AERIE n m m n m
+TD360 ? ␅
+TD167492 ␆
+TD111 ? 
+TD128 question done
+TD356 > ␅
+TD391161 ␆*
+TD102 > *
+TD3461061 questioning: ["entry", "#5"]
+TD384 #1 C_E_S -ADEIRTU  📋 "entry" ? ␅
+TD3538555 ␆.
+TD114 #1 C_E_S -ADEIRTU  📋 "entry" ? .
+TD269 attempt 0 ENTRY n n n n n
+TD99 #4 ___E_ ~D -ACEIRSTU  📋 "entry" ? ␅
+TD1199487 ␆.
+TD108 #4 ___E_ ~D -ACEIRSTU  📋 "entry" ? .
+TD312 attempt 3 ENTRY n n n n n
+TD111 #5 _____ ~ERT -ACDISU  📋 "entry" ? ␅
+TD599371 ␆/it
+TD106 #5 _____ ~ERT -ACDISU  📋 "entry" ? /it
+TD320 attempt 4 ENTRY Y Y Y Y Y
+TD396 ? ␅
+TD143757 ␆
+TD124 ? 
+TD129 question done
+TD357 > ␅
+TD430872 ␆*
+TD109 > *
+TD3470029 questioning: ["chews", "#1"]
+TD464 #1 C_E_S -ADEINRTUY  📋 "chews" ? ␅
+TD3265414 ␆/it
+TD135 #1 C_E_S -ADEINRTUY  📋 "chews" ? /it
+TD328 attempt 0 CHEWS Y Y Y Y Y
+TD128 #4 ___E_ ~D -ACEINRSTUY  📋 "chews" ? ␅
+TD2791625 ␆___E_ ~ DH
+TD171 #4 ___E_ ~D -ACEINRSTUY  📋 "chews" ? ___E_ ~ DH
+TD377 attempt 3 CHEWS n m n n n
+TD459 ? ␅
+TD375125 ␆
+TD118 ? 
+TD148 question done
+TD386 > ␅
+TD455059 ␆*
+TD102 > *
+TD2425713 questioning: ["hoped", "#4"]
+TD491 #4 ___E_ ~DH -ACEINRSTUWY  📋 "hoped" ? ␅
+TD3198622 ␆/it
+TD152 #4 ___E_ ~DH -ACEINRSTUWY  📋 "hoped" ? /it
+TD398 attempt 3 HOPED Y Y Y Y Y
+TD399 ? ␅
+TD1886462 ␆
+TD140 ? 
+TD151 question done
+TD47871 📋> ␅
+TD4120402 ␆squareword.org 1592: 7 guesses
+TD134 📋> squareword.org 1592: 7 guesses
+TD16 📋> ␅
+TD52 ␆
+TD8 📋> 
+TD7 📋> ␅
+TD19 ␆🟩🟨🟩🟨🟩
+TD7 📋> 🟩🟨🟩🟨🟩
+TD6 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD12 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD13 ␆🟨🟨🟨🟩🟨
+TD5 📋> 🟨🟨🟨🟩🟨
+TD5 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD255055 ␆#squareword #squareword1592
+TD149 📋> #squareword #squareword1592
+TD16 📋> ␅
+TD143732 ␄
+TD218 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1592: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1592"}
+TD985 result: "squareword.org 1592: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1592"
+TD112 📆 2026-06-11 ? ␅
+TD158596 ␆
+TD126 📆 2026-06-11 ? 
