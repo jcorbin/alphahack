@@ -1,0 +1,186 @@
+T163.31657473399537 now: 2026-06-11T21:38:32EDT
+TD62 site: https://www.merriam-webster.com/games/quordle/#/
+TD11 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD67  ...␅
+TD487028 ␆
+TD74  ...
+TD287420 > ␅
+TD5664362 ␆
+TD70 > 
+TD112 > ␅
+TD455789 ␆*
+TD67 > *
+TD83745 ? ␅
+TD332217 ␆1
+TD68 ? 1
+TD124 questioning: aures
+TD94 Classic #1 _____? ␅
+TD3279695 ␆Mnnnn
+TD67 Classic #1 _____? Mnnnn
+TD222 attempt: 0 AURES m n n n n
+TD62 Classic #2 _____? ␅
+TD1119768 ␆nnnnM
+TD62 Classic #2 _____? nnnnM
+TD146 attempt: 1 AURES n n n n m
+TD56 Classic #3 _____? ␅
+TD1607675 ␆MnnMM
+TD63 Classic #3 _____? MnnMM
+TD131 attempt: 2 AURES m n n m m
+TD59 Classic #4 _____? ␅
+TD1951660 ␆MYYnn
+TD68 Classic #4 _____? MYYnn
+TD135 attempt: 3 AURES m Y Y n n
+TD331955 > ␅
+TD107938 ␆*
+TD67 > *
+TD2327 ? ␅
+TD709571 ␆1
+TD86 ? 1
+TD178 questioning: liman
+TD167 Classic #1 _____ ~A -ERSU? ␅
+TD3623900 ␆nnYMn
+TD79 Classic #1 _____ ~A -ERSU? nnYMn
+TD140 attempt: 0 LIMAN n n Y m n
+TD66 Classic #2 _____ ~S -AERU? ␅
+TD1431520 ␆MMnnn
+TD68 Classic #2 _____ ~S -AERU? MMnnn
+TD131 attempt: 1 LIMAN m m n n n
+TD68 Classic #3 _____ ~AES -RU? ␅
+TD1463669 ␆MnnMn
+TD97 Classic #3 _____ ~AES -RU? MnnMn
+TD239 attempt: 2 LIMAN m n n m n
+TD115 Classic #4 _UR__ ~A -ES? ␅
+TD1599592 ␆MnnYn
+TD96 Classic #4 _UR__ ~A -ES? MnnYn
+TD244 attempt: 3 LIMAN m n n Y n
+TD360779 > ␅
+TD1030938 ␆*
+TD80 > *
+TD389 ? ␅
+TD3943622 ␆3
+TD72 ? 3
+TD120 questioning: rural
+TD91 Classic #1 __M__ ~A -EILNRSU? ␅
+TD3287666 ␆nnnMn
+TD78 Classic #1 __M__ ~A -EILNRSU? nnnMn
+TD140 attempt: 0 RURAL n n n m n
+TD66 Classic #2 _____ ~ILS -AEMNRU? ␅
+TD1824021 ␆nnnnY
+TD71 Classic #2 _____ ~ILS -AEMNRU? nnnnY
+TD138 attempt: 1 RURAL n n n n Y
+TD68 Classic #3 _____ ~AELS -IMNRU? ␅
+TD1231467 ␆nnnMM
+TD96 Classic #3 _____ ~AELS -IMNRU? nnnMM
+TD240 attempt: 2 RURAL n n n m m
+TD125 Classic #4 _URA_ ~L -EIMNS? ␅
+TD1215708 ␆YYYYY
+TD97 Classic #4 _URA_ ~L -EIMNS? YYYYY
+TD215 attempt: 3 RURAL Y Y Y Y Y
+TD274372 > ␅
+TD565141 ␆*
+TD90 > *
+TD837 ? ␅
+TD1127121 ␆1
+TD94 ? 1
+TD178 questioning: campy
+TD155 Classic #1 __M__ ~A -EILNRSU? ␅
+TD3991601 ␆nYYnn
+TD74 Classic #1 __M__ ~A -EILNRSU? nYYnn
+TD143 attempt: 0 CAMPY n Y Y n n
+TD70 Classic #2 ____L ~IS -AEMNRU? ␅
+TD1255725 ␆nnnMn
+TD71 Classic #2 ____L ~IS -AEMNRU? nnnMn
+TD136 attempt: 1 CAMPY n n n m n
+TD70 Classic #3 _____ ~AELS -IMNRU? ␅
+TD1447680 ␆nYnnn
+TD70 Classic #3 _____ ~AELS -IMNRU? nYnnn
+TD143 attempt: 2 CAMPY n Y n n n
+TD227102 > ␅
+TD780738 ␆*
+TD73 > *
+TD333 ? ␅
+TD2239579 ␆1
+TD74 ? 1
+TD116 questioning: spoil
+TD96 Classic #1 _AM__ -CEILNPRSUY? ␅
+TD3279936 ␆nnnnn
+TD99 Classic #1 _AM__ -CEILNPRSUY? nnnnn
+TD227 attempt: 0 SPOIL n n n n n
+TD120 Classic #2 ____L ~IPS -ACEMNRUY? ␅
+TD1623646 ␆YYnMY
+TD97 Classic #2 ____L ~IPS -ACEMNRUY? YYnMY
+TD235 attempt: 1 SPOIL Y Y n m Y
+TD116 Classic #3 _A___ ~ELS -CIMNPRUY? ␅
+TD1783547 ␆YnnnM
+TD99 Classic #3 _A___ ~ELS -CIMNPRUY? YnnnM
+TD237 attempt: 2 SPOIL Y n n n m
+TD197544 > ␅
+TD682046 ␆*
+TD89 > *
+TD382 questioning: spill
+TD124 Classic #1 _AM__ -CEILNOPRSUY? ␅
+TD3519313 ␆nnnnn
+TD70 Classic #1 _AM__ -CEILNOPRSUY? nnnnn
+TD129 attempt: 0 SPILL n n n n n
+TD67 Classic #2 SP__L ~I -ACEMNORUY? ␅
+TD1231841 ␆YYYYY
+TD70 Classic #2 SP__L ~I -ACEMNORUY? YYYYY
+TD136 attempt: 1 SPILL Y Y Y Y Y
+TD74 Classic #3 SA___ ~EL -CIMNOPRUY? ␅
+TD1455648 ␆YnnMn
+TD79 Classic #3 SA___ ~EL -CIMNOPRUY? YnnMn
+TD156 attempt: 2 SPILL Y n n m n
+TD136412 > ␅
+TD735365 ␆*
+TD67 > *
+TD249 questioning: salve
+TD71 Classic #1 _AM__ -CEILNOPRSUY? ␅
+TD3024136 ␆nYnnn
+TD60 Classic #1 _AM__ -CEILNOPRSUY? nYnnn
+TD139 attempt: 0 SALVE n Y n n n
+TD69 Classic #3 SA___ ~EL -CIMNOPRUY L:1? ␅
+TD1103235 ␆YYYYY
+TD69 Classic #3 SA___ ~EL -CIMNOPRUY L:1? YYYYY
+TD146 attempt: 2 SALVE Y Y Y Y Y
+TD63155 > ␅
+TD736606 ␆*
+TD71 > *
+TD334 ? ␅
+TD2327670 ␆1'
+TD71 ? 1'
+TD117 questioning: gamba
+TD91 Classic #1 _AM__ -CEILNOPRSUVY? ␅
+TD3695752 ␆YYYnY
+TD64 Classic #1 _AM__ -CEILNOPRSUVY? YYYnY
+TD123 attempt: 0 GAMBA Y Y Y n Y
+TD67177 > ␅
+TD388711 ␆*
+TD65 > *
+TD251 questioning: gamma
+TD73 Classic #1 GAM_A -BCEILNOPRSUVY? ␅
+TD3031601 ␆YYYYY
+TD71 Classic #1 GAM_A -BCEILNOPRSUVY? YYYYY
+TD130 attempt: 0 GAMMA Y Y Y Y Y
+TD64 📋> ␅
+TD4248263 ␆🙂 Daily Quordle 1599
+TD70 📋> 🙂 Daily Quordle 1599
+TD5 📋> ␅
+TD38 ␆9️⃣6️⃣
+TD3 📋> 9️⃣6️⃣
+TD2 📋> ␅
+TD15 ␆7️⃣3️⃣
+TD1 📋> 7️⃣3️⃣
+TD1 📋> ␅
+TD5 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD1 📋> ␅
+TD263408 ␆
+TD71 📋> 
+TD6 📋> ␅
+TD144086 ␄
+TD125 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1599\n9\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD670 result: "\ud83d\ude42 Daily Quordle 1599\n9\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD56 📆 2026-06-11 ? ␅
+TD126829 ␆
+TD66 📆 2026-06-11 ? 
