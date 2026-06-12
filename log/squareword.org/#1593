@@ -1,0 +1,273 @@
+T52878.98018109199 now: 2026-06-12T12:23:39EDT
+TD179 site: squareword.org
+TD68 wordlist: nwl2023.txt
+TD29  ...␅
+TD422631 ␆
+TD114  ...
+TD144 🧩  ? ␅
+TD14447772 ␆#1593
+TD84 🧩  ? #1593
+TD260 puzzle_id: #1593
+TD324 > ␅
+TD503344 ␆
+TD114 > 
+TD565 > ␅
+TD631273 ␆*
+TD104 > *
+TD104213 try? ␅
+TD167596 ␆1
+TD95 try? 1
+TD515 questioning: ["serai", "#5"]
+TD1193 #1 <IndexError>  📋 "serai" ? ␅
+TD4534476 ␆_____ ~ EA
+TD71 #1 <IndexError>  📋 "serai" ? _____ ~ EA
+TD423 attempt 0 SERAI n m n m n
+TD76 #2 <IndexError>  📋 "serai" ? ␅
+TD2607509 ␆_____ ~ EA
+TD71 #2 <IndexError>  📋 "serai" ? _____ ~ EA
+TD195 attempt 1 SERAI n m n m n
+TD76 #3 <IndexError>  📋 "serai" ? ␅
+TD3927596 ␆_____ ~ ERA
+TD71 #3 <IndexError>  📋 "serai" ? _____ ~ ERA
+TD162 attempt 2 SERAI n m m m n
+TD76 #4 <IndexError>  📋 "serai" ? ␅
+TD1975780 ␆_____ ~ SE
+TD74 #4 <IndexError>  📋 "serai" ? _____ ~ SE
+TD167 attempt 3 SERAI m m n n n
+TD80 #5 <IndexError>  📋 "serai" ? ␅
+TD2143688 ␆_E___ ~ SE
+TD68 #5 <IndexError>  📋 "serai" ? _E___ ~ SE
+TD162 attempt 4 SERAI m Y n n n
+TD224 ? ␅
+TD263466 ␆
+TD73 ? 
+TD95 question done
+TD154 > ␅
+TD439585 ␆*
+TD75 > *
+TD2534517 try? ␅
+TD849526 ␆1
+TD74 try? 1
+TD196 questioning: ["dater", "#3"]
+TD168 #1 _____ ~AE -IRS  📋 "dater" ? ␅
+TD3903670 ␆_A_E_ ~ DT
+TD80 #1 _____ ~AE -IRS  📋 "dater" ? _A_E_ ~ DT
+TD190 attempt 0 DATER m Y m Y n
+TD110 #2 _____ ~AE -IRS  📋 "dater" ? ␅
+TD1111628 ␆.
+TD80 #2 _____ ~AE -IRS  📋 "dater" ? .
+TD198 attempt 1 DATER n m n m n
+TD67 #3 _____ ~AER -IS  📋 "dater" ? ␅
+TD2607693 ␆_A_E_ ~ R
+TD74 #3 _____ ~AER -IS  📋 "dater" ? _A_E_ ~ R
+TD194 attempt 2 DATER n Y n Y m
+TD112 #4 _____ ~ES -AIR  📋 "dater" ? ␅
+TD1455589 ␆.
+TD92 #4 _____ ~ES -AIR  📋 "dater" ? .
+TD197 attempt 3 DATER n n n m n
+TD66 #5 _E___ ~S -AIR  📋 "dater" ? ␅
+TD4055696 ␆_E___ ~ SET
+TD79 #5 _E___ ~S -AIR  📋 "dater" ? _E___ ~ SET
+TD157 attempt 4 DATER n n m m n
+TD177 ? ␅
+TD247685 ␆
+TD74 ? 
+TD78 question done
+TD158 > ␅
+TD1047654 ␆*
+TD76 > *
+TD3725297 try? ␅
+TD2682651 ␆1
+TD86 try? 1
+TD200 questioning: ["cadet", "#1"]
+TD184 #1 _A_E_ ~DT -IRS  📋 "cadet" ? ␅
+TD6191897 ␆_A_E_ ~ DT
+TD68 #1 _A_E_ ~DT -IRS  📋 "cadet" ? _A_E_ ~ DT
+TD169 attempt 0 CADET n Y m Y m
+TD93 #2 _____ ~AE -DIRST  📋 "cadet" ? ␅
+TD871369 ␆.
+TD69 #2 _____ ~AE -DIRST  📋 "cadet" ? .
+TD181 attempt 1 CADET n m n m n
+TD63 #3 _A_E_ ~R -DIST  📋 "cadet" ? ␅
+TD2119734 ␆.
+TD83 #3 _A_E_ ~R -DIST  📋 "cadet" ? .
+TD164 attempt 2 CADET n Y n Y n
+TD61 #4 _____ ~ES -ADIRT  📋 "cadet" ? ␅
+TD855762 ␆.
+TD67 #4 _____ ~ES -ADIRT  📋 "cadet" ? .
+TD169 attempt 3 CADET n n n m n
+TD59 #5 _E___ ~ST -ADIR  📋 "cadet" ? ␅
+TD2887677 ␆_E___ ~ SET
+TD81 #5 _E___ ~ST -ADIR  📋 "cadet" ? _E___ ~ SET
+TD155 attempt 4 CADET n n n m m
+TD178 ? ␅
+TD343620 ␆
+TD66 ? 
+TD78 question done
+TD155 > ␅
+TD703701 ␆*
+TD64 > *
+TD3747389 try? ␅
+TD1916602 ␆1
+TD65 try? 1
+TD208 questioning: ["tamed", "#1"]
+TD180 #1 _A_E_ ~DT -CIRS  📋 "tamed" ? ␅
+TD2511892 ␆/it
+TD72 #1 _A_E_ ~DT -CIRS  📋 "tamed" ? /it
+TD164 attempt 0 TAMED Y Y Y Y Y
+TD57 #2 _____ ~AE -CDIRST  📋 "tamed" ? ␅
+TD2335458 ␆.
+TD67 #2 _____ ~AE -CDIRST  📋 "tamed" ? .
+TD170 attempt 1 TAMED n m n m n
+TD58 #3 _A_E_ ~R -CDIST  📋 "tamed" ? ␅
+TD951745 ␆.
+TD78 #3 _A_E_ ~R -CDIST  📋 "tamed" ? .
+TD185 attempt 2 TAMED n Y n Y n
+TD69 #4 _____ ~ES -ACDIRT  📋 "tamed" ? ␅
+TD1159921 ␆.
+TD67 #4 _____ ~ES -ACDIRT  📋 "tamed" ? .
+TD166 attempt 3 TAMED n n n m n
+TD58 #5 _E___ ~ST -ACDIR  📋 "tamed" ? ␅
+TD1951498 ␆TE___ ~ SE
+TD66 #5 _E___ ~ST -ACDIR  📋 "tamed" ? TE___ ~ SE
+TD236 attempt 4 TAMED Y n n m n
+TD263 ? ␅
+TD263423 ␆
+TD64 ? 
+TD82 question done
+TD198 > ␅
+TD455854 ␆*
+TD62 > *
+TD3219124 try? ␅
+TD1244779 ␆1
+TD101 try? 1
+TD303 questioning: ["ovens", "#4"]
+TD375 #2 _____ ~AE -CDIMRST  📋 "ovens" ? ␅
+TD5479165 ␆_____ ~ EAV
+TD72 #2 _____ ~AE -CDIMRST  📋 "ovens" ? _____ ~ EAV
+TD163 attempt 1 OVENS n m m n n
+TD88 #3 _A_E_ ~R -CDIMST  📋 "ovens" ? ␅
+TD4199754 ␆_A_E_ ~ RVN
+TD75 #3 _A_E_ ~R -CDIMST  📋 "ovens" ? _A_E_ ~ RVN
+TD158 attempt 2 OVENS n m n m n
+TD95 #4 _____ ~ES -ACDIMRT  📋 "ovens" ? ␅
+TD3063841 ␆O_ENS
+TD61 #4 _____ ~ES -ACDIMRT  📋 "ovens" ? O_ENS
+TD148 attempt 3 OVENS Y n Y Y Y
+TD131 #5 TE___ ~S -ACDIMR  📋 "ovens" ? ␅
+TD2599580 ␆TE___ ~ SEN
+TD67 #5 TE___ ~S -ACDIMR  📋 "ovens" ? TE___ ~ SEN
+TD151 attempt 4 OVENS n n m m m
+TD173 ? ␅
+TD399592 ␆
+TD65 ? 
+TD90 question done
+TD156 > ␅
+TD1087726 ␆*
+TD65 > *
+TD2922800 questioning: ["agave", "#2"]
+TD194 #2 _____ ~AEV -CDIMNORST  📋 "agave" ? ␅
+TD3789149 ␆/it
+TD85 #2 _____ ~AEV -CDIMNORST  📋 "agave" ? /it
+TD193 attempt 1 AGAVE Y Y Y Y Y
+TD115 #3 _A_E_ ~NRV -CDEIMOST  📋 "agave" ? ␅
+TD2607508 ␆.
+TD66 #3 _A_E_ ~NRV -CDEIMOST  📋 "agave" ? .
+TD161 attempt 2 AGAVE n n n m n
+TD56 #4 O_ENS -ACDIMRTV  📋 "agave" ? ␅
+TD1335873 ␆.
+TD69 #4 O_ENS -ACDIMRTV  📋 "agave" ? .
+TD155 attempt 3 AGAVE n n n n n
+TD58 #5 TE___ ~NS -ACDIMORV  📋 "agave" ? ␅
+TD4951903 ␆TE__E ~ SN
+TD70 #5 TE___ ~NS -ACDIMORV  📋 "agave" ? TE__E ~ SN
+TD149 attempt 4 AGAVE n n n n Y
+TD183 ? ␅
+TD343607 ␆
+TD97 ? 
+TD123 question done
+TD329 > ␅
+TD527190 ␆*
+TD71 > *
+TD2057634 questioning: ["raven", "#3"]
+TD236 #3 _A_E_ ~NRV -ACDEGIMOST  📋 "raven" ? ␅
+TD3342198 ␆/it
+TD103 #3 _A_E_ ~NRV -ACDEGIMOST  📋 "raven" ? /it
+TD260 attempt 2 RAVEN Y Y Y Y Y
+TD108 #4 O_ENS -ACDEGIMRTV  📋 "raven" ? ␅
+TD767719 ␆.
+TD102 #4 O_ENS -ACDEGIMRTV  📋 "raven" ? .
+TD273 attempt 3 RAVEN n n n n n
+TD106 #5 TE__E ~NS -ACDGIMORV  📋 "raven" ? ␅
+TD2055445 ␆.
+TD108 #5 TE__E ~NS -ACDGIMORV  📋 "raven" ? .
+TD277 attempt 4 RAVEN n n n n m
+TD303 ? ␅
+TD167237 ␆
+TD101 ? 
+TD113 question done
+TD325 > ␅
+TD375396 ␆*
+TD72 > *
+TD1743408 questioning: ["opens", "#4"]
+TD202 #4 O_ENS -ACDEGIMNRTV  📋 "opens" ? ␅
+TD2664450 ␆/it
+TD69 #4 O_ENS -ACDEGIMNRTV  📋 "opens" ? /it
+TD163 attempt 3 OPENS Y Y Y Y Y
+TD60 #5 TE__E ~NS -ACDEGIMORV  📋 "opens" ? ␅
+TD1087692 ␆.
+TD80 #5 TE__E ~NS -ACDEGIMORV  📋 "opens" ? .
+TD190 attempt 4 OPENS n n n m m
+TD192 ? ␅
+TD167560 ␆
+TD102 ? 
+TD112 question done
+TD328 > ␅
+TD375557 ␆*
+TD73 > *
+TD1159407 questioning: ["tense", "#5"]
+TD233 #5 TE__E ~NS -ACDEGIMOPRV  📋 "tense" ? ␅
+TD3352214 ␆/it
+TD77 #5 TE__E ~NS -ACDEGIMOPRV  📋 "tense" ? /it
+TD176 attempt 4 TENSE Y Y Y Y Y
+TD176 ? ␅
+TD1863784 ␆
+TD121 ? 
+TD139 question done
+TD36015 📋> ␅
+TD3932298 ␆squareword.org 1593: 9 guesses
+TD99 📋> squareword.org 1593: 9 guesses
+TD52 📋> ␅
+TD49 ␆
+TD7 📋> 
+TD12 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD14 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD8 📋> ␅
+TD13 ␆🟨🟩🟨🟩🟨
+TD5 📋> 🟨🟩🟨🟩🟨
+TD8 📋> ␅
+TD12 ␆🟩🟨🟩🟩🟩
+TD4 📋> 🟩🟨🟩🟩🟩
+TD9 📋> ␅
+TD12 ␆🟩🟩🟨🟨🟨
+TD4 📋> 🟩🟩🟨🟨🟨
+TD8 📋> ␅
+TD13 ␆
+TD5 📋> 
+TD8 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> ␅
+TD359445 ␆#squareword #squareword1593
+TD101 📋> #squareword #squareword1593
+TD39 📋> ␅
+TD183410 ␄
+TD207 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1593: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1593"}
+TD1186 result: "squareword.org 1593: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1593"
+TD85 📆 2026-06-12 ? ␅
+TD198657 ␆
+TD99 📆 2026-06-12 ? 
