@@ -1,0 +1,73 @@
+T52228.101462483 now: 2026-06-12T12:12:48EDT
+TD97 site: alfagok.diginaut.net
+TD567923 loaded 399539 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1313 words excluded) asof 114d22f841060e3be1e5ad10861a02ceeebb2a2e
+TD140  ...␅
+TD34 ␆
+TD2  ...
+TD799 [0 : 199766 : 399539] lijm? ␅
+TD5590091 ␆
+TD99 [0 : 199766 : 399539] lijm? 
+TD373 [0 : 199766 : 399539] lijm? ␅
+TD2775717 ␆a
+TD78 [0 : 199766 : 399539] lijm? a
+TD373 progress: 1 199766 lijm
+TD75 [199767 : 299629 : 399539] schub? ␅
+TD1471268 ␆a
+TD71 [199767 : 299629 : 399539] schub? a
+TD79 progress: 1 299629 schub
+TD70 [299630 : 349391 : 399539] vakantie? ␅
+TD1487911 ␆b
+TD72 [299630 : 349391 : 399539] vakantie? b
+TD73 progress: -1 349391 vakantie
+TD86 [299630 : 324189 : 349391] sub? ␅
+TD2743799 ␆b
+TD74 [299630 : 324189 : 349391] sub? b
+TD100 progress: -1 324189 sub
+TD82 [299630 : 311793 : 324189] spier? ␅
+TD1487571 ␆a
+TD100 [299630 : 311793 : 324189] spier? a
+TD110 progress: 1 311793 spier
+TD119 [311794 : 317986 : 324189] stem? ␅
+TD1743782 ␆b
+TD95 [311794 : 317986 : 324189] stem? b
+TD106 progress: -1 317986 stem
+TD112 [311794 : 314786 : 317986] staats? ␅
+TD1455730 ␆a
+TD71 [311794 : 314786 : 317986] staats? a
+TD71 progress: 1 314786 staats
+TD73 [314787 : 316274 : 317986] standaard? ␅
+TD1495748 ␆a
+TD98 [314787 : 316274 : 317986] standaard? a
+TD107 progress: 1 316274 standaard
+TD120 [316275 : 316916 : 317986] stat? ␅
+TD1439633 ␆a
+TD68 [316275 : 316916 : 317986] stat? a
+TD67 progress: 1 316916 stat
+TD70 [316917 : 317359 : 317986] steen? ␅
+TD1672067 ␆it
+TD91 [316917 : 317359 : 317986] steen? it
+TD111 progress: 0 317359 steen
+TD26 [316917 : 317359 : 317986] <Done>.
+TD104 📋> ␅
+TD5879969 ␆🧩 Puzzel #587
+TD72 📋> 🧩 Puzzel #587
+TD7 📋> ␅
+TD26 ␆🤔 10 gokken
+TD3 📋> 🤔 10 gokken
+TD2 📋> ␅
+TD85 ␆⏱️ 15s
+TD3 📋> ⏱️ 15s
+TD1 📋> ␅
+TD503587 ␆🔗 alfagok.diginaut.net
+TD96 📋> 🔗 alfagok.diginaut.net
+TD13 📋> ␅
+TD215636 ␄
+TD139 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #587\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 15s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD448 result: "\ud83e\udde9 Puzzel #587\n\ud83e\udd14 10 gokken\n\u23f1\ufe0f 15s\n\ud83d\udd17 alfagok.diginaut.net"
+TD9 result puzzle: 587
+TD4 result guesses: 10
+TD2 result time: 15s
+TD1 result link: alfagok.diginaut.net
+TD73 📆 2026-06-12 ? ␅
+TD263500 ␆
+TD76 📆 2026-06-12 ? 
