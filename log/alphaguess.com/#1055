@@ -1,0 +1,86 @@
+T75199.87940859201 now: 2026-06-13T09:25:48EDT
+TD94 site: alphaguess.com
+TD204300 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 114d22f841060e3be1e5ad10861a02ceeebb2a2e
+TD121  ...␅
+TD386634 ␆
+TD104  ...
+TD172 [0 : 98214 : 196520] mach? ␅
+TD5279677 ␆b
+TD109 [0 : 98214 : 196520] mach? b
+TD198 progress: -1 98214 mach
+TD90 [0 : 47380 : 98214] dis? ␅
+TD1423649 ␆b
+TD101 [0 : 47380 : 98214] dis? b
+TD80 progress: -1 47380 dis
+TD84 [0 : 23681 : 47380] camp? ␅
+TD1488114 ␆b
+TD74 [0 : 23681 : 47380] camp? b
+TD76 progress: -1 23681 camp
+TD75 [0 : 11763 : 23681] back? ␅
+TD1399969 ␆a
+TD97 [0 : 11763 : 23681] back? a
+TD104 progress: 1 11763 back
+TD104 [11764 : 17714 : 23681] blind? ␅
+TD1287129 ␆b
+TD108 [11764 : 17714 : 23681] blind? b
+TD105 progress: -1 17714 blind
+TD125 [11764 : 13801 : 17714] be? ␅
+TD1287710 ␆b
+TD84 [11764 : 13801 : 17714] be? b
+TD81 progress: -1 13801 be
+TD77 [11764 : 12597 : 13801] ban? ␅
+TD1407709 ␆b
+TD85 [11764 : 12597 : 13801] ban? b
+TD81 progress: -1 12597 ban
+TD89 [11764 : 12178 : 12597] baff? ␅
+TD1287797 ␆a
+TD88 [11764 : 12178 : 12597] baff? a
+TD80 progress: 1 12178 baff
+TD78 [12179 : 12333 : 12597] bal? ␅
+TD1232007 ␆a
+TD85 [12179 : 12333 : 12597] bal? a
+TD83 progress: 1 12333 bal
+TD80 [12334 : 12430 : 12597] ball? ␅
+TD1191705 ␆a
+TD81 [12334 : 12430 : 12597] ball? a
+TD77 progress: 1 12430 ball
+TD119 [12431 : 12511 : 12597] ballpark? ␅
+TD1343647 ␆b
+TD79 [12431 : 12511 : 12597] ballpark? b
+TD79 progress: -1 12511 ballpark
+TD129 [12431 : 12471 : 12511] ballgames? ␅
+TD1223925 ␆a
+TD75 [12431 : 12471 : 12511] ballgames? a
+TD78 progress: 1 12471 ballgames
+TD117 [12472 : 12491 : 12511] ballon? ␅
+TD1247536 ␆a
+TD99 [12472 : 12491 : 12511] ballon? a
+TD105 progress: 1 12491 ballon
+TD118 [12492 : 12497 : 12511] balloon? ␅
+TD2399833 ␆it
+TD82 [12492 : 12497 : 12511] balloon? it
+TD83 progress: 0 12497 balloon
+TD18 [12492 : 12497 : 12511] <Done>.
+TD76 📋> ␅
+TD2848082 ␆🧩 Puzzle #1055
+TD73 📋> 🧩 Puzzle #1055
+TD7 📋> ␅
+TD27 ␆🤔 14 guesses
+TD4 📋> 🤔 14 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 17s
+TD3 📋> ⏱️ 17s
+TD2 📋> ␅
+TD247667 ␆🔗 alphaguess.com/1055
+TD85 📋> 🔗 alphaguess.com/1055
+TD8 📋> ␅
+TD160104 ␄
+TD173 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1055\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/1055"}
+TD108 result: "\ud83e\udde9 Puzzle #1055\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/1055"
+TD18 result puzzle: 1055
+TD8 result guesses: 14
+TD6 result time: 17s
+TD5 result link: alphaguess.com/1055
+TD109 📆 2026-06-13 ? ␅
+TD103257 ␆
+TD81 📆 2026-06-13 ? 
