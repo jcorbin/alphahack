@@ -1,0 +1,208 @@
+T75965.28559415799 now: 2026-06-13T09:38:33EDT
+TD102 site: squareword.org
+TD43 wordlist: nwl2023.txt
+TD29  ...␅
+TD1222103 ␆
+TD84  ...
+TD111 🧩  ? ␅
+TD4839910 ␆#1594
+TD73 🧩  ? #1594
+TD318 puzzle_id: #1594
+TD516 > ␅
+TD1151044 ␆*
+TD96 > *
+TD284795 try? ␅
+TD5123203 ␆6
+TD79 try? 6
+TD403 questioning: ["fears", "#5"]
+TD325 #1 <IndexError>  📋 "fears" ? ␅
+TD4967312 ␆____S ~ R
+TD82 #1 <IndexError>  📋 "fears" ? ____S ~ R
+TD637 attempt 0 FEARS n n n m Y
+TD96 #2 <IndexError>  📋 "fears" ? ␅
+TD2383150 ␆_E___ ~ ER
+TD83 #2 <IndexError>  📋 "fears" ? _E___ ~ ER
+TD199 attempt 1 FEARS n Y n m n
+TD111 #3 <IndexError>  📋 "fears" ? ␅
+TD2359658 ␆___R_ ~ FEA
+TD80 #3 <IndexError>  📋 "fears" ? ___R_ ~ FEA
+TD185 attempt 2 FEARS m m m Y n
+TD113 #4 <IndexError>  📋 "fears" ? ␅
+TD1911823 ␆_____ ~ E
+TD97 #4 <IndexError>  📋 "fears" ? _____ ~ E
+TD282 attempt 3 FEARS n m n n n
+TD106 #5 <IndexError>  📋 "fears" ? ␅
+TD2127361 ␆_____ ~ ES
+TD77 #5 <IndexError>  📋 "fears" ? _____ ~ ES
+TD181 attempt 4 FEARS n m n n m
+TD308 ? ␅
+TD359534 ␆
+TD100 ? 
+TD153 question done
+TD314 > ␅
+TD583282 ␆*
+TD100 > *
+TD942907 try? ␅
+TD3345367 ␆1
+TD126 try? 1
+TD406 questioning: ["afire", "#3"]
+TD337 #1 ____S ~R -AEF  📋 "afire" ? ␅
+TD3271102 ␆.
+TD99 #1 ____S ~R -AEF  📋 "afire" ? .
+TD289 attempt 0 AFIRE n n n m n
+TD99 #2 _E___ ~R -AFS  📋 "afire" ? ␅
+TD3087818 ␆_E___ ~ ER
+TD92 #2 _E___ ~R -AFS  📋 "afire" ? _E___ ~ ER
+TD241 attempt 1 AFIRE n n n m m
+TD141 #3 ___R_ ~AEF -S  📋 "afire" ? ␅
+TD663161 ␆/it
+TD103 #3 ___R_ ~AEF -S  📋 "afire" ? /it
+TD278 attempt 2 AFIRE Y Y Y Y Y
+TD101 #4 _____ ~E -AFRS  📋 "afire" ? ␅
+TD3975509 ␆____E ~ I
+TD76 #4 _____ ~E -AFRS  📋 "afire" ? ____E ~ I
+TD194 attempt 3 AFIRE n n m n Y
+TD110 #5 _____ ~ES -AFR  📋 "afire" ? ␅
+TD967622 ␆.
+TD77 #5 _____ ~ES -AFR  📋 "afire" ? .
+TD272 attempt 4 AFIRE n n n n m
+TD297 ? ␅
+TD1439368 ␆
+TD72 ? 
+TD88 question done
+TD196 > ␅
+TD975663 ␆*
+TD77 > *
+TD909433 try? ␅
+TD1386645 ␆1
+TD103 try? 1
+TD279 questioning: ["slept", "#5"]
+TD349 #1 ____S ~R -AEFI  📋 "slept" ? ␅
+TD4631228 ␆____S ~ RP
+TD85 #1 ____S ~R -AEFI  📋 "slept" ? ____S ~ RP
+TD183 attempt 0 SLEPT n n n m n
+TD102 #2 _E___ ~R -AFIS  📋 "slept" ? ␅
+TD3463855 ␆_E___ ~ ERLP
+TD99 #2 _E___ ~R -AFIS  📋 "slept" ? _E___ ~ ERLP
+TD255 attempt 1 SLEPT n m m m n
+TD149 #4 ____E ~I -AFRS  📋 "slept" ? ␅
+TD3559407 ␆____E ~ IT
+TD98 #4 ____E ~I -AFRS  📋 "slept" ? ____E ~ IT
+TD439 attempt 3 SLEPT n n n n m
+TD116 #5 _____ ~ES -AFIR  📋 "slept" ? ␅
+TD3199322 ␆S_E__ ~ EPT
+TD93 #5 _____ ~ES -AFIR  📋 "slept" ? S_E__ ~ EPT
+TD181 attempt 4 SLEPT Y n Y m m
+TD212 ? ␅
+TD367513 ␆
+TD77 ? 
+TD100 question done
+TD191 > ␅
+TD743633 ␆*
+TD73 > *
+TD655215 questioning: ["repel", "#2"]
+TD191 #1 ____S ~PR -AEFILST  📋 "repel" ? ␅
+TD3824670 ␆.
+TD80 #1 ____S ~PR -AEFILST  📋 "repel" ? .
+TD189 attempt 0 REPEL m n m n n
+TD71 #2 _E___ ~LPR -AFIST  📋 "repel" ? ␅
+TD583477 ␆/it
+TD79 #2 _E___ ~LPR -AFIST  📋 "repel" ? /it
+TD189 attempt 1 REPEL Y Y Y Y Y
+TD70 #4 ____E ~IT -AEFLPRS  📋 "repel" ? ␅
+TD1847822 ␆.
+TD96 #4 ____E ~IT -AEFLPRS  📋 "repel" ? .
+TD260 attempt 3 REPEL n n n n n
+TD106 #5 S_E__ ~PT -AFILR  📋 "repel" ? ␅
+TD4279695 ␆S_EE_ ~ PT
+TD81 #5 S_E__ ~PT -AFILR  📋 "repel" ? S_EE_ ~ PT
+TD184 attempt 4 REPEL n n m Y n
+TD212 ? ␅
+TD351502 ␆
+TD101 ? 
+TD99 question done
+TD190 > ␅
+TD719587 ␆*
+TD100 > *
+TD1567613 questioning: ["tinge", "#4"]
+TD214 #1 ____S ~PR -AEFILST  📋 "tinge" ? ␅
+TD3280189 ␆.
+TD92 #1 ____S ~PR -AEFILST  📋 "tinge" ? .
+TD269 attempt 0 TINGE n n n n n
+TD106 #4 ____E ~IT -AEFLPRS  📋 "tinge" ? ␅
+TD543427 ␆/it
+TD79 #4 ____E ~IT -AEFLPRS  📋 "tinge" ? /it
+TD179 attempt 3 TINGE Y Y Y Y Y
+TD68 #5 S_EE_ ~PT -AFILR  📋 "tinge" ? ␅
+TD1647839 ␆.
+TD83 #5 S_EE_ ~PT -AFILR  📋 "tinge" ? .
+TD193 attempt 4 TINGE m n n n n
+TD180 ? ␅
+TD191404 ␆
+TD85 ? 
+TD93 question done
+TD190 > ␅
+TD351688 ␆*
+TD98 > *
+TD1491627 questioning: ["proms", "#1"]
+TD234 #1 ____S ~PR -AEFGILNST  📋 "proms" ? ␅
+TD2964001 ␆/it
+TD92 #1 ____S ~PR -AEFGILNST  📋 "proms" ? /it
+TD187 attempt 0 PROMS Y Y Y Y Y
+TD74 #5 S_EE_ ~PT -AEFGILNR  📋 "proms" ? ␅
+TD1815680 ␆.
+TD101 #5 S_EE_ ~PT -AEFGILNR  📋 "proms" ? .
+TD271 attempt 4 PROMS m n n n n
+TD313 ? ␅
+TD175232 ␆
+TD85 ? 
+TD86 question done
+TD190 > ␅
+TD359723 ␆*
+TD77 > *
+TD1171796 questioning: ["steep", "#5"]
+TD221 #5 S_EE_ ~PT -AEFGILMNORS  📋 "steep" ? ␅
+TD2843860 ␆/it
+TD96 #5 S_EE_ ~PT -AEFGILMNORS  📋 "steep" ? /it
+TD255 attempt 4 STEEP Y Y Y Y Y
+TD317 ? ␅
+TD2775446 ␆
+TD81 ? 
+TD90 question done
+TD35429 📋> ␅
+TD2517032 ␆squareword.org 1594: 7 guesses
+TD79 📋> squareword.org 1594: 7 guesses
+TD8 📋> ␅
+TD34 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟩
+TD3 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD7 ␆🟩🟨🟩🟩🟨
+TD2 📋> 🟩🟨🟩🟩🟨
+TD2 📋> ␅
+TD6 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD263342 ␆#squareword #squareword1594
+TD81 📋> #squareword #squareword1594
+TD8 📋> ␅
+TD111824 ␄
+TD184 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1594: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1594"}
+TD1818 result: "squareword.org 1594: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1594"
+TD95 📆 2026-06-13 ? ␅
+TD149719 ␆
+TD94 📆 2026-06-13 ? 
