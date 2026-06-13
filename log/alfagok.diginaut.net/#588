@@ -1,0 +1,107 @@
+T74983.53193248098 now: 2026-06-13T09:22:11EDT
+TD274 site: alfagok.diginaut.net
+TD644690 loaded 399539 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1313 words excluded) asof 114d22f841060e3be1e5ad10861a02ceeebb2a2e
+TD148  ...␅
+TD7555663 ␆
+TD84  ...
+TD5308 [0 : 199766 : 399539] lijm? ␅
+TD2106532 ␆b
+TD115 [0 : 199766 : 399539] lijm? b
+TD684 progress: -1 199766 lijm
+TD91 [0 : 99704 : 199766] ex? ␅
+TD1359013 ␆a
+TD83 [0 : 99704 : 199766] ex? a
+TD98 progress: 1 99704 ex
+TD82 [99705 : 149392 : 199766] huis? ␅
+TD1295679 ␆a
+TD78 [99705 : 149392 : 199766] huis? a
+TD77 progress: 1 149392 huis
+TD97 [149393 : 174499 : 199766] kind? ␅
+TD1335817 ␆b
+TD81 [149393 : 174499 : 199766] kind? b
+TD158 progress: -1 174499 kind
+TD303 [149393 : 161947 : 174499] izabel? ␅
+TD1815565 ␆b
+TD100 [149393 : 161947 : 174499] izabel? b
+TD108 progress: -1 161947 izabel
+TD144 [149393 : 153563 : 161947] in? ␅
+TD1471627 ␆b
+TD111 [149393 : 153563 : 161947] in? b
+TD105 progress: -1 153563 in
+TD111 [149393 : 151438 : 153563] hypotheek? ␅
+TD1415579 ␆a
+TD122 [149393 : 151438 : 153563] hypotheek? a
+TD107 progress: 1 151438 hypotheek
+TD109 [151439 : 152487 : 153563] ijshockey? ␅
+TD1519794 ␆b
+TD84 [151439 : 152487 : 153563] ijshockey? b
+TD102 progress: -1 152487 ijshockey
+TD97 [151439 : 151665 : 152487] ic? ␅
+TD1351603 ␆a
+TD87 [151439 : 151665 : 152487] ic? a
+TD83 progress: 1 151665 ic
+TD98 [151666 : 151979 : 152487] id? ␅
+TD1383878 ␆a
+TD99 [151666 : 151979 : 152487] id? a
+TD106 progress: 1 151979 id
+TD108 [151980 : 152215 : 152487] iep? ␅
+TD1575505 ␆b
+TD81 [151980 : 152215 : 152487] iep? b
+TD86 progress: -1 152215 iep
+TD86 [151980 : 152079 : 152215] identiteit? ␅
+TD1391814 ␆a
+TD86 [151980 : 152079 : 152215] identiteit? a
+TD82 progress: 1 152079 identiteit
+TD109 [152080 : 152144 : 152215] idi? ␅
+TD1551793 ␆!
+TD110 [152080 : 152144 : 152215] idi? !
+TD453 [152080 : 152147 : 152214] idiomatisch? ␅
+TD2183517 ␆a
+TD78 [152080 : 152147 : 152214] idiomatisch? a
+TD77 progress: 1 152147 idiomatisch
+TD85 [152148 : 152178 : 152214] ids? ␅
+TD2327621 ␆!
+TD107 [152148 : 152178 : 152214] ids? !
+TD478 [152148 : 152181 : 152213] idsinga? ␅
+TD2111578 ␆!
+TD81 [152148 : 152181 : 152213] idsinga? !
+TD324 [152148 : 152182 : 152212] idylle? ␅
+TD1823490 ␆a
+TD100 [152148 : 152182 : 152212] idylle? a
+TD108 progress: 1 152182 idylle
+TD120 [152183 : 152192 : 152212] ie? ␅
+TD2655789 ␆a
+TD102 [152183 : 152192 : 152212] ie? a
+TD105 progress: 1 152192 ie
+TD178 [152193 : 152202 : 152212] iek? ␅
+TD3487624 ␆b
+TD88 [152193 : 152202 : 152212] iek? b
+TD77 progress: -1 152202 iek
+TD99 [152193 : 152195 : 152202] ieder? ␅
+TD1775857 ␆it
+TD97 [152193 : 152195 : 152202] ieder? it
+TD105 progress: 0 152195 ieder
+TD24 [152193 : 152195 : 152202] <Done>.
+TD201 📋> ␅
+TD2528063 ␆🧩 Puzzel #588
+TD96 📋> 🧩 Puzzel #588
+TD13 📋> ␅
+TD46 ␆🤔 17 gokken
+TD7 📋> 🤔 17 gokken
+TD6 📋> ␅
+TD15 ␆⏱️ 34s
+TD6 📋> ⏱️ 34s
+TD5 📋> ␅
+TD215255 ␆🔗 alfagok.diginaut.net
+TD93 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD200024 ␄
+TD164 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #588\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD851 result: "\ud83e\udde9 Puzzel #588\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"
+TD12 result puzzle: 588
+TD4 result guesses: 17
+TD3 result time: 34s
+TD3 result link: alfagok.diginaut.net
+TD104 📆 2026-06-13 ? ␅
+TD246681 ␆
+TD84 📆 2026-06-13 ? 
