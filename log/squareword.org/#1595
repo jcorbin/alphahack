@@ -1,0 +1,245 @@
+T898.9454989939695 now: 2026-06-14T12:11:44EDT
+TD135 site: squareword.org
+TD37 wordlist: nwl2023.txt
+TD50  ...␅
+TD3342532 ␆'
+TD119  ...'
+TD110  ...␅
+TD735861 ␆
+TD108  ...
+TD97 🧩  ? ␅
+TD2928276 ␆#1595
+TD103 🧩  ? #1595
+TD321 puzzle_id: #1595
+TD404 > ␅
+TD1270648 ␆*
+TD140 > *
+TD514880 try? ␅
+TD1125017 ␆
+TD139 try? 
+TD2295 try? ␅
+TD581676 ␆1
+TD139 try? 1
+TD477 questioning: ["rales", "#5"]
+TD406 #1 <IndexError>  📋 "rales" ? ␅
+TD4046518 ␆_____ ~ AE
+TD81 #1 <IndexError>  📋 "rales" ? _____ ~ AE
+TD447 attempt 0 RALES n m n m n
+TD78 #2 <IndexError>  📋 "rales" ? ␅
+TD1727734 ␆_____ ~ A
+TD116 #2 <IndexError>  📋 "rales" ? _____ ~ A
+TD306 attempt 1 RALES n m n n n
+TD140 #3 <IndexError>  📋 "rales" ? ␅
+TD2415548 ␆____S ~ A
+TD104 #3 <IndexError>  📋 "rales" ? ____S ~ A
+TD248 attempt 2 RALES n m n n Y
+TD116 #4 <IndexError>  📋 "rales" ? ␅
+TD2415468 ␆_____ ~ RES
+TD102 #4 <IndexError>  📋 "rales" ? _____ ~ RES
+TD262 attempt 3 RALES m n n m m
+TD125 #5 <IndexError>  📋 "rales" ? ␅
+TD2383574 ␆___E_ ~ RS
+TD137 #5 <IndexError>  📋 "rales" ? ___E_ ~ RS
+TD282 attempt 4 RALES m n n Y m
+TD357 ? ␅
+TD703316 ␆
+TD128 ? 
+TD169 question done
+TD330 > ␅
+TD439289 ␆*
+TD122 > *
+TD1744880 try? ␅
+TD1799012 ␆2
+TD135 try? 2
+TD350 questioning: ["wiser", "#5"]
+TD360 #1 _____ ~AE -LRS  📋 "wiser" ? ␅
+TD4671112 ␆.
+TD125 #1 _____ ~AE -LRS  📋 "wiser" ? .
+TD222 attempt 0 WISER n n n m n
+TD71 #2 _____ ~A -ELRS  📋 "wiser" ? ␅
+TD1143497 ␆.
+TD98 #2 _____ ~A -ELRS  📋 "wiser" ? .
+TD249 attempt 1 WISER n n n n n
+TD67 #3 ____S ~A -ELR  📋 "wiser" ? ␅
+TD1319701 ␆.
+TD110 #3 ____S ~A -ELR  📋 "wiser" ? .
+TD307 attempt 2 WISER n n n n n
+TD87 #4 _____ ~ERS -AL  📋 "wiser" ? ␅
+TD1143680 ␆.
+TD145 #4 _____ ~ERS -AL  📋 "wiser" ? .
+TD358 attempt 3 WISER n n m m m
+TD132 #5 ___E_ ~RS -AL  📋 "wiser" ? ␅
+TD1087079 ␆.
+TD120 #5 ___E_ ~RS -AL  📋 "wiser" ? .
+TD282 attempt 4 WISER n n m Y m
+TD294 ? ␅
+TD391820 ␆
+TD103 ? 
+TD100 question done
+TD249 > ␅
+TD479376 ␆*
+TD100 > *
+TD504303 try? ␅
+TD1319373 ␆1
+TD131 try? 1
+TD356 questioning: ["shred", "#5"]
+TD406 #1 _____ ~AE -ILRSW  📋 "shred" ? ␅
+TD3407215 ␆.
+TD93 #1 _____ ~AE -ILRSW  📋 "shred" ? .
+TD281 attempt 0 SHRED n n n m n
+TD91 #2 _____ ~A -EILRSW  📋 "shred" ? ␅
+TD2695544 ␆_____ ~ AH
+TD134 #2 _____ ~A -EILRSW  📋 "shred" ? _____ ~ AH
+TD228 attempt 1 SHRED n m n n n
+TD129 #3 ____S ~A -EILRSW  📋 "shred" ? ␅
+TD1568086 ␆.
+TD150 #3 ____S ~A -EILRSW  📋 "shred" ? .
+TD269 attempt 2 SHRED n n n n n
+TD89 #4 _____ ~ERS -AILW  📋 "shred" ? ␅
+TD3886822 ␆S____ ~ RE
+TD83 #4 _____ ~ERS -AILW  📋 "shred" ? S____ ~ RE
+TD205 attempt 3 SHRED Y n m m n
+TD124 #5 ___E_ ~RS -AILW  📋 "shred" ? ␅
+TD1047473 ␆/it
+TD132 #5 ___E_ ~RS -AILW  📋 "shred" ? /it
+TD364 attempt 4 SHRED Y Y Y Y Y
+TD416 ? ␅
+TD159181 ␆
+TD123 ? 
+TD111 question done
+TD213 > ␅
+TD391521 ␆*
+TD127 > *
+TD725720 try? ␅
+TD1130192 ␆1
+TD112 try? 1
+TD231 questioning: ["store", "#4"]
+TD207 #1 _____ ~AE -DHILRSW  📋 "store" ? ␅
+TD4639580 ␆____E ~ A
+TD119 #1 _____ ~AE -DHILRSW  📋 "store" ? ____E ~ A
+TD214 attempt 0 STORE n n n n Y
+TD99 #2 _____ ~AH -DEILRSW  📋 "store" ? ␅
+TD2631523 ␆_____ ~ AHO
+TD93 #2 _____ ~AH -DEILRSW  📋 "store" ? _____ ~ AHO
+TD257 attempt 1 STORE n n m n n
+TD151 #3 ____S ~A -DEHILRSW  📋 "store" ? ␅
+TD4983631 ␆____S ~ ATO
+TD99 #3 ____S ~A -DEHILRSW  📋 "store" ? ____S ~ ATO
+TD257 attempt 2 STORE n m m n n
+TD154 #4 S____ ~ER -ADHILW  📋 "store" ? ␅
+TD2359409 ␆S_ORE
+TD80 #4 S____ ~ER -ADHILW  📋 "store" ? S_ORE
+TD175 attempt 3 STORE Y n Y Y Y
+TD218 ? ␅
+TD591581 ␆
+TD81 ? 
+TD101 question done
+TD185 > ␅
+TD887634 ␆*
+TD84 > *
+TD974729 questioning: ["mocha", "#2"]
+TD243 #1 ____E ~A -DHILORSTW  📋 "mocha" ? ␅
+TD9401047 ␆____E ~ AC
+TD102 #1 ____E ~A -DHILORSTW  📋 "mocha" ? ____E ~ AC
+TD259 attempt 0 MOCHA n n m n m
+TD161 #2 _____ ~AHO -DEILRSTW  📋 "mocha" ? ␅
+TD1951647 ␆/it
+TD73 #2 _____ ~AHO -DEILRSTW  📋 "mocha" ? /it
+TD204 attempt 1 MOCHA Y Y Y Y Y
+TD68 #3 ____S ~AOT -DEHILRSW  📋 "mocha" ? ␅
+TD1799506 ␆.
+TD91 #3 ____S ~AOT -DEHILRSW  📋 "mocha" ? .
+TD182 attempt 2 MOCHA n m n n m
+TD62 #4 S_ORE -ADHILTW  📋 "mocha" ? ␅
+TD3247776 ␆S_ORE ~ C
+TD76 #4 S_ORE -ADHILTW  📋 "mocha" ? S_ORE ~ C
+TD181 attempt 3 MOCHA n n m n n
+TD218 ? ␅
+TD327633 ␆
+TD101 ? 
+TD134 question done
+TD328 > ␅
+TD607247 ␆*
+TD102 > *
+TD1779621 questioning: ["apace", "#1"]
+TD202 #1 ____E ~AC -DHILMORSTW  📋 "apace" ? ␅
+TD2491965 ␆/it
+TD101 #1 ____E ~AC -DHILMORSTW  📋 "apace" ? /it
+TD263 attempt 0 APACE Y Y Y Y Y
+TD105 #3 ____S ~AOT -CDEHILMRSW  📋 "apace" ? ␅
+TD2927696 ␆A___S ~ TO
+TD78 #3 ____S ~AOT -CDEHILMRSW  📋 "apace" ? A___S ~ TO
+TD174 attempt 2 APACE Y n n n n
+TD108 #4 S_ORE ~C -ADHILMOTW  📋 "apace" ? ␅
+TD1511921 ␆.
+TD109 #4 S_ORE ~C -ADHILMOTW  📋 "apace" ? .
+TD273 attempt 3 APACE n n n m Y
+TD312 ? ␅
+TD159159 ␆
+TD101 ? 
+TD119 question done
+TD322 > ␅
+TD367363 ␆*
+TD79 > *
+TD1247165 questioning: ["autos", "#3"]
+TD200 #3 A___S ~OT -CDEHILMPRSW  📋 "autos" ? ␅
+TD3112537 ␆/it
+TD76 #3 A___S ~OT -CDEHILMPRSW  📋 "autos" ? /it
+TD304 attempt 2 AUTOS Y Y Y Y Y
+TD198 #4 S_ORE ~C -ADHILMOPTW  📋 "autos" ? ␅
+TD1135551 ␆.
+TD100 #4 S_ORE ~C -ADHILMOPTW  📋 "autos" ? .
+TD276 attempt 3 AUTOS n n n n n
+TD329 ? ␅
+TD167153 ␆
+TD95 ? 
+TD115 question done
+TD332 > ␅
+TD479574 ␆*
+TD66 > *
+TD836642 questioning: ["score", "#4"]
+TD188 #4 S_ORE ~C -ADHILMOPSTUW  📋 "score" ? ␅
+TD2235147 ␆/it
+TD97 #4 S_ORE ~C -ADHILMOPSTUW  📋 "score" ? /it
+TD262 attempt 3 SCORE Y Y Y Y Y
+TD301 ? ␅
+TD639267 ␆
+TD76 ? 
+TD77 question done
+TD22170 📋> ␅
+TD5162290 ␆squareword.org 1595: 8 guesses
+TD93 📋> squareword.org 1595: 8 guesses
+TD15 📋> ␅
+TD58 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD23 ␆🟨🟨🟨🟨🟩
+TD6 📋> 🟨🟨🟨🟨🟩
+TD5 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD15 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD5 📋> ␅
+TD16 ␆🟩🟨🟩🟩🟩
+TD5 📋> 🟩🟨🟩🟩🟩
+TD4 📋> ␅
+TD26 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD15 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD16 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD391259 ␆#squareword #squareword1595
+TD101 📋> #squareword #squareword1595
+TD14 📋> ␅
+TD207833 ␄
+TD165 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1595: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1595"}
+TD860 result: "squareword.org 1595: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1595"
+TD71 📆 2026-06-14 ? ␅
+TD438811 ␆
+TD86 📆 2026-06-14 ? 
