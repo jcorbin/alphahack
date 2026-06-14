@@ -1,0 +1,98 @@
+T75.69514121301472 now: 2026-06-14T11:58:01EDT
+TD76 site: alphaguess.com
+TD173303 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 114d22f841060e3be1e5ad10861a02ceeebb2a2e
+TD181  ...␅
+TD1993549 ␆
+TD104  ...
+TD184 [0 : 98214 : 196520] mach? ␅
+TD7319874 ␆a
+TD80 [0 : 98214 : 196520] mach? a
+TD82 progress: 1 98214 mach
+TD148 [98215 : 147364 : 196520] rhotic? ␅
+TD1367657 ␆b
+TD92 [98215 : 147364 : 196520] rhotic? b
+TD106 progress: -1 147364 rhotic
+TD114 [98215 : 122775 : 147364] parr? ␅
+TD1367613 ␆b
+TD98 [98215 : 122775 : 147364] parr? b
+TD103 progress: -1 122775 parr
+TD100 [98215 : 109931 : 122775] ne? ␅
+TD1359682 ␆b
+TD109 [98215 : 109931 : 122775] ne? b
+TD109 progress: -1 109931 ne
+TD105 [98215 : 104069 : 109931] minor? ␅
+TD1207891 ␆a
+TD100 [98215 : 104069 : 109931] minor? a
+TD108 progress: 1 104069 minor
+TD104 [104070 : 106935 : 109931] mor? ␅
+TD1279652 ␆b
+TD105 [104070 : 106935 : 109931] mor? b
+TD109 progress: -1 106935 mor
+TD105 [104070 : 104202 : 106935] mis? ␅
+TD1127674 ␆a
+TD99 [104070 : 104202 : 106935] mis? a
+TD106 progress: 1 104202 mis
+TD318 [104203 : 105567 : 106935] mitigator? ␅
+TD1215453 ␆a
+TD99 [104203 : 105567 : 106935] mitigator? a
+TD108 progress: 1 105567 mitigator
+TD97 [105568 : 106241 : 106935] mongrel? ␅
+TD1127583 ␆a
+TD100 [105568 : 106241 : 106935] mongrel? a
+TD107 progress: 1 106241 mongrel
+TD138 [106242 : 106326 : 106935] mono? ␅
+TD1511857 ␆a
+TD81 [106242 : 106326 : 106935] mono? a
+TD81 progress: 1 106326 mono
+TD82 [106327 : 106610 : 106935] monos? ␅
+TD1175608 ␆a
+TD73 [106327 : 106610 : 106935] monos? a
+TD79 progress: 1 106610 monos
+TD74 [106611 : 106745 : 106935] moo? ␅
+TD1167778 ␆b
+TD97 [106611 : 106745 : 106935] moo? b
+TD107 progress: -1 106745 moo
+TD105 [106611 : 106674 : 106745] mons? ␅
+TD1351717 ␆a
+TD79 [106611 : 106674 : 106745] mons? a
+TD82 progress: 1 106674 mons
+TD113 [106675 : 106709 : 106745] monte? ␅
+TD1239849 ␆b
+TD84 [106675 : 106709 : 106745] monte? b
+TD80 progress: -1 106709 monte
+TD212 [106675 : 106693 : 106709] monstrous? ␅
+TD1527699 ␆b
+TD100 [106675 : 106693 : 106709] monstrous? b
+TD106 progress: -1 106693 monstrous
+TD176 [106675 : 106682 : 106693] monsoon? ␅
+TD1239766 ␆a
+TD78 [106675 : 106682 : 106693] monsoon? a
+TD82 progress: 1 106682 monsoon
+TD115 [106683 : 106685 : 106693] monster? ␅
+TD2103516 ␆it
+TD68 [106683 : 106685 : 106693] monster? it
+TD82 progress: 0 106685 monster
+TD18 [106683 : 106685 : 106693] <Done>.
+TD67 📋> ␅
+TD3120532 ␆🧩 Puzzle #1056
+TD108 📋> 🧩 Puzzle #1056
+TD13 📋> ␅
+TD41 ␆🤔 17 guesses
+TD6 📋> 🤔 17 guesses
+TD5 📋> ␅
+TD13 ␆⏱️ 20s
+TD5 📋> ⏱️ 20s
+TD4 📋> ␅
+TD295256 ␆🔗 alphaguess.com/1056
+TD77 📋> 🔗 alphaguess.com/1056
+TD9 📋> ␅
+TD135896 ␄
+TD173 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1056\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1056"}
+TD102 result: "\ud83e\udde9 Puzzle #1056\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1056"
+TD14 result puzzle: 1056
+TD7 result guesses: 17
+TD6 result time: 20s
+TD5 result link: alphaguess.com/1056
+TD92 📆 2026-06-14 ? ␅
+TD151629 ␆
+TD100 📆 2026-06-14 ? 
