@@ -1,0 +1,187 @@
+T595.349539676914 now: 2026-06-14T12:06:40EDT
+TD123 site: https://www.merriam-webster.com/games/quordle/#/
+TD26 wordlist: nwl2023.txt
+TD9 num_words: 4
+TD134  ...␅
+TD7646884 ␆
+TD66  ...
+TD352072 > ␅
+TD14176107 ␆*
+TD129 > *
+TD48874 ? ␅
+TD1134929 ␆1
+TD78 ? 1
+TD133 questioning: tales
+TD109 Classic #1 _____? ␅
+TD2375708 ␆nnnnn
+TD79 Classic #1 _____? nnnnn
+TD275 attempt: 0 TALES n n n n n
+TD70 Classic #2 _____? ␅
+TD1031554 ␆nnnnM
+TD78 Classic #2 _____? nnnnM
+TD168 attempt: 1 TALES n n n n m
+TD66 Classic #3 _____? ␅
+TD1159843 ␆nMMnn
+TD78 Classic #3 _____? nMMnn
+TD160 attempt: 2 TALES n m m n n
+TD69 Classic #4 _____? ␅
+TD1431700 ␆nnYnn
+TD87 Classic #4 _____? nnYnn
+TD163 attempt: 3 TALES n n Y n n
+TD349474 > ␅
+TD762135 ␆*
+TD63 > *
+TD2725 ? ␅
+TD1069202 ␆1
+TD83 ? 1
+TD138 questioning: groin
+TD113 Classic #1 _____ -AELST? ␅
+TD2527697 ␆nnnMn
+TD82 Classic #1 _____ -AELST? nnnMn
+TD162 attempt: 0 GROIN n n n m n
+TD129 Classic #2 _____ ~S -AELT? ␅
+TD1391820 ␆nnnMn
+TD101 Classic #2 _____ ~S -AELT? nnnMn
+TD230 attempt: 1 GROIN n n n m n
+TD110 Classic #3 _____ ~AL -EST? ␅
+TD2783550 ␆nMnMn
+TD98 Classic #3 _____ ~AL -EST? nMnMn
+TD230 attempt: 2 GROIN n m n m n
+TD108 Classic #4 __L__ -AEST? ␅
+TD2815705 ␆nnMnY
+TD90 Classic #4 __L__ -AEST? nnMnY
+TD218 attempt: 3 GROIN n n m n Y
+TD406309 > ␅
+TD1089312 ␆*
+TD80 > *
+TD333 ? ␅
+TD3591596 ␆1
+TD104 ? 1
+TD173 questioning: pylon
+TD150 Classic #1 _____ ~I -AEGLNORST? ␅
+TD3967593 ␆MMnnn
+TD106 Classic #1 _____ ~I -AEGLNORST? MMnnn
+TD229 attempt: 0 PYLON m m n n n
+TD107 Classic #2 _____ ~IS -AEGLNORT? ␅
+TD1575681 ␆MMnnn
+TD76 Classic #2 _____ ~IS -AEGLNORT? MMnnn
+TD152 attempt: 1 PYLON m m n n n
+TD72 Classic #3 _____ ~AILR -EGNOST? ␅
+TD1359670 ␆nnMnn
+TD81 Classic #3 _____ ~AILR -EGNOST? nnMnn
+TD159 attempt: 2 PYLON n n m n n
+TD81 Classic #4 __L_N ~O -AEGIRST? ␅
+TD1927741 ␆nYYYY
+TD94 Classic #4 __L_N ~O -AEGIRST? nYYYY
+TD225 attempt: 3 PYLON n Y Y Y Y
+TD541957 > ␅
+TD929803 ␆*
+TD96 > *
+TD361 questioning: nylon
+TD78 Classic #1 _____ ~IPY -AEGLNORST? ␅
+TD3119315 ␆nMnnn
+TD80 Classic #1 _____ ~IPY -AEGLNORST? nMnnn
+TD148 attempt: 0 NYLON n m n n n
+TD79 Classic #2 _____ ~IPSY -AEGLNORT? ␅
+TD1239526 ␆nMnnn
+TD68 Classic #2 _____ ~IPSY -AEGLNORT? nMnnn
+TD153 attempt: 1 NYLON n m n n n
+TD76 Classic #3 _____ ~AILR -EGNOPSTY? ␅
+TD1679824 ␆nnMnn
+TD78 Classic #3 _____ ~AILR -EGNOPSTY? nnMnn
+TD156 attempt: 2 NYLON n n m n n
+TD74 Classic #4 _YLON -AEGIPRST? ␅
+TD1271721 ␆YYYYY
+TD76 Classic #4 _YLON -AEGIPRST? YYYYY
+TD145 attempt: 3 NYLON Y Y Y Y Y
+TD427438 > ␅
+TD692434 ␆*
+TD98 > *
+TD546 ? ␅
+TD1671355 ␆1
+TD97 ? 1
+TD178 questioning: spicy
+TD157 Classic #1 _____ ~IPY -AEGLNORST? ␅
+TD3895584 ␆nMMnY
+TD77 Classic #1 _____ ~IPY -AEGLNORST? nMMnY
+TD159 attempt: 0 SPICY n m m n Y
+TD83 Classic #2 _____ ~IPSY -AEGLNORT? ␅
+TD1503739 ␆MMMnY
+TD99 Classic #2 _____ ~IPSY -AEGLNORT? MMMnY
+TD224 attempt: 1 SPICY m m m n Y
+TD113 Classic #3 _____ ~AILR -EGNOPSTY? ␅
+TD1527638 ␆nnMnn
+TD78 Classic #3 _____ ~AILR -EGNOPSTY? nnMnn
+TD149 attempt: 2 SPICY n n m n n
+TD316403 > ␅
+TD763355 ␆*
+TD72 > *
+TD254 questioning: wispy
+TD70 Classic #1 ____Y ~IP -ACEGLNORST? ␅
+TD3455599 ␆YYnYY
+TD68 Classic #1 ____Y ~IP -ACEGLNORST? YYnYY
+TD150 attempt: 0 WISPY Y Y n Y Y
+TD76 Classic #2 ____Y ~IPS -ACEGLNORT? ␅
+TD1103716 ␆YYYYY
+TD75 Classic #2 ____Y ~IPS -ACEGLNORT? YYYYY
+TD150 attempt: 1 WISPY Y Y Y Y Y
+TD77 Classic #3 _____ ~AILR -CEGNOPSTY? ␅
+TD2143737 ␆nYnnn
+TD76 Classic #3 _____ ~AILR -CEGNOPSTY? nYnnn
+TD154 attempt: 2 WISPY n Y n n n
+TD211971 > ␅
+TD779800 ␆*
+TD77 > *
+TD277 questioning: wimpy
+TD78 Classic #1 WI_PY -ACEGLNORST? ␅
+TD3831746 ␆YYYYY
+TD114 Classic #1 WI_PY -ACEGLNORST? YYYYY
+TD210 attempt: 0 WIMPY Y Y Y Y Y
+TD116 Classic #3 _I___ ~ALR -CEGNOPSTWY? ␅
+TD1751547 ␆nYnnn
+TD100 Classic #3 _I___ ~ALR -CEGNOPSTWY? nYnnn
+TD229 attempt: 2 WIMPY n Y n n n
+TD115836 > ␅
+TD1251745 ␆*
+TD81 > *
+TD400 ? ␅
+TD4455710 ␆3
+TD81 ? 3
+TD138 questioning: rival
+TD106 Classic #3 _I___ ~ALR -CEGMNOPSTWY? ␅
+TD5391532 ␆MYMYY
+TD78 Classic #3 _I___ ~ALR -CEGMNOPSTWY? MYMYY
+TD170 attempt: 2 RIVAL m Y m Y Y
+TD89706 > ␅
+TD510028 ␆*
+TD84 > *
+TD303 questioning: viral
+TD83 Classic #3 _I_AL ~RV -CEGMNOPSTWY? ␅
+TD2287657 ␆YYYYY
+TD85 Classic #3 _I_AL ~RV -CEGMNOPSTWY? YYYYY
+TD159 attempt: 2 VIRAL Y Y Y Y Y
+TD75 📋> ␅
+TD4488395 ␆🙂 Daily Quordle 1602
+TD105 📋> 🙂 Daily Quordle 1602
+TD18 📋> ␅
+TD56 ␆7️⃣6️⃣
+TD12 📋> 7️⃣6️⃣
+TD11 📋> ␅
+TD23 ␆9️⃣4️⃣
+TD9 📋> 9️⃣4️⃣
+TD10 📋> ␅
+TD20 ␆m-w.com/games/quordle/
+TD10 📋> m-w.com/games/quordle/
+TD9 📋> ␅
+TD335101 ␆
+TD84 📋> 
+TD12 📋> ␅
+TD143846 ␄
+TD140 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1602\n7\ufe0f\u20e36\ufe0f\u20e3\n9\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD976 result: "\ud83d\ude42 Daily Quordle 1602\n7\ufe0f\u20e36\ufe0f\u20e3\n9\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD69 📆 2026-06-14 ? ␅
+TD302826 ␆
+TD61 📆 2026-06-14 ? 
+TD2368 📆 2026-06-14 ? ␅
+TD1877644 ␆
+TD79 📆 2026-06-14 ? 
