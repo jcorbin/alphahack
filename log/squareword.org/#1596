@@ -1,0 +1,248 @@
+T1414.1649761949957 now: 2026-06-15T10:14:15EDT
+TD74 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD26  ...␅
+TD3327029 ␆
+TD74  ...
+TD51 🧩  ? ␅
+TD2528198 ␆#1596
+TD65 🧩  ? #1596
+TD169 puzzle_id: #1596
+TD148 > ␅
+TD1079556 ␆*
+TD84 > *
+TD203004 try? ␅
+TD1036802 ␆1
+TD61 try? 1
+TD206 questioning: ["sayer", "#5"]
+TD166 #1 <IndexError>  📋 "sayer" ? ␅
+TD4544059 ␆S____ ~ SA
+TD97 #1 <IndexError>  📋 "sayer" ? S____ ~ SA
+TD674 attempt 0 SAYER Y m n n n
+TD71 #2 <IndexError>  📋 "sayer" ? ␅
+TD1806872 ␆_____ ~ E
+TD76 #2 <IndexError>  📋 "sayer" ? _____ ~ E
+TD193 attempt 1 SAYER n n n m n
+TD85 #3 <IndexError>  📋 "sayer" ? ␅
+TD1607520 ␆_____ ~ R
+TD73 #3 <IndexError>  📋 "sayer" ? _____ ~ R
+TD159 attempt 2 SAYER n n n n m
+TD76 #4 <IndexError>  📋 "sayer" ? ␅
+TD3799696 ␆_____ ~ ER
+TD70 #4 <IndexError>  📋 "sayer" ? _____ ~ ER
+TD167 attempt 3 SAYER n n n m m
+T8.039727301998937 now: 2026-06-15T10:14:48EDT
+TD119 questioning: ["sayer", "#5"]
+TD180 #5 <IndexError>  📋 "sayer" ? ␅
+TD3919813 ␆___E_ ~ SYR
+TD75 #5 <IndexError>  📋 "sayer" ? ___E_ ~ SYR
+TD504 attempt 4 SAYER m n m Y m
+TD204 ? ␅
+TD375287 ␆
+TD99 ? 
+TD133 question done
+TD319 > ␅
+TD1687582 ␆*
+TD96 > *
+TD666442 try? ␅
+TD1445361 ␆1
+TD96 try? 1
+TD323 questioning: ["byres", "#5"]
+TD355 #1 S____ ~A -ERY  📋 "byres" ? ␅
+TD6271702 ␆S____ ~ SA
+TD101 #1 S____ ~A -ERY  📋 "byres" ? S____ ~ SA
+TD283 attempt 0 BYRES n n n n m
+TD153 #2 _____ ~E -ARSY  📋 "byres" ? ␅
+TD1199211 ␆.
+TD71 #2 _____ ~E -ARSY  📋 "byres" ? .
+TD178 attempt 1 BYRES n n n m n
+TD56 #3 _____ ~R -AESY  📋 "byres" ? ␅
+TD2399554 ␆_____ ~ RB
+TD76 #3 _____ ~R -AESY  📋 "byres" ? _____ ~ RB
+TD176 attempt 2 BYRES m n m n n
+TD97 #4 _____ ~ER -ASY  📋 "byres" ? ␅
+TD960578 ␆.
+TD101 #4 _____ ~ER -ASY  📋 "byres" ? .
+TD280 attempt 3 BYRES n n m m n
+TD93 #5 ___E_ ~RSY -A  📋 "byres" ? ␅
+TD2990677 ␆_YRES
+TD79 #5 ___E_ ~RSY -A  📋 "byres" ? _YRES
+TD181 attempt 4 BYRES n Y Y Y Y
+TD205 ? ␅
+TD591553 ␆
+TD99 ? 
+TD125 question done
+TD334 > ␅
+TD855431 ␆*
+TD74 > *
+TD675228 try? ␅
+TD5468983 ␄
+TD112 <EOF>
+TD194 > ␅
+TD2809361 ␆* 2
+TD96 > * 2
+TD3228 try? ␅
+TD1202789 ␆1
+TD76 try? 1
+TD222 questioning: ["chine", "#2"]
+TD211 #1 S____ ~A -BERY  📋 "chine" ? ␅
+TD6855700 ␆S____ ~ SA
+TD78 #1 S____ ~A -BERY  📋 "chine" ? S____ ~ SA
+TD186 attempt 0 CHINE n n n n n
+TD104 #2 _____ ~E -ABRSY  📋 "chine" ? ␅
+TD3303544 ␆_____ ~ EI
+TD68 #2 _____ ~E -ABRSY  📋 "chine" ? _____ ~ EI
+TD148 attempt 1 CHINE n n m n m
+TD90 #3 _____ ~BR -AESY  📋 "chine" ? ␅
+TD2743826 ␆.
+TD96 #3 _____ ~BR -AESY  📋 "chine" ? .
+TD283 attempt 2 CHINE n n n n n
+TD97 #4 _____ ~ER -ABSY  📋 "chine" ? ␅
+TD2367534 ␆_____ ~ ERIN
+TD96 #4 _____ ~ER -ABSY  📋 "chine" ? _____ ~ ERIN
+TD261 attempt 3 CHINE n n m m m
+TD143 #5 _YRES -AB  📋 "chine" ? ␅
+TD3103525 ␆.
+TD98 #5 _YRES -AB  📋 "chine" ? .
+TD246 attempt 4 CHINE n n n n n
+TD261 ? ␅
+TD199448 ␆
+TD94 ? 
+TD108 question done
+TD299 > ␅
+TD1055510 ␆*
+TD99 > *
+TD442361 questioning: ["inert", "#4"]
+TD175 #1 S____ ~A -BCEHINRY  📋 "inert" ? ␅
+TD8237558 ␆S____ ~ SA
+TD86 #1 S____ ~A -BCEHINRY  📋 "inert" ? S____ ~ SA
+TD187 attempt 0 INERT n n n n n
+TD104 #2 _____ ~EI -ABCHNRSY  📋 "inert" ? ␅
+TD2703505 ␆_____ ~ EIT
+TD78 #2 _____ ~EI -ABCHNRSY  📋 "inert" ? _____ ~ EIT
+TD182 attempt 1 INERT m n m n m
+TD103 #3 _____ ~BR -ACEHINSY  📋 "inert" ? ␅
+TD6207686 ␆____T ~ RB
+TD79 #3 _____ ~BR -ACEHINSY  📋 "inert" ? ____T ~ RB
+TD184 attempt 2 INERT n n n m Y
+TD104 #4 _____ ~EINR -ABCHSY  📋 "inert" ? ␅
+TD1375629 ␆/it
+TD77 #4 _____ ~EINR -ABCHSY  📋 "inert" ? /it
+TD195 attempt 3 INERT Y Y Y Y Y
+TD66 #5 _YRES -ABCEHIN  📋 "inert" ? ␅
+TD1759762 ␆.
+TD76 #5 _YRES -ABCEHIN  📋 "inert" ? .
+TD195 attempt 4 INERT n n n n n
+TD176 ? ␅
+TD7383706 ␆
+TD80 ? 
+TD85 question done
+TD191 > ␅
+TD1519524 ␆*
+TD72 > *
+TD1713135 questioning: ["robot", "#3"]
+TD211 #1 S____ ~A -BCEHINRTY  📋 "robot" ? ␅
+TD9318693 ␆S____ ~ SA
+TD86 #1 S____ ~A -BCEHINRTY  📋 "robot" ? S____ ~ SA
+TD172 attempt 0 ROBOT n n n n n
+TD106 #2 _____ ~EIT -ABCHNRSY  📋 "robot" ? ␅
+TD1223690 ␆.
+TD75 #2 _____ ~EIT -ABCHNRSY  📋 "robot" ? .
+TD183 attempt 1 ROBOT n n n n m
+TD69 #3 ____T ~BR -ACEHINSY  📋 "robot" ? ␅
+TD655647 ␆/it
+TD96 #3 ____T ~BR -ACEHINSY  📋 "robot" ? /it
+TD258 attempt 2 ROBOT Y Y Y Y Y
+TD106 #5 _YRES -ABCEHINRT  📋 "robot" ? ␅
+TD759562 ␆.
+TD80 #5 _YRES -ABCEHINRT  📋 "robot" ? .
+TD185 attempt 4 ROBOT n n n n n
+TD188 ? ␅
+TD151648 ␆
+TD72 ? 
+TD90 question done
+TD193 > ␅
+TD423512 ␆*
+TD79 > *
+TD1349830 questioning: ["spasm", "#1"]
+TD186 #1 S____ ~A -BCEHINORTY  📋 "spasm" ? ␅
+TD7010055 ␆/it
+TD80 #1 S____ ~A -BCEHINORTY  📋 "spasm" ? /it
+TD186 attempt 0 SPASM Y Y Y Y Y
+TD65 #2 _____ ~EIT -ABCHNORSY  📋 "spasm" ? ␅
+TD3272093 ␆_____ ~ EITPM
+TD83 #2 _____ ~EIT -ABCHNORSY  📋 "spasm" ? _____ ~ EITPM
+TD175 attempt 1 SPASM n m n n m
+TD102 #5 _YRES -ABCEHINORT  📋 "spasm" ? ␅
+TD5327352 ␆_YRES ~ P
+TD94 #5 _YRES -ABCEHINORT  📋 "spasm" ? _YRES ~ P
+TD287 attempt 4 SPASM n m n n n
+TD353 ? ␅
+TD215347 ␆
+TD97 ? 
+TD126 question done
+TD320 > ␅
+TD455353 ␆*
+TD78 > *
+TD1212810 questioning: ["tempi", "#2"]
+TD202 #2 _____ ~EIMPT -ABCHNORSY  📋 "tempi" ? ␅
+TD4074849 ␆/it
+TD75 #2 _____ ~EIMPT -ABCHNORSY  📋 "tempi" ? /it
+TD185 attempt 1 TEMPI Y Y Y Y Y
+TD70 #5 _YRES ~P -ABCEHIMNORST  📋 "tempi" ? ␅
+TD1815882 ␆.
+TD95 #5 _YRES ~P -ABCEHIMNORST  📋 "tempi" ? .
+TD312 attempt 4 TEMPI n n n m n
+TD315 ? ␅
+TD191275 ␆
+TD98 ? 
+TD118 question done
+TD330 > ␅
+TD360127 ␆*
+TD78 > *
+TD876426 questioning: ["pyres", "#5"]
+TD195 #5 _YRES ~P -ABCEHIMNORST  📋 "pyres" ? ␅
+TD2970538 ␆/it
+TD98 #5 _YRES ~P -ABCEHIMNORST  📋 "pyres" ? /it
+TD264 attempt 4 PYRES Y Y Y Y Y
+TD291 ? ␅
+TD1943521 ␆
+TD75 ? 
+TD92 question done
+TD21631 📋> ␅
+TD2994628 ␆squareword.org 1596: 8 guesses
+TD93 📋> squareword.org 1596: 8 guesses
+TD18 📋> ␅
+TD42 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD16 ␆🟩🟨🟨🟨🟨
+TD6 📋> 🟩🟨🟨🟨🟨
+TD5 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟨🟩🟩🟩🟩
+TD4 📋> 🟨🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD415109 ␆#squareword #squareword1596
+TD77 📋> #squareword #squareword1596
+TD8 📋> ␅
+TD368074 ␄
+TD131 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1596: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1596"}
+TD777 result: "squareword.org 1596: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1596"
+TD68 📆 2026-06-15 ? ␅
+TD230896 ␆
+TD75 📆 2026-06-15 ? 
