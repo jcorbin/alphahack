@@ -1,0 +1,90 @@
+T3.060684593998303 now: 2026-06-15T09:50:44EDT
+TD96 site: alphaguess.com
+TD158043 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof d9629719d50749e75612cd996e19084ce510605c
+TD119  ...␅
+TD27616709 ␆
+TD100  ...
+TD229 [0 : 98214 : 196520] mach? ␅
+TD4783835 ␆a
+TD104 [0 : 98214 : 196520] mach? a
+TD237 progress: 1 98214 mach
+TD154 [98215 : 147364 : 196520] rhotic? ␅
+TD1640234 ␆a
+TD96 [98215 : 147364 : 196520] rhotic? a
+TD124 progress: 1 147364 rhotic
+TD106 [147365 : 171634 : 196520] ta? ␅
+TD1422700 ␆b
+TD76 [147365 : 171634 : 196520] ta? b
+TD80 progress: -1 171634 ta
+TD74 [147365 : 159481 : 171634] slop? ␅
+TD1319981 ␆b
+TD74 [147365 : 159481 : 171634] slop? b
+TD77 progress: -1 159481 slop
+TD73 [147365 : 153313 : 159481] sea? ␅
+TD1239735 ␆a
+TD92 [147365 : 153313 : 159481] sea? a
+TD101 progress: 1 153313 sea
+TD114 [153314 : 156349 : 159481] ship? ␅
+TD1295685 ␆a
+TD77 [153314 : 156349 : 159481] ship? a
+TD79 progress: 1 156349 ship
+TD79 [156350 : 157877 : 159481] sim? ␅
+TD1248067 ␆b
+TD76 [156350 : 157877 : 159481] sim? b
+TD79 progress: -1 157877 sim
+TD140 [156350 : 157113 : 157877] shrub? ␅
+TD1391508 ␆b
+TD102 [156350 : 157113 : 157877] shrub? b
+TD112 progress: -1 157113 shrub
+TD224 [156350 : 156731 : 157113] shop? ␅
+TD2319546 ␆a
+TD96 [156350 : 156731 : 157113] shop? a
+TD106 progress: 1 156731 shop
+TD111 [156732 : 156909 : 157113] shovel? ␅
+TD2727592 ␆a
+TD74 [156732 : 156909 : 157113] shovel? a
+TD79 progress: 1 156909 shovel
+TD108 [156910 : 157007 : 157113] shred? ␅
+TD1431877 ␆a
+TD97 [156910 : 157007 : 157113] shred? a
+TD105 progress: 1 157007 shred
+TD111 [157008 : 157032 : 157113] shri? ␅
+TD1287774 ␆a
+TD94 [157008 : 157032 : 157113] shri? a
+TD103 progress: 1 157032 shri
+TD284 [157033 : 157072 : 157113] shrine? ␅
+TD1439383 ␆a
+TD94 [157033 : 157072 : 157113] shrine? a
+TD104 progress: 1 157072 shrine
+TD109 [157073 : 157087 : 157113] shrive? ␅
+TD1375830 ␆b
+TD93 [157073 : 157087 : 157113] shrive? b
+TD99 progress: -1 157087 shrive
+TD101 [157073 : 157076 : 157087] shrink? ␅
+TD4039976 ␆it
+TD106 [157073 : 157076 : 157087] shrink? it
+TD113 progress: 0 157076 shrink
+TD25 [157073 : 157076 : 157087] <Done>.
+TD110 📋> ␅
+TD2815985 ␆🧩 Puzzle #1057
+TD95 📋> 🧩 Puzzle #1057
+TD16 📋> ␅
+TD40 ␆🤔 15 guesses
+TD7 📋> 🤔 15 guesses
+TD6 📋> ␅
+TD12 ␆⏱️ 23s
+TD6 📋> ⏱️ 23s
+TD4 📋> ␅
+TD255154 ␆🔗 alphaguess.com/1057
+TD81 📋> 🔗 alphaguess.com/1057
+TD11 📋> ␅
+TD184179 ␄
+TD181 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1057\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/1057"}
+TD579 result: "\ud83e\udde9 Puzzle #1057\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/1057"
+TD18 result puzzle: 1057
+TD9 result guesses: 15
+TD6 result time: 23s
+TD5 result link: alphaguess.com/1057
+TD84 📆 2026-06-15 ? ␅
+TD167055 ␆
+TD74 📆 2026-06-15 ? 
