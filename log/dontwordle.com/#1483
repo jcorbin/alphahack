@@ -1,0 +1,172 @@
+T64.59705411999312 now: 2026-06-15T09:51:45EDT
+TD124 site: dontwordle.com
+TD21 wordlist: nwl2023.txt
+TD44  ...␅
+TD366931 ␆
+TD81  ...
+TD104 1> ␅
+TD623753 ␆
+TD102 1> 
+TD379 1> ␅
+TD6127541 ␆* -bot 10
+TD84 1> * -bot 10
+TD185487 ? ␅
+TD3982543 ␆10
+TD78 ? 10
+TD193 📋 "spear" ? ␅
+TD4735784 ␆nnMMY
+TD77 📋 "spear" ? nnMMY
+TD386 tried: SPEAR n n m m Y
+TD126 2> ␅
+TD3991429 ␆undo
+TD94 2> undo
+TD148 undo
+TD147 1> ␅
+TD2895747 ␆*
+TD87 1> *
+TD101841 ? ␅
+TD2306213 ␆1
+TD94 ? 1
+TD248 📋 "xylyl" ? ␅
+TD4935626 ␆nnMnn
+TD92 📋 "xylyl" ? nnMnn
+TD200 tried: XYLYL n n m n n
+TD170 2> ␅
+TD1047472 ␆undo
+TD69 2> undo
+TD111 undo
+TD98 1> ␅
+TD2447739 ␆*
+TD107 1> *
+TD100036 ? ␅
+TD1075805 ␆1
+TD94 ? 1
+TD234 📋 "yummy" ? ␅
+TD4167794 ␆nnnnn
+TD98 📋 "yummy" ? nnnnn
+TD205 tried: YUMMY n n n n n
+TD175 2> ␅
+TD455568 ␆*
+TD94 2> *
+TD99135 ? ␅
+TD853202 ␆1
+TD96 ? 1
+TD233 📋 "oxbow" ? ␅
+TD7039408 ␆nnnnn
+TD90 📋 "oxbow" ? nnnnn
+TD214 tried: OXBOW n n n n n
+TD201 3> ␅
+TD447282 ␆*
+TD87 3> *
+TD94391 ? ␅
+TD913600 ␆1
+TD70 ? 1
+TD170 📋 "kinin" ? ␅
+TD6863797 ␆nnnnn
+TD74 📋 "kinin" ? nnnnn
+TD145 tried: KININ n n n n n
+TD118 4> ␅
+TD11815994 ␆sol
+TD105 4> sol
+TD178 4> ␅
+TD2583573 ␆*
+TD78 4> *
+TD91794 📋 "phpht" ? ␅
+TD6988281 ␆nnnnM
+TD76 📋 "phpht" ? nnnnM
+TD172 tried: PHPHT n n n n m
+TD125 5> ␅
+TD3119563 ␆undo
+TD78 5> undo
+TD105 undo
+TD167 4> ␅
+TD2712107 ␆*
+TD77 4> *
+TD217606 📋 "phpht" ? ␅
+TD4461839 ␆nnnnM
+TD81 📋 "phpht" ? nnnnM
+TD151 tried: PHPHT n n n n m
+TD138 5> ␅
+TD431835 ␆*
+TD99 5> *
+TD193203 ? ␅
+TD911118 ␆1
+TD91 ? 1
+TD228 📋 "casts" ? ␅
+TD3687490 ␆nMnMn
+TD68 📋 "casts" ? nMnMn
+TD152 tried: CASTS n m n m n
+TD135 6> ␅
+TD431429 ␆*
+TD104 6> *
+TD208652 📋 "atted" ? ␅
+TD6543442 ␄
+TD135 <EOF>
+TD161 6> ␅
+TD2279648 ␆*
+TD68 6> *
+TD224236 📋 "atted" ? ␅
+TD1143881 ␆!
+TD94 📋 "atted" ? !
+TD291 6> ␅
+TD1031433 ␆*
+TD93 6> *
+TD141080 📋 "atted" ? ␅
+TD2922958 ␆!
+TD92 📋 "atted" ? !
+TD287 6> ␅
+TD2431605 ␆* -sans
+TD77 6> * -sans
+TD98026 ? ␅
+TD6349795 ␆2
+TD75 ? 2
+TD199 📋 "tetra" ? ␅
+TD2712049 ␆nMYMM
+TD95 📋 "tetra" ? nMYMM
+TD202 tried: TETRA n m Y m m
+TD152 📋> ␅
+TD4704060 ␆Don't Wordle 1483 - SURVIVED
+TD102 📋> Don't Wordle 1483 - SURVIVED
+TD12 📋> ␅
+TD38 ␆Hooray! I didn't Wordle today!
+TD6 📋> Hooray! I didn't Wordle today!
+TD6 📋> ␅
+TD16 ␆⬜⬜⬜⬜⬜7572
+TD6 📋> ⬜⬜⬜⬜⬜7572
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜3834
+TD4 📋> ⬜⬜⬜⬜⬜3834
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜1454
+TD4 📋> ⬜⬜⬜⬜⬜1454
+TD4 📋> ␅
+TD11 ␆⬜⬜⬜⬜🟨231
+TD4 📋> ⬜⬜⬜⬜🟨231
+TD4 📋> ␅
+TD10 ␆⬜🟨⬜🟨⬜20
+TD4 📋> ⬜🟨⬜🟨⬜20
+TD4 📋> ␅
+TD10 ␆⬜🟨🟩🟨🟨3
+TD4 📋> ⬜🟨🟩🟨🟨3
+TD4 📋> ␅
+TD10 ␆Undos used: 3
+TD5 📋> Undos used: 3
+TD5 📋> ␅
+TD9 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD9 ␆  3 words remaining
+TD5 📋>   3 words remaining
+TD5 📋> ␅
+TD9 ␆x 8 unused letters
+TD4 📋> x 8 unused letters
+TD4 📋> ␅
+TD303192 ␆= 24 total score
+TD97 📋> = 24 total score
+TD13 📋> ␅
+TD183827 ␄
+TD181 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1483 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3834\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1454\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8231\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c20\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe83\nUndos used: 3\n\n  3 words remaining\nx 8 unused letters\n= 24 total score"}
+TD1226 result: "Don't Wordle 1483 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3834\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1454\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8231\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c20\n\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe83\nUndos used: 3\n\n  3 words remaining\nx 8 unused letters\n= 24 total score"
+TD67 📆 2026-06-15 ? ␅
+TD463111 ␆
+TD77 📆 2026-06-15 ? 
