@@ -1,0 +1,241 @@
+T75331.805174602 now: 2026-06-16T08:29:04EDT
+TD139 site: squareword.org
+TD74 wordlist: nwl2023.txt
+TD32  ...␅
+TD507255 ␆
+TD83  ...
+TD68 🧩  ? ␅
+TD4247883 ␆#1597
+TD69 🧩  ? #1597
+TD245 puzzle_id: #1597
+TD312 > ␅
+TD991425 ␆*
+TD66 > *
+TD274365 try? ␅
+TD925588 ␆1
+TD75 try? 1
+TD386 questioning: ["stare", "#5"]
+TD257 #1 <IndexError>  📋 "stare" ? ␅
+TD7543513 ␆_____ ~ A
+TD99 #1 <IndexError>  📋 "stare" ? _____ ~ A
+TD981 attempt 0 STARE n n m n n
+TD123 #2 <IndexError>  📋 "stare" ? ␅
+TD2038646 ␆__AR_ ~ A
+TD67 #2 <IndexError>  📋 "stare" ? __AR_ ~ A
+TD173 attempt 1 STARE n n Y Y n
+TD118 #3 <IndexError>  📋 "stare" ? ␅
+TD2159723 ␆_____ ~ RE
+TD100 #3 <IndexError>  📋 "stare" ? _____ ~ RE
+TD273 attempt 2 STARE n n n m m
+TD126 #4 <IndexError>  📋 "stare" ? ␅
+TD3247565 ␆S____ ~ RE
+TD91 #4 <IndexError>  📋 "stare" ? S____ ~ RE
+TD275 attempt 3 STARE Y n n m m
+TD128 #5 <IndexError>  📋 "stare" ? ␅
+TD2799525 ␆_____ ~ SRE
+TD72 #5 <IndexError>  📋 "stare" ? _____ ~ SRE
+TD188 attempt 4 STARE m n n m m
+TD302 ? ␅
+TD687461 ␆
+TD82 ? 
+TD120 question done
+TD201 > ␅
+TD2151968 ␆*
+TD79 > *
+TD912126 try? ␅
+TD1919485 ␆2
+TD66 try? 2
+TD201 questioning: ["diary", "#2"]
+TD166 #1 _____ ~A -ERST  📋 "diary" ? ␅
+TD3351551 ␆.
+TD63 #1 _____ ~A -ERST  📋 "diary" ? .
+TD171 attempt 0 DIARY n n m n n
+TD54 #2 __AR_ -EST  📋 "diary" ? ␅
+TD3935723 ␆__AR_ ~ AD
+TD68 #2 __AR_ -EST  📋 "diary" ? __AR_ ~ AD
+TD157 attempt 1 DIARY m n Y Y n
+TD87 #3 _____ ~ER -AST  📋 "diary" ? ␅
+TD3439832 ␆_____ ~ RED
+TD83 #3 _____ ~ER -AST  📋 "diary" ? _____ ~ RED
+TD193 attempt 2 DIARY m n n m n
+TD103 #4 S____ ~ER -AT  📋 "diary" ? ␅
+TD3647653 ␆S____ ~ REI
+TD89 #4 S____ ~ER -AT  📋 "diary" ? S____ ~ REI
+TD188 attempt 3 DIARY n m n m n
+TD104 #5 _____ ~ERS -AT  📋 "diary" ? ␅
+TD3863584 ␆_____ ~ SRED
+TD75 #5 _____ ~ERS -AT  📋 "diary" ? _____ ~ SRED
+TD188 attempt 4 DIARY m n n m n
+TD221 ? ␅
+TD271584 ␆
+TD80 ? 
+TD107 question done
+TD188 > ␅
+TD1071625 ␆*
+TD71 > *
+TD606052 questioning: ["herds", "#5"]
+TD181 #1 _____ ~A -DEIRSTY  📋 "herds" ? ␅
+TD3953746 ␆.
+TD77 #1 _____ ~A -DEIRSTY  📋 "herds" ? .
+TD198 attempt 0 HERDS n n n n n
+TD75 #2 __AR_ ~D -EISTY  📋 "herds" ? ␅
+TD4207890 ␆__AR_ ~ AD
+TD96 #2 __AR_ ~D -EISTY  📋 "herds" ? __AR_ ~ AD
+TD274 attempt 1 HERDS n n n m n
+TD153 #3 _____ ~DER -AISTY  📋 "herds" ? ␅
+TD1487279 ␆.
+TD97 #3 _____ ~DER -AISTY  📋 "herds" ? .
+TD276 attempt 2 HERDS n m m m n
+TD95 #4 S____ ~EIR -ADTY  📋 "herds" ? ␅
+TD2439653 ␆.
+TD94 #4 S____ ~EIR -ADTY  📋 "herds" ? .
+TD281 attempt 3 HERDS n m m n n
+TD98 #5 _____ ~DERS -AITY  📋 "herds" ? ␅
+TD639590 ␆/it
+TD96 #5 _____ ~DERS -AITY  📋 "herds" ? /it
+TD266 attempt 4 HERDS Y Y Y Y Y
+TD353 ? ␅
+TD447211 ␆
+TD96 ? 
+TD123 question done
+TD314 > ␅
+TD607451 ␆*
+TD72 > *
+TD796654 try? ␅
+TD2475258 ␆1
+TD77 try? 1
+TD214 questioning: ["board", "#2"]
+TD216 #1 _____ ~A -DEHIRSTY  📋 "board" ? ␅
+TD4311532 ␆_____ ~ AO
+TD74 #1 _____ ~A -DEHIRSTY  📋 "board" ? _____ ~ AO
+TD189 attempt 0 BOARD n m m n n
+TD110 #2 __AR_ ~D -EHIRSTY  📋 "board" ? ␅
+TD2967912 ␆__ARD ~ A
+TD101 #2 __AR_ ~D -EHIRSTY  📋 "board" ? __ARD ~ A
+TD261 attempt 1 BOARD n n Y Y Y
+TD147 #3 _____ ~DER -AHISTY  📋 "board" ? ␅
+TD3527503 ␆_O___ ~ REDO
+TD111 #3 _____ ~DER -AHISTY  📋 "board" ? _O___ ~ REDO
+TD265 attempt 2 BOARD n Y n m m
+TD214 #4 S____ ~EIR -ADHSTY  📋 "board" ? ␅
+TD1687255 ␆.
+TD86 #4 S____ ~EIR -ADHSTY  📋 "board" ? .
+TD202 attempt 3 BOARD n n n m n
+TD182 ? ␅
+TD175435 ␆
+TD76 ? 
+TD87 question done
+TD192 > ␅
+TD407749 ␆*
+TD98 > *
+TD1395718 questioning: ["award", "#2"]
+TD203 #1 _____ ~AO -BDEHIRSTY  📋 "award" ? ␅
+TD4268121 ␆.
+TD98 #1 _____ ~AO -BDEHIRSTY  📋 "award" ? .
+TD267 attempt 0 AWARD m n m n n
+TD100 #2 __ARD -BEHIOSTY  📋 "award" ? ␅
+TD615480 ␆/it
+TD79 #2 __ARD -BEHIOSTY  📋 "award" ? /it
+TD190 attempt 1 AWARD Y Y Y Y Y
+TD75 #3 _O___ ~DER -ABHISTY  📋 "award" ? ␅
+TD4151654 ␆_O___ ~ REDO
+TD68 #3 _O___ ~DER -ABHISTY  📋 "award" ? _O___ ~ REDO
+TD185 attempt 2 AWARD n n n m m
+TD119 #4 S____ ~EIR -ABDHOSTY  📋 "award" ? ␅
+TD1375967 ␆.
+TD95 #4 S____ ~EIR -ABDHOSTY  📋 "award" ? .
+TD271 attempt 3 AWARD n n n m n
+TD327 ? ␅
+TD166975 ␆
+TD111 ? 
+TD117 question done
+TD334 > ␅
+TD415492 ␆*
+TD93 > *
+TD1607879 questioning: ["mango", "#1"]
+TD195 #1 _____ ~AO -BDEHIRSTWY  📋 "mango" ? ␅
+TD4951869 ␆YYYYY
+TD80 #1 _____ ~AO -BDEHIRSTWY  📋 "mango" ? MANGO
+TD179 attempt 0 MANGO Y Y Y Y Y
+TD107 #3 _O___ ~DER -ABHISTWY  📋 "mango" ? ␅
+TD7639813 ␆_O__O ~ RED
+TD97 #3 _O___ ~DER -ABHISTWY  📋 "mango" ? _O__O ~ RED
+TD264 attempt 2 MANGO n n n n Y
+TD151 #4 S____ ~EIR -ABDHOSTWY  📋 "mango" ? ␅
+TD695439 ␆
+TD77 #4 S____ ~EIR -ABDHOSTWY  📋 "mango" ? 
+TD242 #4 S____ ~EIR -ABDHOSTWY  ? ␅
+TD951688 ␆.
+TD76 #4 S____ ~EIR -ABDHOSTWY  ? .
+TD192 attempt 3 MANGO n n n n n
+TD185 ? ␅
+TD151475 ␆
+TD74 ? 
+TD86 question done
+TD196 > ␅
+TD447769 ␆*
+TD78 > *
+TD1964408 questioning: ["rodeo", "#3"]
+T26.227410049003083 now: 2026-06-16T08:31:39EDT
+TD123 questioning: ["rodeo", "#3"]
+TD200 #3 _O__O ~DER -ABGHIMNSTWY  📋 "rodeo" ? ␅
+TD4091028 ␆/it
+TD105 #3 _O__O ~DER -ABGHIMNSTWY  📋 "rodeo" ? /it
+TD466 attempt 2 RODEO Y Y Y Y Y
+TD119 #4 S____ ~EIR -ABDGHMNOSTWY  📋 "rodeo" ? ␅
+TD3463476 ␆S__E_ ~ RI
+TD77 #4 S____ ~EIR -ABDGHMNOSTWY  📋 "rodeo" ? S__E_ ~ RI
+TD451 attempt 3 RODEO m n n Y n
+TD208 ? ␅
+TD431181 ␆
+TD81 ? 
+TD98 question done
+TD208 > ␅
+TD591514 ␆*
+TD71 > *
+TD547403 questioning: ["skier", "#4"]
+TD220 #4 S__E_ ~IR -ABDGHMNOSTWY  📋 "skier" ? ␅
+TD3156408 ␆/it
+TD82 #4 S__E_ ~IR -ABDGHMNOSTWY  📋 "skier" ? /it
+TD194 attempt 3 SKIER Y Y Y Y Y
+TD296 ? ␅
+TD831424 ␆
+TD102 ? 
+TD119 question done
+TD23710 📋> ␅
+TD4232526 ␆squareword.org 1597: 8 guesses
+TD93 📋> squareword.org 1597: 8 guesses
+TD16 📋> ␅
+TD38 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD15 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD17 ␆🟨🟩🟨🟨🟨
+TD5 📋> 🟨🟩🟨🟨🟨
+TD5 📋> ␅
+TD11 ␆🟩🟨🟨🟨🟨
+TD5 📋> 🟩🟨🟨🟨🟨
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD319427 ␆#squareword #squareword1597
+TD77 📋> #squareword #squareword1597
+TD8 📋> ␅
+TD167746 ␄
+TD133 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1597: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1597"}
+TD496 result: "squareword.org 1597: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1597"
+TD70 📆 2026-06-16 ? ␅
+TD159291 ␆
+TD79 📆 2026-06-16 ? 
