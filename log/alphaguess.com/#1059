@@ -1,0 +1,85 @@
+T1646.7681589099993 now: 2026-06-17T09:38:25EDT
+TD174 site: alphaguess.com
+TD144164 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 4e0616af1e39936f1da6ed3ca60d311c708c22c4
+TD81  ...␅
+TD568921 ␆
+TD169  ...
+TD357 [0 : 98214 : 196520] mach? ␅
+TD52667817 ␆
+TD112 [0 : 98214 : 196520] mach? 
+TD141 [0 : 98214 : 196520] mach? ␅
+TD6702516 ␆a
+TD138 [0 : 98214 : 196520] mach? a
+TD545 progress: 1 98214 mach
+TD423 [98215 : 147364 : 196520] rhotic? ␅
+TD1711331 ␆b
+TD128 [98215 : 147364 : 196520] rhotic? b
+TD160 progress: -1 147364 rhotic
+TD168 [98215 : 122775 : 147364] parr? ␅
+TD1481684 ␆a
+TD73 [98215 : 122775 : 147364] parr? a
+TD81 progress: 1 122775 parr
+TD85 [122776 : 135066 : 147364] proper? ␅
+TD3363762 ␆b
+TD113 [122776 : 135066 : 147364] proper? b
+TD125 progress: -1 135066 proper
+TD130 [122776 : 128844 : 135066] play? ␅
+TD1640761 ␆b
+TD84 [122776 : 128844 : 135066] play? b
+TD105 progress: -1 128844 play
+TD115 [122776 : 125807 : 128844] petti? ␅
+TD1601215 ␆b
+TD95 [122776 : 125807 : 128844] petti? b
+TD106 progress: -1 125807 petti
+TD106 [122776 : 123688 : 125807] pe? ␅
+TD1444525 ␆a
+TD145 [122776 : 123688 : 125807] pe? a
+TD136 progress: 1 123688 pe
+TD154 [123689 : 124742 : 125807] per? ␅
+TD1690088 ␆b
+TD96 [123689 : 124742 : 125807] per? b
+TD106 progress: -1 124742 per
+TD325 [123689 : 124215 : 124742] pelican? ␅
+TD2187491 ␆b
+TD194 [123689 : 124215 : 124742] pelican? b
+TD249 progress: -1 124215 pelican
+TD295 [123689 : 123941 : 124215] pedal? ␅
+TD1796904 ␆b
+TD129 [123689 : 123941 : 124215] pedal? b
+TD146 progress: -1 123941 pedal
+TD304 [123689 : 123815 : 123941] peas? ␅
+TD1568027 ␆b
+TD169 [123689 : 123815 : 123941] peas? b
+TD215 progress: -1 123815 peas
+TD423 [123689 : 123753 : 123815] peak? ␅
+TD1513567 ␆a
+TD349 [123689 : 123753 : 123815] peak? a
+TD255 progress: 1 123753 peak
+TD152 [123754 : 123780 : 123815] pearl? ␅
+TD3286443 ␆it
+TD161 [123754 : 123780 : 123815] pearl? it
+TD189 progress: 0 123780 pearl
+TD53 [123754 : 123780 : 123815] <Done>.
+TD187 📋> ␅
+TD3237572 ␆🧩 Puzzle #1059
+TD100 📋> 🧩 Puzzle #1059
+TD19 📋> ␅
+TD55 ␆🤔 13 guesses
+TD10 📋> 🤔 13 guesses
+TD9 📋> ␅
+TD22 ␆⏱️ 22s
+TD10 📋> ⏱️ 22s
+TD8 📋> ␅
+TD342043 ␆🔗 alphaguess.com/1059
+TD161 📋> 🔗 alphaguess.com/1059
+TD25 📋> ␅
+TD193710 ␄
+TD308 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1059\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1059"}
+TD1534 result: "\ud83e\udde9 Puzzle #1059\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1059"
+TD51 result puzzle: 1059
+TD24 result guesses: 13
+TD16 result time: 22s
+TD15 result link: alphaguess.com/1059
+TD154 📆 2026-06-17 ? ␅
+TD255521 ␆
+TD162 📆 2026-06-17 ? 
