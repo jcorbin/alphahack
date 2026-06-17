@@ -1,0 +1,226 @@
+T466.2247078069995 now: 2026-06-17T09:56:59EDT
+TD212 site: squareword.org
+TD67 wordlist: nwl2023.txt
+TD71  ...␅
+TD6975212 ␆
+TD165  ...
+TD133 🧩  ? ␅
+TD3471486 ␆#1598
+TD164 🧩  ? #1598
+TD487 puzzle_id: #1598
+TD614 > ␅
+TD561932 ␆
+TD156 > 
+TD710 > ␅
+TD1761510 ␆*
+TD171 > *
+TD233989 try? ␅
+TD4094453 ␆7
+TD110 try? 7
+TD340 questioning: ["stole", "#5"]
+TD408 #1 <IndexError>  📋 "stole" ? ␅
+TD5780114 ␆_____ ~ LE
+TD119 #1 <IndexError>  📋 "stole" ? _____ ~ LE
+TD1027 attempt 0 STOLE n n n m m
+TD153 #2 <IndexError>  📋 "stole" ? ␅
+TD2734946 ␆___LE ~ E
+TD160 #2 <IndexError>  📋 "stole" ? ___LE ~ E
+TD519 attempt 1 STOLE n n n Y Y
+TD203 #3 <IndexError>  📋 "stole" ? ␅
+TD3085190 ␆S____ ~ TE
+TD138 #3 <IndexError>  📋 "stole" ? S____ ~ TE
+TD413 attempt 2 STOLE Y m n n m
+TD161 #4 <IndexError>  📋 "stole" ? ␅
+TD2982354 ␆____E ~ T
+TD153 #4 <IndexError>  📋 "stole" ? ____E ~ T
+TD438 attempt 3 STOLE n m n n Y
+TD175 #5 <IndexError>  📋 "stole" ? ␅
+TD2558025 ␆ST___ ~ E
+TD246 #5 <IndexError>  📋 "stole" ? ST___ ~ E
+TD633 attempt 4 STOLE Y Y n n m
+TD843 ? ␅
+TD364984 ␆
+TD186 ? 
+TD229 question done
+TD579 > ␅
+TD790530 ␆*
+TD112 > *
+TD846933 try? ␅
+TD3239745 ␆10
+TD177 try? 10
+TD607 questioning: ["steam", "#5"]
+T5.838368257002003 now: 2026-06-17T09:58:07EDT
+TD97 questioning: ["steam", "#5"]
+TD161 #1 _____ ~EL -OST  📋 "steam" ? ␅
+TD1246402 ␆.
+TD177 #1 _____ ~EL -OST  📋 "steam" ? .
+TD810 attempt 0 STEAM n n m n n
+TD177 #2 ___LE -OST  📋 "steam" ? ␅
+TD3653418 ␆___LE ~ E
+TD163 #2 ___LE -OST  📋 "steam" ? ___LE ~ E
+TD1322 attempt 1 STEAM n n m n n
+TD222 #3 S____ ~ET -LO  📋 "steam" ? ␅
+TD3127946 ␆.
+TD173 #3 S____ ~ET -LO  📋 "steam" ? .
+TD583 attempt 2 STEAM Y m m n n
+TD184 #4 ____E ~T -LOS  📋 "steam" ? ␅
+TD5167667 ␆____E ~ TA
+TD255 #4 ____E ~T -LOS  📋 "steam" ? ____E ~ TA
+TD609 attempt 3 STEAM n m n m n
+TD336 #5 ST___ ~E -LO  📋 "steam" ? ␅
+TD2185806 ␆STE__ ~ E
+TD140 #5 ST___ ~E -LO  📋 "steam" ? STE__ ~ E
+TD335 attempt 4 STEAM Y Y Y n n
+TD519 ? ␅
+TD508984 ␆
+TD180 ? 
+TD230 question done
+TD845 > ␅
+TD3101068 ␆
+TD125 > 
+TD832 > ␅
+TD2232233 ␆*
+TD59 > *
+TD937595 try? ␅
+TD1178457 ␆1
+TD109 try? 1
+TD392 questioning: ["setup", "#3"]
+TD469 #1 _____ ~EL -AMOST  📋 "setup" ? ␅
+TD5645638 ␆_E___ ~ LE
+TD113 #1 _____ ~EL -AMOST  📋 "setup" ? _E___ ~ LE
+TD316 attempt 0 SETUP n Y n n n
+TD181 #2 ___LE -AMOST  📋 "setup" ? ␅
+TD3108787 ␆___LE ~ E
+TD161 #2 ___LE -AMOST  📋 "setup" ? ___LE ~ E
+TD479 attempt 1 SETUP n m n n n
+TD253 #3 S____ ~ET -ALMO  📋 "setup" ? ␅
+TD1647526 ␆/it
+TD161 #3 S____ ~ET -ALMO  📋 "setup" ? /it
+TD390 attempt 2 SETUP Y Y Y Y Y
+TD149 #4 ____E ~AT -ELMOS  📋 "setup" ? ␅
+TD1914446 ␆.
+TD152 #4 ____E ~AT -ELMOS  📋 "setup" ? .
+TD355 attempt 3 SETUP n n m n n
+TD138 #5 STE__ -ALMO  📋 "setup" ? ␅
+TD4539061 ␆STE__ ~ E
+TD165 #5 STE__ -ALMO  📋 "setup" ? STE__ ~ E
+TD528 attempt 4 SETUP Y m n n n
+TD722 ? ␅
+TD469631 ␆
+TD226 ? 
+TD238 question done
+TD838 > ␅
+TD624242 ␆*
+TD147 > *
+TD716696 questioning: ["exile", "#2"]
+TD199 #1 _E___ ~L -AMOPSTU  📋 "exile" ? ␅
+TD6306599 ␆_E___ ~ LE
+TD85 #1 _E___ ~L -AMOPSTU  📋 "exile" ? _E___ ~ LE
+TD227 attempt 0 EXILE m n n m m
+TD140 #2 ___LE -AMOPSTU  📋 "exile" ? ␅
+TD1092610 ␆/it
+TD124 #2 ___LE -AMOPSTU  📋 "exile" ? /it
+TD338 attempt 1 EXILE Y Y Y Y Y
+TD140 #4 ____E ~AT -ELMOPSU  📋 "exile" ? ␅
+TD2695821 ␆.
+TD133 #4 ____E ~AT -ELMOPSU  📋 "exile" ? .
+TD384 attempt 3 EXILE n n n n Y
+TD144 #5 STE__ -ALMOPTU  📋 "exile" ? ␅
+TD2493056 ␆STE__ ~ E
+TD158 #5 STE__ -ALMOPTU  📋 "exile" ? STE__ ~ E
+TD394 attempt 4 EXILE m n n n m
+TD621 ? ␅
+TD296128 ␆
+TD110 ? 
+TD139 question done
+TD447 > ␅
+TD656780 ␆*
+TD134 > *
+TD547092 questioning: ["steer", "#5"]
+TD192 #1 _E___ ~L -AIMOPSTUX  📋 "steer" ? ␅
+TD7164678 ␆_E_E_ ~ L
+TD161 #1 _E___ ~L -AIMOPSTUX  📋 "steer" ? _E_E_ ~ L
+TD448 attempt 0 STEER n n n Y n
+TD297 #4 ____E ~AT -ILMOPSUX  📋 "steer" ? ␅
+TD4738350 ␆____E ~ TAR
+TD142 #4 ____E ~AT -ILMOPSUX  📋 "steer" ? ____E ~ TAR
+TD395 attempt 3 STEER n m n n m
+TD256 #5 STE__ -AILMOPTUX  📋 "steer" ? ␅
+TD354923 ␆
+TD134 #5 STE__ -AILMOPTUX  📋 "steer" ? 
+TD482 #5 STE__ -AILMOPTUX  ? ␅
+TD1817665 ␆/iut
+TD174 #5 STE__ -AILMOPTUX  ? /iut
+TD1431 #5 STE__ -AILMOPTUX  ? ␅
+TD1172610 ␆/it
+TD170 #5 STE__ -AILMOPTUX  ? /it
+TD539 attempt 4 STEER Y Y Y Y Y
+TD660 ? ␅
+TD530278 ␆
+TD133 ? 
+TD156 question done
+TD565 > ␅
+TD909137 ␆*
+TD161 > *
+TD808703 questioning: ["trade", "#4"]
+TD191 #1 _E_E_ ~L -AIMOPRSTUX  📋 "trade" ? ␅
+TD4158905 ␆.
+TD108 #1 _E_E_ ~L -AIMOPRSTUX  📋 "trade" ? .
+TD322 attempt 0 TRADE n n n n n
+TD136 #4 ____E ~ART -EILMOPSUX  📋 "trade" ? ␅
+TD661004 ␆/it
+TD116 #4 ____E ~ART -EILMOPSUX  📋 "trade" ? /it
+TD320 attempt 3 TRADE Y Y Y Y Y
+TD403 ? ␅
+TD450218 ␆
+TD123 ? 
+TD160 question done
+TD468 > ␅
+TD665377 ␆*
+TD184 > *
+TD859586 questioning: ["bevel", "#1"]
+TD194 #1 _E_E_ ~L -ADEIMOPRSTUX  📋 "bevel" ? ␅
+TD3332180 ␆/it
+TD92 #1 _E_E_ ~L -ADEIMOPRSTUX  📋 "bevel" ? /it
+TD252 attempt 0 BEVEL Y Y Y Y Y
+TD5278 ? ␅
+TD511015 ␆
+TD107 ? 
+TD102 question done
+TD25298 📋> ␅
+TD6735685 ␆squareword.org 1598: 7 guesses
+TD135 📋> squareword.org 1598: 7 guesses
+TD22 📋> ␅
+TD54 ␆
+TD10 📋> 
+TD9 📋> ␅
+TD25 ␆🟨🟩🟨🟩🟨
+TD10 📋> 🟨🟩🟨🟩🟨
+TD9 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD21 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD20 ␆🟨🟨🟨🟨🟩
+TD8 📋> 🟨🟨🟨🟨🟩
+TD8 📋> ␅
+TD19 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD20 ␆
+TD8 📋> 
+TD9 📋> ␅
+TD20 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> ␅
+TD271188 ␆#squareword #squareword1598
+TD53 📋> #squareword #squareword1598
+TD6 📋> ␅
+TD204690 ␄
+TD305 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1598: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1598"}
+TD1983 result: "squareword.org 1598: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1598"
+TD161 📆 2026-06-17 ? ␅
+TD197916 ␆
+TD170 📆 2026-06-17 ? 
