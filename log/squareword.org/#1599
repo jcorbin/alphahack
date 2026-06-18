@@ -1,0 +1,243 @@
+T72.7626405560004 now: 2026-06-18T09:30:45EDT
+TD157 site: squareword.org
+TD41 wordlist: nwl2023.txt
+TD58  ...␅
+TD6790313 ␆
+TD58  ...
+TD44 🧩  ? ␅
+TD2100116 ␆#1599
+TD62 🧩  ? #1599
+TD186 puzzle_id: #1599
+TD242 > ␅
+TD2675604 ␆*
+TD92 > *
+TD239008 try? ␅
+TD1940009 ␆2
+TD77 try? 2
+TD288 questioning: ["acres", "#5"]
+TD316 #1 <IndexError>  📋 "acres" ? ␅
+TD6917423 ␆_____ ~ AS
+TD98 #1 <IndexError>  📋 "acres" ? _____ ~ AS
+TD765 attempt 0 ACRES m n n n m
+TD123 #2 <IndexError>  📋 "acres" ? ␅
+TD2990254 ␆_____ ~ CRE
+TD91 #2 <IndexError>  📋 "acres" ? _____ ~ CRE
+TD237 attempt 1 ACRES n m m m n
+TD123 #3 <IndexError>  📋 "acres" ? ␅
+TD2769089 ␆___E_ ~ AR
+TD105 #3 <IndexError>  📋 "acres" ? ___E_ ~ AR
+TD256 attempt 2 ACRES m n m Y n
+TD120 #4 <IndexError>  📋 "acres" ? ␅
+TD2799170 ␆_____ ~ E
+TD125 #4 <IndexError>  📋 "acres" ? _____ ~ E
+TD294 attempt 3 ACRES n n n m n
+TD131 #5 <IndexError>  📋 "acres" ? ␅
+TD4251093 ␆_____ ~ AES
+TD120 #5 <IndexError>  📋 "acres" ? _____ ~ AES
+TD294 attempt 4 ACRES m n n m m
+TD485 ? ␅
+TD835995 ␆
+TD80 ? 
+TD114 question done
+TD263 > ␅
+TD978933 ␆*
+TD104 > *
+TD722465 try? ␅
+TD4587581 ␆6
+TD93 try? 6
+TD315 questioning: ["crept", "#2"]
+TD367 #1 _____ ~AS -CER  📋 "crept" ? ␅
+TD6749490 ␆____T ~ AST
+TD123 #1 _____ ~AS -CER  📋 "crept" ? ____T ~ AST
+TD356 attempt 0 CREPT n n n n Y
+TD196 #2 _____ ~CER -AS  📋 "crept" ? ␅
+TD2866485 ␆CR___ ~ RE
+TD121 #2 _____ ~CER -AS  📋 "crept" ? CR___ ~ RE
+TD313 attempt 1 CREPT Y Y m n n
+TD180 #3 ___E_ ~AR -CS  📋 "crept" ? ␅
+TD2881902 ␆.
+TD101 #3 ___E_ ~AR -CS  📋 "crept" ? .
+TD513 attempt 2 CREPT n m n n n
+TD144 #4 _____ ~E -ACRS  📋 "crept" ? ␅
+TD3069554 ␆__E__ ~ E
+TD105 #4 _____ ~E -ACRS  📋 "crept" ? __E__ ~ E
+TD295 attempt 3 CREPT n n Y n n
+TD171 #5 _____ ~AES -CR  📋 "crept" ? ␅
+TD1361153 ␆
+TD65 #5 _____ ~AES -CR  📋 "crept" ? 
+TD234 #5 _____ ~AES -CR  ? ␅
+TD1159900 ␆.
+TD109 #5 _____ ~AES -CR  ? .
+TD331 attempt 4 CREPT n n m n n
+TD488 ? ␅
+TD249075 ␆
+TD111 ? 
+TD144 question done
+TD535 > ␅
+TD530320 ␆*
+TD117 > *
+TD880983 try? ␅
+TD2078652 ␆1
+TD122 try? 1
+TD297 questioning: ["crone", "#2"]
+TD436 #1 ____T ~AS -CEPR  📋 "crone" ? ␅
+TD7154267 ␆__O_T ~ AST
+TD103 #1 ____T ~AS -CEPR  📋 "crone" ? __O_T ~ AST
+TD272 attempt 0 CRONE n n Y n n
+TD165 #2 CR___ ~E -APST  📋 "crone" ? ␅
+TD12888084 ␆CRO_E ~ R
+TD98 #2 CR___ ~E -APST  📋 "crone" ? CRO_E ~ R
+TD250 attempt 1 CRONE Y Y Y n Y
+TD168 #3 ___E_ ~AR -CEPST  📋 "crone" ? ␅
+TD1516641 ␆.
+TD89 #3 ___E_ ~AR -CEPST  📋 "crone" ? .
+TD269 attempt 2 CRONE n m n n n
+TD94 #4 __E__ -ACPRST  📋 "crone" ? ␅
+TD2834413 ␆__EN_ ~ E
+TD126 #4 __E__ -ACPRST  📋 "crone" ? __EN_ ~ E
+TD336 attempt 3 CRONE n n n Y m
+TD170 #5 _____ ~AES -CPRT  📋 "crone" ? ␅
+TD1199467 ␆.
+TD94 #5 _____ ~AES -CPRT  📋 "crone" ? .
+TD291 attempt 4 CRONE n n n n m
+TD354 ? ␅
+TD185360 ␆
+TD100 ? 
+TD129 question done
+TD379 > ␅
+TD650642 ␆*
+TD71 > *
+TD753246 questioning: ["stoat", "#1"]
+TD167 #1 __O_T ~AS -CENPR  📋 "stoat" ? ␅
+TD2987758 ␆/it
+TD104 #1 __O_T ~AS -CENPR  📋 "stoat" ? /it
+TD296 attempt 0 STOAT Y Y Y Y Y
+TD115 #2 CRO_E -ANPST  📋 "stoat" ? ␅
+TD5606660 ␆CRO_E ~ R
+TD126 #2 CRO_E -ANPST  📋 "stoat" ? CRO_E ~ R
+TD349 attempt 1 STOAT n n Y n n
+TD202 #3 ___E_ ~AR -CENOPST  📋 "stoat" ? ␅
+TD1311823 ␆.
+TD100 #3 ___E_ ~AR -CENOPST  📋 "stoat" ? .
+TD284 attempt 2 STOAT n n n m n
+TD99 #4 __EN_ -ACOPRST  📋 "stoat" ? ␅
+TD2777293 ␆__EN_ ~ E
+TD88 #4 __EN_ -ACOPRST  📋 "stoat" ? __EN_ ~ E
+TD237 attempt 3 STOAT n n n n n
+TD144 #5 _____ ~AES -CNOPRT  📋 "stoat" ? ␅
+TD3849503 ␆___A_ ~ ES
+TD106 #5 _____ ~AES -CNOPRT  📋 "stoat" ? ___A_ ~ ES
+TD275 attempt 4 STOAT m n n Y n
+TD387 ? ␅
+TD292450 ␆
+TD95 ? 
+TD122 question done
+TD334 > ␅
+TD503136 ␆*
+TD95 > *
+TD877783 questioning: ["crore", "#2"]
+TD180 #2 CRO_E -ANPST  📋 "crore" ? ␅
+TD6507030 ␆/it
+TD100 #2 CRO_E -ANPST  📋 "crore" ? /it
+TD318 attempt 1 CRORE Y Y Y Y Y
+TD124 #3 ___E_ ~AR -CENOPST  📋 "crore" ? ␅
+TD3566742 ␆.
+TD133 #3 ___E_ ~AR -CENOPST  📋 "crore" ? .
+TD313 attempt 2 CRORE n m n m n
+TD119 #4 __EN_ -ACOPRST  📋 "crore" ? ␅
+TD2685156 ␆__EN_ ~ E
+TD95 #4 __EN_ -ACOPRST  📋 "crore" ? __EN_ ~ E
+TD263 attempt 3 CRORE n n n n m
+TD152 #5 ___A_ ~ES -CNOPRT  📋 "crore" ? ␅
+TD2068196 ␆.
+TD116 #5 ___A_ ~ES -CNOPRT  📋 "crore" ? .
+TD344 attempt 4 CRORE n n n n m
+TD512 ? ␅
+TD149782 ␆
+TD82 ? 
+TD91 question done
+TD282 > ␅
+TD381589 ␆*
+TD113 > *
+TD1076325 questioning: ["essay", "#5"]
+TD165 #3 ___E_ ~AR -CENOPST  📋 "essay" ? ␅
+TD7246181 ␆.
+TD97 #3 ___E_ ~AR -CENOPST  📋 "essay" ? .
+TD248 attempt 2 ESSAY n n n m n
+TD97 #4 __EN_ -ACOPRST  📋 "essay" ? ␅
+TD1690010 ␆E_EN_
+TD63 #4 __EN_ -ACOPRST  📋 "essay" ? E_EN_
+TD131 attempt 3 ESSAY Y n n n n
+TD81 #5 ___A_ ~ES -CNOPRT  📋 "essay" ? ␅
+TD1125707 ␆/it
+TD86 #5 ___A_ ~ES -CNOPRT  📋 "essay" ? /it
+TD243 attempt 4 ESSAY Y Y Y Y Y
+TD369 ? ␅
+TD166644 ␆
+TD147 ? 
+TD127 question done
+TD390 > ␅
+TD430418 ␆*
+TD114 > *
+TD1327798 questioning: ["emend", "#4"]
+TD190 #3 ___E_ ~AR -CENOPSTY  📋 "emend" ? ␅
+TD5164282 ␆___ED ~ AR
+TD94 #3 ___E_ ~AR -CENOPSTY  📋 "emend" ? ___ED ~ AR
+TD264 attempt 2 EMEND n n n n Y
+TD161 #4 E_EN_ -ACOPRSTY  📋 "emend" ? ␅
+TD785675 ␆/it
+TD116 #4 E_EN_ -ACOPRSTY  📋 "emend" ? /it
+TD317 attempt 3 EMEND Y Y Y Y Y
+TD475 ? ␅
+TD256901 ␆
+TD104 ? 
+TD116 question done
+TD400 > ␅
+TD627968 ␆*
+TD119 > *
+TD994604 questioning: ["razed", "#3"]
+TD193 #3 ___ED ~AR -CEMNOPSTY  📋 "razed" ? ␅
+TD4926330 ␆/it
+TD112 #3 ___ED ~AR -CEMNOPSTY  📋 "razed" ? /it
+TD328 attempt 2 RAZED Y Y Y Y Y
+TD490 ? ␅
+TD316474 ␆
+TD51 ? 
+TD55 question done
+TD28630 📋> ␅
+TD5975344 ␆squareword.org 1599: 8 guesses
+TD86 📋> squareword.org 1599: 8 guesses
+TD14 📋> ␅
+TD77 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD26 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD20 ␆🟨🟨🟨🟩🟨
+TD6 📋> 🟨🟨🟨🟩🟨
+TD6 📋> ␅
+TD37 ␆🟨🟨🟩🟩🟨
+TD7 📋> 🟨🟨🟩🟩🟨
+TD6 📋> ␅
+TD19 ␆🟨🟨🟨🟩🟨
+TD6 📋> 🟨🟨🟨🟩🟨
+TD6 📋> ␅
+TD20 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD20 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD264666 ␆#squareword #squareword1599
+TD98 📋> #squareword #squareword1599
+TD17 📋> ␅
+TD274145 ␄
+TD158 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1599: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1599"}
+TD1198 result: "squareword.org 1599: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1599"
+TD91 📆 2026-06-18 ? ␅
+TD201650 ␆
+TD125 📆 2026-06-18 ? 
