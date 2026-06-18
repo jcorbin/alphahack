@@ -1,0 +1,104 @@
+T24651.504993222003 now: 2026-06-18T09:17:27EDT
+TD236 site: alfagok.diginaut.net
+TD411207 loaded 399537 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1315 words excluded) asof 51464318d4c05f1c15c648267d7ecc13bc878bef
+TD103  ...␅
+TD3894399 ␆
+TD74  ...
+TD194 [0 : 199764 : 399537] lijm? ␅
+TD3210738 ␆b
+TD86 [0 : 199764 : 399537] lijm? b
+TD363 progress: -1 199764 lijm
+TD127 [0 : 99704 : 199764] ex? ␅
+TD2159271 ␆b
+TD81 [0 : 99704 : 199764] ex? b
+TD115 progress: -1 99704 ex
+TD110 [0 : 49817 : 99704] boks? ␅
+TD2285692 ␆a
+TD105 [0 : 49817 : 99704] boks? a
+TD133 progress: 1 49817 boks
+TD194 [49818 : 74721 : 99704] dc? ␅
+TD1543836 ␆a
+TD117 [49818 : 74721 : 99704] dc? a
+TD144 progress: 1 74721 dc
+TD150 [74722 : 87180 : 99704] draag? ␅
+TD2276690 ␆a
+TD110 [74722 : 87180 : 99704] draag? a
+TD135 progress: 1 87180 draag
+TD153 [87181 : 93397 : 99704] eet? ␅
+TD3655366 ␆b
+TD93 [87181 : 93397 : 99704] eet? b
+TD276 progress: -1 93397 eet
+TD205 [87181 : 90030 : 93397] dubbel? ␅
+TD1653598 ␆a
+TD83 [87181 : 90030 : 93397] dubbel? a
+TD81 progress: 1 90030 dubbel
+TD88 [90031 : 91709 : 93397] dwerg? ␅
+TD2163451 ␆b
+TD129 [90031 : 91709 : 93397] dwerg? b
+TD181 progress: -1 91709 dwerg
+TD172 [90031 : 90847 : 91709] duivels? ␅
+TD1678917 ␆a
+TD93 [90031 : 90847 : 91709] duivels? a
+TD105 progress: 1 90847 duivels
+TD116 [90848 : 91266 : 91709] dus? ␅
+TD1985573 ␆a
+TD103 [90848 : 91266 : 91709] dus? a
+TD117 progress: 1 91266 dus
+TD130 [91267 : 91470 : 91709] dwang? ␅
+TD1764242 ␆b
+TD109 [91267 : 91470 : 91709] dwang? b
+TD131 progress: -1 91470 dwang
+TD165 [91267 : 91365 : 91470] duvel? ␅
+TD2199474 ␆a
+TD99 [91267 : 91365 : 91470] duvel? a
+TD126 progress: 1 91365 duvel
+TD134 [91366 : 91406 : 91470] dv? ␅
+TD2024893 ␆!
+TD130 [91366 : 91406 : 91470] dv? !
+TD1307 [91366 : 91418 : 91469] dvi? ␅
+TD3332876 ␆!
+TD181 [91366 : 91418 : 91469] dvi? !
+TD910 [91366 : 91406 : 91468] dvd? ␅
+TD3213703 ␆b
+TD97 [91366 : 91406 : 91468] dvd? b
+TD114 progress: -1 91406 dvd
+TD107 [91366 : 91375 : 91406] duw? ␅
+TD2412029 ␆a
+TD106 [91366 : 91375 : 91406] duw? a
+TD123 progress: 1 91375 duw
+TD267 [91376 : 91391 : 91406] duwstang? ␅
+TD1811038 ␆b
+TD118 [91376 : 91391 : 91406] duwstang? b
+TD164 progress: -1 91391 duwstang
+TD326 [91376 : 91383 : 91391] duweenheid? ␅
+TD1624284 ␆a
+TD92 [91376 : 91383 : 91391] duweenheid? a
+TD115 progress: 1 91383 duweenheid
+TD278 [91384 : 91385 : 91391] duwen? ␅
+TD1808482 ␆it
+TD97 [91384 : 91385 : 91391] duwen? it
+TD121 progress: 0 91385 duwen
+TD44 [91384 : 91385 : 91391] <Done>.
+TD158 📋> ␅
+TD2881247 ␆🧩 Puzzel #593
+TD94 📋> 🧩 Puzzel #593
+TD17 📋> ␅
+TD51 ␆🤔 17 gokken
+TD10 📋> 🤔 17 gokken
+TD8 📋> ␅
+TD18 ␆⏱️ 40s
+TD9 📋> ⏱️ 40s
+TD8 📋> ␅
+TD242776 ␆🔗 alfagok.diginaut.net
+TD96 📋> 🔗 alfagok.diginaut.net
+TD24 📋> ␅
+TD153162 ␄
+TD160 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #593\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 40s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD930 result: "\ud83e\udde9 Puzzel #593\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 40s\n\ud83d\udd17 alfagok.diginaut.net"
+TD39 result puzzle: 593
+TD21 result guesses: 17
+TD17 result time: 40s
+TD16 result link: alfagok.diginaut.net
+TD98 📆 2026-06-18 ? ␅
+TD180640 ␆
+TD107 📆 2026-06-18 ? 
