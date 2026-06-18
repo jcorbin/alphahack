@@ -1,0 +1,153 @@
+T25072.628653958996 now: 2026-06-18T09:24:28EDT
+TD187 site: https://www.merriam-webster.com/games/quordle/#/
+TD36 wordlist: nwl2023.txt
+TD13 num_words: 4
+TD206  ...␅
+TD356864 ␆
+TD145  ...
+TD483496 > ␅
+TD9800234 ␆*
+TD58 > *
+TD55342 ? ␅
+TD4803069 ␆4
+TD48 ? 4
+TD86 questioning: rails
+TD72 Classic #1 _____? ␅
+TD3838677 ␆nYnMn
+TD132 Classic #1 _____? nYnMn
+TD544 attempt: 0 RAILS n Y n m n
+TD153 Classic #2 _____? ␅
+TD1739738 ␆MMnMn
+TD115 Classic #2 _____? MMnMn
+TD310 attempt: 1 RAILS m m n m n
+TD129 Classic #3 _____? ␅
+TD1293216 ␆nnnMM
+TD73 Classic #3 _____? nnnMM
+TD167 attempt: 2 RAILS n n n m m
+TD85 Classic #4 _____? ␅
+TD1446132 ␆MnnnM
+TD122 Classic #4 _____? MnnnM
+TD262 attempt: 3 RAILS m n n n m
+TD529676 > ␅
+TD753885 ␆*
+TD100 > *
+TD2629 ? ␅
+TD3087170 ␆5
+TD55 ? 5
+TD106 questioning: sport
+TD111 Classic #1 _A___ ~L -IRS? ␅
+TD3159777 ␆nnnnM
+TD177 Classic #1 _A___ ~L -IRS? nnnnM
+TD377 attempt: 0 SPORT n n n n m
+TD222 Classic #2 _____ ~ALR -IS? ␅
+TD1340747 ␆nnnMn
+TD123 Classic #2 _____ ~ALR -IS? nnnMn
+TD318 attempt: 1 SPORT n n n m n
+TD177 Classic #3 _____ ~LS -AIR? ␅
+TD1530965 ␆YnnnM
+TD124 Classic #3 _____ ~LS -AIR? YnnnM
+TD285 attempt: 2 SPORT Y n n n m
+TD155 Classic #4 _____ ~RS -AIL? ␅
+TD1836405 ␆MnnMn
+TD131 Classic #4 _____ ~RS -AIL? MnnMn
+TD319 attempt: 3 SPORT m n n m n
+TD455630 > ␅
+TD1095718 ␆*
+TD125 > *
+TD479 questioning: steel
+TD154 Classic #1 _A___ ~LT -IOPRS? ␅
+TD4395790 ␆nMnnM
+TD89 Classic #1 _A___ ~LT -IOPRS? nMnnM
+TD227 attempt: 0 STEEL n m n n m
+TD129 Classic #2 _____ ~ALR -IOPST? ␅
+TD1374349 ␆nnnnY
+TD106 Classic #2 _____ ~ALR -IOPST? nnnnY
+TD253 attempt: 1 STEEL n n n n Y
+TD134 Classic #3 S____ ~LT -AIOPR? ␅
+TD1200977 ␆YYYYY
+TD109 Classic #3 S____ ~LT -AIOPR? YYYYY
+TD294 attempt: 2 STEEL Y Y Y Y Y
+TD189 Classic #4 _____ ~RS -AILOPT? ␅
+TD1539363 ␆Mnnnn
+TD122 Classic #4 _____ ~RS -AILOPT? Mnnnn
+TD324 attempt: 3 STEEL m n n n n
+TD330897 > ␅
+TD949032 ␆*
+TD109 > *
+TD864 ? ␅
+TD3192954 ␆3
+TD96 ? 3
+TD200 questioning: crawl
+TD200 Classic #1 _A___ ~LT -EIOPRS? ␅
+TD3218531 ␆MnMnM
+TD105 Classic #1 _A___ ~LT -EIOPRS? MnMnM
+TD322 attempt: 0 CRAWL m n m n m
+TD188 Classic #2 ____L ~AR -EIOPST? ␅
+TD1927857 ␆nYYYY
+TD166 Classic #2 ____L ~AR -EIOPST? nYYYY
+TD511 attempt: 1 CRAWL n Y Y Y Y
+TD279 Classic #4 _____ ~RS -AEILOPT? ␅
+TD1619562 ␆YYnnn
+TD110 Classic #4 _____ ~RS -AEILOPT? YYnnn
+TD369 attempt: 3 CRAWL Y Y n n n
+TD312446 > ␅
+TD877329 ␆*
+TD101 > *
+TD405 questioning: crush
+TD147 Classic #1 _A___ ~CLT -EIOPRSW? ␅
+TD3381823 ␆MnnnY
+TD85 Classic #1 _A___ ~CLT -EIOPRSW? MnnnY
+TD221 attempt: 0 CRUSH m n n n Y
+TD120 Classic #2 _RAWL -CEIOPST? ␅
+TD1743522 ␆nYnnn
+TD99 Classic #2 _RAWL -CEIOPST? nYnnn
+TD237 attempt: 1 CRUSH n Y n n n
+TD133 Classic #4 CR___ ~S -AEILOPTW? ␅
+TD1216480 ␆YYYYY
+TD107 Classic #4 CR___ ~S -AEILOPTW? YYYYY
+TD262 attempt: 3 CRUSH Y Y Y Y Y
+TD226090 > ␅
+TD766784 ␆*
+TD103 > *
+TD445 questioning: latch
+TD144 Classic #1 _A__H ~CLT -EIOPRSUW? ␅
+TD3386967 ␆YYYYY
+TD104 Classic #1 _A__H ~CLT -EIOPRSUW? YYYYY
+TD259 attempt: 0 LATCH Y Y Y Y Y
+TD149 Classic #2 _RAWL -CEHIOPSTU? ␅
+TD1344413 ␆MMnnn
+TD56 Classic #2 _RAWL -CEHIOPSTU? MMnnn
+TD116 attempt: 1 LATCH m m n n n
+TD107642 > ␅
+TD732546 ␆*
+TD97 > *
+TD595 ? ␅
+TD1952296 ␆1
+TD89 ? 1
+TD160 questioning: brawl
+TD164 Classic #2 _RAWL -CEHIOPSTU? ␅
+TD2822302 ␆YYYYY
+TD92 Classic #2 _RAWL -CEHIOPSTU? YYYYY
+TD217 attempt: 1 BRAWL Y Y Y Y Y
+TD108 📋> ␅
+TD5474672 ␆🙂 Daily Quordle 1606
+TD115 📋> 🙂 Daily Quordle 1606
+TD20 📋> ␅
+TD69 ␆6️⃣7️⃣
+TD14 📋> 6️⃣7️⃣
+TD11 📋> ␅
+TD24 ␆3️⃣5️⃣
+TD9 📋> 3️⃣5️⃣
+TD10 📋> ␅
+TD24 ␆m-w.com/games/quordle/
+TD11 📋> m-w.com/games/quordle/
+TD9 📋> ␅
+TD273733 ␆
+TD94 📋> 
+TD18 📋> ␅
+TD203610 ␄
+TD207 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1606\n6\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2424 result: "\ud83d\ude42 Daily Quordle 1606\n6\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD116 📆 2026-06-18 ? ␅
+TD200330 ␆
+TD100 📆 2026-06-18 ? 
