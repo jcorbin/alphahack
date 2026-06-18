@@ -1,0 +1,187 @@
+T24728.667962734 now: 2026-06-18T09:18:44EDT
+TD250 site: dontwordle.com
+TD42 wordlist: nwl2023.txt
+TD89  ...␅
+TD349254 ␆
+TD124  ...
+TD158 1> ␅
+TD6437389 ␆8
+TD83 1> 8
+TD169 1> ␅
+TD789095 ␆*
+TD116 1> *
+TD208838 ? ␅
+TD1128102 ␄
+TD121 <EOF>
+TD103 1> ␅
+TD3198916 ␆* -bot 10
+TD89 1> * -bot 10
+TD140190 ? ␅
+TD2707666 ␆4
+TD141 ? 4
+TD392 📋 "slate" ? ␅
+TD4195669 ␆MnnMM
+TD95 📋 "slate" ? MnnMM
+TD486 tried: SLATE m n n m m
+TD178 2> ␅
+TD1318418 ␆undo
+TD97 2> undo
+TD153 undo
+TD154 1> ␅
+TD4561715 ␆*
+TD107 1> *
+TD129757 ? ␅
+TD1064748 ␆1
+TD95 ? 1
+TD282 📋 "kibbi" ? ␅
+TD4101065 ␆nnnnn
+TD110 📋 "kibbi" ? nnnnn
+TD272 tried: KIBBI n n n n n
+TD276 2> ␅
+TD422109 ␆*
+TD120 2> *
+TD103424 ? ␅
+TD398812 ␆1
+TD113 ? 1
+TD219 📋 "addax" ? ␅
+TD3978362 ␆nnnnn
+TD96 📋 "addax" ? nnnnn
+TD210 tried: ADDAX n n n n n
+TD217 3> ␅
+TD517180 ␆*
+TD86 3> *
+TD93064 ? ␅
+TD885682 ␆1
+TD101 ? 1
+TD235 📋 "hooch" ? ␅
+TD6646352 ␆MMnnn
+TD100 📋 "hooch" ? MMnnn
+TD194 tried: HOOCH m m n n n
+TD214 4> ␅
+TD808271 ␆undo
+TD99 4> undo
+TD147 undo
+TD273 3> ␅
+TD3912846 ␆*
+TD117 3> *
+TD105891 ? ␅
+TD944409 ␆1
+TD93 ? 1
+TD231 📋 "cuppy" ? ␅
+TD3986565 ␆nnnnn
+TD101 📋 "cuppy" ? nnnnn
+TD232 tried: CUPPY n n n n n
+TD212 4> ␅
+TD493020 ␆*
+TD110 4> *
+TD101929 📋 "grrrl" ? ␅
+TD4828704 ␆nnnnn
+TD94 📋 "grrrl" ? nnnnn
+TD178 tried: GRRRL n n n n n
+TD196 5> ␅
+TD1634965 ␆*
+TD97 5> *
+TD191954 📋 "jomon" ? ␅
+TD10156718 ␆nnnYn
+TD111 📋 "jomon" ? nnnYn
+TD209 tried: JOMON n n n Y n
+TD245 6> ␅
+TD580416 ␆*
+TD92 6> *
+TD188322 📋 "whoof" ? ␅
+TD4664514 ␄
+TD119 <EOF>
+TD197 6> ␅
+TD1952010 ␆* -sans
+TD119 6> * -sans
+TD94582 ? ␅
+TD14806848 ␄
+TD174 <EOF>
+TD219 6> ␅
+TD835315 ␆undo
+TD149 6> undo
+TD243 undo
+TD1225 5> ␅
+TD3310864 ␆*
+TD42 5> *
+TD188946 📋 "jomon" ? ␅
+TD490535 ␄
+TD169 <EOF>
+TD263 5> ␅
+TD8465659 ␆* :v [...o.]
+TD160 5> * :v [...o.]
+TD95293 5> ␅
+TD4646508 ␆* -sans
+TD74 5> * -sans
+TD98133 ? ␅
+TD3543008 ␆2
+TD96 ? 2
+TD235 📋 "tests" ? ␅
+TD6573859 ␆MMnnY
+TD100 📋 "tests" ? MMnnY
+TD227 tried: TESTS m m n n Y
+TD268 6> ␅
+TD542239 ␆*
+TD126 6> *
+TD200511 ? ␅
+TD1592452 ␆2
+TD101 ? 2
+TD236 📋 "stews" ? ␅
+TD9968531 ␄
+TD121 <EOF>
+TD160 6> ␅
+TD1533894 ␆* -sans
+TD95 6> * -sans
+TD101933 ? ␅
+TD3600569 ␆4
+TD110 ? 4
+TD240 📋 "notes" ? ␅
+TD4949379 ␆nMMMY
+TD186 📋 "notes" ? nMMMY
+TD376 tried: NOTES n m m m Y
+TD428 📋> ␅
+TD2946483 ␆Don't Wordle 1486 - SURVIVED
+TD95 📋> Don't Wordle 1486 - SURVIVED
+TD17 📋> ␅
+TD53 ␆Hooray! I didn't Wordle today!
+TD18 📋> Hooray! I didn't Wordle today!
+TD10 📋> ␅
+TD26 ␆⬜⬜⬜⬜⬜7266
+TD13 📋> ⬜⬜⬜⬜⬜7266
+TD8 📋> ␅
+TD21 ␆⬜⬜⬜⬜⬜2993
+TD14 📋> ⬜⬜⬜⬜⬜2993
+TD9 📋> ␅
+TD19 ␆⬜⬜⬜⬜⬜1048
+TD14 📋> ⬜⬜⬜⬜⬜1048
+TD8 📋> ␅
+TD18 ␆⬜⬜⬜⬜⬜330
+TD14 📋> ⬜⬜⬜⬜⬜330
+TD8 📋> ␅
+TD19 ␆🟨🟨⬜⬜🟩5
+TD12 📋> 🟨🟨⬜⬜🟩5
+TD8 📋> ␅
+TD20 ␆⬜🟨🟨🟨🟩1
+TD10 📋> ⬜🟨🟨🟨🟩1
+TD8 📋> ␅
+TD19 ␆Undos used: 3
+TD11 📋> Undos used: 3
+TD8 📋> ␅
+TD18 ␆
+TD11 📋> 
+TD8 📋> ␅
+TD18 ␆  1 words remaining
+TD10 📋>   1 words remaining
+TD8 📋> ␅
+TD17 ␆x 8 unused letters
+TD10 📋> x 8 unused letters
+TD7 📋> ␅
+TD255930 ␆= 8 total score
+TD107 📋> = 8 total score
+TD15 📋> ␅
+TD237321 ␄
+TD150 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1486 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7266\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2993\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1048\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c330\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe95\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"}
+TD1655 result: "Don't Wordle 1486 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7266\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2993\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1048\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c330\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe95\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 8 unused letters\n= 8 total score"
+TD95 📆 2026-06-18 ? ␅
+TD194702 ␆
+TD86 📆 2026-06-18 ? 
