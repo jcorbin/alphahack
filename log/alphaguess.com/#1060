@@ -1,0 +1,60 @@
+T24703.508361504002 now: 2026-06-18T09:18:19EDT
+TD165 site: alphaguess.com
+TD148890 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 51464318d4c05f1c15c648267d7ecc13bc878bef
+TD105  ...␅
+TD25715 ␆
+TD68  ...
+TD142 [0 : 98214 : 196520] mach? ␅
+TD783619 ␆
+TD97 [0 : 98214 : 196520] mach? 
+TD114 [0 : 98214 : 196520] mach? ␅
+TD6423201 ␆
+TD115 [0 : 98214 : 196520] mach? 
+TD197 [0 : 98214 : 196520] mach? ␅
+TD2563818 ␆a
+TD88 [0 : 98214 : 196520] mach? a
+TD100 progress: 1 98214 mach
+TD289 [98215 : 147364 : 196520] rhotic? ␅
+TD1612566 ␆a
+TD99 [98215 : 147364 : 196520] rhotic? a
+TD109 progress: 1 147364 rhotic
+TD113 [147365 : 171634 : 196520] ta? ␅
+TD1561413 ␆b
+TD94 [147365 : 171634 : 196520] ta? b
+TD109 progress: -1 171634 ta
+TD108 [147365 : 159481 : 171634] slop? ␅
+TD1767902 ␆b
+TD149 [147365 : 159481 : 171634] slop? b
+TD142 progress: -1 159481 slop
+TD174 [147365 : 153313 : 159481] sea? ␅
+TD1530580 ␆a
+TD107 [147365 : 153313 : 159481] sea? a
+TD113 progress: 1 153313 sea
+TD126 [153314 : 156349 : 159481] ship? ␅
+TD3254104 ␆it
+TD101 [153314 : 156349 : 159481] ship? it
+TD116 progress: 0 156349 ship
+TD34 [153314 : 156349 : 159481] <Done>.
+TD106 📋> ␅
+TD3362166 ␆🧩 Puzzle #1060
+TD79 📋> 🧩 Puzzle #1060
+TD14 📋> ␅
+TD41 ␆🤔 6 guesses
+TD8 📋> 🤔 6 guesses
+TD7 📋> ␅
+TD14 ␆⏱️ 8s
+TD7 📋> ⏱️ 8s
+TD6 📋> ␅
+TD232657 ␆🔗 alphaguess.com/1060
+TD91 📋> 🔗 alphaguess.com/1060
+TD17 📋> ␅
+TD156743 ␄
+TD149 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1060\n\ud83e\udd14 6 guesses\n\u23f1\ufe0f 8s\n\ud83d\udd17 alphaguess.com/1060"}
+TD92 result: "\ud83e\udde9 Puzzle #1060\n\ud83e\udd14 6 guesses\n\u23f1\ufe0f 8s\n\ud83d\udd17 alphaguess.com/1060"
+TD18 result puzzle: 1060
+TD9 result guesses: 6
+TD8 result time: 8s
+TD7 result link: alphaguess.com/1060
+TD78 📆 2026-06-18 ? ␅
+TD156143 ␆
+TD83 📆 2026-06-18 ? 
