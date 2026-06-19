@@ -1,0 +1,245 @@
+T33021.612202725 now: 2026-06-19T10:46:29EDT
+TD133 site: squareword.org
+TD36 wordlist: nwl2023.txt
+TD63  ...␅
+TD845453 ␆
+TD66  ...
+TD47 🧩  ? ␅
+TD4487682 ␆
+TD107 🧩  ? 
+TD188  ...␅
+TD1078168 ␆
+TD82  ...
+TD53 🧩  ? ␅
+TD2252698 ␆#1600
+TD111 🧩  ? #1600
+TD313 puzzle_id: #1600
+TD331 > ␅
+TD1313187 ␆*
+TD91 > *
+TD117619 try? ␅
+TD3810118 ␆5
+TD94 try? 5
+TD272 questioning: ["tears", "#5"]
+TD322 #1 <IndexError>  📋 "tears" ? ␅
+TD7233222 ␆__ARS ~ S
+TD160 #1 <IndexError>  📋 "tears" ? __ARS ~ S
+TD1163 attempt 0 TEARS n n Y Y Y
+TD160 #2 <IndexError>  📋 "tears" ? ␅
+TD2629091 ␆_____ ~ AR
+TD109 #2 <IndexError>  📋 "tears" ? _____ ~ AR
+TD341 attempt 1 TEARS n n m m n
+TD139 #3 <IndexError>  📋 "tears" ? ␅
+TD2903146 ␆_____ ~ A
+TD92 #3 <IndexError>  📋 "tears" ? _____ ~ A
+TD247 attempt 2 TEARS n n m n n
+TD140 #4 <IndexError>  📋 "tears" ? ␅
+TD4873109 ␆_E___ ~ TERS
+TD110 #4 <IndexError>  📋 "tears" ? _E___ ~ TERS
+TD288 attempt 3 TEARS m Y n m m
+TD127 #5 <IndexError>  📋 "tears" ? ␅
+TD9213150 ␆_____ ~ ERS
+TD123 #5 <IndexError>  📋 "tears" ? _____ ~ ERS
+TD311 attempt 4 TEARS n m n m m
+TD388 ? ␅
+TD1384775 ␆
+TD57 ? 
+TD78 question done
+TD148 > ␅
+TD1374635 ␆*
+TD93 > *
+TD3322096 try? ␅
+TD8532624 ␆1
+TD98 try? 1
+TD297 questioning: ["resit", "#4"]
+TD379 #1 __ARS -ET  📋 "resit" ? ␅
+TD6385867 ␆__ARS ~ S
+TD91 #1 __ARS -ET  📋 "resit" ? __ARS ~ S
+TD266 attempt 0 RESIT n n m n n
+TD144 #2 _____ ~AR -EST  📋 "resit" ? ␅
+TD1251973 ␆.
+TD99 #2 _____ ~AR -EST  📋 "resit" ? .
+TD293 attempt 1 RESIT m n n n n
+TD104 #3 _____ ~A -ERST  📋 "resit" ? ␅
+TD2123518 ␆_____ ~ AI
+TD136 #3 _____ ~A -ERST  📋 "resit" ? _____ ~ AI
+TD366 attempt 2 RESIT n n n m n
+TD192 #4 _E___ ~RST -A  📋 "resit" ? ␅
+TD4362082 ␆RES_T ~ E
+TD104 #4 _E___ ~RST -A  📋 "resit" ? RES_T ~ E
+TD267 attempt 3 RESIT Y Y Y n Y
+TD157 #5 _____ ~ERS -AT  📋 "resit" ? ␅
+TD2021776 ␆.
+TD114 #5 _____ ~ERS -AT  📋 "resit" ? .
+TD313 attempt 4 RESIT m m m n n
+TD394 ? ␅
+TD157895 ␆
+TD118 ? 
+TD117 question done
+TD355 > ␅
+TD601155 ␆*
+TD108 > *
+TD3511570 questioning: ["reset", "#4"]
+TD184 #1 __ARS -EIRT  📋 "reset" ? ␅
+TD5622357 ␆__ARS ~ S
+TD63 #1 __ARS -EIRT  📋 "reset" ? __ARS ~ S
+TD6978 attempt 0 RESET n n m n n
+TD96 #2 _____ ~AR -EIST  📋 "reset" ? ␅
+TD732605 ␆.
+TD156 #2 _____ ~AR -EIST  📋 "reset" ? .
+TD405 attempt 1 RESET m n n n n
+TD148 #3 _____ ~AI -ERST  📋 "reset" ? ␅
+TD776505 ␆.
+TD117 #3 _____ ~AI -ERST  📋 "reset" ? .
+TD303 attempt 2 RESET n n n n n
+TD120 #4 RES_T -AI  📋 "reset" ? ␅
+TD929665 ␆/it
+TD131 #4 RES_T -AI  📋 "reset" ? /it
+TD371 attempt 3 RESET Y Y Y Y Y
+TD154 #5 _____ ~ERS -AIT  📋 "reset" ? ␅
+TD621301 ␆.
+TD138 #5 _____ ~ERS -AIT  📋 "reset" ? .
+TD366 attempt 4 RESET m m m m n
+TD527 ? ␅
+TD146521 ␆
+TD94 ? 
+TD107 question done
+TD385 > ␅
+TD371622 ␆*
+TD117 > *
+TD2949344 try? ␅
+TD1530284 ␆1
+TD83 try? 1
+TD275 questioning: ["prose", "#5"]
+TD363 #1 __ARS -EIRT  📋 "prose" ? ␅
+TD7121093 ␆__ARS ~ S
+TD75 #1 __ARS -EIRT  📋 "prose" ? __ARS ~ S
+TD192 attempt 0 PROSE n n n m n
+TD109 #2 _____ ~AR -EIST  📋 "prose" ? ␅
+TD2908330 ␆_____ ~ ARO
+TD110 #2 _____ ~AR -EIST  📋 "prose" ? _____ ~ ARO
+TD315 attempt 1 PROSE n m m n n
+TD182 #3 _____ ~AI -ERST  📋 "prose" ? ␅
+TD2275484 ␆_____ ~ AIO
+TD100 #3 _____ ~AI -ERST  📋 "prose" ? _____ ~ AIO
+TD265 attempt 2 PROSE n n m n n
+TD149 #5 _____ ~ERS -AIT  📋 "prose" ? ␅
+TD2409517 ␆_R_S_ ~ E
+TD102 #5 _____ ~ERS -AIT  📋 "prose" ? _R_S_ ~ E
+TD278 attempt 4 PROSE n Y n Y m
+TD435 ? ␅
+TD323887 ␆
+TD102 ? 
+TD140 question done
+TD350 > ␅
+TD1097561 ␆*
+TD99 > *
+TD2942412 questioning: ["fresh", "#5"]
+TD186 #1 __ARS -EIOPRT  📋 "fresh" ? ␅
+TD5762949 ␆__ARS ~ S
+TD104 #1 __ARS -EIOPRT  📋 "fresh" ? __ARS ~ S
+TD311 attempt 0 FRESH n n n m n
+TD178 #2 _____ ~AOR -EIPST  📋 "fresh" ? ␅
+TD1260794 ␆.
+TD93 #2 _____ ~AOR -EIPST  📋 "fresh" ? .
+TD272 attempt 1 FRESH n m n n n
+TD108 #3 _____ ~AIO -EPRST  📋 "fresh" ? ␅
+TD682054 ␆.
+TD98 #3 _____ ~AIO -EPRST  📋 "fresh" ? .
+TD368 attempt 2 FRESH n n n n n
+TD141 #5 _R_S_ ~E -AIOPT  📋 "fresh" ? ␅
+TD773196 ␆/it
+TD88 #5 _R_S_ ~E -AIOPT  📋 "fresh" ? /it
+TD244 attempt 4 FRESH Y Y Y Y Y
+TD402 ? ␅
+TD185284 ␆
+TD84 ? 
+TD102 question done
+TD391 > ␅
+TD504152 ␆*
+TD171 > *
+TD2354221 questioning: ["scars", "#1"]
+TD188 #1 __ARS -EFHIOPRT  📋 "scars" ? ␅
+TD3013996 ␆/it
+TD193 #1 __ARS -EFHIOPRT  📋 "scars" ? /it
+TD359 attempt 0 SCARS Y Y Y Y Y
+TD151 #2 _____ ~AOR -EFHIPST  📋 "scars" ? ␅
+TD3864068 ␆_____ ~ AROC
+TD174 #2 _____ ~AOR -EFHIPST  📋 "scars" ? _____ ~ AROC
+TD451 attempt 1 SCARS n m m m n
+TD254 #3 _____ ~AIO -EFHPRST  📋 "scars" ? ␅
+TD1564959 ␆.
+TD113 #3 _____ ~AIO -EFHPRST  📋 "scars" ? .
+TD302 attempt 2 SCARS n n m n n
+TD444 ? ␅
+TD175014 ␆
+TD104 ? 
+TD116 question done
+TD413 > ␅
+TD481214 ␆*
+TD67 > *
+TD1837150 try? ␅
+TD4933543 ␆3
+TD117 try? 3
+TD287 questioning: ["coral", "#2"]
+TD420 #2 _____ ~ACOR -EFHIPST  📋 "coral" ? ␅
+TD3502865 ␆/it
+TD54 #2 _____ ~ACOR -EFHIPST  📋 "coral" ? /it
+TD115 attempt 1 CORAL Y Y Y Y Y
+TD42 #3 _____ ~AIO -CEFHPRST  📋 "coral" ? ␅
+TD1421189 ␆.
+TD114 #3 _____ ~AIO -CEFHPRST  📋 "coral" ? .
+TD345 attempt 2 CORAL n m n m n
+TD519 ? ␅
+TD221237 ␆
+TD115 ? 
+TD131 question done
+TD532 > ␅
+TD492336 ␆*
+TD104 > *
+TD1201047 questioning: ["amigo", "#3"]
+TD181 #3 _____ ~AIO -CEFHLPRST  📋 "amigo" ? ␅
+TD2868314 ␆/it
+TD96 #3 _____ ~AIO -CEFHLPRST  📋 "amigo" ? /it
+TD252 attempt 2 AMIGO Y Y Y Y Y
+TD345 ? ␅
+TD2042656 ␆
+TD140 ? 
+TD149 question done
+TD34539 📋> ␅
+TD4752936 ␆squareword.org 1600: 8 guesses
+TD72 📋> squareword.org 1600: 8 guesses
+TD11 📋> ␅
+TD60 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD20 ␆🟨🟨🟩🟩🟩
+TD6 📋> 🟨🟨🟩🟩🟩
+TD5 📋> ␅
+TD20 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD18 ␆🟨🟨🟨🟨🟨
+TD6 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD21 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD16 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD19 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD243857 ␆#squareword #squareword1600
+TD100 📋> #squareword #squareword1600
+TD18 📋> ␅
+TD181580 ␄
+TD165 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1600: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1600"}
+TD1314 result: "squareword.org 1600: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1600"
+TD97 📆 2026-06-19 ? ␅
+TD210693 ␆
+TD104 📆 2026-06-19 ? 
