@@ -1,0 +1,82 @@
+T31857.118991350006 now: 2026-06-19T10:27:04EDT
+TD93 site: alphaguess.com
+TD148648 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof fb793f3d03d7814beb0fad9e6ab7a65818a81a1a
+TD109  ...␅
+TD6145139 ␆
+TD59  ...
+TD102 [0 : 98214 : 196520] mach? ␅
+TD3362683 ␆a
+TD69 [0 : 98214 : 196520] mach? a
+TD77 progress: 1 98214 mach
+TD180 [98215 : 147364 : 196520] rhotic? ␅
+TD1739661 ␆a
+TD140 [98215 : 147364 : 196520] rhotic? a
+TD165 progress: 1 147364 rhotic
+TD174 [147365 : 171634 : 196520] ta? ␅
+TD1624630 ␆b
+TD96 [147365 : 171634 : 196520] ta? b
+TD92 progress: -1 171634 ta
+TD92 [147365 : 159481 : 171634] slop? ␅
+TD1548229 ␆b
+TD109 [147365 : 159481 : 171634] slop? b
+TD119 progress: -1 159481 slop
+TD124 [147365 : 153313 : 159481] sea? ␅
+TD1462943 ␆a
+TD53 [147365 : 153313 : 159481] sea? a
+TD54 progress: 1 153313 sea
+TD59 [153314 : 156349 : 159481] ship? ␅
+TD1622964 ␆b
+TD58 [153314 : 156349 : 159481] ship? b
+TD59 progress: -1 156349 ship
+TD145 [153314 : 154828 : 156349] sequence? ␅
+TD1395912 ␆a
+TD110 [153314 : 154828 : 156349] sequence? a
+TD111 progress: 1 154828 sequence
+TD111 [154829 : 155427 : 156349] sha? ␅
+TD3652038 ␆a
+TD92 [154829 : 155427 : 156349] sha? a
+TD49 progress: 1 155427 sha
+TD49 [155428 : 155879 : 156349] shaw? ␅
+TD1931404 ␆b
+TD44 [155428 : 155879 : 156349] shaw? b
+TD51 progress: -1 155879 shaw
+TD56 [155428 : 155647 : 155879] shame? ␅
+TD1935271 ␆b
+TD65 [155428 : 155647 : 155879] shame? b
+TD66 progress: -1 155647 shame
+TD67 [155428 : 155524 : 155647] shag? ␅
+TD1907945 ␆b
+TD107 [155428 : 155524 : 155647] shag? b
+TD128 progress: -1 155524 shag
+TD138 [155428 : 155455 : 155524] shad? ␅
+TD1388446 ␆a
+TD68 [155428 : 155455 : 155524] shad? a
+TD64 progress: 1 155455 shad
+TD83 [155456 : 155488 : 155524] shadow? ␅
+TD3699867 ␆it
+TD100 [155456 : 155488 : 155524] shadow? it
+TD119 progress: 0 155488 shadow
+TD45 [155456 : 155488 : 155524] <Done>.
+TD119 📋> ␅
+TD11277260 ␆🧩 Puzzle #1061
+TD85 📋> 🧩 Puzzle #1061
+TD22 📋> ␅
+TD53 ␆🤔 13 guesses
+TD19 📋> 🤔 13 guesses
+TD16 📋> ␅
+TD34 ␆⏱️ 23s
+TD17 📋> ⏱️ 23s
+TD15 📋> ␅
+TD311104 ␆🔗 alphaguess.com/1061
+TD57 📋> 🔗 alphaguess.com/1061
+TD14 📋> ␅
+TD192026 ␄
+TD213 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1061\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/1061"}
+TD99 result: "\ud83e\udde9 Puzzle #1061\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/1061"
+TD18 result puzzle: 1061
+TD9 result guesses: 13
+TD7 result time: 23s
+TD6 result link: alphaguess.com/1061
+TD84 📆 2026-06-19 ? ␅
+TD332943 ␆
+TD115 📆 2026-06-19 ? 
