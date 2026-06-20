@@ -1,0 +1,82 @@
+T59.13179736099846 now: 2026-06-20T08:33:25EDT
+TD163 site: alphaguess.com
+TD152884 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 4fe58122969134cf4a6f8e0e6016b6713e330a5f
+TD114  ...␅
+TD1480256 ␆
+TD106  ...
+TD170 [0 : 98214 : 196520] mach? ␅
+TD4865027 ␆a
+TD101 [0 : 98214 : 196520] mach? a
+TD122 progress: 1 98214 mach
+TD335 [98215 : 147364 : 196520] rhotic? ␅
+TD1464146 ␆a
+TD121 [98215 : 147364 : 196520] rhotic? a
+TD110 progress: 1 147364 rhotic
+TD110 [147365 : 171634 : 196520] ta? ␅
+TD1605649 ␆b
+TD118 [147365 : 171634 : 196520] ta? b
+TD129 progress: -1 171634 ta
+TD131 [147365 : 159481 : 171634] slop? ␅
+TD1381929 ␆a
+TD174 [147365 : 159481 : 171634] slop? a
+TD199 progress: 1 159481 slop
+TD206 [159482 : 165523 : 171634] stick? ␅
+TD1390452 ␆a
+TD70 [159482 : 165523 : 171634] stick? a
+TD76 progress: 1 165523 stick
+TD78 [165524 : 168575 : 171634] sue? ␅
+TD1808443 ␆a
+TD178 [165524 : 168575 : 171634] sue? a
+TD181 progress: 1 168575 sue
+TD190 [168576 : 170082 : 171634] surf? ␅
+TD1403308 ␆a
+TD100 [168576 : 170082 : 171634] surf? a
+TD149 progress: 1 170082 surf
+TD347 [170083 : 170855 : 171634] switch? ␅
+TD1685381 ␆b
+TD77 [170083 : 170855 : 171634] switch? b
+TD90 progress: -1 170855 switch
+TD103 [170083 : 170466 : 170855] swamp? ␅
+TD1535800 ␆a
+TD99 [170083 : 170466 : 170855] swamp? a
+TD120 progress: 1 170466 swamp
+TD107 [170467 : 170653 : 170855] sweet? ␅
+TD3008753 ␆b
+TD137 [170467 : 170653 : 170855] sweet? b
+TD119 progress: -1 170653 sweet
+TD119 [170467 : 170551 : 170653] swash? ␅
+TD1580111 ␆a
+TD102 [170467 : 170551 : 170653] swash? a
+TD118 progress: 1 170551 swash
+TD301 [170552 : 170595 : 170653] swear? ␅
+TD1367808 ␆a
+TD104 [170552 : 170595 : 170653] swear? a
+TD117 progress: 1 170595 swear
+TD132 [170596 : 170603 : 170653] sweat? ␅
+TD2665550 ␆it
+TD93 [170596 : 170603 : 170653] sweat? it
+TD106 progress: 0 170603 sweat
+TD29 [170596 : 170603 : 170653] <Done>.
+TD112 📋> ␅
+TD3375052 ␆🧩 Puzzle #1062
+TD80 📋> 🧩 Puzzle #1062
+TD13 📋> ␅
+TD45 ␆🤔 13 guesses
+TD8 📋> 🤔 13 guesses
+TD7 📋> ␅
+TD15 ␆⏱️ 20s
+TD7 📋> ⏱️ 20s
+TD6 📋> ␅
+TD241354 ␆🔗 alphaguess.com/1062
+TD88 📋> 🔗 alphaguess.com/1062
+TD16 📋> ␅
+TD239802 ␄
+TD140 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1062\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1062"}
+TD88 result: "\ud83e\udde9 Puzzle #1062\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1062"
+TD17 result puzzle: 1062
+TD9 result guesses: 13
+TD7 result time: 20s
+TD6 result link: alphaguess.com/1062
+TD77 📆 2026-06-20 ? ␅
+TD246510 ␆
+TD142 📆 2026-06-20 ? 
