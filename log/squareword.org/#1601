@@ -1,0 +1,242 @@
+T2538.789950241 now: 2026-06-20T09:25:03EDT
+TD256 site: squareword.org
+TD67 wordlist: nwl2023.txt
+TD91  ...␅
+TD682077 ␆
+TD93  ...
+TD73 🧩  ? ␅
+TD5314453 ␆#1601
+TD103 🧩  ? #1601
+TD290 puzzle_id: #1601
+TD361 > ␅
+TD531303 ␆
+TD137 > 
+TD603 > ␅
+TD612127 ␆*
+TD91 > *
+TD230984 try? ␅
+TD555743 ␆1
+TD113 try? 1
+TD296 questioning: ["laser", "#5"]
+TD361 #1 <IndexError>  📋 "laser" ? ␅
+TD3690988 ␆_____ ~ LAS
+TD112 #1 <IndexError>  📋 "laser" ? _____ ~ LAS
+TD1237 attempt 0 LASER m m m n n
+TD198 #2 <IndexError>  📋 "laser" ? ␅
+TD1926793 ␆_____ ~ R
+TD106 #2 <IndexError>  📋 "laser" ? _____ ~ R
+TD287 attempt 1 LASER n n n n m
+TD140 #3 <IndexError>  📋 "laser" ? ␅
+TD1988704 ␆_____ ~ R
+TD96 #3 <IndexError>  📋 "laser" ? _____ ~ R
+TD244 attempt 2 LASER n n n n m
+TD116 #4 <IndexError>  📋 "laser" ? ␅
+TD2217681 ␆___ER ~ E
+TD190 #4 <IndexError>  📋 "laser" ? ___ER ~ E
+TD606 attempt 3 LASER n n n Y Y
+TD322 #5 <IndexError>  📋 "laser" ? ␅
+TD2528822 ␆_____ ~ ASE
+TD101 #5 <IndexError>  📋 "laser" ? _____ ~ ASE
+TD302 attempt 4 LASER n m m m n
+TD565 ? ␅
+TD483390 ␆
+TD131 ? 
+TD224 question done
+TD573 > ␅
+TD730562 ␆*
+TD177 > *
+TD694291 try? ␅
+TD791454 ␆1
+TD88 try? 1
+TD299 questioning: ["coals", "#1"]
+TD362 #1 _____ ~ALS -ER  📋 "coals" ? ␅
+TD6059828 ␆__ALS ~ O
+TD105 #1 _____ ~ALS -ER  📋 "coals" ? __ALS ~ O
+TD334 attempt 0 COALS n m Y Y Y
+TD193 #2 _____ ~R -AELS  📋 "coals" ? ␅
+TD2427270 ␆C____ ~ RO
+TD117 #2 _____ ~R -AELS  📋 "coals" ? C____ ~ RO
+TD391 attempt 1 COALS Y m n n n
+TD221 #3 _____ ~R -AELS  📋 "coals" ? ␅
+TD2960109 ␆_____ ~ RO
+TD76 #3 _____ ~R -AELS  📋 "coals" ? _____ ~ RO
+TD170 attempt 2 COALS n m n n n
+TD109 #4 ___ER -ALS  📋 "coals" ? ␅
+TD4178709 ␆___ER ~ E
+TD111 #4 ___ER -ALS  📋 "coals" ? ___ER ~ E
+TD319 attempt 3 COALS n n n n n
+TD528 #5 _____ ~AES -LR  📋 "coals" ? ␅
+TD2939327 ␆__A__ ~ SE
+TD91 #5 _____ ~AES -LR  📋 "coals" ? __A__ ~ SE
+TD286 attempt 4 COALS n n Y n m
+TD371 ? ␅
+TD324358 ␆
+TD119 ? 
+TD148 question done
+TD364 > ␅
+TD561341 ␆*
+TD110 > *
+TD840700 try? ␅
+TD2199055 ␆1
+TD114 try? 1
+TD383 questioning: ["opals", "#1"]
+TD504 #1 __ALS ~O -CER  📋 "opals" ? ␅
+TD2329409 ␆/it
+TD136 #1 __ALS ~O -CER  📋 "opals" ? /it
+TD354 attempt 0 OPALS Y Y Y Y Y
+TD138 #2 C____ ~OR -AELS  📋 "opals" ? ␅
+TD1233341 ␆.
+TD81 #2 C____ ~OR -AELS  📋 "opals" ? .
+TD245 attempt 1 OPALS m n n n n
+TD93 #3 _____ ~OR -ACELS  📋 "opals" ? ␅
+TD1080562 ␆.
+TD122 #3 _____ ~OR -ACELS  📋 "opals" ? .
+TD379 attempt 2 OPALS m n n n n
+TD139 #4 ___ER -ACLOS  📋 "opals" ? ␅
+TD3515021 ␆___ER ~ E
+TD58 #4 ___ER -ACLOS  📋 "opals" ? ___ER ~ E
+TD150 attempt 3 OPALS n n n n n
+TD95 #5 __A__ ~ES -CLOR  📋 "opals" ? ␅
+TD1589252 ␆.
+TD107 #5 __A__ ~ES -CLOR  📋 "opals" ? .
+TD322 attempt 4 OPALS n n Y n m
+TD414 ? ␅
+TD182180 ␆
+TD150 ? 
+TD161 question done
+TD571 > ␅
+TD447970 ␆*
+TD89 > *
+TD590895 try? ␅
+TD2899203 ␆1
+TD102 try? 1
+TD288 questioning: ["curio", "#2"]
+TD439 #2 C____ ~OR -AELPS  📋 "curio" ? ␅
+TD4324447 ␆.
+TD68 #2 C____ ~OR -AELPS  📋 "curio" ? .
+TD186 attempt 1 CURIO Y n m n m
+TD77 #3 _____ ~OR -ACELPS  📋 "curio" ? ␅
+TD4165304 ␆_UR_O
+TD99 #3 _____ ~OR -ACELPS  📋 "curio" ? _UR_O
+TD255 attempt 2 CURIO n Y Y n Y
+TD145 #4 ___ER -ACLOPS  📋 "curio" ? ␅
+TD3333407 ␆___ER ~ E
+TD102 #4 ___ER -ACLOPS  📋 "curio" ? ___ER ~ E
+TD266 attempt 3 CURIO n n n n n
+TD161 #5 __A__ ~ES -CLOPR  📋 "curio" ? ␅
+TD943726 ␆.
+TD100 #5 __A__ ~ES -CLOPR  📋 "curio" ? .
+TD291 attempt 4 CURIO n n n n n
+TD386 ? ␅
+TD180715 ␆
+TD120 ? 
+TD111 question done
+TD378 > ␅
+TD458408 ␆*
+TD124 > *
+TD1508763 questioning: ["turbo", "#3"]
+TD182 #2 C____ ~OR -AEILPSU  📋 "turbo" ? ␅
+TD4570816 ␆.
+TD51 #2 C____ ~OR -AEILPSU  📋 "turbo" ? .
+TD152 attempt 1 TURBO n n m n m
+TD46 #3 _UR_O -ACEILPS  📋 "turbo" ? ␅
+TD862233 ␆/it
+TD95 #3 _UR_O -ACEILPS  📋 "turbo" ? /it
+TD254 attempt 2 TURBO Y Y Y Y Y
+TD101 #4 ___ER -ACILOPRSU  📋 "turbo" ? ␅
+TD2683811 ␆___ER ~ ET
+TD120 #4 ___ER -ACILOPRSU  📋 "turbo" ? ___ER ~ ET
+TD377 attempt 3 TURBO m n n n n
+TD201 #5 __A__ ~ES -CILOPRU  📋 "turbo" ? ␅
+TD3893351 ␆T_A__ ~ SE
+TD87 #5 __A__ ~ES -CILOPRU  📋 "turbo" ? T_A__ ~ SE
+TD296 attempt 4 TURBO Y n n n n
+TD427 ? ␅
+TD586864 ␆
+TD97 ? 
+TD120 question done
+TD354 > ␅
+TD676190 ␆*
+TD92 > *
+TD1762803 questioning: ["enter", "#4"]
+TD182 #2 C____ ~OR -ABEILPSTU  📋 "enter" ? ␅
+TD6495208 ␆C____ ~ RON
+TD94 #2 C____ ~OR -ABEILPSTU  📋 "enter" ? C____ ~ RON
+TD243 attempt 1 ENTER n m n n m
+TD151 #4 ___ER ~T -ABCILOPRSU  📋 "enter" ? ␅
+TD1188231 ␆/it
+TD129 #4 ___ER ~T -ABCILOPRSU  📋 "enter" ? /it
+TD342 attempt 3 ENTER Y Y Y Y Y
+TD142 #5 T_A__ ~ES -BCILOPRU  📋 "enter" ? ␅
+TD4070326 ␆.
+TD79 #5 T_A__ ~ES -BCILOPRU  📋 "enter" ? .
+TD219 attempt 4 ENTER m n n m n
+TD307 ? ␅
+TD204988 ␆
+TD89 ? 
+TD102 question done
+TD349 > ␅
+TD465648 ␆*
+TD94 > *
+TD1550276 questioning: ["croon", "#2"]
+TD178 #2 C____ ~NOR -ABEILPSTU  📋 "croon" ? ␅
+TD3040824 ␆/it
+TD113 #2 C____ ~NOR -ABEILPSTU  📋 "croon" ? /it
+TD289 attempt 1 CROON Y Y Y Y Y
+TD135 #5 T_A__ ~ES -BCILNOPRTU  📋 "croon" ? ␅
+TD7716054 ␆.
+TD122 #5 T_A__ ~ES -BCILNOPRTU  📋 "croon" ? .
+TD493 attempt 4 CROON n n n n n
+TD445 ? ␅
+TD568416 ␆
+TD175 ? 
+TD216 question done
+TD744 > ␅
+TD1030999 ␆*
+TD84 > *
+TD1055333 questioning: ["tease", "#5"]
+TD178 #5 T_A__ ~ES -BCILNOPRTU  📋 "tease" ? ␅
+TD3347231 ␆/it
+TD115 #5 T_A__ ~ES -BCILNOPRTU  📋 "tease" ? /it
+TD316 attempt 4 TEASE Y Y Y Y Y
+TD791 ? ␅
+TD444821 ␆
+TD107 ? 
+TD116 question done
+TD33204 📋> ␅
+TD5652454 ␆squareword.org 1601: 8 guesses
+TD92 📋> squareword.org 1601: 8 guesses
+TD15 📋> ␅
+TD79 ␆
+TD9 📋> 
+TD7 📋> ␅
+TD27 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD22 ␆🟩🟨🟨🟨🟨
+TD7 📋> 🟩🟨🟨🟨🟨
+TD6 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD21 ␆🟨🟨🟨🟩🟩
+TD8 📋> 🟨🟨🟨🟩🟩
+TD7 📋> ␅
+TD23 ␆🟩🟨🟩🟨🟨
+TD7 📋> 🟩🟨🟩🟨🟨
+TD6 📋> ␅
+TD21 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD22 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD228717 ␆#squareword #squareword1601
+TD86 📋> #squareword #squareword1601
+TD15 📋> ␅
+TD174863 ␄
+TD113 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1601: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1601"}
+TD795 result: "squareword.org 1601: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1601"
+TD62 📆 2026-06-20 ? ␅
+TD209087 ␆
+TD147 📆 2026-06-20 ? 
