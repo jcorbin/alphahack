@@ -435,6 +435,20 @@ solvers.add(
     octordle_variant('Extreme', 'https://www.merriam-webster.com/games/octordle/extreme'),
 )
 
+def make_sedecordle(_tokens: PromptUI.Tokens):
+    sd = Nordle()
+    site = 'https://www.sedecordle.com/?mode=daily'
+    sd.default_site = site
+    sd.site = sd.default_site
+    sd.log_file = f'sedecordle.log'
+    sd.kind = 'Sedecordle'
+    # sd.mode = mode
+    sd.num_words = 16
+    sd.wordlist_file = 'nwl2023.txt'
+    return sd
+
+solvers.add('sedecordle', make_sedecordle)
+
 from square import Search as Square
 
 def make_square(_tokens: PromptUI.Tokens):

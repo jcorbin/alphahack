@@ -735,6 +735,15 @@ class Result:
 
             m = re.match(r'''(?x)
                 Daily
+                \s+ [#]? (?P<id> [\d]+ )
+            ''', line)
+            if m:
+                id_str = m.group('id')
+                if id_str: id = int(id_str)
+                continue
+
+            m = re.match(r'''(?x)
+                Daily
                 \s+ (?P<mode> [^\s]+ )
                 \s+ (?P<kind> [^\s]+ ) ordle
                 \s+ [#]? (?P<id> [\d]+ )
@@ -778,8 +787,14 @@ class Result:
                 trailer = line
                 continue
 
+        if not kind and trailer:
+            if trailer == 'sedecordle.com':
+                kind = 'Sedec'
+            elif trailer == 'm-w.com/games/quordle/':
+                kind = 'Qu'
+
         return cls(
-            kind=kind or 'Qu',
+            kind=kind or 'Unk',
             mode=mode or 'Classic',
             mark=mark,
             id=id,
@@ -873,6 +888,21 @@ class Result:
     - mode: Sequence
     - id: 1434
     - trailer: m-w.com/games/quordle/
+
+    #sedecordle_solve
+    > Daily #1587
+    > 0️⃣6️⃣⬛1️⃣1️⃣
+    > 1️⃣2️⃣⬛1️⃣3️⃣
+    > 0️⃣2️⃣⬛0️⃣7️⃣
+    > 0️⃣3️⃣⬛1️⃣0️⃣
+    > 0️⃣8️⃣⬛0️⃣4️⃣
+    > 0️⃣9️⃣⬛0️⃣5️⃣
+    > 1️⃣6️⃣⬛1️⃣7️⃣
+    > 1️⃣5️⃣⬛1️⃣4️⃣
+    > sedecordle.com
+    > #sedecordle
+    - kind: Sedec
+    - id: 1587
 
 ''')
 def test_parse_result(spec: MarkedSpec):
