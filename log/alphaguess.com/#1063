@@ -1,0 +1,89 @@
+T14308.189982969998 now: 2026-06-21T08:39:37EDT
+TD213 site: alphaguess.com
+TD166254 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 29ab9560856879452c224615b52181a3f85c0532
+TD105  ...␅
+TD639291 ␆
+TD96  ...
+TD147 [0 : 98214 : 196520] mach? ␅
+TD4910709 ␆
+TD86 [0 : 98214 : 196520] mach? 
+TD80 [0 : 98214 : 196520] mach? ␅
+TD2069962 ␆a
+TD115 [0 : 98214 : 196520] mach? a
+TD126 progress: 1 98214 mach
+TD373 [98215 : 147364 : 196520] rhotic? ␅
+TD1765622 ␆b
+TD84 [98215 : 147364 : 196520] rhotic? b
+TD94 progress: -1 147364 rhotic
+TD105 [98215 : 122775 : 147364] parr? ␅
+TD1995918 ␆b
+TD80 [98215 : 122775 : 147364] parr? b
+TD92 progress: -1 122775 parr
+TD95 [98215 : 109931 : 122775] ne? ␅
+TD1600102 ␆b
+TD136 [98215 : 109931 : 122775] ne? b
+TD102 progress: -1 109931 ne
+TD102 [98215 : 104069 : 109931] minor? ␅
+TD1486637 ␆a
+TD113 [98215 : 104069 : 109931] minor? a
+TD101 progress: 1 104069 minor
+TD106 [104070 : 106935 : 109931] mor? ␅
+TD1455179 ␆a
+TD170 [104070 : 106935 : 109931] mor? a
+TD199 progress: 1 106935 mor
+TD212 [106936 : 108415 : 109931] mun? ␅
+TD3369584 ␆b
+TD119 [106936 : 108415 : 109931] mun? b
+TD133 progress: -1 108415 mun
+TD266 [106936 : 107672 : 108415] mridanga? ␅
+TD1629164 ␆b
+TD102 [106936 : 107672 : 108415] mridanga? b
+TD117 progress: -1 107672 mridanga
+TD134 [106936 : 107249 : 107672] mot? ␅
+TD1511594 ␆a
+TD97 [106936 : 107249 : 107672] mot? a
+TD95 progress: 1 107249 mot
+TD112 [107250 : 107450 : 107672] mould? ␅
+TD1624665 ␆a
+TD112 [107250 : 107450 : 107672] mould? a
+TD122 progress: 1 107450 mould
+TD164 [107451 : 107558 : 107672] mousse? ␅
+TD6608661 ␆b
+TD147 [107451 : 107558 : 107672] mousse? b
+TD155 progress: -1 107558 mousse
+TD163 [107451 : 107481 : 107558] mount? ␅
+TD5541264 ␆a
+TD76 [107451 : 107481 : 107558] mount? a
+TD60 progress: 1 107481 mount
+TD58 [107482 : 107514 : 107558] mourn? ␅
+TD2637138 ␆a
+TD121 [107482 : 107514 : 107558] mourn? a
+TD133 progress: 1 107514 mourn
+TD134 [107515 : 107532 : 107558] mouse? ␅
+TD2747130 ␆it
+TD134 [107515 : 107532 : 107558] mouse? it
+TD178 progress: 0 107532 mouse
+TD37 [107515 : 107532 : 107558] <Done>.
+TD111 📋> ␅
+TD2878898 ␆🧩 Puzzle #1063
+TD126 📋> 🧩 Puzzle #1063
+TD19 📋> ␅
+TD60 ␆🤔 14 guesses
+TD11 📋> 🤔 14 guesses
+TD9 📋> ␅
+TD23 ␆⏱️ 33s
+TD10 📋> ⏱️ 33s
+TD9 📋> ␅
+TD273871 ␆🔗 alphaguess.com/1063
+TD82 📋> 🔗 alphaguess.com/1063
+TD14 📋> ␅
+TD130149 ␄
+TD176 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1063\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 33s\n\ud83d\udd17 alphaguess.com/1063"}
+TD116 result: "\ud83e\udde9 Puzzle #1063\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 33s\n\ud83d\udd17 alphaguess.com/1063"
+TD23 result puzzle: 1063
+TD12 result guesses: 14
+TD9 result time: 33s
+TD9 result link: alphaguess.com/1063
+TD122 📆 2026-06-21 ? ␅
+TD183174 ␆
+TD124 📆 2026-06-21 ? 
