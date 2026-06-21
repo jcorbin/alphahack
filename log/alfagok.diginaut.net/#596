@@ -1,0 +1,104 @@
+T14223.753739463005 now: 2026-06-21T08:38:12EDT
+TD275 site: alfagok.diginaut.net
+TD402317 loaded 399535 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1317 words excluded) asof 29ab9560856879452c224615b52181a3f85c0532
+TD106  ...␅
+TD20 ␆
+TD2  ...
+TD64 [0 : 199762 : 399535] lijm? ␅
+TD3652985 ␆
+TD64 [0 : 199762 : 399535] lijm? 
+TD92 [0 : 199762 : 399535] lijm? ␅
+TD19127754 ␆b
+TD106 [0 : 199762 : 399535] lijm? b
+TD461 progress: -1 199762 lijm
+TD174 [0 : 99702 : 199762] ex? ␅
+TD2174503 ␆b
+TD97 [0 : 99702 : 199762] ex? b
+TD170 progress: -1 99702 ex
+TD135 [0 : 49817 : 99702] boks? ␅
+TD1767692 ␆a
+TD111 [0 : 49817 : 99702] boks? a
+TD124 progress: 1 49817 boks
+TD165 [49818 : 74721 : 99702] dc? ␅
+TD1798786 ␆b
+TD85 [49818 : 74721 : 99702] dc? b
+TD117 progress: -1 74721 dc
+TD125 [49818 : 62256 : 74721] cement? ␅
+TD1546814 ␆a
+TD167 [49818 : 62256 : 74721] cement? a
+TD170 progress: 1 62256 cement
+TD1081 [62257 : 68490 : 74721] connectie? ␅
+TD1529358 ␆a
+TD124 [62257 : 68490 : 74721] connectie? a
+TD117 progress: 1 68490 connectie
+TD119 [68491 : 71561 : 74721] cru? ␅
+TD1467780 ␆a
+TD123 [68491 : 71561 : 74721] cru? a
+TD143 progress: 1 71561 cru
+TD166 [71562 : 72851 : 74721] dag? ␅
+TD1948431 ␆a
+TD194 [71562 : 72851 : 74721] dag? a
+TD185 progress: 1 72851 dag
+TD180 [72852 : 73755 : 74721] damp? ␅
+TD2001437 ␆b
+TD158 [72852 : 73755 : 74721] damp? b
+TD152 progress: -1 73755 damp
+TD475 [72852 : 73303 : 73755] dagzorg? ␅
+TD1695512 ␆a
+TD52 [72852 : 73303 : 73755] dagzorg? a
+TD54 progress: 1 73303 dagzorg
+TD62 [73304 : 73477 : 73755] dal? ␅
+TD1553099 ␆a
+TD115 [73304 : 73477 : 73755] dal? a
+TD132 progress: 1 73477 dal
+TD212 [73478 : 73592 : 73755] dames? ␅
+TD3493411 ␆b
+TD91 [73478 : 73592 : 73755] dames? b
+TD101 progress: -1 73592 dames
+TD246 [73478 : 73535 : 73592] dalstraat? ␅
+TD2054880 ␆!
+TD126 [73478 : 73535 : 73592] dalstraat? !
+TD1187 [73478 : 73536 : 73591] dalton? ␅
+TD2128078 ␆a
+TD150 [73478 : 73536 : 73591] dalton? a
+TD148 progress: 1 73536 dalton
+TD175 [73537 : 73558 : 73591] dam? ␅
+TD2792764 ␆a
+TD53 [73537 : 73558 : 73591] dam? a
+TD51 progress: 1 73558 dam
+TD169 [73559 : 73576 : 73591] dambord? ␅
+TD1834300 ␆a
+TD106 [73559 : 73576 : 73591] dambord? a
+TD119 progress: 1 73576 dambord
+TD321 [73577 : 73584 : 73591] damde? ␅
+TD1681111 ␆a
+TD91 [73577 : 73584 : 73591] damde? a
+TD107 progress: 1 73584 damde
+TD159 [73585 : 73586 : 73591] dame? ␅
+TD1881855 ␆it
+TD121 [73585 : 73586 : 73591] dame? it
+TD117 progress: 0 73586 dame
+TD28 [73585 : 73586 : 73591] <Done>.
+TD100 📋> ␅
+TD3598683 ␆🧩 Puzzel #596
+TD117 📋> 🧩 Puzzel #596
+TD41 📋> ␅
+TD50 ␆🤔 17 gokken
+TD9 📋> 🤔 17 gokken
+TD9 📋> ␅
+TD17 ␆⏱️ 34s
+TD9 📋> ⏱️ 34s
+TD7 📋> ␅
+TD276966 ␆🔗 alfagok.diginaut.net
+TD109 📋> 🔗 alfagok.diginaut.net
+TD18 📋> ␅
+TD111342 ␄
+TD269 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #596\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1136 result: "\ud83e\udde9 Puzzel #596\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"
+TD34 result puzzle: 596
+TD15 result guesses: 17
+TD10 result time: 34s
+TD10 result link: alfagok.diginaut.net
+TD112 📆 2026-06-21 ? ␅
+TD188941 ␆
+TD105 📆 2026-06-21 ? 
