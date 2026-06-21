@@ -1,0 +1,183 @@
+T380.09057865000796 now: 2026-06-21T08:51:37EDT
+TD245 site: https://www.merriam-webster.com/games/quordle/#/
+TD49 wordlist: nwl2023.txt
+TD16 num_words: 4
+TD250  ...␅
+TD916784 ␆
+TD125  ...
+TD464042 > ␅
+TD8321248 ␆*
+TD120 > *
+TD57261 ? ␅
+TD741282 ␆1
+TD44 ? 1
+TD74 questioning: rates
+TD64 Classic #1 _____? ␅
+TD2607521 ␆nMMnn
+TD85 Classic #1 _____? nMMnn
+TD361 attempt: 0 RATES n m m n n
+TD111 Classic #2 _____? ␅
+TD1772242 ␆nnYnn
+TD132 Classic #2 _____? nnYnn
+TD287 attempt: 1 RATES n n Y n n
+TD126 Classic #3 _____? ␅
+TD1269401 ␆MMnMn
+TD103 Classic #3 _____? MMnMn
+TD275 attempt: 2 RATES m m n m n
+TD131 Classic #4 _____? ␅
+TD1723321 ␆Mnnnn
+TD103 Classic #4 _____? Mnnnn
+TD284 attempt: 3 RATES m n n n n
+TD506746 > ␅
+TD1319687 ␆*
+TD67 > *
+TD3055 ? ␅
+TD1776288 ␆2
+TD99 ? 2
+TD182 questioning: irony
+TD174 Classic #1 _____ ~AT -ERS? ␅
+TD2822521 ␆nnMnn
+TD93 Classic #1 _____ ~AT -ERS? nnMnn
+TD271 attempt: 0 IRONY n n m n n
+TD143 Classic #2 __T__ -AERS? ␅
+TD1594718 ␆nnMMn
+TD93 Classic #2 __T__ -AERS? nnMMn
+TD235 attempt: 1 IRONY n n m m n
+TD133 Classic #3 _____ ~AER -ST? ␅
+TD1338996 ␆nYnnn
+TD130 Classic #3 _____ ~AER -ST? nYnnn
+TD399 attempt: 2 IRONY n Y n n n
+TD217 Classic #4 _____ ~R -AEST? ␅
+TD1353765 ␆MMnnn
+TD90 Classic #4 _____ ~R -AEST? MMnnn
+TD263 attempt: 3 IRONY m m n n n
+TD489013 > ␅
+TD1102971 ␆*
+TD159 > *
+TD1936 ? ␅
+TD4673220 ␆1
+TD132 ? 1
+TD185 questioning: drake
+TD181 Classic #1 _____ ~AOT -EINRSY? ␅
+TD2605448 ␆nnMnn
+TD50 Classic #1 _____ ~AOT -EINRSY? nnMnn
+TD133 attempt: 0 DRAKE n n m n n
+TD68 Classic #2 __T__ ~NO -AEIRSY? ␅
+TD1370932 ␆nnnnn
+TD109 Classic #2 __T__ ~NO -AEIRSY? nnnnn
+TD250 attempt: 1 DRAKE n n n n n
+TD119 Classic #3 _R___ ~AE -INOSTY? ␅
+TD1693138 ␆YYMnM
+TD131 Classic #3 _R___ ~AE -INOSTY? YYMnM
+TD361 attempt: 2 DRAKE Y Y m n m
+TD179 Classic #4 _____ ~IR -AENOSTY? ␅
+TD1819494 ␆MMnnn
+TD94 Classic #4 _____ ~IR -AENOSTY? MMnnn
+TD248 attempt: 3 DRAKE m m n n n
+TD464109 > ␅
+TD714601 ␆*
+TD142 > *
+TD707 ? ␅
+TD1184865 ␆1
+TD124 ? 1
+TD273 questioning: dream
+TD234 Classic #1 _____ ~AOT -DEIKNRSY? ␅
+TD2810418 ␆nnnMn
+TD103 Classic #1 _____ ~AOT -DEIKNRSY? nnnMn
+TD314 attempt: 0 DREAM n n n m n
+TD156 Classic #2 __T__ ~NO -ADEIKRSY? ␅
+TD1050712 ␆nnnnn
+TD127 Classic #2 __T__ ~NO -ADEIKRSY? nnnnn
+TD289 attempt: 1 DREAM n n n n n
+TD172 Classic #3 DR___ ~AE -IKNOSTY? ␅
+TD3292750 ␆YYYYn
+TD108 Classic #3 DR___ ~AE -IKNOSTY? YYYYn
+TD299 attempt: 2 DREAM Y Y Y Y n
+TD179 Classic #4 _____ ~DIR -AEKNOSTY? ␅
+TD1371918 ␆MMnnn
+TD97 Classic #4 _____ ~DIR -AEKNOSTY? MMnnn
+TD288 attempt: 3 DREAM m m n n n
+TD446068 > ␅
+TD1151959 ␆*
+TD132 > *
+TD579 ? ␅
+TD2178293 ␆1
+TD99 ? 1
+TD165 questioning: dread
+TD170 Classic #1 _____ ~AOT -DEIKMNRSY? ␅
+TD3260160 ␆nnnMn
+TD131 Classic #1 _____ ~AOT -DEIKMNRSY? nnnMn
+TD373 attempt: 0 DREAD n n n m n
+TD213 Classic #2 __T__ ~NO -ADEIKMRSY? ␅
+TD1055708 ␆nnnnn
+TD103 Classic #2 __T__ ~NO -ADEIKMRSY? nnnnn
+TD273 attempt: 1 DREAD n n n n n
+TD190 Classic #3 DREA_ -IKMNOSTY? ␅
+TD2990765 ␆YYYYY
+TD116 Classic #3 DREA_ -IKMNOSTY? YYYYY
+TD276 attempt: 2 DREAD Y Y Y Y Y
+TD209 Classic #4 _____ ~DIR -AEKMNOSTY? ␅
+TD1591189 ␆nMnnY
+TD106 Classic #4 _____ ~DIR -AEKMNOSTY? nMnnY
+TD274 attempt: 3 DREAD n m n n Y
+TD336886 > ␅
+TD749684 ␆*
+TD100 > *
+TD622 ? ␅
+TD2532591 ␆1
+TD64 ? 1
+TD99 questioning: lurid
+TD104 Classic #1 _____ ~AOT -DEIKMNRSY? ␅
+TD2735831 ␆nnnnn
+TD157 Classic #1 _____ ~AOT -DEIKMNRSY? nnnnn
+TD434 attempt: 0 LURID n n n n n
+TD232 Classic #2 __T__ ~NO -ADEIKMRSY? ␅
+TD969103 ␆nnnnn
+TD95 Classic #2 __T__ ~NO -ADEIKMRSY? nnnnn
+TD247 attempt: 1 LURID n n n n n
+TD132 Classic #4 ____D ~IR -AEKMNOSTY? ␅
+TD2622026 ␆YYYYY
+TD87 Classic #4 ____D ~IR -AEKMNOSTY? YYYYY
+TD217 attempt: 3 LURID Y Y Y Y Y
+TD237611 > ␅
+TD750443 ␆*
+TD103 > *
+TD489 questioning: abbot
+TD158 Classic #1 _____ ~AOT -DEIKLMNRSUY? ␅
+TD2763049 ␆YYYYY
+TD67 Classic #1 _____ ~AOT -DEIKLMNRSUY? YYYYY
+TD143 attempt: 0 ABBOT Y Y Y Y Y
+TD82 Classic #2 __T__ ~NO -ADEIKLMRSUY? ␅
+TD1307455 ␆nnnMM
+TD91 Classic #2 __T__ ~NO -ADEIKLMRSUY? nnnMM
+TD259 attempt: 1 ABBOT n n n m m
+TD118624 > ␅
+TD825273 ␆*
+TD96 > *
+TD384 questioning: notch
+TD141 Classic #2 __T__ ~NO -ABDEIKLMRSUY? ␅
+TD2592554 ␆YYYYY
+TD122 Classic #2 __T__ ~NO -ABDEIKLMRSUY? YYYYY
+TD308 attempt: 1 NOTCH Y Y Y Y Y
+TD160 📋> ␅
+TD4650331 ␆🙂 Daily Quordle 1609
+TD94 📋> 🙂 Daily Quordle 1609
+TD16 📋> ␅
+TD59 ␆7️⃣8️⃣
+TD14 📋> 7️⃣8️⃣
+TD8 📋> ␅
+TD17 ␆5️⃣6️⃣
+TD8 📋> 5️⃣6️⃣
+TD8 📋> ␅
+TD16 ␆m-w.com/games/quordle/
+TD8 📋> m-w.com/games/quordle/
+TD9 📋> ␅
+TD213534 ␆
+TD117 📋> 
+TD22 📋> ␅
+TD187896 ␄
+TD188 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1609\n7\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD6776 result: "\ud83d\ude42 Daily Quordle 1609\n7\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD47 📆 2026-06-21 ? ␅
+TD149824 ␆
+TD120 📆 2026-06-21 ? 
