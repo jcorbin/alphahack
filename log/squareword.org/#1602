@@ -1,0 +1,272 @@
+T628.3881579820008 now: 2026-06-21T08:55:45EDT
+TD336 site: squareword.org
+TD83 wordlist: nwl2023.txt
+TD119  ...␅
+TD700016 ␆
+TD150  ...
+TD116 🧩  ? ␅
+TD6780276 ␆#1602
+TD125 🧩  ? #1602
+TD407 puzzle_id: #1602
+TD629 > ␅
+TD1555053 ␆*
+TD138 > *
+TD236472 try? ␅
+TD1035232 ␆1
+TD144 try? 1
+TD404 questioning: ["earns", "#5"]
+TD467 #1 <IndexError>  📋 "earns" ? ␅
+TD4098378 ␆_____ ~ AS
+TD110 #1 <IndexError>  📋 "earns" ? _____ ~ AS
+TD892 attempt 0 EARNS n m n n m
+TD147 #2 <IndexError>  📋 "earns" ? ␅
+TD1990778 ␆__R__ ~ A
+TD174 #2 <IndexError>  📋 "earns" ? __R__ ~ A
+TD536 attempt 1 EARNS n m Y n n
+TD287 #3 <IndexError>  📋 "earns" ? ␅
+TD2679936 ␆_____ ~ EAN
+TD53 #3 <IndexError>  📋 "earns" ? _____ ~ EAN
+TD137 attempt 2 EARNS m m n m n
+TD64 #4 <IndexError>  📋 "earns" ? ␅
+TD2481999 ␆_____ ~ ERS
+TD106 #4 <IndexError>  📋 "earns" ? _____ ~ ERS
+TD317 attempt 3 EARNS m n m n m
+TD142 #5 <IndexError>  📋 "earns" ? ␅
+TD2169203 ␆____S ~ ER
+TD115 #5 <IndexError>  📋 "earns" ? ____S ~ ER
+TD329 attempt 4 EARNS m n m n Y
+TD513 ? ␅
+TD497357 ␆
+TD133 ? 
+TD197 question done
+TD531 > ␅
+TD928692 ␆*
+TD131 > *
+TD795156 try? ␅
+TD1998555 ␆2
+TD61 try? 2
+TD170 questioning: ["ankle", "#3"]
+TD156 #1 _____ ~AS -ENR  📋 "ankle" ? ␅
+TD3524518 ␆.
+TD163 #1 _____ ~AS -ENR  📋 "ankle" ? .
+TD485 attempt 0 ANKLE m n n n n
+TD150 #2 __R__ ~A -ENS  📋 "ankle" ? ␅
+TD14615355 ␆__R__ ~ AL
+TD120 #2 __R__ ~A -ENS  📋 "ankle" ? __R__ ~ AL
+TD276 attempt 1 ANKLE m n n m n
+TD157 #3 _____ ~AEN -RS  📋 "ankle" ? ␅
+TD2155506 ␆AN_LE
+TD93 #3 _____ ~AEN -RS  📋 "ankle" ? AN_LE
+TD280 attempt 2 ANKLE Y Y n Y Y
+TD153 #4 _____ ~ERS -AN  📋 "ankle" ? ␅
+TD5309493 ␆____E ~ ERS
+TD115 #4 _____ ~ERS -AN  📋 "ankle" ? ____E ~ ERS
+TD314 attempt 3 ANKLE n n n n Y
+TD167 #5 ____S ~ER -AN  📋 "ankle" ? ␅
+TD2848724 ␆.
+TD110 #5 ____S ~ER -AN  📋 "ankle" ? .
+TD353 attempt 4 ANKLE n n n n m
+TD486 ? ␅
+TD360822 ␆
+TD163 ? 
+TD160 question done
+TD473 > ␅
+TD581534 ␆*
+TD169 > *
+TD877014 try? ␅
+TD1293732 ␆1
+TD116 try? 1
+TD351 questioning: ["angle", "#3"]
+TD588 #1 _____ ~AS -EKLNR  📋 "angle" ? ␅
+TD9880314 ␄
+TD66 question done
+TD147 > ␅
+TD12008094 ␆* 1
+TD141 > * 1
+TD4521 try? ␅
+TD4190916 ␄
+TD259 <EOF>
+TD757 > ␅
+TD5157163 ␆* 4
+TD109 > * 4
+TD2692 try? ␅
+TD1868418 ␄
+TD221 <EOF>
+TD774 > ␅
+TD2340386 ␆* 2
+TD72 > * 2
+TD2144 try? ␅
+TD3074550 ␆1
+TD83 try? 1
+TD277 questioning: ["goral", "#2"]
+TD496 #1 _____ ~AS -EKLNR  📋 "goral" ? ␅
+TD7200624 ␆.
+TD86 #1 _____ ~AS -EKLNR  📋 "goral" ? .
+TD312 attempt 0 GORAL n n n m n
+TD116 #2 __R__ ~AL -EKNS  📋 "goral" ? ␅
+TD2282944 ␆_ORAL
+TD99 #2 __R__ ~AL -EKNS  📋 "goral" ? _ORAL
+TD333 attempt 1 GORAL n Y Y Y Y
+TD220 #3 AN_LE -KRS  📋 "goral" ? ␅
+TD3502353 ␆AN_LE ~ G
+TD93 #3 AN_LE -KRS  📋 "goral" ? AN_LE ~ G
+TD317 attempt 2 GORAL m n n n n
+TD227 #4 ____E ~RS -AKLN  📋 "goral" ? ␅
+TD5759808 ␆____E ~ ERS
+TD103 #4 ____E ~RS -AKLN  📋 "goral" ? ____E ~ ERS
+TD353 attempt 3 GORAL n n m n n
+TD220 #5 ____S ~ER -AKLN  📋 "goral" ? ␅
+TD984374 ␆.
+TD52 #5 ____S ~ER -AKLN  📋 "goral" ? .
+TD173 attempt 4 GORAL n n m n n
+TD258 ? ␅
+TD198134 ␆
+TD84 ? 
+TD116 question done
+TD483 > ␅
+TD1151197 ␆*
+TD73 > *
+TD838340 questioning: ["staff", "#1"]
+TD156 #1 _____ ~AS -EGKLNOR  📋 "staff" ? ␅
+TD3531041 ␆/it
+TD67 #1 _____ ~AS -EGKLNOR  📋 "staff" ? /it
+TD195 attempt 0 STAFF Y Y Y Y Y
+TD70 #2 _ORAL -EGKNS  📋 "staff" ? ␅
+TD1741751 ␆.
+TD76 #2 _ORAL -EGKNS  📋 "staff" ? .
+TD244 attempt 1 STAFF n n n n n
+TD93 #3 AN_LE ~G -AKLORS  📋 "staff" ? ␅
+TD1295100 ␆.
+TD80 #3 AN_LE ~G -AKLORS  📋 "staff" ? .
+TD241 attempt 2 STAFF n n n n n
+TD100 #4 ____E ~RS -AGKLNO  📋 "staff" ? ␅
+TD3481415 ␆____E ~ ERS
+TD77 #4 ____E ~RS -AGKLNO  📋 "staff" ? ____E ~ ERS
+TD235 attempt 3 STAFF m n n n n
+TD162 #5 ____S ~ER -AGKLNO  📋 "staff" ? ␅
+TD2177255 ␆____S ~ ERT
+TD95 #5 ____S ~ER -AGKLNO  📋 "staff" ? ____S ~ ERT
+TD2049 attempt 4 STAFF n m n n n
+TD430 ? ␅
+TD721718 ␆
+TD117 ? 
+TD194 question done
+TD682 > ␅
+TD594112 ␆*
+TD99 > *
+TD2649319 questioning: ["angle", "#3"]
+TD189 #2 _ORAL -AEFGKNST  📋 "angle" ? ␅
+TD13657787 ␄
+TD65 question done
+TD216 > ␅
+TD878024 ␆* 4
+TD72 > * 4
+TD517457 questioning: ["reuse", "#4"]
+TD162 #2 _ORAL -AEFGKNST  📋 "reuse" ? ␅
+TD5752811 ␆.
+TD66 #2 _ORAL -AEFGKNST  📋 "reuse" ? .
+TD222 attempt 1 REUSE n n n n n
+TD92 #3 AN_LE ~G -AFKLORST  📋 "reuse" ? ␅
+TD1345979 ␆.
+TD92 #3 AN_LE ~G -AFKLORST  📋 "reuse" ? .
+TD277 attempt 2 REUSE n n n n Y
+TD125 #4 ____E ~RS -AFGKLNOT  📋 "reuse" ? ␅
+TD712387 ␆/it
+TD89 #4 ____E ~RS -AFGKLNOT  📋 "reuse" ? /it
+TD282 attempt 3 REUSE Y Y Y Y Y
+TD112 #5 ____S ~ERT -AFGKLNOS  📋 "reuse" ? ␅
+TD1518119 ␆.
+TD97 #5 ____S ~ERT -AFGKLNOS  📋 "reuse" ? .
+TD319 attempt 4 REUSE m m n n m
+TD521 ? ␅
+TD250676 ␆
+TD69 ? 
+TD112 question done
+TD443 > ␅
+TD713540 ␆* 5
+TD65 > * 5
+TD595280 questioning: ["trees", "#5"]
+TD158 #2 _ORAL -AEFGKNRSTU  📋 "trees" ? ␅
+TD4168677 ␆.
+TD56 #2 _ORAL -AEFGKNRSTU  📋 "trees" ? .
+TD181 attempt 1 TREES n n n n n
+TD82 #3 AN_LE ~G -AFKLORSTU  📋 "trees" ? ␅
+TD4909055 ␆.
+TD84 #3 AN_LE ~G -AFKLORSTU  📋 "trees" ? .
+TD281 attempt 2 TREES n n n n n
+TD151 #5 ____S ~ERT -AFGKLNOSU  📋 "trees" ? ␅
+TD1376648 ␆/it
+TD64 #5 ____S ~ERT -AFGKLNOSU  📋 "trees" ? /it
+TD216 attempt 4 TREES Y Y Y Y Y
+TD310 ? ␅
+TD491690 ␆
+TD60 ? 
+TD81 question done
+TD283 > ␅
+TD610404 ␆*
+TD63 > *
+TD1919656 questioning: ["angle", "#3"]
+TD172 #2 _ORAL -AEFGKNRSTU  📋 "angle" ? ␅
+TD5078995 ␆.
+TD53 #2 _ORAL -AEFGKNRSTU  📋 "angle" ? .
+TD224 attempt 1 ANGLE n n n n n
+TD77 #3 AN_LE ~G -AEFKLORSTU  📋 "angle" ? ␅
+TD724265 ␆/it
+TD47 #3 AN_LE ~G -AEFKLORSTU  📋 "angle" ? /it
+TD216 attempt 2 ANGLE Y Y Y Y Y
+TD249 ? ␅
+TD288777 ␆
+TD60 ? 
+TD71 question done
+TD289 > ␅
+TD425293 ␆*
+TD105 > *
+TD1239087 try? ␅
+TD6073111 ␆3
+TD58 try? 3
+TD233 questioning: ["moral", "#2"]
+TD342 #2 _ORAL -AEFGKLNRSTU  📋 "moral" ? ␅
+TD3031781 ␆/it
+TD53 #2 _ORAL -AEFGKLNRSTU  📋 "moral" ? /it
+TD173 attempt 1 MORAL Y Y Y Y Y
+TD215 ? ␅
+TD1354743 ␆
+TD65 ? 
+TD79 question done
+TD33165 📋> ␅
+TD9812414 ␆squareword.org 1602: 8 guesses
+TD65 📋> squareword.org 1602: 8 guesses
+TD13 📋> ␅
+TD42 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD13 ␆🟨🟩🟩🟩🟩
+TD5 📋> 🟨🟩🟩🟩🟩
+TD5 📋> ␅
+TD13 ␆🟩🟩🟨🟩🟩
+TD6 📋> 🟩🟩🟨🟩🟩
+TD6 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟨🟨🟨🟨🟩
+TD5 📋> 🟨🟨🟨🟨🟩
+TD5 📋> ␅
+TD15 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD14 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD307220 ␆#squareword #squareword1602
+TD72 📋> #squareword #squareword1602
+TD14 📋> ␅
+TD199922 ␄
+TD103 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1602: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1602"}
+TD628 result: "squareword.org 1602: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1602"
+TD69 📆 2026-06-21 ? ␅
+TD162799 ␆
+TD78 📆 2026-06-21 ? 
