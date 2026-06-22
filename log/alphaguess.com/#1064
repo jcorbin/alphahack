@@ -1,0 +1,98 @@
+T22107.77386661101 now: 2026-06-22T08:09:58EDT
+TD191 site: alphaguess.com
+TD168103 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 30a4889fcdedec88effe112c5384afbd228d4240
+TD99  ...␅
+TD467123 ␆
+TD83  ...
+TD155 [0 : 98214 : 196520] mach? ␅
+TD6692804 ␆a
+TD114 [0 : 98214 : 196520] mach? a
+TD137 progress: 1 98214 mach
+TD343 [98215 : 147364 : 196520] rhotic? ␅
+TD1757295 ␆b
+TD64 [98215 : 147364 : 196520] rhotic? b
+TD53 progress: -1 147364 rhotic
+TD69 [98215 : 122775 : 147364] parr? ␅
+TD2003127 ␆b
+TD187 [98215 : 122775 : 147364] parr? b
+TD214 progress: -1 122775 parr
+TD217 [98215 : 109931 : 122775] ne? ␅
+TD2145010 ␆a
+TD111 [98215 : 109931 : 122775] ne? a
+TD108 progress: 1 109931 ne
+TD114 [109932 : 116349 : 122775] orchard? ␅
+TD2062346 ␆b
+TD66 [109932 : 116349 : 122775] orchard? b
+TD72 progress: -1 116349 orchard
+TD87 [109932 : 111481 : 116349] no? ␅
+TD1569944 ␆a
+TD212 [109932 : 111481 : 116349] no? a
+TD434 progress: 1 111481 no
+TD394 [111482 : 113844 : 116349] nu? ␅
+TD1403327 ␆a
+TD89 [111482 : 113844 : 116349] nu? a
+TD101 progress: 1 113844 nu
+TD106 [113845 : 115011 : 116349] od? ␅
+TD1413836 ␆b
+TD96 [113845 : 115011 : 116349] od? b
+TD110 progress: -1 115011 od
+TD274 [113845 : 114428 : 115011] object? ␅
+TD1380476 ␆a
+TD89 [113845 : 114428 : 115011] object? a
+TD108 progress: 1 114428 object
+TD416 [114429 : 114715 : 115011] obtrude? ␅
+TD1608137 ␆b
+TD111 [114429 : 114715 : 115011] obtrude? b
+TD118 progress: -1 114715 obtrude
+TD283 [114429 : 114570 : 114715] obscene? ␅
+TD1459924 ␆a
+TD84 [114429 : 114570 : 114715] obscene? a
+TD95 progress: 1 114570 obscene
+TD96 [114571 : 114628 : 114715] obsess? ␅
+TD1314092 ␆a
+TD114 [114571 : 114628 : 114715] obsess? a
+TD177 progress: 1 114628 obsess
+TD355 [114629 : 114666 : 114715] obstetric? ␅
+TD1534628 ␆b
+TD123 [114629 : 114666 : 114715] obstetric? b
+TD137 progress: -1 114666 obstetric
+TD353 [114629 : 114647 : 114666] obsidian? ␅
+TD1596929 ␆a
+TD176 [114629 : 114647 : 114666] obsidian? a
+TD258 progress: 1 114647 obsidian
+TD928 [114648 : 114657 : 114666] obsolete? ␅
+TD3328138 ␆a
+TD92 [114648 : 114657 : 114666] obsolete? a
+TD109 progress: 1 114657 obsolete
+TD231 [114658 : 114662 : 114666] obsoletes? ␅
+TD3636919 ␆a
+TD103 [114658 : 114662 : 114666] obsoletes? a
+TD105 progress: 1 114662 obsoletes
+TD246 [114663 : 114664 : 114666] obstacle? ␅
+TD2376662 ␆it
+TD59 [114663 : 114664 : 114666] obstacle? it
+TD71 progress: 0 114664 obstacle
+TD22 [114663 : 114664 : 114666] <Done>.
+TD59 📋> ␅
+TD4450038 ␆🧩 Puzzle #1064
+TD106 📋> 🧩 Puzzle #1064
+TD41 📋> ␅
+TD67 ␆🤔 17 guesses
+TD22 📋> 🤔 17 guesses
+TD18 📋> ␅
+TD37 ␆⏱️ 30s
+TD20 📋> ⏱️ 30s
+TD17 📋> ␅
+TD303945 ␆🔗 alphaguess.com/1064
+TD110 📋> 🔗 alphaguess.com/1064
+TD27 📋> ␅
+TD166236 ␄
+TD183 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1064\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 30s\n\ud83d\udd17 alphaguess.com/1064"}
+TD126 result: "\ud83e\udde9 Puzzle #1064\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 30s\n\ud83d\udd17 alphaguess.com/1064"
+TD30 result puzzle: 1064
+TD21 result guesses: 17
+TD18 result time: 30s
+TD17 result link: alphaguess.com/1064
+TD128 📆 2026-06-22 ? ␅
+TD217352 ␆
+TD150 📆 2026-06-22 ? 
