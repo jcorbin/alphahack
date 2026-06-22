@@ -1,0 +1,231 @@
+T210.67606011897442 now: 2026-06-22T08:16:01EDT
+TD260 site: https://www.merriam-webster.com/games/quordle/#/
+TD50 wordlist: nwl2023.txt
+TD17 num_words: 4
+TD225  ...␅
+TD176535 ␆
+TD125  ...
+TD478547 > ␅
+TD1719754 ␆*
+TD111 > *
+TD87093 ? ␅
+TD11621638 ␆1
+TD103 ? 1
+TD184 questioning: mares
+TD179 Classic #1 _____? ␅
+TD2844291 ␆nYnYn
+TD200 Classic #1 _____? nYnYn
+TD640 attempt: 0 MARES n Y n Y n
+TD189 Classic #2 _____? ␅
+TD1480845 ␆nMnYn
+TD108 Classic #2 _____? nMnYn
+TD311 attempt: 1 MARES n m n Y n
+TD131 Classic #3 _____? ␅
+TD1677604 ␆MnnMn
+TD124 Classic #3 _____? MnnMn
+TD253 attempt: 2 MARES m n n m n
+TD113 Classic #4 _____? ␅
+TD1951425 ␆nYMYn
+TD141 Classic #4 _____? nYMYn
+TD275 attempt: 3 MARES n Y m Y n
+TD483021 > ␅
+TD1281195 ␆*
+TD89 > *
+TD2129 ? ␅
+TD1213164 ␆1
+TD90 ? 1
+TD192 questioning: naped
+TD162 Classic #1 _A_E_ -MRS? ␅
+TD3272730 ␆MYnYn
+TD95 Classic #1 _A_E_ -MRS? MYnYn
+TD248 attempt: 0 NAPED m Y n Y n
+TD124 Classic #2 ___E_ ~A -MRS? ␅
+TD2111136 ␆MMMYn
+TD108 Classic #2 ___E_ ~A -MRS? MMMYn
+TD262 attempt: 1 NAPED m m m Y n
+TD120 Classic #3 _____ ~EM -ARS? ␅
+TD1914507 ␆nnnMn
+TD84 Classic #3 _____ ~EM -ARS? nnnMn
+TD252 attempt: 2 NAPED n n n m n
+TD115 Classic #4 _A_E_ ~R -MS? ␅
+TD1464848 ␆nYnYn
+TD77 Classic #4 _A_E_ ~R -MS? nYnYn
+TD129 attempt: 3 NAPED n Y n Y n
+TD466282 > ␅
+TD1020300 ␆*
+TD103 > *
+TD437 questioning: apnea
+TD130 Classic #1 _A_E_ ~N -DMPRS? ␅
+TD4589379 ␆MnMYn
+TD107 Classic #1 _A_E_ ~N -DMPRS? MnMYn
+TD277 attempt: 0 APNEA m n m Y n
+TD137 Classic #2 ___E_ ~ANP -DMRS? ␅
+TD1363723 ␆YYYYY
+TD94 Classic #2 ___E_ ~ANP -DMRS? YYYYY
+TD214 attempt: 1 APNEA Y Y Y Y Y
+TD121 Classic #3 _____ ~EM -ADNPRS? ␅
+TD2263187 ␆nnnMn
+TD148 Classic #3 _____ ~EM -ADNPRS? nnnMn
+TD427 attempt: 2 APNEA n n n m n
+TD224 Classic #4 _A_E_ ~R -DMNPS? ␅
+TD1807706 ␆MnnYn
+TD93 Classic #4 _A_E_ ~R -DMNPS? MnnYn
+TD235 attempt: 3 APNEA m n n Y n
+TD323597 > ␅
+TD710728 ␆*
+TD139 > *
+TD2371 ? ␅
+TD6038846 ␆2
+TD93 ? 2
+TD173 questioning: lager
+TD164 Classic #1 _A_E_ ~N -DMPRS A:1? ␅
+TD2641539 ␆nYnYn
+TD69 Classic #1 _A_E_ ~N -DMPRS A:1? nYnYn
+TD128 attempt: 0 LAGER n Y n Y n
+TD89 Classic #3 _____ ~EM -ADNPRS? ␅
+TD1498066 ␆nnnMn
+TD124 Classic #3 _____ ~EM -ADNPRS? nnnMn
+TD278 attempt: 2 LAGER n n n m n
+TD173 Classic #4 _A_E_ ~R -DMNPS A:1? ␅
+TD1545591 ␆nYnYY
+TD98 Classic #4 _A_E_ ~R -DMNPS A:1? nYnYY
+TD269 attempt: 3 LAGER n Y n Y Y
+TD322049 > ␅
+TD825071 ␆*
+TD111 > *
+TD1224 ? ␅
+TD1323648 ␆1
+TD152 ? 1
+TD288 questioning: water
+TD292 Classic #1 _A_E_ ~N -DGLMPRS? ␅
+TD2697182 ␆YYnYn
+TD118 Classic #1 _A_E_ ~N -DGLMPRS? YYnYn
+TD290 attempt: 0 WATER Y Y n Y n
+TD176 Classic #3 _____ ~EM -ADGLNPRS? ␅
+TD1296407 ␆nnnMn
+TD126 Classic #3 _____ ~EM -ADGLNPRS? nnnMn
+TD315 attempt: 2 WATER n n n m n
+TD159 Classic #4 _A_ER -DGLMNPS? ␅
+TD1324618 ␆YYnYY
+TD100 Classic #4 _A_ER -DGLMNPS? YYnYY
+TD225 attempt: 3 WATER Y Y n Y Y
+TD349356 > ␅
+TD1012122 ␆*
+TD111 > *
+TD713 ? ␅
+TD2734291 ␆1
+TD111 ? 1
+TD197 questioning: waken
+TD200 Classic #1 WA_E_ ~N -DGLMPRST? ␅
+TD3214809 ␆YYnYY
+TD85 Classic #1 WA_E_ ~N -DGLMPRST? YYnYY
+TD230 attempt: 0 WAKEN Y Y n Y Y
+TD112 Classic #3 _____ ~EM -ADGLNPRSTW? ␅
+TD3271688 ␆nnnMn
+TD49 Classic #3 _____ ~EM -ADGLNPRSTW? nnnMn
+TD98 attempt: 2 WAKEN n n n m n
+TD51 Classic #4 WA_ER -DGLMNPST? ␅
+TD1765359 ␆YYnYn
+TD82 Classic #4 WA_ER -DGLMNPST? YYnYn
+TD200 attempt: 3 WAKEN Y Y n Y n
+TD320304 > ␅
+TD1510815 ␆*
+TD91 > *
+TD443 questioning: waxen
+TD149 Classic #1 WA_EN -DGKLMPRST? ␅
+TD13970215 ␆YYYYY
+TD145 Classic #1 WA_EN -DGKLMPRST? YYYYY
+TD298 attempt: 0 WAXEN Y Y Y Y Y
+TD190 Classic #3 _____ ~EM -ADGKLNPRSTW? ␅
+TD1581049 ␆nnnMn
+TD115 Classic #3 _____ ~EM -ADGKLNPRSTW? nnnMn
+TD335 attempt: 2 WAXEN n n n m n
+TD184 Classic #4 WA_ER -DGKLMNPST? ␅
+TD1677328 ␆YYnYn
+TD98 Classic #4 WA_ER -DGKLMNPST? YYnYn
+TD262 attempt: 3 WAXEN Y Y n Y n
+TD223949 > ␅
+TD658664 ␆*
+TD122 > *
+TD617 ? ␅
+TD1808920 ␄
+TD115 <EOF>
+TD224229 > ␅
+TD1416498 ␆* 3
+TD109 > * 3
+TD125459 ? ␅
+TD7115548 ␄
+TD176 <EOF>
+TD272257 > ␅
+TD665080 ␆*
+TD92 > *
+TD433 ? ␅
+TD982681 ␆1
+TD96 ? 1
+TD167 questioning: wafer
+TD169 Classic #3 _____ ~EM -ADGKLNPRSTWX? ␅
+TD5483313 ␆nnnMn
+TD99 Classic #3 _____ ~EM -ADGKLNPRSTWX? nnnMn
+TD253 attempt: 2 WAFER n n n m n
+TD121 Classic #4 WA_ER -DGKLMNPSTX? ␅
+TD1437700 ␆YYnYY
+TD93 Classic #4 WA_ER -DGKLMNPSTX? YYnYY
+TD222 attempt: 3 WAFER Y Y n Y Y
+TD238053 > ␅
+TD1786422 ␆* 3
+TD94 > * 3
+TD129027 ? ␅
+TD1500906 ␆1
+TD103 ? 1
+TD251 questioning: chime
+TD190 Classic #3 _____ ~EM -ADFGKLNPRSTWX? ␅
+TD5854112 ␆YYYYY
+TD192 Classic #3 _____ ~EM -ADFGKLNPRSTWX? YYYYY
+TD327 attempt: 2 CHIME Y Y Y Y Y
+TD165 Classic #4 WA_ER -DFGKLMNPSTX? ␅
+TD4797512 ␆nnnnM
+TD123 Classic #4 WA_ER -DFGKLMNPSTX? nnnnM
+TD249 attempt: 3 CHIME n n n n m
+TD95911 > ␅
+TD3043137 ␆🙂 Daily Quordle 1610
+TD108 > 🙂 Daily Quordle 1610
+TD223 > ␅
+TD71 ␆7️⃣3️⃣
+TD10 > 7️⃣3️⃣
+TD640 > ␅
+TD41 ␆9️⃣🟥
+TD10 > 9️⃣🟥
+TD470 > ␅
+TD34 ␆m-w.com/games/quordle/
+TD9 > m-w.com/games/quordle/
+TD415 > ␅
+TD267172 ␆
+TD108 > 
+TD724 > ␅
+TD1287725 ␆/res
+TD124 > /res
+TD311 📋> ␅
+TD775406 ␆🙂 Daily Quordle 1610
+TD107 📋> 🙂 Daily Quordle 1610
+TD16 📋> ␅
+TD58 ␆7️⃣3️⃣
+TD11 📋> 7️⃣3️⃣
+TD9 📋> ␅
+TD21 ␆9️⃣🟥
+TD8 📋> 9️⃣🟥
+TD8 📋> ␅
+TD18 ␆m-w.com/games/quordle/
+TD9 📋> m-w.com/games/quordle/
+TD8 📋> ␅
+TD239681 ␆
+TD85 📋> 
+TD13 📋> ␅
+TD181587 ␄
+TD363 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1610\n7\ufe0f\u20e33\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TD2645 result: "\ud83d\ude42 Daily Quordle 1610\n7\ufe0f\u20e33\ufe0f\u20e3\n9\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TD108101 > ␅
+TD1625054 ␆/store
+TD117 > /store
+TD275 📆 2026-06-22 ? ␅
+TD637128 ␆
+TD98 📆 2026-06-22 ? 
