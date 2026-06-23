@@ -1,0 +1,187 @@
+T1206.9351055340085 now: 2026-06-23T08:34:00EDT
+TD159 site: squareword.org
+TD43 wordlist: nwl2023.txt
+TD70  ...␅
+TD603709 ␆
+TD97  ...
+TD76 🧩  ? ␅
+TD5838881 ␆#1604
+TD94 🧩  ? #1604
+TD279 puzzle_id: #1604
+TD349 > ␅
+TD718774 ␆
+TD106 > 
+TD499 > ␅
+TD599213 ␆*
+TD131 > *
+TD235053 try? ␅
+TD1177387 ␆1
+TD143 try? 1
+TD391 questioning: ["laser", "#5"]
+TD448 #1 <IndexError>  📋 "laser" ? ␅
+TD5661143 ␆_____ ~ S
+TD159 #1 <IndexError>  📋 "laser" ? _____ ~ S
+TD1319 attempt 0 LASER n n m n n
+TD194 #2 <IndexError>  📋 "laser" ? ␅
+TD2708559 ␆_A___ ~ SE
+TD102 #2 <IndexError>  📋 "laser" ? _A___ ~ SE
+TD295 attempt 1 LASER n Y m m n
+TD129 #3 <IndexError>  📋 "laser" ? ␅
+TD2093302 ␆_____ ~ LA
+TD85 #3 <IndexError>  📋 "laser" ? _____ ~ LA
+TD258 attempt 2 LASER m m n n n
+TD122 #4 <IndexError>  📋 "laser" ? ␅
+TD5389182 ␆L____ ~ LA
+TD94 #4 <IndexError>  📋 "laser" ? L____ ~ LA
+TD282 attempt 3 LASER Y m n n n
+TD121 #5 <IndexError>  📋 "laser" ? ␅
+TD2359543 ␆_____ ~ LSE
+TD156 #5 <IndexError>  📋 "laser" ? _____ ~ LSE
+TD357 attempt 4 LASER m n m m n
+TD500 ? ␅
+TD561371 ␆
+TD91 ? 
+TD140 question done
+TD363 > ␅
+TD1033560 ␆*
+TD103 > *
+TD756353 try? ␅
+TD3321125 ␆4
+TD128 try? 4
+TD320 questioning: ["cause", "#2"]
+TD439 #1 _____ ~S -AELR  📋 "cause" ? ␅
+TD15511123 ␆_____ ~ SCU
+TD105 #1 _____ ~S -AELR  📋 "cause" ? _____ ~ SCU
+TD200 attempt 0 CAUSE m n m m n
+TD102 #2 _A___ ~ES -LR  📋 "cause" ? ␅
+TD1068029 ␆/it
+TD115 #2 _A___ ~ES -LR  📋 "cause" ? /it
+TD363 attempt 1 CAUSE Y Y Y Y Y
+TD155 #3 _____ ~AL -ERS  📋 "cause" ? ␅
+TD3283451 ␆_____ ~ LAU
+TD94 #3 _____ ~AL -ERS  📋 "cause" ? _____ ~ LAU
+TD260 attempt 2 CAUSE n m m n n
+TD167 #4 L____ ~A -ERS  📋 "cause" ? ␅
+TD3902229 ␆L____ ~ LAC
+TD125 #4 L____ ~A -ERS  📋 "cause" ? L____ ~ LAC
+TD352 attempt 3 CAUSE m m n n n
+TD199 #5 _____ ~ELS -AR  📋 "cause" ? ␅
+TD1935831 ␆.
+TD81 #5 _____ ~ELS -AR  📋 "cause" ? .
+TD287 attempt 4 CAUSE n n n m m
+TD345 ? ␅
+TD364681 ␆
+TD102 ? 
+TD129 question done
+TD435 > ␅
+TD656487 ␆*
+TD94 > *
+TD847347 try? ␅
+TD3582554 ␆3
+TD85 try? 3
+TD276 questioning: ["scout", "#1"]
+TD446 #1 _____ ~CSU -AELR  📋 "scout" ? ␅
+TD2641909 ␆/it
+TD109 #1 _____ ~CSU -AELR  📋 "scout" ? /it
+TD308 attempt 0 SCOUT Y Y Y Y Y
+TD115 #3 _____ ~ALU -CERS  📋 "scout" ? ␅
+TD3368660 ␆___U_ ~ LA
+TD136 #3 _____ ~ALU -CERS  📋 "scout" ? ___U_ ~ LA
+TD399 attempt 2 SCOUT n n n Y n
+TD242 #4 L____ ~AC -ERSU  📋 "scout" ? ␅
+TD3287714 ␆L____ ~ LACO
+TD154 #4 L____ ~AC -ERSU  📋 "scout" ? L____ ~ LACO
+TD2625 attempt 3 SCOUT n m m n n
+TD276 #5 _____ ~ELS -ACRU  📋 "scout" ? ␅
+TD1109375 ␆.
+TD97 #5 _____ ~ELS -ACRU  📋 "scout" ? .
+TD305 attempt 4 SCOUT m n n n n
+TD411 ? ␅
+TD200510 ␆
+TD112 ? 
+TD134 question done
+TD458 > ␅
+TD445595 ␆*
+TD86 > *
+TD748202 questioning: ["local", "#4"]
+TD190 #3 ___U_ ~AL -CEORST  📋 "local" ? ␅
+TD5480110 ␆___UL ~ A
+TD46 #3 ___U_ ~AL -CEORST  📋 "local" ? ___UL ~ A
+TD118 attempt 2 LOCAL n n n m Y
+TD73 #4 L____ ~ACO -ERSTU  📋 "local" ? ␅
+TD1157951 ␆/it
+TD132 #4 L____ ~ACO -ERSTU  📋 "local" ? /it
+TD383 attempt 3 LOCAL Y Y Y Y Y
+TD145 #5 _____ ~ELS -ACORTU  📋 "local" ? ␅
+TD2652313 ␆.
+TD99 #5 _____ ~ELS -ACORTU  📋 "local" ? .
+TD264 attempt 4 LOCAL m n n n m
+TD361 ? ␅
+TD1707332 ␆
+TD66 ? 
+TD68 question done
+TD173 > ␅
+TD764253 ␆*
+TD102 > *
+TD1326697 questioning: ["annul", "#3"]
+TD204 #3 ___UL ~A -CEORST  📋 "annul" ? ␅
+TD4123016 ␆/it
+TD102 #3 ___UL ~A -CEORST  📋 "annul" ? /it
+TD267 attempt 2 ANNUL Y Y Y Y Y
+TD118 #5 _____ ~ELS -ACORTU  📋 "annul" ? ␅
+TD1461945 ␆.
+TD97 #5 _____ ~ELS -ACORTU  📋 "annul" ? .
+TD304 attempt 4 ANNUL n n n n m
+TD403 ? ␅
+TD198440 ␆
+TD90 ? 
+TD131 question done
+TD376 > ␅
+TD419482 ␆*
+TD188 > *
+TD922083 questioning: ["peels", "#5"]
+TD182 #5 _____ ~ELS -ACNORTU  📋 "peels" ? ␅
+TD3436808 ␆/it
+TD99 #5 _____ ~ELS -ACNORTU  📋 "peels" ? /it
+TD272 attempt 4 PEELS Y Y Y Y Y
+TD381 ? ␅
+TD1041831 ␆
+TD92 ? 
+TD123 question done
+TD29208 📋> ␅
+TD5817480 ␆squareword.org 1604: 6 guesses
+TD104 📋> squareword.org 1604: 6 guesses
+TD27 📋> ␅
+TD50 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD27 ␆🟩🟩🟩🟩🟩
+TD26 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD17 ␆🟨🟨🟨🟨🟨
+TD7 📋> 🟨🟨🟨🟨🟨
+TD7 📋> ␅
+TD18 ␆
+TD7 📋> 
+TD7 📋> ␅
+TD19 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> ␅
+TD228823 ␆#squareword #squareword1604
+TD85 📋> #squareword #squareword1604
+TD15 📋> ␅
+TD151000 ␄
+TD167 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1604: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1604"}
+TD1037 result: "squareword.org 1604: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1604"
+TD95 📆 2026-06-23 ? ␅
+TD124689 ␆
+TD104 📆 2026-06-23 ? 
