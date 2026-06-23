@@ -1,0 +1,209 @@
+T14239.81032887299 now: 2026-06-23T08:11:37EDT
+TD146 site: https://www.merriam-webster.com/games/quordle/#/
+TD29 wordlist: nwl2023.txt
+TD11 num_words: 4
+TD155  ...␅
+TD4983799 ␆
+TD160  ...
+TD430292 > ␅
+TD6730989 ␆*
+TD133 > *
+TD58121 ? ␅
+TD5237977 ␆1
+TD115 ? 1
+TD186 questioning: aster
+TD164 Classic #1 _____? ␅
+TD3554515 ␆YnnnY
+TD146 Classic #1 _____? YnnnY
+TD460 attempt: 0 ASTER Y n n n Y
+TD141 Classic #2 _____? ␅
+TD1523816 ␆Mnnnn
+TD100 Classic #2 _____? Mnnnn
+TD267 attempt: 1 ASTER m n n n n
+TD121 Classic #3 _____? ␅
+TD1846012 ␆nMnMM
+TD114 Classic #3 _____? nMnMM
+TD284 attempt: 2 ASTER n m n m m
+TD155 Classic #4 _____? ␅
+TD1600812 ␆MMnMY
+TD110 Classic #4 _____? MMnMY
+TD279 attempt: 3 ASTER m m n m Y
+TD514698 > ␅
+TD1228100 ␆*
+TD112 > *
+TD10385 ? ␅
+TD2058631 ␆1
+TD107 ? 1
+TD202 questioning: plank
+TD207 Classic #1 A___R -EST? ␅
+TD3376180 ␆nnMnn
+TD112 Classic #1 A___R -EST? nnMnn
+TD250 attempt: 0 PLANK n n m n n
+TD126 Classic #2 _____ ~A -ERST? ␅
+TD1674035 ␆nnMnn
+TD112 Classic #2 _____ ~A -ERST? nnMnn
+TD299 attempt: 1 PLANK n n m n n
+TD139 Classic #3 _____ ~ERS -AT? ␅
+TD1673340 ␆nnnnn
+TD96 Classic #3 _____ ~ERS -AT? nnnnn
+TD262 attempt: 2 PLANK n n n n n
+TD123 Classic #4 ____R ~AES -T? ␅
+TD4611411 ␆nnMnn
+TD103 Classic #4 ____R ~AES -T? nnMnn
+TD285 attempt: 3 PLANK n n m n n
+TD495455 > ␅
+TD2833227 ␆*
+TD145 > *
+TD2751 ? ␅
+TD1814505 ␆2
+TD98 ? 2
+TD182 questioning: magic
+TD181 Classic #1 A___R -EKLNPST? ␅
+TD2796011 ␆nMnnn
+TD101 Classic #1 A___R -EKLNPST? nMnnn
+TD273 attempt: 0 MAGIC n m n n n
+TD152 Classic #2 _____ ~A -EKLNPRST? ␅
+TD1724810 ␆nYnnn
+TD138 Classic #2 _____ ~A -EKLNPRST? nYnnn
+TD285 attempt: 1 MAGIC n Y n n n
+TD149 Classic #3 _____ ~ERS -AKLNPT? ␅
+TD1188412 ␆nnnnn
+TD114 Classic #3 _____ ~ERS -AKLNPT? nnnnn
+TD241 attempt: 2 MAGIC n n n n n
+TD130 Classic #4 ____R ~AES -KLNPT? ␅
+TD1301590 ␆nMnnn
+TD69 Classic #4 ____R ~AES -KLNPT? nMnnn
+TD143 attempt: 3 MAGIC n m n n n
+TD512802 > ␅
+TD2096743 ␆*
+TD88 > *
+TD603 ? ␅
+TD2617151 ␆2
+TD83 ? 2
+TD150 questioning: swear
+TD144 Classic #1 A___R -CEGIKLMNPST? ␅
+TD3684557 ␆nnnMY
+TD99 Classic #1 A___R -CEGIKLMNPST? nnnMY
+TD217 attempt: 0 SWEAR n n n m Y
+TD113 Classic #2 _A___ -CEGIKLMNPRST? ␅
+TD1436341 ␆nnnMn
+TD91 Classic #2 _A___ -CEGIKLMNPRST? nnnMn
+TD233 attempt: 1 SWEAR n n n m n
+TD130 Classic #3 _____ ~ERS -ACGIKLMNPT? ␅
+TD2074913 ␆YnMnM
+TD110 Classic #3 _____ ~ERS -ACGIKLMNPT? YnMnM
+TD333 attempt: 2 SWEAR Y n m n m
+TD199 Classic #4 ____R ~AES -CGIKLMNPT? ␅
+TD3035626 ␆YnYYY
+TD107 Classic #4 ____R ~AES -CGIKLMNPT? YnYYY
+TD272 attempt: 3 SWEAR Y n Y Y Y
+TD439991 > ␅
+TD756861 ␆*
+TD58 > *
+TD260 questioning: shear
+TD88 Classic #1 A___R -CEGIKLMNPSTW? ␅
+TD3283173 ␆nnnMY
+TD115 Classic #1 A___R -CEGIKLMNPSTW? nnnMY
+TD319 attempt: 0 SHEAR n n n m Y
+TD155 Classic #2 _A___ -CEGIKLMNPRSTW? ␅
+TD1826993 ␆nnnMn
+TD78 Classic #2 _A___ -CEGIKLMNPRSTW? nnnMn
+TD145 attempt: 1 SHEAR n n n m n
+TD81 Classic #3 S____ ~ER -ACGIKLMNPTW? ␅
+TD1908925 ␆YnMnM
+TD98 Classic #3 S____ ~ER -ACGIKLMNPTW? YnMnM
+TD288 attempt: 2 SHEAR Y n m n m
+TD165 Classic #4 S_EAR -CGIKLMNPTW? ␅
+TD1360113 ␆YYYYY
+TD74 Classic #4 S_EAR -CGIKLMNPTW? YYYYY
+TD157 attempt: 3 SHEAR Y Y Y Y Y
+TD331594 > ␅
+TD1053704 ␆*
+TD119 > *
+TD743 ? ␅
+TD3155407 ␆1
+TD103 ? 1
+TD190 questioning: arbor
+TD188 Classic #1 A___R -CEGHIKLMNPSTW? ␅
+TD3039040 ␆YYnYY
+TD104 Classic #1 A___R -CEGHIKLMNPSTW? YYnYY
+TD248 attempt: 0 ARBOR Y Y n Y Y
+TD166 Classic #2 _A___ -CEGHIKLMNPRSTW? ␅
+TD1482354 ␆Mnnnn
+TD111 Classic #2 _A___ -CEGHIKLMNPRSTW? Mnnnn
+TD257 attempt: 1 ARBOR m n n n n
+TD148 Classic #3 S____ ~ER -ACGHIKLMNPTW? ␅
+TD1277518 ␆nMnnn
+TD109 Classic #3 S____ ~ER -ACGHIKLMNPTW? nMnnn
+TD243 attempt: 2 ARBOR n m n n n
+TD331565 > ␅
+TD909412 ␆*
+TD112 > *
+TD558 questioning: ardor
+TD187 Classic #1 AR_OR -BCEGHIKLMNPSTW? ␅
+TD2679280 ␆YYYYY
+TD183 Classic #1 AR_OR -BCEGHIKLMNPSTW? YYYYY
+TD308 attempt: 0 ARDOR Y Y Y Y Y
+TD192 Classic #2 _A___ -BCEGHIKLMNOPRSTW? ␅
+TD3880887 ␆MnYnn
+TD53 Classic #2 _A___ -BCEGHIKLMNOPRSTW? MnYnn
+TD100 attempt: 1 ARDOR m n Y n n
+TD66 Classic #3 S____ ~ER -ABCGHIKLMNOPTW R:1? ␅
+TD1564443 ␆nMnnn
+TD120 Classic #3 S____ ~ER -ABCGHIKLMNOPTW R:1? nMnnn
+TD302 attempt: 2 ARDOR n m n n n
+TD213771 > ␅
+TD868887 ␆*
+TD105 > *
+TD592 ? ␅
+TD2020440 ␆1
+TD119 ? 1
+TD214 questioning: faddy
+TD217 Classic #2 _AD__ -BCEGHIKLMNOPRSTW? ␅
+TD4382280 ␆nYYYY
+TD99 Classic #2 _AD__ -BCEGHIKLMNOPRSTW? nYYYY
+TD258 attempt: 1 FADDY n Y Y Y Y
+TD150 Classic #3 S____ ~ER -ABCDGHIKLMNOPTW R:1? ␅
+TD2636031 ␆nnnnn
+TD141 Classic #3 S____ ~ER -ABCDGHIKLMNOPTW R:1? nnnnn
+TD370 attempt: 2 FADDY n n n n n
+TD213718 > ␅
+TD2033832 ␆* 3
+TD106 > * 3
+TD113471 questioning: serve
+TD98 Classic #2 _ADDY -BCEFGHIKLMNOPRSTW? ␅
+TD8576666 ␆nnnnn
+TD123 Classic #2 _ADDY -BCEFGHIKLMNOPRSTW? nnnnn
+TD219 attempt: 1 SERVE n n n n n
+TD125 Classic #3 S____ ~ER -ABCDFGHIKLMNOPTWY R:1? ␅
+TD1309499 ␆YYYYY
+TD208 Classic #3 S____ ~ER -ABCDFGHIKLMNOPTWY R:1? YYYYY
+TD370 attempt: 2 SERVE Y Y Y Y Y
+TD96147 > ␅
+TD2585005 ␆/res
+TD143 > /res
+TD304 📋> ␅
+TD5124132 ␆🙂 Daily Quordle 1611
+TD93 📋> 🙂 Daily Quordle 1611
+TD17 📋> ␅
+TD55 ␆7️⃣🟥
+TD9 📋> 7️⃣🟥
+TD8 📋> ␅
+TD18 ␆9️⃣5️⃣
+TD8 📋> 9️⃣5️⃣
+TD7 📋> ␅
+TD16 ␆m-w.com/games/quordle/
+TD8 📋> m-w.com/games/quordle/
+TD7 📋> ␅
+TD295010 ␆
+TD60 📋> 
+TD9 📋> ␅
+TD191566 ␄
+TD243 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1611\n7\ufe0f\u20e3\ud83d\udfe5\n9\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2311 result: "\ud83d\ude42 Daily Quordle 1611\n7\ufe0f\u20e3\ud83d\udfe5\n9\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD98337 > ␅
+TD2617204 ␆/store
+TD162 > /store
+TD558 📆 2026-06-23 ? ␅
+TD781745 ␆
+TD125 📆 2026-06-23 ? 
