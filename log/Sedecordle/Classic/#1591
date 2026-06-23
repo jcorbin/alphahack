@@ -1,0 +1,942 @@
+T285.8089314069948 now: 2026-06-23T08:18:39EDT
+TD265 site: https://www.sedecordle.com/?mode=daily
+TD39 wordlist: nwl2023.txt
+TD16 num_words: 16
+TD473  ...␅
+TD845375 ␆
+TD104  ...
+TD1536343 > ␅
+TD5226712 ␆*
+TD89 > *
+TD57321 ? ␅
+TD1887177 ␆1
+TD164 ? 1
+TD311 questioning: asper
+TD279  #1 _____? ␅
+TD4547501 ␆nnnMn
+TD112  #1 _____? nnnMn
+TD285 attempt: 0 ASPER n n n m n
+TD133  #2 _____? ␅
+TD1324630 ␆Ynnnn
+TD103  #2 _____? Ynnnn
+TD261 attempt: 1 ASPER Y n n n n
+TD142  #3 _____? ␅
+TD5063352 ␆YnnMn
+TD56  #3 _____? YnnMn
+TD126 attempt: 2 ASPER Y n n m n
+TD55  #4 _____? ␅
+TD1541221 ␆nnnYY
+TD86  #4 _____? nnnYY
+TD212 attempt: 3 ASPER n n n Y Y
+TD99  #5 _____? ␅
+TD3806562 ␆nnnMn
+TD112  #5 _____? nnnMn
+TD298 attempt: 4 ASPER n n n m n
+TD183  #6 _____? ␅
+TD1542834 ␆nMnYn
+TD72  #6 _____? nMnYn
+TD334 attempt: 5 ASPER n m n Y n
+TD95  #7 _____? ␅
+TD4666353 ␆MMnMn
+TD70  #7 _____? MMnMn
+TD144 attempt: 6 ASPER m m n m n
+TD62  #8 _____? ␅
+TD1279357 ␆nnnMn
+TD90  #8 _____? nnnMn
+TD205 attempt: 7 ASPER n n n m n
+TD95  #9 _____? ␅
+TD4651258 ␆nnnnn
+TD98  #9 _____? nnnnn
+TD262 attempt: 8 ASPER n n n n n
+TD124  #10 _____? ␅
+TD1405189 ␆MnMnn
+TD97  #10 _____? MnMnn
+TD275 attempt: 9 ASPER m n m n n
+TD120  #11 _____? ␅
+TD4244021 ␆MMnnM
+TD166  #11 _____? MMnnM
+TD403 attempt: 10 ASPER m m n n m
+TD237  #12 _____? ␅
+TD2084005 ␆nMnYY
+TD94  #12 _____? nMnYY
+TD226 attempt: 11 ASPER n m n Y Y
+TD105  #13 _____? ␅
+TD6535524 ␆MMnnM
+TD57  #13 _____? MMnnM
+TD110 attempt: 12 ASPER m m n n m
+TD47  #14 _____? ␅
+TD1236195 ␆nMnnn
+TD107  #14 _____? nMnnn
+TD278 attempt: 13 ASPER n m n n n
+TD147  #15 _____? ␅
+TD4865154 ␆MnMnM
+TD110  #15 _____? MnMnM
+TD296 attempt: 14 ASPER m n m n m
+TD154  #16 _____? ␅
+TD2492175 ␆nMnMn
+TD125  #16 _____? nMnMn
+TD508 attempt: 15 ASPER n m n m n
+TD1812256 > ␅
+TD2529157 ␆*
+TD146 > *
+TD35203 ? ␅
+TD13454418 ␆3
+TD129 ? 3
+TD264 questioning: hoist
+TD300  #1 _____ ~E -APRS? ␅
+TD3328114 ␆MnMnM
+TD132  #1 _____ ~E -APRS? MnMnM
+TD331 attempt: 0 HOIST m n m n m
+TD212  #2 A____ -EPRS? ␅
+TD1649446 ␆nMnnn
+TD91  #2 A____ -EPRS? nMnnn
+TD227 attempt: 1 HOIST n m n n n
+TD140  #3 A____ ~E -PRS? ␅
+TD3825262 ␆nnnnn
+TD89  #3 A____ ~E -PRS? nnnnn
+TD223 attempt: 2 HOIST n n n n n
+TD119  #4 ___ER -APS? ␅
+TD1261205 ␆nnnnM
+TD137  #4 ___ER -APS? nnnnM
+TD240 attempt: 3 HOIST n n n n m
+TD115  #5 _____ ~E -APRS? ␅
+TD9634007 ␆nnYnn
+TD57  #5 _____ ~E -APRS? nnYnn
+TD93 attempt: 4 HOIST n n Y n n
+TD49  #6 ___E_ ~S -APR? ␅
+TD1523440 ␆nnnMn
+TD118  #6 ___E_ ~S -APR? nnnMn
+TD273 attempt: 5 HOIST n n n m n
+TD136  #7 _____ ~AES -PR? ␅
+TD4854475 ␆MnnYn
+TD92  #7 _____ ~AES -PR? MnnYn
+TD227 attempt: 6 HOIST m n n Y n
+TD122  #8 _____ ~E -APRS? ␅
+TD1237404 ␆nnMnn
+TD162  #8 _____ ~E -APRS? nnMnn
+TD269 attempt: 7 HOIST n n m n n
+TD135  #9 _____ -AEPRS? ␅
+TD3847208 ␆Mnnnn
+TD98  #9 _____ -AEPRS? Mnnnn
+TD261 attempt: 8 HOIST m n n n n
+TD125  #10 _____ ~AP -ERS? ␅
+TD1239914 ␆nnnnn
+TD108  #10 _____ ~AP -ERS? nnnnn
+TD249 attempt: 9 HOIST n n n n n
+TD135  #11 _____ ~ARS -EP? ␅
+TD5647013 ␆MnnYn
+TD111  #11 _____ ~ARS -EP? MnnYn
+TD351 attempt: 10 HOIST m n n Y n
+TD150  #12 ___ER ~S -AP? ␅
+TD1738200 ␆nnMMn
+TD85  #12 ___ER ~S -AP? nnMMn
+TD205 attempt: 11 HOIST n n m m n
+TD108  #13 _____ ~ARS -EP? ␅
+TD4028547 ␆nnnYn
+TD122  #13 _____ ~ARS -EP? nnnYn
+TD307 attempt: 12 HOIST n n n Y n
+TD195  #14 _____ ~S -AEPR? ␅
+TD1544085 ␆nnYMM
+TD95  #14 _____ ~S -AEPR? nnYMM
+TD210 attempt: 13 HOIST n n Y m m
+TD108  #15 _____ ~APR -ES? ␅
+TD4079139 ␆nnnnn
+TD106  #15 _____ ~APR -ES? nnnnn
+TD286 attempt: 14 HOIST n n n n n
+TD135  #16 _____ ~ES -APR? ␅
+TD1551994 ␆nnMMn
+TD129  #16 _____ ~ES -APR? nnMMn
+TD291 attempt: 15 HOIST n n m m n
+TD1732569 > ␅
+TD3393036 ␆*
+TD124 > *
+TD714 ? ␅
+TD2947157 ␆1
+TD99 ? 1
+TD173 questioning: chase
+TD203  #1 _____ ~EHIT -AOPRS? ␅
+TD6322494 ␆MMnnM
+TD103  #1 _____ ~EHIT -AOPRS? MMnnM
+TD247 attempt: 0 CHASE m m n n m
+TD140  #2 A____ ~O -EHIPRST? ␅
+TD1216751 ␆nnMnn
+TD95  #2 A____ ~O -EHIPRST? nnMnn
+TD238 attempt: 1 CHASE n n m n n
+TD131  #3 A____ ~E -HIOPRST? ␅
+TD5603464 ␆nnMnY
+TD90  #3 A____ ~E -HIOPRST? nnMnY
+TD207 attempt: 2 CHASE n n m n Y
+TD106  #4 ___ER ~T -AHIOPS? ␅
+TD1294463 ␆nnnnM
+TD110  #4 ___ER ~T -AHIOPS? nnnnM
+TD238 attempt: 3 CHASE n n n n m
+TD125  #5 __I__ ~E -AHOPRST? ␅
+TD3961572 ␆nnnnY
+TD89  #5 __I__ ~E -AHOPRST? nnnnY
+TD203 attempt: 4 CHASE n n n n Y
+TD105  #6 ___E_ ~S -AHIOPRT? ␅
+TD1247492 ␆nnnMM
+TD84  #6 ___E_ ~S -AHIOPRT? nnnMM
+TD203 attempt: 5 CHASE n n n m m
+TD107  #7 ___S_ ~AEH -IOPRT? ␅
+TD6418489 ␆nMYYM
+TD147  #7 ___S_ ~AEH -IOPRT? nMYYM
+TD316 attempt: 6 CHASE n m Y Y m
+TD161  #8 _____ ~EI -AHOPRST? ␅
+TD1314326 ␆nnnnY
+TD66  #8 _____ ~EI -AHOPRST? nnnnY
+TD125 attempt: 7 CHASE n n n n Y
+TD69  #9 _____ ~H -AEIOPRST? ␅
+TD4037777 ␆MMnnn
+TD126  #9 _____ ~H -AEIOPRST? MMnnn
+TD307 attempt: 8 CHASE m m n n n
+TD161  #10 _____ ~AP -EHIORST? ␅
+TD1701211 ␆nnMnn
+TD98  #10 _____ ~AP -EHIORST? nnMnn
+TD313 attempt: 9 CHASE n n m n n
+TD135  #11 ___S_ ~AHR -EIOPT? ␅
+TD4838783 ␆YMYYn
+TD103  #11 ___S_ ~AHR -EIOPT? YMYYn
+TD246 attempt: 10 CHASE Y m Y Y n
+TD125  #12 ___ER ~IS -AHOPT? ␅
+TD1298032 ␆nnnMM
+TD71  #12 ___ER ~IS -AHOPT? nnnMM
+TD108 attempt: 11 CHASE n n n m m
+TD56  #13 ___S_ ~AR -EHIOPT? ␅
+TD3988219 ␆nnYYn
+TD108  #13 ___S_ ~AR -EHIOPT? nnYYn
+TD240 attempt: 12 CHASE n n Y Y n
+TD123  #14 __I__ ~ST -AEHOPR? ␅
+TD1621404 ␆nnnMn
+TD122  #14 __I__ ~ST -AEHOPR? nnnMn
+TD306 attempt: 13 CHASE n n n m n
+TD158  #15 _____ ~APR -EHIOST? ␅
+TD3839782 ␆nnYnn
+TD92  #15 _____ ~APR -EHIOST? nnYnn
+TD218 attempt: 14 CHASE n n Y n n
+TD115  #16 _____ ~EIS -AHOPRT? ␅
+TD1305391 ␆nnnMY
+TD103  #16 _____ ~EIS -AHOPRT? nnnMY
+TD255 attempt: 15 CHASE n n n m Y
+TD1553247 > ␅
+TD1504659 ␆*
+TD87 > *
+TD379 questioning: ethic
+TD213  #1 _____ ~CEHIT -AOPRS? ␅
+TD7380850 ␆YYYYY
+TD104  #1 _____ ~CEHIT -AOPRS? YYYYY
+TD217 attempt: 0 ETHIC Y Y Y Y Y
+TD115  #2 A____ ~O -CEHIPRST? ␅
+TD1390504 ␆nnnnn
+TD125  #2 A____ ~O -CEHIPRST? nnnnn
+TD225 attempt: 1 ETHIC n n n n n
+TD112  #3 A___E -CHIOPRST? ␅
+TD9214594 ␆Mnnnn
+TD91  #3 A___E -CHIOPRST? Mnnnn
+TD210 attempt: 2 ETHIC m n n n n
+TD111  #4 ___ER ~T -ACHIOPS? ␅
+TD1609043 ␆MMnnn
+TD120  #4 ___ER ~T -ACHIOPS? MMnnn
+TD300 attempt: 3 ETHIC m m n n n
+TD188  #5 __I_E -ACHOPRST? ␅
+TD4369274 ␆MnnMn
+TD93  #5 __I_E -ACHOPRST? MnnMn
+TD241 attempt: 4 ETHIC m n n m n
+TD129  #6 ___E_ ~S -ACHIOPRT? ␅
+TD1335152 ␆Mnnnn
+TD110  #6 ___E_ ~S -ACHIOPRT? Mnnnn
+TD235 attempt: 5 ETHIC m n n n n
+TD113  #7 __AS_ ~EH -CIOPRT? ␅
+TD3689981 ␆MnMnn
+TD92  #7 __AS_ ~EH -CIOPRT? MnMnn
+TD241 attempt: 6 ETHIC m n m n n
+TD133  #8 ____E ~I -ACHOPRST? ␅
+TD1530488 ␆MnnMn
+TD78  #8 ____E ~I -ACHOPRST? MnnMn
+TD200 attempt: 7 ETHIC m n n m n
+TD105  #9 _____ ~CH -AEIOPRST? ␅
+TD7319032 ␆nnMnM
+TD56  #9 _____ ~CH -AEIOPRST? nnMnM
+TD130 attempt: 8 ETHIC n n m n m
+TD86  #10 _____ ~AP -CEHIORST? ␅
+TD1208634 ␆nnnnn
+TD56  #10 _____ ~AP -CEHIORST? nnnnn
+TD114 attempt: 9 ETHIC n n n n n
+TD60  #11 C_AS_ ~HR -EIOPT? ␅
+TD4287028 ␆nnMnM
+TD132  #11 C_AS_ ~HR -EIOPT? nnMnM
+TD247 attempt: 10 ETHIC n n m n m
+TD132  #12 ___ER ~IS -ACHOPT? ␅
+TD2207627 ␆MnnMn
+TD82  #12 ___ER ~IS -ACHOPT? MnnMn
+TD174 attempt: 11 ETHIC m n n m n
+TD86  #13 __AS_ ~R -CEHIOPT? ␅
+TD4124636 ␆nnnnn
+TD86  #13 __AS_ ~R -CEHIOPT? nnnnn
+TD196 attempt: 12 ETHIC n n n n n
+TD106  #14 __I__ ~ST -ACEHOPR? ␅
+TD2191987 ␆nYnMn
+TD98  #14 __I__ ~ST -ACEHOPR? nYnMn
+TD246 attempt: 13 ETHIC n Y n m n
+TD133  #15 __A__ ~PR -CEHIOST? ␅
+TD3759631 ␆nnnnn
+TD91  #15 __A__ ~PR -CEHIOST? nnnnn
+TD223 attempt: 14 ETHIC n n n n n
+TD142  #16 ____E ~IS -ACHOPRT? ␅
+TD1798789 ␆MnnMn
+TD110  #16 ____E ~IS -ACHOPRT? MnnMn
+TD338 attempt: 15 ETHIC m n n m n
+TD1405829 > ␅
+TD1260474 ␆*
+TD82 > *
+TD369 questioning: crash
+TD185  #2 A____ ~O -CEHIPRST? ␅
+TD7318028 ␆nnMnn
+TD105  #2 A____ ~O -CEHIPRST? nnMnn
+TD261 attempt: 1 CRASH n n m n n
+TD147  #3 A___E -CHIOPRST? ␅
+TD3750560 ␆nnMnn
+TD147  #3 A___E -CHIOPRST? nnMnn
+TD370 attempt: 2 CRASH n n m n n
+TD248  #4 ___ER ~T -ACHIOPS? ␅
+TD2018784 ␆nMnnn
+TD104  #4 ___ER ~T -ACHIOPS? nMnnn
+TD296 attempt: 3 CRASH n m n n n
+TD146  #5 __I_E -ACHOPRST? ␅
+TD3272547 ␆nnnnn
+TD101  #5 __I_E -ACHOPRST? nnnnn
+TD177 attempt: 4 CRASH n n n n n
+TD95  #6 ___E_ ~S -ACHIOPRT? ␅
+TD2018193 ␆nnnMn
+TD105  #6 ___E_ ~S -ACHIOPRT? nnnMn
+TD253 attempt: 5 CRASH n n n m n
+TD173  #7 __AS_ ~EH -CIOPRT? ␅
+TD3397814 ␆nnYYY
+TD95  #7 __AS_ ~EH -CIOPRT? nnYYY
+TD290 attempt: 6 CRASH n n Y Y Y
+TD125  #8 ____E ~I -ACHOPRST? ␅
+TD1247530 ␆nnnnn
+TD131  #8 ____E ~I -ACHOPRST? nnnnn
+TD256 attempt: 7 CRASH n n n n n
+TD140  #9 _____ ~CH -AEIOPRST? ␅
+TD3760676 ␆MnnnY
+TD90  #9 _____ ~CH -AEIOPRST? MnnnY
+TD215 attempt: 8 CRASH m n n n Y
+TD115  #10 _____ ~AP -CEHIORST? ␅
+TD1169437 ␆nnMnn
+TD129  #10 _____ ~AP -CEHIORST? nnMnn
+TD228 attempt: 9 CRASH n n m n n
+TD115  #11 C_AS_ ~HR -EIOPT? ␅
+TD3216610 ␆YYYYY
+TD122  #11 C_AS_ ~HR -EIOPT? YYYYY
+TD288 attempt: 10 CRASH Y Y Y Y Y
+TD155  #12 ___ER ~IS -ACHOPT? ␅
+TD1253839 ␆nMnMn
+TD80  #12 ___ER ~IS -ACHOPT? nMnMn
+TD216 attempt: 11 CRASH n m n m n
+TD115  #13 __AS_ ~R -CEHIOPT? ␅
+TD8182267 ␆nYYYn
+TD101  #13 __AS_ ~R -CEHIOPT? nYYYn
+TD227 attempt: 12 CRASH n Y Y Y n
+TD129  #14 _TI__ ~S -ACEHOPR? ␅
+TD1229937 ␆nnnMn
+TD65  #14 _TI__ ~S -ACEHOPR? nnnMn
+TD123 attempt: 13 CRASH n n n m n
+TD71  #15 __A__ ~PR -CEHIOST? ␅
+TD3760743 ␆nYYnn
+TD119  #15 __A__ ~PR -CEHIOST? nYYnn
+TD296 attempt: 14 CRASH n Y Y n n
+TD189  #16 ____E ~IS -ACHOPRT? ␅
+TD1227263 ␆nnnMn
+TD96  #16 ____E ~IS -ACHOPRT? nnnMn
+TD283 attempt: 15 CRASH n n n m n
+TD1292644 > ␅
+TD8814010 ␆*
+TD124 > *
+TD659 ? ␅
+TD2447336 ␆2
+TD181 ? 2
+TD361 questioning: leash
+TD381  #2 A____ ~O -CEHIPRST? ␅
+TD4609040 ␆nnMnn
+TD105  #2 A____ ~O -CEHIPRST? nnMnn
+TD247 attempt: 1 LEASH n n m n n
+TD165  #3 A___E -CHIOPRST? ␅
+TD7304925 ␆MMMnn
+TD134  #3 A___E -CHIOPRST? MMMnn
+TD236 attempt: 2 LEASH m m m n n
+TD120  #4 ___ER ~T -ACHIOPS? ␅
+TD1162566 ␆nYnnn
+TD139  #4 ___ER ~T -ACHIOPS? nYnnn
+TD306 attempt: 3 LEASH n Y n n n
+TD179  #5 __I_E -ACHOPRST? ␅
+TD3647076 ␆nMnnn
+TD80  #5 __I_E -ACHOPRST? nMnnn
+TD237 attempt: 4 LEASH n m n n n
+TD123  #6 ___E_ ~S -ACHIOPRT? ␅
+TD1943963 ␆nMnMn
+TD134  #6 ___E_ ~S -ACHIOPRT? nMnMn
+TD282 attempt: 5 LEASH n m n m n
+TD155  #7 __ASH ~E -CIOPRT? ␅
+TD3934540 ␆YYYYY
+TD106  #7 __ASH ~E -CIOPRT? YYYYY
+TD281 attempt: 6 LEASH Y Y Y Y Y
+TD160  #8 ____E ~I -ACHOPRST? ␅
+TD2266692 ␆YMnnn
+TD115  #8 ____E ~I -ACHOPRST? YMnnn
+TD282 attempt: 7 LEASH Y m n n n
+TD206  #9 ____H ~C -AEIOPRST? ␅
+TD3920996 ␆MnnnY
+TD98  #9 ____H ~C -AEIOPRST? MnnnY
+TD243 attempt: 8 LEASH m n n n Y
+TD131  #10 _____ ~AP -CEHIORST? ␅
+TD1381772 ␆nnMnn
+TD111  #10 _____ ~AP -CEHIORST? nnMnn
+TD286 attempt: 9 LEASH n n m n n
+TD154  #12 ___ER ~IS -ACHOPT? ␅
+TD3953795 ␆nMnMn
+TD96  #12 ___ER ~IS -ACHOPT? nMnMn
+TD296 attempt: 11 LEASH n m n m n
+TD145  #13 _RAS_ -CEHIOPT? ␅
+TD3481223 ␆nnYYn
+TD101  #13 _RAS_ -CEHIOPT? nnYYn
+TD269 attempt: 12 LEASH n n Y Y n
+TD140  #14 _TI__ ~S -ACEHOPR? ␅
+TD1065822 ␆nnnMn
+TD155  #14 _TI__ ~S -ACEHOPR? nnnMn
+TD389 attempt: 13 LEASH n n n m n
+TD197  #15 _RA__ ~P -CEHIOST? ␅
+TD3286342 ␆nnYnn
+TD63  #15 _RA__ ~P -CEHIOST? nnYnn
+TD190 attempt: 14 LEASH n n Y n n
+TD88  #16 ____E ~IS -ACHOPRT? ␅
+TD1176764 ␆nMnMn
+TD119  #16 ____E ~IS -ACHOPRT? nMnMn
+TD217 attempt: 15 LEASH n m n m n
+TD1239667 > ␅
+TD3361780 ␆*
+TD104 > *
+TD586 ? ␅
+TD2460746 ␄
+TD134 <EOF>
+TD1206233 > ␅
+TD1731780 ␆* 6
+TD147 > * 6
+TD109452 ? ␅
+TD9693618 ␆6
+TD153 ? 6
+TD306 questioning: dukes
+TD330  #2 A____ ~O -CEHILPRST? ␅
+TD5462718 ␆nnnnn
+TD118  #2 A____ ~O -CEHILPRST? nnnnn
+TD262 attempt: 1 DUKES n n n n n
+TD148  #3 A___E ~L -CHIOPRST? ␅
+TD4776309 ␆nnYMn
+TD164  #3 A___E ~L -CHIOPRST? nnYMn
+TD267 attempt: 2 DUKES n n Y m n
+TD126  #4 _E_ER ~T -ACHILOPS? ␅
+TD1673805 ␆YnnYn
+TD101  #4 _E_ER ~T -ACHILOPS? YnnYn
+TD289 attempt: 3 DUKES Y n n Y n
+TD141  #5 __I_E -ACHLOPRST? ␅
+TD3984635 ␆nnMMn
+TD105  #5 __I_E -ACHLOPRST? nnMMn
+TD290 attempt: 4 DUKES n n m m n
+TD202  #6 ___E_ ~S -ACHILOPRT? ␅
+TD2470976 ␆MYnYM
+TD114  #6 ___E_ ~S -ACHILOPRT? MYnYM
+TD248 attempt: 5 DUKES m Y n Y m
+TD133  #8 L___E ~I -ACHOPRST? ␅
+TD3285183 ␆nnnMn
+TD93  #8 L___E ~I -ACHOPRST? nnnMn
+TD226 attempt: 7 DUKES n n n m n
+TD120  #9 ____H ~CL -AEIOPRST? ␅
+TD3598476 ␆nYnnn
+TD88  #9 ____H ~CL -AEIOPRST? nYnnn
+TD220 attempt: 8 DUKES n Y n n n
+TD156  #10 _____ ~AP -CEHILORST? ␅
+TD1072992 ␆nnnnn
+TD101  #10 _____ ~AP -CEHILORST? nnnnn
+TD243 attempt: 9 DUKES n n n n n
+TD127  #12 ___ER ~IS -ACHLOPT? ␅
+TD4031619 ␆nnnYM
+TD92  #12 ___ER ~IS -ACHLOPT? nnnYM
+TD517 attempt: 11 DUKES n n n Y m
+TD134  #13 _RAS_ -CEHILOPT? ␅
+TD3347369 ␆nnnnY
+TD117  #13 _RAS_ -CEHILOPT? nnnnY
+TD303 attempt: 12 DUKES n n n n Y
+TD166  #14 _TI__ ~S -ACEHLOPR? ␅
+TD1186222 ␆nnMnM
+TD85  #14 _TI__ ~S -ACEHLOPR? nnMnM
+TD202 attempt: 13 DUKES n n m n m
+TD111  #15 _RA__ ~P -CEHILOST? ␅
+TD3768691 ␆nnnnn
+TD95  #15 _RA__ ~P -CEHILOST? nnnnn
+TD223 attempt: 14 DUKES n n n n n
+TD128  #16 ____E ~IS -ACHLOPRT? ␅
+TD1629689 ␆nnnMM
+TD96  #16 ____E ~IS -ACHLOPRT? nnnMM
+TD227 attempt: 15 DUKES n n n m m
+TD1191271 > ␅
+TD890250 ␆*
+TD103 > *
+TD412 questioning: ankle
+TD199  #2 A____ ~O -CDEHIKLPRSTU? ␅
+TD5079343 ␆YMnnn
+TD170  #2 A____ ~O -CDEHIKLPRSTU? YMnnn
+TD498 attempt: 1 ANKLE Y m n n n
+TD404  #3 A_K_E ~L -CDHIOPRSTU? ␅
+TD6232110 ␆YYYYY
+TD106  #3 A_K_E ~L -CDHIOPRSTU? YYYYY
+TD274 attempt: 2 ANKLE Y Y Y Y Y
+TD172  #4 DE_ER ~T -ACHIKLOPSU? ␅
+TD1407371 ␆nnnnM
+TD131  #4 DE_ER ~T -ACHIKLOPSU? nnnnM
+TD365 attempt: 3 ANKLE n n n n m
+TD459  #5 __I_E ~K -ACDHLOPRSTU? ␅
+TD5044690 ␆nYMnY
+TD134  #5 __I_E ~K -ACDHLOPRSTU? nYMnY
+TD269 attempt: 4 ANKLE n Y m n Y
+TD146  #6 _U_E_ ~DS -ACHIKLOPRT? ␅
+TD1253261 ␆nnnnM
+TD103  #6 _U_E_ ~DS -ACHIKLOPRT? nnnnM
+TD459 attempt: 5 ANKLE n n n n m
+TD220  #8 L___E ~I -ACDHKOPRSTU? ␅
+TD4605478 ␆nnnMY
+TD159  #8 L___E ~I -ACDHKOPRSTU? nnnMY
+TD390 attempt: 7 ANKLE n n n m Y
+TD212  #9 _U__H ~CL -ADEIKOPRST? ␅
+TD5823117 ␆nnnMn
+TD107  #9 _U__H ~CL -ADEIKOPRST? nnnMn
+TD220 attempt: 8 ANKLE n n n m n
+TD116  #10 _____ ~AP -CDEHIKLORSTU? ␅
+TD3462568 ␆MMnnn
+TD211  #10 _____ ~AP -CDEHIKLORSTU? MMnnn
+TD326 attempt: 9 ANKLE m m n n n
+TD175  #12 ___ER ~IS -ACDHKLOPTU? ␅
+TD4948945 ␆nnnnM
+TD77  #12 ___ER ~IS -ACDHKLOPTU? nnnnM
+TD154 attempt: 11 ANKLE n n n n m
+TD81  #13 _RASS -CDEHIKLOPTU? ␅
+TD5009993 ␆Mnnnn
+TD52  #13 _RASS -CDEHIKLOPTU? Mnnnn
+TD114 attempt: 12 ANKLE m n n n n
+TD57  #14 _TI__ ~KS -ACDEHLOPRU? ␅
+TD1737618 ␆nMMnn
+TD97  #14 _TI__ ~KS -ACDEHLOPRU? nMMnn
+TD372 attempt: 13 ANKLE n m m n n
+TD245  #15 _RA__ ~P -CDEHIKLOSTU? ␅
+TD4392857 ␆MMnnn
+TD116  #15 _RA__ ~P -CDEHIKLOSTU? MMnnn
+TD326 attempt: 14 ANKLE m m n n n
+TD196  #16 ____E ~IS -ACDHKLOPRTU? ␅
+TD1561884 ␆nMnnY
+TD156  #16 ____E ~IS -ACDHKLOPRTU? nMnnY
+TD380 attempt: 15 ANKLE n m n n Y
+TD1128903 > ␅
+TD5061542 ␆*
+TD82 > *
+TD390 questioning: deter
+TD168  #2 A____ ~NO -CDEHIKLPRSTU? ␅
+TD13797941 ␆nnnnn
+TD177  #2 A____ ~NO -CDEHIKLPRSTU? nnnnn
+TD320 attempt: 1 DETER n n n n n
+TD199  #4 DE_ER ~T -ACHIKLNOPSU? ␅
+TD4380941 ␆YYYYY
+TD147  #4 DE_ER ~T -ACHIKLNOPSU? YYYYY
+TD274 attempt: 3 DETER Y Y Y Y Y
+TD151  #5 _NI_E ~K -ACDHLOPRSTU? ␅
+TD1818927 ␆nMnnn
+TD75  #5 _NI_E ~K -ACDHLOPRSTU? nMnnn
+TD157 attempt: 4 DETER n m n n n
+TD82  #6 _U_E_ ~DS -ACHIKLNOPRT? ␅
+TD2087636 ␆MnnYn
+TD108  #6 _U_E_ ~DS -ACHIKLNOPRT? MnnYn
+TD205 attempt: 5 DETER m n n Y n
+TD113  #8 L___E ~I -ACDHKNOPRSTU? ␅
+TD3267361 ␆nMnMn
+TD125  #8 L___E ~I -ACDHKNOPRSTU? nMnMn
+TD257 attempt: 7 DETER n m n m n
+TD142  #9 _U__H ~CL -ADEIKNOPRST? ␅
+TD6042719 ␆nnnnn
+TD147  #9 _U__H ~CL -ADEIKNOPRST? nnnnn
+TD267 attempt: 8 DETER n n n n n
+TD162  #10 _____ ~ANP -CDEHIKLORSTU? ␅
+TD1248042 ␆nnnnn
+TD147  #10 _____ ~ANP -CDEHIKLORSTU? nnnnn
+TD287 attempt: 9 DETER n n n n n
+TD149  #12 ___ER ~IS -ACDHKLNOPTU? ␅
+TD3865900 ␆nnnYY
+TD203  #12 ___ER ~IS -ACDHKLNOPTU? nnnYY
+TD427 attempt: 11 DETER n n n Y Y
+TD368  #13 _RASS -CDEHIKLNOPTU? ␅
+TD4875896 ␆nnnnM
+TD129  #13 _RASS -CDEHIKLNOPTU? nnnnM
+TD250 attempt: 12 DETER n n n n m
+TD151  #14 _TI__ ~KNS -ACDEHLOPRU? ␅
+TD1131123 ␆nnMnn
+TD141  #14 _TI__ ~KNS -ACDEHLOPRU? nnMnn
+TD273 attempt: 13 DETER n n m n n
+TD142  #15 _RA__ ~NP -CDEHIKLOSTU? ␅
+TD3716083 ␆nnnnM
+TD185  #15 _RA__ ~NP -CDEHIKLOSTU? nnnnM
+TD365 attempt: 14 DETER n n n n m
+TD158  #16 ____E ~INS -ACDHKLOPRTU? ␅
+TD2634632 ␆nMnnn
+TD283  #16 ____E ~INS -ACDHKLOPRTU? nMnnn
+TD486 attempt: 15 DETER n m n n n
+TD1047555 > ␅
+TD2631719 ␆*
+TD83 > *
+TD483 questioning: knife
+TD188  #2 A____ ~NO -CDEHIKLPRSTU? ␅
+TD5713048 ␆nMnnn
+TD105  #2 A____ ~NO -CDEHIKLPRSTU? nMnnn
+TD240 attempt: 1 KNIFE n m n n n
+TD133  #5 _NI_E ~K -ACDHLOPRSTU E:1? ␅
+TD5992134 ␆YYYYY
+TD106  #5 _NI_E ~K -ACDHLOPRSTU E:1? YYYYY
+TD351 attempt: 4 KNIFE Y Y Y Y Y
+TD173  #6 _U_E_ ~DS -ACHIKLNOPRT? ␅
+TD2091926 ␆nnnnM
+TD133  #6 _U_E_ ~DS -ACHIKLNOPRT? nnnnM
+TD327 attempt: 5 KNIFE n n n n m
+TD176  #8 L___E ~I -ACDHKNOPRSTU? ␅
+TD3603784 ␆nnMnY
+TD59  #8 L___E ~I -ACDHKNOPRSTU? nnMnY
+TD144 attempt: 7 KNIFE n n m n Y
+TD76  #9 _U__H ~CL -ADEIKNOPRST? ␅
+TD3179454 ␆nnnnn
+TD95  #9 _U__H ~CL -ADEIKNOPRST? nnnnn
+TD244 attempt: 8 KNIFE n n n n n
+TD132  #10 _____ ~ANP -CDEHIKLORSTU? ␅
+TD1213347 ␆nMnnn
+TD96  #10 _____ ~ANP -CDEHIKLORSTU? nMnnn
+TD239 attempt: 9 KNIFE n m n n n
+TD139  #12 ___ER ~IS -ACDHKLNOPTU? ␅
+TD5748506 ␆nnMnM
+TD70  #12 ___ER ~IS -ACDHKLNOPTU? nnMnM
+TD170 attempt: 11 KNIFE n n m n m
+TD86  #13 _RASS -CDEHIKLNOPTU? ␅
+TD4010362 ␆nnnnn
+TD103  #13 _RASS -CDEHIKLNOPTU? nnnnn
+TD288 attempt: 12 KNIFE n n n n n
+TD140  #14 _TI__ ~KNS -ACDEHLOPRU? ␅
+TD1600477 ␆MMYnn
+TD104  #14 _TI__ ~KNS -ACDEHLOPRU? MMYnn
+TD284 attempt: 13 KNIFE m m Y n n
+TD148  #15 _RA__ ~NP -CDEHIKLOSTU? ␅
+TD5394014 ␆nMnnn
+TD83  #15 _RA__ ~NP -CDEHIKLOSTU? nMnnn
+TD219 attempt: 14 KNIFE n m n n n
+TD129  #16 ____E ~INS -ACDHKLOPRTU E:1? ␅
+TD2796488 ␆nMMnY
+TD98  #16 ____E ~INS -ACDHKLOPRTU E:1? nMMnY
+TD243 attempt: 15 KNIFE n m m n Y
+TD951357 > ␅
+TD28389904 ␆*
+TD170 > *
+TD525 questioning: stink
+TD232  #2 A____ ~NO -CDEFHIKLPRSTU? ␅
+TD23432538 ␆nnnYn
+TD122  #2 A____ ~NO -CDEFHIKLPRSTU? nnnYn
+TD281 attempt: 1 STINK n n n Y n
+TD149  #6 _U_E_ ~DS -ACFHIKLNOPRT? ␅
+TD4456705 ␆Mnnnn
+TD84  #6 _U_E_ ~DS -ACFHIKLNOPRT? Mnnnn
+TD217 attempt: 5 STINK m n n n n
+TD137  #8 L___E ~I -ACDFHKNOPRSTU? ␅
+TD3982661 ␆nnMnn
+TD118  #8 L___E ~I -ACDFHKNOPRSTU? nnMnn
+TD329 attempt: 7 STINK n n m n n
+TD169  #9 _U__H ~CL -ADEFIKNOPRST? ␅
+TD4699346 ␆nnnnn
+TD105  #9 _U__H ~CL -ADEFIKNOPRST? nnnnn
+TD319 attempt: 8 STINK n n n n n
+TD184  #10 _____ ~ANP -CDEFHIKLORSTU? ␅
+TD1367243 ␆nnnMn
+TD109  #10 _____ ~ANP -CDEFHIKLORSTU? nnnMn
+TD279 attempt: 9 STINK n n n m n
+TD183  #12 ___ER ~IS -ACDFHKLNOPTU? ␅
+TD3506886 ␆MnMnn
+TD173  #12 ___ER ~IS -ACDFHKLNOPTU? MnMnn
+TD478 attempt: 11 STINK m n m n n
+TD273  #13 _RASS -CDEFHIKLNOPTU? ␅
+TD4131520 ␆Mnnnn
+TD110  #13 _RASS -CDEFHIKLNOPTU? Mnnnn
+TD289 attempt: 12 STINK m n n n n
+TD207  #14 _TI__ ~KNS -ACDEFHLOPRU? ␅
+TD1821143 ␆YYYYY
+TD122  #14 _TI__ ~KNS -ACDEFHLOPRU? YYYYY
+TD327 attempt: 13 STINK Y Y Y Y Y
+TD188  #15 _RA__ ~NP -CDEFHIKLOSTU? ␅
+TD4714666 ␆nnnMn
+TD118  #15 _RA__ ~NP -CDEFHIKLOSTU? nnnMn
+TD323 attempt: 14 STINK n n n m n
+TD218  #16 ____E ~INS -ACDFHKLOPRTU? ␅
+TD1649280 ␆YnMMn
+TD131  #16 ____E ~INS -ACDFHKLOPRTU? YnMMn
+TD367 attempt: 15 STINK Y n m m n
+TD824529 > ␅
+TD4984448 ␆*
+TD110 > *
+TD371 questioning: prawn
+TD167  #2 A__N_ ~O -CDEFHIKLPRSTU? ␅
+TD5391068 ␆nnMnM
+TD92  #2 A__N_ ~O -CDEFHIKLPRSTU? nnMnM
+TD269 attempt: 1 PRAWN n n m n m
+TD151  #6 _U_E_ ~DS -ACFHIKLNOPRT? ␅
+TD4184951 ␆nnnnn
+TD104  #6 _U_E_ ~DS -ACFHIKLNOPRT? nnnnn
+TD302 attempt: 5 PRAWN n n n n n
+TD172  #8 L___E ~I -ACDFHKNOPRSTU? ␅
+TD3599590 ␆nnnnn
+TD105  #8 L___E ~I -ACDFHKNOPRSTU? nnnnn
+TD270 attempt: 7 PRAWN n n n n n
+TD139  #9 _U__H ~CL -ADEFIKNOPRST? ␅
+TD2784337 ␆nnnnn
+TD87  #9 _U__H ~CL -ADEFIKNOPRST? nnnnn
+TD241 attempt: 8 PRAWN n n n n n
+TD120  #10 _____ ~ANP -CDEFHIKLORSTU? ␅
+TD2735743 ␆YnMnY
+TD104  #10 _____ ~ANP -CDEFHIKLORSTU? YnMnY
+TD269 attempt: 9 PRAWN Y n m n Y
+TD138  #12 ___ER ~IS -ACDFHKLNOPTU? ␅
+TD3499162 ␆nMnnn
+TD71  #12 ___ER ~IS -ACDFHKLNOPTU? nMnnn
+TD181 attempt: 11 PRAWN n m n n n
+TD100  #13 _RASS -CDEFHIKLNOPTU? ␅
+TD5207149 ␆nYYnn
+TD100  #13 _RASS -CDEFHIKLNOPTU? nYYnn
+TD244 attempt: 12 PRAWN n Y Y n n
+TD157  #15 _RA__ ~NP -CDEFHIKLOSTU? ␅
+TD3835224 ␆YYYYY
+TD89  #15 _RA__ ~NP -CDEFHIKLOSTU? YYYYY
+TD217 attempt: 14 PRAWN Y Y Y Y Y
+TD126  #16 S___E ~IN -ACDFHKLOPRTU? ␅
+TD1731119 ␆nnnnM
+TD104  #16 S___E ~IN -ACDFHKLOPRTU? nnnnM
+TD374 attempt: 15 PRAWN n n n n m
+TD717018 > ␅
+TD2391745 ␆*
+TD161 > *
+TD619 questioning: singe
+TD313  #2 A__N_ ~O -CDEFHIKLPRSTUW? ␅
+TD8513560 ␆nnMMn
+TD136  #2 A__N_ ~O -CDEFHIKLPRSTUW? nnMMn
+TD330 attempt: 1 SINGE n n m m n
+TD177  #6 _U_E_ ~DS -ACFHIKLNOPRTW? ␅
+TD4124705 ␆MnnnM
+TD80  #6 _U_E_ ~DS -ACFHIKLNOPRTW? MnnnM
+TD217 attempt: 5 SINGE m n n n m
+TD122  #8 L___E ~I -ACDFHKNOPRSTUW? ␅
+TD4164324 ␆nYnYY
+TD95  #8 L___E ~I -ACDFHKNOPRSTUW? nYnYY
+TD280 attempt: 7 SINGE n Y n Y Y
+TD145  #9 _U__H ~CL -ADEFIKNOPRSTW? ␅
+TD3984920 ␆nnnMn
+TD169  #9 _U__H ~CL -ADEFIKNOPRSTW? nnnMn
+TD419 attempt: 8 SINGE n n n m n
+TD285  #10 P___N ~A -CDEFHIKLORSTUW? ␅
+TD1283373 ␆nnMMn
+TD98  #10 P___N ~A -CDEFHIKLORSTUW? nnMMn
+TD246 attempt: 9 SINGE n n m m n
+TD163  #12 ___ER ~IS -ACDFHKLNOPTUW? ␅
+TD4311454 ␆MYnnM
+TD105  #12 ___ER ~IS -ACDFHKLNOPTUW? MYnnM
+TD267 attempt: 11 SINGE m Y n n m
+TD170  #13 _RASS -CDEFHIKLNOPTUW? ␅
+TD3760557 ␆MnnMn
+TD94  #13 _RASS -CDEFHIKLNOPTUW? MnnMn
+TD259 attempt: 12 SINGE m n n m n
+TD167  #16 S___E ~IN -ACDFHKLOPRTUW? ␅
+TD4217312 ␆YYYYY
+TD105  #16 S___E ~IN -ACDFHKLOPRTUW? YYYYY
+TD253 attempt: 15 SINGE Y Y Y Y Y
+TD614821 > ␅
+TD5597058 ␆* 13
+TD99 > * 13
+TD103925 questioning: grass
+TD110  #2 A__N_ ~GO -CDEFHIKLPRSTUW? ␅
+TD12745335 ␆MnMnn
+TD106  #2 A__N_ ~GO -CDEFHIKLPRSTUW? MnMnn
+TD242 attempt: 1 GRASS m n m n n
+TD144  #6 _U_E_ ~DS -ACFGHIKLNOPRTW? ␅
+TD5233357 ␆nnnMn
+TD88  #6 _U_E_ ~DS -ACFGHIKLNOPRTW? nnnMn
+TD186 attempt: 5 GRASS n n n m n
+TD106  #8 LI_GE -ACDFHKNOPRSTUW? ␅
+TD6289134 ␆Mnnnn
+TD118  #8 LI_GE -ACDFHKNOPRSTUW? Mnnnn
+TD245 attempt: 7 GRASS m n n n n
+TD164  #9 _U__H ~CGL -ADEFIKNOPRSTW? ␅
+TD6658956 ␆Ynnnn
+TD150  #9 _U__H ~CGL -ADEFIKNOPRSTW? Ynnnn
+TD261 attempt: 8 GRASS Y n n n n
+TD150  #10 P___N ~AG -CDEFHIKLORSTUW? ␅
+TD1121985 ␆MnMnn
+TD104  #10 P___N ~AG -CDEFHIKLORSTUW? MnMnn
+TD256 attempt: 9 GRASS m n m n n
+TD161  #12 _I_ER ~S -ACDFGHKLNOPTUW? ␅
+TD6518322 ␆nMnMn
+TD103  #12 _I_ER ~S -ACDFGHKLNOPTUW? nMnMn
+TD241 attempt: 11 GRASS n m n m n
+TD136  #13 _RASS ~G -CDEFHIKLNOPTUW? ␅
+TD6226623 ␆YYYYY
+TD66  #13 _RASS ~G -CDEFHIKLNOPTUW? YYYYY
+TD159 attempt: 12 GRASS Y Y Y Y Y
+TD563990 > ␅
+TD6985555 ␆* 
+TD97 > * 
+TD392 questioning: liege
+TD177  #2 A__N_ ~GO -CDEFHIKLPRSTUW? ␅
+TD12073436 ␆nnnMn
+TD167  #2 A__N_ ~GO -CDEFHIKLPRSTUW? nnnMn
+TD370 attempt: 1 LIEGE n n n m n
+TD263  #6 _U_E_ ~DS -ACFGHIKLNOPRTW S:1? ␅
+TD6231892 ␆nnMnn
+TD111  #6 _U_E_ ~DS -ACFGHIKLNOPRTW S:1? nnMnn
+TD282 attempt: 5 LIEGE n n m n n
+TD168  #8 LI_GE -ACDFHKNOPRSTUW? ␅
+TD2851700 ␆YYYYY
+TD54  #8 LI_GE -ACDFHKNOPRSTUW? YYYYY
+TD91 attempt: 7 LIEGE Y Y Y Y Y
+TD83  #9 GU__H ~CL -ADEFIKNOPRSTW? ␅
+TD5315564 ␆MnnMn
+TD115  #9 GU__H ~CL -ADEFIKNOPRSTW? MnnMn
+TD232 attempt: 8 LIEGE m n n m n
+TD127  #10 P___N ~AG -CDEFHIKLORSTUW? ␅
+TD1741291 ␆nnnMn
+TD94  #10 P___N ~AG -CDEFHIKLORSTUW? nnnMn
+TD236 attempt: 9 LIEGE n n n m n
+TD132  #12 _I_ER ~S -ACDFGHKLNOPTUW S:1? ␅
+TD4466424 ␆nYMnn
+TD129  #12 _I_ER ~S -ACDFGHKLNOPTUW S:1? nYMnn
+TD338 attempt: 11 LIEGE n Y m n n
+TD457549 > ␅
+TD2309256 ␆*
+TD70 > *
+TD174 questioning: gulch
+TD91  #2 A__N_ ~GO -CDEFHIKLPRSTUW? ␅
+TD7303526 ␆Mnnnn
+TD181  #2 A__N_ ~GO -CDEFHIKLPRSTUW? Mnnnn
+TD752 attempt: 1 GULCH m n n n n
+TD215  #6 _U_E_ ~DS -ACFGHIKLNOPRTW E:1 S:1? ␅
+TD4593720 ␆nYnnn
+TD61  #6 _U_E_ ~DS -ACFGHIKLNOPRTW E:1 S:1? nYnnn
+TD125 attempt: 5 GULCH n Y n n n
+TD78  #9 GU__H ~CL -ADEFIKNOPRSTW? ␅
+TD3506603 ␆YYYYY
+TD118  #9 GU__H ~CL -ADEFIKNOPRSTW? YYYYY
+TD328 attempt: 8 GULCH Y Y Y Y Y
+TD165  #10 P___N ~AG -CDEFHIKLORSTUW? ␅
+TD6991035 ␆Mnnnn
+TD107  #10 P___N ~AG -CDEFHIKLORSTUW? Mnnnn
+TD269 attempt: 9 GULCH m n n n n
+TD155  #12 _I_ER ~S -ACDFGHKLNOPTUW E:1 S:1? ␅
+TD7471227 ␆nnnnn
+TD98  #12 _I_ER ~S -ACDFGHKLNOPTUW E:1 S:1? nnnnn
+TD259 attempt: 11 GULCH n n n n n
+TD368586 > ␅
+TD1564998 ␆*
+TD108 > *
+TD332 questioning: pagan
+TD148  #2 A__N_ ~GO -CDEFHIKLPRSTUW? ␅
+TD5893937 ␆nMMnM
+TD62  #2 A__N_ ~GO -CDEFHIKLPRSTUW? nMMnM
+TD130 attempt: 1 PAGAN n m m n m
+TD76  #6 _U_E_ ~DS -ACFGHIKLNOPRTW E:1 S:1? ␅
+TD5088726 ␆nnnnn
+TD109  #6 _U_E_ ~DS -ACFGHIKLNOPRTW E:1 S:1? nnnnn
+TD258 attempt: 5 PAGAN n n n n n
+TD174  #10 P___N ~AG -CDEFHIKLORSTUW? ␅
+TD2695605 ␆YYYYY
+TD86  #10 P___N ~AG -CDEFHIKLORSTUW? YYYYY
+TD203 attempt: 9 PAGAN Y Y Y Y Y
+TD146  #12 _I_ER ~S -ACDFGHKLNOPTUW E:1 S:1? ␅
+TD4464741 ␆nnnnn
+TD95  #12 _I_ER ~S -ACDFGHKLNOPTUW E:1 S:1? nnnnn
+TD266 attempt: 11 PAGAN n n n n n
+TD284466 > ␅
+TD1387197 ␆*
+TD87 > *
+TD524 ? ␅
+TD1890030 ␆2
+TD119 ? 2
+TD318 questioning: among
+TD301  #2 A__N_ ~GO -CDEFHIKLPRSTUW A:1? ␅
+TD4878293 ␆YYYYY
+TD55  #2 A__N_ ~GO -CDEFHIKLPRSTUW A:1? YYYYY
+TD139 attempt: 1 AMONG Y Y Y Y Y
+TD87  #6 _U_E_ ~DS -ACFGHIKLNOPRTW E:1 S:1? ␅
+TD4370561 ␆nnnnn
+TD88  #6 _U_E_ ~DS -ACFGHIKLNOPRTW E:1 S:1? nnnnn
+TD254 attempt: 5 AMONG n n n n n
+TD170  #12 _I_ER ~S -ACDFGHKLNOPTUW E:1 S:1? ␅
+TD5292734 ␆nMnnn
+TD109  #12 _I_ER ~S -ACDFGHKLNOPTUW E:1 S:1? nMnnn
+TD335 attempt: 11 AMONG n m n n n
+TD190023 > ␅
+TD813820 ␆*
+TD124 > *
+TD386 questioning: bused
+TD155  #6 _U_E_ ~DS -ACFGHIKLMNOPRTW E:1 S:1? ␅
+TD6040984 ␆YYYYY
+TD91  #6 _U_E_ ~DS -ACFGHIKLMNOPRTW E:1 S:1? YYYYY
+TD231 attempt: 5 BUSED Y Y Y Y Y
+TD196  #12 _I_ER ~MS -ACDFGHKLNOPTUW E:1 S:1? ␅
+TD1913000 ␆nnYYn
+TD91  #12 _I_ER ~MS -ACDFGHKLNOPTUW E:1 S:1? nnYYn
+TD220 attempt: 11 BUSED n n Y Y n
+TD95873 > ␅
+TD749033 ␆*
+TD109 > *
+TD447 questioning: miser
+TD199  #12 _ISER ~M -ABCDFGHKLNOPTUW? ␅
+TD3254967 ␆YYYYY
+TD108  #12 _ISER ~M -ABCDFGHKLNOPTUW? YYYYY
+TD237 attempt: 11 MISER Y Y Y Y Y
+TD161 📋> ␅
+TD4366378 ␆Daily #1591
+TD77 📋> Daily #1591
+TD33 📋> ␅
+TD81 ␆0️⃣4️⃣⬛1️⃣8️⃣
+TD9 📋> 0️⃣4️⃣⬛1️⃣8️⃣
+TD8 📋> ␅
+TD29 ␆0️⃣8️⃣⬛0️⃣9️⃣
+TD7 📋> 0️⃣8️⃣⬛0️⃣9️⃣
+TD7 📋> ␅
+TD26 ␆1️⃣0️⃣⬛1️⃣9️⃣
+TD7 📋> 1️⃣0️⃣⬛1️⃣9️⃣
+TD6 📋> ␅
+TD25 ␆0️⃣6️⃣⬛1️⃣5️⃣
+TD7 📋> 0️⃣6️⃣⬛1️⃣5️⃣
+TD7 📋> ␅
+TD28 ␆1️⃣6️⃣⬛1️⃣7️⃣
+TD6 📋> 1️⃣6️⃣⬛1️⃣7️⃣
+TD6 📋> ␅
+TD22 ␆0️⃣5️⃣⬛2️⃣0️⃣
+TD6 📋> 0️⃣5️⃣⬛2️⃣0️⃣
+TD6 📋> ␅
+TD23 ␆1️⃣4️⃣⬛1️⃣1️⃣
+TD6 📋> 1️⃣4️⃣⬛1️⃣1️⃣
+TD6 📋> ␅
+TD23 ␆1️⃣2️⃣⬛1️⃣3️⃣
+TD6 📋> 1️⃣2️⃣⬛1️⃣3️⃣
+TD7 📋> ␅
+TD22 ␆sedecordle.com
+TD7 📋> sedecordle.com
+TD7 📋> ␅
+TD22 ␆#sedecordle
+TD6 📋> #sedecordle
+TD6 📋> ␅
+TD304850 ␆
+TD102 📋> 
+TD17 📋> ␅
+TD184613 ␄
+TD200 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily #1591\n0\ufe0f\u20e34\ufe0f\u20e3\u2b1b1\ufe0f\u20e38\ufe0f\u20e3\n0\ufe0f\u20e38\ufe0f\u20e3\u2b1b0\ufe0f\u20e39\ufe0f\u20e3\n1\ufe0f\u20e30\ufe0f\u20e3\u2b1b1\ufe0f\u20e39\ufe0f\u20e3\n0\ufe0f\u20e36\ufe0f\u20e3\u2b1b1\ufe0f\u20e35\ufe0f\u20e3\n1\ufe0f\u20e36\ufe0f\u20e3\u2b1b1\ufe0f\u20e37\ufe0f\u20e3\n0\ufe0f\u20e35\ufe0f\u20e3\u2b1b2\ufe0f\u20e30\ufe0f\u20e3\n1\ufe0f\u20e34\ufe0f\u20e3\u2b1b1\ufe0f\u20e31\ufe0f\u20e3\n1\ufe0f\u20e32\ufe0f\u20e3\u2b1b1\ufe0f\u20e33\ufe0f\u20e3\nsedecordle.com\n#sedecordle\n"}
+TD319 result: "Daily #1591\n0\ufe0f\u20e34\ufe0f\u20e3\u2b1b1\ufe0f\u20e38\ufe0f\u20e3\n0\ufe0f\u20e38\ufe0f\u20e3\u2b1b0\ufe0f\u20e39\ufe0f\u20e3\n1\ufe0f\u20e30\ufe0f\u20e3\u2b1b1\ufe0f\u20e39\ufe0f\u20e3\n0\ufe0f\u20e36\ufe0f\u20e3\u2b1b1\ufe0f\u20e35\ufe0f\u20e3\n1\ufe0f\u20e36\ufe0f\u20e3\u2b1b1\ufe0f\u20e37\ufe0f\u20e3\n0\ufe0f\u20e35\ufe0f\u20e3\u2b1b2\ufe0f\u20e30\ufe0f\u20e3\n1\ufe0f\u20e34\ufe0f\u20e3\u2b1b1\ufe0f\u20e31\ufe0f\u20e3\n1\ufe0f\u20e32\ufe0f\u20e3\u2b1b1\ufe0f\u20e33\ufe0f\u20e3\nsedecordle.com\n#sedecordle\n"
+TD95 📆 2026-06-23 ? ␅
+TD197526 ␆
+TD126 📆 2026-06-23 ? 
