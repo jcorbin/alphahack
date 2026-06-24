@@ -1,0 +1,252 @@
+T106.72045619500568 now: 2026-06-24T08:39:05EDT
+TD215 site: squareword.org
+TD49 wordlist: nwl2023.txt
+TD79  ...␅
+TD665190 ␆
+TD65  ...
+TD45 🧩  ? ␅
+TD12344346 ␆#1605
+TD112 🧩  ? #1605
+TD313 puzzle_id: #1605
+TD399 > ␅
+TD1535898 ␆*
+TD99 > *
+TD246535 try? ␅
+TD1392299 ␆1
+TD88 try? 1
+TD353 questioning: ["nares", "#5"]
+TD360 #1 <IndexError>  📋 "nares" ? ␅
+TD4675116 ␆_____ ~ AS
+TD105 #1 <IndexError>  📋 "nares" ? _____ ~ AS
+TD923 attempt 0 NARES n m n n m
+TD142 #2 <IndexError>  📋 "nares" ? ␅
+TD2907247 ␆__R__ ~ A
+TD65 #2 <IndexError>  📋 "nares" ? __R__ ~ A
+TD131 attempt 1 NARES n m Y n n
+TD57 #3 <IndexError>  📋 "nares" ? ␅
+TD2310149 ␆_____ ~ R
+TD105 #3 <IndexError>  📋 "nares" ? _____ ~ R
+TD287 attempt 2 NARES n n m n n
+TD135 #4 <IndexError>  📋 "nares" ? ␅
+TD2001622 ␆_____ ~ NA
+TD132 #4 <IndexError>  📋 "nares" ? _____ ~ NA
+TD355 attempt 3 NARES m m n n n
+TD157 #5 <IndexError>  📋 "nares" ? ␅
+TD2413746 ␆_____ ~ NES
+TD117 #5 <IndexError>  📋 "nares" ? _____ ~ NES
+TD277 attempt 4 NARES m n n m m
+TD401 ? ␅
+TD564413 ␆
+TD193 ? 
+TD267 question done
+TD736 > ␅
+TD5191213 ␆
+TD97 > 
+TD771 > ␅
+TD1388196 ␆*
+TD72 > *
+TD699814 try? ␅
+TD2006190 ␆1
+TD98 try? 1
+TD380 questioning: ["stein", "#5"]
+TD420 #1 _____ ~AS -ENR  📋 "stein" ? ␅
+TD4902407 ␆.
+TD74 #1 _____ ~AS -ENR  📋 "stein" ? .
+TD173 attempt 0 STEIN m n n n n
+TD60 #2 __R__ ~A -ENS  📋 "stein" ? ␅
+TD2784265 ␆_TRI_ ~ A
+TD140 #2 __R__ ~A -ENS  📋 "stein" ? _TRI_ ~ A
+TD474 attempt 1 STEIN n Y n Y n
+TD261 #3 _____ ~R -AENS  📋 "stein" ? ␅
+TD2835947 ␆_____ ~ RI
+TD86 #3 _____ ~R -AENS  📋 "stein" ? _____ ~ RI
+TD224 attempt 2 STEIN n n n m n
+TD67 #4 _____ ~AN -ERS  📋 "stein" ? ␅
+TD3664620 ␆_____ ~ NA
+TD125 #4 _____ ~AN -ERS  📋 "stein" ? _____ ~ NA
+TD368 attempt 3 STEIN n n n n m
+TD230 #5 _____ ~ENS -AR  📋 "stein" ? ␅
+TD3598275 ␆S____ ~ NES
+TD105 #5 _____ ~ENS -AR  📋 "stein" ? S____ ~ NES
+TD296 attempt 4 STEIN Y n m n m
+TD485 ? ␅
+TD1012352 ␆
+TD57 ? 
+TD72 question done
+TD144 > ␅
+TD740915 ␆*
+TD102 > *
+TD806034 try? ␅
+TD3922622 ␆1
+TD115 try? 1
+TD366 questioning: ["atrip", "#2"]
+TD462 #1 _____ ~AS -EINRT  📋 "atrip" ? ␅
+TD5961525 ␆_____ ~ ASP
+TD94 #1 _____ ~AS -EINRT  📋 "atrip" ? _____ ~ ASP
+TD254 attempt 0 ATRIP m n n n m
+TD143 #2 _TRI_ ~A -ENS  📋 "atrip" ? ␅
+TD186551342 <INT>
+TD269 <INT>
+TD49 <INT>
+T127.9596502740169 now: 2026-06-24T08:45:31EDT
+TD119 questioning: ["atrip", "#2"]
+TD153 #2 _TRI_ ~A -ENS  📋 "atrip" ? ␅
+TD12005116 ␆ATRI_ ~ A
+TD97 #2 _TRI_ ~A -ENS  📋 "atrip" ? ATRI_ ~ A
+TD1011 attempt 1 ATRIP Y Y Y Y n
+TD212 #3 _____ ~IR -AENST  📋 "atrip" ? ␅
+TD1684536 ␆.
+TD110 #3 _____ ~IR -AENST  📋 "atrip" ? .
+TD408 attempt 2 ATRIP n n m m n
+TD151 #4 _____ ~AN -EIRST  📋 "atrip" ? ␅
+TD6968081 ␆A____ ~ N
+TD112 #4 _____ ~AN -EIRST  📋 "atrip" ? A____ ~ N
+TD344 attempt 3 ATRIP Y n n n n
+TD231 #5 S____ ~EN -AIRT  📋 "atrip" ? ␅
+TD3093313 ␆S____ ~ NES
+TD111 #5 S____ ~EN -AIRT  📋 "atrip" ? S____ ~ NES
+TD315 attempt 4 ATRIP n n n n n
+TD663 ? ␅
+TD348891 ␆
+TD110 ? 
+TD170 question done
+TD596 > ␅
+TD12994083 ␆*
+TD119 > *
+TD995297 questioning: ["psalm", "#1"]
+TD191 #1 _____ ~APS -EINRT  📋 "psalm" ? ␅
+TD3444188 ␆/it
+TD103 #1 _____ ~APS -EINRT  📋 "psalm" ? /it
+TD279 attempt 0 PSALM Y Y Y Y Y
+TD108 #2 ATRI_ -ENPS  📋 "psalm" ? ␅
+TD5334423 ␆ATRI_ ~ A
+TD187 #2 ATRI_ -ENPS  📋 "psalm" ? ATRI_ ~ A
+TD490 attempt 1 PSALM n n m n n
+TD301 #3 _____ ~IR -AENPST  📋 "psalm" ? ␅
+TD1158989 ␆.
+TD111 #3 _____ ~IR -AENPST  📋 "psalm" ? .
+TD327 attempt 2 PSALM n n n n n
+TD139 #4 A____ ~N -EIPRST  📋 "psalm" ? ␅
+TD5335513 ␆A____ ~ NL
+TD120 #4 A____ ~N -EIPRST  📋 "psalm" ? A____ ~ NL
+TD352 attempt 3 PSALM n n n m n
+TD204 #5 S____ ~EN -AIPRT  📋 "psalm" ? ␅
+TD5486178 ␆S____ ~ NES
+TD90 #5 S____ ~EN -AIPRT  📋 "psalm" ? S____ ~ NES
+TD233 attempt 4 PSALM n m n n n
+TD377 ? ␅
+TD1660866 ␆
+TD102 ? 
+TD158 question done
+TD570 > ␅
+TD11407971 ␆*
+TD170 > *
+TD828251 questioning: ["atria", "#2"]
+TD179 #2 ATRI_ -ELMNPS  📋 "atria" ? ␅
+TD3244308 ␆/it
+TD98 #2 ATRI_ -ELMNPS  📋 "atria" ? /it
+TD233 attempt 1 ATRIA Y Y Y Y Y
+TD94 #3 _____ ~IR -AELMNPST  📋 "atria" ? ␅
+TD1478768 ␆.
+TD113 #3 _____ ~IR -AELMNPST  📋 "atria" ? .
+TD238 attempt 2 ATRIA n n m m n
+TD101 #4 A____ ~LN -AEIMPRST  📋 "atria" ? ␅
+TD3986226 ␆.
+TD109 #4 A____ ~LN -AEIMPRST  📋 "atria" ? .
+TD287 attempt 3 ATRIA Y n n n n
+TD119 #5 S____ ~EN -AILMPRT  📋 "atria" ? ␅
+TD3819662 ␆S____ ~ NES
+TD93 #5 S____ ~EN -AILMPRT  📋 "atria" ? S____ ~ NES
+TD223 attempt 4 ATRIA n n n n n
+TD405 ? ␅
+TD380563 ␆
+TD109 ? 
+TD124 question done
+TD459 > ␅
+TD1865198 ␆*
+TD1020 > *
+TD111183 try? ␅
+TD1179740 ␆1
+TD167 try? 1
+TD551 questioning: ["along", "#4"]
+TD786 #3 _____ ~IR -AELMNPST  📋 "along" ? ␅
+TD4676622 ␆_____ ~ RIOG
+TD165 #3 _____ ~IR -AELMNPST  📋 "along" ? _____ ~ RIOG
+TD468 attempt 2 ALONG n n m n m
+TD255 #4 A____ ~LN -EIMPRST  📋 "along" ? ␅
+TD918793 ␆/it
+TD113 #4 A____ ~LN -EIMPRST  📋 "along" ? /it
+TD295 attempt 3 ALONG Y Y Y Y Y
+TD119 #5 S____ ~EN -AILMPRT  📋 "along" ? ␅
+TD8444300 ␆S____ ~ NES
+TD124 #5 S____ ~EN -AILMPRT  📋 "along" ? S____ ~ NES
+TD287 attempt 4 ALONG n n n m n
+TD442 ? ␅
+TD280075 ␆
+TD138 ? 
+TD130 question done
+TD389 > ␅
+TD541162 ␆*
+TD86 > *
+TD697801 questioning: ["rigor", "#3"]
+TD184 #3 _____ ~GIOR -AELMNPST  📋 "rigor" ? ␅
+TD3258758 ␆/it
+TD139 #3 _____ ~GIOR -AELMNPST  📋 "rigor" ? /it
+TD388 attempt 2 RIGOR Y Y Y Y Y
+TD163 #5 S____ ~EN -AGILMOPRT  📋 "rigor" ? ␅
+TD5575470 ␆S____ ~ NES
+TD106 #5 S____ ~EN -AGILMOPRT  📋 "rigor" ? S____ ~ NES
+TD300 attempt 4 RIGOR n n n n n
+TD451 ? ␅
+TD725422 ␆
+TD101 ? 
+TD130 question done
+TD381 > ␅
+TD8074589 ␆*
+TD116 > *
+TD872446 questioning: ["sense", "#5"]
+TD209 #5 S____ ~EN -AGILMOPRT  📋 "sense" ? ␅
+TD11629642 ␆/it
+TD111 #5 S____ ~EN -AGILMOPRT  📋 "sense" ? /it
+TD307 attempt 4 SENSE Y Y Y Y Y
+TD437 ? ␅
+TD772495 ␆
+TD127 ? 
+TD126 question done
+TD29432 📋> ␅
+TD4243344 ␆squareword.org 1605: 8 guesses
+TD84 📋> squareword.org 1605: 8 guesses
+TD17 📋> ␅
+TD43 ␆
+TD8 📋> 
+TD8 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD14 ␆🟨🟨🟨🟨🟨
+TD6 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD14 ␆🟩🟨🟨🟨🟨
+TD6 📋> 🟩🟨🟨🟨🟨
+TD6 📋> ␅
+TD13 ␆🟩🟨🟨🟨🟨
+TD6 📋> 🟩🟨🟨🟨🟨
+TD6 📋> ␅
+TD17 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD1495127 ␆#squareword #squareword1605
+TD106 📋> #squareword #squareword1605
+TD19 📋> ␅
+TD774732 ␄
+TD106 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1605: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1605"}
+TD528 result: "squareword.org 1605: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1605"
+TD68 📆 2026-06-24 ? ␅
+TD467103 ␆
+TD105 📆 2026-06-24 ? 
