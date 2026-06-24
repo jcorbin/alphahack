@@ -1,0 +1,196 @@
+T11211.284467972 now: 2026-06-24T08:28:57EDT
+TD203 site: https://www.merriam-webster.com/games/quordle/#/
+TD39 wordlist: nwl2023.txt
+TD14 num_words: 4
+TD192  ...␅
+TD1063702 ␆
+TD149  ...
+TD484512 > ␅
+TD31816429 ␆*
+TD86 > *
+TD50307 ? ␅
+TD984494 ␆1
+TD143 ? 1
+TD129 questioning: rales
+TD115 Classic #1 _____? ␅
+TD4257996 ␆MnnYM
+TD54 Classic #1 _____? MnnYM
+TD189 attempt: 0 RALES m n n Y m
+TD56 Classic #2 _____? ␅
+TD2244214 ␆nMYMn
+TD92 Classic #2 _____? nMYMn
+TD278 attempt: 1 RALES n m Y m n
+TD136 Classic #3 _____? ␅
+TD1257238 ␆nnnMM
+TD116 Classic #3 _____? nnnMM
+TD347 attempt: 2 RALES n n n m m
+TD144 Classic #4 _____? ␅
+TD1197128 ␆nnnnn
+TD91 Classic #4 _____? nnnnn
+TD236 attempt: 3 RALES n n n n n
+TD481229 > ␅
+TD569941 ␆*
+TD129 > *
+TD8200 ? ␅
+TD986057 ␆1
+TD87 ? 1
+TD157 questioning: itchy
+TD144 Classic #1 ___E_ ~RS -AL? ␅
+TD2857865 ␆nnnnn
+TD113 Classic #1 ___E_ ~RS -AL? nnnnn
+TD329 attempt: 0 ITCHY n n n n n
+TD143 Classic #2 __L__ ~AE -RS? ␅
+TD1384099 ␆nMMnn
+TD125 Classic #2 __L__ ~AE -RS? nMMnn
+TD283 attempt: 1 ITCHY n m m n n
+TD147 Classic #3 _____ ~ES -ALR? ␅
+TD1870864 ␆nnnnn
+TD123 Classic #3 _____ ~ES -ALR? nnnnn
+TD321 attempt: 2 ITCHY n n n n n
+TD143 Classic #4 _____ -AELRS? ␅
+TD1352637 ␆MnnnY
+TD55 Classic #4 _____ -AELRS? MnnnY
+TD125 attempt: 3 ITCHY m n n n Y
+TD505438 > ␅
+TD712910 ␆*
+TD82 > *
+TD409 questioning: eclat
+TD138 Classic #1 ___E_ ~RS -ACHILTY? ␅
+TD3244015 ␆Mnnnn
+TD129 Classic #1 ___E_ ~RS -ACHILTY? Mnnnn
+TD330 attempt: 0 ECLAT m n n n n
+TD188 Classic #2 __L__ ~ACET -HIRSY? ␅
+TD1423922 ␆YYYYY
+TD97 Classic #2 __L__ ~ACET -HIRSY? YYYYY
+TD267 attempt: 1 ECLAT Y Y Y Y Y
+TD131 Classic #3 _____ ~ES -ACHILRTY? ␅
+TD1791490 ␆Mnnnn
+TD136 Classic #3 _____ ~ES -ACHILRTY? Mnnnn
+TD283 attempt: 2 ECLAT m n n n n
+TD148 Classic #4 ____Y ~I -ACEHLRST? ␅
+TD1509654 ␆nnnnn
+TD125 Classic #4 ____Y ~I -ACEHLRST? nnnnn
+TD245 attempt: 3 ECLAT n n n n n
+TD356746 > ␅
+TD3901067 ␆*
+TD120 > *
+TD1758 ? ␅
+TD7477950 ␆1
+TD160 ? 1
+TD211 questioning: pigmy
+TD204 Classic #1 ___E_ ~RS -ACHILTY? ␅
+TD3735341 ␆nnnnn
+TD143 Classic #1 ___E_ ~RS -ACHILTY? nnnnn
+TD353 attempt: 0 PIGMY n n n n n
+TD165 Classic #3 _____ ~ES -ACHILRTY? ␅
+TD1943832 ␆nnMnn
+TD140 Classic #3 _____ ~ES -ACHILRTY? nnMnn
+TD327 attempt: 2 PIGMY n n m n n
+TD187 Classic #4 ____Y ~I -ACEHLRST? ␅
+TD1949511 ␆nYnnY
+TD121 Classic #4 ____Y ~I -ACEHLRST? nYnnY
+TD330 attempt: 3 PIGMY n Y n n Y
+TD368960 > ␅
+TD830969 ␆*
+TD113 > *
+TD910 ? ␅
+TD7387816 ␆2
+TD104 ? 2
+TD225 questioning: dinky
+TD227 Classic #1 ___E_ ~RS -ACGHILMPTY? ␅
+TD2965862 ␆nnnnn
+TD101 Classic #1 ___E_ ~RS -ACGHILMPTY? nnnnn
+TD292 attempt: 0 DINKY n n n n n
+TD172 Classic #3 _____ ~EGS -ACHILMPRTY? ␅
+TD3550651 ␆nnnnn
+TD108 Classic #3 _____ ~EGS -ACHILMPRTY? nnnnn
+TD315 attempt: 2 DINKY n n n n n
+TD206 Classic #4 _I__Y -ACEGHLMPRST? ␅
+TD2431913 ␆nYYnY
+TD148 Classic #4 _I__Y -ACEGHLMPRST? nYYnY
+TD333 attempt: 3 DINKY n Y Y n Y
+TD373388 > ␅
+TD747216 ␆*
+TD87 > *
+TD524 ? ␅
+TD3884080 ␆2
+TD101 ? 2
+TD184 questioning: ninny
+TD170 Classic #1 ___E_ ~RS -ACDGHIKLMNPTY? ␅
+TD3616131 ␆nnnnn
+TD95 Classic #1 ___E_ ~RS -ACDGHIKLMNPTY? nnnnn
+TD220 attempt: 0 NINNY n n n n n
+TD131 Classic #3 _____ ~EGS -ACDHIKLMNPRTY? ␅
+TD1695585 ␆nnnnn
+TD111 Classic #3 _____ ~EGS -ACDHIKLMNPRTY? nnnnn
+TD246 attempt: 2 NINNY n n n n n
+TD157 Classic #4 _IN_Y -ACDEGHKLMPRST? ␅
+TD1336398 ␆YYYYY
+TD123 Classic #4 _IN_Y -ACDEGHKLMPRST? YYYYY
+TD318 attempt: 3 NINNY Y Y Y Y Y
+TD270826 > ␅
+TD926210 ␆*
+TD94 > *
+TD573 ? ␅
+TD7202571 ␄
+TD116 <EOF>
+TD266497 > ␅
+TD924760 ␆* 1
+TD100 > * 1
+TD127455 ? ␅
+TD11013399 ␆5
+TD112 ? 5
+TD172 questioning: sorer
+TD166 Classic #1 ___E_ ~RS -ACDGHIKLMNPTY? ␅
+TD3707457 ␆YYnYY
+TD87 Classic #1 ___E_ ~RS -ACDGHIKLMNPTY? YYnYY
+TD220 attempt: 0 SORER Y Y n Y Y
+TD129 Classic #3 _____ ~EGS -ACDHIKLMNPRTY? ␅
+TD1787554 ␆MYnMn
+TD155 Classic #3 _____ ~EGS -ACDHIKLMNPRTY? MYnMn
+TD362 attempt: 2 SORER m Y n m n
+TD219271 > ␅
+TD923079 ␆*
+TD98 > *
+TD417 questioning: goose
+TD138 Classic #1 SO_ER -ACDGHIKLMNPTY? ␅
+TD5326716 ␆nYnMM
+TD105 Classic #1 SO_ER -ACDGHIKLMNPTY? nYnMM
+TD238 attempt: 0 GOOSE n Y n m m
+TD129 Classic #3 _O___ ~EGS -ACDHIKLMNPRTY? ␅
+TD1234975 ␆YYYYY
+TD150 Classic #3 _O___ ~EGS -ACDHIKLMNPRTY? YYYYY
+TD283 attempt: 2 GOOSE Y Y Y Y Y
+TD111677 > ␅
+TD950143 ␆*
+TD114 > *
+TD802 ? ␅
+TD1623718 ␆1
+TD102 ? 1
+TD251 questioning: sober
+TD158 Classic #1 SO_ER -ACDGHIKLMNPTY? ␅
+TD2875780 ␆YYYYY
+TD145 Classic #1 SO_ER -ACDGHIKLMNPTY? YYYYY
+TD342 attempt: 0 SOBER Y Y Y Y Y
+TD208 📋> ␅
+TD4011003 ␆🙂 Daily Quordle 1612
+TD115 📋> 🙂 Daily Quordle 1612
+TD44 📋> ␅
+TD126 ␆9️⃣3️⃣
+TD39 📋> 9️⃣3️⃣
+TD36 📋> ␅
+TD72 ␆8️⃣6️⃣
+TD36 📋> 8️⃣6️⃣
+TD34 📋> ␅
+TD66 ␆m-w.com/games/quordle/
+TD36 📋> m-w.com/games/quordle/
+TD38 📋> ␅
+TD215908 ␆
+TD224 📋> 
+TD85 📋> ␅
+TD137462 ␄
+TD255 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1612\n9\ufe0f\u20e33\ufe0f\u20e3\n8\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2920 result: "\ud83d\ude42 Daily Quordle 1612\n9\ufe0f\u20e33\ufe0f\u20e3\n8\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD169 📆 2026-06-24 ? ␅
+TD117188 ␆
+TD63 📆 2026-06-24 ? 
