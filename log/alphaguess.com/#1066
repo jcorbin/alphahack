@@ -1,0 +1,90 @@
+T10393.821707899013 now: 2026-06-24T08:15:20EDT
+TD152 site: alphaguess.com
+TD161398 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 09e95b3fa4445c1e1fa4ac8c7b5787d1fdfcf1b3
+TD104  ...␅
+TD1346301 ␆
+TD93  ...
+TD171 [0 : 98214 : 196520] mach? ␅
+TD6232019 ␆b
+TD94 [0 : 98214 : 196520] mach? b
+TD227 progress: -1 98214 mach
+TD119 [0 : 47380 : 98214] dis? ␅
+TD1640364 ␆a
+TD130 [0 : 47380 : 98214] dis? a
+TD153 progress: 1 47380 dis
+TD769 [47381 : 72797 : 98214] gremolata? ␅
+TD1386446 ␆b
+TD113 [47381 : 72797 : 98214] gremolata? b
+TD170 progress: -1 72797 gremolata
+TD152 [47381 : 60081 : 72797] face? ␅
+TD1388103 ␆b
+TD95 [47381 : 60081 : 72797] face? b
+TD111 progress: -1 60081 face
+TD133 [47381 : 53396 : 60081] el? ␅
+TD1557494 ␆b
+TD123 [47381 : 53396 : 60081] el? b
+TD145 progress: -1 53396 el
+TD170 [47381 : 49427 : 53396] do? ␅
+TD3390612 ␆a
+TD125 [47381 : 49427 : 53396] do? a
+TD143 progress: 1 49427 do
+TD514 [49428 : 51401 : 53396] drunk? ␅
+TD2873815 ␆b
+TD112 [49428 : 51401 : 53396] drunk? b
+TD365 progress: -1 51401 drunk
+TD189 [49428 : 50404 : 51401] dove? ␅
+TD1566780 ␆b
+TD106 [49428 : 50404 : 51401] dove? b
+TD119 progress: -1 50404 dove
+TD140 [49428 : 49848 : 50404] dom? ␅
+TD1710034 ␆b
+TD101 [49428 : 49848 : 50404] dom? b
+TD105 progress: -1 49848 dom
+TD130 [49428 : 49595 : 49848] dog? ␅
+TD4243262 ␆b
+TD99 [49428 : 49595 : 49848] dog? b
+TD109 progress: -1 49595 dog
+TD113 [49428 : 49457 : 49595] doc? ␅
+TD1735630 ␆a
+TD108 [49428 : 49457 : 49595] doc? a
+TD117 progress: 1 49457 doc
+TD131 [49458 : 49515 : 49595] document? ␅
+TD2451284 ␆a
+TD121 [49458 : 49515 : 49595] document? a
+TD97 progress: 1 49515 document
+TD732 [49516 : 49555 : 49595] dodecaphonies? ␅
+TD1591414 ␆a
+TD91 [49516 : 49555 : 49595] dodecaphonies? a
+TD100 progress: 1 49555 dodecaphonies
+TD243 [49556 : 49576 : 49595] dodo? ␅
+TD1857794 ␆b
+TD98 [49556 : 49576 : 49595] dodo? b
+TD109 progress: -1 49576 dodo
+TD115 [49556 : 49559 : 49576] dodge? ␅
+TD2166125 ␆it
+TD110 [49556 : 49559 : 49576] dodge? it
+TD109 progress: 0 49559 dodge
+TD29 [49556 : 49559 : 49576] <Done>.
+TD86 📋> ␅
+TD2901885 ␆🧩 Puzzle #1066
+TD160 📋> 🧩 Puzzle #1066
+TD25 📋> ␅
+TD72 ␆🤔 15 guesses
+TD15 📋> 🤔 15 guesses
+TD13 📋> ␅
+TD27 ␆⏱️ 29s
+TD13 📋> ⏱️ 29s
+TD11 📋> ␅
+TD294276 ␆🔗 alphaguess.com/1066
+TD76 📋> 🔗 alphaguess.com/1066
+TD13 📋> ␅
+TD172922 ␄
+TD180 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1066\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 29s\n\ud83d\udd17 alphaguess.com/1066"}
+TD135 result: "\ud83e\udde9 Puzzle #1066\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 29s\n\ud83d\udd17 alphaguess.com/1066"
+TD21 result puzzle: 1066
+TD11 result guesses: 15
+TD8 result time: 29s
+TD8 result link: alphaguess.com/1066
+TD105 📆 2026-06-24 ? ␅
+TD162792 ␆
+TD96 📆 2026-06-24 ? 
