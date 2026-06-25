@@ -1,0 +1,246 @@
+T537.9533528139873 now: 2026-06-25T14:25:48EDT
+TD172 site: squareword.org
+TD47 wordlist: nwl2023.txt
+TD79  ...␅
+TD6070589 ␆
+TD119  ...
+TD118 🧩  ? ␅
+TD2868748 ␆#1606
+TD139 🧩  ? #1606
+TD418 puzzle_id: #1606
+TD672 > ␅
+TD1660628 ␆*
+TD184 > *
+TD259418 try? ␅
+TD1131194 ␆1
+TD189 try? 1
+TD358 questioning: ["cares", "#5"]
+TD622 #1 <IndexError>  📋 "cares" ? ␅
+TD8229904 ␆C___S ~ AR
+TD100 #1 <IndexError>  📋 "cares" ? C___S ~ AR
+TD994 attempt 0 CARES Y m m n Y
+TD165 #2 <IndexError>  📋 "cares" ? ␅
+TD2479163 ␆_____ ~ E
+TD210 #2 <IndexError>  📋 "cares" ? _____ ~ E
+TD644 attempt 1 CARES n n n m n
+TD296 #3 <IndexError>  📋 "cares" ? ␅
+TD2942300 ␆_____ ~ CAE
+TD186 #3 <IndexError>  📋 "cares" ? _____ ~ CAE
+TD288 attempt 2 CARES m m n m n
+TD135 #4 <IndexError>  📋 "cares" ? ␅
+TD2419544 ␆_A___ ~ ES
+TD127 #4 <IndexError>  📋 "cares" ? _A___ ~ ES
+TD351 attempt 3 CARES n Y n m m
+TD153 #5 <IndexError>  📋 "cares" ? ␅
+TD2986013 ␆_____ ~ ARES
+TD131 #5 <IndexError>  📋 "cares" ? _____ ~ ARES
+TD353 attempt 4 CARES n m m m m
+TD576 ? ␅
+TD596985 ␆
+TD121 ? 
+TD339 question done
+TD571 > ␅
+TD4142556 ␆*
+TD138 > *
+TD910839 try? ␅
+TD2443422 ␆2
+TD86 try? 2
+TD287 questioning: ["crabs", "#1"]
+TD377 #1 C___S ~AR -E  📋 "crabs" ? ␅
+TD6363818 ␆CRA_S
+TD95 #1 C___S ~AR -E  📋 "crabs" ? CRA_S
+TD241 attempt 0 CRABS Y Y Y n Y
+TD136 #2 _____ ~E -ACRS  📋 "crabs" ? ␅
+TD775958 ␆.
+TD98 #2 _____ ~E -ACRS  📋 "crabs" ? .
+TD320 attempt 1 CRABS n n n n n
+TD134 #3 _____ ~ACE -RS  📋 "crabs" ? ␅
+TD1092369 ␆.
+TD96 #3 _____ ~ACE -RS  📋 "crabs" ? .
+TD320 attempt 2 CRABS m n m n n
+TD108 #4 _A___ ~ES -CR  📋 "crabs" ? ␅
+TD1694686 ␆.
+TD149 #4 _A___ ~ES -CR  📋 "crabs" ? .
+TD361 attempt 3 CRABS n n n n m
+TD133 #5 _____ ~AERS -C  📋 "crabs" ? ␅
+TD1381376 ␆.
+TD130 #5 _____ ~AERS -C  📋 "crabs" ? .
+TD309 attempt 4 CRABS n m m n m
+TD378 ? ␅
+TD344188 ␆
+TD153 ? 
+TD164 question done
+TD478 > ␅
+TD594844 ␆*
+TD64 > *
+TD750972 try? ␅
+TD773160 ␄
+TD126 <EOF>
+TD477 > ␅
+TD1170862 ␆* 5
+TD162 > * 5
+TD5643 try? ␅
+TD1353818 ␆1
+TD170 try? 1
+TD401 questioning: ["resaw", "#5"]
+TD485 #1 CRA_S -BE  📋 "resaw" ? ␅
+TD5914684 ␆.
+TD113 #1 CRA_S -BE  📋 "resaw" ? .
+TD334 attempt 0 RESAW n n n n n
+TD117 #2 _____ ~E -ABCRS  📋 "resaw" ? ␅
+TD2822693 ␆_E___
+TD138 #2 _____ ~E -ABCRS  📋 "resaw" ? _E___
+TD291 attempt 1 RESAW n Y n n n
+TD169 #3 _____ ~ACE -BRS  📋 "resaw" ? ␅
+TD1047801 ␆.
+TD106 #3 _____ ~ACE -BRS  📋 "resaw" ? .
+TD293 attempt 2 RESAW n m n m n
+TD104 #4 _A___ ~ES -ABCR  📋 "resaw" ? ␅
+TD4253220 ␆_AS__ ~ EW
+TD92 #4 _A___ ~ES -ABCR  📋 "resaw" ? _AS__ ~ EW
+TD173 attempt 3 RESAW n m Y n m
+TD103 #5 _____ ~AERS -BC  📋 "resaw" ? ␅
+TD4157330 ␆___A_ ~ RES
+TD46 #5 _____ ~AERS -BC  📋 "resaw" ? ___A_ ~ RES
+TD104 attempt 4 RESAW m m m Y n
+TD152 ? ␅
+TD358030 ␆
+TD109 ? 
+TD142 question done
+TD417 > ␅
+TD649616 ␆*
+TD112 > *
+TD741551 questioning: ["waste", "#4"]
+TD177 #1 CRA_S -ABERSW  📋 "waste" ? ␅
+TD4984721 ␆.
+TD115 #1 CRA_S -ABERSW  📋 "waste" ? .
+TD295 attempt 0 WASTE n n n n n
+TD116 #2 _E___ -ABCRSW  📋 "waste" ? ␅
+TD1164089 ␆.
+TD91 #2 _E___ -ABCRSW  📋 "waste" ? .
+TD274 attempt 1 WASTE n n n n n
+TD104 #3 _____ ~ACE -BRSW  📋 "waste" ? ␅
+TD2600533 ␆___TE ~ CA
+TD83 #3 _____ ~ACE -BRSW  📋 "waste" ? ___TE ~ CA
+TD191 attempt 2 WASTE n m n Y Y
+TD104 #4 _AS__ ~EW -ABCR  📋 "waste" ? ␅
+TD881782 ␆/it
+TD120 #4 _AS__ ~EW -ABCR  📋 "waste" ? /it
+TD401 attempt 3 WASTE Y Y Y Y Y
+TD138 #5 ___A_ ~ERS -BCW  📋 "waste" ? ␅
+TD1731828 ␆.
+TD99 #5 ___A_ ~ERS -BCW  📋 "waste" ? .
+TD272 attempt 4 WASTE n n m n m
+TD332 ? ␅
+TD204051 ␆
+TD115 ? 
+TD126 question done
+TD394 > ␅
+TD442576 ␆*
+TD82 > *
+TD2200285 questioning: ["acute", "#3"]
+TD179 #1 CRA_S -ABERSTW  📋 "acute" ? ␅
+TD9330922 ␆.
+TD100 #1 CRA_S -ABERSTW  📋 "acute" ? .
+TD312 attempt 0 ACUTE n n n n n
+TD115 #2 _E___ -ABCERSTW  📋 "acute" ? ␅
+TD1320335 ␆.
+TD104 #2 _E___ -ABCERSTW  📋 "acute" ? .
+TD290 attempt 1 ACUTE n n n n n
+TD110 #3 ___TE ~AC -BRSW  📋 "acute" ? ␅
+TD627916 ␆/it
+TD193 #3 ___TE ~AC -BRSW  📋 "acute" ? /it
+TD394 attempt 2 ACUTE Y Y Y Y Y
+TD145 #5 ___A_ ~ERS -ABCTW  📋 "acute" ? ␅
+TD1189598 ␆.
+TD95 #5 ___A_ ~ERS -ABCTW  📋 "acute" ? .
+TD310 attempt 4 ACUTE n n n n m
+TD391 ? ␅
+TD190186 ␆
+TD81 ? 
+TD95 question done
+TD305 > ␅
+TD466822 ␆*
+TD70 > *
+TD2105511 questioning: ["spear", "#5"]
+TD181 #1 CRA_S -ABCERSTUW  📋 "spear" ? ␅
+TD4252270 ␆.
+TD97 #1 CRA_S -ABCERSTUW  📋 "spear" ? .
+TD335 attempt 0 SPEAR n n n n n
+TD184 #2 _E___ -ABCERSTUW  📋 "spear" ? ␅
+TD697164 ␆.
+TD120 #2 _E___ -ABCERSTUW  📋 "spear" ? .
+TD375 attempt 1 SPEAR n n n n n
+TD183 #5 ___A_ ~ERS -ABCTUW  📋 "spear" ? ␅
+TD699371 ␆/it
+TD88 #5 ___A_ ~ERS -ABCTUW  📋 "spear" ? /it
+TD254 attempt 4 SPEAR Y Y Y Y Y
+TD412 ? ␅
+TD194266 ␆
+TD102 ? 
+TD133 question done
+TD480 > ␅
+TD461485 ␆*
+TD111 > *
+TD1562804 questioning: ["crags", "#1"]
+TD191 #1 CRA_S -ABCEPRSTUW  📋 "crags" ? ␅
+TD2700255 ␆/it
+TD112 #1 CRA_S -ABCEPRSTUW  📋 "crags" ? /it
+TD246 attempt 0 CRAGS Y Y Y Y Y
+TD100 #2 _E___ -ABCEPRSTUW  📋 "crags" ? ␅
+TD1263522 ␆.
+TD130 #2 _E___ -ABCEPRSTUW  📋 "crags" ? .
+TD293 attempt 1 CRAGS n n n n n
+TD373 ? ␅
+TD153123 ␆
+TD79 ? 
+TD114 question done
+TD400 > ␅
+TD414595 ␆*
+TD85 > *
+TD1047587 questioning: ["lemon", "#2"]
+TD188 #2 _E___ -ABCEGPRSTUW  📋 "lemon" ? ␅
+TD3756290 ␆/it
+TD86 #2 _E___ -ABCEGPRSTUW  📋 "lemon" ? /it
+TD245 attempt 1 LEMON Y Y Y Y Y
+TD383 ? ␅
+TD277602 ␆
+TD57 ? 
+TD64 question done
+TD28888 📋> ␅
+TD5406749 ␆squareword.org 1606: 8 guesses
+TD96 📋> squareword.org 1606: 8 guesses
+TD18 📋> ␅
+TD87 ␆
+TD10 📋> 
+TD9 📋> ␅
+TD36 ␆🟩🟩🟩🟨🟩
+TD10 📋> 🟩🟩🟩🟨🟩
+TD8 📋> ␅
+TD27 ␆🟨🟩🟨🟨🟨
+TD8 📋> 🟨🟩🟨🟨🟨
+TD8 📋> ␅
+TD26 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD26 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD25 ␆🟨🟨🟨🟩🟨
+TD8 📋> 🟨🟨🟨🟩🟨
+TD8 📋> ␅
+TD27 ␆
+TD8 📋> 
+TD8 📋> ␅
+TD28 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> ␅
+TD847003 ␆#squareword #squareword1606
+TD139 📋> #squareword #squareword1606
+TD28 📋> ␅
+TD415664 ␄
+TD174 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1606: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1606"}
+TD1577 result: "squareword.org 1606: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1606"
+TD98 📆 2026-06-25 ? ␅
+TD172286 ␆
+TD112 📆 2026-06-25 ? 
