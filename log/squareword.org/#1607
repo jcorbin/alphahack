@@ -1,0 +1,193 @@
+T180.38712053900235 now: 2026-06-26T08:56:12EDT
+TD163 site: squareword.org
+TD39 wordlist: nwl2023.txt
+TD56  ...␅
+TD484536 ␆
+TD100  ...
+TD76 🧩  ? ␅
+TD8928106 ␆#1607
+TD185 🧩  ? #1607
+TD411 puzzle_id: #1607
+TD524 > ␅
+TD382057 ␆
+TD69 > 
+TD285 > ␅
+TD930310 ␆*
+TD88 > *
+TD233037 try? ␅
+TD118348 ␆1
+TD104 try? 1
+TD364 questioning: ["arles", "#5"]
+TD449 #1 <IndexError>  📋 "arles" ? ␅
+TD4926074 ␆__L__ ~ A
+TD60 #1 <IndexError>  📋 "arles" ? __L__ ~ A
+TD483 attempt 0 ARLES m n Y n n
+TD96 #2 <IndexError>  📋 "arles" ? ␅
+TD1945689 ␆AR___ ~ A
+TD94 #2 <IndexError>  📋 "arles" ? AR___ ~ A
+TD287 attempt 1 ARLES Y Y n n n
+TD157 #3 <IndexError>  📋 "arles" ? ␅
+TD2241426 ␆___E_ ~ AR
+TD123 #3 <IndexError>  📋 "arles" ? ___E_ ~ AR
+TD415 attempt 2 ARLES m m n Y n
+TD215 #4 <IndexError>  📋 "arles" ? ␅
+TD5730160 ␆A____ ~ E
+TD129 #4 <IndexError>  📋 "arles" ? A____ ~ E
+TD406 attempt 3 ARLES Y n n m n
+TD205 #5 <IndexError>  📋 "arles" ? ␅
+TD4345316 ␆____S ~ LE
+TD107 #5 <IndexError>  📋 "arles" ? ____S ~ LE
+TD329 attempt 4 ARLES n n m m Y
+TD617 ? ␅
+TD274025 ␆
+TD98 ? 
+TD171 question done
+TD694 > ␅
+TD585210 ␆*
+TD97 > *
+TD911917 try? ␅
+TD2161872 ␆2
+TD85 try? 2
+TD300 questioning: ["aroma", "#2"]
+TD371 #1 __L__ ~A -ERS  📋 "aroma" ? ␅
+TD3642542 ␆.
+TD203 #1 __L__ ~A -ERS  📋 "aroma" ? .
+TD528 attempt 0 AROMA m n n n m
+TD188 #2 AR___ -ELS  📋 "aroma" ? ␅
+TD1373820 ␆/it
+TD102 #2 AR___ -ELS  📋 "aroma" ? /it
+TD315 attempt 1 AROMA Y Y Y Y Y
+TD118 #3 ___E_ ~AR -LS  📋 "aroma" ? ␅
+TD2977523 ␆.
+TD63 #3 ___E_ ~AR -LS  📋 "aroma" ? .
+TD193 attempt 2 AROMA m m n n m
+TD69 #4 A____ ~E -LRS  📋 "aroma" ? ␅
+TD3444775 ␆A_O__ ~ E
+TD73 #4 A____ ~E -LRS  📋 "aroma" ? A_O__ ~ E
+TD191 attempt 3 AROMA Y n Y n n
+TD118 #5 ____S ~EL -AR  📋 "aroma" ? ␅
+TD1320614 ␆.
+TD85 #5 ____S ~EL -AR  📋 "aroma" ? .
+TD251 attempt 4 AROMA n n n n n
+TD324 ? ␅
+TD153711 ␆
+TD100 ? 
+TD119 question done
+TD399 > ␅
+TD414506 ␆*
+TD135 > *
+TD650290 try? ␅
+TD2495771 ␆3
+TD103 try? 3
+TD336 questioning: ["lends", "#5"]
+TD459 #1 __L__ ~A -EMORS  📋 "lends" ? ␅
+TD3579177 ␆.
+TD83 #1 __L__ ~A -EMORS  📋 "lends" ? .
+TD242 attempt 0 LENDS n n n n n
+TD116 #3 ___E_ ~AR -LMOS  📋 "lends" ? ␅
+TD1602277 ␆.
+TD100 #3 ___E_ ~AR -LMOS  📋 "lends" ? .
+TD309 attempt 2 LENDS n n n n n
+TD120 #4 A_O__ ~E -LMRS  📋 "lends" ? ␅
+TD4493114 ␆A_O__ ~ EN
+TD117 #4 A_O__ ~E -LMRS  📋 "lends" ? A_O__ ~ EN
+TD312 attempt 3 LENDS n m m n n
+TD167 #5 ____S ~EL -AMOR  📋 "lends" ? ␅
+TD668832 ␆/it
+TD105 #5 ____S ~EL -AMOR  📋 "lends" ? /it
+TD305 attempt 4 LENDS Y Y Y Y Y
+TD427 ? ␅
+TD181365 ␆
+TD104 ? 
+TD126 question done
+TD434 > ␅
+TD692244 ␆*
+TD80 > *
+TD629816 questioning: ["atone", "#4"]
+TD178 #1 __L__ ~A -DELMNORS  📋 "atone" ? ␅
+TD4138381 ␆.
+TD98 #1 __L__ ~A -DELMNORS  📋 "atone" ? .
+TD311 attempt 0 ATONE m n n n n
+TD108 #3 ___E_ ~AR -DELMNOS  📋 "atone" ? ␅
+TD977519 ␆.
+TD97 #3 ___E_ ~AR -DELMNOS  📋 "atone" ? .
+TD311 attempt 2 ATONE m n n n n
+TD110 #4 A_O__ ~EN -DLMRS  📋 "atone" ? ␅
+TD671057 ␆/it
+TD111 #4 A_O__ ~EN -DLMRS  📋 "atone" ? /it
+TD358 attempt 3 ATONE Y Y Y Y Y
+TD453 ? ␅
+TD153006 ␆
+TD95 ? 
+TD110 question done
+TD378 > ␅
+TD432405 ␆*
+TD174 > *
+TD1164468 try? ␅
+TD4232939 ␆2
+TD63 try? 2
+TD164 questioning: ["pager", "#3"]
+TD168 #1 __L__ ~A -DELMNORST  📋 "pager" ? ␅
+TD4574163 ␆P_L__ ~ A
+TD73 #1 __L__ ~A -DELMNORST  📋 "pager" ? P_L__ ~ A
+TD155 attempt 0 PAGER Y m n n n
+TD104 #3 ___E_ ~AR -DELMNOST  📋 "pager" ? ␅
+TD879100 ␆/it
+TD112 #3 ___E_ ~AR -DELMNOST  📋 "pager" ? /it
+TD299 attempt 2 PAGER Y Y Y Y Y
+TD379 ? ␅
+TD289748 ␆
+TD88 ? 
+TD96 question done
+TD314 > ␅
+TD537357 ␆*
+TD174 > *
+TD1051976 try? ␅
+TD2638360 ␆1
+TD76 try? 1
+TD230 questioning: ["pilaf", "#1"]
+TD340 #1 P_L__ ~A -DEGLMNORST  📋 "pilaf" ? ␅
+TD5448987 ␆/it
+TD95 #1 P_L__ ~A -DEGLMNORST  📋 "pilaf" ? /it
+TD306 attempt 0 PILAF Y Y Y Y Y
+TD454 ? ␅
+TD1466821 ␆
+TD119 ? 
+TD143 question done
+TD32426 📋> ␅
+TD4080448 ␆squareword.org 1607: 6 guesses
+TD121 📋> squareword.org 1607: 6 guesses
+TD33 📋> ␅
+TD63 ␆
+TD11 📋> 
+TD9 📋> ␅
+TD25 ␆🟩🟨🟩🟨🟨
+TD10 📋> 🟩🟨🟩🟨🟨
+TD9 📋> ␅
+TD19 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD18 ␆
+TD8 📋> 
+TD8 📋> ␅
+TD21 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD34 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> ␅
+TD278913 ␆#squareword #squareword1607
+TD125 📋> #squareword #squareword1607
+TD18 📋> ␅
+TD194278 ␄
+TD153 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1607: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1607"}
+TD984 result: "squareword.org 1607: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1607"
+TD92 📆 2026-06-26 ? ␅
+TD471761 ␆
+TD96 📆 2026-06-26 ? 
