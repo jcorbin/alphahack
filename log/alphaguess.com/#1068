@@ -1,0 +1,73 @@
+T13290.329464148992 now: 2026-06-26T08:21:18EDT
+TD241 site: alphaguess.com
+TD160254 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof b16a441821f0d7cc73541b2c8d89dcfbe1842210
+TD86  ...␅
+TD882383 ␆
+TD97  ...
+TD173 [0 : 98214 : 196520] mach? ␅
+TD11650331 ␆a
+TD102 [0 : 98214 : 196520] mach? a
+TD115 progress: 1 98214 mach
+TD282 [98215 : 147364 : 196520] rhotic? ␅
+TD2288087 ␆a
+TD158 [98215 : 147364 : 196520] rhotic? a
+TD208 progress: 1 147364 rhotic
+TD193 [147365 : 171634 : 196520] ta? ␅
+TD1564353 ␆a
+TD89 [147365 : 171634 : 196520] ta? a
+TD103 progress: 1 171634 ta
+TD141 [171635 : 181998 : 196520] un? ␅
+TD1526255 ␆a
+TD129 [171635 : 181998 : 196520] un? a
+TD160 progress: 1 181998 un
+TD603 [181999 : 189260 : 196520] vicar? ␅
+TD1402718 ␆a
+TD111 [181999 : 189260 : 196520] vicar? a
+TD145 progress: 1 189260 vicar
+TD179 [189261 : 192864 : 196520] whir? ␅
+TD1977144 ␆a
+TD124 [189261 : 192864 : 196520] whir? a
+TD139 progress: 1 192864 whir
+TD144 [192865 : 194688 : 196520] worship? ␅
+TD2530136 ␆b
+TD95 [192865 : 194688 : 196520] worship? b
+TD91 progress: -1 194688 worship
+TD84 [192865 : 193479 : 194688] win? ␅
+TD2725152 ␆a
+TD100 [192865 : 193479 : 194688] win? a
+TD137 progress: 1 193479 win
+TD151 [193480 : 194059 : 194688] wo? ␅
+TD1544241 ␆b
+TD280 [193480 : 194059 : 194688] wo? b
+TD179 progress: -1 194059 wo
+TD297 [193480 : 193734 : 194059] winter? ␅
+TD2734030 ␆it
+TD155 [193480 : 193734 : 194059] winter? it
+TD190 progress: 0 193734 winter
+TD38 [193480 : 193734 : 194059] <Done>.
+TD123 📋> ␅
+TD3851249 ␆🧩 Puzzle #1068
+TD48 📋> 🧩 Puzzle #1068
+TD7 📋> ␅
+TD24 ␆🤔 10 guesses
+TD4 📋> 🤔 10 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 17s
+TD3 📋> ⏱️ 17s
+TD3 📋> ␅
+TD281109 ␆🔗 alphaguess.com/1068
+TD114 📋> 🔗 alphaguess.com/1068
+TD21 📋> ␅
+TD470208 ␆d
+TD104 📋> d
+TD20 📋> ␅
+TD569719 ␄
+TD197 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1068\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/1068\nd"}
+TD119 result: "\ud83e\udde9 Puzzle #1068\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/1068\nd"
+TD17 result puzzle: 1068
+TD11 result guesses: 10
+TD9 result time: 17s
+TD10 result link: alphaguess.com/1068
+TD93 📆 2026-06-26 ? ␅
+TD426978 ␆
+TD110 📆 2026-06-26 ? 
