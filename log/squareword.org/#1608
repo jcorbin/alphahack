@@ -1,0 +1,211 @@
+T502.46861841902137 now: 2026-06-27T10:48:52EDT
+TD87 site: squareword.org
+TD23 wordlist: nwl2023.txt
+TD31  ...␅
+TD538240 ␆
+TD122  ...
+TD105 🧩  ? ␅
+TD5496882 ␆#1608
+TD94 🧩  ? #1608
+TD249 puzzle_id: #1608
+TD303 > ␅
+TD384461 ␆
+TD98 > 
+TD409 > ␅
+TD581086 ␆*
+TD136 > *
+TD242815 try? ␅
+TD1735850 ␆3
+TD103 try? 3
+TD358 questioning: ["earns", "#5"]
+TD420 #1 <IndexError>  📋 "earns" ? ␅
+TD4156494 ␆_____ ~ ES
+TD95 #1 <IndexError>  📋 "earns" ? _____ ~ ES
+TD770 attempt 0 EARNS m n n n m
+TD130 #2 <IndexError>  📋 "earns" ? ␅
+TD2299592 ␆_A___ ~ E
+TD84 #2 <IndexError>  📋 "earns" ? _A___ ~ E
+TD252 attempt 1 EARNS m Y n n n
+TD107 #3 <IndexError>  📋 "earns" ? ␅
+TD7177545 ␆_____ ~ EANS
+TD94 #3 <IndexError>  📋 "earns" ? _____ ~ EANS
+TD251 attempt 2 EARNS m m n m m
+TD122 #4 <IndexError>  📋 "earns" ? ␅
+TD3191860 ␆___N_ ~ ES
+TD86 #4 <IndexError>  📋 "earns" ? ___N_ ~ ES
+TD249 attempt 3 EARNS m n n Y m
+TD108 #5 <IndexError>  📋 "earns" ? ␅
+TD2528854 ␆__R_S ~ E
+TD95 #5 <IndexError>  📋 "earns" ? __R_S ~ E
+TD254 attempt 4 EARNS m n Y n Y
+TD369 ? ␅
+TD343349 ␆
+TD122 ? 
+TD182 question done
+TD432 > ␅
+TD931067 ␆*
+TD115 > *
+TD964088 try? ␅
+TD4416415 ␆8
+TD72 try? 8
+TD190 questioning: ["ashen", "#3"]
+TD210 #1 _____ ~ES -ANR  📋 "ashen" ? ␅
+TD7622179 ␆_____ ~ ESH
+TD170 #1 _____ ~ES -ANR  📋 "ashen" ? _____ ~ ESH
+TD452 attempt 0 ASHEN n m m m n
+TD264 #2 _A___ ~E -NRS  📋 "ashen" ? ␅
+TD1306350 ␆.
+TD98 #2 _A___ ~E -NRS  📋 "ashen" ? .
+TD295 attempt 1 ASHEN n n n m n
+TD101 #3 _____ ~AENS -R  📋 "ashen" ? ␅
+TD631924 ␆/it
+TD113 #3 _____ ~AENS -R  📋 "ashen" ? /it
+TD332 attempt 2 ASHEN Y Y Y Y Y
+TD117 #4 ___N_ ~ES -AR  📋 "ashen" ? ␅
+TD1767063 ␆.
+TD100 #4 ___N_ ~ES -AR  📋 "ashen" ? .
+TD323 attempt 3 ASHEN n m n m n
+TD132 #5 __R_S ~E -AN  📋 "ashen" ? ␅
+TD4193711 ␆__R_S ~ EH
+TD103 #5 __R_S ~E -AN  📋 "ashen" ? __R_S ~ EH
+TD333 attempt 4 ASHEN n n m m n
+TD461 ? ␅
+TD259268 ␆
+TD129 ? 
+TD122 question done
+TD364 > ␅
+TD509550 ␆*
+TD98 > *
+TD870210 try? ␅
+TD1837325 ␆1
+TD105 try? 1
+TD348 questioning: ["herds", "#5"]
+TD461 #1 _____ ~EHS -ANR  📋 "herds" ? ␅
+TD3492725 ␆.
+TD76 #1 _____ ~EHS -ANR  📋 "herds" ? .
+TD224 attempt 0 HERDS m m n n m
+TD88 #2 _A___ ~E -AHNRS  📋 "herds" ? ␅
+TD1197082 ␆.
+TD133 #2 _A___ ~E -AHNRS  📋 "herds" ? .
+TD414 attempt 1 HERDS n m n n n
+TD137 #4 ___N_ ~ES -AHNR  📋 "herds" ? ␅
+TD1362020 ␆.
+TD83 #4 ___N_ ~ES -AHNR  📋 "herds" ? .
+TD240 attempt 3 HERDS n m n n m
+TD86 #5 __R_S ~EH -ANS  📋 "herds" ? ␅
+TD1846631 ␆HER_S 
+TD106 #5 __R_S ~EH -ANS  📋 "herds" ? HER_S 
+TD266 attempt 4 HERDS Y Y Y n Y
+TD443 ? ␅
+TD415677 ␆
+TD95 ? 
+TD129 question done
+TD460 > ␅
+TD1594572 ␆*
+TD114 > *
+TD557848 questioning: ["heros", "#5"]
+TD164 #1 _____ ~EHS -ADNR  📋 "heros" ? ␅
+TD23755497 ␆.
+TD116 #1 _____ ~EHS -ADNR  📋 "heros" ? .
+TD312 attempt 0 HEROS m m n n m
+TD116 #2 _A___ ~E -ADHNRS  📋 "heros" ? ␅
+TD1084149 ␆.
+TD91 #2 _A___ ~E -ADHNRS  📋 "heros" ? .
+TD264 attempt 1 HEROS n m n n n
+TD123 #4 ___N_ ~ES -ADHNR  📋 "heros" ? ␅
+TD1224647 ␆.
+TD123 #4 ___N_ ~ES -ADHNR  📋 "heros" ? .
+TD371 attempt 3 HEROS n m n n m
+TD131 #5 HER_S -ADN  📋 "heros" ? ␅
+TD909104 ␆/it
+TD92 #5 HER_S -ADN  📋 "heros" ? /it
+TD250 attempt 4 HEROS Y Y Y Y Y
+TD335 ? ␅
+TD169992 ␆
+TD87 ? 
+TD97 question done
+TD331 > ␅
+TD417592 ␆*
+TD115 > *
+TD1264789 questioning: ["stent", "#4"]
+TD184 #1 _____ ~EHS -ADNOR  📋 "stent" ? ␅
+TD5179105 ␆__E_T ~ SH
+TD103 #1 _____ ~EHS -ADNOR  📋 "stent" ? __E_T ~ SH
+TD264 attempt 0 STENT m n Y n Y
+TD185 #2 _A___ ~E -ADHNORS  📋 "stent" ? ␅
+TD3068966 ␆_A___ ~ EET
+TD129 #2 _A___ ~E -ADHNORS  📋 "stent" ? _A___ ~ EET
+TD270 attempt 1 STENT n m m n m
+TD175 #4 ___N_ ~ES -ADHNOR  📋 "stent" ? ␅
+TD2083765 ␆/it
+TD127 #4 ___N_ ~ES -ADHNOR  📋 "stent" ? /it
+TD344 attempt 3 STENT Y Y Y Y Y
+TD507 ? ␅
+TD254244 ␆
+TD54 ? 
+TD56 question done
+TD133 > ␅
+TD1115112 ␆*
+TD76 > *
+TD1571141 questioning: ["chest", "#1"]
+TD197 #1 __E_T ~HS -ADNOR  📋 "chest" ? ␅
+TD2657178 ␆/it
+TD110 #1 __E_T ~HS -ADNOR  📋 "chest" ? /it
+TD281 attempt 0 CHEST Y Y Y Y Y
+TD136 #2 _A___ ~ET -ADHNORS  📋 "chest" ? ␅
+TD2944981 ␆.
+TD110 #2 _A___ ~ET -ADHNORS  📋 "chest" ? .
+TD335 attempt 1 CHEST n n m n m
+TD457 ? ␅
+TD228929 ␆
+TD107 ? 
+TD135 question done
+TD400 > ␅
+TD425143 ␆*
+TD104 > *
+TD1059690 questioning: ["latte", "#2"]
+TD168 #2 _A___ ~ET -ACDHNORS  📋 "latte" ? ␅
+TD2489885 ␆/it
+TD98 #2 _A___ ~ET -ACDHNORS  📋 "latte" ? /it
+TD256 attempt 1 LATTE Y Y Y Y Y
+TD392 ? ␅
+TD350203 ␆
+TD106 ? 
+TD112 question done
+TD33627 📋> ␅
+TD6755981 ␆squareword.org 1608: 7 guesses
+TD119 📋> squareword.org 1608: 7 guesses
+TD23 📋> ␅
+TD72 ␆
+TD11 📋> 
+TD9 📋> ␅
+TD25 ␆🟨🟨🟩🟨🟩
+TD10 📋> 🟨🟨🟩🟨🟩
+TD9 📋> ␅
+TD20 ␆🟨🟩🟨🟨🟨
+TD8 📋> 🟨🟩🟨🟨🟨
+TD9 📋> ␅
+TD21 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD19 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD24 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD21 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> ␅
+TD255302 ␆#squareword #squareword1608
+TD105 📋> #squareword #squareword1608
+TD19 📋> ␅
+TD128748 ␄
+TD192 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1608: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1608"}
+TD1967 result: "squareword.org 1608: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1608"
+TD110 📆 2026-06-27 ? ␅
+TD167576 ␆
+TD101 📆 2026-06-27 ? 
