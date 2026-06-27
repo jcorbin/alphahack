@@ -1,0 +1,74 @@
+T43210.952371783 now: 2026-06-27T08:03:40EDT
+TD141 site: alphaguess.com
+TD160454 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof d3d93c1bcc2578a531a976188913fd52d85a0a85
+TD82  ...␅
+TD528383 ␆
+TD211  ...
+TD434 [0 : 98214 : 196520] mach? ␅
+TD6659110 ␆a
+TD102 [0 : 98214 : 196520] mach? a
+TD118 progress: 1 98214 mach
+TD340 [98215 : 147364 : 196520] rhotic? ␅
+TD1391775 ␆a
+TD108 [98215 : 147364 : 196520] rhotic? a
+TD132 progress: 1 147364 rhotic
+TD143 [147365 : 171634 : 196520] ta? ␅
+TD1403227 ␆b
+TD151 [147365 : 171634 : 196520] ta? b
+TD146 progress: -1 171634 ta
+TD178 [147365 : 159481 : 171634] slop? ␅
+TD1405561 ␆b
+TD100 [147365 : 159481 : 171634] slop? b
+TD105 progress: -1 159481 slop
+TD110 [147365 : 153313 : 159481] sea? ␅
+TD8377342 ␆a
+TD83 [147365 : 153313 : 159481] sea? a
+TD96 progress: 1 153313 sea
+TD111 [153314 : 156349 : 159481] ship? ␅
+TD1601004 ␆a
+TD154 [153314 : 156349 : 159481] ship? a
+TD146 progress: 1 156349 ship
+TD169 [156350 : 157877 : 159481] sim? ␅
+TD3069341 ␆a
+TD95 [156350 : 157877 : 159481] sim? a
+TD111 progress: 1 157877 sim
+TD153 [157878 : 158527 : 159481] ski? ␅
+TD1424228 ␆a
+TD100 [157878 : 158527 : 159481] ski? a
+TD123 progress: 1 158527 ski
+TD172 [158528 : 159001 : 159481] slaps? ␅
+TD1443638 ␆a
+TD95 [158528 : 159001 : 159481] slaps? a
+TD116 progress: 1 159001 slaps
+TD125 [159002 : 159238 : 159481] slicken? ␅
+TD1369506 ␆a
+TD121 [159002 : 159238 : 159481] slicken? a
+TD130 progress: 1 159238 slicken
+TD140 [159239 : 159336 : 159481] slip? ␅
+TD2945117 ␆it
+TD113 [159239 : 159336 : 159481] slip? it
+TD125 progress: 0 159336 slip
+TD47 [159239 : 159336 : 159481] <Done>.
+TD152 📋> ␅
+TD2914174 ␆🧩 Puzzle #1069
+TD159 📋> 🧩 Puzzle #1069
+TD48 📋> ␅
+TD108 ␆🤔 11 guesses
+TD39 📋> 🤔 11 guesses
+TD33 📋> ␅
+TD68 ␆⏱️ 23s
+TD36 📋> ⏱️ 23s
+TD27 📋> ␅
+TD246559 ␆🔗 alphaguess.com/1069
+TD58 📋> 🔗 alphaguess.com/1069
+TD12 📋> ␅
+TD154744 ␄
+TD186 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1069\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/1069"}
+TD125 result: "\ud83e\udde9 Puzzle #1069\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/1069"
+TD34 result puzzle: 1069
+TD22 result guesses: 11
+TD19 result time: 23s
+TD29 result link: alphaguess.com/1069
+TD115 📆 2026-06-27 ? ␅
+TD209350 ␆
+TD73 📆 2026-06-27 ? 
