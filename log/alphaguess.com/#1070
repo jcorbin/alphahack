@@ -1,0 +1,82 @@
+T92.26488370599691 now: 2026-06-28T07:47:27EDT
+TD299 site: alphaguess.com
+TD166165 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof d3d93c1bcc2578a531a976188913fd52d85a0a85
+TD105  ...␅
+TD802634 ␆
+TD112  ...
+TD212 [0 : 98214 : 196520] mach? ␅
+TD7944757 ␆b
+TD77 [0 : 98214 : 196520] mach? b
+TD91 progress: -1 98214 mach
+TD105 [0 : 47380 : 98214] dis? ␅
+TD2273546 ␆a
+TD80 [0 : 47380 : 98214] dis? a
+TD93 progress: 1 47380 dis
+TD467 [47381 : 72797 : 98214] gremolata? ␅
+TD1776676 ␆b
+TD141 [47381 : 72797 : 98214] gremolata? b
+TD169 progress: -1 72797 gremolata
+TD210 [47381 : 60081 : 72797] face? ␅
+TD1542783 ␆a
+TD96 [47381 : 60081 : 72797] face? a
+TD135 progress: 1 60081 face
+TD188 [60082 : 66437 : 72797] french? ␅
+TD1679034 ␆b
+TD99 [60082 : 66437 : 72797] french? b
+TD122 progress: -1 66437 french
+TD125 [60082 : 63237 : 66437] flag? ␅
+TD1784565 ␆b
+TD103 [60082 : 63237 : 66437] flag? b
+TD117 progress: -1 63237 flag
+TD118 [60082 : 61617 : 63237] fen? ␅
+TD1653457 ␆b
+TD154 [60082 : 61617 : 63237] fen? b
+TD164 progress: -1 61617 fen
+TD224 [60082 : 60848 : 61617] fas? ␅
+TD2137385 ␆b
+TD115 [60082 : 60848 : 61617] fas? b
+TD109 progress: -1 60848 fas
+TD195 [60082 : 60426 : 60848] fall? ␅
+TD1744988 ␆b
+TD84 [60082 : 60426 : 60848] fall? b
+TD92 progress: -1 60426 fall
+TD98 [60082 : 60228 : 60426] fad? ␅
+TD1697829 ␆a
+TD98 [60082 : 60228 : 60426] fad? a
+TD107 progress: 1 60228 fad
+TD111 [60229 : 60319 : 60426] faint? ␅
+TD1658590 ␆a
+TD62 [60229 : 60319 : 60426] faint? a
+TD66 progress: 1 60319 faint
+TD69 [60320 : 60367 : 60426] faith? ␅
+TD1960324 ␆b
+TD132 [60320 : 60367 : 60426] faith? b
+TD281 progress: -1 60367 faith
+TD160 [60320 : 60334 : 60367] fair? ␅
+TD3243580 ␆it
+TD125 [60320 : 60334 : 60367] fair? it
+TD111 progress: 0 60334 fair
+TD27 [60320 : 60334 : 60367] <Done>.
+TD98 📋> ␅
+TD3287823 ␆🧩 Puzzle #1070
+TD81 📋> 🧩 Puzzle #1070
+TD14 📋> ␅
+TD45 ␆🤔 13 guesses
+TD9 📋> 🤔 13 guesses
+TD7 📋> ␅
+TD16 ␆⏱️ 22s
+TD8 📋> ⏱️ 22s
+TD6 📋> ␅
+TD277111 ␆🔗 alphaguess.com/1070
+TD43 📋> 🔗 alphaguess.com/1070
+TD5 📋> ␅
+TD148290 ␄
+TD183 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1070\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1070"}
+TD98 result: "\ud83e\udde9 Puzzle #1070\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1070"
+TD18 result puzzle: 1070
+TD10 result guesses: 13
+TD8 result time: 22s
+TD7 result link: alphaguess.com/1070
+TD83 📆 2026-06-28 ? ␅
+TD190361 ␆
+TD103 📆 2026-06-28 ? 
