@@ -1,0 +1,209 @@
+T1829.6483631699812 now: 2026-06-28T08:16:25EDT
+TD142 site: squareword.org
+TD38 wordlist: nwl2023.txt
+TD51  ...␅
+TD752646 ␆
+TD88  ...
+TD68 🧩  ? ␅
+TD7952812 ␆#1609
+TD93 🧩  ? #1609
+TD275 puzzle_id: #1609
+TD362 > ␅
+TD1990089 ␆*
+TD110 > *
+TD257783 try? ␅
+TD930489 ␆1
+TD67 try? 1
+TD244 questioning: ["dales", "#5"]
+TD296 #1 <IndexError>  📋 "dales" ? ␅
+TD4283965 ␆_____ ~ A
+TD114 #1 <IndexError>  📋 "dales" ? _____ ~ A
+TD923 attempt 0 DALES n m n n n
+TD133 #2 <IndexError>  📋 "dales" ? ␅
+TD3822195 ␆_____ ~ AE
+TD98 #2 <IndexError>  📋 "dales" ? _____ ~ AE
+TD287 attempt 1 DALES n m n m n
+TD145 #3 <IndexError>  📋 "dales" ? ␅
+TD2519415 ␆____S ~ LS
+TD103 #3 <IndexError>  📋 "dales" ? ____S ~ LS
+TD267 attempt 2 DALES n n m n Y
+TD139 #4 <IndexError>  📋 "dales" ? ␅
+TD2113000 ␆___E_ ~ S
+TD95 #4 <IndexError>  📋 "dales" ? ___E_ ~ S
+TD259 attempt 3 DALES n n n Y m
+TD122 #5 <IndexError>  📋 "dales" ? ␅
+TD3336575 ␆_____ ~ DE
+TD102 #5 <IndexError>  📋 "dales" ? _____ ~ DE
+TD273 attempt 4 DALES m n n m n
+TD437 ? ␅
+TD2043125 ␆
+TD182 ? 
+TD288 question done
+TD729 > ␅
+TD1093334 ␆*
+TD189 > *
+TD733243 try? ␅
+TD1101521 ␆1
+TD82 try? 1
+TD274 questioning: ["inset", "#4"]
+TD388 #1 _____ ~A -DELS  📋 "inset" ? ␅
+TD5018589 ␆_____ ~ AT
+TD196 #1 _____ ~A -DELS  📋 "inset" ? _____ ~ AT
+TD435 attempt 0 INSET n n n n m
+TD221 #2 _____ ~AE -DLS  📋 "inset" ? ␅
+TD1207860 ␆.
+TD117 #2 _____ ~AE -DLS  📋 "inset" ? .
+TD432 attempt 1 INSET n n n m n
+TD175 #3 ____S ~L -ADE  📋 "inset" ? ␅
+TD3153568 ␆__S_S ~ LIT
+TD86 #3 ____S ~L -ADE  📋 "inset" ? __S_S ~ LIT
+TD490 attempt 2 INSET m n Y n m
+TD206 #4 ___E_ ~S -ADL  📋 "inset" ? ␅
+TD2585410 ␆_NSET
+TD180 #4 ___E_ ~S -ADL  📋 "inset" ? _NSET
+TD466 attempt 3 INSET n Y Y Y Y
+TD265 #5 _____ ~DE -ALS  📋 "inset" ? ␅
+TD4184376 ␆_____ ~ DEN
+TD176 #5 _____ ~DE -ALS  📋 "inset" ? _____ ~ DEN
+TD431 attempt 4 INSET n m n m n
+TD649 ? ␅
+TD307995 ␆
+TD44 ? 
+TD54 question done
+TD126 > ␅
+TD729399 ␆*
+TD159 > *
+TD830704 questioning: ["lists", "#3"]
+TD156 #1 _____ ~AT -DEILNS  📋 "lists" ? ␅
+TD5604868 ␆.
+TD154 #1 _____ ~AT -DEILNS  📋 "lists" ? .
+TD383 attempt 0 LISTS n n n m n
+TD152 #2 _____ ~AE -DILNST  📋 "lists" ? ␅
+TD780004 ␆.
+TD112 #2 _____ ~AE -DILNST  📋 "lists" ? .
+TD327 attempt 1 LISTS n n n n n
+TD151 #3 __S_S ~ILT -ADEN  📋 "lists" ? ␅
+TD719641 ␆/it
+TD78 #3 __S_S ~ILT -ADEN  📋 "lists" ? /it
+TD203 attempt 2 LISTS Y Y Y Y Y
+TD89 #4 _NSET -ADIL  📋 "lists" ? ␅
+TD1514018 ␆.
+TD114 #4 _NSET -ADIL  📋 "lists" ? .
+TD335 attempt 3 LISTS n n Y n n
+TD179 #5 _____ ~DEN -AILST  📋 "lists" ? ␅
+TD1778053 ␆.
+TD110 #5 _____ ~DEN -AILST  📋 "lists" ? .
+TD349 attempt 4 LISTS n n n n n
+TD569 ? ␅
+TD1813323 ␆
+TD132 ? 
+TD161 question done
+TD641 > ␅
+TD678137 ␆*
+TD63 > *
+TD481658 questioning: ["needy", "#5"]
+TD194 #1 _____ ~AT -DEILNS  📋 "needy" ? ␅
+TD5137985 ␆.
+TD89 #1 _____ ~AT -DEILNS  📋 "needy" ? .
+TD273 attempt 0 NEEDY n n n n n
+TD124 #2 _____ ~AE -DILNST  📋 "needy" ? ␅
+TD749994 ␆.
+TD138 #2 _____ ~AE -DILNST  📋 "needy" ? .
+TD364 attempt 1 NEEDY n m m n n
+TD171 #4 _NSET -ADILT  📋 "needy" ? ␅
+TD3737635 ␆.
+TD107 #4 _NSET -ADILT  📋 "needy" ? .
+TD316 attempt 3 NEEDY n n n n n
+TD137 #5 _____ ~DEN -AILST  📋 "needy" ? ␅
+TD670639 ␆/it
+TD150 #5 _____ ~DEN -AILST  📋 "needy" ? /it
+TD437 attempt 4 NEEDY Y Y Y Y Y
+TD795 ? ␅
+TD186196 ␆
+TD103 ? 
+TD123 question done
+TD383 > ␅
+TD499085 ␆*
+TD124 > *
+TD1533374 questioning: ["apace", "#2"]
+TD183 #1 _____ ~AT -DEILNSY  📋 "apace" ? ␅
+TD9249074 ␆_____ ~ ATP
+TD137 #1 _____ ~AT -DEILNSY  📋 "apace" ? _____ ~ ATP
+TD334 attempt 0 APACE m m m n n
+TD230 #2 _____ ~AE -DILNSTY  📋 "apace" ? ␅
+TD728844 ␆/it
+TD111 #2 _____ ~AE -DILNSTY  📋 "apace" ? /it
+TD282 attempt 1 APACE Y Y Y Y Y
+TD108 #4 _NSET -ADEILNTY  📋 "apace" ? ␅
+TD892236 ␆.
+TD100 #4 _NSET -ADEILNTY  📋 "apace" ? .
+TD303 attempt 3 APACE n n n n n
+TD385 ? ␅
+TD159100 ␆
+TD93 ? 
+TD106 question done
+TD373 > ␅
+TD446547 ␆*
+TD152 > *
+TD1768650 questioning: ["topaz", "#1"]
+TD195 #1 _____ ~APT -CDEILNSY  📋 "topaz" ? ␅
+TD3712070 ␆/it
+TD103 #1 _____ ~APT -CDEILNSY  📋 "topaz" ? /it
+TD356 attempt 0 TOPAZ Y Y Y Y Y
+TD141 #4 _NSET -ACDEILNPTY  📋 "topaz" ? ␅
+TD3339991 ␆_NSET ~ O
+TD162 #4 _NSET -ACDEILNPTY  📋 "topaz" ? _NSET ~ O
+TD471 attempt 3 TOPAZ n m n n n
+TD635 ? ␅
+TD270943 ␆
+TD50 ? 
+TD57 question done
+TD156 > ␅
+TD486316 ␆*
+TD167 > *
+TD1059388 questioning: ["onset", "#4"]
+TD166 #4 _NSET ~O -ACDEILNPTYZ  📋 "onset" ? ␅
+TD2233207 ␆/it
+TD121 #4 _NSET ~O -ACDEILNPTYZ  📋 "onset" ? /it
+TD328 attempt 3 ONSET Y Y Y Y Y
+TD507 ? ␅
+TD445933 ␆
+TD86 ? 
+TD76 question done
+TD31575 📋> ␅
+TD5741714 ␆squareword.org 1609: 7 guesses
+TD80 📋> squareword.org 1609: 7 guesses
+TD15 📋> ␅
+TD44 ␆
+TD8 📋> 
+TD7 📋> ␅
+TD18 ␆🟨🟨🟨🟨🟨
+TD7 📋> 🟨🟨🟨🟨🟨
+TD7 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD14 ␆🟨🟩🟩🟩🟩
+TD6 📋> 🟨🟩🟩🟩🟩
+TD6 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD15 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD16 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD258969 ␆#squareword #squareword1609
+TD91 📋> #squareword #squareword1609
+TD16 📋> ␅
+TD178772 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1609: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1609"}
+TD1894 result: "squareword.org 1609: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1609"
+TD104 📆 2026-06-28 ? ␅
+TD142838 ␆
+TD117 📆 2026-06-28 ? 
