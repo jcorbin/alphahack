@@ -1,0 +1,177 @@
+T7794.974398843 now: 2026-06-29T09:41:51EDT
+TD229 site: dontwordle.com
+TD67 wordlist: nwl2023.txt
+TD73  ...␅
+TD158779 ␆
+TD166  ...
+TD150 1> ␅
+TD4730519 ␆* -bot 10
+TD113 1> * -bot 10
+TD188309 ? ␅
+TD2851882 ␆6
+TD173 ? 6
+TD502 📋 "parse" ? ␅
+TD6633745 ␆nMMYY
+TD94 📋 "parse" ? nMMYY
+TD609 tried: PARSE n m m Y Y
+TD225 2> ␅
+TD1195705 ␆undo
+TD93 2> undo
+TD146 undo
+TD157 1> ␅
+TD3429269 ␆*
+TD113 1> *
+TD108888 ? ␅
+TD152499 ␆1
+TD156 ? 1
+TD443 📋 "butut" ? ␅
+TD3629035 ␆nnnnn
+TD105 📋 "butut" ? nnnnn
+TD216 tried: BUTUT n n n n n
+TD208 2> ␅
+TD546159 ␆*
+TD163 2> *
+TD103413 ? ␅
+TD106028 ␆1
+TD46 ? 1
+TD110 📋 "vivid" ? ␅
+TD5876934 ␆nnnnn
+TD100 📋 "vivid" ? nnnnn
+TD204 tried: VIVID n n n n n
+TD210 3> ␅
+TD640957 ␆*
+TD235 3> *
+TD100171 ? ␅
+TD161991 ␆1
+TD130 ? 1
+TD339 📋 "kooky" ? ␅
+TD4272513 ␆nnnnn
+TD113 📋 "kooky" ? nnnnn
+TD201 tried: KOOKY n n n n n
+TD217 4> ␅
+TD517102 ␆*1
+TD156 4> *1
+TD312 4> ␅
+TD851906 ␆*
+TD174 4> *
+TD200419 📋 "grrrl" ? ␅
+TD70806 ␆1
+TD171 📋 "grrrl" ? 1
+TD521 📋 "grrrl" ? ␅
+TD7320115 ␆nYnnn
+TD93 📋 "grrrl" ? nYnnn
+TD184 tried: GRRRL n Y n n n
+TD208 5> ␅
+TD495745 ␆*
+TD171 5> *
+TD180518 ? ␅
+TD724551 ␆1
+TD85 ? 1
+TD225 📋 "creep" ? ␅
+TD5500741 ␆nYMMn
+TD117 📋 "creep" ? nYMMn
+TD226 tried: CREEP n Y m m n
+TD290 6> ␅
+TD696036 ␆undo
+TD117 6> undo
+TD166 undo
+TD435 5> ␅
+TD2952809 ␆*
+TD160 5> *
+TD186701 ? ␅
+TD11926407 ␆3
+TD104 ? 3
+TD219 📋 "crepe" ? ␅
+TD6583838 ␆nYMnY
+TD106 📋 "crepe" ? nYMnY
+TD214 tried: CREPE n Y m n Y
+TD273 6> ␅
+TD804390 ␆undo
+TD98 6> undo
+TD141 undo
+TD352 5> ␅
+TD5615651 ␆*
+TD173 5> *
+TD188082 ? ␅
+TD1802763 ␆5
+TD141 ? 5
+TD354 📋 "preen" ? ␅
+TD6610312 ␆undo
+TD91 📋 "preen" ? undo
+TD175 ? ␅
+TD4580111 ␆nYMMn
+TD129 ? nYMMn
+TD262 tried: PREEN n Y m m n
+TD316 6> ␅
+TD795535 ␆undo
+TD101 6> undo
+TD140 undo
+TD358 5> ␅
+TD3159011 ␆*
+TD161 5> *
+TD187239 ? ␅
+TD2746950 ␄
+TD206 <EOF>
+TD241 5> ␅
+TD1217868 ␆* -sans
+TD88 5> * -sans
+TD91596 ? ␅
+TD2819603 ␆3
+TD97 ? 3
+TD238 📋 "frass" ? ␅
+TD5576657 ␆nYYYn
+TD164 📋 "frass" ? nYYYn
+TD393 tried: FRASS n Y Y Y n
+TD438 6> ␅
+TD395666 ␆*
+TD183 6> *
+TD99492 📋 "crash" ? ␅
+TD4726165 ␆nYYYn
+TD110 📋 "crash" ? nYYYn
+TD248 tried: CRASH n Y Y Y n
+TD267 📋> ␅
+TD4325837 ␆Don't Wordle 1497 - SURVIVED
+TD80 📋> Don't Wordle 1497 - SURVIVED
+TD15 📋> ␅
+TD39 ␆Hooray! I didn't Wordle today!
+TD8 📋> Hooray! I didn't Wordle today!
+TD7 📋> ␅
+TD16 ␆⬜⬜⬜⬜⬜7042
+TD7 📋> ⬜⬜⬜⬜⬜7042
+TD6 📋> ␅
+TD14 ␆⬜⬜⬜⬜⬜3521
+TD21 📋> ⬜⬜⬜⬜⬜3521
+TD7 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜1314
+TD6 📋> ⬜⬜⬜⬜⬜1314
+TD6 📋> ␅
+TD15 ␆⬜🟩⬜⬜⬜58
+TD6 📋> ⬜🟩⬜⬜⬜58
+TD6 📋> ␅
+TD15 ␆⬜🟩🟩🟩⬜3
+TD6 📋> ⬜🟩🟩🟩⬜3
+TD6 📋> ␅
+TD15 ␆⬜🟩🟩🟩⬜2
+TD6 📋> ⬜🟩🟩🟩⬜2
+TD6 📋> ␅
+TD13 ␆Undos used: 4
+TD6 📋> Undos used: 4
+TD6 📋> ␅
+TD13 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD16 ␆  2 words remaining
+TD7 📋>   2 words remaining
+TD6 📋> ␅
+TD14 ␆x 9 unused letters
+TD6 📋> x 9 unused letters
+TD6 📋> ␅
+TD207600 ␆= 18 total score
+TD83 📋> = 18 total score
+TD13 📋> ␅
+TD160447 ␄
+TD172 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1497 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7042\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3521\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1314\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c58\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c3\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c2\nUndos used: 4\n\n  2 words remaining\nx 9 unused letters\n= 18 total score"}
+TD2061 result: "Don't Wordle 1497 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7042\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3521\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1314\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c58\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c3\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c2\nUndos used: 4\n\n  2 words remaining\nx 9 unused letters\n= 18 total score"
+TD111 📆 2026-06-29 ? ␅
+TD124400 ␆
+TD83 📆 2026-06-29 ? 
