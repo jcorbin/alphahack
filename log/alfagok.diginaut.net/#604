@@ -1,0 +1,54 @@
+T6722.302702542 now: 2026-06-29T09:23:58EDT
+TD166 site: alfagok.diginaut.net
+TD405420 loaded 399523 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1329 words excluded) asof 858da1400243f58c70bcb631cab1013f5a77cdc3
+TD107  ...␅
+TD5150813 ␆
+TD48  ...
+TD108 [0 : 199556 : 399523] lij? ␅
+TD3493966 ␆a
+TD93 [0 : 199556 : 399523] lij? a
+TD391 progress: 1 199556 lij
+TD126 [199557 : 299533 : 399523] schrok? ␅
+TD1367833 ␆a
+TD85 [199557 : 299533 : 399523] schrok? a
+TD115 progress: 1 299533 schrok
+TD100 [299534 : 349524 : 399523] vakanties? ␅
+TD1374976 ␆a
+TD93 [299534 : 349524 : 399523] vakanties? a
+TD110 progress: 1 349524 vakanties
+TD112 [349525 : 374521 : 399523] vrijst? ␅
+TD1337651 ␆b
+TD157 [349525 : 374521 : 399523] vrijst? b
+TD178 progress: -1 374521 vrijst
+TD184 [349525 : 361965 : 374521] vervolg? ␅
+TD1622647 ␆a
+TD102 [349525 : 361965 : 374521] vervolg? a
+TD119 progress: 1 361965 vervolg
+TD128 [361966 : 368212 : 374521] voedsel? ␅
+TD1813635 ␆it
+TD119 [361966 : 368212 : 374521] voedsel? it
+TD157 progress: 0 368212 voedsel
+TD42 [361966 : 368212 : 374521] <Done>.
+TD167 📋> ␅
+TD3323254 ␆🧩 Puzzel #604
+TD83 📋> 🧩 Puzzel #604
+TD16 📋> ␅
+TD49 ␆🤔 6 gokken
+TD12 📋> 🤔 6 gokken
+TD11 📋> ␅
+TD19 ␆⏱️ 7s
+TD12 📋> ⏱️ 7s
+TD7 📋> ␅
+TD198007 ␆🔗 alfagok.diginaut.net
+TD105 📋> 🔗 alfagok.diginaut.net
+TD19 📋> ␅
+TD178616 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #604\n\ud83e\udd14 6 gokken\n\u23f1\ufe0f 7s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD809 result: "\ud83e\udde9 Puzzel #604\n\ud83e\udd14 6 gokken\n\u23f1\ufe0f 7s\n\ud83d\udd17 alfagok.diginaut.net"
+TD26 result puzzle: 604
+TD13 result guesses: 6
+TD8 result time: 7s
+TD8 result link: alfagok.diginaut.net
+TD85 📆 2026-06-29 ? ␅
+TD131202 ␆
+TD98 📆 2026-06-29 ? 
