@@ -1,0 +1,163 @@
+T839.3615173670005 now: 2026-06-30T08:07:36EDT
+TD68 site: https://www.merriam-webster.com/games/quordle/#/
+TD13 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD71  ...␅
+TD4662039 ␆
+TD54  ...
+TD474376 > ␅
+TD20520959 ␆*
+TD100 > *
+TD49574 ? ␅
+TD4948275 ␆3
+TD161 ? 3
+TD251 questioning: scare
+TD239 Classic #1 _____? ␅
+TD3444040 ␆nnMnY
+TD111 Classic #1 _____? nnMnY
+TD391 attempt: 0 SCARE n n m n Y
+TD114 Classic #2 _____? ␅
+TD1483247 ␆nnnMM
+TD98 Classic #2 _____? nnnMM
+TD1223 attempt: 1 SCARE n n n m m
+TD194 Classic #3 _____? ␅
+TD1203161 ␆nnnYY
+TD96 Classic #3 _____? nnnYY
+TD276 attempt: 2 SCARE n n n Y Y
+TD140 Classic #4 _____? ␅
+TD1302931 ␆nnnnn
+TD124 Classic #4 _____? nnnnn
+TD311 attempt: 3 SCARE n n n n n
+TD443578 > ␅
+TD866549 ␆*
+TD62 > *
+TD4994 ? ␅
+TD1267189 ␆1
+TD116 ? 1
+TD220 questioning: unity
+TD196 Classic #1 ____E ~A -CRS? ␅
+TD3010151 ␆nnnnn
+TD125 Classic #1 ____E ~A -CRS? nnnnn
+TD307 attempt: 0 UNITY n n n n n
+TD155 Classic #2 _____ ~ER -ACS? ␅
+TD1277762 ␆nnnnM
+TD101 Classic #2 _____ ~ER -ACS? nnnnM
+TD282 attempt: 1 UNITY n n n n m
+TD132 Classic #3 ___RE -ACS? ␅
+TD1320158 ␆nnnMn
+TD96 Classic #3 ___RE -ACS? nnnMn
+TD239 attempt: 2 UNITY n n n m n
+TD128 Classic #4 _____ -ACERS? ␅
+TD1830518 ␆nMMYY
+TD94 Classic #4 _____ -ACERS? nMMYY
+TD260 attempt: 3 UNITY n m m Y Y
+TD475856 > ␅
+TD890845 ␆*
+TD147 > *
+TD852 ? ␅
+TD8056780 ␄
+TD120 <EOF>
+TD450551 > ␅
+TD1217708 ␆* 1
+TD87 > * 1
+TD112502 ? ␅
+TD11399392 ␆7
+TD106 ? 7
+TD179 questioning: ample
+TD177 Classic #1 ____E ~A -CINRSTUY? ␅
+TD4347476 ␆MnnMY
+TD103 Classic #1 ____E ~A -CINRSTUY? MnnMY
+TD276 attempt: 0 AMPLE m n n m Y
+TD170 Classic #2 _____ ~ERY -ACINSTU? ␅
+TD1274806 ␆nnnnM
+TD124 Classic #2 _____ ~ERY -ACINSTU? nnnnM
+TD308 attempt: 1 AMPLE n n n n m
+TD164 Classic #3 ___RE ~T -ACINSUY? ␅
+TD1491749 ␆nnnnY
+TD89 Classic #3 ___RE ~T -ACINSUY? nnnnY
+TD229 attempt: 2 AMPLE n n n n Y
+TD120 Classic #4 ___TY ~IN -ACERSU? ␅
+TD1536530 ␆nMnnn
+TD95 Classic #4 ___TY ~IN -ACERSU? nMnnn
+TD244 attempt: 3 AMPLE n m n n n
+TD465247 > ␅
+TD1108656 ␆*
+TD102 > *
+TD470 questioning: there
+TD158 Classic #1 ____E ~AL -CIMNPRSTUY? ␅
+TD2949031 ␆nMnnY
+TD132 Classic #1 ____E ~AL -CIMNPRSTUY? nMnnY
+TD328 attempt: 0 THERE n m n n Y
+TD191 Classic #2 _____ ~ERY -ACILMNPSTU? ␅
+TD1382045 ␆nnMMn
+TD134 Classic #2 _____ ~ERY -ACILMNPSTU? nnMMn
+TD305 attempt: 1 THERE n n m m n
+TD164 Classic #3 ___RE ~T -ACILMNPSUY? ␅
+TD1200256 ␆YYYYY
+TD103 Classic #3 ___RE ~T -ACILMNPSUY? YYYYY
+TD249 attempt: 2 THERE Y Y Y Y Y
+TD153 Classic #4 ___TY ~IMN -ACELPRSU? ␅
+TD1373951 ␆Mnnnn
+TD88 Classic #4 ___TY ~IMN -ACELPRSU? Mnnnn
+TD239 attempt: 3 THERE m n n n n
+TD342257 > ␅
+TD654361 ␆*
+TD98 > *
+TD410 questioning: halve
+TD156 Classic #1 ____E ~AHL -CIMNPRSTUY? ␅
+TD2577320 ␆YYYYY
+TD129 Classic #1 ____E ~AHL -CIMNPRSTUY? YYYYY
+TD369 attempt: 0 HALVE Y Y Y Y Y
+TD220 Classic #2 _____ ~ERY -ACHILMNPSTU E:1? ␅
+TD1328374 ␆nnnnM
+TD88 Classic #2 _____ ~ERY -ACHILMNPSTU E:1? nnnnM
+TD224 attempt: 1 HALVE n n n n m
+TD126 Classic #4 ___TY ~IMN -ACEHLPRSU? ␅
+TD1105622 ␆nnnnn
+TD102 Classic #4 ___TY ~IMN -ACEHLPRSU? nnnnn
+TD253 attempt: 3 HALVE n n n n n
+TD229389 > ␅
+TD652757 ␆*
+TD124 > *
+TD534 questioning: minty
+TD175 Classic #2 _____ ~ERY -ACHILMNPSTUV E:1? ␅
+TD3149749 ␆nnnnM
+TD82 Classic #2 _____ ~ERY -ACHILMNPSTUV E:1? nnnnM
+TD221 attempt: 1 MINTY n n n n m
+TD125 Classic #4 ___TY ~IMN -ACEHLPRSUV? ␅
+TD1259589 ␆YYYYY
+TD129 Classic #4 ___TY ~IMN -ACEHLPRSUV? YYYYY
+TD333 attempt: 3 MINTY Y Y Y Y Y
+TD136020 > ␅
+TD807654 ␆*
+TD145 > *
+TD966 ? ␅
+TD5354144 ␆3
+TD92 ? 3
+TD182 questioning: dryer
+TD153 Classic #2 _____ ~ERY -ACHILMNPSTUV E:1? ␅
+TD3719440 ␆YYYYY
+TD99 Classic #2 _____ ~ERY -ACHILMNPSTUV E:1? YYYYY
+TD593 attempt: 1 DRYER Y Y Y Y Y
+TD111 📋> ␅
+TD12519249 ␆🙂 Daily Quordle 1618
+TD100 📋> 🙂 Daily Quordle 1618
+TD21 📋> ␅
+TD66 ␆5️⃣7️⃣
+TD13 📋> 5️⃣7️⃣
+TD12 📋> ␅
+TD25 ␆4️⃣6️⃣
+TD25 📋> 4️⃣6️⃣
+TD11 📋> ␅
+TD29 ␆m-w.com/games/quordle/
+TD9 📋> m-w.com/games/quordle/
+TD25 📋> ␅
+TD231993 ␆
+TD122 📋> 
+TD28 📋> ␅
+TD132744 ␄
+TD153 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1618\n5\ufe0f\u20e37\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2279 result: "\ud83d\ude42 Daily Quordle 1618\n5\ufe0f\u20e37\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD87 📆 2026-06-30 ? ␅
+TD173244 ␆
+TD120 📆 2026-06-30 ? 
