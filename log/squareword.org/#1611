@@ -1,0 +1,218 @@
+T1784.1654168530004 now: 2026-06-30T08:23:20EDT
+TD189 site: squareword.org
+TD51 wordlist: nwl2023.txt
+TD73  ...␅
+TD619697 ␆
+TD134  ...
+TD100 🧩  ? ␅
+TD6090411 ␆#1611
+TD106 🧩  ? #1611
+TD302 puzzle_id: #1611
+TD386 > ␅
+TD3638076 ␆*
+TD117 > *
+TD236169 try? ␅
+TD826911 ␆1
+TD100 try? 1
+TD319 questioning: ["arose", "#5"]
+TD405 #1 <IndexError>  📋 "arose" ? ␅
+TD4897404 ␆_____ ~ ARS
+TD105 #1 <IndexError>  📋 "arose" ? _____ ~ ARS
+TD892 attempt 0 AROSE m m n m n
+TD133 #2 <IndexError>  📋 "arose" ? ␅
+TD1992219 ␆_____ ~ RE
+TD127 #2 <IndexError>  📋 "arose" ? _____ ~ RE
+TD319 attempt 1 AROSE n m n n m
+TD140 #3 <IndexError>  📋 "arose" ? ␅
+TD2419320 ␆____E ~ O
+TD131 #3 <IndexError>  📋 "arose" ? ____E ~ O
+TD415 attempt 2 AROSE n n m n Y
+TD176 #4 <IndexError>  📋 "arose" ? ␅
+TD2028719 ␆____E ~ E
+TD106 #4 <IndexError>  📋 "arose" ? ____E ~ E
+TD288 attempt 3 AROSE n n n n Y
+TD128 #5 <IndexError>  📋 "arose" ? ␅
+TD2023810 ␆_____ ~ E
+TD99 #5 <IndexError>  📋 "arose" ? _____ ~ E
+TD281 attempt 4 AROSE n n n n m
+TD454 ? ␅
+TD653077 ␆
+TD163 ? 
+TD269 question done
+TD511 > ␅
+TD541010 ␆*
+TD102 > *
+TD675514 try? ␅
+TD1119979 ␆1
+TD95 try? 1
+TD341 questioning: ["voice", "#3"]
+TD455 #1 _____ ~ARS -EO  📋 "voice" ? ␅
+TD3019249 ␆.
+TD96 #1 _____ ~ARS -EO  📋 "voice" ? .
+TD285 attempt 0 VOICE n n n n n
+TD103 #2 _____ ~ER -AOS  📋 "voice" ? ␅
+TD2758909 ␆_____ ~ ERI
+TD124 #2 _____ ~ER -AOS  📋 "voice" ? _____ ~ ERI
+TD388 attempt 1 VOICE n n m n m
+TD206 #3 ____E ~O -ARS  📋 "voice" ? ␅
+TD2975617 ␆__I_E  ~ OV
+TD106 #3 ____E ~O -ARS  📋 "voice" ? __I_E  ~ OV
+TD237 attempt 2 VOICE m m Y n Y
+TD135 #4 ____E -AORS  📋 "voice" ? ␅
+TD2567441 ␆V___E ~ E
+TD108 #4 ____E -AORS  📋 "voice" ? V___E ~ E
+TD350 attempt 3 VOICE Y n n n Y
+TD174 #5 _____ ~E -AORS  📋 "voice" ? ␅
+TD1198619 ␆.
+TD99 #5 _____ ~E -AORS  📋 "voice" ? .
+TD318 attempt 4 VOICE n n n n m
+TD391 ? ␅
+TD192650 ␆
+TD105 ? 
+TD130 question done
+TD434 > ␅
+TD397894 ␆*
+TD134 > *
+TD771186 try? ␅
+TD2997596 ␆2
+TD86 try? 2
+TD262 questioning: ["venue", "#4"]
+TD371 #1 _____ ~ARS -CEIOV  📋 "venue" ? ␅
+TD3448537 ␆.
+TD100 #1 _____ ~ARS -CEIOV  📋 "venue" ? .
+TD278 attempt 0 VENUE n n n n n
+TD108 #2 _____ ~EIR -ACOSV  📋 "venue" ? ␅
+TD1119347 ␆.
+TD111 #2 _____ ~EIR -ACOSV  📋 "venue" ? .
+TD284 attempt 1 VENUE n m n n m
+TD111 #3 __I_E ~OV -ACRS  📋 "venue" ? ␅
+TD2409120 ␆.
+TD62 #3 __I_E ~OV -ACRS  📋 "venue" ? .
+TD173 attempt 2 VENUE m n n n Y
+TD97 #4 V___E -ACIORS  📋 "venue" ? ␅
+TD700157 ␆/it
+TD127 #4 V___E -ACIORS  📋 "venue" ? /it
+TD371 attempt 3 VENUE Y Y Y Y Y
+TD174 #5 _____ ~E -ACIORSV  📋 "venue" ? ␅
+TD1374467 ␆.
+TD103 #5 _____ ~E -ACIORSV  📋 "venue" ? .
+TD314 attempt 4 VENUE n m n n m
+TD679 ? ␅
+TD168613 ␆
+TD146 ? 
+TD136 question done
+TD417 > ␅
+TD398839 ␆*
+TD100 > *
+TD760532 try? ␅
+TD1551985 ␆2
+TD126 try? 2
+TD393 questioning: ["olive", "#3"]
+TD577 #1 _____ ~ARS -CEINOUV  📋 "olive" ? ␅
+TD2988779 ␆.
+TD63 #1 _____ ~ARS -CEINOUV  📋 "olive" ? .
+TD190 attempt 0 OLIVE n n n n n
+TD73 #2 _____ ~EIR -ACNOSUV  📋 "olive" ? ␅
+TD713894 ␆.
+TD99 #2 _____ ~EIR -ACNOSUV  📋 "olive" ? .
+TD290 attempt 1 OLIVE n n m n m
+TD110 #3 __I_E ~OV -ACNRSU  📋 "olive" ? ␅
+TD636130 ␆/it
+TD128 #3 __I_E ~OV -ACNRSU  📋 "olive" ? /it
+TD298 attempt 2 OLIVE Y Y Y Y Y
+TD122 #5 _____ ~E -ACINORSUV  📋 "olive" ? ␅
+TD652095 ␆.
+TD102 #5 _____ ~E -ACINORSUV  📋 "olive" ? .
+TD335 attempt 4 OLIVE n n n n m
+TD415 ? ␅
+TD164681 ␆
+TD98 ? 
+TD112 question done
+TD382 > ␅
+TD391427 ␆*
+TD88 > *
+TD917291 questioning: ["edged", "#5"]
+TD216 #1 _____ ~ARS -CEILNOUV  📋 "edged" ? ␅
+TD4936684 ␆.
+TD92 #1 _____ ~ARS -CEILNOUV  📋 "edged" ? .
+TD266 attempt 0 EDGED n n n n n
+TD107 #2 _____ ~EIR -ACLNOSUV  📋 "edged" ? ␅
+TD2796727 ␆__GE_ ~ RI
+TD93 #2 _____ ~EIR -ACLNOSUV  📋 "edged" ? __GE_ ~ RI
+TD277 attempt 1 EDGED n n Y Y n
+TD166 #5 _____ ~E -ACILNORSUV  📋 "edged" ? ␅
+TD910204 ␆/it
+TD96 #5 _____ ~E -ACILNORSUV  📋 "edged" ? /it
+TD260 attempt 4 EDGED Y Y Y Y Y
+TD406 ? ␅
+TD156359 ␆
+TD93 ? 
+TD117 question done
+TD386 > ␅
+TD609377 ␆*
+TD100 > *
+TD1697813 questioning: ["tiger", "#2"]
+TD190 #1 _____ ~ARS -CDEGILNOUV  📋 "tiger" ? ␅
+TD5469622 ␆_____ ~ ARST
+TD97 #1 _____ ~ARS -CDEGILNOUV  📋 "tiger" ? _____ ~ ARST
+TD275 attempt 0 TIGER m n n n m
+TD162 #2 __GE_ ~IR -ACDLNOSUV  📋 "tiger" ? ␅
+TD652645 ␆/it
+TD129 #2 __GE_ ~IR -ACDLNOSUV  📋 "tiger" ? /it
+TD320 attempt 1 TIGER Y Y Y Y Y
+TD484 ? ␅
+TD291837 ␆
+TD70 ? 
+TD76 question done
+TD219 > ␅
+TD504354 ␆*
+TD141 > *
+TD1183178 try? ␅
+TD2285131 ␆2
+TD101 try? 2
+TD312 questioning: ["start", "#1"]
+TD469 #1 _____ ~ARST -CDEGILNOUV  📋 "start" ? ␅
+TD1893827 ␆/it
+TD203 #1 _____ ~ARST -CDEGILNOUV  📋 "start" ? /it
+TD275 attempt 0 START Y Y Y Y Y
+TD342 ? ␅
+TD720891 ␆
+TD98 ? 
+TD135 question done
+TD33758 📋> ␅
+TD7668840 ␆squareword.org 1611: 7 guesses
+TD118 📋> squareword.org 1611: 7 guesses
+TD17 📋> ␅
+TD56 ␆
+TD10 📋> 
+TD8 📋> ␅
+TD20 ␆🟨🟨🟨🟨🟨
+TD9 📋> 🟨🟨🟨🟨🟨
+TD8 📋> ␅
+TD18 ␆🟨🟨🟩🟩🟨
+TD7 📋> 🟨🟨🟩🟩🟨
+TD7 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD13 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD26 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD18 ␆
+TD13 📋> 
+TD8 📋> ␅
+TD23 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD12 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> ␅
+TD257487 ␆#squareword #squareword1611
+TD62 📋> #squareword #squareword1611
+TD11 📋> ␅
+TD148438 ␄
+TD157 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1611: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1611"}
+TD2219 result: "squareword.org 1611: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1611"
+TD143 📆 2026-06-30 ? ␅
+TD138568 ␆
+TD71 📆 2026-06-30 ? 
