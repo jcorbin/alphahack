@@ -1,0 +1,97 @@
+T262.29026603500097 now: 2026-06-30T07:57:58EDT
+TD216 site: alphaguess.com
+TD192333 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 3caa29176fdd7142c3f3f6edd4af2375151941c5
+TD116  ...␅
+TD15160870 ␆
+TD69  ...
+TD94 [0 : 98214 : 196520] mach? ␅
+TD2440747 ␆b
+TD108 [0 : 98214 : 196520] mach? b
+TD175 progress: -1 98214 mach
+TD128 [0 : 47380 : 98214] dis? ␅
+TD1610400 ␆a
+TD102 [0 : 47380 : 98214] dis? a
+TD109 progress: 1 47380 dis
+TD556 [47381 : 72797 : 98214] gremolata? ␅
+TD1451602 ␆b
+TD89 [47381 : 72797 : 98214] gremolata? b
+TD100 progress: -1 72797 gremolata
+TD105 [47381 : 60081 : 72797] face? ␅
+TD1552808 ␆b
+TD100 [47381 : 60081 : 72797] face? b
+TD121 progress: -1 60081 face
+TD144 [47381 : 53396 : 60081] el? ␅
+TD1561213 ␆a
+TD86 [47381 : 53396 : 60081] el? a
+TD100 progress: 1 53396 el
+TD514 [53397 : 56739 : 60081] equate? ␅
+TD2491040 ␆a
+TD72 [53397 : 56739 : 60081] equate? a
+TD88 progress: 1 56739 equate
+TD96 [56740 : 58355 : 60081] ex? ␅
+TD1427707 ␆a
+TD88 [56740 : 58355 : 60081] ex? a
+TD86 progress: 1 58355 ex
+TD93 [58356 : 59214 : 60081] expel? ␅
+TD1523738 ␆b
+TD138 [58356 : 59214 : 60081] expel? b
+TD168 progress: -1 59214 expel
+TD319 [58356 : 58780 : 59214] exempt? ␅
+TD1406934 ␆a
+TD95 [58356 : 58780 : 59214] exempt? a
+TD95 progress: 1 58780 exempt
+TD275 [58781 : 58996 : 59214] exogen? ␅
+TD1468854 ␆b
+TD77 [58781 : 58996 : 59214] exogen? b
+TD81 progress: -1 58996 exogen
+TD317 [58781 : 58869 : 58996] exhibit? ␅
+TD2115031 ␆a
+TD86 [58781 : 58869 : 58996] exhibit? a
+TD120 progress: 1 58869 exhibit
+TD332 [58870 : 58928 : 58996] exile? ␅
+TD1538423 ␆
+TD87 [58870 : 58928 : 58996] exile? 
+TD120 [58870 : 58928 : 58996] exile? ␅
+TD586447 ␆a
+TD61 [58870 : 58928 : 58996] exile? a
+TD62 progress: 1 58928 exile
+TD252 [58929 : 58962 : 58996] exobiologists? ␅
+TD1575382 ␆b
+TD96 [58929 : 58962 : 58996] exobiologists? b
+TD105 progress: -1 58962 exobiologists
+TD133 [58929 : 58940 : 58962] exist? ␅
+TD1652670 ␆a
+TD100 [58929 : 58940 : 58962] exist? a
+TD106 progress: 1 58940 exist
+TD194 [58941 : 58944 : 58962] existent? ␅
+TD1383515 ␆a
+TD166 [58941 : 58944 : 58962] existent? a
+TD215 progress: 1 58944 existent
+TD580 [58945 : 58954 : 58962] exit? ␅
+TD4263235 ␆it
+TD97 [58945 : 58954 : 58962] exit? it
+TD116 progress: 0 58954 exit
+TD39 [58945 : 58954 : 58962] <Done>.
+TD121 📋> ␅
+TD3623718 ␆🧩 Puzzle #1072
+TD121 📋> 🧩 Puzzle #1072
+TD32 📋> ␅
+TD79 ␆🤔 16 guesses
+TD30 📋> 🤔 16 guesses
+TD22 📋> ␅
+TD46 ␆⏱️ 25s
+TD25 📋> ⏱️ 25s
+TD22 📋> ␅
+TD267909 ␆🔗 alphaguess.com/1072
+TD121 📋> 🔗 alphaguess.com/1072
+TD30 📋> ␅
+TD197053 ␄
+TD443 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1072\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1072"}
+TD237 result: "\ud83e\udde9 Puzzle #1072\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1072"
+TD30 result puzzle: 1072
+TD13 result guesses: 16
+TD10 result time: 25s
+TD9 result link: alphaguess.com/1072
+TD118 📆 2026-06-30 ? ␅
+TD187424 ␆
+TD151 📆 2026-06-30 ? 
