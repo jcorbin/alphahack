@@ -1,0 +1,65 @@
+T101.55128448499454 now: 2026-07-01T08:13:18EDT
+TD153 site: alphaguess.com
+TD151946 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof abd1db0df3e11805089aa8072270faf055ea0d83
+TD126  ...␅
+TD103901 ␆
+TD104  ...
+TD200 [0 : 98214 : 196520] mach? ␅
+TD5973404 ␆a
+TD86 [0 : 98214 : 196520] mach? a
+TD104 progress: 1 98214 mach
+TD293 [98215 : 147364 : 196520] rhotic? ␅
+TD2237226 ␆b
+TD107 [98215 : 147364 : 196520] rhotic? b
+TD105 progress: -1 147364 rhotic
+TD108 [98215 : 122775 : 147364] parr? ␅
+TD1832057 ␆a
+TD92 [98215 : 122775 : 147364] parr? a
+TD111 progress: 1 122775 parr
+TD110 [122776 : 135066 : 147364] proper? ␅
+TD1714688 ␆b
+TD97 [122776 : 135066 : 147364] proper? b
+TD109 progress: -1 135066 proper
+TD117 [122776 : 128844 : 135066] play? ␅
+TD1971831 ␆b
+TD104 [122776 : 128844 : 135066] play? b
+TD123 progress: -1 128844 play
+TD127 [122776 : 125807 : 128844] petti? ␅
+TD1672796 ␆b
+TD151 [122776 : 125807 : 128844] petti? b
+TD177 progress: -1 125807 petti
+TD205 [122776 : 123688 : 125807] pe? ␅
+TD1538731 ␆
+TD91 [122776 : 123688 : 125807] pe? 
+TD125 [122776 : 123688 : 125807] pe? ␅
+TD1506472 ␆b
+TD90 [122776 : 123688 : 125807] pe? b
+TD97 progress: -1 123688 pe
+TD121 [122776 : 123123 : 123688] past? ␅
+TD6676343 ␆it
+TD108 [122776 : 123123 : 123688] past? it
+TD131 progress: 0 123123 past
+TD44 [122776 : 123123 : 123688] <Done>.
+TD128 📋> ␅
+TD3283339 ␆🧩 Puzzle #1073
+TD143 📋> 🧩 Puzzle #1073
+TD31 📋> ␅
+TD72 ␆🤔 8 guesses
+TD25 📋> 🤔 8 guesses
+TD21 📋> ␅
+TD43 ␆⏱️ 14s
+TD24 📋> ⏱️ 14s
+TD22 📋> ␅
+TD286562 ␆🔗 alphaguess.com/1073
+TD311 📋> 🔗 alphaguess.com/1073
+TD88 📋> ␅
+TD135108 ␄
+TD211 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1073\n\ud83e\udd14 8 guesses\n\u23f1\ufe0f 14s\n\ud83d\udd17 alphaguess.com/1073"}
+TD133 result: "\ud83e\udde9 Puzzle #1073\n\ud83e\udd14 8 guesses\n\u23f1\ufe0f 14s\n\ud83d\udd17 alphaguess.com/1073"
+TD25 result puzzle: 1073
+TD13 result guesses: 8
+TD11 result time: 14s
+TD10 result link: alphaguess.com/1073
+TD113 📆 2026-07-01 ? ␅
+TD156754 ␆
+TD122 📆 2026-07-01 ? 
