@@ -1,0 +1,221 @@
+T1410.3147671940023 now: 2026-07-01T08:39:16EDT
+TD151 site: squareword.org
+TD53 wordlist: nwl2023.txt
+TD59  ...␅
+TD226608 ␆
+TD95  ...
+TD80 🧩  ? ␅
+TD399074 ␆
+TD122 🧩  ? 
+TD167  ...␅
+TD3779558 ␆
+TD102  ...
+TD101 🧩  ? ␅
+TD1205712 ␆#1612
+TD81 🧩  ? #1612
+TD265 puzzle_id: #1612
+TD302 > ␅
+TD1503170 ␆*
+TD73 > *
+TD230730 try? ␅
+TD647265 ␆1
+TD85 try? 1
+TD317 questioning: ["hares", "#5"]
+TD350 #1 <IndexError>  📋 "hares" ? ␅
+TD4974032 ␆_____ ~ AS
+TD112 #1 <IndexError>  📋 "hares" ? _____ ~ AS
+TD922 attempt 0 HARES n m n n m
+TD141 #2 <IndexError>  📋 "hares" ? ␅
+TD2852698 ␆H____ ~ E
+TD103 #2 <IndexError>  📋 "hares" ? H____ ~ E
+TD315 attempt 1 HARES Y n n m n
+TD141 #3 <IndexError>  📋 "hares" ? ␅
+TD2642325 ␆_____ ~ ARE
+TD93 #3 <IndexError>  📋 "hares" ? _____ ~ ARE
+TD265 attempt 2 HARES n m m m n
+TD125 #4 <IndexError>  📋 "hares" ? ␅
+TD2812143 ␆_____ ~ E
+TD103 #4 <IndexError>  📋 "hares" ? _____ ~ E
+TD323 attempt 3 HARES n n n m n
+TD129 #5 <IndexError>  📋 "hares" ? ␅
+TD3570077 ␆____S ~ E
+TD102 #5 <IndexError>  📋 "hares" ? ____S ~ E
+TD276 attempt 4 HARES n n n m Y
+TD441 ? ␅
+TD422841 ␆
+TD105 ? 
+TD164 question done
+TD396 > ␅
+TD706232 ␆*
+TD123 > *
+TD755821 try? ␅
+TD3709848 ␆4
+TD108 try? 4
+TD360 questioning: ["hinge", "#2"]
+TD500 #1 _____ ~AS -EHR  📋 "hinge" ? ␅
+TD3147891 ␆.
+TD99 #1 _____ ~AS -EHR  📋 "hinge" ? .
+TD318 attempt 0 HINGE n n n n n
+TD108 #2 H____ ~E -ARS  📋 "hinge" ? ␅
+TD4542068 ␆H_N_E ~ E
+TD130 #2 H____ ~E -ARS  📋 "hinge" ? H_N_E ~ E
+TD316 attempt 1 HINGE Y n Y n Y
+TD169 #3 _____ ~AER -HS  📋 "hinge" ? ␅
+TD3634447 ␆_____ ~ AREG
+TD107 #3 _____ ~AER -HS  📋 "hinge" ? _____ ~ AREG
+TD299 attempt 2 HINGE n n n m m
+TD169 #4 _____ ~E -AHRS  📋 "hinge" ? ␅
+TD3609466 ␆_____ ~ EN
+TD99 #4 _____ ~E -AHRS  📋 "hinge" ? _____ ~ EN
+TD270 attempt 3 HINGE n n m n m
+TD156 #5 ____S ~E -AHR  📋 "hinge" ? ␅
+TD1363713 ␆.
+TD102 #5 ____S ~E -AHR  📋 "hinge" ? .
+TD306 attempt 4 HINGE n n n n m
+TD405 ? ␅
+TD209157 ␆
+TD65 ? 
+TD76 question done
+TD221 > ␅
+TD606574 ␆*
+TD97 > *
+TD730638 questioning: ["hence", "#2"]
+TD183 #1 _____ ~AS -EGHINR  📋 "hence" ? ␅
+TD3788191 ␆.
+TD127 #1 _____ ~AS -EGHINR  📋 "hence" ? .
+TD354 attempt 0 HENCE n n n n n
+TD136 #2 H_N_E -AGIRS  📋 "hence" ? ␅
+TD1052839 ␆/it
+TD96 #2 H_N_E -AGIRS  📋 "hence" ? /it
+TD274 attempt 1 HENCE Y Y Y Y Y
+TD106 #3 _____ ~AEGR -HINS  📋 "hence" ? ␅
+TD5822940 ␆_E___ ~ ARG
+TD99 #3 _____ ~AEGR -HINS  📋 "hence" ? _E___ ~ ARG
+TD272 attempt 2 HENCE n Y n n n
+TD184 #4 _____ ~EN -AGHIRS  📋 "hence" ? ␅
+TD2470262 ␆.
+TD101 #4 _____ ~EN -AGHIRS  📋 "hence" ? .
+TD319 attempt 3 HENCE n m m n m
+TD117 #5 ____S ~E -AGHINR  📋 "hence" ? ␅
+TD10614212 ␆_E__S
+TD91 #5 ____S ~E -AGHINR  📋 "hence" ? _E__S
+TD209 attempt 4 HENCE n Y n n n
+TD329 ? ␅
+TD652144 ␆
+TD120 ? 
+TD183 question done
+TD487 > ␅
+TD2251699 ␆*
+TD134 > *
+TD600217 questioning: ["event", "#4"]
+TD189 #1 _____ ~AS -CEGHINR  📋 "event" ? ␅
+TD4436113 ␆.
+TD136 #1 _____ ~AS -CEGHINR  📋 "event" ? .
+TD350 attempt 0 EVENT n n n n n
+TD141 #3 _E___ ~AGR -CHINS  📋 "event" ? ␅
+TD2664031 ␆.
+TD96 #3 _E___ ~AGR -CHINS  📋 "event" ? .
+TD297 attempt 2 EVENT n n n n n
+TD109 #4 _____ ~EN -ACGHIRS  📋 "event" ? ␅
+TD1297113 ␆/it
+TD105 #4 _____ ~EN -ACGHIRS  📋 "event" ? /it
+TD285 attempt 3 EVENT Y Y Y Y Y
+TD111 #5 _E__S -ACGHINR  📋 "event" ? ␅
+TD3717693 ␆_E__S ~ T
+TD118 #5 _E__S -ACGHINR  📋 "event" ? _E__S ~ T
+TD310 attempt 4 EVENT n n n n m
+TD507 ? ␅
+TD299016 ␆
+TD126 ? 
+TD156 question done
+TD518 > ␅
+TD587361 ␆*
+TD111 > *
+TD1527387 questioning: ["regal", "#3"]
+TD206 #1 _____ ~AS -CEGHINRTV  📋 "regal" ? ␅
+TD4928557 ␆.
+TD103 #1 _____ ~AS -CEGHINRTV  📋 "regal" ? .
+TD356 attempt 0 REGAL n n n m n
+TD113 #3 _E___ ~AGR -CEHINSTV  📋 "regal" ? ␅
+TD667036 ␆/it
+TD109 #3 _E___ ~AGR -CEHINSTV  📋 "regal" ? /it
+TD324 attempt 2 REGAL Y Y Y Y Y
+TD123 #5 _E__S ~T -ACEGHINRV  📋 "regal" ? ␅
+TD2764382 ␆_E__S ~ TL
+TD99 #5 _E__S ~T -ACEGHINRV  📋 "regal" ? _E__S ~ TL
+TD278 attempt 4 REGAL n Y n n m
+TD446 ? ␅
+TD2072041 ␆
+TD95 ? 
+TD127 question done
+TD385 > ␅
+TD1377549 ␆*
+TD103 > *
+TD1624137 questioning: ["spasm", "#1"]
+TD181 #1 _____ ~AS -CEGHILNRTV  📋 "spasm" ? ␅
+TD3149290 ␆/it
+TD100 #1 _____ ~AS -CEGHILNRTV  📋 "spasm" ? /it
+TD284 attempt 0 SPASM Y Y Y Y Y
+TD124 #5 _E__S ~LT -ACGHINRV  📋 "spasm" ? ␅
+TD4152680 ␆.
+TD83 #5 _E__S ~LT -ACGHINRV  📋 "spasm" ? .
+TD233 attempt 4 SPASM n n n n n
+TD333 ? ␅
+TD1273725 ␆*
+TD98 ? *
+TD681 ? ␅
+TD1566665 ␆
+TD114 ? 
+TD147 question done
+TD632 > ␅
+TD1078036 ␆*
+TD109 > *
+TD1056013 try? ␅
+TD2215270 ␆2
+TD144 try? 2
+TD506 questioning: ["welts", "#5"]
+TD633 #5 _E__S ~LT -ACGHIMNPRSV  📋 "welts" ? ␅
+TD7100684 ␆/it
+TD152 #5 _E__S ~LT -ACGHIMNPRSV  📋 "welts" ? /it
+TD413 attempt 4 WELTS Y Y Y Y Y
+TD597 ? ␅
+TD874187 ␆
+TD91 ? 
+TD101 question done
+TD28579 📋> ␅
+TD3038782 ␆squareword.org 1612: 7 guesses
+TD92 📋> squareword.org 1612: 7 guesses
+TD15 📋> ␅
+TD51 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD21 ␆🟨🟨🟨🟨🟨
+TD8 📋> 🟨🟨🟨🟨🟨
+TD7 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD14 ␆🟨🟩🟨🟨🟩
+TD6 📋> 🟨🟩🟨🟨🟩
+TD6 📋> ␅
+TD15 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD18 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD200344 ␆#squareword #squareword1612
+TD88 📋> #squareword #squareword1612
+TD16 📋> ␅
+TD153950 ␄
+TD180 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1612: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1612"}
+TD2042 result: "squareword.org 1612: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1612"
+TD104 📆 2026-07-01 ? ␅
+TD148510 ␆
+TD114 📆 2026-07-01 ? 
