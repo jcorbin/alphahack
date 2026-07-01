@@ -1,0 +1,149 @@
+T132.44130424699688 now: 2026-07-01T08:13:48EDT
+TD149 site: dontwordle.com
+TD27 wordlist: nwl2023.txt
+TD53  ...␅
+TD5193728 ␆
+TD110  ...
+TD133 1> ␅
+TD4092057 ␆* -bot 10
+TD95 1> * -bot 10
+TD205627 ? ␅
+TD1917382 ␆1
+TD92 ? 1
+TD246 📋 "arose" ? ␅
+TD4043566 ␆nnnMn
+TD113 📋 "arose" ? nnnMn
+TD722 tried: AROSE n n n m n
+TD255 2> ␅
+TD2547140 ␆* -bot 10
+TD132 2> * -bot 10
+TD110748 ? ␅
+TD10821907 ␄
+TD147 <EOF>
+TD190 2> ␅
+TD1285442 ␆undo
+TD198 2> undo
+TD337 undo
+TD356 1> ␅
+TD11976165 ␆* :v [arose] -bot 10
+TD157 1> * :v [arose] -bot 10
+TD128715 ? ␅
+TD1932730 ␆2
+TD107 ? 2
+TD259 📋 "light" ? ␅
+TD4228153 ␆nnnnn
+TD93 📋 "light" ? nnnnn
+TD207 tried: LIGHT n n n n n
+TD231 2> ␅
+TD1590001 ␆* -bot 10
+TD105 2> * -bot 10
+TD105017 ? ␅
+TD1532245 ␆1
+TD119 ? 1
+TD237 📋 "rando" ? ␅
+TD4489050 ␄
+TD192 <EOF>
+TD162 2> ␅
+TD4529044 ␆* :v [arose] -bot 10
+TD100 2> * :v [arose] -bot 10
+TD109180 ? ␅
+TD1205093 ␆1
+TD95 ? 1
+TD242 📋 "punky" ? ␅
+TD5274537 ␆MMMMn
+TD89 📋 "punky" ? MMMMn
+TD205 tried: PUNKY m m m m n
+TD248 3> ␅
+TD834534 ␆undo
+TD90 3> undo
+TD139 undo
+T26.93927005700243 now: 2026-07-01T08:16:13EDT
+TD128 2> ␅
+TD1208602 ␆undo
+TD100 2> undo
+TD386 undo
+TD147 1> ␅
+TD5170010 ␆?
+TD97 1> ?
+TD468 1> ␅
+TD4056849 ␆tried emmer
+TD122 1> tried emmer
+TD332 1> ␅
+TD5359400 ␆tried emmer nnnnn
+TD150 1> tried emmer nnnnn
+TD256 tried: EMMER n n n n n
+TD189 2> ␅
+TD4093571 ␆tried doody
+TD113 2> tried doody
+TD345 2> ␅
+TD4865756 ␆tried doody nnnnn
+TD96 2> tried doody nnnnn
+TD231 tried: DOODY n n n n n
+TD204 3> ␅
+TD2971117 ␆tried bacca nnnnn
+TD234 3> tried bacca nnnnn
+TD295 tried: BACCA n n n n n
+TD171 4> ␅
+TD6581084 ␆tried jujus nMnnM
+TD115 4> tried jujus nMnnM
+TD249 tried: JUJUS n m n n m
+TD187 5> ␅
+TD3453257 ␆tried snuff YMYnn
+TD109 5> tried snuff YMYnn
+TD241 tried: SNUFF Y m Y n n
+TD270 6> ␅
+TD1078267 ␆*
+TD88 6> *
+TD131182 ? ␅
+TD1490103 ␆1
+TD217 ? 1
+TD538 📋 "stunt" ? ␅
+TD4165866 ␆YnYYn
+TD103 📋 "stunt" ? YnYYn
+TD414 tried: STUNT Y n Y Y n
+TD251 📋> ␅
+TD2934435 ␆Don't Wordle 1499 - SURVIVED
+TD81 📋> Don't Wordle 1499 - SURVIVED
+TD24 📋> ␅
+TD57 ␆Hooray! I didn't Wordle today!
+TD13 📋> Hooray! I didn't Wordle today!
+TD12 📋> ␅
+TD26 ␆⬜⬜⬜⬜⬜4337
+TD11 📋> ⬜⬜⬜⬜⬜4337
+TD11 📋> ␅
+TD23 ␆⬜⬜⬜⬜⬜1801
+TD11 📋> ⬜⬜⬜⬜⬜1801
+TD10 📋> ␅
+TD42 ␆⬜⬜⬜⬜⬜419
+TD9 📋> ⬜⬜⬜⬜⬜419
+TD10 📋> ␅
+TD21 ␆⬜🟨⬜⬜🟨27
+TD9 📋> ⬜🟨⬜⬜🟨27
+TD9 📋> ␅
+TD208 ␆🟩🟨🟩⬜⬜10
+TD56 📋> 🟩🟨🟩⬜⬜10
+TD12 📋> ␅
+TD23 ␆🟩⬜🟩🟩⬜5
+TD7 📋> 🟩⬜🟩🟩⬜5
+TD7 📋> ␅
+TD14 ␆Undos used: 3
+TD7 📋> Undos used: 3
+TD7 📋> ␅
+TD15 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD14 ␆  5 words remaining
+TD7 📋>   5 words remaining
+TD6 📋> ␅
+TD12 ␆x 11 unused letters
+TD6 📋> x 11 unused letters
+TD6 📋> ␅
+TD184858 ␆= 55 total score
+TD112 📋> = 55 total score
+TD20 📋> ␅
+TD162551 ␄
+TD149 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1499 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4337\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1801\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c419\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe827\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c10\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c5\nUndos used: 3\n\n  5 words remaining\nx 11 unused letters\n= 55 total score"}
+TD1587 result: "Don't Wordle 1499 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4337\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1801\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c419\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe827\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c10\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c5\nUndos used: 3\n\n  5 words remaining\nx 11 unused letters\n= 55 total score"
+TD77 📆 2026-07-01 ? ␅
+TD164763 ␆
+TD113 📆 2026-07-01 ? 
