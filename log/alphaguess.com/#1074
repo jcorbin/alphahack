@@ -1,0 +1,93 @@
+T21509.700153225 now: 2026-07-02T07:59:04EDT
+TD193 site: alphaguess.com
+TD170180 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof abd1db0df3e11805089aa8072270faf055ea0d83
+TD122  ...␅
+TD781305 ␆
+TD102  ...
+TD176 [0 : 98214 : 196520] mach? ␅
+TD5513489 ␆a
+TD98 [0 : 98214 : 196520] mach? a
+TD142 progress: 1 98214 mach
+TD315 [98215 : 147364 : 196520] rhotic? ␅
+TD1434625 ␆a
+TD118 [98215 : 147364 : 196520] rhotic? a
+TD97 progress: 1 147364 rhotic
+TD98 [147365 : 171634 : 196520] ta? ␅
+TD1619496 ␆b
+TD71 [147365 : 171634 : 196520] ta? b
+TD85 progress: -1 171634 ta
+TD105 [147365 : 159481 : 171634] slop? ␅
+TD1487795 ␆b
+TD126 [147365 : 159481 : 171634] slop? b
+TD164 progress: -1 159481 slop
+TD144 [147365 : 153313 : 159481] sea? ␅
+TD1705887 ␆a
+TD51 [147365 : 153313 : 159481] sea? a
+TD63 progress: 1 153313 sea
+TD64 [153314 : 156349 : 159481] ship? ␅
+TD1754017 ␆b
+TD120 [153314 : 156349 : 159481] ship? b
+TD141 progress: -1 156349 ship
+TD346 [153314 : 154828 : 156349] sequence? ␅
+TD2494087 ␆a
+TD103 [153314 : 154828 : 156349] sequence? a
+TD106 progress: 1 154828 sequence
+TD107 [154829 : 155427 : 156349] sha? ␅
+TD1611316 ␆a
+TD99 [154829 : 155427 : 156349] sha? a
+TD114 progress: 1 155427 sha
+TD146 [155428 : 155879 : 156349] shaw? ␅
+TD1951010 ␆b
+TD137 [155428 : 155879 : 156349] shaw? b
+TD147 progress: -1 155879 shaw
+TD140 [155428 : 155647 : 155879] shame? ␅
+TD2473743 ␆a
+TD88 [155428 : 155647 : 155879] shame? a
+TD93 progress: 1 155647 shame
+TD220 [155648 : 155763 : 155879] share? ␅
+TD1968779 ␆a
+TD97 [155648 : 155763 : 155879] share? a
+TD113 progress: 1 155763 share
+TD118 [155764 : 155807 : 155879] sharp? ␅
+TD6202607 ␆🧩 Puzzle #1074
+TD82 [155764 : 155807 : 155879] sharp? 🧩 Puzzle #1074
+TD804 [155764 : 155821 : 155879] sharpish? ␅
+TD51 ␆🤔 12 guesses
+TD8 [155764 : 155821 : 155879] sharpish? 🤔 12 guesses
+TD76 [155764 : 155821 : 155879] sharpish? ␅
+TD20 ␆⏱️ 20s
+TD7 [155764 : 155821 : 155879] sharpish? ⏱️ 20s
+TD60 [155764 : 155821 : 155879] sharpish? ␅
+TD284291 ␆🔗 alphaguess.com/1074
+TD116 [155764 : 155821 : 155879] sharpish? 🔗 alphaguess.com/1074
+TD293 [155764 : 155821 : 155879] sharpish? ␅
+TD165373 ␄
+T21545.656179949998 now: 2026-07-02T07:59:40EDT
+TD144 [155764 : 155807 : 155879] sharp? ␅
+TD2088837 ␆it
+TD125 [155764 : 155807 : 155879] sharp? it
+TD155 progress: 0 155807 sharp
+TD47 [155764 : 155807 : 155879] <Done>.
+TD143 📋> ␅
+TD2827510 ␆🧩 Puzzle #1074
+TD81 📋> 🧩 Puzzle #1074
+TD20 📋> ␅
+TD52 ␆🤔 12 guesses
+TD17 📋> 🤔 12 guesses
+TD15 📋> ␅
+TD31 ␆⏱️ 20s
+TD16 📋> ⏱️ 20s
+TD14 📋> ␅
+TD454679 ␆🔗 alphaguess.com/1074
+TD100 📋> 🔗 alphaguess.com/1074
+TD24 📋> ␅
+TD206232 ␄
+TD120 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1074\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1074"}
+TD90 result: "\ud83e\udde9 Puzzle #1074\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1074"
+TD23 result puzzle: 1074
+TD14 result guesses: 12
+TD13 result time: 20s
+TD12 result link: alphaguess.com/1074
+TD77 📆 2026-07-02 ? ␅
+TD245865 ␆
+TD130 📆 2026-07-02 ? 
