@@ -1,0 +1,155 @@
+T791.5339234390049 now: 2026-07-02T08:19:02EDT
+TD180 site: https://www.merriam-webster.com/games/quordle/#/
+TD33 wordlist: nwl2023.txt
+TD11 num_words: 4
+TD191  ...␅
+TD390569 ␆
+TD112  ...
+TD464967 > ␅
+TD8588921 ␆*
+TD127 > *
+TD78651 ? ␅
+TD2049830 ␆3
+TD107 ? 3
+TD220 questioning: dares
+TD177 Classic #1 _____? ␅
+TD2979240 ␆nnnnn
+TD113 Classic #1 _____? nnnnn
+TD500 attempt: 0 DARES n n n n n
+TD169 Classic #2 _____? ␅
+TD1499560 ␆nYYMM
+TD108 Classic #2 _____? nYYMM
+TD307 attempt: 1 DARES n Y Y m m
+TD134 Classic #3 _____? ␅
+TD1162437 ␆nnnMn
+TD101 Classic #3 _____? nnnMn
+TD261 attempt: 2 DARES n n n m n
+TD122 Classic #4 _____? ␅
+TD1077681 ␆nnnMn
+TD78 Classic #4 _____? nnnMn
+TD212 attempt: 3 DARES n n n m n
+TD438309 > ␅
+TD901600 ␆*
+TD81 > *
+TD7482 ? ␅
+TD4873955 ␆8
+TD79 ? 8
+TD150 questioning: tulip
+TD162 Classic #1 _____ -ADERS? ␅
+TD4551612 ␆nYYnn
+TD97 Classic #1 _____ -ADERS? nYYnn
+TD286 attempt: 0 TULIP n Y Y n n
+TD134 Classic #2 _AR__ ~ES -D? ␅
+TD1582600 ␆nnnnM
+TD88 Classic #2 _AR__ ~ES -D? nnnnM
+TD266 attempt: 1 TULIP n n n n m
+TD135 Classic #3 _____ ~E -ADRS? ␅
+TD1535760 ␆nnYnn
+TD119 Classic #3 _____ ~E -ADRS? nnYnn
+TD262 attempt: 2 TULIP n n Y n n
+TD127 Classic #4 _____ ~E -ADRS? ␅
+TD1799654 ␆nnnYn
+TD44 Classic #4 _____ ~E -ADRS? nnnYn
+TD95 attempt: 3 TULIP n n n Y n
+TD418412 > ␅
+TD620641 ␆*
+TD89 > *
+TD395 questioning: parse
+TD165 Classic #1 _UL__ -ADEIPRST? ␅
+TD2732051 ␆nnnnn
+TD103 Classic #1 _UL__ -ADEIPRST? nnnnn
+TD303 attempt: 0 PARSE n n n n n
+TD164 Classic #2 _AR__ ~EPS -DILTU? ␅
+TD1536209 ␆YYYYY
+TD127 Classic #2 _AR__ ~EPS -DILTU? YYYYY
+TD305 attempt: 1 PARSE Y Y Y Y Y
+TD183 Classic #3 __L__ ~E -ADIPRSTU? ␅
+TD1269526 ␆nnnnM
+TD87 Classic #3 __L__ ~E -ADIPRSTU? nnnnM
+TD250 attempt: 2 PARSE n n n n m
+TD144 Classic #4 ___I_ ~E -ADLPRSTU? ␅
+TD1221556 ␆nnnnY
+TD126 Classic #4 ___I_ ~E -ADLPRSTU? nnnnY
+TD324 attempt: 3 PARSE n n n n Y
+TD304526 > ␅
+TD887117 ␆*
+TD93 > *
+TD1165 ? ␅
+TD1948035 ␆4
+TD81 ? 4
+TD154 questioning: movie
+TD149 Classic #1 _UL__ -ADEIPRST? ␅
+TD3089303 ␆nnnnn
+TD105 Classic #1 _UL__ -ADEIPRST? nnnnn
+TD265 attempt: 0 MOVIE n n n n n
+TD150 Classic #3 __L__ ~E -ADIPRSTU? ␅
+TD2372150 ␆nMnnM
+TD110 Classic #3 __L__ ~E -ADIPRSTU? nMnnM
+TD238 attempt: 2 MOVIE n m n n m
+TD122 Classic #4 ___IE -ADLPRSTU? ␅
+TD1458011 ␆YYYYY
+TD149 Classic #4 ___IE -ADLPRSTU? YYYYY
+TD359 attempt: 3 MOVIE Y Y Y Y Y
+TD209095 > ␅
+TD1138407 ␆*
+TD86 > *
+TD713 ? ␅
+TD8833405 ␆1
+TD83 ? 1
+TD157 questioning: gulch
+TD165 Classic #1 _UL__ -ADEIMOPRSTV? ␅
+TD3581444 ␆nYYnn
+TD121 Classic #1 _UL__ -ADEIMOPRSTV? nYYnn
+TD297 attempt: 0 GULCH n Y Y n n
+TD212 Classic #3 __L__ ~EO -ADIMPRSTUV? ␅
+TD1639719 ␆nnYnn
+TD102 Classic #3 __L__ ~EO -ADIMPRSTUV? nnYnn
+TD302 attempt: 2 GULCH n n Y n n
+TD208797 > ␅
+TD745607 ␆*
+TD94 > *
+TD597 ? ␅
+TD3745760 ␆1
+TD124 ? 1
+TD225 questioning: bulky
+TD232 Classic #1 _UL__ -ACDEGHIMOPRSTV? ␅
+TD3829071 ␆YYYYY
+TD122 Classic #1 _UL__ -ACDEGHIMOPRSTV? YYYYY
+TD303 attempt: 0 BULKY Y Y Y Y Y
+TD168 Classic #3 __L__ ~EO -ACDGHIMPRSTUV? ␅
+TD2125454 ␆YnYnn
+TD90 Classic #3 __L__ ~EO -ACDGHIMPRSTUV? YnYnn
+TD241 attempt: 2 BULKY Y n Y n n
+TD106607 > ␅
+TD602557 ␆*
+TD46 > *
+TD246 ? ␅
+TD1356808 ␆2
+TD77 ? 2
+TD142 questioning: below
+TD143 Classic #3 B_L__ ~EO -ACDGHIKMPRSTUVY? ␅
+TD3569377 ␆YYYYY
+TD106 Classic #3 B_L__ ~EO -ACDGHIKMPRSTUVY? YYYYY
+TD263 attempt: 2 BELOW Y Y Y Y Y
+TD122 📋> ␅
+TD2972926 ␆🙂 Daily Quordle 1620
+TD85 📋> 🙂 Daily Quordle 1620
+TD14 📋> ␅
+TD51 ␆6️⃣3️⃣
+TD9 📋> 6️⃣3️⃣
+TD8 📋> ␅
+TD16 ␆7️⃣4️⃣
+TD7 📋> 7️⃣4️⃣
+TD7 📋> ␅
+TD14 ␆m-w.com/games/quordle/
+TD8 📋> m-w.com/games/quordle/
+TD7 📋> ␅
+TD229294 ␆
+TD88 📋> 
+TD14 📋> ␅
+TD172008 ␄
+TD155 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1620\n6\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2286 result: "\ud83d\ude42 Daily Quordle 1620\n6\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD94 📆 2026-07-02 ? ␅
+TD145699 ␆
+TD77 📆 2026-07-02 ? 
