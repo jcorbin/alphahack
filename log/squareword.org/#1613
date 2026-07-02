@@ -1,0 +1,270 @@
+T514.5843293200014 now: 2026-07-02T08:53:16EDT
+TD907 site: squareword.org
+TD42 wordlist: nwl2023.txt
+TD57  ...␅
+TD42045773 ␆
+TD63  ...
+TD45 🧩  ? ␅
+TD2846628 ␆#1613
+TD97 🧩  ? #1613
+TD286 puzzle_id: #1613
+TD338 > ␅
+TD21038736 ␆*
+TD97 > *
+TD236195 try? ␅
+TD1405633 ␆1
+TD80 try? 1
+TD286 questioning: ["dales", "#5"]
+TD336 #1 <IndexError>  📋 "dales" ? ␅
+TD46146892 ␆_____ ~ AS
+TD84 #1 <IndexError>  📋 "dales" ? _____ ~ AS
+TD675 attempt 0 DALES n m n n m
+TD130 #2 <IndexError>  📋 "dales" ? ␅
+TD13384194 ␆_A_E_ ~ L
+TD171 #2 <IndexError>  📋 "dales" ? _A_E_ ~ L
+TD514 attempt 1 DALES n Y m Y n
+TD260 #3 <IndexError>  📋 "dales" ? ␅
+TD3180371 ␆_____ ~ AES
+TD55 #3 <IndexError>  📋 "dales" ? _____ ~ AES
+TD123 attempt 2 DALES n m n m m
+TD58 #4 <IndexError>  📋 "dales" ? ␅
+TD6601735 ␆_A_ES
+TD103 #4 <IndexError>  📋 "dales" ? _A_ES
+TD284 attempt 3 DALES n Y n Y Y
+TD161 #5 <IndexError>  📋 "dales" ? ␅
+TD9377922 ␆_____ ~ LS
+TD119 #5 <IndexError>  📋 "dales" ? _____ ~ LS
+TD298 attempt 4 DALES n n m n m
+TD440 ? ␅
+TD2028843 ␆
+TD144 ? 
+TD247 question done
+TD489 > ␅
+TD225398776 ␆*
+TD108 > *
+TD848957 try? ␅
+TD1772543 ␆1
+TD140 try? 1
+TD458 questioning: ["later", "#2"]
+TD612 #1 _____ ~AS -DEL  📋 "later" ? ␅
+TD16815297 ␆_____ ~ ASR
+TD95 #1 _____ ~AS -DEL  📋 "later" ? _____ ~ ASR
+TD277 attempt 0 LATER n m n n m
+TD192 #2 _A_E_ ~L -DS  📋 "later" ? ␅
+TD3222847 ␆.
+TD70 #2 _A_E_ ~L -DS  📋 "later" ? .
+TD152 attempt 1 LATER m Y n Y n
+TD46 #3 _____ ~AES -DL  📋 "later" ? ␅
+TD987749 ␆.
+TD135 #3 _____ ~AES -DL  📋 "later" ? .
+TD330 attempt 2 LATER n m n m n
+TD114 #4 _A_ES -DL  📋 "later" ? ␅
+TD5205412 ␆_A_ES ~ R
+TD118 #4 _A_ES -DL  📋 "later" ? _A_ES ~ R
+TD292 attempt 3 LATER n Y n Y m
+TD153 #5 _____ ~LS -ADE  📋 "later" ? ␅
+TD2678546 ␆_____ ~ LST
+TD141 #5 _____ ~LS -ADE  📋 "later" ? _____ ~ LST
+TD280 attempt 4 LATER m n m n n
+TD406 ? ␅
+TD1002572 ␆
+TD97 ? 
+TD136 question done
+TD382 > ␅
+TD45449394 ␆*
+TD107 > *
+TD621288 try? ␅
+TD38 ␆
+TD3 try? 
+TD84 try? ␅
+TD7192279 ␆1
+TD102 try? 1
+TD322 questioning: ["bagel", "#2"]
+TD449 #1 _____ ~ARS -DELT  📋 "bagel" ? ␅
+TD3569681 ␆.
+TD95 #1 _____ ~ARS -DELT  📋 "bagel" ? .
+TD309 attempt 0 BAGEL n m n n n
+TD106 #2 _A_E_ ~L -DRST  📋 "bagel" ? ␅
+TD2307968 ␆_A_EL
+TD99 #2 _A_E_ ~L -DRST  📋 "bagel" ? _A_EL
+TD266 attempt 1 BAGEL n Y n Y Y
+TD158 #3 _____ ~AES -DLRT  📋 "bagel" ? ␅
+TD2718527 ␆.
+TD118 #3 _____ ~AES -DLRT  📋 "bagel" ? .
+TD357 attempt 2 BAGEL n m n m n
+TD127 #4 _A_ES ~R -DLT  📋 "bagel" ? ␅
+TD2700413 ␆_AGES ~ R
+TD106 #4 _A_ES ~R -DLT  📋 "bagel" ? _AGES ~ R
+TD289 attempt 3 BAGEL n Y Y Y n
+TD176 #5 _____ ~LST -ADER  📋 "bagel" ? ␅
+TD1236643 ␆.
+TD100 #5 _____ ~LST -ADER  📋 "bagel" ? .
+TD324 attempt 4 BAGEL n n n n m
+TD370 ? ␅
+TD596818 ␆
+TD104 ? 
+TD123 question done
+TD414 > ␅
+TD103081790 ␆*
+TD134 > *
+TD763392 questioning: ["rages", "#4"]
+TD176 #1 _____ ~ARS -BDEGLT  📋 "rages" ? ␅
+TD3484004 ␆.
+TD96 #1 _____ ~ARS -BDEGLT  📋 "rages" ? .
+TD288 attempt 0 RAGES m m n n m
+TD114 #2 _A_EL -BDGRST  📋 "rages" ? ␅
+TD1920299 ␆.
+TD56 #2 _A_EL -BDGRST  📋 "rages" ? .
+TD141 attempt 1 RAGES n Y n Y n
+TD49 #3 _____ ~AES -BDGLRT  📋 "rages" ? ␅
+TD2087132 ␆.
+TD128 #3 _____ ~AES -BDGLRT  📋 "rages" ? .
+TD385 attempt 2 RAGES n m n m m
+TD127 #4 _AGES ~R -BDLT  📋 "rages" ? ␅
+TD857661 ␆/it
+TD127 #4 _AGES ~R -BDLT  📋 "rages" ? /it
+TD348 attempt 3 RAGES Y Y Y Y Y
+TD129 #5 _____ ~LST -ABDEGR  📋 "rages" ? ␅
+TD1939490 ␆.
+TD130 #5 _____ ~LST -ABDEGR  📋 "rages" ? .
+TD305 attempt 4 RAGES n n n n m
+TD387 ? ␅
+TD797418 ␆
+TD59 ? 
+TD57 question done
+TD142 > ␅
+TD1618914 ␆*
+TD109 > *
+TD229359 try? ␅
+TD1734209 ␆2
+TD110 try? 2
+TD333 questioning: ["panel", "#2"]
+TD465 #1 _____ ~ARS -BDEGLT  📋 "panel" ? ␅
+TD6348145 ␆.
+TD176 #1 _____ ~ARS -BDEGLT  📋 "panel" ? .
+TD573 attempt 0 PANEL n m n n n
+TD250 #2 _A_EL -BDGRST  📋 "panel" ? ␅
+TD1305688 ␆.
+TD98 #2 _A_EL -BDGRST  📋 "panel" ? .
+TD309 attempt 1 PANEL n Y n Y Y
+TD131 #3 _____ ~AES -BDGLRT  📋 "panel" ? ␅
+TD3449707 ␆_____ ~ AESN
+TD101 #3 _____ ~AES -BDGLRT  📋 "panel" ? _____ ~ AESN
+TD270 attempt 2 PANEL n m m m n
+TD163 #5 _____ ~LST -ABDEGR  📋 "panel" ? ␅
+TD2118799 ␆.
+TD98 #5 _____ ~LST -ABDEGR  📋 "panel" ? .
+TD299 attempt 4 PANEL n n n n m
+TD409 ? ␅
+TD253933 ␆
+TD105 ? 
+TD121 question done
+TD407 > ␅
+TD2070898 ␆* 3
+TD175 > * 3
+TD174523 questioning: ["anise", "#3"]
+TD183 #1 _____ ~ARS -BDEGLNPT  📋 "anise" ? ␅
+TD5224755 ␆.
+TD159 #1 _____ ~ARS -BDEGLNPT  📋 "anise" ? .
+TD494 attempt 0 ANISE m n n m n
+TD224 #2 _A_EL -BDGNPRST  📋 "anise" ? ␅
+TD1898196 ␆.
+TD108 #2 _A_EL -BDGNPRST  📋 "anise" ? .
+TD328 attempt 1 ANISE n n n n n
+TD129 #3 _____ ~AENS -BDGLPRT  📋 "anise" ? ␅
+TD887309 ␆/it
+TD100 #3 _____ ~AENS -BDGLPRT  📋 "anise" ? /it
+TD278 attempt 2 ANISE Y Y Y Y Y
+TD115 #5 _____ ~LST -ABDEGNPR  📋 "anise" ? ␅
+TD1073316 ␆.
+TD109 #5 _____ ~LST -ABDEGNPR  📋 "anise" ? .
+TD326 attempt 4 ANISE n n n m n
+TD418 ? ␅
+TD171285 ␆
+TD102 ? 
+TD122 question done
+TD436 > ␅
+TD975949 ␆*
+TD177 > *
+TD2175164 questioning: ["scarf", "#1"]
+TD171 #1 _____ ~ARS -BDEGILNPT  📋 "scarf" ? ␅
+TD2887084 ␆/it
+TD87 #1 _____ ~ARS -BDEGILNPT  📋 "scarf" ? /it
+TD229 attempt 0 SCARF Y Y Y Y Y
+TD94 #2 _A_EL -ABDEGINPRST  📋 "scarf" ? ␅
+TD4096352 ␆_A_EL ~ C
+TD94 #2 _A_EL -ABDEGINPRST  📋 "scarf" ? _A_EL ~ C
+TD262 attempt 1 SCARF n m n n n
+TD151 #5 _____ ~LST -ABDEGINPR  📋 "scarf" ? ␅
+TD2822875 ␆S____ ~ LT
+TD105 #5 _____ ~LST -ABDEGINPR  📋 "scarf" ? S____ ~ LT
+TD297 attempt 4 SCARF Y n n n n
+TD484 ? ␅
+TD408606 ␆
+TD111 ? 
+TD145 question done
+TD440 > ␅
+TD589162 ␆*
+TD79 > *
+TD1545915 questioning: ["camel", "#2"]
+TD206 #2 _A_EL ~C -ABDEFGINPRST  📋 "camel" ? ␅
+TD2980211 ␆/it
+TD90 #2 _A_EL ~C -ABDEFGINPRST  📋 "camel" ? /it
+TD248 attempt 1 CAMEL Y Y Y Y Y
+TD106 #5 S____ ~LT -ABCDEFGINPR  📋 "camel" ? ␅
+TD1649102 ␆.
+TD84 #5 S____ ~LT -ABCDEFGINPR  📋 "camel" ? .
+TD272 attempt 4 CAMEL n n n n m
+TD331 ? ␅
+TD234213 ␆
+TD141 ? 
+TD204 question done
+TD563 > ␅
+TD433187 ␆*
+TD96 > *
+TD1038535 questioning: ["sloth", "#5"]
+TD244 #5 S____ ~LT -ABCDEFGIMNPR  📋 "sloth" ? ␅
+TD5897702 ␆/it
+TD111 #5 S____ ~LT -ABCDEFGIMNPR  📋 "sloth" ? /it
+TD320 attempt 4 SLOTH Y Y Y Y Y
+TD480 ? ␅
+TD1645979 ␆
+TD119 ? 
+TD163 question done
+TD26269 📋> ␅
+TD4602787 ␆squareword.org 1613: 9 guesses
+TD106 📋> squareword.org 1613: 9 guesses
+TD162 📋> ␅
+TD61 ␆
+TD30 📋> 
+TD22 📋> ␅
+TD26 ␆🟨🟨🟨🟨🟨
+TD9 📋> 🟨🟨🟨🟨🟨
+TD17 📋> ␅
+TD20 ␆🟨🟩🟨🟩🟩
+TD8 📋> 🟨🟩🟨🟩🟩
+TD15 📋> ␅
+TD20 ␆🟨🟨🟨🟨🟨
+TD8 📋> 🟨🟨🟨🟨🟨
+TD16 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD15 📋> ␅
+TD19 ␆🟨🟨🟨🟨🟨
+TD8 📋> 🟨🟨🟨🟨🟨
+TD15 📋> ␅
+TD19 ␆
+TD8 📋> 
+TD17 📋> ␅
+TD20 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD16 📋> ␅
+TD297187 ␆#squareword #squareword1613
+TD83 📋> #squareword #squareword1613
+TD70 📋> ␅
+TD227834 ␄
+TD227 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1613: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1613"}
+TD1044 result: "squareword.org 1613: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1613"
+TD111 📆 2026-07-02 ? ␅
+TD330146 ␆
+TD99 📆 2026-07-02 ? 
