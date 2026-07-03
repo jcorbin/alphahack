@@ -1,0 +1,183 @@
+T229.2688088299983 now: 2026-07-03T09:38:54EDT
+TD396 site: dontwordle.com
+TD50 wordlist: nwl2023.txt
+TD79  ...␅
+TD20921318 ␆
+TD125  ...
+TD159 1> ␅
+TD12422996 ␆* -bot 10
+TD91 1> * -bot 10
+TD222250 ? ␅
+TD1464650 ␆1
+TD100 ? 1
+TD282 📋 "stare" ? ␅
+TD4512609 ␆YnYnn
+TD90 📋 "stare" ? YnYnn
+TD636 tried: STARE Y n Y n n
+TD229 2> ␅
+TD1097889 ␆undo
+TD125 2> undo
+TD205 undo
+TD213 1> ␅
+TD11382761 ␆* :v [stare] -bot 10
+TD135 1> * :v [stare] -bot 10
+TD132699 ? ␅
+TD2800955 ␆5
+TD40 ? 5
+TD104 📋 "login" ? ␅
+TD4262448 ␆Mnnnn
+TD156 📋 "login" ? Mnnnn
+TD274 tried: LOGIN m n n n n
+TD304 2> ␅
+TD696167 ␆undo
+TD93 2> undo
+TD164 undo
+TD144 1> ␅
+TD2864290 ␆*
+TD88 1> *
+TD113283 ? ␅
+TD306862 ␆1
+TD114 ? 1
+TD343 📋 "effed" ? ␅
+TD5088514 ␆nnnnn
+TD119 📋 "effed" ? nnnnn
+TD275 tried: EFFED n n n n n
+TD216 2> ␅
+TD945895 ␆*
+TD115 2> *
+TD103423 ? ␅
+TD133093 ␆1
+TD90 ? 1
+TD266 📋 "morro" ? ␅
+TD5898324 ␆nnnnn
+TD90 📋 "morro" ? nnnnn
+TD187 tried: MORRO n n n n n
+TD247 3> ␅
+TD460904 ␆*
+TD192 3> *
+TD103200 ? ␅
+TD117655 ␆1
+TD105 ? 1
+TD277 📋 "yuppy" ? ␅
+TD5196061 ␆nnnnY
+TD124 📋 "yuppy" ? nnnnY
+TD266 tried: YUPPY n n n n Y
+TD298 4> ␅
+TD642136 ␆undo
+TD81 4> undo
+TD127 undo
+TD242 3> ␅
+TD4572402 ␆*
+TD86 3> *
+TD101420 ? ␅
+TD102044 ␆1
+TD79 ? 1
+TD198 📋 "zizit" ? ␅
+TD6158429 ␆nnnnn
+TD51 📋 "zizit" ? nnnnn
+TD101 tried: ZIZIT n n n n n
+TD88 4> ␅
+TD2909658 ␆*
+TD98 4> *
+TD106406 ? ␅
+TD605252 ␆1
+TD135 ? 1
+TD287 📋 "hunch" ? ␅
+TD1075840 ␆hunch
+TD98 📋 "hunch" ? hunch
+TD171 ? ␅
+TD1548843 ␆
+TD140 ? 
+TD277 ? ␅
+TD6350557 ␆nnnMn
+TD108 ? nnnMn
+TD231 tried: HUNCH n n n m n
+TD310 5> ␅
+TD2752417 ␆undo
+TD131 5> undo
+TD194 undo
+TD502 4> ␅
+TD3940090 ␆*
+TD108 4> *
+TD230448 📋 "plunk" ? ␅
+TD5021657 ␆nMnnn
+TD75 📋 "plunk" ? nMnnn
+TD107 tried: PLUNK n m n n n
+TD117 5> ␅
+TD548137 ␆*
+TD148 5> *
+TD218975 ? ␅
+TD1637151 ␆2
+TD84 ? 2
+TD207 📋 "xylyl" ? ␅
+TD8134851 ␆nMMnn
+TD100 📋 "xylyl" ? nMMnn
+TD219 tried: XYLYL n m m n n
+TD284 6> ␅
+TD484230 ␆*
+TD122 6> *
+TD210718 📋 "laggy" ? ␅
+TD6491879 ␆!
+TD92 📋 "laggy" ? !
+TD319 6> ␅
+TD998391 ␆*
+TD96 6> *
+TD205197 📋 "laggy" ? ␅
+TD1454374 ␄
+TD147 <EOF>
+TD191 6> ␅
+TD2503302 ␆* -sans
+TD163 6> * -sans
+TD109858 ? ␅
+TD3413414 ␆1
+TD46 ? 1
+TD98 📋 "asyla" ? ␅
+TD6991684 ␆MMMYn
+TD105 📋 "asyla" ? MMMYn
+TD236 tried: ASYLA m m m Y n
+TD302 📋> ␅
+TD4246262 ␆Don't Wordle 1501 - SURVIVED
+TD119 📋> Don't Wordle 1501 - SURVIVED
+TD26 📋> ␅
+TD68 ␆Hooray! I didn't Wordle today!
+TD11 📋> Hooray! I didn't Wordle today!
+TD9 📋> ␅
+TD24 ␆⬜⬜⬜⬜⬜5680
+TD10 📋> ⬜⬜⬜⬜⬜5680
+TD9 📋> ␅
+TD19 ␆⬜⬜⬜⬜⬜2049
+TD8 📋> ⬜⬜⬜⬜⬜2049
+TD8 📋> ␅
+TD20 ␆⬜⬜⬜⬜⬜808
+TD8 📋> ⬜⬜⬜⬜⬜808
+TD13 📋> ␅
+TD29 ␆⬜🟨⬜⬜⬜62
+TD14 📋> ⬜🟨⬜⬜⬜62
+TD13 📋> ␅
+TD27 ␆⬜🟨🟨⬜⬜9
+TD14 📋> ⬜🟨🟨⬜⬜9
+TD13 📋> ␅
+TD27 ␆🟨🟨🟨🟩⬜4
+TD13 📋> 🟨🟨🟨🟩⬜4
+TD13 📋> ␅
+TD27 ␆Undos used: 4
+TD13 📋> Undos used: 4
+TD14 📋> ␅
+TD28 ␆
+TD13 📋> 
+TD14 📋> ␅
+TD28 ␆  4 words remaining
+TD37 📋>   4 words remaining
+TD14 📋> ␅
+TD30 ␆x 8 unused letters
+TD11 📋> x 8 unused letters
+TD8 📋> ␅
+TD319393 ␆= 32 total score
+TD174 📋> = 32 total score
+TD28 📋> ␅
+TD161383 ␄
+TD168 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1501 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5680\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2049\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c808\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c62\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c4\nUndos used: 4\n\n  4 words remaining\nx 8 unused letters\n= 32 total score"}
+TD1931 result: "Don't Wordle 1501 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5680\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2049\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c808\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c62\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\u2b1c4\nUndos used: 4\n\n  4 words remaining\nx 8 unused letters\n= 32 total score"
+TD118 📆 2026-07-03 ? ␅
+TD170564 ␆
+TD79 📆 2026-07-03 ? 
