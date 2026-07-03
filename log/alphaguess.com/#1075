@@ -1,0 +1,86 @@
+T166.1460365569983 now: 2026-07-03T09:37:51EDT
+TD179 site: alphaguess.com
+TD163726 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 4f8d44973138a2453696a8e6f89b023be9ed865d
+TD107  ...␅
+TD5040289 ␆
+TD131  ...
+TD273 [0 : 98214 : 196520] mach? ␅
+TD2982034 ␆a
+TD110 [0 : 98214 : 196520] mach? a
+TD133 progress: 1 98214 mach
+TD344 [98215 : 147364 : 196520] rhotic? ␅
+TD1650091 ␆b
+TD109 [98215 : 147364 : 196520] rhotic? b
+TD106 progress: -1 147364 rhotic
+TD113 [98215 : 122775 : 147364] parr? ␅
+TD2944181 ␆a
+TD109 [98215 : 122775 : 147364] parr? a
+TD123 progress: 1 122775 parr
+TD126 [122776 : 135066 : 147364] proper? ␅
+TD1808698 ␆b
+TD54 [122776 : 135066 : 147364] proper? b
+TD66 progress: -1 135066 proper
+TD65 [122776 : 128844 : 135066] play? ␅
+TD2910851 ␆b
+TD112 [122776 : 128844 : 135066] play? b
+TD128 progress: -1 128844 play
+TD133 [122776 : 125807 : 128844] petti? ␅
+TD1611802 ␆a
+TD126 [122776 : 125807 : 128844] petti? a
+TD146 progress: 1 125807 petti
+TD256 [125808 : 127320 : 128844] pidgin? ␅
+TD1825687 ␆b
+TD46 [125808 : 127320 : 128844] pidgin? b
+TD58 progress: -1 127320 pidgin
+TD49 [125808 : 126524 : 127320] photo? ␅
+TD1612011 ␆a
+TD49 [125808 : 126524 : 127320] photo? a
+TD51 progress: 1 126524 photo
+TD48 [126525 : 126905 : 127320] phyllo? ␅
+TD1755403 ␆a
+TD99 [126525 : 126905 : 127320] phyllo? a
+TD112 progress: 1 126905 phyllo
+TD112 [126906 : 127063 : 127320] pi? ␅
+TD1615374 ␆a
+TD57 [126906 : 127063 : 127320] pi? a
+TD58 progress: 1 127063 pi
+TD55 [127064 : 127151 : 127320] pick? ␅
+TD1462464 ␆b
+TD78 [127064 : 127151 : 127320] pick? b
+TD82 progress: -1 127151 pick
+TD196 [127064 : 127107 : 127151] piazzas? ␅
+TD1633604 ␆b
+TD188 [127064 : 127107 : 127151] piazzas? b
+TD176 progress: -1 127107 piazzas
+TD184 [127064 : 127073 : 127107] pian? ␅
+TD1559949 ␆a
+TD139 [127064 : 127073 : 127107] pian? a
+TD176 progress: 1 127073 pian
+TD278 [127074 : 127085 : 127107] piano? ␅
+TD3373438 ␆it
+TD163 [127074 : 127085 : 127107] piano? it
+TD170 progress: 0 127085 piano
+TD61 [127074 : 127085 : 127107] <Done>.
+TD203 📋> ␅
+TD3726983 ␆🧩 Puzzle #1075
+TD103 📋> 🧩 Puzzle #1075
+TD27 📋> ␅
+TD66 ␆🤔 14 guesses
+TD24 📋> 🤔 14 guesses
+TD19 📋> ␅
+TD40 ␆⏱️ 24s
+TD21 📋> ⏱️ 24s
+TD18 📋> ␅
+TD245288 ␆🔗 alphaguess.com/1075
+TD193 📋> 🔗 alphaguess.com/1075
+TD100 📋> ␅
+TD132161 ␄
+TD255 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1075\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/1075"}
+TD174 result: "\ud83e\udde9 Puzzle #1075\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/1075"
+TD48 result puzzle: 1075
+TD32 result guesses: 14
+TD27 result time: 24s
+TD24 result link: alphaguess.com/1075
+TD146 📆 2026-07-03 ? ␅
+TD143067 ␆
+TD62 📆 2026-07-03 ? 
