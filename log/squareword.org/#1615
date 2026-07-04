@@ -1,0 +1,249 @@
+T105.79815370099823 now: 2026-07-04T09:25:17EDT
+TD71 site: squareword.org
+TD40 wordlist: nwl2023.txt
+TD21  ...␅
+TD671616 ␆
+TD93  ...
+TD100 🧩  ? ␅
+TD5606466 ␆#1615
+TD41 🧩  ? #1615
+TD109 puzzle_id: #1615
+TD144 > ␅
+TD820796 ␆*
+TD95 > *
+TD229216 try? ␅
+TD1019519 ␆1
+TD98 try? 1
+TD352 questioning: ["lares", "#5"]
+TD424 #1 <IndexError>  📋 "lares" ? ␅
+TD5778745 ␆____S 
+TD95 #1 <IndexError>  📋 "lares" ? ____S 
+TD699 attempt 0 LARES n n n n Y
+TD118 #2 <IndexError>  📋 "lares" ? ␅
+TD2360234 ␆_____ ~ A
+TD98 #2 <IndexError>  📋 "lares" ? _____ ~ A
+TD294 attempt 1 LARES n m n n n
+TD128 #3 <IndexError>  📋 "lares" ? ␅
+TD2803560 ␆_____ ~ ARE
+TD95 #3 <IndexError>  📋 "lares" ? _____ ~ ARE
+TD253 attempt 2 LARES n m m m n
+TD120 #4 <IndexError>  📋 "lares" ? ␅
+TD2934457 ␆__R__ ~ RE
+TD102 #4 <IndexError>  📋 "lares" ? __R__ ~ RE
+TD280 attempt 3 LARES n n Y m n
+TD127 #5 <IndexError>  📋 "lares" ? ␅
+TD2925004 ␆_____ ~ ES
+TD108 #5 <IndexError>  📋 "lares" ? _____ ~ ES
+TD342 attempt 4 LARES n n n m m
+TD464 ? ␅
+TD361002 ␆
+TD97 ? 
+TD146 question done
+TD388 > ␅
+TD636347 ␆*
+TD90 > *
+TD732065 try? ␅
+TD1033910 ␆1
+TD97 try? 1
+TD331 questioning: ["mercy", "#4"]
+TD387 #1 ____S -AELR  📋 "mercy" ? ␅
+TD4889791 ␆____S ~ M
+TD105 #1 ____S -AELR  📋 "mercy" ? ____S ~ M
+TD298 attempt 0 MERCY m n n n n
+TD168 #2 _____ ~A -ELRS  📋 "mercy" ? ␅
+TD1300583 ␆.
+TD190 #2 _____ ~A -ELRS  📋 "mercy" ? .
+TD648 attempt 1 MERCY n n n n n
+TD217 #3 _____ ~AER -LS  📋 "mercy" ? ␅
+TD2534680 ␆_E___ ~ ARC
+TD96 #3 _____ ~AER -LS  📋 "mercy" ? _E___ ~ ARC
+TD280 attempt 2 MERCY n Y m m n
+TD156 #4 __R__ ~E -ALS  📋 "mercy" ? ␅
+TD5179847 ␆__R__ ~ RE
+TD95 #4 __R__ ~E -ALS  📋 "mercy" ? __R__ ~ RE
+TD252 attempt 3 MERCY n m Y n n
+TD154 #5 _____ ~ES -ALR  📋 "mercy" ? ␅
+TD946824 ␆.
+TD87 #5 _____ ~ES -ALR  📋 "mercy" ? .
+TD293 attempt 4 MERCY n m n n n
+TD316 ? ␅
+TD238439 ␆
+TD99 ? 
+TD122 question done
+TD357 > ␅
+TD1229439 ␆*
+TD118 > *
+TD630645 try? ␅
+TD7457045 ␄
+TD123 <EOF>
+TD412 > ␅
+TD3431492 ␆* 5
+TD99 > * 5
+TD6904 try? ␅
+TD8396033 ␆1
+TD97 try? 1
+TD267 questioning: ["poise", "#5"]
+TD352 #1 ____S ~M -ACELRY  📋 "poise" ? ␅
+TD7679759 ␆_O__S ~ M
+TD90 #1 ____S ~M -ACELRY  📋 "poise" ? _O__S ~ M
+TD238 attempt 0 POISE n Y n n n
+TD138 #2 _____ ~A -CELMRSY  📋 "poise" ? ␅
+TD3713518 ␆__I__ ~ A
+TD106 #2 _____ ~A -CELMRSY  📋 "poise" ? __I__ ~ A
+TD285 attempt 1 POISE n n Y n n
+TD159 #3 _E___ ~ACR -LMSY  📋 "poise" ? ␅
+TD1612105 ␆.
+TD90 #3 _E___ ~ACR -LMSY  📋 "poise" ? .
+TD253 attempt 2 POISE n n n n n
+TD97 #4 __R__ ~E -ACLMSY  📋 "poise" ? ␅
+TD5596420 ␆__R__ ~ REO
+TD145 #4 __R__ ~E -ACLMSY  📋 "poise" ? __R__ ~ REO
+TD358 attempt 3 POISE n m n n m
+TD197 #5 _____ ~ES -ACLMRY  📋 "poise" ? ␅
+TD3536857 ␆____E ~ SO
+TD100 #5 _____ ~ES -ACLMRY  📋 "poise" ? ____E ~ SO
+TD287 attempt 4 POISE n m n m Y
+TD454 ? ␅
+TD463324 ␆
+TD128 ? 
+TD180 question done
+TD498 > ␅
+TD870028 ␆*
+TD112 > *
+TD764070 questioning: ["recta", "#3"]
+TD172 #1 _O__S ~M -ACEILPRSY  📋 "recta" ? ␅
+TD4724400 ␆.
+TD95 #1 _O__S ~M -ACEILPRSY  📋 "recta" ? .
+TD266 attempt 0 RECTA n n n n n
+TD107 #2 __I__ ~A -CELMOPRSY  📋 "recta" ? ␅
+TD1383575 ␆.
+TD117 #2 __I__ ~A -CELMOPRSY  📋 "recta" ? .
+TD332 attempt 1 RECTA n n n n m
+TD129 #3 _E___ ~ACR -EILMOPSY  📋 "recta" ? ␅
+TD787496 ␆/it
+TD107 #3 _E___ ~ACR -EILMOPSY  📋 "recta" ? /it
+TD292 attempt 2 RECTA Y Y Y Y Y
+TD112 #4 __R__ ~EO -ACILMPSY  📋 "recta" ? ␅
+TD3729412 ␆__R__ ~ REO
+TD109 #4 __R__ ~EO -ACILMPSY  📋 "recta" ? __R__ ~ REO
+TD268 attempt 3 RECTA m m n n n
+TD156 #5 ____E ~OS -ACILMPRY  📋 "recta" ? ␅
+TD6820684 ␆____E ~ SOT
+TD100 #5 ____E ~OS -ACILMPRY  📋 "recta" ? ____E ~ SOT
+TD269 attempt 4 RECTA n n n m n
+TD408 ? ␅
+TD456434 ␆
+TD86 ? 
+TD112 question done
+TD343 > ␅
+TD1491907 ␆*
+TD63 > *
+TD1940097 questioning: ["avian", "#2"]
+TD179 #1 _O__S ~M -ACEILPRSTY  📋 "avian" ? ␅
+TD4034405 ␆.
+TD105 #1 _O__S ~M -ACEILPRSTY  📋 "avian" ? .
+TD261 attempt 0 AVIAN n n n n n
+TD125 #2 __I__ ~A -CELMOPRSTY  📋 "avian" ? ␅
+TD796210 ␆/it
+TD83 #2 __I__ ~A -CELMOPRSTY  📋 "avian" ? /it
+TD239 attempt 1 AVIAN Y Y Y Y Y
+TD124 #4 __R__ ~EO -ACILMPSTY  📋 "avian" ? ␅
+TD3940864 ␆__R__ ~ REO
+TD130 #4 __R__ ~EO -ACILMPSTY  📋 "avian" ? __R__ ~ REO
+TD260 attempt 3 AVIAN n n n n n
+TD157 #5 ____E ~OST -ACEILMPRY  📋 "avian" ? ␅
+TD3397570 ␆____E ~ SOTN
+TD114 #5 ____E ~OST -ACEILMPRY  📋 "avian" ? ____E ~ SOTN
+TD262 attempt 4 AVIAN n n n n m
+TD410 ? ␅
+TD761662 ␆
+TD118 ? 
+TD145 question done
+TD422 > ␅
+TD2244214 ␆*
+TD95 > *
+TD2138625 questioning: ["error", "#4"]
+TD171 #1 _O__S ~M -ACEILNPRSTVY  📋 "error" ? ␅
+TD5428967 ␆.
+TD101 #1 _O__S ~M -ACEILNPRSTVY  📋 "error" ? .
+TD291 attempt 0 ERROR n n n n n
+TD133 #4 __R__ ~EO -ACILMNPSTVY  📋 "error" ? ␅
+TD853246 ␆/it
+TD116 #4 __R__ ~EO -ACILMNPSTVY  📋 "error" ? /it
+TD274 attempt 3 ERROR Y Y Y Y Y
+TD116 #5 ____E ~NOST -ACEILMPRVY  📋 "error" ? ␅
+TD1686815 ␆.
+TD106 #5 ____E ~NOST -ACEILMPRVY  📋 "error" ? .
+TD268 attempt 4 ERROR n n n m n
+TD415 ? ␅
+TD181492 ␆
+TD77 ? 
+TD86 question done
+TD290 > ␅
+TD479889 ␆*
+TD182 > *
+TD1573086 questioning: ["stone", "#5"]
+TD205 #1 _O__S ~M -ACEILNOPRSTVY  📋 "stone" ? ␅
+TD3905745 ␆.
+TD96 #1 _O__S ~M -ACEILNOPRSTVY  📋 "stone" ? .
+TD287 attempt 0 STONE n n n n n
+TD114 #5 ____E ~NOST -ACEILMPRVY  📋 "stone" ? ␅
+TD623860 ␆/it
+TD81 #5 ____E ~NOST -ACEILMPRVY  📋 "stone" ? /it
+TD226 attempt 4 STONE Y Y Y Y Y
+TD348 ? ␅
+TD169108 ␆
+TD71 ? 
+TD87 question done
+TD310 > ␅
+TD465820 ␆*
+TD65 > *
+TD1059131 try? ␅
+TD6215668 ␆1
+TD73 try? 1
+TD392 questioning: ["wombs", "#1"]
+TD297 #1 _O__S ~M -ACEILNOPRSTVY  📋 "wombs" ? ␅
+TD2517678 ␆/it
+TD127 #1 _O__S ~M -ACEILNOPRSTVY  📋 "wombs" ? /it
+TD273 attempt 0 WOMBS Y Y Y Y Y
+TD367 ? ␅
+TD526939 ␆
+TD116 ? 
+TD137 question done
+TD36307 📋> ␅
+TD7717838 ␆squareword.org 1615: 8 guesses
+TD126 📋> squareword.org 1615: 8 guesses
+TD22 📋> ␅
+TD117 ␆
+TD13 📋> 
+TD11 📋> ␅
+TD43 ␆🟨🟩🟨🟨🟩
+TD12 📋> 🟨🟩🟨🟨🟩
+TD11 📋> ␅
+TD39 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD37 ␆🟩🟩🟩🟩🟩
+TD12 📋> 🟩🟩🟩🟩🟩
+TD11 📋> ␅
+TD36 ␆🟨🟨🟩🟨🟨
+TD10 📋> 🟨🟨🟩🟨🟨
+TD10 📋> ␅
+TD36 ␆🟨🟨🟨🟨🟩
+TD10 📋> 🟨🟨🟨🟨🟩
+TD10 📋> ␅
+TD35 ␆
+TD12 📋> 
+TD11 📋> ␅
+TD36 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD12 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> ␅
+TD345147 ␆#squareword #squareword1615
+TD132 📋> #squareword #squareword1615
+TD19 📋> ␅
+TD187499 ␄
+TD177 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1615: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1615"}
+TD1373 result: "squareword.org 1615: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1615"
+TD105 📆 2026-07-04 ? ␅
+TD192527 ␆
+TD107 📆 2026-07-04 ? 
