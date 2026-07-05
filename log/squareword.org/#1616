@@ -1,0 +1,322 @@
+T196.34545907999563 now: 2026-07-05T10:59:11EDT
+TD178 site: squareword.org
+TD38 wordlist: nwl2023.txt
+TD50  ...␅
+TD599594 ␆
+TD120  ...
+TD128 🧩  ? ␅
+TD3739386 ␆
+TD98 🧩  ? 
+TD176  ...␅
+TD741735 ␆
+TD85  ...
+TD66 🧩  ? ␅
+TD1984866 ␆#1616
+TD82 🧩  ? #1616
+TD248 puzzle_id: #1616
+TD340 > ␅
+TD1370987 ␆*
+TD171 > *
+TD232956 try? ␅
+TD912800 ␆1
+TD126 try? 1
+TD449 questioning: ["tares", "#5"]
+TD497 #1 <IndexError>  📋 "tares" ? ␅
+TD5807812 ␆_AR__ ~ S
+TD195 #1 <IndexError>  📋 "tares" ? _AR__ ~ S
+TD1211 attempt 0 TARES n Y Y n m
+TD181 #2 <IndexError>  📋 "tares" ? ␅
+TD2586548 ␆_____ ~ TAE
+TD97 #2 <IndexError>  📋 "tares" ? _____ ~ TAE
+TD261 attempt 1 TARES m m n m n
+TD114 #3 <IndexError>  📋 "tares" ? ␅
+TD2374078 ␆___E_ ~ R
+TD105 #3 <IndexError>  📋 "tares" ? ___E_ ~ R
+TD315 attempt 2 TARES n n m Y n
+TD139 #4 <IndexError>  📋 "tares" ? ␅
+TD2302128 ␆_____ ~ AE
+TD81 #4 <IndexError>  📋 "tares" ? _____ ~ AE
+TD226 attempt 3 TARES n m n m n
+TD136 #5 <IndexError>  📋 "tares" ? ␅
+TD2207852 ␆____S ~ E
+TD100 #5 <IndexError>  📋 "tares" ? ____S ~ E
+TD286 attempt 4 TARES n n n m Y
+TD382 ? ␅
+TD1463765 ␆
+TD114 ? 
+TD154 question done
+TD375 > ␅
+TD1091149 ␆*
+TD76 > *
+TD900390 try? ␅
+TD1457474 ␆
+TD110 try? 
+TD390 try? ␅
+TD500728 ␆1
+TD151 try? 1
+TD547 questioning: ["marsh", "#1"]
+TD657 #1 _AR__ ~S -ET  📋 "marsh" ? ␅
+TD4799266 ␆_ARSH ~ H
+TD111 #1 _AR__ ~S -ET  📋 "marsh" ? _ARSH ~ H
+TD268 attempt 0 MARSH n Y Y Y Y
+TD172 #2 _____ ~AET -RS  📋 "marsh" ? ␅
+TD1430251 ␆.
+TD134 #2 _____ ~AET -RS  📋 "marsh" ? .
+TD395 attempt 1 MARSH n m n n n
+TD138 #3 ___E_ ~R -AST  📋 "marsh" ? ␅
+TD1386664 ␆.
+TD109 #3 ___E_ ~R -AST  📋 "marsh" ? .
+TD278 attempt 2 MARSH n n m n n
+TD94 #4 _____ ~AE -RST  📋 "marsh" ? ␅
+TD1015955 ␆.
+TD129 #4 _____ ~AE -RST  📋 "marsh" ? .
+TD372 attempt 3 MARSH n m n n n
+TD175 #5 ____S ~E -ART  📋 "marsh" ? ␅
+TD1083756 ␆.
+TD102 #5 ____S ~E -ART  📋 "marsh" ? .
+TD330 attempt 4 MARSH n n n n n
+TD494 ? ␅
+TD374894 ␆
+TD95 ? 
+TD115 question done
+TD446 > ␅
+TD552054 ␆*
+TD102 > *
+TD734722 questioning: ["harsh", "#1"]
+TD170 #1 _ARSH -EMT  📋 "harsh" ? ␅
+TD4680105 ␄
+TD172 question done
+TD562 > ␅
+TD2147973 ␆* 2
+TD108 > * 2
+TD4951 try? ␅
+TD3738308 ␄
+TD176 <EOF>
+TD586 > ␅
+TD1741464 ␆* 4
+TD129 > * 4
+TD8031 try? ␅
+TD3471635 ␄
+TD150 <EOF>
+TD498 > ␅
+TD9785989 ␆* 4 ~ ^H
+TD143 > * 4 ~ ^H
+TD1754 > ␅
+TD6792761 ␆* 4 :g ^H
+TD80 > * 4 :g ^H
+TD5961 > ␅
+TD7250552 ␆* 2 :g ^H
+TD105 > * 2 :g ^H
+TD5067 > ␅
+TD5238035 ␆* 3 :g ^H
+TD103 > * 3 :g ^H
+TD5781 > ␅
+TD4806141 ␆* 4 :g H
+TD95 > * 4 :g H
+TD5938 > ␅
+TD7199159 ␆* 2 :g H
+TD119 > * 2 :g H
+TD5512 > ␅
+TD3372472 ␆* 5 :g H
+TD101 > * 5 :g H
+TD5757 > ␅
+TD13173067 ␆* 5
+TD62 > * 5
+TD2878 try? ␅
+TD1204017 ␆1
+TD104 try? 1
+TD336 questioning: ["lends", "#5"]
+TD422 #1 _ARSH -EMT  📋 "lends" ? ␅
+TD9967428 ␆_ARSH ~ H
+TD127 #1 _ARSH -EMT  📋 "lends" ? _ARSH ~ H
+TD332 attempt 0 LENDS n n n n n
+TD187 #2 _____ ~AET -HMRS  📋 "lends" ? ␅
+TD1107230 ␆.
+TD189 #2 _____ ~AET -HMRS  📋 "lends" ? .
+TD492 attempt 1 LENDS n m n n n
+TD185 #3 ___E_ ~R -AHMST  📋 "lends" ? ␅
+TD1220607 ␆.
+TD101 #3 ___E_ ~R -AHMST  📋 "lends" ? .
+TD311 attempt 2 LENDS n n n n n
+TD117 #4 _____ ~AE -HMRST  📋 "lends" ? ␅
+TD4328402 ␆_____ ~ AELD
+TD110 #4 _____ ~AE -HMRST  📋 "lends" ? _____ ~ AELD
+TD287 attempt 3 LENDS m m n m n
+TD160 #5 ____S ~E -AHMRST  📋 "lends" ? ␅
+TD2738612 ␆_E__S ~ L
+TD96 #5 ____S ~E -AHMRST  📋 "lends" ? _E__S ~ L
+TD275 attempt 4 LENDS m Y n n Y
+TD444 ? ␅
+TD328230 ␆
+TD101 ? 
+TD123 question done
+TD400 > ␅
+TD575570 ␆*
+TD163 > *
+TD624449 questioning: ["harsh", "#1"]
+TD176 #1 _ARSH -DELMNST  📋 "harsh" ? ␅
+TD3626803 ␆/it
+TD95 #1 _ARSH -DELMNST  📋 "harsh" ? /it
+TD250 attempt 0 HARSH Y Y Y Y Y
+TD104 #2 _____ ~AET -DHLMNRS  📋 "harsh" ? ␅
+TD1467742 ␆.
+TD97 #2 _____ ~AET -DHLMNRS  📋 "harsh" ? .
+TD278 attempt 1 HARSH n m n n n
+TD137 #3 ___E_ ~R -ADEHLMNST  📋 "harsh" ? ␅
+TD1226816 ␆.
+TD122 #3 ___E_ ~R -ADEHLMNST  📋 "harsh" ? .
+TD302 attempt 2 HARSH n n m n n
+TD122 #4 _____ ~ADEL -HMNRST  📋 "harsh" ? ␅
+TD1097738 ␆.
+TD118 #4 _____ ~ADEL -HMNRST  📋 "harsh" ? .
+TD261 attempt 3 HARSH n m n n n
+TD104 #5 _E__S ~L -ADHMNRT  📋 "harsh" ? ␅
+TD930991 ␆.
+TD117 #5 _E__S ~L -ADHMNRT  📋 "harsh" ? .
+TD333 attempt 4 HARSH n n n n n
+TD433 ? ␅
+TD358369 ␆
+TD126 ? 
+TD113 question done
+TD371 > ␅
+TD453959 ␆*
+TD111 > *
+TD99700 try? ␅
+TD1367251 ␆1
+TD89 try? 1
+TD272 questioning: ["ideal", "#4"]
+TD450 #2 _____ ~AET -DHLMNRS  📋 "ideal" ? ␅
+TD3373308 ␆.
+TD93 #2 _____ ~AET -DHLMNRS  📋 "ideal" ? .
+TD274 attempt 1 IDEAL n n m m n
+TD98 #3 ___E_ ~R -ADEHLMNST  📋 "ideal" ? ␅
+TD3239877 ␆___E_ ~ RI
+TD94 #3 ___E_ ~R -ADEHLMNST  📋 "ideal" ? ___E_ ~ RI
+TD271 attempt 2 IDEAL m n n n n
+TD160 #4 _____ ~ADEL -HMNRST  📋 "ideal" ? ␅
+TD2930244 ␆__EA_ ~ LD
+TD96 #4 _____ ~ADEL -HMNRST  📋 "ideal" ? __EA_ ~ LD
+TD291 attempt 3 IDEAL n m Y Y m
+TD165 #5 _E__S ~L -ADHMNRST  📋 "ideal" ? ␅
+TD2003360 ␆.
+TD97 #5 _E__S ~L -ADHMNRST  📋 "ideal" ? .
+TD321 attempt 4 IDEAL n n n n m
+TD363 ? ␅
+TD174380 ␆
+TD178 ? 
+TD184 question done
+TD561 > ␅
+TD424841 ␆*
+TD103 > *
+TD1779629 questioning: ["plead", "#4"]
+TD185 #2 _____ ~AET -DHILMNRS  📋 "plead" ? ␅
+TD4992714 ␆.
+TD82 #2 _____ ~AET -DHILMNRS  📋 "plead" ? .
+TD223 attempt 1 PLEAD n n m m n
+TD90 #3 ___E_ ~IR -ADEHLMNST  📋 "plead" ? ␅
+TD1083847 ␆.
+TD85 #3 ___E_ ~IR -ADEHLMNST  📋 "plead" ? .
+TD232 attempt 2 PLEAD n n n n n
+TD90 #4 __EA_ ~DL -HIMNRST  📋 "plead" ? ␅
+TD638513 ␆/it
+TD95 #4 __EA_ ~DL -HIMNRST  📋 "plead" ? /it
+TD290 attempt 3 PLEAD Y Y Y Y Y
+TD134 #5 _E__S ~L -ADEHIMNRST  📋 "plead" ? ␅
+TD930903 ␆.
+TD153 #5 _E__S ~L -ADEHIMNRST  📋 "plead" ? .
+TD399 attempt 4 PLEAD n m n n n
+TD636 ? ␅
+TD197503 ␆
+TD96 ? 
+TD124 question done
+TD483 > ␅
+TD377424 ␆*
+TD63 > *
+TD2108729 try? ␅
+TD2620118 ␆2
+TD45 try? 2
+TD231 questioning: ["yells", "#5"]
+TD167 #2 _____ ~AET -DHILMNPRS  📋 "yells" ? ␅
+TD3267511 ␆.
+TD90 #2 _____ ~AET -DHILMNPRS  📋 "yells" ? .
+TD290 attempt 1 YELLS n m n n n
+TD328 #3 ___E_ ~IR -ADEHLMNPST  📋 "yells" ? ␅
+TD1333478 ␆.
+TD108 #3 ___E_ ~IR -ADEHLMNPST  📋 "yells" ? .
+TD339 attempt 2 YELLS n n n n n
+TD134 #5 _E__S ~L -ADEHIMNPRST  📋 "yells" ? ␅
+TD728537 ␆/it
+TD102 #5 _E__S ~L -ADEHIMNPRST  📋 "yells" ? /it
+TD282 attempt 4 YELLS Y Y Y Y Y
+TD383 ? ␅
+TD194648 ␆
+TD101 ? 
+TD95 question done
+TD321 > ␅
+TD412690 ␆*
+TD77 > *
+TD1571350 try? ␅
+TD1289050 ␆2
+TD116 try? 2
+TD279 questioning: ["river", "#3"]
+TD431 #2 _____ ~AET -DHILMNPRSY  📋 "river" ? ␅
+TD2333936 ␆.
+TD116 #2 _____ ~AET -DHILMNPRSY  📋 "river" ? .
+TD378 attempt 1 RIVER n n n m n
+TD171 #3 ___E_ ~IR -ADEHLMNPSTY  📋 "river" ? ␅
+TD587152 ␆/it
+TD114 #3 ___E_ ~IR -ADEHLMNPSTY  📋 "river" ? /it
+TD336 attempt 2 RIVER Y Y Y Y Y
+TD462 ? ␅
+TD197467 ␆
+TD68 ? 
+TD71 question done
+TD147 > ␅
+TD400489 ␆*
+TD168 > *
+TD1069803 questioning: ["agate", "#2"]
+TD215 #2 _____ ~AET -DHILMNPRSVY  📋 "agate" ? ␅
+TD3480756 ␆/it
+TD115 #2 _____ ~AET -DHILMNPRSVY  📋 "agate" ? /it
+TD313 attempt 1 AGATE Y Y Y Y Y
+TD416 ? ␅
+TD255532 ␆
+TD89 ? 
+TD100 question done
+TD28027 📋> ␅
+TD6582622 ␆squareword.org 1616: 9 guesses
+TD79 📋> squareword.org 1616: 9 guesses
+TD14 📋> ␅
+TD70 ␆
+TD12 📋> 
+TD6 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD15 ␆🟨🟨🟨🟨🟨
+TD9 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD15 ␆🟨🟨🟨🟩🟨
+TD8 📋> 🟨🟨🟨🟩🟨
+TD7 📋> ␅
+TD18 ␆🟨🟨🟩🟩🟨
+TD7 📋> 🟨🟨🟩🟩🟨
+TD5 📋> ␅
+TD14 ␆🟨🟩🟨🟨🟩
+TD7 📋> 🟨🟩🟨🟨🟩
+TD9 📋> ␅
+TD16 ␆
+TD8 📋> 
+TD5 📋> ␅
+TD19 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD237864 ␆#squareword #squareword1616
+TD103 📋> #squareword #squareword1616
+TD19 📋> ␅
+TD126446 ␄
+TD165 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1616: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1616"}
+TD972 result: "squareword.org 1616: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1616"
+TD99 📆 2026-07-05 ? ␅
+TD174934 ␆
+TD112 📆 2026-07-05 ? 
