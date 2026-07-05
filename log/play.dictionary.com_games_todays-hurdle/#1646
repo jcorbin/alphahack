@@ -1,0 +1,359 @@
+T244.1830140940001 now: 2026-07-05T10:39:39EDT
+TD140 site: https://play.dictionary.com/games/todays-hurdle
+TD44 wordlist: nwl2023.txt
+TD48  ...␅
+TD309208 ␆
+TD103  ...
+TD149 1.1> ␅
+TD18163632 ␆* -bot 10
+TD121 1.1> * -bot 10
+TD238220 1.1 ? ␅
+TD2677045 ␄
+TD175 <EOF>
+TD678 1.1> ␅
+TD1139320 ␆*
+TD101 1.1> *
+TD162312 1.1 ? ␅
+TD5179594 ␆7
+TD151 1.1 ? 7
+TD460 1.1 📋 "ideas" ? ␅
+TD20337268 ␆nnnnM
+TD85 1.1 📋 "ideas" ? nnnnM
+TD196 tried: IDEAS n n n n m
+TD579 1.2> ␅
+TD633515 ␆*
+TD88 1.2> *
+TD152012 1.2 ? ␅
+TD948940 ␆1
+TD111 1.2 ? 1
+TD293 1.2 📋 "south" ? ␅
+TD4079182 ␆YMnnY
+TD102 1.2 📋 "south" ? YMnnY
+TD269 tried: SOUTH Y m n n Y
+TD377 1.3> ␅
+TD475116 ␆*
+TD125 1.3> *
+TD106631 1.3 ? ␅
+TD1467950 ␆2
+TD89 1.3 ? 2
+TD230 1.3 📋 "slosh" ? ␅
+TD4583512 ␆YYYYY
+TD110 1.3 📋 "slosh" ? YYYYY
+TD251 tried: SLOSH Y Y Y Y Y
+TD637 2.1 📋 "slosh" ? ␅
+TD724534 ␆*
+TD151 2.1 📋 "slosh" ? *
+TD154581 2.1 ? ␅
+TD1795424 ␆2
+TD113 2.1 ? 2
+TD335 2.1 📋 "snore" ? ␅
+TD2873910 ␄
+TD156 <EOF>
+TD550 2.1 📋 "slosh" ? ␅
+TD2555809 ␆nnnnM
+TD84 2.1 📋 "slosh" ? nnnnM
+TD175 tried: SLOSH n n n n m
+TD220 2.2> ␅
+TD594123 ␆*
+TD148 2.2> *
+TD121246 2.2 ? ␅
+TD1203389 ␆1
+TD52 2.2 ? 1
+TD121 2.2 📋 "chair" ? ␅
+TD3627272 ␆YYnnn
+TD113 2.2 📋 "chair" ? YYnnn
+TD216 tried: CHAIR Y Y n n n
+TD318 2.3> ␅
+TD397204 ␆*
+TD114 2.3> *
+TD111932 2.3 ? ␅
+TD1213505 ␆1
+TD195 2.3 ? 1
+TD385 2.3 📋 "chunk" ? ␅
+TD4137854 ␆YYnnY
+TD184 2.3 📋 "chunk" ? YYnnY
+TD330 tried: CHUNK Y Y n n Y
+TD515 2.4> ␅
+TD410940 ␆*
+TD85 2.4> *
+TD105916 2.4 ? ␅
+TD1210675 ␆1
+TD176 2.4 ? 1
+TD376 2.4 📋 "check" ? ␅
+TD3677150 ␆YYYnY
+TD105 2.4 📋 "check" ? YYYnY
+TD203 tried: CHECK Y Y Y n Y
+TD263 2.5> ␅
+TD383908 ␆*
+TD100 2.5> *
+TD104852 2.5 📋 "cheek" ? ␅
+TD4940298 ␆YYYYY
+TD115 2.5 📋 "cheek" ? YYYYY
+TD245 tried: CHEEK Y Y Y Y Y
+TD502 3.1 📋 "cheek" ? ␅
+TD7035414 ␆nnnnn
+TD111 3.1 📋 "cheek" ? nnnnn
+TD222 tried: CHEEK n n n n n
+TD277 3.2> ␅
+TD680836 ␆*
+TD48 3.2> *
+TD119366 3.2 ? ␅
+TD1048777 ␆1
+TD89 3.2 ? 1
+TD236 3.2 📋 "riots" ? ␅
+TD3746958 ␆nnnMM
+TD113 3.2 📋 "riots" ? nnnMM
+TD247 tried: RIOTS n n n m m
+TD510 3.3> ␅
+TD446774 ␆*
+TD130 3.3> *
+TD137234 3.3 ? ␅
+TD2823408 ␆4
+TD83 3.3 ? 4
+TD184 3.3 📋 "stung" ? ␅
+TD4528420 ␆YMnYn
+TD96 3.3 📋 "stung" ? YMnYn
+TD206 tried: STUNG Y m n Y n
+TD304 3.4> ␅
+TD795372 ␆*
+TD112 3.4> *
+TD113734 3.4 📋 "slant" ? ␅
+TD4386778 ␆YYYYY
+TD165 3.4 📋 "slant" ? YYYYY
+TD269 tried: SLANT Y Y Y Y Y
+TD465 4.1 📋 "slant" ? ␅
+TD7267315 ␆nnMnM
+TD84 4.1 📋 "slant" ? nnMnM
+TD189 tried: SLANT n n m n m
+TD238 4.2> ␅
+TD815400 ␆*
+TD112 4.2> *
+TD145982 4.2 ? ␅
+TD1997597 ␆2
+TD104 4.2 ? 2
+TD266 4.2 📋 "recta" ? ␅
+TD3850230 ␆MMnMM
+TD148 4.2 📋 "recta" ? MMnMM
+TD355 tried: RECTA m m n m m
+TD425 4.3> ␅
+TD496060 ␆*
+TD119 4.3> *
+TD152957 4.3 ? ␅
+TD3600907 ␆8
+TD122 4.3 ? 8
+TD348 4.3 📋 "water" ? ␅
+TD3659192 ␆nYYYY
+TD104 4.3 📋 "water" ? nYYYY
+TD230 tried: WATER n Y Y Y Y
+TD296 4.4> ␅
+TD473514 ␆*
+TD118 4.4> *
+TD111609 4.4 ? ␅
+TD3564505 ␆3
+TD107 4.4 ? 3
+TD284 4.4 📋 "hater" ? ␅
+TD3407441 ␆YYYYY
+TD137 4.4 📋 "hater" ? YYYYY
+TD284 tried: HATER Y Y Y Y Y
+TD520 5.1 📋 "slosh" ? ␅
+TD7480622 ␆nnnnn
+TD114 5.1 📋 "slosh" ? nnnnn
+TD254 tried: SLOSH n n n n n
+TD339 5.2 📋 "cheek" ? ␅
+TD1420654 ␆nnMnn
+TD125 5.2 📋 "cheek" ? nnMnn
+TD292 tried: CHEEK n n m n n
+TD419 5.3 📋 "slant" ? ␅
+TD1908744 ␆nnnnn
+TD127 5.3 📋 "slant" ? nnnnn
+TD236 tried: SLANT n n n n n
+TD298 5.4 📋 "hater" ? ␅
+TD1307604 ␆nnnMM
+TD152 5.4 📋 "hater" ? nnnMM
+TD323 tried: HATER n n n m m
+TD561 5.5> ␅
+TD913063 ␆*
+TD171 5.5> *
+TD128492 5.5 ? ␅
+TD1421652 ␆1
+TD125 5.5 ? 1
+TD372 5.5 📋 "rebid" ? ␅
+TD3427356 ␆MMnMM
+TD108 5.5 📋 "rebid" ? MMnMM
+TD223 tried: REBID m m n m m
+TD385 5.6> ␅
+TD473857 ␆*
+TD127 5.6> *
+TD153443 5.6 ? ␅
+TD1863359 ␆4
+TD127 5.6 ? 4
+TD348 5.6 📋 "pride" ? ␅
+TD6699819 ␆nYYMY
+TD170 5.6 📋 "pride" ? nYYMY
+TD310 tried: PRIDE n Y Y m Y
+TD598 5.7> ␅
+TD3223998 ␆Hurdle 1646
+TD70 5.7> Hurdle 1646
+TD119 5.7> ␅
+TD32 ␆
+TD10 5.7> 
+TD288 5.7> ␅
+TD20 ␆3/6
+TD9 5.7> 3/6
+TD230 5.7> ␅
+TD25 ␆⬜⬜⬜⬜🟨
+TD12 5.7> ⬜⬜⬜⬜🟨
+TD235 5.7> ␅
+TD21 ␆🟩🟨⬜⬜🟩
+TD10 5.7> 🟩🟨⬜⬜🟩
+TD218 5.7> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD10 5.7> 🟩🟩🟩🟩🟩
+TD255 5.7> ␅
+TD23 ␆5/6
+TD10 5.7> 5/6
+TD238 5.7> ␅
+TD21 ␆⬜⬜⬜⬜🟨
+TD10 5.7> ⬜⬜⬜⬜🟨
+TD250 5.7> ␅
+TD28 ␆🟩🟩⬜⬜⬜
+TD14 5.7> 🟩🟩⬜⬜⬜
+TD320 5.7> ␅
+TD49 ␆🟩🟩⬜⬜🟩
+TD14 5.7> 🟩🟩⬜⬜🟩
+TD300 5.7> ␅
+TD26 ␆🟩🟩🟩⬜🟩
+TD12 5.7> 🟩🟩🟩⬜🟩
+TD386 5.7> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD10 5.7> 🟩🟩🟩🟩🟩
+TD232 5.7> ␅
+TD21 ␆4/6
+TD10 5.7> 4/6
+TD238 5.7> ␅
+TD22 ␆⬜⬜⬜⬜⬜
+TD11 5.7> ⬜⬜⬜⬜⬜
+TD245 5.7> ␅
+TD23 ␆⬜⬜⬜🟨🟨
+TD11 5.7> ⬜⬜⬜🟨🟨
+TD236 5.7> ␅
+TD22 ␆🟩🟨⬜🟩⬜
+TD11 5.7> 🟩🟨⬜🟩⬜
+TD261 5.7> ␅
+TD29 ␆🟩🟩🟩🟩🟩
+TD10 5.7> 🟩🟩🟩🟩🟩
+TD260 5.7> ␅
+TD24 ␆4/6
+TD12 5.7> 4/6
+TD259 5.7> ␅
+TD25 ␆⬜⬜🟨⬜🟨
+TD11 5.7> ⬜⬜🟨⬜🟨
+TD308 5.7> ␅
+TD33 ␆🟨🟨⬜🟨🟨
+TD14 5.7> 🟨🟨⬜🟨🟨
+TD326 5.7> ␅
+TD32 ␆⬜🟩🟩🟩🟩
+TD14 5.7> ⬜🟩🟩🟩🟩
+TD321 5.7> ␅
+TD34 ␆🟩🟩🟩🟩🟩
+TD15 5.7> 🟩🟩🟩🟩🟩
+TD377 5.7> ␅
+TD35 ␆Final X/2
+TD14 5.7> Final X/2
+TD323 5.7> ␅
+TD31 ␆🟨🟨⬜🟨🟨
+TD14 5.7> 🟨🟨⬜🟨🟨
+TD357 5.7> ␅
+TD34 ␆⬜🟩🟩🟨🟩
+TD15 5.7> ⬜🟩🟩🟨🟩
+TD330 5.7> ␅
+TD258981 ␆score: 4,870
+TD152 5.7> score: 4,870
+TD900 5.7> ␅
+TD1845024 ␆/res
+TD113 5.7> /res
+TD246 📋> ␅
+TD589556 ␆Hurdle 1646
+TD165 📋> Hurdle 1646
+TD40 📋> ␅
+TD96 ␆
+TD34 📋> 
+TD29 📋> ␅
+TD55 ␆3/6
+TD32 📋> 3/6
+TD30 📋> ␅
+TD60 ␆⬜⬜⬜⬜🟨
+TD55 📋> ⬜⬜⬜⬜🟨
+TD34 📋> ␅
+TD56 ␆🟩🟨⬜⬜🟩
+TD30 📋> 🟩🟨⬜⬜🟩
+TD27 📋> ␅
+TD54 ␆🟩🟩🟩🟩🟩
+TD29 📋> 🟩🟩🟩🟩🟩
+TD27 📋> ␅
+TD52 ␆5/6
+TD30 📋> 5/6
+TD27 📋> ␅
+TD90 ␆⬜⬜⬜⬜🟨
+TD29 📋> ⬜⬜⬜⬜🟨
+TD25 📋> ␅
+TD48 ␆🟩🟩⬜⬜⬜
+TD26 📋> 🟩🟩⬜⬜⬜
+TD26 📋> ␅
+TD47 ␆🟩🟩⬜⬜🟩
+TD26 📋> 🟩🟩⬜⬜🟩
+TD25 📋> ␅
+TD47 ␆🟩🟩🟩⬜🟩
+TD26 📋> 🟩🟩🟩⬜🟩
+TD24 📋> ␅
+TD46 ␆🟩🟩🟩🟩🟩
+TD25 📋> 🟩🟩🟩🟩🟩
+TD25 📋> ␅
+TD45 ␆4/6
+TD43 📋> 4/6
+TD246 📋> ␅
+TD121 ␆⬜⬜⬜⬜⬜
+TD18 📋> ⬜⬜⬜⬜⬜
+TD12 📋> ␅
+TD26 ␆⬜⬜⬜🟨🟨
+TD10 📋> ⬜⬜⬜🟨🟨
+TD10 📋> ␅
+TD22 ␆🟩🟨⬜🟩⬜
+TD9 📋> 🟩🟨⬜🟩⬜
+TD10 📋> ␅
+TD21 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD20 ␆4/6
+TD12 📋> 4/6
+TD9 📋> ␅
+TD22 ␆⬜⬜🟨⬜🟨
+TD9 📋> ⬜⬜🟨⬜🟨
+TD9 📋> ␅
+TD20 ␆🟨🟨⬜🟨🟨
+TD9 📋> 🟨🟨⬜🟨🟨
+TD8 📋> ␅
+TD21 ␆⬜🟩🟩🟩🟩
+TD8 📋> ⬜🟩🟩🟩🟩
+TD8 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD20 ␆Final X/2
+TD9 📋> Final X/2
+TD9 📋> ␅
+TD19 ␆🟨🟨⬜🟨🟨
+TD8 📋> 🟨🟨⬜🟨🟨
+TD8 📋> ␅
+TD19 ␆⬜🟩🟩🟨🟩
+TD8 📋> ⬜🟩🟩🟨🟩
+TD9 📋> ␅
+TD233365 ␆score: 4,870
+TD112 📋> score: 4,870
+TD22 📋> ␅
+TD363428 ␄
+TD232 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Hurdle 1646\n\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\nscore: 4,870"}
+TD1163 result: "Hurdle 1646\n\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\nscore: 4,870"
+TD160 📆 2026-07-05 ? ␅
+TD438351 ␆
+TD91 📆 2026-07-05 ? 
