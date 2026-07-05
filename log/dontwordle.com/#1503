@@ -1,0 +1,191 @@
+T120.06998387999192 now: 2026-07-05T10:37:35EDT
+TD188 site: dontwordle.com
+TD31 wordlist: nwl2023.txt
+TD57  ...␅
+TD3238415 ␆
+TD45  ...
+TD52 1> ␅
+TD1877071 ␆* -bot 10
+TD84 1> * -bot 10
+TD202235 ? ␅
+TD3382253 ␆3
+TD152 ? 3
+TD277 📋 "stare" ? ␅
+TD4388250 ␆nMnnM
+TD101 📋 "stare" ? nMnnM
+TD579 tried: STARE n m n n m
+TD197 2> ␅
+TD3006255 ␆undo
+TD76 2> undo
+TD102 undo
+TD111 1> ␅
+TD5978518 ␆* :v [stare] -bot 10
+TD148 1> * :v [stare] -bot 10
+TD122881 ? ␅
+TD1114004 ␆1
+TD133 ? 1
+TD287 📋 "limbo" ? ␅
+TD4466183 ␆nnnnn
+TD102 📋 "limbo" ? nnnnn
+TD239 tried: LIMBO n n n n n
+TD262 2> ␅
+TD963162 ␆undo
+TD97 2> undo
+TD151 undo
+TD152 1> ␅
+TD2431889 ␆*
+TD80 1> *
+TD120564 ? ␅
+TD119712 ␆1
+TD104 ? 1
+TD213 📋 "immix" ? ␅
+TD3874067 ␆nnnnn
+TD121 📋 "immix" ? nnnnn
+TD232 tried: IMMIX n n n n n
+TD234 2> ␅
+TD409944 ␆*
+TD83 2> *
+TD119150 ? ␅
+TD49895 ␆1
+TD101 ? 1
+TD215 📋 "salal" ? ␅
+TD3921017 ␆nnnnn
+TD100 📋 "salal" ? nnnnn
+TD239 tried: SALAL n n n n n
+TD240 3> ␅
+TD2345773 ␆*
+TD96 3> *
+TD100027 ? ␅
+TD873060 ␆1
+TD79 ? 1
+TD157 📋 "boozy" ? ␅
+TD6736714 ␆nnnnY
+TD116 📋 "boozy" ? nnnnY
+TD227 tried: BOOZY n n n n Y
+TD242 4> ␅
+TD880189 ␆undo
+TD100 4> undo
+TD136 undo
+TD260 3> ␅
+TD3922686 ␆*
+TD51 3> *
+TD97129 ? ␅
+TD960131 ␆1
+TD79 ? 1
+TD177 📋 "boffo" ? ␅
+TD4166930 ␆nnYnn
+TD108 📋 "boffo" ? nnYnn
+TD224 tried: BOFFO n n Y n n
+TD235 4> ␅
+TD926523 ␆undo
+TD100 4> undo
+TD137 undo
+TD229 3> ␅
+TD3390374 ␆*
+TD83 3> *
+TD89203 ? ␅
+TD999275 ␆1
+TD84 ? 1
+TD252 📋 "gonzo" ? ␅
+TD4187280 ␆nnnnn
+TD148 📋 "gonzo" ? nnnnn
+TD250 tried: GONZO n n n n n
+TD257 4> ␅
+TD476183 ␆*
+TD159 4> *
+TD97095 ? ␅
+TD1236696 ␆1
+TD97 ? 1
+TD229 📋 "churr" ? ␅
+TD6859148 ␆nMnnn
+TD102 📋 "churr" ? nMnnn
+TD229 tried: CHURR n m n n n
+TD256 5> ␅
+TD1223208 ␆undo
+TD94 5> undo
+TD131 undo
+TD289 4> ␅
+TD6185673 ␆*
+TD91 4> *
+TD88711 📋 "cruck" ? ␅
+TD4385429 ␆nnnnn
+TD88 📋 "cruck" ? nnnnn
+TD195 tried: CRUCK n n n n n
+TD200 5> ␅
+TD625207 ␆*
+TD108 5> *
+TD188511 ? ␅
+TD1067614 ␆1
+TD77 ? 1
+TD212 📋 "bedew" ? ␅
+TD4614501 ␆nYnnn
+TD101 📋 "bedew" ? nYnnn
+TD220 tried: BEDEW n Y n n n
+TD269 6> ␅
+TD468029 ␆*
+TD107 6> *
+TD188677 📋 "peeve" ? ␅
+TD8625097 ␄
+TD119 <EOF>
+TD165 6> ␅
+TD2166684 ␆* --sans
+TD101 6> * --sans
+TD353 6> ␅
+TD1654504 ␆* -sans
+TD114 6> * -sans
+TD93900 ? ␅
+TD2626469 ␆
+TD103 ? 
+TD434 ? ␅
+TD625209 ␆2
+TD126 ? 2
+TD255 📋 "peppy" ? ␅
+TD5442979 ␆nYnnY
+TD96 📋 "peppy" ? nYnnY
+TD179 tried: PEPPY n Y n n Y
+TD199 📋> ␅
+TD3272403 ␆Don't Wordle 1503 - SURVIVED
+TD84 📋> Don't Wordle 1503 - SURVIVED
+TD15 📋> ␅
+TD45 ␆Hooray! I didn't Wordle today!
+TD9 📋> Hooray! I didn't Wordle today!
+TD8 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜7870
+TD8 📋> ⬜⬜⬜⬜⬜7870
+TD7 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜1500
+TD7 📋> ⬜⬜⬜⬜⬜1500
+TD6 📋> ␅
+TD14 ␆⬜⬜⬜⬜⬜396
+TD6 📋> ⬜⬜⬜⬜⬜396
+TD6 📋> ␅
+TD13 ␆⬜⬜⬜⬜⬜61
+TD7 📋> ⬜⬜⬜⬜⬜61
+TD6 📋> ␅
+TD16 ␆⬜🟩⬜⬜⬜4
+TD7 📋> ⬜🟩⬜⬜⬜4
+TD7 📋> ␅
+TD14 ␆⬜🟩⬜⬜🟩2
+TD6 📋> ⬜🟩⬜⬜🟩2
+TD6 📋> ␅
+TD13 ␆Undos used: 5
+TD7 📋> Undos used: 5
+TD7 📋> ␅
+TD16 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD15 ␆  2 words remaining
+TD7 📋>   2 words remaining
+TD7 📋> ␅
+TD15 ␆x 6 unused letters
+TD7 📋> x 6 unused letters
+TD6 📋> ␅
+TD254041 ␆= 12 total score
+TD52 📋> = 12 total score
+TD6 📋> ␅
+TD582532 ␄
+TD184 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1503 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1500\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c396\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c61\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c4\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe92\nUndos used: 5\n\n  2 words remaining\nx 6 unused letters\n= 12 total score"}
+TD2025 result: "Don't Wordle 1503 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7870\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1500\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c396\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c61\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c4\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe92\nUndos used: 5\n\n  2 words remaining\nx 6 unused letters\n= 12 total score"
+TD118 📆 2026-07-05 ? ␅
+TD277237 ␆
+TD122 📆 2026-07-05 ? 
