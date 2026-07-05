@@ -1,0 +1,107 @@
+T26.915652643991052 now: 2026-07-05T10:36:02EDT
+TD169 site: alfagok.diginaut.net
+TD393719 loaded 399522 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1330 words excluded) asof 08dfde49e437b555f22cfe81b27681e9b55cc715
+TD103  ...␅
+TD5583124 ␆
+TD96  ...
+TD224 [0 : 199556 : 399522] lij? ␅
+TD2519480 ␆a
+TD96 [0 : 199556 : 399522] lij? a
+TD378 progress: 1 199556 lij
+TD152 [199557 : 299533 : 399522] schrok? ␅
+TD1643034 ␆a
+TD62 [199557 : 299533 : 399522] schrok? a
+TD68 progress: 1 299533 schrok
+TD60 [299534 : 349524 : 399522] vakanties? ␅
+TD2674764 ␆a
+TD104 [299534 : 349524 : 399522] vakanties? a
+TD112 progress: 1 349524 vakanties
+TD114 [349525 : 374520 : 399522] vrijst? ␅
+TD4142076 ␆a
+TD104 [349525 : 374520 : 399522] vrijst? a
+TD121 progress: 1 374520 vrijst
+TD137 [374521 : 386905 : 399522] winkel? ␅
+TD1698357 ␆a
+TD83 [374521 : 386905 : 399522] winkel? a
+TD110 progress: 1 386905 winkel
+TD167 [386906 : 392906 : 399522] zelf? ␅
+TD3006820 ␆a
+TD81 [386906 : 392906 : 399522] zelf? a
+TD95 progress: 1 392906 zelf
+TD100 [392907 : 396211 : 399522] zonde? ␅
+TD1901949 ␆b
+TD121 [392907 : 396211 : 399522] zonde? b
+TD140 progress: -1 396211 zonde
+TD144 [392907 : 394442 : 396211] ziel? ␅
+TD3171023 ␆a
+TD149 [392907 : 394442 : 396211] ziel? a
+TD141 progress: 1 394442 ziel
+TD128 [394443 : 395321 : 396211] zit? ␅
+TD2420316 ␆a
+TD91 [394443 : 395321 : 396211] zit? a
+TD103 progress: 1 395321 zit
+TD139 [395322 : 395761 : 396211] zog? ␅
+TD2092013 ␆a
+TD112 [395322 : 395761 : 396211] zog? a
+TD123 progress: 1 395761 zog
+TD132 [395762 : 395829 : 396211] zomer? ␅
+TD2773941 ␆b
+TD121 [395762 : 395829 : 396211] zomer? b
+TD124 progress: -1 395829 zomer
+TD119 [395762 : 395776 : 395829] zolder? ␅
+TD1718609 ␆a
+TD123 [395762 : 395776 : 395829] zolder? a
+TD148 progress: 1 395776 zolder
+TD398 [395777 : 395802 : 395829] zolderruimte? ␅
+TD1636935 ␆a
+TD110 [395777 : 395802 : 395829] zolderruimte? a
+TD105 progress: 1 395802 zolderruimte
+TD311 [395803 : 395813 : 395829] zoldervenster? ␅
+TD1499731 ␆a
+TD105 [395803 : 395813 : 395829] zoldervenster? a
+TD116 progress: 1 395813 zoldervenster
+TD265 [395814 : 395822 : 395829] zom? ␅
+TD1892198 ␆!
+TD136 [395814 : 395822 : 395829] zom? !
+TD436 [395814 : 395821 : 395828] zolendraai? ␅
+TD1879384 ␆a
+TD231 [395814 : 395821 : 395828] zolendraai? a
+TD242 progress: 1 395821 zolendraai
+TD497 [395822 : 395823 : 395828] zombie? ␅
+TD2829352 ␆B
+TD70 [395822 : 395823 : 395828] zombie? B
+TD148 [395822 : 395823 : 395828] zombie? ␅
+TD4374258 ␆B
+TD102 [395822 : 395823 : 395828] zombie? B
+TD323 [395822 : 395823 : 395828] zombie? ␅
+TD972542 ␆b
+TD88 [395822 : 395823 : 395828] zombie? b
+TD115 progress: -1 395823 zombie
+TD315 [395822 : 395822 : 395823] zomaar? ␅
+TD3070681 ␆it
+TD83 [395822 : 395822 : 395823] zomaar? it
+TD115 progress: 0 395822 zomaar
+TD35 [395822 : 395822 : 395823] <Done>.
+TD285 📋> ␅
+TD3136498 ␆🧩 Puzzel #610
+TD88 📋> 🧩 Puzzel #610
+TD17 📋> ␅
+TD68 ␆🤔 17 gokken
+TD11 📋> 🤔 17 gokken
+TD8 📋> ␅
+TD19 ␆⏱️ 46s
+TD10 📋> ⏱️ 46s
+TD8 📋> ␅
+TD245712 ␆🔗 alfagok.diginaut.net
+TD103 📋> 🔗 alfagok.diginaut.net
+TD16 📋> ␅
+TD329861 ␄
+TD146 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #610\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 46s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD643 result: "\ud83e\udde9 Puzzel #610\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 46s\n\ud83d\udd17 alfagok.diginaut.net"
+TD20 result puzzle: 610
+TD10 result guesses: 17
+TD7 result time: 46s
+TD6 result link: alfagok.diginaut.net
+TD76 📆 2026-07-05 ? ␅
+TD261277 ␆
+TD116 📆 2026-07-05 ? 
