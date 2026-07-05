@@ -1,0 +1,85 @@
+T86.26900870499958 now: 2026-07-05T10:37:01EDT
+TD330 site: alphaguess.com
+TD160541 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 08dfde49e437b555f22cfe81b27681e9b55cc715
+TD88  ...␅
+TD19 ␆
+TD2  ...
+TD54 [0 : 98214 : 196520] mach? ␅
+TD840398 ␆
+TD90 [0 : 98214 : 196520] mach? 
+TD102 [0 : 98214 : 196520] mach? ␅
+TD5340828 ␆a
+TD78 [0 : 98214 : 196520] mach? a
+TD89 progress: 1 98214 mach
+TD245 [98215 : 147364 : 196520] rhotic? ␅
+TD1507764 ␆a
+TD78 [98215 : 147364 : 196520] rhotic? a
+TD95 progress: 1 147364 rhotic
+TD87 [147365 : 171634 : 196520] ta? ␅
+TD1445927 ␆a
+TD77 [147365 : 171634 : 196520] ta? a
+TD100 progress: 1 171634 ta
+TD132 [171635 : 181998 : 196520] un? ␅
+TD1354642 ␆a
+TD111 [171635 : 181998 : 196520] un? a
+TD132 progress: 1 181998 un
+TD490 [181999 : 189260 : 196520] vicar? ␅
+TD1321778 ␆a
+TD111 [181999 : 189260 : 196520] vicar? a
+TD149 progress: 1 189260 vicar
+TD182 [189261 : 192864 : 196520] whir? ␅
+TD1638852 ␆b
+TD82 [189261 : 192864 : 196520] whir? b
+TD95 progress: -1 192864 whir
+TD99 [189261 : 191040 : 192864] walk? ␅
+TD1374383 ␆a
+TD84 [189261 : 191040 : 192864] walk? a
+TD98 progress: 1 191040 walk
+TD114 [191041 : 191903 : 192864] we? ␅
+TD2367923 ␆a
+TD97 [191041 : 191903 : 192864] we? a
+TD115 progress: 1 191903 we
+TD115 [191904 : 192373 : 192864] wen? ␅
+TD1316905 ␆a
+TD102 [191904 : 192373 : 192864] wen? a
+TD112 progress: 1 192373 wen
+TD117 [192374 : 192577 : 192864] whee? ␅
+TD1371815 ␆b
+TD93 [192374 : 192577 : 192864] whee? b
+TD109 progress: -1 192577 whee
+TD224 [192374 : 192475 : 192577] wha? ␅
+TD1350456 ␆a
+TD61 [192374 : 192475 : 192577] wha? a
+TD67 progress: 1 192475 wha
+TD98 [192476 : 192525 : 192577] wharf? ␅
+TD1351642 ␆a
+TD143 [192476 : 192525 : 192577] wharf? a
+TD173 progress: 1 192525 wharf
+TD178 [192526 : 192537 : 192577] what? ␅
+TD2673339 ␆it
+TD125 [192526 : 192537 : 192577] what? it
+TD154 progress: 0 192537 what
+TD53 [192526 : 192537 : 192577] <Done>.
+TD149 📋> ␅
+TD3393592 ␆🧩 Puzzle #1077
+TD108 📋> 🧩 Puzzle #1077
+TD26 📋> ␅
+TD67 ␆🤔 13 guesses
+TD23 📋> 🤔 13 guesses
+TD19 📋> ␅
+TD38 ␆⏱️ 18s
+TD22 📋> ⏱️ 18s
+TD19 📋> ␅
+TD255798 ␆🔗 alphaguess.com/1077
+TD103 📋> 🔗 alphaguess.com/1077
+TD27 📋> ␅
+TD230226 ␄
+TD152 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1077\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1077"}
+TD271 result: "\ud83e\udde9 Puzzle #1077\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1077"
+TD115 result puzzle: 1077
+TD14 result guesses: 13
+TD8 result time: 18s
+TD8 result link: alphaguess.com/1077
+TD103 📆 2026-07-05 ? ␅
+TD213225 ␆
+TD100 📆 2026-07-05 ? 
