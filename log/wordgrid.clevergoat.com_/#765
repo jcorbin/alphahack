@@ -1,0 +1,1601 @@
+T0.0008850900048855692 now: 2026-07-05T09:10:40EDT
+TD125 wordlist: nwl2023.txt
+TD67 > ␅
+TD4570179 ␆?
+TD103 > ?
+TD898 > ␅
+T0.04540962100145407 now: 2026-07-05T09:22:02EDT
+TD158 > ␅
+TD13821492 ␆col 1 ![ADS]
+TD103 > col 1 ![ADS]
+TD1032 rule col: 1 ![ADS]
+TD173 > ␅
+TD3547871 ␄
+T0.045240520004881546 now: 2026-07-05T09:28:13EDT
+TD149 > ␅
+TD1871447 ␆col 1
+TD124 > col 1
+TD868 > ␅
+TD7358503 ␆col 2 ~ON
+TD103 > col 2 ~ON
+TD350 rule col: 2 ~ON
+TD198 > ␅
+TD4782753 ␆col 3 ^B
+TD208 > col 3 ^B
+TD940 > ␅
+TD30294597 ␆col 3 ~^B
+TD164 > col 3 ~^B
+TD398 rule col: 3 ~^B
+TD216 > ␅
+TD4873758 ␆row 1 #5
+TD174 > row 1 #5
+TD513 rule row: 1 #5
+TD307 > ␅
+TD5139810 ␆row 2 ~OO
+TD101 > row 2 ~OO
+TD292 rule row: 2 ~OO
+TD183 > ␅
+TD11654296 ␆row 3 ![IT]
+TD91 > row 3 ![IT]
+TD576 rule row: 3 ![IT]
+TD155 > ␅
+T0.046061550005106255 now: 2026-07-05T09:30:48EDT
+TD136 > ␅
+TD1136485 ␆*
+TD103 > *
+TD261966 ? ␅
+TD10232589 ␆1
+TD108 ? 1
+TD361 questioning: 0 loner
+T0.047231171003659256 now: 2026-07-05T09:43:45EDT
+TD102 questioning: 0 loner
+TD12 🌡️ loner ? ␅
+TD5828160 ␆0.07
+TD130 🌡️ loner ? 0.07
+TD413 word: 0 loner 0.07
+TD22 questioning: -1 
+T0.046910168006434105 now: 2026-07-05T09:49:41EDT
+TD142 > ␅
+TD1883894 ␆*
+TD95 > *
+TD256657 ? ␅
+TD7412108 ␆6
+TD128 ? 6
+TD401 questioning: 1 bones
+TD54 🌡️ bones ? ␅
+TD9198893 ␆.46
+TD136 🌡️ bones ? .46
+TD434 word: 1 bones 0.46
+TD39 questioning: -1 
+TD194 > ␅
+TD991627 ␆*
+TD111 > *
+TD235893 ? ␅
+TD2419979 ␆7
+TD99 ? 7
+TD154 questioning: 2 break
+TD37 🌡️ break ? ␅
+TD6061365 ␆.8
+TD126 🌡️ break ? .8
+TD114 word: 2 break 0.8
+TD46 questioning: -1 
+TD260 > ␅
+TD1249818 ␆*
+TD192 > *
+TD242550 ? ␅
+TD10675880 ␆4
+TD119 ? 4
+TD157 questioning: 3 retool
+TD42 🌡️ retool ? ␅
+TD9626757 ␆.09
+TD97 🌡️ retool ? .09
+TD88 word: 3 retool 0.09
+TD21 questioning: -1 
+TD191 > ␅
+TD835052 ␆*
+TD120 > *
+TD241006 ? ␅
+TD2721637 ␆8
+TD111 ? 8
+TD136 questioning: 4 toon
+TD31 🌡️ toon ? ␅
+TD6491498 ␆.976
+TD147 🌡️ toon ? .976
+TD141 word: 4 toon 0.97
+TD28 questioning: -1 
+TD220 > ␅
+TD5247574 <INT>
+TD213 <INT>
+TD51 <INT>
+TD28 <INT>
+T0.04725408299418632 now: 2026-07-05T09:50:53EDT
+TD144 > ␅
+TD812738 ␆*
+TD98 > *
+TD254783 ? ␅
+TD8706651 ␆1
+TD117 ? 1
+TD327 questioning: 5 booster
+TD50 🌡️ booster ? ␅
+TD5454361 ␆.38
+TD186 🌡️ booster ? .38
+TD565 word: 5 booster 0.38
+TD100 questioning: -1 
+TD569 > ␅
+TD3585168 ␆*
+TD121 > *
+TD269423 ? ␅
+TD2573539 ␆9
+TD121 ? 9
+TD183 questioning: 6 curl
+TD44 🌡️ curl ? ␅
+TD58468198 ␆0
+TD150 🌡️ curl ? 0
+TD143 word: 6 curl 0.0
+TD45 questioning: -1 
+TD417 > ␅
+TD4672263 ␆*
+TD100 > *
+TD255771 ? ␅
+TD9762914 ␆4
+TD121 ? 4
+TD150 questioning: 7 racon
+TD30 🌡️ racon ? ␅
+TD7572570 ␆0
+TD64 🌡️ racon ? 0
+TD55 word: 7 racon 0.0
+TD23 questioning: -1 
+TD156 > ␅
+TD890801 ␆*
+TD115 > *
+TD240414 ? ␅
+TD2859608 ␆1
+TD93 ? 1
+TD139 questioning: 8 bold
+TD32 🌡️ bold ? ␅
+TD8681898 ␆0
+TD108 🌡️ bold ? 0
+TD99 word: 8 bold 0.0
+TD23 questioning: -1 
+TD208 > ␅
+TD78758120 ␆* 1
+TD124 > * 1
+TD521 > ␅
+T0.04848533800395671 now: 2026-07-05T09:55:07EDT
+TD147 > ␅
+TD2904962 ␆* 1 1
+TD107 > * 1 1
+TD277198 ? ␅
+TD3838691 ␄
+TD123 <EOF>
+TD314 > ␅
+TD4867925 ␆* 2 2
+TD98 > * 2 2
+TD245871 ? ␅
+TD30490046 ␆7
+TD105 ? 7
+TD159 questioning: 4 moonfaced
+TD47 🌡️ moonfaced ? ␅
+TD1911050 ␆.1
+TD118 🌡️ moonfaced ? .1
+TD345 word: 4 moonfaced 0.1
+TD31 questioning: -1 
+TD200 > ␅
+TD10103711 ␆* 1 2
+TD106 > * 1 2
+TD232884 ? ␅
+TD15963305 ␄
+TD141 <EOF>
+TD296 > ␅
+TD5441427 ␆* 3 1
+TD131 > * 3 1
+TD225847 ? ␅
+TD22688127 ␆7
+TD106 ? 7
+TD172 questioning: 2 barye
+TD54 🌡️ barye ? ␅
+TD5960895 ␆0
+TD108 🌡️ barye ? 0
+TD90 word: 2 barye 0.0
+TD22 questioning: -1 
+TD171 > ␅
+TD4856049 ␆* 1 2
+TD109 > * 1 2
+TD244085 ? ␅
+TD14696555 ␆4
+TD155 ? 4
+TD240 questioning: 3 noogie
+TD60 🌡️ noogie ? ␅
+TD3679874 ␆0
+TD129 🌡️ noogie ? 0
+TD117 word: 3 noogie 0.0
+TD26 questioning: -1 
+TD233 > ␅
+TD8958826 ␆* 2 1
+TD112 > * 2 1
+TD231084 ? ␅
+TD5853324 ␆6
+TD122 ? 6
+TD169 questioning: 1 cions
+TD33 🌡️ cions ? ␅
+TD6992983 ␆.08
+TD109 🌡️ cions ? .08
+TD102 word: 1 cions 0.08
+TD25 questioning: -1 
+TD241 > ␅
+TD21665135 ␆* 3 2
+TD131 > * 3 2
+TD237013 ? ␅
+TD11870272 ␆10
+TD109 ? 10
+TD156 questioning: 5 boodles
+TD36 🌡️ boodles ? ␅
+TD9114315 ␆.06
+TD127 🌡️ boodles ? .06
+TD134 word: 5 boodles 0.06
+TD45 questioning: -1 
+TD399 > ␅
+TD5252311 ␆* 2 2
+TD108 > * 2 2
+TD251711 ? ␅
+TD3567979 ␆4
+TD133 ? 4
+TD171 questioning: 4 crampoon
+TD40 🌡️ crampoon ? ␅
+TD11581487 ␆.05
+TD168 🌡️ crampoon ? .05
+TD143 word: 4 crampoon 0.05
+TD44 questioning: -1 
+TD388 > ␅
+TD3991882 ␆* 1 1
+TD136 > * 1 1
+TD248394 ? ␅
+TD3909555 ␆8
+TD122 ? 8
+TD176 questioning: 0 proem
+TD41 🌡️ proem ? ␅
+TD6388972 ␆0
+TD148 🌡️ proem ? 0
+TD116 word: 0 proem 0.0
+TD29 questioning: -1 
+TD251 > ␅
+TD3038399 ␆* 2 1
+TD141 > * 2 1
+TD243222 ? ␅
+TD3252906 ␆6
+TD112 ? 6
+TD146 questioning: 1 meson
+TD33 🌡️ meson ? ␅
+TD5731190 ␆.19
+TD133 🌡️ meson ? .19
+TD124 word: 1 meson 0.19
+TD30 questioning: -1 
+TD326 > ␅
+TD3356093 ␆* 1 1
+TD133 > * 1 1
+TD242322 ? ␅
+TD7221593 ␆6
+TD140 ? 6
+TD185 questioning: 0 outre
+TD44 🌡️ outre ? ␅
+TD8343577 ␄
+TD214 <EOF>
+TD584 > ␅
+TD12083186 ␆* 2 1
+TD121 > * 2 1
+TD237847 ? ␅
+TD9452022 ␆9
+TD152 ? 9
+TD202 questioning: 1 donas
+TD40 🌡️ donas ? ␅
+TD7749225 ␆.09
+TD154 🌡️ donas ? .09
+TD122 word: 1 donas 0.09
+TD29 questioning: -1 
+TD241 > ␅
+TD8126944 ␆* 2 1
+TD116 > * 2 1
+TD227487 ? ␅
+TD1369844 ␆1
+TD154 ? 1
+TD164 questioning: 1 aeons
+TD37 🌡️ aeons ? ␅
+TD5066363 ␆.4
+TD124 🌡️ aeons ? .4
+TD118 word: 1 aeons 0.4
+TD31 questioning: -1 
+TD234 > ␅
+TD4034751 ␆* 2 1
+TD93 > * 2 1
+TD224280 ? ␅
+TD4232629 ␆6
+TD208 ? 6
+TD233 questioning: 1 dongs
+TD51 🌡️ dongs ? ␅
+TD5272300 ␆.44
+TD112 🌡️ dongs ? .44
+TD93 word: 1 dongs 0.44
+TD22 questioning: -1 
+TD198 > ␅
+TD1737335 ␆* 2 1
+TD133 > * 2 1
+TD236145 ? ␅
+TD3653995 ␆2
+TD198 ? 2
+TD346 questioning: 1 exons
+TD83 🌡️ exons ? ␅
+TD5296493 ␆.12
+TD138 🌡️ exons ? .12
+TD174 word: 1 exons 0.12
+TD55 questioning: -1 
+TD534 > ␅
+TD2893449 ␆* 2 1
+TD122 > * 2 1
+TD228130 ? ␅
+TD8255394 ␆8
+TD124 ? 8
+TD196 questioning: 1 sonde
+TD38 🌡️ sonde ? ␅
+TD6157690 ␆.1
+TD142 🌡️ sonde ? .1
+TD111 word: 1 sonde 0.1
+TD24 questioning: -1 
+TD246 > ␅
+TD1518409 ␆* 2 1
+TD110 > * 2 1
+TD234217 ? ␅
+TD3315077 ␆3
+TD139 ? 3
+TD210 questioning: 1 ascon
+TD47 🌡️ ascon ? ␅
+TD9751657 ␆.05
+TD154 🌡️ ascon ? .05
+TD146 word: 1 ascon 0.05
+TD37 questioning: -1 
+TD414 > ␅
+TD5492072 ␆* 3 2
+TD101 > * 3 2
+TD222659 ? ␅
+TD9987819 ␆9
+TD133 ? 9
+TD211 questioning: 5 bootlicker
+TD39 🌡️ bootlicker ? ␅
+TD5546588 ␆.29
+TD116 🌡️ bootlicker ? .29
+TD112 word: 5 bootlicker 0.29
+TD25 questioning: -1 
+TD237 > ␅
+TD2113917 ␆* 3 2
+TD101 > * 3 2
+TD236136 ? ␅
+TD8174462 ␆10
+TD129 ? 10
+TD203 questioning: 5 barstool
+TD43 🌡️ barstool ? ␅
+TD4544072 ␆.2
+TD119 🌡️ barstool ? .2
+TD100 word: 5 barstool 0.2
+TD25 questioning: -1 
+TD196 > ␅
+TD2241917 ␆* 3 2
+TD126 > * 3 2
+TD229695 ? ␅
+TD7750463 ␆8
+TD123 ? 8
+TD199 questioning: 5 begloom
+TD44 🌡️ begloom ? ␅
+TD4951051 ␆0
+TD53 🌡️ begloom ? 0
+TD43 word: 5 begloom 0.0
+TD9 questioning: -1 
+TD64 > ␅
+TD6126521 ␆* 2 2
+TD121 > * 2 2
+TD240444 ? ␅
+TD3895034 ␆6
+TD102 ? 6
+TD164 questioning: 4 ratooned
+TD38 🌡️ ratooned ? ␅
+TD6845018 ␆0
+TD160 🌡️ ratooned ? 0
+TD122 word: 4 ratooned 0.0
+TD31 questioning: -1 
+TD238 > ␅
+TD2796978 ␆* 2 1
+TD170 > * 2 1
+TD231177 ? ␅
+TD3865107 ␆7
+TD168 ? 7
+TD206 questioning: 1 trone
+TD47 🌡️ trone ? ␅
+TD4885778 ␆.12
+TD118 🌡️ trone ? .12
+TD100 word: 1 trone 0.12
+TD25 questioning: -1 
+TD229 > ␅
+TD1329306 ␆* 2 1
+TD168 > * 2 1
+TD233016 ? ␅
+TD2462019 ␆2
+TD109 ? 2
+TD145 questioning: 1 meson
+TD33 🌡️ meson ? ␅
+TD5229108 ␄
+TD163 <EOF>
+TD405 > ␅
+TD1229177 ␆* 2 1
+TD299 > * 2 1
+TD228278 ? ␅
+TD3707270 ␆9
+TD128 ? 9
+TD196 questioning: 1 kaons
+TD52 🌡️ kaons ? ␅
+TD3657250 ␆.2
+TD121 🌡️ kaons ? .2
+TD125 word: 1 kaons 0.2
+TD45 questioning: -1 
+TD245 > ␅
+TD1011615 ␆* 2 1
+TD91 > * 2 1
+TD229204 ? ␅
+TD2501046 ␆7
+TD101 ? 7
+TD160 questioning: 1 yonis
+TD38 🌡️ yonis ? ␅
+TD4847043 ␆.16
+TD121 🌡️ yonis ? .16
+TD119 word: 1 yonis 0.16
+TD40 questioning: -1 
+TD385 > ␅
+TD1170095 ␆* 2 1
+TD128 > * 2 1
+TD231483 ? ␅
+TD5479432 ␆100
+TD55 ? 100
+TD193 ? ␅
+TD1057837 ␆10
+TD105 ? 10
+TD153 questioning: 1 beton
+TD36 🌡️ beton ? ␅
+TD5245906 ␆.11
+TD120 🌡️ beton ? .11
+TD112 word: 1 beton 0.11
+TD49 questioning: -1 
+TD246 > ␅
+TD958691 ␆*
+TD111 > *
+TD426 > ␅
+TD1350515 ␆* 2 1
+TD108 > * 2 1
+TD231209 ? ␅
+TD6784236 ␆7
+TD117 ? 7
+TD152 questioning: 1 redon
+TD36 🌡️ redon ? ␅
+TD6691740 ␆.09
+TD151 🌡️ redon ? .09
+TD134 word: 1 redon 0.09
+TD57 questioning: -1 
+TD568 > ␅
+TD3748784 ␆* 2 1
+TD108 > * 2 1
+TD226310 ? ␅
+TD2762355 ␆3
+TD94 ? 3
+TD121 questioning: 1 conte
+TD26 🌡️ conte ? ␅
+TD6945656 ␆.2
+TD112 🌡️ conte ? .2
+TD127 word: 1 conte 0.2
+TD39 questioning: -1 
+TD180 > ␅
+TD1044278 ␆* 2 1
+TD121 > * 2 1
+TD227682 ? ␅
+TD2799356 ␆7
+TD133 ? 7
+TD212 questioning: 1 agons
+TD98 🌡️ agons ? ␅
+TD6591399 ␆.1
+TD119 🌡️ agons ? .1
+TD106 word: 1 agons 0.1
+TD45 questioning: -1 
+TD278 > ␅
+TD1310640 ␆* 2 1
+TD128 > * 2 1
+TD231110 ? ␅
+TD3885407 ␆7
+TD133 ? 7
+TD196 questioning: 1 onery
+TD122 🌡️ onery ? ␅
+TD6394698 ␆.1
+TD127 🌡️ onery ? .1
+TD231 word: 1 onery 0.1
+TD83 questioning: -1 
+TD301 > ␅
+TD1693543 ␆* 2 1
+TD176 > * 2 1
+TD235186 ? ␅
+TD21558187 ␆3
+TD127 ? 3
+TD195 questioning: 1 peons
+TD47 🌡️ peons ? ␅
+TD5561574 ␆.22
+TD158 🌡️ peons ? .22
+TD134 word: 1 peons 0.22
+TD36 questioning: -1 
+TD322 > ␅
+TD1203099 ␆* 2 1
+TD193 > * 2 1
+TD234057 ? ␅
+TD7703902 ␆.05
+TD116 ? .05
+TD636 ? ␅
+TD8240042 ␆1
+TD147 ? 1
+TD232 questioning: 1 conge
+TD60 🌡️ conge ? ␅
+TD4964129 ␆.15
+TD90 🌡️ conge ? .15
+TD80 word: 1 conge 0.15
+TD19 questioning: -1 
+TD171 > ␅
+TD4022860 ␆* 2 1
+TD183 > * 2 1
+TD242942 ? ␅
+TD7768716 ␆9
+TD149 ? 9
+TD291 questioning: 1 krone
+TD73 🌡️ krone ? ␅
+TD5013667 ␆.08
+TD125 🌡️ krone ? .08
+TD107 word: 1 krone 0.08
+TD27 questioning: -1 
+TD278 > ␅
+TD1044815 ␆* 2 1
+TD122 > * 2 1
+TD231925 ? ␅
+TD7136707 ␆9
+TD122 ? 9
+TD151 questioning: 1 seton
+TD33 🌡️ seton ? ␅
+TD3638886 ␆.07
+TD174 🌡️ seton ? .07
+TD155 word: 1 seton 0.07
+TD34 questioning: -1 
+TD318 > ␅
+TD1036353 ␆* 2 1
+TD114 > * 2 1
+TD234436 ? ␅
+TD9041388 ␆9
+TD126 ? 9
+TD217 questioning: 1 zonae
+TD59 🌡️ zonae ? ␅
+TD4642563 ␆.12
+TD116 🌡️ zonae ? .12
+TD116 word: 1 zonae 0.12
+TD34 questioning: -1 
+TD324 > ␅
+TD948332 ␆* 2 1
+TD134 > * 2 1
+TD236402 ? ␅
+TD6028072 ␆6
+TD163 ? 6
+TD258 questioning: 1 sycon
+TD52 🌡️ sycon ? ␅
+TD7520851 ␆.06
+TD129 🌡️ sycon ? .06
+TD101 word: 1 sycon 0.06
+TD23 questioning: -1 
+TD214 > ␅
+TD2062757 ␆* 2 1
+TD105 > * 2 1
+TD234553 ? ␅
+TD11018577 ␆8
+TD137 ? 8
+TD195 questioning: 1 agons
+TD68 🌡️ agons ? ␅
+TD1582912 ␆.1
+TD98 🌡️ agons ? .1
+TD87 word: 1 agons 0.1
+TD33 questioning: -1 
+TD178 > ␅
+TD1815935 ␆* 2 1
+TD103 > * 2 1
+TD239122 ? ␅
+TD14366489 ␆3
+TD123 ? 3
+TD202 questioning: 1 oncet
+TD42 🌡️ oncet ? ␅
+TD2777579 ␆.08
+TD139 🌡️ oncet ? .08
+TD133 word: 1 oncet 0.08
+TD29 questioning: -1 
+TD237 > ␅
+TD2128574 ␆* 2 1
+TD129 > * 2 1
+TD236796 ? ␅
+TD5455342 ␆1
+TD127 ? 1
+TD193 questioning: 1 pones
+TD44 🌡️ pones ? ␅
+TD7853220 ␆.18
+TD138 🌡️ pones ? .18
+TD144 word: 1 pones 0.18
+TD33 questioning: -1 
+TD232 > ␅
+TD1098947 ␆* 2 1
+TD103 > * 2 1
+TD223512 ? ␅
+TD5836337 ␆7
+TD149 ? 7
+TD214 questioning: 1 azons
+TD59 🌡️ azons ? ␅
+TD5899346 ␆.08
+TD165 🌡️ azons ? .08
+TD148 word: 1 azons 0.08
+TD36 questioning: -1 
+TD280 > ␅
+TD876862 ␆* 2 1
+TD133 > * 2 1
+TD229692 ? ␅
+TD5351622 ␆9
+TD158 ? 9
+TD192 questioning: 1 heron
+TD40 🌡️ heron ? ␅
+TD4206360 ␆.28
+TD108 🌡️ heron ? .28
+TD119 word: 1 heron 0.28
+TD25 questioning: -1 
+TD279 > ␅
+TD797248 ␆* 2 1
+TD141 > * 2 1
+TD227608 ? ␅
+TD3120488 ␆8
+TD152 ? 8
+TD290 questioning: 1 conte
+TD73 🌡️ conte ? ␅
+TD4592169 ␆.21
+TD115 🌡️ conte ? .21
+TD110 word: 1 conte 0.21
+TD28 questioning: -1 
+TD236 > ␅
+TD859943 ␆*
+TD119 > *
+TD503 > ␅
+TD1752741 ␆* 2 1
+TD75 > * 2 1
+TD239662 ? ␅
+TD4692203 ␆8
+TD113 ? 8
+TD275 questioning: 1 trona
+TD59 🌡️ trona ? ␅
+TD5035415 ␆.09
+TD115 🌡️ trona ? .09
+TD92 word: 1 trona 0.09
+TD21 questioning: -1 
+TD166 > ␅
+TD2614074 ␆* 2 1
+TD133 > * 2 1
+TD228031 ? ␅
+TD5017580 ␆10
+TD168 ? 10
+TD243 questioning: 1 kaons
+TD65 🌡️ kaons ? ␅
+TD6390496 ␆.19
+TD101 🌡️ kaons ? .19
+TD96 word: 1 kaons 0.19
+TD23 questioning: -1 
+TD195 > ␅
+TD9854663 ␄
+TD189 <EOF>
+TD288 > ␅
+TD454673 ␄
+TD93 <EOF>
+TD319 > ␅
+TD394056 ␄
+TD159 <EOF>
+TD390 > ␅
+TD726148 ␄
+TD129 <EOF>
+TD342 > ␅
+TD591813 <INT>
+TD210 <INT>
+TD59 <INT>
+TD37 <INT>
+TD29 <INT>
+TD26 <INT>
+TD27 <INT>
+TD25 <INT>
+TD26 <INT>
+TD24 <INT>
+TD45 <INT>
+TD26 <INT>
+TD24 <INT>
+TD27 <INT>
+TD30 <INT>
+TD28 <INT>
+TD25 <INT>
+TD26 <INT>
+TD29 <INT>
+TD29 <INT>
+TD25 <INT>
+TD26 <INT>
+TD26 <INT>
+TD25 <INT>
+TD71 <INT>
+TD28 <INT>
+TD25 <INT>
+TD29 <INT>
+TD28 <INT>
+TD26 <INT>
+TD23 <INT>
+TD24 <INT>
+TD42 <INT>
+TD64 <INT>
+TD26 <INT>
+TD26 <INT>
+T0.05275755100592505 now: 2026-07-05T10:12:27EDT
+TD154 > ␅
+TD1923944 ␆* 2 1
+TD118 > * 2 1
+TD267854 ? ␅
+TD8158379 ␆10
+TD120 ? 10
+TD189 questioning: 1 stonk
+TD48 🌡️ stonk ? ␅
+TD5829391 ␆.34
+TD136 🌡️ stonk ? .34
+TD472 word: 1 stonk 0.34
+TD56 questioning: -1 
+TD248 > ␅
+TD880011 ␆* 2 1
+TD132 > * 2 1
+TD229836 ? ␅
+TD2841364 ␆3
+TD113 ? 3
+TD193 questioning: 1 goner
+TD41 🌡️ goner ? ␅
+TD4512899 ␆.78
+TD77 🌡️ goner ? .78
+TD60 word: 1 goner 0.78
+TD17 questioning: -1 
+TD150 > ␅
+TD917370 ␆* 2 1
+TD204 > * 2 1
+TD229507 ? ␅
+TD3973714 ␆8
+TD127 ? 8
+TD173 questioning: 1 paeon
+TD39 🌡️ paeon ? ␅
+TD8833198 ␆.08
+TD140 🌡️ paeon ? .08
+TD123 word: 1 paeon 0.08
+TD32 questioning: -1 
+TD313 > ␅
+TD992860 ␆* 2 1
+TD124 > * 2 1
+TD239018 ? ␅
+TD7579272 ␆7
+TD148 ? 7
+TD211 questioning: 1 tonus
+TD57 🌡️ tonus ? ␅
+TD5520989 ␆.11
+TD148 🌡️ tonus ? .11
+TD122 word: 1 tonus 0.11
+TD33 questioning: -1 
+TD261 > ␅
+TD1274322 ␆* 2 1
+TD115 > * 2 1
+TD233548 ? ␅
+TD5029473 ␆9
+TD147 ? 9
+TD176 questioning: 1 ponce
+TD37 🌡️ ponce ? ␅
+TD4991602 ␆.55
+TD148 🌡️ ponce ? .55
+TD113 word: 1 ponce 0.55
+TD30 questioning: -1 
+TD239 > ␅
+TD1259006 ␆* 2 1
+TD133 > * 2 1
+TD237293 ? ␅
+TD3857984 ␆7
+TD123 ? 7
+TD194 questioning: 1 agone
+TD42 🌡️ agone ? ␅
+TD4465890 ␆.14
+TD251 🌡️ agone ? .14
+TD142 word: 1 agone 0.14
+TD50 questioning: -1 
+TD378 > ␅
+TD1087499 ␆* 2 1
+TD120 > * 2 1
+TD237373 ? ␅
+TD4424512 ␆4
+TD81 ? 4
+TD124 questioning: 1 clons
+TD30 🌡️ clons ? ␅
+TD4460504 ␆.07
+TD54 🌡️ clons ? .07
+TD42 word: 1 clons 0.07
+TD9 questioning: -1 
+TD61 > ␅
+TD2654129 ␆* 2 1
+TD111 > * 2 1
+TD229302 ? ␅
+TD3436799 ␆4
+TD114 ? 4
+TD163 questioning: 1 sonly
+TD38 🌡️ sonly ? ␅
+TD4709932 ␆.06
+TD120 🌡️ sonly ? .06
+TD94 word: 1 sonly 0.06
+TD37 questioning: -1 
+TD179 > ␅
+TD834075 ␆* 2 1
+TD67 > * 2 1
+TD228741 ? ␅
+TD3890904 ␆2
+TD68 ? 2
+TD81 questioning: 1 atone
+TD15 🌡️ atone ? ␅
+TD3766797 ␆.32
+TD140 🌡️ atone ? .32
+TD130 word: 1 atone 0.32
+TD33 questioning: -1 
+TD225 > ␅
+TD1649880 ␆* 2 1
+TD139 > * 2 1
+TD227777 ? ␅
+TD2004879 ␆9
+TD117 ? 9
+TD161 questioning: 1 monde
+TD40 🌡️ monde ? ␅
+TD4335786 ␆.11
+TD116 🌡️ monde ? .11
+TD83 word: 1 monde 0.11
+TD22 questioning: -1 
+TD157 > ␅
+TD1097278 ␆* 2 1
+TD179 > * 2 1
+TD231763 ? ␅
+TD2305542 ␆8
+TD115 ? 8
+TD155 questioning: 1 ebony
+TD31 🌡️ ebony ? ␅
+TD10481877 ␆.26
+TD118 🌡️ ebony ? .26
+TD99 word: 1 ebony 0.26
+TD27 questioning: -1 
+TD238 > ␅
+TD1753466 ␆* 2 1
+TD103 > * 2 1
+TD236132 ? ␅
+TD8978785 ␆10
+TD101 ? 10
+TD251 questioning: 1 hyson
+TD54 🌡️ hyson ? ␅
+TD4702203 ␆.09
+TD127 🌡️ hyson ? .09
+TD152 word: 1 hyson 0.09
+TD61 questioning: -1 
+TD521 > ␅
+TD227703529 ␆* 2 1
+TD177 > * 2 1
+TD231841 ? ␅
+TD4112739 ␆6
+TD192 ? 6
+TD285 questioning: 1 ronde
+TD133 🌡️ ronde ? ␅
+TD4485922 ␆.11
+TD226 🌡️ ronde ? .11
+TD168 word: 1 ronde 0.11
+TD63 questioning: -1 
+TD571 > ␅
+TD1033919 ␆* 2 1
+TD114 > * 2 1
+TD248057 ? ␅
+TD2328920 ␆9
+TD59 ? 9
+TD79 questioning: 1 conga
+TD15 🌡️ conga ? ␅
+TD3877800 ␆.41
+TD95 🌡️ conga ? .41
+TD89 word: 1 conga 0.41
+TD23 questioning: -1 
+TD184 > ␅
+TD1278035 ␆* 2 1
+TD96 > * 2 1
+TD230712 ? ␅
+TD3631518 ␆8
+TD111 ? 8
+TD197 questioning: 1 pleon
+TD41 🌡️ pleon ? ␅
+TD4517275 ␆.06
+TD68 🌡️ pleon ? .06
+TD63 word: 1 pleon 0.06
+TD31 questioning: -1 
+TD166 > ␅
+TD1145879 ␆* 2 1
+TD165 > * 2 1
+TD235679 ? ␅
+TD2424640 ␆5
+TD94 ? 5
+TD154 questioning: 1 frons
+TD33 🌡️ frons ? ␅
+TD4079104 ␆.08
+TD121 🌡️ frons ? .08
+TD99 word: 1 frons 0.08
+TD27 questioning: -1 
+TD173 > ␅
+TD783763 ␆* 2 1
+TD68 > * 2 1
+TD232207 ? ␅
+TD1706670 ␆9
+TD121 ? 9
+TD160 questioning: 1 ontic
+TD42 🌡️ ontic ? ␅
+TD3546656 ␆.1
+TD102 🌡️ ontic ? .1
+TD94 word: 1 ontic 0.1
+TD25 questioning: -1 
+TD214 > ␅
+TD1463040 ␆* 2 1
+TD88 > * 2 1
+TD228739 ? ␅
+TD2619807 ␆9
+TD143 ? 9
+TD225 questioning: 1 wonts
+TD51 🌡️ wonts ? ␅
+TD3799513 ␆.33
+TD179 🌡️ wonts ? .33
+TD167 word: 1 wonts 0.33
+TD75 questioning: -1 
+TD312 > ␅
+TD812799 ␆* 2 1
+TD137 > * 2 1
+TD235228 ? ␅
+TD1499772 ␆9
+TD108 ? 9
+TD162 questioning: 1 eikon
+TD37 🌡️ eikon ? ␅
+TD3408222 ␆.14
+TD65 🌡️ eikon ? .14
+TD59 word: 1 eikon 0.14
+TD14 questioning: -1 
+TD111 > ␅
+TD823197 ␆* 2 1
+TD51 > * 2 1
+TD237197 ? ␅
+TD5554835 ␆6
+TD132 ? 6
+TD190 questioning: 1 monas
+TD45 🌡️ monas ? ␅
+TD6218508 ␆.05
+TD114 🌡️ monas ? .05
+TD104 word: 1 monas 0.05
+TD47 questioning: -1 
+TD189 > ␅
+TD2336886 ␆* 2 1
+TD136 > * 2 1
+TD233478 ? ␅
+TD1687013 ␆7
+TD107 ? 7
+TD167 questioning: 1 atony
+TD35 🌡️ atony ? ␅
+TD3538048 ␆.11
+TD109 🌡️ atony ? .11
+TD104 word: 1 atony 0.11
+TD28 questioning: -1 
+TD228 > ␅
+TD723286 ␆*
+TD140 > *
+TD543 > ␅
+TD2693544 ␆* 2 1
+TD64 > * 2 1
+TD233381 ? ␅
+TD6321673 ␆5
+TD116 ? 5
+TD232 questioning: 1 bonce
+TD43 🌡️ bonce ? ␅
+TD4520478 ␆.34
+TD142 🌡️ bonce ? .34
+TD133 word: 1 bonce 0.34
+TD37 questioning: -1 
+TD316 > ␅
+TD1205002 ␆* 2 1
+TD181 > * 2 1
+TD228112 ? ␅
+TD4655699 ␆6
+TD94 ? 6
+TD157 questioning: 1 hongs
+TD32 🌡️ hongs ? ␅
+TD6808733 ␆.13
+TD131 🌡️ hongs ? .13
+TD121 word: 1 hongs 0.13
+TD34 questioning: -1 
+TD232 > ␅
+TD1978268 ␆* 2 1
+TD147 > * 2 1
+TD237340 ? ␅
+TD1563253 ␆9
+TD105 ? 9
+TD192 questioning: 1 tigon
+TD50 🌡️ tigon ? ␅
+TD3637094 ␆.12
+TD57 🌡️ tigon ? .12
+TD51 word: 1 tigon 0.12
+TD12 questioning: -1 
+TD96 > ␅
+TD859668 ␆* 2 1
+TD108 > * 2 1
+TD230479 ? ␅
+TD4105134 ␆6
+TD103 ? 6
+TD280 questioning: 1 peony
+TD44 🌡️ peony ? ␅
+TD5735667 ␆.36
+TD145 🌡️ peony ? .36
+TD118 word: 1 peony 0.36
+TD28 questioning: -1 
+TD230 > ␅
+TD1281440 ␆* 2 1 
+TD118 > * 2 1 
+TD230719 ? ␅
+TD2910899 ␆
+TD156 ? 
+TD820 ? ␅
+TD569052 ␆5
+TD154 ? 5
+TD281 questioning: 1 scion
+TD83 🌡️ scion ? ␅
+TD5438410 ␆.59
+TD180 🌡️ scion ? .59
+TD166 word: 1 scion 0.59
+TD67 questioning: -1 
+TD717 > ␅
+TD1242256 ␆* 2 1
+TD149 > * 2 1
+TD233942 ? ␅
+TD6638741 ␆10
+TD126 ? 10
+TD210 questioning: 1 gyron
+TD44 🌡️ gyron ? ␅
+TD4338084 ␆.1
+TD124 🌡️ gyron ? .1
+TD119 word: 1 gyron 0.1
+TD34 questioning: -1 
+TD250 > ␅
+TD6044266 ␆* 2 1
+TD123 > * 2 1
+TD244128 ? ␅
+TD2856036 ␆4
+TD164 ? 4
+TD228 questioning: 1 donsy
+TD55 🌡️ donsy ? ␅
+TD5183996 ␆.06
+TD164 🌡️ donsy ? .06
+TD181 word: 1 donsy 0.06
+TD44 questioning: -1 
+TD301 > ␅
+TD2195568 ␆* 2 1
+TD132 > * 2 1
+TD232474 ? ␅
+TD3947512 ␆2
+TD152 ? 2
+TD219 questioning: 1 irone
+TD40 🌡️ irone ? ␅
+TD4733807 ␆.06
+TD62 🌡️ irone ? .06
+TD55 word: 1 irone 0.06
+TD12 questioning: -1 
+TD102 > ␅
+TD945360 ␆* 2 1
+TD150 > * 2 1
+TD232997 ? ␅
+TD3734009 ␆4
+TD171 ? 4
+TD203 questioning: 1 rayon
+TD43 🌡️ rayon ? ␅
+TD4516914 ␆.45
+TD109 🌡️ rayon ? .45
+TD113 word: 1 rayon 0.45
+TD43 questioning: -1 
+TD569 > ␅
+TD738322 ␆* 2 1
+TD108 > * 2 1
+TD245996 ? ␅
+TD2810964 ␆5
+TD121 ? 5
+TD195 questioning: 1 conus
+TD77 🌡️ conus ? ␅
+TD3210133 ␆.11
+TD118 🌡️ conus ? .11
+TD108 word: 1 conus 0.11
+TD29 questioning: -1 
+TD230 > ␅
+TD1129808 ␆* 2 1
+TD106 > * 2 1
+TD226615 ? ␅
+TD1601663 ␆8
+TD146 ? 8
+TD173 questioning: 1 capon
+TD41 🌡️ capon ? ␅
+TD3597469 ␆.36
+TD140 🌡️ capon ? .36
+TD87 word: 1 capon 0.36
+TD33 questioning: -1 
+TD182 > ␅
+TD839175 ␆* 2 1
+TD117 > * 2 1
+TD234371 ? ␅
+TD6137744 ␆3
+TD145 ? 3
+TD208 questioning: 1 longs
+TD47 🌡️ longs ? ␅
+TD7383713 ␆.96
+TD145 🌡️ longs ? .96
+TD133 word: 1 longs 0.96
+TD70 questioning: -1 
+TD245 > ␅
+TD502576 ␆*
+TD191 > *
+TD561 > ␅
+TD2004298 ␆* 2 1
+TD118 > * 2 1
+TD234371 ? ␅
+TD5712268 ␄
+TD231 <EOF>
+TD429 > ␅
+TD953542 ␆* 2 1
+TD123 > * 2 1
+TD240651 ? ␅
+TD7000027 ␆9
+TD157 ? 9
+TD241 questioning: 1 donga
+TD50 🌡️ donga ? ␅
+TD3378459 ␆.15
+TD105 🌡️ donga ? .15
+TD103 word: 1 donga 0.15
+TD27 questioning: -1 
+TD207 > ␅
+TD837781 ␆* 2 1
+TD95 > * 2 1
+TD241296 ? ␅
+TD3326619 ␆4
+TD117 ? 4
+TD209 questioning: 1 boner
+TD41 🌡️ boner ? ␅
+TD3879836 ␆.72
+TD140 🌡️ boner ? .72
+TD121 word: 1 boner 0.72
+TD34 questioning: -1 
+TD267 > ␅
+TD1861428 ␆* 2 1
+TD89 > * 2 1
+TD230836 ? ␅
+TD4572478 ␆8
+TD108 ? 8
+TD157 questioning: 1 pions
+TD34 🌡️ pions ? ␅
+TD3866898 ␆.198
+TD126 🌡️ pions ? .198
+TD108 word: 1 pions 0.198
+TD29 questioning: -1 
+TD225 > ␅
+TD2379576 ␆* 2 1
+TD115 > * 2 1
+TD235587 ? ␅
+TD3477882 ␆3
+TD108 ? 3
+TD164 questioning: 1 conks
+TD37 🌡️ conks ? ␅
+TD3644547 ␆.31
+TD117 🌡️ conks ? .31
+TD102 word: 1 conks 0.31
+TD27 questioning: -1 
+TD194 > ␅
+TD1630970 ␆* 2 1
+TD121 > * 2 1
+TD237313 ? ␅
+TD2484188 ␆8
+TD144 ? 8
+TD209 questioning: 1 udons
+TD44 🌡️ udons ? ␅
+TD3644854 ␆.16
+TD53 🌡️ udons ? .16
+TD42 word: 1 udons 0.16
+TD9 questioning: -1 
+TD59 > ␅
+TD2059271 ␆* 2 1
+TD95 > * 2 1
+TD237082 ? ␅
+TD5625069 ␆10
+TD78 ? 10
+TD165 questioning: 1 pelon
+TD29 🌡️ pelon ? ␅
+TD5203748 ␆.07
+TD115 🌡️ pelon ? .07
+TD142 word: 1 pelon 0.07
+TD53 questioning: -1 
+TD443 > ␅
+TD965149 ␆* 2 1
+TD56 > * 2 1
+TD235939 ? ␅
+TD1824096 ␆10
+TD139 ? 10
+TD227 questioning: 1 ikons
+TD48 🌡️ ikons ? ␅
+TD4375045 ␆.1
+TD93 🌡️ ikons ? .1
+TD86 word: 1 ikons 0.1
+TD24 questioning: -1 
+TD161 > ␅
+TD1306146 ␆* 2 1
+TD154 > * 2 1
+TD238167 ? ␅
+TD1987763 ␆9
+TD105 ? 9
+TD147 questioning: 1 axons
+TD31 🌡️ axons ? ␅
+TD3540863 ␆.24
+TD108 🌡️ axons ? .24
+TD101 word: 1 axons 0.24
+TD29 questioning: -1 
+TD270 > ␅
+TD1019661 ␆* 2 1
+TD176 > * 2 1
+TD231144 ? ␅
+TD2229037 ␆9
+TD119 ? 9
+TD194 questioning: 1 phons
+TD41 🌡️ phons ? ␅
+TD3684383 ␆.08
+TD61 🌡️ phons ? .08
+TD53 word: 1 phons 0.08
+TD14 questioning: -1 
+TD80 > ␅
+TD1047983 ␆* 2 1
+TD78 > * 2 1
+TD243900 ? ␅
+TD6576875 ␆9
+TD164 ? 9
+TD259 questioning: 1 monte
+TD54 🌡️ monte ? ␅
+TD4022795 ␆.16
+TD165 🌡️ monte ? .16
+TD169 word: 1 monte 0.16
+TD33 questioning: -1 
+TD250 > ␅
+TD1350210 ␆* 2 1
+TD122 > * 2 1
+TD238990 ? ␅
+TD11098871 ␄
+TD154 <EOF>
+TD301 > ␅
+TD3415240 ␆* 2 1 -bot 10
+TD93 > * 2 1 -bot 10
+TD231844 ? ␅
+TD7118770 ␆5
+TD125 ? 5
+TD161 questioning: 1 honan
+TD37 🌡️ honan ? ␅
+TD4390797 ␆.06
+TD122 🌡️ honan ? .06
+TD110 word: 1 honan 0.06
+TD28 questioning: -1 
+TD224 > ␅
+TD3576292 ␆* 2 1 -bot 10
+TD100 > * 2 1 -bot 10
+TD235678 ? ␅
+TD2533834 ␆6
+TD74 ? 6
+TD102 questioning: 1 gonzo
+TD21 🌡️ gonzo ? ␅
+TD3646211 ␆.22
+TD107 🌡️ gonzo ? .22
+TD100 word: 1 gonzo 0.22
+TD25 questioning: -1 
+TD158 > ␅
+TD3408697 ␆* 2 1 -bot 10
+TD156 > * 2 1 -bot 10
+TD230064 ? ␅
+TD2853129 ␆9
+TD165 ? 9
+TD206 questioning: 1 jupon
+TD49 🌡️ jupon ? ␅
+TD4266313 ␆.11
+TD86 🌡️ jupon ? .11
+TD63 word: 1 jupon 0.11
+TD21 questioning: -1 
+TD198 > ␅
+TD1929698 ␆* 2 1 -bot 10
+TD212 > * 2 1 -bot 10
+TD245447 ? ␅
+TD2957942 ␆3
+TD154 ? 3
+TD192 questioning: 1 inion
+TD37 🌡️ inion ? ␅
+TD4396228 ␆.13
+TD153 🌡️ inion ? .13
+TD134 word: 1 inion 0.13
+TD38 questioning: -1 
+TD363 > ␅
+TD1726332 ␆* 2 1 -bot 10
+TD118 > * 2 1 -bot 10
+TD247583 ? ␅
+TD2255153 ␆2
+TD113 ? 2
+TD144 questioning: 1 gonof
+TD28 🌡️ gonof ? ␅
+TD3634084 ␆.1
+TD107 🌡️ gonof ? .1
+TD97 word: 1 gonof 0.1
+TD42 questioning: -1 
+TD176 > ␅
+TD2935446 ␆* 2 1 -bot 10
+TD137 > * 2 1 -bot 10
+TD238069 ? ␅
+TD3036820 ␆8
+TD110 ? 8
+TD163 questioning: 1 tondo
+TD38 🌡️ tondo ? ␅
+TD4049761 ␆.1
+TD143 🌡️ tondo ? .1
+TD179 word: 1 tondo 0.1
+TD58 questioning: -1 
+TD462 > ␅
+TD2143668 ␆* 2 1 -bot 10
+TD167 > * 2 1 -bot 10
+TD240442 ? ␅
+TD1879831 ␆6
+TD95 ? 6
+TD125 questioning: 1 nonyl
+TD37 🌡️ nonyl ? ␅
+TD5628487 ␆.1
+TD114 🌡️ nonyl ? .1
+TD103 word: 1 nonyl 0.1
+TD28 questioning: -1 
+TD251 > ␅
+TD1784103 ␆* 2 1 -bot 10
+TD152 > * 2 1 -bot 10
+TD236434 ? ␅
+TD4756978 ␆4
+TD154 ? 4
+TD272 questioning: 1 ninon
+TD66 🌡️ ninon ? ␅
+TD4567276 ␆.09
+TD142 🌡️ ninon ? .09
+TD127 word: 1 ninon 0.09
+TD36 questioning: -1 
+TD413 > ␅
+TD2775377 ␆* 2 1 -bot 10
+TD129 > * 2 1 -bot 10
+TD233050 ? ␅
+TD4853290 ␆7
+TD100 ? 7
+TD191 questioning: 1 xenon
+TD32 🌡️ xenon ? ␅
+TD3631548 ␆.4
+TD81 🌡️ xenon ? .4
+TD79 word: 1 xenon 0.4
+TD31 questioning: -1 
+TD158 > ␅
+TD3570599 ␆* 2 1 -bot 10
+TD97 > * 2 1 -bot 10
+TD227455 ? ␅
+TD3515999 ␆5
+TD122 ? 5
+TD199 questioning: 1 ponzu
+TD41 🌡️ ponzu ? ␅
+TD3771305 ␆.12
+TD132 🌡️ ponzu ? .12
+TD97 word: 1 ponzu 0.12
+TD40 questioning: -1 
+TD181 > ␅
+TD2707640 ␆* 2 1 -bot 10
+TD168 > * 2 1 -bot 10
+TD231152 ? ␅
+TD3033474 ␆9
+TD200 ? 9
+TD199 questioning: 1 goony
+TD43 🌡️ goony ? ␅
+TD4285395 ␆.27
+TD134 🌡️ goony ? .27
+TD116 word: 1 goony 0.27
+TD55 questioning: -1 
+TD220 > ␅
+TD2421381 ␆* 2 1 -bot 10
+TD109 > * 2 1 -bot 10
+TD230948 ? ␅
+TD4991985 ␆5
+TD136 ? 5
+TD251 questioning: 1 mondo
+TD50 🌡️ mondo ? ␅
+TD4092838 ␆.27
+TD168 🌡️ mondo ? .27
+TD120 word: 1 mondo 0.27
+TD33 questioning: -1 
+TD248 > ␅
+TD1740605 ␆* 2 1 -bot 10
+TD47 > * 2 1 -bot 10
+TD231697 ? ␅
+TD4418816 ␆5
+TD151 ? 5
+TD269 questioning: 1 wonky
+TD88 🌡️ wonky ? ␅
+TD4027115 ␆.68
+TD133 🌡️ wonky ? .68
+TD135 word: 1 wonky 0.68
+TD55 questioning: -1 
+TD447 > ␅
+TD1675060 ␆* 2 1 -bot 10
+TD145 > * 2 1 -bot 10
+TD267345 ? ␅
+TD4357254 ␆2
+TD100 ? 2
+TD167 questioning: 1 jomon
+TD34 🌡️ jomon ? ␅
+TD5547609 ␆.1
+TD119 🌡️ jomon ? .1
+TD132 word: 1 jomon 0.1
+TD44 questioning: -1 
+TD369 > ␅
+TD1576087 ␆* 2 1 -bot 10
+TD153 > * 2 1 -bot 10
+TD251984 ? ␅
+TD5584219 ␆10
+TD148 ? 10
+TD188 questioning: 1 niton
+TD40 🌡️ niton ? ␅
+TD4208103 ␆.06
+TD117 🌡️ niton ? .06
+TD114 word: 1 niton 0.06
+TD37 questioning: -1 
+TD240 > ␅
+TD3590669 ␆* 2 1 -bot 10
+TD151 > * 2 1 -bot 10
+TD225451 ? ␅
+TD5371176 ␆8
+TD99 ? 8
+TD166 questioning: 1 conin
+TD34 🌡️ conin ? ␅
+TD4163971 ␆.04
+TD137 🌡️ conin ? .04
+TD121 word: 1 conin 0.04
+TD32 questioning: -1 
+TD307 > ␅
+TD3996797 ␆* 2 1 -bot 10
+TD117 > * 2 1 -bot 10
+TD231667 ? ␅
+TD13376592 ␆9
+TD140 ? 9
+TD202 questioning: 1 kroon
+TD47 🌡️ kroon ? ␅
+TD8319386 ␆.09
+TD94 🌡️ kroon ? .09
+TD85 word: 1 kroon 0.09
+TD25 questioning: -1 
+TD191 > ␅
+TD1897308 ␆* 2 1 -bot 10
+TD145 > * 2 1 -bot 10
+TD231840 ? ␅
+TD2854613 ␆9
+TD112 ? 9
+TD171 questioning: 1 aboon
+TD38 🌡️ aboon ? ␅
+TD5242845 ␆.11
+TD51 🌡️ aboon ? .11
+TD44 word: 1 aboon 0.11
+TD9 questioning: -1 
+TD62 > ␅
+TD2873365 ␆* 2 1 -bot 10
+TD127 > * 2 1 -bot 10
+TD234700 ? ␅
+TD3986303 ␆10
+TD123 ? 10
+TD168 questioning: 1 orlon
+TD38 🌡️ orlon ? ␅
+TD4686954 ␆.08
+TD56 🌡️ orlon ? .08
+TD47 word: 1 orlon 0.08
+TD10 questioning: -1 
+TD73 > ␅
+TD1874405 ␆* 2 1 -bot 10
+TD124 > * 2 1 -bot 10
+TD237056 ? ␅
+TD12720699 ␆9
+TD109 ? 9
+TD168 questioning: 1 codon
+TD41 🌡️ codon ? ␅
+TD3788420 ␆.13
+TD53 🌡️ codon ? .13
+TD46 word: 1 codon 0.13
+TD12 questioning: -1 
+TD64 > ␅
+TD2173397 ␆* 2 1 -bot 10
+TD53 > * 2 1 -bot 10
+TD231749 ? ␅
+TD3126664 ␆8
+TD165 ? 8
+TD208 questioning: 1 fanon
+TD47 🌡️ fanon ? ␅
+TD3736104 ␆ .12
+TD110 🌡️ fanon ?  .12
+TD126 word: 1 fanon 0.12
+TD28 questioning: -1 
+TD219 > ␅
+TD2147274 ␆* 2 1 -bot 10
+TD139 > * 2 1 -bot 10
+TD232366 ? ␅
+TD2300372 ␆8
+TD125 ? 8
+TD170 questioning: 1 ionic
+TD52 🌡️ ionic ? ␅
+TD4918603 ␆.87
+TD167 🌡️ ionic ? .87
+TD128 word: 1 ionic 0.87
+TD35 questioning: -1 
+TD255 > ␅
+TD1796279 ␆* 2 1 -bot 10
+TD130 > * 2 1 -bot 10
+TD224768 ? ␅
+TD3093600 ␆6
+TD69 ? 6
+TD146 questioning: 1 ronin
+TD35 🌡️ ronin ? ␅
+TD5528662 ␆.12
+TD140 🌡️ ronin ? .12
+TD172 word: 1 ronin 0.12
+TD74 questioning: -1 
+TD1199 > ␅
+TD2102655 ␆* 2 1 -bot 10
+TD152 > * 2 1 -bot 10
+TD252189 ? ␅
+TD9692738 ␆6
+TD122 ? 6
+TD174 questioning: 1 bongo
+TD39 🌡️ bongo ? ␅
+TD3882428 ␆.76
+TD133 🌡️ bongo ? .76
+TD109 word: 1 bongo 0.76
+TD30 questioning: -1 
+TD225 > ␅
+TD2071847 ␆* 2 1 -bot 10
+TD170 > * 2 1 -bot 10
+TD232843 ? ␅
+TD3536675 ␆6
+TD113 ? 6
+TD170 questioning: 1 toyon
+TD38 🌡️ toyon ? ␅
+TD3796048 ␆.07
+TD158 🌡️ toyon ? .07
+TD168 word: 1 toyon 0.07
+TD39 questioning: -1 
+TD335 > ␅
+TD2151574 ␆* 2 1 -bot 10
+TD123 > * 2 1 -bot 10
+TD240255 ? ␅
+TD4747690 ␆8
+TD155 ? 8
+TD228 questioning: 1 fondu
+TD77 🌡️ fondu ? ␅
+TD3718665 ␆.28
+TD131 🌡️ fondu ? .28
+TD130 word: 1 fondu 0.28
+TD47 questioning: -1 
+TD405 > ␅
+TD6813108 ␆/store
+TD107 > /store
+TD196 🔗 site ? ␅
+TD5713913 ␆https://wordgrid.clevergoat.com/
+TD129 🔗 site ? https://wordgrid.clevergoat.com/
+TD86 site: https://wordgrid.clevergoat.com/
+TD119 📆 2026-07-05 ? ␅
+TD3801649 ␆
+TD118 📆 2026-07-05 ? 
+TD174 🧩 id (default: 2026-07-05) ? ␅
+TD12710159 ␆#765
+TD149 🧩 id (default: 2026-07-05) ? #765
+TD115 puzzle_id: #765
