@@ -1,0 +1,197 @@
+T19935.141829686996 now: 2026-07-06T07:43:19EDT
+TD73 site: https://www.merriam-webster.com/games/quordle/#/
+TD14 wordlist: nwl2023.txt
+TD5 num_words: 4
+TD79  ...␅
+TD3308788 ␆
+TD49  ...
+TD521639 > ␅
+TD5822477 ␆*
+TD82 > *
+TD57490 ? ␅
+TD977913 ␆1
+TD128 ? 1
+TD201 questioning: raise
+TD185 Classic #1 _____? ␅
+TD2664281 ␆MMnnn
+TD91 Classic #1 _____? MMnnn
+TD405 attempt: 0 RAISE m m n n n
+TD116 Classic #2 _____? ␅
+TD1275526 ␆nnYMY
+TD152 Classic #2 _____? nnYMY
+TD331 attempt: 1 RAISE n n Y m Y
+TD149 Classic #3 _____? ␅
+TD1272115 ␆nMMnn
+TD93 Classic #3 _____? nMMnn
+TD223 attempt: 2 RAISE n m m n n
+TD124 Classic #4 _____? ␅
+TD1200716 ␆MMnMn
+TD93 Classic #4 _____? MMnMn
+TD248 attempt: 3 RAISE m m n m n
+TD576489 > ␅
+TD673997 ␆*
+TD61 > *
+TD2950 ? ␅
+TD404577 ␆1
+TD100 ? 1
+TD197 questioning: amort
+TD230 Classic #1 _____ ~AR -EIS? ␅
+TD3142619 ␆MnnMM
+TD62 Classic #1 _____ ~AR -EIS? MnnMM
+TD162 attempt: 0 AMORT m n n m m
+TD92 Classic #2 __I_E ~S -AR? ␅
+TD1025911 ␆nnnnn
+TD103 Classic #2 __I_E ~S -AR? nnnnn
+TD296 attempt: 1 AMORT n n n n n
+TD200 Classic #3 _____ ~AI -ERS? ␅
+TD1279690 ␆MnMnn
+TD93 Classic #3 _____ ~AI -ERS? MnMnn
+TD302 attempt: 2 AMORT m n m n n
+TD158 Classic #4 _____ ~ARS -EI? ␅
+TD1482460 ␆MnnYn
+TD90 Classic #4 _____ ~ARS -EI? MnnYn
+TD288 attempt: 3 AMORT m n n Y n
+TD535926 > ␅
+TD1201170 ␆*
+TD99 > *
+TD1182 ? ␅
+TD236247 ␆1
+TD131 ? 1
+TD205 questioning: chars
+TD195 Classic #1 _____ ~ART -EIMOS? ␅
+TD2844990 ␆nnYMn
+TD105 Classic #1 _____ ~ART -EIMOS? nnYMn
+TD303 attempt: 0 CHARS n n Y m n
+TD197 Classic #2 __I_E ~S -AMORT? ␅
+TD1098608 ␆MnnnM
+TD115 Classic #2 __I_E ~S -AMORT? MnnnM
+TD279 attempt: 1 CHARS m n n n m
+TD150 Classic #3 _____ ~AIO -EMRST? ␅
+TD1846855 ␆nnYnn
+TD113 Classic #3 _____ ~AIO -EMRST? nnYnn
+TD318 attempt: 2 CHARS n n Y n n
+TD183 Classic #4 ___R_ ~AS -EIMOT? ␅
+TD1578807 ␆nYYYM
+TD103 Classic #4 ___R_ ~AS -EIMOT? nYYYM
+TD288 attempt: 3 CHARS n Y Y Y m
+TD480067 > ␅
+TD850042 ␆*
+TD159 > *
+TD711 ? ␅
+TD232624 ␆1
+TD75 ? 1
+TD140 questioning: slice
+TD133 Classic #1 __A__ ~RT -CEHIMOS? ␅
+TD3218929 ␆nMnnn
+TD96 Classic #1 __A__ ~RT -CEHIMOS? nMnnn
+TD284 attempt: 0 SLICE n m n n n
+TD131 Classic #2 __I_E ~CS -AHMORT? ␅
+TD1677098 ␆YnYYY
+TD90 Classic #2 __I_E ~CS -AHMORT? YnYYY
+TD214 attempt: 1 SLICE Y n Y Y Y
+TD123 Classic #3 __A__ ~IO -CEHMRST? ␅
+TD1232173 ␆nnMnn
+TD106 Classic #3 __A__ ~IO -CEHMRST? nnMnn
+TD213 attempt: 2 SLICE n n m n n
+TD115 Classic #4 _HAR_ ~S -CEIMOT? ␅
+TD1148661 ␆Ynnnn
+TD60 Classic #4 _HAR_ ~S -CEIMOT? Ynnnn
+TD128 attempt: 3 SLICE Y n n n n
+TD465973 > ␅
+TD662925 ␆
+TD92 > 
+TD189 > ␅
+TD683524 ␆*
+TD114 > *
+TD450 questioning: trawl
+TD161 Classic #1 __A__ ~LRT -CEHIMOS? ␅
+TD245880 ␆1
+TD119 Classic #1 __A__ ~LRT -CEHIMOS? 1
+TD1449 Classic #1 __A__ ~LRT -CEHIMOS? ␅
+TD6618138 ␆YYYYY
+TD107 Classic #1 __A__ ~LRT -CEHIMOS? YYYYY
+TD261 attempt: 0 TRAWL Y Y Y Y Y
+TD138 Classic #2 S_ICE -AHLMORT? ␅
+TD1432225 ␆nnnnn
+TD103 Classic #2 S_ICE -AHLMORT? nnnnn
+TD263 attempt: 1 TRAWL n n n n n
+TD172 Classic #3 __A__ ~IO -CEHLMRST? ␅
+TD1179754 ␆nnYnn
+TD100 Classic #3 __A__ ~IO -CEHLMRST? nnYnn
+TD290 attempt: 2 TRAWL n n Y n n
+TD168 Classic #4 SHAR_ -CEILMOT? ␅
+TD1350939 ␆nMYnn
+TD91 Classic #4 SHAR_ -CEILMOT? nMYnn
+TD298 attempt: 3 TRAWL n m Y n n
+TD361808 > ␅
+TD1191077 ␆*
+TD100 > *
+TD443 questioning: spice
+TD172 Classic #2 S_ICE -AHLMORTW? ␅
+TD2714285 ␆YYYYY
+TD104 Classic #2 S_ICE -AHLMORTW? YYYYY
+TD264 attempt: 1 SPICE Y Y Y Y Y
+TD168 Classic #3 __A__ ~IO -CEHLMRSTW? ␅
+TD1109933 ␆nMMnn
+TD113 Classic #3 __A__ ~IO -CEHLMRSTW? nMMnn
+TD315 attempt: 2 SPICE n m m n n
+TD186 Classic #4 SHAR_ -CEILMOTW? ␅
+TD2383892 ␆Ynnnn
+TD131 Classic #4 SHAR_ -CEILMOTW? Ynnnn
+TD377 attempt: 3 SPICE Y n n n n
+TD263975 > ␅
+TD831720 ␆*
+TD91 > *
+TD558 ? ␅
+TD2359141 ␆2
+TD114 ? 2
+TD171 questioning: piano
+TD173 Classic #3 __A__ ~IOP -CEHLMRSTW? ␅
+TD3437678 ␆YYYYY
+TD88 Classic #3 __A__ ~IOP -CEHLMRSTW? YYYYY
+TD213 attempt: 2 PIANO Y Y Y Y Y
+TD127 Classic #4 SHAR_ -CEILMOPTW? ␅
+TD2437656 ␆nnYnn
+TD102 Classic #4 SHAR_ -CEILMOPTW? nnYnn
+TD299 attempt: 3 PIANO n n Y n n
+TD115182 > ␅
+TD473806 ␆*
+TD98 > *
+TD572 ? ␅
+TD1889053 ␆1
+TD81 ? 1
+TD159 questioning: shard
+TD152 Classic #4 SHAR_ -CEILMNOPTW? ␅
+TD3375655 ␆YYYYn
+TD89 Classic #4 SHAR_ -CEILMNOPTW? YYYYn
+TD230 attempt: 3 SHARD Y Y Y Y n
+TD119478 > ␅
+TD283232 ␆*
+TD119 > *
+TD589 questioning: shark
+TD163 Classic #4 SHAR_ -CDEILMNOPTW? ␅
+TD2893457 ␆YYYYY
+TD139 Classic #4 SHAR_ -CDEILMNOPTW? YYYYY
+TD292 attempt: 3 SHARK Y Y Y Y Y
+TD124 📋> ␅
+TD23276990 ␆🙂 Daily Quordle 1624
+TD102 📋> 🙂 Daily Quordle 1624
+TD24 📋> ␅
+TD68 ␆5️⃣6️⃣
+TD29 📋> 5️⃣6️⃣
+TD15 📋> ␅
+TD31 ␆7️⃣9️⃣
+TD13 📋> 7️⃣9️⃣
+TD13 📋> ␅
+TD36 ␆m-w.com/games/quordle/
+TD14 📋> m-w.com/games/quordle/
+TD14 📋> ␅
+TD201091 ␆
+TD95 📋> 
+TD21 📋> ␅
+TD103070 ␄
+TD309 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1624\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD3227 result: "\ud83d\ude42 Daily Quordle 1624\n5\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD107 📆 2026-07-06 ? ␅
+TD136485 ␆
+TD88 📆 2026-07-06 ? 
