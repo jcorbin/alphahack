@@ -1,0 +1,98 @@
+T19472.488670341 now: 2026-07-06T07:35:36EDT
+TD262 site: alfagok.diginaut.net
+TD416735 loaded 399522 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1330 words excluded) asof 08dfde49e437b555f22cfe81b27681e9b55cc715
+TD75  ...␅
+TD4547063 ␆
+TD61  ...
+TD141 [0 : 199556 : 399522] lij? ␅
+TD2560194 ␆b
+TD93 [0 : 199556 : 399522] lij? b
+TD444 progress: -1 199556 lij
+TD149 [0 : 99699 : 199556] ex? ␅
+TD1736415 ␆b
+TD92 [0 : 99699 : 199556] ex? b
+TD135 progress: -1 99699 ex
+TD108 [0 : 49816 : 99699] boks? ␅
+TD1618709 ␆b
+TD102 [0 : 49816 : 99699] boks? b
+TD136 progress: -1 49816 boks
+TD139 [0 : 24887 : 49816] bad? ␅
+TD1534655 ␆a
+TD82 [0 : 24887 : 49816] bad? a
+TD107 progress: 1 24887 bad
+TD105 [24888 : 37333 : 49816] bescherm? ␅
+TD1351175 ␆a
+TD115 [24888 : 37333 : 49816] bescherm? a
+TD136 progress: 1 37333 bescherm
+TD143 [37334 : 43037 : 49816] bij? ␅
+TD1680108 ␆a
+TD82 [37334 : 43037 : 49816] bij? a
+TD111 progress: 1 43037 bij
+TD322 [43038 : 46425 : 49816] blief? ␅
+TD2725081 ␆b
+TD98 [43038 : 46425 : 49816] blief? b
+TD109 progress: -1 46425 blief
+TD115 [43038 : 44554 : 46425] binnen? ␅
+TD3116637 ␆b
+TD94 [43038 : 44554 : 46425] binnen? b
+TD103 progress: -1 44554 binnen
+TD195 [43038 : 43795 : 44554] bijplaats? ␅
+TD1543651 ␆a
+TD85 [43038 : 43795 : 44554] bijplaats? a
+TD99 progress: 1 43795 bijplaats
+TD328 [43796 : 44176 : 44554] bijvul? ␅
+TD3551999 ␆a
+TD122 [43796 : 44176 : 44554] bijvul? a
+TD110 progress: 1 44176 bijvul
+TD103 [44177 : 44337 : 44554] biljart? ␅
+TD1731256 ␆b
+TD61 [44177 : 44337 : 44554] biljart? b
+TD51 progress: -1 44337 biljart
+TD50 [44177 : 44254 : 44337] bijzon? ␅
+TD1643168 ␆a
+TD115 [44177 : 44254 : 44337] bijzon? a
+TD103 progress: 1 44254 bijzon
+TD106 [44255 : 44266 : 44337] bik? ␅
+TD1709500 ␆b
+TD98 [44255 : 44266 : 44337] bik? b
+TD95 progress: -1 44266 bik
+TD245 [44255 : 44260 : 44266] bijzonderheid? ␅
+TD1738366 ␆b
+TD100 [44255 : 44260 : 44266] bijzonderheid? b
+TD110 progress: -1 44260 bijzonderheid
+TD284 [44255 : 44257 : 44260] bijzonderders? ␅
+TD1649038 ␆b
+TD120 [44255 : 44257 : 44260] bijzonderders? b
+TD146 progress: -1 44257 bijzonderders
+TD378 [44255 : 44256 : 44257] bijzonderder? ␅
+TD1517417 ␆b
+TD104 [44255 : 44256 : 44257] bijzonderder? b
+TD131 progress: -1 44256 bijzonderder
+TD278 [44255 : 44255 : 44256] bijzonder? ␅
+TD2230823 ␆it
+TD95 [44255 : 44255 : 44256] bijzonder? it
+TD115 progress: 0 44255 bijzonder
+TD37 [44255 : 44255 : 44256] <Done>.
+TD113 📋> ␅
+TD3167675 ␆🧩 Puzzel #611
+TD100 📋> 🧩 Puzzel #611
+TD26 📋> ␅
+TD64 ␆🤔 17 gokken
+TD23 📋> 🤔 17 gokken
+TD20 📋> ␅
+TD40 ␆⏱️ 31s
+TD22 📋> ⏱️ 31s
+TD20 📋> ␅
+TD178011 ␆🔗 alfagok.diginaut.net
+TD118 📋> 🔗 alfagok.diginaut.net
+TD53 📋> ␅
+TD172382 ␄
+TD184 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #611\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1034 result: "\ud83e\udde9 Puzzel #611\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"
+TD41 result puzzle: 611
+TD23 result guesses: 17
+TD17 result time: 31s
+TD16 result link: alfagok.diginaut.net
+TD104 📆 2026-07-06 ? ␅
+TD146449 ␆
+TD141 📆 2026-07-06 ? 
