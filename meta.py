@@ -491,6 +491,15 @@ def make_space(_tokens: PromptUI.Tokens):
 
 solvers.add('space', make_space)
 
+from wordgrid import WordGrid
+
+def make_wordgrid(_tokens: PromptUI.Tokens):
+    wg = WordGrid()
+    wg.wordlist_file = 'nwl2023.txt'
+    return wg
+
+solvers.add('wordgrid', make_wordgrid)
+
 # spaceweek = "./spaceword.py --wordlist nwl2023.txt spaceword_weekly.log"
 
 # TODO is there any utility to using StoredLog? having a proper reified

@@ -908,7 +908,6 @@ class Result:
 def test_parse_result(spec: MarkedSpec):
     res = Result.parse(spec.input)
     for key, value in spec.props:
-        pass
         if key == 'kind': assert res.kind == value
         elif key == 'mode': assert res.mode == value
         elif key == 'id': assert str(res.id) == value

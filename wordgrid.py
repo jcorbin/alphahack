@@ -1,15 +1,51 @@
 #!/usr/bin/env python
 
 import argparse
-from collections import Counter, defaultdict
+from math import nan
 import re
+from collections import Counter, defaultdict
 from collections.abc import Generator, Sequence
-from typing import Callable, cast, final, override, Protocol
+from dataclasses import dataclass
+from typing import Callable, Literal, cast, final, override, Protocol
 
 from sortem import DiagScores, Randomized
 from store import StoredLog, matcher
+from strkit import MarkedSpec, spliterate
 from ui import PromptUI
 from wordlist import WordList
+
+Tier = Literal[
+    '❗', # Invalid
+    '❓', # Unknown
+    '🟩', '🟧', '🟨', '🟦', '🟪', '🌌', '🦄',
+]
+
+tiers = (
+    '🟩', # Common (>5%)
+    '🟧', # Uncommon (3-5%)
+    '🟨', # Rare (1.5-3%)
+    '🟦', # Epic (0.5-1.5%)
+    '🟪', # Legendary (0.1-0.5%)
+    '🌌', # Galaxy (<0.1%)
+    '🦄', # Unicorn (only player to guess it)
+)
+
+tier_rarity = (
+    5.0,
+    3.0,
+    1.5,
+    0.5,
+    0.1,
+    0.01,
+)
+
+def label_rarity(score: float) -> Tier:
+    for i, lim in enumerate(tier_rarity):
+        if score >= lim:
+            return tiers[i]
+    if score == 0:
+        return '🦄'
+    return '❗'
 
 class WordRule(Protocol):
     def match(self, word: str) -> bool:
@@ -54,11 +90,29 @@ class NotPatternRule:
 
 TrueRule = FuncRule(lambda _: True, 'Any')
 
+def n_grams(n: int, s: str):
+    for i in range(len(s) - n + 1):
+        yield s[i:i+n]
+
+def ContainsRule(*lets: str):
+    lets = tuple(c.upper() for c in lets)
+    def match(word: str) -> bool:
+        return all(c in word.upper() for c in lets)
+    return FuncRule(match, f'Contains {lets}')
+
 def RepeatedLetter(n: int):
     def match(word: str) -> bool:
-        let_counts = Counter(word)
-        return n in let_counts.values()
+        return any(
+            all(ng[0] == c for c in ng[1:])
+            for ng in n_grams(2, word))
     return FuncRule(match, f'{n}-repeated letter')
+
+def MultiLetter(let: str):
+    let = let.upper()
+    def match(word: str) -> bool:
+        let_counts = Counter(word.upper())
+        return let_counts[let] > 1
+    return FuncRule(match, f'Multiple {let}\'s')
 
 @final
 class WordGrid(StoredLog):
@@ -77,6 +131,7 @@ class WordGrid(StoredLog):
 
     log_file: str = 'wordgrid.log'
     default_site: str = 'https://wordgrid.clevergoat.com/'
+    site_name = 'wordgrid'
     default_wordlist: str = '/usr/share/dict/words'
 
     def __init__(self):
@@ -85,6 +140,7 @@ class WordGrid(StoredLog):
         self.wordlist_file: str = ''
         self.given_wordlist: bool = False
         self._wordlist: WordList|None = None
+        self._result: Result|None = None
 
         self.size = 3
         self.row_rules: list[WordRule] = [TrueRule for _ in range(self.size)]
@@ -100,19 +156,30 @@ class WordGrid(StoredLog):
             'col': self.do_rule_col,
             'row': self.do_rule_row,
             'guess': self.do_guess,
+            'set': self.do_set,
             '*': 'guess',
+            '=': 'set',
         })
 
+    def row_labels(self, row: int) -> Generator[Tier]:
+        for word_i in range(row * self.size, (row+1) * self.size):
+            status: Tier =  '❓'
+            word = self.words[word_i]
+            if word:
+                score = self.scores[word_i][word]
+                status = label_rarity(score)
+            yield status
+
     def play_prompt_mess(self, ui: PromptUI):
-        ui.write('   ')
-        ui.fin(' ' .join(
-            '🤔' if rule is TrueRule else '💡' for rule in self.col_rules))
+        def out(*parts: str):
+            ui.print(' '.join(parts))
+        out( '  ', *(
+            '🤔' if rule is TrueRule else '💡'
+            for rule in self.col_rules))
         for row, rule in enumerate(self.row_rules):
-            ui.write('🤔' if rule is TrueRule else '💡')
-            for word in self.words[row * self.size : (row+1) * self.size]:
-                ui.write(' ')
-                ui.write('✅' if word else '❓') # '🦄' '🌌' 
-            ui.fin()
+            out(
+                '🤔' if rule is TrueRule else '💡',
+                *self.row_labels(row))
         return '> '
 
     @matcher(r'''(?x)
@@ -204,11 +271,25 @@ class WordGrid(StoredLog):
         if m is not None:
             return NotPatternRule(re.compile(m[1], re.IGNORECASE))
 
+        ### Word must contain all listed letters in any order
+        # "&ABC" => ContainsRule('A', 'B', 'C)
+        #     Contains X, Y, Z
+        #     Contains g, t
+        m = re.match(r'&(.+)', arg)
+        if m is not None:
+            return ContainsRule(*m[1])
+
         # "xN" => RepeatedLetter(N)
         #     Double letter
         m = re.match(r'x(\d+)', arg)
         if m is not None:
             return RepeatedLetter(int(m[1]))
+
+        # "+A" => MultiLetter('A')
+        #     Multiple T’s
+        m = re.match(r'\+([a-zA-Z])', arg)
+        if m is not None:
+            return MultiLetter(m[1])
 
         return None
 
@@ -260,7 +341,6 @@ class WordGrid(StoredLog):
         return self.play_prompt(ui)
 
     def finish(self, _ui: PromptUI):
-        # self.check_fail_text(ui)
         return self.finalize
 
     @matcher(r'''(?x)
@@ -275,6 +355,48 @@ class WordGrid(StoredLog):
         score = float(m[3])
         self.words[word_i] = word
         self.scores[word_i][word] = score
+
+    def do_set(self, ui: PromptUI):
+        '''
+        usage: `set <col> <row> <word>`
+        '''
+
+        col: int|None = None
+        row: int|None = None
+        word: str = ''
+
+        while ui.tokens:
+            if col is None:
+                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+                if n is not None:
+                    col = n
+                    if col > self.size:
+                        ui.print(f'! col:{col} out of bounds')
+                        return
+                    continue
+            if row is None:
+                n = ui.tokens.have(r'\d+', lambda m: int(m[0]))
+                if n is not None:
+                    row = n
+                    if row > self.size:
+                        ui.print(f'! row:{row} out of bounds')
+                        return
+                    continue
+            if not word:
+                word = next(ui.tokens)
+                continue
+            ui.print(f'! invalid * arg {next(ui.tokens)!r}')
+            return
+
+        if col is None:
+            ui.print(f'! missing <col> arg')
+            return
+        if row is None:
+            ui.print(f'! missing <row> arg')
+            return
+
+        word_i = (row - 1) * self.size + (col - 1)
+        return self.question(ui, word_i, word)
 
     def do_guess(self, ui: PromptUI, show_n: int=10):
         '''
@@ -341,8 +463,8 @@ class WordGrid(StoredLog):
                 if word_i >= len(self.words):
                     ui.print(f'. all cells complete, spcify col & row to re-guess')
                     return
-            col = word_i % self.size
-            row = word_i // self.size
+            col = (word_i % self.size) + 1
+            row = (word_i // self.size) + 1
 
         rule = self.col_rules[col-1]
         ui.write(f'Filtering col:{col} — {rule}')
@@ -385,9 +507,10 @@ class WordGrid(StoredLog):
     def do_question(self, ui: PromptUI) -> PromptUI.State|None:
         word_i, word = self.questioning
         if word:
-            with ui.input(f'🌡️ {word} ? ') as tokens:
+            ui.copy(word)
+            with ui.input(f'🌡️ {word} 📋 ? ') as tokens:
                 if tokens:
-                    score = tokens.have(r'\d*(\.\d*)?', lambda m: float(m[0]))
+                    score = tokens.have(r'\d*(\.\d*)?$', lambda m: float(m[0]))
                     if score is None:
                         return self.do_question
                     ui.log(f'word: {word_i} {word} {score}')
@@ -395,19 +518,187 @@ class WordGrid(StoredLog):
                     self.scores[word_i][word] = score
         return self.question(ui, -1, '')
 
-# Word Grid #765
-# 🌌🟪🟦
-# 🌌🟦🟪
-# 🦄🦄🦄
-# Rarity: 2.58
-# wordgrid.clevergoat.com?ref=shared 🐐
+    @property
+    def result(self):
+        if self._result is not None:
+            return self._result
+        elif self.result_text:
+            try:
+                self.result = Result.parse(self.result_text)
+            except ValueError:
+                return None
+            return self._result
 
-# Word Grid #765
-# 🦄🟪🦄
-# 🦄🦄🦄
-# 🦄🦄🦄
-# Rarity: 0.28
-# wordgrid.clevergoat.com?ref=shared 🐐
+    @result.setter
+    def result(self, res: 'Result'):
+        if res.id:
+            if not self.puzzle_id:
+                self.puzzle_id = f'#{res.id}'
+            elif self.puzzle_id != f'#{res.id}':
+                raise ValueError(f"result id mismatch, expected {self.puzzle_id!r} got '#{res.id}'")
+        self._result = res
+
+    @result.deleter
+    def result(self):
+        self._result = None
+        self.result_text = ''
+
+    @override
+    def set_result_text(self, txt: str):
+        del self.result
+        super().set_result_text(txt)
+        self.result = Result.parse(txt)
+
+    @override
+    def have_result(self):
+        return self.result is not None
+
+    @property
+    @override
+    def report_desc(self) -> str:
+        res = self.result
+        status = '🤔'
+        score = nan
+        if res:
+            score = res.rarity
+            status = label_rarity(score)
+        return  f'{status} rarity:{score} ⏱️ {self.elapsed}'
+
+    @property
+    @override
+    def report_body(self) -> Generator[str]:
+        yield from super().report_body
+
+        # TODO self.grid_labels(self)
+        for row, _ in enumerate(self.row_rules):
+            yield ' '.join(self.row_labels(row))
+
+        res = self.result
+        if res:
+            yield f'Rarity: {res.rarity} {label_rarity(res.rarity)}'
+            # TODO res.grid vs ^^
+
+        # TODO describe how many attempts were used, and other historical/effort notes
+
+@dataclass
+class Result:
+    id: int
+    grid: tuple[str, ...]
+    rarity: float
+
+    @classmethod
+    def parse(cls, s: str):
+        id = -1
+        grid: list[str] = []
+        rarity = nan
+
+        state = 0
+        for line in spliterate(s, '\n', trim=True):
+            # Word Grid #765
+            if state == 0:
+                m = re.match(r'''(?x)
+                    Word \s+ Grid
+                    \s+ \# (?P<id> \d+ )
+                ''', line)
+                if m:
+                    id = int(m[1])
+                    state = 1
+                    continue
+
+            # 🌌🟪🟦
+            # 🌌🟦🟪
+            # 🦄🦄🦄
+            elif state == 1:
+                if all(c in tiers for c in line):
+                    grid.extend(line)
+                    continue
+
+                state = 2
+
+            # Rarity: 2.58
+            m = re.match(r'''(?x)
+                Rarity :
+                \s* (?P<rarity> \d* (?: \. \d* )? )
+            ''', line)
+            if m:
+                rarity = float(m[1])
+                continue
+
+        return cls(
+            id,
+            tuple(grid),
+            rarity,
+        )
+
+@MarkedSpec.mark('''
+
+    #first
+    > Word Grid #765
+    > 🌌🟪🟦
+    > 🌌🟦🟪
+    > 🦄🦄🦄
+    > Rarity: 2.58
+    > wordgrid.clevergoat.com?ref=shared 🐐
+    - id: 765
+    - rarity: 2.58
+    - grid: 🌌🟪🟦🌌🟦🟪🦄🦄🦄
+
+    #second_3
+    > Word Grid #766
+    > 🌌🟨🟩
+    > 🟦🟪🟪
+    > 🦄🟦🟪
+    > Rarity: 10.75
+    > wordgrid.clevergoat.com?ref=shared 🐐
+    - id: 766
+    - rarity: 10.75
+    - grid: 🌌🟨🟩🟦🟪🟪🦄🟦🟪
+
+    #second_4
+    > Word Grid #766
+    > 🌌🌌🦄
+    > 🌌🌌🟧
+    > 🦄🦄🦄
+    > Rarity: 3.73
+    > wordgrid.clevergoat.com?ref=shared 🐐
+    - id: 766
+    - rarity: 3.73
+    - grid: 🌌🌌🦄🌌🌌🟧🦄🦄🦄
+
+''')
+def test_parse_result(spec: MarkedSpec):
+    res = Result.parse(spec.input)
+    for key, value in spec.props:
+        if key == 'id': assert str(res.id) == value
+        elif key == 'rarity': assert str(res.rarity) == value
+        elif key == 'grid': assert ''.join(res.grid) == value
+
+# # Types of Categories
+# 
+# Here are some of the types of categories you might see:
+# 
+# | Category Type        | Example                | Rule                                              |
+# |----------------------|------------------------|---------------------------------------------------|
+# | X letter word        | 6-letter word          | Word must be exactly X letters long               |
+# | Starts with X        | Starts with ph         | Word must begin with that letter/sequence         |
+# | Ends with X          | Ends with ing          | Word must end in that letter/sequence             |
+# | Contains X, Y, Z     | Contains g, t          | Word must contain all listed letters in any order |
+# | Contains XY          | Contains th            | Word must include that exact sequence             |
+# | Double letter        | Any letter             | Word must contain two identical letters in a row  |
+# | Multiple letter X’s  | Multiple T’s           | Word must include that letter more than once      |
+# | Starts & ends with X | Starts and ends with D | Word must start and end with the same letter      |
+# | Infinity (∞)         | -                      | No restrictions. Any word is valid.               |
+# 
+# # Rarity Tiers
+# 
+# Every word earns a rarity score based on how many other players also picked it:
+# - 🟩 Common (>5%)
+# - 🟧 Uncommon (3-5%)
+# - 🟨 Rare (1.5-3%)
+# - 🟦 Epic (0.5-1.5%)
+# - 🟪 Legendary (0.1-0.5%)
+# - 🌌 Galaxy (<0.1%)
+# - 🦄 Unicorn (only player to guess it)
 
 if __name__ == '__main__':
     WordGrid.main()
