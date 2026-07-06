@@ -1,0 +1,168 @@
+T19589.090598177994 now: 2026-07-06T07:37:33EDT
+TD243 site: dontwordle.com
+TD47 wordlist: nwl2023.txt
+TD85  ...␅
+TD2969814 ␆
+TD66  ...
+TD71 1> ␅
+TD4826115 ␆* -bot 10
+TD151 1> * -bot 10
+TD219213 ? ␅
+TD1527404 ␆8
+TD56 ? 8
+TD125 📋 "taser" ? ␅
+TD4368015 ␆nnnnn
+TD102 📋 "taser" ? nnnnn
+TD662 tried: TASER n n n n n
+TD208 2> ␅
+TD981181 ␆undo
+TD152 2> undo
+TD264 undo
+TD190 1> ␅
+TD6083933 ␆* :v [taser] -bot 10
+TD111 1> * :v [taser] -bot 10
+TD165868 ? ␅
+TD2425881 ␆4
+TD118 ? 4
+TD225 📋 "limbo" ? ␅
+TD4871153 ␆nMnnn
+TD94 📋 "limbo" ? nMnnn
+TD208 tried: LIMBO n m n n n
+TD217 2> ␅
+TD706865 ␆undo
+TD222 2> undo
+TD275 undo
+TD266 1> ␅
+TD7357084 ␆* :v [taserlimbo] -bot 10
+TD113 1> * :v [taserlimbo] -bot 10
+TD149997 ? ␅
+TD9243512 ␆2
+TD97 ? 2
+TD211 📋 "ducky" ? ␅
+TD4910931 ␆nnMMn
+TD118 📋 "ducky" ? nnMMn
+TD306 tried: DUCKY n n m m n
+TD320 2> ␅
+TD620164 ␆undo
+TD120 2> undo
+TD172 undo
+TD195 1> ␅
+TD2408330 ␆*
+TD99 1> *
+TD126756 ? ␅
+TD97250 ␆1
+TD94 ? 1
+TD235 📋 "penne" ? ␅
+TD3669390 ␆nnnnn
+TD94 📋 "penne" ? nnnnn
+TD194 tried: PENNE n n n n n
+TD179 2> ␅
+TD378926 ␆*
+TD104 2> *
+TD107104 ? ␅
+TD246632 ␆1
+TD81 ? 1
+TD216 📋 "shahs" ? ␅
+TD4759513 ␆nYnnn
+TD101 📋 "shahs" ? nYnnn
+TD211 tried: SHAHS n Y n n n
+TD215 3> ␅
+TD1032680 ␆undo
+TD97 3> undo
+TD145 undo
+TD217 2> ␅
+TD3373315 ␆*
+TD81 2> *
+TD99233 ? ␅
+TD325529 ␆1
+TD93 ? 1
+TD211 📋 "yobby" ? ␅
+TD3947391 ␆nnnnn
+TD97 📋 "yobby" ? nnnnn
+TD230 tried: YOBBY n n n n n
+TD208 3> ␅
+TD409246 ␆*
+TD105 3> *
+TD96680 ? ␅
+TD115284 ␆1
+TD100 ? 1
+TD282 📋 "amass" ? ␅
+TD3956359 ␆nnnnn
+TD116 📋 "amass" ? nnnnn
+TD237 tried: AMASS n n n n n
+TD278 4> ␅
+TD431176 ␆*
+TD96 4> *
+TD100326 ? ␅
+TD111661 ␆1
+TD104 ? 1
+TD243 📋 "fluff" ? ␅
+TD4002182 ␆nnnnn
+TD91 📋 "fluff" ? nnnnn
+TD221 tried: FLUFF n n n n n
+TD215 5> ␅
+TD387111 ␆*
+TD88 5> *
+TD199108 ? ␅
+TD19338 ␆1
+TD61 ? 1
+TD107 📋 "digit" ? ␅
+TD3840857 ␆nMnnn
+TD94 📋 "digit" ? nMnnn
+TD194 tried: DIGIT n m n n n
+TD232 6> ␅
+TD396665 ␆*
+TD97 6> *
+TD195244 ? ␅
+TD26196 ␆1
+TD40 ? 1
+TD105 📋 "whirr" ? ␅
+TD5371914 ␆nYYnn
+TD60 📋 "whirr" ? nYYnn
+TD116 tried: WHIRR n Y Y n n
+TD134 📋> ␅
+TD2642763 ␆Don't Wordle 1504 - SURVIVED
+TD96 📋> Don't Wordle 1504 - SURVIVED
+TD31 📋> ␅
+TD52 ␆Hooray! I didn't Wordle today!
+TD11 📋> Hooray! I didn't Wordle today!
+TD9 📋> ␅
+TD22 ␆⬜⬜⬜⬜⬜4618
+TD10 📋> ⬜⬜⬜⬜⬜4618
+TD9 📋> ␅
+TD25 ␆⬜⬜⬜⬜⬜1900
+TD8 📋> ⬜⬜⬜⬜⬜1900
+TD8 📋> ␅
+TD19 ␆⬜⬜⬜⬜⬜165
+TD8 📋> ⬜⬜⬜⬜⬜165
+TD8 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜49
+TD8 📋> ⬜⬜⬜⬜⬜49
+TD8 📋> ␅
+TD19 ␆⬜🟨⬜⬜⬜10
+TD8 📋> ⬜🟨⬜⬜⬜10
+TD8 📋> ␅
+TD18 ␆⬜🟩🟩⬜⬜3
+TD8 📋> ⬜🟩🟩⬜⬜3
+TD8 📋> ␅
+TD18 ␆Undos used: 4
+TD8 📋> Undos used: 4
+TD9 📋> ␅
+TD18 ␆
+TD8 📋> 
+TD8 📋> ␅
+TD19 ␆  3 words remaining
+TD8 📋>   3 words remaining
+TD8 📋> ␅
+TD24 ␆x 7 unused letters
+TD8 📋> x 7 unused letters
+TD7 📋> ␅
+TD192849 ␆= 21 total score
+TD88 📋> = 21 total score
+TD16 📋> ␅
+TD129893 ␄
+TD268 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1504 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4618\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1900\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c165\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c49\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c10\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c3\nUndos used: 4\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"}
+TD2833 result: "Don't Wordle 1504 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4618\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1900\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c165\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c49\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c10\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c3\nUndos used: 4\n\n  3 words remaining\nx 7 unused letters\n= 21 total score"
+TD131 📆 2026-07-06 ? ␅
+TD143767 ␆
+TD57 📆 2026-07-06 ? 
