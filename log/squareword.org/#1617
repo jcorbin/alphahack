@@ -1,0 +1,203 @@
+T859.8362274399988 now: 2026-07-06T08:02:42EDT
+TD187 site: squareword.org
+TD46 wordlist: nwl2023.txt
+TD67  ...␅
+TD1068358 ␆
+TD115  ...
+TD73 🧩  ? ␅
+TD8150342 ␆#1617
+TD108 🧩  ? #1617
+TD421 puzzle_id: #1617
+TD560 > ␅
+TD2113980 ␆*
+TD96 > *
+TD232567 try? ␅
+TD1063132 ␆1
+TD99 try? 1
+TD322 questioning: ["reals", "#5"]
+TD378 #1 <IndexError>  📋 "reals" ? ␅
+TD7783808 ␆__A__ ~ LS
+TD67 #1 <IndexError>  📋 "reals" ? __A__ ~ LS
+TD319 attempt 0 REALS n n Y m m
+TD62 #2 <IndexError>  📋 "reals" ? ␅
+TD2810893 ␆_____ ~ R
+TD108 #2 <IndexError>  📋 "reals" ? _____ ~ R
+TD383 attempt 1 REALS m n n n n
+TD158 #3 <IndexError>  📋 "reals" ? ␅
+TD2472637 ␆____S ~ REA
+TD91 #3 <IndexError>  📋 "reals" ? ____S ~ REA
+TD338 attempt 2 REALS m m m n Y
+TD327 #4 <IndexError>  📋 "reals" ? ␅
+TD2194481 ␆_____ ~ RE
+TD131 #4 <IndexError>  📋 "reals" ? _____ ~ RE
+TD369 attempt 3 REALS m m n n n
+TD180 #5 <IndexError>  📋 "reals" ? ␅
+TD2575254 ␆_E___ ~ ES
+TD145 #5 <IndexError>  📋 "reals" ? _E___ ~ ES
+TD2899 attempt 4 REALS n Y n n m
+TD672 ? ␅
+TD1092466 ␆
+TD114 ? 
+TD176 question done
+TD461 > ␅
+TD2436918 ␆*
+TD151 > *
+TD807888 try? ␅
+TD766055 ␆1
+TD127 try? 1
+TD402 questioning: ["plash", "#1"]
+TD637 #1 __A__ ~LS -ER  📋 "plash" ? ␅
+TD4590172 ␆_LASH ~ S
+TD100 #1 __A__ ~LS -ER  📋 "plash" ? _LASH ~ S
+TD309 attempt 0 PLASH n Y Y Y Y
+TD193 #2 _____ ~R -AELS  📋 "plash" ? ␅
+TD1151041 ␆.
+TD86 #2 _____ ~R -AELS  📋 "plash" ? .
+TD458 attempt 1 PLASH n n n n n
+TD129 #3 ____S ~AER -L  📋 "plash" ? ␅
+TD1183055 ␆.
+TD100 #3 ____S ~AER -L  📋 "plash" ? .
+TD293 attempt 2 PLASH n n m n n
+TD106 #4 _____ ~ER -ALS  📋 "plash" ? ␅
+TD983836 ␆.
+TD94 #4 _____ ~ER -ALS  📋 "plash" ? .
+TD282 attempt 3 PLASH n n n n n
+TD97 #5 _E___ ~S -ALR  📋 "plash" ? ␅
+TD3470099 ␆_E___ ~ ES
+TD107 #5 _E___ ~S -ALR  📋 "plash" ? _E___ ~ ES
+TD292 attempt 4 PLASH n n n m n
+TD457 ? ␅
+TD319615 ␆
+TD129 ? 
+TD191 question done
+TD470 > ␅
+TD386672 ␆*
+TD135 > *
+TD529327 try? ␅
+TD2067195 ␆2
+TD115 try? 2
+TD277 questioning: ["acres", "#3"]
+TD381 #1 __A__ ~S -AEHLPR  📋 "acres" ? ␅
+TD18933518 <INT>
+TD175 <INT>
+TD40 <INT>
+T25.218328866001684 now: 2026-07-06T08:04:17EDT
+TD90 questioning: ["acres", "#3"]
+TD172 #1 _LASH -EPR  📋 "acres" ? ␅
+TD4856451 ␆_LASH ~ S
+TD105 #1 _LASH -EPR  📋 "acres" ? _LASH ~ S
+TD1079 attempt 0 ACRES n n n n m
+TD194 #2 _____ ~R -AEHLPS  📋 "acres" ? ␅
+TD2642088 ␆__R__ ~ C
+TD76 #2 _____ ~R -AEHLPS  📋 "acres" ? __R__ ~ C
+TD228 attempt 1 ACRES n m Y n n
+TD125 #3 ____S ~AER -HLPS  📋 "acres" ? ␅
+TD695540 ␆/it
+TD86 #3 ____S ~AER -HLPS  📋 "acres" ? /it
+TD276 attempt 2 ACRES Y Y Y Y Y
+TD95 #4 _____ ~ER -AHLPS  📋 "acres" ? ␅
+TD1903490 ␆.
+TD102 #4 _____ ~ER -AHLPS  📋 "acres" ? .
+TD315 attempt 3 ACRES n n m m n
+TD116 #5 _E___ ~S -AHLPR  📋 "acres" ? ␅
+TD3030200 ␆_E_E_ ~ S
+TD103 #5 _E___ ~S -AHLPR  📋 "acres" ? _E_E_ ~ S
+TD306 attempt 4 ACRES n n n Y m
+TD587 ? ␅
+TD357859 ␆
+TD109 ? 
+TD200 question done
+TD572 > ␅
+TD661931 ␆*
+TD109 > *
+TD854273 questioning: ["sewed", "#5"]
+TD208 #1 _LASH -ACEPR  📋 "sewed" ? ␅
+TD5947914 ␆SLASH
+TD93 #1 _LASH -ACEPR  📋 "sewed" ? SLASH
+TD267 attempt 0 SEWED Y n n n n
+TD162 #2 __R__ ~C -AEHLPS  📋 "sewed" ? ␅
+TD1285532 ␆.
+TD98 #2 __R__ ~C -AEHLPS  📋 "sewed" ? .
+TD294 attempt 1 SEWED n n n n n
+TD102 #4 _____ ~ER -ACHLPS  📋 "sewed" ? ␅
+TD2681240 ␆_____ ~ RED
+TD89 #4 _____ ~ER -ACHLPS  📋 "sewed" ? _____ ~ RED
+TD230 attempt 3 SEWED n m n m m
+TD140 #5 _E_E_ ~S -ACHLPR  📋 "sewed" ? ␅
+TD649122 ␆/it
+TD98 #5 _E_E_ ~S -ACHLPR  📋 "sewed" ? /it
+TD267 attempt 4 SEWED Y Y Y Y Y
+TD366 ? ␅
+TD288871 ␆
+TD97 ? 
+TD120 question done
+TD414 > ␅
+TD601581 ␆*
+TD90 > *
+TD482134 questioning: ["curio", "#2"]
+TD183 #2 __R__ ~C -ADEHLPSW  📋 "curio" ? ␅
+TD3128077 ␆/it
+TD146 #2 __R__ ~C -ADEHLPSW  📋 "curio" ? /it
+TD334 attempt 1 CURIO Y Y Y Y Y
+TD135 #4 _____ ~DER -ACHLPSW  📋 "curio" ? ␅
+TD4305763 ␆_____ ~ REDO
+TD100 #4 _____ ~DER -ACHLPSW  📋 "curio" ? _____ ~ REDO
+TD295 attempt 3 CURIO n n m n m
+TD438 ? ␅
+TD439113 ␆*
+TD56 ? *
+TD92 #6 <IndexError>  📋 "curio" ? ␅
+TD2095510 ␆
+TD118 #6 <IndexError>  📋 "curio" ? 
+TD319 #6 <IndexError>  ? ␅
+TD848833 ␄
+TD72 question done
+TD154 > ␅
+TD958965 ␆*
+TD132 > *
+TD479640 questioning: ["drove", "#4"]
+TD230 #4 _____ ~DEOR -ACHILPSUW  📋 "drove" ? ␅
+TD3073069 ␆/it
+TD171 #4 _____ ~DEOR -ACHILPSUW  📋 "drove" ? /it
+TD375 attempt 3 DROVE Y Y Y Y Y
+TD526 ? ␅
+TD297689 ␆
+TD122 ? 
+TD140 question done
+TD29180 📋> ␅
+TD6559453 ␆squareword.org 1617: 6 guesses
+TD82 📋> squareword.org 1617: 6 guesses
+TD17 📋> ␅
+TD44 ␆
+TD8 📋> 
+TD7 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD13 ␆🟨🟨🟨🟨🟨
+TD6 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD14 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD14 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD205228 ␆#squareword #squareword1617
+TD107 📋> #squareword #squareword1617
+TD18 📋> ␅
+TD243474 ␄
+TD143 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1617: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1617"}
+TD880 result: "squareword.org 1617: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1617"
+TD98 📆 2026-07-06 ? ␅
+TD452796 ␆
+TD89 📆 2026-07-06 ? 
