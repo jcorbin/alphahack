@@ -1,0 +1,1370 @@
+T0.0009014639945235103 now: 2026-07-06T20:16:14EDT
+TD101 wordlist: nwl2023.txt
+TD124974 > ␅
+TD17196085 ␆
+TD165 > 
+TD594 > ␅
+TD925105 ␆*
+TD138 > *
+TD145496 ? ␅
+TD6580308 ␆3
+TD133 ? 3
+TD524 questioning: arose
+TD180 _____? ␅
+TD3125933 ␆nnnnn
+TD89 _____? nnnnn
+TD686 attempt: AROSE n n n n n
+TD96191 > ␅
+TD568429 ␆*
+TD102 > *
+TD99111 ? ␅
+TD1839515 ␆3
+TD120 ? 3
+TD256 questioning: mincy
+TD187 _____ -AEORS? ␅
+TD4732335 ␆YnYYn
+TD136 _____ -AEORS? YnYYn
+TD338 attempt: MINCY Y n Y Y n
+TD91009 > ␅
+TD1356037 ␆*
+TD102 > *
+TD92334 questioning: munch
+TD82 M_NC_ -AEIORSY? ␅
+TD4755805 ␆YYYYY
+TD81 M_NC_ -AEIORSY? YYYYY
+TD199 attempt: MUNCH Y Y Y Y Y
+TD82 > ␅
+TD17001025 ␆nnnYn
+TD125 > nnnYn
+TD170 > ␅
+TD10280271 ␆*
+TD125 > *
+TD103383 questioning: munch
+TD57 reset MUNCH
+TD75 _____? ␅
+TD2275662 ␆nnnYn
+TD141 _____? nnnYn
+TD367 attempt: MUNCH n n n Y n
+TD106035 > ␅
+TD1314317 ␆*
+TD106 > *
+TD103656 ? ␅
+TD1004413 ␆1
+TD70 ? 1
+TD95 questioning: spice
+TD63 ___C_ -HMNU? ␅
+TD4158094 ␆nMYYn
+TD78 ___C_ -HMNU? nMYYn
+TD229 attempt: SPICE n m Y Y n
+TD96470 > ␅
+TD1001633 ␆*
+TD128 > *
+TD101756 ? ␅
+TD1331057 ␆1
+TD123 ? 1
+TD231 questioning: prick
+TD185 __IC_ ~P -EHMNSU? ␅
+TD2508802 ␆YYYYY
+TD98 __IC_ ~P -EHMNSU? YYYYY
+TD261 attempt: PRICK Y Y Y Y Y
+TD98 > ␅
+TD801302 ␆*
+TD96 > *
+TD95610 questioning: prick
+TD41 reset PRICK
+TD58 _____? ␅
+TD5505211 ␆nnnnn
+TD61 _____? nnnnn
+TD150 attempt: PRICK n n n n n
+TD108035 > ␅
+TD9827971 ␆*
+TD133 > *
+TD122034 ? ␅
+TD4447477 ␆3
+TD119 ? 3
+TD190 questioning: yeast
+TD142 _____ -CIKPR? ␅
+TD3220191 ␆nMnnn
+TD107 _____ -CIKPR? nMnnn
+TD317 attempt: YEAST n m n n n
+TD108719 > ␅
+TD19755466 ␆*
+TD89 > *
+TD106275 ? ␅
+TD2264217 ␆3
+TD133 ? 3
+TD182 questioning: nudge
+TD163 _____ ~E -ACIKPRSTY? ␅
+TD4341154 ␆nYnMY
+TD131 _____ ~E -ACIKPRSTY? nYnMY
+TD292 attempt: NUDGE n Y n m Y
+TD96088 > ␅
+TD9324464 ␆*
+TD132 > *
+TD99449 ? ␅
+TD1823980 ␆1
+TD104 ? 1
+TD197 questioning: bugle
+TD150 _U__E ~G -ACDIKNPRSTY? ␅
+TD5573040 ␆nYYnY
+TD93 _U__E ~G -ACDIKNPRSTY? nYYnY
+TD255 attempt: BUGLE n Y Y n Y
+TD91999 > ␅
+TD6272867 ␆*
+TD111 > *
+TD100364 questioning: fugue
+TD95 _UG_E -ABCDIKLNPRSTY? ␅
+TD4044371 ␆YYYYY
+TD117 _UG_E -ABCDIKLNPRSTY? YYYYY
+TD286 attempt: FUGUE Y Y Y Y Y
+TD117 > ␅
+TD27878301 ␆nnnnn
+TD132 > nnnnn
+TD204 > ␅
+TD1062220 ␆*
+TD247 > *
+TD93230 questioning: fugue
+TD29 reset FUGUE
+TD52 _____? ␅
+TD5920780 ␆nnnnn
+TD132 _____? nnnnn
+TD335 attempt: FUGUE n n n n n
+TD103719 > ␅
+TD787669 ␆*
+TD107 > *
+TD112849 ? ␅
+TD1094950 ␆1
+TD110 ? 1
+TD279 questioning: patio
+TD186 _____ -EFGU? ␅
+TD3893669 ␆nnMMn
+TD150 _____ -EFGU? nnMMn
+TD358 attempt: PATIO n n m m n
+TD121239 > ␅
+TD3521884 ␆*
+TD127 > *
+TD126330 ? ␅
+TD2299255 ␆3
+TD119 ? 3
+TD318 questioning: hints
+TD189 _____ ~IT -AEFGOPU? ␅
+TD8552087 ␆MYnYn
+TD119 _____ ~IT -AEFGOPU? MYnYn
+TD307 attempt: HINTS m Y n Y n
+TD95069 > ␅
+TD10980808 ␆*
+TD114 > *
+TD105518 ? ␅
+TD4304108 ␆1
+TD99 ? 1
+TD181 questioning: birth
+TD175 _I_T_ ~H -AEFGNOPSU? ␅
+TD3942659 ␆nYnYY
+TD125 _I_T_ ~H -AEFGNOPSU? nYnYY
+TD342 attempt: BIRTH n Y n Y Y
+TD103358 > ␅
+TD1406130 ␆*
+TD90 > *
+TD95022 ? ␅
+TD6472687 ␆1
+TD168 ? 1
+TD279 questioning: width
+TD235 _I_TH -ABEFGNOPRSU? ␅
+TD3098896 ␆YYYYY
+TD94 _I_TH -ABEFGNOPRSU? YYYYY
+TD229 attempt: WIDTH Y Y Y Y Y
+TD92 > ␅
+TD11913413 ␆*
+TD112 > *
+TD104223 questioning: width
+TD42 reset WIDTH
+TD62 _____? ␅
+TD4029749 ␆nMnnn
+TD131 _____? nMnnn
+TD319 attempt: WIDTH n m n n n
+TD114410 > ␅
+TD16700579 ␆*
+TD86 > *
+TD116462 ? ␅
+TD7574817 ␆1
+TD166 ? 1
+TD235 questioning: naris
+TD188 _____ ~I -DHTW? ␅
+TD10757119 ␆MnnMn
+TD115 _____ ~I -DHTW? MnnMn
+TD259 attempt: NARIS m n n m n
+TD130002 > ␅
+TD3102838 ␆*
+TD119 > *
+TD121476 ? ␅
+TD4565328 ␆1
+TD74 ? 1
+TD117 questioning: being
+TD93 _____ ~IN -ADHRSTW? ␅
+TD4862268 ␆nnYMn
+TD86 _____ ~IN -ADHRSTW? nnYMn
+TD230 attempt: BEING n n Y m n
+TD96614 > ␅
+TD21010000 ␆*
+TD73 > *
+TD107305 ? ␅
+TD3079199 ␆2
+TD121 ? 2
+TD243 questioning: unify
+TD166 __I__ ~N -ABDEGHRSTW? ␅
+TD3914451 ␆YYYYY
+TD161 __I__ ~N -ABDEGHRSTW? YYYYY
+TD487 attempt: UNIFY Y Y Y Y Y
+TD185 > ␅
+TD1529894 ␆*
+TD92 > *
+TD103996 questioning: unify
+TD57 reset UNIFY
+TD84 _____? ␅
+TD1651191 ␆nnMnn
+TD118 _____? nnMnn
+TD245 attempt: UNIFY n n m n n
+TD109929 > ␅
+TD795632 ␆*
+TD86 > *
+TD109165 ? ␅
+TD1996702 ␆2
+TD143 ? 2
+TD266 questioning: ideas
+TD192 _____ ~I -FNUY? ␅
+TD2950791 ␆MnnMn
+TD111 _____ ~I -FNUY? MnnMn
+TD306 attempt: IDEAS m n n m n
+TD120668 > ␅
+TD502202 ␆*
+TD71 > *
+TD115324 ? ␅
+TD8555731 ␆1
+TD132 ? 1
+TD224 questioning: malic
+TD195 _____ ~AI -DEFNSUY? ␅
+TD3170519 ␆nYnYn
+TD125 _____ ~AI -DEFNSUY? nYnYn
+TD323 attempt: MALIC n Y n Y n
+TD94225 > ␅
+TD1257183 ␆*
+TD104 > *
+TD102340 ? ␅
+TD1469085 ␆2
+TD136 ? 2
+TD219 questioning: ratio
+TD171 _A_I_ -CDEFLMNSUY? ␅
+TD2539318 ␆YYYYY
+TD123 _A_I_ -CDEFLMNSUY? YYYYY
+TD250 attempt: RATIO Y Y Y Y Y
+TD120 > ␅
+TD3033630 ␆MMMnn
+TD124 > MMMnn
+TD197 > ␅
+TD1718155 ␆*
+TD114 > *
+TD96970 questioning: ratio
+TD40 reset RATIO
+TD62 _____? ␅
+TD1226025 ␆MMMnn
+TD113 _____? MMMnn
+TD305 attempt: RATIO m m m n n
+TD154407 > ␅
+TD299652 ␆*
+TD94 > *
+TD149719 ? ␅
+TD845490 ␆1
+TD122 ? 1
+TD223 questioning: stare
+TD182 _____ ~ART -IO? ␅
+TD3515746 ␆nMYYn
+TD59 _____ ~ART -IO? nMYYn
+TD137 attempt: STARE n m Y Y n
+TD96435 > ␅
+TD1220440 ␆*
+TD113 > *
+TD99645 ? ␅
+TD1096871 ␆1
+TD144 ? 1
+TD255 questioning: chart
+TD223 __AR_ ~T -EIOS? ␅
+TD2592672 ␆YYYYY
+TD142 __AR_ ~T -EIOS? YYYYY
+TD348 attempt: CHART Y Y Y Y Y
+TD123 > ␅
+TD1745259 ␆*
+TD102 > *
+TD96711 questioning: chart
+TD28 reset CHART
+TD49 _____? ␅
+TD1193952 ␆nnnnn
+TD111 _____? nnnnn
+TD302 attempt: CHART n n n n n
+TD99122 > ␅
+TD1113433 ␆*
+TD88 > *
+TD136103 ? ␅
+TD3682173 ␆4
+TD96 ? 4
+TD242 questioning: snide
+TD176 _____ -ACHRT? ␅
+TD3832009 ␆MnnnY
+TD228 _____ -ACHRT? MnnnY
+TD1053 attempt: SNIDE m n n n Y
+TD105451 > ␅
+TD766150 ␆*
+TD127 > *
+TD96335 ? ␅
+TD7075763 ␆4
+TD153 ? 4
+TD270 questioning: pulse
+TD217 ____E ~S -ACDHINRT? ␅
+TD3710194 ␆nMnYY
+TD102 ____E ~S -ACDHINRT? nMnYY
+TD259 attempt: PULSE n m n Y Y
+TD93995 > ␅
+TD3237987 ␆*
+TD116 > *
+TD99631 ? ␅
+TD1730404 ␆2
+TD109 ? 2
+TD231 questioning: mouse
+TD157 ___SE ~U -ACDHILNPRT? ␅
+TD3300746 ␆YYYYY
+TD103 ___SE ~U -ACDHILNPRT? YYYYY
+TD182 attempt: MOUSE Y Y Y Y Y
+TD76 > ␅
+TD2372736 ␆*
+TD123 > *
+TD96835 questioning: mouse
+TD32 reset MOUSE
+TD59 _____? ␅
+TD1197668 ␆nnnnn
+TD148 _____? nnnnn
+TD299 attempt: MOUSE n n n n n
+TD94292 > ␅
+TD1182752 ␆*
+TD94 > *
+TD103527 ? ␅
+TD3466632 ␆3
+TD57 ? 3
+TD98 questioning: fitly
+TD73 _____ -EMOSU? ␅
+TD2803101 ␆nYnnn
+TD147 _____ -EMOSU? nYnnn
+TD291 attempt: FITLY n Y n n n
+TD92213 > ␅
+TD1445709 ␆*
+TD150 > *
+TD97499 ? ␅
+TD3851649 ␆5
+TD101 ? 5
+TD168 questioning: pinch
+TD156 _I___ -EFLMOSTUY? ␅
+TD2964859 ␆nYnnn
+TD195 _I___ -EFLMOSTUY? nYnnn
+TD428 attempt: PINCH n Y n n n
+TD96061 > ␅
+TD423641 ␆*
+TD118 > *
+TD95224 ? ␅
+TD4966446 ␆4
+TD128 ? 4
+TD209 questioning: rigid
+TD177 _I___ -CEFHLMNOPSTUY? ␅
+TD2887698 ␆YYYYY
+TD100 _I___ -CEFHLMNOPSTUY? YYYYY
+TD240 attempt: RIGID Y Y Y Y Y
+TD101 > ␅
+TD1485451 ␆*
+TD86 > *
+TD94963 questioning: rigid
+TD34 reset RIGID
+TD63 _____? ␅
+TD2233973 ␆MMnnn
+TD92 _____? MMnnn
+TD225 attempt: RIGID m m n n n
+TD126596 > ␅
+TD1170130 ␆*
+TD106 > *
+TD122471 ? ␅
+TD1059013 ␆1
+TD164 ? 1
+TD225 questioning: skirt
+TD179 _____ ~IR -DG I:1? ␅
+TD3646412 ␆nnYMn
+TD46 _____ ~IR -DG I:1? nnYMn
+TD133 attempt: SKIRT n n Y m n
+TD91659 > ␅
+TD446068 ␆*
+TD111 > *
+TD93183 ? ␅
+TD1420861 ␆2
+TD148 ? 2
+TD188 questioning: cripe
+TD162 __I__ ~R -DGKST? ␅
+TD3464801 ␆nMYnM
+TD112 __I__ ~R -DGKST? nMYnM
+TD238 attempt: CRIPE n m Y n m
+TD96709 > ␅
+TD1373746 ␆*
+TD109 > *
+TD102662 questioning: flier
+TD119 __I__ ~ER -CDGKPST? ␅
+TD3075455 ␆YYYYY
+TD84 __I__ ~ER -CDGKPST? YYYYY
+TD225 attempt: FLIER Y Y Y Y Y
+TD88 > ␅
+TD2410592 ␆*
+TD100 > *
+TD89824 questioning: flier
+TD49 reset FLIER
+TD80 _____? ␅
+TD11113259 ␆nnnYY
+TD68 _____? nnnYY
+TD169 attempt: FLIER n n n Y Y
+TD91831 > ␅
+TD1516406 ␆*
+TD90 > *
+TD96576 ? ␅
+TD6509881 ␆
+TD105 ? 
+TD560 ? ␅
+TD500327 ␆1
+TD122 ? 1
+TD229 questioning: dater
+TD150 ___ER -FIL? ␅
+TD2822607 ␆nnnYY
+TD148 ___ER -FIL? nnnYY
+TD329 attempt: DATER n n n Y Y
+TD95048 > ␅
+TD612294 ␆*
+TD109 > *
+TD98133 ? ␅
+TD2096051 ␆1
+TD141 ? 1
+TD206 questioning: poser
+TD155 ___ER -ADFILT? ␅
+TD2398165 ␆nnnYY
+TD48 ___ER -ADFILT? nnnYY
+TD119 attempt: POSER n n n Y Y
+TD94189 > ␅
+TD316083 ␆*
+TD101 > *
+TD92758 ? ␅
+TD1219387 ␆1
+TD99 ? 1
+TD179 questioning: umber
+TD150 ___ER -ADFILOPST? ␅
+TD3030545 ␆nYYYY
+TD163 ___ER -ADFILOPST? nYYYY
+TD317 attempt: UMBER n Y Y Y Y
+TD95212 > ␅
+TD548354 ␆*
+TD105 > *
+TD97080 questioning: ember
+TD76 _MBER -ADFILOPSTU? ␅
+TD2989182 ␆YYYYY
+TD113 _MBER -ADFILOPSTU? YYYYY
+TD252 attempt: EMBER Y Y Y Y Y
+TD101 > ␅
+TD12512924 ␆Mnnnn
+TD113 > Mnnnn
+TD224 > ␅
+TD2876820 ␆*
+TD103 > *
+TD99416 questioning: ember
+TD53 reset EMBER
+TD65 _____? ␅
+TD3500908 ␆Mnnnn
+TD170 _____? Mnnnn
+TD315 attempt: EMBER m n n n n
+TD126003 > ␅
+TD981074 ␆*
+TD130 > *
+TD107519 ? ␅
+TD6701281 ␆1
+TD119 ? 1
+TD219 questioning: setal
+TD172 _____ ~E -BMR E:1? ␅
+TD4276099 ␆nMnYM
+TD83 _____ ~E -BMR E:1? nMnYM
+TD194 attempt: SETAL n m n Y m
+TD100123 > ␅
+TD1160934 ␆*
+TD110 > *
+TD104452 ? ␅
+TD5160411 ␆1
+TD101 ? 1
+TD181 questioning: clean
+TD151 ___A_ ~EL -BMRST E:1? ␅
+TD2983230 ␆YYYYY
+TD123 ___A_ ~EL -BMRST E:1? YYYYY
+TD467 attempt: CLEAN Y Y Y Y Y
+TD189 > ␅
+TD6493549 ␆*
+TD134 > *
+TD102473 questioning: clean
+TD42 reset CLEAN
+TD48 _____? ␅
+TD5557795 ␆nMMMY
+TD96 _____? nMMMY
+TD233 attempt: CLEAN n m m m Y
+TD115882 > ␅
+TD2970150 ␆*
+TD121 > *
+TD117859 ? ␅
+TD1440960 ␆1
+TD55 ? 1
+TD92 questioning: laden
+TD68 ____N ~AEL -C? ␅
+TD2574535 ␆YYYYY
+TD88 ____N ~AEL -C? YYYYY
+TD225 attempt: LADEN Y Y Y Y Y
+TD85 > ␅
+TD1792577 ␆*
+TD118 > *
+TD103615 questioning: laden
+TD51 reset LADEN
+TD58 _____? ␅
+TD6888851 ␆nnnMn
+TD98 _____? nnnMn
+TD632 attempt: LADEN n n n m n
+TD101866 > ␅
+TD4899224 ␆*
+TD108 > *
+TD115888 ? ␅
+TD3054774 ␆10
+TD136 ? 10
+TD231 questioning: setup
+TD170 _____ ~E -ADLN? ␅
+TD3014904 ␆nYnYn
+TD124 _____ ~E -ADLN? nYnYn
+TD313 attempt: SETUP n Y n Y n
+TD95458 > ␅
+TD1133372 ␆*
+TD131 > *
+TD94470 ? ␅
+TD2289421 ␆2
+TD120 ? 2
+TD236 questioning: femur
+TD190 _E_U_ -ADLNPST? ␅
+TD3253285 ␆nYnYM
+TD115 _E_U_ -ADLNPST? nYnYM
+TD328 attempt: FEMUR n Y n Y m
+TD99014 > ␅
+TD1116380 ␆*
+TD93 > *
+TD97312 ? ␅
+TD4051179 ␆2
+TD72 ? 2
+TD128 questioning: revue
+TD89 _E_U_ ~R -ADFLMNPST? ␅
+TD2539669 ␆YYYYY
+TD67 _E_U_ ~R -ADFLMNPST? YYYYY
+TD137 attempt: REVUE Y Y Y Y Y
+TD48 > ␅
+TD944213 ␆*
+TD118 > *
+TD96650 questioning: revue
+TD34 reset REVUE
+TD66 _____? ␅
+TD2390556 ␆nnnnn
+TD103 _____? nnnnn
+TD204 attempt: REVUE n n n n n
+TD97658 > ␅
+TD2468814 ␆*
+TD152 > *
+TD117376 ? ␅
+TD5268980 ␆6
+TD94 ? 6
+TD160 questioning: bloat
+TD122 _____ -ERUV? ␅
+TD2794331 ␆nnnnn
+TD156 _____ -ERUV? nnnnn
+TD317 attempt: BLOAT n n n n n
+TD97462 > ␅
+TD3845854 ␆*
+TD123 > *
+TD104799 ? ␅
+TD2845589 ␆3
+TD135 ? 3
+TD235 questioning: spicy
+TD191 _____ -ABELORTUV? ␅
+TD7560993 ␆nnYnY
+TD101 _____ -ABELORTUV? nnYnY
+TD265 attempt: SPICY n n Y n Y
+TD98687 > ␅
+TD1352544 ␆*
+TD128 > *
+TD101342 questioning: whiny
+TD106 __I_Y -ABCELOPRSTUV? ␅
+TD5154937 ␆YYYYY
+TD155 __I_Y -ABCELOPRSTUV? YYYYY
+TD275 attempt: WHINY Y Y Y Y Y
+TD108 > ␅
+TD3676261 ␆*
+TD178 > *
+TD96303 questioning: whiny
+TD42 reset WHINY
+TD59 _____? ␅
+TD3309770 ␆nMnnn
+TD142 _____? nMnnn
+TD387 attempt: WHINY n m n n n
+TD103686 > ␅
+TD3326685 ␆*
+TD110 > *
+TD114589 ? ␅
+TD2963335 ␆5
+TD53 ? 5
+TD97 questioning: heros
+TD72 _____ ~H -INWY? ␅
+TD5646140 ␆MnnnM
+TD93 _____ ~H -INWY? MnnnM
+TD238 attempt: HEROS m n n n m
+TD116904 > ␅
+TD19541254 ␆*
+TD115 > *
+TD129698 ? ␅
+TD1548383 ␆2
+TD107 ? 2
+TD255 questioning: plush
+TD161 _____ ~HS -EINORWY? ␅
+TD2741926 ␆nnnYY
+TD150 _____ ~HS -EINORWY? nnnYY
+TD677 attempt: PLUSH n n n Y Y
+TD91552 > ␅
+TD3469365 ␆*
+TD157 > *
+TD113872 ? ␅
+TD1657816 ␆2
+TD163 ? 2
+TD301 questioning: smash
+TD215 ___SH -EILNOPRUWY? ␅
+TD2482892 ␆YYYYY
+TD98 ___SH -EILNOPRUWY? YYYYY
+TD234 attempt: SMASH Y Y Y Y Y
+TD99 > ␅
+TD2156845 ␆*
+TD177 > *
+TD101834 questioning: smash
+TD61 reset SMASH
+TD58 _____? ␅
+TD2488425 ␆nnYnn
+TD85 _____? nnYnn
+TD208 attempt: SMASH n n Y n n
+TD99392 > ␅
+TD885450 ␆*
+TD148 > *
+TD106421 ? ␅
+TD3746409 ␆1
+TD91 ? 1
+TD183 questioning: learn
+TD155 __A__ -HMS? ␅
+TD4015433 ␆nnYnM
+TD112 __A__ -HMS? nnYnM
+TD290 attempt: LEARN n n Y n m
+TD103683 > ␅
+TD27082081 ␆*
+TD91 > *
+TD107906 ? ␅
+TD2114878 ␆1
+TD117 ? 1
+TD217 questioning: giant
+TD206 __A__ ~N -EHLMRS? ␅
+TD2465979 ␆YYYYY
+TD128 __A__ ~N -EHLMRS? YYYYY
+TD286 attempt: GIANT Y Y Y Y Y
+TD133 > ␅
+TD2119208 ␆*
+TD112 > *
+TD96622 questioning: giant
+TD45 reset GIANT
+TD85 _____? ␅
+TD2244145 ␆nMnMn
+TD89 _____? nMnMn
+TD223 attempt: GIANT n m n m n
+TD125820 > ␅
+TD1025502 ␆*
+TD99 > *
+TD119413 ? ␅
+TD1321592 ␆2
+TD50 ? 2
+TD83 questioning: sonic
+TD62 _____ ~IN -AGT? ␅
+TD2766937 ␆nYMYn
+TD85 _____ ~IN -AGT? nYMYn
+TD237 attempt: SONIC n Y m Y n
+TD102221 > ␅
+TD668441 ␆(
+TD86 > (
+TD144 > ␅
+TD721179 ␆*
+TD94 > *
+TD102292 ? ␅
+TD1597610 ␆2
+TD113 ? 2
+TD189 questioning: robin
+TD158 _O_I_ ~N -ACGST? ␅
+TD2690002 ␆YYYYY
+TD97 _O_I_ ~N -ACGST? YYYYY
+TD241 attempt: ROBIN Y Y Y Y Y
+TD122 > ␅
+TD1385220 ␆*
+TD126 > *
+TD102697 questioning: robin
+TD42 reset ROBIN
+TD70 _____? ␅
+TD2143012 ␆nnMnn
+TD109 _____? nnMnn
+TD277 attempt: ROBIN n n m n n
+TD103223 > ␅
+TD998561 ␆*
+TD121 > *
+TD113300 ? ␅
+TD7367438 ␆4
+TD126 ? 4
+TD215 questioning: blest
+TD170 _____ ~B -INOR? ␅
+TD2911610 ␆YYMnn
+TD120 _____ ~B -INOR? YYMnn
+TD315 attempt: BLEST Y Y m n n
+TD92719 > ␅
+TD526775 ␆*
+TD139 > *
+TD95445 ? ␅
+TD993863 ␆1
+TD144 ? 1
+TD279 questioning: blade
+TD190 BL___ ~E -INORST? ␅
+TD4978112 ␆YYYnY
+TD125 BL___ ~E -INORST? YYYnY
+TD305 attempt: BLADE Y Y Y n Y
+TD95810 > ␅
+TD447506 ␆*
+TD58 > *
+TD96034 ? ␅
+TD915165 ␆1
+TD127 ? 1
+TD218 questioning: blame
+TD181 BLA_E -DINORST? ␅
+TD2728743 ␆YYYnY
+TD127 BLA_E -DINORST? YYYnY
+TD304 attempt: BLAME Y Y Y n Y
+TD95089 > ␅
+TD353160 ␆*
+TD168 > *
+TD99121 questioning: blaze
+TD108 BLA_E -DIMNORST? ␅
+TD2377042 ␆YYYYY
+TD102 BLA_E -DIMNORST? YYYYY
+TD256 attempt: BLAZE Y Y Y Y Y
+TD97 > ␅
+TD1384939 ␆
+TD105 > 
+TD152 > ␅
+TD564678 ␆*
+TD105 > *
+TD98044 questioning: blaze
+TD43 reset BLAZE
+TD57 _____? ␅
+TD5278010 ␆nnYnn
+TD95 _____? nnYnn
+TD257 attempt: BLAZE n n Y n n
+TD98021 > ␅
+TD621307 ␆*
+TD90 > *
+TD96006 ? ␅
+TD4856409 ␆7
+TD102 ? 7
+TD196 questioning: track
+TD176 __A__ -BELZ? ␅
+TD3106582 ␆MMYnn
+TD107 __A__ -BELZ? MMYnn
+TD273 attempt: TRACK m m Y n n
+TD108890 > ␅
+TD431749 ␆*
+TD43 > *
+TD101316 ? ␅
+TD1231364 ␆1
+TD127 ? 1
+TD329 questioning: stair
+TD207 __A__ ~RT -BCEKLZ? ␅
+TD3916059 ␆MMYnM
+TD109 __A__ ~RT -BCEKLZ? MMYnM
+TD280 attempt: STAIR m m Y n m
+TD100828 > ␅
+TD879242 ␆*
+TD98 > *
+TD102378 questioning: roast
+TD82 __A__ ~RST -BCEIKLZ? ␅
+TD2727194 ␆YYYYY
+TD114 __A__ ~RST -BCEIKLZ? YYYYY
+TD301 attempt: ROAST Y Y Y Y Y
+TD312 > ␅
+TD2210542 ␆*
+TD121 > *
+TD103512 questioning: roast
+TD56 reset ROAST
+TD58 _____? ␅
+TD3825800 ␆nnnYn
+TD154 _____? nnnYn
+TD392 attempt: ROAST n n n Y n
+TD96244 > ␅
+TD883650 ␆*
+TD139 > *
+TD94665 ? ␅
+TD2653650 ␆4
+TD91 ? 4
+TD171 questioning: pulse
+TD118 ___S_ -AORT? ␅
+TD2949018 ␆nYnYY
+TD135 ___S_ -AORT? nYnYY
+TD347 attempt: PULSE n Y n Y Y
+TD97694 > ␅
+TD1542944 ␆*
+TD172 > *
+TD98490 questioning: guise
+TD118 _U_SE -ALOPRT? ␅
+TD5139482 ␆YYYYY
+TD198 _U_SE -ALOPRT? YYYYY
+TD351 attempt: GUISE Y Y Y Y Y
+TD143 > ␅
+TD4024644 ␆*
+TD106 > *
+TD90903 questioning: guise
+TD32 reset GUISE
+TD58 _____? ␅
+TD1335618 ␆YYnMn
+TD130 _____? YYnMn
+TD267 attempt: GUISE Y Y n m n
+TD94598 > ␅
+TD1119895 ␆*
+TD93 > *
+TD102794 ? ␅
+TD5305075 ␆6
+TD149 ? 6
+TD276 questioning: gulps
+TD195 GU___ ~S -EI? ␅
+TD8019492 ␆YYnnM
+TD123 GU___ ~S -EI? YYnnM
+TD298 attempt: GULPS Y Y n n m
+TD97787 > ␅
+TD1296636 ␆*
+TD103 > *
+TD98169 ? ␅
+TD3228476 ␆2
+TD46 ? 2
+TD80 questioning: gusto
+TD51 GU___ ~S -EILP? ␅
+TD3343036 ␆YYYYn
+TD118 GU___ ~S -EILP? YYYYn
+TD279 attempt: GUSTO Y Y Y Y n
+TD104667 > ␅
+TD375025 ␆*
+TD99 > *
+TD98688 questioning: gusty
+TD79 GUST_ -EILOP? ␅
+TD2683052 ␆YYYYY
+TD97 GUST_ -EILOP? YYYYY
+TD244 attempt: GUSTY Y Y Y Y Y
+TD102 > ␅
+TD1212148 ␆*
+TD100 > *
+TD94279 questioning: gusty
+TD31 reset GUSTY
+TD49 _____? ␅
+TD2138912 ␆nnnnn
+TD128 _____? nnnnn
+TD350 attempt: GUSTY n n n n n
+TD100133 > ␅
+TD804867 ␆*
+TD84 > *
+TD104962 ? ␅
+TD974922 ␆1
+TD110 ? 1
+TD200 questioning: radio
+TD161 _____ -GSTUY? ␅
+TD2440479 ␆nnnnM
+TD146 _____ -GSTUY? nnnnM
+TD353 attempt: RADIO n n n n m
+TD101662 > ␅
+TD479492 ␆*
+TD102 > *
+TD102327 ? ␅
+TD1450804 ␆2
+TD120 ? 2
+TD156 questioning: clown
+TD126 _____ ~O -ADGIRSTUY? ␅
+TD3814483 ␆nnMMY
+TD52 _____ ~O -ADGIRSTUY? nnMMY
+TD109 attempt: CLOWN n n m m Y
+TD104322 > ␅
+TD1020987 ␆*
+TD93 > *
+TD103732 ? ␅
+TD2184478 ␆2
+TD117 ? 2
+TD207 questioning: women
+TD182 ____N ~OW -ACDGILRSTUY? ␅
+TD2873515 ␆YYnYY
+TD107 ____N ~OW -ACDGILRSTUY? YYnYY
+TD329 attempt: WOMEN Y Y n Y Y
+TD106589 > ␅
+TD342403 ␆*
+TD110 > *
+TD94995 ? ␅
+TD2061459 ␆2
+TD112 ? 2
+TD209 questioning: woven
+TD170 WO_EN -ACDGILMRSTUY? ␅
+TD2553943 ␆YYYYY
+TD136 WO_EN -ACDGILMRSTUY? YYYYY
+TD295 attempt: WOVEN Y Y Y Y Y
+TD134 > ␅
+TD676428 ␆*
+TD97 > *
+TD96589 questioning: woven
+TD58 reset WOVEN
+TD54 _____? ␅
+TD4424867 ␆nnnMn
+TD105 _____? nnnMn
+TD260 attempt: WOVEN n n n m n
+TD106557 > ␅
+TD603823 ␆*
+TD156 > *
+TD115906 ? ␅
+TD1358576 ␆2
+TD138 ? 2
+TD230 questioning: fears
+TD183 _____ ~E -NOVW? ␅
+TD3270565 ␆nYnMM
+TD121 _____ ~E -NOVW? nYnMM
+TD293 attempt: FEARS n Y n m m
+TD106283 > ␅
+TD719692 ␆*
+TD104 > *
+TD106314 ? ␅
+TD4296620 ␆4
+TD173 ? 4
+TD410 questioning: serum
+TD229 _E___ ~RS -AFNOVW? ␅
+TD8609008 ␆MYYnn
+TD173 _E___ ~RS -AFNOVW? MYYnn
+TD797 attempt: SERUM m Y Y n n
+TD104021 > ␅
+TD1917921 ␆*
+TD209 > *
+TD110886 ? ␅
+TD1276382 ␆2
+TD123 ? 2
+TD177 questioning: terse
+TD137 _ER__ ~S -AFMNOUVW? ␅
+TD3225986 ␆YYYYY
+TD117 _ER__ ~S -AFMNOUVW? YYYYY
+TD246 attempt: TERSE Y Y Y Y Y
+TD101 > ␅
+TD5894920 ␆*
+TD59 > *
+TD109427 questioning: terse
+TD53 reset TERSE
+TD57 _____? ␅
+TD6130691 ␆nMMnn
+TD109 _____? nMMnn
+TD271 attempt: TERSE n m m n n
+TD120490 > ␅
+TD794615 ␆*
+TD102 > *
+TD130792 ? ␅
+TD4257168 ␆7
+TD62 ? 7
+TD113 questioning: raped
+TD95 _____ ~ER -ST E:1? ␅
+TD3572133 ␆MnnYY
+TD126 _____ ~ER -ST E:1? MnnYY
+TD304 attempt: RAPED m n n Y Y
+TD103217 > ␅
+TD339071 ␆*
+TD89 > *
+TD97505 ? ␅
+TD22200799 ␆7
+TD100 ? 7
+TD171 questioning: urged
+TD138 ___ED ~R -APST? ␅
+TD3048961 ␆nYnYY
+TD95 ___ED ~R -APST? nYnYY
+TD237 attempt: URGED n Y n Y Y
+TD98172 > ␅
+TD387136 ␆*
+TD79 > *
+TD97444 ? ␅
+TD2334784 ␆1
+TD142 ? 1
+TD242 questioning: cried
+TD226 _R_ED -AGPSTU? ␅
+TD4192669 ␆nYYYY
+TD87 _R_ED -AGPSTU? nYYYY
+TD236 attempt: CRIED n Y Y Y Y
+TD94013 > ␅
+TD346639 ␆*
+TD126 > *
+TD99083 ? ␅
+TD2226276 ␆1
+TD112 ? 1
+TD182 questioning: fried
+TD145 _RIED -ACGPSTU? ␅
+TD3066672 ␆YYYYY
+TD101 _RIED -ACGPSTU? YYYYY
+TD231 attempt: FRIED Y Y Y Y Y
+TD94 > ␅
+TD2568167 ␆*
+TD159 > *
+TD119107 questioning: fried
+TD67 reset FRIED
+TD61 _____? ␅
+TD2867515 ␆nYnYM
+TD93 _____? nYnYM
+TD253 attempt: FRIED n Y n Y m
+TD102932 > ␅
+TD2481274 ␆*
+TD130 > *
+TD104476 ? ␅
+TD3233902 ␆4
+TD110 ? 4
+TD213 questioning: order
+TD142 _R_E_ ~D -FI? ␅
+TD2945092 ␆YYYYY
+TD92 _R_E_ ~D -FI? YYYYY
+TD233 attempt: ORDER Y Y Y Y Y
+TD93 > ␅
+TD1104761 ␆*
+TD98 > *
+TD94019 questioning: order
+TD35 reset ORDER
+TD51 _____? ␅
+TD2223150 ␆Mnnnn
+TD291 _____? Mnnnn
+TD323 attempt: ORDER m n n n n
+TD105620 > ␅
+TD5586354 ␆*
+TD150 > *
+TD114512 ? ␅
+TD1185313 ␆1
+TD54 ? 1
+TD95 questioning: sloth
+TD66 _____ ~O -DER? ␅
+TD3450446 ␆nnMMn
+TD99 _____ ~O -DER? nnMMn
+TD283 attempt: SLOTH n n m m n
+TD125126 > ␅
+TD669586 ␆*
+TD99 > *
+TD114363 ? ␅
+TD2879458 ␆3
+TD119 ? 3
+TD213 questioning: patio
+TD169 _____ ~OT -DEHLRS? ␅
+TD2683794 ␆YYYYY
+TD154 _____ ~OT -DEHLRS? YYYYY
+TD408 attempt: PATIO Y Y Y Y Y
+TD145 > ␅
+TD2430666 ␆*
+TD210 > *
+TD97001 questioning: patio
+TD40 reset PATIO
+TD58 _____? ␅
+TD9435632 ␆nMMnn
+TD102 _____? nMMnn
+TD265 attempt: PATIO n m m n n
+TD125195 > ␅
+TD24884367 ␆*
+TD110 > *
+TD128700 ? ␅
+TD4026416 ␆1
+TD198 ? 1
+TD266 questioning: meats
+TD203 _____ ~AT -IOP? ␅
+TD4224052 ␆nMMMn
+TD155 _____ ~AT -IOP? nMMMn
+TD365 attempt: MEATS n m m m n
+TD118147 > ␅
+TD1323163 ␆*
+TD97 > *
+TD118881 ? ␅
+TD967158 ␆1
+TD93 ? 1
+TD185 questioning: alert
+TD181 _____ ~AET -IMOPS? ␅
+TD2716747 ␆YnYnY
+TD216 _____ ~AET -IMOPS? YnYnY
+TD1274 attempt: ALERT Y n Y n Y
+TD99787 > ␅
+TD478538 ␆*
+TD97 > *
+TD92838 ? ␅
+TD1084619 ␆1
+TD107 ? 1
+TD296 questioning: agent
+TD173 A_E_T -ILMOPRS? ␅
+TD2332669 ␆YYYYY
+TD91 A_E_T -ILMOPRS? YYYYY
+TD216 attempt: AGENT Y Y Y Y Y
+TD92 > ␅
+TD6370564 ␆*
+TD116 > *
+TD102635 questioning: agent
+TD63 reset AGENT
+TD66 _____? ␅
+TD3214319 ␆nnMMY
+TD114 _____? nnMMY
+TD277 attempt: AGENT n n m m Y
+TD110302 > ␅
+TD4957491 ␆*
+TD118 > *
+TD120793 ? ␅
+TD1053776 ␆1
+TD75 ? 1
+TD94 questioning: unset
+TD66 ____T ~EN -AG? ␅
+TD2747711 ␆nYYYY
+TD109 ____T ~EN -AG? nYYYY
+TD275 attempt: UNSET n Y Y Y Y
+TD101190 > ␅
+TD1211233 ␆*
+TD103 > *
+TD95049 ? ␅
+TD1107906 ␆1
+TD150 ? 1
+TD304 questioning: inset
+TD190 _NSET -AGU? ␅
+TD2629810 ␆nYYYY
+TD116 _NSET -AGU? nYYYY
+TD290 attempt: INSET n Y Y Y Y
+TD99859 > ␅
+TD382720 ␆*
+TD142 > *
+TD93880 questioning: onset
+TD108 _NSET -AGIU? ␅
+TD3014716 ␆YYYYY
+TD109 _NSET -AGIU? YYYYY
+TD262 attempt: ONSET Y Y Y Y Y
+TD125 > ␅
+TD4151253 ␆*
+TD132 > *
+TD98172 questioning: onset
+TD55 reset ONSET
+TD60 _____? ␅
+TD3315316 ␆nnMnn
+TD85 _____? nnMnn
+TD209 attempt: ONSET n n m n n
+TD106065 > ␅
+TD3252078 ␆*
+TD134 > *
+TD112792 ? ␅
+TD3737960 ␆1
+TD104 ? 1
+TD183 questioning: rials
+TD147 _____ ~S -ENOT? ␅
+TD6199854 ␆MnYnM
+TD113 _____ ~S -ENOT? MnYnM
+TD297 attempt: RIALS m n Y n m
+TD115347 > ␅
+TD1612311 ␆*
+TD115 > *
+TD112205 ? ␅
+TD1439176 ␆1
+TD111 ? 1
+TD203 questioning: crash
+TD171 __A__ ~RS -EILNOT? ␅
+TD3286888 ␆nMYMn
+TD135 __A__ ~RS -EILNOT? nMYMn
+TD325 attempt: CRASH n m Y m n
+TD107449 > ␅
+TD1119277 ␆*
+TD94 > *
+TD111768 ? ␅
+TD1718445 ␆1
+TD125 ? 1
+TD210 questioning: swarm
+TD172 __A__ ~RS -CEHILNOT? ␅
+TD3305765 ␆YnYYn
+TD97 __A__ ~RS -CEHILNOT? YnYYn
+TD258 attempt: SWARM Y n Y Y n
+TD94287 > ␅
+TD438137 ␆*
+TD150 > *
+TD97557 questioning: spark
+TD109 S_AR_ -CEHILMNOTW? ␅
+TD4601000 ␆YYYYY
+TD100 S_AR_ -CEHILMNOTW? YYYYY
+TD242 attempt: SPARK Y Y Y Y Y
+TD96 > ␅
+TD2793084 ␆*
+TD81 > *
+TD98054 questioning: spark
+TD47 reset SPARK
+TD59 _____? ␅
+TD3353613 ␆nnnnn
+TD127 _____? nnnnn
+TD276 attempt: SPARK n n n n n
+TD94318 > ␅
+TD6519788 ␆*
+TD113 > *
+TD112070 ? ␅
+TD3617474 ␆2
+TD111 ? 2
+TD284 questioning: dingo
+TD265 _____ -AKPRS? ␅
+TD9973342 ␆nnnYn
+TD108 _____ -AKPRS? nnnYn
+TD289 attempt: DINGO n n n Y n
+TD115107 > ␅
+TD1148413 ␆*
+TD167 > *
+TD99895 ? ␅
+TD1451194 ␆1
+TD119 ? 1
+TD389 questioning: bulge
+TD251 ___G_ -ADIKNOPRS? ␅
+TD3791393 ␆nnMYM
+TD151 ___G_ -ADIKNOPRS? nnMYM
+TD317 attempt: BULGE n n m Y m
+TD104090 > ␅
+TD5224354 ␆*
+TD103 > *
+TD107537 ? ␅
+TD1884749 ␆1
+TD113 ? 1
+TD198 questioning: elegy
+TD165 ___G_ ~EL -ABDIKNOPRSU? ␅
+TD5942863 ␆YYYYY
+TD132 ___G_ ~EL -ABDIKNOPRSU? YYYYY
+TD343 attempt: ELEGY Y Y Y Y Y
+TD124 > ␅
+TD1754277 ␆*
+TD96 > *
+TD101273 questioning: elegy
+TD49 reset ELEGY
+TD79 _____? ␅
+TD4190479 ␆nnnnn
+TD148 _____? nnnnn
+TD886 attempt: ELEGY n n n n n
+TD97477 > ␅
+TD3065998 ␆*
+TD125 > *
+TD120331 ? ␅
+TD914445 ␆1
+TD84 ? 1
+TD161 questioning: riots
+TD134 _____ -EGLY? ␅
+TD3477706 ␆MnMnn
+TD100 _____ -EGLY? MnMnn
+TD256 attempt: RIOTS m n m n n
+TD122545 > ␅
+TD6720553 ␆*
+TD87 > *
+TD123882 ? ␅
+TD857075 ␆1
+TD131 ? 1
+TD341 questioning: macro
+TD234 _____ ~OR -EGILSTY? ␅
+TD3115045 ␆nMnMY
+TD120 _____ ~OR -EGILSTY? nMnMY
+TD503 attempt: MACRO n m n m Y
+TD105212 > ␅
+TD1080143 ␆*
+TD149 > *
+TD108736 questioning: bravo
+TD101 ____O ~AR -CEGILMSTY? ␅
+TD4010333 ␆YYYYY
+TD160 ____O ~AR -CEGILMSTY? YYYYY
+TD413 attempt: BRAVO Y Y Y Y Y
+TD154 > ␅
+TD1245006 ␆*
+TD93 > *
+TD93026 questioning: bravo
+TD33 reset BRAVO
+TD48 _____? ␅
+TD2425239 ␆nnMnn
+TD143 _____? nnMnn
+TD378 attempt: BRAVO n n m n n
+TD103003 > ␅
+TD5437957 ␆*
+TD73 > *
+TD123614 ? ␅
+TD2993801 ␆4
+TD108 ? 4
+TD186 questioning: lapse
+TD149 _____ ~A -BORV? ␅
+TD2467421 ␆nYnnn
+TD125 _____ ~A -BORV? nYnnn
+TD299 attempt: LAPSE n Y n n n
+TD98806 > ␅
+TD864812 ␆*
+TD92 > *
+TD100654 ? ␅
+TD2653896 ␆4
+TD110 ? 4
+TD205 questioning: faint
+TD159 _A___ -BELOPRSV? ␅
+TD2554695 ␆nYnnn
+TD86 _A___ -BELOPRSV? nYnnn
+TD222 attempt: FAINT n Y n n n
+TD95046 > ␅
+TD2810424 ␆*
+TD132 > *
+TD100475 ? ␅
+TD5605860 ␆9
+TD118 ? 9
+TD238 questioning: wacky
+TD187 _A___ -BEFILNOPRSTV? ␅
+TD4218520 ␆nYnnY
+TD90 _A___ -BEFILNOPRSTV? nYnnY
+TD223 attempt: WACKY n Y n n Y
+TD94922 > ␅
+TD337914 ␆*
+TD86 > *
+TD98955 ? ␅
+TD4227998 ␆1
+TD95 ? 1
+TD186 questioning: gaudy
+TD132 _A__Y -BCEFIKLNOPRSTVW? ␅
+TD3964277 ␆nYnnY
+TD126 _A__Y -BCEFIKLNOPRSTVW? nYnnY
+TD380 attempt: GAUDY n Y n n Y
+TD95369 > ␅
+TD587320 ␆*
+TD109 > *
+TD95757 ? ␅
+TD6498583 ␆2
+TD110 ? 2
+TD188 questioning: jazzy
+TD158 _A__Y -BCDEFGIKLNOPRSTUVW? ␅
+TD4329521 ␆nYnnY
+TD101 _A__Y -BCDEFGIKLNOPRSTUVW? nYnnY
+TD285 attempt: JAZZY n Y n n Y
+TD100897 > ␅
+TD11970572 ␆/res
+TD339 > /res
+TD395 📋> ␅
+TD789429 ␆I got a score of 32 on the daily INFINIDLE #1557! Can you beat my score? https://devbanana.itch.io/infinidle
+TD97 📋> I got a score of 32 on the daily INFINIDLE #1557! Can you beat my score? https://devbanana.itch.io/infinidle
+TD24 📋> ␅
+TD172726 ␄
+TD201 pasted: {"subject": "content", "method": "read:must:stdin", "content": "I got a score of 32 on the daily INFINIDLE #1557! Can you beat my score? https://devbanana.itch.io/infinidle"}
+T0.058560022996971384 now: 2026-07-07T07:45:31EDT
+TD85 questioning: jazzy
+TD119907 > ␅
+TD1484982 ␆/store
+TD100 > /store
+TD364 🔗 site ? ␅
+TD9123944 ␆https://devbanana.itch.io/infinidle
+TD118 🔗 site ? https://devbanana.itch.io/infinidle
+TD71 site: https://devbanana.itch.io/infinidle
+TD132 📆 2026-07-07 ? ␅
+TD20233294 ␆2026-07-06
+TD105 📆 2026-07-07 ? 2026-07-06
+TD7235 🧩 id (default: 2026-07-06) ? ␅
+TD1874303 ␆
+TD247 🧩 id (default: 2026-07-06) ? 
+TD88 puzzle_id: 2026-07-06
