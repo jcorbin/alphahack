@@ -1,0 +1,109 @@
+T248.40708071002155 now: 2026-07-07T07:57:43EDT
+TD161 site: alphaguess.com
+TD148672 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 69c8a52269a82848112c74c78d38c53e6be48835
+TD78  ...␅
+TD422695 ␆
+TD85  ...
+TD166 [0 : 98214 : 196520] mach? ␅
+TD9615168 ␆
+TD150 [0 : 98214 : 196520] mach? 
+TD174 [0 : 98214 : 196520] mach? ␅
+TD2861930 ␆a
+TD105 [0 : 98214 : 196520] mach? a
+TD118 progress: 1 98214 mach
+TD301 [98215 : 147364 : 196520] rhotic? ␅
+TD1802861 ␆a
+TD49 [98215 : 147364 : 196520] rhotic? a
+TD45 progress: 1 147364 rhotic
+TD47 [147365 : 171634 : 196520] ta? ␅
+TD1883742 ␆a
+TD107 [147365 : 171634 : 196520] ta? a
+TD125 progress: 1 171634 ta
+TD181 [171635 : 181998 : 196520] un? ␅
+TD1818851 ␆a
+TD109 [171635 : 181998 : 196520] un? a
+TD139 progress: 1 181998 un
+TD471 [181999 : 189260 : 196520] vicar? ␅
+TD2342958 ␆b
+TD100 [181999 : 189260 : 196520] vicar? b
+TD122 progress: -1 189260 vicar
+TD581 [181999 : 185628 : 189260] unretire? ␅
+TD2674458 ␆a
+TD259 [181999 : 185628 : 189260] unretire? a
+TD163 progress: 1 185628 unretire
+TD137 [185629 : 187409 : 189260] us? ␅
+TD1913115 ␆a
+TD87 [185629 : 187409 : 189260] us? a
+TD97 progress: 1 187409 us
+TD189 [187410 : 188335 : 189260] veal? ␅
+TD2094516 ␆b
+TD145 [187410 : 188335 : 189260] veal? b
+TD158 progress: -1 188335 veal
+TD580 [187410 : 187872 : 188335] vambrace? ␅
+TD2991107 ␆b
+TD111 [187410 : 187872 : 188335] vambrace? b
+TD128 progress: -1 187872 vambrace
+TD156 [187410 : 187580 : 187872] vac? ␅
+TD1889314 ␆a
+TD126 [187410 : 187580 : 187872] vac? a
+TD110 progress: 1 187580 vac
+TD260 [187581 : 187726 : 187872] valance? ␅
+TD2669249 ␆a
+TD214 [187581 : 187726 : 187872] valance? a
+TD193 progress: 1 187726 valance
+TD464 [187727 : 187796 : 187872] vallecula? ␅
+TD2391254 ␆b
+TD80 [187727 : 187796 : 187872] vallecula? b
+TD74 progress: -1 187796 vallecula
+TD201 [187727 : 187761 : 187796] valguses? ␅
+TD2139792 ␆b
+TD127 [187727 : 187761 : 187796] valguses? b
+TD139 progress: -1 187761 valguses
+TD147 [187727 : 187730 : 187761] vale? ␅
+TD1961530 ␆a
+TD94 [187727 : 187730 : 187761] vale? a
+TD107 progress: 1 187730 vale
+TD304 [187731 : 187746 : 187761] valerates? ␅
+TD2104841 ␆b
+TD101 [187731 : 187746 : 187761] valerates? b
+TD119 progress: -1 187746 valerates
+TD346 [187731 : 187738 : 187746] valences? ␅
+TD3260287 ␆a
+TD129 [187731 : 187738 : 187746] valences? a
+TD150 progress: 1 187738 valences
+TD336 [187739 : 187742 : 187746] valency? ␅
+TD1944601 ␆a
+TD88 [187739 : 187742 : 187746] valency? a
+TD99 progress: 1 187742 valency
+TD236 [187743 : 187744 : 187746] valentines? ␅
+TD2770719 ␆b
+TD100 [187743 : 187744 : 187746] valentines? b
+TD119 progress: -1 187744 valentines
+TD318 [187743 : 187743 : 187744] valentine? ␅
+TD3748717 ␆it
+TD107 [187743 : 187743 : 187744] valentine? it
+TD150 progress: 0 187743 valentine
+TD45 [187743 : 187743 : 187744] <Done>.
+TD130 📋> ␅
+TD3058846 ␆🧩 Puzzle #1079
+TD123 📋> 🧩 Puzzle #1079
+TD29 📋> ␅
+TD70 ␆🤔 19 guesses
+TD26 📋> 🤔 19 guesses
+TD21 📋> ␅
+TD43 ␆⏱️ 40s
+TD24 📋> ⏱️ 40s
+TD20 📋> ␅
+TD286252 ␆🔗 alphaguess.com/1079
+TD83 📋> 🔗 alphaguess.com/1079
+TD22 📋> ␅
+TD180502 ␄
+TD161 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1079\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 40s\n\ud83d\udd17 alphaguess.com/1079"}
+TD110 result: "\ud83e\udde9 Puzzle #1079\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 40s\n\ud83d\udd17 alphaguess.com/1079"
+TD28 result puzzle: 1079
+TD19 result guesses: 19
+TD17 result time: 40s
+TD16 result link: alphaguess.com/1079
+TD97 📆 2026-07-07 ? ␅
+TD154738 ␆
+TD113 📆 2026-07-07 ? 
