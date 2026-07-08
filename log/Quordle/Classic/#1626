@@ -1,0 +1,184 @@
+T376.89504592699814 now: 2026-07-08T07:33:49EDT
+TD237 site: https://www.merriam-webster.com/games/quordle/#/
+TD44 wordlist: nwl2023.txt
+TD15 num_words: 4
+TD235  ...␅
+TD2685269 ␆
+TD112  ...
+TD546929 > ␅
+TD4131786 ␆*
+TD97 > *
+TD52384 ? ␅
+TD816162 ␆1
+TD109 ? 1
+TD201 questioning: raise
+TD187 Classic #1 _____? ␅
+TD2846198 ␆nnnYn
+TD90 Classic #1 _____? nnnYn
+TD390 attempt: 0 RAISE n n n Y n
+TD114 Classic #2 _____? ␅
+TD1403389 ␆MnnnM
+TD115 Classic #2 _____? MnnnM
+TD341 attempt: 1 RAISE m n n n m
+TD145 Classic #3 _____? ␅
+TD1184019 ␆nnMnnM
+TD101 Classic #3 _____? nMnnM
+TD252 attempt: 2 RAISE n m n n m
+TD121 Classic #4 _____? ␅
+TD1720932 <INT>
+T41.418855437001184 now: 2026-07-08T07:34:47EDT
+TD82 questioning: raise
+TD51 Classic #4 _____? ␅
+TD5577234 ␆nMnnn
+TD92 Classic #4 _____? nMnnn
+TD386 attempt: 3 RAISE n m n n n
+TD502851 > ␅
+TD875324 ␆*
+TD90 > *
+TD5250 ? ␅
+TD1796194 ␆2
+TD93 ? 2
+TD210 questioning: cloak
+TD195 Classic #1 ___S_ -AEIR? ␅
+TD3218294 ␆nnYnn
+TD92 Classic #1 ___S_ -AEIR? nnYnn
+TD235 attempt: 0 CLOAK n n Y n n
+TD111 Classic #2 _____ ~ER -AIS? ␅
+TD2515944 ␆nnnnn
+TD87 Classic #2 _____ ~ER -AIS? nnnnn
+TD217 attempt: 1 CLOAK n n n n n
+TD111 Classic #3 _____ ~AE -IRS? ␅
+TD1330983 ␆nMnMn
+TD98 Classic #3 _____ ~AE -IRS? nMnMn
+TD214 attempt: 2 CLOAK n m n m n
+TD107 Classic #4 _____ ~A -EIRS? ␅
+TD1922425 ␆nYYMn
+TD105 Classic #4 _____ ~A -EIRS? nYYMn
+TD298 attempt: 3 CLOAK n Y Y m n
+TD460758 > ␅
+TD768029 ␆*
+TD100 > *
+TD2185 ? ␅
+TD1227447 ␆1
+TD72 ? 1
+TD131 questioning: demur
+TD107 Classic #1 __OS_ -ACEIKLR? ␅
+TD2476893 ␆nnnnn
+TD104 Classic #1 __OS_ -ACEIKLR? nnnnn
+TD283 attempt: 0 DEMUR n n n n n
+TD145 Classic #2 _____ ~ER -ACIKLOS? ␅
+TD1233166 ␆MMnnM
+TD128 Classic #2 _____ ~ER -ACIKLOS? MMnnM
+TD353 attempt: 1 DEMUR m m n n m
+TD182 Classic #3 _____ ~AEL -CIKORS? ␅
+TD1111904 ␆nMnnn
+TD80 Classic #3 _____ ~AEL -CIKORS? nMnnn
+TD202 attempt: 2 DEMUR n m n n n
+TD111 Classic #4 _LO__ ~A -CEIKRS? ␅
+TD999564 ␆nnnnn
+TD93 Classic #4 _LO__ ~A -CEIKRS? nnnnn
+TD225 attempt: 3 DEMUR n n n n n
+TD462177 > ␅
+TD897325 ␆*
+TD138 > *
+TD853 ? ␅
+TD5937047 ␆6
+TD96 ? 6
+TD139 questioning: breed
+TD129 Classic #1 __OS_ -ACDEIKLMRU? ␅
+TD3883796 ␆nnnnn
+TD88 Classic #1 __OS_ -ACDEIKLMRU? nnnnn
+TD201 attempt: 0 BREED n n n n n
+TD112 Classic #2 _____ ~DER -ACIKLMOSU? ␅
+TD1228307 ␆nYYnY
+TD130 Classic #2 _____ ~DER -ACIKLMOSU? nYYnY
+TD319 attempt: 1 BREED n Y Y n Y
+TD196 Classic #3 _____ ~AEL -CDIKMORSU? ␅
+TD1899885 ␆nnMnn
+TD105 Classic #3 _____ ~AEL -CDIKMORSU? nnMnn
+TD256 attempt: 2 BREED n n m n n
+TD133 Classic #4 _LO__ ~A -CDEIKMRSU? ␅
+TD880462 ␆nnnnn
+TD94 Classic #4 _LO__ ~A -CDEIKMRSU? nnnnn
+TD223 attempt: 3 BREED n n n n n
+TD435873 > ␅
+TD994760 ␆
+TD99 > 
+TD157 > ␅
+TD507245 ␆*
+TD89 > *
+TD381 questioning: trend
+TD138 Classic #1 __OS_ -ABCDEIKLMRU? ␅
+TD3116129 ␆Mnnnn
+TD109 Classic #1 __OS_ -ABCDEIKLMRU? Mnnnn
+TD267 attempt: 0 TREND m n n n n
+TD167 Classic #2 _RE_D -ABCIKLMOSU? ␅
+TD1181860 ␆YYYYY
+TD119 Classic #2 _RE_D -ABCIKLMOSU? YYYYY
+TD230 attempt: 1 TREND Y Y Y Y Y
+TD152 Classic #3 _____ ~AEL -BCDIKMORSU E:1? ␅
+TD1582222 ␆MnMnn
+TD116 Classic #3 _____ ~AEL -BCDIKMORSU E:1? MnMnn
+TD365 attempt: 2 TREND m n m n n
+TD264 Classic #4 _LO__ ~A -BCDEIKMRSU? ␅
+TD1046139 ␆nnnYn
+TD97 Classic #4 _LO__ ~A -BCDEIKMRSU? nnnYn
+TD272 attempt: 3 TREND n n n Y n
+TD304714 > ␅
+TD686757 ␆*
+TD88 > *
+TD424 questioning: exalt
+TD199 Classic #1 __OS_ ~T -ABCDEIKLMNRU? ␅
+TD2932733 ␆nnnnY
+TD130 Classic #1 __OS_ ~T -ABCDEIKLMNRU? nnnnY
+TD388 attempt: 0 EXALT n n n n Y
+TD225 Classic #3 _____ ~AELT -BCDIKMNORSU E:1? ␅
+TD1943784 ␆YYYYY
+TD105 Classic #3 _____ ~AELT -BCDIKMNORSU E:1? YYYYY
+TD327 attempt: 2 EXALT Y Y Y Y Y
+TD220 Classic #4 _LON_ ~A -BCDEIKMRSTU? ␅
+TD1301281 ␆nnMMn
+TD91 Classic #4 _LON_ ~A -BCDEIKMRSTU? nnMMn
+TD242 attempt: 3 EXALT n n m m n
+TD206949 > ␅
+TD962139 ␆*
+TD72 > *
+TD319 questioning: ghost
+TD98 Classic #1 __OST -ABCDEIKLMNRUX? ␅
+TD3244961 ␆YYYYY
+TD113 Classic #1 __OST -ABCDEIKLMNRUX? YYYYY
+TD300 attempt: 0 GHOST Y Y Y Y Y
+TD175 Classic #4 _LON_ ~A -BCDEIKMRSTUX? ␅
+TD1762450 ␆MnYnn
+TD128 Classic #4 _LON_ ~A -BCDEIKMRSTUX? MnYnn
+TD327 attempt: 3 GHOST m n Y n n
+TD106309 > ␅
+TD804996 ␆*
+TD101 > *
+TD393 questioning: along
+TD130 Classic #4 _LON_ ~AG -BCDEHIKMRSTUX? ␅
+TD4817022 ␆YYYYY
+TD81 Classic #4 _LON_ ~AG -BCDEHIKMRSTUX? YYYYY
+TD177 attempt: 3 ALONG Y Y Y Y Y
+TD96 📋> ␅
+TD3517762 ␆🙂 Daily Quordle 1626
+TD69 📋> 🙂 Daily Quordle 1626
+TD16 📋> ␅
+TD47 ␆7️⃣5️⃣
+TD8 📋> 7️⃣5️⃣
+TD7 📋> ␅
+TD14 ␆6️⃣8️⃣
+TD6 📋> 6️⃣8️⃣
+TD6 📋> ␅
+TD13 ␆m-w.com/games/quordle/
+TD6 📋> m-w.com/games/quordle/
+TD6 📋> ␅
+TD236307 ␆
+TD90 📋> 
+TD17 📋> ␅
+TD129675 ␄
+TD191 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1626\n7\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2489 result: "\ud83d\ude42 Daily Quordle 1626\n7\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD94 📆 2026-07-08 ? ␅
+TD141239 ␆
+TD107 📆 2026-07-08 ? 
