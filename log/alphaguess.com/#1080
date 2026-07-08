@@ -1,0 +1,85 @@
+T60.432942392999394 now: 2026-07-08T07:28:33EDT
+TD182 site: alphaguess.com
+TD170923 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 40d0969b42a195b7a75473f7bf03e9b339077413
+TD84  ...␅
+TD715045 ␆
+TD100  ...
+TD168 [0 : 98214 : 196520] mach? ␅
+TD4400849 ␆
+TD124 [0 : 98214 : 196520] mach? 
+TD152 [0 : 98214 : 196520] mach? ␅
+TD3811424 ␆a
+TD75 [0 : 98214 : 196520] mach? a
+TD105 progress: 1 98214 mach
+TD249 [98215 : 147364 : 196520] rhotic? ␅
+TD1396973 ␆b
+TD82 [98215 : 147364 : 196520] rhotic? b
+TD95 progress: -1 147364 rhotic
+TD109 [98215 : 122775 : 147364] parr? ␅
+TD1435587 ␆b
+TD92 [98215 : 122775 : 147364] parr? b
+TD100 progress: -1 122775 parr
+TD105 [98215 : 109931 : 122775] ne? ␅
+TD1323316 ␆a
+TD98 [98215 : 109931 : 122775] ne? a
+TD115 progress: 1 109931 ne
+TD138 [109932 : 116349 : 122775] orchard? ␅
+TD2852503 ␆b
+TD101 [109932 : 116349 : 122775] orchard? b
+TD102 progress: -1 116349 orchard
+TD136 [109932 : 111481 : 116349] no? ␅
+TD1473780 ␆a
+TD156 [109932 : 111481 : 116349] no? a
+TD214 progress: 1 111481 no
+TD476 [111482 : 113844 : 116349] nu? ␅
+TD1479855 ␆b
+TD81 [111482 : 113844 : 116349] nu? b
+TD92 progress: -1 113844 nu
+TD514 [111482 : 112663 : 113844] nonlegumes? ␅
+TD1398363 ␆a
+TD87 [111482 : 112663 : 113844] nonlegumes? a
+TD105 progress: 1 112663 nonlegumes
+TD496 [112664 : 113253 : 113844] nontheist? ␅
+TD1354182 ␆a
+TD121 [112664 : 113253 : 113844] nontheist? a
+TD117 progress: 1 113253 nontheist
+TD212 [113254 : 113549 : 113844] nos? ␅
+TD1431742 ␆a
+TD131 [113254 : 113549 : 113844] nos? a
+TD133 progress: 1 113549 nos
+TD136 [113550 : 113620 : 113844] not? ␅
+TD1572179 ␆a
+TD96 [113550 : 113620 : 113844] not? a
+TD106 progress: 1 113620 not
+TD218 [113621 : 113732 : 113844] notturno? ␅
+TD1461741 ␆b
+TD85 [113621 : 113732 : 113844] notturno? b
+TD101 progress: -1 113732 notturno
+TD103 [113621 : 113665 : 113732] note? ␅
+TD3301538 ␆it
+TD128 [113621 : 113665 : 113732] note? it
+TD149 progress: 0 113665 note
+TD44 [113621 : 113665 : 113732] <Done>.
+TD126 📋> ␅
+TD3192125 ␆🧩 Puzzle #1080
+TD99 📋> 🧩 Puzzle #1080
+TD15 📋> ␅
+TD52 ␆🤔 13 guesses
+TD9 📋> 🤔 13 guesses
+TD8 📋> ␅
+TD18 ␆⏱️ 18s
+TD8 📋> ⏱️ 18s
+TD7 📋> ␅
+TD1126363 ␆🔗 alphaguess.com/1080
+TD99 📋> 🔗 alphaguess.com/1080
+TD26 📋> ␅
+TD451634 ␄
+TD375 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1080\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1080"}
+TD148 result: "\ud83e\udde9 Puzzle #1080\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1080"
+TD22 result puzzle: 1080
+TD10 result guesses: 13
+TD7 result time: 18s
+TD9 result link: alphaguess.com/1080
+TD83 📆 2026-07-08 ? ␅
+TD318828 ␆
+TD215 📆 2026-07-08 ? 
