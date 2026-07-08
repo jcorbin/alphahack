@@ -1,0 +1,221 @@
+T30.301076914998703 now: 2026-07-08T07:55:40EDT
+TD153 site: squareword.org
+TD35 wordlist: nwl2023.txt
+TD52  ...␅
+TD689437 ␆
+TD99  ...
+TD74 🧩  ? ␅
+TD11199120 ␆#1619
+TD87 🧩  ? #1619
+TD237 puzzle_id: #1619
+TD290 > ␅
+TD913958 ␆*
+TD171 > *
+TD246712 try? ␅
+TD1798715 ␆2
+TD87 try? 2
+TD329 questioning: ["bares", "#5"]
+TD406 #1 <IndexError>  📋 "bares" ? ␅
+TD3563978 ␆_____ ~ AS
+TD184 #1 <IndexError>  📋 "bares" ? _____ ~ AS
+TD1169 attempt 0 BARES n m n n m
+TD170 #2 <IndexError>  📋 "bares" ? ␅
+TD1565703 ␆__R__ ~ RE
+TD122 #2 <IndexError>  📋 "bares" ? __R__ ~ RE
+TD354 attempt 1 BARES n n Y m n
+TD150 #3 <IndexError>  📋 "bares" ? ␅
+TD2222889 ␆___E_ ~ AR
+TD123 #3 <IndexError>  📋 "bares" ? ___E_ ~ AR
+TD403 attempt 2 BARES n m m Y n
+TD148 #4 <IndexError>  📋 "bares" ? ␅
+TD1766259 ␆_____ ~AE
+TD98 #4 <IndexError>  📋 "bares" ? _____ ~AE
+TD323 attempt 3 BARES n m n m n
+TD145 #5 <IndexError>  📋 "bares" ? ␅
+TD6177418 ␆_A__S ~ A
+TD124 #5 <IndexError>  📋 "bares" ? _A__S ~ A
+TD323 attempt 4 BARES n Y n n Y
+TD431 ? ␅
+TD336497 ␆
+TD95 ? 
+TD158 question done
+TD322 > ␅
+TD994082 ␆*
+TD91 > *
+TD889475 try? ␅
+TD1828709 ␆1
+TD152 try? 1
+TD343 questioning: ["aider", "#3"]
+TD485 #1 _____ ~AS -BER  📋 "aider" ? ␅
+TD2834773 ␆.
+TD130 #1 _____ ~AS -BER  📋 "aider" ? .
+TD428 attempt 0 AIDER m n n n n
+TD147 #2 __R__ ~E -ABS  📋 "aider" ? ␅
+TD2945291 ␆__R__ ~ RE
+TD124 #2 __R__ ~E -ABS  📋 "aider" ? __R__ ~ RE
+TD368 attempt 1 AIDER n n n m m
+TD181 #3 ___E_ ~AR -BS  📋 "aider" ? ␅
+TD1732871 ␆A__ER
+TD107 #3 ___E_ ~AR -BS  📋 "aider" ? A__ER
+TD282 attempt 2 AIDER Y n n Y Y
+TD167 #4 _____ ~AE -BRS  📋 "aider" ? ␅
+TD2892825 ␆_____ ~ AEI
+TD128 #4 _____ ~AE -BRS  📋 "aider" ? _____ ~ AEI
+TD305 attempt 3 AIDER m m n m n
+TD161 #5 _A__S -BER  📋 "aider" ? ␅
+TD3680979 ␆_A__S ~ A
+TD110 #5 _A__S -BER  📋 "aider" ? _A__S ~ A
+TD290 attempt 4 AIDER m n n n n
+TD467 ? ␅
+TD382003 ␆
+TD100 ? 
+TD138 question done
+TD362 > ␅
+TD443288 ␆*
+TD142 > *
+TD694703 try? ␅
+TD1180382 ␆1
+TD91 try? 1
+TD277 questioning: ["anger", "#3"]
+TD427 #1 _____ ~AS -BDEIR  📋 "anger" ? ␅
+TD2853893 ␆.
+TD127 #1 _____ ~AS -BDEIR  📋 "anger" ? .
+TD328 attempt 0 ANGER m n n n n
+TD121 #2 __R__ ~E -ABDIS  📋 "anger" ? ␅
+TD3490844 ␆__R__ ~ RE
+TD102 #2 __R__ ~E -ABDIS  📋 "anger" ? __R__ ~ RE
+TD295 attempt 1 ANGER n n n m m
+TD160 #3 A__ER -BDIS  📋 "anger" ? ␅
+TD699254 ␆/it
+TD97 #3 A__ER -BDIS  📋 "anger" ? /it
+TD269 attempt 2 ANGER Y Y Y Y Y
+TD106 #4 _____ ~AEI -BDRS  📋 "anger" ? ␅
+TD3832315 ␆_N___ ~ AEIN
+TD125 #4 _____ ~AEI -BDRS  📋 "anger" ? _N___ ~ AEIN
+TD282 attempt 3 ANGER m Y n m n
+TD154 #5 _A__S -BDEIR  📋 "anger" ? ␅
+TD2923954 ␆_A__S ~ AN
+TD105 #5 _A__S -BDEIR  📋 "anger" ? _A__S ~ AN
+TD292 attempt 4 ANGER m m n n n
+TD510 ? ␅
+TD276570 ␆
+TD188 ? 
+TD178 question done
+TD537 > ␅
+TD398686 ␆*
+TD53 > *
+TD598611 questioning: ["inane", "#4"]
+TD186 #1 _____ ~AS -BDEGINR  📋 "inane" ? ␅
+TD5170577 ␆.
+TD122 #1 _____ ~AS -BDEGINR  📋 "inane" ? .
+TD276 attempt 0 INANE n n m n n
+TD109 #2 __R__ ~E -ABDGINS  📋 "inane" ? ␅
+TD2541067 ␆__R__ ~ RE
+TD121 #2 __R__ ~E -ABDGINS  📋 "inane" ? __R__ ~ RE
+TD344 attempt 1 INANE n n n n m
+TD244 #4 _N___ ~AEI -BDGRS  📋 "inane" ? ␅
+TD636687 ␆/it
+TD120 #4 _N___ ~AEI -BDGRS  📋 "inane" ? /it
+TD281 attempt 3 INANE Y Y Y Y Y
+TD109 #5 _A__S ~N -BDEGIR  📋 "inane" ? ␅
+TD4046855 ␆_A__S ~ AN
+TD97 #5 _A__S ~N -BDEGIR  📋 "inane" ? _A__S ~ AN
+TD248 attempt 4 INANE n m m m n
+TD417 ? ␅
+TD830924 ␆
+TD148 ? 
+TD129 question done
+TD406 > ␅
+TD915213 ␆* 5
+TD276 > * 5
+TD452649 try? ␅
+TD814523 ␄
+TD96 <EOF>
+TD342 > ␅
+TD519618 ␆*
+TD96 > *
+TD1577188 try? ␅
+TD3716408 ␆2
+TD97 try? 2
+TD290 questioning: ["shoal", "#1"]
+TD434 #1 _____ ~AS -BDEGINR  📋 "shoal" ? ␅
+TD2229297 ␆/it
+TD115 #1 _____ ~AS -BDEGINR  📋 "shoal" ? /it
+TD345 attempt 0 SHOAL Y Y Y Y Y
+TD133 #2 __R__ ~E -ABDGINS  📋 "shoal" ? ␅
+TD3509579 ␆__R__ ~ RE
+TD103 #2 __R__ ~E -ABDGINS  📋 "shoal" ? __R__ ~ RE
+TD270 attempt 1 SHOAL n n n n n
+TD183 #5 _A__S ~N -BDEGIR  📋 "shoal" ? ␅
+TD3507060 ␆_A_AS ~ N
+TD93 #5 _A__S ~N -BDEGIR  📋 "shoal" ? _A_AS ~ N
+TD215 attempt 4 SHOAL n n n Y n
+TD372 ? ␅
+TD473457 ␆
+TD87 ? 
+TD113 question done
+TD361 > ␅
+TD621543 ␆*
+TD103 > *
+TD1554241 questioning: ["nanas", "#5"]
+TD224 #2 __R__ ~E -ABDGHILNOS  📋 "nanas" ? ␅
+TD9494332 ␆__R__ ~ RE
+TD104 #2 __R__ ~E -ABDGHILNOS  📋 "nanas" ? __R__ ~ RE
+TD272 attempt 1 NANAS n n n n n
+TD175 #5 _A_AS ~N -BDEGHILORS  📋 "nanas" ? ␅
+TD838291 ␆/it
+TD121 #5 _A_AS ~N -BDEGHILORS  📋 "nanas" ? /it
+TD236 attempt 4 NANAS Y Y Y Y Y
+TD351 ? ␅
+TD414518 ␆
+TD119 ? 
+TD140 question done
+TD479 > ␅
+TD516418 ␆*
+TD99 > *
+TD1046370 questioning: ["terry", "#2"]
+TD193 #2 __R__ ~E -ABDGHILNOS  📋 "terry" ? ␅
+TD4663615 ␆/it
+TD100 #2 __R__ ~E -ABDGHILNOS  📋 "terry" ? /it
+TD308 attempt 1 TERRY Y Y Y Y Y
+TD435 ? ␅
+TD477736 ␆
+TD86 ? 
+TD102 question done
+TD32754 📋> ␅
+TD4751241 ␆squareword.org 1619: 7 guesses
+TD76 📋> squareword.org 1619: 7 guesses
+TD15 📋> ␅
+TD46 ␆
+TD8 📋> 
+TD7 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD13 ␆🟨🟨🟩🟨🟨
+TD6 📋> 🟨🟨🟩🟨🟨
+TD6 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD14 ␆🟨🟩🟨🟩🟩
+TD6 📋> 🟨🟩🟨🟩🟩
+TD6 📋> ␅
+TD15 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD17 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD284532 ␆#squareword #squareword1619
+TD60 📋> #squareword #squareword1619
+TD7 📋> ␅
+TD172871 ␄
+TD190 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1619: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1619"}
+TD1968 result: "squareword.org 1619: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1619"
+TD108 📆 2026-07-08 ? ␅
+TD151575 ␆
+TD83 📆 2026-07-08 ? 
