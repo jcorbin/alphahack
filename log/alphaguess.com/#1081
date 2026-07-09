@@ -1,0 +1,77 @@
+T65.01573666699551 now: 2026-07-09T10:37:46EDT
+TD108 site: alphaguess.com
+TD164069 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 781901930a6fd916a32ef0467641d7a143f45c83
+TD98  ...␅
+TD53839 ␆
+TD41  ...
+TD80 [0 : 98214 : 196520] mach? ␅
+TD3787601 ␆
+TD58 [0 : 98214 : 196520] mach? 
+TD75 [0 : 98214 : 196520] mach? ␅
+TD2022796 ␆a
+TD92 [0 : 98214 : 196520] mach? a
+TD107 progress: 1 98214 mach
+TD345 [98215 : 147364 : 196520] rhotic? ␅
+TD3834168 ␆b
+TD70 [98215 : 147364 : 196520] rhotic? b
+TD76 progress: -1 147364 rhotic
+TD85 [98215 : 122775 : 147364] parr? ␅
+TD1558961 ␆b
+TD88 [98215 : 122775 : 147364] parr? b
+TD101 progress: -1 122775 parr
+TD104 [98215 : 109931 : 122775] ne? ␅
+TD1515290 ␆a
+TD129 [98215 : 109931 : 122775] ne? a
+TD146 progress: 1 109931 ne
+TD152 [109932 : 116349 : 122775] orchard? ␅
+TD1387735 ␆b
+TD99 [109932 : 116349 : 122775] orchard? b
+TD93 progress: -1 116349 orchard
+TD123 [109932 : 111481 : 116349] no? ␅
+TD1333599 ␆b
+TD104 [109932 : 111481 : 116349] no? b
+TD112 progress: -1 111481 no
+TD407 [109932 : 110703 : 111481] neuroglia? ␅
+TD1465842 ␆b
+TD89 [109932 : 110703 : 111481] neuroglia? b
+TD100 progress: -1 110703 neuroglia
+TD225 [109932 : 110317 : 110703] neoclassic? ␅
+TD1358074 ␆a
+TD151 [109932 : 110317 : 110703] neoclassic? a
+TD156 progress: 1 110317 neoclassic
+TD499 [110318 : 110511 : 110703] nerol? ␅
+TD1239542 ␆a
+TD97 [110318 : 110511 : 110703] nerol? a
+TD104 progress: 1 110511 nerol
+TD111 [110512 : 110576 : 110703] net? ␅
+TD1384780 ␆b
+TD82 [110512 : 110576 : 110703] net? b
+TD86 progress: -1 110576 net
+TD243 [110512 : 110540 : 110576] nervous? ␅
+TD3351006 ␆it
+TD95 [110512 : 110540 : 110576] nervous? it
+TD104 progress: 0 110540 nervous
+TD28 [110512 : 110540 : 110576] <Done>.
+TD94 📋> ␅
+TD2369508 ␆🧩 Puzzle #1081
+TD109 📋> 🧩 Puzzle #1081
+TD15 📋> ␅
+TD47 ␆🤔 11 guesses
+TD9 📋> 🤔 11 guesses
+TD8 📋> ␅
+TD18 ␆⏱️ 16s
+TD8 📋> ⏱️ 16s
+TD7 📋> ␅
+TD177268 ␆🔗 alphaguess.com/1081
+TD96 📋> 🔗 alphaguess.com/1081
+TD18 📋> ␅
+TD113660 ␄
+TD161 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1081\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1081"}
+TD98 result: "\ud83e\udde9 Puzzle #1081\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1081"
+TD18 result puzzle: 1081
+TD10 result guesses: 11
+TD9 result time: 16s
+TD7 result link: alphaguess.com/1081
+TD85 📆 2026-07-09 ? ␅
+TD145053 ␆
+TD101 📆 2026-07-09 ? 
