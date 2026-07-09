@@ -1,0 +1,235 @@
+T241.46673076799925 now: 2026-07-09T10:59:26EDT
+TD182 site: squareword.org
+TD46 wordlist: nwl2023.txt
+TD97  ...␅
+TD248172 ␆
+TD163  ...
+TD132 🧩  ? ␅
+TD7652983 ␆#1620
+TD74 🧩  ? #1620
+TD208 puzzle_id: #1620
+TD244 > ␅
+TD570800 ␆
+TD109 > 
+TD541 > ␅
+TD1985266 ␆* 
+TD113 > * 
+TD231413 try? ␅
+TD789009 ␆1
+TD78 try? 1
+TD273 questioning: ["paise", "#5"]
+TD386 #1 <IndexError>  📋 "paise" ? ␅
+TD17073794 ␆___S_ ~ AS
+TD120 #1 <IndexError>  📋 "paise" ? ___S_ ~ AS
+TD1018 attempt 0 PAISE n m n Y n
+TD177 #2 <IndexError>  📋 "paise" ? ␅
+TD3424501 ␆P____ ~ PA
+TD109 #2 <IndexError>  📋 "paise" ? P____ ~ PA
+TD328 attempt 1 PAISE Y m n n n
+TD132 #3 <IndexError>  📋 "paise" ? ␅
+TD2118362 ␆_____ ~ E
+TD60 #3 <IndexError>  📋 "paise" ? _____ ~ E
+TD155 attempt 2 PAISE n n n n m
+TD91 #4 <IndexError>  📋 "paise" ? ␅
+TD2518383 ␆____E ~ A
+TD143 #4 <IndexError>  📋 "paise" ? ____E ~ A
+TD398 attempt 3 PAISE n m n n Y
+TD247 #5 <IndexError>  📋 "paise" ? ␅
+TD2225556 ␆_____ ~ SE
+TD146 #5 <IndexError>  📋 "paise" ? _____ ~ SE
+TD438 attempt 4 PAISE n n n m m
+TD665 ? ␅
+TD361550 ␆
+TD119 ? 
+TD226 question done
+TD743 > ␅
+TD455205 ␆*
+TD87 > *
+TD775313 try? ␅
+TD2983848 ␆4
+TD119 try? 4
+TD312 questioning: ["angst", "#1"]
+TD385 #1 ___S_ ~A -EIP  📋 "angst" ? ␅
+TD8378592 ␆___S_ ~ AST
+TD108 #1 ___S_ ~A -EIP  📋 "angst" ? ___S_ ~ AST
+TD296 attempt 0 ANGST m n n Y m
+TD189 #2 P____ ~A -EIS  📋 "angst" ? ␅
+TD3867499 ␆P____ ~ PA
+TD68 #2 P____ ~A -EIS  📋 "angst" ? P____ ~ PA
+TD232 attempt 1 ANGST m n n n n
+TD132 #3 _____ ~E -AIPS  📋 "angst" ? ␅
+TD1010890 ␆.
+TD107 #3 _____ ~E -AIPS  📋 "angst" ? .
+TD353 attempt 2 ANGST n n n n n
+TD119 #4 ____E ~A -IPS  📋 "angst" ? ␅
+TD2844020 ␆A___E ~ NT
+TD106 #4 ____E ~A -IPS  📋 "angst" ? A___E ~ NT
+TD275 attempt 3 ANGST Y m n n m
+TD153 #5 _____ ~ES -AIP  📋 "angst" ? ␅
+TD2573553 ␆_____ ~ SENT
+TD115 #5 _____ ~ES -AIP  📋 "angst" ? _____ ~ SENT
+TD318 attempt 4 ANGST n m n m m
+TD485 ? ␅
+TD317240 ␆
+TD55 ? 
+TD64 question done
+TD135 > ␅
+TD432294 ␆*
+TD92 > *
+TD643041 questioning: ["stash", "#1"]
+TD155 #1 ___S_ ~AT -EGINP  📋 "stash" ? ␅
+TD2606173 ␆/it
+TD89 #1 ___S_ ~AT -EGINP  📋 "stash" ? /it
+TD248 attempt 0 STASH Y Y Y Y Y
+TD125 #2 P____ ~A -EGINST  📋 "stash" ? ␅
+TD3496202 ␆P____ ~ PA
+TD59 #2 P____ ~A -EGINST  📋 "stash" ? P____ ~ PA
+TD132 attempt 1 STASH n n m n n
+TD81 #3 _____ ~E -AGINPST  📋 "stash" ? ␅
+TD953759 ␆.
+TD88 #3 _____ ~E -AGINPST  📋 "stash" ? .
+TD246 attempt 2 STASH n n n n n
+TD101 #4 A___E ~NT -GIPS  📋 "stash" ? ␅
+TD2825319 ␆AT__E ~ N
+TD102 #4 A___E ~NT -GIPS  📋 "stash" ? AT__E ~ N
+TD262 attempt 3 STASH n Y n n n
+TD144 #5 _____ ~ENST -AGIP  📋 "stash" ? ␅
+TD829466 ␆.
+TD87 #5 _____ ~ENST -AGIP  📋 "stash" ? .
+TD1420 attempt 4 STASH m m n m n
+TD343 ? ␅
+TD146177 ␆
+TD121 ? 
+TD134 question done
+TD406 > ␅
+TD378060 ␆*
+TD99 > *
+TD739442 questioning: ["atone", "#4"]
+TD164 #2 P____ ~A -EGHINST  📋 "atone" ? ␅
+TD4896017 ␆P____ ~ PAO
+TD110 #2 P____ ~A -EGHINST  📋 "atone" ? P____ ~ PAO
+TD313 attempt 1 ATONE m n m n n
+TD213 #3 _____ ~E -AGHINPST  📋 "atone" ? ␅
+TD997261 ␆.
+TD112 #3 _____ ~E -AGHINPST  📋 "atone" ? .
+TD509 attempt 2 ATONE n n n n m
+TD160 #4 AT__E ~N -AGHIPS  📋 "atone" ? ␅
+TD746437 ␆/it
+TD162 #4 AT__E ~N -AGHIPS  📋 "atone" ? /it
+TD521 attempt 3 ATONE Y Y Y Y Y
+TD195 #5 _____ ~ENST -AGHIP  📋 "atone" ? ␅
+TD1020845 ␆.
+TD91 #5 _____ ~ENST -AGHIP  📋 "atone" ? .
+TD263 attempt 4 ATONE n m n m m
+TD344 ? ␅
+TD135657 ␆
+TD57 ? 
+TD60 question done
+TD162 > ␅
+TD383304 ␆*
+TD88 > *
+TD991096 try? ␅
+TD1912902 ␆1
+TD139 try? 1
+TD475 questioning: ["polka", "#2"]
+TD690 #2 P____ ~AO -EGHINST  📋 "polka" ? ␅
+TD6464672 ␆PO__A ~ P
+TD102 #2 P____ ~AO -EGHINST  📋 "polka" ? PO__A ~ P
+TD277 attempt 1 POLKA Y Y n n Y
+TD161 #3 _____ ~E -AGHINOPST  📋 "polka" ? ␅
+TD1235502 ␆.
+TD63 #3 _____ ~E -AGHINOPST  📋 "polka" ? .
+TD157 attempt 2 POLKA n n n n n
+TD54 #5 _____ ~ENST -AGHIOP  📋 "polka" ? ␅
+TD1014544 ␆.
+TD70 #5 _____ ~ENST -AGHIOP  📋 "polka" ? .
+TD210 attempt 4 POLKA n n n n n
+TD259 ? ␅
+TD162633 ␆
+TD81 ? 
+TD107 question done
+TD326 > ␅
+TD452792 ␆*
+TD103 > *
+TD2015902 questioning: ["poppa", "#2"]
+TD191 #2 PO__A -EGHIKLNST  📋 "poppa" ? ␅
+TD2895228 ␆/it
+TD72 #2 PO__A -EGHIKLNST  📋 "poppa" ? /it
+TD145 attempt 1 POPPA Y Y Y Y Y
+TD59 #3 _____ ~E -AGHIKLNOPST  📋 "poppa" ? ␅
+TD1141545 ␆.
+TD107 #3 _____ ~E -AGHIKLNOPST  📋 "poppa" ? .
+TD261 attempt 2 POPPA n n n n n
+TD109 #5 _____ ~ENST -AGHIKLOP  📋 "poppa" ? ␅
+TD541066 ␆.
+TD102 #5 _____ ~ENST -AGHIKLOP  📋 "poppa" ? .
+TD302 attempt 4 POPPA n n n n n
+TD452 ? ␅
+TD173458 ␆
+TD95 ? 
+TD120 question done
+TD312 > ␅
+TD375230 ␆*
+TD78 > *
+TD1579002 questioning: ["erred", "#3"]
+TD191 #3 _____ ~E -AGHIKLNOPST  📋 "erred" ? ␅
+TD3650836 ␆/it
+TD61 #3 _____ ~E -AGHIKLNOPST  📋 "erred" ? /it
+TD150 attempt 2 ERRED Y Y Y Y Y
+TD70 #5 _____ ~ENST -AGHIKLOP  📋 "erred" ? ␅
+TD3030210 ␆_____ ~ SENTR
+TD121 #5 _____ ~ENST -AGHIKLOP  📋 "erred" ? _____ ~ SENTR
+TD333 attempt 4 ERRED m m m m n
+TD617 ? ␅
+TD1571928 ␆
+TD193 ? 
+TD238 question done
+TD840 > ␅
+TD574642 ␆*
+TD88 > *
+TD1050713 questioning: ["rents", "#5"]
+TD175 #5 _____ ~ENRST -ADGHIKLOP  📋 "rents" ? ␅
+TD3059591 ␆/it
+TD123 #5 _____ ~ENRST -ADGHIKLOP  📋 "rents" ? /it
+TD354 attempt 4 RENTS Y Y Y Y Y
+TD484 ? ␅
+TD608328 ␆
+TD147 ? 
+TD124 question done
+TD30849 📋> ␅
+TD5553434 ␆squareword.org 1620: 8 guesses
+TD77 📋> squareword.org 1620: 8 guesses
+TD15 📋> ␅
+TD78 ␆
+TD9 📋> 
+TD7 📋> ␅
+TD28 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD26 ␆🟩🟩🟨🟨🟩
+TD7 📋> 🟩🟩🟨🟨🟩
+TD6 📋> ␅
+TD22 ␆🟨🟨🟨🟨🟨
+TD7 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD22 ␆🟨🟨🟨🟨🟨
+TD6 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD22 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD24 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD23 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> ␅
+TD210038 ␆#squareword #squareword1620
+TD94 📋> #squareword #squareword1620
+TD21 📋> ␅
+TD123176 ␄
+TD203 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1620: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1620"}
+TD1511 result: "squareword.org 1620: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1620"
+TD114 📆 2026-07-09 ? ␅
+TD118127 ␆
+TD93 📆 2026-07-09 ? 
