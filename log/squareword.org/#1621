@@ -1,0 +1,255 @@
+T410.3816267700022 now: 2026-07-10T08:28:06EDT
+TD191 site: squareword.org
+TD42 wordlist: nwl2023.txt
+TD61  ...␅
+TD9884925 ␆
+TD105  ...
+TD83 🧩  ? ␅
+TD2045756 ␆#1621
+TD83 🧩  ? #1621
+TD198 puzzle_id: #1621
+TD161 > ␅
+TD937848 ␆*
+TD124 > *
+TD235292 try? ␅
+TD1048863 ␆1
+TD105 try? 1
+TD361 questioning: ["tears", "#5"]
+TD422 #1 <IndexError>  📋 "tears" ? ␅
+TD5016749 ␆____S ~ AS
+TD87 #1 <IndexError>  📋 "tears" ? ____S ~ AS
+TD336 attempt 0 TEARS n n m n Y
+TD62 #2 <IndexError>  📋 "tears" ? ␅
+TD2199132 ␆_____ ~ RS
+TD110 #2 <IndexError>  📋 "tears" ? _____ ~ RS
+TD369 attempt 1 TEARS n n n m m
+TD185 #3 <IndexError>  📋 "tears" ? ␅
+TD2228339 ␆__A__ ~ EA
+TD113 #3 <IndexError>  📋 "tears" ? __A__ ~ EA
+TD364 attempt 2 TEARS n m Y n n
+TD181 #4 <IndexError>  📋 "tears" ? ␅
+TD1930846 ␆_____ ~ ER
+TD151 #4 <IndexError>  📋 "tears" ? _____ ~ ER
+TD489 attempt 3 TEARS n m n m n
+TD233 #5 <IndexError>  📋 "tears" ? ␅
+TD2132375 ␆__A__ ~ TS
+TD126 #5 <IndexError>  📋 "tears" ? __A__ ~ TS
+TD640 attempt 4 TEARS m n Y n m
+TD625 ? ␅
+TD351177 ␆
+TD124 ? 
+TD182 question done
+TD480 > ␅
+TD592283 ␆*
+TD149 > *
+TD726093 try? ␅
+TD1051146 ␆1
+TD99 try? 1
+TD364 questioning: ["slant", "#5"]
+TD1903 #1 ____S ~A -ERT  📋 "slant" ? ␅
+TD3731453 ␆S___S ~ A
+TD142 #1 ____S ~A -ERT  📋 "slant" ? S___S ~ A
+TD354 attempt 0 SLANT Y n m n n
+TD177 #2 _____ ~RS -AET  📋 "slant" ? ␅
+TD968574 ␆.
+TD210 #2 _____ ~RS -AET  📋 "slant" ? .
+TD577 attempt 1 SLANT m n n n n
+TD205 #3 __A__ ~E -RST  📋 "slant" ? ␅
+TD2718504 ␆__A__ ~ EA
+TD185 #3 __A__ ~E -RST  📋 "slant" ? __A__ ~ EA
+TD529 attempt 2 SLANT n n Y n n
+TD273 #4 _____ ~ER -AST  📋 "slant" ? ␅
+TD623723 ␆.
+TD119 #4 _____ ~ER -AST  📋 "slant" ? .
+TD382 attempt 3 SLANT n n n n n
+TD131 #5 __A__ ~ST -ER  📋 "slant" ? ␅
+TD1998584 ␆S_AN_ ~ T
+TD87 #5 __A__ ~ST -ER  📋 "slant" ? S_AN_ ~ T
+TD243 attempt 4 SLANT Y n Y Y m
+TD368 ? ␅
+TD306333 ␆
+TD93 ? 
+TD112 question done
+TD319 > ␅
+TD2092930 ␆*
+TD102 > *
+TD678917 try? ␅
+TD3382845 ␄
+TD151 <EOF>
+TD548 > ␅
+TD1431585 ␆* 1
+TD136 > * 1
+TD4620 try? ␅
+TD7708304 ␄
+TD133 <EOF>
+TD432 > ␅
+TD1935819 ␆* 4
+TD91 > * 4
+TD5661 try? ␅
+TD7700143 ␆3
+TD105 try? 3
+TD343 questioning: ["dirge", "#4"]
+TD510 #1 S___S ~A -ELNRT  📋 "dirge" ? ␅
+TD6618494 ␆S___S ~ AG
+TD119 #1 S___S ~A -ELNRT  📋 "dirge" ? S___S ~ AG
+TD375 attempt 0 DIRGE n n n m n
+TD193 #2 _____ ~RS -AELNT  📋 "dirge" ? ␅
+TD1477844 ␆.
+TD82 #2 _____ ~RS -AELNT  📋 "dirge" ? .
+TD240 attempt 1 DIRGE n n m n n
+TD91 #3 __A__ ~E -LNRST  📋 "dirge" ? ␅
+TD3192706 ␆__A_E ~ AG
+TD110 #3 __A__ ~E -LNRST  📋 "dirge" ? __A_E ~ AG
+TD295 attempt 2 DIRGE n n n m Y
+TD169 #4 _____ ~ER -ALNST  📋 "dirge" ? ␅
+TD1081020 ␆.
+TD111 #4 _____ ~ER -ALNST  📋 "dirge" ? .
+TD477 attempt 3 DIRGE n n m n m
+TD149 #5 S_AN_ ~T -ELR  📋 "dirge" ? ␅
+TD3135022 ␆S_AN_ ~ TD
+TD197 #5 S_AN_ ~T -ELR  📋 "dirge" ? S_AN_ ~ TD
+TD680 attempt 4 DIRGE m n n n n
+TD1098 ? ␅
+TD345122 ␆
+TD115 ? 
+TD291 question done
+TD503 > ␅
+TD798336 ␆*
+TD100 > *
+TD594942 questioning: ["crush", "#2"]
+TD158 #1 S___S ~AG -DEILNRT  📋 "crush" ? ␅
+TD3869912 ␆.
+TD78 #1 S___S ~AG -DEILNRT  📋 "crush" ? .
+TD254 attempt 0 CRUSH n n n n n
+TD101 #2 _____ ~RS -ADEGILNT  📋 "crush" ? ␅
+TD710584 ␆/it
+TD77 #2 _____ ~RS -ADEGILNT  📋 "crush" ? /it
+TD232 attempt 1 CRUSH Y Y Y Y Y
+TD94 #3 __A_E ~G -DILNRST  📋 "crush" ? ␅
+TD3823257 ␆__A_E ~ AG
+TD103 #3 __A_E ~G -DILNRST  📋 "crush" ? __A_E ~ AG
+TD246 attempt 2 CRUSH n n n n n
+TD155 #4 _____ ~ER -ADGILNST  📋 "crush" ? ␅
+TD8985911 ␆.
+TD135 #4 _____ ~ER -ADGILNST  📋 "crush" ? .
+TD399 attempt 3 CRUSH n m n n n
+TD168 #5 S_AN_ ~DT -EGILR  📋 "crush" ? ␅
+TD2004934 ␆.
+TD198 #5 S_AN_ ~DT -EGILR  📋 "crush" ? .
+TD459 attempt 4 CRUSH n n n n n
+TD603 ? ␅
+TD172696 ␆
+TD107 ? 
+TD100 question done
+TD352 > ␅
+TD527540 ␆*
+TD103 > *
+TD1875937 questioning: ["sagas", "#1"]
+TD160 #1 S___S ~AG -CDEHILNRSTU  📋 "sagas" ? ␅
+TD2837385 ␆/it
+TD100 #1 S___S ~AG -CDEHILNRSTU  📋 "sagas" ? /it
+TD276 attempt 0 SAGAS Y Y Y Y Y
+TD148 #3 __A_E ~G -CDHILNRSTU  📋 "sagas" ? ␅
+TD4445778 ␆__A_E ~ AG
+TD122 #3 __A_E ~G -CDHILNRSTU  📋 "sagas" ? __A_E ~ AG
+TD236 attempt 2 SAGAS n m m m n
+TD150 #4 _____ ~ER -ACDGHILNSTU  📋 "sagas" ? ␅
+TD1079739 ␆.
+TD92 #4 _____ ~ER -ACDGHILNSTU  📋 "sagas" ? .
+TD268 attempt 3 SAGAS n n n n n
+TD113 #5 S_AN_ ~DT -CEGHILRSU  📋 "sagas" ? ␅
+TD1187595 ␆.
+TD95 #5 S_AN_ ~DT -CEGHILRSU  📋 "sagas" ? .
+TD257 attempt 4 SAGAS Y n n n n
+TD380 ? ␅
+TD156124 ␆
+TD85 ? 
+TD102 question done
+TD327 > ␅
+TD381865 ␆*
+TD158 > *
+TD1461556 questioning: ["agape", "#3"]
+TD183 #3 __A_E ~G -CDHILNRSTU  📋 "agape" ? ␅
+TD2762703 ␆/it
+TD130 #3 __A_E ~G -CDHILNRSTU  📋 "agape" ? /it
+TD325 attempt 2 AGAPE Y Y Y Y Y
+TD154 #4 _____ ~ER -ACDGHILNSTU  📋 "agape" ? ␅
+TD1267974 ␆.
+TD99 #4 _____ ~ER -ACDGHILNSTU  📋 "agape" ? .
+TD326 attempt 3 AGAPE n n n n m
+TD149 #5 S_AN_ ~DT -ACEGHILRU  📋 "agape" ? ␅
+TD628224 ␆.
+TD142 #5 S_AN_ ~DT -ACEGHILRU  📋 "agape" ? .
+TD409 attempt 4 AGAPE n n Y n n
+TD648 ? ␅
+TD216760 ␆
+TD114 ? 
+TD138 question done
+TD1003 > ␅
+TD414190 ␆*
+TD107 > *
+TD1227346 questioning: ["stand", "#5"]
+TD178 #4 _____ ~ER -ACDGHILNPSTU  📋 "stand" ? ␅
+TD3143615 ␆.
+TD80 #4 _____ ~ER -ACDGHILNPSTU  📋 "stand" ? .
+TD263 attempt 3 STAND n n n n n
+TD111 #5 S_AN_ ~DT -CEGHILPRU  📋 "stand" ? ␅
+TD706785 ␆/it
+TD99 #5 S_AN_ ~DT -CEGHILPRU  📋 "stand" ? /it
+TD276 attempt 4 STAND Y Y Y Y Y
+TD448 ? ␅
+TD171360 ␆
+TD84 ? 
+TD101 question done
+TD413 > ␅
+TD434774 ␆*
+TD123 > *
+TD1062485 try? ␅
+TD10197246 ␆1
+TD102 try? 1
+TD512 questioning: ["mover", "#4"]
+TD426 #4 _____ ~ER -ACDGHILNPSTU  📋 "mover" ? ␅
+TD3138282 ␆/it
+TD90 #4 _____ ~ER -ACDGHILNPSTU  📋 "mover" ? /it
+TD254 attempt 3 MOVER Y Y Y Y Y
+TD355 ? ␅
+TD893554 ␆
+TD56 ? 
+TD57 question done
+TD29710 📋> ␅
+TD5767381 ␆squareword.org 1621: 8 guesses
+TD106 📋> squareword.org 1621: 8 guesses
+TD19 📋> ␅
+TD103 ␆
+TD13 📋> 
+TD10 📋> ␅
+TD37 ␆🟩🟩🟩🟩🟩
+TD11 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD32 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD30 ␆🟨🟨🟩🟨🟩
+TD10 📋> 🟨🟨🟩🟨🟩
+TD9 📋> ␅
+TD51 ␆🟨🟨🟨🟨🟨
+TD9 📋> 🟨🟨🟨🟨🟨
+TD9 📋> ␅
+TD32 ␆🟩🟨🟩🟩🟨
+TD11 📋> 🟩🟨🟩🟩🟨
+TD9 📋> ␅
+TD35 ␆
+TD10 📋> 
+TD9 📋> ␅
+TD55 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD12 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> ␅
+TD216708 ␆#squareword #squareword1621
+TD170 📋> #squareword #squareword1621
+TD32 📋> ␅
+TD600496 ␄
+TD166 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1621: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1621"}
+TD1390 result: "squareword.org 1621: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1621"
+TD103 📆 2026-07-10 ? ␅
+TD195279 ␆
+TD80 📆 2026-07-10 ? 
