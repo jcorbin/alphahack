@@ -1,0 +1,218 @@
+T657.0709315819986 now: 2026-07-11T09:38:30EDT
+TD220 site: squareword.org
+TD61 wordlist: nwl2023.txt
+TD78  ...␅
+TD4091711 ␆
+TD101  ...
+TD81 🧩  ? ␅
+TD667601 ␆
+TD122 🧩  ? 
+TD188  ...␅
+TD617834 ␆
+TD159  ...
+TD126 🧩  ? ␅
+TD1663564 ␆#1622
+TD125 🧩  ? #1622
+TD293 puzzle_id: #1622
+TD349 > ␅
+TD1001661 ␆*
+TD127 > *
+TD256496 try? ␅
+TD775184 ␆1
+TD88 try? 1
+TD307 questioning: ["seral", "#5"]
+TD339 #1 <IndexError>  📋 "seral" ? ␅
+TD5430621 ␆S____ ~ R
+TD114 #1 <IndexError>  📋 "seral" ? S____ ~ R
+TD887 attempt 0 SERAL Y n m n n
+TD140 #2 <IndexError>  📋 "seral" ? ␅
+TD4795503 ␆_____ ~ ER
+TD188 #2 <IndexError>  📋 "seral" ? _____ ~ ER
+TD444 attempt 1 SERAL n m m n n
+TD238 #3 <IndexError>  📋 "seral" ? ␅
+TD2860996 ␆_____ ~ E
+TD118 #3 <IndexError>  📋 "seral" ? _____ ~ E
+TD333 attempt 2 SERAL n m n n n
+TD165 #4 <IndexError>  📋 "seral" ? ␅
+TD2409907 ␆__R__ ~ E
+TD99 #4 <IndexError>  📋 "seral" ? __R__ ~ E
+TD273 attempt 3 SERAL n m Y n n
+TD144 #5 <IndexError>  📋 "seral" ? ␅
+TD2581682 ␆_____ ~ R
+TD106 #5 <IndexError>  📋 "seral" ? _____ ~ R
+TD322 attempt 4 SERAL n n m n n
+TD450 ? ␅
+TD334216 ␆
+TD174 ? 
+TD206 question done
+TD460 > ␅
+TD531395 ␆*
+TD95 > *
+TD722685 try? ␅
+TD759071 ␆1
+TD110 try? 1
+TD275 questioning: ["stour", "#1"]
+TD368 #1 S____ ~R -AEL  📋 "stour" ? ␅
+TD7576914 ␆S____ ~ RT
+TD115 #1 S____ ~R -AEL  📋 "stour" ? S____ ~ RT
+TD292 attempt 0 STOUR Y m n n m
+TD156 #2 _____ ~ER -ALS  📋 "stour" ? ␅
+TD3618375 ␆____R ~ ETO
+TD102 #2 _____ ~ER -ALS  📋 "stour" ? ____R ~ ETO
+TD288 attempt 1 STOUR n m m n Y
+TD191 #3 _____ ~E -ALRS  📋 "stour" ? ␅
+TD4289546 ␆_____ ~ ETU
+TD114 #3 _____ ~E -ALRS  📋 "stour" ? _____ ~ ETU
+TD337 attempt 2 STOUR n m n m n
+TD180 #4 __R__ ~E -ALS  📋 "stour" ? ␅
+TD3948778 ␆__R__ ~ EO
+TD90 #4 __R__ ~E -ALS  📋 "stour" ? __R__ ~ EO
+TD281 attempt 3 STOUR n n m n n
+TD181 #5 _____ ~R -AELS  📋 "stour" ? ␅
+TD2822560 ␆__O__ ~ R
+TD95 #5 _____ ~R -AELS  📋 "stour" ? __O__ ~ R
+TD273 attempt 4 STOUR n n Y n m
+TD460 ? ␅
+TD673075 ␆
+TD94 ? 
+TD138 question done
+TD338 > ␅
+TD9613726 ␆*
+TD144 > *
+TD723160 try? ␅
+TD1039484 ␆1
+TD95 try? 1
+TD284 questioning: ["toner", "#2"]
+TD433 #1 S____ ~RT -AELOU  📋 "toner" ? ␅
+TD2704014 ␆.
+TD153 #1 S____ ~RT -AELOU  📋 "toner" ? .
+TD432 attempt 0 TONER m n n n m
+TD171 #2 ____R ~EOT -ALSU  📋 "toner" ? ␅
+TD736888 ␆/it
+TD115 #2 ____R ~EOT -ALSU  📋 "toner" ? /it
+TD350 attempt 1 TONER Y Y Y Y Y
+TD126 #3 _____ ~ETU -ALORS  📋 "toner" ? ␅
+TD2663455 ␆_____ ~ ETUN
+TD65 #3 _____ ~ETU -ALORS  📋 "toner" ? _____ ~ ETUN
+TD133 attempt 2 TONER m n m m n
+TD85 #4 __R__ ~EO -ALRSTU  📋 "toner" ? ␅
+TD3279388 ␆_OR__ ~ E
+TD95 #4 __R__ ~EO -ALRSTU  📋 "toner" ? _OR__ ~ E
+TD263 attempt 3 TONER n Y n m n
+TD141 #5 __O__ ~R -AELSTU  📋 "toner" ? ␅
+TD4110483 ␆__O__ ~ RN
+TD155 #5 __O__ ~R -AELSTU  📋 "toner" ? __O__ ~ RN
+TD379 attempt 4 TONER n n m n m
+TD685 ? ␅
+TD503362 ␆
+TD110 ? 
+TD122 question done
+TD345 > ␅
+TD866500 ␆*
+TD84 > *
+TD773469 questioning: ["untie", "#3"]
+TD157 #1 S____ ~RT -AELNOU  📋 "untie" ? ␅
+TD9633380 ␆S____ ~ RTI
+TD149 #1 S____ ~RT -AELNOU  📋 "untie" ? S____ ~ RTI
+TD441 attempt 0 UNTIE n n m m n
+TD223 #3 _____ ~ENTU -ALORS  📋 "untie" ? ␅
+TD1220187 ␆/it
+TD90 #3 _____ ~ENTU -ALORS  📋 "untie" ? /it
+TD263 attempt 2 UNTIE Y Y Y Y Y
+TD96 #4 _OR__ ~E -ALNRSTU  📋 "untie" ? ␅
+TD2839987 ␆_OR_E
+TD122 #4 _OR__ ~E -ALNRSTU  📋 "untie" ? _OR_E
+TD339 attempt 3 UNTIE n n n n Y
+TD189 #5 __O__ ~NR -AELOSTU  📋 "untie" ? ␅
+TD1822603 ␆.
+TD114 #5 __O__ ~NR -AELOSTU  📋 "untie" ? .
+TD368 attempt 4 UNTIE n m n n n
+TD426 ? ␅
+TD196551 ␆
+TD106 ? 
+TD120 question done
+TD375 > ␅
+TD461144 ␆*
+TD126 > *
+TD1984687 questioning: ["shirt", "#1"]
+TD186 #1 S____ ~IRT -AELNOU  📋 "shirt" ? ␅
+TD2612762 ␆/it
+TD115 #1 S____ ~IRT -AELNOU  📋 "shirt" ? /it
+TD360 attempt 0 SHIRT Y Y Y Y Y
+TD129 #4 _OR_E -AILNRSTU  📋 "shirt" ? ␅
+TD1564793 ␆.
+TD125 #4 _OR_E -AILNRSTU  📋 "shirt" ? .
+TD308 attempt 3 SHIRT n n n n n
+TD136 #5 __O__ ~NR -AEILOSTU  📋 "shirt" ? ␅
+TD2457353 ␆.
+TD99 #5 __O__ ~NR -AEILOSTU  📋 "shirt" ? .
+TD327 attempt 4 SHIRT n n n m n
+TD450 ? ␅
+TD309578 ␆
+TD95 ? 
+TD110 question done
+TD392 > ␅
+TD501517 ␆*
+TD118 > *
+TD1604382 questioning: ["forge", "#4"]
+TD187 #4 _OR_E -AHILNRSTU  📋 "forge" ? ␅
+TD5766013 ␆/it
+TD144 #4 _OR_E -AHILNRSTU  📋 "forge" ? /it
+TD379 attempt 3 FORGE Y Y Y Y Y
+TD185 #5 __O__ ~NR -AEHILOSTU  📋 "forge" ? ␅
+TD2152099 ␆F_O__ ~ RN
+TD118 #5 __O__ ~NR -AEHILOSTU  📋 "forge" ? F_O__ ~ RN
+TD324 attempt 4 FORGE Y n m n n
+TD515 ? ␅
+TD271165 ␆
+TD126 ? 
+TD164 question done
+TD431 > ␅
+TD466408 ␆*
+TD63 > *
+TD1120345 questioning: ["frond", "#5"]
+TD180 #5 F_O__ ~NR -AEGHILOSTU  📋 "frond" ? ␅
+TD3143389 ␆/it
+TD112 #5 F_O__ ~NR -AEGHILOSTU  📋 "frond" ? /it
+TD317 attempt 4 FROND Y Y Y Y Y
+TD555 ? ␅
+TD885730 ␆
+TD109 ? 
+TD126 question done
+TD30870 📋> ␅
+TD4710436 ␆squareword.org 1622: 7 guesses
+TD91 📋> squareword.org 1622: 7 guesses
+TD17 📋> ␅
+TD54 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD33 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD16 ␆🟨🟩🟩🟨🟩
+TD7 📋> 🟨🟩🟩🟨🟩
+TD7 📋> ␅
+TD15 ␆🟨🟨🟩🟨🟨
+TD6 📋> 🟨🟨🟩🟨🟨
+TD6 📋> ␅
+TD14 ␆
+TD7 📋> 
+TD7 📋> ␅
+TD16 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> ␅
+TD214121 ␆#squareword #squareword1622
+TD51 📋> #squareword #squareword1622
+TD7 📋> ␅
+TD164139 ␄
+TD160 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1622: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1622"}
+TD1655 result: "squareword.org 1622: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1622"
+TD92 📆 2026-07-11 ? ␅
+TD130347 ␆
+TD46 📆 2026-07-11 ? 
