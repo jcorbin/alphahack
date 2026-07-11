@@ -251,11 +251,15 @@ class WordGrid(StoredLog):
             self.row_rules[row-1] = rule
 
     def parse_rule(self, arg: str):
-        # "#N" => PatternRule('^' + ('.' * n) + '$')
+        # "#N" => PatternRule('^.{N}$')
         #     Five letter word
-        m = re.match(r'#(\d+)', arg)
+        # "#N-M" => PatternRule('^.{N,M}$')
+        #     Between 4 and 6 letters
+        m = re.match(r'(?x) \# (\d+) (?: - (\d+) )? ', arg)
         if m is not None:
-            return PatternRule(f'^{'.'*int(m[1])}$')
+            min_len = int(m[1])
+            max_len = int(m[2]) if m[2] else min_len
+            return PatternRule(f'^.{{{min_len},{max_len}}}$')
 
         # "~XXX" => PatternRule('XXX')
         #     PatternRule en
