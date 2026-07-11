@@ -1,0 +1,172 @@
+T119.94213201499952 now: 2026-07-11T09:10:13EDT
+TD301 site: dontwordle.com
+TD58 wordlist: nwl2023.txt
+TD71  ...␅
+TD547514 ␆
+TD161  ...
+TD221 1> ␅
+TD4340268 ␆* -bot 10
+TD44 1> * -bot 10
+TD188770 ? ␅
+TD1822226 ␆3
+TD137 ? 3
+TD319 📋 "lares" ? ␅
+TD3979466 ␆nMnMn
+TD100 📋 "lares" ? nMnMn
+TD727 tried: LARES n m n m n
+TD270 2> ␅
+TD1169900 ␆undo
+TD92 2> undo
+TD150 undo
+TD153 1> ␅
+TD5061796 ␆* :v [lares] -bot 10
+TD94 1> * :v [lares] -bot 10
+TD125035 ? ␅
+TD953175 ␆1
+TD134 ? 1
+TD425 📋 "tonic" ? ␅
+TD3944998 ␆nnnnn
+TD86 📋 "tonic" ? nnnnn
+TD208 tried: TONIC n n n n n
+TD218 2> ␅
+TD729662 ␄
+T145.38875945999462 now: 2026-07-11T09:10:38EDT
+TD208 2> ␅
+TD1399436 ␆undo
+TD101 2> undo
+TD178 undo
+TD156 1> ␅
+TD2711682 ␆*
+TD90 1> *
+TD148073 ? ␅
+TD136499 ␆1
+TD147 ? 1
+TD468 📋 "rotor" ? ␅
+TD4582736 ␆nnnnn
+TD163 📋 "rotor" ? nnnnn
+TD248 tried: ROTOR n n n n n
+TD250 2> ␅
+TD465637 ␆*
+TD123 2> *
+TD102601 ? ␅
+TD122488 ␆1
+TD102 ? 1
+TD237 📋 "sills" ? ␅
+TD3639175 ␆nnnnn
+TD114 📋 "sills" ? nnnnn
+TD208 tried: SILLS n n n n n
+TD216 3> ␅
+TD432167 ␆*
+TD82 3> *
+TD99608 ? ␅
+TD135730 ␆1
+TD94 ? 1
+TD235 📋 "yummy" ? ␅
+TD6343562 ␆nYnnn
+TD76 📋 "yummy" ? nYnnn
+TD118 tried: YUMMY n Y n n n
+TD121 4> ␅
+TD730942 ␆undo
+TD82 4> undo
+TD103 undo
+TD171 3> ␅
+TD3042681 ␆*
+TD136 3> *
+TD101404 ? ␅
+TD838349 ␆1
+TD163 ? 1
+TD420 📋 "pygmy" ? ␅
+TD5414432 ␆nnnnn
+TD76 📋 "pygmy" ? nnnnn
+TD165 tried: PYGMY n n n n n
+TD211 4> ␅
+TD79476548 ␆*
+TD158 4> *
+TD220368 ? ␅
+TD937269 ␆1
+TD118 ? 1
+TD234 📋 "bunch" ? ␅
+TD5119941 ␆nYnnn
+TD111 📋 "bunch" ? nYnnn
+TD247 tried: BUNCH n Y n n n
+TD308 5> ␅
+TD1010375 ␆undo
+TD50 5> undo
+TD88 undo
+TD188 4> ␅
+TD5324337 ␆*
+TD175 4> *
+TD198770 ? ␅
+TD10264494 ␆3
+TD131 ? 3
+TD333 📋 "chuff" ? ␅
+TD3873274 ␆nnMnn
+TD134 📋 "chuff" ? nnMnn
+TD307 tried: CHUFF n n m n n
+TD355 5> ␅
+TD427360 ␆*
+TD74 5> *
+TD197039 📋 "kudzu" ? ␅
+TD5667061 ␆MYnnn
+TD105 📋 "kudzu" ? MYnnn
+TD219 tried: KUDZU m Y n n n
+TD275 6> ␅
+TD781764 ␆undo
+TD78 6> undo
+TD115 undo
+TD292 5> ␅
+TD2873440 ␆*
+TD104 5> *
+TD209534 📋 "kudzu" ? ␅
+TD1087599 ␄
+TD148 <EOF>
+TD195 5> ␅
+TD1596977 ␆* -sans
+TD72 5> * -sans
+TD102666 ? ␅
+TD1962611 ␆1
+TD85 ? 1
+TD208 📋 "queue" ? ␅
+TD5584379 ␆YYnnnY
+TD92 📋 "queue" ? YYnnnY
+TD255 📋 "queue" ? ␅
+TD4177949 ␆YYnnY
+TD144 📋 "queue" ? YYnnY
+TD318 tried: QUEUE Y Y n n Y
+TD334 6> ␅
+TD2552514 ␆/res
+TD152 6> /res
+TD268 📋> ␅
+TD2246384 ␆Don't Wordle 1509 - ELIMINATED
+TD148 📋> Don't Wordle 1509 - ELIMINATED
+TD27 📋> ␅
+TD107 ␆Well technically I didn't Wordle!
+TD18 📋> Well technically I didn't Wordle!
+TD13 📋> ␅
+TD36 ␆⬜⬜⬜⬜⬜4641
+TD12 📋> ⬜⬜⬜⬜⬜4641
+TD11 📋> ␅
+TD22 ␆⬜⬜⬜⬜⬜872
+TD11 📋> ⬜⬜⬜⬜⬜872
+TD11 📋> ␅
+TD24 ␆⬜⬜⬜⬜⬜279
+TD10 📋> ⬜⬜⬜⬜⬜279
+TD10 📋> ␅
+TD25 ␆⬜⬜🟨⬜⬜36
+TD10 📋> ⬜⬜🟨⬜⬜36
+TD10 📋> ␅
+TD23 ␆🟩🟩⬜⬜🟩1
+TD10 📋> 🟩🟩⬜⬜🟩1
+TD10 📋> ␅
+TD24 ␆⬛⬛⬛⬛⬛
+TD10 📋> ⬛⬛⬛⬛⬛
+TD10 📋> ␅
+TD227965 ␆Undos used: 5
+TD99 📋> Undos used: 5
+TD20 📋> ␅
+TD143156 ␄
+TD172 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Don't Wordle 1509 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4641\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c872\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c279\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c36\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe91\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"}
+TD1752 result: "Don't Wordle 1509 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4641\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c872\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c279\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c36\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe91\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5"
+TD111 📆 2026-07-11 ? ␅
+TD151254 ␆
+TD106 📆 2026-07-11 ? 
