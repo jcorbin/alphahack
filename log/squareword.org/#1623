@@ -1,0 +1,211 @@
+T150.5248879379942 now: 2026-07-12T11:07:41EDT
+TD180 site: squareword.org
+TD48 wordlist: nwl2023.txt
+TD105  ...␅
+TD597958 ␆
+TD121  ...
+TD85 🧩  ? ␅
+TD65454255 ␆#1623
+TD124 🧩  ? #1623
+TD302 puzzle_id: #1623
+TD1374 > ␅
+TD2391018 ␆*
+TD110 > *
+TD256844 try? ␅
+TD6250421 ␆9
+TD98 try? 9
+TD375 questioning: ["cries", "#5"]
+TD390 #1 <IndexError>  📋 "cries" ? ␅
+TD5502699 ␆____S
+TD77 #1 <IndexError>  📋 "cries" ? ____S
+TD1858 attempt 0 CRIES n n n n Y
+TD124 #2 <IndexError>  📋 "cries" ? ␅
+TD4151977 ␆_____ ~ I
+TD119 #2 <IndexError>  📋 "cries" ? _____ ~ I
+TD380 attempt 1 CRIES n n m n n
+TD181 #3 <IndexError>  📋 "cries" ? ␅
+TD3002080 ␆___E_ ~ E
+TD113 #3 <IndexError>  📋 "cries" ? ___E_ ~ E
+TD321 attempt 2 CRIES n n n Y n
+TD160 #4 <IndexError>  📋 "cries" ? ␅
+TD2534782 ␆_R___ ~ CE
+TD157 #4 <IndexError>  📋 "cries" ? _R___ ~ CE
+TD456 attempt 3 CRIES m Y n m n
+TD239 #5 <IndexError>  📋 "cries" ? ␅
+TD2341641 ␆___E_ ~ IS
+TD136 #5 <IndexError>  📋 "cries" ? ___E_ ~ IS
+TD344 attempt 4 CRIES n n m Y m
+TD627 ? ␅
+TD415521 ␆
+TD114 ? 
+TD201 question done
+TD825 > ␅
+TD975526 ␆*
+TD133 > *
+TD818056 try? ␅
+TD2832218 ␆1
+TD161 try? 1
+TD504 questioning: ["trace", "#4"]
+TD701 #1 ____S -CEIR  📋 "trace" ? ␅
+TD5634206 ␆____S ~ A
+TD111 #1 ____S -CEIR  📋 "trace" ? ____S ~ A
+TD260 attempt 0 TRACE n n m n n
+TD144 #2 _____ ~I -CERS  📋 "trace" ? ␅
+TD3271060 ␆__A__ ~ IA
+TD48 #2 _____ ~I -CERS  📋 "trace" ? __A__ ~ IA
+TD108 attempt 1 TRACE n n Y n n
+TD82 #3 ___E_ -CIRS  📋 "trace" ? ␅
+TD2450381 ␆___EE ~ E\
+TD126 #3 ___E_ -CIRS  📋 "trace" ? ___EE ~ E\
+TD340 attempt 2 TRACE n n n n Y
+TD217 #4 _R___ ~CE -IS  📋 "trace" ? ␅
+TD2345101 ␆/it
+TD114 #4 _R___ ~CE -IS  📋 "trace" ? /it
+TD402 attempt 3 TRACE Y Y Y Y Y
+TD167 #5 ___E_ ~IS -CR  📋 "trace" ? ␅
+TD4485687 ␆___E_ ~ IST
+TD108 #5 ___E_ ~IS -CR  📋 "trace" ? ___E_ ~ IST
+TD394 attempt 4 TRACE m n n n n
+TD599 ? ␅
+TD342427 ␆
+TD111 ? 
+TD155 question done
+TD530 > ␅
+TD699910 ␆*
+TD56 > *
+TD786844 try? ␅
+TD3893159 ␆1
+TD96 try? 1
+TD325 questioning: ["inset", "#5"]
+TD434 #1 ____S ~A -CEIRT  📋 "inset" ? ␅
+TD5626507 ␆____S ~ AN
+TD170 #1 ____S ~A -CEIRT  📋 "inset" ? ____S ~ AN
+TD484 attempt 0 INSET n m n n n
+TD309 #2 __A__ ~I -CERST  📋 "inset" ? ␅
+TD4106593 ␆__A__ ~ IA
+TD125 #2 __A__ ~I -CERST  📋 "inset" ? __A__ ~ IA
+TD397 attempt 1 INSET m n n n n
+TD230 #3 ___EE -ACIRST  📋 "inset" ? ␅
+TD3193806 ␆___EE ~ E
+TD97 #3 ___EE -ACIRST  📋 "inset" ? ___EE ~ E
+TD282 attempt 2 INSET n n n Y n
+TD183 #5 ___E_ ~IST -ACER  📋 "inset" ? ␅
+TD4858193 ␆I__ET ~ S
+TD157 #5 ___E_ ~IST -ACER  📋 "inset" ? I__ET ~ S
+TD419 attempt 4 INSET Y n m Y Y
+TD782 ? ␅
+TD330220 ␆
+TD128 ? 
+TD246 question done
+TD757 > ␅
+TD2733593 ␆*
+TD95 > *
+TD619873 questioning: ["avail", "#2"]
+TD157 #1 ____S ~AN -CEIRST  📋 "avail" ? ␅
+TD4349703 ␆.
+TD82 #1 ____S ~AN -CEIRST  📋 "avail" ? .
+TD250 attempt 0 AVAIL m n m n n
+TD100 #2 __A__ ~I -CENRST  📋 "avail" ? ␅
+TD638088 ␆/it
+TD97 #2 __A__ ~I -CENRST  📋 "avail" ? /it
+TD295 attempt 1 AVAIL Y Y Y Y Y
+TD117 #3 ___EE -ACINRST  📋 "avail" ? ␅
+TD5238019 ␆___EE ~ EVL
+TD109 #3 ___EE -ACINRST  📋 "avail" ? ___EE ~ EVL
+TD309 attempt 2 AVAIL n m n n m
+TD209 #5 I__ET ~S -ACNR  📋 "avail" ? ␅
+TD8456971 ␆I__ET ~ SL
+TD178 #5 I__ET ~S -ACNR  📋 "avail" ? I__ET ~ SL
+TD565 attempt 4 AVAIL n n n n m
+TD378 ? ␅
+TD1012933 ␆
+TD75 ? 
+TD77 question done
+TD236 > ␅
+TD583201 ␆*
+TD87 > *
+TD1781521 questioning: ["levee", "#3"]
+TD183 #1 ____S ~AN -CEILRSTV  📋 "levee" ? ␅
+TD3684695 ␆.
+TD89 #1 ____S ~AN -CEILRSTV  📋 "levee" ? .
+TD253 attempt 0 LEVEE n n n n n
+TD107 #3 ___EE ~LV -ACINRST  📋 "levee" ? ␅
+TD601125 ␆/it
+TD135 #3 ___EE ~LV -ACINRST  📋 "levee" ? /it
+TD349 attempt 2 LEVEE Y Y Y Y Y
+TD135 #5 I__ET ~LS -ACINRV  📋 "levee" ? ␅
+TD1752995 ␆.
+TD102 #5 I__ET ~LS -ACINRV  📋 "levee" ? .
+TD228 attempt 4 LEVEE m n n Y n
+TD376 ? ␅
+TD171774 ␆
+TD87 ? 
+TD106 question done
+TD395 > ␅
+TD413890 ␆*
+TD94 > *
+TD1107230 questioning: ["banns", "#1"]
+TD195 #1 ____S ~AN -CEILRSTV  📋 "banns" ? ␅
+TD3045616 ␆/it
+TD109 #1 ____S ~AN -CEILRSTV  📋 "banns" ? /it
+TD323 attempt 0 BANNS Y Y Y Y Y
+TD172 #5 I__ET ~LS -ACINRV  📋 "banns" ? ␅
+TD4489517 ␆.
+TD110 #5 I__ET ~LS -ACINRV  📋 "banns" ? .
+TD317 attempt 4 BANNS n n n n m
+TD725 ? ␅
+TD587910 ␆
+TD103 ? 
+TD126 question done
+TD463 > ␅
+TD1244421 ␆*
+TD150 > *
+TD1075644 questioning: ["islet", "#5"]
+TD171 #5 I__ET ~LS -ABCINRV  📋 "islet" ? ␅
+TD4671730 ␆/it
+TD50 #5 I__ET ~LS -ABCINRV  📋 "islet" ? /it
+TD109 attempt 4 ISLET Y Y Y Y Y
+TD153 ? ␅
+TD945712 ␆
+TD134 ? 
+TD130 question done
+TD34380 📋> ␅
+TD7729566 ␆squareword.org 1623: 7 guesses
+TD121 📋> squareword.org 1623: 7 guesses
+TD21 📋> ␅
+TD62 ␆
+TD11 📋> 
+TD9 📋> ␅
+TD24 ␆🟨🟨🟨🟨🟩
+TD9 📋> 🟨🟨🟨🟨🟩
+TD9 📋> ␅
+TD19 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD20 ␆🟩🟨🟨🟩🟩
+TD8 📋> 🟩🟨🟨🟩🟩
+TD8 📋> ␅
+TD42 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD22 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> ␅
+TD1327185 ␆#squareword #squareword1623
+TD49 📋> #squareword #squareword1623
+TD11 📋> ␅
+TD1017940 ␄
+TD169 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1623: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1623"}
+TD2310 result: "squareword.org 1623: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1623"
+TD172 📆 2026-07-12 ? ␅
+TD1015153 ␆\
+TD100 📆 2026-07-12 ? \
+TD7119 📆 2026-07-12 ? ␅
+TD783624 ␆
+TD118 📆 2026-07-12 ? 
