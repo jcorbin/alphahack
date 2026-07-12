@@ -1,0 +1,751 @@
+T2350.6892652800016 now: 2026-07-12T11:44:21EDT
+TD156 site: spaceword.org
+TD37 wordlist: nwl2023.txt
+TD58  ...␅
+TD1633566 ␆
+TD110  ...
+TD86 🧩  ? ␅
+TD11267164 ␆daily 20260712
+TD115 🧩  ? daily 20260712
+TD1018 puzzle_id: 2026-07-12
+TD82 num letters (default: 21) ? ␅
+TD503532 ␆
+TD52 num letters (default: 21) ? 
+TD40 num_letters: 21
+TD137 letters? ␅
+TD10407400 ␆aadeeeg
+TD112 letters? aadeeeg
+TD182 letters: |AADEEEG|
+TD457 letters? ␅
+TD2770400 ␆hiilnoo
+TD106 letters? hiilnoo
+TD212 letters: |AADEEEGHIILNOO|
+TD180 letters? ␅
+TD3090301 ␆rtuvxyz
+TD103 letters? rtuvxyz
+TD162 letters: |AADEEEGHIILNOORTUVXYZ|
+TD185 letters. ␅
+TD367988 ␆
+TD98 letters. 
+TD58481 [doit:100]> ␅
+TD3276702 ␆/sea -cap 512
+TD144 [doit:100]> /sea -cap 512
+TD95195993 search c701d9 [ 512 cap:512 may:4825 prune:2 done:1 ]> ␅
+TD3596214 ␆show done
+TD122 search c701d9 [ 512 cap:512 may:4825 prune:2 done:1 ]> show done
+TD2607 search c701d9 [ 512 cap:512 may:4825 prune:2 done:1 ]> ␅
+TD1241902 ␆show 1
+TD52 search c701d9 [ 512 cap:512 may:4825 prune:2 done:1 ]> show 1
+TD477 search c701d9 [ 512 cap:512 may:4825 prune:2 done:1 ]> ␅
+TD564922 ␆ret
+TD145 search c701d9 [ 512 cap:512 may:4825 prune:2 done:1 ]> ret
+TD650 change: 4 O
+TD28 change: 14 V
+TD14 change: 24 E
+TD13 change: 34 R
+TD18 change: 44 H
+TD18 change: 46 Y
+TD15 change: 53 G
+TD16 change: 54 A
+TD17 change: 55 T
+TD16 change: 56 E
+TD16 change: 57 A
+TD17 change: 58 U
+TD17 change: 59 X
+TD12 change: 61 L
+TD11 change: 62 I
+TD11 change: 63 O
+TD10 change: 64 N
+TD10 change: 65 I
+TD11 change: 66 Z
+TD10 change: 67 E
+TD10 change: 74 D
+TD28617 [doit:2128]> ␅
+TD1711716 ␆/sea -cap 1024
+TD138 [doit:2128]> /sea -cap 1024
+TD1784761 Z c$_Lq%}Px!Q7Fz#u}U&YOH52wNXpMkwK6oYQa}d&a8?+c<qBs7!C4*(kr0NvV~DF`XoP}~r@x<P6jZ5;0x<vp00960
+TD428 Z Dk9EF^mG#d00960
+TD38 Z !tW${1`Zqm00030{{
+TD2715931 Z 8ib()00030{{
+TD97 Z BGO6p3@!iw00960
+TD50 Z 8iWxC00030{{
+TD16454 search b4faac [ 1023 cap:1024 may:3559 prune:1582 dead:3 reject:3 done:2 ]> ␅
+TD36904963 ␆show done
+TD88 search b4faac [ 1023 cap:1024 may:3559 prune:1582 dead:3 reject:3 done:2 ]> show done
+TD2180 search b4faac [ 1023 cap:1024 may:3559 prune:1582 dead:3 reject:3 done:2 ]> ␅
+TD1866479 ␆show 2
+TD119 search b4faac [ 1023 cap:1024 may:3559 prune:1582 dead:3 reject:3 done:2 ]> show 2
+TD1837 search b4faac [ 1023 cap:1024 may:3559 prune:1582 dead:3 reject:3 done:2 ]> ␅
+TD425248 ␆ret
+TD143 search b4faac [ 1023 cap:1024 may:3559 prune:1582 dead:3 reject:3 done:2 ]> ret
+TD559 change: 31 
+TD50 change: 4 
+TD24 change: 31 
+TD25 change: 14 
+TD19 change: 31 
+TD23 change: 24 
+TD17 change: 31 
+TD20 change: 34 
+TD16 change: 31 
+TD27 change: 44 
+TD39 change: 31 H
+TD14 change: 39 V
+TD13 change: 41 E
+TD13 change: 49 O
+TD12 change: 51 R
+TD32458 [doit:2155]> ␅
+TD1691902 ␆/sea -cap 1024
+TD122 [doit:2155]> /sea -cap 1024
+TD1461288 Z LUNLkxrupVDvpT503L9+f-Q~&xj%?1P67Y`0RR6
+TD98 Z !tbO32_*mk00960
+TD3646253 Z 8ib()00030{{
+TD86 Z BGE}6AUA+R#2<_G2)nTbC9wbi00960
+TD37 Z qBxWkg8bnw0mp76#7S7gizom900960
+TD32 Z qTER?{_udHj*|cY00960
+TD27 Z BFRZ%5Vu4^(mjE6Lw4K&00030{{
+TD29 Z A}^FY;349VB}9TqPSGd;00030{{
+TD28 Z B0J(>fe@zP192SCbsliXc?OZ6;{X5v0RR6
+TD31 Z B0H26AbAg5a$$y&0&>KW=p+CD00960
+TD29 Z B0H3z09u4bDtI6#F9l?`p}NWk&cc=C0RR91|Nj
+TD30 Z qSQ$+hv7)_@O+6iwPO!H00000|Nj
+TD27 Z 8iW-J00030{{
+TD4621022 Z 8iW-J00030{{
+TD91 Z 8iW-J00030{{
+TD45 Z A}^F^kf;#=00030{{
+TD33 Z qN$UxIfQU50ssI2|Nj
+TD31 Z BGO6pOy>Xq00960
+TD43 Z 8iXwY00000|Nj
+TD25 Z 8iXwY00000|Nj
+TD28 Z BHKy+aO-`r)NDx6>*9gk0Gt2-00960
+TD37 Z qQprac%1}|PEx`L0ssI20RR6
+TD29 Z BE?BG&1VPz00030{{
+TD25 Z qJfjhD~%8U00030{{
+TD28 Z 8icJ%00000|Nj
+TD47 Z 8icJ%00000|Nj
+TD37 Z 8icJ%00000|Nj
+TD24 Z 8icJ%00000|Nj
+TD23 Z BH2mMgyG>IhOpBIy&6%VplzZ600030{{
+TD30 Z qEkbcl!5^O00960
+TD25 Z 8iWm900000|Nj
+TD28778 search 2747ae [ 1023 cap:1024 may:3131 prune:1123 dead:20 reject:18 done:3 ]> ␅
+TD2985163 ␆show done
+TD109 search 2747ae [ 1023 cap:1024 may:3131 prune:1123 dead:20 reject:18 done:3 ]> show done
+TD4712 search 2747ae [ 1023 cap:1024 may:3131 prune:1123 dead:20 reject:18 done:3 ]> ␅
+TD1583799 ␆show 2
+TD84 search 2747ae [ 1023 cap:1024 may:3131 prune:1123 dead:20 reject:18 done:3 ]> show 2
+TD1386 search 2747ae [ 1023 cap:1024 may:3131 prune:1123 dead:20 reject:18 done:3 ]> ␅
+TD420739 ␆ret
+TD125 search 2747ae [ 1023 cap:1024 may:3131 prune:1123 dead:20 reject:18 done:3 ]> ret
+TD413 change: 44 
+TD33 change: 31 
+TD17 change: 44 
+TD19 change: 39 
+TD14 change: 41 H
+TD15 change: 44 V
+TD20 change: 49 
+TD12 change: 51 E
+TD13 change: 48 O
+TD17 change: 74 
+TD10 change: 68 R
+TD9 change: 71 D
+TD32311 [doit:2164]> ␅
+TD1511822 ␆/sea -cap 1024
+TD153 [doit:2164]> /sea -cap 1024
+TD2036125 Z LUNLYp<#-#ISF-K7;SPK00030{{
+TD113 Z BHKx{a~uEw0RR6
+TD2409565 Z 8ib()00030{{
+TD82 Z BF{-Eg#fjk1ONa4|Nj
+TD35 Z BHKx{E4={#00960
+TD28 Z qBJehAiMwo00960
+TD26 Z BGXA8Fo(E+GB?)J8wC7u>Bk2E00030{{
+TD34 Z BGXCmHi17*Cy^a@00000|Nj
+TD31 Z qC&(`J5>Py00960
+TD25 Z 8ieH%00030{{
+TD1905468 Z qCzOS;B^w|00000|Nj
+TD120 Z 8iYk900030{{
+TD34 Z 8iYk900030{{
+TD27 Z 8iYk900030{{
+TD27 Z 8ieH%00030{{
+TD26 Z 8ieH%00030{{
+TD34 Z 8iW-J00030{{
+TD28 Z qC)bfc6R^(00960
+TD31 Z 8ib`c00030{{
+TD28 Z BHBr?lnM$Oa3ImF0}cQH0RR6
+TD38 Z A~}@8Xg($Y00030{{
+TD42 Z qCqH8I&uO400960
+TD29 Z qCqH8>LdUF00960
+TD1163404 Z 8ids@00030{{
+TD80 Z 8ids@00030{{
+TD29 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD1153968 Z 8ids@00030{{
+TD88 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD35 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD1089903 Z 8ids@00030{{
+TD79 Z 8ids@00030{{
+TD28 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD40 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD29 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD32 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD1155760 Z 8ids@00030{{
+TD96 Z 8ids@00030{{
+TD28 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD21 Z 8ids@00030{{
+TD21 Z 8ids@00030{{
+TD21 Z 8ids@00030{{
+TD21 Z 8ids@00030{{
+TD21 Z 8ids@00030{{
+TD38 Z 8ids@00030{{
+TD21 Z 8ids@00030{{
+TD21 Z 8ids@00030{{
+TD1049431 Z 8ids@00030{{
+TD86 Z 8ids@00030{{
+TD29 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD1129410 Z 8ids@00030{{
+TD80 Z 8ids@00030{{
+TD29 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD33 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD1199041 Z 8ids@00030{{
+TD80 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD1090302 Z 8ids@00030{{
+TD84 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD1171168 Z 8ids@00030{{
+TD86 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD1201568 Z 8ids@00030{{
+TD86 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD39 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD1299618 Z 8ids@00030{{
+TD100 Z 8ids@00030{{
+TD32 Z 8ids@00030{{
+TD29 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD1201349 Z 8ids@00030{{
+TD91 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD32 Z 8ids@00030{{
+TD31 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD38 Z 8ids@00030{{
+TD1218543 Z 8ids@00030{{
+TD87 Z 8ids@00030{{
+TD28 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD1209557 Z 8ids@00030{{
+TD102 Z 8ids@00030{{
+TD32 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD31 Z 8ids@00030{{
+TD34 Z 8ids@00030{{
+TD28 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD28 Z 8ids@00030{{
+TD29 Z 8ids@00030{{
+TD33 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD1259992 Z 8ids@00030{{
+TD79 Z 8ids@00030{{
+TD28 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD38 Z 8ids@00030{{
+TD1341907 Z 8ids@00030{{
+TD79 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD22 Z 8ids@00030{{
+TD1130158 Z 8ids@00030{{
+TD83 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD36 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD35 Z 8ids@00030{{
+TD1247440 Z 8ids@00030{{
+TD86 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD1301034 Z 8ids@00030{{
+TD92 Z 8ids@00030{{
+TD32 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD1294146 Z 8ids@00030{{
+TD87 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD1299598 Z 8ids@00030{{
+TD132 Z 8ids@00030{{
+TD46 Z 8ids@00030{{
+TD39 Z 8ids@00030{{
+TD39 Z 8ids@00030{{
+TD43 Z 8ids@00030{{
+TD36 Z 8ids@00030{{
+TD34 Z 8ids@00030{{
+TD36 Z 8ids@00030{{
+TD34 Z 8ids@00030{{
+TD32 Z 8ids@00030{{
+TD29 Z 8ids@00030{{
+TD29 Z 8ids@00030{{
+TD1293255 Z 8ids@00030{{
+TD79 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD1264158 Z 8ids@00030{{
+TD86 Z 8ids@00030{{
+TD31 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD1341801 Z 8ids@00030{{
+TD83 Z 8ids@00030{{
+TD29 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD23 Z 8ids@00030{{
+TD1363215 Z 8ids@00030{{
+TD317 Z 8ids@00030{{
+TD37 Z 8ids@00030{{
+TD28 Z 8ids@00030{{
+TD32 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD1322990 Z 8ids@00030{{
+TD87 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD1310538 Z 8ids@00030{{
+TD86 Z 8ids@00030{{
+TD37 Z 8ids@00030{{
+TD33 Z 8ids@00030{{
+TD28 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD40 Z 8ids@00030{{
+TD34 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD1268524 Z 8ids@00030{{
+TD90 Z 8ids@00030{{
+TD32 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD1290596 Z 8ids@00030{{
+TD91 Z 8ids@00030{{
+TD31 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD1332292 Z 8ids@00030{{
+TD87 Z 8ids@00030{{
+TD31 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD54 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD1320291 Z 8ids@00030{{
+TD122 Z 8ids@00030{{
+TD31 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD33 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD1351606 Z 8ids@00030{{
+TD84 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD1294803 Z 8ids@00030{{
+TD80 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD1286900 Z 8ids@00030{{
+TD83 Z 8ids@00030{{
+TD31 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD31 Z 8ids@00030{{
+TD35 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD28 Z 8ids@00030{{
+TD1265564 Z 8ids@00030{{
+TD82 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD1374648 Z 8ids@00030{{
+TD86 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD1363602 Z 8ids@00030{{
+TD87 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD1408088 Z 8ids@00030{{
+TD82 Z 8ids@00030{{
+TD31 Z 8ids@00030{{
+TD27 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD1432610 Z 8ids@00030{{
+TD81 Z 8ids@00030{{
+TD29 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD1340275 Z 8ids@00030{{
+TD89 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD26 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD1360041 Z 8ids@00030{{
+TD375 Z 8ids@00030{{
+TD39 Z 8ids@00030{{
+TD28 Z 8ids@00030{{
+TD32 Z 8ids@00030{{
+TD30 Z 8ids@00030{{
+TD29 Z 8ids@00030{{
+TD28 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD25 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD24 Z 8ids@00030{{
+TD286019 search 811d37 [ 1023 cap:1024 may:0 prune:247 dead:15 reject:13 ]> ␅
+TD1030219 ␄
+TD30154 [doit:2164]> ␅
+TD684424 ␆/res
+TD115 [doit:2164]> /res
+TD415 📋> ␅
+TD1356918 ␆✨ Spaceword.org Daily 2026-07-12 ✨
+TD133 📋> ✨ Spaceword.org Daily 2026-07-12 ✨
+TD21 📋> ␅
+TD88 ␆
+TD27 📋> 
+TD11 📋> ␅
+TD30 ␆🏆 Score: 2164
+TD11 📋> 🏆 Score: 2164
+TD9 📋> ␅
+TD22 ␆🏅 Rank: 108/181 😀
+TD10 📋> 🏅 Rank: 108/181 😀
+TD10 📋> ␅
+TD21 ␆🧩 Tiles: 21/21 ✅
+TD9 📋> 🧩 Tiles: 21/21 ✅
+TD9 📋> ␅
+TD21 ␆📏 Space Bonus: +64
+TD9 📋> 📏 Space Bonus: +64
+TD9 📋> ␅
+TD20 ␆
+TD9 📋> 
+TD40 📋> ␅
+TD21 ␆
+TD9 📋> 
+TD9 📋> ␅
+TD247 ␆Play at https://spaceword.org
+TD58 📋> Play at https://spaceword.org
+TD16 📋> ␅
+TD590556 ␆#spaceword
+TD136 📋> #spaceword
+TD25 📋> ␅
+TD285918 ␄
+TD145 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-07-12 \u2728\n\n\ud83c\udfc6 Score: 2164\n\ud83c\udfc5 Rank: 108/181 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +64\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TD1725 result: "\u2728 Spaceword.org Daily 2026-07-12 \u2728\n\n\ud83c\udfc6 Score: 2164\n\ud83c\udfc5 Rank: 108/181 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +64\n\n\nPlay at https://spaceword.org\n#spaceword"
+TD28140 [prior:2164]> ␅
+TD1043768 ␆/store
+TD100 [prior:2164]> /store
