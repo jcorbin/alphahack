@@ -1,0 +1,587 @@
+T3197.8037169419986 now: 2026-07-12T11:58:28EDT
+TD275 site: https://wordgrid.clevergoat.com/
+TD54 wordlist: nwl2023.txt
+TD178 > ␅
+TD4894841 ␆col 1 ~ER
+TD108 > col 1 ~ER
+TD769 rule col: 1 ~ER
+TD111 > ␅
+TD31685788 ␆col 2 +A
+TD139 > col 2 +A
+TD845 rule col: 2 +A
+TD135 > ␅
+TD7034766 ␆col 3 ~US
+TD113 > col 3 ~US
+TD414 rule col: 3 ~US
+TD124 > ␅
+TD12530004 ␆row 1 #4-6
+TD128 > row 1 #4-6
+TD509 rule row: 1 #4-6
+TD149 > ␅
+TD16031849 ␆row 2 ~ED$
+TD137 > row 2 ~ED$
+TD339 rule row: 2 ~ED$
+TD106 > ␅
+TD4545392 ␆row 3 ~US$
+TD100 > row 3 ~US$
+TD507 rule row: 3 ~US$
+TD198 > ␅
+TD26839002 ␆*
+TD93 > *
+TD305177 ? ␅
+TD739548 ␆1
+TD78 ? 1
+TD153 questioning: 0 serai
+TD61 🌡️ serai 📋 ? ␅
+TD4255301 ␆.05
+TD115 🌡️ serai 📋 ? .05
+TD414 word: 0 serai 0.05
+TD39 questioning: -1 
+TD126 > ␅
+TD1309840 ␆*
+TD107 > *
+TD490366 ? ␅
+TD804574 ␆1
+TD118 ? 1
+TD191 questioning: 1 lahars
+TD95 🌡️ lahars 📋 ? ␅
+TD3300242 ␆0
+TD130 🌡️ lahars 📋 ? 0
+TD139 word: 1 lahars 0.0
+TD38 questioning: -1 
+TD169 > ␅
+TD1542906 ␆*
+TD97 > *
+TD260780 ? ␅
+TD1363980 ␆1
+TD134 ? 1
+TD233 questioning: 2 buster
+TD124 🌡️ buster 📋 ? ␅
+TD3728678 ␆.6
+TD61 🌡️ buster 📋 ? .6
+TD61 word: 2 buster 0.6
+TD18 questioning: -1 
+TD89 > ␅
+TD895537 ␆*
+TD121 > *
+TD274336 ? ␅
+TD5142641 ␆3
+TD118 ? 3
+TD186 questioning: 3 cerated
+TD69 🌡️ cerated 📋 ? ␅
+TD3936217 ␆0
+TD99 🌡️ cerated 📋 ? 0
+TD99 word: 3 cerated 0.0
+TD26 questioning: -1 
+TD126 > ␅
+TD2277421 ␆* 3 1
+TD122 > * 3 1
+TD268043 ? ␅
+TD3864946 ␆5
+TD126 ? 5
+TD201 questioning: 2 meatus
+TD75 🌡️ meatus 📋 ? ␅
+TD3368897 ␆0
+TD88 🌡️ meatus 📋 ? 0
+TD87 word: 2 meatus 0.0
+TD23 questioning: -1 
+TD110 > ␅
+TD961167 ␆*
+TD104 > *
+TD472888 ? ␅
+TD5019996 ␆9
+TD135 ? 9
+TD255 questioning: 4 sacralized
+TD83 🌡️ sacralized 📋 ? ␅
+TD3369569 ␆.05
+TD136 🌡️ sacralized 📋 ? .05
+TD111 word: 4 sacralized 0.05
+TD28 questioning: -1 
+TD141 > ␅
+TD829817 ␆
+TD185 > 
+TD360 > ␅
+TD633099 ␆*
+TD137 > *
+TD282347 ? ␅
+TD6037436 ␆9
+TD152 ? 9
+TD317 questioning: 5 incrusted
+TD100 🌡️ incrusted 📋 ? ␅
+TD4228374 ␆.02
+TD119 🌡️ incrusted 📋 ? .02
+TD125 word: 5 incrusted 0.02
+TD31 questioning: -1 
+TD185 > ␅
+TD688043 ␆*
+TD58 > *
+TD272558 ? ␅
+TD1405830 ␆1
+TD174 ? 1
+TD305 questioning: 6 apterous
+TD103 🌡️ apterous 📋 ? ␅
+TD4217367 ␆.06
+TD61 🌡️ apterous 📋 ? .06
+TD63 word: 6 apterous 0.06
+TD18 questioning: -1 
+TD93 > ␅
+TD2573997 ␆* 
+TD128 > * 
+TD483843 ? ␅
+TD3086321 ␆2
+TD128 ? 2
+TD206 questioning: 7 cantharus
+TD78 🌡️ cantharus 📋 ? ␅
+TD3989232 ␆.06
+TD90 🌡️ cantharus 📋 ? .06
+TD86 word: 7 cantharus 0.06
+TD22 questioning: -1 
+TD140 > ␅
+TD329913 ␆
+TD137 > 
+TD285 > ␅
+TD696425 ␆*
+TD99 > *
+TD273844 ? ␅
+TD6277272 ␆9
+TD199 ? 9
+TD364 questioning: 8 linctus
+TD97 🌡️ linctus 📋 ? ␅
+TD3114772 ␆0
+TD70 🌡️ linctus 📋 ? 0
+TD125 word: 8 linctus 0.0
+TD57 questioning: -1 
+TD218 > ␅
+TD6332946 ␆* 23
+TD113 > * 23
+TD769 > ␅
+TD2447968 ␆* 2 3
+TD99 > * 2 3
+TD492172 ? ␅
+TD2925404 ␆8
+TD73 ? 8
+TD120 questioning: 7 fricandeaus
+TD44 🌡️ fricandeaus 📋 ? ␅
+TD4042127 ␆0
+TD145 🌡️ fricandeaus 📋 ? 0
+TD184 word: 7 fricandeaus 0.0
+TD45 questioning: -1 
+TD190 > ␅
+TD3660783 ␆* 1 3
+TD134 > * 1 3
+TD297196 ? ␅
+TD1653896 ␆1
+TD107 ? 1
+TD180 questioning: 6 vertus
+TD68 🌡️ vertus 📋 ? ␅
+TD3710258 ␆.19
+TD108 🌡️ vertus 📋 ? .19
+TD94 word: 6 vertus 0.19
+TD25 questioning: -1 
+TD127 > ␅
+TD1896839 ␆* 1 3
+TD136 > * 1 3
+TD283997 ? ␅
+TD4332356 ␆6
+TD86 ? 6
+TD141 questioning: 6 apercus
+TD46 🌡️ apercus 📋 ? ␅
+TD4483555 ␆.08
+TD111 🌡️ apercus 📋 ? .08
+TD103 word: 6 apercus 0.08
+TD27 questioning: -1 
+TD152 > ␅
+TD1200381 ␆* 1 3
+TD122 > * 1 3
+TD263936 ? ␅
+TD2021854 ␆2
+TD90 ? 2
+TD157 questioning: 6 terminus
+TD71 🌡️ terminus 📋 ? ␅
+TD4074854 ␆3.42
+TD174 🌡️ terminus 📋 ? 3.42
+TD184 word: 6 terminus 3.42
+TD66 questioning: -1 
+TD332 > ␅
+TD1869555 ␆* 1 3
+TD200 > * 1 3
+TD269936 ? ␅
+TD5444768 ␆2
+TD191 ? 2
+TD251 questioning: 6 lactiferous
+TD80 🌡️ lactiferous 📋 ? ␅
+TD4715806 ␆0
+TD184 🌡️ lactiferous 📋 ? 0
+TD126 word: 6 lactiferous 0.0
+TD35 questioning: -1 
+TD186 > ␅
+TD5077150 ␆* 1 1
+TD93 > * 1 1
+TD297116 ? ␅
+TD5325538 ␆9
+TD191 ? 9
+TD276 questioning: 0 dermas
+TD100 🌡️ dermas 📋 ? ␅
+TD2987667 ␆0
+TD139 🌡️ dermas 📋 ? 0
+TD135 word: 0 dermas 0.0
+TD37 questioning: -1 
+TD201 > ␅
+TD2579631 ␆* 2 2
+TD199 > * 2 2
+TD509007 ? ␅
+TD3690410 ␆6
+TD109 ? 6
+TD176 questioning: 4 caparisoned
+TD66 🌡️ caparisoned 📋 ? ␅
+TD3847997 ␆.05
+TD85 🌡️ caparisoned 📋 ? .05
+TD85 word: 4 caparisoned 0.05
+TD21 questioning: -1 
+TD130 > ␅
+TD2571497 ␆* 22
+TD77 > * 22
+TD259 > ␅
+TD1319445 ␆* 2 2
+TD55 > * 2 2
+TD471470 ? ␅
+TD4127113 ␆6
+TD54 ? 6
+TD90 questioning: 4 auspicated
+TD22 🌡️ auspicated 📋 ? ␅
+TD3594067 ␆0
+TD97 🌡️ auspicated 📋 ? 0
+TD94 word: 4 auspicated 0.0
+TD26 questioning: -1 
+TD141 > ␅
+TD2255191 ␆* 3 2
+TD103 > * 3 2
+TD303468 ? ␅
+TD7752529 ␆9
+TD64 ? 9
+TD106 questioning: 5 mustachioed
+TD47 🌡️ mustachioed 📋 ? ␅
+TD3578580 ␆.1
+TD115 🌡️ mustachioed 📋 ? .1
+TD113 word: 5 mustachioed 0.1
+TD31 questioning: -1 
+TD191 > ␅
+TD1685354 ␆* 3 2
+TD96 > * 3 2
+TD266393 ? ␅
+TD4815847 ␆9
+TD137 ? 9
+TD210 questioning: 5 ausformed
+TD67 🌡️ ausformed 📋 ? ␅
+TD3638093 ␆.03
+TD76 🌡️ ausformed 📋 ? .03
+TD72 word: 5 ausformed 0.03
+TD21 questioning: -1 
+TD99 > ␅
+TD1532758 ␆* 3 2
+TD151 > * 3 2
+TD268176 ? ␅
+TD7694200 ␆5
+TD111 ? 5
+TD207 questioning: 5 incused
+TD83 🌡️ incused 📋 ? ␅
+TD3288849 ␆.03
+TD131 🌡️ incused 📋 ? .03
+TD149 word: 5 incused 0.03
+TD53 questioning: -1 
+TD260 > ␅
+TD1299790 ␆* 3 2
+TD146 > * 3 2
+TD259488 ? ␅
+TD6651501 ␄
+TD93 <EOF>
+TD129 > ␅
+TD1287249 ␆* 3 2
+TD147 > * 3 2
+TD262715 ? ␅
+TD4365873 ␆2
+TD88 ? 2
+TD162 questioning: 5 tushed
+TD52 🌡️ tushed 📋 ? ␅
+TD3484406 ␆.21
+TD108 🌡️ tushed 📋 ? .21
+TD115 word: 5 tushed 0.21
+TD32 questioning: -1 
+TD175 > ␅
+TD1022908 ␆* 3 2
+TD500 > * 3 2
+TD282796 ? ␅
+TD3396917 ␆2
+TD97 ? 2
+TD218 questioning: 5 contused
+TD55 🌡️ contused 📋 ? ␅
+TD3007961 ␆.15
+TD168 🌡️ contused 📋 ? .15
+TD167 word: 5 contused 0.15
+TD52 questioning: -1 
+TD240 > ␅
+TD951950 ␆* 3 2
+TD135 > * 3 2
+TD261060 ? ␅
+TD2843719 ␆3
+TD171 ? 3
+TD251 questioning: 5 cuspated
+TD93 🌡️ cuspated 📋 ? ␅
+TD3260174 ␆.05
+TD123 🌡️ cuspated 📋 ? .05
+TD112 word: 5 cuspated 0.05
+TD30 questioning: -1 
+TD168 > ␅
+TD980897 ␆* 3 2
+TD134 > * 3 2
+TD264844 ? ␅
+TD6697705 ␆8
+TD137 ? 8
+TD185 questioning: 5 musted
+TD94 🌡️ musted 📋 ? ␅
+TD3293344 ␆.65
+TD100 🌡️ musted 📋 ? .65
+TD102 word: 5 musted 0.65
+TD27 questioning: -1 
+TD140 > ␅
+TD1057329 ␆* 3 2
+TD178 > * 3 2
+TD277189 ? ␅
+TD7014210 ␆5
+TD107 ? 5
+TD179 questioning: 5 loused
+TD99 🌡️ loused 📋 ? ␅
+TD3024907 ␆.5
+TD67 🌡️ loused 📋 ? .5
+TD82 word: 5 loused 0.5
+TD38 questioning: -1 
+TD101 > ␅
+TD948148 ␆* 3 2
+TD137 > * 3 2
+TD259311 ? ␅
+TD8160005 ␆2
+TD123 ? 2
+TD218 questioning: 5 choused
+TD89 🌡️ choused 📋 ? ␅
+TD4120783 ␆.05
+TD48 🌡️ choused 📋 ? .05
+TD58 word: 5 choused 0.05
+TD14 questioning: -1 
+TD52 > ␅
+TD1411027 ␆* 3 2
+TD178 > * 3 2
+TD352547 ? ␅
+TD6562328 ␆6
+TD59 ? 6
+TD93 questioning: 5 campused
+TD35 🌡️ campused 📋 ? ␅
+TD3340860 ␆.05
+TD116 🌡️ campused 📋 ? .05
+TD113 word: 5 campused 0.05
+TD46 questioning: -1 
+TD201 > ␅
+TD970382 ␆* 3 2
+TD61 > * 3 2
+TD279436 ? ␅
+TD4247367 ␆10
+TD100 ? 10
+TD163 questioning: 5 hocused
+TD60 🌡️ hocused 📋 ? ␅
+TD3075667 ␆.03
+TD111 🌡️ hocused 📋 ? .03
+TD109 word: 5 hocused 0.03
+TD29 questioning: -1 
+TD152 > ␅
+TD1043755 ␆* 3 2
+TD97 > * 3 2
+TD277206 ? ␅
+TD10180325 ␆2
+TD118 ? 2
+TD228 questioning: 5 lustred
+TD72 🌡️ lustred 📋 ? ␅
+TD3099619 ␆.24
+TD145 🌡️ lustred 📋 ? .24
+TD120 word: 5 lustred 0.24
+TD30 questioning: -1 
+TD163 > ␅
+TD1038598 ␆* 3 2
+TD173 > * 3 2
+TD269162 ? ␅
+TD3595090 ␆8
+TD190 ? 8
+TD249 questioning: 5 jalousied
+TD101 🌡️ jalousied 📋 ? ␅
+TD3616165 ␆.02
+TD123 🌡️ jalousied 📋 ? .02
+TD133 word: 5 jalousied 0.02
+TD38 questioning: -1 
+TD197 > ␅
+TD1255145 ␆* 3 2
+TD103 > * 3 2
+TD275815 ? ␅
+TD5764852 ␆5
+TD133 ? 5
+TD241 questioning: 5 toused
+TD104 🌡️ toused 📋 ? ␅
+TD3480787 ␆.09
+TD67 🌡️ toused 📋 ? .09
+TD77 word: 5 toused 0.09
+TD20 questioning: -1 
+TD116 > ␅
+TD914714 ␆* 3 2
+TD110 > * 3 2
+TD320509 ? ␅
+TD10887249 ␆7
+TD157 ? 7
+TD281 questioning: 5 boused
+TD102 🌡️ boused 📋 ? ␅
+TD2722508 ␆.11
+TD110 🌡️ boused 📋 ? .11
+TD101 word: 5 boused 0.11
+TD26 questioning: -1 
+TD159 > ␅
+TD3329030 ␆* 3 2
+TD74 > * 3 2
+TD285508 ? ␅
+TD8293024 ␆5
+TD133 ? 5
+TD230 questioning: 5 groused
+TD74 🌡️ groused 📋 ? ␅
+TD3672085 ␆.41
+TD149 🌡️ groused 📋 ? .41
+TD143 word: 5 groused 0.41
+TD40 questioning: -1 
+TD220 > ␅
+TD1766657 ␄
+TD131 <EOF>
+TD205 > ␅
+TD1560023 ␆* 3 2
+TD122 > * 3 2
+TD272804 ? ␅
+TD10867430 ␆7
+TD107 ? 7
+TD166 questioning: 5 jousted
+TD61 🌡️ jousted 📋 ? ␅
+TD4397468 ␆.74
+TD93 🌡️ jousted 📋 ? .74
+TD61 word: 5 jousted 0.74
+TD12 questioning: -1 
+TD60 > ␅
+TD1201128 ␆* 3 2
+TD62 > * 3 2
+TD260726 ? ␅
+TD11003610 ␄
+TD191 <EOF>
+TD302 > ␅
+TD1321945 ␆* 3 2
+TD100 > * 3 2
+TD265130 ? ␅
+TD2093504 ␄
+TD509 <EOF>
+TD445 > ␅
+TD2254353 ␆* 3 2 -bot 10
+TD142 > * 3 2 -bot 10
+TD268731 ? ␅
+TD3787415 ␆4
+TD109 ? 4
+TD176 questioning: 5 underthrusted
+TD79 🌡️ underthrusted 📋 ? ␅
+TD2712010 ␆.02
+TD153 🌡️ underthrusted 📋 ? .02
+TD134 word: 5 underthrusted 0.02
+TD33 questioning: -1 
+TD168 > ␅
+TD4610999 ␆* 3 2 -bot 10
+TD118 > * 3 2 -bot 10
+TD275878 ? ␅
+TD2789404 ␆4
+TD137 ? 4
+TD259 questioning: 5 intussuscepted
+TD93 🌡️ intussuscepted 📋 ? ␅
+TD3206569 ␆.06
+TD99 🌡️ intussuscepted 📋 ? .06
+TD186 word: 5 intussuscepted 0.06
+TD73 questioning: -1 
+TD110 > ␅
+TD1869591 ␆* 3 2 -bot 10
+TD134 > * 3 2 -bot 10
+TD266384 ? ␅
+TD5957068 ␆9
+TD229 ? 9
+TD356 questioning: 5 succussed
+TD143 🌡️ succussed 📋 ? ␅
+TD2746163 ␆.02
+TD77 🌡️ succussed 📋 ? .02
+TD97 word: 5 succussed 0.02
+TD40 questioning: -1 
+TD202 > ␅
+TD1073227 ␆* 3 2
+TD90 > * 3 2
+TD262869 ? ␅
+TD5115399 ␆7
+TD64 ? 7
+TD108 questioning: 5 cusped
+TD38 🌡️ cusped 📋 ? ␅
+TD5935504 ␆.02
+TD142 🌡️ cusped 📋 ? .02
+TD139 word: 5 cusped 0.02
+TD41 questioning: -1 
+TD176 > ␅
+TD1033864 ␆* 3 2
+TD60 > * 3 2
+TD277924 ? ␅
+TD10788193 ␄
+TD243 <EOF>
+TD768 > ␅
+TD2252310 ␆* 3 2 -bot 1-
+TD137 > * 3 2 -bot 1-
+TD290780 questioning: 5 sused
+TD36 🌡️ sused 📋 ? ␅
+TD2319004 ␄
+TD132 <EOF>
+TD185 > ␅
+TD3641475 ␆* 3 2 -bot 10
+TD98 > * 3 2 -bot 10
+TD266109 ? ␅
+TD2893668 ␆7
+TD199 ? 7
+TD318 questioning: 5 squushed
+TD100 🌡️ squushed 📋 ? ␅
+TD4018813 ␆0
+TD194 🌡️ squushed 📋 ? 0
+TD136 word: 5 squushed 0.0
+TD40 questioning: -1 
+TD190 > ␅
+TD8307302 ␆/res
+TD140 > /res
+TD252 📋> ␅
+TD2033035 ␆Word Grid #772
+TD132 📋> Word Grid #772
+TD36 📋> ␅
+TD108 ␆🦄🦄🦄
+TD31 📋> 🦄🦄🦄
+TD25 📋> ␅
+TD59 ␆🦄🦄🦄
+TD30 📋> 🦄🦄🦄
+TD28 📋> ␅
+TD64 ␆🦄🦄🦄
+TD33 📋> 🦄🦄🦄
+TD29 📋> ␅
+TD67 ␆Rarity: 0.00
+TD49 📋> Rarity: 0.00
+TD34 📋> ␅
+TD929018 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD49 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD6 📋> ␅
+TD1103383 ␆/store
+TD121 📋> /store
+TD18 📋> ␅
+TD1843944 ␄
+TD143 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #772\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\nRarity: 0.00\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10\n/store"}
+TD528 result: "Word Grid #772\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\nRarity: 0.00\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10\n/store"
+TD88 > ␅
+TD867938 ␆/store
+TD96 > /store
+TD210 📆 2026-07-12 ? ␅
+TD789710 ␆
+TD146 📆 2026-07-12 ? 
