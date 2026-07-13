@@ -1,0 +1,254 @@
+T1752.5235024610001 now: 2026-07-13T09:01:30EDT
+TD342 site: squareword.org
+TD83 wordlist: nwl2023.txt
+TD116  ...␅
+TD949995 ␆
+TD201  ...
+TD132 🧩  ? ␅
+TD14230747 ␆#1624
+TD194 🧩  ? #1624
+TD452 puzzle_id: #1624
+TD567 > ␅
+TD32120313 ␆*
+TD152 > *
+TD274019 try? ␅
+TD1288549 ␆1
+TD143 try? 1
+TD495 questioning: ["bears", "#5"]
+TD540 #1 <IndexError>  📋 "bears" ? ␅
+TD4882883 ␆_____ ~ RS
+TD56 #1 <IndexError>  📋 "bears" ? _____ ~ RS
+TD337 attempt 0 BEARS n n n m m
+TD59 #2 <IndexError>  📋 "bears" ? ␅
+TD2513934 ␆_____ ~ ER
+TD213 #2 <IndexError>  📋 "bears" ? _____ ~ ER
+TD738 attempt 1 BEARS n m n m n
+TD301 #3 <IndexError>  📋 "bears" ? ␅
+TD3232935 ␆_____ ~ BER
+TD116 #3 <IndexError>  📋 "bears" ? _____ ~ BER
+TD341 attempt 2 BEARS m m n m n
+TD148 #4 <IndexError>  📋 "bears" ? ␅
+TD4519623 ␆_____ ~ AS
+TD126 #4 <IndexError>  📋 "bears" ? _____ ~ AS
+TD302 attempt 3 BEARS n n m n m
+TD142 #5 <IndexError>  📋 "bears" ? ␅
+TD3063399 ␆_E___ ~ S
+TD218 #5 <IndexError>  📋 "bears" ? _E___ ~ S
+TD544 attempt 4 BEARS n Y n n m
+TD756 ? ␅
+TD14143497 ␆
+TD128 ? 
+TD164 question done
+TD434 > ␅
+TD41442518 ␆*
+TD159 > *
+TD786801 try? ␅
+TD3101233 ␆5
+TD171 try? 5
+TD549 questioning: ["umber", "#3"]
+TD820 #1 _____ ~RS -ABE  📋 "umber" ? ␅
+TD3384128 ␆.
+TD72 #1 _____ ~RS -ABE  📋 "umber" ? .
+TD228 attempt 0 UMBER n n n n m
+TD82 #2 _____ ~ER -ABS  📋 "umber" ? ␅
+TD1051489 ␆.
+TD72 #2 _____ ~ER -ABS  📋 "umber" ? .
+TD153 attempt 1 UMBER n n n m m
+TD67 #3 _____ ~BER -AS  📋 "umber" ? ␅
+TD2059174 ␆__BE_ ~ R
+TD69 #3 _____ ~BER -AS  📋 "umber" ? __BE_ ~ R
+TD175 attempt 2 UMBER n n Y Y m
+TD95 #4 _____ ~AS -BER  📋 "umber" ? ␅
+TD2931302 ␆U____ ~ ASU
+TD133 #4 _____ ~AS -BER  📋 "umber" ? U____ ~ ASU
+TD404 attempt 3 UMBER Y n n n n
+TD221 #5 _E___ ~S -ABR  📋 "umber" ? ␅
+TD3655590 ␆_E___ ~ SM
+TD140 #5 _E___ ~S -ABR  📋 "umber" ? _E___ ~ SM
+TD395 attempt 4 UMBER n m n n n
+TD578 ? ␅
+TD291078 ␆
+TD68 ? 
+TD74 question done
+TD165 > ␅
+TD883836 ␆*
+TD78 > *
+TD789919 try? ␅
+TD6348336 ␆2
+TD145 try? 2
+TD471 questioning: ["robed", "#3"]
+TD876 #1 _____ ~RS -ABEMU  📋 "robed" ? ␅
+TD3539998 ␆.
+TD166 #1 _____ ~RS -ABEMU  📋 "robed" ? .
+TD519 attempt 0 ROBED m n n n n
+TD171 #2 _____ ~ER -ABMSU  📋 "robed" ? ␅
+TD5696760 ␆_____ ~ EROD
+TD138 #2 _____ ~ER -ABMSU  📋 "robed" ? _____ ~ EROD
+TD386 attempt 1 ROBED m m n m m
+TD233 #3 __BE_ ~R -AMSU  📋 "robed" ? ␅
+TD1219796 ␆/it
+TD133 #3 __BE_ ~R -AMSU  📋 "robed" ? /it
+TD408 attempt 2 ROBED Y Y Y Y Y
+TD152 #4 U____ ~AS -BEMR  📋 "robed" ? ␅
+TD8249900 ␆U____ ~ ASU
+TD131 #4 U____ ~AS -BEMR  📋 "robed" ? U____ ~ ASU
+TD361 attempt 3 ROBED n n n n n
+TD235 #5 _E___ ~MS -ABERU  📋 "robed" ? ␅
+TD4279027 ␆_E___ ~ SM
+TD178 #5 _E___ ~MS -ABERU  📋 "robed" ? _E___ ~ SM
+TD529 attempt 4 ROBED n n n n n
+TD824 ? ␅
+TD950690 ␆\
+TD100 ? \
+TD197 #6 <IndexError>  📋 "robed" ? ␅
+TD3511008 ␄
+TD145 question done
+TD473 > ␅
+TD2095435 ␆sol
+TD109 > sol
+TD852 > ␅
+TD2169429 ␆*
+TD161 > *
+TD710746 try? ␅
+TD3181600 ␆2
+TD110 try? 2
+TD365 questioning: ["usual", "#4"]
+TD488 #1 _____ ~RS -ABDEMOU  📋 "usual" ? ␅
+TD1691149 ␄
+TD277 question done
+TD820 > ␅
+TD4581560 ␆* 2
+TD134 > * 2
+TD2610 try? ␅
+TD1969975 ␆3
+TD94 try? 3
+TD298 questioning: ["erode", "#2"]
+TD461 #1 _____ ~RS -ABDEMOU  📋 "erode" ? ␅
+TD3400225 ␆.
+TD165 #1 _____ ~RS -ABDEMOU  📋 "erode" ? .
+TD503 attempt 0 ERODE n m n n n
+TD268 #2 _____ ~DEOR -ABMSU  📋 "erode" ? ␅
+TD6688658 ␆_R_D_ ~ EO
+TD113 #2 _____ ~DEOR -ABMSU  📋 "erode" ? _R_D_ ~ EO
+TD346 attempt 1 ERODE m Y m Y m
+TD194 #4 U____ ~AS -BDEMOR  📋 "erode" ? ␅
+TD6317953 ␆U____ ~ ASU
+TD113 #4 U____ ~AS -BDEMOR  📋 "erode" ? U____ ~ ASU
+TD309 attempt 3 ERODE n n n n n
+TD226 #5 _E___ ~MS -ABDEORU  📋 "erode" ? ␅
+TD1216848 ␆.
+TD174 #5 _E___ ~MS -ABDEORU  📋 "erode" ? .
+TD455 attempt 4 ERODE n n n n n
+TD764 ? ␅
+TD251178 ␆
+TD180 ? 
+TD217 question done
+TD823 > ␅
+TD2618185 ␆*
+TD188 > *
+TD706977 questioning: ["credo", "#2"]
+TD187 #1 _____ ~RS -ABDEMOU  📋 "credo" ? ␅
+TD3834430 ␆.
+TD128 #1 _____ ~RS -ABDEMOU  📋 "credo" ? .
+TD338 attempt 0 CREDO n m n n n
+TD116 #2 _R_D_ ~EO -ABMSU  📋 "credo" ? ␅
+TD713541 ␆/it
+TD107 #2 _R_D_ ~EO -ABMSU  📋 "credo" ? /it
+TD338 attempt 1 CREDO Y Y Y Y Y
+TD129 #4 U____ ~AS -BDEMOR  📋 "credo" ? ␅
+TD4949514 ␆U____ ~ ASU
+TD53 #4 U____ ~AS -BDEMOR  📋 "credo" ? U____ ~ ASU
+TD134 attempt 3 CREDO n n n n n
+TD80 #5 _E___ ~MS -ABDEORU  📋 "credo" ? ␅
+TD1923579 ␆.
+TD110 #5 _E___ ~MS -ABDEORU  📋 "credo" ? .
+TD347 attempt 4 CREDO n n n n n
+TD404 ? ␅
+TD224448 ␆
+TD114 ? 
+TD131 question done
+TD441 > ␅
+TD572854 ␆*
+TD110 > *
+TD1815012 questioning: ["usual", "#4"]
+TD184 #1 _____ ~RS -ABCDEMOU  📋 "usual" ? ␅
+TD4187168 ␆.
+TD97 #1 _____ ~RS -ABCDEMOU  📋 "usual" ? .
+TD287 attempt 0 USUAL n m n n n
+TD124 #4 U____ ~AS -BCDEMOR  📋 "usual" ? ␅
+TD745270 ␆/it
+TD107 #4 U____ ~AS -BCDEMOR  📋 "usual" ? /it
+TD350 attempt 3 USUAL Y Y Y Y Y
+TD159 #5 _E___ ~MS -ABCDEORU  📋 "usual" ? ␅
+TD1065067 ␆.
+TD145 #5 _E___ ~MS -ABCDEORU  📋 "usual" ? .
+TD438 attempt 4 USUAL n m n n n
+TD717 ? ␅
+TD155093 ␆
+TD107 ? 
+TD113 question done
+TD448 > ␅
+TD479321 ␆*
+TD480 > *
+TD1640701 questioning: ["sprig", "#1"]
+TD213 #1 _____ ~RS -ABCDELMOU  📋 "sprig" ? ␅
+TD3323951 ␆/it
+TD113 #1 _____ ~RS -ABCDELMOU  📋 "sprig" ? /it
+TD306 attempt 0 SPRIG Y Y Y Y Y
+TD136 #5 _E___ ~MS -ABCDELORU  📋 "sprig" ? ␅
+TD961305 ␆.
+TD141 #5 _E___ ~MS -ABCDELORU  📋 "sprig" ? .
+TD447 attempt 4 SPRIG m n n n n
+TD559 ? ␅
+TD140318 ␆
+TD162 ? 
+TD156 question done
+TD571 > ␅
+TD414583 ␆*
+TD147 > *
+TD1075832 questioning: ["messy", "#5"]
+TD216 #5 _E___ ~MS -ABCDEGILOPRU  📋 "messy" ? ␅
+TD3657673 ␆/it
+TD187 #5 _E___ ~MS -ABCDEGILOPRU  📋 "messy" ? /it
+TD398 attempt 4 MESSY Y Y Y Y Y
+TD606 ? ␅
+TD743760 ␆
+TD172 ? 
+TD261 question done
+TD33974 📋> ␅
+TD6326093 ␆squareword.org 1624: 8 guesses
+TD103 📋> squareword.org 1624: 8 guesses
+TD123 📋> ␅
+TD54 ␆
+TD8 📋> 
+TD18 📋> ␅
+TD20 ␆🟨🟨🟨🟨🟨
+TD8 📋> 🟨🟨🟨🟨🟨
+TD14 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD13 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD13 📋> ␅
+TD15 ␆🟩🟨🟨🟨🟨
+TD6 📋> 🟩🟨🟨🟨🟨
+TD13 📋> ␅
+TD17 ␆🟨🟩🟨🟨🟨
+TD5 📋> 🟨🟩🟨🟨🟨
+TD12 📋> ␅
+TD14 ␆
+TD6 📋> 
+TD12 📋> ␅
+TD14 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD36 📋> ␅
+TD959109 ␆#squareword #squareword1624
+TD101 📋> #squareword #squareword1624
+TD75 📋> ␅
+TD1296751 ␄
+TD247 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1624: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1624"}
+TD1008 result: "squareword.org 1624: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1624"
+TD100 📆 2026-07-13 ? ␅
+TD408142 ␆
+TD105 📆 2026-07-13 ? 
