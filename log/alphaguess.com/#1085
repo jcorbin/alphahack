@@ -1,0 +1,73 @@
+T112.13976475000072 now: 2026-07-13T08:34:09EDT
+TD205 site: alphaguess.com
+TD185854 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 227f0a58a99d37c9104b45169f8e5e6e85c2c412
+TD98  ...␅
+TD5485334 ␆
+TD75  ...
+TD100 [0 : 98214 : 196520] mach? ␅
+TD154212 ␆
+TD61 [0 : 98214 : 196520] mach? 
+TD97 [0 : 98214 : 196520] mach? ␅
+TD12114245 ␆a
+TD196 [0 : 98214 : 196520] mach? a
+TD203 progress: 1 98214 mach
+TD585 [98215 : 147364 : 196520] rhotic? ␅
+TD2863040 ␆b
+TD58 [98215 : 147364 : 196520] rhotic? b
+TD84 progress: -1 147364 rhotic
+TD70 [98215 : 122775 : 147364] parr? ␅
+TD1546390 ␆b
+TD123 [98215 : 122775 : 147364] parr? b
+TD149 progress: -1 122775 parr
+TD172 [98215 : 109931 : 122775] ne? ␅
+TD1483753 ␆a
+TD131 [98215 : 109931 : 122775] ne? a
+TD128 progress: 1 109931 ne
+TD169 [109932 : 116349 : 122775] orchard? ␅
+TD1329496 ␆b
+TD99 [109932 : 116349 : 122775] orchard? b
+TD111 progress: -1 116349 orchard
+TD134 [109932 : 111481 : 116349] no? ␅
+TD1497359 ␆b
+TD87 [109932 : 111481 : 116349] no? b
+TD107 progress: -1 111481 no
+TD415 [109932 : 110703 : 111481] neuroglia? ␅
+TD1315178 ␆a
+TD151 [109932 : 110703 : 111481] neuroglia? a
+TD150 progress: 1 110703 neuroglia
+TD707 [110704 : 111092 : 111481] niddering? ␅
+TD1276282 ␆a
+TD127 [110704 : 111092 : 111481] niddering? a
+TD135 progress: 1 111092 niddering
+TD154 [111093 : 111277 : 111481] nim? ␅
+TD3671763 ␆b
+TD70 [111093 : 111277 : 111481] nim? b
+TD49 progress: -1 111277 nim
+TD52 [111093 : 111173 : 111277] night? ␅
+TD2610767 ␆it
+TD159 [111093 : 111173 : 111277] night? it
+TD178 progress: 0 111173 night
+TD51 [111093 : 111173 : 111277] <Done>.
+TD182 📋> ␅
+TD5054854 ␆🧩 Puzzle #1085
+TD156 📋> 🧩 Puzzle #1085
+TD22 📋> ␅
+TD73 ␆🤔 10 guesses
+TD13 📋> 🤔 10 guesses
+TD11 📋> ␅
+TD32 ␆⏱️ 16s
+TD12 📋> ⏱️ 16s
+TD10 📋> ␅
+TD515211 ␆🔗 alphaguess.com/1085
+TD126 📋> 🔗 alphaguess.com/1085
+TD21 📋> ␅
+TD285706 ␄
+TD198 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1085\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1085"}
+TD126 result: "\ud83e\udde9 Puzzle #1085\n\ud83e\udd14 10 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1085"
+TD22 result puzzle: 1085
+TD12 result guesses: 10
+TD10 result time: 16s
+TD8 result link: alphaguess.com/1085
+TD105 📆 2026-07-13 ? ␅
+TD223854 ␆
+TD133 📆 2026-07-13 ? 
