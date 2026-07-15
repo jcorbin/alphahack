@@ -1,0 +1,230 @@
+T453.87065260899544 now: 2026-07-15T09:36:36EDT
+TD222 site: squareword.org
+TD52 wordlist: nwl2023.txt
+TD73  ...␅
+TD511543 ␆
+TD201  ...
+TD171 🧩  ? ␅
+TD27927148 ␆#1626
+TD177 🧩  ? #1626
+TD531 puzzle_id: #1626
+TD942 > ␅
+TD1732843 ␆*
+TD164 > *
+TD240023 try? ␅
+TD712982 ␆1
+TD217 try? 1
+TD677 questioning: ["urase", "#5"]
+TD890 #1 <IndexError>  📋 "urase" ? ␅
+TD4711865 ␆__A__ ~ S
+TD231 #1 <IndexError>  📋 "urase" ? __A__ ~ S
+TD1628 attempt 0 URASE n n Y m n
+TD254 #2 <IndexError>  📋 "urase" ? ␅
+TD2441787 ␆_____ ~ A
+TD61 #2 <IndexError>  📋 "urase" ? _____ ~ A
+TD166 attempt 1 URASE n n m n n
+TD75 #3 <IndexError>  📋 "urase" ? ␅
+TD2472329 ␆____E
+TD106 #3 <IndexError>  📋 "urase" ? ____E
+TD332 attempt 2 URASE n n n n Y
+TD199 #4 <IndexError>  📋 "urase" ? ␅
+TD2620694 ␆____E ~ E
+TD147 #4 <IndexError>  📋 "urase" ? ____E ~ E
+TD477 attempt 3 URASE n n n n Y
+TD220 #5 <IndexError>  📋 "urase" ? ␅
+TD2491720 ␆_____ ~ SE
+TD122 #5 <IndexError>  📋 "urase" ? _____ ~ SE
+TD377 attempt 4 URASE n n n m m
+TD727 ? ␅
+TD273773 ␆
+TD180 ? 
+TD302 question done
+TD854 > ␅
+TD411100 ␆*
+TD212 > *
+TD621090 try? ␅
+TD984917 ␆1
+TD107 try? 1
+TD373 questioning: ["clans", "#1"]
+TD727 #1 __A__ ~S -ERU  📋 "clans" ? ␅
+TD4243431 ␆_LA_S ~ S
+TD187 #1 __A__ ~S -ERU  📋 "clans" ? _LA_S ~ S
+TD591 attempt 0 CLANS n Y Y n Y
+TD334 #2 _____ ~A -ERSU  📋 "clans" ? ␅
+TD1099702 ␆.
+TD152 #2 _____ ~A -ERSU  📋 "clans" ? .
+TD531 attempt 1 CLANS n n m n n
+TD180 #3 ____E -ARSU  📋 "clans" ? ␅
+TD1648138 ␆___NE
+TD147 #3 ____E -ARSU  📋 "clans" ? ___NE
+TD675 attempt 2 CLANS n n n Y n
+TD351 #4 ____E -ARSU  📋 "clans" ? ␅
+TD3760342 ␆____E ~ E
+TD112 #4 ____E -ARSU  📋 "clans" ? ____E ~ E
+TD336 attempt 3 CLANS n n n n n
+TD197 #5 _____ ~ES -ARU  📋 "clans" ? ␅
+TD2973565 ␆_L___ ~ SE
+TD144 #5 _____ ~ES -ARU  📋 "clans" ? _L___ ~ SE
+TD454 attempt 4 CLANS n Y n n m
+TD809 ? ␅
+TD4210288 ␆
+TD226 ? 
+TD257 question done
+TD736 > ␅
+TD1168714 ␆8
+TD196 > 8
+TD1445 > ␅
+TD704239 ␆*
+TD130 > *
+TD763707 try? ␅
+TD6369233 ␄
+TD241 <EOF>
+TD893 > ␅
+TD1264003 ␆* 1
+TD467 > * 1
+TD6311 try? ␅
+TD1787597 ␄
+TD236 <EOF>
+TD918 > ␅
+TD2612694 ␆* 2
+TD181 > * 2
+TD7594 try? ␅
+TD2239575 ␆3
+TD132 try? 3
+TD436 questioning: ["habit", "#2"]
+TD634 #1 _LA_S -CENRU  📋 "habit" ? ␅
+TD15780299 ␆_LA_S ~ SB
+TD110 #1 _LA_S -CENRU  📋 "habit" ? _LA_S ~ SB
+TD274 attempt 0 HABIT n n m n n
+TD176 #2 _____ ~A -CELNRSU  📋 "habit" ? ␅
+TD2176960 ␆/it
+TD87 #2 _____ ~A -CELNRSU  📋 "habit" ? /it
+TD259 attempt 1 HABIT Y Y Y Y Y
+TD121 #3 ___NE -ACLRSU  📋 "habit" ? ␅
+TD4342049 ␆___NE ~ I
+TD85 #3 ___NE -ACLRSU  📋 "habit" ? ___NE ~ I
+TD240 attempt 2 HABIT n n n m n
+TD134 #4 ____E -ACLNRSU  📋 "habit" ? ␅
+TD2836485 ␆____E ~ E
+TD168 #4 ____E -ACLNRSU  📋 "habit" ? ____E ~ E
+TD451 attempt 3 HABIT n n n n n
+TD268 #5 _L___ ~ES -ACNRU  📋 "habit" ? ␅
+TD2807918 ␆.
+TD86 #5 _L___ ~ES -ACNRU  📋 "habit" ? .
+TD272 attempt 4 HABIT n n n n n
+TD306 ? ␅
+TD261254 ␆
+TD158 ? 
+TD216 question done
+TD671 > ␅
+TD537327 ␆*
+TD142 > *
+TD817519 questioning: ["opine", "#3"]
+TD158 #1 _LA_S ~B -ACEHINRTU  📋 "opine" ? ␅
+TD6039567 ␆_LA_S ~ SB
+TD157 #1 _LA_S ~B -ACEHINRTU  📋 "opine" ? _LA_S ~ SB
+TD499 attempt 0 OPINE n n n n n
+TD279 #3 ___NE ~I -ABCHLRSTU  📋 "opine" ? ␅
+TD911209 ␆/it
+TD175 #3 ___NE ~I -ABCHLRSTU  📋 "opine" ? /it
+TD540 attempt 2 OPINE Y Y Y Y Y
+TD208 #4 ____E -ABCHILNRSTU  📋 "opine" ? ␅
+TD3645842 ␆____E ~ E
+TD129 #4 ____E -ABCHILNRSTU  📋 "opine" ? ____E ~ E
+TD395 attempt 3 OPINE n n n n Y
+TD289 #5 _L___ ~ES -ABCHINRTU  📋 "opine" ? ␅
+TD3331919 ␆_L___ ~ SEP
+TD142 #5 _L___ ~ES -ABCHINRTU  📋 "opine" ? _L___ ~ SEP
+TD459 attempt 4 OPINE n m n n m
+TD868 ? ␅
+TD334935 ␆
+TD160 ? 
+TD224 question done
+TD777 > ␅
+TD672781 ␆
+TD126 > 
+TD869 > ␅
+TD635218 ␆*
+TD180 > *
+TD1353381 questioning: ["sleep", "#5"]
+TD197 #1 _LA_S ~B -ACEHINOPRTU  📋 "sleep" ? ␅
+TD4968352 ␆SLA_S ~ B
+TD101 #1 _LA_S ~B -ACEHINOPRTU  📋 "sleep" ? SLA_S ~ B
+TD442 attempt 0 SLEEP Y Y n n n
+TD345 #4 ____E -ABCHILNOPRSTU  📋 "sleep" ? ␅
+TD2553430 ␆____E ~ E
+TD180 #4 ____E -ABCHILNOPRSTU  📋 "sleep" ? ____E ~ E
+TD485 attempt 3 SLEEP n n m m n
+TD366 #5 _L___ ~EPS -ABCHINORTU  📋 "sleep" ? ␅
+TD632047 ␆/it
+TD178 #5 _L___ ~EPS -ABCHINORTU  📋 "sleep" ? /it
+TD510 attempt 4 SLEEP Y Y Y Y Y
+TD951 ? ␅
+TD204361 ␆
+TD155 ? 
+TD177 question done
+TD656 > ␅
+TD424126 ␆*
+TD154 > *
+TD1592837 questioning: ["slabs", "#1"]
+TD188 #1 SLA_S ~B -ACEHINOPRTU  📋 "slabs" ? ␅
+TD2526686 ␆/it
+TD188 #1 SLA_S ~B -ACEHINOPRTU  📋 "slabs" ? /it
+TD631 attempt 0 SLABS Y Y Y Y Y
+TD301 #4 ____E -ABCHILNOPRSTU  📋 "slabs" ? ␅
+TD2992104 ␆____E ~ E
+TD149 #4 ____E -ABCHILNOPRSTU  📋 "slabs" ? ____E ~ E
+TD439 attempt 3 SLABS n n n n n
+TD687 ? ␅
+TD313052 ␆
+TD125 ? 
+TD195 question done
+TD598 > ␅
+TD1101676 ␆*
+TD140 > *
+TD1081479 questioning: ["wedge", "#4"]
+TD187 #4 ____E -ABCHILNOPRSTU  📋 "wedge" ? ␅
+TD3091525 ␆/it
+TD120 #4 ____E -ABCHILNOPRSTU  📋 "wedge" ? /it
+TD363 attempt 3 WEDGE Y Y Y Y Y
+TD509 ? ␅
+TD5778634 ␆
+TD133 ? 
+TD150 question done
+TD29869 📋> ␅
+TD616057 ␆squareword.org 1626: 7 guesses
+TD161 📋> squareword.org 1626: 7 guesses
+TD30 📋> ␅
+TD80 ␆
+TD12 📋> 
+TD12 📋> ␅
+TD30 ␆🟩🟩🟩🟨🟩
+TD11 📋> 🟩🟩🟩🟨🟩
+TD10 📋> ␅
+TD23 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD23 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD26 📋> ␅
+TD21 ␆🟨🟨🟨🟨🟩
+TD9 📋> 🟨🟨🟨🟨🟩
+TD9 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD22 ␆
+TD9 📋> 
+TD9 📋> ␅
+TD23 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> ␅
+TD236608 ␆#squareword #squareword1626
+TD142 📋> #squareword #squareword1626
+TD29 📋> ␅
+TD179119 ␄
+TD253 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1626: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1626"}
+TD2355 result: "squareword.org 1626: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1626"
+TD124 📆 2026-07-15 ? ␅
+TD140486 ␆
+TD200 📆 2026-07-15 ? 
