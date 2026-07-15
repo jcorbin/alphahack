@@ -1,0 +1,146 @@
+T2229.7006817660003 now: 2026-07-15T09:14:17EDT
+TD274 site: https://www.merriam-webster.com/games/quordle/#/
+TD48 wordlist: nwl2023.txt
+TD16 num_words: 4
+TD237  ...␅
+TD405592 ␆
+TD107  ...
+TD485129 > ␅
+TD19293096 ␆*
+TD99 > *
+TD55226 ? ␅
+TD4478020 ␆6
+TD88 ? 6
+TD187 questioning: stern
+TD158 Classic #1 _____? ␅
+TD9096749 ␆nnnMn
+TD130 Classic #1 _____? nnnMn
+TD415 attempt: 0 STERN n n n m n
+TD168 Classic #2 _____? ␅
+TD1396147 ␆nnnMn
+TD157 Classic #2 _____? nnnMn
+TD468 attempt: 1 STERN n n n m n
+TD250 Classic #3 _____? ␅
+TD1423613 ␆nMnMn
+TD109 Classic #3 _____? nMnMn
+TD309 attempt: 2 STERN n m n m n
+TD167 Classic #4 _____? ␅
+TD1515081 ␆YnMMn
+TD123 Classic #4 _____? YnMMn
+TD301 attempt: 3 STERN Y n m m n
+TD459299 > ␅
+TD8239992 ␆*
+TD99 > *
+TD6222 ? ␅
+TD3652527 ␆1
+TD50 ? 1
+TD81 questioning: boral
+TD73 Classic #1 _____ ~R -ENST? ␅
+TD2728770 ␆nMMnn
+TD117 Classic #1 _____ ~R -ENST? nMMnn
+TD265 attempt: 0 BORAL n m m n n
+TD154 Classic #2 _____ ~R -ENST? ␅
+TD1827195 ␆YnMnn
+TD136 Classic #2 _____ ~R -ENST? YnMnn
+TD293 attempt: 1 BORAL Y n m n n
+TD160 Classic #3 _____ ~RT -ENS? ␅
+TD1520141 ␆YMMnn
+TD150 Classic #3 _____ ~RT -ENS? YMMnn
+TD372 attempt: 2 BORAL Y m m n n
+TD204 Classic #4 S____ ~ER -NT? ␅
+TD1334550 ␆nnYnn
+TD128 Classic #4 S____ ~ER -NT? nnYnn
+TD360 attempt: 3 BORAL n n Y n n
+TD433741 > ␅
+TD755020 ␆*
+TD98 > *
+TD366 questioning: broth
+TD179 Classic #1 _____ ~OR -ABELNST? ␅
+TD7425768 ␆nYYnn
+TD153 Classic #1 _____ ~OR -ABELNST? nYYnn
+TD290 attempt: 0 BROTH n Y Y n n
+TD158 Classic #2 B____ ~R -AELNOST? ␅
+TD1594547 ␆YYnnn
+TD81 Classic #2 B____ ~R -AELNOST? YYnnn
+TD225 attempt: 1 BROTH Y Y n n n
+TD126 Classic #3 B____ ~ORT -AELNS? ␅
+TD2593447 ␆YYYYY
+TD106 Classic #3 B____ ~ORT -AELNS? YYYYY
+TD207 attempt: 2 BROTH Y Y Y Y Y
+TD119 Classic #4 S_R__ ~E -ABLNOT? ␅
+TD1346825 ␆nMnnn
+TD332 Classic #4 S_R__ ~E -ABLNOT? nMnnn
+TD345 attempt: 3 BROTH n m n n n
+TD312626 > ␅
+TD1695203 ␆*
+TD105 > *
+TD492 questioning: brick
+TD498 Classic #1 _RO__ -ABEHLNST? ␅
+TD10922974 ␆nYnnn
+TD123 Classic #1 _RO__ -ABEHLNST? nYnnn
+TD350 attempt: 0 BRICK n Y n n n
+TD192 Classic #2 BR___ -AEHLNOST? ␅
+TD2015148 ␆YYYYY
+TD129 Classic #2 BR___ -AEHLNOST? YYYYY
+TD407 attempt: 1 BRICK Y Y Y Y Y
+TD244 Classic #4 S_R__ ~E -ABHLNOT? ␅
+TD2204590 ␆nMnnn
+TD190 Classic #4 S_R__ ~E -ABHLNOT? nMnnn
+TD436 attempt: 3 BRICK n m n n n
+TD207382 > ␅
+TD970504 ␆*
+TD132 > *
+TD1178 ? ␅
+TD1131363 ␆1
+TD101 ? 1
+TD183 questioning: surge
+TD181 Classic #1 _RO__ -ABCEHIKLNST? ␅
+TD3782704 ␆nnMnn
+TD123 Classic #1 _RO__ -ABCEHIKLNST? nnMnn
+TD313 attempt: 0 SURGE n n m n n
+TD169 Classic #4 S_R__ ~E -ABCHIKLNOT? ␅
+TD1599424 ␆YYYYY
+TD120 Classic #4 S_R__ ~E -ABCHIKLNOT? YYYYY
+TD286 attempt: 3 SURGE Y Y Y Y Y
+TD105863 > ␅
+TD12897287 ␆*
+TD247 > *
+TD1581 ? ␅
+TD1437404 ␆1
+TD117 ? 1
+TD230 questioning: proxy
+TD242 Classic #1 _RO__ -ABCEGHIKLNSTU? ␅
+TD3151951 ␆YYYYY
+TD70 Classic #1 _RO__ -ABCEGHIKLNSTU? YYYYY
+TD157 attempt: 0 PROXY Y Y Y Y Y
+TD92 📋> ␅
+TD4985574 ␆PROXY
+TD113 📋> PROXY
+TD20 📋> ␅
+TD233574 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "PROXY"}
+TD2544 📋> ␅
+TD1496070 ␆
+TD125 📋> 
+TD36 📋> ␅
+TD3019451 ␆🙂 Daily Quordle 1633
+TD128 📋> 🙂 Daily Quordle 1633
+TD35 📋> ␅
+TD90 ␆6️⃣4️⃣
+TD56 📋> 6️⃣4️⃣
+TD33 📋> ␅
+TD55 ␆3️⃣5️⃣
+TD28 📋> 3️⃣5️⃣
+TD25 📋> ␅
+TD49 ␆m-w.com/games/quordle/
+TD27 📋> m-w.com/games/quordle/
+TD25 📋> ␅
+TD372291 ␆
+TD96 📋> 
+TD29 📋> ␅
+TD172892 ␄
+TD220 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\n\ud83d\ude42 Daily Quordle 1633\n6\ufe0f\u20e34\ufe0f\u20e3\n3\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD618 result: "\n\ud83d\ude42 Daily Quordle 1633\n6\ufe0f\u20e34\ufe0f\u20e3\n3\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD182 📆 2026-07-15 ? ␅
+TD177820 ␆
+TD151 📆 2026-07-15 ? 
