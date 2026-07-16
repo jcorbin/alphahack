@@ -22,9 +22,17 @@ This repository is my ongoing fascination with solving word games semi-automatic
    enough to solve its daily puzzles, but doesn't yet work efficiently enough
    to solve weeklies
 
-6. most recently, have been managing to "not solve wordle" (
+6. then inverted the wordle solver's goals to "not solve wordle" (
    [dontwordle.com](https://dontwordle.com/) ), by a simplified and
    score-inverted descendent of hurdle solver
+
+7. eventually scaled out further to
+   [quordle](https://www.merriam-webster.com/games/quordle/#/),
+   [octordle](https://www.merriam-webster.com/games/octordle/daily),
+   and [sedecordle](https://sedecordlegame.org/)
+
+8. most recently a solver for [wordgrid](https://wordgrid.clevergoat.com/),
+   which is similar to the wordle family solvers
 
 Throughout I've developed a few modules:
 - `sortem.py` -- handles possible word scoring, sampling, and choice
