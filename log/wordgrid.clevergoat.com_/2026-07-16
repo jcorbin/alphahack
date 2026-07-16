@@ -1,0 +1,375 @@
+T1.4798416220000945 now: 2026-07-16T11:33:33EDT
+TD77 site: https://wordgrid.clevergoat.com/
+TD13 wordlist: nwl2023.txt
+TD31 > ␅
+TD8782622 ␆/site
+TD80 > /site
+TD404  ...␅
+TD8567856 ␆
+TD78  ...
+TD153 > ␅
+TD31368097 ␆col 1 ![LPU]
+TD84 > col 1 ![LPU]
+TD380 rule col: 1 ![LPU]
+TD52 > ␅
+TD8599563 ␆col 2 ![AEP]
+TD83 > col 2 ![AEP]
+TD283 rule col: 2 ![AEP]
+TD62 > ␅
+TD28167941 ␆col 3 x2
+TD97 > col 3 x2
+TD398 rule col: 3 x2
+TD78 > ␅
+TD4767550 ␆row 1 #4
+TD83 > row 1 #4
+TD276 rule row: 1 #4
+TD61 > ␅
+TD5511529 ␆row 2 ~IG
+TD76 > row 2 ~IG
+TD211 rule row: 2 ~IG
+TD51 > ␅
+TD2735699 ␆row 3 ~OM
+TD82 > row 3 ~OM
+TD248 rule row: 3 ~OM
+TD65 > ␅
+TD8111811 ␆*
+TD74 > *
+TD186902 ? ␅
+TD1804831 ␆1
+TD72 ? 1
+TD112 questioning: 0 oats
+TD45 🌡️ oats 📋 ? ␅
+TD1191824 ␄
+TD94 <EOF>
+TD117 > ␅
+TD599832 ␆*
+TD75 > *
+TD165405 ? ␅
+TD4962849 ␆10
+TD82 ? 10
+TD137 questioning: 0 areg
+TD45 🌡️ areg 📋 ? ␅
+TD4199608 ␆0
+TD71 🌡️ areg 📋 ? 0
+TD339 word: 0 areg 0.0
+TD13 questioning: -1 
+TD50 > ␅
+TD59080263 ␆*
+TD69 > *
+TD146879 ? ␅
+TD5021056 ␆2
+TD84 ? 2
+TD130 questioning: 1 orts
+TD42 🌡️ orts 📋 ? ␅
+TD5175859 ␆0
+TD71 🌡️ orts 📋 ? 0
+TD71 word: 1 orts 0.0
+TD13 questioning: -1 
+TD65 > ␅
+TD1167790 ␆*
+TD78 > *
+TD556597 ? ␅
+TD6035412 ␆10
+TD74 ? 10
+TD127 questioning: 2 eely
+TD40 🌡️ eely 📋 ? ␅
+TD4327811 ␆.17
+TD81 🌡️ eely 📋 ? .17
+TD86 word: 2 eely 0.17
+TD16 questioning: -1 
+TD86 > ␅
+TD959698 ␆*
+TD80 > *
+TD163173 ? ␅
+TD3172729 ␆4
+TD76 ? 4
+TD129 questioning: 3 signora
+TD40 🌡️ signora 📋 ? ␅
+TD3911991 ␆.03
+TD94 🌡️ signora 📋 ? .03
+TD86 word: 3 signora 0.03
+TD15 questioning: -1 
+TD87 > ␅
+TD816285 ␆*
+TD81 > *
+TD155592 ? ␅
+TD1995852 ␆2
+TD81 ? 2
+TD130 questioning: 4 trig
+TD41 🌡️ trig 📋 ? ␅
+TD967526 ␄
+TD105 <EOF>
+TD137 > ␅
+TD671836 ␆*
+TD81 > *
+TD164498 ? ␅
+TD10299520 ␆6
+TD79 ? 6
+TD125 questioning: 4 signor
+TD40 🌡️ signor 📋 ? ␅
+TD4175830 ␆.2
+TD71 🌡️ signor 📋 ? .2
+TD72 word: 4 signor 0.2
+TD11 questioning: -1 
+TD72 > ␅
+TD559867 ␆*
+TD81 > *
+TD545968 ? ␅
+TD3590022 ␆6
+TD78 ? 6
+TD128 questioning: 5 colligated
+TD42 🌡️ colligated 📋 ? ␅
+TD5128455 ␆0
+TD81 🌡️ colligated 📋 ? 0
+TD81 word: 5 colligated 0.0
+TD16 questioning: -1 
+TD87 > ␅
+TD823056 ␆*
+TD78 > *
+TD171447 ? ␅
+TD4412517 ␆10
+TD85 ? 10
+TD131 questioning: 6 comte
+TD40 🌡️ comte 📋 ? ␅
+TD3839743 ␆0
+TD82 🌡️ comte 📋 ? 0
+TD85 word: 6 comte 0.0
+TD16 questioning: -1 
+TD87 > ␅
+TD727878 ␆*
+TD80 > *
+TD153375 ? ␅
+TD2510493 ␆6
+TD82 ? 6
+TD125 questioning: 7 thrombins
+TD42 🌡️ thrombins 📋 ? ␅
+TD3815732 ␆0
+TD82 🌡️ thrombins 📋 ? 0
+TD79 word: 7 thrombins 0.0
+TD16 questioning: -1 
+TD84 > ␅
+TD9231882 ␆*
+TD67 > *
+TD562894 ? ␅
+TD1861092 ␆9
+TD69 ? 9
+TD104 questioning: 8 tomalleys
+TD33 🌡️ tomalleys 📋 ? ␅
+TD5279820 ␆0
+TD74 🌡️ tomalleys 📋 ? 0
+TD67 word: 8 tomalleys 0.0
+TD12 questioning: -1 
+TD73 > ␅
+TD6391819 ␆* 2 2
+TD77 > * 2 2
+TD161843 ? ␅
+TD7278248 ␆4
+TD66 ? 4
+TD119 questioning: 4 unrigs
+TD37 🌡️ unrigs 📋 ? ␅
+TD4551789 ␆.05
+TD63 🌡️ unrigs 📋 ? .05
+TD108 word: 4 unrigs 0.05
+TD35 questioning: -1 
+TD102 > ␅
+TD3327765 ␆* 3 1
+TD73 > * 3 1
+TD540106 ? ␅
+TD4291914 ␆4
+TD80 ? 4
+TD132 questioning: 2 fess
+TD41 🌡️ fess 📋 ? ␅
+TD6175698 ␆.15
+TD82 🌡️ fess 📋 ? .15
+TD86 word: 2 fess 0.15
+TD16 questioning: -1 
+TD91 > ␅
+TD1767805 ␆* 3 1
+TD82 > * 3 1
+TD558623 ? ␅
+TD4529362 ␆8
+TD78 ? 8
+TD104 questioning: 2 jell
+TD31 🌡️ jell 📋 ? ␅
+TD4279839 ␆.17
+TD69 🌡️ jell 📋 ? .17
+TD68 word: 2 jell 0.17
+TD12 questioning: -1 
+TD71 > ␅
+TD1743849 ␆* 3 1 
+TD83 > * 3 1 
+TD553587 ? ␅
+TD3918268 ␆8
+TD75 ? 8
+TD106 questioning: 2 eddo
+TD37 🌡️ eddo 📋 ? ␅
+TD4551932 ␆.07
+TD72 🌡️ eddo 📋 ? .07
+TD67 word: 2 eddo 0.07
+TD11 questioning: -1 
+TD67 > ␅
+TD6719777 ␆* 1 2 
+TD66 > * 1 2 
+TD192507 ? ␅
+TD4647579 ␆2
+TD83 ? 2
+TD123 questioning: 3 trigon
+TD41 🌡️ trigon 📋 ? ␅
+TD3967793 ␆.08
+TD62 🌡️ trigon 📋 ? .08
+TD81 word: 3 trigon 0.08
+TD17 questioning: -1 
+TD71 > ␅
+TD1823787 ␆* 1 2
+TD83 > * 1 2
+TD176748 ? ␅
+TD1671251 ␆9
+TD71 ? 9
+TD105 questioning: 3 sterigma
+TD40 🌡️ sterigma 📋 ? ␅
+TD3591747 ␆0
+TD69 🌡️ sterigma 📋 ? 0
+TD68 word: 3 sterigma 0.0
+TD11 questioning: -1 
+TD71 > ␅
+TD991851 ␆* 2 2
+TD71 > * 2 2
+TD159007 ? ␅
+TD3008830 ␆2
+TD72 ? 2
+TD104 questioning: 4 trigo
+TD33 🌡️ trigo 📋 ? ␅
+TD3847981 ␆.08
+TD73 🌡️ trigo 📋 ? .08
+TD69 word: 4 trigo 0.08
+TD11 questioning: -1 
+TD69 > ␅
+TD799683 ␆* 2 2
+TD79 > * 2 2
+TD162819 ? ␅
+TD3885131 ␆2
+TD78 ? 2
+TD122 questioning: 4 tiglons
+TD40 🌡️ tiglons 📋 ? ␅
+TD3767800 ␆0
+TD76 🌡️ tiglons 📋 ? 0
+TD76 word: 4 tiglons 0.0
+TD15 questioning: -1 
+TD88 > ␅
+TD1831759 ␆* 3 1
+TD71 > * 3 1
+TD585496 ? ␅
+TD4350463 ␆3
+TD72 ? 3
+TD102 questioning: 2 sett
+TD34 🌡️ sett 📋 ? ␅
+TD4039878 ␆.12
+TD64 🌡️ sett 📋 ? .12
+TD69 word: 2 sett 0.12
+TD12 questioning: -1 
+TD72 > ␅
+TD2207863 ␆* 3 1
+TD64 > * 3 1
+TD612381 ? ␅
+TD2619607 ␆7
+TD78 ? 7
+TD124 questioning: 2 oohs
+TD43 🌡️ oohs 📋 ? ␅
+TD3279695 ␆.12
+TD82 🌡️ oohs 📋 ? .12
+TD88 word: 2 oohs 0.12
+TD18 questioning: -1 
+TD96 > ␅
+TD1232715 ␆* 3 1
+TD63 > * 3 1
+TD558311 ? ␅
+TD2384712 ␆7
+TD84 ? 7
+TD124 questioning: 2 alls
+TD43 🌡️ alls 📋 ? ␅
+TD4216129 ␆.17
+TD68 🌡️ alls 📋 ? .17
+TD68 word: 2 alls 0.17
+TD12 questioning: -1 
+TD74 > ␅
+TD1007485 ␆* 3 1
+TD68 > * 3 1
+TD556941 ? ␅
+TD3235050 ␆6
+TD65 ? 6
+TD107 questioning: 2 effs
+TD36 🌡️ effs 📋 ? ␅
+TD3927839 ␆.11
+TD71 🌡️ effs 📋 ? .11
+TD71 word: 2 effs 0.11
+TD14 questioning: -1 
+TD71 > ␅
+TD1183835 ␆* 3 1
+TD90 > * 3 1
+TD549265 ? ␅
+TD9306834 ␆6
+TD83 ? 6
+TD126 questioning: 2 mool
+TD41 🌡️ mool 📋 ? ␅
+TD5543762 ␆.15
+TD70 🌡️ mool 📋 ? .15
+TD75 word: 2 mool 0.15
+TD15 questioning: -1 
+TD94 > ␅
+TD421052757 ␄
+TD97 <EOF>
+TD118 > ␅
+TD215849 ␆
+TD85 > 
+TD197 > ␅
+TD511658 ␄
+TD99 <EOF>
+TD123 > ␅
+TD487792 ␄
+TD94 <EOF>
+TD119 > ␅
+TD439746 ␄
+TD92 <EOF>
+TD120 > ␅
+TD151797 ␄
+TD91 <EOF>
+TD114 > ␅
+TD199806 ␄
+TD91 <EOF>
+TD115 > ␅
+TD399846 <INT>
+TD94 <INT>
+TD18 <INT>
+TD14 <INT>
+TD11 <INT>
+TD10 <INT>
+TD37 <INT>
+TD11 <INT>
+TD10 <INT>
+TD9 <INT>
+TD9 <INT>
+TD8 <INT>
+TD8 <INT>
+TD9 <INT>
+TD9 <INT>
+TD9 <INT>
+T9.99855188500078 now: 2026-07-16T11:48:22EDT
+TD105 > ␅
+TD5266806 ␆* 3 1 eddo
+TD82 > * 3 1 eddo
+TD617 questioning: 2 eddo
+TD51 🌡️ eddo 📋 ? ␅
+TD4711280 ␆.07
+TD72 🌡️ eddo 📋 ? .07
+TD212 word: 2 eddo 0.07
+TD14 questioning: -1 
+TD59 > ␅
+TD9919793 ␆/store
+TD102 > /store
+TD202 📆 2026-07-16 ? ␅
+TD1423689 ␆
+TD93 📆 2026-07-16 ? 
+TD104 🧩 id (default: 2026-07-16) ? ␅
+TD3127775 ␆
+TD76 🧩 id (default: 2026-07-16) ? 
+TD47 puzzle_id: 2026-07-16
