@@ -1,0 +1,217 @@
+T714.2529037519998 now: 2026-07-16T08:03:29EDT
+TD269 site: https://www.merriam-webster.com/games/quordle/#/
+TD54 wordlist: nwl2023.txt
+TD17 num_words: 4
+TD238  ...␅
+TD1268585 ␆
+TD142  ...
+TD523952 > ␅
+TD24839035 ␆*
+TD177 > *
+TD62557 ? ␅
+TD1604660 ␆1
+TD107 ? 1
+TD172 questioning: rales
+TD162 Classic #1 _____? ␅
+TD4437773 ␆nnYnn
+TD322 Classic #1 _____? nnYnn
+TD640 attempt: 0 RALES n n Y n n
+TD215 Classic #2 _____? ␅
+TD1501751 ␆nMMnn
+TD70 Classic #2 _____? nMMnn
+TD140 attempt: 1 RALES n m m n n
+TD50 Classic #3 _____? ␅
+TD1747791 ␆nMnMM
+TD110 Classic #3 _____? nMnMM
+TD314 attempt: 2 RALES n m n m m
+TD131 Classic #4 _____? ␅
+TD1397780 ␆MMnnn
+TD116 Classic #4 _____? MMnnn
+TD299 attempt: 3 RALES m m n n n
+TD611969 > ␅
+TD1355363 ␆*
+TD159 > *
+TD5119 ? ␅
+TD2344919 ␆3
+TD121 ? 3
+TD261 questioning: adorn
+TD189 Classic #1 __L__ -AERS? ␅
+TD3784929 ␆nnMnn
+TD106 Classic #1 __L__ -AERS? nnMnn
+TD261 attempt: 0 ADORN n n m n n
+TD117 Classic #2 _____ ~AL -ERS? ␅
+TD1353239 ␆Mnnnn
+TD98 Classic #2 _____ ~AL -ERS? Mnnnn
+TD273 attempt: 1 ADORN m n n n n
+TD125 Classic #3 _____ ~AES -LR? ␅
+TD1625902 ␆Mnnnn
+TD108 Classic #3 _____ ~AES -LR? Mnnnn
+TD297 attempt: 2 ADORN m n n n n
+TD151 Classic #4 _____ ~AR -ELS? ␅
+TD2553545 ␆YnYMn
+TD82 Classic #4 _____ ~AR -ELS? YnYMn
+TD218 attempt: 3 ADORN Y n Y m n
+TD556850 > ␅
+TD848757 ␆*
+TD114 > *
+TD678 ? ␅
+TD5646329 ␄
+TD160 <EOF>
+TD541864 > ␅
+TD1581257 ␆* 2
+TD160 > * 2
+TD137986 ? ␅
+TD2499774 ␄
+TD226 <EOF>
+TD537426 > ␅
+TD1363820 ␆* 3
+TD166 > * 3
+TD166500 ? ␅
+TD7884482 ␄
+TD140 <EOF>
+TD529573 > ␅
+TD1073629 ␆* 2
+TD94 > * 2
+TD139185 ? ␅
+TD4822059 ␆3
+TD86 ? 3
+TD164 questioning: plica
+TD144 Classic #1 __L__ ~O -ADENRS? ␅
+TD3597545 ␆nMMnn
+TD132 Classic #1 __L__ ~O -ADENRS? nMMnn
+TD429 attempt: 0 PLICA n m m n n
+TD341 Classic #2 _____ ~AL -DENORS? ␅
+TD3989188 ␆YYMnM
+TD89 Classic #2 _____ ~AL -DENORS? YYMnM
+TD239 attempt: 1 PLICA Y Y m n m
+TD120 Classic #3 _____ ~AES -DLNOR? ␅
+TD1315729 ␆nnnnM
+TD138 Classic #3 _____ ~AES -DLNOR? nnnnM
+TD335 attempt: 2 PLICA n n n n m
+TD171 Classic #4 A_O__ ~R -DELNS? ␅
+TD1561637 ␆nnnnY
+TD99 Classic #4 A_O__ ~R -DELNS? nnnnY
+TD260 attempt: 3 PLICA n n n n Y
+TD524200 > ␅
+TD850187 ␆*
+TD57 > *
+TD214 questioning: plait
+TD65 Classic #1 __L__ ~IO -ACDENPRS? ␅
+TD2805732 ␆nMnMn
+TD218 Classic #1 __L__ ~IO -ACDENPRS? nMnMn
+TD376 attempt: 0 PLAIT n m n m n
+TD141 Classic #2 PL___ ~AI -CDENORS? ␅
+TD1653411 ␆YYYYY
+TD103 Classic #2 PL___ ~AI -CDENORS? YYYYY
+TD246 attempt: 1 PLAIT Y Y Y Y Y
+TD134 Classic #3 _____ ~AES -CDILNOPR? ␅
+TD1615103 ␆nnYnY
+TD136 Classic #3 _____ ~AES -CDILNOPR? nnYnY
+TD324 attempt: 2 PLAIT n n Y n Y
+TD220 Classic #4 A_O_A ~R -CDEILNPS? ␅
+TD1284837 ␆nnMnn
+TD125 Classic #4 A_O_A ~R -CDEILNPS? nnMnn
+TD266 attempt: 3 PLAIT n n m n n
+TD371553 > ␅
+TD720858 ␆*
+TD136 > *
+TD540 questioning: aroma
+TD193 Classic #1 __L__ ~IO -ACDENPRST? ␅
+TD2875746 ␆nnMnn
+TD67 Classic #1 __L__ ~IO -ACDENPRST? nnMnn
+TD515 attempt: 0 AROMA n n m n n
+TD103 Classic #3 __A_T ~ES -CDILNOPR? ␅
+TD1376733 ␆Mnnnn
+TD183 Classic #3 __A_T ~ES -CDILNOPR? Mnnnn
+TD296 attempt: 2 AROMA m n n n n
+TD163 Classic #4 A_O_A ~R -CDEILNPST? ␅
+TD1215442 ␆YYYYY
+TD112 Classic #4 A_O_A ~R -CDEILNPST? YYYYY
+TD264 attempt: 3 AROMA Y Y Y Y Y
+TD255234 > ␅
+TD817095 ␆*
+TD81 > *
+TD493 ? ␅
+TD2009478 ␄
+TD104 <EOF>
+TD245898 > ␅
+TD1344835 ␆* 1
+TD143 > * 1
+TD130944 ? ␅
+TD12644642 ␄
+TD216 <EOF>
+TD255872 > ␅
+TD1142014 ␆* 3
+TD174 > * 3
+TD122642 ? ␅
+TD974227 ␆1
+TD113 ? 1
+TD202 questioning: beast
+TD162 Classic #1 __L__ ~IO -ACDEMNPRST? ␅
+TD3222716 ␆nnnnn
+TD184 Classic #1 __L__ ~IO -ACDEMNPRST? nnnnn
+TD252 attempt: 0 BEAST n n n n n
+TD134 Classic #3 __A_T ~ES -CDILMNOPR A:1? ␅
+TD1515649 ␆nYYYY
+TD132 Classic #3 __A_T ~ES -CDILMNOPR A:1? nYYYY
+TD453 attempt: 2 BEAST n Y Y Y Y
+TD250917 > ␅
+TD543558 ␆*
+TD170 > *
+TD909 ? ␅
+TD2966784 ␆1
+TD157 ? 1
+TD306 questioning: feast
+TD301 Classic #1 __L__ ~IO -ABCDEMNPRST? ␅
+TD2582224 ␆nnnnn
+TD157 Classic #1 __L__ ~IO -ABCDEMNPRST? nnnnn
+TD415 attempt: 0 FEAST n n n n n
+TD274 Classic #3 _EAST -BCDILMNOPR? ␅
+TD1992762 ␆nYYYY
+TD66 Classic #3 _EAST -BCDILMNOPR? nYYYY
+TD112 attempt: 2 FEAST n Y Y Y Y
+TD269423 > ␅
+TD849482 ␆*
+TD65 > *
+TD295 questioning: yeast
+TD109 Classic #1 __L__ ~IO -ABCDEFMNPRST? ␅
+TD3564111 ␆nnnnn
+TD107 Classic #1 __L__ ~IO -ABCDEFMNPRST? nnnnn
+TD246 attempt: 0 YEAST n n n n n
+TD137 Classic #3 _EAST -BCDFILMNOPR? ␅
+TD1143052 ␆YYYYY
+TD177 Classic #3 _EAST -BCDFILMNOPR? YYYYY
+TD398 attempt: 2 YEAST Y Y Y Y Y
+TD187553 > ␅
+TD242137 ␆*
+TD186 > *
+TD1381 ? ␅
+TD1501956 ␆2
+TD126 ? 2
+TD233 questioning: igloo
+TD151 Classic #1 __L__ ~IO -ABCDEFMNPRSTY? ␅
+TD3564782 ␆YYYYY
+TD165 Classic #1 __L__ ~IO -ABCDEFMNPRSTY? YYYYY
+TD313 attempt: 0 IGLOO Y Y Y Y Y
+TD192 📋> ␅
+TD9503846 ␆🙂 Daily Quordle 1634
+TD145 📋> 🙂 Daily Quordle 1634
+TD53 📋> ␅
+TD119 ␆9️⃣4️⃣
+TD48 📋> 9️⃣4️⃣
+TD43 📋> ␅
+TD110 ␆8️⃣5️⃣
+TD50 📋> 8️⃣5️⃣
+TD47 📋> ␅
+TD88 ␆m-w.com/games/quordle/
+TD48 📋> m-w.com/games/quordle/
+TD46 📋> ␅
+TD341795 ␆
+TD251 📋> 
+TD89 📋> ␅
+TD239348 ␄
+TD329 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1634\n9\ufe0f\u20e34\ufe0f\u20e3\n8\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD5797 result: "\ud83d\ude42 Daily Quordle 1634\n9\ufe0f\u20e34\ufe0f\u20e3\n8\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD73 📆 2026-07-16 ? ␅
+TD192095 ␆
+TD159 📆 2026-07-16 ? 
