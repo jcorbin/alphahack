@@ -404,7 +404,7 @@ class WordGrid(StoredLog):
 
     def do_guess(self, ui: PromptUI, show_n: int=10):
         '''
-        usage: `guess [<col> [<row>]]`
+        usage: `guess [<col> [<row> [<word>]]]`
         '''
 
         def select(words: Sequence[str]):
@@ -424,6 +424,7 @@ class WordGrid(StoredLog):
         col: int|None = None
         row: int|None = None
         word_i: int = 0
+        given: str = ''
 
         while ui.tokens:
             if col is None:
@@ -448,6 +449,11 @@ class WordGrid(StoredLog):
             except re.PatternError as err:
                 ui.print(f'! {err}')
                 return
+
+            if not given:
+                given = next(ui.tokens)
+                continue
+
             ui.print(f'! invalid * arg {next(ui.tokens)!r}')
             return
 
@@ -470,17 +476,21 @@ class WordGrid(StoredLog):
             col = (word_i % self.size) + 1
             row = (word_i // self.size) + 1
 
-        rule = self.col_rules[col-1]
-        ui.write(f'Filtering col:{col} — {rule}')
-        words = set(self.find(rule))
-        ui.fin(f' — {len(words)}')
-
-        rule = self.row_rules[row-1]
-        ui.write(f'Filtering row:{row} — {rule}')
-        words.intersection_update(self.find(rule))
-        ui.fin(f' — {len(words)}')
-
+        col_rule = self.col_rules[col-1]
+        row_rule = self.row_rules[row-1]
         priors = self.scores[word_i]
+
+        if given:
+            # TODO check col_rule
+            # TODO check row_rule
+            return self.question(ui, word_i, given)
+
+        ui.write(f'Filtering col:{col} — {col_rule}')
+        words = set(self.find(col_rule))
+        ui.fin(f' — {len(words)}')
+        ui.write(f'Filtering row:{row} — {row_rule}')
+        words.intersection_update(self.find(row_rule))
+        ui.fin(f' — {len(words)}')
         if priors:
             words.difference_update(priors.keys())
             ui.print(f'Dropped {len(priors)} priors')
@@ -516,6 +526,7 @@ class WordGrid(StoredLog):
                 if tokens:
                     score = tokens.have(r'\d*(\.\d*)?$', lambda m: float(m[0]))
                     if score is None:
+                        # TODO consult priors = self.scores[word_i]
                         return self.do_question
                     ui.log(f'word: {word_i} {word} {score}')
                     self.words[word_i] = word
