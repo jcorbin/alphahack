@@ -1,0 +1,184 @@
+T682.1793896439922 now: 2026-07-16T08:25:39EDT
+TD290 site: squareword.org
+TD68 wordlist: nwl2023.txt
+TD94  ...␅
+TD2040246 ␆
+TD137  ...
+TD95 🧩  ? ␅
+TD7528498 ␆#1627
+TD138 🧩  ? #1627
+TD409 puzzle_id: #1627
+TD1558 > ␅
+TD1481087 ␆*
+TD117 > *
+TD259399 try? ␅
+TD907139 ␆1
+TD272 try? 1
+TD505 questioning: ["hears", "#5"]
+TD1799 #1 <IndexError>  📋 "hears" ? ␅
+TD4088596 ␆_E___ ~ AR
+TD117 #1 <IndexError>  📋 "hears" ? _E___ ~ AR
+TD969 attempt 0 HEARS n Y m m n
+TD188 #2 <IndexError>  📋 "hears" ? ␅
+TD1843783 ␆_____ ~ EA
+TD122 #2 <IndexError>  📋 "hears" ? _____ ~ EA
+TD431 attempt 1 HEARS n m m n n
+TD250 #3 <IndexError>  📋 "hears" ? ␅
+TD1810066 ␆_____ ~ ER
+TD139 #3 <IndexError>  📋 "hears" ? _____ ~ ER
+TD456 attempt 2 HEARS n m n m n
+TD271 #4 <IndexError>  📋 "hears" ? ␅
+TD1689891 ␆_____ ~ E
+TD209 #4 <IndexError>  📋 "hears" ? _____ ~ E
+TD490 attempt 3 HEARS n m n n n
+TD251 #5 <IndexError>  📋 "hears" ? ␅
+TD2322307 ␆_E__S ~ ER
+TD198 #5 <IndexError>  📋 "hears" ? _E__S ~ ER
+TD661 attempt 4 HEARS n Y n m Y
+TD1013 ? ␅
+TD223503 ␆
+TD128 ? 
+TD203 question done
+TD488 > ␅
+TD412252 ␆*
+TD112 > *
+TD807959 try? ␅
+TD3011174 ␆5
+TD122 try? 5
+TD354 questioning: ["cedar", "#1"]
+TD478 #1 _E___ ~AR -HS  📋 "cedar" ? ␅
+TD3207410 ␆/it
+TD152 #1 _E___ ~AR -HS  📋 "cedar" ? /it
+TD365 attempt 0 CEDAR Y Y Y Y Y
+TD137 #2 _____ ~AE -HRS  📋 "cedar" ? ␅
+TD1180544 ␆.
+TD140 #2 _____ ~AE -HRS  📋 "cedar" ? .
+TD432 attempt 1 CEDAR n m n m n
+TD152 #3 _____ ~ER -AHS  📋 "cedar" ? ␅
+TD2953968 ␆__D__ ~ ER
+TD89 #3 _____ ~ER -AHS  📋 "cedar" ? __D__ ~ ER
+TD255 attempt 2 CEDAR n m Y n m
+TD140 #4 _____ ~E -AHRS  📋 "cedar" ? ␅
+TD2693473 ␆_____ ~ ED
+TD153 #4 _____ ~E -AHRS  📋 "cedar" ? _____ ~ ED
+TD378 attempt 3 CEDAR n m m n n
+TD211 #5 _E__S ~R -AH  📋 "cedar" ? ␅
+TD4481178 ␆_E__S ~ ER
+TD123 #5 _E__S ~R -AH  📋 "cedar" ? _E__S ~ ER
+TD367 attempt 4 CEDAR n Y n n m
+TD583 ? ␅
+TD340366 ␆
+TD180 ? 
+TD229 question done
+TD729 > ␅
+TD593550 ␆*
+TD160 > *
+TD858436 try? ␅
+TD2066825 ␆1
+TD191 try? 1
+TD435 questioning: ["ridge", "#3"]
+TD561 #2 _____ ~AE -CDHRS  📋 "ridge" ? ␅
+TD4402709 ␆____E ~ A
+TD129 #2 _____ ~AE -CDHRS  📋 "ridge" ? ____E ~ A
+TD440 attempt 1 RIDGE n n n n Y
+TD231 #3 __D__ ~ER -ACHS  📋 "ridge" ? ␅
+TD821288 ␆/it
+TD176 #3 __D__ ~ER -ACHS  📋 "ridge" ? /it
+TD561 attempt 2 RIDGE Y Y Y Y Y
+TD192 #4 _____ ~DE -ACHRS  📋 "ridge" ? ␅
+TD2790637 ␆_____ ~ EDG
+TD147 #4 _____ ~DE -ACHRS  📋 "ridge" ? _____ ~ EDG
+TD415 attempt 3 RIDGE n n m m m
+TD217 #5 _E__S ~R -ACDH  📋 "ridge" ? ␅
+TD2557442 ␆RE__S_ ~ E
+TD46 #5 _E__S ~R -ACDH  📋 "ridge" ? RE__S_ ~ E
+TD112 attempt 4 RIDGE Y n n n m
+TD184 ? ␅
+TD406139 ␆
+TD67 ? 
+TD88 question done
+TD182 > ␅
+TD611815 ␆*
+TD200 > *
+TD729265 questioning: ["edged", "#4"]
+TD165 #2 ____E ~A -CDGHIRS  📋 "edged" ? ␅
+TD4886581 ␆.
+TD137 #2 ____E ~A -CDGHIRS  📋 "edged" ? .
+TD432 attempt 1 EDGED n n n n n
+TD261 #4 _____ ~DEG -ACHIRS  📋 "edged" ? ␅
+TD676177 ␆/it
+TD138 #4 _____ ~DEG -ACHIRS  📋 "edged" ? /it
+TD429 attempt 3 EDGED Y Y Y Y Y
+TD250 #5 RE__S -ACDGHI  📋 "edged" ? ␅
+TD3703573 ␆RE__S ~ E
+TD191 #5 RE__S -ACDGHI  📋 "edged" ? RE__S ~ E
+TD607 attempt 4 EDGED m n n m n
+TD1123 ? ␅
+TD224288 ␆
+TD192 ? 
+TD233 question done
+TD901 > ␅
+TD450784 ␆*
+TD163 > *
+TD1639147 questioning: ["alone", "#2"]
+TD170 #2 ____E ~A -CDEGHIRS  📋 "alone" ? ␅
+TD4854113 ␆/it
+TD178 #2 ____E ~A -CDEGHIRS  📋 "alone" ? /it
+TD541 attempt 1 ALONE Y Y Y Y Y
+TD243 #5 RE__S -ACDGHI  📋 "alone" ? ␅
+TD3163685 ␆RE__S ~ EL
+TD196 #5 RE__S -ACDGHI  📋 "alone" ? RE__S ~ EL
+TD596 attempt 4 ALONE n m n n m
+TD1019 ? ␅
+TD487502 ␆
+TD135 ? 
+TD186 question done
+TD712 > ␅
+TD566795 ␆*
+TD188 > *
+TD1012216 questioning: ["reels", "#5"]
+TD281 #5 RE__S ~L -ACDGHINO  📋 "reels" ? ␅
+TD2871526 ␆/it
+TD63 #5 RE__S ~L -ACDGHINO  📋 "reels" ? /it
+TD142 attempt 4 REELS Y Y Y Y Y
+TD167 ? ␅
+TD549080 ␆
+TD112 ? 
+TD111 question done
+TD33566 📋> ␅
+TD5148619 ␆squareword.org 1627: 6 guesses
+TD127 📋> squareword.org 1627: 6 guesses
+TD49 📋> ␅
+TD113 ␆
+TD12 📋> 
+TD10 📋> ␅
+TD29 ␆🟩🟩🟩🟩🟩
+TD13 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD21 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD21 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD21 ␆🟩🟩🟨🟨🟩
+TD9 📋> 🟩🟩🟨🟨🟩
+TD9 📋> ␅
+TD42 ␆
+TD10 📋> 
+TD9 📋> ␅
+TD24 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> ␅
+TD221324 ␆#squareword #squareword1627
+TD160 📋> #squareword #squareword1627
+TD34 📋> ␅
+TD147179 ␄
+TD308 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1627: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1627"}
+TD1401 result: "squareword.org 1627: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1627"
+TD139 📆 2026-07-16 ? ␅
+TD161633 ␆
+TD206 📆 2026-07-16 ? 
