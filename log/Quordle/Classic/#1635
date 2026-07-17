@@ -1,0 +1,189 @@
+T72049.471686323 now: 2026-07-17T07:52:59EDT
+TD96 site: https://www.merriam-webster.com/games/quordle/#/
+TD16 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD95  ...␅
+TD6175089 ␆
+TD70  ...
+TD346562 > ␅
+TD853413 ␆*
+TD70 > *
+TD34184 ? ␅
+TD2893701 ␆4
+TD66 ? 4
+TD118 questioning: laser
+TD93 Classic #1 _____? ␅
+TD3311834 ␆nnnnn
+TD70 Classic #1 _____? nnnnn
+TD231 attempt: 0 LASER n n n n n
+TD70 Classic #2 _____? ␅
+TD2039587 ␆MYnYY
+TD64 Classic #2 _____? MYnYY
+TD145 attempt: 1 LASER m Y n Y Y
+TD58 Classic #3 _____? ␅
+TD1672102 ␆nMMnM
+TD64 Classic #3 _____? nMMnM
+TD143 attempt: 2 LASER n m m n m
+TD67 Classic #4 _____? ␅
+TD2151514 ␆nnnnn
+TD61 Classic #4 _____? nnnnn
+TD130 attempt: 3 LASER n n n n n
+TD384614 > ␅
+TD767197 ␆*
+TD61 > *
+TD2711 ? ␅
+TD3077174 ␆4
+TD64 ? 4
+TD121 questioning: minty
+TD97 Classic #1 _____ -AELRS? ␅
+TD3335787 ␆MMMnn
+TD61 Classic #1 _____ -AELRS? MMMnn
+TD130 attempt: 0 MINTY m m m n n
+TD60 Classic #2 _A_ER ~L -S? ␅
+TD1207744 ␆nnnnn
+TD69 Classic #2 _A_ER ~L -S? nnnnn
+TD137 attempt: 1 MINTY n n n n n
+TD69 Classic #3 _____ ~ARS -EL? ␅
+TD1127787 ␆nnnnn
+TD65 Classic #3 _____ ~ARS -EL? nnnnn
+TD129 attempt: 2 MINTY n n n n n
+TD64 Classic #4 _____ -AELRS? ␅
+TD1127694 ␆nMMnn
+TD66 Classic #4 _____ -AELRS? nMMnn
+TD131 attempt: 3 MINTY n m m n n
+TD377089 > ␅
+TD854738 ␆*
+TD65 > *
+TD612 ? ␅
+TD2559350 ␆3
+TD69 ? 3
+TD121 questioning: scrap
+TD90 Classic #1 _____ ~IMN -AELRSTY? ␅
+TD2927741 ␆nMnnn
+TD64 Classic #1 _____ ~IMN -AELRSTY? nMnnn
+TD132 attempt: 0 SCRAP n m n n n
+TD62 Classic #2 _A_ER ~L -IMNSTY? ␅
+TD1327714 ␆nnMMM
+TD70 Classic #2 _A_ER ~L -IMNSTY? nnMMM
+TD132 attempt: 1 SCRAP n n m m m
+TD66 Classic #3 _____ ~ARS -EILMNTY? ␅
+TD2255961 ␆MnMMn
+TD71 Classic #3 _____ ~ARS -EILMNTY? MnMMn
+TD137 attempt: 2 SCRAP m n m m n
+TD67 Classic #4 _____ ~IN -AELMRSTY? ␅
+TD1135647 ␆nnnnn
+TD67 Classic #4 _____ ~IN -AELMRSTY? nnnnn
+TD136 attempt: 3 SCRAP n n n n n
+TD400277 > ␅
+TD807627 ␆*
+TD60 > *
+TD256 questioning: cumin
+TD75 Classic #1 _____ ~CIMN -AELPRSTY? ␅
+TD3351578 ␆YYYYY
+TD81 Classic #1 _____ ~CIMN -AELPRSTY? YYYYY
+TD166 attempt: 0 CUMIN Y Y Y Y Y
+TD89 Classic #2 _A_ER ~LP -CIMNSTY? ␅
+TD2455752 ␆nnnnn
+TD80 Classic #2 _A_ER ~LP -CIMNSTY? nnnnn
+TD168 attempt: 1 CUMIN n n n n n
+TD100 Classic #3 _____ ~ARS -CEILMNPTY? ␅
+TD1503608 ␆nnnnn
+TD77 Classic #3 _____ ~ARS -CEILMNPTY? nnnnn
+TD174 attempt: 2 CUMIN n n n n n
+TD90 Classic #4 _____ ~IN -ACELMPRSTY? ␅
+TD1199580 ␆nnnMM
+TD79 Classic #4 _____ ~IN -ACELMPRSTY? nnnMM
+TD176 attempt: 3 CUMIN n n n m m
+TD236600 > ␅
+TD715265 ␆*
+TD78 > *
+TD310 questioning: paler
+TD93 Classic #2 _A_ER ~LP -CIMNSTUY? ␅
+TD3967640 ␆YYYYY
+TD64 Classic #2 _A_ER ~LP -CIMNSTUY? YYYYY
+TD132 attempt: 1 PALER Y Y Y Y Y
+TD68 Classic #3 _____ ~ARS -CEILMNPTUY? ␅
+TD1471680 ␆nMnnM
+TD81 Classic #3 _____ ~ARS -CEILMNPTUY? nMnnM
+TD175 attempt: 2 PALER n m n n m
+TD86 Classic #4 _____ ~IN -ACELMPRSTUY? ␅
+TD1215664 ␆nnnnn
+TD69 Classic #4 _____ ~IN -ACELMPRSTUY? nnnnn
+TD140 attempt: 3 PALER n n n n n
+TD171145 > ␅
+TD4012840 ␆*
+TD86 > *
+TD600 ? ␅
+TD1727184 ␆1
+TD84 ? 1
+TD153 questioning: grabs
+TD127 Classic #3 _____ ~ARS -CEILMNPTUY? ␅
+TD3983945 ␆YYYnY
+TD80 Classic #3 _____ ~ARS -CEILMNPTUY? YYYnY
+TD172 attempt: 2 GRABS Y Y Y n Y
+TD88 Classic #4 _____ ~IN -ACELMPRSTUY? ␅
+TD1655513 ␆nnnMn
+TD81 Classic #4 _____ ~IN -ACELMPRSTUY? nnnMn
+TD165 attempt: 3 GRABS n n n m n
+TD149510 > ␅
+TD898243 ␆*
+TD77 > *
+TD317 ? ␅
+TD2663610 ␄
+TD89 <EOF>
+TD151332 > ␅
+TD2824646 ␆* 4
+TD71 > * 4
+TD85802 ? ␅
+TD2314172 ␆2
+TD78 ? 2
+TD143 questioning: inbox
+TD123 Classic #3 GRA_S -BCEILMNPTUY? ␅
+TD3775773 ␆nnnnn
+TD80 Classic #3 GRA_S -BCEILMNPTUY? nnnnn
+TD167 attempt: 2 INBOX n n n n n
+TD91 Classic #4 _____ ~BIN -ACEGLMPRSTUY? ␅
+TD1359657 ␆YYYYY
+TD65 Classic #4 _____ ~BIN -ACEGLMPRSTUY? YYYYY
+TD133 attempt: 3 INBOX Y Y Y Y Y
+TD65652 > ␅
+TD1102097 ␆*
+TD80 > *
+TD404 ? ␅
+TD1343478 ␆1
+TD80 ? 1
+TD141 questioning: grads
+TD115 Classic #3 GRA_S -BCEILMNOPTUXY? ␅
+TD3671800 ␆YYYnY
+TD81 Classic #3 GRA_S -BCEILMNOPTUXY? YYYnY
+TD177 attempt: 2 GRADS Y Y Y n Y
+TD65560 > ␅
+TD374196 ␆*
+TD79 > *
+TD339 questioning: grass
+TD94 Classic #3 GRA_S -BCDEILMNOPTUXY? ␅
+TD3295515 ␆YYYYY
+TD98 Classic #3 GRA_S -BCDEILMNOPTUXY? YYYYY
+TD173 attempt: 2 GRASS Y Y Y Y Y
+TD81 📋> ␅
+TD4168506 ␆🙂 Daily Quordle 1635
+TD78 📋> 🙂 Daily Quordle 1635
+TD11 📋> ␅
+TD40 ␆4️⃣5️⃣
+TD7 📋> 4️⃣5️⃣
+TD7 📋> ␅
+TD13 ␆9️⃣7️⃣
+TD5 📋> 9️⃣7️⃣
+TD5 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD6 📋> m-w.com/games/quordle/
+TD10 📋> ␅
+TD463065 ␆
+TD89 📋> 
+TD12 📋> ␅
+TD199837 ␄
+TD152 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1635\n4\ufe0f\u20e35\ufe0f\u20e3\n9\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1148 result: "\ud83d\ude42 Daily Quordle 1635\n4\ufe0f\u20e35\ufe0f\u20e3\n9\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD71 📆 2026-07-17 ? ␅
+TD294869 ␆
+TD79 📆 2026-07-17 ? 
