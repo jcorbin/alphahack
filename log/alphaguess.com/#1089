@@ -1,0 +1,89 @@
+T71275.475858261 now: 2026-07-17T07:40:05EDT
+TD75 site: alphaguess.com
+TD135993 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof e090dbe4f19a7d9f0853b7db53decbfe33579551
+TD110  ...␅
+TD6615193 ␆
+TD70  ...
+TD140 [0 : 98214 : 196520] mach? ␅
+TD2519726 ␆a
+TD72 [0 : 98214 : 196520] mach? a
+TD72 progress: 1 98214 mach
+TD122 [98215 : 147364 : 196520] rhotic? ␅
+TD1608131 ␆b
+TD84 [98215 : 147364 : 196520] rhotic? b
+TD83 progress: -1 147364 rhotic
+TD90 [98215 : 122775 : 147364] parr? ␅
+TD1479459 ␆a
+TD81 [98215 : 122775 : 147364] parr? a
+TD83 progress: 1 122775 parr
+TD82 [122776 : 135066 : 147364] proper? ␅
+TD1680075 ␆a
+TD93 [122776 : 135066 : 147364] proper? a
+TD88 progress: 1 135066 proper
+TD92 [135067 : 140514 : 147364] rec? ␅
+TD2967324 ␆b
+TD70 [135067 : 140514 : 147364] rec? b
+TD71 progress: -1 140514 rec
+TD65 [135067 : 137785 : 140514] quart? ␅
+TD2320201 ␆a
+TD79 [135067 : 137785 : 140514] quart? a
+TD83 progress: 1 137785 quart
+TD82 [137786 : 139054 : 140514] ram? ␅
+TD1623482 ␆b
+TD76 [137786 : 139054 : 140514] ram? b
+TD87 progress: -1 139054 ram
+TD84 [137786 : 138413 : 139054] rabbit? ␅
+TD1535650 ␆b
+TD63 [137786 : 138413 : 139054] rabbit? b
+TD67 progress: -1 138413 rabbit
+TD123 [137786 : 138098 : 138413] quiff? ␅
+TD2080256 ␆b
+TD89 [137786 : 138098 : 138413] quiff? b
+TD103 progress: -1 138098 quiff
+TD111 [137786 : 137934 : 138098] queer? ␅
+TD2543308 ␆a
+TD75 [137786 : 137934 : 138098] queer? a
+TD83 progress: 1 137934 queer
+TD105 [137935 : 138015 : 138098] queue? ␅
+TD1895676 ␆a
+TD71 [137935 : 138015 : 138098] queue? a
+TD72 progress: 1 138015 queue
+TD84 [138016 : 138052 : 138098] quicks? ␅
+TD1959826 ␆b
+TD81 [138016 : 138052 : 138098] quicks? b
+TD84 progress: -1 138052 quicks
+TD208 [138016 : 138034 : 138052] quiche? ␅
+TD1991679 ␆a
+TD71 [138016 : 138034 : 138052] quiche? a
+TD69 progress: 1 138034 quiche
+TD68 [138035 : 138036 : 138052] quick? ␅
+TD3631780 ␆it
+TD78 [138035 : 138036 : 138052] quick? it
+TD84 progress: 0 138036 quick
+TD19 [138035 : 138036 : 138052] <Done>.
+TD66 📋> ␅
+TD6695981 ␆
+TD91 📋> 
+TD10 📋> ␅
+TD8696984 ␆🧩 Puzzle #1089
+TD79 📋> 🧩 Puzzle #1089
+TD8 📋> ␅
+TD29 ␆🤔 14 guesses
+TD4 📋> 🤔 14 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 25s
+TD4 📋> ⏱️ 25s
+TD3 📋> ␅
+TD678793 ␆🔗 alphaguess.com/1089
+TD80 📋> 🔗 alphaguess.com/1089
+TD9 📋> ␅
+TD343954 ␄
+TD139 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\n\ud83e\udde9 Puzzle #1089\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1089"}
+TD85 result: "\n\ud83e\udde9 Puzzle #1089\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1089"
+TD10 result puzzle: 1089
+TD4 result guesses: 14
+TD3 result time: 25s
+TD3 result link: alphaguess.com/1089
+TD108 📆 2026-07-17 ? ␅
+TD407651 ␆
+TD76 📆 2026-07-17 ? 
