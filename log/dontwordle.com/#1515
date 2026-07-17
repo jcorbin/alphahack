@@ -1,0 +1,148 @@
+T71359.717443114 now: 2026-07-17T07:41:30EDT
+TD75 site: dontwordle.com
+TD24 wordlist: nwl2023.txt
+TD19  ...␅
+TD7598534 ␆
+TD75  ...
+TD169 1> ␅
+TD2935787 ␆*
+TD85 1> *
+TD153430 ? ␅
+TD2798682 ␄
+TD112 <EOF>
+TD88 1> ␅
+TD2047662 ␆* -bot 10
+TD72 1> * -bot 10
+TD101669 ? ␅
+TD1162082 ␆1
+TD80 ? 1
+TD309 📋 "tears" ? ␅
+TD4487783 ␆nYnnn
+TD72 📋 "tears" ? nYnnn
+TD409 tried: TEARS n Y n n n
+TD117 2> ␅
+TD760049 ␆undo
+TD89 2> undo
+TD119 undo
+TD192 1> ␅
+TD7071116 ␆* :v [tears] -bot 10
+TD74 1> * :v [tears] -bot 10
+TD174719 ? ␅
+TD1569189 ␆2
+TD82 ? 2
+TD199 📋 "cloud" ? ␅
+TD4199661 ␆nnnnn
+TD82 📋 "cloud" ? nnnnn
+TD168 tried: CLOUD n n n n n
+TD140 2> ␅
+TD743685 ␆undo
+TD76 2> undo
+TD119 undo
+TD103 1> ␅
+TD8623704 ␆* :v [tearscloud] -bot 10
+TD90 1> * :v [tearscloud] -bot 10
+TD99558 ? ␅
+TD5972985 ␆1
+TD82 ? 1
+TD197 📋 "zinky" ? ␅
+TD5823254 ␆nnnnn
+TD85 📋 "zinky" ? nnnnn
+TD166 tried: ZINKY n n n n n
+TD140 2> ␅
+TD1191658 ␆undo
+TD83 2> undo
+TD113 undo
+TD91 1> ␅
+TD3407761 ␆*
+TD76 1> *
+TD108898 ? ␅
+TD682878 ␆1
+TD70 ? 1
+TD160 📋 "xylyl" ? ␅
+TD5247901 ␆nnnnn
+TD67 📋 "xylyl" ? nnnnn
+TD129 tried: XYLYL n n n n n
+TD88 2> ␅
+TD479667 ␆*
+TD68 2> *
+TD76168 ? ␅
+TD195718 ␆1
+TD70 ? 1
+TD160 📋 "phpht" ? ␅
+TD4671857 ␆nnnnn
+TD66 📋 "phpht" ? nnnnn
+TD134 tried: PHPHT n n n n n
+TD94 3> ␅
+TD967814 ␆*
+TD77 3> *
+TD73312 ? ␅
+TD894460 ␆1
+TD71 ? 1
+TD165 📋 "qajaq" ? ␅
+TD6919947 ␆nnnnn
+TD93 📋 "qajaq" ? nnnnn
+TD169 tried: QAJAQ n n n n n
+TD137 4> ␅
+TD983690 ␆*
+TD70 4> *
+TD76056 ? ␅
+TD939696 ␆1
+TD64 ? 1
+TD147 📋 "sooks" ? ␅
+TD4231937 ␆nnnnn
+TD60 📋 "sooks" ? nnnnn
+TD131 tried: SOOKS n n n n n
+TD97 5> ␅
+TD503668 ␆*
+TD64 5> *
+TD67023 ? ␅
+TD740927 ␆1
+TD66 ? 1
+TD154 📋 "mimic" ? ␅
+TD8903866 ␆MnYnn
+TD66 📋 "mimic" ? MnYnn
+TD129 tried: MIMIC m n Y n n
+TD112 6> ␅
+TD647759 ␆*
+TD59 6> *
+TD144240 ? ␅
+TD1439661 ␆1
+TD80 ? 1
+TD153 📋 "femme" ? ␅
+TD5215826 ␆YYYYY
+TD63 📋 "femme" ? YYYYY
+TD125 tried: FEMME Y Y Y Y Y
+TD107 📋> ␅
+TD6232413 ␆Don't Wordle 1515 - WORDLED
+TD61 📋> Don't Wordle 1515 - WORDLED
+TD7 📋> ␅
+TD27 ␆I must admit that I Wordled!
+TD3 📋> I must admit that I Wordled!
+TD2 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜8089
+TD4 📋> ⬜⬜⬜⬜⬜8089
+TD2 📋> ␅
+TD4 ␆⬜⬜⬜⬜⬜4214
+TD2 📋> ⬜⬜⬜⬜⬜4214
+TD2 📋> ␅
+TD4 ␆⬜⬜⬜⬜⬜2230
+TD2 📋> ⬜⬜⬜⬜⬜2230
+TD1 📋> ␅
+TD4 ␆⬜⬜⬜⬜⬜449
+TD2 📋> ⬜⬜⬜⬜⬜449
+TD1 📋> ␅
+TD4 ␆🟨⬜🟩⬜⬜4
+TD2 📋> 🟨⬜🟩⬜⬜4
+TD2 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩0
+TD1 📋> 🟩🟩🟩🟩🟩0
+TD1 📋> ␅
+TD527220 ␆Undos used: 3
+TD68 📋> Undos used: 3
+TD7 📋> ␅
+TD191880 ␄
+TD113 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1515 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c8089\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4214\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2230\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c449\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c4\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"}
+TD592 result: "Don't Wordle 1515 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c8089\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4214\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2230\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c449\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c4\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3"
+TD56 📆 2026-07-17 ? ␅
+TD263281 ␆
+TD64 📆 2026-07-17 ? 
