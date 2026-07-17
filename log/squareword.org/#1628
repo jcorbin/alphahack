@@ -1,0 +1,295 @@
+T354.47404683100467 now: 2026-07-17T08:19:22EDT
+TD80 site: squareword.org
+TD17 wordlist: nwl2023.txt
+TD21  ...␅
+TD7310869 ␆
+TD61  ...
+TD49 🧩  ? ␅
+TD4048037 ␆#1628
+TD70 🧩  ? #1628
+TD184 puzzle_id: #1628
+TD155 > ␅
+TD807455 ␆*
+TD63 > *
+TD189242 try? ␅
+TD914626 ␆1
+TD63 try? 1
+TD217 questioning: ["raise", "#5"]
+TD150 #1 <IndexError>  📋 "raise" ? ␅
+TD4104190 ␆_____ ~ RIS
+TD74 #1 <IndexError>  📋 "raise" ? _____ ~ RIS
+TD511 attempt 0 RAISE m n m m n
+TD96 #2 <IndexError>  📋 "raise" ? ␅
+TD3774903 ␆___SE ~ RA
+TD82 #2 <IndexError>  📋 "raise" ? ___SE ~ RA
+TD221 attempt 1 RAISE m m n Y Y
+TD93 #3 <IndexError>  📋 "raise" ? ␅
+TD2247632 ␆___S_ ~ A
+TD81 #3 <IndexError>  📋 "raise" ? ___S_ ~ A
+TD206 attempt 2 RAISE n m n Y n
+TD88 #4 <IndexError>  📋 "raise" ? ␅
+TD2327505 ␆____E ~ SE
+TD67 #4 <IndexError>  📋 "raise" ? ____E ~ SE
+TD159 attempt 3 RAISE n n n m Y
+TD78 #5 <IndexError>  📋 "raise" ? ␅
+TD2503744 ␆_____ ~ RE
+TD63 #5 <IndexError>  📋 "raise" ? _____ ~ RE
+TD162 attempt 4 RAISE m n n n m
+TD180 ? ␅
+TD304634 ␆
+TD77 ? 
+TD128 question done
+TD208 > ␅
+TD734564 ␆*
+TD69 > *
+TD679763 try? ␅
+TD10928398 ␄
+TD125 <EOF>
+TD250 > ␅
+TD2287530 ␆* 1
+TD69 > * 1
+TD2860 try? ␅
+TD1397019 ␄
+TD92 <EOF>
+TD302 > ␅
+TD2943595 ␆* 3
+TD75 > * 3
+TD2730 try? ␅
+TD1637260 ␆1
+TD86 try? 1
+TD257 questioning: ["clash", "#3"]
+TD229 #1 _____ ~IRS -AE  📋 "clash" ? ␅
+TD5951542 ␆_____ ~ RISC
+TD80 #1 _____ ~IRS -AE  📋 "clash" ? _____ ~ RISC
+TD205 attempt 0 CLASH m n n m n
+TD112 #2 ___SE ~AR -I  📋 "clash" ? ␅
+TD3119547 ␆.
+TD71 #2 ___SE ~AR -I  📋 "clash" ? .
+TD176 attempt 1 CLASH n n m Y n
+TD58 #3 ___S_ ~A -EIR  📋 "clash" ? ␅
+TD3607772 ␆__AS_
+TD82 #3 ___S_ ~A -EIR  📋 "clash" ? __AS_
+TD192 attempt 2 CLASH n n Y Y n
+TD115 #4 ____E ~S -AIR  📋 "clash" ? ␅
+TD3447607 ␆____E ~ SE
+TD66 #4 ____E ~S -AIR  📋 "clash" ? ____E ~ SE
+TD154 attempt 3 CLASH n n n m n
+TD89 #5 _____ ~ER -AIS  📋 "clash" ? ␅
+TD2335698 ␆.
+TD67 #5 _____ ~ER -AIS  📋 "clash" ? .
+TD187 attempt 4 CLASH n n n n n
+TD140 ? ␅
+TD215593 ␆
+TD69 ? 
+TD77 question done
+TD151 > ␅
+TD735709 ␆*
+TD61 > *
+TD518389 questioning: ["arose", "#2"]
+TD164 #1 _____ ~CIRS -AEHL  📋 "arose" ? ␅
+TD4329386 ␆.
+TD64 #1 _____ ~CIRS -AEHL  📋 "arose" ? .
+TD164 attempt 0 AROSE n m n m n
+TD53 #2 ___SE ~AR -CHIL  📋 "arose" ? ␅
+TD583700 ␆/it
+TD71 #2 ___SE ~AR -CHIL  📋 "arose" ? /it
+TD202 attempt 1 AROSE Y Y Y Y Y
+TD57 #3 __AS_ -CEHILR  📋 "arose" ? ␅
+TD3663729 ␆__AS_ ~ O
+TD65 #3 __AS_ -CEHILR  📋 "arose" ? __AS_ ~ O
+TD156 attempt 2 AROSE n n m Y n
+TD86 #4 ____E ~S -ACHILR  📋 "arose" ? ␅
+TD5567737 ␆____E ~ SE
+TD67 #4 ____E ~S -ACHILR  📋 "arose" ? ____E ~ SE
+TD158 attempt 3 AROSE n n n m Y
+TD92 #5 _____ ~ER -ACHILS  📋 "arose" ? ␅
+TD879690 ␆.
+TD62 #5 _____ ~ER -ACHILS  📋 "arose" ? .
+TD175 attempt 4 AROSE n m n n m
+TD142 ? ␅
+TD151574 ␆
+TD60 ? 
+TD73 question done
+TD157 > ␅
+TD591883 ␆*
+TD59 > *
+TD581003 try? ␅
+TD44171126 ␄
+TD93 <EOF>
+TD189 > ␅
+TD831663 ␆* 3
+TD70 > * 3
+TD730 try? ␅
+TD2999348 ␄
+TD109 <EOF>
+TD264 > ␅
+TD935596 ␆* 4
+TD82 > * 4
+TD940 try? ␅
+TD1959091 ␄
+TD106 <EOF>
+TD266 > ␅
+TD1119542 ␆* 5
+TD80 > * 5
+TD1098 try? ␅
+TD3246710 ␄
+TD90 <EOF>
+TD199 > ␅
+TD823805 ␆* 3
+TD68 > * 3
+TD740 try? ␅
+TD1775092 ␆1
+TD69 try? 1
+TD189 questioning: ["boast", "#3"]
+TD171 #1 _____ ~CIRS -AEHLO  📋 "boast" ? ␅
+TD3752183 ␆.
+TD79 #1 _____ ~CIRS -AEHLO  📋 "boast" ? .
+TD209 attempt 0 BOAST n n n m n
+TD76 #3 __AS_ ~O -ACEHILR  📋 "boast" ? ␅
+TD3111184 ␆_OAST ~ T
+TD79 #3 __AS_ ~O -ACEHILR  📋 "boast" ? _OAST ~ T
+TD194 attempt 2 BOAST n Y Y Y Y
+TD124 #4 ____E ~S -ACHILOR  📋 "boast" ? ␅
+TD5640129 ␆____E ~ SE
+TD78 #4 ____E ~S -ACHILOR  📋 "boast" ? ____E ~ SE
+TD198 attempt 3 BOAST n n n m n
+TD116 #5 _____ ~ER -ACHILOS  📋 "boast" ? ␅
+TD3495151 ␆_____ ~ RET
+TD80 #5 _____ ~ER -ACHILOS  📋 "boast" ? _____ ~ RET
+TD235 attempt 4 BOAST n n n n m
+TD186 ? ␅
+TD287541 ␆
+TD80 ? 
+TD104 question done
+TD216 > ␅
+TD719893 ␆*
+TD80 > *
+TD658518 questioning: ["toast", "#3"]
+TD196 #1 _____ ~CIRS -ABEHLOT  📋 "toast" ? ␅
+TD7788954 ␆.
+TD79 #1 _____ ~CIRS -ABEHLOT  📋 "toast" ? .
+TD225 attempt 0 TOAST n n n m n
+TD83 #3 _OAST -BCEHILR  📋 "toast" ? ␅
+TD623529 ␆/it
+TD83 #3 _OAST -BCEHILR  📋 "toast" ? /it
+TD214 attempt 2 TOAST Y Y Y Y Y
+TD75 #4 ____E ~S -ABCHILORT  📋 "toast" ? ␅
+TD5359742 ␆____E ~ SE
+TD76 #4 ____E ~S -ABCHILORT  📋 "toast" ? ____E ~ SE
+TD196 attempt 3 TOAST n n n m n
+TD106 #5 _____ ~ERT -ABCHILOS  📋 "toast" ? ␅
+TD1095606 ␆.
+TD82 #5 _____ ~ERT -ABCHILOS  📋 "toast" ? .
+TD214 attempt 4 TOAST m n n n m
+TD201 ? ␅
+TD199547 ␆
+TD83 ? 
+TD96 question done
+TD211 > ␅
+TD423708 ␆*
+TD74 > *
+TD670505 try? ␅
+TD3897373 ␆1
+TD87 try? 1
+TD236 questioning: ["scrim", "#1"]
+TD246 #1 _____ ~CIRS -ABEHLOT  📋 "scrim" ? ␅
+TD4103514 ␆SCRI_
+TD77 #1 _____ ~CIRS -ABEHLOT  📋 "scrim" ? SCRI_
+TD198 attempt 0 SCRIM Y Y Y Y n
+TD122 #4 ____E ~S -ABCHILORT  📋 "scrim" ? ␅
+TD5791502 ␆____E ~ SE
+TD76 #4 ____E ~S -ABCHILORT  📋 "scrim" ? ____E ~ SE
+TD152 attempt 3 SCRIM m n n n n
+TD88 #5 _____ ~ERT -ABCHILOS  📋 "scrim" ? ␅
+TD1839665 ␆.
+TD68 #5 _____ ~ERT -ABCHILOS  📋 "scrim" ? .
+TD171 attempt 4 SCRIM n n m n n
+TD137 ? ␅
+TD215966 ␆
+TD67 ? 
+TD77 question done
+TD149 > ␅
+TD487424 ␆*
+TD75 > *
+TD1334450 questioning: ["scrip", "#1"]
+TD189 #1 SCRI_ -ABEHLMOT  📋 "scrip" ? ␅
+TD2857338 ␆/it
+TD72 #1 SCRI_ -ABEHLMOT  📋 "scrip" ? /it
+TD160 attempt 0 SCRIP Y Y Y Y Y
+TD64 #4 ____E ~S -ABCHILMORT  📋 "scrip" ? ␅
+TD6687738 ␆____E ~ SE
+TD81 #4 ____E ~S -ABCHILMORT  📋 "scrip" ? ____E ~ SE
+TD212 attempt 3 SCRIP m n n n n
+TD119 #5 _____ ~ERT -ABCHILMOS  📋 "scrip" ? ␅
+TD1151674 ␆.
+TD81 #5 _____ ~ERT -ABCHILMOS  📋 "scrip" ? .
+TD214 attempt 4 SCRIP n n m n n
+TD208 ? ␅
+TD159636 ␆
+TD83 ? 
+TD91 question done
+TD208 > ␅
+TD519472 ␆*
+TD65 > *
+TD1102173 questioning: ["ensue", "#4"]
+TD188 #4 ____E ~S -ABCHILMOPRT  📋 "ensue" ? ␅
+TD5457594 ␆/it
+TD82 #4 ____E ~S -ABCHILMOPRT  📋 "ensue" ? /it
+TD200 attempt 3 ENSUE Y Y Y Y Y
+TD77 #5 _____ ~ERT -ABCHILMOPS  📋 "ensue" ? ␅
+TD1415656 ␆.
+TD81 #5 _____ ~ERT -ABCHILMOPS  📋 "ensue" ? .
+TD204 attempt 4 ENSUE m n n n m
+TD209 ? ␅
+TD559515 ␆
+TD81 ? 
+TD93 question done
+TD216 > ␅
+TD679588 ␆*
+TD82 > *
+TD779363 questioning: ["deter", "#5"]
+TD212 #5 _____ ~ERT -ABCHILMNOPSU  📋 "deter" ? ␅
+TD4252474 ␆/it
+TD71 #5 _____ ~ERT -ABCHILMNOPSU  📋 "deter" ? /it
+TD208 attempt 4 DETER Y Y Y Y Y
+TD241 ? ␅
+TD399480 ␆
+TD91 ? 
+TD104 question done
+TD15664 📋> ␅
+TD5112343 ␆squareword.org 1628: 9 guesses
+TD71 📋> squareword.org 1628: 9 guesses
+TD26 📋> ␅
+TD28 ␆
+TD2 📋> 
+TD4 📋> ␅
+TD6 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD3 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD4 ␆🟨🟨🟨🟨🟩
+TD1 📋> 🟨🟨🟨🟨🟩
+TD3 📋> ␅
+TD4 ␆🟨🟨🟨🟨🟨
+TD1 📋> 🟨🟨🟨🟨🟨
+TD3 📋> ␅
+TD3 ␆
+TD1 📋> 
+TD3 📋> ␅
+TD4 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD447619 ␆#squareword #squareword1628
+TD78 📋> #squareword #squareword1628
+TD30 📋> ␅
+TD199861 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1628: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1628"}
+TD475 result: "squareword.org 1628: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1628"
+TD69 📆 2026-07-17 ? ␅
+TD159539 ␆
+TD79 📆 2026-07-17 ? 
