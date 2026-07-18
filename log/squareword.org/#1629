@@ -1,0 +1,246 @@
+T170.08541388300364 now: 2026-07-18T09:15:58EDT
+TD69 site: squareword.org
+TD17 wordlist: nwl2023.txt
+TD19  ...␅
+TD486718 ␆
+TD67  ...
+TD51 🧩  ? ␅
+TD23480144 ␆#1629
+TD80 🧩  ? #1629
+TD215 puzzle_id: #1629
+TD172 > ␅
+TD2655553 ␆*
+TD73 > *
+TD182344 try? ␅
+TD929521 ␆1
+TD81 try? 1
+TD285 questioning: ["rates", "#5"]
+TD241 #1 <IndexError>  📋 "rates" ? ␅
+TD6567600 ␆_____ ~ AES
+TD82 #1 <IndexError>  📋 "rates" ? _____ ~ AES
+TD520 attempt 0 RATES n m n m m
+TD96 #2 <IndexError>  📋 "rates" ? ␅
+TD1471347 ␆_____
+TD79 #2 <IndexError>  📋 "rates" ? _____
+TD200 attempt 1 RATES n n n n n
+TD102 #3 <IndexError>  📋 "rates" ? ␅
+TD1991617 ␆_____ ~ A
+TD67 #3 <IndexError>  📋 "rates" ? _____ ~ A
+TD151 attempt 2 RATES n m n n n
+TD74 #4 <IndexError>  📋 "rates" ? ␅
+TD2416069 ␆_____ ~ AES
+TD76 #4 <IndexError>  📋 "rates" ? _____ ~ AES
+TD190 attempt 3 RATES n m n m m
+TD93 #5 <IndexError>  📋 "rates" ? ␅
+TD1863568 ␆___ES
+TD108 #5 <IndexError>  📋 "rates" ? ___ES
+TD195 attempt 4 RATES n n n Y Y
+TD262 ? ␅
+TD455236 ␆
+TD81 ? 
+TD116 question done
+TD211 > ␅
+TD607747 ␆*
+TD102 > *
+TD476245 try? ␅
+TD3667513 ␆1
+TD88 try? 1
+TD254 questioning: ["spale", "#1"]
+TD227 #1 _____ ~AES -RT  📋 "spale" ? ␅
+TD4071533 ␆S_A_E
+TD76 #1 _____ ~AES -RT  📋 "spale" ? S_A_E
+TD202 attempt 0 SPALE Y n Y n Y
+TD119 #2 _____ -AERST  📋 "spale" ? ␅
+TD3095543 ␆_____ ~ L
+TD67 #2 _____ -AERST  📋 "spale" ? _____ ~ L
+TD163 attempt 1 SPALE n n n m n
+TD93 #3 _____ ~A -ERST  📋 "spale" ? ␅
+TD3167733 ␆_P___ ~ A
+TD85 #3 _____ ~A -ERST  📋 "spale" ? _P___ ~ A
+TD209 attempt 2 SPALE n Y m n n
+TD115 #4 _____ ~AES -RT  📋 "spale" ? ␅
+TD2047690 ␆SPA_E
+TD81 #4 _____ ~AES -RT  📋 "spale" ? SPA_E
+TD192 attempt 3 SPALE Y Y Y n Y
+TD115 #5 ___ES -ART  📋 "spale" ? ␅
+TD1527547 ␆.
+TD73 #5 ___ES -ART  📋 "spale" ? .
+TD176 attempt 4 SPALE n n n n n
+TD139 ? ␅
+TD175698 ␆
+TD78 ? 
+TD99 question done
+TD225 > ␅
+TD599532 ␆*
+TD69 > *
+TD671229 try? ␅
+TD4024706 ␄
+TD114 <EOF>
+TD268 > ␅
+TD5063740 ␆* 2
+TD70 > * 2
+TD871 try? ␅
+TD3703106 ␆6
+TD67 try? 6
+TD187 questioning: ["logic", "#2"]
+TD164 #1 S_A_E -LPRT  📋 "logic" ? ␅
+TD4503691 ␆.
+TD98 #1 S_A_E -LPRT  📋 "logic" ? .
+TD213 attempt 0 LOGIC n n n n n
+TD74 #2 _____ ~L -AEPRST  📋 "logic" ? ␅
+TD4055581 ␆L__I_ ~ I
+TD65 #2 _____ ~L -AEPRST  📋 "logic" ? L__I_ ~ I
+TD155 attempt 1 LOGIC Y n n Y n
+TD86 #3 _P___ ~A -ELRST  📋 "logic" ? ␅
+TD5415798 ␆_P___ ~ AGi
+TD73 #3 _P___ ~A -ELRST  📋 "logic" ? _P___ ~ AGi
+TD161 attempt 2 LOGIC n n m m n
+TD95 #4 SPA_E -LRT  📋 "logic" ? ␅
+TD5743727 ␆SPA_E ~ C
+TD82 #4 SPA_E -LRT  📋 "logic" ? SPA_E ~ C
+TD198 attempt 3 LOGIC n n n n m
+TD114 #5 ___ES -AELPRST  📋 "logic" ? ␅
+TD11383771 ␆_O_ES
+TD73 #5 ___ES -AELPRST  📋 "logic" ? _O_ES
+TD154 attempt 4 LOGIC n Y n n n
+TD171 ? ␅
+TD527588 ␆
+TD77 ? 
+TD104 question done
+TD216 > ␅
+TD1911627 ␆*
+TD86 > *
+TD520234 questioning: ["livid", "#2"]
+TD190 #1 S_A_E -CGILOPRT  📋 "livid" ? ␅
+TD4463646 ␆.
+TD95 #1 S_A_E -CGILOPRT  📋 "livid" ? .
+TD213 attempt 0 LIVID n n n n n
+TD77 #2 L__I_ -ACEGOPRST  📋 "livid" ? ␅
+TD1575456 ␆/it
+TD83 #2 L__I_ -ACEGOPRST  📋 "livid" ? /it
+TD207 attempt 1 LIVID Y Y Y Y Y
+TD77 #3 _P___ ~AGI -CELORST  📋 "livid" ? ␅
+TD1783745 ␆.
+TD82 #3 _P___ ~AGI -CELORST  📋 "livid" ? .
+TD204 attempt 2 LIVID n m n m n
+TD83 #4 SPA_E ~C -GILORT  📋 "livid" ? ␅
+TD1927720 ␆.
+TD69 #4 SPA_E ~C -GILORT  📋 "livid" ? .
+TD160 attempt 3 LIVID n n n n n
+TD60 #5 _O_ES -ACEGILPRST  📋 "livid" ? ␅
+TD1255569 ␆.
+TD69 #5 _O_ES -ACEGILPRST  📋 "livid" ? .
+TD166 attempt 4 LIVID n n n n n
+TD136 ? ␅
+TD264235 ␆
+TD71 ? 
+TD75 question done
+TD149 > ␅
+TD431215 ␆*
+TD70 > *
+TD1358238 questioning: ["aping", "#3"]
+TD191 #1 S_A_E -CDGILOPRTV  📋 "aping" ? ␅
+TD4977508 ␆.
+TD70 #1 S_A_E -CDGILOPRTV  📋 "aping" ? .
+TD164 attempt 0 APING n n n n n
+TD63 #3 _P___ ~AGI -CDELORSTV  📋 "aping" ? ␅
+TD623678 ␆/it
+TD74 #3 _P___ ~AGI -CDELORSTV  📋 "aping" ? /it
+TD171 attempt 2 APING Y Y Y Y Y
+TD63 #4 SPA_E ~C -DGILORTV  📋 "aping" ? ␅
+TD871830 ␆.
+TD79 #4 SPA_E ~C -DGILORTV  📋 "aping" ? .
+TD175 attempt 3 APING n Y n n n
+TD59 #5 _O_ES -ACDEGILPRSTV  📋 "aping" ? ␅
+TD5247802 ␆_O_ES ~ N
+TD95 #5 _O_ES -ACDEGILPRSTV  📋 "aping" ? _O_ES ~ N
+TD161 attempt 4 APING n n n m n
+TD177 ? ␅
+TD1255798 ␆
+TD80 ? 
+TD98 question done
+TD216 > ␅
+TD3543365 ␆*
+TD85 > *
+TD1357599 questioning: ["shame", "#1"]
+TD211 #1 S_A_E -ACDGILNOPRTV  📋 "shame" ? ␅
+TD2554177 ␆/it
+TD80 #1 S_A_E -ACDGILNOPRTV  📋 "shame" ? /it
+TD195 attempt 0 SHAME Y Y Y Y Y
+TD74 #4 SPA_E ~C -ADGILNORTV  📋 "shame" ? ␅
+TD2135644 ␆.
+TD87 #4 SPA_E ~C -ADGILNORTV  📋 "shame" ? .
+TD205 attempt 3 SHAME Y n Y n Y
+TD74 #5 _O_ES ~N -ACDEGILPRSTV  📋 "shame" ? ␅
+TD3591668 ␆_O_ES ~ NH
+TD68 #5 _O_ES ~N -ACDEGILPRSTV  📋 "shame" ? _O_ES ~ NH
+TD154 attempt 4 SHAME n m n n n
+TD179 ? ␅
+TD1127865 ␆
+TD85 ? 
+TD100 question done
+TD219 > ␅
+TD847354 ␆*
+TD64 > *
+TD1001839 questioning: ["space", "#4"]
+TD192 #4 SPA_E ~C -DGHILMNORTV  📋 "space" ? ␅
+TD2669931 ␆/it
+TD72 #4 SPA_E ~C -DGHILMNORTV  📋 "space" ? /it
+TD158 attempt 3 SPACE Y Y Y Y Y
+TD55 #5 _O_ES ~HN -ACDEGILMPRSTV  📋 "space" ? ␅
+TD1943863 ␆.
+TD80 #5 _O_ES ~HN -ACDEGILMPRSTV  📋 "space" ? .
+TD202 attempt 4 SPACE n n n n n
+TD203 ? ␅
+TD343424 ␆
+TD65 ? 
+TD71 question done
+TD144 > ␅
+TD487751 ␆*
+TD78 > *
+TD641665 questioning: ["hones", "#5"]
+TD192 #5 _O_ES ~HN -ACDEGILMPRSTV  📋 "hones" ? ␅
+TD3390063 ␆/it
+TD84 #5 _O_ES ~HN -ACDEGILMPRSTV  📋 "hones" ? /it
+TD198 attempt 4 HONES Y Y Y Y Y
+TD205 ? ␅
+TD935555 ␆
+TD82 ? 
+TD87 question done
+TD16107 📋> ␅
+TD13760888 ␆squareword.org 1629: 8 guesses
+TD82 📋> squareword.org 1629: 8 guesses
+TD10 📋> ␅
+TD44 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD14 ␆🟩🟨🟩🟨🟩
+TD3 📋> 🟩🟨🟩🟨🟩
+TD3 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD9 ␆🟩🟩🟩🟨🟩
+TD2 📋> 🟩🟩🟩🟨🟩
+TD2 📋> ␅
+TD9 ␆🟨🟩🟨🟩🟩
+TD2 📋> 🟨🟩🟨🟩🟩
+TD2 📋> ␅
+TD9 ␆
+TD2 📋> 
+TD3 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD694828 ␆#squareword #squareword1629
+TD67 📋> #squareword #squareword1629
+TD6 📋> ␅
+TD383930 ␄
+TD127 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1629: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1629"}
+TD467 result: "squareword.org 1629: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1629"
+TD63 📆 2026-07-18 ? ␅
+TD383316 ␆
+TD70 📆 2026-07-18 ? 
