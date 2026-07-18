@@ -1,0 +1,97 @@
+T70359.71048286001 now: 2026-07-18T08:48:25EDT
+TD69 site: alphaguess.com
+TD114521 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 5f040323ea74ac53e4dd08576cdd946e38d75e76
+TD107  ...␅
+TD508534 ␆
+TD71  ...
+TD121 [0 : 98214 : 196520] mach? ␅
+TD7903966 ␆
+TD83 [0 : 98214 : 196520] mach? 
+TD93 [0 : 98214 : 196520] mach? ␅
+TD2719762 ␆a
+TD74 [0 : 98214 : 196520] mach? a
+TD72 progress: 1 98214 mach
+TD115 [98215 : 147364 : 196520] rhotic? ␅
+TD1607905 ␆b
+TD71 [98215 : 147364 : 196520] rhotic? b
+TD71 progress: -1 147364 rhotic
+TD67 [98215 : 122775 : 147364] parr? ␅
+TD1807868 ␆b
+TD82 [98215 : 122775 : 147364] parr? b
+TD97 progress: -1 122775 parr
+TD89 [98215 : 109931 : 122775] ne? ␅
+TD1575667 ␆a
+TD80 [98215 : 109931 : 122775] ne? a
+TD87 progress: 1 109931 ne
+TD79 [109932 : 116349 : 122775] orchard? ␅
+TD1735862 ␆a
+TD84 [109932 : 116349 : 122775] orchard? a
+TD85 progress: 1 116349 orchard
+TD87 [116350 : 118730 : 122775] over? ␅
+TD1455662 ␆a
+TD75 [116350 : 118730 : 122775] over? a
+TD72 progress: 1 118730 over
+TD69 [118731 : 120654 : 122775] ox? ␅
+TD1407764 ␆a
+TD76 [118731 : 120654 : 122775] ox? a
+TD81 progress: 1 120654 ox
+TD91 [120655 : 121639 : 122775] pan? ␅
+TD1311869 ␆a
+TD69 [120655 : 121639 : 122775] pan? a
+TD72 progress: 1 121639 pan
+TD68 [121640 : 122098 : 122775] para? ␅
+TD4879969 ␆b
+TD88 [121640 : 122098 : 122775] para? b
+TD92 progress: -1 122098 para
+TD79 [121640 : 121865 : 122098] pans? ␅
+TD1823587 ␆a
+TD72 [121640 : 121865 : 122098] pans? a
+TD71 progress: 1 121865 pans
+TD67 [121866 : 121962 : 122098] papa? ␅
+TD1695772 ␆b
+TD71 [121866 : 121962 : 122098] papa? b
+TD69 progress: -1 121962 papa
+TD67 [121866 : 121877 : 121962] pant? ␅
+TD1432007 ␆a
+TD80 [121866 : 121877 : 121962] pant? a
+TD83 progress: 1 121877 pant
+TD102 [121878 : 121919 : 121962] panto? ␅
+TD2151770 ␆a
+TD87 [121878 : 121919 : 121962] panto? a
+TD85 progress: 1 121919 panto
+TD154 [121920 : 121942 : 121962] pantry? ␅
+TD1503852 ␆a
+TD76 [121920 : 121942 : 121962] pantry? a
+TD74 progress: 1 121942 pantry
+TD87 [121943 : 121952 : 121962] panty? ␅
+TD1447530 ␆b
+TD76 [121943 : 121952 : 121962] panty? b
+TD94 progress: -1 121952 panty
+TD99 [121943 : 121945 : 121952] pants? ␅
+TD3167703 ␆it
+TD95 [121943 : 121945 : 121952] pants? it
+TD83 progress: 0 121945 pants
+TD21 [121943 : 121945 : 121952] <Done>.
+TD69 📋> ␅
+TD4216954 ␆🧩 Puzzle #1090
+TD82 📋> 🧩 Puzzle #1090
+TD9 📋> ␅
+TD35 ␆🤔 16 guesses
+TD4 📋> 🤔 16 guesses
+TD3 📋> ␅
+TD8 ␆⏱️ 28s
+TD4 📋> ⏱️ 28s
+TD3 📋> ␅
+TD254833 ␆🔗 alphaguess.com/1090
+TD81 📋> 🔗 alphaguess.com/1090
+TD9 📋> ␅
+TD175945 ␄
+TD112 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1090\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/1090"}
+TD68 result: "\ud83e\udde9 Puzzle #1090\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/1090"
+TD9 result puzzle: 1090
+TD2 result guesses: 16
+TD2 result time: 28s
+TD2 result link: alphaguess.com/1090
+TD58 📆 2026-07-18 ? ␅
+TD167686 ␆
+TD81 📆 2026-07-18 ? 
