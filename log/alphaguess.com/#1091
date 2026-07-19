@@ -1,0 +1,74 @@
+T438.6354968919768 now: 2026-07-19T07:55:53EDT
+TD65 site: alphaguess.com
+TD120397 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 5f040323ea74ac53e4dd08576cdd946e38d75e76
+TD101  ...␅
+TD12230928 ␆
+TD73  ...
+TD119 [0 : 98214 : 196520] mach? ␅
+TD6600028 ␆b
+TD96 [0 : 98214 : 196520] mach? b
+TD87 progress: -1 98214 mach
+TD91 [0 : 47380 : 98214] dis? ␅
+TD1631620 ␆a
+TD69 [0 : 47380 : 98214] dis? a
+TD74 progress: 1 47380 dis
+TD173 [47381 : 72797 : 98214] gremolata? ␅
+TD1536081 ␆b
+TD67 [47381 : 72797 : 98214] gremolata? b
+TD70 progress: -1 72797 gremolata
+TD66 [47381 : 60081 : 72797] face? ␅
+TD1375413 ␆a
+TD71 [47381 : 60081 : 72797] face? a
+TD74 progress: 1 60081 face
+TD94 [60082 : 66437 : 72797] french? ␅
+TD1903842 ␆b
+TD81 [60082 : 66437 : 72797] french? b
+TD87 progress: -1 66437 french
+TD81 [60082 : 63237 : 66437] flag? ␅
+TD1479666 ␆b
+TD68 [60082 : 63237 : 66437] flag? b
+TD77 progress: -1 63237 flag
+TD66 [60082 : 61617 : 63237] fen? ␅
+TD1447869 ␆a
+TD80 [60082 : 61617 : 63237] fen? a
+TD86 progress: 1 61617 fen
+TD84 [61618 : 62421 : 63237] fila? ␅
+TD1743845 ␆a
+TD81 [61618 : 62421 : 63237] fila? a
+TD83 progress: 1 62421 fila
+TD81 [62422 : 62824 : 63237] fire? ␅
+TD1663808 ␆b
+TD97 [62422 : 62824 : 63237] fire? b
+TD90 progress: -1 62824 fire
+TD88 [62422 : 62617 : 62824] fin? ␅
+TD1543655 ␆a
+TD81 [62422 : 62617 : 62824] fin? a
+TD83 progress: 1 62617 fin
+TD85 [62618 : 62701 : 62824] finger? ␅
+TD2959705 ␆it
+TD64 [62618 : 62701 : 62824] finger? it
+TD73 progress: 0 62701 finger
+TD16 [62618 : 62701 : 62824] <Done>.
+TD51 📋> ␅
+TD5440989 ␆🧩 Puzzle #1091
+TD69 📋> 🧩 Puzzle #1091
+TD6 📋> ␅
+TD23 ␆🤔 11 guesses
+TD2 📋> 🤔 11 guesses
+TD1 📋> ␅
+TD4 ␆⏱️ 16s
+TD2 📋> ⏱️ 16s
+TD1 📋> ␅
+TD286836 ␆🔗 alphaguess.com/1091
+TD68 📋> 🔗 alphaguess.com/1091
+TD7 📋> ␅
+TD167911 ␄
+TD134 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1091\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1091"}
+TD80 result: "\ud83e\udde9 Puzzle #1091\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1091"
+TD11 result puzzle: 1091
+TD4 result guesses: 11
+TD3 result time: 16s
+TD2 result link: alphaguess.com/1091
+TD68 📆 2026-07-19 ? ␅
+TD207741 ␆
+TD85 📆 2026-07-19 ? 
