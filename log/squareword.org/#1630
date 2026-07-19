@@ -1,0 +1,299 @@
+T331.0306348449667 now: 2026-07-19T08:44:48EDT
+TD86 site: squareword.org
+TD16 wordlist: nwl2023.txt
+TD23  ...␅
+TD574706 ␆
+TD80  ...
+TD64 🧩  ? ␅
+TD10536030 ␆#1630
+TD71 🧩  ? #1630
+TD188 puzzle_id: #1630
+TD162 > ␅
+TD1063803 ␆*
+TD69 > *
+TD196364 try? ␅
+TD11107418 ␆1
+TD70 try? 1
+TD235 questioning: ["tares", "#5"]
+TD154 #1 <IndexError>  📋 "tares" ? ␅
+TD4399573 ␆_____ ~ AE
+TD80 #1 <IndexError>  📋 "tares" ? _____ ~ AE
+TD401 attempt 0 TARES n m n m n
+TD97 #2 <IndexError>  📋 "tares" ? ␅
+TD2343480 ␆__R__ ~ AE
+TD73 #2 <IndexError>  📋 "tares" ? __R__ ~ AE
+TD197 attempt 1 TARES n m Y m n
+TD82 #3 <IndexError>  📋 "tares" ? ␅
+TD3199643 ␆T____ ~ ARE
+TD81 #3 <IndexError>  📋 "tares" ? T____ ~ ARE
+TD193 attempt 2 TARES Y m m m n
+TD98 #4 <IndexError>  📋 "tares" ? ␅
+TD2383712 ␆___E_ 
+TD83 #4 <IndexError>  📋 "tares" ? ___E_ 
+TD195 attempt 3 TARES n n n Y n
+TD95 #5 <IndexError>  📋 "tares" ? ␅
+TD2320354 ␆_____ ~ ES
+TD83 #5 <IndexError>  📋 "tares" ? _____ ~ ES
+TD206 attempt 4 TARES n n n m m
+TD256 ? ␅
+TD486831 ␆
+TD69 ? 
+TD97 question done
+TD147 > ␅
+TD7135668 ␆*
+TD85 > *
+TD668586 try? ␅
+TD955461 ␆1
+TD78 try? 1
+TD249 questioning: ["feria", "#2"]
+TD230 #1 _____ ~AE -RST  📋 "feria" ? ␅
+TD5207469 ␆_E___ ~ A
+TD66 #1 _____ ~AE -RST  📋 "feria" ? _E___ ~ A
+TD165 attempt 0 FERIA n Y n n m
+TD94 #2 __R__ ~AE -ST  📋 "feria" ? ␅
+TD3095688 ␆_ERI_ ~ AE
+TD77 #2 __R__ ~AE -ST  📋 "feria" ? _ERI_ ~ AE
+TD150 attempt 1 FERIA n Y Y Y m
+TD85 #3 T____ ~AER -S  📋 "feria" ? ␅
+TD2023678 ␆.
+TD81 #3 T____ ~AER -S  📋 "feria" ? .
+TD219 attempt 2 FERIA n m m n m
+TD77 #4 ___E_ -ARST  📋 "feria" ? ␅
+TD3415659 ␆___E_ ~ I
+TD82 #4 ___E_ -ARST  📋 "feria" ? ___E_ ~ I
+TD198 attempt 3 FERIA n n n m n
+TD120 #5 _____ ~ES -ART  📋 "feria" ? ␅
+TD3416556 ␆_E___ ~ ES
+TD82 #5 _____ ~ES -ART  📋 "feria" ? _E___ ~ ES
+TD162 attempt 4 FERIA n Y n n n
+TD176 ? ␅
+TD358668 ␆
+TD70 ? 
+TD88 question done
+TD153 > ␅
+TD1407935 ␆*
+TD66 > *
+TD544674 questioning: ["aerie", "#2"]
+TD168 #1 _E___ ~A -FIRST  📋 "aerie" ? ␅
+TD6326959 ␆.
+TD91 #1 _E___ ~A -FIRST  📋 "aerie" ? .
+TD212 attempt 0 AERIE m Y n n n
+TD72 #2 _ERI_ ~A -FST  📋 "aerie" ? ␅
+TD623558 ␆/it
+TD69 #2 _ERI_ ~A -FST  📋 "aerie" ? /it
+TD159 attempt 1 AERIE Y Y Y Y Y
+TD58 #3 T____ ~AER -FIS  📋 "aerie" ? ␅
+TD2519888 ␆T___E ~ AR
+TD80 #3 T____ ~AER -FIS  📋 "aerie" ? T___E ~ AR
+TD192 attempt 2 AERIE m n m n Y
+TD115 #4 ___E_ ~I -AEFRST  📋 "aerie" ? ␅
+TD2815492 ␆.
+TD80 #4 ___E_ ~I -AEFRST  📋 "aerie" ? .
+TD206 attempt 3 AERIE n n n m n
+TD78 #5 _E___ ~S -AFIRT  📋 "aerie" ? ␅
+TD3223782 ␆_E___ ~ ES
+TD91 #5 _E___ ~S -AFIRT  📋 "aerie" ? _E___ ~ ES
+TD194 attempt 4 AERIE n Y n n m
+TD241 ? ␅
+TD479379 ␆
+TD70 ? 
+TD92 question done
+TD150 > ␅
+TD74976588 ␆*
+TD91 > *
+TD341938 try? ␅
+TD2026093 ␆1
+TD77 try? 1
+TD228 questioning: ["trace", "#3"]
+TD258 #1 _E___ ~A -FIRST  📋 "trace" ? ␅
+TD5767391 ␆_E___ ~ AC
+TD69 #1 _E___ ~A -FIRST  📋 "trace" ? _E___ ~ AC
+TD158 attempt 0 TRACE n n m m n
+TD94 #3 T___E ~AR -FIS  📋 "trace" ? ␅
+TD1808067 ␆TRA_E
+TD81 #3 T___E ~AR -FIS  📋 "trace" ? TRA_E
+TD202 attempt 2 TRACE Y Y Y n Y
+TD117 #4 ___E_ ~I -AEFRST  📋 "trace" ? ␅
+TD1055228 ␆.
+TD64 #4 ___E_ ~I -AEFRST  📋 "trace" ? .
+TD167 attempt 3 TRACE n n n n n
+TD58 #5 _E___ ~S -AFIRT  📋 "trace" ? ␅
+TD3063702 ␆_E___ ~ ES
+TD67 #5 _E___ ~S -AFIRT  📋 "trace" ? _E___ ~ ES
+TD152 attempt 4 TRACE n n n n m
+TD166 ? ␅
+TD199717 ␆
+TD72 ? 
+TD82 question done
+TD146 > ␅
+TD503838 ␆*
+TD82 > *
+TD625716 try? ␅
+TD2493989 ␄
+TD114 <EOF>
+TD279 > ␅
+TD11495846 ␆* 1
+TD71 > * 1
+TD134462 try? ␅
+TD3593576 ␆3
+TD71 try? 3
+TD199 questioning: ["decay", "#1"]
+TD166 #1 _E___ ~AC -EFIRST  📋 "decay" ? ␅
+TD5279567 ␆_ECA_
+TD70 #1 _E___ ~AC -EFIRST  📋 "decay" ? _ECA_
+TD154 attempt 0 DECAY n Y Y Y n
+TD90 #3 TRA_E -CFIS  📋 "decay" ? ␅
+TD3599716 ␆TRA_E ~ D
+TD88 #3 TRA_E -CFIS  📋 "decay" ? TRA_E ~ D
+TD194 attempt 2 DECAY m n n n n
+TD122 #4 ___E_ ~I -ACEFRST  📋 "decay" ? ␅
+TD2615669 ␆___E_ ~ ID
+TD83 #4 ___E_ ~I -ACEFRST  📋 "decay" ? ___E_ ~ ID
+TD159 attempt 3 DECAY m n n n n
+TD92 #5 _E___ ~S -ACFIRT  📋 "decay" ? ␅
+TD3503761 ␆_E__Y ~ ESD
+TD81 #5 _E___ ~S -ACFIRT  📋 "decay" ? _E__Y ~ ESD
+TD196 attempt 4 DECAY m Y n n Y
+TD238 ? ␅
+TD295482 ␆
+TD85 ? 
+TD110 question done
+TD203 > ␅
+TD503512 ␆*
+TD80 > *
+TD2004554 questioning: ["trade", "#3"]
+TD184 #1 _ECA_ -DFIRSTY  📋 "trade" ? ␅
+TD5003322 ␆_ECA_
+TD78 #1 _ECA_ -DFIRSTY  📋 "trade" ? _ECA_
+TD187 attempt 0 TRADE n n n n n
+TD117 #3 TRA_E ~D -ACEFISY  📋 "trade" ? ␅
+TD1095505 ␆/it
+TD82 #3 TRA_E ~D -ACEFISY  📋 "trade" ? /it
+TD208 attempt 2 TRADE Y Y Y Y Y
+TD76 #4 ___E_ ~DI -ACEFRSTY  📋 "trade" ? ␅
+TD1559725 ␆.
+TD80 #4 ___E_ ~DI -ACEFRSTY  📋 "trade" ? .
+TD202 attempt 3 TRADE n n n m n
+TD70 #5 _E__Y ~DS -ACFIRT  📋 "trade" ? ␅
+TD3103617 ␆_E_DY ~ ES
+TD219 #5 _E__Y ~DS -ACFIRT  📋 "trade" ? _E_DY ~ ES
+TD197 attempt 4 TRADE n n n Y m
+TD231 ? ␅
+TD263360 ␆
+TD67 ? 
+TD79 question done
+TD147 > ␅
+TD447697 ␆*
+TD81 > *
+TD1647335 questioning: ["seedy", "#5"]
+TD192 #1 _ECA_ -ADEFIRSTY  📋 "seedy" ? ␅
+TD5208533 ␆.
+TD70 #1 _ECA_ -ADEFIRSTY  📋 "seedy" ? .
+TD161 attempt 0 SEEDY n Y n n n
+TD59 #4 ___E_ ~DI -ACEFRSTY  📋 "seedy" ? ␅
+TD1255857 ␆.
+TD71 #4 ___E_ ~DI -ACEFRSTY  📋 "seedy" ? .
+TD166 attempt 3 SEEDY n n n m n
+TD61 #5 _E_DY ~S -ACFIRT  📋 "seedy" ? ␅
+TD631531 ␆/it
+TD75 #5 _E_DY ~S -ACFIRT  📋 "seedy" ? /it
+TD163 attempt 4 SEEDY Y Y Y Y Y
+TD148 ? ␅
+TD183666 ␆
+TD73 ? 
+TD78 question done
+TD165 > ␅
+TD559682 ␆*
+TD65 > *
+TD1237554 try? ␅
+TD20650765 ␄
+TD106 <EOF>
+TD263 > ␅
+TD943573 ␆* 1
+TD79 > * 1
+TD396232 try? ␅
+TD10187603 ␆2
+TD78 try? 2
+TD276 questioning: ["pecan", "#1"]
+TD236 #1 _ECA_ -ADFIRSTY  📋 "pecan" ? ␅
+TD2471514 ␆/it
+TD65 #1 _ECA_ -ADFIRSTY  📋 "pecan" ? /it
+TD166 attempt 0 PECAN Y Y Y Y Y
+TD59 #4 ___E_ ~DI -ACEFRSTY  📋 "pecan" ? ␅
+TD1519725 ␆.
+TD69 #4 ___E_ ~DI -ACEFRSTY  📋 "pecan" ? .
+TD165 attempt 3 PECAN n n n n n
+TD144 ? ␅
+TD151748 ␆
+TD71 ? 
+TD74 question done
+TD157 > ␅
+TD359568 ␆*
+TD82 > *
+TD829170 try? ␅
+TD4602953 ␆1
+TD76 try? 1
+TD197 questioning: ["hiked", "#4"]
+TD183 #4 ___E_ ~DI -ACEFNPRSTY  📋 "hiked" ? ␅
+TD4303602 ␆HI_ED
+TD91 #4 ___E_ ~DI -ACEFNPRSTY  📋 "hiked" ? HI_ED
+TD204 attempt 3 HIKED Y Y n Y Y
+TD253 ? ␅
+TD351388 ␆
+TD83 ? 
+TD130 question done
+TD202 > ␅
+TD407488 ␆*
+TD92 > *
+TD812582 questioning: ["hived", "#4"]
+TD187 #4 HI_ED -ACFKNPRSTY  📋 "hived" ? ␅
+TD2083162 ␆/t
+TD83 #4 HI_ED -ACFKNPRSTY  📋 "hived" ? /t
+TD446 #4 HI_ED -ACFKNPRSTY  ? ␅
+TD303619 ␆
+TD81 #4 HI_ED -ACFKNPRSTY  ? 
+TD340 #4 HI_ED -ACFKNPRSTY  ? ␅
+TD2847461 ␆/it
+TD73 #4 HI_ED -ACFKNPRSTY  ? /it
+TD164 attempt 3 HIVED Y Y Y Y Y
+TD133 ? ␅
+TD575986 ␆
+TD84 ? 
+TD92 question done
+TD16196 📋> ␅
+TD3080122 ␆squareword.org 1630: 10 guesses
+TD93 📋> squareword.org 1630: 10 guesses
+TD9 📋> ␅
+TD33 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD10 ␆🟨🟩🟩🟩🟨
+TD3 📋> 🟨🟩🟩🟩🟨
+TD3 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD6 ␆🟩🟩🟩🟨🟩
+TD2 📋> 🟩🟩🟩🟨🟩
+TD2 📋> ␅
+TD6 ␆🟨🟨🟨🟩🟨
+TD2 📋> 🟨🟨🟨🟩🟨
+TD2 📋> ␅
+TD6 ␆🟨🟩🟨🟨🟩
+TD2 📋> 🟨🟩🟨🟨🟩
+TD2 📋> ␅
+TD6 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD383092 ␆#squareword #squareword1630
+TD70 📋> #squareword #squareword1630
+TD6 📋> ␅
+TD207802 ␄
+TD158 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1630: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1630"}
+TD541 result: "squareword.org 1630: 10 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1630"
+TD68 📆 2026-07-19 ? ␅
+TD159272 ␆
+TD73 📆 2026-07-19 ? 
