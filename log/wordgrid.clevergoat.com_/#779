@@ -1,0 +1,305 @@
+T2124.9050920209847 now: 2026-07-19T09:14:42EDT
+TD74 site: https://wordgrid.clevergoat.com/
+TD34 wordlist: nwl2023.txt
+TD85 > ␅
+TD6185164 ␆col 1 &HY
+TD66 > col 1 &HY
+TD593 rule col: 1 &HY
+TD48 > ␅
+TD14047489 ␆col 2 ![AET]
+TD69 > col 2 ![AET]
+TD389 rule col: 2 ![AET]
+TD48 > ␅
+TD2359587 ␆~ ^I
+TD79 > ~ ^I
+TD182 > ␅
+TD13991906 ␆col 3 ~^I
+TD90 > col 3 ~^I
+TD257 rule col: 3 ~^I
+TD63 > ␅
+TD12503739 ␆row 1 ~L$
+TD69 > row 1 ~L$
+TD210 rule row: 1 ~L$
+TD48 > ␅
+TD19559929 ␆row 2 +C
+TD83 > row 2 +C
+TD415 rule row: 2 +C
+TD72 > ␅
+TD6351533 ␆row 3 ![GPU]
+TD68 > row 3 ![GPU]
+TD274 rule row: 3 ![GPU]
+TD50 > ␅
+TD7720062 ␆sol
+TD74 > sol
+TD175 > ␅
+TD1751385 ␆*
+TD77 > *
+TD248416 ? ␅
+TD21503746 ␆2
+TD69 ? 2
+TD149 questioning: 0 ethinyl
+TD35 🌡️ ethinyl 📋 ? ␅
+TD5855838 ␆.06
+TD73 🌡️ ethinyl 📋 ? .06
+TD272 word: 0 ethinyl 0.06
+TD14 questioning: -1 
+TD52 > ␅
+TD1967678 ␆*
+TD79 > *
+TD179148 ? ␅
+TD5748787 ␆9
+TD69 ? 9
+TD111 questioning: 1 busgirl
+TD34 🌡️ busgirl 📋 ? ␅
+TD4207862 ␆.04
+TD82 🌡️ busgirl 📋 ? .04
+TD87 word: 1 busgirl 0.04
+TD17 questioning: -1 
+TD78 > ␅
+TD1503752 ␆*
+TD80 > *
+TD156891 ? ␅
+TD5411142 ␆9
+TD75 ? 9
+TD122 questioning: 2 isotheral
+TD41 🌡️ isotheral 📋 ? ␅
+TD4023836 ␆.05
+TD82 🌡️ isotheral 📋 ? .05
+TD85 word: 2 isotheral 0.05
+TD15 questioning: -1 
+TD82 > ␅
+TD1063626 ␆*
+TD73 > *
+TD344782 ? ␅
+TD4439431 ␆4
+TD77 ? 4
+TD130 questioning: 3 phenocrystic
+TD43 🌡️ phenocrystic 📋 ? ␅
+TD2839785 ␆0
+TD79 🌡️ phenocrystic 📋 ? 0
+TD74 word: 3 phenocrystic 0.0
+TD15 questioning: -1 
+TD87 > ␅
+TD623817 ␆*
+TD78 > *
+TD331230 ? ␅
+TD5348599 ␆5
+TD72 ? 5
+TD109 questioning: 4 yucch
+TD34 🌡️ yucch 📋 ? ␅
+TD4079843 ␆.07
+TD79 🌡️ yucch 📋 ? .07
+TD86 word: 4 yucch 0.07
+TD16 questioning: -1 
+TD89 > ␅
+TD1399657 ␆*
+TD62 > *
+TD313359 ? ␅
+TD4318746 ␆4
+TD81 ? 4
+TD127 questioning: 5 impeccant
+TD42 🌡️ impeccant 📋 ? ␅
+TD6359702 ␆.23
+TD70 🌡️ impeccant 📋 ? .23
+TD71 word: 5 impeccant 0.23
+TD11 questioning: -1 
+TD66 > ␅
+TD1135790 ␆*
+TD72 > *
+TD207950 ? ␅
+TD3736079 ␆7
+TD81 ? 7
+TD137 questioning: 6 chrysotile
+TD42 🌡️ chrysotile 📋 ? ␅
+TD4783851 ␆0
+TD92 🌡️ chrysotile 📋 ? 0
+TD77 word: 6 chrysotile 0.0
+TD16 questioning: -1 
+TD85 > ␅
+TD6343705 ␆*
+TD63 > *
+TD276190 ? ␅
+TD7483885 ␆3
+TD86 ? 3
+TD127 questioning: 7 nicol
+TD40 🌡️ nicol 📋 ? ␅
+TD4687797 ␆0
+TD79 🌡️ nicol 📋 ? 0
+TD77 word: 7 nicol 0.0
+TD15 questioning: -1 
+TD86 > ␅
+TD3408190 ␆* 
+TD69 > * 
+TD166557 ? ␅
+TD7273056 ␆9
+TD67 ? 9
+TD113 questioning: 8 ilea
+TD32 🌡️ ilea 📋 ? ␅
+TD3519809 ␆0
+TD79 🌡️ ilea 📋 ? 0
+TD65 word: 8 ilea 0.0
+TD12 questioning: -1 
+TD70 > ␅
+TD3807836 ␆* 3 2
+TD63 > * 3 2
+TD323539 ? ␅
+TD5100491 ␆2
+TD68 ? 2
+TD150 questioning: 5 icteric
+TD49 🌡️ icteric 📋 ? ␅
+TD10447943 ␆.4
+TD80 🌡️ icteric 📋 ? .4
+TD121 word: 5 icteric 0.4
+TD26 questioning: -1 
+TD95 > ␅
+TD1791696 ␆* 3 2
+TD77 > * 3 2
+TD323710 ? ␅
+TD11732399 ␆4
+TD89 ? 4
+TD109 questioning: 5 ipecac
+TD34 🌡️ ipecac 📋 ? ␅
+TD4535710 ␆.8
+TD62 🌡️ ipecac 📋 ? .8
+TD67 word: 5 ipecac 0.8
+TD11 questioning: -1 
+TD65 > ␅
+TD2752076 ␆* 3 2
+TD72 > * 3 2
+TD319210 ? ␅
+TD4992536 ␆1
+TD77 ? 1
+TD126 questioning: 5 isocracy
+TD42 🌡️ isocracy 📋 ? ␅
+TD3375682 ␆.1
+TD81 🌡️ isocracy 📋 ? .1
+TD87 word: 5 isocracy 0.1
+TD16 questioning: -1 
+TD141 > ␅
+TD2063822 ␆* 3 2 -bot 10
+TD78 > * 3 2 -bot 10
+TD321221 ? ␅
+TD7726794 ␆4
+TD73 ? 4
+TD125 questioning: 5 inconspicuous
+TD40 🌡️ inconspicuous 📋 ? ␅
+TD4055849 ␆.37
+TD80 🌡️ inconspicuous 📋 ? .37
+TD81 word: 5 inconspicuous 0.37
+TD16 questioning: -1 
+TD89 > ␅
+TD2431787 ␆* 3 2 -bot 10
+TD92 > * 3 2 -bot 10
+TD310541 ? ␅
+TD8801362 ␆8
+TD68 ? 8
+TD104 questioning: 5 inconspicuously
+TD33 🌡️ inconspicuously 📋 ? ␅
+TD3527906 ␆.27
+TD81 🌡️ inconspicuously 📋 ? .27
+TD80 word: 5 inconspicuously 0.27
+TD16 questioning: -1 
+TD86 > ␅
+TD2287822 ␆* 3 2
+TD79 > * 3 2
+TD313884 ? ␅
+TD9022096 ␆10
+TD63 ? 10
+TD103 questioning: 5 inculcate
+TD31 🌡️ inculcate 📋 ? ␅
+TD6223848 ␆1
+TD69 🌡️ inculcate 📋 ? 1
+TD67 word: 5 inculcate 1.0
+TD12 questioning: -1 
+TD77 > ␅
+TD1887805 ␆* 3 2
+TD71 > * 3 2
+TD339728 ? ␅
+TD3028241 ␆7
+TD72 ? 7
+TD103 questioning: 5 intervocalic
+TD33 🌡️ intervocalic 📋 ? ␅
+TD3807932 ␆0
+TD70 🌡️ intervocalic 📋 ? 0
+TD65 word: 5 intervocalic 0.0
+TD11 questioning: -1 
+TD67 > ␅
+TD5383746 ␆* 2 2
+TD80 > * 2 2
+TD320577 ? ␅
+TD6943443 ␆10
+TD84 ? 10
+TD133 questioning: 4 crocus
+TD47 🌡️ crocus 📋 ? ␅
+TD3823747 ␆.45
+TD65 🌡️ crocus 📋 ? .45
+TD66 word: 4 crocus 0.45
+TD11 questioning: -1 
+TD68 > ␅
+TD1023915 ␆* 2 2
+TD67 > * 2 2
+TD336583 ? ␅
+TD13671911 ␄
+TD109 <EOF>
+TD145 > ␅
+TD1327256 ␆* 2 2
+TD74 > * 2 2
+TD330359 ? ␅
+TD2621647 ␆5
+TD78 ? 5
+T7.016719673003536 now: 2026-07-19T09:20:48EDT
+TD115 > ␅
+TD1744029 ␆* 2 2
+TD75 > * 2 2
+TD358935 ? ␅
+TD6193205 ␆9
+TD81 ? 9
+TD146 questioning: 4 chronics
+TD54 🌡️ chronics 📋 ? ␅
+TD4423562 ␆.24
+TD71 🌡️ chronics 📋 ? .24
+TD214 word: 4 chronics 0.24
+TD15 questioning: -1 
+TD59 > ␅
+TD1807791 ␆* 2 2
+TD71 > * 2 2
+TD319143 ? ␅
+TD6320821 ␆7
+TD72 ? 7
+TD109 questioning: 4 glucosic
+TD36 🌡️ glucosic 📋 ? ␅
+TD3671796 ␆0
+TD81 🌡️ glucosic 📋 ? 0
+TD80 word: 4 glucosic 0.0
+TD19 questioning: -1 
+TD84 > ␅
+TD80088757 ␆/res
+TD78 > /res
+TD151 📋> ␅
+TD713118 ␆Word Grid #779
+TD76 📋> Word Grid #779
+TD10 📋> ␅
+TD27 ␆🌌🌌🌌
+TD3 📋> 🌌🌌🌌
+TD2 📋> ␅
+TD8 ␆🦄🦄🦄
+TD2 📋> 🦄🦄🦄
+TD2 📋> ␅
+TD4 ␆🦄🦄🦄
+TD1 📋> 🦄🦄🦄
+TD1 📋> ␅
+TD4 ␆Rarity: 0.15
+TD1 📋> Rarity: 0.15
+TD2 📋> ␅
+TD294567 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD72 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD6 📋> ␅
+TD424054 ␄
+TD127 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #779\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\nRarity: 0.15\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD310 result: "Word Grid #779\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\nRarity: 0.15\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD63 > ␅
+TD2279241 ␆/store
+TD68 > /store
+TD151 📆 2026-07-19 ? ␅
+TD3959932 ␆2026-07-20
+TD75 📆 2026-07-19 ? 2026-07-20
