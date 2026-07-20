@@ -1,0 +1,89 @@
+T116.03771167399827 now: 2026-07-20T13:16:44EDT
+TD76 site: alphaguess.com
+TD138846 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 0b8cf385df4fc5986bf87d78c399d4baeab56dac
+TD114  ...␅
+TD18604 ␆
+TD84  ...
+TD140 [0 : 98214 : 196520] mach? ␅
+TD8606609 ␆
+TD82 [0 : 98214 : 196520] mach? 
+TD90 [0 : 98214 : 196520] mach? ␅
+TD1856573 ␆a
+TD92 [0 : 98214 : 196520] mach? a
+TD85 progress: 1 98214 mach
+TD172 [98215 : 147364 : 196520] rhotic? ␅
+TD1374474 ␆a
+TD86 [98215 : 147364 : 196520] rhotic? a
+TD85 progress: 1 147364 rhotic
+TD111 [147365 : 171634 : 196520] ta? ␅
+TD1495295 ␆b
+TD82 [147365 : 171634 : 196520] ta? b
+TD84 progress: -1 171634 ta
+TD82 [147365 : 159481 : 171634] slop? ␅
+TD1778682 ␆a
+TD83 [147365 : 159481 : 171634] slop? a
+TD92 progress: 1 159481 slop
+TD86 [159482 : 165523 : 171634] stick? ␅
+TD1588866 ␆b
+TD81 [159482 : 165523 : 171634] stick? b
+TD85 progress: -1 165523 stick
+TD93 [159482 : 162468 : 165523] spec? ␅
+TD1393465 ␆a
+TD75 [159482 : 162468 : 165523] spec? a
+TD75 progress: 1 162468 spec
+TD82 [162469 : 163994 : 165523] squab? ␅
+TD1439656 ␆b
+TD85 [162469 : 163994 : 165523] squab? b
+TD87 progress: -1 163994 squab
+TD85 [162469 : 163204 : 163994] spit? ␅
+TD1449554 ␆b
+TD82 [162469 : 163204 : 163994] spit? b
+TD82 progress: -1 163204 spit
+TD209 [162469 : 162836 : 163204] spheric? ␅
+TD1412438 ␆a
+TD83 [162469 : 162836 : 163204] spheric? a
+TD88 progress: 1 162836 spheric
+TD86 [162837 : 163004 : 163204] spin? ␅
+TD1486514 ␆b
+TD80 [162837 : 163004 : 163204] spin? b
+TD84 progress: -1 163004 spin
+TD81 [162837 : 162914 : 163004] spider? ␅
+TD1426941 ␆a
+TD79 [162837 : 162914 : 163004] spider? a
+TD82 progress: 1 162914 spider
+TD104 [162915 : 162958 : 163004] spike? ␅
+TD1364362 ␆a
+TD81 [162915 : 162958 : 163004] spike? a
+TD88 progress: 1 162958 spike
+TD220 [162959 : 162981 : 163004] spiling? ␅
+TD1408257 ␆a
+TD82 [162959 : 162981 : 163004] spiling? a
+TD158 progress: 1 162981 spiling
+TD101 [162982 : 162986 : 163004] spill? ␅
+TD2479049 ␆it
+TD81 [162982 : 162986 : 163004] spill? it
+TD86 progress: 0 162986 spill
+TD19 [162982 : 162986 : 163004] <Done>.
+TD62 📋> ␅
+TD3068037 ␆🧩 Puzzle #1092
+TD81 📋> 🧩 Puzzle #1092
+TD8 📋> ␅
+TD31 ␆🤔 14 guesses
+TD4 📋> 🤔 14 guesses
+TD4 📋> ␅
+TD8 ␆⏱️ 19s
+TD5 📋> ⏱️ 19s
+TD4 📋> ␅
+TD356623 ␆🔗 alphaguess.com/1092
+TD82 📋> 🔗 alphaguess.com/1092
+TD8 📋> ␅
+TD138441 ␄
+TD137 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1092\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/1092"}
+TD83 result: "\ud83e\udde9 Puzzle #1092\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/1092"
+TD11 result puzzle: 1092
+TD4 result guesses: 14
+TD3 result time: 19s
+TD3 result link: alphaguess.com/1092
+TD70 📆 2026-07-20 ? ␅
+TD138046 ␆
+TD87 📆 2026-07-20 ? 
