@@ -1,0 +1,259 @@
+T54.90915877599036 now: 2026-07-20T13:42:20EDT
+TD79 site: squareword.org
+TD16 wordlist: nwl2023.txt
+TD22  ...␅
+TD442050 ␆
+TD75  ...
+TD57 🧩  ? ␅
+TD9750438 ␆#1631
+TD85 🧩  ? #1631
+TD233 puzzle_id: #1631
+TD206 > ␅
+TD563962 ␆
+TD91 > 
+TD921 > ␅
+TD1415104 ␆*
+TD71 > *
+TD222862 try? ␅
+TD2952940 ␆3
+TD78 try? 3
+TD258 questioning: ["years", "#5"]
+TD215 #1 <IndexError>  📋 "years" ? ␅
+TD3381260 ␆_____ ~ S
+TD71 #1 <IndexError>  📋 "years" ? _____ ~ S
+TD507 attempt 0 YEARS n n n n m
+TD91 #2 <IndexError>  📋 "years" ? ␅
+TD1790406 ␆_____ ~ E
+TD131 #2 <IndexError>  📋 "years" ? _____ ~ E
+TD233 attempt 1 YEARS n m n n n
+TD95 #3 <IndexError>  📋 "years" ? ␅
+TD1705842 ␆___R_ ~ E
+TD74 #3 <IndexError>  📋 "years" ? ___R_ ~ E
+TD201 attempt 2 YEARS n m n Y n
+TD94 #4 <IndexError>  📋 "years" ? ␅
+TD1952411 ␆_____ ~ ER
+TD80 #4 <IndexError>  📋 "years" ? _____ ~ ER
+TD194 attempt 3 YEARS n m n m n
+TD95 #5 <IndexError>  📋 "years" ? ␅
+TD2030078 ␆_E__S ~ R
+TD84 #5 <IndexError>  📋 "years" ? _E__S ~ R
+TD202 attempt 4 YEARS n Y n m Y
+TD325 ? ␅
+TD164802 ␆
+TD84 ? 
+TD118 question done
+TD202 > ␅
+TD537926 ␆*
+TD86 > *
+TD581951 try? ␅
+TD1723886 ␆2
+TD76 try? 2
+TD244 questioning: ["chert", "#3"]
+TD225 #1 _____ ~S -AERY  📋 "chert" ? ␅
+TD6716038 ␆_____ ~ SH
+TD90 #1 _____ ~S -AERY  📋 "chert" ? _____ ~ SH
+TD209 attempt 0 CHERT n m n n n
+TD116 #2 _____ ~E -ARSY  📋 "chert" ? ␅
+TD3349838 ␆C____ ~ ET
+TD79 #2 _____ ~E -ARSY  📋 "chert" ? C____ ~ ET
+TD202 attempt 1 CHERT Y n m n m
+TD112 #3 ___R_ ~E -ASY  📋 "chert" ? ␅
+TD3006783 ␆___R_ ~ ECH
+TD74 #3 ___R_ ~E -ASY  📋 "chert" ? ___R_ ~ ECH
+TD168 attempt 2 CHERT m m m Y n
+TD98 #4 _____ ~ER -ASY  📋 "chert" ? ␅
+TD7800819 ␆__E__ ~ ER
+TD78 #4 _____ ~ER -ASY  📋 "chert" ? __E__ ~ ER
+TD196 attempt 3 CHERT n n Y m n
+TD99 #5 _E__S ~R -AY  📋 "chert" ? ␅
+TD2909179 ␆_E__S ~ R
+TD88 #5 _E__S ~R -AY  📋 "chert" ? _E__S ~ R
+TD199 attempt 4 CHERT n n n m n
+TD248 ? ␅
+TD224802 ␆
+TD76 ? 
+TD104 question done
+TD166 > ␅
+TD485023 ␆*
+TD84 > *
+TD544150 questioning: ["ochre", "#3"]
+TD178 #1 _____ ~HS -ACERTY  📋 "ochre" ? ␅
+TD12264901 ␆nnnnn ~ SHO
+TD80 #1 _____ ~HS -ACERTY  📋 "ochre" ? nnnnn ~ SHO
+TD198 attempt 0 OCHRE m n m n n
+TD118 #2 C____ ~ET -AHRSY  📋 "ochre" ? ␅
+TD3818029 ␆C___E ~ T
+TD80 #2 C____ ~ET -AHRSY  📋 "ochre" ? C___E ~ T
+TD228 attempt 1 OCHRE n n n n Y
+TD130 #3 ___R_ ~CEH -ASTY  📋 "ochre" ? ␅
+TD1143960 ␆/it
+TD79 #3 ___R_ ~CEH -ASTY  📋 "ochre" ? /it
+TD207 attempt 2 OCHRE Y Y Y Y Y
+TD69 #4 __E__ ~R -ACHSTY  📋 "ochre" ? ␅
+TD2881490 ␆__E__ ~ ER
+TD81 #4 __E__ ~R -ACHSTY  📋 "ochre" ? __E__ ~ ER
+TD197 attempt 3 OCHRE n n n m m
+TD119 #5 _E__S ~R -ACEHTY  📋 "ochre" ? ␅
+TD2060685 ␆.
+TD77 #5 _E__S ~R -ACEHTY  📋 "ochre" ? .
+TD206 attempt 4 OCHRE n n n m n
+TD194 ? ␅
+TD163552 ␆
+TD73 ? 
+TD84 question done
+TD213 > ␅
+TD465037 ␆*
+TD134 > *
+TD594712 questioning: ["slosh", "#1"]
+TD182 #1 _____ ~HOS -ACERTY  📋 "slosh" ? ␅
+TD2574109 ␆/it
+TD88 #1 _____ ~HOS -ACERTY  📋 "slosh" ? /it
+TD210 attempt 0 SLOSH Y Y Y Y Y
+TD77 #2 C___E ~T -ACHORSY  📋 "slosh" ? ␅
+TD1482380 ␆.
+TD80 #2 C___E ~T -ACHORSY  📋 "slosh" ? .
+TD198 attempt 1 SLOSH n n n n n
+TD72 #4 __E__ ~R -ACHOSTY  📋 "slosh" ? ␅
+TD3795829 ␆__E__ ~ ER
+TD72 #4 __E__ ~R -ACHOSTY  📋 "slosh" ? __E__ ~ ER
+TD163 attempt 3 SLOSH n n n n n
+TD106 #5 _E__S ~R -ACEHOTY  📋 "slosh" ? ␅
+TD1396182 ␆.
+TD83 #5 _E__S ~R -ACEHOTY  📋 "slosh" ? .
+TD264 attempt 4 SLOSH n n n n n
+TD227 ? ␅
+TD165455 ␆
+TD85 ? 
+TD96 question done
+TD210 > ␅
+TD413312 ␆*
+TD85 > *
+TD1522628 questioning: ["cutie", "#2"]
+TD189 #2 C___E ~T -ACHLORSY  📋 "cutie" ? ␅
+TD3031252 ␆/it
+TD82 #2 C___E ~T -ACHLORSY  📋 "cutie" ? /it
+TD221 attempt 1 CUTIE Y Y Y Y Y
+TD81 #4 __E__ ~R -ACHLOSTY  📋 "cutie" ? ␅
+TD4230159 ␆__E__ ~ ER
+TD79 #4 __E__ ~R -ACHLOSTY  📋 "cutie" ? __E__ ~ ER
+TD192 attempt 3 CUTIE n n n n m
+TD113 #5 _E__S ~R -ACEHLOSTY  📋 "cutie" ? ␅
+TD4123788 ␆.
+TD85 #5 _E__S ~R -ACEHLOSTY  📋 "cutie" ? .
+TD214 attempt 4 CUTIE n n n n n
+TD208 ? ␅
+TD1277658 ␆
+TD76 ? 
+TD93 question done
+TD222 > ␅
+TD502868 ␆*
+TD71 > *
+TD1276676 try? ␅
+TD2196118 ␆1
+TD72 try? 1
+TD194 questioning: ["freed", "#4"]
+TD291 #4 __E__ ~R -ACHILOSTUY  📋 "freed" ? ␅
+TD3245238 ␆/it
+TD80 #4 __E__ ~R -ACHILOSTUY  📋 "freed" ? /it
+TD192 attempt 3 FREED Y Y Y Y Y
+TD73 #5 _E__S ~R -ACEHILOSTUY  📋 "freed" ? ␅
+TD5768081 ␆FE__S ~ R
+TD92 #5 _E__S ~R -ACEHILOSTUY  📋 "freed" ? FE__S ~ R
+TD186 attempt 4 FREED Y m n n n
+TD245 ? ␅
+TD779975 ␆*
+TD78 ? *
+TD140 #6 <IndexError>  📋 "freed" ? ␅
+TD873383 ␆
+TD97 #6 <IndexError>  📋 "freed" ? 
+TD222 #6 <IndexError>  ? ␅
+TD781268 ␆
+TD84 #6 <IndexError>  ? 
+TD297 #6 <IndexError>  ? ␅
+TD1205879 ␄
+TD105 question done
+TD227 > ␅
+TD739873 ␆*
+TD80 > *
+TD802522 questioning: ["ferns", "#5"]
+TD186 #5 FE__S ~R -ACDEHILOSTUY  📋 "ferns" ? ␅
+TD2976024 ␆/it
+TD89 #5 FE__S ~R -ACDEHILOSTUY  📋 "ferns" ? /it
+TD201 attempt 4 FERNS Y Y Y Y Y
+TD192 ? ␅
+TD5432256 ␆squareword.org 1631: 7 guesses
+TD83 ? squareword.org 1631: 7 guesses
+TD325 ? ␅
+TD29 ␆
+TD4 ? 
+TD22 question done
+TD21489 📋> ␅
+TD60 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD3 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟨🟨🟩🟨🟨
+TD1 📋> 🟨🟨🟩🟨🟨
+TD1 📋> ␅
+TD3 ␆🟨🟩🟨🟨🟩
+TD1 📋> 🟨🟩🟨🟨🟩
+TD1 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD1 📋> ␅
+TD4 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD1 📋> ␅
+TD216831 ␆#squareword #squareword1631
+TD74 📋> #squareword #squareword1631
+TD9 📋> ␅
+TD158518 ␄
+TD145 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1631"}
+TD598 📋> ␅
+TD118762 ␆
+TD67 📋> 
+TD6 📋> ␅
+TD1126216 ␄
+TD165 pasted: {"subject": "share result", "method": "read:must:stdin", "content": ""}
+TD97 📋> ␅
+TD1131876 ␆squareword.org 1631: 7 guesses
+TD70 📋> squareword.org 1631: 7 guesses
+TD7 📋> ␅
+TD27 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟨🟨🟩🟨🟨
+TD1 📋> 🟨🟨🟩🟨🟨
+TD1 📋> ␅
+TD4 ␆🟨🟩🟨🟨🟩
+TD1 📋> 🟨🟩🟨🟨🟩
+TD1 📋> ␅
+TD4 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD5 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD322507 ␆#squareword #squareword1631
+TD61 📋> #squareword #squareword1631
+TD6 📋> ␅
+TD346610 ␄
+TD122 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1631: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1631"}
+TD385 result: "squareword.org 1631: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1631"
+TD70 📆 2026-07-20 ? ␅
+TD383778 ␆
+TD84 📆 2026-07-20 ? 
