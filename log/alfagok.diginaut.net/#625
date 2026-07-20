@@ -1,0 +1,109 @@
+T25.418472820019815 now: 2026-07-20T13:15:13EDT
+TD88 site: alfagok.diginaut.net
+TD307624 loaded 399504 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1348 words excluded) asof 0b8cf385df4fc5986bf87d78c399d4baeab56dac
+TD123  ...␅
+TD148692 ␆
+TD84  ...
+TD187 [0 : 199659 : 399504] lijk? ␅
+TD48518341 ␆
+TD93 [0 : 199659 : 399504] lijk? 
+TD114 [0 : 199659 : 399504] lijk? ␅
+TD2177355 ␆a
+TD81 [0 : 199659 : 399504] lijk? a
+TD268 progress: 1 199659 lijk
+TD86 [199660 : 299574 : 399504] schroot? ␅
+TD1573627 ␆a
+TD81 [199660 : 299574 : 399504] schroot? a
+TD90 progress: 1 299574 schroot
+TD87 [299575 : 349358 : 399504] vakantie? ␅
+TD2219726 ␆b
+TD87 [299575 : 349358 : 399504] vakantie? b
+TD87 progress: -1 349358 vakantie
+TD98 [299575 : 324160 : 349358] sub? ␅
+TD1915000 ␆b
+TD82 [299575 : 324160 : 349358] sub? b
+TD83 progress: -1 324160 sub
+TD82 [299575 : 311862 : 324160] spiert? ␅
+TD4189635 ␆a
+TD78 [299575 : 311862 : 324160] spiert? a
+TD83 progress: 1 311862 spiert
+TD86 [311863 : 317957 : 324160] stem? ␅
+TD1805346 ␆a
+TD91 [311863 : 317957 : 324160] stem? a
+TD87 progress: 1 317957 stem
+TD92 [317958 : 320931 : 324160] straat? ␅
+TD1607472 ␆b
+TD84 [317958 : 320931 : 324160] straat? b
+TD84 progress: -1 320931 straat
+TD319 [317958 : 319441 : 320931] stimulatie? ␅
+TD1508813 ␆a
+TD168 [317958 : 319441 : 320931] stimulatie? a
+TD103 progress: 1 319441 stimulatie
+TD86 [319442 : 320170 : 320931] stook? ␅
+TD1387595 ␆a
+TD77 [319442 : 320170 : 320931] stook? a
+TD85 progress: 1 320170 stook
+TD86 [320171 : 320434 : 320931] stop? ␅
+TD1797116 ␆a
+TD71 [320171 : 320434 : 320931] stop? a
+TD70 progress: 1 320434 stop
+TD68 [320435 : 320613 : 320931] storm? ␅
+TD1456936 ␆a
+TD66 [320435 : 320613 : 320931] storm? a
+TD71 progress: 1 320613 storm
+TD68 [320614 : 320722 : 320931] stort? ␅
+TD1597879 ␆a
+TD82 [320614 : 320722 : 320931] stort? a
+TD85 progress: 1 320722 stort
+TD80 [320723 : 320824 : 320931] stout? ␅
+TD2031724 ␆b
+TD65 [320723 : 320824 : 320931] stout? b
+TD67 progress: -1 320824 stout
+TD106 [320723 : 320773 : 320824] stortplaatsen? ␅
+TD1917426 ␆b
+TD69 [320723 : 320773 : 320824] stortplaatsen? b
+TD72 progress: -1 320773 stortplaatsen
+TD68 [320723 : 320744 : 320773] storting? ␅
+TD1649478 ␆b
+TD59 [320723 : 320744 : 320773] storting? b
+TD72 progress: -1 320744 storting
+TD101 [320723 : 320733 : 320744] stortcapaciteit? ␅
+TD1746666 ␆a
+TD82 [320723 : 320733 : 320744] stortcapaciteit? a
+TD72 progress: 1 320733 stortcapaciteit
+TD126 [320734 : 320739 : 320744] stortgoed? ␅
+TD1625343 ␆b
+TD66 [320734 : 320739 : 320744] stortgoed? b
+TD68 progress: -1 320739 stortgoed
+TD101 [320734 : 320736 : 320739] stortend? ␅
+TD2003071 ␆b
+TD69 [320734 : 320736 : 320739] stortend? b
+TD67 progress: -1 320736 stortend
+TD99 [320734 : 320735 : 320736] storten? ␅
+TD1834263 ␆it
+TD80 [320734 : 320735 : 320736] storten? it
+TD83 progress: 0 320735 storten
+TD19 [320734 : 320735 : 320736] <Done>.
+TD77 📋> ␅
+TD2872377 ␆🧩 Puzzel #625
+TD68 📋> 🧩 Puzzel #625
+TD6 📋> ␅
+TD29 ␆🤔 19 gokken
+TD2 📋> 🤔 19 gokken
+TD2 📋> ␅
+TD4 ␆⏱️ 34s
+TD2 📋> ⏱️ 34s
+TD1 📋> ␅
+TD259375 ␆🔗 alfagok.diginaut.net
+TD68 📋> 🔗 alfagok.diginaut.net
+TD5 📋> ␅
+TD155985 ␄
+TD160 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #625\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD412 result: "\ud83e\udde9 Puzzel #625\n\ud83e\udd14 19 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"
+TD18 result puzzle: 625
+TD5 result guesses: 19
+TD3 result time: 34s
+TD3 result link: alfagok.diginaut.net
+TD72 📆 2026-07-20 ? ␅
+TD157421 ␆
+TD90 📆 2026-07-20 ? 
