@@ -1,0 +1,77 @@
+T54.234752452000066 now: 2026-07-21T09:01:16EDT
+TD171 site: alphaguess.com
+TD145970 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 360d11a4d26a2e1c5b08efbfb08a98d16aa25d93
+TD132  ...␅
+TD1433050 ␆
+TD63  ...
+TD387 [0 : 98214 : 196520] mach? ␅
+TD5751753 ␆
+TD71 [0 : 98214 : 196520] mach? 
+TD110 [0 : 98214 : 196520] mach? ␅
+TD2191845 ␆b
+TD77 [0 : 98214 : 196520] mach? b
+TD164 progress: -1 98214 mach
+TD90 [0 : 47380 : 98214] dis? ␅
+TD1391722 ␆b
+TD81 [0 : 47380 : 98214] dis? b
+TD83 progress: -1 47380 dis
+TD90 [0 : 23681 : 47380] camp? ␅
+TD1295682 ␆b
+TD73 [0 : 23681 : 47380] camp? b
+TD69 progress: -1 23681 camp
+TD70 [0 : 11763 : 23681] back? ␅
+TD1231976 ␆a
+TD74 [0 : 11763 : 23681] back? a
+TD74 progress: 1 11763 back
+TD73 [11764 : 17714 : 23681] blind? ␅
+TD1431780 ␆b
+TD99 [11764 : 17714 : 23681] blind? b
+TD104 progress: -1 17714 blind
+TD107 [11764 : 13801 : 17714] be? ␅
+TD1399715 ␆b
+TD86 [11764 : 13801 : 17714] be? b
+TD83 progress: -1 13801 be
+TD132 [11764 : 12597 : 13801] ban? ␅
+TD3023835 ␆b
+TD84 [11764 : 12597 : 13801] ban? b
+TD71 progress: -1 12597 ban
+TD75 [11764 : 12178 : 12597] baff? ␅
+TD1287703 ␆a
+TD75 [11764 : 12178 : 12597] baff? a
+TD86 progress: 1 12178 baff
+TD85 [12179 : 12333 : 12597] bal? ␅
+TD1471898 ␆b
+TD72 [12179 : 12333 : 12597] bal? b
+TD88 progress: -1 12333 bal
+TD105 [12179 : 12254 : 12333] bail? ␅
+TD1295848 ␆a
+TD79 [12179 : 12254 : 12333] bail? a
+TD86 progress: 1 12254 bail
+TD82 [12255 : 12287 : 12333] bait? ␅
+TD2927737 ␆it
+TD76 [12255 : 12287 : 12333] bait? it
+TD88 progress: 0 12287 bait
+TD21 [12255 : 12287 : 12333] <Done>.
+TD215 📋> ␅
+TD2448869 ␆🧩 Puzzle #1093
+TD65 📋> 🧩 Puzzle #1093
+TD5 📋> ␅
+TD26 ␆🤔 11 guesses
+TD2 📋> 🤔 11 guesses
+TD2 📋> ␅
+TD4 ␆⏱️ 15s
+TD2 📋> ⏱️ 15s
+TD1 📋> ␅
+TD447380 ␆🔗 alphaguess.com/1093
+TD92 📋> 🔗 alphaguess.com/1093
+TD168 📋> ␅
+TD143095 ␄
+TD9727 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1093\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 15s\n\ud83d\udd17 alphaguess.com/1093"}
+TD211 result: "\ud83e\udde9 Puzzle #1093\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 15s\n\ud83d\udd17 alphaguess.com/1093"
+TD33 result puzzle: 1093
+TD3 result guesses: 11
+TD2 result time: 15s
+TD2 result link: alphaguess.com/1093
+TD75 📆 2026-07-21 ? ␅
+TD134087 ␆
+TD86 📆 2026-07-21 ? 
