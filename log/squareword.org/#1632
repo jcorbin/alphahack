@@ -1,0 +1,184 @@
+T1930.0059553370002 now: 2026-07-21T09:32:32EDT
+TD64 site: squareword.org
+TD17 wordlist: nwl2023.txt
+TD24  ...␅
+TD11523428 ␆
+TD69  ...
+TD49 🧩  ? ␅
+TD2079904 ␆#1632
+TD80 🧩  ? #1632
+TD225 puzzle_id: #1632
+TD195 > ␅
+TD767525 ␆
+TD72 > 
+TD219 > ␅
+TD847869 ␆*
+TD69 > *
+TD212162 try? ␅
+TD883991 ␆1
+TD71 try? 1
+TD197 questioning: ["stare", "#5"]
+TD155 #1 <IndexError>  📋 "stare" ? ␅
+TD3631301 ␆ST___ ~ R
+TD83 #1 <IndexError>  📋 "stare" ? ST___ ~ R
+TD494 attempt 0 STARE Y Y n m n
+TD97 #2 <IndexError>  📋 "stare" ? ␅
+TD2175793 ␆____E ~ R
+TD85 #2 <IndexError>  📋 "stare" ? ____E ~ R
+TD232 attempt 1 STARE n n n m Y
+TD96 #3 <IndexError>  📋 "stare" ? ␅
+TD2287095 ␆____E ~ SA
+TD70 #3 <IndexError>  📋 "stare" ? ____E ~ SA
+TD162 attempt 2 STARE m n m n Y
+TD74 #4 <IndexError>  📋 "stare" ? ␅
+TD2183701 ␆ST___ ~ E
+TD74 #4 <IndexError>  📋 "stare" ? ST___ ~ E
+TD171 attempt 3 STARE Y Y n n m
+TD83 #5 <IndexError>  📋 "stare" ? ␅
+TD1807839 ␆_____ ~ SE
+TD88 #5 <IndexError>  📋 "stare" ? _____ ~ SE
+TD207 attempt 4 STARE m n n n m
+TD266 ? ␅
+TD279460 ␆
+TD73 ? 
+TD95 question done
+TD152 > ␅
+TD1815608 ␆*
+TD81 > *
+TD575841 try? ␅
+TD1592085 ␆1
+TD80 try? 1
+TD252 questioning: ["aisle", "#3"]
+TD237 #1 ST___ ~R -AE  📋 "aisle" ? ␅
+TD5439506 ␆ST___ ~ RI
+TD74 #1 ST___ ~R -AE  📋 "aisle" ? ST___ ~ RI
+TD201 attempt 0 AISLE n m n n n
+TD116 #2 ____E ~R -AST  📋 "aisle" ? ␅
+TD3055807 ␆____E ~ RI
+TD80 #2 ____E ~R -AST  📋 "aisle" ? ____E ~ RI
+TD207 attempt 1 AISLE n m n n Y
+TD114 #3 ____E ~AS -RT  📋 "aisle" ? ␅
+TD1119471 ␆/it
+TD72 #3 ____E ~AS -RT  📋 "aisle" ? /it
+TD176 attempt 2 AISLE Y Y Y Y Y
+TD62 #4 ST___ ~E -AR  📋 "aisle" ? ␅
+TD3279786 ␆ST___ ~ EL
+TD81 #4 ST___ ~E -AR  📋 "aisle" ? ST___ ~ EL
+TD200 attempt 3 AISLE n n n m m
+TD111 #5 _____ ~ES -ART  📋 "aisle" ? ␅
+TD1023634 ␆.
+TD72 #5 _____ ~ES -ART  📋 "aisle" ? .
+TD175 attempt 4 AISLE n n m n m
+TD142 ? ␅
+TD215619 ␆
+TD80 ? 
+TD96 question done
+TD219 > ␅
+TD527679 ␆*
+TD70 > *
+TD586774 questioning: ["strip", "#1"]
+TD185 #1 ST___ ~IR -AELS  📋 "strip" ? ␅
+TD4804889 ␆/it
+TD72 #1 ST___ ~IR -AELS  📋 "strip" ? /it
+TD165 attempt 0 STRIP Y Y Y Y Y
+TD64 #2 ____E ~IR -ALST  📋 "strip" ? ␅
+TD3599787 ␆____E ~ RIP
+TD70 #2 ____E ~IR -ALST  📋 "strip" ? ____E ~ RIP
+TD163 attempt 1 STRIP n n m m m
+TD90 #4 ST___ ~EL -AIRS  📋 "strip" ? ␅
+TD2503752 ␆.
+TD65 #4 ST___ ~EL -AIRS  📋 "strip" ? .
+TD175 attempt 3 STRIP Y Y n n n
+TD57 #5 _____ ~ES -AILRT  📋 "strip" ? ␅
+TD943812 ␆.
+TD67 #5 _____ ~ES -AILRT  📋 "strip" ? .
+TD166 attempt 4 STRIP m n n n n
+TD142 ? ␅
+TD191573 ␆
+TD72 ? 
+TD74 question done
+TD151 > ␅
+TD744019 ␆*
+TD82 > *
+TD440750 questioning: ["pride", "#2"]
+TD191 #2 ____E ~IPR -ALST  📋 "pride" ? ␅
+TD2582728 ␆/it
+TD65 #2 ____E ~IPR -ALST  📋 "pride" ? /it
+TD161 attempt 1 PRIDE Y Y Y Y Y
+TD56 #4 ST___ ~EL -AIPR  📋 "pride" ? ␅
+TD1479700 ␆.
+TD81 #4 ST___ ~EL -AIPR  📋 "pride" ? .
+TD208 attempt 3 PRIDE n n n n m
+TD67 #5 _____ ~ES -AILPRT  📋 "pride" ? ␅
+TD2487688 ␆___D_ ~ SE
+TD83 #5 _____ ~ES -AILPRT  📋 "pride" ? ___D_ ~ SE
+TD203 attempt 4 PRIDE n n n Y m
+TD240 ? ␅
+TD255840 ␆
+TD86 ? 
+TD106 question done
+TD214 > ␅
+TD495306 ␆*
+TD83 > *
+TD883646 questioning: ["steel", "#4"]
+TD195 #4 ST___ ~EL -ADIPR  📋 "steel" ? ␅
+TD3331992 ␆/it
+TD70 #4 ST___ ~EL -ADIPR  📋 "steel" ? /it
+TD168 attempt 3 STEEL Y Y Y Y Y
+TD58 #5 ___D_ ~ES -AILPRT  📋 "steel" ? ␅
+TD1479798 ␆.
+TD76 #5 ___D_ ~ES -AILPRT  📋 "steel" ? .
+TD208 attempt 4 STEEL m n m m n
+TD204 ? ␅
+TD159732 ␆
+TD82 ? 
+TD95 question done
+TD228 > ␅
+TD423362 ␆*
+TD81 > *
+TD625268 questioning: ["mends", "#5"]
+TD192 #5 ___D_ ~ES -AILPRT  📋 "mends" ? ␅
+TD4806627 ␆/it
+TD72 #5 ___D_ ~ES -AILPRT  📋 "mends" ? /it
+TD171 attempt 4 MENDS Y Y Y Y Y
+TD143 ? ␅
+TD1191604 ␆
+TD74 ? 
+TD76 question done
+TD21360 📋> ␅
+TD5107350 ␆squareword.org 1632: 6 guesses
+TD71 📋> squareword.org 1632: 6 guesses
+TD6 📋> ␅
+TD30 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD3 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD3 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟨🟨🟨🟩🟨
+TD1 📋> 🟨🟨🟨🟩🟨
+TD1 📋> ␅
+TD4 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD5 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD391098 ␆#squareword #squareword1632
+TD85 📋> #squareword #squareword1632
+TD8 📋> ␅
+TD255930 ␄
+TD149 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1632: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1632"}
+TD558 result: "squareword.org 1632: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1632"
+TD61 📆 2026-07-21 ? ␅
+TD231266 ␆
+TD83 📆 2026-07-21 ? 
