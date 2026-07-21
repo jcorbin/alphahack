@@ -1,0 +1,207 @@
+T162.13146686699997 now: 2026-07-21T09:03:04EDT
+TD119 site: dontwordle.com
+TD92 wordlist: nwl2023.txt
+TD33  ...␅
+TD1926352 ␆
+TD70  ...
+TD165 1> ␅
+TD9648164 ␆* -bot 10
+TD79 1> * -bot 10
+TD219572 ? ␅
+TD828242 ␆1
+TD73 ? 1
+TD326 📋 "raise" ? ␅
+TD5183898 ␆MnnMM
+TD63 📋 "raise" ? MnnMM
+TD467 tried: RAISE m n n m m
+TD159 2> ␅
+TD1095400 ␆undo
+TD73 2> undo
+TD129 undo
+TD160 1> ␅
+TD2543718 ␆*
+TD61 1> *
+TD77659 ? ␅
+TD146231 ␆1
+TD58 ? 1
+TD170 📋 "qajaq" ? ␅
+TD5207963 ␆nnnnn
+TD72 📋 "qajaq" ? nnnnn
+TD142 tried: QAJAQ n n n n n
+TD107 2> ␅
+TD10536137 ␆* :v [raise] -bot 10
+TD67 2> * :v [raise] -bot 10
+TD73231 ? ␅
+TD1806978 ␆2
+TD72 ? 2
+TD154 📋 "lunch" ? ␅
+TD4511810 ␆nnnMn
+TD80 📋 "lunch" ? nnnMn
+TD164 tried: LUNCH n n n m n
+TD148 3> ␅
+TD2351945 ␆undo
+TD81 3> undo
+TD128 undo
+TD151 2> ␅
+TD2599567 ␆*
+TD77 2> *
+TD68121 ? ␅
+TD171627 ␆1
+TD59 ? 1
+TD149 📋 "potto" ? ␅
+TD4080394 ␆nnnnn
+TD74 📋 "potto" ? nnnnn
+TD163 tried: POTTO n n n n n
+TD132 3> ␅
+TD12960129 ␆*
+TD92 3> *
+TD64913 ? ␅
+TD566507 ␆1
+TD78 ? 1
+TD190 📋 "yummy" ? ␅
+TD4384017 ␆nnnnn
+TD81 📋 "yummy" ? nnnnn
+TD165 tried: YUMMY n n n n n
+TD144 4> ␅
+TD2423735 ␆*
+TD80 4> *
+TD64190 ? ␅
+TD888082 ␆1
+TD76 ? 1
+TD153 📋 "whizz" ? ␅
+TD12647958 ␆Mnnnn
+TD76 📋 "whizz" ? Mnnnn
+TD157 tried: WHIZZ m n n n n
+TD141 5> ␅
+TD783666 ␆undo
+TD81 5> undo
+TD114 undo
+TD184 4> ␅
+TD3023635 ␆*
+TD80 4> *
+TD68987 ? ␅
+TD642975 ␆1
+TD82 ? 1
+TD184 📋 "linin" ? ␅
+TD3455854 ␆nnnnn
+TD75 📋 "linin" ? nnnnn
+TD133 tried: LININ n n n n n
+TD148 5> ␅
+TD639861 ␆*
+TD82 5> *
+TD135624 ? ␅
+TD848225 ␆1
+TD81 ? 1
+TD181 📋 "deked" ? ␅
+TD4295992 ␆nnnYn
+TD93 📋 "deked" ? nnnYn
+TD165 tried: DEKED n n n Y n
+TD132 6> ␅
+TD552131 ␆*
+TD81 6> *
+TD129037 ? ␅
+TD5606678 ␆1
+TD72 ? 1
+TD155 📋 "egger" ? ␅
+TD6319873 ␄
+TD112 <EOF>
+TD124 6> ␅
+TD2856276 ␆* -sans
+TD82 6> * -sans
+TD66759 ? ␅
+TD24428480 ␄
+TD122 <EOF>
+TD121 6> ␅
+TD679749 ␆undo
+TD83 6> undo
+TD113 undo
+TD190 5> ␅
+TD3735516 ␆*
+TD83 5> *
+TD132105 ? ␅
+TD14747412 ␄
+TD112 <EOF>
+TD123 5> ␅
+TD1760422 ␆* -sans
+TD72 5> * -sans
+TD75985 ? ␅
+TD2539200 ␄
+TD101 <EOF>
+TD96 5> ␅
+TD1583734 ␆* -sans
+TD82 5> * -sans
+TD81662 ? ␅
+TD6038674 ␄
+TD122 <EOF>
+TD127 5> ␅
+TD4359052 ␆* -sans :v [e.*e]
+TD63 5> * -sans :v [e.*e]
+TD64777 5> ␅
+TD7687007 ␆* :v [e]
+TD75 5> * :v [e]
+TD65137 5> ␅
+TD3606782 ␆* -sans :v [e]
+TD81 5> * -sans :v [e]
+TD70343 5> ␅
+TD2489640 ␆* -sans
+TD85 5> * -sans
+TD75545 ? ␅
+TD5748067 ␆1
+TD71 ? 1
+TD155 📋 "shews" ? ␅
+TD4367716 ␆YnMMn
+TD77 📋 "shews" ? YnMMn
+TD161 tried: SHEWS Y n m m n
+TD161 6> ␅
+TD431717 ␆*
+TD81 6> *
+TD135312 📋 "sewed" ? ␅
+TD7376383 ␆YnMYn
+TD82 📋 "sewed" ? YnMYn
+TD131 tried: SEWED Y n m Y n
+TD148 📋> ␅
+TD2440315 ␆Don't Wordle 1519 - SURVIVED
+TD83 📋> Don't Wordle 1519 - SURVIVED
+TD9 📋> ␅
+TD30 ␆Hooray! I didn't Wordle today!
+TD5 📋> Hooray! I didn't Wordle today!
+TD4 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜7419
+TD4 📋> ⬜⬜⬜⬜⬜7419
+TD3 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜2749
+TD3 📋> ⬜⬜⬜⬜⬜2749
+TD2 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜1284
+TD2 📋> ⬜⬜⬜⬜⬜1284
+TD3 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜247
+TD2 📋> ⬜⬜⬜⬜⬜247
+TD2 📋> ␅
+TD6 ␆🟩⬜🟨🟨⬜3
+TD3 📋> 🟩⬜🟨🟨⬜3
+TD8 📋> ␅
+TD6 ␆🟩⬜🟨🟩⬜1
+TD2 📋> 🟩⬜🟨🟩⬜1
+TD2 📋> ␅
+TD5 ␆Undos used: 4
+TD3 📋> Undos used: 4
+TD3 📋> ␅
+TD6 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD6 ␆  1 words remaining
+TD3 📋>   1 words remaining
+TD3 📋> ␅
+TD6 ␆x 9 unused letters
+TD2 📋> x 9 unused letters
+TD2 📋> ␅
+TD390943 ␆= 9 total score
+TD82 📋> = 9 total score
+TD9 📋> ␅
+TD207879 ␄
+TD150 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1519 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7419\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2749\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1284\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c247\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c3\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c1\nUndos used: 4\n\n  1 words remaining\nx 9 unused letters\n= 9 total score"}
+TD1238 result: "Don't Wordle 1519 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7419\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2749\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1284\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c247\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c3\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c1\nUndos used: 4\n\n  1 words remaining\nx 9 unused letters\n= 9 total score"
+TD84 📆 2026-07-21 ? ␅
+TD198536 ␆
+TD68 📆 2026-07-21 ? 
