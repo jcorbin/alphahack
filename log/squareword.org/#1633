@@ -1,0 +1,270 @@
+T66.34605734400247 now: 2026-07-22T09:09:15EDT
+TD152 site: squareword.org
+TD40 wordlist: nwl2023.txt
+TD61  ...␅
+TD545275 ␆
+TD109  ...
+TD118 🧩  ? ␅
+TD9043131 ␆#1633
+TD64 🧩  ? #1633
+TD195 puzzle_id: #1633
+TD293 > ␅
+TD612031 ␆
+TD84 > 
+TD400 > ␅
+TD1386339 ␆*
+TD87 > *
+TD264357 try? ␅
+TD96587 ␆1
+TD67 try? 1
+TD234 questioning: ["aides", "#5"]
+TD297 #1 <IndexError>  📋 "aides" ? ␅
+TD5214521 ␆____S ~ S
+TD64 #1 <IndexError>  📋 "aides" ? ____S ~ S
+TD599 attempt 0 AIDES n n n n Y
+TD126 #2 <IndexError>  📋 "aides" ? ␅
+TD2465888 ␆A____ ~ A
+TD67 #2 <IndexError>  📋 "aides" ? A____ ~ A
+TD177 attempt 1 AIDES Y n n n n
+TD108 #3 <IndexError>  📋 "aides" ? ␅
+TD2815984 ␆___E_ ~ E
+TD53 #3 <IndexError>  📋 "aides" ? ___E_ ~ E
+TD146 attempt 2 AIDES n n n Y n
+TD73 #4 <IndexError>  📋 "aides" ? ␅
+TD3015694 ␆A____ ~ AE
+TD58 #4 <IndexError>  📋 "aides" ? A____ ~ AE
+TD156 attempt 3 AIDES Y n n m n
+TD83 #5 <IndexError>  📋 "aides" ? ␅
+TD2626576 ␆_____ ~ AD
+TD70 #5 <IndexError>  📋 "aides" ? _____ ~ AD
+TD194 attempt 4 AIDES m n m n n
+TD325 ? ␅
+TD396567 ␆
+TD53 ? 
+TD78 question done
+TD187 > ␅
+TD693127 ␆*
+TD141 > *
+TD875600 try? ␅
+TD1704319 ␆2
+TD99 try? 2
+TD241 questioning: ["angle", "#4"]
+TD255 #1 ____S -ADEI  📋 "angle" ? ␅
+TD5848024 ␆____S ~ S
+TD125 #1 ____S -ADEI  📋 "angle" ? ____S ~ S
+TD286 attempt 0 ANGLE n n n n n
+TD161 #2 A____ -DEIS  📋 "angle" ? ␅
+TD2539081 ␆A____ ~ A
+TD86 #2 A____ -DEIS  📋 "angle" ? A____ ~ A
+TD264 attempt 1 ANGLE Y n n n n
+TD170 #3 ___E_ -ADIS  📋 "angle" ? ␅
+TD3535270 ␆___E_ ~ EL
+TD72 #3 ___E_ -ADIS  📋 "angle" ? ___E_ ~ EL
+TD210 attempt 2 ANGLE n n n m m
+TD144 #4 A____ ~E -DIS  📋 "angle" ? ␅
+TD2931309 ␆A____ ~ AEN
+TD78 #4 A____ ~E -DIS  📋 "angle" ? A____ ~ AEN
+TD257 attempt 3 ANGLE Y m n n m
+TD154 #5 _____ ~AD -EIS  📋 "angle" ? ␅
+TD2697982 ␆_____ ~ ADN
+TD78 #5 _____ ~AD -EIS  📋 "angle" ? _____ ~ ADN
+TD240 attempt 4 ANGLE m m n n n
+TD457 ? ␅
+TD314481 ␆
+TD86 ? 
+TD194 question done
+TD503 > ␅
+TD481585 ␆*
+TD147 > *
+TD579515 try? ␅
+TD2665218 ␆2
+TD53 try? 2
+TD163 questioning: ["arena", "#4"]
+TD241 #1 ____S -ADEGILN  📋 "arena" ? ␅
+TD5454429 ␆____S ~ SR
+TD94 #1 ____S -ADEGILN  📋 "arena" ? ____S ~ SR
+TD224 attempt 0 ARENA n m n n n
+TD147 #2 A____ -DEGILNS  📋 "arena" ? ␅
+TD2825931 ␆A____ ~ AR
+TD60 #2 A____ -DEGILNS  📋 "arena" ? A____ ~ AR
+TD129 attempt 1 ARENA Y m n n m
+TD76 #3 ___E_ ~L -ADGINS  📋 "arena" ? ␅
+TD3343794 ␆___E_ ~ ELR
+TD64 #3 ___E_ ~L -ADGINS  📋 "arena" ? ___E_ ~ ELR
+TD155 attempt 2 ARENA n m m n n
+TD94 #4 A____ ~EN -DGILS  📋 "arena" ? ␅
+TD981523 ␆/it
+TD97 #4 A____ ~EN -DGILS  📋 "arena" ? /it
+TD280 attempt 3 ARENA Y Y Y Y Y
+TD130 #5 _____ ~ADN -EGILS  📋 "arena" ? ␅
+TD1471441 ␆.
+TD66 #5 _____ ~ADN -EGILS  📋 "arena" ? .
+TD176 attempt 4 ARENA m n n m m
+TD272 ? ␅
+TD122914 ␆
+TD76 ? 
+TD104 question done
+TD454 > ␅
+TD415399 ␆*
+TD81 > *
+TD861579 try? ␅
+TD3709799 ␆2
+TD60 try? 2
+TD248 questioning: ["abort", "#2"]
+TD227 #1 ____S ~R -ADEGILN  📋 "abort" ? ␅
+TD7209737 ␆____S ~ SROT
+TD107 #1 ____S ~R -ADEGILN  📋 "abort" ? ____S ~ SROT
+TD285 attempt 0 ABORT n n m m m
+TD226 #2 A____ ~R -DEGILNS  📋 "abort" ? ␅
+TD2576258 ␆A__RT ~ A
+TD102 #2 A____ ~R -DEGILNS  📋 "abort" ? A__RT ~ A
+TD301 attempt 1 ABORT Y n n Y Y
+TD182 #3 ___E_ ~LR -ADGINS  📋 "abort" ? ␅
+TD3570275 ␆___E_ ~ ELR
+TD141 #3 ___E_ ~LR -ADGINS  📋 "abort" ? ___E_ ~ ELR
+TD511 attempt 2 ABORT n n n m n
+TD313 #5 _____ ~ADN -EGILRS  📋 "abort" ? ␅
+TD1102644 ␆.
+TD92 #5 _____ ~ADN -EGILRS  📋 "abort" ? .
+TD412 attempt 4 ABORT m n n n n
+TD572 ? ␅
+TD156086 ␆
+TD111 ? 
+TD116 question done
+TD521 > ␅
+TD409789 ␆*
+TD161 > *
+TD1270235 questioning: ["apart", "#2"]
+TD192 #1 ____S ~ORT -ABDEGILN  📋 "apart" ? ␅
+TD6146153 ␆____S ~ SROT
+TD50 #1 ____S ~ORT -ABDEGILN  📋 "apart" ? ____S ~ SROT
+TD126 attempt 0 APART n n n m m
+TD76 #2 A__RT -BDEGILNOS  📋 "apart" ? ␅
+TD2727035 ␆/it
+TD193 #2 A__RT -BDEGILNOS  📋 "apart" ? /it
+TD606 attempt 1 APART Y Y Y Y Y
+TD340 #3 ___E_ ~LR -ABDGINOST  📋 "apart" ? ␅
+TD2454967 ␆___E_ ~ ELR
+TD104 #3 ___E_ ~LR -ABDGINOST  📋 "apart" ? ___E_ ~ ELR
+TD344 attempt 2 APART n n n m n
+TD251 #5 _____ ~ADN -BEGILORST  📋 "apart" ? ␅
+TD850383 ␆.
+TD61 #5 _____ ~ADN -BEGILORST  📋 "apart" ? .
+TD182 attempt 4 APART m n m n n
+TD317 ? ␅
+TD156868 ␆
+TD105 ? 
+TD138 question done
+TD515 > ␅
+TD499880 ␆*
+TD78 > *
+TD1955804 try? ␅
+TD2324280 ␆
+TD80 try? 
+TD250 try? ␅
+TD495900 ␆1
+TD71 try? 1
+TD251 questioning: ["handy", "#5"]
+TD285 #1 ____S ~ORT -ABDEGILNP  📋 "handy" ? ␅
+TD5376098 ␆____S ~ SROT
+TD87 #1 ____S ~ORT -ABDEGILNP  📋 "handy" ? ____S ~ SROT
+TD246 attempt 0 HANDY n n n n n
+TD170 #3 ___E_ ~LR -ABDGINOPST  📋 "handy" ? ␅
+TD4195175 ␆___E_ ~ ELR
+TD87 #3 ___E_ ~LR -ABDGINOPST  📋 "handy" ? ___E_ ~ ELR
+TD267 attempt 2 HANDY n n n n n
+TD167 #5 _____ ~ADN -BEGILOPRST  📋 "handy" ? ␅
+TD3804805 ␆_ANDY ~ D
+TD96 #5 _____ ~ADN -BEGILOPRST  📋 "handy" ? _ANDY ~ D
+TD286 attempt 4 HANDY n Y Y Y Y
+TD445 ? ␅
+TD489221 ␆
+TD55 ? 
+TD81 question done
+TD220 > ␅
+TD493144 ␆*
+TD73 > *
+TD2286273 questioning: ["lever", "#3"]
+TD242 #1 ____S ~ORT -ABDEGHILNPY  📋 "lever" ? ␅
+TD7563428 ␆____S ~ SROT
+TD146 #1 ____S ~ORT -ABDEGHILNPY  📋 "lever" ? ____S ~ SROT
+TD345 attempt 0 LEVER n n n n m
+T7.731169016002241 now: 2026-07-22T09:11:38EDT
+TD89 questioning: ["lever", "#3"]
+TD188 #3 ___E_ ~LR -ABDGHINOPSTY  📋 "lever" ? ␅
+TD1724187 ␆/it
+TD57 #3 ___E_ ~LR -ABDGHINOPSTY  📋 "lever" ? /it
+TD274 attempt 2 LEVER Y Y Y Y Y
+TD73 #5 _ANDY -BEGHILOPRST  📋 "lever" ? ␅
+TD2391710 ␆_ANDY ~ D
+TD70 #5 _ANDY -BEGHILOPRST  📋 "lever" ? _ANDY ~ D
+TD356 attempt 4 LEVER n n n n n
+TD250 ? ␅
+TD355119 ␆
+TD79 ? 
+TD128 question done
+TD428 > ␅
+TD719197 ␆*
+TD90 > *
+TD766952 questioning: ["dandy", "#5"]
+TD215 #1 ____S ~ORT -ABDEGHILNPVY  📋 "dandy" ? ␅
+TD6341093 ␆____S ~ SROT
+TD85 #1 ____S ~ORT -ABDEGHILNPVY  📋 "dandy" ? ____S ~ SROT
+TD270 attempt 0 DANDY n n n n n
+TD179 #5 _ANDY -BEGHILOPRSTV  📋 "dandy" ? ␅
+TD904416 ␆/it
+TD89 #5 _ANDY -BEGHILOPRSTV  📋 "dandy" ? /it
+TD228 attempt 4 DANDY Y Y Y Y Y
+TD416 ? ␅
+TD262411 ␆
+TD92 ? 
+TD125 question done
+TD477 > ␅
+TD418112 ␆*
+TD103 > *
+TD115381 questioning: ["sorts", "#1"]
+TD194 #1 ____S ~ORT -ABDEGHILNPVY  📋 "sorts" ? ␅
+TD3458347 ␆/it
+TD92 #1 ____S ~ORT -ABDEGHILNPVY  📋 "sorts" ? /it
+TD229 attempt 0 SORTS Y Y Y Y Y
+TD328 ? ␅
+TD325941 ␆
+TD84 ? 
+TD91 question done
+TD32054 📋> ␅
+TD6890845 ␆squareword.org 1633: 9 guesses
+TD85 📋> squareword.org 1633: 9 guesses
+TD18 📋> ␅
+TD41 ␆
+TD8 📋> 
+TD9 📋> ␅
+TD20 ␆🟨🟨🟨🟨🟩
+TD8 📋> 🟨🟨🟨🟨🟩
+TD8 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟨🟨🟩🟨
+TD4 📋> 🟨🟨🟨🟩🟨
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD10 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD13 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD456026 ␆#squareword #squareword1633
+TD69 📋> #squareword #squareword1633
+TD8 📋> ␅
+TD387324 ␄
+TD193 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1633: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1633"}
+TD1507 result: "squareword.org 1633: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1633"
+TD183 📆 2026-07-22 ? ␅
+TD193765 ␆
+TD127 📆 2026-07-22 ? 
