@@ -1,0 +1,179 @@
+T806.668718287001 now: 2026-07-22T08:48:27EDT
+TD151 site: https://www.merriam-webster.com/games/quordle/#/
+TD40 wordlist: nwl2023.txt
+TD18 num_words: 4
+TD158  ...␅
+TD869007 ␆
+TD76  ...
+TD475867 > ␅
+TD25767779 ␆*
+TD74 > *
+TD52042 ? ␅
+TD780478 ␆1
+TD52 ? 1
+TD96 questioning: seral
+TD81 Classic #1 _____? ␅
+TD2730635 ␆nnnnM
+TD59 Classic #1 _____? nnnnM
+TD203 attempt: 0 SERAL n n n n m
+TD69 Classic #2 _____? ␅
+TD2081631 ␆YMnnn
+TD135 Classic #2 _____? YMnnn
+TD334 attempt: 1 SERAL Y m n n n
+TD164 Classic #3 _____? ␅
+TD1866066 ␆MnnMn
+TD68 Classic #3 _____? MnnMn
+TD162 attempt: 2 SERAL m n n m n
+TD77 Classic #4 _____? ␅
+TD1512798 ␆nMnMn
+TD76 Classic #4 _____? nMnMn
+TD197 attempt: 3 SERAL n m n m n
+TD525958 > ␅
+TD732232 ␆*
+TD94 > *
+TD6154 ? ␅
+TD843218 ␆1
+TD64 ? 1
+TD96 questioning: tamis
+TD79 Classic #1 _____ ~L -AERS? ␅
+TD2631431 ␆nnnnn
+TD60 Classic #1 _____ ~L -AERS? nnnnn
+TD148 attempt: 0 TAMIS n n n n n
+TD68 Classic #2 S____ ~E -ALR? ␅
+TD1396334 ␆nnnMM
+TD92 Classic #2 S____ ~E -ALR? nnnMM
+TD211 attempt: 1 TAMIS n n n m m
+TD110 Classic #3 _____ ~AS -ELR? ␅
+TD1719412 ␆nMnnM
+TD100 Classic #3 _____ ~AS -ELR? nMnnM
+TD309 attempt: 2 TAMIS n m n n m
+TD166 Classic #4 _____ ~AE -LRS? ␅
+TD1112852 ␆nMnnn
+TD55 Classic #4 _____ ~AE -LRS? nMnnn
+TD146 attempt: 3 TAMIS n m n n n
+TD488829 > ␅
+TD4117161 ␆*
+TD52 > *
+TD1190 ? ␅
+TD1080416 ␆1
+TD78 ? 1
+TD168 questioning: clung
+TD168 Classic #1 _____ ~L -AEIMRST? ␅
+TD2992174 ␆YMnnn
+TD60 Classic #1 _____ ~L -AEIMRST? YMnnn
+TD175 attempt: 0 CLUNG Y m n n n
+TD89 Classic #2 S____ ~EI -ALMRT? ␅
+TD1144056 ␆nnnMM
+TD153 Classic #2 S____ ~EI -ALMRT? nnnMM
+TD461 attempt: 1 CLUNG n n n m m
+TD265 Classic #3 _____ ~AS -EILMRT? ␅
+TD1196929 ␆nnnnn
+TD144 Classic #3 _____ ~AS -EILMRT? nnnnn
+TD405 attempt: 2 CLUNG n n n n n
+TD232 Classic #4 _____ ~AE -ILMRST? ␅
+TD892177 ␆nnnnn
+TD124 Classic #4 _____ ~AE -ILMRST? nnnnn
+TD381 attempt: 3 CLUNG n n n n n
+TD502190 > ␅
+TD799820 ␆*
+TD79 > *
+TD334 questioning: singe
+TD117 Classic #1 C____ ~L -AEGIMNRSTU? ␅
+TD2888010 ␆nnnnn
+TD84 Classic #1 C____ ~L -AEGIMNRSTU? nnnnn
+TD231 attempt: 0 SINGE n n n n n
+TD141 Classic #2 S____ ~EGIN -ACLMRTU? ␅
+TD1398363 ␆YYYYY
+TD62 Classic #2 S____ ~EGIN -ACLMRTU? YYYYY
+TD158 attempt: 1 SINGE Y Y Y Y Y
+TD90 Classic #3 _____ ~AS -CEGILMNRTU? ␅
+TD1390551 ␆Mnnnn
+TD124 Classic #3 _____ ~AS -CEGILMNRTU? Mnnnn
+TD311 attempt: 2 SINGE m n n n n
+TD183 Classic #4 _____ ~AE -CGILMNRSTU? ␅
+TD1389371 ␆nnnnY
+TD68 Classic #4 _____ ~AE -CGILMNRSTU? nnnnY
+TD185 attempt: 3 SINGE n n n n Y
+TD354958 > ␅
+TD1245088 ␆*
+TD75 > *
+TD740 ? ␅
+TD1143313 ␆1
+TD60 ? 1
+TD80 questioning: abode
+TD79 Classic #1 C____ ~L -AEGIMNRSTU? ␅
+TD2429561 ␆nnMnn
+TD99 Classic #1 C____ ~L -AEGIMNRSTU? nnMnn
+TD173 attempt: 0 ABODE n n m n n
+TD113 Classic #3 _____ ~AS -CEGILMNRTU? ␅
+TD1638440 ␆Ynnnn
+TD72 Classic #3 _____ ~AS -CEGILMNRTU? Ynnnn
+TD149 attempt: 2 ABODE Y n n n n
+TD88 Classic #4 ____E ~A -CGILMNRSTU? ␅
+TD1495832 ␆YnYnY
+TD98 Classic #4 ____E ~A -CGILMNRSTU? YnYnY
+TD245 attempt: 3 ABODE Y n Y n Y
+TD341766 > ␅
+TD708078 ␆*
+TD120 > *
+TD564 questioning: awash
+TD220 Classic #1 C____ ~LO -ABDEGIMNRSTU? ␅
+TD4563582 ␆nnnnn
+TD67 Classic #1 C____ ~LO -ABDEGIMNRSTU? nnnnn
+TD160 attempt: 0 AWASH n n n n n
+TD90 Classic #3 A____ ~S -BCDEGILMNORTU? ␅
+TD1666878 ␆YYYYY
+TD90 Classic #3 A____ ~S -BCDEGILMNORTU? YYYYY
+TD210 attempt: 2 AWASH Y Y Y Y Y
+TD117 Classic #4 A_O_E -BCDGILMNRSTU? ␅
+TD1722299 ␆YYnnn
+TD66 Classic #4 A_O_E -BCDGILMNRSTU? YYnnn
+TD136 attempt: 3 AWASH Y Y n n n
+TD229905 > ␅
+TD1390804 ␆*
+TD111 > *
+TD432 questioning: awoke
+TD141 Classic #1 C____ ~LO -ABDEGHIMNRSTUW? ␅
+TD2911471 ␆nnMnn
+TD71 Classic #1 C____ ~LO -ABDEGHIMNRSTUW? nnMnn
+TD189 attempt: 0 AWOKE n n m n n
+TD87 Classic #4 AWO_E -BCDGHILMNRSTU? ␅
+TD1265248 ␆YYYYY
+TD66 Classic #4 AWO_E -BCDGHILMNRSTU? YYYYY
+TD137 attempt: 3 AWOKE Y Y Y Y Y
+TD126497 > ␅
+TD785895 ␆*
+TD127 > *
+TD531 ? ␅
+TD4033458 ␆2
+TD105 ? 2
+TD163 questioning: coyly
+TD110 Classic #1 C____ ~LO -ABDEGHIKMNRSTUW? ␅
+TD3603266 ␆YYYYY
+TD91 Classic #1 C____ ~LO -ABDEGHIKMNRSTUW? YYYYY
+TD217 attempt: 0 COYLY Y Y Y Y Y
+TD101 📋> ␅
+TD4084851 ␆🙂 Daily Quordle 1640
+TD101 📋> 🙂 Daily Quordle 1640
+TD25 📋> ␅
+TD101 ␆8️⃣4️⃣
+TD25 📋> 8️⃣4️⃣
+TD19 📋> ␅
+TD55 ␆6️⃣7️⃣
+TD22 📋> 6️⃣7️⃣
+TD18 📋> ␅
+TD50 ␆m-w.com/games/quordle/
+TD22 📋> m-w.com/games/quordle/
+TD18 📋> ␅
+TD258225 ␆
+TD149 📋> 
+TD42 📋> ␅
+TD430410 ␆d
+TD139 📋> d
+TD37 📋> ␅
+TD1617311 ␄
+TD92 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1640\n8\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n\nd"}
+TD1426 result: "\ud83d\ude42 Daily Quordle 1640\n8\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n\nd"
+TD64 📆 2026-07-22 ? ␅
+TD441362 ␆
+TD77 📆 2026-07-22 ? 
