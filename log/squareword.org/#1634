@@ -1,0 +1,252 @@
+T728.3736892099987 now: 2026-07-23T08:36:14EDT
+TD151 site: squareword.org
+TD41 wordlist: nwl2023.txt
+TD33  ...␅
+TD904942 ␆
+TD62  ...
+TD56 🧩  ? ␅
+TD9055038 ␆#1634
+TD162 🧩  ? #1634
+TD503 puzzle_id: #1634
+TD721 > ␅
+TD1688084 ␆*
+TD180 > *
+TD246693 try? ␅
+TD902151 ␆1
+TD88 try? 1
+TD310 questioning: ["nares", "#5"]
+TD404 #1 <IndexError>  📋 "nares" ? ␅
+TD4011699 ␆_A__S
+TD114 #1 <IndexError>  📋 "nares" ? _A__S
+TD1032 attempt 0 NARES n Y n n Y
+TD154 #2 <IndexError>  📋 "nares" ? ␅
+TD2193997 ␆_____ ~ AR
+TD151 #2 <IndexError>  📋 "nares" ? _____ ~ AR
+TD447 attempt 1 NARES n m m n n
+TD199 #3 <IndexError>  📋 "nares" ? ␅
+TD3039544 ␆___E_ ~ R
+TD160 #3 <IndexError>  📋 "nares" ? ___E_ ~ R
+TD423 attempt 2 NARES n n m Y n
+TD182 #4 <IndexError>  📋 "nares" ? ␅
+TD2254622 ␆___E_ ~ E
+TD115 #4 <IndexError>  📋 "nares" ? ___E_ ~ E
+TD362 attempt 3 NARES n n n Y n
+TD188 #5 <IndexError>  📋 "nares" ? ␅
+TD3683588 ␆_A___ ~ N
+TD166 #5 <IndexError>  📋 "nares" ? _A___ ~ N
+TD777 attempt 4 NARES m Y n n n
+TD826 ? ␅
+TD1406066 ␆
+TD147 ? 
+TD262 question done
+TD754 > ␅
+TD593447 ␆*
+TD175 > *
+TD846989 try? ␅
+TD4324299 ␆3
+TD146 try? 3
+TD416 questioning: ["daunt", "#5"]
+TD538 #1 _A__S -ENR  📋 "daunt" ? ␅
+TD4791449 ␆_A__S ~ T
+TD189 #1 _A__S -ENR  📋 "daunt" ? _A__S ~ T
+TD740 attempt 0 DAUNT n Y n n m
+TD407 #2 _____ ~AR -ENS  📋 "daunt" ? ␅
+TD2551875 ␆.
+TD51 #2 _____ ~AR -ENS  📋 "daunt" ? .
+TD145 attempt 1 DAUNT n m n n n
+TD49 #3 ___E_ ~R -ANS  📋 "daunt" ? ␅
+TD2893791 ␆___E_ ~ RD
+TD60 #3 ___E_ ~R -ANS  📋 "daunt" ? ___E_ ~ RD
+TD143 attempt 2 DAUNT m n n n n
+TD77 #4 ___E_ -ANRS  📋 "daunt" ? ␅
+TD3195106 ␆___E_ ~ E
+TD134 #4 ___E_ -ANRS  📋 "daunt" ? ___E_ ~ E
+TD422 attempt 3 DAUNT n n n n n
+TD412 #5 _A___ ~N -ERS  📋 "daunt" ? ␅
+TD5187736 ␆_A___ ~ ND
+TD142 #5 _A___ ~N -ERS  📋 "daunt" ? _A___ ~ ND
+TD380 attempt 4 DAUNT m Y n m n
+TD593 ? ␅
+TD319611 ␆
+TD169 ? 
+TD253 question done
+TD871 > ␅
+TD689614 ␆*
+TD128 > *
+TD553228 try? ␅
+TD3961402 ␆3
+TD157 try? 3
+TD513 questioning: ["candy", "#5"]
+TD614 #1 _A__S ~T -DENRU  📋 "candy" ? ␅
+TD4483685 ␆.
+TD101 #1 _A__S ~T -DENRU  📋 "candy" ? .
+TD318 attempt 0 CANDY n Y n n n
+TD167 #2 _____ ~AR -DENSTU  📋 "candy" ? ␅
+TD1259996 ␆.
+TD149 #2 _____ ~AR -DENSTU  📋 "candy" ? .
+TD481 attempt 1 CANDY n m n n n
+TD191 #3 ___E_ ~DR -ANSTU  📋 "candy" ? ␅
+TD6990880 ␆.
+TD95 #3 ___E_ ~DR -ANSTU  📋 "candy" ? .
+TD390 attempt 2 CANDY n n n m n
+TD123 #4 ___E_ -ADNRSTU  📋 "candy" ? ␅
+TD3001469 ␆C__E_ ~ E
+TD127 #4 ___E_ -ADNRSTU  📋 "candy" ? C__E_ ~ E
+TD278 attempt 3 CANDY Y n n n n
+TD160 #5 _A___ ~DN -ERSTU  📋 "candy" ? ␅
+TD4996185 ␆_ANDY
+TD107 #5 _A___ ~DN -ERSTU  📋 "candy" ? _ANDY
+TD328 attempt 4 CANDY n Y Y Y Y
+TD446 ? ␅
+TD613541 ␆
+TD92 ? 
+TD127 question done
+TD459 > ␅
+TD786074 ␆(*
+TD124 > (*
+TD985 > ␅
+TD802264 ␆*
+TD87 > *
+TD915983 questioning: ["handy", "#5"]
+TD172 #1 _A__S ~T -CDENRUY  📋 "handy" ? ␅
+TD6795258 ␆.
+TD124 #1 _A__S ~T -CDENRUY  📋 "handy" ? .
+TD395 attempt 0 HANDY n Y n n n
+TD135 #2 _____ ~AR -CDENSTUY  📋 "handy" ? ␅
+TD949667 ␆.
+TD107 #2 _____ ~AR -CDENSTUY  📋 "handy" ? .
+TD326 attempt 1 HANDY n m n n n
+TD128 #3 ___E_ ~DR -ACNSTUY  📋 "handy" ? ␅
+TD1126142 ␆.
+TD182 #3 ___E_ ~DR -ACNSTUY  📋 "handy" ? .
+TD536 attempt 2 HANDY n n n m n
+TD186 #4 C__E_ -ADNRSTUY  📋 "handy" ? ␅
+TD4955561 ␆C__E_ ~ EH
+TD68 #4 C__E_ -ADNRSTUY  📋 "handy" ? C__E_ ~ EH
+TD161 attempt 3 HANDY m n n n n
+TD115 #5 _ANDY -CERSTU  📋 "handy" ? ␅
+TD747398 ␆/it
+TD231 #5 _ANDY -CERSTU  📋 "handy" ? /it
+TD348 attempt 4 HANDY Y Y Y Y Y
+TD358 ? ␅
+TD288375 ␆
+TD96 ? 
+TD119 question done
+TD498 > ␅
+TD580916 ␆*
+TD54 > *
+TD1202948 try? ␅
+TD2933426 ␆3
+TD151 try? 3
+TD485 questioning: ["alarm", "#2"]
+TD906 #1 _A__S ~T -CDEHNRUY  📋 "alarm" ? ␅
+TD4486209 ␆_A__S ~ TLM
+TD178 #1 _A__S ~T -CDEHNRUY  📋 "alarm" ? _A__S ~ TLM
+TD494 attempt 0 ALARM n m n n m
+TD620 #2 _____ ~AR -CDEHNSTUY  📋 "alarm" ? ␅
+TD1131470 ␆/it
+TD132 #2 _____ ~AR -CDEHNSTUY  📋 "alarm" ? /it
+TD391 attempt 1 ALARM Y Y Y Y Y
+TD157 #3 ___E_ ~DR -ACHNSTUY  📋 "alarm" ? ␅
+TD1209179 ␆
+TD111 #3 ___E_ ~DR -ACHNSTUY  📋 "alarm" ? 
+TD415 #3 ___E_ ~DR -ACHNSTUY  ? ␅
+TD858221 ␆.
+TD164 #3 ___E_ ~DR -ACHNSTUY  ? .
+TD552 attempt 2 ALARM n n n m n
+TD212 #4 C__E_ ~H -ADNRSTUY  📋 "alarm" ? ␅
+TD4178315 ␆C__E_ ~ EH
+TD166 #4 C__E_ ~H -ADNRSTUY  📋 "alarm" ? C__E_ ~ EH
+TD493 attempt 3 ALARM n n n n n
+TD918 ? ␅
+TD267447 ␆
+TD170 ? 
+TD240 question done
+TD966 > ␅
+TD766998 ␆*
+TD128 > *
+TD2318239 questioning: ["malts", "#1"]
+TD233 #1 _A__S ~LMT -ACDEHNRUY  📋 "malts" ? ␅
+TD3812032 ␆/it
+TD144 #1 _A__S ~LMT -ACDEHNRUY  📋 "malts" ? /it
+TD636 attempt 0 MALTS Y Y Y Y Y
+TD238 #3 ___E_ ~DR -ACHLMNSTUY  📋 "malts" ? ␅
+TD2148170 ␆.
+TD194 #3 ___E_ ~DR -ACHLMNSTUY  📋 "malts" ? .
+TD736 attempt 2 MALTS n n n n n
+TD352 #4 C__E_ ~H -ADLMNRSTUY  📋 "malts" ? ␅
+TD4195702 ␆C__E_ ~ EH
+TD128 #4 C__E_ ~H -ADLMNRSTUY  📋 "malts" ? C__E_ ~ EH
+TD311 attempt 3 MALTS n n n n n
+TD500 ? ␅
+TD212086 ␆
+TD138 ? 
+TD143 question done
+TD461 > ␅
+TD540941 ␆*
+TD203 > *
+TD1761778 questioning: ["rodeo", "#3"]
+TD195 #3 ___E_ ~DR -ACHLMNSTUY  📋 "rodeo" ? ␅
+TD5460930 ␆/it
+TD77 #3 ___E_ ~DR -ACHLMNSTUY  📋 "rodeo" ? /it
+TD129 attempt 2 RODEO Y Y Y Y Y
+TD73 #4 C__E_ ~H -ADLMNRSTUY  📋 "rodeo" ? ␅
+TD5100745 ␆C__E_ ~ EH
+TD69 #4 C__E_ ~H -ADLMNRSTUY  📋 "rodeo" ? C__E_ ~ EH
+TD181 attempt 3 RODEO n n n Y n
+TD266 ? ␅
+TD1627551 ␆
+TD153 ? 
+TD228 question done
+TD601 > ␅
+TD704273 ␆*
+TD89 > *
+TD1154687 questioning: ["cheek", "#4"]
+TD194 #4 C__E_ ~H -ADLMNORSTUY  📋 "cheek" ? ␅
+TD5085826 ␆/it
+TD102 #4 C__E_ ~H -ADLMNORSTUY  📋 "cheek" ? /it
+TD323 attempt 3 CHEEK Y Y Y Y Y
+TD475 ? ␅
+TD426005 ␆
+TD142 ? 
+TD207 question done
+TD37685 📋> ␅
+TD5951481 ␆squareword.org 1634: 8 guesses
+TD91 📋> squareword.org 1634: 8 guesses
+TD15 📋> ␅
+TD79 ␆
+TD12 📋> 
+TD7 📋> ␅
+TD28 ␆🟨🟩🟨🟨🟩
+TD9 📋> 🟨🟩🟨🟨🟩
+TD7 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD23 ␆🟨🟨🟨🟩🟨
+TD7 📋> 🟨🟨🟨🟩🟨
+TD6 📋> ␅
+TD22 ␆🟩🟨🟨🟩🟨
+TD7 📋> 🟩🟨🟨🟩🟨
+TD6 📋> ␅
+TD21 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD23 ␆
+TD7 📋> 
+TD7 📋> ␅
+TD23 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD328747 ␆#squareword #squareword1634
+TD92 📋> #squareword #squareword1634
+TD17 📋> ␅
+TD350053 ␆
+TD121 📋> 
+TD32 📋> ␅
+TD1666178 ␄
+TD98 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1634: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1634\n"}
+TD1340 result: "squareword.org 1634: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1634\n"
+TD118 📆 2026-07-23 ? ␅
+TD651560 ␆
+TD118 📆 2026-07-23 ? 
