@@ -547,10 +547,18 @@ class WordGrid(StoredLog):
     @result.setter
     def result(self, res: 'Result'):
         if res.id:
-            if not self.puzzle_id:
-                self.puzzle_id = f'#{res.id}'
-            elif self.puzzle_id != f'#{res.id}':
+            have_prior = False
+            m = re.match(r'#(\d+)$', self.puzzle_id)
+            if m:
+                try:
+                    prior = int(m[1])
+                except:
+                    pass
+                else:
+                    have_prior = prior != 0
+            if have_prior and self.puzzle_id != f'#{res.id}':
                 raise ValueError(f"result id mismatch, expected {self.puzzle_id!r} got '#{res.id}'")
+            self.puzzle_id = f'#{res.id}'
         self._result = res
 
     @result.deleter
