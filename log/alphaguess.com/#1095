@@ -1,0 +1,82 @@
+T857.8868446800043 now: 2026-07-23T08:01:51EDT
+TD242 site: alphaguess.com
+TD159764 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof ecc481ab8e3fa48abc9870a486150c26a7894f3e
+TD81  ...␅
+TD3901511 ␆
+TD138  ...
+TD242 [0 : 98214 : 196520] mach? ␅
+TD7372581 ␆b
+TD57 [0 : 98214 : 196520] mach? b
+TD62 progress: -1 98214 mach
+TD68 [0 : 47380 : 98214] dis? ␅
+TD1564492 ␆b
+TD280 [0 : 47380 : 98214] dis? b
+TD252 progress: -1 47380 dis
+TD117 [0 : 23681 : 47380] camp? ␅
+TD1533332 ␆a
+TD104 [0 : 23681 : 47380] camp? a
+TD130 progress: 1 23681 camp
+TD160 [23682 : 35524 : 47380] convention? ␅
+TD1922339 ␆b
+TD93 [23682 : 35524 : 47380] convention? b
+TD110 progress: -1 35524 convention
+TD324 [23682 : 29602 : 35524] circuit? ␅
+TD1698669 ␆a
+TD214 [23682 : 29602 : 35524] circuit? a
+TD304 progress: 1 29602 circuit
+TD261 [29603 : 32551 : 35524] color? ␅
+TD1947415 ␆b
+TD141 [29603 : 32551 : 35524] color? b
+TD141 progress: -1 32551 color
+TD732 [29603 : 31077 : 32551] coagencies? ␅
+TD1525400 ␆a
+TD177 [29603 : 31077 : 32551] coagencies? a
+TD212 progress: 1 31077 coagencies
+TD300 [31078 : 31810 : 32551] coexist? ␅
+TD1520322 ␆a
+TD116 [31078 : 31810 : 32551] coexist? a
+TD140 progress: 1 31810 coexist
+TD190 [31811 : 32166 : 32551] cole? ␅
+TD2215639 ␆a
+TD167 [31811 : 32166 : 32551] cole? a
+TD196 progress: 1 32166 cole
+TD591 [32167 : 32358 : 32551] collet? ␅
+TD1680596 ␆b
+TD210 [32167 : 32358 : 32551] collet? b
+TD204 progress: -1 32358 collet
+TD205 [32167 : 32258 : 32358] collar? ␅
+TD1574310 ␆b
+TD108 [32167 : 32258 : 32358] collar? b
+TD146 progress: -1 32258 collar
+TD275 [32167 : 32200 : 32258] colic? ␅
+TD1398611 ␆a
+TD61 [32167 : 32200 : 32258] colic? a
+TD63 progress: 1 32200 colic
+TD141 [32201 : 32230 : 32258] collaborate? ␅
+TD2552224 ␆it
+TD115 [32201 : 32230 : 32258] collaborate? it
+TD122 progress: 0 32230 collaborate
+TD46 [32201 : 32230 : 32258] <Done>.
+TD124 📋> ␅
+TD4043517 ␆🧩 Puzzle #1095
+TD99 📋> 🧩 Puzzle #1095
+TD28 📋> ␅
+TD67 ␆🤔 13 guesses
+TD24 📋> 🤔 13 guesses
+TD22 📋> ␅
+TD41 ␆⏱️ 20s
+TD23 📋> ⏱️ 20s
+TD21 📋> ␅
+TD227734 ␆🔗 alphaguess.com/1095
+TD177 📋> 🔗 alphaguess.com/1095
+TD49 📋> ␅
+TD137852 ␄
+TD206 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1095\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1095"}
+TD144 result: "\ud83e\udde9 Puzzle #1095\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1095"
+TD40 result puzzle: 1095
+TD44 result guesses: 13
+TD26 result time: 20s
+TD22 result link: alphaguess.com/1095
+TD123 📆 2026-07-23 ? ␅
+TD159901 ␆
+TD168 📆 2026-07-23 ? 
