@@ -1,0 +1,108 @@
+T810.5055192889995 now: 2026-07-23T08:01:04EDT
+TD93 site: alfagok.diginaut.net
+TD485747 loaded 399514 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1338 words excluded) asof ecc481ab8e3fa48abc9870a486150c26a7894f3e
+TD124  ...␅
+TD24 ␆
+TD4  ...
+TD97 [0 : 199552 : 399514] lij? ␅
+TD1160870 ␆
+TD61 [0 : 199552 : 399514] lij? 
+TD82 [0 : 199552 : 399514] lij? ␅
+TD5578674 ␆
+TD64 [0 : 199552 : 399514] lij? 
+TD96 [0 : 199552 : 399514] lij? ␅
+TD2541817 ␆b
+TD124 [0 : 199552 : 399514] lij? b
+TD367 progress: -1 199552 lij
+TD141 [0 : 99695 : 199552] ex? ␅
+TD1519826 ␆b
+TD173 [0 : 99695 : 199552] ex? b
+TD217 progress: -1 99695 ex
+TD245 [0 : 49812 : 99695] boks? ␅
+TD1477143 ␆a
+TD137 [0 : 49812 : 99695] boks? a
+TD219 progress: 1 49812 boks
+TD167 [49813 : 74715 : 99695] dc? ␅
+TD2976103 ␆a
+TD149 [49813 : 74715 : 99695] dc? a
+TD361 progress: 1 74715 dc
+TD270 [74716 : 87173 : 99695] draag? ␅
+TD1377686 ␆a
+TD105 [74716 : 87173 : 99695] draag? a
+TD110 progress: 1 87173 draag
+TD115 [87174 : 93388 : 99695] eet? ␅
+TD1506460 ␆b
+TD48 [87174 : 93388 : 99695] eet? b
+TD46 progress: -1 93388 eet
+TD45 [87174 : 90023 : 93388] dubbel? ␅
+TD1341309 ␆a
+TD107 [87174 : 90023 : 93388] dubbel? a
+TD119 progress: 1 90023 dubbel
+TD130 [90024 : 91700 : 93388] dwerg? ␅
+TD2693690 ␆a
+TD190 [90024 : 91700 : 93388] dwerg? a
+TD195 progress: 1 91700 dwerg
+TD253 [91701 : 92529 : 93388] educatie? ␅
+TD1488063 ␆a
+TD256 [91701 : 92529 : 93388] educatie? a
+TD103 progress: 1 92529 educatie
+TD146 [92530 : 92696 : 93388] een? ␅
+TD1402569 ␆a
+TD123 [92530 : 92696 : 93388] een? a
+TD126 progress: 1 92696 een
+TD134 [92697 : 93039 : 93388] eenpersoons? ␅
+TD1475903 ␆a
+TD159 [92697 : 93039 : 93388] eenpersoons? a
+TD177 progress: 1 93039 eenpersoons
+TD324 [93040 : 93160 : 93388] eer? ␅
+TD2777072 ␆b
+TD105 [93040 : 93160 : 93388] eer? b
+TD115 progress: -1 93160 eer
+TD203 [93040 : 93094 : 93160] eentonig? ␅
+TD1643660 ␆a
+TD124 [93040 : 93094 : 93160] eentonig? a
+TD122 progress: 1 93094 eentonig
+TD472 [93095 : 93127 : 93160] eenwinter? ␅
+TD1667187 ␆b
+TD181 [93095 : 93127 : 93160] eenwinter? b
+TD217 progress: -1 93127 eenwinter
+TD762 [93095 : 93111 : 93127] eenvoud? ␅
+TD2176877 ␆a
+TD123 [93095 : 93111 : 93127] eenvoud? a
+TD145 progress: 1 93111 eenvoud
+TD362 [93112 : 93118 : 93127] eenvoudigs? ␅
+TD1789156 ␆b
+TD118 [93112 : 93118 : 93127] eenvoudigs? b
+TD146 progress: -1 93118 eenvoudigs
+TD325 [93112 : 93113 : 93118] eenvoudige? ␅
+TD1518842 ␆b
+TD177 [93112 : 93113 : 93118] eenvoudige? b
+TD258 progress: -1 93113 eenvoudige
+TD537 [93112 : 93112 : 93113] eenvoudig? ␅
+TD2202817 ␆it
+TD176 [93112 : 93112 : 93113] eenvoudig? it
+TD201 progress: 0 93112 eenvoudig
+TD77 [93112 : 93112 : 93113] <Done>.
+TD268 📋> ␅
+TD3680904 ␆🧩 Puzzel #628
+TD261 📋> 🧩 Puzzel #628
+TD150 📋> ␅
+TD89 ␆🤔 18 gokken
+TD17 📋> 🤔 18 gokken
+TD16 📋> ␅
+TD28 ␆⏱️ 31s
+TD18 📋> ⏱️ 31s
+TD10 📋> ␅
+TD221565 ␆🔗 alfagok.diginaut.net
+TD171 📋> 🔗 alfagok.diginaut.net
+TD36 📋> ␅
+TD156769 ␄
+TD299 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #628\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1432 result: "\ud83e\udde9 Puzzel #628\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 31s\n\ud83d\udd17 alfagok.diginaut.net"
+TD59 result puzzle: 628
+TD55 result guesses: 18
+TD29 result time: 31s
+TD26 result link: alfagok.diginaut.net
+TD148 📆 2026-07-23 ? ␅
+TD146491 ␆
+TD240 📆 2026-07-23 ? 
