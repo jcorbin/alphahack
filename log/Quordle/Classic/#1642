@@ -1,0 +1,248 @@
+T443.2860575049999 now: 2026-07-24T07:55:58EDT
+TD236 site: https://www.merriam-webster.com/games/quordle/#/
+TD49 wordlist: nwl2023.txt
+TD14 num_words: 4
+TD210  ...␅
+TD1650708 ␆
+TD105  ...
+TD481739 > ␅
+TD8631515 ␆*
+TD96 > *
+TD52393 ? ␅
+TD795392 ␆1
+TD61 ? 1
+TD135 questioning: loser
+TD130 Classic #1 _____? ␅
+TD2837635 ␆MYnnn
+TD114 Classic #1 _____? MYnnn
+TD529 attempt: 0 LOSER m Y n n n
+TD201 Classic #2 _____? ␅
+TD1328891 ␆nnnMn
+TD96 Classic #2 _____? nnnMn
+TD276 attempt: 1 LOSER n n n m n
+TD132 Classic #3 _____? ␅
+TD1932760 ␆YnnYY
+TD113 Classic #3 _____? YnnYY
+TD318 attempt: 2 LOSER Y n n Y Y
+TD166 Classic #4 _____? ␅
+TD1068951 ␆nnnnM
+TD62 Classic #4 _____? nnnnM
+TD156 attempt: 3 LOSER n n n n m
+TD443265 > ␅
+TD669769 ␆*
+TD117 > *
+TD7434 ? ␅
+TD1105361 ␆1
+TD143 ? 1
+TD249 questioning: naive
+TD281 Classic #1 _O___ ~L -ERS? ␅
+TD3425988 ␆nnnnn
+TD118 Classic #1 _O___ ~L -ERS? nnnnn
+TD648 attempt: 0 NAIVE n n n n n
+TD183 Classic #2 _____ ~E -LORS? ␅
+TD1182952 ␆nnYnM
+TD186 Classic #2 _____ ~E -LORS? nnYnM
+TD561 attempt: 1 NAIVE n n Y n m
+TD260 Classic #3 L__ER -OS? ␅
+TD1304717 ␆nYnnM
+TD132 Classic #3 L__ER -OS? nYnnM
+TD375 attempt: 2 NAIVE n Y n n m
+TD248 Classic #4 _____ ~R -ELOS? ␅
+TD1405908 ␆MMnnn
+TD121 Classic #4 _____ ~R -ELOS? MMnnn
+TD388 attempt: 3 NAIVE m m n n n
+TD493911 > ␅
+TD1025312 ␆*
+TD112 > *
+TD1326 ? ␅
+TD3615540 ␆1
+TD120 ? 1
+TD201 questioning: mould
+TD168 Classic #1 _O___ ~L -AEINRSV? ␅
+TD3629794 ␆nYnYM
+TD90 Classic #1 _O___ ~L -AEINRSV? nYnYM
+TD277 attempt: 0 MOULD n Y n Y m
+TD162 Classic #2 __I__ ~E -ALNORSV? ␅
+TD1251554 ␆nnnnM
+TD115 Classic #2 __I__ ~E -ALNORSV? nnnnM
+TD339 attempt: 1 MOULD n n n n m
+TD191 Classic #3 LA_ER -INOSV? ␅
+TD1596633 ␆nnnMn
+TD99 Classic #3 LA_ER -INOSV? nnnMn
+TD302 attempt: 2 MOULD n n n m n
+TD174 Classic #4 _____ ~ANR -EILOSV? ␅
+TD995440 ␆nnnnn
+TD112 Classic #4 _____ ~ANR -EILOSV? nnnnn
+TD307 attempt: 3 MOULD n n n n n
+TD484780 > ␅
+TD1253629 ␆*
+TD111 > *
+TD1174 ? ␅
+TD1390759 ␆1
+TD144 ? 1
+TD213 questioning: trank
+TD250 Classic #1 _O_L_ ~D -AEIMNRSUV? ␅
+TD2727308 ␆nnnnn
+TD125 Classic #1 _O_L_ ~D -AEIMNRSUV? nnnnn
+TD315 attempt: 0 TRANK n n n n n
+TD165 Classic #2 __I__ ~DE -ALMNORSUV? ␅
+TD1045262 ␆nnnnn
+TD119 Classic #2 __I__ ~DE -ALMNORSUV? nnnnn
+TD269 attempt: 1 TRANK n n n n n
+TD150 Classic #3 LA_ER -DIMNOSUV? ␅
+TD1778561 ␆nMMnn
+TD111 Classic #3 LA_ER -DIMNOSUV? nMMnn
+TD239 attempt: 2 TRANK n m m n n
+TD132 Classic #4 _____ ~ANR -DEILMOSUV? ␅
+TD1399121 ␆nYYYY
+TD104 Classic #4 _____ ~ANR -DEILMOSUV? nYYYY
+TD274 attempt: 3 TRANK n Y Y Y Y
+TD438771 > ␅
+TD1154309 ␆*
+TD116 > *
+TD883 ? ␅
+TD5657222 ␄
+TD134 <EOF>
+TD445374 > ␅
+TD817212 ␆* 1
+TD117 > * 1
+TD126135 ? ␅
+TD3850207 ␄
+TD148 <EOF>
+TD450425 > ␅
+TD1693726 ␆* 4
+TD99 > * 4
+TD115541 ? ␅
+TD3294715 ␄
+TD213 <EOF>
+TD439825 > ␅
+TD1123287 ␆* 3
+TD119 > * 3
+TD117748 ? ␅
+TD2227971 ␄
+TD133 <EOF>
+TD431886 > ␅
+TD857912 ␆*
+TD130 > *
+TD926 ? ␅
+TD1925102 ␆1
+TD102 ? 1
+TD194 questioning: deify
+TD224 Classic #1 _O_L_ ~D -AEIKMNRSTUV? ␅
+TD3623798 ␆YnnnY
+TD56 Classic #1 _O_L_ ~D -AEIKMNRSTUV? YnnnY
+TD164 attempt: 0 DEIFY Y n n n Y
+TD84 Classic #2 __I__ ~DE -AKLMNORSTUV? ␅
+TD1872489 ␆MMYYY
+TD141 Classic #2 __I__ ~DE -AKLMNORSTUV? MMYYY
+TD501 attempt: 1 DEIFY m m Y Y Y
+TD218 Classic #3 LA_ER -DIKMNOSTUV? ␅
+TD1225822 ␆nMnnn
+TD129 Classic #3 LA_ER -DIKMNOSTUV? nMnnn
+TD332 attempt: 2 DEIFY n m n n n
+TD205 Classic #4 _RANK -DEILMOSTUV? ␅
+TD974920 ␆nnnnn
+TD95 Classic #4 _RANK -DEILMOSTUV? nnnnn
+TD201 attempt: 3 DEIFY n n n n n
+TD427500 > ␅
+TD706665 ␆*
+TD79 > *
+TD323 questioning: edify
+TD118 Classic #1 DO_LY -AEFIKMNRSTUV? ␅
+TD3797818 ␆nMnnY
+TD86 Classic #1 DO_LY -AEFIKMNRSTUV? nMnnY
+TD219 attempt: 0 EDIFY n m n n Y
+TD113 Classic #2 __IFY ~DE -AKLMNORSTUV? ␅
+TD1426455 ␆YYYYY
+TD165 Classic #2 __IFY ~DE -AKLMNORSTUV? YYYYY
+TD387 attempt: 1 EDIFY Y Y Y Y Y
+TD215 Classic #3 LA_ER -DFIKMNOSTUVY? ␅
+TD1619013 ␆Mnnnn
+TD113 Classic #3 LA_ER -DFIKMNOSTUVY? Mnnnn
+TD274 attempt: 2 EDIFY m n n n n
+TD144 Classic #4 _RANK -DEFILMOSTUVY? ␅
+TD894118 ␆nnnnn
+TD84 Classic #4 _RANK -DEFILMOSTUVY? nnnnn
+TD138 attempt: 3 EDIFY n n n n n
+TD328551 > ␅
+TD677188 ␆*
+TD122 > *
+TD748 ? ␅
+TD4127760 ␆1
+TD142 ? 1
+TD240 questioning: dolly
+TD208 Classic #1 DO_LY -AEFIKMNRSTUV? ␅
+TD3112031 ␆YYYYY
+TD156 Classic #1 DO_LY -AEFIKMNRSTUV? YYYYY
+TD267 attempt: 0 DOLLY Y Y Y Y Y
+TD141 Classic #3 LA_ER -DFIKMNOSTUVY? ␅
+TD1302098 ␆nnMnn
+TD175 Classic #3 LA_ER -DFIKMNOSTUVY? nnMnn
+TD361 attempt: 2 DOLLY n n m n n
+TD205 Classic #4 _RANK -DEFILMOSTUVY? ␅
+TD884144 ␆nnnnn
+TD221 Classic #4 _RANK -DEFILMOSTUVY? nnnnn
+TD553 attempt: 3 DOLLY n n n n n
+TD222772 > ␅
+TD759106 ␆*
+TD112 > *
+TD1099 ? ␅
+TD4616539 ␆2
+TD123 ? 2
+TD252 questioning: lager
+TD257 Classic #3 LA_ER -DFIKMNOSTUVY L:1? ␅
+TD2757007 ␆YYYYY
+TD98 Classic #3 LA_ER -DFIKMNOSTUVY L:1? YYYYY
+TD312 attempt: 2 LAGER Y Y Y Y Y
+TD161 Classic #4 _RANK -DEFILMOSTUVY? ␅
+TD2013929 ␆nMnnM
+TD70 Classic #4 _RANK -DEFILMOSTUVY? nMnnM
+TD203 attempt: 3 LAGER n m n n m
+TD119715 > ␅
+TD679466 ␆*
+TD113 > *
+TD954 ? ␅
+TD2747509 ␆2
+TD101 ? 2
+TD234 questioning: crank
+TD174 Classic #4 _RANK -DEFGILMOSTUVY? ␅
+TD6817078 ␆nYYYY
+TD107 Classic #4 _RANK -DEFGILMOSTUVY? nYYYY
+TD180 attempt: 3 CRANK n Y Y Y Y
+TD106547 > ␅
+TD8674987 ␆/res
+TD75 > /res
+TD182 📋> ␅
+TD650171 ␆🙂 Daily Quordle 1642
+TD66 📋> 🙂 Daily Quordle 1642
+TD7 📋> ␅
+TD31 ␆7️⃣6️⃣
+TD4 📋> 7️⃣6️⃣
+TD3 📋> ␅
+TD7 ␆8️⃣🟥
+TD3 📋> 8️⃣🟥
+TD2 📋> ␅
+TD8 ␆m-w.com/games/quordle/
+TD4 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD245485 ␆
+TD63 📋> 
+TD13 📋> ␅
+TD141491 ␄
+TD132 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1642\n7\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TD1461 result: "\ud83d\ude42 Daily Quordle 1642\n7\ufe0f\u20e36\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TD105335 > ␅
+TD28622 ␆
+TD67 > 
+TD121 > ␅
+TD3347420 ␄
+TD170 <EOF>
+TD147 > ␅
+TD3103440 ␄
+TD190 <EOF>
+TD180 > ␅
+TD2997586 ␆/store
+TD88 > /store
+TD221 📆 2026-07-24 ? ␅
+TD998413 ␆
+TD180 📆 2026-07-24 ? 
