@@ -1,0 +1,282 @@
+T1585.5589879570034 now: 2026-07-24T08:15:00EDT
+TD272 site: squareword.org
+TD65 wordlist: nwl2023.txt
+TD83  ...␅
+TD564499 ␆
+TD72  ...
+TD55 🧩  ? ␅
+TD12574527 ␆#1635
+TD142 🧩  ? #1635
+TD388 puzzle_id: #1635
+TD452 > ␅
+TD1833370 ␆*
+TD171 > *
+TD246521 try? ␅
+TD1977618 ␆2
+TD131 try? 2
+TD460 questioning: ["cares", "#5"]
+TD578 #1 <IndexError>  📋 "cares" ? ␅
+TD4211274 ␆_____ ~ AS
+TD128 #1 <IndexError>  📋 "cares" ? _____ ~ AS
+TD1110 attempt 0 CARES n m n n m
+TD168 #2 <IndexError>  📋 "cares" ? ␅
+TD1833132 ␆C____ ~ E
+TD140 #2 <IndexError>  📋 "cares" ? C____ ~ E
+TD403 attempt 1 CARES Y n n m n
+TD188 #3 <IndexError>  📋 "cares" ? ␅
+TD2113585 ␆_A___ ~ AR
+TD121 #3 <IndexError>  📋 "cares" ? _A___ ~ AR
+TD356 attempt 2 CARES n Y m n n
+TD190 #4 <IndexError>  📋 "cares" ? ␅
+TD2149560 ␆_____ ~ ARE
+TD205 #4 <IndexError>  📋 "cares" ? _____ ~ ARE
+TD625 attempt 3 CARES n m m m n
+TD285 #5 <IndexError>  📋 "cares" ? ␅
+TD2554765 ␆__RES 
+TD102 #5 <IndexError>  📋 "cares" ? __RES 
+TD305 attempt 4 CARES n n Y Y Y
+TD593 ? ␅
+TD576118 ␆
+TD246 ? 
+TD466 question done
+TD1080 > ␅
+TD465074 ␆*
+TD116 > *
+TD1032465 try? ␅
+TD5850203 ␆3
+TD213 try? 3
+TD614 questioning: ["pores", "#5"]
+TD704 #1 _____ ~AS -CER  📋 "pores" ? ␅
+TD6436236 ␆.
+TD70 #1 _____ ~AS -CER  📋 "pores" ? .
+TD165 attempt 0 PORES n n n n m
+TD56 #2 C____ ~E -ARS  📋 "pores" ? ␅
+TD3258711 ␆C____ ~ EO
+TD74 #2 C____ ~E -ARS  📋 "pores" ? C____ ~ EO
+TD184 attempt 1 PORES n m n m n
+TD103 #3 _A___ ~R -CES  📋 "pores" ? ␅
+TD2981114 ␆_A___ ~ AR
+TD131 #3 _A___ ~R -CES  📋 "pores" ? _A___ ~ AR
+TD426 attempt 2 PORES n n m n n
+TD214 #4 _____ ~AER -CS  📋 "pores" ? ␅
+TD1170786 ␆.
+TD101 #4 _____ ~AER -CS  📋 "pores" ? .
+TD363 attempt 3 PORES n n m m n
+TD133 #5 __RES -AC  📋 "pores" ? ␅
+TD1594175 ␆P_RES
+TD297 #5 __RES -AC  📋 "pores" ? P_RES
+TD943 attempt 4 PORES Y n Y Y Y
+TD743 ? ␅
+TD417429 ␆
+TD130 ? 
+TD156 question done
+TD493 > ␅
+TD492967 ␆*
+TD124 > *
+TD665427 try? ␅
+TD1195328 ␄
+TD277 <EOF>
+TD917 > ␅
+TD4663579 ␆* 1
+TD154 > * 1
+TD6695 try? ␅
+TD1206383 ␆1
+TD58 try? 1
+TD196 questioning: ["slant", "#1"]
+TD292 #1 _____ ~AS -CEOPR  📋 "slant" ? ␅
+TD3210643 ␆S_A_T
+TD257 #1 _____ ~AS -CEOPR  📋 "slant" ? S_A_T
+TD313 attempt 0 SLANT Y n Y n Y
+TD146 #2 C____ ~EO -APRS  📋 "slant" ? ␅
+TD3959141 ␆C____ ~ EOL
+TD333 #2 C____ ~EO -APRS  📋 "slant" ? C____ ~ EOL
+TD620 attempt 1 SLANT n m n n n
+TD339 #3 _A___ ~R -CEOPS  📋 "slant" ? ␅
+TD3730989 ␆_A___ ~ AR
+TD211 #3 _A___ ~R -CEOPS  📋 "slant" ? _A___ ~ AR
+TD659 attempt 2 SLANT n n m n n
+TD354 #4 _____ ~AER -COPS  📋 "slant" ? ␅
+TD5705705 ␆____T ~ ARE
+TD55 #4 _____ ~AER -COPS  📋 "slant" ? ____T ~ ARE
+TD148 attempt 3 SLANT n n m n Y
+TD68 #5 P_RES -ACO  📋 "slant" ? ␅
+TD870848 ␆.
+TD190 #5 P_RES -ACO  📋 "slant" ? .
+TD734 attempt 4 SLANT n n n n n
+TD1014 ? ␅
+TD170065 ␆
+TD198 ? 
+TD257 question done
+TD1078 > ␅
+TD423877 ␆*
+TD211 > *
+TD770812 questioning: ["shaft", "#1"]
+TD179 #1 S_A_T -CELNOPR  📋 "shaft" ? ␅
+TD2689131 ␆/it
+TD148 #1 S_A_T -CELNOPR  📋 "shaft" ? /it
+TD417 attempt 0 SHAFT Y Y Y Y Y
+TD175 #2 C____ ~ELO -ANPRST  📋 "shaft" ? ␅
+TD2951904 ␆.
+TD83 #2 C____ ~ELO -ANPRST  📋 "shaft" ? .
+TD247 attempt 1 SHAFT n n n n n
+TD104 #3 _A___ ~R -CELNOPST  📋 "shaft" ? ␅
+TD5061626 ␆_A___ ~ AR
+TD295 #3 _A___ ~R -CELNOPST  📋 "shaft" ? _A___ ~ AR
+TD896 attempt 2 SHAFT n n m n n
+TD535 #4 ____T ~AER -CLNOPS  📋 "shaft" ? ␅
+TD1056749 ␆.
+TD139 #4 ____T ~AER -CLNOPS  📋 "shaft" ? .
+TD408 attempt 3 SHAFT n n m n Y
+TD155 #5 P_RES -ACLNOST  📋 "shaft" ? ␅
+TD528645 ␆.
+TD204 #5 P_RES -ACLNOST  📋 "shaft" ? .
+TD660 attempt 4 SHAFT n n n n n
+TD728 ? ␅
+TD157705 ␆
+TD203 ? 
+TD194 question done
+TD611 > ␅
+TD380682 ␆*
+TD212 > *
+TD1922679 questioning: ["cello", "#2"]
+TD168 #2 C____ ~ELO -AFHNPRST  📋 "cello" ? ␅
+TD2708937 ␆/it
+TD102 #2 C____ ~ELO -AFHNPRST  📋 "cello" ? /it
+TD383 attempt 1 CELLO Y Y Y Y Y
+TD376 #3 _A___ ~R -CEFHLNOPST  📋 "cello" ? ␅
+TD3015477 ␆_A___ ~ AR
+TD307 #3 _A___ ~R -CEFHLNOPST  📋 "cello" ? _A___ ~ AR
+TD592 attempt 2 CELLO n n n n n
+TD652 #4 ____T ~AER -CFHLNOPS  📋 "cello" ? ␅
+TD982013 ␆.
+TD147 #4 ____T ~AER -CFHLNOPS  📋 "cello" ? .
+TD491 attempt 3 CELLO n m n n n
+TD201 #5 P_RES -ACFHLNOST  📋 "cello" ? ␅
+TD565121 ␆.
+TD52 #5 P_RES -ACFHLNOST  📋 "cello" ? .
+TD156 attempt 4 CELLO n n n n n
+TD156 ? ␅
+TD147928 ␆
+TD76 ? 
+TD91 question done
+TD332 > ␅
+TD452384 ␆*
+TD165 > *
+TD1868088 questioning: ["avert", "#4"]
+TD202 #3 _A___ ~R -CEFHLNOPST  📋 "avert" ? ␅
+TD5301818 ␆_A___ ~ AR
+TD91 #3 _A___ ~R -CEFHLNOPST  📋 "avert" ? _A___ ~ AR
+TD279 attempt 2 AVERT m n n m n
+TD153 #4 ____T ~AER -CFHLNOPS  📋 "avert" ? ␅
+TD663803 ␆/it
+TD116 #4 ____T ~AER -CFHLNOPS  📋 "avert" ? /it
+TD402 attempt 3 AVERT Y Y Y Y Y
+TD139 #5 P_RES -ACEFHLNOST  📋 "avert" ? ␅
+TD835479 ␆.
+TD194 #5 P_RES -ACEFHLNOST  📋 "avert" ? .
+TD581 attempt 4 AVERT n n n n n
+TD769 ? ␅
+TD157897 ␆
+TD62 ? 
+TD77 question done
+TD276 > ␅
+TD427539 ␆*
+TD166 > *
+TD1654200 questioning: ["radar", "#3"]
+TD169 #3 _A___ ~R -CEFHLNOPSTV  📋 "radar" ? ␅
+TD2833900 ␆/it
+TD110 #3 _A___ ~R -CEFHLNOPSTV  📋 "radar" ? /it
+TD288 attempt 2 RADAR Y Y Y Y Y
+TD132 #5 P_RES -ACEFHLNORSTV  📋 "radar" ? ␅
+TD921047 ␆.
+TD160 #5 P_RES -ACEFHLNORSTV  📋 "radar" ? .
+TD456 attempt 4 RADAR n n n n n
+TD617 ? ␅
+TD161866 ␆
+TD149 ? 
+TD144 question done
+TD433 > ␅
+TD425033 ␆*
+TD88 > *
+TD1154704 questioning: ["pyres", "#5"]
+TD204 #5 P_RES -ACDEFHLNORSTV  📋 "pyres" ? ␅
+TD3182180 ␆/it
+TD105 #5 P_RES -ACDEFHLNORSTV  📋 "pyres" ? /it
+TD344 attempt 4 PYRES Y Y Y Y Y
+TD483 ? ␅
+TD5593455 ␆squareword.org 1635: 8 guesses
+TD122 ? squareword.org 1635: 8 guesses
+TD641 ? ␅
+TD150 ␆
+TD14 ? 
+TD65 question done
+TD26146 📋> ␅
+TD71 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD10 ␆🟨🟩🟨🟨🟨
+TD2 📋> 🟨🟩🟨🟨🟨
+TD2 📋> ␅
+TD7 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD7 ␆🟩🟨🟩🟩🟩
+TD2 📋> 🟩🟨🟩🟩🟩
+TD2 📋> ␅
+TD7 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD19 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD269089 ␆#squareword #squareword1635
+TD171 📋> #squareword #squareword1635
+TD33 📋> ␅
+TD110384 ␄
+TD223 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1635"}
+TD1123 📋> ␅
+TD171293 ␆
+TD210 📋> 
+TD48 📋> ␅
+TD4204898 ␄
+TD361 pasted: {"subject": "share result", "method": "read:must:stdin", "content": ""}
+TD283 📋> ␅
+TD1186685 ␆squareword.org 1635: 8 guesses
+TD103 📋> squareword.org 1635: 8 guesses
+TD17 📋> ␅
+TD100 ␆
+TD11 📋> 
+TD9 📋> ␅
+TD35 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD26 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD25 ␆🟨🟩🟨🟨🟨
+TD8 📋> 🟨🟩🟨🟨🟨
+TD8 📋> ␅
+TD28 ␆🟨🟨🟨🟨🟩
+TD8 📋> 🟨🟨🟨🟨🟩
+TD7 📋> ␅
+TD26 ␆🟩🟨🟩🟩🟩
+TD9 📋> 🟩🟨🟩🟩🟩
+TD7 📋> ␅
+TD24 ␆
+TD8 📋> 
+TD7 📋> ␅
+TD27 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> ␅
+TD231769 ␆#squareword #squareword1635
+TD168 📋> #squareword #squareword1635
+TD45 📋> ␅
+TD922414 ␄
+TD341 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1635: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1635"}
+TD2230 result: "squareword.org 1635: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1635"
+TD254 📆 2026-07-24 ? ␅
+TD492989 ␆
+TD243 📆 2026-07-24 ? 
