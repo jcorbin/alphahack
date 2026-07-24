@@ -1,0 +1,82 @@
+T79.0554905589961 now: 2026-07-24T07:49:54EDT
+TD150 site: alphaguess.com
+TD160224 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof ecc481ab8e3fa48abc9870a486150c26a7894f3e
+TD102  ...␅
+TD3409072 ␆
+TD78  ...
+TD117 [0 : 98214 : 196520] mach? ␅
+TD2279158 ␆a
+TD159 [0 : 98214 : 196520] mach? a
+TD180 progress: 1 98214 mach
+TD537 [98215 : 147364 : 196520] rhotic? ␅
+TD1323907 ␆a
+TD164 [98215 : 147364 : 196520] rhotic? a
+TD182 progress: 1 147364 rhotic
+TD192 [147365 : 171634 : 196520] ta? ␅
+TD2835729 ␆b
+TD175 [147365 : 171634 : 196520] ta? b
+TD200 progress: -1 171634 ta
+TD207 [147365 : 159481 : 171634] slop? ␅
+TD1865087 ␆b
+TD161 [147365 : 159481 : 171634] slop? b
+TD127 progress: -1 159481 slop
+TD132 [147365 : 153313 : 159481] sea? ␅
+TD1410198 ␆a
+TD102 [147365 : 153313 : 159481] sea? a
+TD119 progress: 1 153313 sea
+TD156 [153314 : 156349 : 159481] ship? ␅
+TD2037185 ␆b
+TD154 [153314 : 156349 : 159481] ship? b
+TD166 progress: -1 156349 ship
+TD362 [153314 : 154828 : 156349] sequence? ␅
+TD1464617 ␆b
+TD134 [153314 : 154828 : 156349] sequence? b
+TD187 progress: -1 154828 sequence
+TD185 [153314 : 154051 : 154828] select? ␅
+TD1393250 ␆a
+TD143 [153314 : 154051 : 154828] select? a
+TD140 progress: 1 154051 select
+TD138 [154052 : 154207 : 154828] semi? ␅
+TD1425268 ␆b
+TD119 [154052 : 154207 : 154828] semi? b
+TD109 progress: -1 154207 semi
+TD183 [154052 : 154103 : 154207] self? ␅
+TD1314892 ␆a
+TD147 [154052 : 154103 : 154207] self? a
+TD164 progress: 1 154103 self
+TD254 [154104 : 154153 : 154207] selva? ␅
+TD1778246 ␆b
+TD411 [154104 : 154153 : 154207] selva? b
+TD306 progress: -1 154153 selva
+TD366 [154104 : 154125 : 154153] selfsame? ␅
+TD1832453 ␆a
+TD58 [154104 : 154125 : 154153] selfsame? a
+TD80 progress: 1 154125 selfsame
+TD57 [154126 : 154132 : 154153] sell? ␅
+TD2361072 ␆it
+TD117 [154126 : 154132 : 154153] sell? it
+TD140 progress: 0 154132 sell
+TD32 [154126 : 154132 : 154153] <Done>.
+TD116 📋> ␅
+TD3210808 ␆🧩 Puzzle #1096
+TD90 📋> 🧩 Puzzle #1096
+TD15 📋> ␅
+TD44 ␆🤔 13 guesses
+TD9 📋> 🤔 13 guesses
+TD8 📋> ␅
+TD17 ␆⏱️ 20s
+TD8 📋> ⏱️ 20s
+TD7 📋> ␅
+TD265095 ␆🔗 alphaguess.com/1096
+TD159 📋> 🔗 alphaguess.com/1096
+TD43 📋> ␅
+TD120255 ␄
+TD308 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1096\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1096"}
+TD183 result: "\ud83e\udde9 Puzzle #1096\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1096"
+TD48 result puzzle: 1096
+TD32 result guesses: 13
+TD28 result time: 20s
+TD27 result link: alphaguess.com/1096
+TD168 📆 2026-07-24 ? ␅
+TD159385 ␆
+TD138 📆 2026-07-24 ? 
