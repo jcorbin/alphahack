@@ -1,0 +1,151 @@
+T163.20267830499506 now: 2026-07-24T07:51:18EDT
+TD351 site: dontwordle.com
+TD68 wordlist: nwl2023.txt
+TD169  ...␅
+TD537611 ␆
+TD204  ...
+TD333 1> ␅
+TD6249246 ␆* -bot 10
+TD322 1> * -bot 10
+TD220010 ? ␅
+TD763556 ␆1
+TD174 ? 1
+TD567 📋 "earls" ? ␅
+TD4989084 ␆nnnnn
+TD169 📋 "earls" ? nnnnn
+TD1236 tried: EARLS n n n n n
+TD450 2> ␅
+TD1946286 ␆* -bot 10
+TD169 2> * -bot 10
+TD114005 ? ␅
+TD794058 ␆1
+TD190 ? 1
+TD806 📋 "unity" ? ␅
+TD4068076 ␆nnYnn
+TD179 📋 "unity" ? nnYnn
+TD465 tried: UNITY n n Y n n
+TD410 3> ␅
+TD653062 ␆undo
+TD175 3> undo
+TD309 undo
+TD565 2> ␅
+TD670418 ␆undo
+TD133 2> undo
+TD205 undo
+TD232 1> ␅
+TD9144506 ␆* :v [unityearls] -bot 10
+TD117 1> * :v [unityearls] -bot 10
+TD153343 ? ␅
+TD1052756 ␆1
+TD246 ? 1
+TD509 📋 "whomp" ? ␅
+TD4729724 ␆YYnnn
+TD143 📋 "whomp" ? YYnnn
+TD311 tried: WHOMP Y Y n n n
+TD381 2> ␅
+TD688970 ␆undo
+TD223 2> undo
+TD291 undo
+TD302 1> ␅
+TD2590505 ␆*
+TD89 1> *
+TD163417 ? ␅
+TD74785 ␆1
+TD169 ? 1
+TD443 📋 "jnana" ? ␅
+TD7554153 ␆nnnnn
+TD69 📋 "jnana" ? nnnnn
+TD171 tried: JNANA n n n n n
+TD170 2> ␅
+TD732547 ␆*
+TD112 2> *
+TD117685 ? ␅
+TD165810 ␆1
+TD113 ? 1
+TD294 📋 "memes" ? ␅
+TD4302677 ␆nnnnn
+TD58 📋 "memes" ? nnnnn
+TD134 tried: MEMES n n n n n
+TD128 3> ␅
+TD400193 ␆*
+TD129 3> *
+TD107232 ? ␅
+TD95897 ␆1
+TD158 ? 1
+TD417 📋 "booby" ? ␅
+TD3715041 ␆nnnnn
+TD154 📋 "booby" ? nnnnn
+TD321 tried: BOOBY n n n n n
+TD385 4> ␅
+TD709956 ␆*
+TD145 4> *
+TD109203 ? ␅
+TD115984 ␆1
+TD180 ? 1
+TD460 📋 "grrrl" ? ␅
+TD4205304 ␆nnnnn
+TD263 📋 "grrrl" ? nnnnn
+TD558 tried: GRRRL n n n n n
+TD673 5> ␅
+TD491359 ␆*
+TD207 5> *
+TD109403 ? ␅
+TD3351948 ␆2
+TD240 ? 2
+TD497 📋 "kudzu" ? ␅
+TD4641827 ␆nnnnn
+TD188 📋 "kudzu" ? nnnnn
+TD369 tried: KUDZU n n n n n
+TD434 6> ␅
+TD463300 ␆*
+TD132 6> *
+TD183575 📋 "phpht" ? ␅
+TD4727613 ␆nYnnn
+TD133 📋 "phpht" ? nYnnn
+TD243 tried: PHPHT n Y n n n
+TD246 📋> ␅
+TD3626202 ␆Don't Wordle 1522 - SURVIVED
+TD126 📋> Don't Wordle 1522 - SURVIVED
+TD29 📋> ␅
+TD102 ␆Hooray! I didn't Wordle today!
+TD17 📋> Hooray! I didn't Wordle today!
+TD14 📋> ␅
+TD32 ␆⬜⬜⬜⬜⬜5846
+TD14 📋> ⬜⬜⬜⬜⬜5846
+TD12 📋> ␅
+TD27 ␆⬜⬜⬜⬜⬜952
+TD12 📋> ⬜⬜⬜⬜⬜952
+TD12 📋> ␅
+TD26 ␆⬜⬜⬜⬜⬜202
+TD12 📋> ⬜⬜⬜⬜⬜202
+TD12 📋> ␅
+TD25 ␆⬜⬜⬜⬜⬜53
+TD12 📋> ⬜⬜⬜⬜⬜53
+TD11 📋> ␅
+TD25 ␆⬜⬜⬜⬜⬜19
+TD12 📋> ⬜⬜⬜⬜⬜19
+TD12 📋> ␅
+TD25 ␆⬜🟩⬜⬜⬜1
+TD12 📋> ⬜🟩⬜⬜⬜1
+TD12 📋> ␅
+TD24 ␆Undos used: 3
+TD12 📋> Undos used: 3
+TD13 📋> ␅
+TD25 ␆
+TD12 📋> 
+TD12 📋> ␅
+TD24 ␆  1 words remaining
+TD12 📋>   1 words remaining
+TD12 📋> ␅
+TD24 ␆x 7 unused letters
+TD12 📋> x 7 unused letters
+TD11 📋> ␅
+TD188426 ␆= 7 total score
+TD273 📋> = 7 total score
+TD54 📋> ␅
+TD131935 ␄
+TD214 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1522 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5846\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c952\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c202\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c53\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c19\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"}
+TD3137 result: "Don't Wordle 1522 - SURVIVED\nHooray! I didn't Wordle today!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5846\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c952\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c202\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c53\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c19\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 7 unused letters\n= 7 total score"
+TD200 📆 2026-07-24 ? ␅
+TD147950 ␆
+TD163 📆 2026-07-24 ? 
