@@ -1,0 +1,413 @@
+T2405.466727189996 now: 2026-07-24T08:28:40EDT
+TD202 site: https://wordgrid.clevergoat.com/
+TD40 wordlist: nwl2023.txt
+TD105 > ␅
+TD4480042 ␆col 1 ~^V
+TD159 > col 1 ~^V
+TD1118 rule col: 1 ~^V
+TD162 > ␅
+TD5627376 ␆col 2 ~^L
+TD152 > col 2 ~^L
+TD539 rule col: 2 ~^L
+TD150 > ␅
+TD4396712 ␆col 3 ~^WA
+TD153 > col 3 ~^WA
+TD555 rule col: 3 ~^WA
+TD219 > ␅
+TD5337352 ␆row 1 #1-6
+TD155 > row 1 #1-6
+TD887 rule row: 1 #1-6
+TD273 > ␅
+TD7229694 ␆row 2 ![PU]
+TD51 > row 2 ![PU]
+TD216 rule row: 2 ![PU]
+TD46 > ␅
+TD6549351 ␆row 3 ![COP]
+TD226 > row 3 ![COP]
+TD830 rule row: 3 ![COP]
+TD314 > ␅
+TD1740362 ␆*
+TD187 > *
+TD255032 ? ␅
+TD3415343 ␆10
+TD147 ? 10
+TD270 questioning: 0 viator
+TD107 🌡️ viator 📋 ? ␅
+TD2948782 ␆0
+TD192 🌡️ viator 📋 ? 0
+TD806 word: 0 viator 0.0
+TD68 questioning: -1 
+TD170 > ␅
+TD634442 ␆(*
+TD69 > (*
+TD194 > ␅
+TD846595 ␆*
+TD146 > *
+TD250116 ? ␅
+TD4376815 ␆5
+TD96 ? 5
+TD166 questioning: 1 lesion
+TD57 🌡️ lesion 📋 ? ␅
+TD3448273 ␆.07
+TD107 🌡️ lesion 📋 ? .07
+TD128 word: 1 lesion 0.07
+TD37 questioning: -1 
+TD170 > ␅
+TD435219 ␆*
+TD105 > *
+TD253794 ? ␅
+TD4250128 ␆6
+TD126 ? 6
+TD253 questioning: 2 warked
+TD88 🌡️ warked 📋 ? ␅
+TD3483837 ␆.1
+TD152 🌡️ warked 📋 ? .1
+TD154 word: 2 warked 0.1
+TD39 questioning: -1 
+TD189 > ␅
+TD688699 ␆*
+TD152 > *
+TD288807 ? ␅
+TD1861470 ␆4
+TD181 ? 4
+TD323 questioning: 3 veronicas
+TD110 🌡️ veronicas 📋 ? ␅
+TD3540482 ␆.07
+TD166 🌡️ veronicas 📋 ? .07
+TD279 word: 3 veronicas 0.07
+TD130 questioning: -1 
+TD160 > ␅
+TD538350 ␆*
+TD286 > *
+TD265809 ? ␅
+TD3261060 ␆5
+TD136 ? 5
+TD229 questioning: 4 lodens
+TD90 🌡️ lodens 📋 ? ␅
+TD3667110 ␆0
+TD126 🌡️ lodens 📋 ? 0
+TD130 word: 4 lodens 0.0
+TD36 questioning: -1 
+TD231 > ␅
+TD464695 ␆*
+TD49 > *
+TD242651 ? ␅
+TD2077711 ␆3
+TD98 ? 3
+TD161 questioning: 5 wastrie
+TD61 🌡️ wastrie 📋 ? ␅
+TD3085851 ␆0
+TD176 🌡️ wastrie 📋 ? 0
+TD184 word: 5 wastrie 0.0
+TD52 questioning: -1 
+TD263 > ␅
+TD822126 ␆*
+TD88 > *
+TD249180 ? ␅
+TD1882645 ␆2
+TD120 ? 2
+TD205 questioning: 6 ventails
+TD77 🌡️ ventails 📋 ? ␅
+TD3525884 ␆0
+TD152 🌡️ ventails 📋 ? 0
+TD154 word: 6 ventails 0.0
+TD37 questioning: -1 
+TD218 > ␅
+TD513475 ␆*
+TD118 > *
+TD251913 ? ␅
+TD3485196 ␆4
+TD103 ? 4
+TD203 questioning: 7 luteins
+TD69 🌡️ luteins 📋 ? ␅
+TD2850063 ␆0
+TD68 🌡️ luteins 📋 ? 0
+TD57 word: 7 luteins 0.0
+TD11 questioning: -1 
+TD68 > ␅
+TD450712 ␆*
+TD152 > *
+TD257932 ? ␅
+TD3351743 ␆2
+TD135 ? 2
+TD174 questioning: 8 warstle
+TD65 🌡️ warstle 📋 ? ␅
+TD3819772 ␆0
+TD123 🌡️ warstle 📋 ? 0
+TD108 word: 8 warstle 0.0
+TD27 questioning: -1 
+TD181 > ␅
+TD4926054 ␆* 3 1
+TD81 > * 3 1
+TD237922 ? ␅
+TD9927625 ␄
+TD180 <EOF>
+TD217 > ␅
+TD3156029 ␆* 3 1 -bot 10
+TD103 > * 3 1 -bot 10
+TD250093 ? ␅
+TD2791791 ␆7
+TD119 ? 7
+TD251 questioning: 2 wampum
+TD94 🌡️ wampum 📋 ? ␅
+TD3612324 ␆.35
+TD171 🌡️ wampum 📋 ? .35
+TD355 word: 2 wampum 0.35
+TD187 questioning: -1 
+TD513 > ␅
+TD1239922 ␆* 3 1
+TD80 > * 3 1
+TD231244 ? ␅
+TD4367282 ␆1
+TD120 ? 1
+TD206 questioning: 2 wae
+TD87 🌡️ wae 📋 ? ␅
+TD3466783 ␆.29
+TD106 🌡️ wae 📋 ? .29
+TD115 word: 2 wae 0.29
+TD39 questioning: -1 
+TD202 > ␅
+TD2109776 ␆* 3 1 -bot 10
+TD112 > * 3 1 -bot 10
+TD246508 ? ␅
+TD2259835 ␆7
+TD98 ? 7
+TD147 questioning: 2 wakiki
+TD56 🌡️ wakiki 📋 ? ␅
+TD3508978 ␆.07
+TD166 🌡️ wakiki 📋 ? .07
+TD172 word: 2 wakiki 0.07
+TD43 questioning: -1 
+TD227 > ␅
+TD6128159 ␆* 1 2
+TD106 > * 1 2
+TD255805 ? ␅
+TD4799636 ␆3
+TD127 ? 3
+TD190 questioning: 3 veritas
+TD72 🌡️ veritas 📋 ? ␅
+TD4207971 ␆0
+TD57 🌡️ veritas 📋 ? 0
+TD61 word: 3 veritas 0.0
+TD15 questioning: -1 
+TD87 > ␅
+TD3380641 ␆* 2 1
+TD199 > * 2 1
+TD241280 ? ␅
+TD1744376 ␆3
+TD86 ? 3
+TD148 questioning: 1 lyase
+TD46 🌡️ lyase 📋 ? ␅
+TD2892351 ␆0
+TD125 🌡️ lyase 📋 ? 0
+TD121 word: 1 lyase 0.0
+TD35 questioning: -1 
+TD178 > ␅
+TD2978654 ␆* 3 1
+TD102 > * 3 1
+TD236053 ? ␅
+TD4309339 ␆5
+TD86 ? 5
+TD129 questioning: 2 waes
+TD57 🌡️ waes 📋 ? ␅
+TD3120848 ␆.15
+TD68 🌡️ waes 📋 ? .15
+TD61 word: 2 waes 0.15
+TD12 questioning: -1 
+TD74 > ␅
+TD2253532 ␆* 3 1 -bot 10
+TD204 > * 3 1 -bot 10
+TD240287 ? ␅
+TD1673744 ␆6
+TD153 ? 6
+TD238 questioning: 2 wab
+TD91 🌡️ wab 📋 ? ␅
+TD3133189 ␆.34
+TD140 🌡️ wab 📋 ? .34
+TD167 word: 2 wab 0.34
+TD39 questioning: -1 
+TD192 > ␅
+TD1906644 ␆* 3 1 -bot 10
+TD184 > * 3 1 -bot 10
+TD236867 ? ␅
+TD2212044 ␆8
+TD84 ? 8
+TD133 questioning: 2 waah
+TD50 🌡️ waah 📋 ? ␅
+TD3278753 ␆.15
+TD123 🌡️ waah 📋 ? .15
+TD120 word: 2 waah 0.15
+TD30 questioning: -1 
+TD174 > ␅
+TD3165716 ␆* 3 1 -bot 10
+TD143 > * 3 1 -bot 10
+TD239166 ? ␅
+TD4514742 ␆9
+TD52 ? 9
+TD103 questioning: 2 watcha
+TD34 🌡️ watcha 📋 ? ␅
+TD4725133 ␆.05
+TD108 🌡️ watcha 📋 ? .05
+TD116 word: 2 watcha 0.05
+TD32 questioning: -1 
+TD317 > ␅
+TD2130306 ␆* 3 1 -bot 10
+TD119 > * 3 1 -bot 10
+TD242586 ? ␅
+TD4566311 ␆9
+TD58 ? 9
+TD76 questioning: 2 wayang
+TD26 🌡️ wayang 📋 ? ␅
+TD3828732 ␆.04
+TD102 🌡️ wayang 📋 ? .04
+TD102 word: 2 wayang 0.04
+TD28 questioning: -1 
+TD171 > ␅
+TD1863312 ␆* 3 1 -bot 10
+TD87 > * 3 1 -bot 10
+TD244619 ? ␅
+TD7777565 ␆9
+TD56 ? 9
+TD92 questioning: 2 wangan
+TD35 🌡️ wangan 📋 ? ␅
+TD3276804 ␆.05
+TD100 🌡️ wangan 📋 ? .05
+TD114 word: 2 wangan 0.05
+TD41 questioning: -1 
+TD197 > ␅
+TD2320716 ␆* 3 1 -bot 10
+TD123 > * 3 1 -bot 10
+TD241836 ? ␅
+TD5104550 ␆10
+TD111 ? 10
+TD176 questioning: 2 wammus
+TD63 🌡️ wammus 📋 ? ␅
+TD3646650 ␆.09
+TD102 🌡️ wammus 📋 ? .09
+TD100 word: 2 wammus 0.09
+TD27 questioning: -1 
+TD138 > ␅
+TD1977078 ␆* 3 1 -bot 10
+TD185 > * 3 1 -bot 10
+TD239776 ? ␅
+TD6305329 ␆7
+TD109 ? 7
+TD200 questioning: 2 wazoo
+TD66 🌡️ wazoo 📋 ? ␅
+TD3460584 ␆.33
+TD125 🌡️ wazoo 📋 ? .33
+TD144 word: 2 wazoo 0.33
+TD31 questioning: -1 
+TD176 > ␅
+TD1893548 ␆* 3 1 -bot 10
+TD144 > * 3 1 -bot 10
+TD242209 ? ␅
+TD6017913 ␆2
+TD106 ? 2
+TD152 questioning: 2 waff
+TD38 🌡️ waff 📋 ? ␅
+TD3495090 ␆.18
+TD106 🌡️ waff 📋 ? .18
+TD118 word: 2 waff 0.18
+TD34 questioning: -1 
+TD182 > ␅
+TD1595096 ␆* 3 1 
+TD279 > * 3 1 
+TD1081731 ? ␅
+TD2697585 ␆6
+TD142 ? 6
+TD299 questioning: 2 warsle
+TD129 🌡️ warsle 📋 ? ␅
+TD3863582 ␆.07
+TD77 🌡️ warsle 📋 ? .07
+TD89 word: 2 warsle 0.07
+TD30 questioning: -1 
+TD166 > ␅
+TD763454 ␆* 3 1
+TD107 > * 3 1
+TD236989 ? ␅
+TD4764645 ␆8
+TD110 ? 8
+TD174 questioning: 2 walies
+TD67 🌡️ walies 📋 ? ␅
+TD3356913 ␆.08
+TD159 🌡️ walies 📋 ? .08
+TD155 word: 2 walies 0.08
+TD41 questioning: -1 
+TD287 > ␅
+TD706864 ␆* 3 1
+TD91 > * 3 1
+TD244924 ? ␅
+TD4685774 ␆4
+TD129 ? 4
+TD179 questioning: 2 waired
+TD67 🌡️ waired 📋 ? ␅
+TD3337871 ␆.08
+TD117 🌡️ waired 📋 ? .08
+TD118 word: 2 waired 0.08
+TD31 questioning: -1 
+TD170 > ␅
+TD1693537 ␆* 3 1 -bot 10
+TD123 > * 3 1 -bot 10
+TD234281 ? ␅
+TD1431633 ␆1
+TD109 ? 1
+TD171 questioning: 2 waw
+TD67 🌡️ waw 📋 ? ␅
+TD3559446 ␆.24
+TD138 🌡️ waw 📋 ? .24
+TD125 word: 2 waw 0.24
+TD34 questioning: -1 
+TD184 > ␅
+TD10179312 ␆* 3 1 wayang
+TD91 > * 3 1 wayang
+TD283 questioning: 2 wayang
+TD63 🌡️ wayang 📋 ? ␅
+TD2419724 ␆.04
+TD96 🌡️ wayang 📋 ? .04
+TD79 word: 2 wayang 0.04
+TD20 questioning: -1 
+TD100 > ␅
+TD1533053 ␆/res
+TD59 > /res
+TD127 📋> ␅
+TD3235509 ␆wayang
+TD90 📋> wayang
+TD7 📋> ␅
+TD2181007 ␆wayang
+TD46 📋> wayang
+TD5 📋> ␅
+TD635697 ␄
+TD130 pasted: {"subject": "content", "method": "read:must:stdin", "content": "wayang\nwayang"}
+TD514 result: "wayang\nwayang"
+TD111 > ␅
+TD1205294 ␆/res
+TD54 > /res
+TD113 📋> ␅
+TD3446320 ␆Word Grid #784
+TD58 📋> Word Grid #784
+TD9 📋> ␅
+TD34 ␆🦄🦄🌌
+TD4 📋> 🦄🦄🌌
+TD3 📋> ␅
+TD9 ␆🦄🦄🦄
+TD3 📋> 🦄🦄🦄
+TD3 📋> ␅
+TD9 ␆🦄🦄🦄
+TD3 📋> 🦄🦄🦄
+TD3 📋> ␅
+TD9 ␆Rarity: 0.04
+TD3 📋> Rarity: 0.04
+TD4 📋> ␅
+TD685405 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD101 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD32 📋> ␅
+TD524175 ␄
+TD106 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #784\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\nRarity: 0.04\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD90 result: "Word Grid #784\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\nRarity: 0.04\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD76 > ␅
+TD1507628 ␆/store
+TD65 > /store
+TD144 📆 2026-07-24 ? ␅
+TD4536638 ␆2026-07-25
+TD64 📆 2026-07-24 ? 2026-07-25
