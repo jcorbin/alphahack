@@ -1,0 +1,194 @@
+T839.6188374359917 now: 2026-07-25T07:31:57EDT
+TD202 site: https://www.merriam-webster.com/games/quordle/#/
+TD30 wordlist: nwl2023.txt
+TD9 num_words: 4
+TD143  ...␅
+TD499474 ␆
+TD90  ...
+TD490623 > ␅
+TD8656047 ␆*
+TD88 > *
+TD54789 ? ␅
+TD1111298 ␆1
+TD131 ? 1
+TD224 questioning: dales
+TD228 Classic #1 _____? ␅
+TD3225695 ␆nYYnM
+TD95 Classic #1 _____? nYYnM
+TD417 attempt: 0 DALES n Y Y n m
+TD127 Classic #2 _____? ␅
+TD2173531 ␆nnnYM
+TD65 Classic #2 _____? nnnYM
+TD164 attempt: 1 DALES n n n Y m
+TD79 Classic #3 _____? ␅
+TD1110566 ␆nnnnM
+TD46 Classic #3 _____? nnnnM
+TD127 attempt: 2 DALES n n n n m
+TD71 Classic #4 _____? ␅
+TD1272798 ␆Mnnnn
+TD131 Classic #4 _____? Mnnnn
+TD308 attempt: 3 DALES m n n n n
+TD453632 > ␅
+TD708037 ␆*
+TD76 > *
+TD3858 ? ␅
+TD3766561 ␆6
+TD148 ? 6
+TD223 questioning: stonk
+TD230 Classic #1 _AL__ ~S -DE? ␅
+TD3315679 ␆YnMMn
+TD113 Classic #1 _AL__ ~S -DE? YnMMn
+TD256 attempt: 0 STONK Y n m m n
+TD127 Classic #2 ___E_ ~S -ADL? ␅
+TD1334382 ␆YnnMn
+TD115 Classic #2 ___E_ ~S -ADL? YnnMn
+TD370 attempt: 1 STONK Y n n m n
+TD192 Classic #3 _____ ~S -ADEL? ␅
+TD1331951 ␆MMnnn
+TD141 Classic #3 _____ ~S -ADEL? MMnnn
+TD371 attempt: 2 STONK m m n n n
+TD198 Classic #4 _____ ~D -AELS? ␅
+TD1107982 ␆nnMnn
+TD111 Classic #4 _____ ~D -AELS? nnMnn
+TD319 attempt: 3 STONK n n m n n
+TD481205 > ␅
+TD708955 ␆*
+TD80 > *
+TD324 questioning: salon
+TD129 Classic #1 SAL__ ~NO -DEKT? ␅
+TD2721556 ␆YYYYY
+TD119 Classic #1 SAL__ ~NO -DEKT? YYYYY
+TD240 attempt: 0 SALON Y Y Y Y Y
+TD134 Classic #2 S__E_ ~N -ADKLOT? ␅
+TD1653971 ␆YnnnY
+TD115 Classic #2 S__E_ ~N -ADKLOT? YnnnY
+TD312 attempt: 1 SALON Y n n n Y
+TD150 Classic #3 _____ ~ST -ADEKLNO? ␅
+TD2330368 ␆Mnnnn
+TD80 Classic #3 _____ ~ST -ADEKLNO? Mnnnn
+TD227 attempt: 2 SALON m n n n n
+TD124 Classic #4 _____ ~DO -AEKLNST? ␅
+TD1292500 ␆nnnMn
+TD63 Classic #4 _____ ~DO -AEKLNST? nnnMn
+TD140 attempt: 3 SALON n n n m n
+TD360010 > ␅
+TD760883 ␆*
+TD82 > *
+TD999 ? ␅
+TD2895148 ␆
+TD116 ? 
+TD699 ? ␅
+TD598471 ␆1
+TD103 ? 1
+TD183 questioning: rusty
+TD168 Classic #2 S__EN -ADKLOT? ␅
+TD2716650 ␆nnMnn
+TD107 Classic #2 S__EN -ADKLOT? nnMnn
+TD277 attempt: 1 RUSTY n n m n n
+TD147 Classic #3 _____ ~ST -ADEKLNO? ␅
+TD2017336 ␆MYMMn
+TD100 Classic #3 _____ ~ST -ADEKLNO? MYMMn
+TD222 attempt: 2 RUSTY m Y m m n
+TD117 Classic #4 _____ ~DO -AEKLNST? ␅
+TD1476975 ␆MMnnn
+TD100 Classic #4 _____ ~DO -AEKLNST? MMnnn
+TD251 attempt: 3 RUSTY m m n n n
+TD385558 > ␅
+TD863176 ␆*
+TD57 > *
+TD298 ? ␅
+TD1975863 ␆2
+TD62 ? 2
+TD120 questioning: gourd
+TD127 Classic #2 S__EN -ADKLORTUY? ␅
+TD3747396 ␆nnnnn
+TD107 Classic #2 S__EN -ADKLORTUY? nnnnn
+TD316 attempt: 1 GOURD n n n n n
+TD205 Classic #3 _U___ ~RST -ADEKLNOY? ␅
+TD1531002 ␆nnMMn
+TD100 Classic #3 _U___ ~RST -ADEKLNOY? nnMMn
+TD287 attempt: 2 GOURD n n m m n
+TD168 Classic #4 _____ ~DORU -AEKLNSTY? ␅
+TD1154199 ␆YYYYY
+TD94 Classic #4 _____ ~DORU -AEKLNSTY? YYYYY
+TD266 attempt: 3 GOURD Y Y Y Y Y
+TD227962 > ␅
+TD782871 ␆*
+TD76 > *
+TD474 ? ␅
+TD7076482 ␄
+TD149 <EOF>
+TD225040 > ␅
+TD6061490 ␆* 3
+TD115 > * 3
+TD118559 ? ␅
+TD45250401 ␄
+TD155 <EOF>
+TD232768 > ␅
+TD2200119 ␆?
+TD140 > ?
+TD284802 > ␅
+TD3103743 ␆tried climb
+TD86 > tried climb
+TD379 questioning: CLIMB
+TD163 Classic #2 S__EN -ADGKLORTUY? ␅
+TD2852256 ␆nnnnn
+TD115 Classic #2 S__EN -ADGKLORTUY? nnnnn
+TD355 attempt: 1 CLIMB n n n n n
+TD242 Classic #3 _U___ ~RST -ADEGKLNOY? ␅
+TD1950251 ␆nnnnM
+TD121 Classic #3 _U___ ~RST -ADEGKLNOY? nnnnM
+TD352 attempt: 2 CLIMB n n n n m
+TD217057 > ␅
+TD696198 ␆*
+TD87 > *
+TD372 questioning: burst
+TD131 Classic #2 S__EN -ABCDGIKLMORTUY? ␅
+TD3104997 ␆nnnMn
+TD149 Classic #2 S__EN -ABCDGIKLMORTUY? nnnMn
+TD380 attempt: 1 BURST n n n m n
+TD186 Classic #3 _U___ ~BRST -ACDEGIKLMNOY? ␅
+TD1255931 ␆YYYYY
+TD113 Classic #3 _U___ ~BRST -ACDEGIKLMNOY? YYYYY
+TD308 attempt: 2 BURST Y Y Y Y Y
+TD106983 > ␅
+TD2230771 ␆*
+TD102 > *
+TD656 ? ␅
+TD3675067 ␆1
+TD99 ? 1
+TD183 questioning: seven
+TD181 Classic #2 S__EN -ABCDGIKLMORTUY? ␅
+TD3472057 ␆YMnYY
+TD119 Classic #2 S__EN -ABCDGIKLMORTUY? YMnYY
+TD283 attempt: 1 SEVEN Y m n Y Y
+TD113099 > ␅
+TD1181186 ␆*
+TD139 > *
+TD581 questioning: sheen
+TD176 Classic #2 S__EN -ABCDGIKLMORTUVY? ␅
+TD3392807 ␆YYYYY
+TD124 Classic #2 S__EN -ABCDGIKLMORTUVY? YYYYY
+TD263 attempt: 1 SHEEN Y Y Y Y Y
+TD137 📋> ␅
+TD5313057 ␆🙂 Daily Quordle 1643
+TD149 📋> 🙂 Daily Quordle 1643
+TD32 📋> ␅
+TD139 ␆3️⃣9️⃣
+TD22 📋> 3️⃣9️⃣
+TD17 📋> ␅
+TD57 ␆7️⃣5️⃣
+TD15 📋> 7️⃣5️⃣
+TD14 📋> ␅
+TD41 ␆m-w.com/games/quordle/
+TD10 📋> m-w.com/games/quordle/
+TD10 📋> ␅
+TD275879 ␆
+TD178 📋> 
+TD38 📋> ␅
+TD399023 ␄
+TD297 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1643\n3\ufe0f\u20e39\ufe0f\u20e3\n7\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD4467 result: "\ud83d\ude42 Daily Quordle 1643\n3\ufe0f\u20e39\ufe0f\u20e3\n7\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD198 📆 2026-07-25 ? ␅
+TD239650 ␆
+TD119 📆 2026-07-25 ? 
