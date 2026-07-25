@@ -1,0 +1,270 @@
+T67.08913336100522 now: 2026-07-25T08:08:11EDT
+TD219 site: squareword.org
+TD53 wordlist: nwl2023.txt
+TD76  ...␅
+TD474531 ␆
+TD190  ...
+TD174 🧩  ? ␅
+TD13185814 ␆
+TD84 🧩  ? 
+TD187  ...␅
+TD1000643 ␆
+TD128  ...
+TD115 🧩  ? ␅
+TD2816343 ␆#1636
+TD224 🧩  ? #1636
+TD850 puzzle_id: #1636
+TD913 > ␅
+TD1993000 ␆*
+TD116 > *
+TD243110 try? ␅
+TD806388 ␆1
+TD198 try? 1
+TD748 questioning: ["arose", "#5"]
+TD778 #1 <IndexError>  📋 "arose" ? ␅
+TD3811549 ␆_____ ~ A
+TD81 #1 <IndexError>  📋 "arose" ? _____ ~ A
+TD753 attempt 0 AROSE m n n n n
+TD121 #2 <IndexError>  📋 "arose" ? ␅
+TD2450354 ␆____E ~ A
+TD59 #2 <IndexError>  📋 "arose" ? ____E ~ A
+TD170 attempt 1 AROSE m n n n Y
+TD99 #3 <IndexError>  📋 "arose" ? ␅
+TD4295831 ␆_____ ~ AO
+TD107 #3 <IndexError>  📋 "arose" ? _____ ~ AO
+TD208 attempt 2 AROSE m n m n n
+TD104 #4 <IndexError>  📋 "arose" ? ␅
+TD2244645 ␆_____ ~ RE
+TD142 #4 <IndexError>  📋 "arose" ? _____ ~ RE
+TD410 attempt 3 AROSE n m n n m
+TD223 #5 <IndexError>  📋 "arose" ? ␅
+TD2109310 ␆_____ ~ SE
+TD43 #5 <IndexError>  📋 "arose" ? _____ ~ SE
+TD125 attempt 4 AROSE n n n m m
+TD212 ? ␅
+TD352194 ␆
+TD159 ? 
+TD206 question done
+TD502 > ␅
+TD484348 ␆*
+TD92 > *
+TD709246 try? ␅
+TD2168722 ␆2
+TD91 try? 2
+TD293 questioning: ["table", "#2"]
+TD394 #1 _____ ~A -EORS  📋 "table" ? ␅
+TD3235972 ␆_A___ ~ L
+TD173 #1 _____ ~A -EORS  📋 "table" ? _A___ ~ L
+TD377 attempt 0 TABLE n Y n m n
+TD203 #2 ____E ~A -ORS  📋 "table" ? ␅
+TD2040539 ␆.
+TD143 #2 ____E ~A -ORS  📋 "table" ? .
+TD456 attempt 1 TABLE n m n n Y
+TD188 #3 _____ ~AO -ERS  📋 "table" ? ␅
+TD1071861 ␆.
+TD195 #3 _____ ~AO -ERS  📋 "table" ? .
+TD556 attempt 2 TABLE n m n n n
+TD239 #4 _____ ~ER -AOS  📋 "table" ? ␅
+TD3189850 ␆_____ ~ REL
+TD239 #4 _____ ~ER -AOS  📋 "table" ? _____ ~ REL
+TD790 attempt 3 TABLE n n n m m
+TD382 #5 _____ ~ES -AOR  📋 "table" ? ␅
+TD938734 ␆.
+TD240 #5 _____ ~ES -AOR  📋 "table" ? .
+TD619 attempt 4 TABLE n n n n m
+TD739 ? ␅
+TD169913 ␆
+TD168 ? 
+TD213 question done
+TD852 > ␅
+TD426485 ␆*
+TD126 > *
+TD674431 try? ␅
+TD1161504 ␆1
+TD177 try? 1
+TD559 questioning: ["knave", "#2"]
+TD1002 #1 _A___ ~L -BEORST  📋 "knave" ? ␅
+TD8884710 ␆_A___ ~ LV
+TD179 #1 _A___ ~L -BEORST  📋 "knave" ? _A___ ~ LV
+TD554 attempt 0 KNAVE n n n m n
+TD322 #2 ____E ~A -BLORST  📋 "knave" ? ␅
+TD3180816 ␆_NA_E ~ N
+TD180 #2 ____E ~A -BLORST  📋 "knave" ? _NA_E ~ N
+TD490 attempt 1 KNAVE n Y Y n Y
+TD279 #3 _____ ~AO -BELRST  📋 "knave" ? ␅
+TD3996712 ␆_____ ~ AOKV
+TD170 #3 _____ ~AO -BELRST  📋 "knave" ? _____ ~ AOKV
+TD547 attempt 2 KNAVE m n m m n
+TD368 #4 _____ ~ELR -ABOST  📋 "knave" ? ␅
+TD1710084 ␆.
+TD67 #4 _____ ~ELR -ABOST  📋 "knave" ? .
+TD211 attempt 3 KNAVE n n n n m
+TD87 #5 _____ ~ES -ABLORT  📋 "knave" ? ␅
+TD597223 ␆.
+TD205 #5 _____ ~ES -ABLORT  📋 "knave" ? .
+TD581 attempt 4 KNAVE n n n n m
+TD916 ? ␅
+TD150172 ␆
+TD181 ? 
+TD266 question done
+TD949 > ␅
+TD399085 ␆*
+TD129 > *
+TD773798 questioning: ["inane", "#2"]
+TD159 #1 _A___ ~LV -ABEKNORST  📋 "inane" ? ␅
+TD5464743 ␆_A___ ~ LVI
+TD144 #1 _A___ ~LV -ABEKNORST  📋 "inane" ? _A___ ~ LVI
+TD376 attempt 0 INANE m n n n n
+TD222 #2 _NA_E -BKLORSTV  📋 "inane" ? ␅
+TD762285 ␆/it
+TD152 #2 _NA_E -BKLORSTV  📋 "inane" ? /it
+TD422 attempt 1 INANE Y Y Y Y Y
+TD174 #3 _____ ~AKOV -BELNRST  📋 "inane" ? ␅
+TD1358690 ␆.
+TD191 #3 _____ ~AKOV -BELNRST  📋 "inane" ? .
+TD907 attempt 2 INANE n n m n n
+TD298 #4 _____ ~ELR -ABKNOSTV  📋 "inane" ? ␅
+TD2409662 ␆I____ ~ REL
+TD149 #4 _____ ~ELR -ABKNOSTV  📋 "inane" ? I____ ~ REL
+TD420 attempt 3 INANE Y n n n m
+TD232 #5 _____ ~ES -ABKLNORTV  📋 "inane" ? ␅
+TD710426 ␆.
+TD191 #5 _____ ~ES -ABKLNORTV  📋 "inane" ? .
+TD1151 attempt 4 INANE n n n n m
+TD775 ? ␅
+TD154154 ␆
+TD66 ? 
+TD71 question done
+TD245 > ␅
+TD366021 ␆*
+TD176 > *
+TD720176 questioning: ["vodka", "#3"]
+TD176 #1 _A___ ~ILV -ABEKNORST  📋 "vodka" ? ␅
+TD4926006 ␆VA___ ~ LID
+TD174 #1 _A___ ~ILV -ABEKNORST  📋 "vodka" ? VA___ ~ LID
+TD515 attempt 0 VODKA Y n m n n
+TD348 #3 _____ ~AKOV -BEILNRST  📋 "vodka" ? ␅
+TD1300690 ␆/it
+TD206 #3 _____ ~AKOV -BEILNRST  📋 "vodka" ? /it
+TD791 attempt 2 VODKA Y Y Y Y Y
+TD303 #4 I____ ~ELR -ABKNOSTV  📋 "vodka" ? ␅
+TD4504228 ␆I____ ~ RELD
+TD146 #4 I____ ~ELR -ABKNOSTV  📋 "vodka" ? I____ ~ RELD
+TD412 attempt 3 VODKA n n m n n
+TD252 #5 _____ ~ES -ABIKLNORTV  📋 "vodka" ? ␅
+TD1392876 ␆.
+TD67 #5 _____ ~ES -ABIKLNORTV  📋 "vodka" ? .
+TD180 attempt 4 VODKA n n n n n
+TD243 ? ␅
+TD199443 ␆
+TD124 ? 
+TD140 question done
+TD449 > ␅
+TD433797 ␆*
+TD237 > *
+TD2248783 questioning: ["valid", "#1"]
+TD189 #1 VA___ ~DIL -ABEKNORST  📋 "valid" ? ␅
+TD4119705 ␆/it
+TD76 #1 VA___ ~DIL -ABEKNORST  📋 "valid" ? /it
+TD240 attempt 0 VALID Y Y Y Y Y
+TD115 #4 I____ ~DELR -ABKNOSTV  📋 "valid" ? ␅
+TD6294544 ␆I_L__ ~ RED
+TD183 #4 I____ ~DELR -ABKNOSTV  📋 "valid" ? I_L__ ~ RED
+TD599 attempt 3 VALID n n Y n m
+TD338 #5 _____ ~ES -ABDIKLNORTV  📋 "valid" ? ␅
+TD3524674 ␆_____ ~ SED
+TD187 #5 _____ ~ES -ABDIKLNORTV  📋 "valid" ? _____ ~ SED
+TD563 attempt 4 VALID n n n n m
+TD1006 ? ␅
+TD709938 ␆
+TD201 ? 
+TD246 question done
+TD1154 > ␅
+TD920083 ␆*
+TD181 > *
+TD1624735 questioning: ["idler", "#4"]
+TD168 #4 I_L__ ~DER -ABIKNOSTV  📋 "idler" ? ␅
+TD3996961 ␆/it
+TD105 #4 I_L__ ~DER -ABIKNOSTV  📋 "idler" ? /it
+TD324 attempt 3 IDLER Y Y Y Y Y
+TD128 #5 _____ ~DES -ABDIKLNORTV  📋 "idler" ? ␅
+TD2501882 ␆.
+TD128 #5 _____ ~DES -ABDIKLNORTV  📋 "idler" ? .
+TD393 attempt 4 IDLER n m n m n
+TD533 ? ␅
+TD159102 ␆
+TD246 ? 
+TD469 question done
+TD973 > ␅
+TD373391 ␆*
+TD189 > *
+TD549285 > ␅
+TD1484887 ␆*
+TD61 > *
+TD581875 > ␅
+TD152193858 ␆?
+TD116 > ?
+TD1006 > ␅
+TD6087779 ␆*
+TD79 > *
+TD546203 > ␅
+TD2485237 ␆?
+TD206 > ?
+TD1520 > ␅
+TD17245897 ␆/man
+TD148 > /man
+TD798 > ␅
+TD4677586 ␆/man 5
+TD134 > /man 5
+TD908 > ␅
+TD8860754 ␆/man 5 _____ ~SED
+TD251 > /man 5 _____ ~SED
+TD679820 try? ␅
+TD1676335 ␆2
+TD96 try? 2
+TD396 questioning: ["DEEDS", "#5"]
+TD741 #5 _____ ~DES -ABDIKLNORTV  📋 "DEEDS" ? ␅
+TD2962591 ␆/it
+TD147 #5 _____ ~DES -ABDIKLNORTV  📋 "DEEDS" ? /it
+TD315 attempt 4 DEEDS Y Y Y Y Y
+TD460 ? ␅
+TD657818 ␆
+TD157 ? 
+TD196 question done
+TD31117 📋> ␅
+TD6346387 ␆squareword.org 1636: 8 guesses
+TD142 📋> squareword.org 1636: 8 guesses
+TD38 📋> ␅
+TD189 ␆
+TD24 📋> 
+TD20 📋> ␅
+TD72 ␆🟩🟩🟨🟨🟨
+TD20 📋> 🟩🟩🟨🟨🟨
+TD18 📋> ␅
+TD50 ␆🟩🟩🟩🟩🟩
+TD12 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD34 ␆🟩🟩🟩🟩🟩
+TD11 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD33 ␆🟩🟨🟨🟨🟨
+TD12 📋> 🟩🟨🟨🟨🟨
+TD10 📋> ␅
+TD31 ␆🟨🟨🟨🟨🟨
+TD10 📋> 🟨🟨🟨🟨🟨
+TD10 📋> ␅
+TD33 ␆
+TD12 📋> 
+TD11 📋> ␅
+TD34 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD12 📋> ␅
+TD323323 ␆#squareword #squareword1636
+TD185 📋> #squareword #squareword1636
+TD189 📋> ␅
+TD236443 ␄
+TD264 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1636: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1636"}
+TD2118 result: "squareword.org 1636: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1636"
+TD207 📆 2026-07-25 ? ␅
+TD172630 ␆
+TD175 📆 2026-07-25 ? 
