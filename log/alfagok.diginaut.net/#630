@@ -1,0 +1,108 @@
+T2.561323984991759 now: 2026-07-25T07:18:00EDT
+TD141 site: alfagok.diginaut.net
+TD502840 loaded 399514 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1338 words excluded) asof 44b0fb2f9b573fca81bc6c44d6adc3ca54c3f6cb
+TD123  ...␅
+TD37 ␆
+TD5  ...
+TD105 [0 : 199552 : 399514] lij? ␅
+TD953554 ␆
+TD58 [0 : 199552 : 399514] lij? 
+TD72 [0 : 199552 : 399514] lij? ␅
+TD11417378 ␆
+TD128 [0 : 199552 : 399514] lij? 
+TD225 [0 : 199552 : 399514] lij? ␅
+TD3366977 ␆b
+TD139 [0 : 199552 : 399514] lij? b
+TD690 progress: -1 199552 lij
+TD265 [0 : 99695 : 199552] ex? ␅
+TD1675131 ␆b
+TD130 [0 : 99695 : 199552] ex? b
+TD167 progress: -1 99695 ex
+TD189 [0 : 49812 : 99695] boks? ␅
+TD1469648 ␆b
+TD204 [0 : 49812 : 99695] boks? b
+TD255 progress: -1 49812 boks
+TD225 [0 : 24883 : 49812] bad? ␅
+TD1630482 ␆a
+TD248 [0 : 24883 : 49812] bad? a
+TD261 progress: 1 24883 bad
+TD301 [24884 : 37329 : 49812] bescherm? ␅
+TD1472068 ␆a
+TD183 [24884 : 37329 : 49812] bescherm? a
+TD250 progress: 1 37329 bescherm
+TD243 [37330 : 43033 : 49812] bij? ␅
+TD1536569 ␆b
+TD207 [37330 : 43033 : 49812] bij? b
+TD256 progress: -1 43033 bij
+TD274 [37330 : 39963 : 43033] beurs? ␅
+TD1424217 ␆a
+TD400 [37330 : 39963 : 43033] beurs? a
+TD268 progress: 1 39963 beurs
+TD178 [39964 : 41480 : 43033] bewijs? ␅
+TD3452525 ␆a
+TD117 [39964 : 41480 : 43033] bewijs? a
+TD127 progress: 1 41480 bewijs
+TD142 [41481 : 42231 : 43033] bezuiniging? ␅
+TD1601440 ␆b
+TD189 [41481 : 42231 : 43033] bezuiniging? b
+TD202 progress: -1 42231 bezuiniging
+TD189 [41481 : 41846 : 42231] bezet? ␅
+TD1855493 ␆a
+TD141 [41481 : 41846 : 42231] bezet? a
+TD141 progress: 1 41846 bezet
+TD340 [41847 : 42037 : 42231] bezocht? ␅
+TD1466195 ␆a
+TD113 [41847 : 42037 : 42231] bezocht? a
+TD118 progress: 1 42037 bezocht
+TD126 [42038 : 42051 : 42231] bezoek? ␅
+TD1518573 ␆a
+TD143 [42038 : 42051 : 42231] bezoek? a
+TD129 progress: 1 42051 bezoek
+TD485 [42052 : 42141 : 42231] bezolderde? ␅
+TD1507377 ␆a
+TD179 [42052 : 42141 : 42231] bezolderde? a
+TD205 progress: 1 42141 bezolderde
+TD210 [42142 : 42179 : 42231] bezorg? ␅
+TD1489040 ␆a
+TD124 [42142 : 42179 : 42231] bezorg? a
+TD177 progress: 1 42179 bezorg
+TD329 [42180 : 42205 : 42231] bezorgklacht? ␅
+TD1913390 ␆b
+TD73 [42180 : 42205 : 42231] bezorgklacht? b
+TD61 progress: -1 42205 bezorgklacht
+TD62 [42180 : 42185 : 42205] bezorgd? ␅
+TD1893463 ␆a
+TD99 [42180 : 42185 : 42205] bezorgd? a
+TD112 progress: 1 42185 bezorgd
+TD261 [42186 : 42195 : 42205] bezorgdienst? ␅
+TD3198227 ␆a
+TD102 [42186 : 42195 : 42205] bezorgdienst? a
+TD116 progress: 1 42195 bezorgdienst
+TD267 [42196 : 42197 : 42205] bezorgen? ␅
+TD1753345 ␆it
+TD281 [42196 : 42197 : 42205] bezorgen? it
+TD153 progress: 0 42197 bezorgen
+TD34 [42196 : 42197 : 42205] <Done>.
+TD120 📋> ␅
+TD3386605 ␆🧩 Puzzel #630
+TD119 📋> 🧩 Puzzel #630
+TD24 📋> ␅
+TD64 ␆🤔 18 gokken
+TD12 📋> 🤔 18 gokken
+TD11 📋> ␅
+TD25 ␆⏱️ 32s
+TD11 📋> ⏱️ 32s
+TD9 📋> ␅
+TD248249 ␆🔗 alfagok.diginaut.net
+TD189 📋> 🔗 alfagok.diginaut.net
+TD58 📋> ␅
+TD131934 ␄
+TD250 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #630\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1344 result: "\ud83e\udde9 Puzzel #630\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"
+TD52 result puzzle: 630
+TD29 result guesses: 18
+TD23 result time: 32s
+TD22 result link: alfagok.diginaut.net
+TD143 📆 2026-07-25 ? ␅
+TD143347 ␆
+TD342 📆 2026-07-25 ? 
