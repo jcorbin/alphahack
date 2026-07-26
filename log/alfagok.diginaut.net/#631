@@ -1,0 +1,108 @@
+T8.645001372991828 now: 2026-07-26T07:54:25EDT
+TD256 site: alfagok.diginaut.net
+TD447867 loaded 399514 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1338 words excluded) asof 6bb238465a87e59767cb39c5fe4f8ccec639480a
+TD123  ...␅
+TD1296206 ␆
+TD124  ...
+TD319 [0 : 199552 : 399514] lij? ␅
+TD4758519 ␆
+TD131 [0 : 199552 : 399514] lij? 
+TD187 [0 : 199552 : 399514] lij? ␅
+TD2731808 ␆a
+TD114 [0 : 199552 : 399514] lij? a
+TD452 progress: 1 199552 lij
+TD175 [199553 : 299529 : 399514] schrok? ␅
+TD1898797 ␆b
+TD129 [199553 : 299529 : 399514] schrok? b
+TD174 progress: -1 299529 schrok
+TD172 [199553 : 247617 : 299529] op? ␅
+TD1513492 ␆a
+TD199 [199553 : 247617 : 299529] op? a
+TD215 progress: 1 247617 op
+TD242 [247618 : 273414 : 299529] proef? ␅
+TD2728764 ␆a
+TD138 [247618 : 273414 : 299529] proef? a
+TD146 progress: 1 273414 proef
+TD156 [273415 : 286436 : 299529] rijp? ␅
+TD1469598 ␆a
+TD212 [273415 : 286436 : 299529] rijp? a
+TD228 progress: 1 286436 rijp
+TD167 [286437 : 292710 : 299529] samen? ␅
+TD1497053 ␆b
+TD80 [286437 : 292710 : 299529] samen? b
+TD80 progress: -1 292710 samen
+TD78 [286437 : 289460 : 292710] rood? ␅
+TD1627244 ␆b
+TD196 [286437 : 289460 : 292710] rood? b
+TD242 progress: -1 289460 rood
+TD295 [286437 : 287903 : 289460] roei? ␅
+TD2386525 ␆b
+TD126 [286437 : 287903 : 289460] roei? b
+TD165 progress: -1 287903 roei
+TD217 [286437 : 287111 : 287903] risico? ␅
+TD1577604 ␆b
+TD101 [286437 : 287111 : 287903] risico? b
+TD134 progress: -1 287111 risico
+TD288 [286437 : 286770 : 287111] rille? ␅
+TD1749365 ␆b
+TD171 [286437 : 286770 : 287111] rille? b
+TD232 progress: -1 286770 rille
+TD242 [286437 : 286526 : 286770] rijst? ␅
+TD1508862 ␆a
+TD158 [286437 : 286526 : 286770] rijst? a
+TD175 progress: 1 286526 rijst
+TD188 [286527 : 286630 : 286770] rijt? ␅
+TD1392852 ␆a
+TD149 [286527 : 286630 : 286770] rijt? a
+TD171 progress: 1 286630 rijt
+TD224 [286631 : 286689 : 286770] rijwiel? ␅
+TD1958827 ␆a
+TD143 [286631 : 286689 : 286770] rijwiel? a
+TD142 progress: 1 286689 rijwiel
+TD564 [286690 : 286730 : 286770] rijzinga? ␅
+TD1921239 ␆!
+TD98 [286690 : 286730 : 286770] rijzinga? !
+TD713 [286690 : 286730 : 286769] rijzweep? ␅
+TD1913367 ␆b
+TD111 [286690 : 286730 : 286769] rijzweep? b
+TD144 progress: -1 286730 rijzweep
+TD384 [286690 : 286710 : 286730] rijwielstalling? ␅
+TD1866440 ␆a
+TD61 [286690 : 286710 : 286730] rijwielstalling? a
+TD70 progress: 1 286710 rijwielstalling
+TD185 [286711 : 286720 : 286730] rijzadel? ␅
+TD1514640 ␆a
+TD68 [286711 : 286720 : 286730] rijzadel? a
+TD71 progress: 1 286720 rijzadel
+TD135 [286721 : 286725 : 286730] rijzig? ␅
+TD1814042 ␆b
+TD118 [286721 : 286725 : 286730] rijzig? b
+TD153 progress: -1 286725 rijzig
+TD426 [286721 : 286722 : 286725] rijzen? ␅
+TD1943813 ␆it
+TD408 [286721 : 286722 : 286725] rijzen? it
+TD250 progress: 0 286722 rijzen
+TD53 [286721 : 286722 : 286725] <Done>.
+TD232 📋> ␅
+TD2452154 ␆🧩 Puzzel #631
+TD111 📋> 🧩 Puzzel #631
+TD28 📋> ␅
+TD65 ␆🤔 18 gokken
+TD14 📋> 🤔 18 gokken
+TD11 📋> ␅
+TD26 ␆⏱️ 32s
+TD13 📋> ⏱️ 32s
+TD11 📋> ␅
+TD225571 ␆🔗 alfagok.diginaut.net
+TD116 📋> 🔗 alfagok.diginaut.net
+TD20 📋> ␅
+TD125942 ␄
+TD154 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #631\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD641 result: "\ud83e\udde9 Puzzel #631\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"
+TD21 result puzzle: 631
+TD9 result guesses: 18
+TD6 result time: 32s
+TD5 result link: alfagok.diginaut.net
+TD82 📆 2026-07-26 ? ␅
+TD141017 ␆
+TD149 📆 2026-07-26 ? 
