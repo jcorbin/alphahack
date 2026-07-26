@@ -1,0 +1,85 @@
+T76.14672762199189 now: 2026-07-26T07:55:32EDT
+TD335 site: alphaguess.com
+TD160576 loaded 196520 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (84 words excluded) asof 6bb238465a87e59767cb39c5fe4f8ccec639480a
+TD116  ...␅
+TD917256 ␆
+TD150  ...
+TD452 [0 : 98214 : 196520] mach? ␅
+TD5062362 ␆
+TD52 [0 : 98214 : 196520] mach? 
+TD54 [0 : 98214 : 196520] mach? ␅
+TD3591175 ␆b
+TD137 [0 : 98214 : 196520] mach? b
+TD148 progress: -1 98214 mach
+TD160 [0 : 47380 : 98214] dis? ␅
+TD1389425 ␆a
+TD302 [0 : 47380 : 98214] dis? a
+TD225 progress: 1 47380 dis
+TD764 [47381 : 72797 : 98214] gremolata? ␅
+TD1370348 ␆a
+TD155 [47381 : 72797 : 98214] gremolata? a
+TD174 progress: 1 72797 gremolata
+TD244 [72798 : 85500 : 98214] ins? ␅
+TD1837758 ␆b
+TD156 [72798 : 85500 : 98214] ins? b
+TD144 progress: -1 85500 ins
+TD133 [72798 : 79128 : 85500] hood? ␅
+TD1775970 ␆b
+TD115 [72798 : 79128 : 85500] hood? b
+TD128 progress: -1 79128 hood
+TD137 [72798 : 75952 : 79128] haw? ␅
+TD1397677 ␆b
+TD135 [72798 : 75952 : 79128] haw? b
+TD150 progress: -1 75952 haw
+TD154 [72798 : 74357 : 75952] had? ␅
+TD1401693 ␆b
+TD114 [72798 : 74357 : 75952] had? b
+TD115 progress: -1 74357 had
+TD102 [72798 : 73568 : 74357] guess? ␅
+TD1350574 ␆a
+TD99 [72798 : 73568 : 74357] guess? a
+TD114 progress: 1 73568 guess
+TD427 [73569 : 73959 : 74357] gusset? ␅
+TD1453158 ␆b
+TD177 [73569 : 73959 : 74357] gusset? b
+TD127 progress: -1 73959 gusset
+TD145 [73569 : 73756 : 73959] gum? ␅
+TD1477857 ␆b
+TD183 [73569 : 73756 : 73959] gum? b
+TD217 progress: -1 73756 gum
+TD654 [73569 : 73658 : 73756] guillotine? ␅
+TD1483689 ␆b
+TD169 [73569 : 73658 : 73756] guillotine? b
+TD198 progress: -1 73658 guillotine
+TD212 [73569 : 73607 : 73658] guide? ␅
+TD1399049 ␆b
+TD111 [73569 : 73607 : 73658] guide? b
+TD155 progress: -1 73607 guide
+TD170 [73569 : 73581 : 73607] guest? ␅
+TD2871672 ␆it
+TD111 [73569 : 73581 : 73607] guest? it
+TD124 progress: 0 73581 guest
+TD46 [73569 : 73581 : 73607] <Done>.
+TD134 📋> ␅
+TD3803469 ␆🧩 Puzzle #1098
+TD178 📋> 🧩 Puzzle #1098
+TD42 📋> ␅
+TD89 ␆🤔 13 guesses
+TD33 📋> 🤔 13 guesses
+TD27 📋> ␅
+TD53 ␆⏱️ 18s
+TD30 📋> ⏱️ 18s
+TD28 📋> ␅
+TD406030 ␆🔗 alphaguess.com/1098
+TD144 📋> 🔗 alphaguess.com/1098
+TD38 📋> ␅
+TD320033 ␄
+TD196 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1098\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1098"}
+TD153 result: "\ud83e\udde9 Puzzle #1098\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1098"
+TD38 result puzzle: 1098
+TD47 result guesses: 13
+TD25 result time: 18s
+TD22 result link: alphaguess.com/1098
+TD130 📆 2026-07-26 ? ␅
+TD165988 ␆
+TD156 📆 2026-07-26 ? 
