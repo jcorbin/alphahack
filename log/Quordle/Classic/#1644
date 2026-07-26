@@ -1,0 +1,152 @@
+T822.4458359359996 now: 2026-07-26T08:07:59EDT
+TD154 site: https://www.merriam-webster.com/games/quordle/#/
+TD30 wordlist: nwl2023.txt
+TD10 num_words: 4
+TD168  ...␅
+TD393999 ␆
+TD75  ...
+TD466099 > ␅
+TD30960772 ␆*
+TD196 > *
+TD59195 ? ␅
+TD1097237 ␆1
+TD93 ? 1
+TD177 questioning: arise
+TD202 Classic #1 _____? ␅
+TD2675898 ␆nnnMn
+TD134 Classic #1 _____? nnnMn
+TD546 attempt: 0 ARISE n n n m n
+TD197 Classic #2 _____? ␅
+TD1178906 ␆nnMnn
+TD117 Classic #2 _____? nnMnn
+TD505 attempt: 1 ARISE n n m n n
+TD204 Classic #3 _____? ␅
+TD1039256 ␆nnnnn
+TD139 Classic #3 _____? nnnnn
+TD413 attempt: 2 ARISE n n n n n
+TD184 Classic #4 _____? ␅
+TD1336026 ␆MnnMM
+TD170 Classic #4 _____? MnnMM
+TD480 attempt: 3 ARISE m n n m m
+TD518829 > ␅
+TD656568 ␆*
+TD53 > *
+TD5619 ? ␅
+TD947891 ␆1
+TD121 ? 1
+TD207 questioning: slump
+TD201 Classic #1 _____ ~S -AEIR? ␅
+TD3271104 ␆YnnYY
+TD104 Classic #1 _____ ~S -AEIR? YnnYY
+TD322 attempt: 0 SLUMP Y n n Y Y
+TD173 Classic #2 _____ ~I -AERS? ␅
+TD1321358 ␆nMnMn
+TD105 Classic #2 _____ ~I -AERS? nMnMn
+TD261 attempt: 1 SLUMP n m n m n
+TD122 Classic #3 _____ -AEIRS? ␅
+TD1250603 ␆nnMnn
+TD131 Classic #3 _____ -AEIRS? nnMnn
+TD364 attempt: 2 SLUMP n n m n n
+TD171 Classic #4 _____ ~AES -IR? ␅
+TD1154261 ␆Ynnnn
+TD161 Classic #4 _____ ~AES -IR? Ynnnn
+TD350 attempt: 3 SLUMP Y n n n n
+TD486420 > ␅
+TD699025 ␆*
+TD96 > *
+TD457 questioning: stomp
+TD180 Classic #1 S__MP -AEILRU? ␅
+TD2640185 ␆YYYYY
+TD98 Classic #1 S__MP -AEILRU? YYYYY
+TD262 attempt: 0 STOMP Y Y Y Y Y
+TD127 Classic #2 _____ ~ILM -AEPRSU? ␅
+TD1497065 ␆nMnMn
+TD102 Classic #2 _____ ~ILM -AEPRSU? nMnMn
+TD250 attempt: 1 STOMP n m n m n
+TD131 Classic #3 _____ ~U -AEILMPRS? ␅
+TD1695815 ␆nnnnn
+TD114 Classic #3 _____ ~U -AEILMPRS? nnnnn
+TD295 attempt: 2 STOMP n n n n n
+TD178 Classic #4 S____ ~AE -ILMPRU? ␅
+TD1168583 ␆YYnnn
+TD111 Classic #4 S____ ~AE -ILMPRU? YYnnn
+TD324 attempt: 3 STOMP Y Y n n n
+TD408387 > ␅
+TD688165 ␆*
+TD119 > *
+TD693 ? ␅
+TD1965894 ␆2
+TD108 ? 2
+TD208 questioning: limit
+TD235 Classic #2 _____ ~ILMT -AEOPRSU? ␅
+TD4478765 ␆YYYYY
+TD176 Classic #2 _____ ~ILMT -AEOPRSU? YYYYY
+TD418 attempt: 1 LIMIT Y Y Y Y Y
+TD241 Classic #3 _____ ~U -AEILMOPRST? ␅
+TD1019121 ␆nnnnn
+TD61 Classic #3 _____ ~U -AEILMOPRST? nnnnn
+TD143 attempt: 2 LIMIT n n n n n
+TD82 Classic #4 ST___ ~AE -ILMOPRU? ␅
+TD1057540 ␆nnnnM
+TD82 Classic #4 ST___ ~AE -ILMOPRU? nnnnM
+TD197 attempt: 3 LIMIT n n n n m
+TD222586 > ␅
+TD688979 ␆*
+TD96 > *
+TD543 ? ␅
+TD1519815 ␆2
+TD122 ? 2
+TD246 questioning: steak
+TD201 Classic #3 _____ ~U -AEILMOPRST? ␅
+TD3060065 ␆nnnnM
+TD128 Classic #3 _____ ~U -AEILMOPRST? nnnnM
+TD339 attempt: 2 STEAK n n n n m
+TD208 Classic #4 ST___ ~AE -ILMOPRU? ␅
+TD1254687 ␆YYYYn
+TD88 Classic #4 ST___ ~AE -ILMOPRU? YYYYn
+TD236 attempt: 3 STEAK Y Y Y Y n
+TD239232 > ␅
+TD109059 ␆*
+TD87 > *
+TD366 questioning: stead
+TD119 Classic #3 _____ ~KU -AEILMOPRST? ␅
+TD2768123 ␆nnnnn
+TD88 Classic #3 _____ ~KU -AEILMOPRST? nnnnn
+TD230 attempt: 2 STEAD n n n n n
+TD128 Classic #4 STEA_ -IKLMOPRU? ␅
+TD1665135 ␆YYYYY
+TD112 Classic #4 STEA_ -IKLMOPRU? YYYYY
+TD220 attempt: 3 STEAD Y Y Y Y Y
+TD129702 > ␅
+TD685662 ␆*
+TD96 > *
+TD720 ? ␅
+TD1229042 ␆1
+TD149 ? 1
+TD235 questioning: funky
+TD194 Classic #3 _____ ~KU -ADEILMOPRST? ␅
+TD3437213 ␆YYYYY
+TD62 Classic #3 _____ ~KU -ADEILMOPRST? YYYYY
+TD131 attempt: 2 FUNKY Y Y Y Y Y
+TD60 📋> ␅
+TD4648339 ␆🙂 Daily Quordle 1644
+TD102 📋> 🙂 Daily Quordle 1644
+TD17 📋> ␅
+TD70 ␆3️⃣4️⃣
+TD17 📋> 3️⃣4️⃣
+TD12 📋> ␅
+TD23 ␆7️⃣6️⃣
+TD8 📋> 7️⃣6️⃣
+TD9 📋> ␅
+TD17 ␆m-w.com/games/quordle/
+TD9 📋> m-w.com/games/quordle/
+TD8 📋> ␅
+TD195388 ␆
+TD199 📋> 
+TD45 📋> ␅
+TD119931 ␄
+TD359 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1644\n3\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD4423 result: "\ud83d\ude42 Daily Quordle 1644\n3\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD152 📆 2026-07-26 ? ␅
+TD142605 ␆
+TD220 📆 2026-07-26 ? 
