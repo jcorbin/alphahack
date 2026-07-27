@@ -1,0 +1,490 @@
+T610.7903098049974 now: 2026-07-27T07:41:38EDT
+TD198 site: https://www.merriam-webster.com/games/octordle/daily
+TD37 wordlist: nwl2023.txt
+TD10 num_words: 8
+TD194  ...␅
+TD890904 ␆
+TD106  ...
+TD800048 > ␅
+TD7767956 ␆*
+TD87 > *
+TD55249 ? ␅
+TD270564 ␆1
+TD105 ? 1
+TD192 questioning: serai
+TD167 Classic #1 _____? ␅
+TD4018660 ␆nnnYM
+TD123 Classic #1 _____? nnnYM
+TD329 attempt: 0 SERAI n n n Y m
+TD194 Classic #2 _____? ␅
+TD1852597 ␆YnMMn
+TD187 Classic #2 _____? YnMMn
+TD461 attempt: 1 SERAI Y n m m n
+TD211 Classic #3 _____? ␅
+TD1233075 ␆Mnnnn
+TD151 Classic #3 _____? Mnnnn
+TD422 attempt: 2 SERAI m n n n n
+TD166 Classic #4 _____? ␅
+TD1445936 ␆nMnMn
+TD114 Classic #4 _____? nMnMn
+TD280 attempt: 3 SERAI n m n m n
+TD135 Classic #5 _____? ␅
+TD3902572 ␆nMMnM
+TD80 Classic #5 _____? nMMnM
+TD194 attempt: 4 SERAI n m m n m
+TD96 Classic #6 _____? ␅
+TD1793877 ␆nnYMM
+TD132 Classic #6 _____? nnYMM
+TD291 attempt: 5 SERAI n n Y m m
+TD128 Classic #7 _____? ␅
+TD2177130 ␆nMMnn
+TD108 Classic #7 _____? nMMnn
+TD282 attempt: 6 SERAI n m m n n
+TD140 Classic #8 _____? ␅
+TD1529526 ␆nYnnn
+TD124 Classic #8 _____? nYnnn
+TD334 attempt: 7 SERAI n Y n n n
+TD866512 > ␅
+TD4768897 ␆nnnYM
+TD128 > nnnYM
+TD196 > ␅
+TD3620022 ␆*
+TD89 > *
+TD6581 ? ␅
+TD1642769 ␆1
+TD108 ? 1
+TD209 questioning: plums
+TD205 Classic #1 ___A_ ~I -ERS? ␅
+TD3990640 ␆nMnnn
+TD99 Classic #1 ___A_ ~I -ERS? nMnnn
+TD260 attempt: 0 PLUMS n m n n n
+TD128 Classic #2 S____ ~AR -EI? ␅
+TD1333632 ␆nnnMM
+TD97 Classic #2 S____ ~AR -EI? nnnMM
+TD243 attempt: 1 PLUMS n n n m m
+TD124 Classic #3 _____ ~S -AEIR? ␅
+TD2576976 ␆nYnnY
+TD63 Classic #3 _____ ~S -AEIR? nYnnY
+TD142 attempt: 2 PLUMS n Y n n Y
+TD64 Classic #4 _____ ~AE -IRS? ␅
+TD1355847 ␆nnnnn
+TD165 Classic #4 _____ ~AE -IRS? nnnnn
+TD365 attempt: 3 PLUMS n n n n n
+TD187 Classic #5 _____ ~EIR -AS? ␅
+TD2525930 ␆nMnnn
+TD99 Classic #5 _____ ~EIR -AS? nMnnn
+TD274 attempt: 4 PLUMS n m n n n
+TD170 Classic #6 __R__ ~AI -ES? ␅
+TD1330159 ␆nnnnn
+TD119 Classic #6 __R__ ~AI -ES? nnnnn
+TD360 attempt: 5 PLUMS n n n n n
+TD204 Classic #7 _____ ~ER -AIS? ␅
+TD1833853 ␆nnnnn
+TD109 Classic #7 _____ ~ER -AIS? nnnnn
+TD314 attempt: 6 PLUMS n n n n n
+TD162 Classic #8 _E___ -AIRS? ␅
+TD1135239 ␆nnnnn
+TD133 Classic #8 _E___ -AIRS? nnnnn
+TD383 attempt: 7 PLUMS n n n n n
+TD877384 > ␅
+TD13202318640 <INT>
+TD257 <INT>
+T2.513135842000338 now: 2026-07-27T11:52:49EDT
+TD105 questioning: plums
+TD909210 > ␅
+TD935993 ␆/drop
+TD97 > /drop
+TD875224 > ␅
+TD11736437 ␆*
+TD120 > *
+TD996 ? ␅
+TD5781107 ␄
+TD177 <EOF>
+TD867768 > ␅
+TD7078511 ␆* 4
+TD134 > * 4
+TD128907 ? ␅
+TD8813339 ␆4
+TD93 ? 4
+TD290 questioning: enact
+TD310 Classic #1 ___A_ ~IL -EMPRSU? ␅
+TD4798127 ␆/paste
+TD178 Classic #1 ___A_ ~IL -EMPRSU? /paste
+TD492 📋> ␅
+TD1550224 ␆nMMnn
+TD114 📋> nMMnn
+TD32 📋> ␅
+TD64 ␆nnYnY
+TD23 📋> nnYnY
+TD20 📋> ␅
+TD46 ␆nnnnn
+TD22 📋> nnnnn
+TD19 📋> ␅
+TD35 ␆MnMMY
+TD20 📋> MnMMY
+TD19 📋> ␅
+TD41 ␆Mnnnn
+TD23 📋> Mnnnn
+TD20 📋> ␅
+TD39 ␆nnMYn
+TD23 📋> nnMYn
+TD21 📋> ␅
+TD37 ␆MnnnM
+TD22 📋> MnnnM
+TD21 📋> ␅
+TD37 ␆MMnnM
+TD22 📋> MMnnM
+TD21 📋> ␅
+TD625775 ␆
+TD138 📋> 
+TD40 📋> ␅
+TD634760 ␄
+TD215 pasted: {"subject": "Scrape wrt 'ENACT'", "method": "read:must:stdin", "content": "nMMnn\nnnYnY\nnnnnn\nMnMMY\nMnnnn\nnnMYn\nMnnnM\nMMnnM\n"}
+TD336 attempt: 0 ENACT n m m n n
+TD583 attempt: 1 ENACT n n Y n Y
+TD142 attempt: 2 ENACT n n n n n
+TD100 attempt: 3 ENACT m n m m Y
+TD105 attempt: 4 ENACT m n n n n
+TD86 attempt: 5 ENACT n n m Y n
+TD84 attempt: 6 ENACT m n n n m
+TD78 attempt: 7 ENACT m m n n m
+TD866546 > ␅
+TD7675663 ␆*
+TD177 > *
+TD696 questioning: smart
+TD255 Classic #1 ___A_ ~ILN -CEMPRSTU? ␅
+TD4550627 ␆/paste
+TD89 Classic #1 ___A_ ~ILN -CEMPRSTU? /paste
+TD123 📋> ␅
+TD730682 ␆nnMnn
+TD118 📋> nnMnn
+TD22 📋> ␅
+TD56 ␆YYYYY
+TD12 📋> YYYYY
+TD10 📋> ␅
+TD18 ␆Mnnnn
+TD9 📋> Mnnnn
+TD9 📋> ␅
+TD18 ␆nnMnY
+TD9 📋> nnMnY
+TD9 📋> ␅
+TD20 ␆nnnMn
+TD10 📋> nnnMn
+TD10 📋> ␅
+TD19 ␆nnMMn
+TD10 📋> nnMMn
+TD9 📋> ␅
+TD38 ␆nnnMM
+TD23 📋> nnnMM
+TD9 📋> ␅
+TD27 ␆nnnnM
+TD9 📋> nnnnM
+TD9 📋> ␅
+TD340213 ␆
+TD118 📋> 
+TD35 📋> ␅
+TD835855 ␄
+TD277 pasted: {"subject": "Scrape wrt 'SMART'", "method": "read:must:stdin", "content": "nnMnn\nYYYYY\nMnnnn\nnnMnY\nnnnMn\nnnMMn\nnnnMM\nnnnnM\n"}
+TD306 attempt: 0 SMART n n m n n
+TD147 attempt: 1 SMART Y Y Y Y Y
+TD125 attempt: 2 SMART m n n n n
+TD116 attempt: 3 SMART n n m n Y
+TD114 attempt: 4 SMART n n n m n
+TD130 attempt: 5 SMART n n m m n
+TD116 attempt: 6 SMART n n n m m
+TD110 attempt: 7 SMART n n n n m
+TD778182 > ␅
+TD757882 ␆*
+TD107 > *
+TD458 questioning: circa
+TD468 Classic #1 ___A_ ~ILN -CEMPRSTU? ␅
+TD24162229 <INT>
+TD192 <INT>
+TD53 <INT>
+T2.0367660639967653 now: 2026-07-27T11:58:02EDT
+TD66 questioning: circa
+T1.957665531001112 now: 2026-07-27T12:04:45EDT
+TD79 questioning: circa
+TD87 Classic #1 ___A_ ~ILN -CEMPRSTU? ␅
+TD1650061 ␆/paste
+TD119 Classic #1 ___A_ ~ILN -CEMPRSTU? /paste
+TD341 📋> ␅
+TD2929864 ␆nYnnM
+TD101 📋> nYnnM
+TD34 📋> ␅
+TD64 ␆nnnnn
+TD104 📋> nnnnn
+TD73 📋> ␅
+TD62 ␆MnnnM
+TD12 📋> MnnnM
+TD11 📋> ␅
+TD17 ␆nMMnn
+TD16 📋> nMMnn
+TD8 📋> ␅
+TD17 ␆YYYYY
+TD13 📋> YYYYY
+TD8 📋> ␅
+TD16 ␆nnMnn
+TD13 📋> nnMnn
+TD7 📋> ␅
+TD16 ␆nnnnn
+TD12 📋> nnnnn
+TD7 📋> ␅
+TD639040 ␆
+TD124 📋> 
+TD33 📋> ␅
+TD1442901 ␄
+TD370 pasted: {"subject": "Scrape wrt 'CIRCA'", "method": "read:must:stdin", "content": "nYnnM\nnnnnn\nMnnnM\nnMMnn\nYYYYY\nnnMnn\nnnnnn\n"}
+TD992 attempt: 0 CIRCA n Y n n m
+TD414 attempt: 2 CIRCA n n n n n
+TD206 attempt: 3 CIRCA m n n n m
+TD148 attempt: 4 CIRCA n m m n n
+TD138 attempt: 5 CIRCA Y Y Y Y Y
+TD140 attempt: 6 CIRCA n n m n n
+TD149 attempt: 7 CIRCA n n n n n
+TD672225 > ␅
+T1.591135859998758 now: 2026-07-27T12:06:58EDT
+TD69 questioning: circa
+TD652564 > ␅
+TD1183891 ␆*
+TD85 > *
+TD614 ? ␅
+TD2973117 ␆1
+TD143 ? 1
+TD279 questioning: facet
+TD319 Classic #1 _I_A_ ~LN -CEMPRSTU? ␅
+TD4672435 ␆/paste
+TD139 Classic #1 _I_A_ ~LN -CEMPRSTU? /paste
+TD398 📋> ␅
+TD1466767 ␆YMnnn
+TD130 📋> YMnnn
+TD39 📋> ␅
+TD76 ␆nnnnn
+TD29 📋> nnnnn
+TD26 📋> ␅
+TD52 ␆YYYYY
+TD26 📋> YYYYY
+TD24 📋> ␅
+TD47 ␆nnnYn
+TD27 📋> nnnYn
+TD23 📋> ␅
+TD41 ␆nnnYM
+TD25 📋> nnnYM
+TD23 📋> ␅
+TD66 ␆nnnMM
+TD29 📋> nnnMM
+TD25 📋> ␅
+TD374254 ␆
+TD123 📋> 
+TD33 📋> ␅
+TD424367 ␄
+TD468 pasted: {"subject": "Scrape wrt 'FACET'", "method": "read:must:stdin", "content": "YMnnn\nnnnnn\nYYYYY\nnnnYn\nnnnYM\nnnnMM\n"}
+TD524 attempt: 0 FACET Y m n n n
+TD184 attempt: 2 FACET n n n n n
+TD154 attempt: 3 FACET Y Y Y Y Y
+TD110 attempt: 4 FACET n n n Y n
+TD107 attempt: 6 FACET n n n Y m
+TD113 attempt: 7 FACET n n n m m
+TD520627 > ␅
+TD6825997 ␆*
+TD106 > *
+TD426 questioning: final
+TD183 Classic #1 FI_A_ ~LN -CEMPRSTU? ␅
+TD12484638 ␆/paste
+TD132 Classic #1 FI_A_ ~LN -CEMPRSTU? /paste
+TD167 📋> ␅
+TD941036 ␆YYYYY
+TD111 📋> YYYYY
+TD25 📋> ␅
+TD65 ␆nnnnM
+TD10 📋> nnnnM
+TD8 📋> ␅
+TD18 ␆nMnnM
+TD7 📋> nMnnM
+TD7 📋> ␅
+TD16 ␆nnnnn
+TD7 📋> nnnnn
+TD7 📋> ␅
+TD16 ␆nnYnn
+TD8 📋> nnYnn
+TD7 📋> ␅
+TD377180 ␆
+TD136 📋> 
+TD24 📋> ␅
+TD981195 ␄
+TD179 pasted: {"subject": "Scrape wrt 'FINAL'", "method": "read:must:stdin", "content": "YYYYY\nnnnnM\nnMnnM\nnnnnn\nnnYnn\n"}
+TD284 attempt: 0 FINAL Y Y Y Y Y
+TD142 attempt: 2 FINAL n n n n m
+TD106 attempt: 4 FINAL n m n n m
+TD104 attempt: 6 FINAL n n n n n
+TD116 attempt: 7 FINAL n n Y n n
+TD391166 > ␅
+TD7645250 ␆*
+TD210 > *
+TD482 questioning: idler
+TD227 Classic #3 _L__S -ACEFIMNPRTU? ␅
+TD4544775 ␆/paste
+TD120 Classic #3 _L__S -ACEFIMNPRTU? /paste
+TD183 📋> ␅
+TD697309 ␆nnMnn
+TD153 📋> nnMnn
+TD42 📋> ␅
+TD93 ␆YYYYY
+TD35 📋> YYYYY
+TD29 📋> ␅
+TD59 ␆nnnYY
+TD33 📋> nnnYY
+TD27 📋> ␅
+TD53 ␆nnnMn
+TD32 📋> nnnMn
+TD28 📋> ␅
+TD2621507 ␆
+TD128 📋> 
+TD36 📋> ␅
+TD2010931 ␄
+TD295 pasted: {"subject": "Scrape wrt 'IDLER'", "method": "read:must:stdin", "content": "nnMnn\nYYYYY\nnnnYY\nnnnMn\n"}
+TD841 attempt: 2 IDLER n n m n n
+TD282 attempt: 4 IDLER Y Y Y Y Y
+TD213 attempt: 6 IDLER n n n Y Y
+TD186 attempt: 7 IDLER n n n m n
+TD269024 > ␅
+TD4570380 ␆*
+TD214 > *
+TD1518 ? ␅
+TD1503823 ␆1
+TD120 ? 1
+TD234 questioning: bento
+TD227 Classic #3 _L__S -ACDEFIMNPRTU? ␅
+TD5422121 ␆/paste
+TD121 Classic #3 _L__S -ACDEFIMNPRTU? /paste
+TD153 📋> ␅
+TD2065906 ␆nnnnM
+TD158 📋> nnnnM
+TD21 📋> ␅
+TD61 ␆nMnMM
+TD10 📋> nMnMM
+TD9 📋> ␅
+TD19 ␆nYYYn
+TD8 📋> nYYYn
+TD8 📋> ␅
+TD333524 ␆
+TD172 📋> 
+TD28 📋> ␅
+TD2319352 ␄
+TD179 pasted: {"subject": "Scrape wrt 'BENTO'", "method": "read:must:stdin", "content": "nnnnM\nnMnMM\nnYYYn\n"}
+TD303 attempt: 2 BENTO n n n n m
+TD137 attempt: 6 BENTO n m n m m
+TD115 attempt: 7 BENTO n Y Y Y n
+TD301194 > ␅
+TD1851605 ␆*
+TD177 > *
+TD1020 ? ␅
+TD3975438 ␆1
+TD89 ? 1
+TD152 questioning: glows
+TD155 Classic #3 _L__S ~O -ABCDEFIMNPRTU? ␅
+TD7367137 ␆/paste
+TD154 Classic #3 _L__S ~O -ABCDEFIMNPRTU? /paste
+TD210 📋> ␅
+TD618305 ␆YYYnY
+TD157 📋> YYYnY
+TD20 📋> ␅
+TD47 ␆nnMnn
+TD9 📋> nnMnn
+TD8 📋> ␅
+TD15 ␆nnnnn
+TD7 📋> nnnnn
+TD7 📋> ␅
+TD347033 ␆
+TD169 📋> 
+TD34 📋> ␅
+TD286675 ␄
+TD89 pasted: {"subject": "Scrape wrt 'GLOWS'", "method": "read:must:stdin", "content": "YYYnY\nnnMnn\nnnnnn\n"}
+TD157 attempt: 2 GLOWS Y Y Y n Y
+TD71 attempt: 6 GLOWS n n m n n
+TD56 attempt: 7 GLOWS n n n n n
+TD285543 > ␅
+TD914528 ␆*
+TD263 > *
+TD720 questioning: gloss
+TD211 Classic #3 GLO_S -ABCDEFIMNPRTUW? ␅
+TD6648653 ␆/paste
+TD170 Classic #3 GLO_S -ABCDEFIMNPRTUW? /paste
+TD196 📋> ␅
+TD575976 ␆YYYYY
+TD123 📋> YYYYY
+TD22 📋> ␅
+TD85 ␆nnMnn
+TD12 📋> nnMnn
+TD10 📋> ␅
+TD21 ␆nnnnn
+TD9 📋> nnnnn
+TD9 📋> ␅
+TD365819 ␆
+TD164 📋> 
+TD55 📋> ␅
+TD236914 ␄
+TD193 pasted: {"subject": "Scrape wrt 'GLOSS'", "method": "read:must:stdin", "content": "YYYYY\nnnMnn\nnnnnn\n"}
+TD273 attempt: 2 GLOSS Y Y Y Y Y
+TD157 attempt: 6 GLOSS n n m n n
+TD120 attempt: 7 GLOSS n n n n n
+TD191655 > ␅
+TD13338644 ␆*
+TD123 > *
+TD830 ? ␅
+TD1579173 ␆1
+TD127 ? 1
+TD208 questioning: other
+TD249 Classic #7 ___ER ~OT -ABCDFGILMNPSUW? ␅
+TD6272432 ␆/paste
+TD117 Classic #7 ___ER ~OT -ABCDFGILMNPSUW? /paste
+TD138 📋> ␅
+TD606884 ␆YYYYY
+TD104 📋> YYYYY
+TD18 📋> ␅
+TD49 ␆nMMMn
+TD8 📋> nMMMn
+TD8 📋> ␅
+TD327788 ␆
+TD175 📋> 
+TD46 📋> ␅
+TD1149931 ␄
+TD208 pasted: {"subject": "Scrape wrt 'OTHER'", "method": "read:must:stdin", "content": "YYYYY\nnMMMn\n"}
+TD555 attempt: 6 OTHER Y Y Y Y Y
+TD320 attempt: 7 OTHER n m m m n
+TD97069 > ␅
+TD827819 ␆*
+TD125 > *
+TD502 questioning: tenth
+TD190 Classic #8 _ENT_ ~H -ABCDFGILMOPRSUW? ␅
+TD4390861 ␆/it
+TD121 Classic #8 _ENT_ ~H -ABCDFGILMOPRSUW? /it
+TD674 Classic #8 _ENT_ ~H -ABCDFGILMOPRSUW? ␅
+TD3365089 ␆YYYYY
+TD337 Classic #8 _ENT_ ~H -ABCDFGILMOPRSUW? YYYYY
+TD326 attempt: 7 TENTH Y Y Y Y Y
+TD118 📋> ␅
+TD5569386 ␆Daily Octordle #1645
+TD109 📋> Daily Octordle #1645
+TD30 📋> ␅
+TD120 ␆7️⃣4️⃣
+TD31 📋> 7️⃣4️⃣
+TD23 📋> ␅
+TD66 ␆🕚6️⃣
+TD28 📋> 🕚6️⃣
+TD22 📋> ␅
+TD59 ␆8️⃣5️⃣
+TD31 📋> 8️⃣5️⃣
+TD21 📋> ␅
+TD67 ␆🕛🕐
+TD28 📋> 🕛🕐
+TD21 📋> ␅
+TD262073 ␆Score: 66
+TD176 📋> Score: 66
+TD38 📋> ␅
+TD339451 ␄
+TD215 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1645\n7\ufe0f\u20e34\ufe0f\u20e3\n\ud83d\udd5a6\ufe0f\u20e3\n8\ufe0f\u20e35\ufe0f\u20e3\n\ud83d\udd5b\ud83d\udd50\nScore: 66"}
+TD7780 result: "Daily Octordle #1645\n7\ufe0f\u20e34\ufe0f\u20e3\n\ud83d\udd5a6\ufe0f\u20e3\n8\ufe0f\u20e35\ufe0f\u20e3\n\ud83d\udd5b\ud83d\udd50\nScore: 66"
+TD126 📆 2026-07-27 ? ␅
+TD421251 ␆
+TD152 📆 2026-07-27 ? 
