@@ -422,6 +422,7 @@ def octordle_variant(mode: str, site: str):
         oc.mode = mode
         oc.num_words = 8
         oc.wordlist_file = 'nwl2023.txt'
+        oc.dropin_file = 'dropins/octordle.js'
         if mode == 'Practice':
             oc.site_env = 'practice'
         return oc
