@@ -444,6 +444,37 @@ class Nordle(StoredLog):
         if not pending:
             return next_q()
 
+        def proc_feedback(wrt: str, i: int, head: PromptUI.Tokens) -> PromptUI.State|None:
+            word = self.words[i]
+            fb = parse_feedback(head, len(word))
+            if len(fb) != len(word):
+                ui.print(f'! invalid feedback length; expected {len(word)}, got {len(fb)} ; input: {head.raw!r} [{i}]')
+                return
+            at = Attempt(wrt, fb)
+            self.attempt_update(word, self.attempts[i], at)
+            ui.print(f'📝 update #{i+1} {at}')
+            ui.log(f'attempt: {i} {at}')
+
+        def paste_feedback(wrt: str, i: int, *lines: str) -> PromptUI.State|None:
+            if not lines:
+                ui.print(f'! expected paste feedback, got none')
+                return
+            head, *rest = lines
+            head = PromptUI.Tokens(head)
+            n = head.have(r'#(\d+)', then=lambda m: int(m[1]))
+            if n is not None:
+                i = n - 1
+            else:
+                while i < len(self.words) and self.words[i].done:
+                    i += 1
+                if i >= len(self.words):
+                    ui.print(f'! ignoring extraneous pasted lines: {lines!r}')
+                    return
+            st = proc_feedback(wrt, i, head)
+            if st is None and rest:
+                return paste_feedback(wrt, i+1, *rest)
+            return st
+
         def collect_feedback(i: int):
             word = self.words[i]
             for wu in (
@@ -453,6 +484,13 @@ class Nordle(StoredLog):
                 ui.print(f'📋 "{wu}"')
                 while True:
                     with ui.input(f'{self.mode} #{i+1} {word}? ') as tokens:
+                        if tokens.have(r'/paste$'):
+                            wrt = next(tokens, wu)
+                            scrape = ui.may_paste(subject=f'Scrape wrt {wrt!r}')
+                            lines = scrape.splitlines()
+                            ui.print(f'Processing {len(lines)} scrape lines')
+                            return paste_feedback(wrt, i, *lines)
+
                         if tokens.have(r'/tried$'):
                             ui.print(f'! retry  -> {tokens.rest}')
                             st = self.do_tried(ui)
