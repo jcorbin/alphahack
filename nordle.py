@@ -4,7 +4,7 @@ import argparse
 import re
 from collections.abc import Generator, Sequence
 from dataclasses import dataclass
-from typing import Callable, cast, final, override
+from typing import Callable, Literal, cast, final, override
 
 from sortem import DiagScores, Randomized
 from store import StoredLog, matcher
@@ -46,6 +46,11 @@ class Nordle(StoredLog):
         self.given_wordlist: bool = False
         self._wordlist: WordList|None = None
 
+        self.dropin_file: str = ''
+        self.dropin_init: str = ''
+        self.dropin_state: Literal['', 'sent', 'init'] = ''
+        # TODO self.dropped state tracking
+
         self.kind: str = '' # e.g. "Wordle", "Quordle" "Octordle"
         self.mode: str = '' # e.g. "Classic" "Extreme" "Rescue" etc
         self.size: int = 5
@@ -67,6 +72,7 @@ class Nordle(StoredLog):
         self.play_prompt = self.std_prompt
         self.play_prompt.mess = self.play_prompt_mess
         self.play_prompt.update({
+            '/drop': self.do_drop,
             '/mode': self.do_mode,
 
             'feedback': self.do_feedback,
@@ -103,6 +109,47 @@ class Nordle(StoredLog):
             site = f'{site}/{mod}'
         self.mode = mode
         self.site = site
+
+    def do_drop(self, ui: PromptUI):
+        n = 0
+        with (
+            ui.copy_writer() as cw,
+            open(self.dropin_file) as df):
+            content = df.read()
+
+            if not self.dropin_init:
+                # TODO better symbol extraction
+                m = re.search(r'''(?xm)
+                    ^
+                    \s*
+                    (?: export \s+ )?
+                    const \s+
+                    DROPIN_INIT \s* = \s*
+                    ( ['"`] )
+                    ( .+ )
+                    \1
+                    ( [;,] .* )?
+                    $
+                    ''', content)
+                if m:
+                    self.dropin_init = m[2] # TODO unescape wrt m[1]
+
+            # TODO content transformation like: IIFE-wrap, bundle, minify, etc
+            n = cw.write(content)
+
+        self.dropin_state = 'sent'
+        mess = f'📋🌐 Dropin {n} bytes' # TODO Ki/Mi etc nicety
+
+        if self.dropin_init:
+            raw = ui.may_paste(subject=mess)
+            if raw.strip() == self.dropin_init.strip():
+                self.dropin_state = 'init'
+                ui.print('💧 Online')
+            else:
+                ui.print('💧⚠️ Handshake Failed')
+
+        else:
+            ui.print(mess)
 
     def do_mode(self, ui: PromptUI):
         known_modes = {
@@ -336,7 +383,10 @@ class Nordle(StoredLog):
                 finally:
                     ui.fin()
 
-        return f'> '
+        mark = ''
+        if self.dropin_state:
+            mark = "💧" if self.dropin_state == 'init' else f'❓{self.dropin_state}'
+        return f'{mark}> '
 
     @matcher(r'''(?x)
         attempt :
@@ -426,6 +476,7 @@ class Nordle(StoredLog):
         pending = [i for i in pending if not self.words[i].done]
         if not pending:
             return next_q()
+
         if self.mode.lower() == 'sequence':
             i = pending[0]
             prio = self.attempts[i-1]
@@ -475,6 +526,12 @@ class Nordle(StoredLog):
                 return paste_feedback(wrt, i+1, *rest)
             return st
 
+        def expect_paste(wrt: str, i: int=0):
+            scrape = ui.may_paste(subject=f'Scrape wrt {wrt!r}')
+            lines = scrape.splitlines()
+            ui.print(f'Processing {len(lines)} scrape lines')
+            return paste_feedback(wrt, i, *lines)
+
         def collect_feedback(i: int):
             word = self.words[i]
             for wu in (
@@ -486,10 +543,7 @@ class Nordle(StoredLog):
                     with ui.input(f'{self.mode} #{i+1} {word}? ') as tokens:
                         if tokens.have(r'/paste$'):
                             wrt = next(tokens, wu)
-                            scrape = ui.may_paste(subject=f'Scrape wrt {wrt!r}')
-                            lines = scrape.splitlines()
-                            ui.print(f'Processing {len(lines)} scrape lines')
-                            return paste_feedback(wrt, i, *lines)
+                            return expect_paste(wrt, i)
 
                         if tokens.have(r'/tried$'):
                             ui.print(f'! retry  -> {tokens.rest}')
@@ -505,6 +559,12 @@ class Nordle(StoredLog):
                         self.attempt_update(word, self.attempts[i], at)
                         ui.log(f'attempt: {i} {at}')
                         break
+
+        if self.dropin_state == 'init':
+            # TODO wider protocol where we send all of questioning to the dropin
+            wu = self.questioning[0]
+            ui.copy(wu)
+            return expect_paste(wu)
 
         if self.mode.lower() != 'sequence':
             for i in pending:
