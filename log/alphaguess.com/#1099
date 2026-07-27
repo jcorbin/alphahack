@@ -1,0 +1,88 @@
+T84.77933896099967 now: 2026-07-27T07:32:52EDT
+TD518 site: alphaguess.com
+TD179608 loaded 196519 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (85 words excluded) asof ab2331f53c827381ea865ca617a6bac10b3a9345
+TD98  ...␅
+TD6690572 ␆
+TD122  ...
+TD260 [0 : 98213 : 196519] mach? ␅
+TD850889 ␆
+TD113 [0 : 98213 : 196519] mach? 
+TD135 [0 : 98213 : 196519] mach? ␅
+TD2610116 ␆b
+TD108 [0 : 98213 : 196519] mach? b
+TD124 progress: -1 98213 mach
+TD139 [0 : 47379 : 98213] dis? ␅
+TD1476592 ␆b
+TD67 [0 : 47379 : 98213] dis? b
+TD74 progress: -1 47379 dis
+TD87 [0 : 23680 : 47379] camp? ␅
+TD1402095 ␆a
+TD114 [0 : 23680 : 47379] camp? a
+TD146 progress: 1 23680 camp
+TD146 [23681 : 35523 : 47379] convention? ␅
+TD1404136 ␆b
+TD170 [23681 : 35523 : 47379] convention? b
+TD205 progress: -1 35523 convention
+TD573 [23681 : 29601 : 35523] circuit? ␅
+TD1378222 ␆b
+TD93 [23681 : 29601 : 35523] circuit? b
+TD106 progress: -1 29601 circuit
+TD140 [23681 : 26633 : 29601] cep? ␅
+TD1339036 ␆a
+TD115 [23681 : 26633 : 29601] cep? a
+TD275 progress: 1 26633 cep
+TD202 [26634 : 28111 : 29601] chick? ␅
+TD1379779 ␆b
+TD97 [26634 : 28111 : 29601] chick? b
+TD105 progress: -1 28111 chick
+TD115 [26634 : 27330 : 28111] char? ␅
+TD1340465 ␆b
+TD203 [26634 : 27330 : 28111] char? b
+TD172 progress: -1 27330 char
+TD826 [26634 : 26978 : 27330] chalaza? ␅
+TD1385287 ␆a
+TD98 [26634 : 26978 : 27330] chalaza? a
+TD102 progress: 1 26978 chalaza
+TD482 [26979 : 27154 : 27330] chanchitos? ␅
+TD1701080 ␆!
+TD268 [26979 : 27154 : 27330] chanchitos? !
+TD2380 [26979 : 27154 : 27329] chancier? ␅
+TD2296967 ␆b
+TD77 [26979 : 27154 : 27329] chancier? b
+TD103 progress: -1 27154 chancier
+TD104 [26979 : 27053 : 27154] cham? ␅
+TD2191989 ␆b
+TD167 [26979 : 27053 : 27154] cham? b
+TD176 progress: -1 27053 cham
+TD186 [26979 : 27008 : 27053] chalk? ␅
+TD1441551 ␆a
+TD89 [26979 : 27008 : 27053] chalk? a
+TD89 progress: 1 27008 chalk
+TD240 [27009 : 27026 : 27053] challenge? ␅
+TD2521013 ␆it
+TD79 [27009 : 27026 : 27053] challenge? it
+TD95 progress: 0 27026 challenge
+TD28 [27009 : 27026 : 27053] <Done>.
+TD88 📋> ␅
+TD3016327 ␆🧩 Puzzle #1099
+TD105 📋> 🧩 Puzzle #1099
+TD13 📋> ␅
+TD40 ␆🤔 13 guesses
+TD8 📋> 🤔 13 guesses
+TD7 📋> ␅
+TD14 ␆⏱️ 20s
+TD7 📋> ⏱️ 20s
+TD6 📋> ␅
+TD238028 ␆🔗 alphaguess.com/1099
+TD163 📋> 🔗 alphaguess.com/1099
+TD26 📋> ␅
+TD101545 ␄
+TD226 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1099\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1099"}
+TD138 result: "\ud83e\udde9 Puzzle #1099\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1099"
+TD25 result puzzle: 1099
+TD14 result guesses: 13
+TD11 result time: 20s
+TD10 result link: alphaguess.com/1099
+TD121 📆 2026-07-27 ? ␅
+TD652694 ␆
+TD108 📆 2026-07-27 ? 
