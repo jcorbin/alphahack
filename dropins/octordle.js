@@ -66,6 +66,7 @@
     return { data, words, byWord };
   }
 
+  // TODO adopt KEYMAP system from dropins/sedecordle.js ; maybe share module, but that'll require a build step
   window.addEventListener('keypress', async ({ key }) => {
     switch (key) {
 

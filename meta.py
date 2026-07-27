@@ -446,6 +446,7 @@ def make_sedecordle(_tokens: PromptUI.Tokens):
     # sd.mode = mode
     sd.num_words = 16
     sd.wordlist_file = 'nwl2023.txt'
+    sd.dropin_file = 'dropins/sedecordle.js'
     return sd
 
 solvers.add('sedecordle', make_sedecordle)
