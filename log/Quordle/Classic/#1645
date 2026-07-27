@@ -1,0 +1,205 @@
+T468.93925596699955 now: 2026-07-27T07:39:16EDT
+TD120 site: https://www.merriam-webster.com/games/quordle/#/
+TD20 wordlist: nwl2023.txt
+TD6 num_words: 4
+TD91  ...␅
+TD542747 ␆
+TD59  ...
+TD492333 > ␅
+TD8854503 ␆*
+TD89 > *
+TD51496 ? ␅
+TD209612 ␆1
+TD76 ? 1
+TD155 questioning: setal
+TD150 Classic #1 _____? ␅
+TD3475844 ␆nnMMn
+TD107 Classic #1 _____? nnMMn
+TD441 attempt: 0 SETAL n n m m n
+TD133 Classic #2 _____? ␅
+TD1249504 ␆nnMnn
+TD87 Classic #2 _____? nnMnn
+TD240 attempt: 1 SETAL n n m n n
+TD115 Classic #3 _____? ␅
+TD1040577 ␆nnnnM
+TD107 Classic #3 _____? nnnnM
+TD290 attempt: 2 SETAL n n n n m
+TD114 Classic #4 _____? ␅
+TD1583920 ␆nMnMn
+TD84 Classic #4 _____? nMnMn
+TD242 attempt: 3 SETAL n m n m n
+TD469801 > ␅
+TD784937 ␆*
+TD97 > *
+TD5564 ? ␅
+TD2996950 ␆2
+TD125 ? 2
+TD241 questioning: padre
+TD273 Classic #1 _____ ~AT -ELS? ␅
+TD2519734 ␆nYnnn
+TD105 Classic #1 _____ ~AT -ELS? nYnnn
+TD240 attempt: 0 PADRE n Y n n n
+TD122 Classic #2 _____ ~T -AELS? ␅
+TD1187428 ␆nnnnn
+TD87 Classic #2 _____ ~T -AELS? nnnnn
+TD264 attempt: 1 PADRE n n n n n
+TD138 Classic #3 _____ ~L -AEST? ␅
+TD1404034 ␆nnMnn
+TD102 Classic #3 _____ ~L -AEST? nnMnn
+TD288 attempt: 2 PADRE n n m n n
+TD160 Classic #4 _____ ~AE -LST? ␅
+TD1177326 ␆nYnMM
+TD264 Classic #4 _____ ~AE -LST? nYnMM
+TD624 attempt: 3 PADRE n Y n m m
+TD453189 > ␅
+TD772476 ␆*
+TD107 > *
+TD2576 ? ␅
+TD942472 ␆1
+TD112 ? 1
+TD200 questioning: thing
+TD209 Classic #1 _A___ ~T -DELPRS? ␅
+TD2310256 ␆Ynnn
+TD139 Classic #1 _A___ ~T -DELPRS? Ynnn
+TD377 Classic #1 _A___ ~T -DELPRS? ␅
+TD2581211 ␆Ynnnn
+TD172 Classic #1 _A___ ~T -DELPRS? Ynnnn
+TD820 attempt: 0 THING Y n n n n
+TD347 Classic #2 _____ ~T -ADELPRS? ␅
+TD1824310 ␆MMMnM
+TD111 Classic #2 _____ ~T -ADELPRS? MMMnM
+TD320 attempt: 1 THING m m m n m
+TD305 Classic #3 _____ ~DL -AEPRST? ␅
+TD1388848 ␆nnYnM
+TD120 Classic #3 _____ ~DL -AEPRST? nnYnM
+TD479 attempt: 2 THING n n Y n m
+TD251 Classic #4 _A___ ~ER -DLPST? ␅
+TD1420361 ␆nnnnM
+TD111 Classic #4 _A___ ~ER -DLPST? nnnnM
+TD279 attempt: 3 THING n n n n m
+TD491409 > ␅
+TD776426 ␆*
+TD74 > *
+TD324 questioning: guild
+TD118 Classic #1 TA___ -DEGHILNPRS? ␅
+TD3591180 ␆nnnnn
+TD89 Classic #1 TA___ -DEGHILNPRS? nnnnn
+TD238 attempt: 0 GUILD n n n n n
+TD119 Classic #2 _____ ~GHIT -ADELNPRS? ␅
+TD1667590 ␆MnMnn
+TD97 Classic #2 _____ ~GHIT -ADELNPRS? MnMnn
+TD268 attempt: 1 GUILD m n m n n
+TD155 Classic #3 __I__ ~DGL -AEHNPRST? ␅
+TD1464832 ␆YYYYY
+TD121 Classic #3 __I__ ~DGL -AEHNPRST? YYYYY
+TD290 attempt: 2 GUILD Y Y Y Y Y
+TD165 Classic #4 _A___ ~EGR -DHILNPST? ␅
+TD1089740 ␆Mnnnn
+TD129 Classic #4 _A___ ~EGR -DHILNPST? Mnnnn
+TD296 attempt: 3 GUILD m n n n n
+TD357448 > ␅
+TD888659 ␆*
+TD125 > *
+TD964 ? ␅
+TD7866982 ␆3
+TD226 ? 3
+TD186 questioning: wager
+TD190 Classic #1 TA___ -DEGHILNPRSU? ␅
+TD3500286 ␆nYnnn
+TD75 Classic #1 TA___ -DEGHILNPRSU? nYnnn
+TD194 attempt: 0 WAGER n Y n n n
+TD106 Classic #2 _____ ~GHIT -ADELNPRSU? ␅
+TD1358814 ␆nnYnn
+TD103 Classic #2 _____ ~GHIT -ADELNPRSU? nnYnn
+TD283 attempt: 1 WAGER n n Y n n
+TD153 Classic #4 _A___ ~EGR -DHILNPSTU? ␅
+TD1308264 ␆YYYYY
+TD121 Classic #4 _A___ ~EGR -DHILNPSTU? YYYYY
+TD339 attempt: 3 WAGER Y Y Y Y Y
+TD231650 > ␅
+TD934158 ␆*
+TD96 > *
+TD891 ? ␅
+TD2649196 ␆1
+TD195 ? 1
+TD721 questioning: tacky
+TD506 Classic #1 TA___ -DEGHILNPRSUW? ␅
+TD3702233 ␆YYnnY
+TD85 Classic #1 TA___ -DEGHILNPRSUW? YYnnY
+TD461 attempt: 0 TACKY Y Y n n Y
+TD115 Classic #2 __G__ ~HIT -ADELNPRSUW? ␅
+TD1766688 ␆Mnnnn
+TD59 Classic #2 __G__ ~HIT -ADELNPRSUW? Mnnnn
+TD149 attempt: 1 TACKY m n n n n
+TD230836 > ␅
+TD687067 ␆*
+TD92 > *
+TD628 ? ␅
+TD3220052 ␄
+TD137 <EOF>
+TD226633 > ␅
+TD1404171 ␆* 2
+TD98 > * 2
+TD131799 ? ␅
+TD2277111 ␆3
+TD184 ? 3
+TD264 questioning: might
+TD257 Classic #1 TA__Y -CDEGHIKLNPRSUW? ␅
+TD3627667 ␆nnnnM
+TD136 Classic #1 TA__Y -CDEGHIKLNPRSUW? nnnnM
+TD420 attempt: 0 MIGHT n n n n m
+TD222 Classic #2 __G__ ~HIT -ACDEKLNPRSUWY? ␅
+TD1591382 ␆nYYYY
+TD92 Classic #2 __G__ ~HIT -ACDEKLNPRSUWY? nYYYY
+TD235 attempt: 1 MIGHT n Y Y Y Y
+TD202915 > ␅
+TD801070 ␆*
+TD100 > *
+TD686 ? ␅
+TD4484103 ␄
+TD125 <EOF>
+TD214212 > ␅
+TD1069248 ␆* 2
+TD104 > * 2
+TD107007 ? ␅
+TD2719384 ␆2
+TD105 ? 2
+TD187 questioning: fight
+TD176 Classic #1 TA__Y -CDEGHIKLMNPRSUW? ␅
+TD8334264 ␆MnnnM
+TD87 Classic #1 TA__Y -CDEGHIKLMNPRSUW? MnnnM
+TD219 attempt: 0 FIGHT m n n n m
+TD120 Classic #2 _IGHT -ACDEKLMNPRSUWY? ␅
+TD1861439 ␆YYYYY
+TD109 Classic #2 _IGHT -ACDEKLMNPRSUWY? YYYYY
+TD245 attempt: 1 FIGHT Y Y Y Y Y
+TD110416 > ␅
+TD1210991 ␆*
+TD81 > *
+TD550 questioning: taffy
+TD121 Classic #1 TA__Y ~F -CDEGHIKLMNPRSUW? ␅
+TD2924090 ␆YYYYY
+TD167 Classic #1 TA__Y ~F -CDEGHIKLMNPRSUW? YYYYY
+TD346 attempt: 0 TAFFY Y Y Y Y Y
+TD233 📋> ␅
+TD4990026 ␆🙂 Daily Quordle 1645
+TD111 📋> 🙂 Daily Quordle 1645
+TD25 📋> ␅
+TD75 ␆9️⃣8️⃣
+TD18 📋> 9️⃣8️⃣
+TD16 📋> ␅
+TD34 ␆4️⃣5️⃣
+TD16 📋> 4️⃣5️⃣
+TD16 📋> ␅
+TD35 ␆m-w.com/games/quordle/
+TD17 📋> m-w.com/games/quordle/
+TD16 📋> ␅
+TD250578 ␆
+TD70 📋> 
+TD22 📋> ␅
+TD254720 ␄
+TD306 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1645\n9\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD3907 result: "\ud83d\ude42 Daily Quordle 1645\n9\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD150 📆 2026-07-27 ? ␅
+TD1039702 ␆
+TD269 📆 2026-07-27 ? 
