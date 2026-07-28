@@ -1,10 +1,11 @@
 #!/usr/bin/env python
 
 import argparse
+import json
 import re
 from collections.abc import Generator, Sequence
 from dataclasses import dataclass
-from typing import Callable, Literal, cast, final, override
+from typing import Callable, Literal, TypeIs, TypedDict, cast, final, override
 
 from sortem import DiagScores, Randomized
 from store import StoredLog, matcher
@@ -75,6 +76,7 @@ class Nordle(StoredLog):
             '/drop': self.do_drop,
             '/mode': self.do_mode,
 
+            'audit': self.do_audit,
             'feedback': self.do_feedback,
             'guess': self.do_guess,
             'tried': self.do_tried,
@@ -410,6 +412,62 @@ class Nordle(StoredLog):
             for a in redo:
                 ats.append(word.collect(a))
         ats.append(word.collect(at))
+
+    def do_audit(self, ui: PromptUI):
+        raw = ui.may_paste(subject=f'📋 Copy All')
+        dat = cast(object, json.loads(raw))
+        if not isinstance(dat, dict):
+            ui.print('! must have dict data')
+            return
+        dat = cast(dict[str, object], dat)
+
+        class WordDat(TypedDict):
+          board_n: list[int]
+          row_n: list[int]
+          resp: list[str]
+
+        def is_word_dat(val: object) -> TypeIs[WordDat]:
+            if not isinstance(val, dict): return False
+            val = cast(dict[str, object], val)
+            try:
+                bi = val['board_n']
+                ri = val['row_n']
+                rs = val['resp']
+            except KeyError:
+                return False
+            return (
+                isinstance(bi, list) and all(isinstance(x, int) for x in cast(list[object], bi)) and
+                isinstance(ri, list) and all(isinstance(x, int) for x in cast(list[object], ri)) and
+                isinstance(rs, list) and all(isinstance(x, str) for x in cast(list[object], rs)))
+
+        for word, wd in dat.items():
+            word = word.upper()
+
+            if len(word) != self.size:
+                ui.print(f'! skip {word!r} len != {self.size}')
+                continue
+
+            if not is_word_dat(wd):
+                ui.print(f'! invalid word data for {word!r}')
+                continue
+
+            for bn, rs in zip(wd['board_n'], wd['resp']):
+                fb = parse_feedback(rs, self.size)
+                bi = bn - 1
+                ats = self.attempts[bi]
+                reason = ''
+                for at in ats:
+                    if at.word == word:
+                        if ''.join(at.feedback_letters).lower() != rs.lower():
+                            reason = f'{at} vs {rs!r}'
+                        break
+                else:
+                    reason = f'missing {word!r} {rs!r}'
+                if reason:
+                    print(f'!!! #{bn} {reason}')
+                    at = Attempt(word, fb)
+                    self.attempt_update(self.words[bi], ats, at)
+                    ui.log(f'attempt: {bi} {at}')
 
     def do_feedback(self, ui: PromptUI):
         '''
