@@ -1,0 +1,276 @@
+T280.12059274400235 now: 2026-07-28T08:23:15EDT
+TD348 site: squareword.org
+TD82 wordlist: nwl2023.txt
+TD102  ...␅
+TD1086362 ␆
+TD115  ...
+TD109 🧩  ? ␅
+TD12107801 ␆#1639
+TD61 🧩  ? #1639
+TD379 puzzle_id: #1639
+TD189 > ␅
+TD1374981 ␆*
+TD137 > *
+TD233057 try? ␅
+TD982101 ␆1
+TD134 try? 1
+TD398 questioning: ["reais", "#5"]
+TD438 #1 <IndexError>  📋 "reais" ? ␅
+TD4323234 ␆!
+TD198 #1 <IndexError>  📋 "reais" ? !
+TD277 reject: reais
+TD50 question done
+TD556 > ␅
+TD3142052 ␄
+TD160 <EOF>
+TD391 > ␅
+TD1022871 ␄
+T306.1610858609929 now: 2026-07-28T08:23:41EDT
+TD412 > ␅
+TD725253 ␆*
+TD107 > *
+TD106202 try? ␅
+TD1011839 ␆1
+TD117 try? 1
+TD338 questioning: ["arise", "#5"]
+TD456 #1 <IndexError>  📋 "arise" ? ␅
+TD4321830 ␆____E ~ AS
+TD151 #1 <IndexError>  📋 "arise" ? ____E ~ AS
+TD2048 attempt 0 ARISE m n n m Y
+TD161 #2 <IndexError>  📋 "arise" ? ␅
+TD3142981 ␆_____ ~ AS
+TD118 #2 <IndexError>  📋 "arise" ? _____ ~ AS
+TD311 attempt 1 ARISE m n n m n
+TD147 #3 <IndexError>  📋 "arise" ? ␅
+TD2021179 ␆_____ ~ ARI
+TD118 #3 <IndexError>  📋 "arise" ? _____ ~ ARI
+TD273 attempt 2 ARISE m m m n n
+TD130 #4 <IndexError>  📋 "arise" ? ␅
+TD2843343 ␆__I__ 
+TD246 #4 <IndexError>  📋 "arise" ? __I__ 
+TD431 attempt 3 ARISE n n Y n n
+TD197 #5 <IndexError>  📋 "arise" ? ␅
+TD2230661 ␆____E ~ S
+TD117 #5 <IndexError>  📋 "arise" ? ____E ~ S
+TD297 attempt 4 ARISE n n n m Y
+TD454 ? ␅
+TD548596 ␆
+TD133 ? 
+TD144 question done
+TD333 > ␅
+TD1309295 ␆*
+TD245 > *
+TD794550 try? ␅
+TD1256535 ␆1
+TD185 try? 1
+TD539 questioning: ["stone", "#5"]
+TD769 #1 ____E ~AS -IR  📋 "stone" ? ␅
+TD4987538 ␆S___E ~ AT
+TD68 #1 ____E ~AS -IR  📋 "stone" ? S___E ~ AT
+TD139 attempt 0 STONE Y m n n Y
+TD78 #2 _____ ~AS -EIR  📋 "stone" ? ␅
+TD1473551 ␆.
+TD117 #2 _____ ~AS -EIR  📋 "stone" ? .
+TD317 attempt 1 STONE m n n n n
+TD115 #3 _____ ~AIR -ES  📋 "stone" ? ␅
+TD1034780 ␆.
+TD187 #3 _____ ~AIR -ES  📋 "stone" ? .
+TD557 attempt 2 STONE n n n n n
+TD175 #4 __I__ -AERS  📋 "stone" ? ␅
+TD2272647 ␆__IN_ ~ T
+TD119 #4 __I__ -AERS  📋 "stone" ? __IN_ ~ T
+TD235 attempt 3 STONE n m n Y n
+TD131 #5 ____E ~S -AIR  📋 "stone" ? ␅
+TD2968249 ␆S_O_E ~ T
+TD144 #5 ____E ~S -AIR  📋 "stone" ? S_O_E ~ T
+TD374 attempt 4 STONE Y m Y n Y
+TD541 ? ␅
+TD364844 ␆
+TD88 ? 
+TD124 question done
+TD354 > ␅
+TD2042386 ␆*
+TD183 > *
+TD810214 try? ␅
+TD746316 ␄
+TD150 <EOF>
+TD454 > ␅
+TD1844378 ␆* 2
+TD140 > * 2
+TD5736 try? ␅
+TD1016431 ␄
+TD166 <EOF>
+TD770 > ␅
+TD904248 ␆* 2
+TD68 > * 2
+TD2542 try? ␅
+TD3376460 ␄
+TD142 <EOF>
+TD427 > ␅
+TD1153720 ␆* 3
+TD303 > * 3
+TD5578 try? ␅
+TD4642893 ␆3
+TD119 try? 3
+TD366 questioning: ["padri", "#3"]
+TD459 #1 S___E ~AT -INOR  📋 "padri" ? ␅
+TD6201836 ␆S___E ~ ATP
+TD130 #1 S___E ~AT -INOR  📋 "padri" ? S___E ~ ATP
+TD602 attempt 0 PADRI m m n n n
+TD326 #2 _____ ~AS -EINORT  📋 "padri" ? ␅
+TD3875988 ␆.
+TD123 #2 _____ ~AS -EINORT  📋 "padri" ? .
+TD347 attempt 1 PADRI n m n n n
+TD122 #3 _____ ~AIR -ENOST  📋 "padri" ? ␅
+TD3991376 ␆_AD_I ~ RI
+TD101 #3 _____ ~AIR -ENOST  📋 "padri" ? _AD_I ~ RI
+TD310 attempt 2 PADRI n Y Y m Y
+TD194 #4 __IN_ ~T -AEORS  📋 "padri" ? ␅
+TD7824264 ␆.
+TD123 #4 __IN_ ~T -AEORS  📋 "padri" ? .
+TD354 attempt 3 PADRI n n n n n
+TD394 #5 S_O_E ~T -AINR  📋 "padri" ? ␅
+TD4492622 ␆.
+TD434 #5 S_O_E ~T -AINR  📋 "padri" ? .
+TD753 attempt 4 PADRI n n n n n
+TD801 ? ␅
+TD1158038 ␆
+TD103 ? 
+TD106 question done
+TD389 > ␅
+TD761083 ␆*
+TD119 > *
+TD721792 questioning: ["spate", "#1"]
+TD195 #1 S___E ~APT -DINOR  📋 "spate" ? ␅
+TD2917892 ␆/it
+TD76 #1 S___E ~APT -DINOR  📋 "spate" ? /it
+TD209 attempt 0 SPATE Y Y Y Y Y
+TD95 #2 _____ ~AS -DEINOPRT  📋 "spate" ? ␅
+TD970159 ␆.
+TD66 #2 _____ ~AS -DEINOPRT  📋 "spate" ? .
+TD168 attempt 1 SPATE m n m n n
+TD65 #3 _AD_I ~R -ENOPST  📋 "spate" ? ␅
+TD4818344 ␆_AD_I ~ RI
+TD190 #3 _AD_I ~R -ENOPST  📋 "spate" ? _AD_I ~ RI
+TD466 attempt 2 SPATE n n n n n
+TD282 #4 __IN_ ~T -ADEIOPRS  📋 "spate" ? ␅
+TD1238451 ␆.
+TD215 #4 __IN_ ~T -ADEIOPRS  📋 "spate" ? .
+TD378 attempt 3 SPATE n n n m n
+TD147 #5 S_O_E ~T -ADINPR  📋 "spate" ? ␅
+TD2022323 ␆S_OTE
+TD130 #5 S_O_E ~T -ADINPR  📋 "spate" ? S_OTE
+TD326 attempt 4 SPATE Y n n Y Y
+TD554 ? ␅
+TD228104 ␆
+TD97 ? 
+TD117 question done
+TD395 > ␅
+TD372611 ␆*
+TD109 > *
+TD1508415 questioning: ["usual", "#2"]
+TD195 #2 _____ ~AS -DEINOPRT  📋 "usual" ? ␅
+TD2438510 ␆/it
+TD113 #2 _____ ~AS -DEINOPRT  📋 "usual" ? /it
+TD259 attempt 1 USUAL Y Y Y Y Y
+TD104 #3 _AD_I ~R -AENOPST  📋 "usual" ? ␅
+TD3234333 ␆_AD_I ~ RI
+TD134 #3 _AD_I ~R -AENOPST  📋 "usual" ? _AD_I ~ RI
+TD352 attempt 2 USUAL n n n n n
+TD172 #4 __IN_ ~T -ADEIOPRS  📋 "usual" ? ␅
+TD4824360 ␆__IN_ ~ TL
+TD133 #4 __IN_ ~T -ADEIOPRS  📋 "usual" ? __IN_ ~ TL
+TD503 attempt 3 USUAL n n n n m
+TD238 #5 S_OTE -ADINPR  📋 "usual" ? ␅
+TD962255 ␆.
+TD139 #5 S_OTE -ADINPR  📋 "usual" ? .
+TD340 attempt 4 USUAL n n n n n
+TD519 ? ␅
+TD146834 ␆
+TD126 ? 
+TD160 question done
+TD545 > ␅
+TD385074 ␆*
+TD113 > *
+TD2119874 questioning: ["radii", "#3"]
+TD198 #3 _AD_I ~R -AELNOPSTU  📋 "radii" ? ␅
+TD3521096 ␆/it
+TD126 #3 _AD_I ~R -AELNOPSTU  📋 "radii" ? /it
+TD262 attempt 2 RADII Y Y Y Y Y
+TD109 #4 __IN_ ~LT -ADEIOPRSU  📋 "radii" ? ␅
+TD1500893 ␆.
+TD102 #4 __IN_ ~LT -ADEIOPRSU  📋 "radii" ? .
+TD263 attempt 3 RADII n n n n n
+TD109 #5 S_OTE -ADILNPRSU  📋 "radii" ? ␅
+TD1009740 ␆.
+TD141 #5 S_OTE -ADILNPRSU  📋 "radii" ? .
+TD442 attempt 4 RADII n n n n n
+TD667 ? ␅
+TD202762 ␆
+TD103 ? 
+TD120 question done
+TD507 > ␅
+TD409529 ␆*
+TD131 > *
+TD1578422 questioning: ["flint", "#4"]
+TD223 #4 __IN_ ~LT -ADEIOPRSU  📋 "flint" ? ␅
+TD3672571 ␆/it
+TD168 #4 __IN_ ~LT -ADEIOPRSU  📋 "flint" ? /it
+TD293 attempt 3 FLINT Y Y Y Y Y
+TD120 #5 S_OTE -ADILNPRSU  📋 "flint" ? ␅
+TD7682287 ␆.
+TD135 #5 S_OTE -ADILNPRSU  📋 "flint" ? .
+TD316 attempt 4 FLINT n n n n n
+TD390 ? ␅
+TD925330 ␆
+TD125 ? 
+TD146 question done
+TD563 > ␅
+TD1067870 ␆*
+TD139 > *
+TD1056940 questioning: ["smote", "#5"]
+TD198 #5 S_OTE -ADFILNPRSTU  📋 "smote" ? ␅
+TD2335691 ␆/it
+TD202 #5 S_OTE -ADFILNPRSTU  📋 "smote" ? /it
+TD333 attempt 4 SMOTE Y Y Y Y Y
+TD383 ? ␅
+TD523164 ␆
+TD218 ? 
+TD138 question done
+TD31894 📋> ␅
+TD5084219 ␆squareword.org 1639: 8 guesses
+TD93 📋> squareword.org 1639: 8 guesses
+TD17 📋> ␅
+TD78 ␆
+TD9 📋> 
+TD7 📋> ␅
+TD26 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD11 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD21 ␆🟨🟩🟩🟨🟩
+TD7 📋> 🟨🟩🟩🟨🟩
+TD6 📋> ␅
+TD22 ␆🟨🟨🟩🟩🟨
+TD8 📋> 🟨🟨🟩🟩🟨
+TD6 📋> ␅
+TD21 ␆🟩🟨🟩🟩🟩
+TD8 📋> 🟩🟨🟩🟩🟩
+TD7 📋> ␅
+TD20 ␆
+TD8 📋> 
+TD6 📋> ␅
+TD21 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD290214 ␆#squareword #squareword1639
+TD115 📋> #squareword #squareword1639
+TD21 📋> ␅
+TD243293 ␄
+TD247 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1639: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1639"}
+TD1795 result: "squareword.org 1639: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1639"
+TD128 📆 2026-07-28 ? ␅
+TD395780 ␆
+TD104 📆 2026-07-28 ? 
