@@ -1,0 +1,95 @@
+T176.05215954199957 now: 2026-07-28T07:38:33EDT
+TD98 site: alfagok.diginaut.net
+TD462692 loaded 399513 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1339 words excluded) asof 1d24ee503b4223cd667ea600930cac706852531f
+TD145  ...␅
+TD8078967 ␆
+TD140  ...
+TD280 [0 : 199552 : 399513] lij? ␅
+TD1871682 ␆a
+TD97 [0 : 199552 : 399513] lij? a
+TD400 progress: 1 199552 lij
+TD145 [199553 : 299528 : 399513] schrok? ␅
+TD1472880 ␆a
+TD89 [199553 : 299528 : 399513] schrok? a
+TD131 progress: 1 299528 schrok
+TD135 [299529 : 349518 : 399513] vakanties? ␅
+TD1525569 ␆b
+TD101 [299529 : 349518 : 399513] vakanties? b
+TD126 progress: -1 349518 vakanties
+TD149 [299529 : 324167 : 349518] sub? ␅
+TD1570194 ␆a
+TD111 [299529 : 324167 : 349518] sub? a
+TD139 progress: 1 324167 sub
+TD171 [324168 : 335513 : 349518] toe? ␅
+TD1533108 ␆b
+TD140 [324168 : 335513 : 349518] toe? b
+TD173 progress: -1 335513 toe
+TD202 [324168 : 329692 : 335513] tekst? ␅
+TD1569047 ␆a
+TD104 [324168 : 329692 : 335513] tekst? a
+TD126 progress: 1 329692 tekst
+TD147 [329693 : 332484 : 335513] test? ␅
+TD2983106 ␆ha
+TD145 [329693 : 332484 : 335513] test? ha
+TD256 [329693 : 332484 : 335513] test? ␅
+TD3323150 ␆a
+TD115 [329693 : 332484 : 335513] test? a
+TD136 progress: 1 332484 test
+TD139 [332485 : 333995 : 335513] tichel? ␅
+TD2375900 ␆b
+TD155 [332485 : 333995 : 335513] tichel? b
+TD185 progress: -1 333995 tichel
+TD229 [332485 : 333237 : 333995] theet? ␅
+TD1515577 ␆b
+TD114 [332485 : 333237 : 333995] theet? b
+TD140 progress: -1 333237 theet
+TD491 [332485 : 332853 : 333237] teweeg? ␅
+TD2180022 ␆b
+TD72 [332485 : 332853 : 333237] teweeg? b
+TD74 progress: -1 332853 teweeg
+TD77 [332485 : 332666 : 332853] tests? ␅
+TD1441816 ␆a
+TD131 [332485 : 332666 : 332853] tests? a
+TD136 progress: 1 332666 tests
+TD155 [332667 : 332734 : 332853] tet? ␅
+TD1555657 ␆a
+TD128 [332667 : 332734 : 332853] tet? a
+TD147 progress: 1 332734 tet
+TD176 [332735 : 332791 : 332853] teun? ␅
+TD3528897 ␆!
+TD165 [332735 : 332791 : 332853] teun? !
+TD1137 [332735 : 332793 : 332852] teunis? ␅
+TD1734019 ␆!
+TD111 [332735 : 332793 : 332852] teunis? !
+TD938 [332735 : 332793 : 332851] teunisbloem? ␅
+TD1837981 ␆a
+TD93 [332735 : 332793 : 332851] teunisbloem? a
+TD109 progress: 1 332793 teunisbloem
+TD435 [332794 : 332822 : 332851] tevens? ␅
+TD2439317 ␆it
+TD127 [332794 : 332822 : 332851] tevens? it
+TD166 progress: 0 332822 tevens
+TD66 [332794 : 332822 : 332851] <Done>.
+TD209 📋> ␅
+TD5506353 ␆🧩 Puzzel #633
+TD50 📋> 🧩 Puzzel #633
+TD12 📋> ␅
+TD27 ␆🤔 14 gokken
+TD9 📋> 🤔 14 gokken
+TD8 📋> ␅
+TD15 ␆⏱️ 32s
+TD9 📋> ⏱️ 32s
+TD7 📋> ␅
+TD273116 ␆🔗 alfagok.diginaut.net
+TD103 📋> 🔗 alfagok.diginaut.net
+TD29 📋> ␅
+TD126577 ␄
+TD244 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #633\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1337 result: "\ud83e\udde9 Puzzel #633\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"
+TD50 result puzzle: 633
+TD29 result guesses: 14
+TD24 result time: 32s
+TD22 result link: alfagok.diginaut.net
+TD138 📆 2026-07-28 ? ␅
+TD359189 ␆
+TD126 📆 2026-07-28 ? 
