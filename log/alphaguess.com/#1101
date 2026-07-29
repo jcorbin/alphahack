@@ -1,0 +1,93 @@
+T38349.560447564 now: 2026-07-29T08:03:45EDT
+TD215 site: alphaguess.com
+TD150350 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 9a368482667bb3bb7c16fb2c67adb635c35bc191
+TD105  ...␅
+TD574319 ␆
+TD78  ...
+TD147 [0 : 98147 : 196518] mac? ␅
+TD6283698 ␆
+TD101 [0 : 98147 : 196518] mac? 
+TD119 [0 : 98147 : 196518] mac? ␅
+TD2402221 ␆b
+TD130 [0 : 98147 : 196518] mac? b
+TD202 progress: -1 98147 mac
+TD191 [0 : 47378 : 98147] dis? ␅
+TD1437108 ␆a
+TD111 [0 : 47378 : 98147] dis? a
+TD115 progress: 1 47378 dis
+TD140 [47379 : 72662 : 98147] green? ␅
+TD2139330 ␆b
+TD51 [47379 : 72662 : 98147] green? b
+TD51 progress: -1 72662 green
+TD102 [47379 : 60017 : 72662] eyewitness? ␅
+TD1299926 ␆a
+TD146 [47379 : 60017 : 72662] eyewitness? a
+TD170 progress: 1 60017 eyewitness
+TD181 [60018 : 66309 : 72662] free? ␅
+TD1320933 ␆a
+TD107 [60018 : 66309 : 72662] free? a
+TD125 progress: 1 66309 free
+TD141 [66310 : 69482 : 72662] geode? ␅
+TD1347566 ␆a
+TD139 [66310 : 69482 : 72662] geode? a
+TD162 progress: 1 69482 geode
+TD1460 [69483 : 71072 : 72662] glyceraldehydes? ␅
+TD1676032 ␆a
+TD62 [69483 : 71072 : 72662] glyceraldehydes? a
+TD60 progress: 1 71072 glyceraldehydes
+TD63 [71073 : 71221 : 72662] go? ␅
+TD1264059 ␆a
+TD168 [71073 : 71221 : 72662] go? a
+TD209 progress: 1 71221 go
+TD768 [71222 : 71942 : 72662] gowk? ␅
+TD1304435 ␆b
+TD90 [71222 : 71942 : 72662] gowk? b
+TD109 progress: -1 71942 gowk
+TD470 [71222 : 71582 : 71942] gonococcal? ␅
+TD1348243 ␆a
+TD136 [71222 : 71582 : 71942] gonococcal? a
+TD174 progress: 1 71582 gonococcal
+TD185 [71583 : 71725 : 71942] gor? ␅
+TD1446041 ␆b
+TD99 [71583 : 71725 : 71942] gor? b
+TD118 progress: -1 71725 gor
+TD145 [71583 : 71601 : 71725] goo? ␅
+TD2827406 ␆a
+TD77 [71583 : 71601 : 71725] goo? a
+TD79 progress: 1 71601 goo
+TD124 [71602 : 71660 : 71725] gook? ␅
+TD3247057 ␆a
+TD206 [71602 : 71660 : 71725] gook? a
+TD210 progress: 1 71660 gook
+TD193 [71661 : 71692 : 71725] goos? ␅
+TD1438400 ␆a
+TD80 [71661 : 71692 : 71725] goos? a
+TD71 progress: 1 71692 goos
+TD72 [71693 : 71695 : 71725] goose? ␅
+TD3021873 ␆it
+TD127 [71693 : 71695 : 71725] goose? it
+TD185 progress: 0 71695 goose
+TD62 [71693 : 71695 : 71725] <Done>.
+TD174 📋> ␅
+TD2640676 ␆🧩 Puzzle #1101
+TD111 📋> 🧩 Puzzle #1101
+TD30 📋> ␅
+TD77 ␆🤔 15 guesses
+TD28 📋> 🤔 15 guesses
+TD23 📋> ␅
+TD46 ␆⏱️ 24s
+TD27 📋> ⏱️ 24s
+TD22 📋> ␅
+TD188558 ␆🔗 alphaguess.com/1101
+TD124 📋> 🔗 alphaguess.com/1101
+TD34 📋> ␅
+TD126202 ␄
+TD198 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1101\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/1101"}
+TD142 result: "\ud83e\udde9 Puzzle #1101\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/1101"
+TD35 result puzzle: 1101
+TD23 result guesses: 15
+TD20 result time: 24s
+TD20 result link: alphaguess.com/1101
+TD121 📆 2026-07-29 ? ␅
+TD159442 ␆
+TD105 📆 2026-07-29 ? 
