@@ -1,0 +1,249 @@
+T234.29987452499336 now: 2026-07-30T08:18:22EDT
+TD207 site: squareword.org
+TD55 wordlist: nwl2023.txt
+TD72  ...␅
+TD12735606 ␆
+TD62  ...
+TD37 🧩  ? ␅
+TD1977977 ␆#1641
+TD189 🧩  ? #1641
+TD602 puzzle_id: #1641
+TD715 > ␅
+TD1382569 ␆*
+TD123 > *
+TD243014 try? ␅
+TD1567067 ␆1
+TD180 try? 1
+TD429 questioning: ["raise", "#5"]
+TD513 #1 <IndexError>  📋 "raise" ? ␅
+TD5406860 ␆_A___ ~ SE
+TD59 #1 <IndexError>  📋 "raise" ? _A___ ~ SE
+TD385 attempt 0 RAISE n Y n m m
+TD63 #2 <IndexError>  📋 "raise" ? ␅
+TD2355922 ␆__I__ ~ A
+TD190 #2 <IndexError>  📋 "raise" ? __I__ ~ A
+TD390 attempt 1 RAISE n m Y n n
+TD182 #3 <IndexError>  📋 "raise" ? ␅
+TD1920061 ␆_____ 
+TD146 #3 <IndexError>  📋 "raise" ? _____ 
+TD331 attempt 2 RAISE n n n n n
+TD156 #4 <IndexError>  📋 "raise" ? ␅
+TD2040957 ␆_____ ~ RIE
+TD175 #4 <IndexError>  📋 "raise" ? _____ ~ RIE
+TD431 attempt 3 RAISE m n m n m
+TD185 #5 <IndexError>  📋 "raise" ? ␅
+TD1946126 ␆____E ~ RA
+TD145 #5 <IndexError>  📋 "raise" ? ____E ~ RA
+TD328 attempt 4 RAISE m m n n Y
+TD494 ? ␅
+TD358609 ␆
+TD235 ? 
+TD307 question done
+TD771 > ␅
+TD595695 ␆*
+TD175 > *
+TD839296 try? ␅
+TD2308626 ␆3
+TD207 try? 3
+TD661 questioning: ["align", "#2"]
+TD805 #1 _A___ ~ES -IR  📋 "align" ? ␅
+TD3967447 ␆.
+TD123 #1 _A___ ~ES -IR  📋 "align" ? .
+TD318 attempt 0 ALIGN n n n n n
+TD139 #2 __I__ ~A -ERS  📋 "align" ? ␅
+TD2233066 ␆A_I_N ~ A
+TD67 #2 __I__ ~A -ERS  📋 "align" ? A_I_N ~ A
+TD156 attempt 1 ALIGN Y n Y n Y
+TD112 #3 _____ -AEIRS  📋 "align" ? ␅
+TD2708657 ␆___G_ ~ N
+TD143 #3 _____ -AEIRS  📋 "align" ? ___G_ ~ N
+TD379 attempt 2 ALIGN n n n Y m
+TD225 #4 _____ ~EIR -AS  📋 "align" ? ␅
+TD3253928 ␆_____ ~ RIEL
+TD274 #4 _____ ~EIR -AS  📋 "align" ? _____ ~ RIEL
+TD632 attempt 3 ALIGN n m m n n
+TD404 #5 ____E ~AR -IS  📋 "align" ? ␅
+TD2623462 ␆A___E ~ R
+TD214 #5 ____E ~AR -IS  📋 "align" ? A___E ~ R
+TD592 attempt 4 ALIGN Y n n n n
+TD754 ? ␅
+TD304842 ␆
+TD198 ? 
+TD225 question done
+TD626 > ␅
+TD523309 ␆*
+TD126 > *
+TD847359 try? ␅
+TD4314628 ␄
+TD254 <EOF>
+TD736 > ␅
+TD1794990 ␆* 4
+TD146 > * 4
+TD2967 try? ␅
+TD4315706 ␆2
+TD155 try? 2
+TD477 questioning: ["liver", "#4"]
+TD881 #1 _A___ ~ES -AGILNR  📋 "liver" ? ␅
+TD7306445 ␆_A_E_ ~ S
+TD163 #1 _A___ ~ES -AGILNR  📋 "liver" ? _A_E_ ~ S
+TD432 attempt 0 LIVER n n n Y n
+TD288 #2 A_I_N -EGLRS  📋 "liver" ? ␅
+TD4810567 ␆A_I_N ~ AV
+TD144 #2 A_I_N -EGLRS  📋 "liver" ? A_I_N ~ AV
+TD661 attempt 1 LIVER n n m n n
+TD307 #3 ___G_ ~N -AEILRS  📋 "liver" ? ␅
+TD1768085 ␆.
+TD114 #3 ___G_ ~N -AEILRS  📋 "liver" ? .
+TD330 attempt 2 LIVER n n n n n
+TD113 #4 _____ ~EILR -AGNS  📋 "liver" ? ␅
+TD1803300 ␆LI_ER
+TD120 #4 _____ ~EILR -AGNS  📋 "liver" ? LI_ER
+TD332 attempt 3 LIVER Y Y n Y Y
+TD179 #5 A___E ~R -GILNS  📋 "liver" ? ␅
+TD1650342 ␆.
+TD127 #5 A___E ~R -GILNS  📋 "liver" ? .
+TD342 attempt 4 LIVER n n n n m
+TD386 ? ␅
+TD218020 ␆
+TD136 ? 
+TD145 question done
+TD533 > ␅
+TD489842 ␆*
+TD138 > *
+TD934087 questioning: ["avian", "#2"]
+TD192 #1 _A_E_ ~S -AGILNRV  📋 "avian" ? ␅
+TD3672273 ␆.
+TD192 #1 _A_E_ ~S -AGILNRV  📋 "avian" ? .
+TD464 attempt 0 AVIAN n n n n n
+TD208 #2 A_I_N ~V -EGILRS  📋 "avian" ? ␅
+TD762186 ␆/it
+TD165 #2 A_I_N ~V -EGILRS  📋 "avian" ? /it
+TD302 attempt 1 AVIAN Y Y Y Y Y
+TD127 #3 ___G_ ~N -AEILRSV  📋 "avian" ? ␅
+TD979921 ␆.
+TD134 #3 ___G_ ~N -AEILRSV  📋 "avian" ? .
+TD452 attempt 2 AVIAN n n n n m
+TD153 #4 LI_ER -AGNSV  📋 "avian" ? ␅
+TD1077720 ␆.
+TD201 #4 LI_ER -AGNSV  📋 "avian" ? .
+TD393 attempt 3 AVIAN n n n n n
+TD155 #5 A___E ~R -EGILNSV  📋 "avian" ? ␅
+TD1474149 ␆.
+TD168 #5 A___E ~R -EGILNSV  📋 "avian" ? .
+TD370 attempt 4 AVIAN Y n n n n
+TD493 ? ␅
+TD176160 ␆
+TD207 ? 
+TD231 question done
+TD1064 > ␅
+TD476601 ␆*
+TD261 > *
+TD741941 questioning: ["bongo", "#3"]
+TD218 #1 _A_E_ ~S -AGILNRV  📋 "bongo" ? ␅
+TD4750069 ␆.
+TD122 #1 _A_E_ ~S -AGILNRV  📋 "bongo" ? .
+TD361 attempt 0 BONGO n n n n n
+TD146 #3 ___G_ ~N -AEILRSV  📋 "bongo" ? ␅
+TD1179227 ␆/it
+TD148 #3 ___G_ ~N -AEILRSV  📋 "bongo" ? /it
+TD448 attempt 2 BONGO Y Y Y Y Y
+TD210 #4 LI_ER -AGINSV  📋 "bongo" ? ␅
+TD1273571 ␆.
+TD142 #4 LI_ER -AGINSV  📋 "bongo" ? .
+TD373 attempt 3 BONGO n n n n n
+TD180 #5 A___E ~R -EGILNSV  📋 "bongo" ? ␅
+TD3093662 ␆A___E ~ RO
+TD205 #5 A___E ~R -EGILNSV  📋 "bongo" ? A___E ~ RO
+TD487 attempt 4 BONGO n m n n m
+TD695 ? ␅
+TD479041 ␆
+TD211 ? 
+TD342 question done
+TD757 > ␅
+TD494006 ␆*
+TD219 > *
+TD2195880 questioning: ["adore", "#5"]
+TD251 #1 _A_E_ ~S -ABGILNORV  📋 "adore" ? ␅
+TD4603724 ␆.
+TD115 #1 _A_E_ ~S -ABGILNORV  📋 "adore" ? .
+TD714 attempt 0 ADORE n n n n n
+TD156 #4 LI_ER -ABGINOSV  📋 "adore" ? ␅
+TD1020565 ␆.
+TD186 #4 LI_ER -ABGINOSV  📋 "adore" ? .
+TD769 attempt 3 ADORE n n n n n
+TD245 #5 A___E ~OR -BEGILNSV  📋 "adore" ? ␅
+TD668384 ␆/it
+TD138 #5 A___E ~OR -BEGILNSV  📋 "adore" ? /it
+TD413 attempt 4 ADORE Y Y Y Y Y
+TD819 ? ␅
+TD298331 ␆
+TD196 ? 
+TD193 question done
+TD756 > ␅
+TD475966 ␆*
+TD155 > *
+TD1633727 try? ␅
+TD2376597 ␆2
+TD133 try? 2
+TD658 questioning: ["tapes", "#1"]
+TD661 #1 _A_E_ ~S -ABDEGILNORV  📋 "tapes" ? ␅
+TD2558243 ␆/it
+TD95 #1 _A_E_ ~S -ABDEGILNORV  📋 "tapes" ? /it
+TD216 attempt 0 TAPES Y Y Y Y Y
+TD95 #4 LI_ER -ABDEGINORSV  📋 "tapes" ? ␅
+TD6679959 ␆LI_ER ~ T
+TD146 #4 LI_ER -ABDEGINORSV  📋 "tapes" ? LI_ER ~ T
+TD386 attempt 3 TAPES m n n Y n
+TD547 ? ␅
+TD663581 ␆
+TD174 ? 
+TD209 question done
+TD924 > ␅
+TD495614 ␆*
+TD150 > *
+TD1180157 questioning: ["liter", "#4"]
+TD194 #4 LI_ER ~T -ABDGINOPRSV  📋 "liter" ? ␅
+TD2512375 ␆/it
+TD118 #4 LI_ER ~T -ABDGINOPRSV  📋 "liter" ? /it
+TD332 attempt 3 LITER Y Y Y Y Y
+TD640 ? ␅
+TD278582 ␆
+TD165 ? 
+TD229 question done
+TD37552 📋> ␅
+TD3946204 ␆squareword.org 1641: 8 guesses
+TD98 📋> squareword.org 1641: 8 guesses
+TD17 📋> ␅
+TD107 ␆
+TD12 📋> 
+TD9 📋> ␅
+TD32 ␆🟨🟩🟨🟩🟨
+TD9 📋> 🟨🟩🟨🟩🟨
+TD8 📋> ␅
+TD28 ␆🟩🟩🟩🟩🟩
+TD12 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD27 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD28 ␆🟩🟩🟨🟩🟩
+TD9 📋> 🟩🟩🟨🟩🟩
+TD8 📋> ␅
+TD27 ␆🟩🟨🟨🟨🟩
+TD10 📋> 🟩🟨🟨🟨🟩
+TD8 📋> ␅
+TD26 ␆
+TD10 📋> 
+TD8 📋> ␅
+TD28 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> ␅
+TD694380 ␆#squareword #squareword1641
+TD113 📋> #squareword #squareword1641
+TD35 📋> ␅
+TD311529 ␄
+TD330 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1641: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1641"}
+TD3113 result: "squareword.org 1641: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1641"
+TD226 📆 2026-07-30 ? ␅
+TD451284 ␆
+TD143 📆 2026-07-30 ? 
