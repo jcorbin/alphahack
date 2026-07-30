@@ -1,0 +1,156 @@
+T205.51793325899052 now: 2026-07-30T07:56:32EDT
+TD274 site: https://www.merriam-webster.com/games/quordle/#/
+TD48 wordlist: nwl2023.txt
+TD14 num_words: 4
+TD234  ...␅
+TD555214 ␆
+TD115  ...
+TD427754 > ␅
+TD2269300 ␆*
+TD127 > *
+TD51436 ? ␅
+TD3025066 ␆1
+TD105 ? 1
+TD190 questioning: paseo
+TD243 Classic #1 _____? ␅
+TD42220080 ␆nMnnM
+TD132 Classic #1 _____? nMnnM
+TD550 attempt: 0 PASEO n m n n m
+TD137 Classic #2 _____? ␅
+TD1512845 ␆nnnYn
+TD74 Classic #2 _____? nnnYn
+TD219 attempt: 1 PASEO n n n Y n
+TD81 Classic #3 _____? ␅
+TD1663672 ␆Mnnnn
+TD92 Classic #3 _____? Mnnnn
+TD262 attempt: 2 PASEO m n n n n
+TD116 Classic #4 _____? ␅
+TD1498384 ␆Mnnnn
+TD102 Classic #4 _____? Mnnnn
+TD263 attempt: 3 PASEO m n n n n
+TD457025 > ␅
+TD810409 ␆*
+TD87 > *
+TD4308 ? ␅
+TD1011184 ␆1
+TD55 ? 1
+TD107 questioning: wired
+TD117 Classic #1 _____ ~AO -EPS? ␅
+TD4027258 ␆nnnnM
+TD119 Classic #1 _____ ~AO -EPS? nnnnM
+TD372 attempt: 0 WIRED n n n n m
+TD192 Classic #2 ___E_ -AOPS? ␅
+TD1965763 ␆nMMYM
+TD151 Classic #2 ___E_ -AOPS? nMMYM
+TD439 attempt: 1 WIRED n m m Y m
+TD228 Classic #3 _____ ~P -AEOS? ␅
+TD1109424 ␆nnnnn
+TD109 Classic #3 _____ ~P -AEOS? nnnnn
+TD262 attempt: 2 WIRED n n n n n
+TD137 Classic #4 _____ ~P -AEOS? ␅
+TD1197271 ␆nnnnn
+TD109 Classic #4 _____ ~P -AEOS? nnnnn
+TD272 attempt: 3 WIRED n n n n n
+TD476333 > ␅
+TD662979 ␆*
+TD101 > *
+TD641 ? ␅
+TD2324553 ␆1
+TD99 ? 1
+TD157 questioning: idler
+TD177 Classic #1 _____ ~ADO -EIPRSW? ␅
+TD3470039 ␆nMMnn
+TD102 Classic #1 _____ ~ADO -EIPRSW? nMMnn
+TD274 attempt: 0 IDLER n m m n n
+TD171 Classic #2 ___E_ ~DIR -AOPSW? ␅
+TD1215304 ␆YYYYY
+TD112 Classic #2 ___E_ ~DIR -AOPSW? YYYYY
+TD312 attempt: 1 IDLER Y Y Y Y Y
+TD192 Classic #3 _____ ~P -ADEIORSW? ␅
+TD1623419 ␆nnnnn
+TD130 Classic #3 _____ ~P -ADEIORSW? nnnnn
+TD376 attempt: 2 IDLER n n n n n
+TD237 Classic #4 _____ ~P -ADEIORSW? ␅
+TD1378692 ␆nnMnn
+TD152 Classic #4 _____ ~P -ADEIORSW? nnMnn
+TD362 attempt: 3 IDLER n n m n n
+TD399742 > ␅
+TD829252 ␆*
+TD114 > *
+TD1218 ? ␅
+TD1183062 ␆1
+TD72 ? 1
+TD144 questioning: humpy
+TD144 Classic #1 _____ ~ADLO -EIPRSW? ␅
+TD2812794 ␆nnMnn
+TD117 Classic #1 _____ ~ADLO -EIPRSW? nnMnn
+TD257 attempt: 0 HUMPY n n m n n
+TD121 Classic #3 _____ ~P -ADEILORSW? ␅
+TD2080315 ␆MMMMn
+TD105 Classic #3 _____ ~P -ADEILORSW? MMMMn
+TD294 attempt: 2 HUMPY m m m m n
+TD152 Classic #4 _____ ~LP -ADEIORSW? ␅
+TD1504595 ␆nYYYY
+TD103 Classic #4 _____ ~LP -ADEIORSW? nYYYY
+TD217 attempt: 3 HUMPY n Y Y Y Y
+TD387531 > ␅
+TD769322 ␆*
+TD104 > *
+TD477 questioning: modal
+TD198 Classic #1 _____ ~ADLMO -EHIPRSUWY? ␅
+TD3735782 ␆YYYYY
+TD124 Classic #1 _____ ~ADLMO -EHIPRSUWY? YYYYY
+TD356 attempt: 0 MODAL Y Y Y Y Y
+TD218 Classic #3 _____ ~HMPU -ADEILORSWY? ␅
+TD1675502 ␆Mnnnn
+TD74 Classic #3 _____ ~HMPU -ADEILORSWY? Mnnnn
+TD198 attempt: 2 MODAL m n n n n
+TD98 Classic #4 _UMPY ~L -ADEHIORSW? ␅
+TD1471114 ␆MnnnM
+TD94 Classic #4 _UMPY ~L -ADEHIORSW? MnnnM
+TD248 attempt: 3 MODAL m n n n m
+TD269602 > ␅
+TD733005 ␆*
+TD120 > *
+TD475 questioning: lumpy
+TD226 Classic #3 _____ ~HMPU -ADEILORSWY? ␅
+TD3574769 ␆nMMMn
+TD137 Classic #3 _____ ~HMPU -ADEILORSWY? nMMMn
+TD322 attempt: 2 LUMPY n m m m n
+TD177 Classic #4 _UMPY ~L -ADEHIORSW? ␅
+TD1316663 ␆YYYYY
+TD94 Classic #4 _UMPY ~L -ADEHIORSW? YYYYY
+TD236 attempt: 3 LUMPY Y Y Y Y Y
+TD138188 > ␅
+TD752229 ␆*
+TD148 > *
+TD649 ? ␅
+TD1449351 ␆1
+TD106 ? 1
+TD191 questioning: chump
+TD196 Classic #3 _____ ~HMPU -ADEILORSWY? ␅
+TD2849819 ␆YYYYY
+TD95 Classic #3 _____ ~HMPU -ADEILORSWY? YYYYY
+TD200 attempt: 2 CHUMP Y Y Y Y Y
+TD88 📋> ␅
+TD4974877 ␆🙂 Daily Quordle 1648
+TD45 📋> 🙂 Daily Quordle 1648
+TD5 📋> ␅
+TD20 ␆5️⃣3️⃣
+TD3 📋> 5️⃣3️⃣
+TD2 📋> ␅
+TD5 ␆7️⃣6️⃣
+TD2 📋> 7️⃣6️⃣
+TD2 📋> ␅
+TD14 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD256398 ␆
+TD154 📋> 
+TD29 📋> ␅
+TD94927 ␄
+TD196 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1648\n5\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2916 result: "\ud83d\ude42 Daily Quordle 1648\n5\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD137 📆 2026-07-30 ? ␅
+TD137747 ␆
+TD56 📆 2026-07-30 ? 
