@@ -1,0 +1,172 @@
+T528.2108399159915 now: 2026-07-30T07:45:44EDT
+TD170 site: dontwordle.com
+TD32 wordlist: nwl2023.txt
+TD62  ...␅
+TD1602572 ␆
+TD208  ...
+TD205 1> ␅
+TD1988809 ␆* -bot 10
+TD319 1> * -bot 10
+TD209619 ? ␅
+TD1862633 ␆3
+TD178 ? 3
+TD515 📋 "tears" ? ␅
+TD12779810 ␆nMnMn
+TD142 📋 "tears" ? nMnMn
+TD915 tried: TEARS n m n m n
+TD321 2> ␅
+TD1059895 ␆*
+TD46 2> *
+TD124837 ? ␅
+TD1016056 ␄
+TD163 <EOF>
+TD156 2> ␅
+TD1100456 ␆undo
+TD160 2> undo
+TD219 undo
+TD213 1> ␅
+TD7373714 ␆* :v [tears] -bot 10
+TD127 1> * :v [tears] -bot 10
+TD124970 ? ␅
+TD1014904 ␆1
+TD103 ? 1
+TD285 📋 "lingo" ? ␅
+TD4174317 ␆nYnnn
+TD112 📋 "lingo" ? nYnnn
+TD268 tried: LINGO n Y n n n
+TD295 2> ␅
+TD2885775 ␆undo
+TD206 2> undo
+TD306 undo
+TD290 1> ␅
+TD3997358 ␆*
+TD175 1> *
+TD113170 ? ␅
+TD1050690 ␆1
+TD112 ? 1
+TD307 📋 "babka" ? ␅
+TD5544250 ␆nnnnn
+TD91 📋 "babka" ? nnnnn
+TD194 tried: BABKA n n n n n
+TD196 2> ␅
+TD435063 ␆*
+TD123 2> *
+TD103547 ? ␅
+TD1011352 ␆1
+TD47 ? 1
+TD100 📋 "woopy" ? ␅
+TD6076601 ␆nnnMn
+TD104 📋 "woopy" ? nnnMn
+TD249 tried: WOOPY n n n m n
+TD241 3> ␅
+TD5466293 ␆undo
+TD165 3> undo
+TD258 undo
+TD302 2> ␅
+TD942305 ␆*
+TD106 2> *
+TD104478 ? ␅
+TD1554817 ␆1
+TD84 ? 1
+TD130 📋 "stots" ? ␅
+TD4686542 ␆nnnnn
+TD192 📋 "stots" ? nnnnn
+TD336 tried: STOTS n n n n n
+TD357 3> ␅
+TD426041 ␆*
+TD105 3> *
+TD106632 ? ␅
+TD820500 ␆1
+TD125 ? 1
+TD315 📋 "mummy" ? ␅
+TD7895071 ␆nnnnn
+TD129 📋 "mummy" ? nnnnn
+TD339 tried: MUMMY n n n n n
+TD355 4> ␅
+TD751805 ␆*
+TD114 4> *
+TD193320 📋 "grrrl" ? ␅
+TD5962672 ␆nMMnn
+TD92 📋 "grrrl" ? nMMnn
+TD211 tried: GRRRL n m m n n
+TD246 5> ␅
+TD666152 ␆*
+TD101 5> *
+TD191970 ? ␅
+TD1275462 ␆1
+TD142 ? 1
+TD397 📋 "ricin" ? ␅
+TD12493756 ␄
+TD190 <EOF>
+TD332 5> ␅
+TD1167387 ␆* -sans
+TD217 5> * -sans
+TD109200 ? ␅
+TD2886637 ␆1
+TD124 ? 1
+TD330 📋 "refer" ? ␅
+TD5113553 ␆YnnYY
+TD88 📋 "refer" ? YnnYY
+TD209 tried: REFER Y n n Y Y
+TD230 6> ␅
+TD671858 ␆*
+TD77 6> *
+TD199946 ? ␅
+TD4386892 ␆3
+TD129 ? 3
+TD328 📋 "river" ? ␅
+TD3421915 ␆YYnYY
+TD119 📋 "river" ? YYnYY
+TD258 tried: RIVER Y Y n Y Y
+TD305 📋> ␅
+TD3078970 ␆Don't Wordle 1528 - SURVIVED
+TD149 📋> Don't Wordle 1528 - SURVIVED
+TD21 📋> ␅
+TD67 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD15 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD12 📋> ␅
+TD25 ␆⬜⬜⬜⬜⬜5942
+TD11 📋> ⬜⬜⬜⬜⬜5942
+TD10 📋> ␅
+TD21 ␆⬜⬜⬜⬜⬜1245
+TD9 📋> ⬜⬜⬜⬜⬜1245
+TD9 📋> ␅
+TD19 ␆⬜⬜⬜⬜⬜492
+TD10 📋> ⬜⬜⬜⬜⬜492
+TD9 📋> ␅
+TD23 ␆⬜🟨🟨⬜⬜6
+TD10 📋> ⬜🟨🟨⬜⬜6
+TD9 📋> ␅
+TD21 ␆🟩⬜⬜🟩🟩4
+TD10 📋> 🟩⬜⬜🟩🟩4
+TD9 📋> ␅
+TD22 ␆🟩🟩⬜🟩🟩3
+TD14 📋> 🟩🟩⬜🟩🟩3
+TD14 📋> ␅
+TD27 ␆Undos used: 3
+TD13 📋> Undos used: 3
+TD15 📋> ␅
+TD27 ␆
+TD13 📋> 
+TD14 📋> ␅
+TD215 ␆  3 words remaining
+TD59 📋>   3 words remaining
+TD39 📋> ␅
+TD59 ␆x 10 unused letters
+TD143 📋> x 10 unused letters
+TD28 📋> ␅
+TD67 ␆= 30 total score
+TD16 📋> = 30 total score
+TD15 📋> ␅
+TD32 ␆
+TD15 📋> 
+TD10 📋> ␅
+TD272042 ␆https://dontwordle.com
+TD131 📋> https://dontwordle.com
+TD18 📋> ␅
+TD154414 ␄
+TD206 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1528 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5942\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1245\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c492\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c6\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe94\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe93\nUndos used: 3\n\n  3 words remaining\nx 10 unused letters\n= 30 total score\n\nhttps://dontwordle.com"}
+TD2277 result: "Don't Wordle 1528 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5942\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1245\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c492\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c6\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe94\n\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe93\nUndos used: 3\n\n  3 words remaining\nx 10 unused letters\n= 30 total score\n\nhttps://dontwordle.com"
+TD125 📆 2026-07-30 ? ␅
+TD129310 ␆
+TD119 📆 2026-07-30 ? 
