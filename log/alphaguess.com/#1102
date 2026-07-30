@@ -1,0 +1,98 @@
+T453.9406795099785 now: 2026-07-30T07:44:29EDT
+TD195 site: alphaguess.com
+TD173004 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 9d4e85d4b2462e7184f995720b320ca78b7d5170
+TD115  ...␅
+TD10584243 ␆
+TD86  ...
+TD189 [0 : 98147 : 196518] mac? ␅
+TD2978619 ␆b
+TD149 [0 : 98147 : 196518] mac? b
+TD209 progress: -1 98147 mac
+TD246 [0 : 47378 : 98147] dis? ␅
+TD1737219 ␆b
+TD126 [0 : 47378 : 98147] dis? b
+TD146 progress: -1 47378 dis
+TD165 [0 : 23680 : 47378] camp? ␅
+TD1501645 ␆b
+TD127 [0 : 23680 : 47378] camp? b
+TD145 progress: -1 23680 camp
+TD152 [0 : 11763 : 23680] back? ␅
+TD5807612 ␆a
+TD130 [0 : 11763 : 23680] back? a
+TD150 progress: 1 11763 back
+TD151 [11764 : 17714 : 23680] blind? ␅
+TD3777597 ␆b
+TD127 [11764 : 17714 : 23680] blind? b
+TD147 progress: -1 17714 blind
+TD162 [11764 : 13801 : 17714] be? ␅
+TD1809643 ␆a
+TD103 [11764 : 13801 : 17714] be? a
+TD118 progress: 1 13801 be
+TD217 [13802 : 15757 : 17714] bewrap? ␅
+TD2172006 ␆b
+TD56 [13802 : 15757 : 17714] bewrap? b
+TD63 progress: -1 15757 bewrap
+TD98 [13802 : 14778 : 15757] bel? ␅
+TD1560397 ␆a
+TD201 [13802 : 14778 : 15757] bel? a
+TD216 progress: 1 14778 bel
+TD758 [14779 : 15267 : 15757] berascal? ␅
+TD1707647 ␆a
+TD107 [14779 : 15267 : 15757] berascal? a
+TD133 progress: 1 15267 berascal
+TD160 [15268 : 15377 : 15757] bes? ␅
+TD1460207 ␆a
+TD171 [15268 : 15377 : 15757] bes? a
+TD180 progress: 1 15377 bes
+TD181 [15378 : 15521 : 15757] best? ␅
+TD1544388 ␆a
+TD105 [15378 : 15521 : 15757] best? a
+TD257 progress: 1 15521 best
+TD200 [15522 : 15583 : 15757] bet? ␅
+TD1430798 ␆a
+TD122 [15522 : 15583 : 15757] bet? a
+TD133 progress: 1 15583 bet
+TD303 [15584 : 15670 : 15757] bettor? ␅
+TD2533460 ␆b
+TD85 [15584 : 15670 : 15757] bettor? b
+TD99 progress: -1 15670 bettor
+TD234 [15584 : 15626 : 15670] betide? ␅
+TD3507045 ␆a
+TD87 [15584 : 15626 : 15670] betide? a
+TD100 progress: 1 15626 betide
+TD127 [15627 : 15643 : 15670] betray? ␅
+TD1345447 ␆a
+TD82 [15627 : 15643 : 15670] betray? a
+TD94 progress: 1 15643 betray
+TD145 [15644 : 15651 : 15670] betroth? ␅
+TD3193971 ␆a
+TD132 [15644 : 15651 : 15670] betroth? a
+TD138 progress: 1 15651 betroth
+TD638 [15652 : 15662 : 15670] better? ␅
+TD6856840 ␆it
+TD128 [15652 : 15662 : 15670] better? it
+TD155 progress: 0 15662 better
+TD47 [15652 : 15662 : 15670] <Done>.
+TD142 📋> ␅
+TD2983560 ␆🧩 Puzzle #1102
+TD93 📋> 🧩 Puzzle #1102
+TD27 📋> ␅
+TD65 ␆🤔 17 guesses
+TD24 📋> 🤔 17 guesses
+TD36 📋> ␅
+TD40 ␆⏱️ 36s
+TD22 📋> ⏱️ 36s
+TD18 📋> ␅
+TD309937 ␆🔗 alphaguess.com/1102
+TD56 📋> 🔗 alphaguess.com/1102
+TD11 📋> ␅
+TD139287 ␄
+TD232 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1102\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 36s\n\ud83d\udd17 alphaguess.com/1102"}
+TD161 result: "\ud83e\udde9 Puzzle #1102\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 36s\n\ud83d\udd17 alphaguess.com/1102"
+TD48 result puzzle: 1102
+TD26 result guesses: 17
+TD23 result time: 36s
+TD22 result link: alphaguess.com/1102
+TD134 📆 2026-07-30 ? ␅
+TD233778 ␆
+TD102 📆 2026-07-30 ? 
