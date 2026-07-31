@@ -1,0 +1,172 @@
+T1715.2551526429997 now: 2026-07-31T08:10:53EDT
+TD179 site: dontwordle.com
+TD34 wordlist: nwl2023.txt
+TD66  ...␅
+TD5567920 ␆
+TD93  ...
+TD117 1> ␅
+TD1310475 ␆*
+TD116 1> *
+TD228359 ? ␅
+TD884721 ␄
+TD149 <EOF>
+TD131 1> ␅
+TD2649796 ␆* -bot 10
+TD127 1> * -bot 10
+TD165340 ? ␅
+TD4640975 ␆8
+TD104 ? 8
+TD226 📋 "slate" ? ␅
+TD8546842 ␆nnnMn
+TD91 📋 "slate" ? nnnMn
+TD630 tried: SLATE n n n m n
+TD251 2> ␅
+TD23064394 ␆undo
+TD69 2> undo
+TD100 undo
+TD91 1> ␅
+TD9353456 ␆* :v [slate] -bot 10
+TD87 1> * :v [slate] -bot 10
+TD184078 ? ␅
+TD1087847 ␆1
+TD69 ? 1
+TD195 📋 "rhino" ? ␅
+TD4247157 ␆MnMnM
+TD103 📋 "rhino" ? MnMnM
+TD323 tried: RHINO m n m n m
+TD352 2> ␅
+TD778441 ␆undo
+TD119 2> undo
+TD199 undo
+TD200 1> ␅
+TD2346914 ␆*
+TD163 1> *
+TD127510 ? ␅
+TD163214 ␆1
+TD91 ? 1
+TD244 📋 "bacca" ? ␅
+TD4957376 ␆Mnnnn
+TD104 📋 "bacca" ? Mnnnn
+TD274 tried: BACCA m n n n n
+TD263 2> ␅
+TD852752 ␆undo
+TD102 2> undo
+TD169 undo
+TD180 1> ␅
+TD4302283 ␆*
+TD120 1> *
+TD120820 ? ␅
+TD104505 ␆1
+TD151 ? 1
+TD338 📋 "pzazz" ? ␅
+TD3979849 ␆nnnnn
+TD118 📋 "pzazz" ? nnnnn
+TD250 tried: PZAZZ n n n n n
+TD257 2> ␅
+TD731709 ␆*
+TD92 2> *
+TD110209 ? ␅
+TD883663 ␆1
+TD108 ? 1
+TD225 📋 "edged" ? ␅
+TD3519012 ␆nnnnn
+TD44 📋 "edged" ? nnnnn
+TD90 tried: EDGED n n n n n
+TD94 3> ␅
+TD462498 ␆*
+TD111 3> *
+TD108115 ? ␅
+TD789356 ␆1
+TD138 ? 1
+TD340 📋 "lusus" ? ␅
+TD4165890 ␆nnnnn
+TD106 📋 "lusus" ? nnnnn
+TD232 tried: LUSUS n n n n n
+TD269 4> ␅
+TD543615 ␆*
+TD82 4> *
+TD212364 📋 "myrrh" ? ␅
+TD5807825 ␆nnMnn
+TD101 📋 "myrrh" ? nnMnn
+TD215 tried: MYRRH n n m n n
+TD310 5> ␅
+TD438655 ␆*
+TD106 5> *
+TD218183 ? ␅
+TD946487 ␆1
+TD107 ? 1
+TD304 📋 "crick" ? ␅
+TD4831835 ␆nYMnn
+TD134 📋 "crick" ? nYMnn
+TD281 tried: CRICK n Y m n n
+TD456 6> ␅
+TD1206567 ␆undo
+TD103 6> undo
+TD161 undo
+TD449 5> ␅
+TD5759969 ␆*
+TD113 5> *
+TD225744 ? ␅
+TD1711035 ␆2
+TD108 ? 2
+TD217 📋 "ricin" ? ␅
+TD4030103 ␆MnnYn
+TD125 📋 "ricin" ? MnnYn
+TD241 tried: RICIN m n n Y n
+TD305 6> ␅
+TD1100499 ␆undo
+TD129 6> undo
+TD188 undo
+TD600 5> ␅
+TD2682477 ␆*
+TD92 5> *
+TD217399 ? ␅
+TD937297 ␆3
+TD99 ? 3
+TD269 📋 "wrick" ? ␅
+TD4339334 ␆nYMnn
+TD114 📋 "wrick" ? nYMnn
+TD271 tried: WRICK n Y m n n
+TD405 6> ␅
+TD3492004 ␆/res
+TD105 6> /res
+TD237 📋> ␅
+TD2330162 ␆Don't Wordle 1529 - ELIMINATED
+TD60 📋> Don't Wordle 1529 - ELIMINATED
+TD11 📋> ␅
+TD34 ␆Well technically I didn't Wordle!
+TD6 📋> Well technically I didn't Wordle!
+TD5 📋> ␅
+TD12 ␆⬜⬜⬜⬜⬜6291
+TD5 📋> ⬜⬜⬜⬜⬜6291
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜2058
+TD4 📋> ⬜⬜⬜⬜⬜2058
+TD4 📋> ␅
+TD8 ␆⬜⬜⬜⬜⬜372
+TD4 📋> ⬜⬜⬜⬜⬜372
+TD4 📋> ␅
+TD8 ␆⬜⬜🟨⬜⬜37
+TD4 📋> ⬜⬜🟨⬜⬜37
+TD4 📋> ␅
+TD9 ␆⬜🟩🟨⬜⬜1
+TD4 📋> ⬜🟩🟨⬜⬜1
+TD4 📋> ␅
+TD9 ␆⬛⬛⬛⬛⬛
+TD4 📋> ⬛⬛⬛⬛⬛
+TD4 📋> ␅
+TD9 ␆Undos used: 5
+TD15 📋> Undos used: 5
+TD7 📋> ␅
+TD8 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD254177 ␆https://dontwordle.com
+TD96 📋> https://dontwordle.com
+TD18 📋> ␅
+TD159792 ␄
+TD99 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Don't Wordle 1529 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6291\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2058\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c372\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c37\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c1\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5\n\nhttps://dontwordle.com"}
+TD948 result: "Don't Wordle 1529 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6291\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2058\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c372\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c37\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c1\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5\n\nhttps://dontwordle.com"
+TD73 📆 2026-07-31 ? ␅
+TD247341 ␆
+TD133 📆 2026-07-31 ? 
