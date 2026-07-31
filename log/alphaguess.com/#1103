@@ -1,0 +1,78 @@
+T428.4361116199998 now: 2026-07-31T07:49:26EDT
+TD137 site: alphaguess.com
+TD166237 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 76369bf4da8958fc5126d98cb0eccaa19762a13e
+TD91  ...␅
+TD8197574 ␆
+TD121  ...
+TD227 [0 : 98147 : 196518] mac? ␅
+TD2620071 ␆b
+TD84 [0 : 98147 : 196518] mac? b
+TD98 progress: -1 98147 mac
+TD142 [0 : 47378 : 98147] dis? ␅
+TD1703815 ␆b
+TD130 [0 : 47378 : 98147] dis? b
+TD129 progress: -1 47378 dis
+TD137 [0 : 23680 : 47378] camp? ␅
+TD1434186 ␆a
+TD106 [0 : 23680 : 47378] camp? a
+TD120 progress: 1 23680 camp
+TD128 [23681 : 35522 : 47378] convention? ␅
+TD1466390 ␆b
+TD113 [23681 : 35522 : 47378] convention? b
+TD128 progress: -1 35522 convention
+TD345 [23681 : 29600 : 35522] circuit? ␅
+TD1941222 ␆b
+TD113 [23681 : 29600 : 35522] circuit? b
+TD133 progress: -1 29600 circuit
+TD192 [23681 : 26633 : 29600] cep? ␅
+TD1555430 ␆b
+TD148 [23681 : 26633 : 29600] cep? b
+TD167 progress: -1 26633 cep
+TD183 [23681 : 25102 : 26633] carp? ␅
+TD1442671 ␆b
+TD179 [23681 : 25102 : 26633] carp? b
+TD167 progress: -1 25102 carp
+TD165 [23681 : 24226 : 25102] cap? ␅
+TD1483129 ␆a
+TD133 [23681 : 24226 : 25102] cap? a
+TD186 progress: 1 24226 cap
+TD174 [24227 : 24661 : 25102] carbon? ␅
+TD1383069 ␆a
+TD193 [24227 : 24661 : 25102] carbon? a
+TD212 progress: 1 24661 carbon
+TD176 [24662 : 24861 : 25102] care? ␅
+TD1597860 ␆b
+TD97 [24662 : 24861 : 25102] care? b
+TD101 progress: -1 24861 care
+TD327 [24662 : 24761 : 24861] carcels? ␅
+TD1391497 ␆a
+TD139 [24662 : 24761 : 24861] carcels? a
+TD189 progress: 1 24761 carcels
+TD217 [24762 : 24779 : 24861] card? ␅
+TD3395516 ␆it
+TD101 [24762 : 24779 : 24861] card? it
+TD146 progress: 0 24779 card
+TD47 [24762 : 24779 : 24861] <Done>.
+TD137 📋> ␅
+TD3128884 ␆🧩 Puzzle #1103
+TD411 📋> 🧩 Puzzle #1103
+TD38 📋> ␅
+TD130 ␆🤔 12 guesses
+TD11 📋> 🤔 12 guesses
+TD9 📋> ␅
+TD21 ␆⏱️ 17s
+TD9 📋> ⏱️ 17s
+TD8 📋> ␅
+TD234005 ␆🔗 alphaguess.com/1103
+TD120 📋> 🔗 alphaguess.com/1103
+TD34 📋> ␅
+TD175517 ␄
+TD260 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1103\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/1103"}
+TD182 result: "\ud83e\udde9 Puzzle #1103\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/1103"
+TD51 result puzzle: 1103
+TD36 result guesses: 12
+TD63 result time: 17s
+TD34 result link: alphaguess.com/1103
+TD159 📆 2026-07-31 ? ␅
+TD230650 ␆
+TD154 📆 2026-07-31 ? 
