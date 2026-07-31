@@ -1,0 +1,215 @@
+T494.3346014790004 now: 2026-07-31T08:30:48EDT
+TD152 site: squareword.org
+TD42 wordlist: nwl2023.txt
+TD58  ...␅
+TD6570635 ␆
+TD48  ...
+TD37 🧩  ? ␅
+TD4027956 ␆#1642
+TD92 🧩  ? #1642
+TD280 puzzle_id: #1642
+TD423 > ␅
+TD1999329 ␆*
+TD100 > *
+TD250887 try? ␅
+TD876963 ␆1
+TD161 try? 1
+TD470 questioning: ["stela", "#5"]
+TD334 #1 <IndexError>  📋 "stela" ? ␅
+TD5393860 ␆_____ ~ TL
+TD123 #1 <IndexError>  📋 "stela" ? _____ ~ TL
+TD1231 attempt 0 STELA n m n m n
+TD195 #2 <IndexError>  📋 "stela" ? ␅
+TD1918983 ␆_____ ~ TEL
+TD221 #2 <IndexError>  📋 "stela" ? _____ ~ TEL
+TD742 attempt 1 STELA n m m m n
+TD298 #3 <IndexError>  📋 "stela" ? ␅
+TD2553163 ␆_T___ ~ E
+TD119 #3 <IndexError>  📋 "stela" ? _T___ ~ E
+TD392 attempt 2 STELA n Y m n n
+TD191 #4 <IndexError>  📋 "stela" ? ␅
+TD1659874 ␆__E__ ~ A
+TD134 #4 <IndexError>  📋 "stela" ? __E__ ~ A
+TD395 attempt 3 STELA n n Y n m
+TD166 #5 <IndexError>  📋 "stela" ? ␅
+TD2376004 ␆_____ ~ SE
+TD83 #5 <IndexError>  📋 "stela" ? _____ ~ SE
+TD235 attempt 4 STELA m n m n n
+TD377 ? ␅
+TD696667 ␆
+TD104 ? 
+TD161 question done
+TD326 > ␅
+TD2948451 ␆*
+TD167 > *
+TD852586 try? ␅
+TD6662229 ␄
+TD156 <EOF>
+TD441 > ␅
+TD1305555 ␆* 1
+TD98 > * 1
+TD7444 try? ␅
+TD1313346 ␆1
+TD146 try? 1
+TD418 questioning: ["clout", "#1"]
+TD605 #1 _____ ~LT -AES  📋 "clout" ? ␅
+TD5684358 ␆CLO__ ~ T
+TD132 #1 _____ ~LT -AES  📋 "clout" ? CLO__ ~ T
+TD411 attempt 0 CLOUT Y Y Y n m
+TD213 #2 _____ ~ELT -AS  📋 "clout" ? ␅
+TD1136421 ␆.
+TD129 #2 _____ ~ELT -AS  📋 "clout" ? .
+TD709 attempt 1 CLOUT n m n n m
+TD226 #3 _T___ ~E -ALS  📋 "clout" ? ␅
+TD1132943 ␆.
+TD163 #3 _T___ ~E -ALS  📋 "clout" ? .
+TD583 attempt 2 CLOUT n n n n n
+TD243 #4 __E__ ~A -LST  📋 "clout" ? ␅
+TD1148726 ␆.
+TD135 #4 __E__ ~A -LST  📋 "clout" ? .
+TD464 attempt 3 CLOUT n n n n n
+TD279 #5 _____ ~ES -ALT  📋 "clout" ? ␅
+TD925606 ␆.
+TD195 #5 _____ ~ES -ALT  📋 "clout" ? .
+TD445 attempt 4 CLOUT n n n n n
+TD692 ? ␅
+TD173814 ␆
+TD141 ? 
+TD188 question done
+TD756 > ␅
+TD751113 ␆*
+TD107 > *
+TD905728 questioning: ["cloth", "#1"]
+TD174 #1 CLO__ ~T -AESU  📋 "cloth" ? ␅
+TD4220828 ␆/it
+TD147 #1 CLO__ ~T -AESU  📋 "cloth" ? /it
+TD415 attempt 0 CLOTH Y Y Y Y Y
+TD154 #2 _____ ~ELT -ACOSU  📋 "cloth" ? ␅
+TD1363471 ␆.
+TD162 #2 _____ ~ELT -ACOSU  📋 "cloth" ? .
+TD560 attempt 1 CLOTH n m n m n
+TD259 #3 _T___ ~E -ACLOSTU  📋 "cloth" ? ␅
+TD2802039 ␆_T___ ~ EH
+TD63 #3 _T___ ~E -ACLOSTU  📋 "cloth" ? _T___ ~ EH
+TD177 attempt 2 CLOTH n n n n m
+TD110 #4 __E__ ~A -CLOSTU  📋 "cloth" ? ␅
+TD2241403 ␆__E__ ~ AH
+TD121 #4 __E__ ~A -CLOSTU  📋 "cloth" ? __E__ ~ AH
+TD313 attempt 3 CLOTH n n n n m
+TD179 #5 _____ ~ES -ACLOTU  📋 "cloth" ? ␅
+TD949525 ␆.
+TD103 #5 _____ ~ES -ACLOTU  📋 "cloth" ? .
+TD286 attempt 4 CLOTH n n n n n
+TD499 ? ␅
+TD146730 ␆
+TD97 ? 
+TD148 question done
+TD494 > ␅
+TD438738 ␆*
+TD102 > *
+TD692571 questioning: ["litre", "#2"]
+TD191 #2 _____ ~ELT -ACHOSU  📋 "litre" ? ␅
+TD3631784 ␆/it
+TD214 #2 _____ ~ELT -ACHOSU  📋 "litre" ? /it
+TD521 attempt 1 LITRE Y Y Y Y Y
+TD264 #3 _T___ ~EH -ACLOSTU  📋 "litre" ? ␅
+TD3340103 ␆_T___ ~ EHR
+TD132 #3 _T___ ~EH -ACLOSTU  📋 "litre" ? _T___ ~ EHR
+TD419 attempt 2 LITRE n n n m m
+TD254 #4 __E__ ~AH -CLOSTU  📋 "litre" ? ␅
+TD4041954 ␆.
+TD113 #4 __E__ ~AH -CLOSTU  📋 "litre" ? .
+TD388 attempt 3 LITRE n n n n n
+TD164 #5 _____ ~ES -ACHLOTU  📋 "litre" ? ␅
+TD3132863 ␆_____ ~ SER
+TD132 #5 _____ ~ES -ACHLOTU  📋 "litre" ? _____ ~ SER
+TD396 attempt 4 LITRE n n n m m
+TD729 ? ␅
+TD334239 ␆
+TD115 ? 
+TD179 question done
+TD582 > ␅
+TD1279527 ␆*
+TD117 > *
+TD2087026 questioning: ["ether", "#3"]
+TD175 #3 _T___ ~EHR -ACILOSTU  📋 "ether" ? ␅
+TD3389740 ␆/it
+TD117 #3 _T___ ~EHR -ACILOSTU  📋 "ether" ? /it
+TD330 attempt 2 ETHER Y Y Y Y Y
+TD142 #4 __E__ ~AH -CEILORSTU  📋 "ether" ? ␅
+TD1455588 ␆.
+TD130 #4 __E__ ~AH -CEILORSTU  📋 "ether" ? .
+TD444 attempt 3 ETHER n n m n n
+TD179 #5 _____ ~ERS -ACHILOTU  📋 "ether" ? ␅
+TD906234 ␆.
+TD118 #5 _____ ~ERS -ACHILOTU  📋 "ether" ? .
+TD396 attempt 4 ETHER m n n m m
+TD664 ? ␅
+TD183418 ␆
+TD122 ? 
+TD151 question done
+TD644 > ␅
+TD418866 ␆*
+TD222 > *
+TD1522420 questioning: ["ahead", "#4"]
+TD177 #4 __E__ ~AH -CEILORSTU  📋 "ahead" ? ␅
+TD3265347 ␆/it
+TD234 #4 __E__ ~AH -CEILORSTU  📋 "ahead" ? /it
+TD343 attempt 3 AHEAD Y Y Y Y Y
+TD146 #5 _____ ~ERS -ACHILOTU  📋 "ahead" ? ␅
+TD5776029 ␆_____ ~ SERD
+TD101 #5 _____ ~ERS -ACHILOTU  📋 "ahead" ? _____ ~ SERD
+TD325 attempt 4 AHEAD n n m n m
+TD598 ? ␅
+TD317286 ␆
+TD297 ? 
+TD210 question done
+TD392 > ␅
+TD816929 ␆*
+TD205 > *
+TD1028888 questioning: ["nerds", "#5"]
+TD196 #5 _____ ~DERS -ACHILOTU  📋 "nerds" ? ␅
+TD3258264 ␆/it
+TD104 #5 _____ ~DERS -ACHILOTU  📋 "nerds" ? /it
+TD372 attempt 4 NERDS Y Y Y Y Y
+TD660 ? ␅
+TD1398757 ␆
+TD129 ? 
+TD127 question done
+TD35432 📋> ␅
+TD5204003 ␆squareword.org 1642: 7 guesses
+TD62 📋> squareword.org 1642: 7 guesses
+TD6 📋> ␅
+TD23 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD8 ␆🟨🟨🟩🟨🟨
+TD2 📋> 🟨🟨🟩🟨🟨
+TD2 📋> ␅
+TD5 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD220843 ␆#squareword #squareword1642
+TD114 📋> #squareword #squareword1642
+TD20 📋> ␅
+TD150897 ␄
+TD256 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1642: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1642"}
+TD2616 result: "squareword.org 1642: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1642"
+TD163 📆 2026-07-31 ? ␅
+TD156614 ␆
+TD80 📆 2026-07-31 ? 
