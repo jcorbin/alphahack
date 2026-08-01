@@ -1,0 +1,91 @@
+T20731.324403338003 now: 2026-08-01T07:58:14EDT
+TD393 site: alphaguess.com
+TD163277 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof b6d1d996bf88dc792484e95580d46a833c6396d1
+TD89  ...␅
+TD161419 ␆
+TD101  ...
+TD194 [0 : 98147 : 196518] mac? ␅
+TD8470825 ␆b
+TD90 [0 : 98147 : 196518] mac? b
+TD100 progress: -1 98147 mac
+T15.969542680999439 now: 2026-08-01T07:58:46EDT
+TD125 [0 : 47378 : 98147] dis? ␅
+TD1008975 ␆b
+TD120 [0 : 47378 : 98147] dis? b
+TD530 progress: -1 47378 dis
+TD193 [0 : 23680 : 47378] camp? ␅
+TD2200887 ␆a
+TD148 [0 : 23680 : 47378] camp? a
+TD196 progress: 1 23680 camp
+TD173 [23681 : 35522 : 47378] convention? ␅
+TD1585318 ␆b
+TD106 [23681 : 35522 : 47378] convention? b
+TD132 progress: -1 35522 convention
+TD380 [23681 : 29600 : 35522] circuit? ␅
+TD1466639 ␆a
+TD114 [23681 : 29600 : 35522] circuit? a
+TD145 progress: 1 29600 circuit
+TD154 [29601 : 32549 : 35522] color? ␅
+TD1339484 ␆a
+TD138 [29601 : 32549 : 35522] color? a
+TD155 progress: 1 32549 color
+TD201 [32550 : 33697 : 35522] con? ␅
+TD1314043 ␆a
+TD121 [32550 : 33697 : 35522] con? a
+TD148 progress: 1 33697 con
+TD514 [33698 : 34610 : 35522] conk? ␅
+TD1390867 ␆a
+TD92 [33698 : 34610 : 35522] conk? a
+TD103 progress: 1 34610 conk
+TD133 [34611 : 34720 : 35522] cons? ␅
+TD1323521 ␆a
+TD115 [34611 : 34720 : 35522] cons? a
+TD127 progress: 1 34720 cons
+TD139 [34721 : 35103 : 35522] contain? ␅
+TD1316789 ␆a
+TD122 [34721 : 35103 : 35522] contain? a
+TD149 progress: 1 35103 contain
+TD178 [35104 : 35302 : 35522] contra? ␅
+TD1440570 ␆b
+TD97 [35104 : 35302 : 35522] contra? b
+TD108 progress: -1 35302 contra
+TD108 [35104 : 35199 : 35302] contes? ␅
+TD1293741 ␆a
+TD98 [35104 : 35199 : 35302] contes? a
+TD106 progress: 1 35199 contes
+TD662 [35200 : 35251 : 35302] contingences? ␅
+TD2562258 ␆b
+TD137 [35200 : 35251 : 35302] contingences? b
+TD152 progress: -1 35251 contingences
+TD191 [35200 : 35217 : 35251] contextual? ␅
+TD1598203 ␆b
+TD104 [35200 : 35217 : 35251] contextual? b
+TD119 progress: -1 35217 contextual
+TD134 [35200 : 35202 : 35217] contest? ␅
+TD2640750 ␆it
+TD133 [35200 : 35202 : 35217] contest? it
+TD162 progress: 0 35202 contest
+TD61 [35200 : 35202 : 35217] <Done>.
+TD203 📋> ␅
+TD2961210 ␆🧩 Puzzle #1104
+TD115 📋> 🧩 Puzzle #1104
+TD38 📋> ␅
+TD84 ␆🤔 16 guesses
+TD31 📋> 🤔 16 guesses
+TD26 📋> ␅
+TD51 ␆⏱️ 45s
+TD29 📋> ⏱️ 45s
+TD25 📋> ␅
+TD222976 ␆🔗 alphaguess.com/1104
+TD98 📋> 🔗 alphaguess.com/1104
+TD24 📋> ␅
+TD194802 ␄
+TD202 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1104\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 45s\n\ud83d\udd17 alphaguess.com/1104"}
+TD1345 result: "\ud83e\udde9 Puzzle #1104\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 45s\n\ud83d\udd17 alphaguess.com/1104"
+TD78 result puzzle: 1104
+TD13 result guesses: 16
+TD8 result time: 45s
+TD7 result link: alphaguess.com/1104
+TD90 📆 2026-08-01 ? ␅
+TD251521 ␆
+TD131 📆 2026-08-01 ? 
