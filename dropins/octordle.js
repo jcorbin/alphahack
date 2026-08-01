@@ -9,6 +9,23 @@
   function* itMap(it, fn) { let i = 0; for (const x of it) yield fn(x, i++); }
 
   /**
+   * @template T, K
+   * @param {Iterable<T>} it
+   * @param {(x: T) => K} keyFn
+   */
+  function itGroupBy(it, keyFn) {
+    /** @type {Map<K, T[]>} */
+    const map = new Map();
+    for (const item of it) {
+      const key = keyFn(item);
+      let bucket = map.get(key);
+      if (!bucket) map.set(key, bucket = []);
+      bucket.push(item);
+    }
+    return map;
+  }
+
+  /**
    * @template {{[name: string]: any}} U
    * @param {U[]} data
    * @param {string[]} names
@@ -60,10 +77,12 @@
   function readData() {
     const data = Array.from(readBoards());
     const words = new Set(data.map(({ word }) => word));
-    const byWord = new Map(Array.from(words).map(word => [word,
-      data.filter(({ word: w }) => w == word)
-    ]));
-    return { data, words, byWord };
+    const byWord = itGroupBy(data, ({ word }) => word);
+    return {
+      data,
+      words,
+      byWord
+    };
   }
 
   // TODO adopt KEYMAP system from dropins/sedecordle.js ; maybe share module, but that'll require a build step
