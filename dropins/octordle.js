@@ -1,6 +1,7 @@
 // @ts-check
 
 (() => {
+  const DROPIN_INIT = '🤖 octordle dropin online';
 
   /** @template T @param {Iterable<T>} it */
   function itLast(it) { let x; for (x of it) { } return x; }
@@ -32,6 +33,38 @@
    */
   const toFrame = (data, ...names) => Object.fromEntries(
     names.map(name => [name, data.map(um => um[name])]));
+
+  /**
+   * @param {string|string[]} label
+   */
+  function showStatus(label) {
+    const mine = '_octordle_status';
+    document.body.querySelectorAll(`#${mine}`).forEach(el => el.remove());
+    if (!label) return;
+    if (Array.isArray(label)) label = label.join('\n');
+    const el = document.createElement('div');
+    el.id = mine;
+    el.textContent = label;
+    Object.assign(el.style, {
+      position: 'fixed',
+      top: '8px',
+      left: '50%',
+      transform: 'translateX(-50%)',
+      background: '#222',
+      color: '#fff',
+      padding: '6px 14px',
+      borderRadius: '4px',
+      zIndex: '9999',
+      fontFamily: 'sans-serif',
+      fontSize: '13px',
+      pointerEvents: 'none',
+      whiteSpace: 'pre',
+    });
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), label.includes('\n') ? 3000 : 1500);
+  }
+
+  const keyTarget = document;
 
   /**
    * @param {DOMTokenList} classList
@@ -85,38 +118,143 @@
     };
   }
 
-  // TODO adopt KEYMAP system from dropins/sedecordle.js ; maybe share module, but that'll require a build step
-  window.addEventListener('keypress', async ({ key }) => {
+  // ── Keymap registry (evolved from manual listener) ───────────────
+  /** @typedef {[keys: string[], label: string, handle: (...a: any[]) => void]} KeymapEntry */
+  /** @type {KeymapEntry[]} */
+  const KEYMAP = [
+    [['*', '*'], '🔍 Inspect Boards', inspectBoards],
+    [['*', 'w'], '📋 Copy All', copyAll],
+    [['$'], '', copyLatest],
+    [['^'], '🤖 Turn Up', turnup],
+  ];
+
+  // ── Action handlers ──────────────────────────────────────────────
+
+  async function turnup() { offerText([DROPIN_INIT]); }
+
+  /** @param {Iterable<string>} lines */
+  async function offerText(lines) {
+    const text = new Blob(Array.from(itMap(lines, line => `${line}\n`)), { type: 'text/plain' });
+    const item = new ClipboardItem({ ['text/plain']: text });
+    await navigator.clipboard.write([item]);
+    alert(`📋 ${await text.text()}`);
+  }
+
+  async function inspectBoards() { console.table(Array.from(readBoards())); }
+
+  async function copyAll() {
+    const { byWord } = readData();
+    const ents = itMap(byWord.entries(), ([word, d]) => [word, toFrame(d, 'board_n', 'resp')]);
+    const text = JSON.stringify(Object.fromEntries(ents));
+    return offerText([text]);
+  }
+
+  async function copyLatest() {
+    const { words, byWord } = readData();
+    const latest = itLast(words.values());
+    if (latest) return copyWordRes(latest, byWord);
+  }
+
+  /**
+   * @typedef {{
+   *   board_n: number;
+   *   row_n: number;
+   *   word: string;
+   *   resp: string;
+   * }} WordEnt
+   *
+   * @param {string} word
+   * @param {Map<string, WordEnt[]>} [byWord]
+   */
+  async function copyWordRes(word, byWord = undefined) {
+    return offerText(function*() {
+      if (!byWord) ({ byWord } = readData());
+      const dat = byWord.get(word);
+      if (!dat) throw new Error(`no result for word ${JSON.stringify(word)}`);
+      for (const { board_n, resp } of dat) {
+        yield `#${board_n} ${resp}`;
+      }
+    }());
+  }
+
+  // ── Event listener (keymap-driven) ───────────────────────────────
+
+  /** @param {string[]} keys */
+  function dispatch(keys) {
+    const want = keys.join('');
+    const entry = KEYMAP.find(([k]) => k.join('') === want);
+    if (entry) {
+      const [, , fn] = entry;
+      try {
+        fn();
+      } catch (e) {
+        showStatus(`⚠️ ${e}`);
+        console.error(`KEYMAP[${keys}]`, e);
+      }
+    }
+  }
+
+  /** @type {string[]} */
+  let pending = [];
+
+  /** @param {string} key @returns {boolean} */
+  const procKey = key => {
     switch (key) {
-
-      case '*': {
-        const { byWord } = readData();
-        const ents = itMap(byWord.entries(), ([word, d]) => [word, toFrame(d, 'board_n', 'resp')]);
-        const text = JSON.stringify(Object.fromEntries(ents));
-        await navigator.clipboard.write([
-          new ClipboardItem({ ['text/plain']: text })
-        ]);
-        alert(`📋 ${text}`);
-        break;
+      case 'Escape':
+      case 'Backspace': {
+        pending = [];
+        showStatus('');
+        return true;
       }
-
-      case '$': {
-        const { words, byWord } = readData();
-        const latest = itLast(words.values());
-        const forLatest = latest && byWord.get(latest);
-        const text = forLatest ? forLatest.map(({ board_n, resp }) => `#${board_n} ${resp}\n`).join('') : '';
-        await navigator.clipboard.write([
-          new ClipboardItem({ ['text/plain']: text })
-        ]);
-        alert(`📋 ${text}`);
-        break;
+      case '?': {
+        const prefix = pending.join('');
+        const mayb = prefix
+          ? KEYMAP.filter(([keys]) => keys.join('').startsWith(prefix))
+          : KEYMAP;
+        showStatus(mayb
+          .map(([keys, label]) => `${keys.join('')} → ${label}`));
+        return true;
       }
+    }
 
-      case '*': {
-        console.table(Array.from(readBoards()));
-        break;
+    if (key.length !== 1) return false;
+
+    pending.push(key);
+    const have = pending.length;
+    const prefix = pending.join('');
+
+    let any = false;
+    for (const [keys] of KEYMAP) {
+      const would = keys.join('');
+      if (would === prefix) {
+        pending = [];
+        dispatch(keys);
+        return true;
       }
+      any = any || would.startsWith(prefix);
+    }
+
+    const MAX_LEN = Math.max(...KEYMAP.map(([k]) => k.length), 0);
+    if (any && have < MAX_LEN) {
+      showStatus(`${pending} ...`);
+      return true;
+    }
+
+    pending = [];
+    if (have > 1) {
+      showStatus(`${pending} => abort`);
+      return true;
+    }
+
+    return false;
+  };
+
+  keyTarget.addEventListener('keydown', async ev => {
+    if (procKey(ev.key)) {
+      ev.preventDefault();
+      ev.stopPropagation();
     }
   });
 
+  showStatus('💧 Online <Press ^ For 📋-back>');
 })()

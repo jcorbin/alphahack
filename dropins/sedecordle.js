@@ -257,6 +257,8 @@
     [['^'], '🤖 Turn Up', turnup],
   ];
 
+  // ── Action handlers ──────────────────────────────────────────────
+
   async function turnup() {
     offerText([DROPIN_INIT]);
   }
@@ -334,6 +336,8 @@
       }
     }());
   }
+
+  // ── Event listener (keymap-driven) ───────────────────────────────
 
   /** @param {string[]} keys */
   function dispatch(keys) {
@@ -413,5 +417,4 @@
   });
 
   showStatus('💧 Online <Press ^ For 📋-back>');
-
 })()
