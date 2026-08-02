@@ -1,0 +1,246 @@
+T425.0452962249983 now: 2026-08-02T09:07:54EDT
+TD398 site: squareword.org
+TD111 wordlist: nwl2023.txt
+TD198  ...␅
+TD5421383 ␆
+TD158  ...
+TD126 🧩  ? ␅
+TD13244418 ␆#1644
+TD142 🧩  ? #1644
+TD427 puzzle_id: #1644
+TD655 > ␅
+TD3717966 ␆*
+TD117 > *
+TD310404 try? ␅
+TD655294 ␆1
+TD136 try? 1
+TD370 questioning: ["serac", "#5"]
+TD442 #1 <IndexError>  📋 "serac" ? ␅
+TD4435527 ␆S____ ~ E
+TD133 #1 <IndexError>  📋 "serac" ? S____ ~ E
+TD954 attempt 0 SERAC Y m n n n
+TD132 #2 <IndexError>  📋 "serac" ? ␅
+TD2088938 ␆_____ ~ ERA
+TD100 #2 <IndexError>  📋 "serac" ? _____ ~ ERA
+TD277 attempt 1 SERAC n m m m n
+TD118 #3 <IndexError>  📋 "serac" ? ␅
+TD1803875 ␆_____ ~ A
+TD182 #3 <IndexError>  📋 "serac" ? _____ ~ A
+TD474 attempt 2 SERAC n n n m n
+TD231 #4 <IndexError>  📋 "serac" ? ␅
+TD2431589 ␆___A_ ~ SR
+TD223 #4 <IndexError>  📋 "serac" ? ___A_ ~ SR
+TD486 attempt 3 SERAC m n m Y n
+TD228 #5 <IndexError>  📋 "serac" ? ␅
+TD2370144 ␆_____ ~ E
+TD135 #5 <IndexError>  📋 "serac" ? _____ ~ E
+TD421 attempt 4 SERAC n m n n n
+TD785 ? ␅
+TD963361 ␆
+TD126 ? 
+TD184 question done
+TD410 > ␅
+TD1556411 ␆*
+TD111 > *
+TD838782 try? ␅
+TD6480432 ␄
+TD272 <EOF>
+TD1160 > ␅
+TD1094806 ␆* 3
+TD55 > * 3
+TD8562 try? ␅
+TD1123769 ␆1
+TD114 try? 1
+TD336 questioning: ["align", "#3"]
+TD384 #1 S____ ~E -ACR  📋 "align" ? ␅
+TD5050238 ␆.
+TD80 #1 S____ ~E -ACR  📋 "align" ? .
+TD257 attempt 0 ALIGN n n n n n
+TD97 #2 _____ ~AER -CS  📋 "align" ? ␅
+TD1682702 ␆.
+TD81 #2 _____ ~AER -CS  📋 "align" ? .
+TD253 attempt 1 ALIGN m n n n n
+TD84 #3 _____ ~A -CERS  📋 "align" ? ␅
+TD2895659 ␆A____ ~ GN
+TD126 #3 _____ ~A -CERS  📋 "align" ? A____ ~ GN
+TD322 attempt 2 ALIGN Y n n m m
+TD196 #4 ___A_ ~RS -CE  📋 "align" ? ␅
+TD2687106 ␆.
+TD165 #4 ___A_ ~RS -CE  📋 "align" ? .
+TD640 attempt 3 ALIGN n n n n n
+TD284 #5 _____ ~E -ACRS  📋 "align" ? ␅
+TD2567815 ␆_____ ~ ELN
+TD123 #5 _____ ~E -ACRS  📋 "align" ? _____ ~ ELN
+TD379 attempt 4 ALIGN n m n n m
+TD639 ? ␅
+TD880717 ␆
+TD162 ? 
+TD226 question done
+TD912 > ␅
+TD526544 ␆*
+TD114 > *
+TD771307 try? ␅
+TD1921694 ␆2
+TD219 try? 2
+TD634 questioning: ["among", "#3"]
+TD1006 #1 S____ ~E -ACGILNR  📋 "among" ? ␅
+TD4407873 ␆.
+TD130 #1 S____ ~E -ACGILNR  📋 "among" ? .
+TD403 attempt 0 AMONG n n n n n
+TD186 #2 _____ ~AER -CGILNS  📋 "among" ? ␅
+TD4423738 ␆_____ ~ ERAM
+TD172 #2 _____ ~AER -CGILNS  📋 "among" ? _____ ~ ERAM
+TD468 attempt 1 AMONG m m n n n
+TD282 #3 A____ ~GN -CEILRS  📋 "among" ? ␅
+TD2212484 ␆A_ON_ ~ G
+TD138 #3 A____ ~GN -CEILRS  📋 "among" ? A_ON_ ~ G
+TD362 attempt 2 AMONG Y n Y Y m
+TD236 #4 ___A_ ~RS -ACEGILN  📋 "among" ? ␅
+TD3688865 ␆___A_ ~ SRO
+TD105 #4 ___A_ ~RS -ACEGILN  📋 "among" ? ___A_ ~ SRO
+TD289 attempt 3 AMONG n n m n n
+TD212 #5 _____ ~ELN -ACGIRS  📋 "among" ? ␅
+TD1257511 ␆.
+TD134 #5 _____ ~ELN -ACGIRS  📋 "among" ? .
+TD487 attempt 4 AMONG n n n m n
+TD756 ? ␅
+TD180866 ␆
+TD129 ? 
+TD132 question done
+TD520 > ␅
+TD430531 ␆*
+TD124 > *
+TD828945 questioning: ["agony", "#3"]
+TD215 #1 S____ ~E -ACGILMNOR  📋 "agony" ? ␅
+TD3948023 ␆.
+TD100 #1 S____ ~E -ACGILMNOR  📋 "agony" ? .
+TD223 attempt 0 AGONY n n n n n
+TD76 #2 _____ ~AEMR -CGILNOS  📋 "agony" ? ␅
+TD1243966 ␆.
+TD212 #2 _____ ~AEMR -CGILNOS  📋 "agony" ? .
+TD415 attempt 1 AGONY m n n n n
+TD154 #3 A_ON_ ~G -CEILMRS  📋 "agony" ? ␅
+TD867669 ␆/it
+TD116 #3 A_ON_ ~G -CEILMRS  📋 "agony" ? /it
+TD329 attempt 2 AGONY Y Y Y Y Y
+TD150 #4 ___A_ ~ORS -ACEGILMN  📋 "agony" ? ␅
+TD1703686 ␆.
+TD124 #4 ___A_ ~ORS -ACEGILMN  📋 "agony" ? .
+TD338 attempt 3 AGONY n n m n n
+TD116 #5 _____ ~ELN -ACGIMORS  📋 "agony" ? ␅
+TD751839 ␆.
+TD104 #5 _____ ~ELN -ACGIMORS  📋 "agony" ? .
+TD293 attempt 4 AGONY n n n m n
+TD388 ? ␅
+TD202341 ␆
+TD121 ? 
+TD155 question done
+TD679 > ␅
+TD470999 ␆*
+TD64 > *
+TD1039894 questioning: ["rotas", "#4"]
+TD310 #1 S____ ~E -ACGILMNORY  📋 "rotas" ? ␅
+TD8799158 ␆S____ ~ ET
+TD159 #1 S____ ~E -ACGILMNORY  📋 "rotas" ? S____ ~ ET
+TD408 attempt 0 ROTAS n n m n n
+TD216 #2 _____ ~AEMR -CGILNOSY  📋 "rotas" ? ␅
+TD5057990 ␆_____ ~ ERAMT
+TD66 #2 _____ ~AEMR -CGILNOSY  📋 "rotas" ? _____ ~ ERAMT
+TD132 attempt 1 ROTAS m n m m n
+TD83 #4 ___A_ ~ORS -ACEGILMNY  📋 "rotas" ? ␅
+TD2361959 ␆/it
+TD114 #4 ___A_ ~ORS -ACEGILMNY  📋 "rotas" ? /it
+TD320 attempt 3 ROTAS Y Y Y Y Y
+TD116 #5 _____ ~ELN -ACGIMORSY  📋 "rotas" ? ␅
+TD3830801 ␆_____ ~ ELNT
+TD92 #5 _____ ~ELN -ACGIMORSY  📋 "rotas" ? _____ ~ ELNT
+TD220 attempt 4 ROTAS n n m n n
+TD352 ? ␅
+TD547651 ␆
+TD126 ? 
+TD135 question done
+TD497 > ␅
+TD1022545 ␆*
+TD90 > *
+TD2627181 questioning: ["tamer", "#2"]
+TD310 #1 S____ ~ET -ACGILMNORSY  📋 "tamer" ? ␅
+TD3283493 ␆.
+TD117 #1 S____ ~ET -ACGILMNORSY  📋 "tamer" ? .
+TD312 attempt 0 TAMER m n n m n
+TD123 #2 _____ ~AEMRT -CGILNOSY  📋 "tamer" ? ␅
+TD600743 ␆/it
+TD116 #2 _____ ~AEMRT -CGILNOSY  📋 "tamer" ? /it
+TD225 attempt 1 TAMER Y Y Y Y Y
+TD91 #5 _____ ~ELNT -ACGIMORSY  📋 "tamer" ? ␅
+TD1547234 ␆.
+TD160 #5 _____ ~ELNT -ACGIMORSY  📋 "tamer" ? .
+TD473 attempt 4 TAMER m n n m n
+TD1398 ? ␅
+TD186728 ␆
+TD109 ? 
+TD117 question done
+TD410 > ␅
+TD523503 ␆*
+TD135 > *
+TD1910555 questioning: ["swept", "#1"]
+TD178 #1 S____ ~ET -ACGILMNORSY  📋 "swept" ? ␅
+TD5367554 ␆/it
+TD125 #1 S____ ~ET -ACGILMNORSY  📋 "swept" ? /it
+TD254 attempt 0 SWEPT Y Y Y Y Y
+TD107 #5 _____ ~ELNT -ACGIMORSY  📋 "swept" ? ␅
+TD2501339 ␆__E_T ~ LN
+TD87 #5 _____ ~ELNT -ACGIMORSY  📋 "swept" ? __E_T ~ LN
+TD199 attempt 4 SWEPT n n Y n Y
+TD299 ? ␅
+TD349973 ␆
+TD160 ? 
+TD196 question done
+TD545 > ␅
+TD850274 ␆*
+TD127 > *
+TD1266840 questioning: ["knelt", "#5"]
+TD205 #5 __E_T ~LN -ACGIMOPRSWY  📋 "knelt" ? ␅
+TD5167482 ␆/it
+TD108 #5 __E_T ~LN -ACGIMOPRSWY  📋 "knelt" ? /it
+TD267 attempt 4 KNELT Y Y Y Y Y
+TD363 ? ␅
+TD508111 ␆
+TD284 ? 
+TD171 question done
+TD34276 📋> ␅
+TD5605980 ␆squareword.org 1644: 8 guesses
+TD127 📋> squareword.org 1644: 8 guesses
+TD24 📋> ␅
+TD156 ␆
+TD22 📋> 
+TD17 📋> ␅
+TD56 ␆🟩🟨🟨🟨🟨
+TD13 📋> 🟩🟨🟨🟨🟨
+TD11 📋> ␅
+TD34 ␆🟨🟨🟨🟨🟨
+TD21 📋> 🟨🟨🟨🟨🟨
+TD10 📋> ␅
+TD33 ␆🟩🟩🟩🟩🟩
+TD13 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD33 ␆🟩🟩🟩🟩🟩
+TD12 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD34 ␆🟨🟨🟨🟨🟨
+TD13 📋> 🟨🟨🟨🟨🟨
+TD10 📋> ␅
+TD32 ␆
+TD12 📋> 
+TD10 📋> ␅
+TD36 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD14 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> ␅
+TD296710 ␆#squareword #squareword1644
+TD135 📋> #squareword #squareword1644
+TD23 📋> ␅
+TD203677 ␄
+TD297 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1644: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1644"}
+TD2088 result: "squareword.org 1644: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1644"
+TD155 📆 2026-08-02 ? ␅
+TD373039 ␆
+TD92 📆 2026-08-02 ? 
