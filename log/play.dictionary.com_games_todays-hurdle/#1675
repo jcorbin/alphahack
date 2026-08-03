@@ -1,0 +1,232 @@
+T1756.7386440260016 now: 2026-08-03T08:17:28EDT
+TD223 site: https://play.dictionary.com/games/todays-hurdle
+TD43 wordlist: nwl2023.txt
+TD69  ...␅
+TD693077 ␆
+TD52  ...
+TD78 1.1> ␅
+TD26760731 ␆*
+TD122 1.1> *
+TD226198 1.1 ? ␅
+TD2017907 ␆2
+TD128 1.1 ? 2
+TD351 1.1 📋 "slate" ? ␅
+TD16902713 ␆nnMnn
+TD128 1.1 📋 "slate" ? nnMnn
+TD206 tried: SLATE n n m n n
+TD618 1.2> ␅
+TD844584 ␆*
+TD193 1.2> *
+TD168304 1.2 ? ␅
+TD1351075 ␆2
+TD155 1.2 ? 2
+TD300 1.2 📋 "admin" ? ␅
+TD7137675 ␆YnnnY
+TD167 1.2 📋 "admin" ? YnnnY
+TD388 tried: ADMIN Y n n n Y
+TD585 1.3> ␅
+TD614085 ␆*
+TD107 1.3> *
+TD113009 1.3 ? ␅
+TD1762423 ␆1
+TD256 1.3 ? 1
+TD327 1.3 📋 "acorn" ? ␅
+TD4992270 ␆YYYYY
+TD210 1.3 📋 "acorn" ? YYYYY
+TD419 tried: ACORN Y Y Y Y Y
+TD1143 2.1 📋 "acorn" ? ␅
+TD6632374 ␆MnnMn
+TD184 2.1 📋 "acorn" ? MnnMn
+TD378 tried: ACORN m n n m n
+TD527 2.2> ␅
+TD523641 ␆*
+TD135 2.2> *
+TD150052 2.2 ? ␅
+TD3755927 ␆1
+TD126 2.2 ? 1
+TD271 2.2 📋 "lares" ? ␅
+TD3722878 ␆nYYYn
+TD172 2.2 📋 "lares" ? nYYYn
+TD294 tried: LARES n Y Y Y n
+TD469 2.3> ␅
+TD439545 ␆*
+TD99 2.3> *
+TD135816 2.3 ? ␅
+TD3255515 ␆1
+TD126 2.3 ? 1
+TD272 2.3 📋 "pared" ? ␅
+TD7301348 ␆YYYYn
+TD133 2.3 📋 "pared" ? YYYYn
+TD285 tried: PARED Y Y Y Y n
+TD327 2.4> ␅
+TD462868 ␆*
+TD162 2.4> *
+TD117479 2.4 ? ␅
+TD1534200 ␆2
+TD107 2.4 ? 2
+TD223 2.4 📋 "parer" ? ␅
+TD4595522 ␆YYYYY
+TD114 2.4 📋 "parer" ? YYYYY
+TD213 tried: PARER Y Y Y Y Y
+TD386 3.1 📋 "parer" ? ␅
+TD7459958 ␆nMnMn
+TD104 3.1 📋 "parer" ? nMnMn
+TD266 tried: PARER n m n m n
+TD264 3.2> ␅
+TD734300 ␆*
+TD111 3.2> *
+TD149735 3.2 ? ␅
+TD847020 ␆1
+TD133 3.2 ? 1
+TD314 3.2 📋 "blase" ? ␅
+TD5169888 ␆nMMnM
+TD175 3.2 📋 "blase" ? nMMnM
+TD293 tried: BLASE n m m n m
+TD448 3.3> ␅
+TD2245415 ␆*
+TD160 3.3> *
+TD150668 3.3 ? ␅
+TD1249837 ␆1
+TD232 3.3 ? 1
+TD370 3.3 📋 "decal" ? ␅
+TD7079282 ␆nMMYM
+TD149 3.3 📋 "decal" ? nMMYM
+TD370 tried: DECAL n m m Y m
+TD564 3.4> ␅
+TD5686041 ␆*
+TD162 3.4> *
+TD122545 3.4 📋 "eclat" ? ␅
+TD5945154 ␆YYYYY
+TD130 3.4 📋 "eclat" ? YYYYY
+TD276 tried: ECLAT Y Y Y Y Y
+TD495 4.1 📋 "eclat" ? ␅
+TD8647433 ␆Mnnnn
+TD138 4.1 📋 "eclat" ? Mnnnn
+TD281 tried: ECLAT m n n n n
+TD358 4.2> ␅
+TD5088794 ␆*
+TD142 4.2> *
+TD132608 4.2 ? ␅
+TD4060846 ␆1
+TD92 4.2 ? 1
+TD215 4.2 📋 "reins" ? ␅
+TD5220935 ␆YMMMn
+TD88 4.2 📋 "reins" ? YMMMn
+TD159 tried: REINS Y m m m n
+TD285 4.3> ␅
+TD479214 ␆*
+TD120 4.3> *
+TD113956 4.3 ? ␅
+TD3042419 ␆1
+TD131 4.3 ? 1
+TD328 4.3 📋 "ripen" ? ␅
+TD6872083 ␆YYYYY
+TD128 4.3 📋 "ripen" ? YYYYY
+TD305 tried: RIPEN Y Y Y Y Y
+TD760 5.1 📋 "acorn" ? ␅
+TD8844322 ␆YnMMY
+TD167 5.1 📋 "acorn" ? YnMMY
+TD261 tried: ACORN Y n m m Y
+TD370 5.2 📋 "parer" ? ␅
+TD1427032 ␆nYYnn
+TD96 5.2 📋 "parer" ? nMMnn
+TD227 tried: PARER n m m n n
+TD238 5.3 📋 "eclat" ? ␅
+TD2026325 ␆nnnMn
+TD136 5.3 📋 "eclat" ? nnnMn
+TD295 tried: ECLAT n n n m n
+TD366 5.4 📋 "ripen" ? ␅
+TD1865230 ␆MnnnY
+TD58 5.4 📋 "ripen" ? MnnnY
+TD111 tried: RIPEN m n n n Y
+TD155 5.5> ␅
+TD1082903 ␆*
+TD129 5.5> *
+TD110668 5.5> ␅
+T36.24809458400705 now: 2026-08-03T08:21:16EDT
+TD118 5.5> ␅
+TD953002 ␆*
+TD118 5.5> *
+TD149909 5.5 ? ␅
+TD1723130 ␆2
+TD184 5.5 ? 2
+TD516 5.5 📋 "arson" ? ␅
+TD3507905 ␆YYYYY
+TD82 5.5 📋 "arson" ? YYYYY
+TD211 tried: ARSON Y Y Y Y Y
+TD235 📋> ␅
+TD4897685 ␆Hurdle 1675
+TD142 📋> Hurdle 1675
+TD27 📋> ␅
+TD59 ␆
+TD13 📋> 
+TD9 📋> ␅
+TD18 ␆3/6
+TD10 📋> 3/6
+TD8 📋> ␅
+TD22 ␆⬜⬜🟨⬜⬜
+TD8 📋> ⬜⬜🟨⬜⬜
+TD7 📋> ␅
+TD18 ␆🟩⬜⬜⬜🟩
+TD10 📋> 🟩⬜⬜⬜🟩
+TD7 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD17 ␆4/6
+TD10 📋> 4/6
+TD8 📋> ␅
+TD17 ␆🟨⬜⬜🟨⬜
+TD10 📋> 🟨⬜⬜🟨⬜
+TD7 📋> ␅
+TD17 ␆⬜🟩🟩🟩⬜
+TD10 📋> ⬜🟩🟩🟩⬜
+TD8 📋> ␅
+TD19 ␆🟩🟩🟩🟩⬜
+TD9 📋> 🟩🟩🟩🟩⬜
+TD7 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD17 ␆4/6
+TD10 📋> 4/6
+TD8 📋> ␅
+TD33 ␆⬜🟨⬜🟨⬜
+TD24 📋> ⬜🟨⬜🟨⬜
+TD8 📋> ␅
+TD17 ␆⬜🟨🟨⬜🟨
+TD10 📋> ⬜🟨🟨⬜🟨
+TD8 📋> ␅
+TD17 ␆⬜🟨🟨🟩🟨
+TD28 📋> ⬜🟨🟨🟩🟨
+TD11 📋> ␅
+TD25 ␆🟩🟩🟩🟩🟩
+TD11 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD18 ␆3/6
+TD10 📋> 3/6
+TD8 📋> ␅
+TD17 ␆🟨⬜⬜⬜⬜
+TD10 📋> 🟨⬜⬜⬜⬜
+TD7 📋> ␅
+TD17 ␆🟩🟨🟨🟨⬜
+TD10 📋> 🟩🟨🟨🟨⬜
+TD7 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD17 ␆Final 1/2
+TD10 📋> Final 1/2
+TD7 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD232727 ␆score: 10,100
+TD82 📋> score: 10,100
+TD8 📋> ␅
+TD512636 ␄
+TD222 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1675\n\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"}
+TD1456 result: "Hurdle 1675\n\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"
+TD176 📆 2026-08-03 ? ␅
+TD280038 ␆
+TD114 📆 2026-08-03 ? 
