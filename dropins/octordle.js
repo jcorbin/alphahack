@@ -38,30 +38,41 @@
    * @param {string|string[]} label
    */
   function showStatus(label) {
-    const mine = '_octordle_status';
-    document.body.querySelectorAll(`#${mine}`).forEach(el => el.remove());
-    if (!label) return;
-    if (Array.isArray(label)) label = label.join('\n');
-    const el = document.createElement('div');
-    el.id = mine;
-    el.textContent = label;
-    Object.assign(el.style, {
-      position: 'fixed',
-      top: '8px',
-      left: '50%',
-      transform: 'translateX(-50%)',
-      background: '#222',
-      color: '#fff',
-      padding: '6px 14px',
-      borderRadius: '4px',
-      zIndex: '9999',
-      fontFamily: 'sans-serif',
-      fontSize: '13px',
-      pointerEvents: 'none',
-      whiteSpace: 'pre',
-    });
-    document.body.appendChild(el);
-    setTimeout(() => el.remove(), label.includes('\n') ? 3000 : 1500);
+    const mine = 'octordle-status';
+    let el = document.getElementById(mine);
+    if (!el) {
+      el = document.createElement('dialog');
+      el.id = mine;
+      Object.assign(el.style, {
+        position: 'fixed',
+        top: '8px',
+        left: '50%',
+        transform: 'translateX(-50%)',
+        background: '#222',
+        color: '#fff',
+        padding: '6px 14px',
+        borderRadius: '4px',
+        zIndex: '9999',
+        fontFamily: 'sans-serif',
+        fontSize: '13px',
+        pointerEvents: 'none',
+        whiteSpace: 'pre',
+      });
+      document.body.appendChild(el);
+    }
+    if (!(el instanceof HTMLDialogElement)) return;
+    if (label) {
+      if (Array.isArray(label)) label = label.join('\n');
+      el.textContent = label;
+      if (!el.open) {
+        el.showModal();
+        // TODO fix the reentrancy hazard here: if we spam showStatus() faster than this delay, then the old timer will still fire, and close the next re-show prematurely
+        setTimeout(() => el.close(), label.includes('\n') ? 3000 : 1500);
+      }
+    } else {
+      el.textContent = '';
+      el.close();
+    }
   }
 
   const keyTarget = document;
