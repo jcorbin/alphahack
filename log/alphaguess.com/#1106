@@ -1,0 +1,109 @@
+T121.63043473400467 now: 2026-08-03T07:50:13EDT
+TD157 site: alphaguess.com
+TD154655 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof c7ee6a502dae0e0ebbd4ffba3a189dd273f38304
+TD134  ...␅
+TD494885 ␆
+TD262  ...
+TD302 [0 : 98147 : 196518] mac? ␅
+TD6865586 ␆a
+TD119 [0 : 98147 : 196518] mac? a
+TD150 progress: 1 98147 mac
+TD138 [98148 : 147311 : 196518] rho? ␅
+TD1319895 ␆a
+TD186 [98148 : 147311 : 196518] rho? a
+TD120 progress: 1 147311 rho
+TD120 [147312 : 171911 : 196518] tag? ␅
+TD1466195 ␆b
+TD113 [147312 : 171911 : 196518] tag? b
+TD129 progress: -1 171911 tag
+TD185 [147312 : 159593 : 171911] slug? ␅
+TD3117054 ␆ba
+TD166 [147312 : 159593 : 171911] slug? ba
+TD285 [147312 : 159593 : 171911] slug? ␅
+TD4265573 ␆a
+TD113 [147312 : 159593 : 171911] slug? a
+TD118 progress: 1 159593 slug
+TD335 [159594 : 165747 : 171911] stint? ␅
+TD1892332 ␆b
+TD104 [159594 : 165747 : 171911] stint? b
+TD115 progress: -1 165747 stint
+TD158 [159594 : 162626 : 165747] speed? ␅
+TD2519952 ␆b
+TD165 [159594 : 162626 : 165747] speed? b
+TD215 progress: -1 162626 speed
+TD233 [159594 : 161095 : 162626] sold? ␅
+TD1965018 ␆a
+TD209 [159594 : 161095 : 162626] sold? a
+TD261 progress: 1 161095 sold
+TD294 [161096 : 161858 : 162626] sound? ␅
+TD1991135 ␆b
+TD138 [161096 : 161858 : 162626] sound? b
+TD162 progress: -1 161858 sound
+TD182 [161096 : 161457 : 161858] son? ␅
+TD1623336 ␆b
+TD192 [161096 : 161457 : 161858] son? b
+TD235 progress: -1 161457 son
+TD314 [161096 : 161191 : 161457] soli? ␅
+TD1460431 ␆a
+TD114 [161096 : 161191 : 161457] soli? a
+TD131 progress: 1 161191 soli
+TD479 [161192 : 161324 : 161457] solunar? ␅
+TD1427478 ␆a
+TD113 [161192 : 161324 : 161457] solunar? a
+TD127 progress: 1 161324 solunar
+TD157 [161325 : 161354 : 161457] som? ␅
+TD1442338 ␆a
+TD140 [161325 : 161354 : 161457] som? a
+TD148 progress: 1 161354 som
+TD169 [161355 : 161395 : 161457] some? ␅
+TD2778533 ␆a
+TD145 [161355 : 161395 : 161457] some? a
+TD158 progress: 1 161395 some
+TD502 [161396 : 161426 : 161457] somewhither? ␅
+TD1830728 ␆b
+TD133 [161396 : 161426 : 161457] somewhither? b
+TD177 progress: -1 161426 somewhither
+TD246 [161396 : 161409 : 161426] somerset? ␅
+TD2525413 ␆a
+TD129 [161396 : 161409 : 161426] somerset? a
+TD171 progress: 1 161409 somerset
+TD403 [161410 : 161418 : 161426] sometimes? ␅
+TD1830368 ␆b
+TD134 [161410 : 161418 : 161426] sometimes? b
+TD175 progress: -1 161418 sometimes
+TD383 [161410 : 161414 : 161418] somersetting? ␅
+TD1539529 ␆a
+TD131 [161410 : 161414 : 161418] somersetting? a
+TD154 progress: 1 161414 somersetting
+TD377 [161415 : 161416 : 161418] somethings? ␅
+TD1818734 ␆b
+TD150 [161415 : 161416 : 161418] somethings? b
+TD167 progress: -1 161416 somethings
+TD420 [161415 : 161415 : 161416] something? ␅
+TD3470990 ␆it
+TD184 [161415 : 161415 : 161416] something? it
+TD213 progress: 0 161415 something
+TD82 [161415 : 161415 : 161416] <Done>.
+TD222 📋> ␅
+TD3904733 ␆🧩 Puzzle #1106
+TD85 📋> 🧩 Puzzle #1106
+TD23 📋> ␅
+TD50 ␆🤔 19 guesses
+TD19 📋> 🤔 19 guesses
+TD16 📋> ␅
+TD30 ␆⏱️ 38s
+TD19 📋> ⏱️ 38s
+TD16 📋> ␅
+TD219104 ␆🔗 alphaguess.com/1106
+TD138 📋> 🔗 alphaguess.com/1106
+TD34 📋> ␅
+TD928252 ␄
+TD225 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1106\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 38s\n\ud83d\udd17 alphaguess.com/1106"}
+TD154 result: "\ud83e\udde9 Puzzle #1106\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 38s\n\ud83d\udd17 alphaguess.com/1106"
+TD40 result puzzle: 1106
+TD28 result guesses: 19
+TD23 result time: 38s
+TD23 result link: alphaguess.com/1106
+TD159 📆 2026-08-03 ? ␅
+TD683415 ␆
+TD264 📆 2026-08-03 ? 
