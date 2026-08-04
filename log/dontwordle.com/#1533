@@ -1,0 +1,160 @@
+T861.0426813889935 now: 2026-08-04T07:42:04EDT
+TD173 site: dontwordle.com
+TD34 wordlist: nwl2023.txt
+TD74  ...␅
+TD745303 ␆
+TD115  ...
+TD150 1> ␅
+TD15742039 ␆* -bot 10
+TD219 1> * -bot 10
+TD226064 ? ␅
+TD900059 ␆1
+TD143 ? 1
+TD381 📋 "taser" ? ␅
+TD6774256 ␆nnMnn
+TD118 📋 "taser" ? nnMnn
+TD1114 tried: TASER n n m n n
+TD597 2> ␅
+TD3489056 ␆undo
+TD130 2> undo
+TD173 undo
+TD197 1> ␅
+TD8687082 ␆* :v [taser] -bot 10
+TD166 1> * :v [taser] -bot 10
+TD142628 ? ␅
+TD2673018 ␆4
+TD148 ? 4
+TD334 📋 "colin" ? ␅
+TD4413147 ␆nnnnn
+TD50 📋 "colin" ? nnnnn
+TD94 tried: COLIN n n n n n
+TD93 2> ␅
+TD3037806 ␆undo
+TD155 2> undo
+TD206 undo
+TD238 1> ␅
+TD5078387 ␆* :v [tasercolin] -bot 10
+TD152 1> * :v [tasercolin] -bot 10
+TD128011 ? ␅
+TD1329713 ␆1
+TD129 ? 1
+TD303 📋 "bumpy" ? ␅
+TD6504776 ␆nMnnn
+TD147 📋 "bumpy" ? nMnnn
+TD353 tried: BUMPY n m n n n
+TD393 2> ␅
+TD641359 ␆undo
+TD163 2> undo
+TD405 undo
+TD249 1> ␅
+TD5232167 ␆*
+TD94 1> *
+TD152099 ? ␅
+TD270237 ␆1
+TD150 ? 1
+TD368 📋 "papaw" ? ␅
+TD5512339 ␆nnnnn
+TD139 📋 "papaw" ? nnnnn
+TD275 tried: PAPAW n n n n n
+TD281 2> ␅
+TD378240 ␆*
+TD316 2> *
+TD108472 ? ␅
+TD125079 ␆1
+TD73 ? 1
+TD152 📋 "morro" ? ␅
+TD4012666 ␆nnnnn
+TD184 📋 "morro" ? nnnnn
+TD269 tried: MORRO n n n n n
+TD254 3> ␅
+TD424425 ␆*
+TD147 3> *
+TD101380 ? ␅
+TD108314 ␆1
+TD128 ? 1
+TD300 📋 "keeve" ? ␅
+TD5271615 ␆nnnnn
+TD93 📋 "keeve" ? nnnnn
+TD209 tried: KEEVE n n n n n
+TD187 4> ␅
+TD450164 ␆*
+TD139 4> *
+TD135161 ? ␅
+TD411633 ␆1
+TD81 ? 1
+TD160 📋 "dixit" ? ␅
+TD4272049 ␆nnnnn
+TD91 📋 "dixit" ? nnnnn
+TD181 tried: DIXIT n n n n n
+TD194 5> ␅
+TD415740 ␆*
+TD187 5> *
+TD98834 ? ␅
+TD135032 ␆1
+TD131 ? 1
+TD270 📋 "flyby" ? ␅
+TD4003680 ␆nnnnn
+TD124 📋 "flyby" ? nnnnn
+TD260 tried: FLYBY n n n n n
+TD385 6> ␅
+TD459264 ␆*
+TD384 6> *
+TD192510 📋 "hunch" ? ␅
+TD55926 ␆1
+TD363 📋 "hunch" ? 1
+TD420 📋 "hunch" ? ␅
+TD5459248 ␆MMnnY
+TD123 📋 "hunch" ? MMnnY
+TD197 tried: HUNCH m m n n Y
+TD229 📋> ␅
+TD3687134 ␆Don't Wordle 1533 - SURVIVED
+TD127 📋> Don't Wordle 1533 - SURVIVED
+TD25 📋> ␅
+TD60 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD16 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD13 📋> ␅
+TD31 ␆⬜⬜⬜⬜⬜5916
+TD13 📋> ⬜⬜⬜⬜⬜5916
+TD14 📋> ␅
+TD56 ␆⬜⬜⬜⬜⬜2053
+TD13 📋> ⬜⬜⬜⬜⬜2053
+TD11 📋> ␅
+TD23 ␆⬜⬜⬜⬜⬜619
+TD14 📋> ⬜⬜⬜⬜⬜619
+TD11 📋> ␅
+TD27 ␆⬜⬜⬜⬜⬜127
+TD12 📋> ⬜⬜⬜⬜⬜127
+TD11 📋> ␅
+TD22 ␆⬜⬜⬜⬜⬜14
+TD12 📋> ⬜⬜⬜⬜⬜14
+TD12 📋> ␅
+TD25 ␆🟨🟨⬜⬜🟩1
+TD18 📋> 🟨🟨⬜⬜🟩1
+TD11 📋> ␅
+TD25 ␆Undos used: 3
+TD11 📋> Undos used: 3
+TD12 📋> ␅
+TD25 ␆
+TD12 📋> 
+TD12 📋> ␅
+TD23 ␆  1 words remaining
+TD12 📋>   1 words remaining
+TD12 📋> ␅
+TD23 ␆x 5 unused letters
+TD12 📋> x 5 unused letters
+TD10 📋> ␅
+TD24 ␆= 5 total score
+TD11 📋> = 5 total score
+TD11 📋> ␅
+TD31 ␆
+TD12 📋> 
+TD12 📋> ␅
+TD279617 ␆https://dontwordle.com
+TD175 📋> https://dontwordle.com
+TD51 📋> ␅
+TD144473 ␄
+TD291 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1533 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5916\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2053\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c619\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c127\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c14\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 5 unused letters\n= 5 total score\n\nhttps://dontwordle.com"}
+TD2107 result: "Don't Wordle 1533 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5916\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2053\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c619\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c127\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c14\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe91\nUndos used: 3\n\n  1 words remaining\nx 5 unused letters\n= 5 total score\n\nhttps://dontwordle.com"
+TD157 📆 2026-08-04 ? ␅
+TD178773 ␆
+TD86 📆 2026-08-04 ? 
