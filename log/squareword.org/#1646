@@ -1,0 +1,281 @@
+T4964.679845523002 now: 2026-08-04T11:41:06EDT
+TD63 site: squareword.org
+TD30 wordlist: nwl2023.txt
+TD21  ...␅
+TD465257 ␆
+TD68  ...
+TD43 🧩  ? ␅
+TD21603255 ␆#1646
+TD82 🧩  ? #1646
+TD190 puzzle_id: #1646
+TD237 > ␅
+TD937150 ␆*
+TD78 > *
+TD263269 try? ␅
+TD737413 ␆1
+TD58 try? 1
+TD180 questioning: ["liers", "#5"]
+TD154 #1 <IndexError>  📋 "liers" ? ␅
+TD3672239 ␆___R_ ~ S
+TD55 #1 <IndexError>  📋 "liers" ? ___R_ ~ S
+TD339 attempt 0 LIERS n n n Y m
+TD55 #2 <IndexError>  📋 "liers" ? ␅
+TD2543642 ␆_____ ~ ER
+TD55 #2 <IndexError>  📋 "liers" ? _____ ~ ER
+TD118 attempt 1 LIERS n n m m n
+TD49 #3 <IndexError>  📋 "liers" ? ␅
+TD1998625 ␆_____ ~ IE
+TD69 #3 <IndexError>  📋 "liers" ? _____ ~ IE
+TD123 attempt 2 LIERS n m m n n
+TD61 #4 <IndexError>  📋 "liers" ? ␅
+TD2334459 ␆_____ ~ ES
+TD115 #4 <IndexError>  📋 "liers" ? _____ ~ ES
+TD297 attempt 3 LIERS n n m n m
+TD153 #5 <IndexError>  📋 "liers" ? ␅
+TD1864606 ␆_____ ~ ER
+TD58 #5 <IndexError>  📋 "liers" ? _____ ~ ER
+TD120 attempt 4 LIERS n n m m n
+TD160 ? ␅
+TD295956 ␆
+TD93 ? 
+TD100 question done
+TD186 > ␅
+TD578899 ␆*
+TD65 > *
+TD630737 try? ␅
+TD862247 ␆1
+TD69 try? 1
+TD152 questioning: ["sutra", "#1"]
+TD150 #1 ___R_ ~S -EIL  📋 "sutra" ? ␅
+TD6024777 ␆S__R_ ~ TA
+TD189 #1 ___R_ ~S -EIL  📋 "sutra" ? S__R_ ~ TA
+TD367 attempt 0 SUTRA Y n m Y m
+TD209 #2 _____ ~ER -ILS  📋 "sutra" ? ␅
+TD2412218 ␆_U___ ~ ER
+TD69 #2 _____ ~ER -ILS  📋 "sutra" ? _U___ ~ ER
+TD135 attempt 1 SUTRA n Y n m n
+TD78 #3 _____ ~EI -LRS  📋 "sutra" ? ␅
+TD3971987 ␆_____ ~ IEU
+TD54 #3 _____ ~EI -LRS  📋 "sutra" ? _____ ~ IEU
+TD120 attempt 2 SUTRA n m n n n
+TD70 #4 _____ ~ES -ILR  📋 "sutra" ? ␅
+TD2198905 ␆.
+TD62 #4 _____ ~ES -ILR  📋 "sutra" ? .
+TD171 attempt 3 SUTRA m n n n n
+TD63 #5 _____ ~ER -ILS  📋 "sutra" ? ␅
+TD1391225 ␆.
+TD309 #5 _____ ~ER -ILS  📋 "sutra" ? .
+TD383 attempt 4 SUTRA n n n m n
+TD469 ? ␅
+TD333597 ␆
+TD67 ? 
+TD56 question done
+TD184 > ␅
+TD4839160 ␆*
+TD103 > *
+TD867218 try? ␅
+TD2363246 ␆3
+TD60 try? 3
+TD152 questioning: ["equip", "#3"]
+TD161 #1 S__R_ ~AT -EILU  📋 "equip" ? ␅
+TD5059986 ␆.
+TD51 #1 S__R_ ~AT -EILU  📋 "equip" ? .
+TD111 attempt 0 EQUIP n n n n n
+TD40 #2 _U___ ~ER -AILST  📋 "equip" ? ␅
+TD16189513 ␆_U___ ~ ERP
+TD125 #2 _U___ ~ER -AILST  📋 "equip" ? _U___ ~ ERP
+TD276 attempt 1 EQUIP m n n n m
+TD158 #3 _____ ~EIU -ALRST  📋 "equip" ? ␅
+TD3004184 ␆.
+TD70 #3 _____ ~EIU -ALRST  📋 "equip" ? .
+TD157 attempt 2 EQUIP m n m m n
+TD61 #4 _____ ~ES -AILRTU  📋 "equip" ? ␅
+TD1817662 ␆.
+TD193 #4 _____ ~ES -AILRTU  📋 "equip" ? .
+TD622 attempt 3 EQUIP m n n n n
+T8.197588753973832 now: 2026-08-04T11:42:49EDT
+TD125 questioning: ["equip", "#3"]
+TD201 #5 _____ ~ER -AILSTU  📋 "equip" ? ␅
+TD3392284 ␆E____ ~ ER
+TD60 #5 _____ ~ER -AILSTU  📋 "equip" ? E____ ~ ER
+TD395 attempt 4 EQUIP Y n n n n
+TD212 ? ␅
+TD235167 ␆
+TD56 ? 
+TD79 question done
+TD154 > ␅
+TD454931 ␆*
+TD57 > *
+TD1026505 try? ␅
+TD3249537 ␄
+TD122 <EOF>
+TD267 > ␅
+TD3552551 ␆* 4
+TD52 > * 4
+TD2543 try? ␅
+TD783924 ␆1
+TD60 try? 1
+TD185 questioning: ["mensh", "#4"]
+TD178 #1 S__R_ ~AT -EILPQU  📋 "mensh" ? ␅
+TD6430590 ␆.
+TD66 #1 S__R_ ~AT -EILPQU  📋 "mensh" ? .
+TD151 attempt 0 MENSH n n n n n
+TD81 #2 _U___ ~EPR -AILQSTU  📋 "mensh" ? ␅
+TD1541131 ␆.
+TD88 #2 _U___ ~EPR -AILQSTU  📋 "mensh" ? .
+TD186 attempt 1 MENSH n m n n n
+TD59 #3 _____ ~EIU -ALPQRST  📋 "mensh" ? ␅
+TD3412073 ␆_____ ~ IEUM
+TD65 #3 _____ ~EIU -ALPQRST  📋 "mensh" ? _____ ~ IEUM
+TD133 attempt 2 MENSH m m n n n
+TD69 #4 _____ ~ES -AILPQRTU  📋 "mensh" ? ␅
+TD3816198 ␆___S_ ~ EN
+TD61 #4 _____ ~ES -AILPQRTU  📋 "mensh" ? ___S_ ~ EN
+TD116 attempt 3 MENSH n m m Y n
+TD68 #5 E____ ~R -AILPQSTU  📋 "mensh" ? ␅
+TD3009774 ␆E____ ~ ER
+TD98 #5 E____ ~R -AILPQSTU  📋 "mensh" ? E____ ~ ER
+TD237 attempt 4 MENSH n m n n n
+TD417 ? ␅
+TD330933 ␆
+TD124 ? 
+TD140 question done
+TD368 > ␅
+TD737354 ␆*
+TD51 > *
+TD684254 questioning: ["imbue", "#3"]
+TD211 #1 S__R_ ~AT -EHILMNPQSU  📋 "imbue" ? ␅
+TD3702921 ␆.
+TD178 #1 S__R_ ~AT -EHILMNPQSU  📋 "imbue" ? .
+TD444 attempt 0 IMBUE n n n n n
+TD186 #2 _U___ ~EPR -AHILMNQSTU  📋 "imbue" ? ␅
+TD1054857 ␆.
+TD89 #2 _U___ ~EPR -AHILMNQSTU  📋 "imbue" ? .
+TD187 attempt 1 IMBUE n n n n m
+TD70 #3 _____ ~EIMU -AHLNPQRST  📋 "imbue" ? ␅
+TD594712 ␆/it
+TD64 #3 _____ ~EIMU -AHLNPQRST  📋 "imbue" ? /it
+TD152 attempt 2 IMBUE Y Y Y Y Y
+TD60 #4 ___S_ ~EN -AHILMPQRTU  📋 "imbue" ? ␅
+TD3179604 ␆___SE ~ N
+TD147 #4 ___S_ ~EN -AHILMPQRTU  📋 "imbue" ? ___SE ~ N
+TD376 attempt 3 IMBUE n n n n Y
+TD217 #5 E____ ~R -AHILMNPQSTU  📋 "imbue" ? ␅
+TD2181642 ␆E____ ~ ER
+TD75 #5 E____ ~R -AHILMNPQSTU  📋 "imbue" ? E____ ~ ER
+TD152 attempt 4 IMBUE n n n n m
+TD240 ? ␅
+TD248378 ␆
+TD70 ? 
+TD73 question done
+TD211 > ␅
+TD414813 ␆*
+TD59 > *
+TD953089 questioning: ["purer", "#2"]
+TD264 #1 S__R_ ~AT -BEHILMNPQSU  📋 "purer" ? ␅
+TD7682919 ␆.
+TD107 #1 S__R_ ~AT -BEHILMNPQSU  📋 "purer" ? .
+TD190 attempt 0 PURER n n n n n
+TD92 #2 _U___ ~EPR -ABHILMNQSTU  📋 "purer" ? ␅
+TD1265486 ␆/it
+TD78 #2 _U___ ~EPR -ABHILMNQSTU  📋 "purer" ? /it
+TD162 attempt 1 PURER Y Y Y Y Y
+TD59 #4 ___SE ~N -ABHILMPQRTU  📋 "purer" ? ␅
+TD2603121 ␆.
+TD63 #4 ___SE ~N -ABHILMPQRTU  📋 "purer" ? .
+TD132 attempt 3 PURER n n n n n
+TD49 #5 E____ ~R -ABHILMNPQSTU  📋 "purer" ? ␅
+TD2990038 ␆E_RE_ ~ R
+TD68 #5 E____ ~R -ABHILMNPQSTU  📋 "purer" ? E_RE_ ~ R
+TD156 attempt 4 PURER n n Y Y m
+TD449 ? ␅
+TD175025 ␆
+TD72 ? 
+TD93 question done
+TD300 > ␅
+TD510868 ␆*
+TD88 > *
+TD1942812 questioning: ["noose", "#4"]
+TD229 #1 S__R_ ~AT -BEHILMNPQRSU  📋 "noose" ? ␅
+TD3001513 ␆.
+TD91 #1 S__R_ ~AT -BEHILMNPQRSU  📋 "noose" ? .
+TD250 attempt 0 NOOSE n n n n n
+T15.303073340997798 now: 2026-08-04T11:44:20EDT
+TD95 questioning: ["noose", "#4"]
+TD170 #4 ___SE ~N -ABEHILMPQRTU  📋 "noose" ? ␅
+TD1223673 ␆/it
+TD55 #4 ___SE ~N -ABEHILMPQRTU  📋 "noose" ? /it
+TD212 attempt 3 NOOSE Y Y Y Y Y
+TD55 #5 E_RE_ ~R -ABHILMNPQSTU  📋 "noose" ? ␅
+TD3206939 ␆.
+TD86 #5 E_RE_ ~R -ABHILMNPQSTU  📋 "noose" ? .
+TD203 attempt 4 NOOSE n n n n n
+TD257 ? ␅
+TD271112 ␆
+TD71 ? 
+TD78 question done
+TD266 > ␅
+TD459986 ␆*
+TD60 > *
+TD706652 questioning: ["erred", "#5"]
+TD206 #1 S__R_ ~AT -BEHILMNOPQRSU  📋 "erred" ? ␅
+TD3672559 ␆.
+TD92 #1 S__R_ ~AT -BEHILMNOPQRSU  📋 "erred" ? .
+TD137 attempt 0 ERRED n n n n n
+TD49 #5 E_RE_ ~R -ABEHILMNOPQSTU  📋 "erred" ? ␅
+TD768259 ␆/it
+TD77 #5 E_RE_ ~R -ABEHILMNOPQSTU  📋 "erred" ? /it
+TD205 attempt 4 ERRED Y Y Y Y Y
+TD423 ? ␅
+TD165701 ␆
+TD131 ? 
+TD320 question done
+TD409 > ␅
+TD378991 ␆*
+TD132 > *
+TD327130 questioning: ["start", "#1"]
+TD197 #1 S__R_ ~AT -BDEHILMNOPQRSU  📋 "start" ? ␅
+TD3429294 ␆/it
+TD57 #1 S__R_ ~AT -BDEHILMNOPQRSU  📋 "start" ? /it
+TD115 attempt 0 START Y Y Y Y Y
+TD135 ? ␅
+TD131788 ␆
+TD72 ? 
+TD54 question done
+TD32223 📋> ␅
+TD5503451 ␆squareword.org 1646: 9 guesses
+TD106 📋> squareword.org 1646: 9 guesses
+TD22 📋> ␅
+TD46 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD18 ␆🟩🟨🟨🟩🟨
+TD7 📋> 🟩🟨🟨🟩🟨
+TD7 📋> ␅
+TD14 ␆🟨🟩🟨🟨🟨
+TD8 📋> 🟨🟩🟨🟨🟨
+TD7 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD14 ␆🟨🟨🟨🟩🟩
+TD8 📋> 🟨🟨🟨🟩🟩
+TD7 📋> ␅
+TD14 ␆🟩🟨🟨🟨🟨
+TD8 📋> 🟩🟨🟨🟨🟨
+TD7 📋> ␅
+TD13 ␆
+TD9 📋> 
+TD7 📋> ␅
+TD17 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD13 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> ␅
+TD204743 ␆#squareword #squareword1646
+TD190 📋> #squareword #squareword1646
+TD21 📋> ␅
+TD191071 ␄
+TD408 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1646: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1646"}
+TD2441 result: "squareword.org 1646: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1646"
+TD232 📆 2026-08-04 ? ␅
+TD119097 ␆
+TD212 📆 2026-08-04 ? 
