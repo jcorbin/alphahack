@@ -1,0 +1,85 @@
+T793.3974309710029 now: 2026-08-04T07:40:57EDT
+TD164 site: alphaguess.com
+TD161090 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 7269294a85dc285fa261c6c196d1654c8a03b550
+TD108  ...␅
+TD4057022 ␆
+TD63  ...
+TD105 [0 : 98147 : 196518] mac? ␅
+TD3126146 ␆a
+TD205 [0 : 98147 : 196518] mac? a
+TD182 progress: 1 98147 mac
+TD181 [98148 : 147311 : 196518] rho? ␅
+TD1488342 ␆b
+TD207 [98148 : 147311 : 196518] rho? b
+TD178 progress: -1 147311 rho
+TD161 [98148 : 122724 : 147311] parol? ␅
+TD3854293 ␆b
+TD106 [98148 : 122724 : 147311] parol? b
+TD133 progress: -1 122724 parol
+TD164 [98148 : 109929 : 122724] ne? ␅
+TD1981428 ␆b
+TD196 [98148 : 109929 : 122724] ne? b
+TD268 progress: -1 109929 ne
+TD279 [98148 : 104011 : 109929] minis? ␅
+TD1588915 ␆a
+TD368 [98148 : 104011 : 109929] minis? a
+TD166 progress: 1 104011 minis
+TD166 [104012 : 106934 : 109929] mora? ␅
+TD2559112 ␆a
+TD132 [104012 : 106934 : 109929] mora? a
+TD135 progress: 1 106934 mora
+TD147 [106935 : 108413 : 109929] mun? ␅
+TD2620290 ␆a
+TD111 [106935 : 108413 : 109929] mun? a
+TD81 progress: 1 108413 mun
+TD132 [108414 : 108920 : 109929] my? ␅
+TD2867295 ␆a
+TD182 [108414 : 108920 : 109929] my? a
+TD166 progress: 1 108920 my
+TD186 [108921 : 109265 : 109929] na? ␅
+TD1522988 ␆a
+TD116 [108921 : 109265 : 109929] na? a
+TD101 progress: 1 109265 na
+TD188 [109266 : 109596 : 109929] nard? ␅
+TD3039458 ␆b
+TD89 [109266 : 109596 : 109929] nard? b
+TD88 progress: -1 109596 nard
+TD103 [109266 : 109423 : 109596] nan? ␅
+TD2815773 ␆b
+TD132 [109266 : 109423 : 109596] nan? b
+TD145 progress: -1 109423 nan
+TD127 [109266 : 109341 : 109423] nail? ␅
+TD5331141 ␆a
+TD131 [109266 : 109341 : 109423] nail? a
+TD150 progress: 1 109341 nail
+TD287 [109342 : 109377 : 109423] naked? ␅
+TD9233130 ␆it
+TD123 [109342 : 109377 : 109423] naked? it
+TD136 progress: 0 109377 naked
+TD53 [109342 : 109377 : 109423] <Done>.
+TD142 📋> ␅
+TD1070733 ␆naked
+TD165 📋> naked
+TD45 📋> ␅
+TD4765313 ␆🧩 Puzzle #1107
+TD104 📋> 🧩 Puzzle #1107
+TD28 📋> ␅
+TD137 ␆🤔 13 guesses
+TD88 📋> 🤔 13 guesses
+TD15 📋> ␅
+TD36 ␆⏱️ 31s
+TD9 📋> ⏱️ 31s
+TD7 📋> ␅
+TD435275 ␆🔗 alphaguess.com/1107
+TD95 📋> 🔗 alphaguess.com/1107
+TD16 📋> ␅
+TD338141 ␄
+TD209 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "naked\n\ud83e\udde9 Puzzle #1107\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 31s\n\ud83d\udd17 alphaguess.com/1107"}
+TD161 result: "naked\n\ud83e\udde9 Puzzle #1107\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 31s\n\ud83d\udd17 alphaguess.com/1107"
+TD41 result puzzle: 1107
+TD28 result guesses: 13
+TD23 result time: 31s
+TD23 result link: alphaguess.com/1107
+TD131 📆 2026-08-04 ? ␅
+TD569448 ␆
+TD120 📆 2026-08-04 ? 
