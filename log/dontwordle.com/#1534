@@ -1,0 +1,175 @@
+T300.8328231690102 now: 2026-08-05T07:37:31EDT
+TD227 site: dontwordle.com
+TD45 wordlist: nwl2023.txt
+TD75  ...␅
+TD862572 ␆
+TD108  ...
+TD144 1> ␅
+TD5650673 ␆*
+TD106 1> *
+TD233381 ? ␅
+TD950154 ␄
+TD141 <EOF>
+TD107 1> ␅
+TD1919963 ␆* -bot 10
+TD100 1> * -bot 10
+TD177255 ? ␅
+TD2463005 ␆3
+TD93 ? 3
+TD250 📋 "laser" ? ␅
+TD4801754 ␆MYnMn
+TD61 📋 "laser" ? MYnMn
+TD441 tried: LASER m Y n m n
+TD153 2> ␅
+TD2183740 ␆*
+TD69 2> *
+TD124114 ? ␅
+TD994278 ␆1
+TD67 ? 1
+TD177 📋 "eagle" ? ␅
+TD2508967 ␄
+TD196 <EOF>
+TD252 2> ␅
+TD1236986 ␆undo
+TD137 2> undo
+TD218 undo
+TD239 1> ␅
+TD3498713 ␆*
+TD157 1> *
+TD163719 ? ␅
+TD154317 ␆1
+TD142 ? 1
+TD410 📋 "gogos" ? ␅
+TD3983628 ␆nnnnn
+TD162 📋 "gogos" ? nnnnn
+TD506 tried: GOGOS n n n n n
+TD341 2> ␅
+TD4286598 ␆* :v [laser] -bot 10
+TD84 2> * :v [laser] -bot 10
+TD122087 ? ␅
+TD1045253 ␆1
+TD130 ? 1
+TD362 📋 "unity" ? ␅
+TD4643565 ␆nnnMn
+TD172 📋 "unity" ? nnnMn
+TD269 tried: UNITY n n n m n
+TD298 3> ␅
+TD697565 ␆undo
+TD127 3> undo
+TD212 undo
+TD371 2> ␅
+TD2942558 ␆*
+TD111 2> *
+TD132264 ? ␅
+TD153734 ␆1
+TD42 ? 1
+TD108 📋 "kibbi" ? ␅
+TD4320378 ␆nnYnn
+TD113 📋 "kibbi" ? nnYnn
+TD401 tried: KIBBI n n Y n n
+TD594 3> ␅
+TD693155 ␆undo
+TD149 3> undo
+TD230 undo
+TD458 2> ␅
+TD2966327 ␆*
+TD121 2> *
+TD118573 ? ␅
+TD203878 ␆1
+TD145 ? 1
+TD348 📋 "minim" ? ␅
+TD2852902 ␆nnnnn
+TD102 📋 "minim" ? nnnnn
+TD237 tried: MINIM n n n n n
+TD261 3> ␅
+TD765232 ␆*
+TD82 3> *
+TD118561 ? ␅
+TD192946 ␆1
+TD160 ? 1
+TD297 📋 "yukky" ? ␅
+TD2997020 ␆nnnnn
+TD90 📋 "yukky" ? nnnnn
+TD188 tried: YUKKY n n n n n
+TD207 4> ␅
+TD1173751 ␆*
+TD108 4> *
+TD254226 ? ␅
+TD340 ␆1
+TD23 ? 1
+TD89 📋 "crwth" ? ␅
+TD5604071 ␆nnnMn
+TD106 📋 "crwth" ? nnnMn
+TD235 tried: CRWTH n n n m n
+TD285 5> ␅
+TD411846 ␆*
+TD131 5> *
+TD230447 ? ␅
+TD692885 ␆1
+TD128 ? 1
+TD293 📋 "feted" ? ␅
+TD5685960 ␆nMMnn
+TD145 📋 "feted" ? nMMnn
+TD393 tried: FETED n m m n n
+TD558 6> ␅
+TD414770 ␆*
+TD113 6> *
+TD253282 ? ␅
+TD1104807 ␆1
+TD142 ? 1
+TD277 📋 "expat" ? ␅
+TD4915735 ␆MnnMM
+TD105 📋 "expat" ? MnnMM
+TD280 tried: EXPAT m n n m m
+TD355 📋> ␅
+TD3116247 ␆Don't Wordle 1534 - SURVIVED
+TD218 📋> Don't Wordle 1534 - SURVIVED
+TD18 📋> ␅
+TD57 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD20 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD8 📋> ␅
+TD27 ␆⬜⬜⬜⬜⬜4103
+TD8 📋> ⬜⬜⬜⬜⬜4103
+TD7 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜1666
+TD7 📋> ⬜⬜⬜⬜⬜1666
+TD6 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜779
+TD6 📋> ⬜⬜⬜⬜⬜779
+TD6 📋> ␅
+TD15 ␆⬜⬜⬜🟨⬜55
+TD7 📋> ⬜⬜⬜🟨⬜55
+TD6 📋> ␅
+TD15 ␆⬜🟨🟨⬜⬜6
+TD6 📋> ⬜🟨🟨⬜⬜6
+TD6 📋> ␅
+TD15 ␆🟨⬜⬜🟨🟨2
+TD6 📋> 🟨⬜⬜🟨🟨2
+TD6 📋> ␅
+TD14 ␆Undos used: 3
+TD7 📋> Undos used: 3
+TD7 📋> ␅
+TD15 ␆
+TD7 📋> 
+TD7 📋> ␅
+TD15 ␆  2 words remaining
+TD7 📋>   2 words remaining
+TD6 📋> ␅
+TD14 ␆x 6 unused letters
+TD6 📋> x 6 unused letters
+TD7 📋> ␅
+TD14 ␆= 12 total score
+TD6 📋> = 12 total score
+TD6 📋> ␅
+TD14 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD244898 ␆https://dontwordle.com
+TD96 📋> https://dontwordle.com
+TD14 📋> ␅
+TD154174 ␄
+TD265 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1534 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4103\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1666\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c779\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c55\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe82\nUndos used: 3\n\n  2 words remaining\nx 6 unused letters\n= 12 total score\n\nhttps://dontwordle.com"}
+TD2541 result: "Don't Wordle 1534 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4103\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1666\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c779\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c55\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe82\nUndos used: 3\n\n  2 words remaining\nx 6 unused letters\n= 12 total score\n\nhttps://dontwordle.com"
+TD168 📆 2026-08-05 ? ␅
+TD169454 ␆
+TD102 📆 2026-08-05 ? 
