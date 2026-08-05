@@ -1,0 +1,74 @@
+T235.1173741169914 now: 2026-08-05T07:36:25EDT
+TD185 site: alphaguess.com
+TD180704 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 8f000badfb94eaf590441541fd337674ecf89097
+TD100  ...␅
+TD6590318 ␆
+TD88  ...
+TD159 [0 : 98147 : 196518] mac? ␅
+TD2244233 ␆b
+TD95 [0 : 98147 : 196518] mac? b
+TD106 progress: -1 98147 mac
+TD138 [0 : 47378 : 98147] dis? ␅
+TD1705403 ␆a
+TD154 [0 : 47378 : 98147] dis? a
+TD189 progress: 1 47378 dis
+TD243 [47379 : 72662 : 98147] green? ␅
+TD1336027 ␆a
+TD113 [47379 : 72662 : 98147] green? a
+TD111 progress: 1 72662 green
+TD131 [72663 : 85397 : 98147] inocula? ␅
+TD1356379 ␆a
+TD62 [72663 : 85397 : 98147] inocula? a
+TD73 progress: 1 85397 inocula
+TD193 [85398 : 91772 : 98147] knight? ␅
+TD1485141 ␆b
+TD113 [85398 : 91772 : 98147] knight? b
+TD117 progress: -1 91772 knight
+TD482 [85398 : 88583 : 91772] jacal? ␅
+TD1462835 ␆a
+TD50 [85398 : 88583 : 91772] jacal? a
+TD52 progress: 1 88583 jacal
+TD285 [88584 : 90178 : 91772] juvenilities? ␅
+TD1480303 ␆b
+TD93 [88584 : 90178 : 91772] juvenilities? b
+TD112 progress: -1 90178 juvenilities
+TD130 [88584 : 89375 : 90178] jin? ␅
+TD1526802 ␆b
+TD179 [88584 : 89375 : 90178] jin? b
+TD251 progress: -1 89375 jin
+TD511 [88584 : 88977 : 89375] jaw? ␅
+TD1382001 ␆a
+TD126 [88584 : 88977 : 89375] jaw? a
+TD172 progress: 1 88977 jaw
+TD1124 [88978 : 89176 : 89375] jerreeds? ␅
+TD1454631 ␆a
+TD101 [88978 : 89176 : 89375] jerreeds? a
+TD130 progress: 1 89176 jerreeds
+TD260 [89177 : 89260 : 89375] jewel? ␅
+TD3432764 ␆it
+TD86 [89177 : 89260 : 89375] jewel? it
+TD75 progress: 0 89260 jewel
+TD21 [89177 : 89260 : 89375] <Done>.
+TD62 📋> ␅
+TD2966040 ␆🧩 Puzzle #1108
+TD126 📋> 🧩 Puzzle #1108
+TD30 📋> ␅
+TD67 ␆🤔 11 guesses
+TD26 📋> 🤔 11 guesses
+TD21 📋> ␅
+TD41 ␆⏱️ 15s
+TD24 📋> ⏱️ 15s
+TD21 📋> ␅
+TD614102 ␆🔗 alphaguess.com/1108
+TD153 📋> 🔗 alphaguess.com/1108
+TD30 📋> ␅
+TD150620 ␄
+TD232 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1108\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 15s\n\ud83d\udd17 alphaguess.com/1108"}
+TD187 result: "\ud83e\udde9 Puzzle #1108\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 15s\n\ud83d\udd17 alphaguess.com/1108"
+TD82 result puzzle: 1108
+TD40 result guesses: 11
+TD33 result time: 15s
+TD32 result link: alphaguess.com/1108
+TD174 📆 2026-08-05 ? ␅
+TD214312 ␆
+TD137 📆 2026-08-05 ? 
