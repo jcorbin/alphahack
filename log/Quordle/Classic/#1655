@@ -1,0 +1,176 @@
+T594.5453608079988 now: 2026-08-06T08:28:17EDT
+TD115 site: https://www.merriam-webster.com/games/quordle/#/
+TD23 wordlist: nwl2023.txt
+TD7 num_words: 4
+TD123  ...␅
+TD458542 ␆
+TD179  ...
+TD542329 > ␅
+TD8676388 ␆*
+TD80 > *
+TD55181 ? ␅
+TD805950 ␆1
+TD129 ? 1
+TD219 questioning: aster
+TD236 Classic #1 _____? ␅
+TD5625510 ␆YMnMn
+TD52 Classic #1 _____? YMnMn
+TD218 attempt: 0 ASTER Y m n m n
+TD52 Classic #2 _____? ␅
+TD1559746 ␆MnnnM
+TD100 Classic #2 _____? MnnnM
+TD533 attempt: 1 ASTER m n n n m
+TD348 Classic #3 _____? ␅
+TD2419834 ␆MnnMY
+TD111 Classic #3 _____? MnnMY
+TD320 attempt: 2 ASTER m n n m Y
+TD156 Classic #4 _____? ␅
+TD1473223 ␆nnnnM
+TD142 Classic #4 _____? nnnnM
+TD452 attempt: 3 ASTER n n n n m
+TD535787 > ␅
+TD761759 ␆*
+TD99 > *
+TD3251 ? ␅
+TD1815396 ␆2
+TD150 ? 2
+TD298 questioning: hairy
+TD272 Classic #1 A____ ~ES -RT? ␅
+TD2600533 ␆nMnnn
+TD95 Classic #1 A____ ~ES -RT? nMnnn
+TD201 attempt: 0 HAIRY n m n n n
+TD98 Classic #2 _____ ~AR -EST? ␅
+TD1476024 ␆nMnMn
+TD93 Classic #2 _____ ~AR -EST? nMnMn
+TD246 attempt: 1 HAIRY n m n m n
+TD118 Classic #3 ____R ~AE -ST? ␅
+TD3010622 ␆nMnMn
+TD161 Classic #3 ____R ~AE -ST? nMnMn
+TD620 attempt: 2 HAIRY n m n m n
+TD325 Classic #4 _____ ~R -AEST? ␅
+TD1169473 ␆nnnYn
+TD72 Classic #4 _____ ~R -AEST? nnnYn
+TD147 attempt: 3 HAIRY n n n Y n
+TD486906 > ␅
+TD863573 ␆*
+TD59 > *
+TD895 ? ␅
+TD2023055 ␆3
+TD103 ? 3
+TD222 questioning: drank
+TD220 Classic #1 A____ ~ES -HIRTY? ␅
+TD3176387 ␆nnMnn
+TD120 Classic #1 A____ ~ES -HIRTY? nnMnn
+TD586 attempt: 0 DRANK n n m n n
+TD334 Classic #2 _____ ~AR -EHISTY? ␅
+TD1707653 ␆MYYYn
+TD90 Classic #2 _____ ~AR -EHISTY? MYYYn
+TD233 attempt: 1 DRANK m Y Y Y n
+TD114 Classic #3 ____R ~AE -HISTY? ␅
+TD1296311 ␆MMMnn
+TD86 Classic #3 ____R ~AE -HISTY? MMMnn
+TD239 attempt: 2 DRANK m m m n n
+TD123 Classic #4 ___R_ -AEHISTY? ␅
+TD1097348 ␆nMnnn
+TD99 Classic #4 ___R_ -AEHISTY? nMnnn
+TD223 attempt: 3 DRANK n m n n n
+TD482989 > ␅
+TD558220 ␆*
+TD120 > *
+TD644 questioning: cedar
+TD290 Classic #1 A____ ~ES -DHIKNRTY? ␅
+TD3107814 ␆nMnMn
+TD77 Classic #1 A____ ~ES -DHIKNRTY? nMnMn
+TD188 attempt: 0 CEDAR n m n m n
+TD104 Classic #2 _RAN_ ~D -EHIKSTY? ␅
+TD1963571 ␆nnMMM
+TD72 Classic #2 _RAN_ ~D -EHIKSTY? nnMMM
+TD191 attempt: 1 CEDAR n n m m m
+TD101 Classic #3 ____R ~ADE -HIKNSTY? ␅
+TD1391290 ␆YYYYY
+TD133 Classic #3 ____R ~ADE -HIKNSTY? YYYYY
+TD273 attempt: 2 CEDAR Y Y Y Y Y
+TD144 Classic #4 ___R_ -ADEHIKNSTY? ␅
+TD1347753 ␆nnnnM
+TD89 Classic #4 ___R_ -ADEHIKNSTY? nnnnM
+TD238 attempt: 3 CEDAR n n n n m
+TD346010 > ␅
+TD3769205 ␆*
+TD55 > *
+TD302 ? ␅
+TD2038589 ␆2
+TD160 ? 2
+TD362 questioning: grand
+TD420 Classic #1 A____ ~ES -CDHIKNRTY? ␅
+TD2909334 ␆nnMnn
+TD121 Classic #1 A____ ~ES -CDHIKNRTY? nnMnn
+TD409 attempt: 0 GRAND n n m n n
+TD237 Classic #2 _RAN_ ~D -CEHIKSTY? ␅
+TD1563253 ␆nYYYY
+TD100 Classic #2 _RAN_ ~D -CEHIKSTY? nYYYY
+TD304 attempt: 1 GRAND n Y Y Y Y
+TD178 Classic #4 ___R_ -ACDEHIKNSTY? ␅
+TD1167034 ␆nMnnn
+TD117 Classic #4 ___R_ -ACDEHIKNSTY? nMnnn
+TD380 attempt: 3 GRAND n m n n n
+TD443541 > ␅
+TD771228 ␆*
+TD91 > *
+TD311 questioning: brand
+TD129 Classic #1 A____ ~ES -CDGHIKNRTY? ␅
+TD4050563 ␆nnMnn
+TD67 Classic #1 A____ ~ES -CDGHIKNRTY? nnMnn
+TD166 attempt: 0 BRAND n n m n n
+TD86 Classic #2 _RAND -CEGHIKSTY? ␅
+TD1558612 ␆YYYYY
+TD141 Classic #2 _RAND -CEGHIKSTY? YYYYY
+TD324 attempt: 1 BRAND Y Y Y Y Y
+TD179 Classic #4 ___R_ -ACDEGHIKNSTY? ␅
+TD1677185 ␆YMnnn
+TD105 Classic #4 ___R_ -ACDEGHIKNSTY? YMnnn
+TD290 attempt: 3 BRAND Y m n n n
+TD238446 > ␅
+TD719563 ␆*
+TD124 > *
+TD783 ? ␅
+TD1682193 ␆1
+TD147 ? 1
+TD249 questioning: blurb
+TD342 Classic #1 A____ ~ES -BCDGHIKNRTY? ␅
+TD2740502 ␆nnYnn
+TD120 Classic #1 A____ ~ES -BCDGHIKNRTY? nnYnn
+TD275 attempt: 0 BLURB n n Y n n
+TD158 Classic #4 B__R_ -ACDEGHIKNSTY? ␅
+TD1296780 ␆YYYYY
+TD96 Classic #4 B__R_ -ACDEGHIKNSTY? YYYYY
+TD257 attempt: 3 BLURB Y Y Y Y Y
+TD120431 > ␅
+TD612304 ␆*
+TD105 > *
+TD435 questioning: amuse
+TD237 Classic #1 A_U__ ~ES -BCDGHIKLNRTY? ␅
+TD2891762 ␆YYYYY
+TD136 Classic #1 A_U__ ~ES -BCDGHIKLNRTY? YYYYY
+TD460 attempt: 0 AMUSE Y Y Y Y Y
+TD253 📋> ␅
+TD4332494 ␆🙂 Daily Quordle 1655
+TD74 📋> 🙂 Daily Quordle 1655
+TD21 📋> ␅
+TD90 ␆8️⃣6️⃣
+TD21 📋> 8️⃣6️⃣
+TD14 📋> ␅
+TD48 ␆4️⃣7️⃣
+TD16 📋> 4️⃣7️⃣
+TD12 📋> ␅
+TD37 ␆m-w.com/games/quordle/
+TD15 📋> m-w.com/games/quordle/
+TD12 📋> ␅
+TD218632 ␆
+TD112 📋> 
+TD32 📋> ␅
+TD157148 ␄
+TD232 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1655\n8\ufe0f\u20e36\ufe0f\u20e3\n4\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD5335 result: "\ud83d\ude42 Daily Quordle 1655\n8\ufe0f\u20e36\ufe0f\u20e3\n4\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD68 📆 2026-08-06 ? ␅
+TD145588 ␆
+TD143 📆 2026-08-06 ? 
