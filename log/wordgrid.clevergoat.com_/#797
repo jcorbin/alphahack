@@ -1,0 +1,223 @@
+T4571.911063148 now: 2026-08-06T10:14:24EDT
+TD159 site: https://wordgrid.clevergoat.com/
+TD47 wordlist: nwl2023.txt
+TD71 > ␅
+TD3912980 ␆col 1 ~ AR
+TD87 > col 1 ~ AR
+TD1932 > ␅
+TD8787776 ␆col 1 ~AR
+TD79 > col 1 ~AR
+TD208 rule col: 1 ~AR
+TD54 > ␅
+TD6483888 ␆col 2 ![EOS]
+TD63 > col 2 ![EOS]
+TD390 rule col: 2 ![EOS]
+TD62 > ␅
+TD3988959 ␆col 3 x2
+TD89 > col 3 x2
+TD202 rule col: 3 x2
+TD151 > ␅
+TD6567056 ␆row 1 #1-6
+TD59 > row 1 #1-6
+TD219 rule row: 1 #1-6
+TD58 > ␅
+TD2972265 ␆row 2 ~AG
+TD99 > row 2 ~AG
+TD330 rule row: 2 ~AG
+TD93 > ␅
+TD9711784 ␆row 3 ![EIP]
+TD166 > row 3 ![EIP]
+TD718 rule row: 3 ![EIP]
+TD167 > ␅
+TD1021126336 ␆*
+TD78 > *
+TD322809 ? ␅
+TD5223621 ␆7
+TD71 ? 7
+TD129 questioning: 0 yare
+TD43 🌡️ yare 📋 ? ␅
+TD4111837 ␆.02
+TD92 🌡️ yare 📋 ? .02
+TD237 word: 0 yare 0.02
+TD21 questioning: -1 
+TD82 > ␅
+TD600658 ␆*
+TD56 > *
+TD309322 ? ␅
+TD4059054 ␆3
+TD80 ? 3
+TD128 questioning: 1 puli
+TD45 🌡️ puli 📋 ? ␅
+TD5004518 ␆.04
+TD66 🌡️ puli 📋 ? .04
+TD71 word: 1 puli 0.04
+TD17 questioning: -1 
+TD84 > ␅
+TD766467 ␆*
+TD69 > *
+TD986517 ? ␅
+TD2966464 ␆2
+TD67 ? 2
+TD81 questioning: 2 olla
+TD28 🌡️ olla 📋 ? ␅
+TD5678484 ␆.05
+TD130 🌡️ olla 📋 ? .05
+TD138 word: 2 olla 0.05
+TD60 questioning: -1 
+TD254 > ␅
+TD986696 ␆*
+TD107 > *
+TD288102 ? ␅
+TD8190489 ␆3
+TD116 ? 3
+TD170 questioning: 3 smaragd
+TD67 🌡️ smaragd 📋 ? ␅
+TD5678383 ␆.07
+TD52 🌡️ smaragd 📋 ? .07
+TD46 word: 3 smaragd 0.07
+TD9 questioning: -1 
+TD48 > ␅
+TD1259034 ␆*
+TD72 > *
+TD278648 ? ␅
+TD3550021 ␆6
+TD63 ? 6
+TD105 questioning: 4 curagh
+TD38 🌡️ curagh 📋 ? ␅
+TD6655380 ␆.05
+TD88 🌡️ curagh 📋 ? .05
+TD74 word: 4 curagh 0.05
+TD17 questioning: -1 
+TD104 > ␅
+TD8162959 ␆* 1 2 -bot 10
+TD176 > * 1 2 -bot 10
+TD283983 ? ␅
+TD3722765 ␆5
+TD78 ? 5
+TD133 questioning: 3 sexagenarians
+TD44 🌡️ sexagenarians 📋 ? ␅
+TD5409401 ␆.04
+TD186 🌡️ sexagenarians 📋 ? .04
+TD193 word: 3 sexagenarians 0.04
+TD63 questioning: -1 
+TD280 > ␅
+TD6549902 ␆* 3 1 -bot 10
+TD68 > * 3 1 -bot 10
+TD961414 ? ␅
+TD2616935 ␆2
+TD56 ? 2
+TD85 questioning: 2 zzz
+TD30 🌡️ zzz 📋 ? ␅
+TD4608859 ␆0
+TD94 🌡️ zzz 📋 ? 0
+TD86 word: 2 zzz 0.0
+TD13 questioning: -1 
+TD95 > ␅
+TD1620460 ␆*
+TD62 > *
+TD982369 ? ␅
+TD11400945 ␆3
+TD90 ? 3
+TD111 questioning: 5 stillage
+TD40 🌡️ stillage 📋 ? ␅
+TD3793142 ␆0
+TD68 🌡️ stillage 📋 ? 0
+TD58 word: 5 stillage 0.0
+TD12 questioning: -1 
+TD95 > ␅
+TD938645 ␆*
+TD58 > *
+TD292557 ? ␅
+TD6484480 ␆7
+TD108 ? 7
+TD142 questioning: 6 boarts
+TD53 🌡️ boarts 📋 ? ␅
+TD11676754 ␆* 2 2 -bot 10
+TD55 🌡️ boarts 📋 ? * 2 2 -bot 10
+TD63 🌡️ boarts 📋 ? ␅
+TD2042251 ␆0
+TD116 🌡️ boarts 📋 ? 0
+TD155 word: 6 boarts 0.0
+TD51 questioning: -1 
+TD232 > ␅
+TD1991551 ␆* 2 2 -bot 10
+TD90 > * 2 2 -bot 10
+TD284298 ? ␅
+TD5859576 ␆10
+TD106 ? 10
+TD235 questioning: 4 wigwagging
+TD72 🌡️ wigwagging 📋 ? ␅
+TD5188182 ␆.04
+TD76 🌡️ wigwagging 📋 ? .04
+TD203 word: 4 wigwagging 0.04
+TD41 questioning: -1 
+TD130 > ␅
+TD1018834 ␆
+TD67 > 
+TD249 > ␅
+TD1447047 ␆*
+TD91 > *
+TD308766 ? ␅
+TD6872167 ␆4
+TD53 ? 4
+TD67 questioning: 7 caul
+TD21 🌡️ caul 📋 ? ␅
+TD3941333 ␆.15
+TD78 🌡️ caul 📋 ? .15
+TD85 word: 7 caul 0.15
+TD21 questioning: -1 
+TD135 > ␅
+TD1175770 ␆* 2 3
+TD74 > * 2 3
+TD303756 ? ␅
+TD4287598 ␆6
+TD103 ? 6
+TD199 questioning: 7 aryl
+TD67 🌡️ aryl 📋 ? ␅
+TD3700401 ␆0
+TD206 🌡️ aryl 📋 ? 0
+TD244 word: 7 aryl 0.0
+TD165 questioning: -1 
+TD334 > ␅
+TD1321782 ␆*
+TD75 > *
+TD996580 ? ␅
+TD7576183 ␆4
+TD74 ? 4
+TD101 questioning: 8 durr
+TD34 🌡️ durr 📋 ? ␅
+TD3475073 ␆0
+TD60 🌡️ durr 📋 ? 0
+TD55 word: 8 durr 0.0
+TD12 questioning: -1 
+TD75 > ␅
+TD4828516 ␆/res
+TD94 > /res
+TD308 📋> ␅
+TD715456 ␆Word Grid #797
+TD67 📋> Word Grid #797
+TD20 📋> ␅
+TD56 ␆🌌🌌🦄
+TD23 📋> 🌌🌌🦄
+TD19 📋> ␅
+TD39 ␆🌌🌌🦄
+TD21 📋> 🌌🌌🦄
+TD18 📋> ␅
+TD38 ␆🦄🦄🦄
+TD21 📋> 🦄🦄🦄
+TD17 📋> ␅
+TD61 ␆Rarity: 0.15
+TD44 📋> Rarity: 0.15
+TD20 📋> ␅
+TD292583 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD82 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD22 📋> ␅
+TD625592 ␄
+TD280 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #797\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\nRarity: 0.15\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD1386 result: "Word Grid #797\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\nRarity: 0.15\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD208 > ␅
+TD1390956 ␆/store
+TD73 > /store
+TD191 📆 2026-08-06 ? ␅
+TD6793418 ␆2026-08-07
+TD94 📆 2026-08-06 ? 2026-08-07
