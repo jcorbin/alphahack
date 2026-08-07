@@ -1,0 +1,235 @@
+T570.7704441990063 now: 2026-08-07T08:00:33EDT
+TD140 site: squareword.org
+TD37 wordlist: nwl2023.txt
+TD46  ...␅
+TD1016594 ␆
+TD108  ...
+TD75 🧩  ? ␅
+TD7812584 ␆#1649
+TD107 🧩  ? #1649
+TD195 puzzle_id: #1649
+TD177 > ␅
+TD2226585 ␆*
+TD44 > *
+TD223974 try? ␅
+TD519433 ␆1
+TD102 try? 1
+TD358 questioning: ["resat", "#5"]
+TD1751 #1 <IndexError>  📋 "resat" ? ␅
+TD4056303 ␆__S__ ~ EAT
+TD125 #1 <IndexError>  📋 "resat" ? __S__ ~ EAT
+TD1062 attempt 0 RESAT n m Y m m
+TD158 #2 <IndexError>  📋 "resat" ? ␅
+TD1460422 ␆_____ ~ A
+TD131 #2 <IndexError>  📋 "resat" ? _____ ~ A
+TD302 attempt 1 RESAT n n n m n
+TD135 #3 <IndexError>  📋 "resat" ? ␅
+TD1771842 ␆_____ ~ RES
+TD112 #3 <IndexError>  📋 "resat" ? _____ ~ RES
+TD307 attempt 2 RESAT m m m n n
+TD140 #4 <IndexError>  📋 "resat" ? ␅
+TD2174185 ␆_____ ~ ESA
+TD112 #4 <IndexError>  📋 "resat" ? _____ ~ ESA
+TD316 attempt 3 RESAT n m m m n
+T10.649456921004457 now: 2026-08-07T08:01:10EDT
+TD96 questioning: ["resat", "#5"]
+TD139 #5 <IndexError>  📋 "resat" ? ␅
+TD4663961 ␆_____ ~ ESAT
+TD112 #5 <IndexError>  📋 "resat" ? _____ ~ ESAT
+TD1089 attempt 4 RESAT n m m m m
+TD447 ? ␅
+TD645001 ␆
+TD98 ? 
+TD128 question done
+TD376 > ␅
+TD996815 ␆*
+TD188 > *
+TD929134 try? ␅
+TD1759573 ␄
+TD177 <EOF>
+TD477 > ␅
+TD2004072 ␆* 2
+TD85 > * 2
+TD11289 try? ␅
+TD2514012 ␆1
+TD115 try? 1
+TD408 questioning: ["limpa", "#2"]
+TD489 #1 __S__ ~AET -R  📋 "limpa" ? ␅
+TD4145980 ␆.
+TD198 #1 __S__ ~AET -R  📋 "limpa" ? .
+TD743 attempt 0 LIMPA n n n n m
+TD285 #2 _____ ~A -ERST  📋 "limpa" ? ␅
+TD4414822 ␆____A ~ ALP
+TD62 #2 _____ ~A -ERST  📋 "limpa" ? ____A ~ ALP
+TD158 attempt 1 LIMPA m n n m Y
+TD102 #3 _____ ~ERS -AT  📋 "limpa" ? ␅
+TD1234055 ␆.
+TD128 #3 _____ ~ERS -AT  📋 "limpa" ? .
+TD461 attempt 2 LIMPA n n n n n
+TD213 #4 _____ ~AES -RT  📋 "limpa" ? ␅
+TD3460766 ␆_____ ~ ESAP
+TD55 #4 _____ ~AES -RT  📋 "limpa" ? _____ ~ ESAP
+TD181 attempt 3 LIMPA n n n m m
+TD106 #5 _____ ~AEST -R  📋 "limpa" ? ␅
+TD1928419 ␆.
+TD97 #5 _____ ~AEST -R  📋 "limpa" ? .
+TD324 attempt 4 LIMPA n n n n m
+TD564 ? ␅
+TD251096 ␆
+TD166 ? 
+TD223 question done
+TD857 > ␅
+TD514453 ␆*
+TD116 > *
+TD782745 try? ␅
+TD1512403 ␄
+TD215 <EOF>
+TD707 > ␅
+TD2096046 ␆* 3
+TD173 > * 3
+TD10532 try? ␅
+TD11161121 ␄
+TD152 <EOF>
+TD663 > ␅
+TD1923560 ␆*
+TD104 > *
+TD28055 try? ␅
+TD1724404 ␆4
+TD168 try? 4
+TD468 questioning: ["alpha", "#2"]
+TD614 #1 __S__ ~AET -ILMPR  📋 "alpha" ? ␅
+TD3778950 ␆.
+TD104 #1 __S__ ~AET -ILMPR  📋 "alpha" ? .
+TD189 attempt 0 ALPHA m n n n m
+TD89 #2 ____A ~LP -EIMRST  📋 "alpha" ? ␅
+TD1105920 ␆/it
+TD67 #2 ____A ~LP -EIMRST  📋 "alpha" ? /it
+TD170 attempt 1 ALPHA Y Y Y Y Y
+TD81 #3 _____ ~ERS -AILMPT  📋 "alpha" ? ␅
+TD1406298 ␆.
+TD119 #3 _____ ~ERS -AILMPT  📋 "alpha" ? .
+TD371 attempt 2 ALPHA n n n n n
+TD169 #4 _____ ~AEPS -ILMRT  📋 "alpha" ? ␅
+TD4993633 ␆_____ ~ ESAPH
+TD117 #4 _____ ~AEPS -ILMRT  📋 "alpha" ? _____ ~ ESAPH
+TD395 attempt 3 ALPHA m n m m m
+TD235 #5 _____ ~AEST -ILMPR  📋 "alpha" ? ␅
+TD1188230 ␆.
+TD67 #5 _____ ~AEST -ILMPR  📋 "alpha" ? .
+TD172 attempt 4 ALPHA m n n n m
+TD242 ? ␅
+TD162474 ␆
+TD69 ? 
+TD78 question done
+TD244 > ␅
+TD412672 ␆*
+TD125 > *
+TD786187 questioning: ["phase", "#4"]
+TD293 #1 __S__ ~AET -HILMPR  📋 "phase" ? ␅
+TD4472362 ␆__S_E ~ AT
+TD123 #1 __S__ ~AET -HILMPR  📋 "phase" ? __S_E ~ AT
+TD430 attempt 0 PHASE n n m n Y
+TD227 #3 _____ ~ERS -AHILMPT  📋 "phase" ? ␅
+TD1360779 ␆.
+TD149 #3 _____ ~ERS -AHILMPT  📋 "phase" ? .
+TD420 attempt 2 PHASE n n n m m
+TD149 #4 _____ ~AEHPS -ILMRT  📋 "phase" ? ␅
+TD617018 ␆/it
+TD105 #4 _____ ~AEHPS -ILMRT  📋 "phase" ? /it
+TD335 attempt 3 PHASE Y Y Y Y Y
+TD118 #5 _____ ~AEST -HILMPR  📋 "phase" ? ␅
+TD723714 ␆.
+TD115 #5 _____ ~AEST -HILMPR  📋 "phase" ? .
+TD375 attempt 4 PHASE n n m m m
+TD616 ? ␅
+TD155924 ␆
+TD86 ? 
+TD114 question done
+TD350 > ␅
+TD366042 ␆*
+TD102 > *
+TD1341215 try? ␅
+TD3743780 ␆2
+TD122 try? 2
+TD410 questioning: ["sores", "#3"]
+TD512 #1 __S_E ~AT -HILMPRS  📋 "sores" ? ␅
+TD4286393 ␆.
+TD114 #1 __S_E ~AT -HILMPRS  📋 "sores" ? .
+TD311 attempt 0 SORES n n n n n
+TD125 #3 _____ ~ERS -AHILMPT  📋 "sores" ? ␅
+TD642885 ␆/it
+TD131 #3 _____ ~ERS -AHILMPT  📋 "sores" ? /it
+TD336 attempt 2 SORES Y Y Y Y Y
+TD130 #5 _____ ~AEST -HILMPR  📋 "sores" ? ␅
+TD1889640 ␆S__E_ ~ AT
+TD55 #5 _____ ~AEST -HILMPR  📋 "sores" ? S__E_ ~ AT
+TD148 attempt 4 SORES Y n n Y n
+TD168 ? ␅
+TD217844 ␆
+TD78 ? 
+TD104 question done
+TD322 > ␅
+TD437092 ␆*
+TD88 > *
+TD1645374 questioning: ["waste", "#1"]
+TD163 #1 __S_E ~AT -EHILMOPRS  📋 "waste" ? ␅
+TD3828762 ␆/it
+TD147 #1 __S_E ~AT -EHILMOPRS  📋 "waste" ? /it
+TD328 attempt 0 WASTE Y Y Y Y Y
+TD148 #5 S__E_ ~AT -HILMOPR  📋 "waste" ? ␅
+TD2271043 ␆SA_E_ ~ T
+TD121 #5 S__E_ ~AT -HILMOPR  📋 "waste" ? SA_E_ ~ T
+TD362 attempt 4 WASTE n Y n m n
+TD513 ? ␅
+TD332743 ␆
+TD155 ? 
+TD182 question done
+TD696 > ␅
+TD448613 ␆*
+TD85 > *
+TD1074823 questioning: ["sated", "#5"]
+TD165 #5 SA_E_ ~T -EHILMOPRSW  📋 "sated" ? ␅
+TD3278404 ␆/it
+TD101 #5 SA_E_ ~T -EHILMOPRSW  📋 "sated" ? /it
+TD276 attempt 4 SATED Y Y Y Y Y
+TD384 ? ␅
+TD1450584 ␆
+TD88 ? 
+TD108 question done
+TD35096 📋> ␅
+TD5689568 ␆squareword.org 1649: 7 guesses
+TD99 📋> squareword.org 1649: 7 guesses
+TD19 📋> ␅
+TD42 ␆
+TD8 📋> 
+TD8 📋> ␅
+TD20 ␆🟨🟨🟩🟨🟩
+TD8 📋> 🟨🟨🟩🟨🟩
+TD7 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD14 ␆🟩🟨🟨🟩🟨
+TD7 📋> 🟩🟨🟨🟩🟨
+TD6 📋> ␅
+TD16 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD17 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD281136 ␆#squareword #squareword1649
+TD108 📋> #squareword #squareword1649
+TD15 📋> ␅
+TD267608 ␄
+TD195 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1649: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1649"}
+TD1275 result: "squareword.org 1649: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1649"
+TD113 📆 2026-08-07 ? ␅
+TD543322 ␆
+TD92 📆 2026-08-07 ? 
