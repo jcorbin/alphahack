@@ -1,0 +1,78 @@
+T104.98007725499338 now: 2026-08-07T07:47:44EDT
+TD261 site: alphaguess.com
+TD159339 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 8ab5d240d31aa3965997378906ba43e8ad539cdb
+TD83  ...␅
+TD5588428 ␆
+TD95  ...
+TD180 [0 : 98147 : 196518] mac? ␅
+TD2224713 ␆a
+TD101 [0 : 98147 : 196518] mac? a
+TD115 progress: 1 98147 mac
+TD113 [98148 : 147311 : 196518] rho? ␅
+TD3313927 ␆b
+TD125 [98148 : 147311 : 196518] rho? b
+TD178 progress: -1 147311 rho
+TD154 [98148 : 122724 : 147311] parol? ␅
+TD1431330 ␆a
+TD130 [98148 : 122724 : 147311] parol? a
+TD155 progress: 1 122724 parol
+TD265 [122725 : 135004 : 147311] prop? ␅
+TD2687574 ␆a
+TD89 [122725 : 135004 : 147311] prop? a
+TD110 progress: 1 135004 prop
+TD146 [135005 : 141017 : 147311] recon? ␅
+TD1596236 ␆b
+TD101 [135005 : 141017 : 147311] recon? b
+TD117 progress: -1 141017 recon
+TD466 [135005 : 138010 : 141017] quetzal? ␅
+TD1414655 ␆a
+TD81 [135005 : 138010 : 141017] quetzal? a
+TD101 progress: 1 138010 quetzal
+TD111 [138011 : 139510 : 141017] rate? ␅
+TD2788734 ␆b
+TD136 [138011 : 139510 : 141017] rate? b
+TD173 progress: -1 139510 rate
+TD222 [138011 : 138573 : 139510] rad? ␅
+TD1495526 ␆a
+TD152 [138011 : 138573 : 139510] rad? a
+TD202 progress: 1 138573 rad
+TD194 [138574 : 139039 : 139510] rally? ␅
+TD1565020 ␆b
+TD184 [138574 : 139039 : 139510] rally? b
+TD244 progress: -1 139039 rally
+TD234 [138574 : 138802 : 139039] raft? ␅
+TD1463170 ␆a
+TD115 [138574 : 138802 : 139039] raft? a
+TD149 progress: 1 138802 raft
+TD143 [138803 : 138891 : 139039] rail? ␅
+TD3003731 ␆a
+TD185 [138803 : 138891 : 139039] rail? a
+TD201 progress: 1 138891 rail
+TD175 [138892 : 138928 : 139039] rain? ␅
+TD2743438 ␆it
+TD110 [138892 : 138928 : 139039] rain? it
+TD112 progress: 0 138928 rain
+TD35 [138892 : 138928 : 139039] <Done>.
+TD109 📋> ␅
+TD3579041 ␆🧩 Puzzle #1110
+TD104 📋> 🧩 Puzzle #1110
+TD19 📋> ␅
+TD58 ␆🤔 12 guesses
+TD11 📋> 🤔 12 guesses
+TD9 📋> ␅
+TD20 ␆⏱️ 22s
+TD10 📋> ⏱️ 22s
+TD9 📋> ␅
+TD293480 ␆🔗 alphaguess.com/1110
+TD110 📋> 🔗 alphaguess.com/1110
+TD20 📋> ␅
+TD151158 ␄
+TD334 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1110\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1110"}
+TD169 result: "\ud83e\udde9 Puzzle #1110\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1110"
+TD31 result puzzle: 1110
+TD16 result guesses: 12
+TD13 result time: 22s
+TD12 result link: alphaguess.com/1110
+TD137 📆 2026-08-07 ? ␅
+TD226718 ␆
+TD82 📆 2026-08-07 ? 
