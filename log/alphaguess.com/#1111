@@ -1,0 +1,78 @@
+T625.8363332070294 now: 2026-08-08T07:52:03EDT
+TD217 site: alphaguess.com
+TD162911 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 73ba9ebb5a05ae064e4b8e58f9b7ae52528d1880
+TD77  ...␅
+TD4724566 ␆
+TD62  ...
+TD88 [0 : 98147 : 196518] mac? ␅
+TD3917652 ␆b
+TD61 [0 : 98147 : 196518] mac? b
+TD67 progress: -1 98147 mac
+TD78 [0 : 47378 : 98147] dis? ␅
+TD1442084 ␆b
+TD59 [0 : 47378 : 98147] dis? b
+TD63 progress: -1 47378 dis
+TD67 [0 : 23680 : 47378] camp? ␅
+TD1433628 ␆b
+TD124 [0 : 23680 : 47378] camp? b
+TD160 progress: -1 23680 camp
+TD174 [0 : 11763 : 23680] back? ␅
+TD1792203 ␆a
+TD131 [0 : 11763 : 23680] back? a
+TD290 progress: 1 11763 back
+TD211 [11764 : 17714 : 23680] blind? ␅
+TD1529596 ␆a
+TD112 [11764 : 17714 : 23680] blind? a
+TD130 progress: 1 17714 blind
+TD180 [17715 : 20685 : 23680] brill? ␅
+TD1273260 ␆a
+TD146 [17715 : 20685 : 23680] brill? a
+TD230 progress: 1 20685 brill
+TD167 [20686 : 22025 : 23680] bur? ␅
+TD1395954 ␆a
+TD97 [20686 : 22025 : 23680] bur? a
+TD108 progress: 1 22025 bur
+TD731 [22026 : 22853 : 23680] cachalot? ␅
+TD1537424 ␆b
+TD109 [22026 : 22853 : 23680] cachalot? b
+TD115 progress: -1 22853 cachalot
+TD124 [22026 : 22286 : 22853] bus? ␅
+TD2803594 ␆b
+TD226 [22026 : 22286 : 22853] bus? b
+TD245 progress: -1 22286 bus
+TD200 [22026 : 22155 : 22286] burl? ␅
+TD1832842 ␆a
+TD111 [22026 : 22155 : 22286] burl? a
+TD105 progress: 1 22155 burl
+TD191 [22156 : 22221 : 22286] burr? ␅
+TD3891721 ␆b
+TD167 [22156 : 22221 : 22286] burr? b
+TD175 progress: -1 22221 burr
+TD183 [22156 : 22182 : 22221] burn? ␅
+TD3228004 ␆it
+TD110 [22156 : 22182 : 22221] burn? it
+TD161 progress: 0 22182 burn
+TD55 [22156 : 22182 : 22221] <Done>.
+TD174 📋> ␅
+TD3288847 ␆🧩 Puzzle #1111
+TD57 📋> 🧩 Puzzle #1111
+TD9 📋> ␅
+TD27 ␆🤔 12 guesses
+TD6 📋> 🤔 12 guesses
+TD5 📋> ␅
+TD11 ␆⏱️ 20s
+TD6 📋> ⏱️ 20s
+TD3 📋> ␅
+TD252248 ␆🔗 alphaguess.com/1111
+TD129 📋> 🔗 alphaguess.com/1111
+TD20 📋> ␅
+TD129190 ␄
+TD271 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1111\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1111"}
+TD142 result: "\ud83e\udde9 Puzzle #1111\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1111"
+TD24 result puzzle: 1111
+TD12 result guesses: 12
+TD10 result time: 20s
+TD9 result link: alphaguess.com/1111
+TD109 📆 2026-08-08 ? ␅
+TD320782 ␆
+TD105 📆 2026-08-08 ? 
