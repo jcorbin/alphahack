@@ -1,0 +1,192 @@
+T366.5828686809982 now: 2026-08-09T08:33:44EDT
+TD300 site: squareword.org
+TD79 wordlist: nwl2023.txt
+TD123  ...␅
+TD559381 ␆
+TD136  ...
+TD106 🧩  ? ␅
+TD12182216 ␆#1651
+TD114 🧩  ? #1651
+TD355 puzzle_id: #1651
+TD557 > ␅
+TD1290776 ␆*
+TD164 > *
+TD264638 try? ␅
+TD1383542 ␆2
+TD111 try? 2
+TD408 questioning: ["aisle", "#5"]
+TD620 #1 <IndexError>  📋 "aisle" ? ␅
+TD4793732 ␆_____ ~ ISL
+TD97 #1 <IndexError>  📋 "aisle" ? _____ ~ ISL
+TD1075 attempt 0 AISLE n m m m n
+TD190 #2 <IndexError>  📋 "aisle" ? ␅
+TD2199343 ␆____E
+TD98 #2 <IndexError>  📋 "aisle" ? ____E
+TD334 attempt 1 AISLE n n n n Y
+TD168 #3 <IndexError>  📋 "aisle" ? ␅
+TD2598381 ␆A____ ~ ILE
+TD58 #3 <IndexError>  📋 "aisle" ? A____ ~ ILE
+TD160 attempt 2 AISLE Y m n m m
+TD78 #4 <IndexError>  📋 "aisle" ? ␅
+TD3116942 ␆_I___ 
+TD102 #4 <IndexError>  📋 "aisle" ? _I___ 
+TD331 attempt 3 AISLE n Y n n n
+TD196 #5 <IndexError>  📋 "aisle" ? ␅
+TD2444329 ␆_____ ~ S
+TD105 #5 <IndexError>  📋 "aisle" ? _____ ~ S
+TD355 attempt 4 AISLE n n m n n
+TD729 ? ␅
+TD601720 ␆
+TD105 ? 
+TD207 question done
+TD632 > ␅
+TD5313324 ␆* 5
+TD129 > * 5
+TD456353 try? ␅
+TD2215826 ␆1
+TD55 try? 1
+TD194 questioning: ["forts", "#5"]
+TD301 #1 _____ ~ILS -AE  📋 "forts" ? ␅
+TD9650996 ␆_____ ~ ISLO
+TD119 #1 _____ ~ILS -AE  📋 "forts" ? _____ ~ ISLO
+TD375 attempt 0 FORTS n m n n m
+TD255 #2 ____E -AILS  📋 "forts" ? ␅
+TD3886959 ␆_O__E ~ T
+TD174 #2 ____E -AILS  📋 "forts" ? _O__E ~ T
+TD505 attempt 1 FORTS n Y n m n
+TD312 #3 A____ ~EIL -S  📋 "forts" ? ␅
+TD2361958 ␆.
+TD115 #3 A____ ~EIL -S  📋 "forts" ? .
+TD421 attempt 2 FORTS n n n n n
+TD186 #4 _I___ -AELS  📋 "forts" ? ␅
+TD2869703 ␆FI___ ~ OR
+TD264 #4 _I___ -AELS  📋 "forts" ? FI___ ~ OR
+TD364 attempt 3 FORTS Y m m n n
+TD192 #5 _____ ~S -AEIL  📋 "forts" ? ␅
+TD2955912 ␆FO_TS
+TD114 #5 _____ ~S -AEIL  📋 "forts" ? FO_TS
+TD322 attempt 4 FORTS Y Y n Y Y
+TD533 ? ␅
+TD445315 ␆
+TD136 ? 
+TD206 question done
+TD749 > ␅
+TD3117682 ␆
+TD101 > 
+TD478 > ␅
+TD558293 ␆*
+TD91 > *
+TD1036599 questioning: ["spoil", "#1"]
+TD208 #1 _____ ~ILOS -AEFRT  📋 "spoil" ? ␅
+TD3839417 ␆/it
+TD130 #1 _____ ~ILOS -AEFRT  📋 "spoil" ? /it
+TD343 attempt 0 SPOIL Y Y Y Y Y
+TD166 #2 _O__E ~T -AFILRS  📋 "spoil" ? ␅
+TD1694937 ␆.
+TD193 #2 _O__E ~T -AFILRS  📋 "spoil" ? .
+TD673 attempt 1 SPOIL n n n n n
+TD305 #3 A____ ~EIL -FORST  📋 "spoil" ? ␅
+TD1556108 ␆.
+TD145 #3 A____ ~EIL -FORST  📋 "spoil" ? .
+TD355 attempt 2 SPOIL n n n m m
+TD127 #4 FI___ ~OR -AELST  📋 "spoil" ? ␅
+TD2747855 ␆FIO__ ~ R
+TD123 #4 FI___ ~OR -AELST  📋 "spoil" ? FIO__ ~ R
+TD395 attempt 3 SPOIL n n Y n n
+TD231 #5 FO_TS -AEILR  📋 "spoil" ? ␅
+TD1406018 ␆.
+TD118 #5 FO_TS -AEILR  📋 "spoil" ? .
+TD409 attempt 4 SPOIL n n n n n
+TD630 ? ␅
+TD191741 ␆
+TD106 ? 
+TD140 question done
+TD616 > ␅
+TD499355 ␆*
+TD114 > *
+TD929192 questioning: ["tonne", "#2"]
+TD204 #2 _O__E ~T -AFILOPRS  📋 "tonne" ? ␅
+TD5065806 ␆/it
+TD129 #2 _O__E ~T -AFILOPRS  📋 "tonne" ? /it
+TD374 attempt 1 TONNE Y Y Y Y Y
+TD154 #3 A____ ~EIL -FOPRST  📋 "tonne" ? ␅
+TD3729797 ␆A____ ~ ILEN
+TD130 #3 A____ ~EIL -FOPRST  📋 "tonne" ? A____ ~ ILEN
+TD337 attempt 2 TONNE n n m m m
+TD230 #4 FIO__ ~R -AEILPST  📋 "tonne" ? ␅
+TD1785007 ␆.
+TD134 #4 FIO__ ~R -AEILPST  📋 "tonne" ? .
+TD387 attempt 3 TONNE n n n n n
+TD142 #5 FO_TS -AEILOPRS  📋 "tonne" ? ␅
+TD2642837 ␆FONTS
+TD114 #5 FO_TS -AEILOPRS  📋 "tonne" ? FONTS
+TD366 attempt 4 TONNE n Y Y n n
+TD770 ? ␅
+TD722188 ␆
+TD168 ? 
+TD237 question done
+TD833 > ␅
+TD849368 ␆*
+TD133 > *
+TD1061488 questioning: ["alien", "#3"]
+TD224 #3 A____ ~EILN -FOPRST  📋 "alien" ? ␅
+TD3053271 ␆/it
+TD156 #3 A____ ~EILN -FOPRST  📋 "alien" ? /it
+TD356 attempt 2 ALIEN Y Y Y Y Y
+TD142 #4 FIO__ ~R -AEILNOPST  📋 "alien" ? ␅
+TD1692586 ␆.
+TD100 #4 FIO__ ~R -AEILNOPST  📋 "alien" ? .
+TD317 attempt 3 ALIEN n n n n n
+TD442 ? ␅
+TD769401 ␆
+TD123 ? 
+TD157 question done
+TD539 > ␅
+TD499941 ␆*
+TD112 > *
+TD1016280 questioning: ["fiord", "#4"]
+TD174 #4 FIO__ ~R -AEILNOPST  📋 "fiord" ? ␅
+TD2996844 ␆/it
+TD76 #4 FIO__ ~R -AEILNOPST  📋 "fiord" ? /it
+TD182 attempt 3 FIORD Y Y Y Y Y
+TD261 ? ␅
+TD1298005 ␆
+TD82 ? 
+TD96 question done
+TD32444 📋> ␅
+TD4280043 ␆squareword.org 1651: 6 guesses
+TD113 📋> squareword.org 1651: 6 guesses
+TD25 📋> ␅
+TD63 ␆
+TD14 📋> 
+TD13 📋> ␅
+TD51 ␆🟩🟩🟩🟩🟩
+TD14 📋> 🟩🟩🟩🟩🟩
+TD12 📋> ␅
+TD27 ␆🟩🟩🟩🟩🟩
+TD12 📋> 🟩🟩🟩🟩🟩
+TD12 📋> ␅
+TD26 ␆🟩🟩🟩🟩🟩
+TD13 📋> 🟩🟩🟩🟩🟩
+TD12 📋> ␅
+TD27 ␆🟩🟩🟩🟨🟨
+TD13 📋> 🟩🟩🟩🟨🟨
+TD12 📋> ␅
+TD28 ␆🟩🟩🟩🟩🟩
+TD12 📋> 🟩🟩🟩🟩🟩
+TD13 📋> ␅
+TD30 ␆
+TD13 📋> 
+TD12 📋> ␅
+TD29 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD14 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD14 📋> ␅
+TD245129 ␆#squareword #squareword1651
+TD158 📋> #squareword #squareword1651
+TD33 📋> ␅
+TD181604 ␄
+TD232 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1651: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1651"}
+TD1286 result: "squareword.org 1651: 6 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1651"
+TD115 📆 2026-08-09 ? ␅
+TD459970 ␆
+TD139 📆 2026-08-09 ? 
