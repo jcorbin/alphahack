@@ -1,0 +1,204 @@
+T41285.700265454 now: 2026-08-09T08:24:04EDT
+TD191 site: https://www.merriam-webster.com/games/quordle/#/
+TD39 wordlist: nwl2023.txt
+TD16 num_words: 4
+TD404  ...␅
+TD297921 ␆
+TD181  ...
+TD560688 > ␅
+TD17802504 ␆*
+TD47 > *
+TD57153 ? ␅
+TD798543 ␆1
+TD66 ? 1
+TD162 questioning: aeons
+TD166 Classic #1 _____? ␅
+TD2789555 ␆Mnnnn
+TD54 Classic #1 _____? Mnnnn
+TD254 attempt: 0 AEONS m n n n n
+TD70 Classic #2 _____? ␅
+TD1117824 ␆nMnMn
+TD54 Classic #2 _____? nMnMn
+TD142 attempt: 1 AEONS n m n m n
+TD96 Classic #3 _____? ␅
+TD1341546 ␆nnMnn
+TD102 Classic #3 _____? nnMnn
+TD193 attempt: 2 AEONS n n m n n
+TD96 Classic #4 _____? ␅
+TD1336753 ␆nMnnM
+TD55 Classic #4 _____? nMnnM
+TD140 attempt: 3 AEONS n m n n m
+TD588113 > ␅
+TD2148392 ␆*
+TD72 > *
+TD3448 ? ␅
+TD3130320 ␆4
+TD46 ? 4
+TD80 questioning: drail
+TD103 Classic #1 _____ ~A -ENOS? ␅
+TD3121148 ␆nnMnn
+TD88 Classic #1 _____ ~A -ENOS? nnMnn
+TD165 attempt: 0 DRAIL n n m n n
+TD79 Classic #2 _____ ~EN -AOS? ␅
+TD2065308 ␆MnnMn
+TD139 Classic #2 _____ ~EN -AOS? MnnMn
+TD422 attempt: 1 DRAIL m n n m n
+TD368 Classic #3 _____ ~O -AENS? ␅
+TD1999040 ␆nnnYM
+TD140 Classic #3 _____ ~O -AENS? nnnYM
+TD447 attempt: 2 DRAIL n n n Y m
+TD222 Classic #4 _____ ~ES -ANO? ␅
+TD1110086 ␆nnnnn
+TD115 Classic #4 _____ ~ES -ANO? nnnnn
+TD399 attempt: 3 DRAIL n n n n n
+TD597876 > ␅
+TD718409 ␆*
+TD63 > *
+TD1289 ? ␅
+TD4545592 ␆1
+TD101 ? 1
+TD206 questioning: caput
+TD267 Classic #1 _____ ~A -DEILNORS? ␅
+TD4540941 ␆nYYnn
+TD59 Classic #1 _____ ~A -DEILNORS? nYYnn
+TD172 attempt: 0 CAPUT n Y Y n n
+TD82 Classic #2 _____ ~DEIN -ALORS? ␅
+TD1094940 ␆nnnnn
+TD58 Classic #2 _____ ~DEIN -ALORS? nnnnn
+TD149 attempt: 1 CAPUT n n n n n
+TD79 Classic #3 ___I_ ~LO -ADENRS? ␅
+TD1319952 ␆nnnnn
+TD139 Classic #3 ___I_ ~LO -ADENRS? nnnnn
+TD477 attempt: 2 CAPUT n n n n n
+TD249 Classic #4 _____ ~ES -ADILNOR? ␅
+TD1339602 ␆nnMnM
+TD164 Classic #4 _____ ~ES -ADILNOR? nnMnM
+TD420 attempt: 3 CAPUT n n m n m
+TD647770 > ␅
+TD656902 ␆*
+TD67 > *
+TD256 questioning: folio
+TD97 Classic #1 _AP__ -CDEILNORSTU? ␅
+TD2767249 ␆nnnnn
+TD83 Classic #1 _AP__ -CDEILNORSTU? nnnnn
+TD209 attempt: 0 FOLIO n n n n n
+TD115 Classic #2 _____ ~DEIN -ACLOPRSTU? ␅
+TD2230542 ␆nnnMn
+TD112 Classic #2 _____ ~DEIN -ACLOPRSTU? nnnMn
+TD318 attempt: 1 FOLIO n n n m n
+TD189 Classic #3 ___I_ ~LO -ACDENPRSTU? ␅
+TD1352958 ␆YYYYY
+TD99 Classic #3 ___I_ ~LO -ACDENPRSTU? YYYYY
+TD272 attempt: 2 FOLIO Y Y Y Y Y
+TD171 Classic #4 _____ ~EPST -ACDILNORU? ␅
+TD1208320 ␆nnnnn
+TD222 Classic #4 _____ ~EPST -ACDILNORU? nnnnn
+TD319 attempt: 3 FOLIO n n n n n
+TD510816 > ␅
+TD1030992 ␆*
+TD44 > *
+TD253 ? ␅
+TD1897309 ␆2
+TD58 ? 2
+TD106 questioning: steep
+TD113 Classic #1 _AP__ -CDEFILNORSTU? ␅
+TD3052496 ␆nnnnM
+TD120 Classic #1 _AP__ -CDEFILNORSTU? nnnnM
+TD259 attempt: 0 STEEP n n n n m
+TD145 Classic #2 _____ ~DEIN -ACFLOPRSTU? ␅
+TD1785189 ␆nnnYn
+TD72 Classic #2 _____ ~DEIN -ACFLOPRSTU? nnnYn
+TD174 attempt: 1 STEEP n n n Y n
+TD127 Classic #4 _____ ~EPST -ACDFILNORU? ␅
+TD1372533 ␆YYYYY
+TD94 Classic #4 _____ ~EPST -ACDFILNORU? YYYYY
+TD228 attempt: 3 STEEP Y Y Y Y Y
+TD286260 > ␅
+TD3572395 ␆*
+TD97 > *
+TD809 ? ␅
+TD1290532 ␆1
+TD312 ? 1
+TD386 questioning: index
+TD267 Classic #1 _AP__ -CDEFILNORSTU? ␅
+TD6011185 ␆nnnnn
+TD72 Classic #1 _AP__ -CDEFILNORSTU? nnnnn
+TD106 attempt: 0 INDEX n n n n n
+TD56 Classic #2 ___E_ ~DIN -ACFLOPRSTU? ␅
+TD2125286 ␆MMYYn
+TD47 Classic #2 ___E_ ~DIN -ACFLOPRSTU? MMYYn
+TD99 attempt: 1 INDEX m m Y Y n
+TD262194 > ␅
+TD5972741 ␆*
+TD59 > *
+TD428 ? ␅
+TD1944706 ␆1
+TD79 ? 1
+TD116 questioning: widen
+TD111 Classic #1 _AP__ -CDEFILNORSTUX? ␅
+TD3593208 ␆nnnnn
+TD57 Classic #1 _AP__ -CDEFILNORSTUX? nnnnn
+TD132 attempt: 0 WIDEN n n n n n
+TD73 Classic #2 __DE_ ~IN -ACFLOPRSTUX? ␅
+TD1732911 ␆YYYYY
+TD48 Classic #2 __DE_ ~IN -ACFLOPRSTUX? YYYYY
+TD160 attempt: 1 WIDEN Y Y Y Y Y
+TD130465 > ␅
+TD991887 ␆*
+TD57 > *
+TD352 ? ␅
+TD72998475 ␄
+TD129 <EOF>
+TD127953 > ␅
+TD1250489 ␆?
+TD50 > ?
+TD126046 > ␅
+TD4259230 ␆tried graph
+TD108 > tried graph
+TD222 questioning: GRAPH
+TD122 Classic #1 _AP__ -CDEFILNORSTUWX? ␅
+TD2825294 ␆nnMYn
+TD68 Classic #1 _AP__ -CDEFILNORSTUWX? nnMYn
+TD138 attempt: 0 GRAPH n n m Y n
+TD124612 > ␅
+TD680877 ␆*
+TD54 > *
+TD307 ? ␅
+TD7032239 ␆4
+TD69 ? 4
+TD105 questioning: yappy
+TD118 Classic #1 _APP_ -CDEFGHILNORSTUWX? ␅
+TD8610716 ␆nYYYn
+TD74 Classic #1 _APP_ -CDEFGHILNORSTUWX? nYYYn
+TD136 attempt: 0 YAPPY n Y Y Y n
+TD127276 > ␅
+TD1073070 ␆/res
+TD49 > /res
+TD88 📋> ␅
+TD4015293 ␆🙂 Daily Quordle 1658
+TD125 📋> 🙂 Daily Quordle 1658
+TD29 📋> ␅
+TD132 ␆🟥7️⃣
+TD30 📋> 🟥7️⃣
+TD21 📋> ␅
+TD70 ␆4️⃣5️⃣
+TD30 📋> 4️⃣5️⃣
+TD20 📋> ␅
+TD57 ␆m-w.com/games/quordle/
+TD24 📋> m-w.com/games/quordle/
+TD20 📋> ␅
+TD280952 ␆
+TD129 📋> 
+TD35 📋> ␅
+TD200210 ␄
+TD243 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1658\n\ud83d\udfe57\ufe0f\u20e3\n4\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD6156 result: "\ud83d\ude42 Daily Quordle 1658\n\ud83d\udfe57\ufe0f\u20e3\n4\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD113961 > ␅
+TD214672 ␆
+TD275 > 
+TD211 > ␅
+TD1510940 ␆/store
+TD160 > /store
+TD431 📆 2026-08-09 ? ␅
+TD613413 ␆
+TD172 📆 2026-08-09 ? 
