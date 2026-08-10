@@ -1,0 +1,1388 @@
+T56905.006791366 now: 2026-08-10T13:36:27EDT
+TD131 site: https://www.merriam-webster.com/games/octordle/daily
+TD24 wordlist: nwl2023.txt
+TD10 num_words: 8
+TD149  ...␅
+TD496666 ␆
+TD141  ...
+TD795113 > ␅
+TD11047874 ␆/drop
+TD102 > /drop
+TD3571 📋> ␅
+TD4270275 ␆*
+TD111 📋> *
+TD31 📋> ␅
+TD1526196 ␆*
+TD132 📋> *
+TD38 📋> ␅
+TD1109892 ␆// @ts-check
+TD108 📋> // @ts-check
+TD26 📋> ␅
+TD140 ␆
+TD24 📋> 
+TD19 📋> ␅
+TD66 ␆(() => {
+TD24 📋> (() => {
+TD19 📋> ␅
+TD212 ␆  const DROPIN_INIT = '🤖 octordle dropin online';
+TD22 📋>   const DROPIN_INIT = '🤖 octordle dropin online';
+TD18 📋> ␅
+TD104 ␆
+TD19 📋> 
+TD16 📋> ␅
+TD94 ␆  /** @template T @param {Iterable<T>} it */
+TD21 📋>   /** @template T @param {Iterable<T>} it */
+TD17 📋> ␅
+TD145 ␆  function itLast(it) { let x; for (x of it) { } return x; }
+TD19 📋>   function itLast(it) { let x; for (x of it) { } return x; }
+TD18 📋> ␅
+TD254 ␆
+TD20 📋> 
+TD17 📋> ␅
+TD66 ␆  /** @template T, V @param {Iterable<T>} it @param {(t: T, i: number) => V} fn */
+TD20 📋>   /** @template T, V @param {Iterable<T>} it @param {(t: T, i: number) => V} fn */
+TD17 📋> ␅
+TD34 ␆  function* itMap(it, fn) { let i = 0; for (const x of it) yield fn(x, i++); }
+TD19 📋>   function* itMap(it, fn) { let i = 0; for (const x of it) yield fn(x, i++); }
+TD17 📋> ␅
+TD32 ␆
+TD18 📋> 
+TD16 📋> ␅
+TD31 ␆  /**
+TD19 📋>   /**
+TD16 📋> ␅
+TD31 ␆   * @template T, K
+TD18 📋>    * @template T, K
+TD17 📋> ␅
+TD30 ␆   * @param {Iterable<T>} it
+TD18 📋>    * @param {Iterable<T>} it
+TD17 📋> ␅
+TD31 ␆   * @param {(x: T) => K} keyFn
+TD18 📋>    * @param {(x: T) => K} keyFn
+TD17 📋> ␅
+TD31 ␆   */
+TD18 📋>    */
+TD16 📋> ␅
+TD34 ␆  function itGroupBy(it, keyFn) {
+TD20 📋>   function itGroupBy(it, keyFn) {
+TD18 📋> ␅
+TD35 ␆    /** @type {Map<K, T[]>} */
+TD19 📋>     /** @type {Map<K, T[]>} */
+TD18 📋> ␅
+TD33 ␆    const map = new Map();
+TD19 📋>     const map = new Map();
+TD17 📋> ␅
+TD33 ␆    for (const item of it) {
+TD19 📋>     for (const item of it) {
+TD18 📋> ␅
+TD34 ␆      const key = keyFn(item);
+TD33 📋>       const key = keyFn(item);
+TD20 📋> ␅
+TD167 ␆      let bucket = map.get(key);
+TD50 📋>       let bucket = map.get(key);
+TD24 📋> ␅
+TD52 ␆      if (!bucket) map.set(key, bucket = []);
+TD24 📋>       if (!bucket) map.set(key, bucket = []);
+TD20 📋> ␅
+TD37 ␆      bucket.push(item);
+TD21 📋>       bucket.push(item);
+TD20 📋> ␅
+TD39 ␆    }
+TD22 📋>     }
+TD20 📋> ␅
+TD38 ␆    return map;
+TD22 📋>     return map;
+TD20 📋> ␅
+TD36 ␆  }
+TD21 📋>   }
+TD19 📋> ␅
+TD36 ␆
+TD21 📋> 
+TD19 📋> ␅
+TD37 ␆  /**
+TD22 📋>   /**
+TD20 📋> ␅
+TD38 ␆   * @template {{[name: string]: any}} U
+TD22 📋>    * @template {{[name: string]: any}} U
+TD20 📋> ␅
+TD37 ␆   * @param {U[]} data
+TD21 📋>    * @param {U[]} data
+TD41 📋> ␅
+TD41 ␆   * @param {string[]} names
+TD22 📋>    * @param {string[]} names
+TD19 📋> ␅
+TD38 ␆   */
+TD22 📋>    */
+TD19 📋> ␅
+TD38 ␆  const toFrame = (data, ...names) => Object.fromEntries(
+TD24 📋>   const toFrame = (data, ...names) => Object.fromEntries(
+TD22 📋> ␅
+TD42 ␆    names.map(name => [name, data.map(um => um[name])]));
+TD24 📋>     names.map(name => [name, data.map(um => um[name])]));
+TD21 📋> ␅
+TD41 ␆
+TD23 📋> 
+TD21 📋> ␅
+TD39 ␆  /**
+TD22 📋>   /**
+TD21 📋> ␅
+TD41 ␆   * @param {string|string[]} label
+TD24 📋>    * @param {string|string[]} label
+TD21 📋> ␅
+TD41 ␆   */
+TD23 📋>    */
+TD22 📋> ␅
+TD41 ␆  function showStatus(label) {
+TD23 📋>   function showStatus(label) {
+TD58 📋> ␅
+TD44 ␆    const mine = 'octordle-status';
+TD24 📋>     const mine = 'octordle-status';
+TD22 📋> ␅
+TD43 ␆    let el = document.getElementById(mine);
+TD35 📋>     let el = document.getElementById(mine);
+TD23 📋> ␅
+TD43 ␆    if (!el) {
+TD24 📋>     if (!el) {
+TD22 📋> ␅
+TD209 ␆      el = document.createElement('dialog');
+TD128 📋>       el = document.createElement('dialog');
+TD38 📋> ␅
+TD46 ␆      el.id = mine;
+TD12 📋>       el.id = mine;
+TD10 📋> ␅
+TD20 ␆      Object.assign(el.style, {
+TD10 📋>       Object.assign(el.style, {
+TD10 📋> ␅
+TD36 ␆        position: 'fixed',
+TD9 📋>         position: 'fixed',
+TD10 📋> ␅
+TD21 ␆        top: '8px',
+TD9 📋>         top: '8px',
+TD9 📋> ␅
+TD21 ␆        left: '50%',
+TD9 📋>         left: '50%',
+TD9 📋> ␅
+TD25 ␆        transform: 'translateX(-50%)',
+TD10 📋>         transform: 'translateX(-50%)',
+TD9 📋> ␅
+TD21 ␆        background: '#222',
+TD9 📋>         background: '#222',
+TD10 📋> ␅
+TD19 ␆        color: '#fff',
+TD9 📋>         color: '#fff',
+TD9 📋> ␅
+TD18 ␆        padding: '6px 14px',
+TD9 📋>         padding: '6px 14px',
+TD9 📋> ␅
+TD43 ␆        borderRadius: '4px',
+TD9 📋>         borderRadius: '4px',
+TD9 📋> ␅
+TD49 ␆        zIndex: '9999',
+TD15 📋>         zIndex: '9999',
+TD14 📋> ␅
+TD30 ␆        fontFamily: 'sans-serif',
+TD15 📋>         fontFamily: 'sans-serif',
+TD14 📋> ␅
+TD21 ␆        fontSize: '13px',
+TD9 📋>         fontSize: '13px',
+TD9 📋> ␅
+TD21 ␆        pointerEvents: 'none',
+TD9 📋>         pointerEvents: 'none',
+TD9 📋> ␅
+TD18 ␆        whiteSpace: 'pre',
+TD9 📋>         whiteSpace: 'pre',
+TD10 📋> ␅
+TD42 ␆      });
+TD10 📋>       });
+TD10 📋> ␅
+TD23 ␆      document.body.appendChild(el);
+TD10 📋>       document.body.appendChild(el);
+TD10 📋> ␅
+TD25 ␆    }
+TD11 📋>     }
+TD10 📋> ␅
+TD24 ␆    if (!(el instanceof HTMLDialogElement)) return;
+TD11 📋>     if (!(el instanceof HTMLDialogElement)) return;
+TD12 📋> ␅
+TD23 ␆    if (label) {
+TD10 📋>     if (label) {
+TD11 📋> ␅
+TD24 ␆      if (Array.isArray(label)) label = label.join('\n');
+TD11 📋>       if (Array.isArray(label)) label = label.join('\n');
+TD11 📋> ␅
+TD24 ␆      el.textContent = label;
+TD10 📋>       el.textContent = label;
+TD10 📋> ␅
+TD23 ␆      if (!el.open) {
+TD11 📋>       if (!el.open) {
+TD10 📋> ␅
+TD24 ␆        el.showModal();
+TD10 📋>         el.showModal();
+TD10 📋> ␅
+TD30 ␆        // TODO fix the reentrancy hazard here: if we spam showStatus() faster than this delay, then the old timer will still fire, and close the next re-show prematurely
+TD15 📋>         // TODO fix the reentrancy hazard here: if we spam showStatus() faster than this delay, then the old timer will still fire, and close the next re-show prematurely
+TD12 📋> ␅
+TD27 ␆        setTimeout(() => el.close(), label.includes('\n') ? 3000 : 1500);
+TD12 📋>         setTimeout(() => el.close(), label.includes('\n') ? 3000 : 1500);
+TD10 📋> ␅
+TD38 ␆      }
+TD11 📋>       }
+TD10 📋> ␅
+TD24 ␆    } else {
+TD10 📋>     } else {
+TD10 📋> ␅
+TD23 ␆      el.textContent = '';
+TD11 📋>       el.textContent = '';
+TD10 📋> ␅
+TD23 ␆      el.close();
+TD10 📋>       el.close();
+TD11 📋> ␅
+TD39 ␆    }
+TD16 📋>     }
+TD19 📋> ␅
+TD26 ␆  }
+TD10 📋>   }
+TD10 📋> ␅
+TD23 ␆
+TD10 📋> 
+TD10 📋> ␅
+TD24 ␆  /**
+TD10 📋>   /**
+TD10 📋> ␅
+TD24 ␆   * @param {DOMTokenList} classList
+TD11 📋>    * @param {DOMTokenList} classList
+TD10 📋> ␅
+TD23 ␆   * @param {string[]} classLabels
+TD10 📋>    * @param {string[]} classLabels
+TD10 📋> ␅
+TD23 ␆   */
+TD10 📋>    */
+TD10 📋> ␅
+TD24 ␆  const classIfy = (classList, ...classLabels) => {
+TD10 📋>   const classIfy = (classList, ...classLabels) => {
+TD10 📋> ␅
+TD30 ␆    let i = 0;
+TD11 📋>     let i = 0;
+TD10 📋> ␅
+TD25 ␆    while (i < classLabels.length) {
+TD11 📋>     while (i < classLabels.length) {
+TD10 📋> ␅
+TD25 ␆      const className = classLabels[i++], label = classLabels[i++];
+TD12 📋>       const className = classLabels[i++], label = classLabels[i++];
+TD10 📋> ␅
+TD68 ␆      if (!className) {
+TD11 📋>       if (!className) {
+TD10 📋> ␅
+TD22 ␆        return label;
+TD11 📋>         return label;
+TD18 📋> ␅
+TD27 ␆      } else if (className.startsWith('!')) {
+TD12 📋>       } else if (className.startsWith('!')) {
+TD11 📋> ␅
+TD23 ␆        if (!classList.contains(className.slice(1))) return label;
+TD11 📋>         if (!classList.contains(className.slice(1))) return label;
+TD11 📋> ␅
+TD22 ␆      } else {
+TD10 📋>       } else {
+TD10 📋> ␅
+TD23 ␆        if (classList.contains(className)) return label;
+TD11 📋>         if (classList.contains(className)) return label;
+TD12 📋> ␅
+TD24 ␆      }
+TD11 📋>       }
+TD10 📋> ␅
+TD25 ␆    }
+TD10 📋>     }
+TD10 📋> ␅
+TD24 ␆    return '';
+TD11 📋>     return '';
+TD20 📋> ␅
+TD26 ␆  };
+TD12 📋>   };
+TD11 📋> ␅
+TD25 ␆
+TD11 📋> 
+TD11 📋> ␅
+TD27 ␆  function* readBoards() {
+TD17 📋>   function* readBoards() {
+TD12 📋> ␅
+TD31 ␆    const boards = document.querySelectorAll('.board');
+TD14 📋>     const boards = document.querySelectorAll('.board');
+TD13 📋> ␅
+TD33 ␆    for (let board_i = 0; board_i < boards.length; board_i++) {
+TD14 📋>     for (let board_i = 0; board_i < boards.length; board_i++) {
+TD15 📋> ␅
+TD30 ␆      const board = boards[board_i];
+TD13 📋>       const board = boards[board_i];
+TD15 📋> ␅
+TD25 ␆      const rows = board.querySelectorAll('.board-row');
+TD12 📋>       const rows = board.querySelectorAll('.board-row');
+TD12 📋> ␅
+TD42 ␆      for (let row_i = 0; row_i < rows.length; row_i++) {
+TD14 📋>       for (let row_i = 0; row_i < rows.length; row_i++) {
+TD12 📋> ␅
+TD28 ␆        const row = rows[row_i];
+TD16 📋>         const row = rows[row_i];
+TD11 📋> ␅
+TD25 ␆        const letters = row.querySelectorAll('.letter');
+TD13 📋>         const letters = row.querySelectorAll('.letter');
+TD11 📋> ␅
+TD25 ␆        const resp = Array.from(itMap(letters,
+TD12 📋>         const resp = Array.from(itMap(letters,
+TD11 📋> ␅
+TD24 ␆          el => classIfy(el.classList,
+TD13 📋>           el => classIfy(el.classList,
+TD11 📋> ␅
+TD26 ␆            '!past-guess', '', // XXX 'current-guess'
+TD12 📋>             '!past-guess', '', // XXX 'current-guess'
+TD14 📋> ␅
+TD28 ␆            'exact-match', 'Y',
+TD12 📋>             'exact-match', 'Y',
+TD12 📋> ␅
+TD28 ␆            'word-match', 'M',
+TD11 📋>             'word-match', 'M',
+TD11 📋> ␅
+TD24 ␆            '', 'n'))).join('');
+TD11 📋>             '', 'n'))).join('');
+TD11 📋> ␅
+TD24 ␆        if (!resp) continue;
+TD12 📋>         if (!resp) continue;
+TD11 📋> ␅
+TD26 ␆        const word = Array.from(itMap(letters, el => el.textContent.trim())).join('');
+TD13 📋>         const word = Array.from(itMap(letters, el => el.textContent.trim())).join('');
+TD12 📋> ␅
+TD43 ␆        if (!word) continue;
+TD27 📋>         if (!word) continue;
+TD23 📋> ␅
+TD25 ␆        yield { board_n: board_i + 1, row_n: row_i + 1, word, resp };
+TD11 📋>         yield { board_n: board_i + 1, row_n: row_i + 1, word, resp };
+TD12 📋> ␅
+TD28 ␆      }
+TD11 📋>       }
+TD11 📋> ␅
+TD22 ␆    }
+TD12 📋>     }
+TD10 📋> ␅
+TD22 ␆  }
+TD10 📋>   }
+TD10 📋> ␅
+TD21 ␆
+TD10 📋> 
+TD9 📋> ␅
+TD29 ␆  function readData() {
+TD23 📋>   function readData() {
+TD11 📋> ␅
+TD27 ␆    const data = Array.from(readBoards());
+TD12 📋>     const data = Array.from(readBoards());
+TD11 📋> ␅
+TD19 ␆    const words = new Set(data.map(({ word }) => word));
+TD11 📋>     const words = new Set(data.map(({ word }) => word));
+TD10 📋> ␅
+TD39 ␆    const byWord = itGroupBy(data, ({ word }) => word);
+TD10 📋>     const byWord = itGroupBy(data, ({ word }) => word);
+TD11 📋> ␅
+TD26 ␆    return {
+TD12 📋>     return {
+TD10 📋> ␅
+TD21 ␆      data,
+TD16 📋>       data,
+TD10 📋> ␅
+TD20 ␆      words,
+TD11 📋>       words,
+TD14 📋> ␅
+TD24 ␆      byWord
+TD10 📋>       byWord
+TD10 📋> ␅
+TD24 ␆    };
+TD11 📋>     };
+TD11 📋> ␅
+TD24 ␆  }
+TD11 📋>   }
+TD11 📋> ␅
+TD26 ␆
+TD14 📋> 
+TD10 📋> ␅
+TD24 ␆  const keyTarget = document;
+TD17 📋>   const keyTarget = document;
+TD13 📋> ␅
+TD23 ␆
+TD10 📋> 
+TD10 📋> ␅
+TD23 ␆  const knownCodes = new Map([
+TD11 📋>   const knownCodes = new Map([
+TD31 📋> ␅
+TD41 ␆    ['Backspace', 0x08],
+TD17 📋>     ['Backspace', 0x08],
+TD10 📋> ␅
+TD23 ␆    ['Enter', 0x0D],
+TD11 📋>     ['Enter', 0x0D],
+TD10 📋> ␅
+TD24 ␆    ['Escape', 0x1B],
+TD10 📋>     ['Escape', 0x1B],
+TD10 📋> ␅
+TD24 ␆    // TODO fill in more standard key codes
+TD11 📋>     // TODO fill in more standard key codes
+TD10 📋> ␅
+TD50 ␆  ]);
+TD10 📋>   ]);
+TD10 📋> ␅
+TD23 ␆
+TD10 📋> 
+TD10 📋> ␅
+TD23 ␆  /** @param {string} key */
+TD11 📋>   /** @param {string} key */
+TD10 📋> ␅
+TD23 ␆  const sendKey = key => {
+TD10 📋>   const sendKey = key => {
+TD10 📋> ␅
+TD23 ␆    let code = '';
+TD10 📋>     let code = '';
+TD10 📋> ␅
+TD23 ␆    let keyCode = 0;
+TD10 📋>     let keyCode = 0;
+TD10 📋> ␅
+TD23 ␆    const known = knownCodes.get(key);
+TD10 📋>     const known = knownCodes.get(key);
+TD10 📋> ␅
+TD24 ␆    if (known !== undefined) {
+TD10 📋>     if (known !== undefined) {
+TD10 📋> ␅
+TD23 ␆      code = key;
+TD10 📋>       code = key;
+TD10 📋> ␅
+TD23 ␆      keyCode = known;
+TD10 📋>       keyCode = known;
+TD10 📋> ␅
+TD24 ␆    } else if (key.match(/^[a-zA-Z]$/)) {
+TD10 📋>     } else if (key.match(/^[a-zA-Z]$/)) {
+TD10 📋> ␅
+TD23 ␆      const ki = key.toUpperCase();
+TD10 📋>       const ki = key.toUpperCase();
+TD10 📋> ␅
+TD32 ␆      code = `Key${ki}`;
+TD10 📋>       code = `Key${ki}`;
+TD10 📋> ␅
+TD24 ␆      keyCode = ki.charCodeAt(0);
+TD10 📋>       keyCode = ki.charCodeAt(0);
+TD10 📋> ␅
+TD23 ␆    }
+TD10 📋>     }
+TD10 📋> ␅
+TD24 ␆    keyTarget.dispatchEvent(new KeyboardEvent('keydown', {
+TD11 📋>     keyTarget.dispatchEvent(new KeyboardEvent('keydown', {
+TD11 📋> ␅
+TD41 ␆      key,
+TD17 📋>       key,
+TD17 📋> ␅
+TD29 ␆      code,
+TD10 📋>       code,
+TD10 📋> ␅
+TD22 ␆      keyCode,
+TD11 📋>       keyCode,
+TD10 📋> ␅
+TD23 ␆      which: keyCode,
+TD10 📋>       which: keyCode,
+TD10 📋> ␅
+TD24 ␆    }));
+TD10 📋>     }));
+TD10 📋> ␅
+TD23 ␆  };
+TD10 📋>   };
+TD10 📋> ␅
+TD23 ␆
+TD10 📋> 
+TD10 📋> ␅
+TD32 ␆  // ── Keymap registry (evolved from manual listener) ───────────────
+TD12 📋>   // ── Keymap registry (evolved from manual listener) ───────────────
+TD11 📋> ␅
+TD39 ␆  /** @typedef {[keys: string[], label: string, handle: (...a: any[]) => void]} KeymapEntry */
+TD12 📋>   /** @typedef {[keys: string[], label: string, handle: (...a: any[]) => void]} KeymapEntry */
+TD11 📋> ␅
+TD84 ␆  /** @type {KeymapEntry[]} */
+TD10 📋>   /** @type {KeymapEntry[]} */
+TD10 📋> ␅
+TD23 ␆  const KEYMAP = [
+TD10 📋>   const KEYMAP = [
+TD10 📋> ␅
+TD25 ␆    [['*', '*'], '🔍 Inspect Boards', inspectBoards],
+TD11 📋>     [['*', '*'], '🔍 Inspect Boards', inspectBoards],
+TD11 📋> ␅
+TD24 ␆    [['*', 'w'], '📋 Copy All', copyAll],
+TD10 📋>     [['*', 'w'], '📋 Copy All', copyAll],
+TD10 📋> ␅
+TD36 ␆    [['$'], '', copyLatest],
+TD10 📋>     [['$'], '', copyLatest],
+TD10 📋> ␅
+TD24 ␆    [['^'], '🤖 Turn Up', turnup],
+TD10 📋>     [['^'], '🤖 Turn Up', turnup],
+TD10 📋> ␅
+TD24 ␆    [[':'], '📋 Send It', sendIt],
+TD10 📋>     [[':'], '📋 Send It', sendIt],
+TD10 📋> ␅
+TD23 ␆  ];
+TD10 📋>   ];
+TD10 📋> ␅
+TD22 ␆
+TD10 📋> 
+TD10 📋> ␅
+TD26 ␆  // ── Action handlers ──────────────────────────────────────────────
+TD11 📋>   // ── Action handlers ──────────────────────────────────────────────
+TD11 📋> ␅
+TD28 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆  async function turnup() { offerText([DROPIN_INIT]); }
+TD3 📋>   async function turnup() { offerText([DROPIN_INIT]); }
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆  /** @param {number} delay */
+TD2 📋>   /** @param {number} delay */
+TD2 📋> ␅
+TD4 ␆  const after = delay => new Promise(resolve => setTimeout(resolve, delay));
+TD2 📋>   const after = delay => new Promise(resolve => setTimeout(resolve, delay));
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆  async function sendIt() {
+TD2 📋>   async function sendIt() {
+TD2 📋> ␅
+TD5 ␆    const raw = await navigator.clipboard.readText();
+TD2 📋>     const raw = await navigator.clipboard.readText();
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD3 📋> ␅
+TD4 ␆    const m = raw.match(/^([a-zA-Z]{5})$/);
+TD2 📋>     const m = raw.match(/^([a-zA-Z]{5})$/);
+TD2 📋> ␅
+TD4 ␆    if (!m) throw new Error('invalid word input');
+TD2 📋>     if (!m) throw new Error('invalid word input');
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆    const word = m[1].toLocaleUpperCase();
+TD2 📋>     const word = m[1].toLocaleUpperCase();
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆    for (const key of word) {
+TD2 📋>     for (const key of word) {
+TD2 📋> ␅
+TD4 ␆      sendKey(key);
+TD2 📋>       sendKey(key);
+TD2 📋> ␅
+TD4 ␆      await after(50);
+TD2 📋>       await after(50);
+TD2 📋> ␅
+TD5 ␆    }
+TD2 📋>     }
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆    sendKey('Enter');
+TD2 📋>     sendKey('Enter');
+TD2 📋> ␅
+TD5 ␆    await after(50);
+TD2 📋>     await after(50);
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆    await copyWordRes(word);
+TD2 📋>     await copyWordRes(word);
+TD2 📋> ␅
+TD4 ␆  }
+TD3 📋>   }
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆  /** @param {Iterable<string>} lines */
+TD2 📋>   /** @param {Iterable<string>} lines */
+TD2 📋> ␅
+TD4 ␆  async function offerText(lines) {
+TD2 📋>   async function offerText(lines) {
+TD2 📋> ␅
+TD4 ␆    const text = new Blob(Array.from(itMap(lines, line => `${line}\n`)), { type: 'text/plain' });
+TD2 📋>     const text = new Blob(Array.from(itMap(lines, line => `${line}\n`)), { type: 'text/plain' });
+TD2 📋> ␅
+TD4 ␆    const item = new ClipboardItem({ ['text/plain']: text });
+TD2 📋>     const item = new ClipboardItem({ ['text/plain']: text });
+TD2 📋> ␅
+TD4 ␆    await navigator.clipboard.write([item]);
+TD2 📋>     await navigator.clipboard.write([item]);
+TD2 📋> ␅
+TD5 ␆    alert(`📋 ${await text.text()}`);
+TD2 📋>     alert(`📋 ${await text.text()}`);
+TD2 📋> ␅
+TD5 ␆  }
+TD2 📋>   }
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆  async function inspectBoards() { console.table(Array.from(readBoards())); }
+TD2 📋>   async function inspectBoards() { console.table(Array.from(readBoards())); }
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆  async function copyAll() {
+TD2 📋>   async function copyAll() {
+TD2 📋> ␅
+TD4 ␆    const { byWord } = readData();
+TD2 📋>     const { byWord } = readData();
+TD2 📋> ␅
+TD4 ␆    const ents = itMap(byWord.entries(), ([word, d]) => [word, toFrame(d, 'board_n', 'resp')]);
+TD2 📋>     const ents = itMap(byWord.entries(), ([word, d]) => [word, toFrame(d, 'board_n', 'resp')]);
+TD2 📋> ␅
+TD4 ␆    const text = JSON.stringify(Object.fromEntries(ents));
+TD2 📋>     const text = JSON.stringify(Object.fromEntries(ents));
+TD2 📋> ␅
+TD4 ␆    return offerText([text]);
+TD2 📋>     return offerText([text]);
+TD2 📋> ␅
+TD4 ␆  }
+TD2 📋>   }
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆  async function copyLatest() {
+TD2 📋>   async function copyLatest() {
+TD2 📋> ␅
+TD4 ␆    const { words, byWord } = readData();
+TD2 📋>     const { words, byWord } = readData();
+TD2 📋> ␅
+TD4 ␆    const latest = itLast(words.values());
+TD2 📋>     const latest = itLast(words.values());
+TD2 📋> ␅
+TD4 ␆    if (latest) return copyWordRes(latest, byWord);
+TD2 📋>     if (latest) return copyWordRes(latest, byWord);
+TD2 📋> ␅
+TD4 ␆  }
+TD3 📋>   }
+TD3 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆  /**
+TD2 📋>   /**
+TD2 📋> ␅
+TD4 ␆   * @typedef {{
+TD2 📋>    * @typedef {{
+TD2 📋> ␅
+TD5 ␆   *   board_n: number;
+TD2 📋>    *   board_n: number;
+TD2 📋> ␅
+TD4 ␆   *   row_n: number;
+TD2 📋>    *   row_n: number;
+TD2 📋> ␅
+TD4 ␆   *   word: string;
+TD2 📋>    *   word: string;
+TD2 📋> ␅
+TD4 ␆   *   resp: string;
+TD2 📋>    *   resp: string;
+TD2 📋> ␅
+TD4 ␆   * }} WordEnt
+TD2 📋>    * }} WordEnt
+TD2 📋> ␅
+TD4 ␆   *
+TD2 📋>    *
+TD2 📋> ␅
+TD4 ␆   * @param {string} word
+TD2 📋>    * @param {string} word
+TD2 📋> ␅
+TD4 ␆   * @param {Map<string, WordEnt[]>} [byWord]
+TD2 📋>    * @param {Map<string, WordEnt[]>} [byWord]
+TD2 📋> ␅
+TD4 ␆   */
+TD2 📋>    */
+TD2 📋> ␅
+TD4 ␆  async function copyWordRes(word, byWord = undefined) {
+TD2 📋>   async function copyWordRes(word, byWord = undefined) {
+TD2 📋> ␅
+TD5 ␆    return offerText(function*() {
+TD2 📋>     return offerText(function*() {
+TD2 📋> ␅
+TD4 ␆      if (!byWord) ({ byWord } = readData());
+TD2 📋>       if (!byWord) ({ byWord } = readData());
+TD2 📋> ␅
+TD4 ␆      const dat = byWord.get(word);
+TD2 📋>       const dat = byWord.get(word);
+TD2 📋> ␅
+TD4 ␆      if (!dat) throw new Error(`no result for word ${JSON.stringify(word)}`);
+TD2 📋>       if (!dat) throw new Error(`no result for word ${JSON.stringify(word)}`);
+TD2 📋> ␅
+TD4 ␆      for (const { board_n, resp } of dat) {
+TD2 📋>       for (const { board_n, resp } of dat) {
+TD2 📋> ␅
+TD4 ␆        yield `#${board_n} ${resp}`;
+TD2 📋>         yield `#${board_n} ${resp}`;
+TD2 📋> ␅
+TD4 ␆      }
+TD2 📋>       }
+TD2 📋> ␅
+TD4 ␆    }());
+TD2 📋>     }());
+TD2 📋> ␅
+TD4 ␆  }
+TD2 📋>   }
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆  // ── Event listener (keymap-driven) ───────────────────────────────
+TD2 📋>   // ── Event listener (keymap-driven) ───────────────────────────────
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆  /** @param {string[]} keys */
+TD2 📋>   /** @param {string[]} keys */
+TD2 📋> ␅
+TD4 ␆  function dispatch(keys) {
+TD2 📋>   function dispatch(keys) {
+TD2 📋> ␅
+TD4 ␆    const want = keys.join('');
+TD2 📋>     const want = keys.join('');
+TD2 📋> ␅
+TD4 ␆    const entry = KEYMAP.find(([k]) => k.join('') === want);
+TD2 📋>     const entry = KEYMAP.find(([k]) => k.join('') === want);
+TD2 📋> ␅
+TD4 ␆    if (entry) {
+TD2 📋>     if (entry) {
+TD2 📋> ␅
+TD4 ␆      const [, , fn] = entry;
+TD2 📋>       const [, , fn] = entry;
+TD2 📋> ␅
+TD4 ␆      try {
+TD2 📋>       try {
+TD2 📋> ␅
+TD4 ␆        fn();
+TD2 📋>         fn();
+TD2 📋> ␅
+TD4 ␆      } catch (e) {
+TD2 📋>       } catch (e) {
+TD2 📋> ␅
+TD4 ␆        showStatus(`⚠️ ${e}`);
+TD2 📋>         showStatus(`⚠️ ${e}`);
+TD2 📋> ␅
+TD4 ␆        console.error(`KEYMAP[${keys}]`, e);
+TD2 📋>         console.error(`KEYMAP[${keys}]`, e);
+TD2 📋> ␅
+TD4 ␆      }
+TD2 📋>       }
+TD2 📋> ␅
+TD4 ␆    }
+TD2 📋>     }
+TD2 📋> ␅
+TD4 ␆  }
+TD2 📋>   }
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆  /** @type {string[]} */
+TD2 📋>   /** @type {string[]} */
+TD2 📋> ␅
+TD4 ␆  let pending = [];
+TD2 📋>   let pending = [];
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆  /** @param {string} key @returns {boolean} */
+TD2 📋>   /** @param {string} key @returns {boolean} */
+TD2 📋> ␅
+TD4 ␆  const procKey = key => {
+TD2 📋>   const procKey = key => {
+TD2 📋> ␅
+TD4 ␆    switch (key) {
+TD2 📋>     switch (key) {
+TD2 📋> ␅
+TD4 ␆      case 'Escape':
+TD2 📋>       case 'Escape':
+TD2 📋> ␅
+TD4 ␆      case 'Backspace': {
+TD2 📋>       case 'Backspace': {
+TD2 📋> ␅
+TD4 ␆        pending = [];
+TD2 📋>         pending = [];
+TD2 📋> ␅
+TD4 ␆        showStatus('');
+TD4 📋>         showStatus('');
+TD2 📋> ␅
+TD4 ␆        return true;
+TD2 📋>         return true;
+TD2 📋> ␅
+TD4 ␆      }
+TD2 📋>       }
+TD2 📋> ␅
+TD4 ␆      case '?': {
+TD2 📋>       case '?': {
+TD2 📋> ␅
+TD4 ␆        const prefix = pending.join('');
+TD2 📋>         const prefix = pending.join('');
+TD2 📋> ␅
+TD4 ␆        const mayb = prefix
+TD2 📋>         const mayb = prefix
+TD2 📋> ␅
+TD4 ␆          ? KEYMAP.filter(([keys]) => keys.join('').startsWith(prefix))
+TD2 📋>           ? KEYMAP.filter(([keys]) => keys.join('').startsWith(prefix))
+TD2 📋> ␅
+TD4 ␆          : KEYMAP;
+TD2 📋>           : KEYMAP;
+TD2 📋> ␅
+TD4 ␆        showStatus(mayb
+TD2 📋>         showStatus(mayb
+TD2 📋> ␅
+TD4 ␆          .map(([keys, label]) => `${keys.join('')} → ${label}`));
+TD2 📋>           .map(([keys, label]) => `${keys.join('')} → ${label}`));
+TD6 📋> ␅
+TD7 ␆        return true;
+TD3 📋>         return true;
+TD2 📋> ␅
+TD4 ␆      }
+TD2 📋>       }
+TD2 📋> ␅
+TD4 ␆    }
+TD2 📋>     }
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆    if (key.length !== 1) return false;
+TD2 📋>     if (key.length !== 1) return false;
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆    pending.push(key);
+TD2 📋>     pending.push(key);
+TD2 📋> ␅
+TD4 ␆    const have = pending.length;
+TD2 📋>     const have = pending.length;
+TD2 📋> ␅
+TD4 ␆    const prefix = pending.join('');
+TD4 📋>     const prefix = pending.join('');
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆    let any = false;
+TD2 📋>     let any = false;
+TD2 📋> ␅
+TD4 ␆    for (const [keys] of KEYMAP) {
+TD2 📋>     for (const [keys] of KEYMAP) {
+TD2 📋> ␅
+TD4 ␆      const would = keys.join('');
+TD2 📋>       const would = keys.join('');
+TD2 📋> ␅
+TD4 ␆      if (would === prefix) {
+TD2 📋>       if (would === prefix) {
+TD2 📋> ␅
+TD4 ␆        pending = [];
+TD2 📋>         pending = [];
+TD2 📋> ␅
+TD4 ␆        dispatch(keys);
+TD2 📋>         dispatch(keys);
+TD2 📋> ␅
+TD5 ␆        return true;
+TD2 📋>         return true;
+TD2 📋> ␅
+TD4 ␆      }
+TD2 📋>       }
+TD2 📋> ␅
+TD5 ␆      any = any || would.startsWith(prefix);
+TD2 📋>       any = any || would.startsWith(prefix);
+TD2 📋> ␅
+TD4 ␆    }
+TD2 📋>     }
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆    const MAX_LEN = Math.max(...KEYMAP.map(([k]) => k.length), 0);
+TD2 📋>     const MAX_LEN = Math.max(...KEYMAP.map(([k]) => k.length), 0);
+TD2 📋> ␅
+TD5 ␆    if (any && have < MAX_LEN) {
+TD2 📋>     if (any && have < MAX_LEN) {
+TD2 📋> ␅
+TD4 ␆      showStatus(`${pending} ...`);
+TD2 📋>       showStatus(`${pending} ...`);
+TD2 📋> ␅
+TD4 ␆      return true;
+TD2 📋>       return true;
+TD2 📋> ␅
+TD4 ␆    }
+TD2 📋>     }
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆    pending = [];
+TD2 📋>     pending = [];
+TD2 📋> ␅
+TD4 ␆    if (have > 1) {
+TD2 📋>     if (have > 1) {
+TD2 📋> ␅
+TD4 ␆      showStatus(`${pending} => abort`);
+TD2 📋>       showStatus(`${pending} => abort`);
+TD2 📋> ␅
+TD5 ␆      return true;
+TD2 📋>       return true;
+TD2 📋> ␅
+TD4 ␆    }
+TD2 📋>     }
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆    return false;
+TD2 📋>     return false;
+TD2 📋> ␅
+TD4 ␆  };
+TD2 📋>   };
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆  keyTarget.addEventListener('keydown', async ev => {
+TD2 📋>   keyTarget.addEventListener('keydown', async ev => {
+TD2 📋> ␅
+TD4 ␆    if (procKey(ev.key)) {
+TD2 📋>     if (procKey(ev.key)) {
+TD2 📋> ␅
+TD5 ␆      ev.preventDefault();
+TD2 📋>       ev.preventDefault();
+TD2 📋> ␅
+TD5 ␆      ev.stopPropagation();
+TD2 📋>       ev.stopPropagation();
+TD2 📋> ␅
+TD4 ␆    }
+TD2 📋>     }
+TD2 📋> ␅
+TD5 ␆  });
+TD2 📋>   });
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆  showStatus('💧 Online <Press ^ For 📋-back>');
+TD2 📋>   showStatus('💧 Online <Press ^ For 📋-back>');
+TD3 📋> ␅
+TD5 ␆})()
+TD2 📋> })()
+TD2 📋> ␅
+TD1549740 ␆
+TD103 📋> 
+TD18 📋> ␅
+TD4101574 ␄
+TD328 pasted: {"subject": "\ud83d\udccb\ud83c\udf10 Dropin 8726 bytes", "method": "read:must:stdin", "content": "*\n*\n// @ts-check\n\n(() => {\n  const DROPIN_INIT = '\ud83e\udd16 octordle dropin online';\n\n  /** @template T @param {Iterable<T>} it */\n  function itLast(it) { let x; for (x of it) { } return x; }\n\n  /** @template T, V @param {Iterable<T>} it @param {(t: T, i: number) => V} fn */\n  function* itMap(it, fn) { let i = 0; for (const x of it) yield fn(x, i++); }\n\n  /**\n   * @template T, K\n   * @param {Iterable<T>} it\n   * @param {(x: T) => K} keyFn\n   */\n  function itGroupBy(it, keyFn) {\n    /** @type {Map<K, T[]>} */\n    const map = new Map();\n    for (const item of it) {\n      const key = keyFn(item);\n      let bucket = map.get(key);\n      if (!bucket) map.set(key, bucket = []);\n      bucket.push(item);\n    }\n    return map;\n  }\n\n  /**\n   * @template {{[name: string]: any}} U\n   * @param {U[]} data\n   * @param {string[]} names\n   */\n  const toFrame = (data, ...names) => Object.fromEntries(\n    names.map(name => [name, data.map(um => um[name])]));\n\n  /**\n   * @param {string|string[]} label\n   */\n  function showStatus(label) {\n    const mine = 'octordle-status';\n    let el = document.getElementById(mine);\n    if (!el) {\n      el = document.createElement('dialog');\n      el.id = mine;\n      Object.assign(el.style, {\n        position: 'fixed',\n        top: '8px',\n        left: '50%',\n        transform: 'translateX(-50%)',\n        background: '#222',\n        color: '#fff',\n        padding: '6px 14px',\n        borderRadius: '4px',\n        zIndex: '9999',\n        fontFamily: 'sans-serif',\n        fontSize: '13px',\n        pointerEvents: 'none',\n        whiteSpace: 'pre',\n      });\n      document.body.appendChild(el);\n    }\n    if (!(el instanceof HTMLDialogElement)) return;\n    if (label) {\n      if (Array.isArray(label)) label = label.join('\\n');\n      el.textContent = label;\n      if (!el.open) {\n        el.showModal();\n        // TODO fix the reentrancy hazard here: if we spam showStatus() faster than this delay, then the old timer will still fire, and close the next re-show prematurely\n        setTimeout(() => el.close(), label.includes('\\n') ? 3000 : 1500);\n      }\n    } else {\n      el.textContent = '';\n      el.close();\n    }\n  }\n\n  /**\n   * @param {DOMTokenList} classList\n   * @param {string[]} classLabels\n   */\n  const classIfy = (classList, ...classLabels) => {\n    let i = 0;\n    while (i < classLabels.length) {\n      const className = classLabels[i++], label = classLabels[i++];\n      if (!className) {\n        return label;\n      } else if (className.startsWith('!')) {\n        if (!classList.contains(className.slice(1))) return label;\n      } else {\n        if (classList.contains(className)) return label;\n      }\n    }\n    return '';\n  };\n\n  function* readBoards() {\n    const boards = document.querySelectorAll('.board');\n    for (let board_i = 0; board_i < boards.length; board_i++) {\n      const board = boards[board_i];\n      const rows = board.querySelectorAll('.board-row');\n      for (let row_i = 0; row_i < rows.length; row_i++) {\n        const row = rows[row_i];\n        const letters = row.querySelectorAll('.letter');\n        const resp = Array.from(itMap(letters,\n          el => classIfy(el.classList,\n            '!past-guess', '', // XXX 'current-guess'\n            'exact-match', 'Y',\n            'word-match', 'M',\n            '', 'n'))).join('');\n        if (!resp) continue;\n        const word = Array.from(itMap(letters, el => el.textContent.trim())).join('');\n        if (!word) continue;\n        yield { board_n: board_i + 1, row_n: row_i + 1, word, resp };\n      }\n    }\n  }\n\n  function readData() {\n    const data = Array.from(readBoards());\n    const words = new Set(data.map(({ word }) => word));\n    const byWord = itGroupBy(data, ({ word }) => word);\n    return {\n      data,\n      words,\n      byWord\n    };\n  }\n\n  const keyTarget = document;\n\n  const knownCodes = new Map([\n    ['Backspace', 0x08],\n    ['Enter', 0x0D],\n    ['Escape', 0x1B],\n    // TODO fill in more standard key codes\n  ]);\n\n  /** @param {string} key */\n  const sendKey = key => {\n    let code = '';\n    let keyCode = 0;\n    const known = knownCodes.get(key);\n    if (known !== undefined) {\n      code = key;\n      keyCode = known;\n    } else if (key.match(/^[a-zA-Z]$/)) {\n      const ki = key.toUpperCase();\n      code = `Key${ki}`;\n      keyCode = ki.charCodeAt(0);\n    }\n    keyTarget.dispatchEvent(new KeyboardEvent('keydown', {\n      key,\n      code,\n      keyCode,\n      which: keyCode,\n    }));\n  };\n\n  // \u2500\u2500 Keymap registry (evolved from manual listener) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n  /** @typedef {[keys: string[], label: string, handle: (...a: any[]) => void]} KeymapEntry */\n  /** @type {KeymapEntry[]} */\n  const KEYMAP = [\n    [['*', '*'], '\ud83d\udd0d Inspect Boards', inspectBoards],\n    [['*', 'w'], '\ud83d\udccb Copy All', copyAll],\n    [['$'], '', copyLatest],\n    [['^'], '\ud83e\udd16 Turn Up', turnup],\n    [[':'], '\ud83d\udccb Send It', sendIt],\n  ];\n\n  // \u2500\u2500 Action handlers \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n  async function turnup() { offerText([DROPIN_INIT]); }\n\n  /** @param {number} delay */\n  const after = delay => new Promise(resolve => setTimeout(resolve, delay));\n\n  async function sendIt() {\n    const raw = await navigator.clipboard.readText();\n\n    const m = raw.match(/^([a-zA-Z]{5})$/);\n    if (!m) throw new Error('invalid word input');\n\n    const word = m[1].toLocaleUpperCase();\n\n    for (const key of word) {\n      sendKey(key);\n      await after(50);\n    }\n\n    sendKey('Enter');\n    await after(50);\n\n    await copyWordRes(word);\n  }\n\n  /** @param {Iterable<string>} lines */\n  async function offerText(lines) {\n    const text = new Blob(Array.from(itMap(lines, line => `${line}\\n`)), { type: 'text/plain' });\n    const item = new ClipboardItem({ ['text/plain']: text });\n    await navigator.clipboard.write([item]);\n    alert(`\ud83d\udccb ${await text.text()}`);\n  }\n\n  async function inspectBoards() { console.table(Array.from(readBoards())); }\n\n  async function copyAll() {\n    const { byWord } = readData();\n    const ents = itMap(byWord.entries(), ([word, d]) => [word, toFrame(d, 'board_n', 'resp')]);\n    const text = JSON.stringify(Object.fromEntries(ents));\n    return offerText([text]);\n  }\n\n  async function copyLatest() {\n    const { words, byWord } = readData();\n    const latest = itLast(words.values());\n    if (latest) return copyWordRes(latest, byWord);\n  }\n\n  /**\n   * @typedef {{\n   *   board_n: number;\n   *   row_n: number;\n   *   word: string;\n   *   resp: string;\n   * }} WordEnt\n   *\n   * @param {string} word\n   * @param {Map<string, WordEnt[]>} [byWord]\n   */\n  async function copyWordRes(word, byWord = undefined) {\n    return offerText(function*() {\n      if (!byWord) ({ byWord } = readData());\n      const dat = byWord.get(word);\n      if (!dat) throw new Error(`no result for word ${JSON.stringify(word)}`);\n      for (const { board_n, resp } of dat) {\n        yield `#${board_n} ${resp}`;\n      }\n    }());\n  }\n\n  // \u2500\u2500 Event listener (keymap-driven) \u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\u2500\n\n  /** @param {string[]} keys */\n  function dispatch(keys) {\n    const want = keys.join('');\n    const entry = KEYMAP.find(([k]) => k.join('') === want);\n    if (entry) {\n      const [, , fn] = entry;\n      try {\n        fn();\n      } catch (e) {\n        showStatus(`\u26a0\ufe0f ${e}`);\n        console.error(`KEYMAP[${keys}]`, e);\n      }\n    }\n  }\n\n  /** @type {string[]} */\n  let pending = [];\n\n  /** @param {string} key @returns {boolean} */\n  const procKey = key => {\n    switch (key) {\n      case 'Escape':\n      case 'Backspace': {\n        pending = [];\n        showStatus('');\n        return true;\n      }\n      case '?': {\n        const prefix = pending.join('');\n        const mayb = prefix\n          ? KEYMAP.filter(([keys]) => keys.join('').startsWith(prefix))\n          : KEYMAP;\n        showStatus(mayb\n          .map(([keys, label]) => `${keys.join('')} \u2192 ${label}`));\n        return true;\n      }\n    }\n\n    if (key.length !== 1) return false;\n\n    pending.push(key);\n    const have = pending.length;\n    const prefix = pending.join('');\n\n    let any = false;\n    for (const [keys] of KEYMAP) {\n      const would = keys.join('');\n      if (would === prefix) {\n        pending = [];\n        dispatch(keys);\n        return true;\n      }\n      any = any || would.startsWith(prefix);\n    }\n\n    const MAX_LEN = Math.max(...KEYMAP.map(([k]) => k.length), 0);\n    if (any && have < MAX_LEN) {\n      showStatus(`${pending} ...`);\n      return true;\n    }\n\n    pending = [];\n    if (have > 1) {\n      showStatus(`${pending} => abort`);\n      return true;\n    }\n\n    return false;\n  };\n\n  keyTarget.addEventListener('keydown', async ev => {\n    if (procKey(ev.key)) {\n      ev.preventDefault();\n      ev.stopPropagation();\n    }\n  });\n\n  showStatus('\ud83d\udca7 Online <Press ^ For \ud83d\udccb-back>');\n})()\n"}
+TD779885 ❓sent> ␅
+TD1419373 ␆/drop
+TD110 ❓sent> /drop
+TD953 📋> ␅
+TD2196323 ␆🤖 octordle dropin online
+TD48 📋> 🤖 octordle dropin online
+TD5 📋> ␅
+TD489384 ␆
+TD160 📋> 
+TD33 📋> ␅
+TD433746 ␄
+TD207 pasted: {"subject": "\ud83d\udccb\ud83c\udf10 Dropin 8726 bytes", "method": "read:must:stdin", "content": "\ud83e\udd16 octordle dropin online\n"}
+TD765562 💧> ␅
+TD959514 ␆*
+TD139 💧> *
+TD79073 ? ␅
+TD863939 ␆1
+TD212 ? 1
+TD312 questioning: reads
+TD244 📋> ␅
+TD3640402 ␆#1 nnMnn
+TD131 📋> #1 nnMnn
+TD33 📋> ␅
+TD103 ␆#2 MnnMn
+TD19 📋> #2 MnnMn
+TD18 📋> ␅
+TD31 ␆#3 MMMnM
+TD10 📋> #3 MMMnM
+TD9 📋> ␅
+TD21 ␆#4 nnnMn
+TD9 📋> #4 nnnMn
+TD9 📋> ␅
+TD18 ␆#5 MnYnn
+TD9 📋> #5 MnYnn
+TD8 📋> ␅
+TD18 ␆#6 nnnnn
+TD8 📋> #6 nnnnn
+TD8 📋> ␅
+TD24 ␆#7 nnnnn
+TD9 📋> #7 nnnnn
+TD8 📋> ␅
+TD19 ␆#8 nnMnn
+TD9 📋> #8 nnMnn
+TD8 📋> ␅
+TD220983 ␆
+TD100 📋> 
+TD22 📋> ␅
+TD140556 ␄
+TD372 pasted: {"subject": "Scrape wrt 'reads'", "method": "read:must:stdin", "content": "#1 nnMnn\n#2 MnnMn\n#3 MMMnM\n#4 nnnMn\n#5 MnYnn\n#6 nnnnn\n#7 nnnnn\n#8 nnMnn\n"}
+TD1143 attempt: 0 reads n n m n n
+TD197 attempt: 1 reads m n n m n
+TD121 attempt: 2 reads m m m n m
+TD116 attempt: 3 reads n n n m n
+TD130 attempt: 4 reads m n Y n n
+TD111 attempt: 5 reads n n n n n
+TD111 attempt: 6 reads n n n n n
+TD116 attempt: 7 reads n n m n n
+TD885148 💧> ␅
+TD722973 ␆*
+TD149 💧> *
+TD8057 ? ␅
+TD886970 ␆1
+TD120 ? 1
+TD242 questioning: litho
+TD197 📋> ␅
+TD3063614 ␆#1 nnYMn
+TD103 📋> #1 nnYMn
+TD16 📋> ␅
+TD46 ␆#2 YMnnn
+TD9 📋> #2 YMnnn
+TD9 📋> ␅
+TD19 ␆#3 nnnnM
+TD8 📋> #3 nnnnM
+TD7 📋> ␅
+TD17 ␆#4 nYnnn
+TD9 📋> #4 nYnnn
+TD12 📋> ␅
+TD25 ␆#5 nnnnn
+TD12 📋> #5 nnnnn
+TD8 📋> ␅
+TD16 ␆#6 Mnnnn
+TD7 📋> #6 Mnnnn
+TD6 📋> ␅
+TD15 ␆#7 MYnnn
+TD6 📋> #7 MYnnn
+TD7 📋> ␅
+TD15 ␆#8 Mnnnn
+TD7 📋> #8 Mnnnn
+TD6 📋> ␅
+TD205877 ␆
+TD114 📋> 
+TD29 📋> ␅
+TD156829 ␄
+TD250 pasted: {"subject": "Scrape wrt 'litho'", "method": "read:must:stdin", "content": "#1 nnYMn\n#2 YMnnn\n#3 nnnnM\n#4 nYnnn\n#5 nnnnn\n#6 Mnnnn\n#7 MYnnn\n#8 Mnnnn\n"}
+TD534 attempt: 0 litho n n Y m n
+TD334 attempt: 1 litho Y m n n n
+TD277 attempt: 2 litho n n n n m
+TD265 attempt: 3 litho n Y n n n
+TD414 attempt: 4 litho n n n n n
+TD447 attempt: 5 litho m n n n n
+TD161 attempt: 6 litho m Y n n n
+TD173 attempt: 7 litho m n n n n
+TD842943 💧> ␅
+TD681801 ␆*
+TD81 💧> *
+TD364 questioning: lurid
+TD109 📋> ␅
+TD5801343 ␆#1 nnnnn
+TD86 📋> #1 nnnnn
+TD14 📋> ␅
+TD38 ␆#2 YYYYY
+TD8 📋> #2 YYYYY
+TD8 📋> ␅
+TD14 ␆#3 nnMnn
+TD6 📋> #3 nnMnn
+TD6 📋> ␅
+TD14 ␆#4 nnnYY
+TD6 📋> #4 nnnYY
+TD6 📋> ␅
+TD14 ␆#5 nnMnn
+TD6 📋> #5 nnMnn
+TD6 📋> ␅
+TD14 ␆#6 MMnnn
+TD6 📋> #6 MMnnn
+TD6 📋> ␅
+TD14 ␆#7 MnnMn
+TD6 📋> #7 MnnMn
+TD6 📋> ␅
+TD36 ␆#8 Mnnnn
+TD9 📋> #8 Mnnnn
+TD6 📋> ␅
+TD273227 ␆
+TD128 📋> 
+TD23 📋> ␅
+TD128920 ␄
+TD192 pasted: {"subject": "Scrape wrt 'lurid'", "method": "read:must:stdin", "content": "#1 nnnnn\n#2 YYYYY\n#3 nnMnn\n#4 nnnYY\n#5 nnMnn\n#6 MMnnn\n#7 MnnMn\n#8 Mnnnn\n"}
+TD327 attempt: 0 lurid n n n n n
+TD166 attempt: 1 lurid Y Y Y Y Y
+TD131 attempt: 2 lurid n n m n n
+TD119 attempt: 3 lurid n n n Y Y
+TD118 attempt: 4 lurid n n m n n
+TD110 attempt: 5 lurid m m n n n
+TD107 attempt: 6 lurid m n n m n
+TD112 attempt: 7 lurid m n n n n
+TD740498 💧> ␅
+TD1614776 ␆*
+TD124 💧> *
+TD376 questioning: arose
+TD120 📋> ␅
+TD4740054 ␆#1 Mnnnn
+TD89 📋> #1 Mnnnn
+TD15 📋> ␅
+TD48 ␆#3 YYYYY
+TD9 📋> #3 YYYYY
+TD7 📋> ␅
+TD19 ␆#4 nnnnn
+TD7 📋> #4 nnnnn
+TD7 📋> ␅
+TD16 ␆#5 MYnnn
+TD7 📋> #5 MYnnn
+TD6 📋> ␅
+TD16 ␆#6 nnnnn
+TD7 📋> #6 nnnnn
+TD6 📋> ␅
+TD15 ␆#7 nnnnn
+TD7 📋> #7 nnnnn
+TD6 📋> ␅
+TD16 ␆#8 Mnnnn
+TD6 📋> #8 Mnnnn
+TD22 📋> ␅
+TD304755 ␆
+TD117 📋> 
+TD23 📋> ␅
+TD412423 ␄
+TD188 pasted: {"subject": "Scrape wrt 'arose'", "method": "read:must:stdin", "content": "#1 Mnnnn\n#3 YYYYY\n#4 nnnnn\n#5 MYnnn\n#6 nnnnn\n#7 nnnnn\n#8 Mnnnn\n"}
+TD339 attempt: 0 arose m n n n n
+TD188 attempt: 2 arose Y Y Y Y Y
+TD209 attempt: 3 arose n n n n n
+TD209 attempt: 4 arose m Y n n n
+TD199 attempt: 5 arose n n n n n
+TD206 attempt: 6 arose n n n n n
+TD198 attempt: 7 arose m n n n n
+TD577153 💧> ␅
+TD1614057 ␆*
+TD92 💧> *
+TD540 ? ␅
+TD1498263 ␄
+TD135 <EOF>
+TD626691 💧> ␅
+TD6022199 ␆* 8
+TD91 💧> * 8
+TD107509 ? ␅
+TD9850759 ␆1
+TD122 ? 1
+TD250 questioning: balmy
+TD224 📋> ␅
+TD4449119 ␆#1 nYnMn
+TD85 📋> #1 nYnMn
+TD18 📋> ␅
+TD46 ␆#4 nnnnn
+TD10 📋> #4 nnnnn
+TD7 📋> ␅
+TD19 ␆#5 YMnnn
+TD10 📋> #5 YMnnn
+TD7 📋> ␅
+TD17 ␆#6 nnMnn
+TD10 📋> #6 nnMnn
+TD7 📋> ␅
+TD17 ␆#7 nnYMY
+TD9 📋> #7 nnYMY
+TD7 📋> ␅
+TD16 ␆#8 MYMnn
+TD9 📋> #8 MYMnn
+TD6 📋> ␅
+TD276526 ␆
+TD126 📋> 
+TD22 📋> ␅
+TD171951 ␄
+TD200 pasted: {"subject": "Scrape wrt 'balmy'", "method": "read:must:stdin", "content": "#1 nYnMn\n#4 nnnnn\n#5 YMnnn\n#6 nnMnn\n#7 nnYMY\n#8 MYMnn\n"}
+TD391 attempt: 0 balmy n Y n m n
+TD237 attempt: 3 balmy n n n n n
+TD186 attempt: 4 balmy Y m n n n
+TD119 attempt: 5 balmy n n m n n
+TD111 attempt: 6 balmy n n Y m Y
+TD106 attempt: 7 balmy m Y m n n
+TD567448 💧> ␅
+TD745229 ␆*
+TD131 💧> *
+TD572 questioning: match
+TD254 📋> ␅
+TD3425469 ␆#1 YYYYY
+TD108 📋> #1 YYYYY
+TD20 📋> ␅
+TD53 ␆#4 nnnnn
+TD11 📋> #4 nnnnn
+TD9 📋> ␅
+TD21 ␆#5 nMnnn
+TD9 📋> #5 nMnnn
+TD9 📋> ␅
+TD21 ␆#6 nnnnn
+TD9 📋> #6 nnnnn
+TD9 📋> ␅
+TD21 ␆#7 Ynnnn
+TD9 📋> #7 Ynnnn
+TD29 📋> ␅
+TD23 ␆#8 nYnMn
+TD9 📋> #8 nYnMn
+TD8 📋> ␅
+TD226148 ␆
+TD96 📋> 
+TD17 📋> ␅
+TD143829 ␄
+TD83 pasted: {"subject": "Scrape wrt 'match'", "method": "read:must:stdin", "content": "#1 YYYYY\n#4 nnnnn\n#5 nMnnn\n#6 nnnnn\n#7 Ynnnn\n#8 nYnMn\n"}
+TD128 attempt: 0 match Y Y Y Y Y
+TD42 attempt: 3 match n n n n n
+TD36 attempt: 4 match n m n n n
+TD33 attempt: 5 match n n n n n
+TD32 attempt: 6 match Y n n n n
+TD32 attempt: 7 match n Y n m n
+TD482233 💧> ␅
+TD594911 ␆*
+TD120 💧> *
+TD479 questioning: vivid
+TD138 📋> ␅
+TD4345806 ␆#4 YYYYY
+TD105 📋> #4 YYYYY
+TD21 📋> ␅
+TD59 ␆#5 nnnnn
+TD14 📋> #5 nnnnn
+TD9 📋> ␅
+TD17 ␆#6 nnnnn
+TD7 📋> #6 nnnnn
+TD7 📋> ␅
+TD14 ␆#7 nYnnn
+TD7 📋> #7 nYnnn
+TD7 📋> ␅
+TD16 ␆#8 nnnnn
+TD6 📋> #8 nnnnn
+TD6 📋> ␅
+TD186338 ␆
+TD155 📋> 
+TD22 📋> ␅
+TD163934 ␄
+TD196 pasted: {"subject": "Scrape wrt 'vivid'", "method": "read:must:stdin", "content": "#4 YYYYY\n#5 nnnnn\n#6 nnnnn\n#7 nYnnn\n#8 nnnnn\n"}
+TD272 attempt: 3 vivid Y Y Y Y Y
+TD144 attempt: 4 vivid n n n n n
+TD109 attempt: 5 vivid n n n n n
+TD102 attempt: 6 vivid n Y n n n
+TD95 attempt: 7 vivid n n n n n
+TD401377 💧> ␅
+TD1200380 ␆*
+TD84 💧> *
+TD377 questioning: milky
+TD118 📋> ␅
+TD7299872 ␆#5 nnnnn
+TD110 📋> #5 nnnnn
+TD16 📋> ␅
+TD96 ␆#6 nnMnn
+TD9 📋> #6 nnMnn
+TD7 📋> ␅
+TD26 ␆#7 YYYYY
+TD8 📋> #7 YYYYY
+TD7 📋> ␅
+TD25 ␆#8 nnMnn
+TD7 📋> #8 nnMnn
+TD6 📋> ␅
+TD226771 ␆
+TD136 📋> 
+TD26 📋> ␅
+TD162981 ␄
+TD214 pasted: {"subject": "Scrape wrt 'milky'", "method": "read:must:stdin", "content": "#5 nnnnn\n#6 nnMnn\n#7 YYYYY\n#8 nnMnn\n"}
+TD416 attempt: 4 milky n n n n n
+TD228 attempt: 5 milky n n m n n
+TD125 attempt: 6 milky Y Y Y Y Y
+TD123 attempt: 7 milky n n m n n
+TD309097 💧> ␅
+TD750130 ␆*
+TD138 💧> *
+TD774 questioning: cabal
+TD271 📋> ␅
+TD3920763 ␆#5 nMMnn
+TD80 📋> #5 nMMnn
+TD66 📋> ␅
+TD42 ␆#6 nnnnM
+TD8 📋> #6 nnnnM
+TD18 📋> ␅
+TD17 ␆#8 YYYYY
+TD7 📋> #8 YYYYY
+TD15 📋> ␅
+TD235775 ␆
+TD72 📋> 
+TD55 📋> ␅
+TD123557 ␄
+TD305 pasted: {"subject": "Scrape wrt 'cabal'", "method": "read:must:stdin", "content": "#5 nMMnn\n#6 nnnnM\n#8 YYYYY\n"}
+TD803 attempt: 4 cabal n m m n n
+TD336 attempt: 5 cabal n n n n m
+TD215 attempt: 7 cabal Y Y Y Y Y
+TD204941 💧> ␅
+TD877776 ␆*
+TD115 💧> *
+TD975 ? ␅
+TD2017960 ␆1
+TD89 ? 1
+TD187 questioning: brawn
+TD129 📋> ␅
+TD4835333 ␆#5 YYYYY
+TD78 📋> #5 YYYYY
+TD13 📋> ␅
+TD42 ␆#6 nnnnM
+TD9 📋> #6 nnnnM
+TD7 📋> ␅
+TD197472 ␆
+TD173 📋> 
+TD28 📋> ␅
+TD128892 ␄
+TD249 pasted: {"subject": "Scrape wrt 'brawn'", "method": "read:must:stdin", "content": "#5 YYYYY\n#6 nnnnM\n"}
+TD475 attempt: 4 brawn Y Y Y Y Y
+TD250 attempt: 5 brawn n n n n m
+TD123689 💧> ␅
+TD834292 ␆*
+TD124 💧> *
+TD524 questioning: flung
+TD200 📋> ␅
+TD3156246 ␆#6 YYYYY
+TD93 📋> #6 YYYYY
+TD16 📋> ␅
+TD222431 ␆
+TD128 📋> 
+TD54 📋> ␅
+TD126813 ␄
+TD378 pasted: {"subject": "Scrape wrt 'flung'", "method": "read:must:stdin", "content": "#6 YYYYY\n"}
+TD459 attempt: 5 flung Y Y Y Y Y
+TD126 📋> ␅
+TD406265 ␆
+TD97 📋> 
+TD18 📋> ␅
+TD5956559 ␆Daily Octordle #1659
+TD103 📋> Daily Octordle #1659
+TD26 📋> ␅
+TD67 ␆6️⃣3️⃣
+TD16 📋> 6️⃣3️⃣
+TD14 📋> ␅
+TD47 ␆4️⃣7️⃣
+TD9 📋> 4️⃣7️⃣
+TD9 📋> ␅
+TD21 ␆🔟🕚
+TD9 📋> 🔟🕚
+TD8 📋> ␅
+TD18 ␆8️⃣9️⃣
+TD7 📋> 8️⃣9️⃣
+TD7 📋> ␅
+TD207115 ␆Score: 58
+TD98 📋> Score: 58
+TD26 📋> ␅
+TD187009 ␄
+TD176 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\nDaily Octordle #1659\n6\ufe0f\u20e33\ufe0f\u20e3\n4\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\n8\ufe0f\u20e39\ufe0f\u20e3\nScore: 58"}
+TD224 result: "\nDaily Octordle #1659\n6\ufe0f\u20e33\ufe0f\u20e3\n4\ufe0f\u20e37\ufe0f\u20e3\n\ud83d\udd1f\ud83d\udd5a\n8\ufe0f\u20e39\ufe0f\u20e3\nScore: 58"
+TD94 📆 2026-08-10 ? ␅
+TD1679564 ␆
+TD112 📆 2026-08-10 ? 
