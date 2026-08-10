@@ -1,0 +1,89 @@
+T45965.898188064006 now: 2026-08-10T07:54:17EDT
+TD27835 site: alphaguess.com
+TD171058 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 9340bf0a3a0ca9c4224303fdf307409c5b55aa54
+TD104  ...␅
+TD700576 ␆
+TD106  ...
+TD211 [0 : 98147 : 196518] mac? ␅
+TD18649823 ␆
+TD70 [0 : 98147 : 196518] mac? 
+TD94 [0 : 98147 : 196518] mac? ␅
+TD2951051 ␆b
+TD110 [0 : 98147 : 196518] mac? b
+TD136 progress: -1 98147 mac
+TD151 [0 : 47378 : 98147] dis? ␅
+TD4455362 ␆a
+TD135 [0 : 47378 : 98147] dis? a
+TD164 progress: 1 47378 dis
+TD165 [47379 : 72662 : 98147] green? ␅
+TD4661220 ␆a
+TD176 [47379 : 72662 : 98147] green? a
+TD175 progress: 1 72662 green
+TD223 [72663 : 85397 : 98147] inocula? ␅
+TD1837789 ␆b
+TD155 [72663 : 85397 : 98147] inocula? b
+TD153 progress: -1 85397 inocula
+TD152 [72663 : 79019 : 85397] hone? ␅
+TD3487460 ␆a
+TD72 [72663 : 79019 : 85397] hone? a
+TD138 progress: 1 79019 hone
+TD218 [79020 : 82206 : 85397] imbitter? ␅
+TD9586456 ␆a
+TD74 [79020 : 82206 : 85397] imbitter? a
+TD79 progress: 1 82206 imbitter
+TD111 [82207 : 83234 : 85397] in? ␅
+TD1821891 ␆a
+TD117 [82207 : 83234 : 85397] in? a
+TD130 progress: 1 83234 in
+TD275 [83235 : 84311 : 85397] induce? ␅
+TD1627860 ␆b
+TD117 [83235 : 84311 : 85397] induce? b
+TD113 progress: -1 84311 induce
+TD546 [83235 : 83773 : 84311] incoordinations? ␅
+TD1726648 ␆b
+TD148 [83235 : 83773 : 84311] incoordinations? b
+TD187 progress: -1 83773 incoordinations
+TD975 [83235 : 83504 : 83773] incertitudes? ␅
+TD1560688 ␆a
+TD334 [83235 : 83504 : 83773] incertitudes? a
+TD140 progress: 1 83504 incertitudes
+TD169 [83505 : 83634 : 83773] incog? ␅
+TD2085408 ␆b
+TD107 [83505 : 83634 : 83773] incog? b
+TD120 progress: -1 83634 incog
+TD463 [83505 : 83569 : 83634] incitable? ␅
+TD1859975 ␆b
+TD132 [83505 : 83569 : 83634] incitable? b
+TD162 progress: -1 83569 incitable
+TD389 [83505 : 83532 : 83569] incident? ␅
+TD1932752 ␆b
+TD59 [83505 : 83532 : 83569] incident? b
+TD52 progress: -1 83532 incident
+TD86 [83505 : 83514 : 83532] inch? ␅
+TD2915934 ␆it
+TD138 [83505 : 83514 : 83532] inch? it
+TD145 progress: 0 83514 inch
+TD43 [83505 : 83514 : 83532] <Done>.
+TD133 📋> ␅
+TD3134361 ␆🧩 Puzzle #1113
+TD118 📋> 🧩 Puzzle #1113
+TD24 📋> ␅
+TD63 ␆🤔 14 guesses
+TD14 📋> 🤔 14 guesses
+TD12 📋> ␅
+TD26 ␆⏱️ 38s
+TD13 📋> ⏱️ 38s
+TD11 📋> ␅
+TD259040 ␆🔗 alphaguess.com/1113
+TD58 📋> 🔗 alphaguess.com/1113
+TD8 📋> ␅
+TD142544 ␄
+TD225 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1113\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 38s\n\ud83d\udd17 alphaguess.com/1113"}
+TD139 result: "\ud83e\udde9 Puzzle #1113\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 38s\n\ud83d\udd17 alphaguess.com/1113"
+TD26 result puzzle: 1113
+TD14 result guesses: 14
+TD10 result time: 38s
+TD10 result link: alphaguess.com/1113
+TD123 📆 2026-08-10 ? ␅
+TD210981 ␆
+TD85 📆 2026-08-10 ? 
