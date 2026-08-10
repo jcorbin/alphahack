@@ -1,0 +1,180 @@
+T56242.788483326 now: 2026-08-10T13:25:25EDT
+TD85 site: dontwordle.com
+TD35 wordlist: nwl2023.txt
+TD45  ...␅
+TD603812 ␆
+TD138  ...
+TD429 1> ␅
+TD14483946 ␆*
+TD100 1> *
+TD325350 ? ␅
+TD455530 ␄
+TD132 <EOF>
+TD122 1> ␅
+TD1307839 ␆* -bot 10
+TD104 1> * -bot 10
+TD150740 ? ␅
+TD1140838 ␆1
+TD91 ? 1
+TD237 📋 "arles" ? ␅
+TD4365351 ␆nnnnM
+TD86 📋 "arles" ? nnnnM
+TD592 tried: ARLES n n n n m
+TD228 2> ␅
+TD1930070 ␆undo
+TD153 2> undo
+TD270 undo
+TD278 1> ␅
+TD5362525 ␆* :v [arles] -bot 10
+TD56 1> * :v [arles] -bot 10
+TD138610 ? ␅
+TD2662278 ␆3
+TD190 ? 3
+TD321 📋 "joint" ? ␅
+TD4374673 ␆nnYYn
+TD91 📋 "joint" ? nnYYn
+TD229 tried: JOINT n n Y Y n
+TD224 2> ␅
+TD903303 ␆undo
+TD147 2> undo
+TD185 undo
+TD195 1> ␅
+TD2694454 ␆*
+TD297 1> *
+TD114107 ? ␅
+TD107313 ␆1
+TD106 ? 1
+TD311 📋 "llama" ? ␅
+TD4024455 ␆nnnnn
+TD148 📋 "llama" ? nnnnn
+TD337 tried: LLAMA n n n n n
+TD292 2> ␅
+TD396307 ␆*
+TD72 2> *
+TD108092 ? ␅
+TD71289 ␆1
+TD93 ? 1
+TD217 📋 "edged" ? ␅
+TD4314885 ␆nnnnn
+TD187 📋 "edged" ? nnnnn
+TD354 tried: EDGED n n n n n
+TD359 3> ␅
+TD384710 ␆*
+TD197 3> *
+TD109876 ? ␅
+TD97973 ␆1
+TD119 ? 1
+TD243 📋 "hooch" ? ␅
+TD4076053 ␆Mnnnn
+TD101 📋 "hooch" ? Mnnnn
+TD224 tried: HOOCH m n n n n
+TD239 4> ␅
+TD1152321 ␆undo
+TD99 4> undo
+TD145 undo
+TD274 3> ␅
+TD5999486 ␆*
+TD76 3> *
+TD98861 ? ␅
+TD588317 ␆1
+TD98 ? 1
+TD250 📋 "butut" ? ␅
+TD4350048 ␆nnnnn
+TD100 📋 "butut" ? nnnnn
+TD137 tried: BUTUT n n n n n
+TD103 4> ␅
+TD425141 ␆*
+TD139 4> *
+TD107271 ? ␅
+TD104866 ␆1
+TD133 ? 1
+TD369 📋 "woozy" ? ␅
+TD7991937 ␆nnnnY
+TD90 📋 "woozy" ? nnnnY
+TD190 tried: WOOZY n n n n Y
+TD215 5> ␅
+TD1256052 ␆undo
+TD131 5> undo
+TD177 undo
+TD397 4> ␅
+TD814697 ␆*
+TD227 4> *
+TD112853 ? ␅
+TD1905694 ␆1
+TD97 ? 1
+TD280 📋 "crock" ? ␅
+TD6449051 ␆nnnnn
+TD93 📋 "crock" ? nnnnn
+TD189 tried: CROCK n n n n n
+TD240 5> ␅
+TD494930 ␆*
+TD52 5> *
+TD183163 ? ␅
+TD1053878 ␆1
+TD112 ? 1
+TD298 📋 "infix" ? ␅
+TD3787363 ␆MMnnn
+TD119 📋 "infix" ? MMnnn
+TD298 tried: INFIX m m n n n
+TD500 6> ␅
+TD411854 ␆*
+TD170 6> *
+TD224369 ? ␅
+TD1375367 ␆1
+TD117 ? 1
+TD447 📋 "jinns" ? ␅
+TD4787649 ␆nMnYM
+TD153 📋 "jinns" ? nMnYM
+TD388 tried: JINNS n m n Y m
+TD404 📋> ␅
+TD4122796 ␆Don't Wordle 1539 - SURVIVED
+TD102 📋> Don't Wordle 1539 - SURVIVED
+TD28 📋> ␅
+TD63 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD23 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD19 📋> ␅
+TD40 ␆⬜⬜⬜⬜⬜4962
+TD21 📋> ⬜⬜⬜⬜⬜4962
+TD18 📋> ␅
+TD36 ␆⬜⬜⬜⬜⬜1585
+TD20 📋> ⬜⬜⬜⬜⬜1585
+TD17 📋> ␅
+TD34 ␆⬜⬜⬜⬜⬜538
+TD19 📋> ⬜⬜⬜⬜⬜538
+TD18 📋> ␅
+TD34 ␆⬜⬜⬜⬜⬜62
+TD19 📋> ⬜⬜⬜⬜⬜62
+TD17 📋> ␅
+TD35 ␆🟨🟨⬜⬜⬜14
+TD19 📋> 🟨🟨⬜⬜⬜14
+TD17 📋> ␅
+TD35 ␆⬜🟨⬜🟩🟨2
+TD19 📋> ⬜🟨⬜🟩🟨2
+TD18 📋> ␅
+TD34 ␆Undos used: 4
+TD19 📋> Undos used: 4
+TD33 📋> ␅
+TD38 ␆
+TD20 📋> 
+TD17 📋> ␅
+TD34 ␆  2 words remaining
+TD19 📋>   2 words remaining
+TD18 📋> ␅
+TD34 ␆x 7 unused letters
+TD19 📋> x 7 unused letters
+TD17 📋> ␅
+TD33 ␆= 14 total score
+TD18 📋> = 14 total score
+TD17 📋> ␅
+TD33 ␆
+TD19 📋> 
+TD17 📋> ␅
+TD235829 ␆https://dontwordle.com
+TD126 📋> https://dontwordle.com
+TD34 📋> ␅
+TD132253 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1539 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4962\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1585\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c538\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c62\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c14\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe82\nUndos used: 4\n\n  2 words remaining\nx 7 unused letters\n= 14 total score\n\nhttps://dontwordle.com"}
+TD2816 result: "Don't Wordle 1539 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4962\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1585\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c538\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c62\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\u2b1c14\n\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe82\nUndos used: 4\n\n  2 words remaining\nx 7 unused letters\n= 14 total score\n\nhttps://dontwordle.com"
+TD201 📆 2026-08-10 ? ␅
+TD153900 ␆
+TD101 📆 2026-08-10 ? 
