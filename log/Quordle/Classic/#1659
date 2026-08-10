@@ -1,0 +1,198 @@
+T56739.06965443501 now: 2026-08-10T13:33:41EDT
+TD228 site: https://www.merriam-webster.com/games/quordle/#/
+TD38 wordlist: nwl2023.txt
+TD13 num_words: 4
+TD187  ...␅
+TD366796 ␆
+TD99  ...
+TD419770 > ␅
+TD54 ␆
+TD3 > 
+TD62 > ␅
+TD1034611 ␆
+TD126 > 
+TD1129 > ␅
+TD1269045 ␆*
+TD178 > *
+TD56396 ? ␅
+TD10564270 ␆1
+TD122 ? 1
+TD338 questioning: aloes
+TD276 Classic #1 _____? ␅
+TD3867899 ␆MMnYn
+TD81 Classic #1 _____? MMnYn
+TD290 attempt: 0 ALOES m m n Y n
+TD110 Classic #2 _____? ␅
+TD29971928 ␆nnnnM
+TD110 Classic #2 _____? nnnnM
+TD260 attempt: 1 ALOES n n n n m
+TD127 Classic #3 _____? ␅
+TD2054954 ␆nnnYM
+TD113 Classic #3 _____? nnnYM
+TD348 attempt: 2 ALOES n n n Y m
+TD172 Classic #4 _____? ␅
+TD2164738 ␆nnMMY
+TD117 Classic #4 _____? nnMMY
+TD254 attempt: 3 ALOES n n m m Y
+TD438604 > ␅
+TD868820 ␆*
+TD82 > *
+TD2626 ? ␅
+TD5057598 ␆1
+TD127 ? 1
+TD230 questioning: nutsy
+TD259 Classic #1 ___E_ ~AL -OS? ␅
+TD3246177 ␆nnnnn
+TD82 Classic #1 ___E_ ~AL -OS? nnnnn
+TD225 attempt: 0 NUTSY n n n n n
+TD120 Classic #2 _____ ~S -AELO? ␅
+TD1393589 ␆nMnYn
+TD99 Classic #2 _____ ~S -AELO? nMnYn
+TD262 attempt: 1 NUTSY n m n Y n
+TD121 Classic #3 ___E_ ~S -ALO? ␅
+TD1299475 ␆nnnMn
+TD119 Classic #3 ___E_ ~S -ALO? nnnMn
+TD386 attempt: 2 NUTSY n n n m n
+TD177 Classic #4 ____S ~EO -AL? ␅
+TD1526379 ␆nnMMn
+TD104 Classic #4 ____S ~EO -AL? nnMMn
+TD299 attempt: 3 NUTSY n n m m n
+TD441768 > ␅
+TD5801162 ␆*
+TD86 > *
+TD476 ? ␅
+TD1079445 ␆1
+TD96 ? 1
+TD191 questioning: ethos
+TD197 Classic #1 ___E_ ~AL -NOSTUY? ␅
+TD3346908 ␆Mnnnn
+TD89 Classic #1 ___E_ ~AL -NOSTUY? Mnnnn
+TD269 attempt: 0 ETHOS m n n n n
+TD153 Classic #2 ___S_ ~U -AELNOTY? ␅
+TD1697636 ␆nnMnM
+TD163 Classic #2 ___S_ ~U -AELNOTY? nnMnM
+TD493 attempt: 1 ETHOS n n m n m
+TD260 Classic #3 ___E_ ~S -ALNOTUY? ␅
+TD2450849 ␆MnnnM
+TD164 Classic #3 ___E_ ~S -ALNOTUY? MnnnM
+TD592 attempt: 2 ETHOS m n n n m
+TD290 Classic #4 ____S ~EOT -ALNUY? ␅
+TD1240966 ␆YYYYY
+TD74 Classic #4 ____S ~EOT -ALNUY? YYYYY
+TD183 attempt: 3 ETHOS Y Y Y Y Y
+TD337105 > ␅
+TD727490 ␆*
+TD81 > *
+TD1064 ? ␅
+TD2275726 ␆1
+TD180 ? 1
+TD275 questioning: sired
+TD306 Classic #1 ___E_ ~AL -HNOSTUY? ␅
+TD2892159 ␆nnnYn
+TD99 Classic #1 ___E_ ~AL -HNOSTUY? nnnYn
+TD280 attempt: 0 SIRED n n n Y n
+TD163 Classic #2 ___S_ ~HU -AELNOTY? ␅
+TD2384611 ␆MnMnn
+TD53 Classic #2 ___S_ ~HU -AELNOTY? MnMnn
+TD153 attempt: 1 SIRED m n m n n
+TD87 Classic #3 ___E_ ~S -AHLNOTUY? ␅
+TD2485942 ␆YnnYY
+TD116 Classic #3 ___E_ ~S -AHLNOTUY? YnnYY
+TD342 attempt: 2 SIRED Y n n Y Y
+TD335717 > ␅
+TD791641 ␆*
+TD81 > *
+TD569 ? ␅
+TD1854860 ␄
+TD164 <EOF>
+TD321447 > ␅
+TD1074026 ␆* 1
+TD46 > * 1
+TD111241 ? ␅
+TD2383406 ␆1
+TD101 ? 1
+TD179 questioning: bagel
+TD200 Classic #1 ___E_ ~AL -DHINORSTUY? ␅
+TD3921633 ␆nYMYY
+TD100 Classic #1 ___E_ ~AL -DHINORSTUY? nYMYY
+TD264 attempt: 0 BAGEL n Y m Y Y
+TD153 Classic #2 ___S_ ~HRU -ADEILNOTY? ␅
+TD1042302 ␆nnnnn
+TD112 Classic #2 ___S_ ~HRU -ADEILNOTY? nnnnn
+TD307 attempt: 1 BAGEL n n n n n
+TD177 Classic #3 S__ED -AHILNORTUY? ␅
+TD1505328 ␆nnnYn
+TD81 Classic #3 S__ED -AHILNORTUY? nnnYn
+TD241 attempt: 2 BAGEL n n n Y n
+TD324186 > ␅
+TD1329543 ␆*
+TD82 > *
+TD363 questioning: gavel
+TD151 Classic #1 _A_EL ~G -BDHINORSTUY? ␅
+TD3789359 ␆YYYYY
+TD93 Classic #1 _A_EL ~G -BDHINORSTUY? YYYYY
+TD218 attempt: 0 GAVEL Y Y Y Y Y
+TD120 Classic #2 ___S_ ~HRU -ABDEGILNOTY? ␅
+TD1040338 ␆nnnnn
+TD92 Classic #2 ___S_ ~HRU -ABDEGILNOTY? nnnnn
+TD265 attempt: 1 GAVEL n n n n n
+TD128 Classic #3 S__ED -ABGHILNORTUY? ␅
+TD4654394 ␆nnnYn
+TD146 Classic #3 S__ED -ABGHILNORTUY? nnnYn
+TD373 attempt: 2 GAVEL n n n Y n
+TD220221 > ␅
+TD729768 ␆*
+TD91 > *
+TD376 questioning: crush
+TD163 Classic #2 ___S_ ~HRU -ABDEGILNOTVY? ␅
+TD3193780 ␆YYYYY
+TD97 Classic #2 ___S_ ~HRU -ABDEGILNOTVY? YYYYY
+TD243 attempt: 1 CRUSH Y Y Y Y Y
+TD124 Classic #3 S__ED -ABGHILNORTUVY? ␅
+TD1443816 ␆nnnMn
+TD113 Classic #3 S__ED -ABGHILNORTUVY? nnnMn
+TD303 attempt: 2 CRUSH n n n m n
+TD106365 > ␅
+TD528769 ␆*
+TD98 > *
+TD604 ? ␅
+TD23354159 ␄
+TD131 <EOF>
+TD104298 > ␅
+TD2292284 ␆tried kapow
+TD118 > tried kapow
+TD427 questioning: KAPOW
+TD238 Classic #3 S__ED -ABCGHILNORTUVY? ␅
+TD2102033 ␆nnMnn
+TD187 Classic #3 S__ED -ABCGHILNORTUVY? nnMnn
+TD424 attempt: 2 KAPOW n n m n n
+TD107660 > ␅
+TD757172 ␆*
+TD87 > *
+TD362 questioning: speed
+TD157 Classic #3 S__ED ~P -ABCGHIKLNORTUVWY? ␅
+TD3010939 ␆YYYYY
+TD129 Classic #3 S__ED ~P -ABCGHIKLNORTUVWY? YYYYY
+TD315 attempt: 2 SPEED Y Y Y Y Y
+TD161 📋> ␅
+TD7994287 ␆🙂 Daily Quordle 1659
+TD94 📋> 🙂 Daily Quordle 1659
+TD26 📋> ␅
+TD113 ␆6️⃣7️⃣
+TD30 📋> 6️⃣7️⃣
+TD143 📋> ␅
+TD121 ␆9️⃣3️⃣
+TD11 📋> 9️⃣3️⃣
+TD7 📋> ␅
+TD26 ␆m-w.com/games/quordle/
+TD8 📋> m-w.com/games/quordle/
+TD7 📋> ␅
+TD282650 ␆
+TD110 📋> 
+TD27 📋> ␅
+TD200289 ␄
+TD192 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1659\n6\ufe0f\u20e37\ufe0f\u20e3\n9\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD4448 result: "\ud83d\ude42 Daily Quordle 1659\n6\ufe0f\u20e37\ufe0f\u20e3\n9\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD166 📆 2026-08-10 ? ␅
+TD232173 ␆
+TD99 📆 2026-08-10 ? 
