@@ -1,0 +1,77 @@
+T131.2169739779929 now: 2026-08-11T07:42:25EDT
+TD209 site: alphaguess.com
+TD160239 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 9340bf0a3a0ca9c4224303fdf307409c5b55aa54
+TD78  ...␅
+TD745630 ␆
+TD122  ...
+TD225 [0 : 98147 : 196518] mac? ␅
+TD6415265 ␆
+TD108 [0 : 98147 : 196518] mac? 
+TD108 [0 : 98147 : 196518] mac? ␅
+TD2443714 ␆b
+TD227 [0 : 98147 : 196518] mac? b
+TD417 progress: -1 98147 mac
+TD339 [0 : 47378 : 98147] dis? ␅
+TD1439990 ␆a
+TD136 [0 : 47378 : 98147] dis? a
+TD132 progress: 1 47378 dis
+TD134 [47379 : 72662 : 98147] green? ␅
+TD1950526 ␆a
+TD56 [47379 : 72662 : 98147] green? a
+TD60 progress: 1 72662 green
+TD72 [72663 : 85397 : 98147] inocula? ␅
+TD1450722 ␆a
+TD151 [72663 : 85397 : 98147] inocula? a
+TD244 progress: 1 85397 inocula
+TD627 [85398 : 91772 : 98147] knight? ␅
+TD1552140 ␆b
+TD49 [85398 : 91772 : 98147] knight? b
+TD60 progress: -1 91772 knight
+TD149 [85398 : 88583 : 91772] jacal? ␅
+TD1411200 ␆a
+TD140 [85398 : 88583 : 91772] jacal? a
+TD167 progress: 1 88583 jacal
+TD1028 [88584 : 90178 : 91772] juvenilities? ␅
+TD1307728 ␆a
+TD158 [88584 : 90178 : 91772] juvenilities? a
+TD205 progress: 1 90178 juvenilities
+TD347 [90179 : 90938 : 91772] key? ␅
+TD2431710 ␆b
+TD113 [90179 : 90938 : 91772] key? b
+TD161 progress: -1 90938 key
+TD142 [90179 : 90552 : 90938] kay? ␅
+TD1484494 ␆a
+TD147 [90179 : 90552 : 90938] kay? a
+TD365 progress: 1 90552 kay
+TD271 [90553 : 90732 : 90938] ken? ␅
+TD2007545 ␆b
+TD137 [90553 : 90732 : 90938] ken? b
+TD152 progress: -1 90732 ken
+TD137 [90553 : 90639 : 90732] keen? ␅
+TD2893761 ␆it
+TD95 [90553 : 90639 : 90732] keen? it
+TD109 progress: 0 90639 keen
+TD35 [90553 : 90639 : 90732] <Done>.
+TD100 📋> ␅
+TD3216953 ␆🧩 Puzzle #1114
+TD102 📋> 🧩 Puzzle #1114
+TD17 📋> ␅
+TD49 ␆🤔 11 guesses
+TD9 📋> 🤔 11 guesses
+TD8 📋> ␅
+TD18 ␆⏱️ 16s
+TD9 📋> ⏱️ 16s
+TD7 📋> ␅
+TD252700 ␆🔗 alphaguess.com/1114
+TD128 📋> 🔗 alphaguess.com/1114
+TD21 📋> ␅
+TD114321 ␄
+TD347 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1114\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1114"}
+TD166 result: "\ud83e\udde9 Puzzle #1114\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1114"
+TD29 result puzzle: 1114
+TD16 result guesses: 11
+TD13 result time: 16s
+TD11 result link: alphaguess.com/1114
+TD140 📆 2026-08-11 ? ␅
+TD152664 ␆
+TD133 📆 2026-08-11 ? 
