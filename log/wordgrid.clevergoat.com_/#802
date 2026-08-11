@@ -1,0 +1,190 @@
+T2048.9706038199947 now: 2026-08-11T08:14:23EDT
+TD188 site: https://wordgrid.clevergoat.com/
+TD34 wordlist: nwl2023.txt
+TD95 > ␅
+TD7086393 ␆col 1 ~^A
+TD158 > col 1 ~^A
+TD1053 rule col: 1 ~^A
+TD186 > ␅
+TD5202123 ␆col 2 +O
+TD288 > col 2 +O
+TD760 rule col: 2 +O
+TD112 > ␅
+TD2917122 ␆col 3 ~US
+TD118 > col 3 ~US
+TD444 rule col: 3 ~US
+TD203 > ␅
+TD5152522 ␆row 1 #1-6
+TD115 > row 1 #1-6
+TD752 rule row: 1 #1-6
+TD221 > ␅
+TD1546848 ␆row 2
+TD67 > row 2
+TD199 > ␅
+TD2862164 ␆row 2 ~PH
+TD101 > row 2 ~PH
+TD339 rule row: 2 ~PH
+TD118 > ␅
+TD4142527 ␆row 3 ![EGI]
+TD115 > row 3 ![EGI]
+TD833 rule row: 3 ![EGI]
+TD192 > ␅
+TD632202 ␆*
+TD175 > *
+TD266224 ? ␅
+TD4410386 ␆6
+TD119 ? 6
+TD185 questioning: 0 arsino
+TD68 🌡️ arsino 📋 ? ␅
+TD2915999 ␆0
+TD143 🌡️ arsino 📋 ? 0
+TD594 word: 0 arsino 0.0
+TD57 questioning: -1 
+TD187 > ␅
+TD895217 ␆*
+TD125 > *
+TD439636 ? ␅
+TD2420568 ␆4
+TD117 ? 4
+TD195 questioning: 1 oboles
+TD77 🌡️ oboles 📋 ? ␅
+TD3243652 ␆.03
+TD68 🌡️ oboles 📋 ? .03
+TD76 word: 1 oboles 0.03
+TD23 questioning: -1 
+TD85 > ␅
+TD520015 ␆*
+TD144 > *
+TD240338 ? ␅
+TD8728498 ␄
+TD128 <EOF>
+TD198 > ␅
+TD574599 ␆*
+TD144 > *
+TD234325 ? ␅
+TD5380247 ␆9
+TD101 ? 9
+TD172 questioning: 2 coleus
+TD61 🌡️ coleus 📋 ? ␅
+TD3359237 ␆.03
+TD156 🌡️ coleus 📋 ? .03
+TD208 word: 2 coleus 0.03
+TD59 questioning: -1 
+TD254 > ␅
+TD537956 ␆*
+TD104 > *
+TD233492 ? ␅
+TD3259692 ␆6
+TD108 ? 6
+TD160 questioning: 3 amphigory
+TD64 🌡️ amphigory 📋 ? ␅
+TD3276971 ␆.04
+TD157 🌡️ amphigory 📋 ? .04
+TD149 word: 3 amphigory 0.04
+TD48 questioning: -1 
+TD230 > ␅
+TD451065 ␆*
+TD179 > *
+TD455215 ? ␅
+TD9592992 ␆4
+TD166 ? 4
+TD234 questioning: 4 anglophobic
+TD88 🌡️ anglophobic 📋 ? ␅
+TD3193953 ␆0
+TD107 🌡️ anglophobic 📋 ? 0
+TD118 word: 4 anglophobic 0.0
+TD33 questioning: -1 
+TD152 > ␅
+TD968700 ␆*
+TD134 > *
+TD239344 ? ␅
+TD2403106 ␆2
+TD101 ? 2
+TD144 questioning: 5 bicephalous
+TD49 🌡️ bicephalous 📋 ? ␅
+TD3575077 ␆.11
+TD120 🌡️ bicephalous 📋 ? .11
+TD138 word: 5 bicephalous 0.11
+TD40 questioning: -1 
+TD203 > ␅
+TD1686701 ␆* 3 2
+TD159 > * 3 2
+TD240301 ? ␅
+TD2593766 ␆4
+TD193 ? 4
+TD300 questioning: 5 coryphaeus
+TD126 🌡️ coryphaeus 📋 ? ␅
+TD3548447 ␆.09
+TD121 🌡️ coryphaeus 📋 ? .09
+TD119 word: 5 coryphaeus 0.09
+TD38 questioning: -1 
+TD184 > ␅
+TD509661 ␆*
+TD99 > *
+TD236865 ? ␅
+TD4031597 ␆7
+TD54 ? 7
+TD87 questioning: 6 acyls
+TD29 🌡️ acyls 📋 ? ␅
+TD2597130 ␆0
+TD114 🌡️ acyls 📋 ? 0
+TD84 word: 6 acyls 0.0
+TD22 questioning: -1 
+TD111 > ␅
+TD484522 ␆*
+TD97 > *
+TD457930 ? ␅
+TD3456125 ␆4
+TD58 ? 4
+TD78 questioning: 7 pronota
+TD25 🌡️ pronota 📋 ? ␅
+TD3395543 ␆0
+TD73 🌡️ pronota 📋 ? 0
+TD62 word: 7 pronota 0.0
+TD11 questioning: -1 
+TD71 > ␅
+TD4685264 ␆*
+TD125 > *
+TD234110 ? ␅
+TD3998312 ␆6
+TD118 ? 6
+TD303 questioning: 8 talcous
+TD104 🌡️ talcous 📋 ? ␅
+TD6755954 ␆.04
+TD65 🌡️ talcous 📋 ? .04
+TD113 word: 8 talcous 0.04
+TD25 questioning: -1 
+TD62 > ␅
+TD4092855 ␆/res
+TD67 > /res
+TD176 📋> ␅
+TD1562357 ␆Word Grid #802
+TD48 📋> Word Grid #802
+TD5 📋> ␅
+TD26 ␆🦄🌌🌌
+TD2 📋> 🦄🌌🌌
+TD2 📋> ␅
+TD5 ␆🌌🦄🌌
+TD2 📋> 🌌🦄🌌
+TD2 📋> ␅
+TD5 ␆🦄🦄🌌
+TD2 📋> 🦄🦄🌌
+TD2 📋> ␅
+TD10 ␆Rarity: 0.22
+TD2 📋> Rarity: 0.22
+TD2 📋> ␅
+TD292765 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD72 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD5 📋> ␅
+TD163972 ␄
+TD131 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #802\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\nRarity: 0.22\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD626 result: "Word Grid #802\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\nRarity: 0.22\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD161 > ␅
+TD371887 ␆
+TD55 > 
+TD202 > ␅
+TD4041355 ␆/store
+TD160 > /store
+TD496 📆 2026-08-11 ? ␅
+TD5585288 ␆2026-08-12
+TD57 📆 2026-08-11 ? 2026-08-12
