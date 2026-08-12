@@ -1,0 +1,255 @@
+T414.7904605479998 now: 2026-08-12T07:57:18EDT
+TD122 site: squareword.org
+TD38 wordlist: nwl2023.txt
+TD54  ...␅
+TD640064 ␆
+TD117  ...
+TD99 🧩  ? ␅
+TD10573527 ␆#1654
+TD62 🧩  ? #1654
+TD164 puzzle_id: #1654
+TD223 > ␅
+TD1539660 ␆*
+TD120 > *
+TD256765 try? ␅
+TD993023 ␆1
+TD111 try? 1
+TD367 questioning: ["ideas", "#5"]
+TD473 #1 <IndexError>  📋 "ideas" ? ␅
+TD3557422 ␆___A_ ~ DE
+TD50 #1 <IndexError>  📋 "ideas" ? ___A_ ~ DE
+TD356 attempt 0 IDEAS n m m Y n
+TD90 #2 <IndexError>  📋 "ideas" ? ␅
+TD2733043 ␆_____ ~ EA
+TD76 #2 <IndexError>  📋 "ideas" ? _____ ~ EA
+TD238 attempt 1 IDEAS n n m m n
+TD103 #3 <IndexError>  📋 "ideas" ? ␅
+TD1789323 ␆_____ ~ E
+TD53 #3 <IndexError>  📋 "ideas" ? _____ ~ E
+TD133 attempt 2 IDEAS n n m n n
+TD61 #4 <IndexError>  📋 "ideas" ? ␅
+TD1577653 ␆_____ ~ E
+TD140 #4 <IndexError>  📋 "ideas" ? _____ ~ E
+TD435 attempt 3 IDEAS n n m n n
+TD201 #5 <IndexError>  📋 "ideas" ? ␅
+TD1763806 ␆_____ ~ ES
+TD53 #5 <IndexError>  📋 "ideas" ? _____ ~ ES
+TD128 attempt 4 IDEAS n n m n m
+TD178 ? ␅
+TD357606 ␆
+TD98 ? 
+TD174 question done
+TD495 > ␅
+TD483276 ␆*
+TD60 > *
+TD640677 try? ␅
+TD616196 ␄
+TD63 <EOF>
+TD169 > ␅
+TD3356686 ␆* 4
+TD66 > * 4
+TD10220 try? ␅
+TD1827301 ␆2
+TD99 try? 2
+TD345 questioning: ["other", "#4"]
+TD426 #1 ___A_ ~DE -IS  📋 "other" ? ␅
+TD4599048 ␆.
+TD67 #1 ___A_ ~DE -IS  📋 "other" ? .
+TD179 attempt 0 OTHER n n n m n
+TD72 #2 _____ ~AE -DIS  📋 "other" ? ␅
+TD7046818 ␆_____ ~ EAO
+TD91 #2 _____ ~AE -DIS  📋 "other" ? _____ ~ EAO
+TD312 attempt 1 OTHER m n n m n
+TD170 #3 _____ ~E -ADIS  📋 "other" ? ␅
+TD2410893 ␆_____ ~ EOTR
+TD86 #3 _____ ~E -ADIS  📋 "other" ? _____ ~ EOTR
+TD244 attempt 2 OTHER m m n m m
+TD139 #4 _____ ~E -ADIS  📋 "other" ? ␅
+TD2626470 ␆___ER
+TD67 #4 _____ ~E -ADIS  📋 "other" ? ___ER
+TD188 attempt 3 OTHER n n n Y Y
+TD116 #5 _____ ~ES -ADI  📋 "other" ? ␅
+TD890275 ␆.
+TD83 #5 _____ ~ES -ADI  📋 "other" ? .
+TD276 attempt 4 OTHER n n n m n
+TD403 ? ␅
+TD171256 ␆
+TD145 ? 
+TD167 question done
+TD583 > ␅
+TD394024 ␆*
+TD60 > *
+TD927262 try? ␅
+TD2649295 ␄
+TD143 <EOF>
+TD799 > ␅
+TD1846147 ␆* 5
+TD52 > * 5
+TD5631 try? ␅
+TD2767685 ␆4
+TD128 try? 4
+TD495 questioning: ["pulse", "#5"]
+TD502 #1 ___A_ ~DE -HIORST  📋 "pulse" ? ␅
+TD6906521 ␆___A_ ~ DEL
+TD49 #1 ___A_ ~DE -HIORST  📋 "pulse" ? ___A_ ~ DEL
+TD113 attempt 0 PULSE n n m n m
+TD68 #2 _____ ~AEO -DHIRST  📋 "pulse" ? ␅
+TD6388303 ␆____E ~ AOL
+TD47 #2 _____ ~AEO -DHIRST  📋 "pulse" ? ____E ~ AOL
+TD122 attempt 1 PULSE n n m n Y
+TD69 #3 _____ ~EORT -ADHIS  📋 "pulse" ? ␅
+TD3923656 ␆____E ~ OTR
+TD58 #3 _____ ~EORT -ADHIS  📋 "pulse" ? ____E ~ OTR
+TD159 attempt 2 PULSE n n n n Y
+TD98 #4 ___ER -ADHIOST  📋 "pulse" ? ␅
+TD6053539 ␆___ER ~ PU
+TD73 #4 ___ER -ADHIOST  📋 "pulse" ? ___ER ~ PU
+TD169 attempt 3 PULSE m m n n n
+TD119 #5 _____ ~ES -ADHIORT  📋 "pulse" ? ␅
+TD3984164 ␆___S_ ~ ES
+TD63 #5 _____ ~ES -ADHIORT  📋 "pulse" ? ___S_ ~ ES
+TD158 attempt 4 PULSE n n n Y m
+TD307 ? ␅
+TD247943 ␆
+TD59 ? 
+TD96 question done
+TD236 > ␅
+TD690824 ␆*
+TD59 > *
+TD792462 questioning: ["upper", "#4"]
+TD217 #1 ___A_ ~DEL -HIOPRSTU  📋 "upper" ? ␅
+TD4113017 ␆.
+TD52 #1 ___A_ ~DEL -HIOPRSTU  📋 "upper" ? .
+TD147 attempt 0 UPPER n n n m n
+TD53 #2 ____E ~ALO -DHIPRSTU  📋 "upper" ? ␅
+TD1528982 ␆.
+TD117 #2 ____E ~ALO -DHIPRSTU  📋 "upper" ? .
+TD352 attempt 1 UPPER n n n n n
+TD150 #3 ____E ~ORT -ADHILPSU  📋 "upper" ? ␅
+TD1316619 ␆.
+TD80 #3 ____E ~ORT -ADHILPSU  📋 "upper" ? .
+TD225 attempt 2 UPPER n n n n m
+TD114 #4 ___ER ~PU -ADEHILOST  📋 "upper" ? ␅
+TD701893 ␆/it
+TD118 #4 ___ER ~PU -ADEHILOST  📋 "upper" ? /it
+TD355 attempt 3 UPPER Y Y Y Y Y
+TD201 #5 ___S_ ~E -ADHILOPRTU  📋 "upper" ? ␅
+TD3782505 ␆___S_ ~ ES
+TD51 #5 ___S_ ~E -ADHILOPRTU  📋 "upper" ? ___S_ ~ ES
+TD125 attempt 4 UPPER n n n m n
+TD191 ? ␅
+TD240808 ␆
+TD103 ? 
+TD138 question done
+TD442 > ␅
+TD676027 ␆*
+TD69 > *
+TD432663 questioning: ["messy", "#5"]
+TD171 #1 ___A_ ~DEL -HIOPRSTU  📋 "messy" ? ␅
+TD5317068 ␆_E_A_ ~ DL
+TD75 #1 ___A_ ~DEL -HIOPRSTU  📋 "messy" ? _E_A_ ~ DL
+TD150 attempt 0 MESSY n Y n n n
+TD119 #2 ____E ~ALO -DEHIPRSTU  📋 "messy" ? ␅
+TD1364048 ␆.
+TD66 #2 ____E ~ALO -DEHIPRSTU  📋 "messy" ? .
+TD146 attempt 1 MESSY n n n n n
+TD57 #3 ____E ~ORT -ADEHILPSU  📋 "messy" ? ␅
+TD1325563 ␆.
+TD54 #3 ____E ~ORT -ADEHILPSU  📋 "messy" ? .
+TD171 attempt 2 MESSY n n n n n
+TD64 #5 ___S_ ~E -ADHILOPRTU  📋 "messy" ? ␅
+TD735495 ␆/it
+TD226 #5 ___S_ ~E -ADHILOPRTU  📋 "messy" ? /it
+TD666 attempt 4 MESSY Y Y Y Y Y
+TD936 ? ␅
+TD149277 ␆
+TD114 ? 
+TD155 question done
+TD454 > ␅
+TD611617 ␆*
+TD64 > *
+TD2178777 questioning: ["alone", "#2"]
+TD223 #1 _E_A_ ~DL -HIMOPRSTUY  📋 "alone" ? ␅
+TD3582994 ␆.
+TD63 #1 _E_A_ ~DL -HIMOPRSTUY  📋 "alone" ? .
+TD166 attempt 0 ALONE n m n n n
+TD78 #2 ____E ~ALO -DEHIMPRSTUY  📋 "alone" ? ␅
+TD607591 ␆/it
+TD125 #2 ____E ~ALO -DEHIMPRSTUY  📋 "alone" ? /it
+TD307 attempt 1 ALONE Y Y Y Y Y
+TD73 #3 ____E ~ORT -ADEHILMPSUY  📋 "alone" ? ␅
+TD1909838 ␆.
+TD43 #3 ____E ~ORT -ADEHILMPSUY  📋 "alone" ? .
+TD132 attempt 2 ALONE n n m n Y
+TD142 ? ␅
+TD169906 ␆
+TD145 ? 
+TD214 question done
+TD568 > ␅
+TD413976 ␆*
+TD45 > *
+TD1876791 questioning: ["torte", "#3"]
+TD201 #1 _E_A_ ~DL -AEHIMNOPRSTUY  📋 "torte" ? ␅
+TD4090571 ␆.
+TD82 #1 _E_A_ ~DL -AEHIMNOPRSTUY  📋 "torte" ? .
+TD195 attempt 0 TORTE n n n n n
+TD82 #3 ____E ~ORT -ADHILMNPSUY  📋 "torte" ? ␅
+TD695848 ␆/it
+TD108 #3 ____E ~ORT -ADHILMNPSUY  📋 "torte" ? /it
+TD283 attempt 2 TORTE Y Y Y Y Y
+TD560 ? ␅
+TD160592 ␆
+TD84 ? 
+TD91 question done
+TD323 > ␅
+TD488929 ␆*
+TD61 > *
+TD1286988 try? ␅
+TD4690585 ␆1
+TD105 try? 1
+TD359 questioning: ["decal", "#1"]
+TD314 #1 _E_A_ ~DL -AEHIMNOPRSTUY  📋 "decal" ? ␅
+TD2836146 ␆/it
+TD61 #1 _E_A_ ~DL -AEHIMNOPRSTUY  📋 "decal" ? /it
+TD137 attempt 0 DECAL Y Y Y Y Y
+TD149 ? ␅
+TD1293715 ␆
+TD75 ? 
+TD92 question done
+TD37202 📋> ␅
+TD4380365 ␆squareword.org 1654: 8 guesses
+TD71 📋> squareword.org 1654: 8 guesses
+TD19 📋> ␅
+TD74 ␆
+TD17 📋> 
+TD13 📋> ␅
+TD41 ␆🟨🟩🟨🟩🟨
+TD27 📋> 🟨🟩🟨🟩🟨
+TD13 📋> ␅
+TD37 ␆🟨🟨🟨🟨🟩
+TD15 📋> 🟨🟨🟨🟨🟩
+TD12 📋> ␅
+TD35 ␆🟨🟨🟨🟨🟩
+TD125 📋> 🟨🟨🟨🟨🟩
+TD25 📋> ␅
+TD65 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD11 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD13 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD209204 ␆#squareword #squareword1654
+TD63 📋> #squareword #squareword1654
+TD15 📋> ␅
+TD166207 ␄
+TD113 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1654: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1654"}
+TD1025 result: "squareword.org 1654: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1654"
+TD100 📆 2026-08-12 ? ␅
+TD218757 ␆
+TD64 📆 2026-08-12 ? 
