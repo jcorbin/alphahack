@@ -1,0 +1,240 @@
+T1146.0453562089824 now: 2026-08-13T08:30:45EDT
+TD207 site: squareword.org
+TD47 wordlist: nwl2023.txt
+TD66  ...␅
+TD1064412 ␆
+TD185  ...
+TD94 🧩  ? ␅
+TD7662170 ␆#1655
+TD174 🧩  ? #1655
+TD620 puzzle_id: #1655
+TD652 > ␅
+TD1273223 ␆*
+TD151 > *
+TD237385 try? ␅
+TD1071815 ␆1
+TD143 try? 1
+TD492 questioning: ["parse", "#5"]
+TD527 #1 <IndexError>  📋 "parse" ? ␅
+TD3954900 ␆_____ ~ S
+TD91 #1 <IndexError>  📋 "parse" ? _____ ~ S
+TD837 attempt 0 PARSE n n n m n
+TD122 #2 <IndexError>  📋 "parse" ? ␅
+TD1402130 ␆_A___ 
+TD80 #2 <IndexError>  📋 "parse" ? _A___ 
+TD248 attempt 1 PARSE n Y n n n
+TD114 #3 <IndexError>  📋 "parse" ? ␅
+TD2525190 ␆_____ ~ ARE
+TD145 #3 <IndexError>  📋 "parse" ? _____ ~ ARE
+TD374 attempt 2 PARSE n m m n m
+TD202 #4 <IndexError>  📋 "parse" ? ␅
+TD1917611 ␆_____ ~ RE
+TD143 #4 <IndexError>  📋 "parse" ? _____ ~ RE
+TD624 attempt 3 PARSE n n m n m
+TD257 #5 <IndexError>  📋 "parse" ? ␅
+TD2096595 ␆___SE ~ SE
+TD109 #5 <IndexError>  📋 "parse" ? ___SE ~ SE
+TD330 attempt 4 PARSE n n n Y Y
+TD612 ? ␅
+TD217009 ␆
+TD136 ? 
+TD243 question done
+TD698 > ␅
+TD528740 ␆*
+TD187 > *
+TD829780 try? ␅
+TD3452924 ␆2
+TD123 try? 2
+TD365 questioning: ["house", "#5"]
+TD458 #1 _____ ~S -AEPR  📋 "house" ? ␅
+TD10966076 ␆_____ ~ SO
+TD294 #1 _____ ~S -AEPR  📋 "house" ? _____ ~ SO
+TD445 attempt 0 HOUSE n m n m n
+TD286 #2 _A___ -EPRS  📋 "house" ? ␅
+TD2694857 ␆HA___ ~ O
+TD84 #2 _A___ -EPRS  📋 "house" ? HA___ ~ O
+TD264 attempt 1 HOUSE Y m n n n
+TD135 #3 _____ ~AER -PS  📋 "house" ? ␅
+TD1202786 ␆.
+TD159 #3 _____ ~AER -PS  📋 "house" ? .
+TD469 attempt 2 HOUSE n n n n m
+TD194 #4 _____ ~ER -APS  📋 "house" ? ␅
+TD860530 ␆.
+TD183 #4 _____ ~ER -APS  📋 "house" ? .
+TD606 attempt 3 HOUSE n n n n m
+TD206 #5 ___SE -APR  📋 "house" ? ␅
+TD3343659 ␆___SE ~ SE
+TD168 #5 ___SE -APR  📋 "house" ? ___SE ~ SE
+TD529 attempt 4 HOUSE n n n Y Y
+TD819 ? ␅
+TD321816 ␆
+TD113 ? 
+TD149 question done
+TD503 > ␅
+TD1050109 ␆* 4
+TD102 > * 4
+TD223330 try? ␅
+TD935168 ␆1
+TD168 try? 1
+TD446 questioning: ["bider", "#4"]
+TD645 #1 _____ ~OS -AEHPRU  📋 "bider" ? ␅
+TD3482767 ␆.
+TD233 #1 _____ ~OS -AEHPRU  📋 "bider" ? .
+TD356 attempt 0 BIDER n n n n n
+TD157 #2 HA___ ~O -EPRSU  📋 "bider" ? ␅
+TD2779754 ␆.
+TD195 #2 HA___ ~O -EPRSU  📋 "bider" ? .
+TD923 attempt 1 BIDER n n n n n
+TD337 #3 _____ ~AER -HOPSU  📋 "bider" ? ␅
+TD2260881 ␆__DER ~ AD
+TD135 #3 _____ ~AER -HOPSU  📋 "bider" ? __DER ~ AD
+TD316 attempt 2 BIDER n n Y Y Y
+TD171 #4 _____ ~ER -AHOPSU  📋 "bider" ? ␅
+TD2838372 ␆___E_ ~ RE
+TD64 #4 _____ ~ER -AHOPSU  📋 "bider" ? ___E_ ~ RE
+TD161 attempt 3 BIDER n n n Y m
+TD70 #5 ___SE -AHOPRU  📋 "bider" ? ␅
+TD2239184 ␆___SE ~ SE
+TD144 #5 ___SE -AHOPRU  📋 "bider" ? ___SE ~ SE
+TD410 attempt 4 BIDER n n n m n
+TD655 ? ␅
+TD235447 ␆
+TD122 ? 
+TD170 question done
+TD451 > ␅
+TD996823 ␆*
+TD103 > *
+TD751492 questioning: ["hallo", "#2"]
+TD163 #1 _____ ~OS -ABDEHIPRU  📋 "hallo" ? ␅
+TD3992662 ␆.
+TD125 #1 _____ ~OS -ABDEHIPRU  📋 "hallo" ? .
+TD401 attempt 0 HALLO n n n n m
+TD156 #2 HA___ ~O -BDEIPRSU  📋 "hallo" ? ␅
+TD627653 ␆/it
+TD127 #2 HA___ ~O -BDEIPRSU  📋 "hallo" ? /it
+TD339 attempt 1 HALLO Y Y Y Y Y
+TD131 #3 __DER ~A -BHIOPSU  📋 "hallo" ? ␅
+TD4967193 ␆__DER ~ AD
+TD111 #3 __DER ~A -BHIOPSU  📋 "hallo" ? __DER ~ AD
+TD318 attempt 2 HALLO n m n n n
+TD172 #4 ___E_ ~R -ABDHIOPSU  📋 "hallo" ? ␅
+TD3659319 ␆___E_ ~ RE
+TD72 #4 ___E_ ~R -ABDHIOPSU  📋 "hallo" ? ___E_ ~ RE
+TD174 attempt 3 HALLO n n n n n
+TD109 #5 ___SE -ABDHIOPRU  📋 "hallo" ? ␅
+TD2392158 ␆___SE ~ SE
+TD109 #5 ___SE -ABDHIOPRU  📋 "hallo" ? ___SE ~ SE
+TD323 attempt 4 HALLO n n n n n
+TD523 ? ␅
+TD384359 ␆
+TD219 ? 
+TD244 question done
+TD648 > ␅
+TD596637 ␆*
+TD107 > *
+TD749076 questioning: ["scoff", "#1"]
+TD195 #1 _____ ~OS -ABDEHILPRU  📋 "scoff" ? ␅
+TD2796411 ␆/it
+TD90 #1 _____ ~OS -ABDEHILPRU  📋 "scoff" ? /it
+TD289 attempt 0 SCOFF Y Y Y Y Y
+TD128 #3 __DER ~A -BHILOPSU  📋 "scoff" ? ␅
+TD3559979 ␆__DER ~ AD
+TD68 #3 __DER ~A -BHILOPSU  📋 "scoff" ? __DER ~ AD
+TD145 attempt 2 SCOFF n n n n n
+TD89 #4 ___E_ ~R -ABDHILOPSU  📋 "scoff" ? ␅
+TD2848769 ␆___E_ ~ RE
+TD187 #4 ___E_ ~R -ABDHILOPSU  📋 "scoff" ? ___E_ ~ RE
+TD498 attempt 3 SCOFF n n n n n
+TD286 #5 ___SE -ABDHILOPRU  📋 "scoff" ? ␅
+TD2191303 ␆S__SE ~ E
+TD140 #5 ___SE -ABDHILOPRU  📋 "scoff" ? S__SE ~ E
+TD438 attempt 4 SCOFF Y n n n n
+TD629 ? ␅
+TD225691 ␆
+TD117 ? 
+TD157 question done
+TD428 > ␅
+TD560335 ␆*
+TD162 > *
+TD2129541 questioning: ["adder", "#3"]
+TD175 #3 __DER ~A -BCFHILOPSU  📋 "adder" ? ␅
+TD2732813 ␆/it
+TD129 #3 __DER ~A -BCFHILOPSU  📋 "adder" ? /it
+TD290 attempt 2 ADDER Y Y Y Y Y
+TD127 #4 ___E_ ~R -ABCDFHILOPSU  📋 "adder" ? ␅
+TD3559900 ␆___E_ ~ RE
+TD225 #4 ___E_ ~R -ABCDFHILOPSU  📋 "adder" ? ___E_ ~ RE
+TD678 attempt 3 ADDER n n n Y m
+TD391 #5 S__SE -ABCDFHILOPRU  📋 "adder" ? ␅
+TD4062214 ␆S__SE ~ E
+TD136 #5 S__SE -ABCDFHILOPRU  📋 "adder" ? S__SE ~ E
+TD341 attempt 4 ADDER n n n m n
+TD723 ? ␅
+TD231021 ␆
+TD234 ? 
+TD348 question done
+TD1133 > ␅
+TD483576 ␆*
+TD87 > *
+TD1604610 questioning: ["greet", "#4"]
+TD216 #4 ___E_ ~R -ABCDFHILOPSU  📋 "greet" ? ␅
+TD2804432 ␆/it
+TD93 #4 ___E_ ~R -ABCDFHILOPSU  📋 "greet" ? /it
+TD273 attempt 3 GREET Y Y Y Y Y
+TD109 #5 S__SE -ABCDFHILOPRU  📋 "greet" ? ␅
+TD2606667 ␆S__SE ~ E
+TD50 #5 S__SE -ABCDFHILOPRU  📋 "greet" ? S__SE ~ E
+TD132 attempt 4 GREET n n m m n
+TD175 ? ␅
+TD247439 ␆
+TD102 ? 
+TD129 question done
+TD451 > ␅
+TD436693 ␆*
+TD125 > *
+TD1070854 questioning: ["sense", "#5"]
+TD180 #5 S__SE -ABCDFGHILOPRTU  📋 "sense" ? ␅
+TD3310831 ␆/it
+TD83 #5 S__SE -ABCDFGHILOPRTU  📋 "sense" ? /it
+TD257 attempt 4 SENSE Y Y Y Y Y
+TD407 ? ␅
+TD235810 ␆
+TD91 ? 
+TD114 question done
+TD31548 📋> ␅
+TD5183880 ␆squareword.org 1655: 8 guesses
+TD103 📋> squareword.org 1655: 8 guesses
+TD18 📋> ␅
+TD101 ␆
+TD11 📋> 
+TD9 📋> ␅
+TD33 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD31 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD33 ␆🟨🟨🟩🟩🟩
+TD7 📋> 🟨🟨🟩🟩🟩
+TD7 📋> ␅
+TD24 ␆🟨🟨🟨🟩🟨
+TD7 📋> 🟨🟨🟨🟩🟨
+TD7 📋> ␅
+TD31 ␆🟩🟨🟨🟩🟩
+TD8 📋> 🟩🟨🟨🟩🟩
+TD7 📋> ␅
+TD25 ␆
+TD8 📋> 
+TD7 📋> ␅
+TD24 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> ␅
+TD258525 ␆#squareword #squareword1655
+TD179 📋> #squareword #squareword1655
+TD51 📋> ␅
+TD172361 ␄
+TD340 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1655: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1655"}
+TD2610 result: "squareword.org 1655: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1655"
+TD186 📆 2026-08-13 ? ␅
+TD165213 ␆
+TD111 📆 2026-08-13 ? 
