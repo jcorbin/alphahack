@@ -1,0 +1,97 @@
+T57.101015180000104 now: 2026-08-13T08:12:36EDT
+TD177 site: alphaguess.com
+TD168234 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 00b54035bf37fc43820fd0e354f360a9b7bbe9c6
+TD78  ...␅
+TD20667 ␆
+TD56  ...
+TD84 [0 : 98147 : 196518] mac? ␅
+TD5386745 ␆a
+TD85 [0 : 98147 : 196518] mac? a
+TD88 progress: 1 98147 mac
+TD86 [98148 : 147311 : 196518] rho? ␅
+TD1508839 ␆b
+TD130 [98148 : 147311 : 196518] rho? b
+TD160 progress: -1 147311 rho
+TD168 [98148 : 122724 : 147311] parol? ␅
+TD1507739 ␆b
+TD123 [98148 : 122724 : 147311] parol? b
+TD161 progress: -1 122724 parol
+TD250 [98148 : 109929 : 122724] ne? ␅
+TD1568431 ␆b
+TD132 [98148 : 109929 : 122724] ne? b
+TD141 progress: -1 109929 ne
+TD163 [98148 : 104011 : 109929] minis? ␅
+TD2458217 ␆a
+TD182 [98148 : 104011 : 109929] minis? a
+TD427 progress: 1 104011 minis
+TD261 [104012 : 106934 : 109929] mora? ␅
+TD1428999 ␆a
+TD144 [104012 : 106934 : 109929] mora? a
+TD196 progress: 1 106934 mora
+TD186 [106935 : 108413 : 109929] mun? ␅
+TD1483826 ␆b
+TD210 [106935 : 108413 : 109929] mun? b
+TD114 progress: -1 108413 mun
+TD200 [106935 : 107674 : 108413] mu? ␅
+TD1503158 ␆b
+TD149 [106935 : 107674 : 108413] mu? b
+TD230 progress: -1 107674 mu
+TD198 [106935 : 107247 : 107674] mot? ␅
+TD1662148 ␆b
+TD136 [106935 : 107247 : 107674] mot? b
+TD147 progress: -1 107247 mot
+TD172 [106935 : 107078 : 107247] morpho? ␅
+TD1746240 ␆a
+TD126 [106935 : 107078 : 107247] morpho? a
+TD135 progress: 1 107078 morpho
+TD148 [107079 : 107116 : 107247] mort? ␅
+TD1452503 ␆a
+TD135 [107079 : 107116 : 107247] mort? a
+TD147 progress: 1 107116 mort
+TD148 [107117 : 107179 : 107247] mos? ␅
+TD1394934 ␆a
+TD182 [107117 : 107179 : 107247] mos? a
+TD242 progress: 1 107179 mos
+TD328 [107180 : 107207 : 107247] mosh? ␅
+TD1388900 ␆a
+TD102 [107180 : 107207 : 107247] mosh? a
+TD128 progress: 1 107207 mosh
+TD128 [107208 : 107224 : 107247] moss? ␅
+TD1509058 ␆a
+TD106 [107208 : 107224 : 107247] moss? a
+TD130 progress: 1 107224 moss
+TD427 [107225 : 107236 : 107247] mossinesses? ␅
+TD1439867 ␆
+TD106 [107225 : 107236 : 107247] mossinesses? 
+TD139 [107225 : 107236 : 107247] mossinesses? ␅
+TD726801 ␆a
+TD189 [107225 : 107236 : 107247] mossinesses? a
+TD217 progress: 1 107236 mossinesses
+TD344 [107237 : 107241 : 107247] most? ␅
+TD2865931 ␆it
+TD116 [107237 : 107241 : 107247] most? it
+TD172 progress: 0 107241 most
+TD58 [107237 : 107241 : 107247] <Done>.
+TD159 📋> ␅
+TD3198229 ␆🧩 Puzzle #1116
+TD98 📋> 🧩 Puzzle #1116
+TD32 📋> ␅
+TD71 ␆🤔 16 guesses
+TD28 📋> 🤔 16 guesses
+TD23 📋> ␅
+TD44 ␆⏱️ 24s
+TD25 📋> ⏱️ 24s
+TD22 📋> ␅
+TD454028 ␆🔗 alphaguess.com/1116
+TD110 📋> 🔗 alphaguess.com/1116
+TD26 📋> ␅
+TD190181 ␄
+TD94 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1116\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/1116"}
+TD58 result: "\ud83e\udde9 Puzzle #1116\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/1116"
+TD14 result puzzle: 1116
+TD8 result guesses: 16
+TD7 result time: 24s
+TD7 result link: alphaguess.com/1116
+TD55 📆 2026-08-13 ? ␅
+TD139368 ␆
+TD53 📆 2026-08-13 ? 
