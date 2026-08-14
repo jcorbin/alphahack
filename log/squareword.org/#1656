@@ -1,0 +1,248 @@
+T354.32898527401267 now: 2026-08-14T09:04:41EDT
+TD273 site: squareword.org
+TD56 wordlist: nwl2023.txt
+TD58  ...␅
+TD547044 ␆
+TD104  ...
+TD79 🧩  ? ␅
+TD8286875 ␆#1656
+TD202 🧩  ? #1656
+TD444 puzzle_id: #1656
+TD544 > ␅
+TD1536744 ␆*
+TD128 > *
+TD239773 try? ␅
+TD793804 ␆1
+TD121 try? 1
+TD415 questioning: ["nears", "#5"]
+TD477 #1 <IndexError>  📋 "nears" ? ␅
+TD6094014 ␆_____ ~ ARS
+TD116 #1 <IndexError>  📋 "nears" ? _____ ~ ARS
+TD1088 attempt 0 NEARS n n m m m
+TD159 #2 <IndexError>  📋 "nears" ? ␅
+TD1794314 ␆_____ ~ ER
+TD117 #2 <IndexError>  📋 "nears" ? _____ ~ ER
+TD335 attempt 1 NEARS n m n m n
+TD151 #3 <IndexError>  📋 "nears" ? ␅
+TD1818341 ␆_____ ~ EA
+TD201 #3 <IndexError>  📋 "nears" ? _____ ~ EA
+TD279 attempt 2 NEARS n m m n n
+TD141 #4 <IndexError>  📋 "nears" ? ␅
+TD1891824 ␆_____ ~ NE
+TD78 #4 <IndexError>  📋 "nears" ? _____ ~ NE
+TD193 attempt 3 NEARS m m n n n
+TD96 #5 <IndexError>  📋 "nears" ? ␅
+TD2348011 ␆_E__S ~ N
+TD135 #5 <IndexError>  📋 "nears" ? _E__S ~ N
+TD356 attempt 4 NEARS m Y n n Y
+TD640 ? ␅
+TD1103805 ␆
+TD197 ? 
+TD302 question done
+TD978 > ␅
+TD4820297 ␆* 2
+TD123 > * 2
+TD333095 try? ␅
+TD990638 ␆1
+TD128 try? 1
+TD379 questioning: ["tired", "#2"]
+TD492 #1 _____ ~ARS -EN  📋 "tired" ? ␅
+TD4083481 ␆__R__ ~ AS
+TD129 #1 _____ ~ARS -EN  📋 "tired" ? __R__ ~ AS
+TD339 attempt 0 TIRED n n Y n n
+TD184 #2 _____ ~ER -ANS  📋 "tired" ? ␅
+TD2917357 ␆_____ ~ ERID
+TD78 #2 _____ ~ER -ANS  📋 "tired" ? _____ ~ ERID
+TD152 attempt 1 TIRED n m m m m
+TD80 #3 _____ ~AE -NRS  📋 "tired" ? ␅
+TD2851419 ␆___E_ ~ A
+TD121 #3 _____ ~AE -NRS  📋 "tired" ? ___E_ ~ A
+TD385 attempt 2 TIRED n n n Y n
+TD219 #4 _____ ~EN -ARS  📋 "tired" ? ␅
+TD3348419 ␆_____ ~ NETI
+TD157 #4 _____ ~EN -ARS  📋 "tired" ? _____ ~ NETI
+TD340 attempt 3 TIRED m m n m n
+TD196 #5 _E__S ~N -AR  📋 "tired" ? ␅
+TD3793125 ␆TE__S_ ~ NT
+TD131 #5 _E__S ~N -AR  📋 "tired" ? TE__S_ ~ NT
+TD556 attempt 4 TIRED Y n n n n
+TD743 ? ␅
+TD486689 ␆
+TD136 ? 
+TD254 question done
+TD663 > ␅
+TD631334 ␆*
+TD101 > *
+TD888096 questioning: ["tents", "#5"]
+TD169 #1 __R__ ~AS -DEINT  📋 "tents" ? ␅
+TD3826638 ␆.
+TD116 #1 __R__ ~AS -DEINT  📋 "tents" ? .
+TD333 attempt 0 TENTS n n n n m
+TD132 #2 _____ ~DEIR -ANST  📋 "tents" ? ␅
+TD1485854 ␆.
+TD116 #2 _____ ~DEIR -ANST  📋 "tents" ? .
+TD396 attempt 1 TENTS n m n n n
+TD150 #3 ___E_ ~A -DINRST  📋 "tents" ? ␅
+TD1328366 ␆.
+TD132 #3 ___E_ ~A -DINRST  📋 "tents" ? .
+TD407 attempt 2 TENTS n n n n n
+TD152 #4 _____ ~EINT -ADRS  📋 "tents" ? ␅
+TD1076570 ␆.
+TD156 #4 _____ ~EINT -ADRS  📋 "tents" ? .
+TD411 attempt 3 TENTS m m m m n
+TD197 #5 TE__S ~N -ADEIR  📋 "tents" ? ␅
+TD624082 ␆/it
+TD120 #5 TE__S ~N -ADEIR  📋 "tents" ? /it
+TD395 attempt 4 TENTS Y Y Y Y Y
+TD790 ? ␅
+TD146970 ␆
+TD140 ? 
+TD161 question done
+TD522 > ␅
+TD316151 ␆*
+TD96 > *
+TD424677 try? ␅
+TD2013340 ␄
+TD226 <EOF>
+TD1010 > ␅
+TD5026988 ␆* 1
+TD108 > * 1
+TD2985 try? ␅
+TD7884936 ␆6
+TD180 try? 6
+TD355 questioning: ["spray", "#1"]
+TD474 #1 __R__ ~AS -DEINT  📋 "spray" ? ␅
+TD4424768 ␆S_RA_
+TD170 #1 __R__ ~AS -DEINT  📋 "spray" ? S_RA_
+TD498 attempt 0 SPRAY Y n Y Y n
+TD314 #2 _____ ~DEIR -ANST  📋 "spray" ? ␅
+TD4443688 ␆_____ ~ ERIDP
+TD79 #2 _____ ~DEIR -ANST  📋 "spray" ? _____ ~ ERIDP
+TD150 attempt 1 SPRAY n m m n n
+TD76 #3 ___E_ ~A -DEINRST  📋 "spray" ? ␅
+TD3445983 ␆___E_ ~ AP
+TD137 #3 ___E_ ~A -DEINRST  📋 "spray" ? ___E_ ~ AP
+TD380 attempt 2 SPRAY n m n m n
+TD209 #4 _____ ~EINT -ADRS  📋 "spray" ? ␅
+TD3052808 ␆_____ ~ NETIP
+TD114 #4 _____ ~EINT -ADRS  📋 "spray" ? _____ ~ NETIP
+TD429 attempt 3 SPRAY n m n n n
+TD537 ? ␅
+TD197565 ␆
+TD135 ? 
+TD180 question done
+TD500 > ␅
+TD463847 ␆*
+TD99 > *
+TD641196 questioning: ["pride", "#2"]
+TD158 #1 S_RA_ -DEINPTY  📋 "pride" ? ␅
+TD3558581 ␆.
+TD64 #1 S_RA_ -DEINPTY  📋 "pride" ? .
+TD132 attempt 0 PRIDE n n n n n
+TD46 #2 _____ ~DEIPR -ANSTY  📋 "pride" ? ␅
+TD896587 ␆/it
+TD130 #2 _____ ~DEIPR -ANSTY  📋 "pride" ? /it
+TD451 attempt 1 PRIDE Y Y Y Y Y
+TD182 #3 ___E_ ~AP -DEINRSTY  📋 "pride" ? ␅
+TD3475603 ␆.
+TD110 #3 ___E_ ~AP -DEINRSTY  📋 "pride" ? .
+TD338 attempt 2 PRIDE m n n n n
+TD128 #4 _____ ~EINPT -ADRSY  📋 "pride" ? ␅
+TD874311 ␆.
+TD123 #4 _____ ~EINPT -ADRSY  📋 "pride" ? .
+TD391 attempt 3 PRIDE m n m n m
+TD620 ? ␅
+TD151946 ␆
+TD212 ? 
+TD151 question done
+TD419 > ␅
+TD432847 ␆*
+TD96 > *
+TD1873258 questioning: ["lapel", "#3"]
+TD191 #1 S_RA_ -DEINPRTY  📋 "lapel" ? ␅
+TD17638150 ␆.
+TD59 #1 S_RA_ -DEINPRTY  📋 "lapel" ? .
+TD144 attempt 0 LAPEL n n n n n
+TD54 #3 ___E_ ~AP -DEINRSTY  📋 "lapel" ? ␅
+TD2306747 ␆/it
+TD66 #3 ___E_ ~AP -DEINRSTY  📋 "lapel" ? /it
+TD153 attempt 2 LAPEL Y Y Y Y Y
+TD69 #4 _____ ~EINPT -ADRSY  📋 "lapel" ? ␅
+TD17315556 ␆.
+TD186 #4 _____ ~EINPT -ADRSY  📋 "lapel" ? .
+TD566 attempt 3 LAPEL n n m m n
+TD858 ? ␅
+TD714625 ␆
+TD162 ? 
+TD360 question done
+TD772 > ␅
+TD1422477 ␆*
+TD119 > *
+TD1691859 questioning: ["inept", "#4"]
+TD241 #1 S_RA_ -ADEILNPRTY  📋 "inept" ? ␅
+TD4058138 ␆.
+TD89 #1 S_RA_ -ADEILNPRTY  📋 "inept" ? .
+TD323 attempt 0 INEPT n n n n n
+TD129 #4 _____ ~EINPT -ADLRSY  📋 "inept" ? ␅
+TD817488 ␆/it
+TD79 #4 _____ ~EINPT -ADLRSY  📋 "inept" ? /it
+TD241 attempt 3 INEPT Y Y Y Y Y
+TD316 ? ␅
+TD189113 ␆
+TD160 ? 
+TD227 question done
+TD961 > ␅
+TD642052 ␆*
+TD196 > *
+TD1126760 try? ␅
+TD2047453 ␆2
+TD163 try? 2
+TD798 questioning: ["scram", "#1"]
+TD821 #1 S_RA_ -ADEILNPRTY  📋 "scram" ? ␅
+TD5458521 ␆/it
+TD123 #1 S_RA_ -ADEILNPRTY  📋 "scram" ? /it
+TD409 attempt 0 SCRAM Y Y Y Y Y
+TD625 ? ␅
+TD542615 ␆
+TD128 ? 
+TD146 question done
+TD37914 📋> ␅
+TD700136 ␄
+TD223 pasted: {"subject": "share result", "method": "read:must:stdin", "content": ""}
+TD189 📋> ␅
+TD3953746 ␆squareword.org 1656: 8 guesses
+TD120 📋> squareword.org 1656: 8 guesses
+TD16 📋> ␅
+TD84 ␆
+TD9 📋> 
+TD7 📋> ␅
+TD28 ␆🟩🟨🟩🟩🟨
+TD8 📋> 🟩🟨🟩🟩🟨
+TD7 📋> ␅
+TD23 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD23 ␆🟨🟨🟨🟩🟨
+TD7 📋> 🟨🟨🟨🟩🟨
+TD6 📋> ␅
+TD22 ␆🟨🟨🟨🟨🟨
+TD7 📋> 🟨🟨🟨🟨🟨
+TD6 📋> ␅
+TD23 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD21 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD23 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD204700 ␆#squareword #squareword1656
+TD86 📋> #squareword #squareword1656
+TD16 📋> ␅
+TD178516 ␄
+TD167 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1656: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1656"}
+TD1421 result: "squareword.org 1656: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1656"
+TD105 📆 2026-08-14 ? ␅
+TD167002 ␆
+TD78 📆 2026-08-14 ? 
