@@ -1,0 +1,143 @@
+T233.28118785499828 now: 2026-08-15T08:01:14EDT
+TD224 site: dontwordle.com
+TD43 wordlist: nwl2023.txt
+TD80  ...␅
+TD573671 ␆
+TD192  ...
+TD204 1> ␅
+TD20059504 ␆* -bot 10
+TD112 1> * -bot 10
+TD215494 ? ␅
+TD2658462 ␆10
+TD119 ? 10
+TD331 📋 "scare" ? ␅
+TD4459649 ␆nnnnM
+TD117 📋 "scare" ? nnnnM
+TD799 tried: SCARE n n n n m
+TD279 2> ␅
+TD986580 ␆undo
+TD138 2> undo
+TD189 undo
+TD192 1> ␅
+TD10136000 ␆* :v [scare] -bot 10
+TD117 1> * :v [scare] -bot 10
+TD136821 ? ␅
+TD4277043 ␆2
+TD121 ? 2
+TD279 📋 "unlit" ? ␅
+TD6573547 ␆nnMMn
+TD90 📋 "unlit" ? nnMMn
+TD206 tried: UNLIT n n m m n
+TD209 2> ␅
+TD1119262 ␆undo
+TD161 2> undo
+TD174 undo
+TD245 1> ␅
+TD7161639 ␆*
+TD79 1> *
+TD116750 ? ␅
+TD520463 ␆1
+TD111 ? 1
+TD299 📋 "nanna" ? ␅
+TD4496692 ␆nnnnn
+TD79 📋 "nanna" ? nnnnn
+TD185 tried: NANNA n n n n n
+TD152 2> ␅
+TD522893 ␆*
+TD135 2> *
+TD108508 ? ␅
+TD767174 ␆1
+TD185 ? 1
+TD352 📋 "stoss" ? ␅
+TD4230029 ␆nnnnn
+TD89 📋 "stoss" ? nnnnn
+TD194 tried: STOSS n n n n n
+TD195 3> ␅
+TD23715220 ␆sol
+TD146 3> sol
+TD230 3> ␅
+TD1552966 ␆*
+TD104 3> *
+TD102124 ? ␅
+TD981350 ␆1
+TD103 ? 1
+TD245 📋 "fuddy" ? ␅
+TD4111833 ␆nnnnn
+TD91 📋 "fuddy" ? nnnnn
+TD193 tried: FUDDY n n n n n
+TD237 4> ␅
+TD402891 ␆*
+TD100 4> *
+TD184413 📋 "grrrl" ? ␅
+TD5569277 ␆nnnnY
+TD111 📋 "grrrl" ? nnnnY
+TD240 tried: GRRRL n n n n Y
+TD321 5> ␅
+TD1883577 ␆*
+TD68 5> *
+TD183845 ? ␅
+TD1301878 ␆1
+TD86 ? 1
+TD218 📋 "chill" ? ␅
+TD4257334 ␆nnMnY
+TD105 📋 "chill" ? nnMnY
+TD252 tried: CHILL n n m n Y
+TD329 6> ␅
+TD397767 ␆*
+TD118 6> *
+TD194983 ? ␅
+TD2521206 ␆1
+TD201 ? 1
+TD394 📋 "libel" ? ␅
+TD4016897 ␄
+TD133 <EOF>
+TD202 6> ␅
+TD564896 ␆*
+TD114 6> *
+TD190537 ? ␅
+TD1595897 ␆5
+TD244 ? 5
+TD686 📋 "pixel" ? ␅
+TD5214037 ␆YYYYY
+TD60 📋 "pixel" ? YYYYY
+TD98 tried: PIXEL Y Y Y Y Y
+TD118 📋> ␅
+TD4628990 ␆Don't Wordle 1544 - WORDLED
+TD149 📋> Don't Wordle 1544 - WORDLED
+TD41 📋> ␅
+TD99 ␆I must admit that I Wordled!
+TD26 📋> I must admit that I Wordled!
+TD25 📋> ␅
+TD53 ␆⬜⬜⬜⬜⬜5978
+TD19 📋> ⬜⬜⬜⬜⬜5978
+TD18 📋> ␅
+TD40 ␆⬜⬜⬜⬜⬜1246
+TD20 📋> ⬜⬜⬜⬜⬜1246
+TD12 📋> ␅
+TD46 ␆⬜⬜⬜⬜⬜335
+TD12 📋> ⬜⬜⬜⬜⬜335
+TD11 📋> ␅
+TD28 ␆⬜⬜⬜⬜🟩21
+TD12 📋> ⬜⬜⬜⬜🟩21
+TD11 📋> ␅
+TD25 ␆⬜⬜🟨⬜🟩6
+TD11 📋> ⬜⬜🟨⬜🟩6
+TD11 📋> ␅
+TD24 ␆🟩🟩🟩🟩🟩0
+TD11 📋> 🟩🟩🟩🟩🟩0
+TD11 📋> ␅
+TD25 ␆Undos used: 2
+TD11 📋> Undos used: 2
+TD12 📋> ␅
+TD25 ␆
+TD11 📋> 
+TD12 📋> ␅
+TD213077 ␆https://dontwordle.com
+TD122 📋> https://dontwordle.com
+TD23 📋> ␅
+TD184952 ␄
+TD318 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1544 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5978\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1246\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c335\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe921\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe96\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 2\n\nhttps://dontwordle.com"}
+TD2954 result: "Don't Wordle 1544 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5978\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1246\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c335\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe921\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe96\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 2\n\nhttps://dontwordle.com"
+TD143 📆 2026-08-15 ? ␅
+TD628883 ␆
+TD164 📆 2026-08-15 ? 
