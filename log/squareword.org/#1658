@@ -1,0 +1,260 @@
+T1270.364262721967 now: 2026-08-16T08:31:01EDT
+TD127 site: squareword.org
+TD32 wordlist: nwl2023.txt
+TD50  ...␅
+TD519080 ␆
+TD276  ...
+TD100 🧩  ? ␅
+TD561382 ␆
+TD184 🧩  ? 
+TD456  ...␅
+TD758852 ␆
+TD92  ...
+TD81 🧩  ? ␅
+TD9576010 ␆#1658
+TD115 🧩  ? #1658
+TD362 puzzle_id: #1658
+TD617 > ␅
+TD1312316 ␆*
+TD131 > *
+TD249893 try? ␅
+TD733385 ␆1
+TD125 try? 1
+TD436 questioning: ["rales", "#5"]
+TD883 #1 <IndexError>  📋 "rales" ? ␅
+TD3625424 ␆____S ~ AS
+TD108 #1 <IndexError>  📋 "rales" ? ____S ~ AS
+TD1145 attempt 0 RALES n m n n Y
+TD166 #2 <IndexError>  📋 "rales" ? ␅
+TD2028353 ␆_____ ~ RA
+TD73 #2 <IndexError>  📋 "rales" ? _____ ~ RA
+TD176 attempt 1 RALES m m n n n
+TD108 #3 <IndexError>  📋 "rales" ? ␅
+TD1827173 ␆_____ ~ A
+TD115 #3 <IndexError>  📋 "rales" ? _____ ~ A
+TD305 attempt 2 RALES n m n n n
+TD162 #4 <IndexError>  📋 "rales" ? ␅
+TD1871088 ␆___E_ ~ RE
+TD130 #4 <IndexError>  📋 "rales" ? ___E_ ~ RE
+TD401 attempt 3 RALES m n n Y n
+TD193 #5 <IndexError>  📋 "rales" ? ␅
+TD1976330 ␆_____ ~ ES
+TD104 #5 <IndexError>  📋 "rales" ? _____ ~ ES
+TD338 attempt 4 RALES n n n m m
+TD670 ? ␅
+TD181505 ␆
+TD98 ? 
+TD298 question done
+TD423 > ␅
+TD432948 ␆*
+TD117 > *
+TD790175 try? ␅
+TD1097206 ␆1
+TD123 try? 1
+TD398 questioning: ["amort", "#2"]
+TD537 #1 ____S ~A -ELR  📋 "amort" ? ␅
+TD8738591 ␆____S ~ AST
+TD314 #1 ____S ~A -ELR  📋 "amort" ? ____S ~ AST
+TD986 attempt 0 AMORT m n n n m
+TD371 #2 _____ ~AR -ELS  📋 "amort" ? ␅
+TD2576651 ␆A___T ~ RO
+TD141 #2 _____ ~AR -ELS  📋 "amort" ? A___T ~ RO
+TD366 attempt 1 AMORT Y n m m Y
+TD210 #3 _____ ~A -ELRS  📋 "amort" ? ␅
+TD2826754 ␆_____ ~ AO
+TD85 #3 _____ ~A -ELRS  📋 "amort" ? _____ ~ AO
+TD253 attempt 2 AMORT m n m n n
+TD168 #4 ___E_ ~R -ALS  📋 "amort" ? ␅
+TD2830711 ␆___E_ ~ RET
+TD123 #4 ___E_ ~R -ALS  📋 "amort" ? ___E_ ~ RET
+TD340 attempt 3 AMORT n n n m m
+TD170 #5 _____ ~ES -ALR  📋 "amort" ? ␅
+TD2562228 ␆.
+TD109 #5 _____ ~ES -ALR  📋 "amort" ? .
+TD395 attempt 4 AMORT n n n n n
+TD443 ? ␅
+TD507302 ␆
+TD219 ? 
+TD262 question done
+TD1019 > ␅
+TD741104 ␆*
+TD136 > *
+TD765663 questioning: ["argot", "#2"]
+TD162 #1 ____S ~AT -ELMOR  📋 "argot" ? ␅
+TD6493728 ␆____S ~ AST
+TD47 #1 ____S ~AT -ELMOR  📋 "argot" ? ____S ~ AST
+TD105 attempt 0 ARGOT m n n n m
+TD64 #2 A___T ~OR -ELMS  📋 "argot" ? ␅
+TD604444 ␆/it
+TD113 #2 A___T ~OR -ELMS  📋 "argot" ? /it
+TD404 attempt 1 ARGOT Y Y Y Y Y
+TD171 #3 _____ ~AO -ELMRST  📋 "argot" ? ␅
+TD2981271 ␆_____ ~ AOG
+TD114 #3 _____ ~AO -ELMRST  📋 "argot" ? _____ ~ AOG
+TD386 attempt 2 ARGOT m n m m n
+TD220 #4 ___E_ ~RT -ALMOS  📋 "argot" ? ␅
+TD2887125 ␆___E_ ~ RET
+TD188 #4 ___E_ ~RT -ALMOS  📋 "argot" ? ___E_ ~ RET
+TD654 attempt 3 ARGOT n m n n m
+TD438 #5 _____ ~ES -ALMORT  📋 "argot" ? ␅
+TD1140359 ␆
+TD140 #5 _____ ~ES -ALMORT  📋 "argot" ? 
+TD435 #5 _____ ~ES -ALMORT  ? ␅
+TD1166729 ␆.
+TD152 #5 _____ ~ES -ALMORT  ? .
+TD523 attempt 4 ARGOT n n n n n
+TD580 ? ␅
+TD124696 ␆
+TD130 ? 
+TD163 question done
+TD659 > ␅
+TD664812 ␆*
+TD140 > *
+TD768154 try? ␅
+TD6443847 ␄
+TD170 <EOF>
+TD643 > ␅
+TD921461 ␆* 5
+TD55 > * 5
+TD1717 try? ␅
+TD14265295 ␆4
+TD161 try? 4
+TD561 questioning: ["sneck", "#5"]
+TD905 #1 ____S ~AT -EGLMOR  📋 "sneck" ? ␅
+TD4461844 ␆S___S ~ AT
+TD82 #1 ____S ~AT -EGLMOR  📋 "sneck" ? S___S ~ AT
+TD297 attempt 0 SNECK Y n n n n
+TD211 #3 _____ ~AGO -ELMRST  📋 "sneck" ? ␅
+TD3367053 ␆_____ ~ AOGN
+TD147 #3 _____ ~AGO -ELMRST  📋 "sneck" ? _____ ~ AOGN
+TD396 attempt 2 SNECK n m n n n
+TD234 #4 ___E_ ~RT -AGLMOS  📋 "sneck" ? ␅
+TD2483046 ␆_N_E_ ~ RET
+TD96 #4 ___E_ ~RT -AGLMOS  📋 "sneck" ? _N_E_ ~ RET
+TD298 attempt 3 SNECK n Y m n n
+TD184 #5 _____ ~ES -AGLMORT  📋 "sneck" ? ␅
+TD1832456 ␆S_E__ ~ E
+TD103 #5 _____ ~ES -AGLMORT  📋 "sneck" ? S_E__ ~ E
+TD336 attempt 4 SNECK Y n Y n n
+TD588 ? ␅
+TD171042 ␆
+TD91 ? 
+TD170 question done
+TD508 > ␅
+TD467447 ␆*
+TD103 > *
+TD1670260 questioning: ["guano", "#3"]
+TD170 #1 S___S ~AT -CEGKLMNOR  📋 "guano" ? ␅
+TD4785200 ␆S_A_S ~ T
+TD229 #1 S___S ~AT -CEGKLMNOR  📋 "guano" ? S_A_S ~ T
+TD492 attempt 0 GUANO n n Y n n
+TD252 #3 _____ ~AGNO -CEKLMRST  📋 "guano" ? ␅
+TD958477 ␆/it
+TD145 #3 _____ ~AGNO -CEKLMRST  📋 "guano" ? /it
+TD426 attempt 2 GUANO Y Y Y Y Y
+TD217 #4 _N_E_ ~RT -ACGKLMOS  📋 "guano" ? ␅
+TD4651330 ␆_N_E_ ~ RET
+TD76 #4 _N_E_ ~RT -ACGKLMOS  📋 "guano" ? _N_E_ ~ RET
+TD199 attempt 3 GUANO n n n n n
+TD117 #5 S_E__ -ACGKLMNORT  📋 "guano" ? ␅
+TD2422495 ␆S_E__ ~ E
+TD56 #5 S_E__ -ACGKLMNORT  📋 "guano" ? S_E__ ~ E
+TD147 attempt 4 GUANO n n n n n
+TD255 ? ␅
+TD131963 ␆
+TD59 ? 
+TD81 question done
+TD259 > ␅
+TD354768 ␆*
+TD207 > *
+TD2299778 questioning: ["enter", "#4"]
+TD176 #1 S_A_S ~T -CEGKLMNORU  📋 "enter" ? ␅
+TD3921309 ␆.
+TD114 #1 S_A_S ~T -CEGKLMNORU  📋 "enter" ? .
+TD419 attempt 0 ENTER n n m n n
+TD222 #4 _N_E_ ~RT -ACGKLMNOSU  📋 "enter" ? ␅
+TD844460 ␆/it
+TD111 #4 _N_E_ ~RT -ACGKLMNOSU  📋 "enter" ? /it
+TD313 attempt 3 ENTER Y Y Y Y Y
+TD173 #5 S_E__ -ACGKLMNORTU  📋 "enter" ? ␅
+TD242945 ␆
+TD99 #5 S_E__ -ACGKLMNORTU  📋 "enter" ? 
+TD373 #5 S_E__ -ACGKLMNORTU  ? ␅
+TD3760870 ␆S_E__ ~ E
+TD102 #5 S_E__ -ACGKLMNORTU  ? S_E__ ~ E
+TD300 attempt 4 ENTER m n n m n
+TD618 ? ␅
+TD621096 ␆
+TD76 ? 
+TD94 question done
+TD332 > ␅
+TD771412 ␆*
+TD121 > *
+TD1730944 questioning: ["seedy", "#5"]
+TD190 #1 S_A_S ~T -CEGKLMNORU  📋 "seedy" ? ␅
+TD5017973 ␆.
+TD53 #1 S_A_S ~T -CEGKLMNORU  📋 "seedy" ? .
+TD161 attempt 0 SEEDY Y n n n n
+TD67 #5 S_E__ -ACGKLMNORTU  📋 "seedy" ? ␅
+TD2373111 ␆/it
+TD106 #5 S_E__ -ACGKLMNORTU  📋 "seedy" ? /it
+TD286 attempt 4 SEEDY Y Y Y Y Y
+TD439 ? ␅
+TD273960 ␆
+TD124 ? 
+TD178 question done
+TD461 > ␅
+TD342271 ␆
+TD110 > 
+TD674 > ␅
+TD837027 ␆
+TD107 > 
+TD745 > ␅
+TD571323 ␆*
+TD61 > *
+TD1146024 questioning: ["spats", "#1"]
+TD234 #1 S_A_S ~T -CDEGKLMNORUY  📋 "spats" ? ␅
+TD2595406 ␆/it
+TD147 #1 S_A_S ~T -CDEGKLMNORUY  📋 "spats" ? /it
+TD528 attempt 0 SPATS Y Y Y Y Y
+TD833 ? ␅
+TD268213 ␆
+TD132 ? 
+TD159 question done
+TD43610 📋> ␅
+TD5369015 ␆squareword.org 1658: 8 guesses
+TD118 📋> squareword.org 1658: 8 guesses
+TD26 📋> ␅
+TD140 ␆
+TD16 📋> 
+TD13 📋> ␅
+TD47 ␆🟩🟨🟩🟨🟩
+TD10 📋> 🟩🟨🟩🟨🟩
+TD8 📋> ␅
+TD28 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD28 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD26 ␆🟨🟩🟨🟩🟨
+TD8 📋> 🟨🟩🟨🟩🟨
+TD7 📋> ␅
+TD26 ␆🟩🟨🟩🟨🟨
+TD8 📋> 🟩🟨🟩🟨🟨
+TD7 📋> ␅
+TD27 ␆
+TD9 📋> 
+TD7 📋> ␅
+TD26 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> ␅
+TD217834 ␆#squareword #squareword1658
+TD100 📋> #squareword #squareword1658
+TD19 📋> ␅
+TD107813 ␄
+TD251 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1658: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1658"}
+TD1694 result: "squareword.org 1658: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1658"
+TD127 📆 2026-08-16 ? ␅
+TD164309 ␆
+TD146 📆 2026-08-16 ? 
