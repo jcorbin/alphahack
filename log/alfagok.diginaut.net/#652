@@ -1,0 +1,103 @@
+T299.48578821099363 now: 2026-08-16T08:14:50EDT
+TD166 site: alfagok.diginaut.net
+TD408675 loaded 399496 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1356 words excluded) asof 180f9394d092d6c284c4602a9178cff23b1decb8
+TD127  ...␅
+TD23 ␆
+TD4  ...
+TD94 [0 : 199548 : 399496] lij? ␅
+TD953045 ␆
+TD53 [0 : 199548 : 399496] lij? 
+TD68 [0 : 199548 : 399496] lij? ␅
+TD297656 ␆
+TD156 [0 : 199548 : 399496] lij? 
+TD291 [0 : 199548 : 399496] lij? ␅
+TD9308894 ␆b
+TD100 [0 : 199548 : 399496] lij? b
+TD390 progress: -1 199548 lij
+TD138 [0 : 99692 : 199548] ex? ␅
+TD1885951 ␆b
+TD106 [0 : 99692 : 199548] ex? b
+TD134 progress: -1 99692 ex
+TD134 [0 : 49812 : 99692] boks? ␅
+TD1810605 ␆b
+TD113 [0 : 49812 : 99692] boks? b
+TD142 progress: -1 49812 boks
+TD150 [0 : 24883 : 49812] bad? ␅
+TD1614414 ␆a
+TD185 [0 : 24883 : 49812] bad? a
+TD192 progress: 1 24883 bad
+TD194 [24884 : 37329 : 49812] bescherm? ␅
+TD1472416 ␆a
+TD189 [24884 : 37329 : 49812] bescherm? a
+TD208 progress: 1 37329 bescherm
+TD222 [37330 : 43033 : 49812] bij? ␅
+TD1422312 ␆a
+TD202 [37330 : 43033 : 49812] bij? a
+TD224 progress: 1 43033 bij
+TD767 [43034 : 46421 : 49812] blief? ␅
+TD1723102 ␆b
+TD115 [43034 : 46421 : 49812] blief? b
+TD140 progress: -1 46421 blief
+TD144 [43034 : 44550 : 46421] binnen? ␅
+TD1865435 ␆b
+TD213 [43034 : 44550 : 46421] binnen? b
+TD553 progress: -1 44550 binnen
+TD362 [43034 : 43791 : 44550] bijplaats? ␅
+TD1419568 ␆a
+TD83 [43034 : 43791 : 44550] bijplaats? a
+TD76 progress: 1 43791 bijplaats
+TD235 [43792 : 44172 : 44550] bijvul? ␅
+TD1419340 ␆a
+TD116 [43792 : 44172 : 44550] bijvul? a
+TD163 progress: 1 44172 bijvul
+TD167 [44173 : 44333 : 44550] biljart? ␅
+TD3661663 ␆a
+TD77 [44173 : 44333 : 44550] biljart? a
+TD80 progress: 1 44333 biljart
+TD86 [44334 : 44440 : 44550] bim? ␅
+TD4613778 ␆!
+TD196 [44334 : 44440 : 44550] bim? !
+TD2095 [44334 : 44442 : 44549] bimbam? ␅
+TD2441281 ␆a
+TD118 [44334 : 44442 : 44549] bimbam? a
+TD141 progress: 1 44442 bimbam
+TD147 [44443 : 44455 : 44549] bind? ␅
+TD1498966 ␆a
+TD87 [44443 : 44455 : 44549] bind? a
+TD115 progress: 1 44455 bind
+TD295 [44456 : 44500 : 44549] bindsel? ␅
+TD3829431 ␆b
+TD132 [44456 : 44500 : 44549] bindsel? b
+TD158 progress: -1 44500 bindsel
+TD183 [44456 : 44472 : 44500] binding? ␅
+TD1773509 ␆b
+TD103 [44456 : 44472 : 44500] binding? b
+TD129 progress: -1 44472 binding
+TD294 [44456 : 44461 : 44472] binden? ␅
+TD1831125 ␆it
+TD139 [44456 : 44461 : 44472] binden? it
+TD181 progress: 0 44461 binden
+TD65 [44456 : 44461 : 44472] <Done>.
+TD189 📋> ␅
+TD3344569 ␆🧩 Puzzel #652
+TD125 📋> 🧩 Puzzel #652
+TD34 📋> ␅
+TD82 ␆🤔 16 gokken
+TD29 📋> 🤔 16 gokken
+TD26 📋> ␅
+TD51 ␆⏱️ 34s
+TD27 📋> ⏱️ 34s
+TD22 📋> ␅
+TD218788 ␆🔗 alfagok.diginaut.net
+TD85 📋> 🔗 alfagok.diginaut.net
+TD26 📋> ␅
+TD148350 ␄
+TD247 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #652\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1244 result: "\ud83e\udde9 Puzzel #652\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 34s\n\ud83d\udd17 alfagok.diginaut.net"
+TD47 result puzzle: 652
+TD28 result guesses: 16
+TD21 result time: 34s
+TD20 result link: alfagok.diginaut.net
+TD127 📆 2026-08-16 ? ␅
+TD179902 ␆
+TD107 📆 2026-08-16 ? 
