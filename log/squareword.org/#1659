@@ -1,0 +1,221 @@
+T409.560437979002 now: 2026-08-17T08:24:01EDT
+TD87 site: squareword.org
+TD33 wordlist: nwl2023.txt
+TD25  ...␅
+TD423098 ␆
+TD113  ...
+TD85 🧩  ? ␅
+TD8216463 ␆#1659
+TD97 🧩  ? #1659
+TD296 puzzle_id: #1659
+TD424 > ␅
+TD520383 ␆
+TD135 > 
+TD584 > ␅
+TD798737 ␆*
+TD59 > *
+TD239935 try? ␅
+TD606982 ␆1
+TD187 try? 1
+TD666 questioning: ["raise", "#5"]
+TD917 #1 <IndexError>  📋 "raise" ? ␅
+TD4225721 ␆_____ ~ S
+TD106 #1 <IndexError>  📋 "raise" ? _____ ~ S
+TD865 attempt 0 RAISE n n n m n
+TD135 #2 <IndexError>  📋 "raise" ? ␅
+TD1731946 ␆_____ ~ I
+TD246 #2 <IndexError>  📋 "raise" ? _____ ~ I
+TD682 attempt 1 RAISE n n m n n
+TD273 #3 <IndexError>  📋 "raise" ? ␅
+TD1808588 ␆_____ ~ RE
+TD170 #3 <IndexError>  📋 "raise" ? _____ ~ RE
+TD512 attempt 2 RAISE m n n n m
+TD247 #4 <IndexError>  📋 "raise" ? ␅
+TD2590212 ␆____E ~ IE
+TD141 #4 <IndexError>  📋 "raise" ? ____E ~ IE
+TD451 attempt 3 RAISE n n m n Y
+TD256 #5 <IndexError>  📋 "raise" ? ␅
+TD2442488 ␆____E ~ RSE
+TD96 #5 <IndexError>  📋 "raise" ? ____E ~ RSE
+TD313 attempt 4 RAISE m n n m Y
+TD708 ? ␅
+TD243705 ␆
+TD124 ? 
+TD197 question done
+TD565 > ␅
+TD436969 ␆*
+TD92 > *
+TD658418 try? ␅
+TD988266 ␆1
+TD71 try? 1
+TD155 questioning: ["score", "#5"]
+TD151 #1 _____ ~S -AEIR  📋 "score" ? ␅
+TD4241712 ␆S_O__ ~ S
+TD136 #1 _____ ~S -AEIR  📋 "score" ? S_O__ ~ S
+TD376 attempt 0 SCORE Y n Y n n
+TD209 #2 _____ ~I -AERS  📋 "score" ? ␅
+TD1501143 ␆.
+TD190 #2 _____ ~I -AERS  📋 "score" ? .
+TD450 attempt 1 SCORE n n n n n
+TD185 #3 _____ ~ER -AIS  📋 "score" ? ␅
+TD795325 ␆.
+TD139 #3 _____ ~ER -AIS  📋 "score" ? .
+TD415 attempt 2 SCORE n n n m m
+TD170 #4 ____E ~I -ARS  📋 "score" ? ␅
+TD2735331 ␆____E ~ IEC
+TD192 #4 ____E ~I -ARS  📋 "score" ? ____E ~ IEC
+TD769 attempt 3 SCORE n m n n Y
+TD441 #5 ____E ~RS -AI  📋 "score" ? ␅
+TD2732448 ␆SC__E ~ RE
+TD345 #5 ____E ~RS -AI  📋 "score" ? SC__E ~ RE
+TD361 attempt 4 SCORE Y Y n m Y
+TD485 ? ␅
+TD355011 ␆
+TD164 ? 
+TD165 question done
+TD414 > ␅
+TD492653 ␆*
+TD109 > *
+TD813230 questioning: ["scree", "#5"]
+TD218 #1 S_O__ -ACEIR  📋 "scree" ? ␅
+TD6503065 ␆S_O__ ~ S
+TD108 #1 S_O__ -ACEIR  📋 "scree" ? S_O__ ~ S
+TD288 attempt 0 SCREE Y n n n n
+TD178 #2 _____ ~I -ACEORS  📋 "scree" ? ␅
+TD1423244 ␆.
+TD162 #2 _____ ~I -ACEORS  📋 "scree" ? .
+TD526 attempt 1 SCREE n n n n n
+TD235 #3 _____ ~ER -ACIOS  📋 "scree" ? ␅
+TD2871356 ␆___E_ ~ R
+TD142 #3 _____ ~ER -ACIOS  📋 "scree" ? ___E_ ~ R
+TD438 attempt 2 SCREE n n m Y n
+TD314 #4 ____E ~CI -AORS  📋 "scree" ? ␅
+TD3593420 ␆____E ~ IEC
+TD146 #4 ____E ~CI -AORS  📋 "scree" ? ____E ~ IEC
+TD820 attempt 3 SCREE n m n m Y
+TD298 #5 SC__E ~R -AIO  📋 "scree" ? ␅
+TD604674 ␆/it
+TD84 #5 SC__E ~R -AIO  📋 "scree" ? /it
+TD251 attempt 4 SCREE Y Y Y Y Y
+TD331 ? ␅
+TD131579 ␆
+TD48 ? 
+TD54 question done
+TD153 > ␅
+TD425670 ␆*
+TD161 > *
+TD390518 try? ␅
+TD1760781 ␄
+TD88 <EOF>
+TD295 > ␅
+TD1153203 ␆* 2
+TD167 > * 2
+TD4355 try? ␅
+TD7861256 ␆10
+TD102 try? 10
+TD287 questioning: ["tulip", "#2"]
+TD490 #1 S_O__ -ACEIR  📋 "tulip" ? ␅
+TD6974537 ␆S_O__ ~ STP
+TD200 #1 S_O__ -ACEIR  📋 "tulip" ? S_O__ ~ STP
+TD416 attempt 0 TULIP m n n n m
+TD240 #2 _____ ~I -ACEORS  📋 "tulip" ? ␅
+TD677176 ␆/it
+TD96 #2 _____ ~I -ACEORS  📋 "tulip" ? /it
+TD273 attempt 1 TULIP Y Y Y Y Y
+TD104 #3 ___E_ ~R -ACIOS  📋 "tulip" ? ␅
+TD2987639 ␆___E_ ~ RU
+TD88 #3 ___E_ ~R -ACIOS  📋 "tulip" ? ___E_ ~ RU
+TD296 attempt 2 TULIP n m n n n
+TD192 #4 ____E ~CI -AORS  📋 "tulip" ? ␅
+TD3779630 ␆____E ~ IEC
+TD106 #4 ____E ~CI -AORS  📋 "tulip" ? ____E ~ IEC
+TD325 attempt 3 TULIP n n n m n
+TD592 ? ␅
+TD301491 ␆
+TD226 ? 
+TD277 question done
+TD988 > ␅
+TD534990 ␆*
+TD226 > *
+TD1034085 questioning: ["stops", "#1"]
+TD167 #1 S_O__ ~PT -ACEILRU  📋 "stops" ? ␅
+TD2451430 ␆/it
+TD123 #1 S_O__ ~PT -ACEILRU  📋 "stops" ? /it
+TD416 attempt 0 STOPS Y Y Y Y Y
+TD163 #3 ___E_ ~RU -ACILOPST  📋 "stops" ? ␅
+TD2503649 ␆.
+TD106 #3 ___E_ ~RU -ACILOPST  📋 "stops" ? .
+TD359 attempt 2 STOPS n n n n n
+TD385 #4 ____E ~CI -ALOPRSTU  📋 "stops" ? ␅
+TD2338447 ␆____E ~ IEC
+TD124 #4 ____E ~CI -ALOPRSTU  📋 "stops" ? ____E ~ IEC
+TD273 attempt 3 STOPS n n n n n
+TD449 ? ␅
+TD182692 ␆
+TD154 ? 
+TD209 question done
+TD703 > ␅
+TD370222 ␆*
+TD115 > *
+TD1118180 questioning: ["under", "#3"]
+TD167 #3 ___E_ ~RU -ACILOPST  📋 "under" ? ␅
+TD4345206 ␆/it
+TD122 #3 ___E_ ~RU -ACILOPST  📋 "under" ? /it
+TD301 attempt 2 UNDER Y Y Y Y Y
+TD123 #4 ____E ~CI -ALOPRSTU  📋 "under" ? ␅
+TD3401249 ␆____E ~ IECN
+TD100 #4 ____E ~CI -ALOPRSTU  📋 "under" ? ____E ~ IECN
+TD281 attempt 3 UNDER n m n m n
+TD523 ? ␅
+TD178433 ␆
+TD129 ? 
+TD167 question done
+TD480 > ␅
+TD393149 ␆*
+TD112 > *
+TD953563 questioning: ["niece", "#4"]
+TD173 #4 ____E ~CIN -ADLOPRSTU  📋 "niece" ? ␅
+TD2597705 ␆/it
+TD139 #4 ____E ~CIN -ADLOPRSTU  📋 "niece" ? /it
+TD382 attempt 3 NIECE Y Y Y Y Y
+TD700 ? ␅
+TD190666 ␆
+TD101 ? 
+TD102 question done
+TD37776 📋> ␅
+TD6302547 ␆squareword.org 1659: 7 guesses
+TD56 📋> squareword.org 1659: 7 guesses
+TD7 📋> ␅
+TD26 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟨🟨🟨🟩🟨
+TD2 📋> 🟨🟨🟨🟩🟨
+TD2 📋> ␅
+TD7 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD245425 ␆#squareword #squareword1659
+TD75 📋> #squareword #squareword1659
+TD12 📋> ␅
+TD145456 ␄
+TD274 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1659: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1659"}
+TD2517 result: "squareword.org 1659: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1659"
+TD123 📆 2026-08-17 ? ␅
+TD201689 ␆
+TD52 📆 2026-08-17 ? 
