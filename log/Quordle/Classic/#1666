@@ -1,0 +1,183 @@
+T2227.8532339649973 now: 2026-08-17T08:14:43EDT
+TD183 site: https://www.merriam-webster.com/games/quordle/#/
+TD48 wordlist: nwl2023.txt
+TD19 num_words: 4
+TD201  ...␅
+TD408973 ␆
+TD122  ...
+TD473377 > ␅
+TD8235702 ␆*
+TD94 > *
+TD56299 ? ␅
+TD522748 ␆1
+TD114 ? 1
+TD192 questioning: toeas
+TD226 Classic #1 _____? ␅
+TD5326384 ␆nnnnn
+TD102 Classic #1 _____? nnnnn
+TD509 attempt: 0 TOEAS n n n n n
+TD125 Classic #2 _____? ␅
+TD1250483 ␆nnMnn
+TD98 Classic #2 _____? nnMnn
+TD274 attempt: 1 TOEAS n n m n n
+TD122 Classic #3 _____? ␅
+TD1202510 ␆nnMnn
+TD141 Classic #3 _____? nnMnn
+TD428 attempt: 2 TOEAS n n m n n
+TD191 Classic #4 _____? ␅
+TD905363 ␆nnnnn
+TD178 Classic #4 _____? nnnnn
+TD406 attempt: 3 TOEAS n n n n n
+TD439628 > ␅
+TD426461 ␆*
+TD171 > *
+TD7758 ? ␅
+TD817425 ␆1
+TD104 ? 1
+TD201 questioning: riled
+TD209 Classic #1 _____ -AEOST? ␅
+TD5410683 ␆nMMnn
+TD87 Classic #1 _____ -AEOST? nMMnn
+TD230 attempt: 0 RILED n m m n n
+TD114 Classic #2 _____ ~E -AOST? ␅
+TD1445830 ␆MnnYM
+TD101 Classic #2 _____ ~E -AOST? MnnYM
+TD281 attempt: 1 RILED m n n Y m
+TD131 Classic #3 _____ ~E -AOST? ␅
+TD1943137 ␆MYnYn
+TD102 Classic #3 _____ ~E -AOST? MYnYn
+TD271 attempt: 2 RILED m Y n Y n
+TD146 Classic #4 _____ -AEOST? ␅
+TD1309210 ␆nYnnM
+TD57 Classic #4 _____ -AEOST? nYnnM
+TD143 attempt: 3 RILED n Y n n m
+TD478723 > ␅
+TD759246 ␆*
+TD85 > *
+TD1003 ? ␅
+TD1124758 ␆1
+TD99 ? 1
+TD184 questioning: finer
+TD221 Classic #1 _____ ~IL -ADEORST? ␅
+TD2292247 ␆nMnnn
+TD91 Classic #1 _____ ~IL -ADEORST? nMnnn
+TD240 attempt: 0 FINER n m n n n
+TD112 Classic #2 ___E_ ~DR -AILOST? ␅
+TD1325167 ␆nnnYY
+TD59 Classic #2 ___E_ ~DR -AILOST? nnnYY
+TD146 attempt: 1 FINER n n n Y Y
+TD78 Classic #3 _I_E_ ~R -ADLOST? ␅
+TD1198172 ␆nYYYY
+TD154 Classic #3 _I_E_ ~R -ADLOST? nYYYY
+TD228 attempt: 2 FINER n Y Y Y Y
+TD125 Classic #4 _I___ ~D -AELORST? ␅
+TD1381538 ␆nYnnn
+TD76 Classic #4 _I___ ~D -AELORST? nYnnn
+TD141 attempt: 3 FINER n Y n n n
+TD470371 > ␅
+TD3345855 ␆*
+TD53 > *
+TD283 ? ␅
+TD6348721 ␄
+TD199 <EOF>
+TD444257 > ␅
+TD849074 ␆* 1
+TD83 > * 1
+TD129682 ? ␅
+TD1282135 ␆1
+TD122 ? 1
+TD204 questioning: climb
+TD219 Classic #1 _____ ~IL -ADEFNORST? ␅
+TD2721268 ␆nYYYM
+TD90 Classic #1 _____ ~IL -ADEFNORST? nYYYM
+TD247 attempt: 0 CLIMB n Y Y Y m
+TD122 Classic #2 ___ER ~D -AFILNOST? ␅
+TD1278953 ␆nnnnn
+TD79 Classic #2 ___ER ~D -AFILNOST? nnnnn
+TD206 attempt: 1 CLIMB n n n n n
+TD115 Classic #3 _INER -ADFLOST? ␅
+TD1715713 ␆nnMMn
+TD104 Classic #3 _INER -ADFLOST? nnMMn
+TD302 attempt: 2 CLIMB n n m m n
+TD172 Classic #4 _I___ ~D -AEFLNORST? ␅
+TD1310340 ␆nnMnM
+TD117 Classic #4 _I___ ~D -AEFLNORST? nnMnM
+TD326 attempt: 3 CLIMB n n m n m
+TD444626 > ␅
+TD718787 ␆*
+TD134 > *
+TD519 questioning: miner
+TD211 Classic #1 _LIM_ ~B -ACDEFNORST? ␅
+TD3134435 ␆MMnnn
+TD123 Classic #1 _LIM_ ~B -ACDEFNORST? MMnnn
+TD389 attempt: 0 MINER m m n n n
+TD252 Classic #2 ___ER ~D -ABCFILMNOST? ␅
+TD1296298 ␆nnnYY
+TD125 Classic #2 ___ER ~D -ABCFILMNOST? nnnYY
+TD374 attempt: 1 MINER n n n Y Y
+TD226 Classic #3 _INER ~M -ABCDFLOST? ␅
+TD1300683 ␆YYYYYY
+TD164 Classic #3 _INER ~M -ABCDFLOST? YYYYYY
+TD489 attempt: 2 MINER Y Y Y Y Y
+TD277 Classic #4 _I___ ~BD -ACEFLMNORST? ␅
+TD1110319 ␆nYnnn
+TD105 Classic #4 _I___ ~BD -ACEFLMNORST? nYnnn
+TD291 attempt: 3 MINER n Y n n n
+TD321400 > ␅
+TD773987 ␆*
+TD96 > *
+TD672 questioning: biddy
+TD327 Classic #1 _LIM_ ~B -ACDEFNORST? ␅
+TD4222315 ␆YMnnn
+TD135 Classic #1 _LIM_ ~B -ACDEFNORST? YMnnn
+TD339 attempt: 0 BIDDY Y m n n n
+TD223 Classic #2 ___ER ~D -ABCFILMNOST? ␅
+TD1631798 ␆nnMnM
+TD115 Classic #2 ___ER ~D -ABCFILMNOST? nnMnM
+TD361 attempt: 1 BIDDY n n m n m
+TD223 Classic #4 _I___ ~BD -ACEFLMNORST? ␅
+TD1032979 ␆YYYYY
+TD75 Classic #4 _I___ ~BD -ACEFLMNORST? YYYYY
+TD132 attempt: 3 BIDDY Y Y Y Y Y
+TD213241 > ␅
+TD845892 ␆*
+TD135 > *
+TD698 questioning: blimp
+TD261 Classic #1 BLIM_ -ACDEFNORSTY? ␅
+TD3321345 ␆YYYYY
+TD106 Classic #1 BLIM_ -ACDEFNORSTY? YYYYY
+TD296 attempt: 0 BLIMP Y Y Y Y Y
+TD193 Classic #2 ___ER ~DY -ABCFILMNOST D:1? ␅
+TD1044155 ␆nnnnn
+TD259 Classic #2 ___ER ~DY -ABCFILMNOST D:1? nnnnn
+TD372 attempt: 1 BLIMP n n n n n
+TD117118 > ␅
+TD2831701 ␆*
+TD110 > *
+TD444 questioning: dryer
+TD202 Classic #2 ___ER ~DY -ABCFILMNOPST D:1? ␅
+TD3142505 ␆YYYYY
+TD52 Classic #2 ___ER ~DY -ABCFILMNOPST D:1? YYYYY
+TD124 attempt: 1 DRYER Y Y Y Y Y
+TD49 📋> ␅
+TD4911010 ␆🙂 Daily Quordle 1666
+TD169 📋> 🙂 Daily Quordle 1666
+TD27 📋> ␅
+TD133 ␆7️⃣8️⃣
+TD18 📋> 7️⃣8️⃣
+TD13 📋> ␅
+TD49 ␆5️⃣6️⃣
+TD14 📋> 5️⃣6️⃣
+TD11 📋> ␅
+TD47 ␆m-w.com/games/quordle/
+TD14 📋> m-w.com/games/quordle/
+TD12 📋> ␅
+TD222943 ␆
+TD156 📋> 
+TD26 📋> ␅
+TD143838 ␄
+TD183 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1666\n7\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2926 result: "\ud83d\ude42 Daily Quordle 1666\n7\ufe0f\u20e38\ufe0f\u20e3\n5\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD127 📆 2026-08-17 ? ␅
+TD154552 ␆
+TD121 📆 2026-08-17 ? 
