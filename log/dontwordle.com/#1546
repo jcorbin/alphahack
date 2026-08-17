@@ -1,0 +1,177 @@
+T1758.6927174020093 now: 2026-08-17T08:06:53EDT
+TD187 site: dontwordle.com
+TD37 wordlist: nwl2023.txt
+TD69  ...␅
+TD383410 ␆
+TD80  ...
+TD101 1> ␅
+TD7397571 ␆* -bot 10
+TD174 1> * -bot 10
+TD180703 ? ␅
+TD989299 ␆1
+TD148 ? 1
+TD390 📋 "aster" ? ␅
+TD3933391 ␆nnYYn
+TD171 📋 "aster" ? nnYYn
+TD1152 tried: ASTER n n Y Y n
+TD386 2> ␅
+TD1097684 ␆undo
+TD63 2> undo
+TD85 undo
+TD85 1> ␅
+TD3140335 ␆*
+TD116 1> *
+TD132321 ? ␅
+TD111796 ␆1
+TD146 ? 1
+TD386 📋 "yummy" ? ␅
+TD4613457 ␆nnnnn
+TD95 📋 "yummy" ? nnnnn
+TD223 tried: YUMMY n n n n n
+TD216 2> ␅
+TD7206408 ␆*
+TD113 2> *
+TD124494 ? ␅
+TD601336 ␆1
+TD129 ? 1
+TD330 📋 "doggo" ? ␅
+TD4493085 ␆nYnnn
+TD112 📋 "doggo" ? nYnnn
+TD250 tried: DOGGO n Y n n n
+TD283 3> ␅
+TD1144895 ␆undo
+TD143 3> undo
+TD233 undo
+TD436 2> ␅
+TD17310373 ␆* :v [asterdoggo] -bot 10
+TD116 2> * :v [asterdoggo] -bot 10
+TD106724 ? ␅
+TD1236490 ␆1
+TD190 ? 1
+TD416 📋 "finch" ? ␅
+TD6383435 ␆nnnnM
+TD85 📋 "finch" ? nnnnM
+TD195 tried: FINCH n n n n m
+TD246 3> ␅
+TD671281 ␆undo
+TD193 3> undo
+TD338 undo
+TD550 2> ␅
+TD2486436 ␆*
+TD109 2> *
+TD114756 ? ␅
+TD1031488 ␆11
+TD195 ? 11
+TD1774 ? ␅
+TD1590368 ␆1
+TD157 ? 1
+TD265 📋 "abbas" ? ␅
+TD3797881 ␆nnnnn
+TD97 📋 "abbas" ? nnnnn
+TD210 tried: ABBAS n n n n n
+TD209 3> ␅
+TD622168 ␆*
+TD169 3> *
+TD98347 ? ␅
+TD140729 ␆1
+TD101 ? 1
+TD265 📋 "kinin" ? ␅
+TD5048559 ␆nnnnn
+TD128 📋 "kinin" ? nnnnn
+TD303 tried: KININ n n n n n
+TD330 4> ␅
+TD494780 ␆*
+TD79 4> *
+TD93520 📋 "grrrl" ? ␅
+TD7632499 ␆nnnnY
+TD136 📋 "grrrl" ? nnnnY
+TD310 tried: GRRRL n n n n Y
+TD334 5> ␅
+TD1031202 ␆undo
+TD98 5> undo
+TD170 undo
+TD328 4> ␅
+TD2596161 ␆*
+TD55 4> *
+TD209355 📋 "grrrl" ? ␅
+TD8063212 ␄
+TD243 <EOF>
+TD352 4> ␅
+TD1368076 ␆* -sans
+TD219 4> * -sans
+TD102337 ? ␅
+TD9525051 ␆6
+TD158 ? 6
+TD387 📋 "corer" ? ␅
+TD4292125 ␆nYnYn
+TD63 📋 "corer" ? nYnYn
+TD107 tried: CORER n Y n Y n
+TD132 5> ␅
+TD452426 ␆*
+TD103 5> *
+TD104751 ? ␅
+TD965945 ␆1
+TD153 ? 1
+TD392 📋 "dozed" ? ␅
+TD3627083 ␆nYnYn
+TD166 📋 "dozed" ? nYnYn
+TD377 tried: DOZED n Y n Y n
+TD692 6> ␅
+TD389128 ␆*
+TD53 6> *
+TD190875 📋 "wowee" ? ␅
+TD4502292 ␆nYnYn
+TD116 📋 "wowee" ? nYnYn
+TD242 tried: WOWEE n Y n Y n
+TD269 📋> ␅
+TD3087026 ␆Don't Wordle 1546 - SURVIVED
+TD98 📋> Don't Wordle 1546 - SURVIVED
+TD28 📋> ␅
+TD64 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD15 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD11 📋> ␅
+TD25 ␆⬜⬜⬜⬜⬜7572
+TD10 📋> ⬜⬜⬜⬜⬜7572
+TD10 📋> ␅
+TD21 ␆⬜⬜⬜⬜⬜1642
+TD9 📋> ⬜⬜⬜⬜⬜1642
+TD10 📋> ␅
+TD20 ␆⬜⬜⬜⬜⬜540
+TD9 📋> ⬜⬜⬜⬜⬜540
+TD9 📋> ␅
+TD21 ␆⬜🟩⬜🟩⬜52
+TD10 📋> ⬜🟩⬜🟩⬜52
+TD9 📋> ␅
+TD19 ␆⬜🟩⬜🟩⬜8
+TD9 📋> ⬜🟩⬜🟩⬜8
+TD9 📋> ␅
+TD19 ␆⬜🟩⬜🟩⬜4
+TD9 📋> ⬜🟩⬜🟩⬜4
+TD9 📋> ␅
+TD35 ␆Undos used: 4
+TD10 📋> Undos used: 4
+TD16 📋> ␅
+TD29 ␆
+TD10 📋> 
+TD10 📋> ␅
+TD20 ␆  4 words remaining
+TD10 📋>   4 words remaining
+TD9 📋> ␅
+TD19 ␆x 10 unused letters
+TD9 📋> x 10 unused letters
+TD9 📋> ␅
+TD21 ␆= 40 total score
+TD9 📋> = 40 total score
+TD9 📋> ␅
+TD21 ␆
+TD9 📋> 
+TD9 📋> ␅
+TD208666 ␆https://dontwordle.com
+TD122 📋> https://dontwordle.com
+TD23 📋> ␅
+TD178409 ␄
+TD216 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1546 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1642\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c540\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c52\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c8\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c4\nUndos used: 4\n\n  4 words remaining\nx 10 unused letters\n= 40 total score\n\nhttps://dontwordle.com"}
+TD2191 result: "Don't Wordle 1546 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7572\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1642\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c540\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c52\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c8\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c4\nUndos used: 4\n\n  4 words remaining\nx 10 unused letters\n= 40 total score\n\nhttps://dontwordle.com"
+TD143 📆 2026-08-17 ? ␅
+TD132465 ␆
+TD138 📆 2026-08-17 ? 
