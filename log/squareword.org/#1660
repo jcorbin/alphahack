@@ -1,0 +1,221 @@
+T18264.543115456996 now: 2026-08-18T12:24:47EDT
+TD98 site: squareword.org
+TD26 wordlist: nwl2023.txt
+TD30  ...␅
+TD523657 ␆
+TD63  ...
+TD36 🧩  ? ␅
+TD8623126 ␆#1660
+TD85 🧩  ? #1660
+TD217 puzzle_id: #1660
+TD292 > ␅
+TD3538150 ␆*
+TD96 > *
+TD285040 try? ␅
+TD807595 ␆1
+TD62 try? 1
+TD163 questioning: ["arose", "#5"]
+TD194 #1 <IndexError>  📋 "arose" ? ␅
+TD5726052 ␆____E ~ AS
+TD85 #1 <IndexError>  📋 "arose" ? ____E ~ AS
+TD455 attempt 0 AROSE m n n m Y
+TD93 #2 <IndexError>  📋 "arose" ? ␅
+TD6013817 ␆_____ ~ AO
+TD103 #2 <IndexError>  📋 "arose" ? _____ ~ AO
+TD248 attempt 1 AROSE m n m n n
+TD133 #3 <IndexError>  📋 "arose" ? ␅
+TD2725244 ␆A_O__
+TD95 #3 <IndexError>  📋 "arose" ? A_O__
+TD292 attempt 2 AROSE Y n Y n n
+TD150 #4 <IndexError>  📋 "arose" ? ␅
+TD2559427 ␆___SE ~ RE
+TD139 #4 <IndexError>  📋 "arose" ? ___SE ~ RE
+TD401 attempt 3 AROSE n m n Y Y
+TD195 #5 <IndexError>  📋 "arose" ? ␅
+TD3905295 ␆_____ ~ RSE
+TD96 #5 <IndexError>  📋 "arose" ? _____ ~ RSE
+TD256 attempt 4 AROSE n m n m m
+TD449 ? ␅
+TD686020 ␆
+TD78 ? 
+TD128 question done
+TD356 > ␅
+TD846235 ␆* 2
+TD62 > * 2
+TD613866 try? ␅
+TD2192616 ␄
+TD108 <EOF>
+TD350 > ␅
+TD642530 ␆*
+TD61 > *
+TD555796 try? ␅
+TD938183 ␄
+TD83 <EOF>
+TD256 > ␅
+TD814206 ␆* 2
+TD151 > * 2
+TD4103 try? ␅
+TD3624926 ␆5
+TD53 try? 5
+TD124 questioning: ["nomad", "#2"]
+TD147 #1 ____E ~AS -OR  📋 "nomad" ? ␅
+TD7302224 ␆____E ~ ASM
+TD61 #1 ____E ~AS -OR  📋 "nomad" ? ____E ~ ASM
+TD121 attempt 0 NOMAD n n m m n
+TD58 #2 _____ ~AO -ERS  📋 "nomad" ? ␅
+TD718487 ␆/it
+TD267 #2 _____ ~AO -ERS  📋 "nomad" ? /it
+TD397 attempt 1 NOMAD Y Y Y Y Y
+TD68 #3 A_O__ -ERS  📋 "nomad" ? ␅
+TD6131929 ␆A_O__ ~ NM
+TD58 #3 A_O__ -ERS  📋 "nomad" ? A_O__ ~ NM
+TD138 attempt 2 NOMAD m n m n n
+TD76 #4 ___SE ~R -AO  📋 "nomad" ? ␅
+TD3509336 ␆___SE ~ RE
+TD61 #4 ___SE ~R -AO  📋 "nomad" ? ___SE ~ RE
+TD139 attempt 3 NOMAD n n n n n
+TD66 #5 _____ ~ERS -AO  📋 "nomad" ? ␅
+TD878500 ␆.
+TD95 #5 _____ ~ERS -AO  📋 "nomad" ? .
+TD218 attempt 4 NOMAD n n n n n
+TD261 ? ␅
+TD178045 ␆
+TD76 ? 
+TD84 question done
+TD292 > ␅
+TD888540 ␆*
+TD70 > *
+TD1108093 questioning: ["shame", "#1"]
+TD200 #1 ____E ~AMS -DNOR  📋 "shame" ? ␅
+TD2953082 ␆/it
+TD105 #1 ____E ~AMS -DNOR  📋 "shame" ? /it
+TD205 attempt 0 SHAME Y Y Y Y Y
+TD125 #3 A_O__ ~MN -ADEORS  📋 "shame" ? ␅
+TD2591632 ␆.
+TD56 #3 A_O__ ~MN -ADEORS  📋 "shame" ? .
+TD125 attempt 2 SHAME n n n m n
+TD47 #4 ___SE ~R -ADMNO  📋 "shame" ? ␅
+TD3454977 ␆___SE ~ RE
+TD55 #4 ___SE ~R -ADMNO  📋 "shame" ? ___SE ~ RE
+TD138 attempt 3 SHAME n n n n Y
+TD65 #5 _____ ~ERS -ADMNO  📋 "shame" ? ␅
+TD544638 ␆.
+TD81 #5 _____ ~ERS -ADMNO  📋 "shame" ? .
+TD238 attempt 4 SHAME m n n n m
+TD376 ? ␅
+TD168272 ␆
+TD64 ? 
+TD98 question done
+TD310 > ␅
+TD446971 ␆*
+TD68 > *
+TD966583 questioning: ["among", "#3"]
+TD221 #3 A_O__ ~MN -ADEHORS  📋 "among" ? ␅
+TD2773410 ␆/it
+TD80 #3 A_O__ ~MN -ADEHORS  📋 "among" ? /it
+TD232 attempt 2 AMONG Y Y Y Y Y
+TD90 #4 ___SE ~R -ADHMNOS  📋 "among" ? ␅
+TD3614058 ␆___SE ~ RE
+TD72 #4 ___SE ~R -ADHMNOS  📋 "among" ? ___SE ~ RE
+TD178 attempt 3 AMONG n n n n n
+TD118 #5 _____ ~ERS -ADHMNO  📋 "among" ? ␅
+TD781027 ␆.
+TD79 #5 _____ ~ERS -ADHMNO  📋 "among" ? .
+TD215 attempt 4 AMONG n n n n n
+TD312 ? ␅
+TD187831 ␆
+TD98 ? 
+TD86 question done
+TD320 > ␅
+TD445862 ␆*
+TD76 > *
+TD1599288 try? ␅
+TD4954725 ␄
+TD116 <EOF>
+TD580 > ␅
+TD1746460 ␆* 5
+TD96 > * 5
+TD556784 try? ␅
+TD7126211 ␆3
+TD59 try? 3
+TD161 questioning: ["ester", "#5"]
+TD194 #4 ___SE ~R -ADGHMNOS  📋 "ester" ? ␅
+TD5650419 ␆___SE ~ RE
+TD53 #4 ___SE ~R -ADGHMNOS  📋 "ester" ? ___SE ~ RE
+TD131 attempt 3 ESTER m n n m m
+TD72 #5 _____ ~ERS -ADGHMNO  📋 "ester" ? ␅
+TD4438938 ␆___E_  ~RS
+TD113 #5 _____ ~ERS -ADGHMNO  📋 "ester" ? ___E_  ~RS
+TD283 attempt 4 ESTER n m n Y m
+TD590 ? ␅
+TD535259 ␆
+TD63 ? 
+TD79 question done
+TD247 > ␅
+TD645719 ␆*
+TD74 > *
+TD1659149 try? ␅
+TD1603414 ␆2
+TD65 try? 2
+TD164 questioning: ["reuse", "#4"]
+TD224 #4 ___SE ~R -ADGHMNOST  📋 "reuse" ? ␅
+TD2352315 ␆/it
+TD82 #4 ___SE ~R -ADGHMNOST  📋 "reuse" ? /it
+TD191 attempt 3 REUSE Y Y Y Y Y
+TD90 #5 ___E_ ~RS -ADGHMNOT  📋 "reuse" ? ␅
+TD3175796 ␆___E_ ~ RS
+TD54 #5 ___E_ ~RS -ADGHMNOT  📋 "reuse" ? ___E_ ~ RS
+TD140 attempt 4 REUSE m n n m n
+TD165 ? ␅
+TD426092 ␆
+TD80 ? 
+TD85 question done
+TD246 > ␅
+TD456131 ␆*
+TD72 > *
+TD1403399 questioning: ["lyres", "#5"]
+TD178 #5 ___E_ ~RS -ADEGHMNOTU  📋 "lyres" ? ␅
+TD3040463 ␆/it
+TD69 #5 ___E_ ~RS -ADEGHMNOTU  📋 "lyres" ? /it
+TD148 attempt 4 LYRES Y Y Y Y Y
+TD160 ? ␅
+TD427396 ␆
+TD98 ? 
+TD107 question done
+TD39422 📋> ␅
+TD5971542 ␆squareword.org 1660: 7 guesses
+TD120 📋> squareword.org 1660: 7 guesses
+TD25 📋> ␅
+TD47 ␆
+TD9 📋> 
+TD9 📋> ␅
+TD23 ␆🟩🟩🟩🟩🟩
+TD15 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD18 ␆🟨🟨🟨🟩🟩
+TD9 📋> 🟨🟨🟨🟩🟩
+TD9 📋> ␅
+TD18 ␆🟨🟨🟨🟩🟨
+TD9 📋> 🟨🟨🟨🟩🟨
+TD9 📋> ␅
+TD17 ␆
+TD9 📋> 
+TD9 📋> ␅
+TD19 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> ␅
+TD252394 ␆#squareword #squareword1660
+TD61 📋> #squareword #squareword1660
+TD9 📋> ␅
+TD172197 ␄
+TD180 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1660: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1660"}
+TD2647 result: "squareword.org 1660: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1660"
+TD126 📆 2026-08-18 ? ␅
+TD212750 ␆
+TD61 📆 2026-08-18 ? 
