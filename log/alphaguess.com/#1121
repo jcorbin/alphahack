@@ -1,0 +1,77 @@
+T17570.962474954023 now: 2026-08-18T12:13:14EDT
+TD194 site: alphaguess.com
+TD179679 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 0e9ebcab32d82725b4184b63748b5ba106901e13
+TD95  ...␅
+TD305320 ␆
+TD108  ...
+TD187 [0 : 98147 : 196518] mac? ␅
+TD3616566 ␆
+TD129 [0 : 98147 : 196518] mac? 
+TD107 [0 : 98147 : 196518] mac? ␅
+TD1560313 ␆a
+TD81 [0 : 98147 : 196518] mac? a
+TD90 progress: 1 98147 mac
+TD93 [98148 : 147311 : 196518] rho? ␅
+TD1408694 ␆b
+TD67 [98148 : 147311 : 196518] rho? b
+TD78 progress: -1 147311 rho
+TD69 [98148 : 122724 : 147311] parol? ␅
+TD1451771 ␆b
+TD88 [98148 : 122724 : 147311] parol? b
+TD96 progress: -1 122724 parol
+TD139 [98148 : 109929 : 122724] ne? ␅
+TD1437639 ␆b
+TD68 [98148 : 109929 : 122724] ne? b
+TD60 progress: -1 109929 ne
+TD61 [98148 : 104011 : 109929] minis? ␅
+TD1530885 ␆b
+TD55 [98148 : 104011 : 109929] minis? b
+TD50 progress: -1 104011 minis
+TD52 [98148 : 101042 : 104011] media? ␅
+TD1467877 ␆b
+TD67 [98148 : 101042 : 104011] media? b
+TD51 progress: -1 101042 media
+TD55 [98148 : 99571 : 101042] mans? ␅
+TD2062480 ␆b
+TD63 [98148 : 99571 : 101042] mans? b
+TD58 progress: -1 99571 mans
+TD64 [98148 : 98854 : 99571] make? ␅
+TD1414504 ␆b
+TD63 [98148 : 98854 : 99571] make? b
+TD61 progress: -1 98854 make
+TD54 [98148 : 98490 : 98854] mag? ␅
+TD1427550 ␆a
+TD205 [98148 : 98490 : 98854] mag? a
+TD219 progress: 1 98490 mag
+TD295 [98491 : 98669 : 98854] mahjong? ␅
+TD1686006 ␆b
+TD79 [98491 : 98669 : 98854] mahjong? b
+TD73 progress: -1 98669 mahjong
+TD79 [98491 : 98565 : 98669] magnet? ␅
+TD2845532 ␆it
+TD74 [98491 : 98565 : 98669] magnet? it
+TD62 progress: 0 98565 magnet
+TD17 [98491 : 98565 : 98669] <Done>.
+TD57 📋> ␅
+TD3647322 ␆🧩 Puzzle #1121
+TD67 📋> 🧩 Puzzle #1121
+TD6 📋> ␅
+TD21 ␆🤔 11 guesses
+TD3 📋> 🤔 11 guesses
+TD3 📋> ␅
+TD6 ␆⏱️ 15s
+TD3 📋> ⏱️ 15s
+TD2 📋> ␅
+TD222322 ␆🔗 alphaguess.com/1121
+TD112 📋> 🔗 alphaguess.com/1121
+TD30 📋> ␅
+TD138747 ␄
+TD179 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1121\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 15s\n\ud83d\udd17 alphaguess.com/1121"}
+TD125 result: "\ud83e\udde9 Puzzle #1121\n\ud83e\udd14 11 guesses\n\u23f1\ufe0f 15s\n\ud83d\udd17 alphaguess.com/1121"
+TD38 result puzzle: 1121
+TD25 result guesses: 11
+TD23 result time: 15s
+TD22 result link: alphaguess.com/1121
+TD111 📆 2026-08-18 ? ␅
+TD162797 ␆
+TD77 📆 2026-08-18 ? 
