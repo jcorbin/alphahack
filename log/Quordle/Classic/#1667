@@ -1,0 +1,151 @@
+T17918.057584462047 now: 2026-08-18T12:19:01EDT
+TD236 site: https://www.merriam-webster.com/games/quordle/#/
+TD46 wordlist: nwl2023.txt
+TD18 num_words: 4
+TD220  ...␅
+TD403480 ␆
+TD94  ...
+TD578965 > ␅
+TD10291510 ␆*
+TD53 > *
+TD62279 ? ␅
+TD832695 ␆1
+TD78 ? 1
+TD148 questioning: reals
+TD166 Classic #1 _____? ␅
+TD2454184 ␆nMMMn
+TD86 Classic #1 _____? nMMMn
+TD387 attempt: 0 REALS n m m m n
+TD128 Classic #2 _____? ␅
+TD2440224 ␆MnMnn
+TD95 Classic #2 _____? MnMnn
+TD186 attempt: 1 REALS m n m n n
+TD106 Classic #3 _____? ␅
+TD1457945 ␆Mnnnn
+TD94 Classic #3 _____? Mnnnn
+TD142 attempt: 2 REALS m n n n n
+TD89 Classic #4 _____? ␅
+TD1428030 ␆nYYYn
+TD69 Classic #4 _____? nYYYn
+TD164 attempt: 3 REALS n Y Y Y n
+TD586959 > ␅
+TD721691 ␆*
+TD81 > *
+TD3419 ? ␅
+TD2014717 ␆3
+TD79 ? 3
+TD139 questioning: irony
+TD211 Classic #1 _____ ~AEL -RS? ␅
+TD3335334 ␆nnnnn
+TD85 Classic #1 _____ ~AEL -RS? nnnnn
+TD180 attempt: 0 IRONY n n n n n
+TD79 Classic #2 _____ ~AR -ELS? ␅
+TD1336200 ␆nMMMn
+TD71 Classic #2 _____ ~AR -ELS? nMMMn
+TD143 attempt: 1 IRONY n m m m n
+TD73 Classic #3 _____ ~R -AELS? ␅
+TD1279621 ␆nMMMn
+TD131 Classic #3 _____ ~R -AELS? nMMMn
+TD255 attempt: 2 IRONY n m m m n
+TD189 Classic #4 _EAL_ -RS? ␅
+TD1169535 ␆nnnnn
+TD80 Classic #4 _EAL_ -RS? nnnnn
+TD206 attempt: 3 IRONY n n n n n
+TD621609 > ␅
+TD769933 ␆*
+TD81 > *
+TD305 ? ␅
+TD1778855 ␆1
+TD78 ? 1
+TD117 questioning: dealt
+TD120 Classic #1 _____ ~AEL -INORSY? ␅
+TD3500088 ␆nMMMn
+TD59 Classic #1 _____ ~AEL -INORSY? nMMMn
+TD114 attempt: 0 DEALT n m m m n
+TD51 Classic #2 _____ ~ANOR -EILSY? ␅
+TD1242163 ␆nnMn
+TD139 Classic #2 _____ ~ANOR -EILSY? nnMn
+TD300 Classic #2 _____ ~ANOR -EILSY? ␅
+TD2800475 ␆nnMnn
+TD76 Classic #2 _____ ~ANOR -EILSY? nnMnn
+TD204 attempt: 1 DEALT n n m n n
+TD110 Classic #3 _____ ~NOR -AEILSY? ␅
+TD2131875 ␆Ynnnn
+TD101 Classic #3 _____ ~NOR -AEILSY? Ynnnn
+TD260 attempt: 2 DEALT Y n n n n
+TD170 Classic #4 _EAL_ -INORSY? ␅
+TD1209265 ␆YYYYY
+TD70 Classic #4 _EAL_ -INORSY? YYYYY
+TD135 attempt: 3 DEALT Y Y Y Y Y
+TD457444 > ␅
+TD854118 ␆*
+TD70 > *
+TD264 questioning: donor
+TD81 Classic #1 _____ ~AEL -DINORSTY? ␅
+TD2550344 ␆nnnnn
+TD76 Classic #1 _____ ~AEL -DINORSTY? nnnnn
+TD149 attempt: 0 DONOR n n n n n
+TD85 Classic #2 _____ ~ANOR -DEILSTY? ␅
+TD1447157 ␆nnYYY
+TD137 Classic #2 _____ ~ANOR -DEILSTY? nnYYY
+TD176 attempt: 1 DONOR n n Y Y Y
+TD83 Classic #3 D____ ~NOR -AEILSTY? ␅
+TD1313497 ␆YYYYY
+TD95 Classic #3 D____ ~NOR -AEILSTY? YYYYY
+TD428 attempt: 2 DONOR Y Y Y Y Y
+TD292785 > ␅
+TD858311 ␆*
+TD90 > *
+TD274 questioning: manor
+TD101 Classic #1 _____ ~AEL -DINORSTY? ␅
+TD2681008 ␆nMnnn
+TD164 Classic #1 _____ ~AEL -DINORSTY? nMnnn
+TD367 attempt: 0 MANOR n m n n n
+TD231 Classic #2 __NOR ~A -DEILSTY? ␅
+TD1784668 ␆YYYYY
+TD173 Classic #2 __NOR ~A -DEILSTY? YYYYY
+TD294 attempt: 1 MANOR Y Y Y Y Y
+TD216795 > ␅
+TD929433 ␆*
+TD97 > *
+TD796 ? ␅
+TD2605043 ␆1
+TD60 ? 1
+TD89 questioning: aleph
+TD119 Classic #1 _____ ~AEL -DIMNORSTY? ␅
+TD3067715 ␆YYMnn
+TD99 Classic #1 _____ ~AEL -DIMNORSTY? YYMnn
+TD208 attempt: 0 ALEPH Y Y m n n
+TD121009 > ␅
+TD499821 ␆*
+TD67 > *
+TD307 ? ␅
+TD1680081 ␆1
+TD59 ? 1
+TD89 questioning: algae
+TD90 Classic #1 AL___ ~E -DHIMNOPRSTY? ␅
+TD3274268 ␆YYYYY
+TD69 Classic #1 AL___ ~E -DHIMNOPRSTY? YYYYY
+TD135 attempt: 0 ALGAE Y Y Y Y Y
+TD59 📋> ␅
+TD4669449 ␆🙂 Daily Quordle 1667
+TD76 📋> 🙂 Daily Quordle 1667
+TD11 📋> ␅
+TD36 ␆7️⃣5️⃣
+TD6 📋> 7️⃣5️⃣
+TD6 📋> ␅
+TD10 ␆4️⃣3️⃣
+TD5 📋> 4️⃣3️⃣
+TD5 📋> ␅
+TD16 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD3 📋> ␅
+TD196767 ␆
+TD56 📋> 
+TD8 📋> ␅
+TD183027 ␄
+TD113 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1667\n7\ufe0f\u20e35\ufe0f\u20e3\n4\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1359 result: "\ud83d\ude42 Daily Quordle 1667\n7\ufe0f\u20e35\ufe0f\u20e3\n4\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD124 📆 2026-08-18 ? ␅
+TD117216 ␆
+TD87 📆 2026-08-18 ? 
