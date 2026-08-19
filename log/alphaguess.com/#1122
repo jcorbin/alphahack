@@ -1,0 +1,91 @@
+T15241.569757584017 now: 2026-08-19T07:46:08EDT
+TD72 site: alphaguess.com
+TD162059 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 83ae792115f509c77568eeffd6a5ea707b4152f3
+TD107  ...␅
+TD90256 ␆
+TD81  ...
+TD134 [0 : 98147 : 196518] mac? ␅
+TD808767 ␆
+TD106 [0 : 98147 : 196518] mac? 
+TD70 [0 : 98147 : 196518] mac? ␅
+TD5530961 ␆
+TD83 [0 : 98147 : 196518] mac? 
+TD97 [0 : 98147 : 196518] mac? ␅
+TD1692186 ␆a
+TD99 [0 : 98147 : 196518] mac? a
+TD87 progress: 1 98147 mac
+TD85 [98148 : 147311 : 196518] rho? ␅
+TD1445656 ␆vb
+TD91 [98148 : 147311 : 196518] rho? vb
+TD145 [98148 : 147311 : 196518] rho? ␅
+TD633794 ␆b
+TD74 [98148 : 147311 : 196518] rho? b
+TD79 progress: -1 147311 rho
+TD70 [98148 : 122724 : 147311] parol? ␅
+TD1476748 ␆a
+TD86 [98148 : 122724 : 147311] parol? a
+TD100 progress: 1 122724 parol
+TD145 [122725 : 135004 : 147311] prop? ␅
+TD1376398 ␆b
+TD75 [122725 : 135004 : 147311] prop? b
+TD86 progress: -1 135004 prop
+TD69 [122725 : 128842 : 135004] play? ␅
+TD1336100 ␆a
+TD82 [122725 : 128842 : 135004] play? a
+TD105 progress: 1 128842 play
+TD464 [128843 : 131923 : 135004] prealter? ␅
+TD1307968 ␆b
+TD109 [128843 : 131923 : 135004] prealter? b
+TD123 progress: -1 131923 prealter
+TD154 [128843 : 130056 : 131923] poly? ␅
+TD1378545 ␆a
+TD132 [128843 : 130056 : 131923] poly? a
+TD174 progress: 1 130056 poly
+TD144 [130057 : 130985 : 131923] possess? ␅
+TD2931174 ␆a
+TD89 [130057 : 130985 : 131923] possess? a
+TD100 progress: 1 130985 possess
+TD125 [130986 : 131364 : 131923] pot? ␅
+TD1339631 ␆a
+TD97 [130986 : 131364 : 131923] pot? a
+TD108 progress: 1 131364 pot
+TD139 [131365 : 131623 : 131923] power? ␅
+TD1397583 ␆b
+TD129 [131365 : 131623 : 131923] power? b
+TD151 progress: -1 131623 power
+TD218 [131365 : 131482 : 131623] pots? ␅
+TD1348783 ␆b
+TD84 [131365 : 131482 : 131623] pots? b
+TD115 progress: -1 131482 pots
+TD117 [131365 : 131404 : 131482] potent? ␅
+TD1481552 ␆b
+TD211 [131365 : 131404 : 131482] potent? b
+TD222 progress: -1 131404 potent
+TD221 [131365 : 131381 : 131404] potato? ␅
+TD2735945 ␆it
+TD58 [131365 : 131381 : 131404] potato? it
+TD50 progress: 0 131381 potato
+TD13 [131365 : 131381 : 131404] <Done>.
+TD42 📋> ␅
+TD2367637 ␆🧩 Puzzle #1122
+TD67 📋> 🧩 Puzzle #1122
+TD7 📋> ␅
+TD22 ␆🤔 13 guesses
+TD8 📋> 🤔 13 guesses
+TD2 📋> ␅
+TD6 ␆⏱️ 19s
+TD3 📋> ⏱️ 19s
+TD2 📋> ␅
+TD195890 ␆🔗 alphaguess.com/1122
+TD116 📋> 🔗 alphaguess.com/1122
+TD26 📋> ␅
+TD99104 ␄
+TD490 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1122\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/1122"}
+TD304 result: "\ud83e\udde9 Puzzle #1122\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 19s\n\ud83d\udd17 alphaguess.com/1122"
+TD85 result puzzle: 1122
+TD30 result guesses: 13
+TD24 result time: 19s
+TD23 result link: alphaguess.com/1122
+TD138 📆 2026-08-19 ? ␅
+TD147431 ␆
+TD188 📆 2026-08-19 ? 
