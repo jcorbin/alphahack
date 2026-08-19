@@ -1,0 +1,210 @@
+T2448.5679044660064 now: 2026-08-19T13:34:43EDT
+TD239 site: https://wordgrid.clevergoat.com/
+TD48 wordlist: nwl2023.txt
+TD131 > ␅
+TD8192944 ␆col 1 ![ESU]
+TD72 > col 1 ![ESU]
+TD797 rule col: 1 ![ESU]
+TD101 > ␅
+TD7589757 ␆col 2 ![EMO]
+TD81 > col 2 ![EMO]
+TD371 rule col: 2 ![EMO]
+TD122 > ␅
+TD6162319 ␆col 3 ~^I
+TD82 > col 3 ~^I
+TD291 rule col: 3 ~^I
+TD124 > ␅
+TD24506724 ␆col 3 ~^L
+TD85 > col 3 ~^L
+TD279 rule col: 3 ~^L
+TD109 > ␅
+TD4224680 ␆row 1 &LT
+TD70 > row 1 &LT
+TD277 rule row: 1 &LT
+TD94 > ␅
+TD3062260 ␆row 2 ~AL
+TD90 > row 2 ~AL
+TD293 rule row: 2 ~AL
+TD138 > ␅
+TD3346970 ␆row 3 ~G$
+TD62 > row 3 ~G$
+TD272 rule row: 3 ~G$
+TD96 > ␅
+TD1545036 ␆sol
+TD59 > sol
+TD140 > ␅
+TD451723 ␆
+TD80 > 
+TD303 > ␅
+TD1841871 ␆*
+TD65 > *
+TD382904 ? ␅
+TD2184775 ␆2
+TD65 ? 2
+TD103 questioning: 0 clit
+TD39 🌡️ clit 📋 ? ␅
+TD44803811 ␄
+TD92 <EOF>
+TD148 > ␅
+TD562727 ␆*
+TD84 > *
+TD346993 ? ␅
+TD2528946 ␆1
+TD51 ? 1
+TD85 questioning: 0 ratlin
+TD27 🌡️ ratlin 📋 ? ␅
+TD2771043 ␆0
+TD80 🌡️ ratlin 📋 ? 0
+TD289 word: 0 ratlin 0.0
+TD30 questioning: -1 
+TD134 > ␅
+TD699990 ␆*
+TD83 > *
+TD345063 ? ␅
+TD6429613 ␆4
+TD51 ? 4
+TD114 questioning: 1 linctus
+TD39 🌡️ linctus 📋 ? ␅
+TD2603311 ␆0
+TD93 🌡️ linctus 📋 ? 0
+TD84 word: 1 linctus 0.0
+TD34 questioning: -1 
+TD126 > ␅
+TD827373 ␆*
+TD109 > *
+TD330837 ? ␅
+TD4976302 ␆4
+TD60 ? 4
+TD96 questioning: 2 lustring
+TD25 🌡️ lustring 📋 ? ␅
+TD2980054 ␆.02
+TD55 🌡️ lustring 📋 ? .02
+TD63 word: 2 lustring 0.02
+TD11 questioning: -1 
+TD59 > ␅
+TD703364 ␆*
+TD74 > *
+TD298430 ? ␅
+TD1393534 ␆1
+TD60 ? 1
+TD109 questioning: 3 inthral
+TD28 🌡️ inthral 📋 ? ␅
+TD2515395 ␆0
+TD63 🌡️ inthral 📋 ? 0
+TD62 word: 3 inthral 0.0
+TD14 questioning: -1 
+TD73 > ␅
+TD770846 ␆*
+TD63 > *
+TD294976 ? ␅
+TD5414121 ␆5
+TD65 ? 5
+TD113 questioning: 4 citrals
+TD30 🌡️ citrals 📋 ? ␅
+TD5001447 ␆0
+TD65 🌡️ citrals 📋 ? 0
+TD61 word: 4 citrals 0.0
+TD12 questioning: -1 
+TD68 > ␅
+TD602887 ␆*
+TD120 > *
+TD270811 ? ␅
+TD5417742 ␆7
+TD59 ? 7
+TD82 questioning: 5 litoral
+TD30 🌡️ litoral 📋 ? ␅
+TD5448632 ␆0.17
+TD65 🌡️ litoral 📋 ? 0.17
+TD65 word: 5 litoral 0.17
+TD19 questioning: -1 
+TD103 > ␅
+TD1688856 ␆* 3 2
+TD81 > * 3 2
+TD271120 ? ␅
+TD2953419 ␆2
+TD66 ? 2
+TD118 questioning: 5 localite
+TD27 🌡️ localite 📋 ? ␅
+TD3138961 ␆.02
+TD61 🌡️ localite 📋 ? .02
+TD56 word: 5 localite 0.02
+TD13 questioning: -1 
+TD71 > ␅
+TD559592 ␆*
+TD106 > *
+TD303652 ? ␅
+TD2099524 ␆8
+TD77 ? 8
+TD117 questioning: 6 ag
+TD38 🌡️ ag 📋 ? ␅
+TD3193467 ␆.31
+TD71 🌡️ ag 📋 ? .31
+TD55 word: 6 ag 0.31
+TD12 questioning: -1 
+TD59 > ␅
+TD1721572 ␆* 1 3
+TD58 > * 1 3
+TD294641 ? ␅
+TD3070536 ␆3
+TD89 ? 3
+TD126 questioning: 6 tholing
+TD44 🌡️ tholing 📋 ? ␅
+TD2695935 ␆0
+TD80 🌡️ tholing 📋 ? 0
+TD69 word: 6 tholing 0.0
+TD17 questioning: -1 
+TD85 > ␅
+TD487573 ␆*
+TD88 > *
+TD371763 ? ␅
+TD5505611 ␆6
+TD90 ? 6
+TD192 questioning: 7 sluing
+TD58 🌡️ sluing 📋 ? ␅
+TD2514550 ␆0
+TD74 🌡️ sluing 📋 ? 0
+TD123 word: 7 sluing 0.0
+TD34 questioning: -1 
+TD114 > ␅
+TD664999 ␆*
+TD65 > *
+TD306672 ? ␅
+TD2601605 ␆4
+TD75 ? 4
+TD97 questioning: 8 liang
+TD34 🌡️ liang 📋 ? ␅
+TD3311453 ␆.04
+TD112 🌡️ liang 📋 ? .04
+TD93 word: 8 liang 0.04
+TD42 questioning: -1 
+TD177 > ␅
+TD3811916 ␆/res
+TD82 > /res
+TD147 📋> ␅
+TD450564 ␆Word Grid #810
+TD90 📋> Word Grid #810
+TD24 📋> ␅
+TD70 ␆🦄🦄🌌
+TD22 📋> 🦄🦄🌌
+TD17 📋> ␅
+TD32 ␆🦄🦄🌌
+TD17 📋> 🦄🦄🌌
+TD15 📋> ␅
+TD39 ␆🦄🦄🌌
+TD16 📋> 🦄🦄🌌
+TD15 📋> ␅
+TD35 ␆Rarity: 0.08
+TD17 📋> Rarity: 0.08
+TD16 📋> ␅
+TD337185 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD71 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD13 📋> ␅
+TD163257 ␄
+TD110 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #810\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\nRarity: 0.08\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD593 result: "Word Grid #810\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\nRarity: 0.08\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD98 > ␅
+TD1060735 ␆/store
+TD57 > /store
+TD126 📆 2026-08-19 ? ␅
+TD6931651 ␆2026-08-20
+TD58 📆 2026-08-19 ? 2026-08-20
