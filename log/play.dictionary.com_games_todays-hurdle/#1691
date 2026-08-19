@@ -1,0 +1,247 @@
+T17258.897941278003 now: 2026-08-19T12:23:12EDT
+TD197 site: https://play.dictionary.com/games/todays-hurdle
+TD54 wordlist: nwl2023.txt
+TD77  ...␅
+TD235230 ␆
+TD113  ...
+TD160 1.1> ␅
+TD35367686 ␆*
+TD104 1.1> *
+TD231331 1.1 ? ␅
+TD845848 ␆1
+TD52 1.1 ? 1
+TD116 1.1 📋 "taser" ? ␅
+TD3891646 ␆YMnnM
+TD121 1.1 📋 "taser" ? YMnnM
+TD198 tried: TASER Y m n n m
+TD719 1.2> ␅
+TD429590 ␆*
+TD84 1.2> *
+TD135999 1.2 ? ␅
+TD1392840 ␆2
+TD85 1.2 ? 2
+TD146 1.2 📋 "train" ? ␅
+TD3652885 ␆YYYnn
+TD64 1.2 📋 "train" ? YYYnn
+TD130 tried: TRAIN Y Y Y n n
+TD150 1.3> ␅
+TD369516 ␆*
+TD104 1.3> *
+TD126704 1.3 ? ␅
+TD1243674 ␆1
+TD58 1.3 ? 1
+TD121 1.3 📋 "track" ? ␅
+TD3799927 ␆YYYYY
+TD66 1.3 📋 "track" ? YYYYY
+TD109 tried: TRACK Y Y Y Y Y
+TD269 2.1 📋 "track" ? ␅
+TD7868940 ␆nnnnM
+TD68 2.1 📋 "track" ? nnnnM
+TD135 tried: TRACK n n n n m
+TD116 2.2> ␅
+TD433661 ␆*
+TD63 2.2> *
+TD136675 2.2 ? ␅
+TD2364380 ␆4
+TD71 2.2 ? 4
+TD153 2.2 📋 "hikes" ? ␅
+TD3714662 ␆nnMnM
+TD60 2.2 📋 "hikes" ? nnMnM
+TD117 tried: HIKES n n m n m
+TD130 2.3> ␅
+TD481008 ␆*
+TD56 2.3> *
+TD151134 2.3 ? ␅
+TD2118859 ␆2
+TD57 2.3 ? 2
+TD121 2.3 📋 "sulky" ? ␅
+TD3755297 ␆YnnYY
+TD98 2.3 📋 "sulky" ? YnnYY
+TD239 tried: SULKY Y n n Y Y
+TD359 2.4> ␅
+TD411605 ␆*
+TD69 2.4> *
+TD126683 2.4 📋 "smoky" ? ␅
+TD4659878 ␆YYYYY
+TD79 2.4 📋 "smoky" ? YYYYY
+TD155 tried: SMOKY Y Y Y Y Y
+TD305 3.1 📋 "smoky" ? ␅
+TD7382039 ␆nMMnn
+TD60 3.1 📋 "smoky" ? nMMnn
+TD140 tried: SMOKY n m m n n
+TD139 3.2> ␅
+TD446011 ␆*
+TD49 3.2> *
+TD169680 3.2 ? ␅
+TD1390997 ␆1
+TD99 3.2 ? 1
+TD179 3.2 📋 "lemon" ? ␅
+TD3523132 ␆nnMMn
+TD109 3.2 📋 "lemon" ? nnMMn
+TD246 tried: LEMON n n m m n
+TD313 3.3> ␅
+TD436370 ␆*
+TD112 3.3> *
+TD150307 3.3 ? ␅
+TD2584619 ␆4
+TD58 3.3 ? 4
+TD126 3.3 📋 "micro" ? ␅
+TD3656222 ␆YnYnM
+TD63 3.3 📋 "micro" ? YnYnM
+TD89 tried: MICRO Y n Y n m
+TD113 3.4> ␅
+TD380139 ␆*
+TD68 3.4> *
+TD131556 3.4 📋 "mocha" ? ␅
+TD4012771 ␆YYYYY
+TD59 3.4 📋 "mocha" ? YYYYY
+TD90 tried: MOCHA Y Y Y Y Y
+TD160 4.1 📋 "mocha" ? ␅
+TD7558837 ␆nnnYn
+TD124 4.1 📋 "mocha" ? nnnYn
+TD268 tried: MOCHA n n n Y n
+TD347 4.2> ␅
+TD386322 ␆*
+TD83 4.2> *
+TD129364 4.2 ? ␅
+TD1154814 ␆1
+TD87 4.2 ? 1
+TD178 4.2 📋 "eight" ? ␅
+TD3717061 ␆MYnYM
+TD72 4.2 📋 "eight" ? MYnYM
+TD149 tried: EIGHT m Y n Y m
+TD183 4.3> ␅
+TD407640 ␆*
+TD76 4.3> *
+TD132223 4.3 ? ␅
+TD24358641 ␄
+TD88 <EOF>
+TD116 4.3> ␅
+TD2564337 ␆tried walks nnMnn
+TD72 4.3> tried walks nnMnn
+TD122 tried: WALKS n n m n n
+TD124 4.4> ␅
+TD669757 ␆*
+TD53 4.4> *
+TD125981 4.4 📋 "lithe" ? ␅
+TD3616292 ␆YYYYY
+TD74 4.4 📋 "lithe" ? YYYYY
+TD300 tried: LITHE Y Y Y Y Y
+TD640 5.1 📋 "track" ? ␅
+TD8225672 ␆nMnnn
+TD67 5.1 📋 "track" ? nMnnn
+TD113 tried: TRACK n m n n n
+TD129 5.2 📋 "smoky" ? ␅
+TD1356784 ␆nnMnn
+TD259 5.2 📋 "smoky" ? nnMnn
+TD702 tried: SMOKY n n m n n
+TD698 5.3 📋 "mocha" ? ␅
+TD1720138 ␆nYnnn
+TD87 5.3 📋 "mocha" ? nYnnn
+TD165 tried: MOCHA n Y n n n
+TD230 5.4 📋 "lithe" ? ␅
+TD2471658 ␆nnnnM
+TD59 5.4 📋 "lithe" ? nnnnM
+TD991 tried: LITHE n n n n m
+TD139 5.5> ␅
+TD877830 ␆*
+TD83 5.5> *
+TD145396 5.5 ? ␅
+TD1955162 ␆1
+TD76 5.5 ? 1
+TD170 5.5 📋 "rowed" ? ␅
+TD4266514 ␆YYYYn
+TD64 5.5 📋 "rowed" ? YYYYn
+TD121 tried: ROWED Y Y Y Y n
+TD119 5.6> ␅
+TD462559 ␆*
+TD111 5.6> *
+TD139512 5.6 ? ␅
+TD6434958 ␆2
+TD78 5.6 ? 2
+TD251 5.6 📋 "rower" ? ␅
+TD5669119 ␆YYYYY
+TD67 5.6 📋 "rower" ? YYYYY
+TD127 tried: ROWER Y Y Y Y Y
+TD173 📋> ␅
+TD3172931 ␆Hurdle 1691
+TD63 📋> Hurdle 1691
+TD9 📋> ␅
+TD27 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD8 ␆3/6
+TD4 📋> 3/6
+TD4 📋> ␅
+TD9 ␆🟩🟨⬜⬜🟨
+TD4 📋> 🟩🟨⬜⬜🟨
+TD4 📋> ␅
+TD8 ␆🟩🟩🟩⬜⬜
+TD8 📋> 🟩🟩🟩⬜⬜
+TD3 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD6 ␆4/6
+TD4 📋> 4/6
+TD3 📋> ␅
+TD7 ␆⬜⬜⬜⬜🟨
+TD4 📋> ⬜⬜⬜⬜🟨
+TD3 📋> ␅
+TD12 ␆⬜⬜🟨⬜🟨
+TD4 📋> ⬜⬜🟨⬜🟨
+TD4 📋> ␅
+TD9 ␆🟩⬜⬜🟩🟩
+TD3 📋> 🟩⬜⬜🟩🟩
+TD12 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD8 ␆4/6
+TD4 📋> 4/6
+TD3 📋> ␅
+TD7 ␆⬜🟨🟨⬜⬜
+TD4 📋> ⬜🟨🟨⬜⬜
+TD4 📋> ␅
+TD7 ␆⬜⬜🟨🟨⬜
+TD4 📋> ⬜⬜🟨🟨⬜
+TD3 📋> ␅
+TD7 ␆🟩⬜🟩⬜🟨
+TD4 📋> 🟩⬜🟩⬜🟨
+TD3 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD8 ␆4/6
+TD4 📋> 4/6
+TD3 📋> ␅
+TD8 ␆⬜⬜⬜🟩⬜
+TD4 📋> ⬜⬜⬜🟩⬜
+TD3 📋> ␅
+TD7 ␆🟨🟩⬜🟩🟨
+TD4 📋> 🟨🟩⬜🟩🟨
+TD3 📋> ␅
+TD8 ␆⬜⬜🟨⬜⬜
+TD5 📋> ⬜⬜🟨⬜⬜
+TD3 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD7 ␆Final 2/2
+TD4 📋> Final 2/2
+TD3 📋> ␅
+TD7 ␆🟩🟩🟩🟩⬜
+TD4 📋> 🟩🟩🟩🟩⬜
+TD4 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD216807 ␆score: 9,900
+TD187 📋> score: 9,900
+TD33 📋> ␅
+TD113950 ␄
+TD229 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1691\n\n3/6\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"}
+TD1811 result: "Hurdle 1691\n\n3/6\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c\n\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"
+TD106 📆 2026-08-19 ? ␅
+TD131389 ␆
+TD74 📆 2026-08-19 ? 
