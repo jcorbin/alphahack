@@ -1,0 +1,182 @@
+T17459.617147820012 now: 2026-08-19T12:26:33EDT
+TD104 site: https://www.merriam-webster.com/games/quordle/#/
+TD17 wordlist: nwl2023.txt
+TD5 num_words: 4
+TD84  ...␅
+TD894109 ␆
+TD84  ...
+TD540501 > ␅
+TD12534023 ␆*
+TD58 > *
+TD59496 ? ␅
+TD1845074 ␆1
+TD72 ? 1
+TD113 questioning: reaps
+TD174 Classic #1 _____? ␅
+TD8492937 ␆nmnnn
+TD57 Classic #1 _____? nmnnn
+TD223 attempt: 0 REAPS n m n n n
+TD54 Classic #2 _____? ␅
+TD2565322 ␆ynmnn
+TD84 Classic #2 _____? ynmnn
+TD209 attempt: 1 REAPS Y n m n n
+TD94 Classic #3 _____? ␅
+TD1895701 ␆nnnmn
+TD124 Classic #3 _____? nnnmn
+TD327 attempt: 2 REAPS n n n m n
+TD228 Classic #4 _____? ␅
+TD1342823 ␆nmmnn
+TD80 Classic #4 _____? nmmnn
+TD191 attempt: 3 REAPS n m m n n
+TD559613 > ␅
+TD1025526 ␆*
+TD128 > *
+TD4992 ? ␅
+TD1663736 ␆1
+TD103 ? 1
+TD179 questioning: dogie
+TD211 Classic #1 _____ ~E -APRS? ␅
+TD6580353 ␆nnmy
+TD72 Classic #1 _____ ~E -APRS? nnmy
+TD175 Classic #1 _____ ~E -APRS? ␅
+TD4647342 ␆nnmmy
+TD98 Classic #1 _____ ~E -APRS? nnmmy
+TD265 attempt: 0 DOGIE n n m m Y
+TD155 Classic #2 R____ ~A -EPS? ␅
+TD2300257 ␆nnnmb
+TD61 Classic #2 R____ ~A -EPS? nnnmb
+TD142 Classic #2 R____ ~A -EPS? ␅
+TD3537521 ␆nnnmn
+TD103 Classic #2 R____ ~A -EPS? nnnmn
+TD271 attempt: 1 DOGIE n n n m n
+TD153 Classic #3 _____ ~P -AERS? ␅
+TD2079951 ␆nmnmn
+TD88 Classic #3 _____ ~P -AERS? nmnmn
+TD238 attempt: 2 DOGIE n m n m n
+TD127 Classic #4 _____ ~AE -PRS? ␅
+TD2302270 ␆nnnmy
+TD90 Classic #4 _____ ~AE -PRS? nnnmy
+TD216 attempt: 3 DOGIE n n n m Y
+TD561103 > ␅
+TD2938930 ␆*
+TD84 > *
+TD674 ? ␅
+TD1616166 ␆1
+TD71 ? 1
+TD117 questioning: anile
+TD195 Classic #1 ____E ~GI -ADOPRS? ␅
+TD3322187 ␆nmmny
+TD110 Classic #1 ____E ~GI -ADOPRS? nmmny
+TD257 attempt: 0 ANILE n m m n Y
+TD155 Classic #2 R____ ~AI -DEGOPS? ␅
+TD1549964 ␆mnmmn
+TD104 Classic #2 R____ ~AI -DEGOPS? mnmmn
+TD192 attempt: 1 ANILE m n m m n
+TD111 Classic #3 _____ ~IOP -ADEGRS? ␅
+TD1421557 ␆nnmnn
+TD117 Classic #3 _____ ~IOP -ADEGRS? nnmnn
+TD201 attempt: 2 ANILE n n m n n
+TD111 Classic #4 ____E ~AI -DGOPRS? ␅
+TD1763008 ␆mnyny
+TD85 Classic #4 ____E ~AI -DGOPRS? mnyny
+TD248 attempt: 3 ANILE m n Y n Y
+TD548752 > ␅
+TD1190628 ␆*
+TD101 > *
+TD571 ? ␅
+TD2322872 ␆1
+TD87 ? 1
+TD157 questioning: rival
+TD197 Classic #1 ____E ~GIN -ADLOPRS? ␅
+TD2621119 ␆nynnn
+TD74 Classic #1 ____E ~GIN -ADLOPRS? nynnn
+TD181 attempt: 0 RIVAL n Y n n n
+TD105 Classic #2 R____ ~AIL -DEGNOPS? ␅
+TD1601772 ␆yyyyy
+TD72 Classic #2 R____ ~AIL -DEGNOPS? yyyyy
+TD163 attempt: 1 RIVAL Y Y Y Y Y
+TD98 Classic #3 _____ ~IOP -ADEGLNRS? ␅
+TD3634774 ␆nyynn
+TD105 Classic #3 _____ ~IOP -ADEGLNRS? nyynn
+TD284 attempt: 2 RIVAL n Y Y n n
+TD162 Classic #4 __I_E ~A -DGLNOPRS? ␅
+TD1225348 ␆nmnmn
+TD99 Classic #4 __I_E ~A -DGLNOPRS? nmnmn
+TD268 attempt: 3 RIVAL n m n m n
+TD378783 > ␅
+TD2005455 ␆*
+TD68 > *
+TD256 questioning: pivot
+TD99 Classic #1 _I__E ~GN -ADLOPRSV? ␅
+TD2975355 ␆nynnn
+TD218 Classic #1 _I__E ~GN -ADLOPRSV? nynnn
+TD403 attempt: 0 PIVOT n Y n n n
+TD400 Classic #3 _IV__ ~OP -ADEGLNRS? ␅
+TD1422627 ␆yyyyy
+TD97 Classic #3 _IV__ ~OP -ADEGLNRS? yyyyy
+TD211 attempt: 2 PIVOT Y Y Y Y Y
+TD125 Classic #4 __I_E ~A -DGLNOPRSV? ␅
+TD3055129 ␆nmnnn
+TD116 Classic #4 __I_E ~A -DGLNOPRSV? nmnnn
+TD319 attempt: 3 PIVOT n m n n n
+TD317878 > ␅
+TD868865 ␆*
+TD83 > *
+TD329 ? ␅
+TD2267490 ␄
+TD195 <EOF>
+TD243434 > ␅
+TD1034451 ␆* 4
+TD79 > * 4
+TD124669 ? ␅
+TD2970141 ␆1
+TD111 ? 1
+TD165 questioning: baize
+TD138 Classic #1 _I__E ~GN -ADLOPRSTV? ␅
+TD3841005 ␄
+TD95 <EOF>
+TD244796 > ␅
+TD1066006 ␆*
+TD60 > *
+TD243 ? ␅
+TD968671 ␆1
+TD80 ? 1
+TD122 questioning: binge
+TD126 Classic #1 _I__E ~GN -ADLOPRSTV? ␅
+TD3085197 ␆YYYYY
+TD54 Classic #1 _I__E ~GN -ADLOPRSTV? YYYYY
+TD109 attempt: 0 BINGE Y Y Y Y Y
+TD62 Classic #4 __I_E ~A -DGLNOPRSTV? ␅
+TD2348709 ␆nMnnY
+TD80 Classic #4 __I_E ~A -DGLNOPRSTV? nMnnY
+TD178 attempt: 3 BINGE n m n n Y
+TD162688 > ␅
+TD665329 ␆*
+TD82 > *
+TD350 questioning: maize
+TD157 Classic #4 __I_E ~A -BDGLNOPRSTV? ␅
+TD3239671 ␆YYYYY
+TD71 Classic #4 __I_E ~A -BDGLNOPRSTV? YYYYY
+TD173 attempt: 3 MAIZE Y Y Y Y Y
+TD220 📋> ␅
+TD4541068 ␆🙂 Daily Quordle 1668
+TD55 📋> 🙂 Daily Quordle 1668
+TD6 📋> ␅
+TD21 ␆6️⃣4️⃣
+TD4 📋> 6️⃣4️⃣
+TD3 📋> ␅
+TD7 ␆5️⃣7️⃣
+TD3 📋> 5️⃣7️⃣
+TD3 📋> ␅
+TD6 ␆m-w.com/games/quordle/
+TD3 📋> m-w.com/games/quordle/
+TD3 📋> ␅
+TD201116 ␆
+TD61 📋> 
+TD8 📋> ␅
+TD169557 ␄
+TD88 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1668\n6\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD934 result: "\ud83d\ude42 Daily Quordle 1668\n6\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD46 📆 2026-08-19 ? ␅
+TD150388 ␆
+TD57 📆 2026-08-19 ? 
