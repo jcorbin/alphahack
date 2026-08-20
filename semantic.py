@@ -448,7 +448,7 @@ def find_match_words(match: re.Match[str]):
         if not isinstance(term, str) or not term: continue
         # print('TERM', repr(term))
         for word in spliterate(term, " ", trim=True):
-            for match in re.finditer(r'\w+', word):
+            for match in re.finditer(r'[^\W\d_]+', word):
                 yield n, match.group(0)
 
 def match_between(
