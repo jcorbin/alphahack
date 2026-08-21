@@ -1,0 +1,279 @@
+T979.0748287579627 now: 2026-08-21T08:21:43EDT
+TD214 site: squareword.org
+TD51 wordlist: nwl2023.txt
+TD74  ...␅
+TD926723 ␆
+TD78  ...
+TD59 🧩  ? ␅
+TD5290692 ␆#1663
+TD123 🧩  ? #1663
+TD342 puzzle_id: #1663
+TD731 > ␅
+TD577955 ␆
+TD135 > 
+TD682 > ␅
+TD1025289 ␆*
+TD128 > *
+TD249048 try? ␅
+TD428084 ␆1
+TD128 try? 1
+TD378 questioning: ["arise", "#5"]
+TD426 #1 <IndexError>  📋 "arise" ? ␅
+TD3697672 ␆_____ ~ RSE
+TD132 #1 <IndexError>  📋 "arise" ? _____ ~ RSE
+TD1178 attempt 0 ARISE n m n m m
+TD200 #2 <IndexError>  📋 "arise" ? ␅
+TD2261767 ␆__I_E 
+TD122 #2 <IndexError>  📋 "arise" ? __I_E 
+TD421 attempt 1 ARISE n n Y n Y
+TD216 #3 <IndexError>  📋 "arise" ? ␅
+TD2950924 ␆A___E 
+TD66 #3 <IndexError>  📋 "arise" ? A___E 
+TD171 attempt 2 ARISE Y n n n Y
+TD85 #4 <IndexError>  📋 "arise" ? ␅
+TD2872842 ␆_____ ~ IE
+TD136 #4 <IndexError>  📋 "arise" ? _____ ~ IE
+TD364 attempt 3 ARISE n n m n m
+TD195 #5 <IndexError>  📋 "arise" ? ␅
+TD2475242 ␆_____ ~ RSE
+TD208 #5 <IndexError>  📋 "arise" ? _____ ~ RSE
+TD578 attempt 4 ARISE n m n m m
+TD939 ? ␅
+TD1866060 ␆
+TD151 ? 
+TD238 question done
+TD708 > ␅
+TD809534 ␆* 4
+TD122 > * 4
+TD434765 try? ␅
+TD2073275 ␆3
+TD132 try? 3
+TD344 questioning: ["devil", "#4"]
+TD455 #1 _____ ~ERS -AI  📋 "devil" ? ␅
+TD3509581 ␆.
+TD60 #1 _____ ~ERS -AI  📋 "devil" ? .
+TD143 attempt 0 DEVIL n m n n n
+TD51 #2 __I_E -ARS  📋 "devil" ? ␅
+TD3098322 ␆__I_E ~ L
+TD108 #2 __I_E -ARS  📋 "devil" ? __I_E ~ L
+TD328 attempt 1 DEVIL n n n n m
+TD206 #3 A___E -IRS  📋 "devil" ? ␅
+TD2724432 ␆A___E ~ D
+TD126 #3 A___E -IRS  📋 "devil" ? A___E ~ D
+TD337 attempt 2 DEVIL m n n n n
+TD224 #4 _____ ~EI -ARS  📋 "devil" ? ␅
+TD6248927 ␆_____ ~ IED
+TD88 #4 _____ ~EI -ARS  📋 "devil" ? _____ ~ IED
+TD193 attempt 3 DEVIL m m n m n
+TD116 #5 _____ ~ERS -AI  📋 "devil" ? ␅
+TD2359116 ␆_E___ ~ RSE
+TD146 #5 _____ ~ERS -AI  📋 "devil" ? _E___ ~ RSE
+TD403 attempt 4 DEVIL n Y n n n
+TD867 ? ␅
+TD419174 ␆
+TD128 ? 
+TD193 question done
+TD382 > ␅
+TD1111603 ␆* 
+TD87 > * 
+TD705685 try? ␅
+TD578580 ␄
+TD215 <EOF>
+TD666 > ␅
+TD1607903 ␆* 4
+TD63 > * 4
+TD2356 try? ␅
+TD2378410 ␆1
+TD127 try? 1
+TD322 questioning: ["pined", "#4"]
+TD500 #1 _____ ~ERS -ADILV  📋 "pined" ? ␅
+TD6211638 ␆___E_ ~ RS
+TD72 #1 _____ ~ERS -ADILV  📋 "pined" ? ___E_ ~ RS
+TD257 attempt 0 PINED n n n Y n
+TD164 #2 __I_E ~L -ADEIRSV  📋 "pined" ? ␅
+TD2875538 ␆__I_E ~ L
+TD67 #2 __I_E ~L -ADEIRSV  📋 "pined" ? __I_E ~ L
+TD153 attempt 1 PINED n n n n n
+TD104 #3 A___E ~D -EILRSV  📋 "pined" ? ␅
+TD2857946 ␆A___E ~ D
+TD400 #3 A___E ~D -EILRSV  📋 "pined" ? A___E ~ D
+TD492 attempt 2 PINED n n n n m
+TD256 #4 _____ ~DEI -ALRSV  📋 "pined" ? ␅
+TD1686877 ␆_I_ED
+TD144 #4 _____ ~DEI -ALRSV  📋 "pined" ? _I_ED
+TD362 attempt 3 PINED n Y n Y Y
+TD220 #5 _E___ ~RS -ADILV  📋 "pined" ? ␅
+TD2422061 ␆PE___ ~ RSE
+TD124 #5 _E___ ~RS -ADILV  📋 "pined" ? PE___ ~ RSE
+TD392 attempt 4 PINED Y n n m n
+TD679 ? ␅
+TD294887 ␆
+TD93 ? 
+TD128 question done
+TD315 > ␅
+TD483732 ␆*
+TD179 > *
+TD917643 questioning: ["peers", "#5"]
+TD193 #1 ___E_ ~RS -ADILNPV  📋 "peers" ? ␅
+TD4001243 ␆.
+TD95 #1 ___E_ ~RS -ADILNPV  📋 "peers" ? .
+TD256 attempt 0 PEERS n n n m m
+TD110 #2 __I_E ~L -ADEINPRSV  📋 "peers" ? ␅
+TD1277969 ␆.
+TD82 #2 __I_E ~L -ADEINPRSV  📋 "peers" ? .
+TD221 attempt 1 PEERS n n n n n
+TD85 #3 A___E ~D -EILNPRSV  📋 "peers" ? ␅
+TD1104639 ␆.
+TD138 #3 A___E ~D -EILNPRSV  📋 "peers" ? .
+TD344 attempt 2 PEERS n n n n n
+TD163 #4 _I_ED -ALNPRSV  📋 "peers" ? ␅
+TD1258478 ␆
+TD119 #4 _I_ED -ALNPRSV  📋 "peers" ? 
+TD394 #4 _I_ED -ALNPRSV  ? ␅
+TD1576696 ␆.
+TD103 #4 _I_ED -ALNPRSV  ? .
+TD299 attempt 3 PEERS n n n n n
+TD153 #5 PE___ ~RS -ADILNV  📋 "peers" ? ␅
+TD623840 ␆/it
+TD138 #5 PE___ ~RS -ADILNV  📋 "peers" ? /it
+TD353 attempt 4 PEERS Y Y Y Y Y
+TD496 ? ␅
+TD153334 ␆
+TD135 ? 
+TD148 question done
+TD580 > ␅
+TD569245 ␆*
+TD121 > *
+TD508571 try? ␅
+TD2304003 ␆1
+TD120 try? 1
+TD318 questioning: ["miked", "#4"]
+TD450 #1 ___E_ ~RS -ADEILNPV  📋 "miked" ? ␅
+TD4510538 ␆.
+TD162 #1 ___E_ ~RS -ADEILNPV  📋 "miked" ? .
+TD401 attempt 0 MIKED n n n Y n
+TD174 #2 __I_E ~L -ADEINPRSV  📋 "miked" ? ␅
+TD5567960 ␆__I_E ~ LM
+TD104 #2 __I_E ~L -ADEINPRSV  📋 "miked" ? __I_E ~ LM
+TD251 attempt 1 MIKED m n n n n
+TD164 #3 A___E ~D -EILNPRSV  📋 "miked" ? ␅
+TD3161423 ␆A___E ~ D
+TD245 #3 A___E ~D -EILNPRSV  📋 "miked" ? A___E ~ D
+TD587 attempt 2 MIKED n n n n m
+TD356 #4 _I_ED -AELNPRSV  📋 "miked" ? ␅
+TD2819367 ␆MI_ED ~ M
+TD199 #4 _I_ED -AELNPRSV  📋 "miked" ? MI_ED ~ M
+TD739 attempt 3 MIKED Y Y n Y Y
+TD876 ? ␅
+TD141901 ␆
+TD57 ? 
+TD73 question done
+TD178 > ␅
+TD398413 ␆*
+TD184 > *
+TD1508654 questioning: ["clime", "#2"]
+TD194 #1 ___E_ ~RS -ADIKLMNPV  📋 "clime" ? ␅
+TD3662639 ␆.
+TD131 #1 ___E_ ~RS -ADIKLMNPV  📋 "clime" ? .
+TD364 attempt 0 CLIME n n n n n
+TD131 #2 __I_E ~LM -ADEIKNPRSV  📋 "clime" ? ␅
+TD616435 ␆/it
+TD121 #2 __I_E ~LM -ADEIKNPRSV  📋 "clime" ? /it
+TD329 attempt 1 CLIME Y Y Y Y Y
+TD120 #3 A___E ~D -EIKLMNPRSV  📋 "clime" ? ␅
+TD930611 ␆.
+TD95 #3 A___E ~D -EIKLMNPRSV  📋 "clime" ? .
+TD334 attempt 2 CLIME n n n n Y
+TD141 #4 MI_ED -AKLNPRSV  📋 "clime" ? ␅
+TD3762891 ␆MI_ED ~ M
+TD62 #4 MI_ED -AKLNPRSV  📋 "clime" ? MI_ED ~ M
+TD155 attempt 3 CLIME n n n m n
+TD278 ? ␅
+TD141906 ␆
+TD174 ? 
+TD270 question done
+TD874 > ␅
+TD432223 ␆*
+TD155 > *
+TD1941097 questioning: ["adobe", "#3"]
+TD190 #1 ___E_ ~RS -ACDEIKLMNPV  📋 "adobe" ? ␅
+TD7291338 ␆___E_ ~ RSOB
+TD136 #1 ___E_ ~RS -ACDEIKLMNPV  📋 "adobe" ? ___E_ ~ RSOB
+TD306 attempt 0 ADOBE n n m m n
+TD182 #3 A___E ~D -CIKLMNPRSV  📋 "adobe" ? ␅
+TD4271838 ␆/it
+TD171 #3 A___E ~D -CIKLMNPRSV  📋 "adobe" ? /it
+TD537 attempt 2 ADOBE Y Y Y Y Y
+TD515 #4 MI_ED -ACEIKLNPRSV  📋 "adobe" ? ␅
+TD2512841 ␆MI_ED ~ M
+TD130 #4 MI_ED -ACEIKLNPRSV  📋 "adobe" ? MI_ED ~ M
+TD320 attempt 3 ADOBE n n n n n
+TD524 ? ␅
+TD134505 ␆
+TD130 ? 
+TD136 question done
+TD405 > ␅
+TD427000 ␆*
+TD110 > *
+TD1690530 questioning: ["sober", "#1"]
+TD179 #1 ___E_ ~BORS -ACDEIKLMNPV  📋 "sober" ? ␅
+TD2762283 ␆/it
+TD99 #1 ___E_ ~BORS -ACDEIKLMNPV  📋 "sober" ? /it
+TD249 attempt 0 SOBER Y Y Y Y Y
+TD91 #4 MI_ED -ABCDEIKLNOPRSV  📋 "sober" ? ␅
+TD2335635 ␆MI_ED ~ M
+TD137 #4 MI_ED -ABCDEIKLNOPRSV  📋 "sober" ? MI_ED ~ M
+TD421 attempt 3 SOBER n n n Y n
+TD735 ? ␅
+TD164132 ␆
+TD63 ? 
+TD98 question done
+TD193 > ␅
+TD472150 ␆*
+TD109 > *
+TD1181337 questioning: ["mimed", "#4"]
+TD268 #4 MI_ED -ABCDIKLNOPRSV  📋 "mimed" ? ␅
+TD3511618 ␆/it
+TD131 #4 MI_ED -ABCDIKLNOPRSV  📋 "mimed" ? /it
+TD498 attempt 3 MIMED Y Y Y Y Y
+TD805 ? ␅
+TD327820 ␆
+TD127 ? 
+TD148 question done
+TD29460 📋> ␅
+TD4956540 ␆squareword.org 1663: 9 guesses
+TD118 📋> squareword.org 1663: 9 guesses
+TD98 📋> ␅
+TD67 ␆
+TD12 📋> 
+TD29 📋> ␅
+TD27 ␆🟨🟨🟨🟩🟨
+TD11 📋> 🟨🟨🟨🟩🟨
+TD47 📋> ␅
+TD26 ␆🟨🟨🟩🟨🟩
+TD18 📋> 🟨🟨🟩🟨🟩
+TD16 📋> ␅
+TD19 ␆🟩🟨🟨🟨🟩
+TD10 📋> 🟩🟨🟨🟨🟩
+TD18 📋> ␅
+TD20 ␆🟩🟩🟨🟩🟩
+TD8 📋> 🟩🟩🟨🟩🟩
+TD17 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD16 📋> ␅
+TD18 ␆
+TD9 📋> 
+TD17 📋> ␅
+TD24 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD17 📋> ␅
+TD241547 ␆#squareword #squareword1663
+TD193 📋> #squareword #squareword1663
+TD103 📋> ␅
+TD190967 ␄
+TD167 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1663: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1663"}
+TD706 result: "squareword.org 1663: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1663"
+TD95 📆 2026-08-21 ? ␅
+TD192512 ␆
+TD150 📆 2026-08-21 ? 
