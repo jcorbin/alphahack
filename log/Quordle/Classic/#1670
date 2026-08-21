@@ -1,0 +1,131 @@
+T650.4192474170122 now: 2026-08-21T08:16:15EDT
+TD160 site: https://www.merriam-webster.com/games/quordle/#/
+TD32 wordlist: nwl2023.txt
+TD12 num_words: 4
+TD195  ...␅
+TD350061 ␆
+TD119  ...
+TD446227 > ␅
+TD9931358 ␆*
+TD56 > *
+TD54239 ? ␅
+TD915564 ␆1
+TD54 ? 1
+TD85 questioning: rotes
+TD82 Classic #1 _____? ␅
+TD2890815 ␆MnnnM
+TD48 Classic #1 _____? MnnnM
+TD192 attempt: 0 ROTES m n n n m
+TD62 Classic #2 _____? ␅
+TD1329586 ␆nnMnM
+TD107 Classic #2 _____? nnMnM
+TD328 attempt: 1 ROTES n n m n m
+TD161 Classic #3 _____? ␅
+TD1230094 ␆nnnnM
+TD129 Classic #3 _____? nnnnM
+TD348 attempt: 2 ROTES n n n n m
+TD223 Classic #4 _____? ␅
+TD1241285 ␆nYnMM
+TD157 Classic #4 _____? nYnMM
+TD419 attempt: 3 ROTES n Y n m m
+TD506573 > ␅
+TD562012 ␆*
+TD90 > *
+TD3321 ? ␅
+TD872246 ␆1
+TD81 ? 1
+TD145 questioning: lysin
+TD154 Classic #1 _____ ~RS -EOT? ␅
+TD2836578 ␆nnMnY
+TD112 Classic #1 _____ ~RS -EOT? nnMnY
+TD299 attempt: 0 LYSIN n n m n Y
+TD174 Classic #2 _____ ~ST -EOR? ␅
+TD1561213 ␆MnMnn
+TD152 Classic #2 _____ ~ST -EOR? MnMnn
+TD366 attempt: 1 LYSIN m n m n n
+TD189 Classic #3 _____ ~S -EORT? ␅
+TD2549401 ␆MnYnM
+TD142 Classic #3 _____ ~S -EORT? MnYnM
+TD378 attempt: 2 LYSIN m n Y n m
+TD211 Classic #4 _O___ ~ES -RT? ␅
+TD1575622 ␆nnYnn
+TD69 Classic #4 _O___ ~ES -RT? nnYnn
+TD182 attempt: 3 LYSIN n n Y n n
+TD478163 > ␅
+TD861631 ␆*
+TD55 > *
+TD208 questioning: nasal
+TD89 Classic #1 ____N ~RS -EILOTY? ␅
+TD3921542 ␆MnMnn
+TD174 Classic #1 ____N ~RS -EILOTY? MnMnn
+TD398 attempt: 0 NASAL m n m n n
+TD250 Classic #2 _____ ~LST -EINORY? ␅
+TD1696627 ␆nMMnY
+TD54 Classic #2 _____ ~LST -EINORY? nMMnY
+TD124 attempt: 1 NASAL n m m n Y
+TD79 Classic #3 __S__ ~LN -EIORTY? ␅
+TD2035770 ␆YYYYY
+TD86 Classic #3 __S__ ~LN -EIORTY? YYYYY
+TD229 attempt: 2 NASAL Y Y Y Y Y
+TD116 Classic #4 _OS__ ~E -ILNRTY? ␅
+TD1341985 ␆nnYnn
+TD63 Classic #4 _OS__ ~E -ILNRTY? nnYnn
+TD151 attempt: 3 NASAL n n Y n n
+TD336773 > ␅
+TD631082 ␆*
+TD113 > *
+TD471 questioning: spurn
+TD233 Classic #1 ____N ~RS -AEILOTY? ␅
+TD4680228 ␆YYYYY
+TD131 Classic #1 ____N ~RS -AEILOTY? YYYYY
+TD269 attempt: 0 SPURN Y Y Y Y Y
+TD154 Classic #2 ____L ~AST -EINORY A:1? ␅
+TD1841655 ␆Ynnnn
+TD151 Classic #2 ____L ~AST -EINORY A:1? Ynnnn
+TD329 attempt: 1 SPURN Y n n n n
+TD165 Classic #4 _OS__ ~E -AILNRTY? ␅
+TD2307851 ␆MMnnn
+TD118 Classic #4 _OS__ ~E -AILNRTY? MMnnn
+TD251 attempt: 3 SPURN m m n n n
+TD215205 > ␅
+TD754217 ␆*
+TD89 > *
+TD348 questioning: stall
+TD136 Classic #2 S___L ~AT -EINOPRUY A:1? ␅
+TD3192165 ␆YYYYY
+TD113 Classic #2 S___L ~AT -EINOPRUY A:1? YYYYY
+TD333 attempt: 1 STALL Y Y Y Y Y
+TD199 Classic #4 _OS__ ~EP -AILNRTUY? ␅
+TD1327332 ␆Mnnnn
+TD171 Classic #4 _OS__ ~EP -AILNRTUY? Mnnnn
+TD611 attempt: 3 STALL m n n n n
+TD113852 > ␅
+TD426645 ␆*
+TD64 > *
+TD220 questioning: posse
+TD61 Classic #4 _OS__ ~EP -AILNRTUY? ␅
+TD3743759 ␆YYYYY
+TD149 Classic #4 _OS__ ~EP -AILNRTUY? YYYYY
+TD479 attempt: 3 POSSE Y Y Y Y Y
+TD112 📋> ␅
+TD5050113 ␆🙂 Daily Quordle 1670
+TD61 📋> 🙂 Daily Quordle 1670
+TD9 📋> ␅
+TD31 ␆4️⃣5️⃣
+TD5 📋> 4️⃣5️⃣
+TD4 📋> ␅
+TD8 ␆3️⃣6️⃣
+TD4 📋> 3️⃣6️⃣
+TD3 📋> ␅
+TD8 ␆m-w.com/games/quordle/
+TD4 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD309722 ␆
+TD139 📋> 
+TD29 📋> ␅
+TD138474 ␄
+TD301 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1670\n4\ufe0f\u20e35\ufe0f\u20e3\n3\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD3164 result: "\ud83d\ude42 Daily Quordle 1670\n4\ufe0f\u20e35\ufe0f\u20e3\n3\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD124 📆 2026-08-21 ? ␅
+TD168024 ␆
+TD74 📆 2026-08-21 ? 
