@@ -1,0 +1,190 @@
+T22201.150410149014 now: 2026-08-23T10:59:09EDT
+TD192 site: https://www.merriam-webster.com/games/quordle/#/
+TD39 wordlist: nwl2023.txt
+TD20 num_words: 4
+TD189  ...␅
+TD219533 ␆
+TD84  ...
+TD571276 > ␅
+TD12927015 ␆*
+TD181 > *
+TD75433 ? ␅
+TD247569 ␆1
+TD76 ? 1
+TD109 questioning: serai
+TD168 Classic #1 _____? ␅
+TD3866397 ␆MnnMn
+TD90 Classic #1 _____? MnnMn
+TD426 attempt: 0 SERAI m n n m n
+TD108 Classic #2 _____? ␅
+TD1207333 ␆nMnMn
+TD139 Classic #2 _____? nMnMn
+TD499 attempt: 1 SERAI n m n m n
+TD291 Classic #3 _____? ␅
+TD1716403 ␆nMYMn
+TD156 Classic #3 _____? nMYMn
+TD412 attempt: 2 SERAI n m Y m n
+TD215 Classic #4 _____? ␅
+TD1227295 ␆nnnYn
+TD124 Classic #4 _____? nnnYn
+TD362 attempt: 3 SERAI n n n Y n
+TD602105 > ␅
+TD73 ␆*
+TD7 > *
+TD3347 ? ␅
+TD806239 ␆1
+TD64 ? 1
+TD104 questioning: altos
+TD112 Classic #1 _____ ~AS -EIR? ␅
+TD2788948 ␆MnnnM
+TD103 Classic #1 _____ ~AS -EIR? MnnnM
+TD289 attempt: 0 ALTOS m n n n m
+TD120 Classic #2 _____ ~AE -IRS? ␅
+TD2472864 ␆MYnnn
+TD137 Classic #2 _____ ~AE -IRS? MYnnn
+TD325 attempt: 1 ALTOS m Y n n n
+TD197 Classic #3 __R__ ~AE -IS? ␅
+TD1421481 ␆Mnnnn
+TD97 Classic #3 __R__ ~AE -IS? Mnnnn
+TD277 attempt: 2 ALTOS m n n n n
+TD152 Classic #4 ___A_ -EIRS? ␅
+TD1279787 ␆MMnnn
+TD90 Classic #4 ___A_ -EIRS? MMnnn
+TD215 attempt: 3 ALTOS m m n n n
+TD524181 > ␅
+TD572157 ␆*
+TD126 > *
+TD1467 ? ␅
+TD10887371 ␆4
+TD82 ? 4
+TD112 questioning: cared
+TD110 Classic #1 _____ ~AS -EILORT? ␅
+TD3894790 ␆YMnnn
+TD76 Classic #1 _____ ~AS -EILORT? YMnnn
+TD185 attempt: 0 CARED Y m n n n
+TD105 Classic #2 _L___ ~AE -IORST? ␅
+TD1485511 ␆nMnMn
+TD106 Classic #2 _L___ ~AE -IORST? nMnMn
+TD252 attempt: 1 CARED n m n m n
+TD232 Classic #3 __R__ ~AE -ILOST? ␅
+TD1947484 ␆nYYYn
+TD129 Classic #3 __R__ ~AE -ILOST? nYYYn
+TD284 attempt: 2 CARED n Y Y Y n
+TD157 Classic #4 ___A_ ~L -EIORST? ␅
+TD1743349 ␆nMnnn
+TD101 Classic #4 ___A_ ~L -EIORST? nMnnn
+TD229 attempt: 3 CARED n m n n n
+TD482355 > ␅
+TD683544 ␆*
+TD55 > *
+TD202 questioning: chasm
+TD76 Classic #1 C____ ~AS -DEILORT? ␅
+TD3188233 ␆YYYYY
+TD196 Classic #1 C____ ~AS -DEILORT? YYYYY
+TD319 attempt: 0 CHASM Y Y Y Y Y
+TD161 Classic #2 _L___ ~AE -CDIORST? ␅
+TD3942396 ␆nnYnM
+TD69 Classic #2 _L___ ~AE -CDIORST? nnYnM
+TD138 attempt: 1 CHASM n n Y n m
+TD64 Classic #3 _ARE_ -CDILOST? ␅
+TD1818719 ␆nnMnn
+TD246 Classic #3 _ARE_ -CDILOST? nnMnn
+TD388 attempt: 2 CHASM n n m n n
+TD233 Classic #4 ___A_ ~L -CDEIORST? ␅
+TD1272204 ␆nnMnn
+TD141 Classic #4 ___A_ ~L -CDEIORST? nnMnn
+TD336 attempt: 3 CHASM n n m n n
+TD394102 > ␅
+TD684083 ␆*
+TD64 > *
+TD348 ? ␅
+TD1810267 ␄
+TD154 <EOF>
+TD371420 > ␅
+TD1113036 ␆* 4
+TD104 > * 4
+TD131457 ? ␅
+TD3918470 ␆3
+TD81 ? 3
+TD159 questioning: bylaw
+TD133 Classic #2 _LA__ ~EM -CDHIORST? ␅
+TD4424706 ␆YnMMn
+TD176 Classic #2 _LA__ ~EM -CDHIORST? YnMMn
+TD326 attempt: 1 BYLAW Y n m m n
+TD178 Classic #3 _ARE_ -CDHILMOST? ␅
+TD1255923 ␆nnnMn
+TD106 Classic #3 _ARE_ -CDHILMOST? nnnMn
+TD255 attempt: 2 BYLAW n n n m n
+TD134 Classic #4 ___A_ ~L -CDEHIMORST? ␅
+TD1049301 ␆YYYYY
+TD73 Classic #4 ___A_ ~L -CDEHIMORST? YYYYY
+TD145 attempt: 3 BYLAW Y Y Y Y Y
+TD281038 > ␅
+TD844362 ␆*
+TD63 > *
+TD250 questioning: blame
+TD122 Classic #2 BLA__ ~EM -CDHIORSTWY? ␅
+TD2754609 ␆YYYYY
+TD76 Classic #2 BLA__ ~EM -CDHIORSTWY? YYYYY
+TD194 attempt: 1 BLAME Y Y Y Y Y
+TD122 Classic #3 _ARE_ -BCDHILMOSTWY? ␅
+TD1585645 ␆nnMnM
+TD129 Classic #3 _ARE_ -BCDHILMOSTWY? nnMnM
+TD369 attempt: 2 BLAME n n m n m
+TD125443 > ␅
+TD790491 ␆*
+TD69 > *
+TD459 ? ␅
+TD33290715 ␄
+TD197 <EOF>
+TD123802 > ␅
+TD3237373 ␆tried frump
+TD119 > tried frump
+TD591 questioning: FRUMP
+T15.17653416696703 now: 2026-08-23T11:01:39EDT
+TD74 questioning: FRUMP
+TD101 Classic #3 _ARE_ -BCDHILMOSTWY? ␅
+TD2562972 ␆nMnnM
+TD122 Classic #3 _ARE_ -BCDHILMOSTWY? nMnnM
+TD481 attempt: 2 FRUMP n m n n m
+TD166579 > ␅
+TD986527 ␆*
+TD68 > *
+TD645 ? ␅
+TD2039116 ␆1
+TD116 ? 1
+TD193 questioning: paren
+TD231 Classic #3 _ARE_ ~P -BCDFHILMOSTUWY? ␅
+TD2840103 ␆YYYYn
+TD113 Classic #3 _ARE_ ~P -BCDFHILMOSTUWY? YYYYn
+TD250 attempt: 2 PAREN Y Y Y Y n
+TD132577 > ␅
+TD288467 ␆*
+TD118 > *
+TD526 questioning: parer
+TD192 Classic #3 PARE_ -BCDFHILMNOSTUWY? ␅
+TD4273806 ␆YYYYY
+TD110 Classic #3 PARE_ -BCDFHILMNOSTUWY? YYYYY
+TD231 attempt: 2 PARER Y Y Y Y Y
+TD120 📋> ␅
+TD10731502 ␆🙂 Daily Quordle 1672
+TD120 📋> 🙂 Daily Quordle 1672
+TD42 📋> ␅
+TD69 ␆4️⃣6️⃣
+TD27 📋> 4️⃣6️⃣
+TD22 📋> ␅
+TD42 ␆9️⃣5️⃣
+TD25 📋> 9️⃣5️⃣
+TD22 📋> ␅
+TD40 ␆m-w.com/games/quordle/
+TD22 📋> m-w.com/games/quordle/
+TD21 📋> ␅
+TD218979 ␆
+TD86 📋> 
+TD23 📋> ␅
+TD150853 ␄
+TD203 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1672\n4\ufe0f\u20e36\ufe0f\u20e3\n9\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD3416 result: "\ud83d\ude42 Daily Quordle 1672\n4\ufe0f\u20e36\ufe0f\u20e3\n9\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD198 📆 2026-08-23 ? ␅
+TD353839 ␆
+TD68 📆 2026-08-23 ? 
