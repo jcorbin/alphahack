@@ -3097,3 +3097,78 @@ TD135 [prior:2173]>
 TD31474 [prior:2173]> ␅
 TD1090645 ␆/store
 TD125 [prior:2173]> /store
+T21403.484975064 now: 2026-08-23T10:45:51EDT
+TD244 [f]inalize, [a]rchive, [r]emove, or [c]ontinue? ␅
+TD1551914 ␆fin
+TD122 [f]inalize, [a]rchive, [r]emove, or [c]ontinue? fin
+TD258 📋> ␅
+TD5736747 ␆✨ Spaceword.org Daily 2026-08-22 ✨
+TD115 📋> ✨ Spaceword.org Daily 2026-08-22 ✨
+TD21 📋> ␅
+TD51 ␆
+TD11 📋> 
+TD9 📋> ␅
+TD21 ␆🏆 Score: 2173
+TD9 📋> 🏆 Score: 2173
+TD8 📋> ␅
+TD19 ␆🏅 Final Rank: -
+TD9 📋> 🏅 Final Rank: -
+TD9 📋> ␅
+TD20 ␆🧩 Tiles: 21/21 ✅
+TD10 📋> 🧩 Tiles: 21/21 ✅
+TD24 📋> ␅
+TD35 ␆📏 Space Bonus: +73
+TD10 📋> 📏 Space Bonus: +73
+TD9 📋> ␅
+TD19 ␆
+TD10 📋> 
+TD8 📋> ␅
+TD18 ␆
+TD9 📋> 
+TD10 📋> ␅
+TD20 ␆Play at https://spaceword.org
+TD10 📋> Play at https://spaceword.org
+TD9 📋> ␅
+TD336469 ␆#spaceword
+TD112 📋> #spaceword
+TD21 📋> ␅
+TD261695 ␄
+TD199 pasted: {"subject": "final share result", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-08-22 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Final Rank: -\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TD375 result: "\u2728 Spaceword.org Daily 2026-08-22 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Final Rank: -\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"
+TD210 📋> ␅
+TD2068238 ␄
+TD141 pasted: {"subject": "final share result", "method": "read:must:stdin", "content": ""}
+TD122 📋> ␅
+TD21946420 ␆✨ Spaceword.org Daily 2026-08-22 ✨
+TD301 📋> ✨ Spaceword.org Daily 2026-08-22 ✨
+TD46 📋> ␅
+TD65 ␆
+TD12 📋> 
+TD9 📋> ␅
+TD23 ␆🏆 Score: 2173
+TD9 📋> 🏆 Score: 2173
+TD9 📋> ␅
+TD20 ␆🏅 Final Rank: 25/310 🏅
+TD9 📋> 🏅 Final Rank: 25/310 🏅
+TD10 📋> ␅
+TD19 ␆🧩 Tiles: 21/21 ✅
+TD10 📋> 🧩 Tiles: 21/21 ✅
+TD10 📋> ␅
+TD24 ␆📏 Space Bonus: +73
+TD9 📋> 📏 Space Bonus: +73
+TD8 📋> ␅
+TD17 ␆
+TD10 📋> 
+TD8 📋> ␅
+TD17 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD17 ␆Play at https://spaceword.org
+TD10 📋> Play at https://spaceword.org
+TD10 📋> ␅
+TD216606 ␆#spaceword
+TD129 📋> #spaceword
+TD37 📋> ␅
+TD157455 ␄
+TD349 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-08-22 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Final Rank: 25/310 \ud83c\udfc5\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TD525 result: "\u2728 Spaceword.org Daily 2026-08-22 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Final Rank: 25/310 \ud83c\udfc5\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"
