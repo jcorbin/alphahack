@@ -1,0 +1,199 @@
+T974.5021209400147 now: 2026-08-24T08:35:03EDT
+TD129 site: https://www.merriam-webster.com/games/quordle/#/
+TD26 wordlist: nwl2023.txt
+TD10 num_words: 4
+TD156  ...␅
+TD229765 ␆
+TD112  ...
+TD498039 > ␅
+TD9168989 ␆*
+TD77 > *
+TD51026 ? ␅
+TD720767 ␆1
+TD99 ? 1
+TD186 questioning: aisle
+TD183 Classic #1 _____? ␅
+TD2694951 ␆Mnnnn
+TD115 Classic #1 _____? Mnnnn
+TD408 attempt: 0 AISLE m n n n n
+TD137 Classic #2 _____? ␅
+TD1255424 ␆nnnnY
+TD117 Classic #2 _____? nnnnY
+TD323 attempt: 1 AISLE n n n n Y
+TD136 Classic #3 _____? ␅
+TD1744002 ␆nnMnn
+TD114 Classic #3 _____? nnMnn
+TD209 attempt: 2 AISLE n n m n n
+TD87 Classic #4 _____? ␅
+TD1112442 ␆nnMnn
+TD126 Classic #4 _____? nnMnn
+TD403 attempt: 3 AISLE n n m n n
+TD467566 > ␅
+TD38652 ␆*
+TD91 > *
+TD5479 ? ␅
+TD916019 ␆1
+TD132 ? 1
+TD250 questioning: turds
+TD275 Classic #1 _____ ~A -EILS? ␅
+TD2562511 ␆nnMnn
+TD100 Classic #1 _____ ~A -EILS? nnMnn
+TD305 attempt: 0 TURDS n n m n n
+TD162 Classic #2 ____E -AILS? ␅
+TD1222378 ␆nnYnn
+TD205 Classic #2 ____E -AILS? nnYnn
+TD680 attempt: 1 TURDS n n Y n n
+TD134 Classic #3 _____ ~S -AEIL? ␅
+TD1594631 ␆nMMnM
+TD177 Classic #3 _____ ~S -AEIL? nMMnM
+TD356 attempt: 2 TURDS n m m n m
+TD192 Classic #4 _____ ~S -AEIL? ␅
+TD1152227 ␆nnnnM
+TD63 Classic #4 _____ ~S -AEIL? nnnnM
+TD138 attempt: 3 TURDS n n n n m
+TD495509 > ␅
+TD1044374 ␆*
+TD88 > *
+TD963 ? ␅
+TD1482150 ␆1
+TD75 ? 1
+TD117 questioning: organ
+TD120 Classic #1 _____ ~AR -DEILSTU? ␅
+TD3568763 ␆MMnMn
+TD93 Classic #1 _____ ~AR -DEILSTU? MMnMn
+TD266 attempt: 0 ORGAN m m n m n
+TD151 Classic #2 __R_E -ADILSTU? ␅
+TD1436849 ␆nMMnn
+TD78 Classic #2 __R_E -ADILSTU? nMMnn
+TD175 attempt: 1 ORGAN n m m n n
+TD97 Classic #3 _____ ~RSU -ADEILT? ␅
+TD1307861 ␆nYnnn
+TD157 Classic #3 _____ ~RSU -ADEILT? nYnnn
+TD536 attempt: 2 ORGAN n Y n n n
+TD327 Classic #4 _____ ~S -ADEILRTU? ␅
+TD1550028 ␆Mnnnn
+TD106 Classic #4 _____ ~S -ADEILRTU? Mnnnn
+TD515 attempt: 3 ORGAN m n n n n
+TD506077 > ␅
+TD825267 ␆*
+TD99 > *
+TD560 ? ␅
+TD965699 ␆1
+TD149 ? 1
+TD201 questioning: merge
+TD176 Classic #1 _____ ~AOR -DEGILNSTU? ␅
+TD2693497 ␆YnMnn
+TD85 Classic #1 _____ ~AOR -DEGILNSTU? YnMnn
+TD208 attempt: 0 MERGE Y n m n n
+TD130 Classic #2 __R_E ~G -ADILNOSTU? ␅
+TD2138282 ␆nYYYY
+TD73 Classic #2 __R_E ~G -ADILNOSTU? nYYYY
+TD167 attempt: 1 MERGE n Y Y Y Y
+TD89 Classic #3 _R___ ~SU -ADEGILNOT? ␅
+TD1572962 ␆nnMnn
+TD117 Classic #3 _R___ ~SU -ADEGILNOT? nnMnn
+TD289 attempt: 2 MERGE n n m n n
+TD174 Classic #4 _____ ~OS -ADEGILNRTU? ␅
+TD1325430 ␆nnnnn
+TD159 Classic #4 _____ ~OS -ADEGILNRTU? nnnnn
+TD387 attempt: 3 MERGE n n n n n
+TD471821 > ␅
+TD1363855 ␆*
+TD91 > *
+TD378 questioning: verge
+TD209 Classic #1 M____ ~AOR -DEGILNSTU? ␅
+TD4688637 ␆nnMnn
+TD63 Classic #1 M____ ~AOR -DEGILNSTU? nnMnn
+TD133 attempt: 0 VERGE n n m n n
+TD235 Classic #2 _ERGE -ADILMNOSTU? ␅
+TD1320636 ␆YYYYY
+TD64 Classic #2 _ERGE -ADILMNOSTU? YYYYY
+TD163 attempt: 1 VERGE Y Y Y Y Y
+TD81 Classic #3 _R___ ~SU -ADEGILMNOT? ␅
+TD1347675 ␆nnMnn
+TD118 Classic #3 _R___ ~SU -ADEGILMNOT? nnMnn
+TD362 attempt: 2 VERGE n n m n n
+TD235 Classic #4 _____ ~OS -ADEGILMNRTU? ␅
+TD882555 ␆nnnnn
+TD67 Classic #4 _____ ~OS -ADEGILMNRTU? nnnnn
+TD138 attempt: 3 VERGE n n n n n
+TD380459 > ␅
+TD1012487 ␆*
+TD52 > *
+TD279 ? ␅
+TD1105738 ␆1
+TD69 ? 1
+TD119 questioning: macro
+TD130 Classic #1 M____ ~AOR -DEGILNSTUV? ␅
+TD3080768 ␆YYnMM
+TD73 Classic #1 M____ ~AOR -DEGILNSTUV? YYnMM
+TD159 attempt: 0 MACRO Y Y n m m
+TD85 Classic #3 _R___ ~SU -ADEGILMNOTV? ␅
+TD2241921 ␆nnMMn
+TD144 Classic #3 _R___ ~SU -ADEGILMNOTV? nnMMn
+TD373 attempt: 2 MACRO n n m m n
+TD185 Classic #4 _____ ~OS -ADEGILMNRTUV? ␅
+TD1294469 ␆nnMnM
+TD107 Classic #4 _____ ~OS -ADEGILMNRTUV? nnMnM
+TD316 attempt: 3 MACRO n n m n m
+TD373576 > ␅
+TD593339 ␆*
+TD125 > *
+TD443 questioning: crush
+TD219 Classic #1 MA___ ~OR -CDEGILNSTUV? ␅
+TD2606252 ␆nMnnn
+TD99 Classic #1 MA___ ~OR -CDEGILNSTUV? nMnnn
+TD238 attempt: 0 CRUSH n m n n n
+TD127 Classic #3 _R___ ~CSU -ADEGILMNOTV? ␅
+TD1558233 ␆YYYYY
+TD68 Classic #3 _R___ ~CSU -ADEGILMNOTV? YYYYY
+TD159 attempt: 2 CRUSH Y Y Y Y Y
+TD87 Classic #4 _____ ~COS -ADEGILMNRTUV? ␅
+TD1962858 ␆MnnMn
+TD109 Classic #4 _____ ~COS -ADEGILMNRTUV? MnnMn
+TD294 attempt: 3 CRUSH m n n m n
+TD253259 > ␅
+TD741943 ␆*
+TD100 > *
+TD515 ? ␅
+TD1914913 ␆1
+TD78 ? 1
+TD147 questioning: major
+TD179 Classic #1 MA___ ~OR -CDEGHILNSTUV? ␅
+TD3891075 ␆YYYYY
+TD78 Classic #1 MA___ ~OR -CDEGHILNSTUV? YYYYY
+TD228 attempt: 0 MAJOR Y Y Y Y Y
+TD130 Classic #4 _____ ~COS -ADEGHILMNRTUV? ␅
+TD2242092 ␆nnnMn
+TD96 Classic #4 _____ ~COS -ADEGHILMNRTUV? nnnMn
+TD270 attempt: 3 MAJOR n n n m n
+TD132087 > ␅
+TD286091 ␆*
+TD87 > *
+TD409 questioning: scoff
+TD142 Classic #4 _____ ~COS -ADEGHIJLMNRTUV? ␅
+TD3116863 ␆YYYYY
+TD125 Classic #4 _____ ~COS -ADEGHIJLMNRTUV? YYYYY
+TD349 attempt: 3 SCOFF Y Y Y Y Y
+TD100 📋> ␅
+TD7796483 ␆🙂 Daily Quordle 1673
+TD106 📋> 🙂 Daily Quordle 1673
+TD27 📋> ␅
+TD69 ␆8️⃣5️⃣
+TD28 📋> 8️⃣5️⃣
+TD22 📋> ␅
+TD38 ␆7️⃣9️⃣
+TD17 📋> 7️⃣9️⃣
+TD16 📋> ␅
+TD34 ␆m-w.com/games/quordle/
+TD16 📋> m-w.com/games/quordle/
+TD17 📋> ␅
+TD202658 ␆
+TD140 📋> 
+TD35 📋> ␅
+TD127956 ␄
+TD188 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1673\n8\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2654 result: "\ud83d\ude42 Daily Quordle 1673\n8\ufe0f\u20e35\ufe0f\u20e3\n7\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD155 📆 2026-08-24 ? ␅
+TD352994 ␆
+TD119 📆 2026-08-24 ? 
