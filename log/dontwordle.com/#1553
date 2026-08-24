@@ -1,0 +1,169 @@
+T583.0610754500376 now: 2026-08-24T08:28:32EDT
+TD166 site: dontwordle.com
+TD29 wordlist: nwl2023.txt
+TD83  ...␅
+TD223578 ␆
+TD171  ...
+TD196 1> ␅
+TD7434365 ␆* -bot 10
+TD101 1> * -bot 10
+TD224345 ? ␅
+TD691176 ␆1
+TD126 ? 1
+TD312 📋 "rates" ? ␅
+TD3801558 ␆nnnnn
+TD89 📋 "rates" ? nnnnn
+TD437 tried: RATES n n n n n
+TD151 2> ␅
+TD830749 ␆undo
+TD80 2> undo
+TD87 undo
+TD63 1> ␅
+TD6330542 ␆* :v [rates] -bot 10
+TD99 1> * :v [rates] -bot 10
+TD166567 ? ␅
+TD906343 ␆1
+TD131 ? 1
+TD273 📋 "colin" ? ␅
+TD5744857 ␆nnYMn
+TD131 📋 "colin" ? nnYMn
+TD279 tried: COLIN n n Y m n
+TD310 2> ␅
+TD7140766 ␆undo
+TD135 2> undo
+TD176 undo
+TD196 1> ␅
+TD8989207 ␆*
+TD246 1> *
+TD167407 ? ␅
+TD3546775 ␆1
+TD125 ? 1
+TD252 📋 "heeze" ? ␅
+TD4011511 ␆nnnnn
+TD147 📋 "heeze" ? nnnnn
+TD290 tried: HEEZE n n n n n
+TD302 2> ␅
+TD541142 ␆*
+TD67 2> *
+TD123358 ? ␅
+TD153730 ␆1
+TD71 ? 1
+TD148 📋 "pampa" ? ␅
+TD4196462 ␆nnnnn
+TD93 📋 "pampa" ? nnnnn
+TD196 tried: PAMPA n n n n n
+TD215 3> ␅
+TD16173842 ␆* :v [ratescolin] -bot 10
+TD107 3> * :v [ratescolin] -bot 10
+TD110481 ? ␅
+TD1053551 ␆1
+TD139 ? 1
+TD345 📋 "buffy" ? ␅
+TD9315337 ␆YnnnY
+TD97 📋 "buffy" ? YnnnY
+TD140 tried: BUFFY Y n n n Y
+TD145 4> ␅
+TD990475 ␆undo
+TD100 4> undo
+TD167 undo
+TD318 3> ␅
+TD3226703 ␆*
+TD143 3> *
+TD109612 ? ␅
+TD1960269 ␆1
+TD173 ? 1
+TD336 📋 "jujus" ? ␅
+TD4636649 ␆nnnnn
+TD131 📋 "jujus" ? nnnnn
+TD328 tried: JUJUS n n n n n
+TD451 4> ␅
+TD488565 ␆*
+TD144 4> *
+TD117257 ? ␅
+TD777118 ␆1
+TD130 ? 1
+TD258 📋 "rotor" ? ␅
+TD3681366 ␆nnnnn
+TD94 📋 "rotor" ? nnnnn
+TD176 tried: ROTOR n n n n n
+TD175 5> ␅
+TD433934 ␆*
+TD120 5> *
+TD210940 ? ␅
+TD874856 ␆1
+TD67 ? 1
+TD158 📋 "civic" ? ␅
+TD5755622 ␆nYnnn
+TD224 📋 "civic" ? nYnnn
+TD507 tried: CIVIC n Y n n n
+TD690 6> ␅
+TD457735 ␆*
+TD159 6> *
+TD205111 ? ␅
+TD1039444 ␆1
+TD231 ? 1
+TD443 📋 "bindi" ? ␅
+TD4134820 ␄
+TD124 <EOF>
+TD224 6> ␅
+TD1900894 ␆* -sans
+TD81 6> * -sans
+TD109494 ? ␅
+TD1588411 ␆1
+TD221 ? 1
+TD465 📋 "ninny" ? ␅
+TD4889953 ␆nYnnY
+TD163 📋 "ninny" ? nYnnY
+TD351 tried: NINNY n Y n n Y
+TD851 📋> ␅
+TD2737120 ␆Don't Wordle 1553 - SURVIVED
+TD155 📋> Don't Wordle 1553 - SURVIVED
+TD23 📋> ␅
+TD65 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD21 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD18 📋> ␅
+TD40 ␆⬜⬜⬜⬜⬜5957
+TD30 📋> ⬜⬜⬜⬜⬜5957
+TD17 📋> ␅
+TD26 ␆⬜⬜⬜⬜⬜2027
+TD11 📋> ⬜⬜⬜⬜⬜2027
+TD10 📋> ␅
+TD21 ␆⬜⬜⬜⬜⬜544
+TD10 📋> ⬜⬜⬜⬜⬜544
+TD10 📋> ␅
+TD23 ␆⬜⬜⬜⬜⬜88
+TD11 📋> ⬜⬜⬜⬜⬜88
+TD10 📋> ␅
+TD23 ␆⬜🟩⬜⬜⬜32
+TD12 📋> ⬜🟩⬜⬜⬜32
+TD10 📋> ␅
+TD27 ␆⬜🟩⬜⬜🟩17
+TD11 📋> ⬜🟩⬜⬜🟩17
+TD9 📋> ␅
+TD20 ␆Undos used: 3
+TD13 📋> Undos used: 3
+TD11 📋> ␅
+TD21 ␆
+TD10 📋> 
+TD9 📋> ␅
+TD18 ␆  17 words remaining
+TD9 📋>   17 words remaining
+TD10 📋> ␅
+TD20 ␆x 9 unused letters
+TD10 📋> x 9 unused letters
+TD9 📋> ␅
+TD19 ␆= 153 total score
+TD10 📋> = 153 total score
+TD10 📋> ␅
+TD20 ␆
+TD10 📋> 
+TD11 📋> ␅
+TD213325 ␆https://dontwordle.com
+TD53 📋> https://dontwordle.com
+TD7 📋> ␅
+TD119852 ␄
+TD92 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1553 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5957\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2027\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c544\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c88\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c32\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe917\nUndos used: 3\n\n  17 words remaining\nx 9 unused letters\n= 153 total score\n\nhttps://dontwordle.com"}
+TD756 result: "Don't Wordle 1553 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5957\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2027\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c544\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c88\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c32\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe917\nUndos used: 3\n\n  17 words remaining\nx 9 unused letters\n= 153 total score\n\nhttps://dontwordle.com"
+TD73 📆 2026-08-24 ? ␅
+TD186892 ␆
+TD210 📆 2026-08-24 ? 
