@@ -1,0 +1,94 @@
+T543.3516176060075 now: 2026-08-24T08:27:52EDT
+TD227 site: alphaguess.com
+TD162113 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 8f227367d370bfe1c25e48663b98ef173808c7af
+TD93  ...␅
+TD5788662 ␆
+TD130  ...
+TD226 [0 : 98147 : 196518] mac? ␅
+TD2577659 ␆b
+TD195 [0 : 98147 : 196518] mac? b
+TD208 progress: -1 98147 mac
+TD274 [0 : 47378 : 98147] dis? ␅
+TD1605906 ␆a
+TD67 [0 : 47378 : 98147] dis? a
+TD69 progress: 1 47378 dis
+TD72 [47379 : 72662 : 98147] green? ␅
+TD1365475 ␆a
+TD159 [47379 : 72662 : 98147] green? a
+TD212 progress: 1 72662 green
+TD214 [72663 : 85397 : 98147] inocula? ␅
+TD1359851 ␆a
+TD120 [72663 : 85397 : 98147] inocula? a
+TD140 progress: 1 85397 inocula
+TD432 [85398 : 91772 : 98147] knight? ␅
+TD1278780 ␆a
+TD205 [85398 : 91772 : 98147] knight? a
+TD267 progress: 1 91772 knight
+TD235 [91773 : 94949 : 98147] libel? ␅
+TD1382302 ␆b
+TD157 [91773 : 94949 : 98147] libel? b
+TD198 progress: -1 94949 libel
+TD223 [91773 : 93262 : 94949] lar? ␅
+TD1296994 ␆a
+TD203 [91773 : 93262 : 94949] lar? a
+TD220 progress: 1 93262 lar
+TD195 [93263 : 93890 : 94949] lea? ␅
+TD1178810 ␆a
+TD66 [93263 : 93890 : 94949] lea? a
+TD72 progress: 1 93890 lea
+TD76 [93891 : 94399 : 94949] lei? ␅
+TD1254695 ␆a
+TD190 [93891 : 94399 : 94949] lei? a
+TD218 progress: 1 94399 lei
+TD256 [94400 : 94662 : 94949] letter? ␅
+TD1333715 ␆b
+TD119 [94400 : 94662 : 94949] letter? b
+TD131 progress: -1 94662 letter
+TD141 [94400 : 94527 : 94662] lent? ␅
+TD1281813 ␆a
+TD117 [94400 : 94527 : 94662] lent? a
+TD135 progress: 1 94527 lent
+TD145 [94528 : 94590 : 94662] lept? ␅
+TD1286781 ␆a
+TD67 [94528 : 94590 : 94662] lept? a
+TD70 progress: 1 94590 lept
+TD71 [94591 : 94622 : 94662] less? ␅
+TD2709596 ␆a
+TD115 [94591 : 94622 : 94662] less? a
+TD137 progress: 1 94622 less
+TD145 [94623 : 94639 : 94662] let? ␅
+TD1400925 ␆b
+TD114 [94623 : 94639 : 94662] let? b
+TD137 progress: -1 94639 let
+TD276 [94623 : 94627 : 94639] lessen? ␅
+TD1439354 ␆a
+TD103 [94623 : 94627 : 94639] lessen? a
+TD116 progress: 1 94627 lessen
+TD222 [94628 : 94632 : 94639] lesson? ␅
+TD2602095 ␆it
+TD139 [94628 : 94632 : 94639] lesson? it
+TD183 progress: 0 94632 lesson
+TD61 [94628 : 94632 : 94639] <Done>.
+TD174 📋> ␅
+TD3838364 ␆🧩 Puzzle #1127
+TD116 📋> 🧩 Puzzle #1127
+TD31 📋> ␅
+TD67 ␆🤔 16 guesses
+TD27 📋> 🤔 16 guesses
+TD69 📋> ␅
+TD44 ␆⏱️ 21s
+TD25 📋> ⏱️ 21s
+TD22 📋> ␅
+TD316271 ␆🔗 alphaguess.com/1127
+TD68 📋> 🔗 alphaguess.com/1127
+TD13 📋> ␅
+TD120150 ␄
+TD119 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1127\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/1127"}
+TD75 result: "\ud83e\udde9 Puzzle #1127\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/1127"
+TD18 result puzzle: 1127
+TD12 result guesses: 16
+TD10 result time: 21s
+TD9 result link: alphaguess.com/1127
+TD66 📆 2026-08-24 ? ␅
+TD374463 ␆
+TD108 📆 2026-08-24 ? 
