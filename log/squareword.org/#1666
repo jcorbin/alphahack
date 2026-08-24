@@ -1,0 +1,202 @@
+T369.23627091001254 now: 2026-08-24T08:43:13EDT
+TD98 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD24  ...␅
+TD319392 ␆
+TD100  ...
+TD75 🧩  ? ␅
+TD9588120 ␆
+TD64 🧩  ? 
+TD102  ...␅
+TD796713 ␆
+TD111  ...
+TD81 🧩  ? ␅
+TD2021788 ␆#1666
+TD110 🧩  ? #1666
+TD325 puzzle_id: #1666
+TD348 > ␅
+TD692820 ␆*
+TD57 > *
+TD265053 try? ␅
+TD686840 ␆1
+TD159 try? 1
+TD502 questioning: ["toeas", "#5"]
+TD735 #1 <IndexError>  📋 "toeas" ? ␅
+TD6053448 ␆_____ ~ AS
+TD107 #1 <IndexError>  📋 "toeas" ? _____ ~ AS
+TD1008 attempt 0 TOEAS n n n m m
+TD177 #2 <IndexError>  📋 "toeas" ? ␅
+TD2308211 ␆T____ ~ TEA
+TD143 #2 <IndexError>  📋 "toeas" ? T____ ~ TEA
+TD478 attempt 1 TOEAS Y n m m n
+TD212 #3 <IndexError>  📋 "toeas" ? ␅
+TD3068150 ␆_____ ~ OEAS
+TD66 #3 <IndexError>  📋 "toeas" ? _____ ~ OEAS
+TD180 attempt 2 TOEAS n m m m m
+TD95 #4 <IndexError>  📋 "toeas" ? ␅
+TD1983545 ␆_O__S ~ T
+TD113 #4 <IndexError>  📋 "toeas" ? _O__S ~ T
+TD344 attempt 3 TOEAS m Y n n Y
+TD205 #5 <IndexError>  📋 "toeas" ? ␅
+TD1897234 ␆__E__ ~ S
+TD79 #5 <IndexError>  📋 "toeas" ? __E__ ~ S
+TD235 attempt 4 TOEAS n n Y n m
+TD487 ? ␅
+TD538375 ␆
+TD185 ? 
+TD332 question done
+TD773 > ␅
+TD2413487 ␆*
+TD179 > *
+TD1020950 questioning: ["arose", "#3"]
+TD185 #1 _____ ~AS -EOT  📋 "arose" ? ␅
+TD10943207 ␆_____ ~ ASR
+TD136 #1 _____ ~AS -EOT  📋 "arose" ? _____ ~ ASR
+TD355 attempt 0 AROSE m m n m n
+TD170 #2 T____ ~AE -OS  📋 "arose" ? ␅
+TD6409593 ␆T____ ~ TEAR
+TD76 #2 T____ ~AE -OS  📋 "arose" ? T____ ~ TEAR
+TD199 attempt 1 AROSE m m n n m
+TD102 #3 _____ ~AEOS -T  📋 "arose" ? ␅
+TD1004739 ␆/it
+TD129 #3 _____ ~AEOS -T  📋 "arose" ? /it
+TD342 attempt 2 AROSE Y Y Y Y Y
+TD125 #4 _O__S ~T -AE  📋 "arose" ? ␅
+TD4343292 ␆_O__S ~ T
+TD190 #4 _O__S ~T -AE  📋 "arose" ? _O__S ~ T
+TD467 attempt 3 AROSE n n n n n
+TD302 #5 __E__ ~S -AOT  📋 "arose" ? ␅
+TD8174567 ␆__ES_ 
+TD180 #5 __E__ ~S -AOT  📋 "arose" ? __ES_ 
+TD477 attempt 4 AROSE n n n Y n
+TD670 ? ␅
+TD1235802 ␆
+TD62 ? 
+TD65 question done
+TD146 > ␅
+TD3710757 ␆*
+TD112 > *
+TD907819 questioning: ["flesh", "#5"]
+TD215 #1 _____ ~ARS -EOT  📋 "flesh" ? ␅
+TD6332244 ␆_____ ~ ASRF
+TD173 #1 _____ ~ARS -EOT  📋 "flesh" ? _____ ~ ASRF
+TD370 attempt 0 FLESH m n n m n
+TD221 #2 T____ ~AER -OS  📋 "flesh" ? ␅
+TD4199808 ␆T____ ~ TEAR
+TD57 #2 T____ ~AER -OS  📋 "flesh" ? T____ ~ TEAR
+TD128 attempt 1 FLESH n n m n n
+TD75 #4 _O__S ~T -AEORS  📋 "flesh" ? ␅
+TD4952888 ␆FO__S ~ T
+TD90 #4 _O__S ~T -AEORS  📋 "flesh" ? FO__S ~ T
+TD253 attempt 3 FLESH Y n n n n
+TD181 #5 __ES_ -AEORT  📋 "flesh" ? ␅
+TD1273047 ␆/it
+TD165 #5 __ES_ -AEORT  📋 "flesh" ? /it
+TD517 attempt 4 FLESH Y Y Y Y Y
+TD737 ? ␅
+TD721725 ␆
+TD107 ? 
+TD139 question done
+TD641 > ␅
+TD7546962 ␆*
+TD70 > *
+TD673299 questioning: ["fonts", "#4"]
+TD218 #1 _____ ~AFRS -EHLOT  📋 "fonts" ? ␅
+TD4242005 ␆.
+TD136 #1 _____ ~AFRS -EHLOT  📋 "fonts" ? .
+TD356 attempt 0 FONTS m n n n m
+TD137 #2 T____ ~AER -FHLOS  📋 "fonts" ? ␅
+TD2457349 ␆T____ ~ TEAR
+TD60 #2 T____ ~AER -FHLOS  📋 "fonts" ? T____ ~ TEAR
+TD130 attempt 1 FONTS n n n m n
+TD70 #4 FO__S ~T -AEHLORS  📋 "fonts" ? ␅
+TD600801 ␆/it
+TD54 #4 FO__S ~T -AEHLORS  📋 "fonts" ? /it
+TD119 attempt 3 FONTS Y Y Y Y Y
+TD156 ? ␅
+TD135014 ␆
+TD65 ? 
+TD73 question done
+TD250 > ␅
+TD351171 ␆*
+TD146 > *
+TD1112407 questioning: ["scarf", "#1"]
+TD199 #1 _____ ~AFRS -EHLNOT  📋 "scarf" ? ␅
+TD2947078 ␆/it
+TD114 #1 _____ ~AFRS -EHLNOT  📋 "scarf" ? /it
+TD248 attempt 0 SCARF Y Y Y Y Y
+TD90 #2 T____ ~AER -FHLNOS  📋 "scarf" ? ␅
+TD194868 ␆
+TD147 #2 T____ ~AER -FHLNOS  📋 "scarf" ? 
+TD470 #2 T____ ~AER -FHLNOS  ? ␅
+TD10578926 ␆T____ ~ TEAR
+TD121 #2 T____ ~AER -FHLNOS  ? T____ ~ TEAR
+TD289 attempt 1 SCARF n n m m n
+TD423 ? ␅
+TD346010 ␆
+TD94 ? 
+TD102 question done
+TD360 > ␅
+TD582755 ␆*
+TD196 > *
+TD1157922 try? ␅
+TD2060264 ␆1
+TD130 try? 1
+TD357 questioning: ["taxer", "#2"]
+TD562 #2 T____ ~AER -CFHLNOS  📋 "taxer" ? ␅
+TD6911038 ␆TA_ER ~ T
+TD166 #2 T____ ~AER -CFHLNOS  📋 "taxer" ? TA_ER ~ T
+TD398 attempt 1 TAXER Y Y n Y Y
+TD557 ? ␅
+TD357933 ␆
+TD145 ? 
+TD174 question done
+TD517 > ␅
+TD510147 ␆*
+TD145 > *
+TD1199245 questioning: ["tater", "#2"]
+TD186 #2 TA_ER -CFHLNOSX  📋 "tater" ? ␅
+TD2759938 ␆/it
+TD63 #2 TA_ER -CFHLNOSX  📋 "tater" ? /it
+TD160 attempt 1 TATER Y Y Y Y Y
+TD181 ? ␅
+TD371084 ␆
+TD109 ? 
+TD110 question done
+TD36883 📋> ␅
+TD4978480 ␆squareword.org 1666: 7 guesses
+TD235 📋> squareword.org 1666: 7 guesses
+TD102 📋> ␅
+TD84 ␆
+TD28 📋> 
+TD23 📋> ␅
+TD44 ␆🟩🟩🟩🟩🟩
+TD24 📋> 🟩🟩🟩🟩🟩
+TD22 📋> ␅
+TD40 ␆🟩🟨🟨🟨🟨
+TD23 📋> 🟩🟨🟨🟨🟨
+TD22 📋> ␅
+TD38 ␆🟩🟩🟩🟩🟩
+TD23 📋> 🟩🟩🟩🟩🟩
+TD21 📋> ␅
+TD38 ␆🟩🟩🟩🟩🟩
+TD22 📋> 🟩🟩🟩🟩🟩
+TD22 📋> ␅
+TD38 ␆🟩🟩🟩🟩🟩
+TD22 📋> 🟩🟩🟩🟩🟩
+TD21 📋> ␅
+TD38 ␆
+TD22 📋> 
+TD21 📋> ␅
+TD57 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD26 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD23 📋> ␅
+TD225779 ␆#squareword #squareword1666
+TD159 📋> #squareword #squareword1666
+TD41 📋> ␅
+TD123135 ␄
+TD261 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1666: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1666"}
+TD3660 result: "squareword.org 1666: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1666"
+TD266 📆 2026-08-24 ? ␅
+TD206115 ␆
+TD122 📆 2026-08-24 ? 
