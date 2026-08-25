@@ -1,0 +1,278 @@
+T555.0747178799938 now: 2026-08-25T09:05:22EDT
+TD157 site: squareword.org
+TD47 wordlist: nwl2023.txt
+TD48  ...␅
+TD201226 ␆
+TD73  ...
+TD48 🧩  ? ␅
+TD7848219 ␆#1667
+TD82 🧩  ? #1667
+TD356 puzzle_id: #1667
+TD250 > ␅
+TD814921 ␆*
+TD91 > *
+TD313373 try? ␅
+TD680491 ␆1
+TD70 try? 1
+TD165 questioning: ["ureas", "#5"]
+TD168 #1 <IndexError>  📋 "ureas" ? ␅
+TD4284675 ␆_____ ~ RS
+TD63 #1 <IndexError>  📋 "ureas" ? _____ ~ RS
+TD346 attempt 0 UREAS n m n n m
+TD75 #2 <IndexError>  📋 "ureas" ? ␅
+TD2017195 ␆_RE__ ~ A
+TD76 #2 <IndexError>  📋 "ureas" ? _RE__ ~ A
+TD163 attempt 1 UREAS n Y Y m n
+TD63 #3 <IndexError>  📋 "ureas" ? ␅
+TD2350481 ␆____S ~ A
+TD66 #3 <IndexError>  📋 "ureas" ? ____S ~ A
+TD142 attempt 2 UREAS n n n m Y
+TD62 #4 <IndexError>  📋 "ureas" ? ␅
+TD2188598 ␆____S ~ E
+TD80 #4 <IndexError>  📋 "ureas" ? ____S ~ E
+TD202 attempt 3 UREAS n n m n Y
+TD106 #5 <IndexError>  📋 "ureas" ? ␅
+TD2731611 ␆_____ ~ E
+TD72 #5 <IndexError>  📋 "ureas" ? _____ ~ E
+TD176 attempt 4 UREAS n n m n n
+TD255 ? ␅
+TD235812 ␆
+TD71 ? 
+TD82 question done
+TD198 > ␅
+TD733139 ␆*
+TD68 > *
+TD915118 try? ␅
+TD5230781 ␄
+TD92 <EOF>
+TD249 > ␅
+TD1274240 ␆* 5
+TD70 > * 5
+TD8217 try? ␅
+TD1499169 ␆1
+TD244 try? 1
+TD382 questioning: ["hoyle", "#5"]
+TD513 #1 _____ ~RS -AEU  📋 "hoyle" ? ␅
+TD4064864 ␆.
+TD130 #1 _____ ~RS -AEU  📋 "hoyle" ? .
+TD430 attempt 0 HOYLE n n n n n
+TD187 #2 _RE__ ~A -SU  📋 "hoyle" ? ␅
+TD1486101 ␆.
+TD134 #2 _RE__ ~A -SU  📋 "hoyle" ? .
+TD408 attempt 1 HOYLE n n n n n
+TD236 #3 ____S ~A -ERU  📋 "hoyle" ? ␅
+TD2773063 ␆___LS ~ A
+TD113 #3 ____S ~A -ERU  📋 "hoyle" ? ___LS ~ A
+TD352 attempt 2 HOYLE n n n Y n
+TD216 #4 ____S ~E -ARU  📋 "hoyle" ? ␅
+TD2726939 ␆____S ~ EL
+TD161 #4 ____S ~E -ARU  📋 "hoyle" ? ____S ~ EL
+TD387 attempt 3 HOYLE n n n m m
+TD216 #5 _____ ~E -ARSU  📋 "hoyle" ? ␅
+TD2188847 ␆____S ~ EL
+TD117 #5 _____ ~E -ARSU  📋 "hoyle" ? ____S ~ EL
+TD824 attempt 4 HOYLE n n n m m
+TD706 ? ␅
+TD427306 ␆
+TD61 ? 
+TD84 question done
+TD257 > ␅
+TD1354999 ␆*
+TD66 > *
+TD717798 questioning: ["pilei", "#5"]
+TD181 #1 _____ ~RS -AEHLOUY  📋 "pilei" ? ␅
+TD16249291 ␆_____ ~ RSPI
+TD90 #1 _____ ~RS -AEHLOUY  📋 "pilei" ? _____ ~ RSPI
+TD224 attempt 0 PILEI m m n n m
+TD138 #2 _RE__ ~A -EHLOSUY  📋 "pilei" ? ␅
+TD1774866 ␆.
+TD130 #2 _RE__ ~A -EHLOSUY  📋 "pilei" ? .
+TD341 attempt 1 PILEI n n n n n
+TD160 #3 ___LS ~A -EHORUY  📋 "pilei" ? ␅
+TD2998620 ␆___LS ~ AI
+TD68 #3 ___LS ~A -EHORUY  📋 "pilei" ? ___LS ~ AI
+TD159 attempt 2 PILEI n m n n m
+TD130 #4 ____S ~EL -AHORUY  📋 "pilei" ? ␅
+TD2701709 ␆_I_ES ~ L
+TD69 #4 ____S ~EL -AHORUY  📋 "pilei" ? _I_ES ~ L
+TD193 attempt 3 PILEI n Y m Y n
+TD127 #5 _____ ~EL -AHORSUY  📋 "pilei" ? ␅
+TD2154846 ␆____E ~ ELI
+TD112 #5 _____ ~EL -AHORSUY  📋 "pilei" ? ____E ~ ELI
+TD306 attempt 4 PILEI n m m m m
+TD580 ? ␅
+TD428301 ␆
+TD115 ? 
+TD143 question done
+TD547 > ␅
+TD495475 ␆*
+TD66 > *
+TD829875 questioning: ["strip", "#1"]
+TD218 #1 _____ ~IPRS -AEHLOUY  📋 "strip" ? ␅
+TD2683139 ␆/it
+TD90 #1 _____ ~IPRS -AEHLOUY  📋 "strip" ? /it
+TD257 attempt 0 STRIP Y Y Y Y Y
+TD108 #2 _RE__ ~A -EHILOPSUY  📋 "strip" ? ␅
+TD1249912 ␆.
+TD94 #2 _RE__ ~A -EHILOPSUY  📋 "strip" ? .
+TD256 attempt 1 STRIP n n n n n
+TD101 #3 ___LS ~AI -EHLOPRUY  📋 "strip" ? ␅
+TD1205766 ␆.
+TD80 #3 ___LS ~AI -EHLOPRUY  📋 "strip" ? .
+TD246 attempt 2 STRIP n n n m n
+TD79 #4 _I_ES ~L -AHOPRUY  📋 "strip" ? ␅
+TD3653993 ␆.
+TD106 #4 _I_ES ~L -AHOPRUY  📋 "strip" ? .
+TD305 attempt 3 STRIP n n n n n
+TD125 #5 _____ ~EIL -AHOPRSUY  📋 "strip" ? ␅
+TD3261686 ␆____E ~ ELIT
+TD108 #5 _____ ~EIL -AHOPRSUY  📋 "strip" ? ____E ~ ELIT
+TD301 attempt 4 STRIP n m n m n
+TD574 ? ␅
+TD224222 ␆
+TD141 ? 
+TD205 question done
+TD897 > ␅
+TD414747 ␆*
+TD138 > *
+TD2720539 questioning: ["arena", "#2"]
+TD234 #2 _RE__ ~A -EHILOPRSTUY  📋 "arena" ? ␅
+TD3772404 ␆/it
+TD62 #2 _RE__ ~A -EHILOPRSTUY  📋 "arena" ? /it
+TD146 attempt 1 ARENA Y Y Y Y Y
+TD58 #3 ___LS ~AI -EHLOPRSTUY  📋 "arena" ? ␅
+TD1809893 ␆.
+TD73 #3 ___LS ~AI -EHLOPRSTUY  📋 "arena" ? .
+TD203 attempt 2 ARENA m n n n m
+TD77 #4 _I_ES ~L -AHIOPRSTUY  📋 "arena" ? ␅
+TD1587105 ␆.
+TD61 #4 _I_ES ~L -AHIOPRSTUY  📋 "arena" ? .
+TD138 attempt 3 ARENA n n n n n
+TD52 #5 _____ ~EILT -AHOPRSUY  📋 "arena" ? ␅
+TD6332577 ␆____E ~ ELIT
+TD120 #5 _____ ~EILT -AHOPRSUY  📋 "arena" ? ____E ~ ELIT
+TD299 attempt 4 ARENA n n m n n
+TD470 ? ␅
+TD738800 ␆
+TD109 ? 
+TD138 question done
+TD419 > ␅
+TD1409779 ␆*
+TD115 > *
+TD2483840 try? ␅
+TD2593750 ␄
+TD186 <EOF>
+TD863 > ␅
+TD3613785 ␆?
+TD97 > ?
+TD1470 > ␅
+TD2736543 ␆?
+TD153 > ?
+TD1596 > ␅
+TD6622725 ␆/man
+TD89 > /man
+TD558 > ␅
+TD6375922 ␆/man 5
+TD221 > /man 5
+TD1291 > ␅
+TD11182929 ␆/attempts
+TD116 > /attempts
+TD724 > ␅
+TD2263317 ␆/attempts 5
+TD133 > /attempts 5
+TD1502 > ␅
+TD2006990 ␆/attempts 5
+TD85 > /attempts 5
+TD729 > ␅
+TD1315939 ␆?
+TD91 > ?
+TD1102 > ␅
+TD14217391 ␆/man 5
+TD107 > /man 5
+TD828 > ␅
+TD10256707 ␆/man 5 ____E ~ELIT
+TD148 > /man 5 ____E ~ELIT
+TD686526 questioning: ["ELITE", "#5"]
+TD268 #3 ___LS ~AI -EHLNOPRSTUY  📋 "ELITE" ? ␅
+TD4770866 ␆__ILS ~ A
+TD100 #3 ___LS ~AI -EHLNOPRSTUY  📋 "ELITE" ? __ILS ~ A
+TD239 attempt 2 ELITE n n Y n n
+TD159 #4 _I_ES ~L -AEHINOPRSTUY  📋 "ELITE" ? ␅
+TD2701890 ␆.
+TD113 #4 _I_ES ~L -AEHINOPRSTUY  📋 "ELITE" ? .
+TD294 attempt 3 ELITE n m n n n
+TD132 #5 _____ ~EILT -AHNOPRSUY  📋 "ELITE" ? ␅
+TD689848 ␆/it
+TD108 #5 _____ ~EILT -AHNOPRSUY  📋 "ELITE" ? /it
+TD190 attempt 4 ELITE Y Y Y Y Y
+TD203 ? ␅
+TD179737 ␆
+TD136 ? 
+TD145 question done
+TD584 > ␅
+TD598740 ␆*
+TD66 > *
+TD1838770 questioning: ["bails", "#3"]
+T5.384803022025153 now: 2026-08-25T09:08:46EDT
+TD173 questioning: ["bails", "#3"]
+TD248 #3 __ILS ~A -EHLNOPRSTUY  📋 "bails" ? ␅
+TD1990162 ␆/it
+TD121 #3 __ILS ~A -EHLNOPRSTUY  📋 "bails" ? /it
+TD514 attempt 2 BAILS Y Y Y Y Y
+TD147 #4 _I_ES ~L -AEHINOPRSTUY  📋 "bails" ? ␅
+TD2283684 ␆.
+TD70 #4 _I_ES ~L -AEHINOPRSTUY  📋 "bails" ? .
+TD192 attempt 3 BAILS n n n m Y
+TD235 ? ␅
+TD237745 ␆
+TD61 ? 
+TD74 question done
+TD163 > ␅
+TD572168 ␆*
+TD82 > *
+TD670595 questioning: ["likes", "#4"]
+TD192 #4 _I_ES ~L -ABEHINOPRTUY  📋 "likes" ? ␅
+TD2711587 ␆/it
+TD74 #4 _I_ES ~L -ABEHINOPRTUY  📋 "likes" ? /it
+TD168 attempt 3 LIKES Y Y Y Y Y
+TD179 ? ␅
+TD864424 ␆
+TD104 ? 
+TD110 question done
+TD32331 📋> ␅
+TD4537591 ␆squareword.org 1667: 8 guesses
+TD140 📋> squareword.org 1667: 8 guesses
+TD31 📋> ␅
+TD91 ␆
+TD18 📋> 
+TD11 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD21 ␆🟩🟩🟩🟩🟩
+TD13 📋> 🟩🟩🟩🟩🟩
+TD12 📋> ␅
+TD21 ␆🟨🟨🟨🟩🟩
+TD15 📋> 🟨🟨🟨🟩🟩
+TD9 📋> ␅
+TD21 ␆🟨🟩🟨🟩🟩
+TD15 📋> 🟨🟩🟨🟩🟩
+TD9 📋> ␅
+TD19 ␆🟨🟨🟨🟨🟩
+TD11 📋> 🟨🟨🟨🟨🟩
+TD8 📋> ␅
+TD19 ␆
+TD12 📋> 
+TD8 📋> ␅
+TD21 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD12 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> ␅
+TD167943 ␆#squareword #squareword1667
+TD99 📋> #squareword #squareword1667
+TD29 📋> ␅
+TD141147 ␄
+TD126 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1667: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1667"}
+TD651 result: "squareword.org 1667: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1667"
+TD83 📆 2026-08-25 ? ␅
+TD157465 ␆
+TD122 📆 2026-08-25 ? 
