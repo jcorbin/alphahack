@@ -1,0 +1,98 @@
+T56921.89256610302 now: 2026-08-26T08:41:11EDT
+TD73 site: alphaguess.com
+TD161928 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 7bb6f9b93d95d4e13e09c3bd40abb4049072e7de
+TD113  ...␅
+TD4269428 ␆
+TD58  ...
+TD82 [0 : 98147 : 196518] mac? ␅
+TD2637943 ␆b
+TD69 [0 : 98147 : 196518] mac? b
+TD68 progress: -1 98147 mac
+TD74 [0 : 47378 : 98147] dis? ␅
+TD1655818 ␆b
+TD65 [0 : 47378 : 98147] dis? b
+TD65 progress: -1 47378 dis
+TD86 [0 : 23680 : 47378] camp? ␅
+TD1546023 ␆b
+TD94 [0 : 23680 : 47378] camp? b
+TD101 progress: -1 23680 camp
+TD115 [0 : 11763 : 23680] back? ␅
+TD1438371 ␆a
+TD140 [0 : 11763 : 23680] back? a
+TD139 progress: 1 11763 back
+TD152 [11764 : 17714 : 23680] blind? ␅
+TD2577023 ␆b
+TD131 [11764 : 17714 : 23680] blind? b
+TD142 progress: -1 17714 blind
+TD181 [11764 : 13801 : 17714] be? ␅
+TD1452188 ␆a
+TD98 [11764 : 13801 : 17714] be? a
+TD83 progress: 1 13801 be
+TD154 [13802 : 15757 : 17714] bewrap? ␅
+TD1274548 ␆a
+TD79 [13802 : 15757 : 17714] bewrap? a
+TD75 progress: 1 15757 bewrap
+TD75 [15758 : 16727 : 17714] bios? ␅
+TD1449775 ␆b
+TD70 [15758 : 16727 : 17714] bios? b
+TD68 progress: -1 16727 bios
+TD74 [15758 : 16231 : 16727] bilingual? ␅
+TD1601187 ␆b
+TD116 [15758 : 16231 : 16727] bilingual? b
+TD143 progress: -1 16231 bilingual
+TD165 [15758 : 15813 : 16231] bi? ␅
+TD3069397 ␆a
+TD99 [15758 : 15813 : 16231] bi? a
+TD118 progress: 1 15813 bi
+TD116 [15814 : 16018 : 16231] bidi? ␅
+TD1807669 ␆b
+TD73 [15814 : 16018 : 16231] bidi? b
+TD90 progress: -1 16018 bidi
+TD95 [15814 : 15841 : 16018] bib? ␅
+TD1466254 ␆a
+TD90 [15814 : 15841 : 16018] bib? a
+TD119 progress: 1 15841 bib
+TD555 [15842 : 15926 : 16018] bicarb? ␅
+TD1530166 ␆a
+TD209 [15842 : 15926 : 16018] bicarb? a
+TD166 progress: 1 15926 bicarb
+TD623 [15927 : 15971 : 16018] bicorn? ␅
+TD2158403 ␆a
+TD132 [15927 : 15971 : 16018] bicorn? a
+TD231 progress: 1 15971 bicorn
+TD190 [15972 : 15993 : 16018] bid? ␅
+TD1709475 ␆b
+TD130 [15972 : 15993 : 16018] bid? b
+TD132 progress: -1 15993 bid
+TD364 [15972 : 15981 : 15993] bicuspid? ␅
+TD1809744 ␆a
+TD72 [15972 : 15981 : 15993] bicuspid? a
+TD75 progress: 1 15981 bicuspid
+TD150 [15982 : 15984 : 15993] bicycle? ␅
+TD2861831 ␆it
+TD69 [15982 : 15984 : 15993] bicycle? it
+TD78 progress: 0 15984 bicycle
+TD29 [15982 : 15984 : 15993] <Done>.
+TD67 📋> ␅
+TD2847313 ␆🧩 Puzzle #1129
+TD96 📋> 🧩 Puzzle #1129
+TD28 📋> ␅
+TD64 ␆🤔 17 guesses
+TD25 📋> 🤔 17 guesses
+TD22 📋> ␅
+TD47 ␆⏱️ 28s
+TD22 📋> ⏱️ 28s
+TD19 📋> ␅
+TD179408 ␆🔗 alphaguess.com/1129
+TD165 📋> 🔗 alphaguess.com/1129
+TD36 📋> ␅
+TD139277 ␄
+TD120 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1129\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/1129"}
+TD81 result: "\ud83e\udde9 Puzzle #1129\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/1129"
+TD23 result puzzle: 1129
+TD14 result guesses: 17
+TD12 result time: 28s
+TD11 result link: alphaguess.com/1129
+TD69 📆 2026-08-26 ? ␅
+TD138320 ␆
+TD94 📆 2026-08-26 ? 
