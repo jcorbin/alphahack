@@ -1,0 +1,105 @@
+T56113.44593416306 now: 2026-08-26T08:27:42EDT
+TD144 site: alfagok.diginaut.net
+TD453577 loaded 399481 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1371 words excluded) asof 7bb6f9b93d95d4e13e09c3bd40abb4049072e7de
+TD124  ...␅
+TD3256319 ␆
+TD98  ...
+TD168 [0 : 199648 : 399481] lijk? ␅
+TD3033270 ␆b
+TD126 [0 : 199648 : 399481] lijk? b
+TD443 progress: -1 199648 lijk
+TD161 [0 : 99689 : 199648] ex? ␅
+TD1393964 ␆b
+TD110 [0 : 99689 : 199648] ex? b
+TD126 progress: -1 99689 ex
+TD115 [0 : 49809 : 99689] boks? ␅
+TD1575123 ␆a
+TD239 [0 : 49809 : 99689] boks? a
+TD490 progress: 1 49809 boks
+TD637 [49810 : 74712 : 99689] dc? ␅
+TD1635338 ␆b
+TD192 [49810 : 74712 : 99689] dc? b
+TD196 progress: -1 74712 dc
+TD245 [49810 : 62248 : 74712] cement? ␅
+TD1549611 ␆b
+TD148 [49810 : 62248 : 74712] cement? b
+TD208 progress: -1 62248 cement
+TD154 [49810 : 55901 : 62248] bron? ␅
+TD2862115 ␆b
+TD175 [49810 : 55901 : 62248] bron? b
+TD172 progress: -1 55901 bron
+TD191 [49810 : 52651 : 55901] bouw? ␅
+TD1545953 ␆a
+TD67 [49810 : 52651 : 55901] bouw? a
+TD64 progress: 1 52651 bouw
+TD55 [52652 : 54234 : 55901] brandstof? ␅
+TD1610463 ␆a
+TD189 [52652 : 54234 : 55901] brandstof? a
+TD146 progress: 1 54234 brandstof
+TD285 [54235 : 55065 : 55901] brevet? ␅
+TD1732496 ␆b
+TD57 [54235 : 55065 : 55901] brevet? b
+TD76 progress: -1 55065 brevet
+TD49 [54235 : 54643 : 55065] breedband? ␅
+TD1546394 ␆a
+TD300 [54235 : 54643 : 55065] breedband? a
+TD165 progress: 1 54643 breedband
+TD178 [54644 : 54834 : 55065] brei? ␅
+TD1466865 ␆a
+TD143 [54644 : 54834 : 55065] brei? a
+TD150 progress: 1 54834 brei
+TD279 [54835 : 54949 : 55065] bren? ␅
+TD1392139 ␆a
+TD152 [54835 : 54949 : 55065] bren? a
+TD198 progress: 1 54949 bren
+TD343 [54950 : 55005 : 55065] breuk? ␅
+TD1397276 ␆b
+TD197 [54950 : 55005 : 55065] breuk? b
+TD218 progress: -1 55005 breuk
+TD342 [54950 : 54975 : 55005] bres? ␅
+TD1471503 ␆b
+TD208 [54950 : 54975 : 55005] bres? b
+TD224 progress: -1 54975 bres
+TD403 [54950 : 54954 : 54975] breng? ␅
+TD1582898 ␆a
+TD133 [54950 : 54954 : 54975] breng? a
+TD129 progress: 1 54954 breng
+TD317 [54955 : 54965 : 54975] brengt? ␅
+TD1516896 ␆b
+TD99 [54955 : 54965 : 54975] brengt? b
+TD134 progress: -1 54965 brengt
+TD332 [54955 : 54960 : 54965] brengers? ␅
+TD1583754 ␆b
+TD65 [54955 : 54960 : 54965] brengers? b
+TD63 progress: -1 54960 brengers
+TD147 [54955 : 54956 : 54960] brengen? ␅
+TD1730841 ␆it
+TD83 [54955 : 54956 : 54960] brengen? it
+TD93 progress: 0 54956 brengen
+TD34 [54955 : 54956 : 54960] <Done>.
+TD102 📋> ␅
+TD2892255 ␆🧩 Puzzel #662
+TD83 📋> 🧩 Puzzel #662
+TD15 📋> ␅
+TD42 ␆🤔 18 gokken
+TD18 📋> 🤔 18 gokken
+TD9 📋> ␅
+TD17 ␆⏱️ 28s
+TD9 📋> ⏱️ 28s
+TD8 📋> ␅
+TD231196 ␆🔗 alfagok.diginaut.net
+TD63 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD261968 ␆d
+TD71 📋> d
+TD13 📋> ␅
+TD647755 ␄
+TD260 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #662\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 28s\n\ud83d\udd17 alfagok.diginaut.net\nd"}
+TD1382 result: "\ud83e\udde9 Puzzel #662\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 28s\n\ud83d\udd17 alfagok.diginaut.net\nd"
+TD62 result puzzle: 662
+TD35 result guesses: 18
+TD26 result time: 28s
+TD24 result link: alfagok.diginaut.net
+TD154 📆 2026-08-26 ? ␅
+TD439913 ␆
+TD271 📆 2026-08-26 ? 
