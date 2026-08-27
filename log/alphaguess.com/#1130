@@ -1,0 +1,100 @@
+T6010.51804748096 now: 2026-08-27T09:54:11EDT
+TD160 site: alphaguess.com
+TD164848 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 7bb6f9b93d95d4e13e09c3bd40abb4049072e7de
+TD107  ...␅
+TD36156 ␆
+TD96  ...
+TD161 [0 : 98147 : 196518] mac? ␅
+TD746371 ␆
+TD168 [0 : 98147 : 196518] mac? 
+TD177 [0 : 98147 : 196518] mac? ␅
+TD5535418 ␆b
+TD146 [0 : 98147 : 196518] mac? b
+TD135 progress: -1 98147 mac
+TD139 [0 : 47378 : 98147] dis? ␅
+TD1350326 ␆b
+TD122 [0 : 47378 : 98147] dis? b
+TD119 progress: -1 47378 dis
+TD148 [0 : 23680 : 47378] camp? ␅
+TD1343120 ␆ bb
+TD129 [0 : 23680 : 47378] camp?  bb
+TD182 [0 : 23680 : 47378] camp? ␅
+TD1398202 ␆b
+TD73 [0 : 23680 : 47378] camp? b
+TD66 progress: -1 23680 camp
+TD64 [0 : 11763 : 23680] back? ␅
+TD1289867 ␆a
+TD76 [0 : 11763 : 23680] back? a
+TD56 progress: 1 11763 back
+TD78 [11764 : 17714 : 23680] blind? ␅
+TD1438338 ␆b
+TD184 [11764 : 17714 : 23680] blind? b
+TD199 progress: -1 17714 blind
+TD255 [11764 : 13801 : 17714] be? ␅
+TD1707115 ␆a
+TD96 [11764 : 13801 : 17714] be? a
+TD104 progress: 1 13801 be
+TD208 [13802 : 15757 : 17714] bewrap? ␅
+TD2110651 ␆b
+TD161 [13802 : 15757 : 17714] bewrap? b
+TD186 progress: -1 15757 bewrap
+TD253 [13802 : 14778 : 15757] bel? ␅
+TD1461930 ␆b
+TD144 [13802 : 14778 : 15757] bel? b
+TD179 progress: -1 14778 bel
+TD175 [13802 : 14164 : 14778] bed? ␅
+TD1504472 ␆a
+TD135 [13802 : 14164 : 14778] bed? a
+TD143 progress: 1 14164 bed
+TD178 [14165 : 14390 : 14778] bee? ␅
+TD1410899 ␆a
+TD147 [14165 : 14390 : 14778] bee? a
+TD137 progress: 1 14390 bee
+TD145 [14391 : 14553 : 14778] beg? ␅
+TD1366579 ␆b
+TD183 [14391 : 14553 : 14778] beg? b
+TD212 progress: -1 14553 beg
+TD286 [14391 : 14471 : 14553] beet? ␅
+TD1370664 ␆a
+TD151 [14391 : 14471 : 14553] beet? a
+TD151 progress: 1 14471 beet
+TD528 [14472 : 14512 : 14553] beflower? ␅
+TD1342430 ␆a
+TD178 [14472 : 14512 : 14553] beflower? a
+TD225 progress: 1 14512 beflower
+TD521 [14513 : 14527 : 14553] befoul? ␅
+TD1481115 ␆b
+TD148 [14513 : 14527 : 14553] befoul? b
+TD145 progress: -1 14527 befoul
+TD378 [14513 : 14520 : 14527] befool? ␅
+TD1349317 ␆a
+TD112 [14513 : 14520 : 14527] befool? a
+TD108 progress: 1 14520 befool
+TD237 [14521 : 14524 : 14527] before? ␅
+TD2955315 ␆it
+TD110 [14521 : 14524 : 14527] before? it
+TD110 progress: 0 14524 before
+TD34 [14521 : 14524 : 14527] <Done>.
+TD114 📋> ␅
+TD2411715 ␆🧩 Puzzle #1130
+TD101 📋> 🧩 Puzzle #1130
+TD15 📋> ␅
+TD46 ␆🤔 16 guesses
+TD9 📋> 🤔 16 guesses
+TD8 📋> ␅
+TD16 ␆⏱️ 23s
+TD8 📋> ⏱️ 23s
+TD9 📋> ␅
+TD167462 ␆🔗 alphaguess.com/1130
+TD73 📋> 🔗 alphaguess.com/1130
+TD13 📋> ␅
+TD113664 ␄
+TD218 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1130\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/1130"}
+TD137 result: "\ud83e\udde9 Puzzle #1130\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/1130"
+TD45 result puzzle: 1130
+TD28 result guesses: 16
+TD25 result time: 23s
+TD24 result link: alphaguess.com/1130
+TD125 📆 2026-08-27 ? ␅
+TD119575 ␆
+TD96 📆 2026-08-27 ? 
