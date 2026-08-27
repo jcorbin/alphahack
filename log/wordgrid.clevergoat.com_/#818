@@ -1,0 +1,175 @@
+T1056.515506932 now: 2026-08-27T14:32:09EDT
+TD243 site: https://wordgrid.clevergoat.com/
+TD41 wordlist: nwl2023.txt
+TD112 > ␅
+TD8060437 ␆col 1 ~^S
+TD98 > col 1 ~^S
+TD809 rule col: 1 ~^S
+TD118 > ␅
+TD5063370 ␆col 2 #1-6
+TD132 > col 2 #1-6
+TD494 rule col: 2 #1-6
+TD141 > ␅
+TD5783942 ␆col 3 ![DOP]
+TD57 > col 3 ![DOP]
+TD267 rule col: 3 ![DOP]
+TD53 > ␅
+TD3299463 ␆row 1 ~EL
+TD103 > row 1 ~EL
+TD409 rule row: 1 ~EL
+TD125 > ␅
+TD3329467 ␆row 2 ~AM
+TD90 > row 2 ~AM
+TD344 rule row: 2 ~AM
+TD100 > ␅
+TD10149777 ␆row 3 ~L$
+TD106 > row 3 ~L$
+TD328 rule row: 3 ~L$
+TD116 > ␅
+TD8325861 ␆*
+TD63 > *
+TD295276 ? ␅
+TD1179690 ␆1
+TD121 ? 1
+TD240 questioning: 0 saurel
+TD102 🌡️ saurel 📋 ? ␅
+TD6165625 ␆.01
+TD136 🌡️ saurel 📋 ? .01
+TD622 word: 0 saurel 0.01
+TD73 questioning: -1 
+TD265 > ␅
+TD566543 ␆*
+TD107 > *
+TD264796 ? ␅
+TD3058468 ␆6
+TD91 ? 6
+TD161 questioning: 1 artels
+TD59 🌡️ artels 📋 ? ␅
+TD2857736 ␆0
+TD109 🌡️ artels 📋 ? 0
+TD127 word: 1 artels 0.0
+TD28 questioning: -1 
+TD142 > ␅
+TD501901 ␆*
+TD84 > *
+TD294186 ? ␅
+TD2288364 ␆2
+TD117 ? 2
+TD204 questioning: 2 eluant
+TD103 🌡️ eluant 📋 ? ␅
+TD2471882 ␆0
+TD78 🌡️ eluant 📋 ? 0
+TD74 word: 2 eluant 0.0
+TD18 questioning: -1 
+TD92 > ␅
+TD751754 ␆*
+TD123 > *
+TD251642 ? ␅
+TD2526502 ␆3
+TD121 ? 3
+TD179 questioning: 3 staminode
+TD78 🌡️ staminode 📋 ? ␅
+TD2750800 ␆0
+TD57 🌡️ staminode 📋 ? 0
+TD57 word: 3 staminode 0.0
+TD15 questioning: -1 
+TD83 > ␅
+TD512255 ␆*
+TD144 > *
+TD267659 ? ␅
+TD7593513 ␄
+TD211 <EOF>
+TD334 > ␅
+TD4056881 ␆* 2 2 -bot 10
+TD80 > * 2 2 -bot 10
+TD268800 ? ␅
+TD5307710 ␆7
+TD113 ? 7
+TD196 questioning: 4 hammam
+TD66 🌡️ hammam 📋 ? ␅
+TD3107583 ␆.03
+TD92 🌡️ hammam 📋 ? .03
+TD115 word: 4 hammam 0.03
+TD39 questioning: -1 
+TD188 > ␅
+TD432565 ␆*
+TD95 > *
+TD292212 ? ␅
+TD3678836 ␆6
+TD67 ? 6
+TD110 questioning: 5 lamberts
+TD42 🌡️ lamberts 📋 ? ␅
+TD3835315 ␆.03
+TD154 🌡️ lamberts 📋 ? .03
+TD118 word: 5 lamberts 0.03
+TD29 questioning: -1 
+TD143 > ␅
+TD493733 ␆*
+TD105 > *
+TD270205 ? ␅
+TD7568169 ␆3
+TD111 ? 3
+TD198 questioning: 6 serotinal
+TD66 🌡️ serotinal 📋 ? ␅
+TD3576962 ␆.01
+TD156 🌡️ serotinal 📋 ? .01
+TD128 word: 6 serotinal 0.01
+TD29 questioning: -1 
+TD258 > ␅
+TD1010083 ␆*
+TD54 > *
+TD262344 ? ␅
+TD1834162 ␆1
+TD145 ? 1
+TD222 questioning: 7 estral
+TD79 🌡️ estral 📋 ? ␅
+TD2641093 ␆0
+TD119 🌡️ estral 📋 ? 0
+TD130 word: 7 estral 0.0
+TD33 questioning: -1 
+TD199 > ␅
+TD491887 ␆*
+TD74 > *
+TD301949 ? ␅
+TD1596411 ␆1
+TD88 ? 1
+TD139 questioning: 8 trenail
+TD51 🌡️ trenail 📋 ? ␅
+TD2421057 ␆0
+TD196 🌡️ trenail 📋 ? 0
+TD223 word: 8 trenail 0.0
+TD52 questioning: -1 
+TD557 > ␅
+TD958107 ␆
+TD86 > 
+TD219 > ␅
+TD4357542 ␆/res
+TD52 > /res
+TD125 📋> ␅
+TD1955198 ␆Word Grid #818
+TD114 📋> Word Grid #818
+TD55 📋> ␅
+TD114 ␆🌌🦄🦄
+TD52 📋> 🌌🦄🦄
+TD47 📋> ␅
+TD81 ␆🦄🌌🌌
+TD47 📋> 🦄🌌🌌
+TD47 📋> ␅
+TD68 ␆🌌🦄🦄
+TD45 📋> 🌌🦄🦄
+TD45 📋> ␅
+TD71 ␆Rarity: 0.08
+TD92 📋> Rarity: 0.08
+TD52 📋> ␅
+TD830024 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD115 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD56 📋> ␅
+TD492643 ␄
+TD266 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #818\n\ud83c\udf0c\ud83e\udd84\ud83e\udd84\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83e\udd84\ud83e\udd84\nRarity: 0.08\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD942 result: "Word Grid #818\n\ud83c\udf0c\ud83e\udd84\ud83e\udd84\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83e\udd84\ud83e\udd84\nRarity: 0.08\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD182 > ␅
+TD1349312 ␆/store
+TD54 > /store
+TD150 📆 2026-08-27 ? ␅
+TD1039933 ␆
+TD70 📆 2026-08-27 ? 
