@@ -1,0 +1,110 @@
+T8.388333208975382 now: 2026-08-27T08:14:08EDT
+TD296 site: alfagok.diginaut.net
+TD435290 loaded 399481 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1371 words excluded) asof 7bb6f9b93d95d4e13e09c3bd40abb4049072e7de
+TD113  ...␅
+TD26 ␆
+TD4  ...
+TD94 [0 : 199648 : 399481] lijk? ␅
+TD652260 ␆
+TD93 [0 : 199648 : 399481] lijk? 
+TD141 [0 : 199648 : 399481] lijk? ␅
+TD277274 ␆
+TD144 [0 : 199648 : 399481] lijk? 
+TD273 [0 : 199648 : 399481] lijk? ␅
+TD5887872 ␆b
+TD161 [0 : 199648 : 399481] lijk? b
+TD552 progress: -1 199648 lijk
+TD206 [0 : 99689 : 199648] ex? ␅
+TD2760525 ␆b
+TD169 [0 : 99689 : 199648] ex? b
+TD153 progress: -1 99689 ex
+TD142 [0 : 49809 : 99689] boks? ␅
+TD1650368 ␆b
+TD106 [0 : 49809 : 99689] boks? b
+TD109 progress: -1 49809 boks
+TD132 [0 : 24881 : 49809] bad? ␅
+TD1493006 ␆b
+TD140 [0 : 24881 : 49809] bad? b
+TD135 progress: -1 24881 bad
+TD168 [0 : 8646 : 24881] af? ␅
+TD1552845 ␆a
+TD123 [0 : 8646 : 24881] af? a
+TD144 progress: 1 8646 af
+TD176 [8647 : 16148 : 24881] am? ␅
+TD1581163 ␆b
+TD207 [8647 : 16148 : 24881] am? b
+TD195 progress: -1 16148 am
+TD210 [8647 : 12392 : 16148] afsplits? ␅
+TD1481593 ␆a
+TD90 [8647 : 12392 : 16148] afsplits? a
+TD112 progress: 1 12392 afsplits
+TD572 [12393 : 14270 : 16148] agribulk? ␅
+TD2683767 ␆a
+TD173 [12393 : 14270 : 16148] agribulk? a
+TD265 progress: 1 14270 agribulk
+TD242 [14271 : 15195 : 16148] alge? ␅
+TD1642620 ␆a
+TD183 [14271 : 15195 : 16148] alge? a
+TD175 progress: 1 15195 alge
+TD250 [15196 : 15670 : 16148] allo? ␅
+TD2848329 ␆b
+TD146 [15196 : 15670 : 16148] allo? b
+TD139 progress: -1 15670 allo
+TD147 [15196 : 15376 : 15670] alle? ␅
+TD1744260 ␆a
+TD198 [15196 : 15376 : 15670] alle? a
+TD253 progress: 1 15376 alle
+TD207 [15377 : 15454 : 15670] aller? ␅
+TD1569200 ␆b
+TD104 [15377 : 15454 : 15670] aller? b
+TD118 progress: -1 15454 aller
+TD126 [15377 : 15387 : 15454] alleen? ␅
+TD1493830 ␆a
+TD122 [15377 : 15387 : 15454] alleen? a
+TD133 progress: 1 15387 alleen
+TD325 [15388 : 15422 : 15454] allegaar? ␅
+TD1445992 ␆a
+TD170 [15388 : 15422 : 15454] allegaar? a
+TD185 progress: 1 15422 allegaar
+TD431 [15423 : 15437 : 15454] alleman? ␅
+TD1509578 ␆b
+TD65 [15423 : 15437 : 15454] alleman? b
+TD68 progress: -1 15437 alleman
+TD167 [15423 : 15430 : 15437] allegra? ␅
+TD1894939 ␆!
+TD149 [15423 : 15430 : 15437] allegra? !
+TD1384 [15423 : 15430 : 15436] allegretto? ␅
+TD3157002 ␆a
+TD59 [15423 : 15430 : 15436] allegretto? a
+TD56 progress: 1 15430 allegretto
+TD156 [15431 : 15433 : 15436] allemaal? ␅
+TD4020864 ␆it
+TD164 [15431 : 15433 : 15436] allemaal? it
+TD173 progress: 0 15433 allemaal
+TD53 [15431 : 15433 : 15436] <Done>.
+TD221 📋> ␅
+TD401854 ␆
+TD85 📋> 
+TD18 📋> ␅
+TD3454229 ␆🧩 Puzzel #663
+TD65 📋> 🧩 Puzzel #663
+TD9 📋> ␅
+TD28 ␆🤔 17 gokken
+TD6 📋> 🤔 17 gokken
+TD5 📋> ␅
+TD12 ␆⏱️ 35s
+TD7 📋> ⏱️ 35s
+TD3 📋> ␅
+TD172055 ␆🔗 alfagok.diginaut.net
+TD128 📋> 🔗 alfagok.diginaut.net
+TD21 📋> ␅
+TD122927 ␄
+TD278 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\n\ud83e\udde9 Puzzel #663\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1956 result: "\n\ud83e\udde9 Puzzel #663\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"
+TD139 result puzzle: 663
+TD51 result guesses: 17
+TD35 result time: 35s
+TD30 result link: alfagok.diginaut.net
+TD178 📆 2026-08-27 ? ␅
+TD142317 ␆
+TD129 📆 2026-08-27 ? 
