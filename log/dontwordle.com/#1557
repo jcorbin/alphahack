@@ -1,0 +1,151 @@
+T16001.062286674 now: 2026-08-28T07:49:17EDT
+TD73 site: dontwordle.com
+TD13 wordlist: nwl2023.txt
+TD40  ...␅
+TD248028 ␆
+TD75  ...
+TD72 1> ␅
+TD5589640 ␆
+TD45 1> 
+TD70 1> ␅
+TD1266158 ␆* -bot 10
+TD54 1> * -bot 10
+TD241582 ? ␅
+TD1212184 ␆1
+TD48 ? 1
+TD116 📋 "taser" ? ␅
+TD3680669 ␆MMnMn
+TD51 📋 "taser" ? MMnMn
+TD306 tried: TASER m m n m n
+TD114 2> ␅
+TD1025944 ␆undo
+TD116 2> undo
+TD145 undo
+TD164 1> ␅
+TD6242229 ␆* :v [taser] -bot 10
+TD99 1> * :v [taser] -bot 10
+TD131622 ? ␅
+TD1352774 ␆2
+TD81 ? 2
+TD240 📋 "logic" ? ␅
+TD5318818 ␆nMnnn
+TD61 📋 "logic" ? nMnnn
+TD112 tried: LOGIC n m n n n
+TD112 2> ␅
+TD695310 ␆undo
+TD59 2> undo
+TD73 undo
+TD66 1> ␅
+TD2416215 ␆*
+TD59 1> *
+TD114707 ? ␅
+TD97212 ␆1
+TD101 ? 1
+TD207 📋 "virid" ? ␅
+TD3883340 ␆Mnnnn
+TD66 📋 "virid" ? Mnnnn
+TD130 tried: VIRID m n n n n
+TD121 2> ␅
+TD856170 ␆undo
+TD43 2> undo
+TD56 undo
+TD74 1> ␅
+TD778543 ␆*
+TD42 1> *
+TD105969 ? ␅
+TD100868 ␆1
+TD57 ? 1
+TD133 📋 "kibbi" ? ␅
+TD6524769 ␆nnnnn
+TD109 📋 "kibbi" ? nnnnn
+TD193 tried: KIBBI n n n n n
+TD214 2> ␅
+TD423937 ␆*
+TD63 2> *
+TD103573 ? ␅
+TD145947 ␆1
+TD71 ? 1
+TD140 📋 "sulus" ? ␅
+TD4304259 ␆nnnnn
+TD86 📋 "sulus" ? nnnnn
+TD190 tried: SULUS n n n n n
+TD201 3> ␅
+TD383885 ␆*
+TD73 3> *
+TD108077 ? ␅
+TD147397 ␆1
+TD62 ? 1
+TD154 📋 "myrrh" ? ␅
+TD4278093 ␆nnnnn
+TD47 📋 "myrrh" ? nnnnn
+TD105 tried: MYRRH n n n n n
+TD97 4> ␅
+TD412541 ␆*
+TD62 4> *
+TD221013 ? ␅
+TD888482 ␆1
+TD65 ? 1
+TD144 📋 "codon" ? ␅
+TD4264544 ␆nMnnn
+TD97 📋 "codon" ? nMnnn
+TD289 tried: CODON n m n n n
+TD239 5> ␅
+TD9215341 ␆*
+TD76 5> *
+TD227189 📋 "feoff" ? ␅
+TD5081988 ␆nMMnn
+TD55 📋 "feoff" ? nMMnn
+TD88 tried: FEOFF n m m n n
+TD86 6> ␅
+TD422131 ␆*
+TD150 6> *
+TD247305 📋 "ovate" ? ␅
+TD4477494 ␆YYYYY
+TD55 📋 "ovate" ? YYYYY
+TD107 tried: OVATE Y Y Y Y Y
+TD112 📋> ␅
+TD3177823 ␄
+TD90 pasted: {"subject": "share result", "method": "read:must:stdin", "content": ""}
+TD806 📋> ␅
+TD164672 ␆
+TD59 📋> 
+TD8 📋> ␅
+TD1373103 ␆Don't Wordle 1557 - WORDLED
+TD170 📋> Don't Wordle 1557 - WORDLED
+TD17 📋> ␅
+TD29 ␆I must admit that I Wordled!
+TD3 📋> I must admit that I Wordled!
+TD2 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜7266
+TD3 📋> ⬜⬜⬜⬜⬜7266
+TD2 📋> ␅
+TD16 ␆⬜⬜⬜⬜⬜2095
+TD2 📋> ⬜⬜⬜⬜⬜2095
+TD2 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜448
+TD2 📋> ⬜⬜⬜⬜⬜448
+TD2 📋> ␅
+TD5 ␆⬜🟨⬜⬜⬜9
+TD2 📋> ⬜🟨⬜⬜⬜9
+TD2 📋> ␅
+TD5 ␆⬜🟨🟨⬜⬜3
+TD2 📋> ⬜🟨🟨⬜⬜3
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩0
+TD2 📋> 🟩🟩🟩🟩🟩0
+TD2 📋> ␅
+TD4 ␆Undos used: 3
+TD2 📋> Undos used: 3
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD112905 ␆https://dontwordle.com
+TD53 📋> https://dontwordle.com
+TD10 📋> ␅
+TD899849 ␄
+TD242 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\nDon't Wordle 1557 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7266\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2095\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c448\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c9\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c3\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3\n\nhttps://dontwordle.com"}
+TD738 result: "\nDon't Wordle 1557 - WORDLED\nI must admit that I Wordled!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7266\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2095\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c448\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c9\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c3\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe90\nUndos used: 3\n\nhttps://dontwordle.com"
+TD244 📆 2026-08-28 ? ␅
+TD662493 ␆
+TD58 📆 2026-08-28 ? 
