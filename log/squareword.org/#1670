@@ -1,0 +1,254 @@
+T16902.626933009 now: 2026-08-28T08:04:18EDT
+TD86 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD26  ...␅
+TD491235 ␆
+TD86  ...
+TD73 🧩  ? ␅
+TD8043324 ␆#1670
+TD121 🧩  ? #1670
+TD369 puzzle_id: #1670
+TD524 > ␅
+TD1037099 ␆*
+TD108 > *
+TD240815 try? ␅
+TD1139542 ␆1
+TD84 try? 1
+TD311 questioning: ["raise", "#5"]
+TD337 #1 <IndexError>  📋 "raise" ? ␅
+TD5002072 ␆_____ ~ AS
+TD106 #1 <IndexError>  📋 "raise" ? _____ ~ AS
+TD800 attempt 0 RAISE n m n m n
+TD129 #2 <IndexError>  📋 "raise" ? ␅
+TD1881540 ␆_____ ~ RE
+TD145 #2 <IndexError>  📋 "raise" ? _____ ~ RE
+TD486 attempt 1 RAISE m n n n m
+TD235 #3 <IndexError>  📋 "raise" ? ␅
+TD2395883 ␆R____ ~ RI
+TD68 #3 <IndexError>  📋 "raise" ? R____ ~ RI
+TD216 attempt 2 RAISE Y n m n n
+TD100 #4 <IndexError>  📋 "raise" ? ␅
+TD2290977 ␆_____ ~ A
+TD175 #4 <IndexError>  📋 "raise" ? _____ ~ A
+TD250 attempt 3 RAISE n m n n n
+TD79 #5 <IndexError>  📋 "raise" ? ␅
+TD1902600 ␆_____ ~ SE
+TD108 #5 <IndexError>  📋 "raise" ? _____ ~ SE
+TD345 attempt 4 RAISE n n n m m
+TD591 ? ␅
+TD393290 ␆
+TD102 ? 
+TD233 question done
+TD791 > ␅
+TD624850 ␄
+TD111 <EOF>
+TD390 > ␅
+TD3628501 ␆* 4
+TD96 > * 4
+TD235268 try? ␅
+TD4879101 ␆1
+TD96 try? 1
+TD296 questioning: ["altho", "#4"]
+TD402 #1 _____ ~AS -EIR  📋 "altho" ? ␅
+TD4647453 ␆_____ ~ ASLT
+TD95 #1 _____ ~AS -EIR  📋 "altho" ? _____ ~ ASLT
+TD263 attempt 0 ALTHO m m m n n
+TD144 #2 _____ ~ER -AIS  📋 "altho" ? ␅
+TD3418971 ␆____O ~ RE
+TD49 #2 _____ ~ER -AIS  📋 "altho" ? ____O ~ RE
+TD142 attempt 1 ALTHO n n n n Y
+TD64 #3 R____ ~I -AES  📋 "altho" ? ␅
+TD2563706 ␆R____ ~ RIO
+TD118 #3 R____ ~I -AES  📋 "altho" ? R____ ~ RIO
+TD393 attempt 2 ALTHO n n n n m
+TD206 #4 _____ ~A -EIRS  📋 "altho" ? ␅
+TD2108377 ␆A____ ~ AT
+TD111 #4 _____ ~A -EIRS  📋 "altho" ? A____ ~ AT
+TD256 attempt 3 ALTHO Y n m n n
+TD143 #5 _____ ~ES -AIR  📋 "altho" ? ␅
+TD2443616 ␆_____ ~ SELT
+TD108 #5 _____ ~ES -AIR  📋 "altho" ? _____ ~ SELT
+TD324 attempt 4 ALTHO n m m n n
+TD534 ? ␅
+TD210460 ␆
+TD139 ? 
+TD224 question done
+TD653 > ␅
+TD401649 ␆(*
+TD82 > (*
+TD486 > ␅
+TD789500 ␆*
+TD66 > *
+TD864290 try? ␅
+TD27114844 ␄
+TD116 <EOF>
+TD372 > ␅
+TD3220988 ␆* 4
+TD45 > * 4
+TD4208 try? ␅
+TD673421 ␄
+TD209 <EOF>
+TD587 > ␅
+TD881334 ␆* 5
+TD109 > * 5
+TD9570 try? ␅
+TD950023 ␄
+TD126 <EOF>
+TD435 > ␅
+TD594577 ␆* 1
+TD110 > * 1
+TD9014 try? ␅
+TD1233814 ␄
+TD200 <EOF>
+TD730 > ␅
+TD1119826 ␆* 5
+TD101 > * 5
+TD8359 try? ␅
+TD19565015 ␆1
+TD114 try? 1
+TD377 questioning: ["melts", "#5"]
+TD545 #1 _____ ~ALST -EHIOR  📋 "melts" ? ␅
+TD9197323 ␆__L__ ~ AST
+TD67 #1 _____ ~ALST -EHIOR  📋 "melts" ? __L__ ~ AST
+TD144 attempt 0 MELTS n n Y m m
+TD83 #2 ____O ~ER -AHILST  📋 "melts" ? ␅
+TD1991505 ␆.
+TD159 #2 ____O ~ER -AHILST  📋 "melts" ? .
+TD341 attempt 1 MELTS n m n n n
+TD117 #3 R____ ~IO -AEHLST  📋 "melts" ? ␅
+TD2964959 ␆R____ ~ RIO
+TD85 #3 R____ ~IO -AEHLST  📋 "melts" ? R____ ~ RIO
+TD275 attempt 2 MELTS n n n n n
+TD177 #4 A____ ~T -EHILORS  📋 "melts" ? ␅
+TD2552174 ␆A____ ~ AT
+TD63 #4 A____ ~T -EHILORS  📋 "melts" ? A____ ~ AT
+TD162 attempt 3 MELTS n n n m n
+TD97 #5 _____ ~ELST -AHIOR  📋 "melts" ? ␅
+TD571465 ␆/it
+TD185 #5 _____ ~ELST -AHIOR  📋 "melts" ? /it
+TD455 attempt 4 MELTS Y Y Y Y Y
+TD681 ? ␅
+TD130880 ␆
+TD128 ? 
+TD149 question done
+TD605 > ␅
+TD482296 ␆*
+TD96 > *
+TD874491 questioning: ["splat", "#1"]
+TD194 #1 __L__ ~AST -EHIMOR  📋 "splat" ? ␅
+TD2352116 ␆/it
+TD116 #1 __L__ ~AST -EHIMOR  📋 "splat" ? /it
+TD364 attempt 0 SPLAT Y Y Y Y Y
+TD172 #2 ____O ~ER -AHILMST  📋 "splat" ? ␅
+TD1871761 ␆.
+TD133 #2 ____O ~ER -AHILMST  📋 "splat" ? .
+TD393 attempt 1 SPLAT n n n n n
+TD172 #3 R____ ~IO -AEHLMST  📋 "splat" ? ␅
+TD2901188 ␆R____ ~ RIO
+TD104 #3 R____ ~IO -AEHLMST  📋 "splat" ? R____ ~ RIO
+TD293 attempt 2 SPLAT n n n n n
+TD203 #4 A____ ~T -EHILMORS  📋 "splat" ? ␅
+TD2717197 ␆A___T ~ AP
+TD118 #4 A____ ~T -EHILMORS  📋 "splat" ? A___T ~ AP
+TD315 attempt 3 SPLAT n m n m Y
+TD591 ? ␅
+TD242227 ␆
+TD85 ? 
+TD122 question done
+TD525 > ␅
+TD412135 ␆*
+TD98 > *
+TD771954 questioning: ["credo", "#2"]
+TD170 #2 ____O ~ER -AHILMPST  📋 "credo" ? ␅
+TD2946108 ␆/it
+TD98 #2 ____O ~ER -AHILMPST  📋 "credo" ? /it
+TD318 attempt 1 CREDO Y Y Y Y Y
+TD129 #3 R____ ~IO -AEHLMPST  📋 "credo" ? ␅
+TD3337410 ␆R____ ~ RIO
+TD54 #3 R____ ~IO -AEHLMPST  📋 "credo" ? R____ ~ RIO
+TD146 attempt 2 CREDO n m n n m
+TD111 #4 A___T ~P -EHILMORS  📋 "credo" ? ␅
+TD4312366 ␆A___T ~ APD
+TD80 #4 A___T ~P -EHILMORS  📋 "credo" ? A___T ~ APD
+TD236 attempt 3 CREDO n n n m n
+TD414 ? ␅
+TD144249 ␆
+TD100 ? 
+TD138 question done
+TD468 > ␅
+TD428108 ␆*
+TD100 > *
+TD1451679 questioning: ["rigor", "#3"]
+TD169 #3 R____ ~IO -ACDEHLMPST  📋 "rigor" ? ␅
+TD2237854 ␆/it
+TD96 #3 R____ ~IO -ACDEHLMPST  📋 "rigor" ? /it
+TD319 attempt 2 RIGOR Y Y Y Y Y
+TD153 #4 A___T ~DP -CEHILMORS  📋 "rigor" ? ␅
+TD5118450 ␆A___T ~ APO
+TD135 #4 A___T ~DP -CEHILMORS  📋 "rigor" ? A___T ~ APO
+TD323 attempt 3 RIGOR n n n m n
+TD655 ? ␅
+TD234276 ␆
+TD89 ? 
+TD232 question done
+TD286 > ␅
+TD381457 ␆*
+TD97 > *
+TD595207 > ␅
+TD1392950 ␆*
+TD105 > *
+TD597124 > ␅
+TD1952217 ␆?
+TD93 > ?
+TD1073 > ␅
+TD4054231 ␆/man 4 A___T ~ APD
+TD82 > /man 4 A___T ~ APD
+TD1213 > ␅
+TD5039710 ␆/man 4 A___T ~APD
+TD119 > /man 4 A___T ~APD
+TD619767 questioning: ["ADAPT", "#4"]
+TD177 #4 A___T ~DOP -CEGHILMORS  📋 "ADAPT" ? ␅
+TD3205841 ␆/it
+TD121 #4 A___T ~DOP -CEGHILMORS  📋 "ADAPT" ? /it
+TD296 attempt 3 ADAPT Y Y Y Y Y
+TD454 ? ␅
+TD562642 ␆
+TD104 ? 
+TD118 question done
+TD38669 📋> ␅
+TD6592588 ␆squareword.org 1670: 7 guesses
+TD149 📋> squareword.org 1670: 7 guesses
+TD39 📋> ␅
+TD87 ␆
+TD18 📋> 
+TD17 📋> ␅
+TD45 ␆🟩🟩🟩🟩🟩
+TD16 📋> 🟩🟩🟩🟩🟩
+TD14 📋> ␅
+TD31 ␆🟩🟩🟩🟩🟩
+TD13 📋> 🟩🟩🟩🟩🟩
+TD31 📋> ␅
+TD32 ␆🟩🟨🟨🟨🟨
+TD13 📋> 🟩🟨🟨🟨🟨
+TD12 📋> ␅
+TD29 ␆🟩🟨🟨🟨🟩
+TD13 📋> 🟩🟨🟨🟨🟩
+TD13 📋> ␅
+TD29 ␆🟩🟩🟩🟩🟩
+TD13 📋> 🟩🟩🟩🟩🟩
+TD13 📋> ␅
+TD28 ␆
+TD14 📋> 
+TD14 📋> ␅
+TD32 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD15 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD15 📋> ␅
+TD692419 ␆#squareword #squareword1670
+TD88 📋> #squareword #squareword1670
+TD15 📋> ␅
+TD252767 ␄
+TD184 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1670: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1670"}
+TD1186 result: "squareword.org 1670: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1670"
+TD118 📆 2026-08-28 ? ␅
+TD358627 ␆
+TD128 📆 2026-08-28 ? 
