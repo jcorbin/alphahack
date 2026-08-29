@@ -1,0 +1,212 @@
+T45276.363396738 now: 2026-08-29T12:14:44EDT
+TD77 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD23  ...␅
+TD221007 ␆
+TD58  ...
+TD50 🧩  ? ␅
+TD7857438 ␆#1671
+TD51 🧩  ? #1671
+TD131 puzzle_id: #1671
+TD119 > ␅
+TD530477 ␆
+TD52 > 
+TD180 > ␅
+TD511010 ␆*
+TD56 > *
+TD122304 try? ␅
+TD547969 ␆1
+TD55 try? 1
+TD185 questioning: ["arose", "#5"]
+TD132 #1 <IndexError>  📋 "arose" ? ␅
+TD3925056 ␆_R___ ~ AS
+TD60 #1 <IndexError>  📋 "arose" ? _R___ ~ AS
+TD451 attempt 0 AROSE m Y n m n
+TD74 #2 <IndexError>  📋 "arose" ? ␅
+TD2490767 ␆_____ ~ ARE
+TD64 #2 <IndexError>  📋 "arose" ? _____ ~ ARE
+TD167 attempt 1 AROSE m m n n m
+TD80 #3 <IndexError>  📋 "arose" ? ␅
+TD2105871 ␆A_O__ 
+TD70 #3 <IndexError>  📋 "arose" ? A_O__ 
+TD158 attempt 2 AROSE Y n Y n n
+TD80 #4 <IndexError>  📋 "arose" ? ␅
+TD2152604 ␆_____ ~ R
+TD53 #4 <IndexError>  📋 "arose" ? _____ ~ R
+TD146 attempt 3 AROSE n m n n n
+TD75 #5 <IndexError>  📋 "arose" ? ␅
+TD2481044 ␆_____ ~ RSE
+TD73 #5 <IndexError>  📋 "arose" ? _____ ~ RSE
+TD179 attempt 4 AROSE n m n m m
+TD451 ? ␅
+TD302924 ␆
+TD54 ? 
+TD102 question done
+TD229 > ␅
+TD3253825 ␆* 4
+TD58 > * 4
+TD640129 try? ␅
+TD1067073 ␆1
+TD53 try? 1
+TD152 questioning: ["runty", "#4"]
+TD168 #1 _R___ ~AS -EO  📋 "runty" ? ␅
+TD4853243 ␆.
+TD49 #1 _R___ ~AS -EO  📋 "runty" ? .
+TD123 attempt 0 RUNTY n n n n n
+TD43 #2 _____ ~AER -OS  📋 "runty" ? ␅
+TD861277 ␆.
+TD43 #2 _____ ~AER -OS  📋 "runty" ? .
+TD113 attempt 1 RUNTY m n n n n
+TD54 #3 A_O__ -ERS  📋 "runty" ? ␅
+TD4284596 ␆A_O__ ~ UT
+TD67 #3 A_O__ -ERS  📋 "runty" ? A_O__ ~ UT
+TD131 attempt 2 RUNTY n m n m n
+TD64 #4 _____ ~R -AEOS  📋 "runty" ? ␅
+TD3829746 ␆RU__Y
+TD58 #4 _____ ~R -AEOS  📋 "runty" ? RU__Y
+TD121 attempt 3 RUNTY Y Y n n Y
+TD72 #5 _____ ~ERS -AO  📋 "runty" ? ␅
+TD3562186 ␆_____ ~ RSET
+TD66 #5 _____ ~ERS -AO  📋 "runty" ? _____ ~ RSET
+TD166 attempt 4 RUNTY m n n m n
+TD269 ? ␅
+TD298602 ␆
+TD61 ? 
+TD97 question done
+TD280 > ␅
+TD1745520 ␆*
+TD53 > *
+TD4170456 questioning: ["about", "#3"]
+TD178 #1 _R___ ~AS -ENORTUY  📋 "about" ? ␅
+TD5047753 ␆.
+TD64 #1 _R___ ~AS -ENORTUY  📋 "about" ? .
+TD128 attempt 0 ABOUT m n n n n
+TD48 #2 _____ ~AER -NOSTUY  📋 "about" ? ␅
+TD3412493 ␆_____ ~ AREB
+TD60 #2 _____ ~AER -NOSTUY  📋 "about" ? _____ ~ AREB
+TD172 attempt 1 ABOUT m m n n n
+TD117 #3 A_O__ ~TU -ENRSY  📋 "about" ? ␅
+TD890668 ␆/it
+TD59 #3 A_O__ ~TU -ENRSY  📋 "about" ? /it
+TD156 attempt 2 ABOUT Y Y Y Y Y
+TD77 #4 RU__Y -AENOST  📋 "about" ? ␅
+TD1289445 ␆.
+TD55 #4 RU__Y -AENOST  📋 "about" ? .
+TD150 attempt 3 ABOUT n n n n n
+TD63 #5 _____ ~ERST -ANOUY  📋 "about" ? ␅
+TD804696 ␆.
+TD66 #5 _____ ~ERST -ANOUY  📋 "about" ? .
+TD174 attempt 4 ABOUT n n n n m
+TD244 ? ␅
+TD140996 ␆
+TD75 ? 
+TD88 question done
+TD254 > ␅
+TD413944 ␆*
+TD56 > *
+TD3716337 questioning: ["zebra", "#2"]
+TD196 #1 _R___ ~AS -BENORTUY  📋 "zebra" ? ␅
+TD4020401 ␆.
+TD53 #1 _R___ ~AS -BENORTUY  📋 "zebra" ? .
+TD118 attempt 0 ZEBRA n n n n m
+TD43 #2 _____ ~ABER -NOSTUY  📋 "zebra" ? ␅
+TD720032 ␆/it
+TD54 #2 _____ ~ABER -NOSTUY  📋 "zebra" ? /it
+TD137 attempt 1 ZEBRA Y Y Y Y Y
+TD53 #4 RU__Y -ABENOSTU  📋 "zebra" ? ␅
+TD1379560 ␆.
+TD52 #4 RU__Y -ABENOSTU  📋 "zebra" ? .
+TD147 attempt 3 ZEBRA n n n n n
+TD51 #5 _____ ~ERST -ABNOUY  📋 "zebra" ? ␅
+TD854993 ␆.
+TD49 #5 _____ ~ERST -ABNOUY  📋 "zebra" ? .
+TD128 attempt 4 ZEBRA n m n m n
+TD146 ? ␅
+TD163140 ␆
+TD50 ? 
+TD56 question done
+TD157 > ␅
+TD529967 ␆*
+TD60 > *
+TD2728785 questioning: ["steer", "#5"]
+TD195 #1 _R___ ~AS -BENORTUYZ  📋 "steer" ? ␅
+TD3948145 ␆.
+TD49 #1 _R___ ~AS -BENORTUYZ  📋 "steer" ? .
+TD121 attempt 0 STEER m n n n n
+TD48 #4 RU__Y -ABENORSTUZ  📋 "steer" ? ␅
+TD1862210 ␆.
+TD47 #4 RU__Y -ABENORSTUZ  📋 "steer" ? .
+TD139 attempt 3 STEER n n n n n
+TD50 #5 _____ ~ERST -ABNOUYZ  📋 "steer" ? ␅
+TD567958 ␆/it
+TD57 #5 _____ ~ERST -ABNOUYZ  📋 "steer" ? /it
+TD141 attempt 4 STEER Y Y Y Y Y
+TD188 ? ␅
+TD162693 ␆
+TD58 ? 
+TD59 question done
+TD215 > ␅
+TD394097 ␆*
+TD60 > *
+TD1970712 questioning: ["ruddy", "#4"]
+TD198 #1 _R___ ~AS -BENORTUYZ  📋 "ruddy" ? ␅
+TD3295583 ␆.
+TD48 #1 _R___ ~AS -BENORTUYZ  📋 "ruddy" ? .
+TD130 attempt 0 RUDDY n n n n n
+TD50 #4 RU__Y -ABENORSTUZ  📋 "ruddy" ? ␅
+TD559195 ␆/it
+TD64 #4 RU__Y -ABENORSTUZ  📋 "ruddy" ? /it
+TD126 attempt 3 RUDDY Y Y Y Y Y
+TD162 ? ␅
+TD138386 ␆
+TD51 ? 
+TD47 question done
+TD141 > ␅
+TD391054 ␆*
+TD45 > *
+TD1280568 questioning: ["craps", "#1"]
+TD232 #1 _R___ ~AS -BDENORTUYZ  📋 "craps" ? ␅
+TD4361944 ␆/it
+TD48 #1 _R___ ~AS -BDENORTUYZ  📋 "craps" ? /it
+TD119 attempt 0 CRAPS Y Y Y Y Y
+TD146 ? ␅
+TD182636 ␆
+TD57 ? 
+TD58 question done
+TD33698 📋> ␅
+TD6365947 ␆squareword.org 1671: 7 guesses
+TD51 📋> squareword.org 1671: 7 guesses
+TD6 📋> ␅
+TD25 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆🟨🟩🟨🟨🟨
+TD2 📋> 🟨🟩🟨🟨🟨
+TD3 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD7 ␆🟩🟩🟨🟨🟩
+TD2 📋> 🟩🟩🟨🟨🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD127661 ␆#squareword #squareword1671
+TD72 📋> #squareword #squareword1671
+TD7 📋> ␅
+TD562702 ␄
+TD96 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1671: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1671"}
+TD1858 result: "squareword.org 1671: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1671"
+TD67 📆 2026-08-29 ? ␅
+TD369798 ␆
+TD54 📆 2026-08-29 ? 
