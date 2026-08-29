@@ -1,0 +1,84 @@
+T44351.888492971004 now: 2026-08-29T11:59:20EDT
+TD152 site: alphaguess.com
+TD170348 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof c975a14027ee4aa188ac7045bb4145c17400a1f0
+TD97  ...␅
+TD144622 ␆
+TD54  ...
+TD84 [0 : 98147 : 196518] mac? ␅
+TD733046 ␆
+TD67 [0 : 98147 : 196518] mac? 
+TD54 [0 : 98147 : 196518] mac? ␅
+TD4903937 ␆
+TD57 [0 : 98147 : 196518] mac? 
+TD82 [0 : 98147 : 196518] mac? ␅
+TD2971887 ␆b
+TD117 [0 : 98147 : 196518] mac? b
+TD166 progress: -1 98147 mac
+TD171 [0 : 47378 : 98147] dis? ␅
+TD1465174 ␆a
+TD136 [0 : 47378 : 98147] dis? a
+TD137 progress: 1 47378 dis
+TD111 [47379 : 72662 : 98147] green? ␅
+TD1367516 ␆a
+TD48 [47379 : 72662 : 98147] green? a
+TD68 progress: 1 72662 green
+TD54 [72663 : 85397 : 98147] inocula? ␅
+TD1432523 ␆b
+TD45 [72663 : 85397 : 98147] inocula? b
+TD47 progress: -1 85397 inocula
+TD45 [72663 : 79019 : 85397] hone? ␅
+TD1358217 ␆b
+TD85 [72663 : 79019 : 85397] hone? b
+TD165 progress: -1 79019 hone
+TD89 [72663 : 75781 : 79019] hat? ␅
+TD2239173 ␆b
+TD56 [72663 : 75781 : 79019] hat? b
+TD59 progress: -1 75781 hat
+TD192 [72663 : 74223 : 75781] gyve? ␅
+TD1600411 ␆a
+TD56 [72663 : 74223 : 75781] gyve? a
+TD77 progress: 1 74223 gyve
+TD62 [74224 : 74991 : 75781] hammer? ␅
+TD1305083 ␆a
+TD60 [74224 : 74991 : 75781] hammer? a
+TD61 progress: 1 74991 hammer
+TD66 [74992 : 75325 : 75781] hap? ␅
+TD1585568 ␆b
+TD60 [74992 : 75325 : 75781] hap? b
+TD64 progress: -1 75325 hap
+TD64 [74992 : 75047 : 75325] hand? ␅
+TD1432151 ␆a
+TD56 [74992 : 75047 : 75325] hand? a
+TD58 progress: 1 75047 hand
+TD67 [75048 : 75181 : 75325] hands? ␅
+TD1261702 ␆a
+TD61 [75048 : 75181 : 75325] hands? a
+TD63 progress: 1 75181 hands
+TD62 [75182 : 75242 : 75325] hang? ␅
+TD3036769 ␆it
+TD55 [75182 : 75242 : 75325] hang? it
+TD62 progress: 0 75242 hang
+TD19 [75182 : 75242 : 75325] <Done>.
+TD62 📋> ␅
+TD3440211 ␆🧩 Puzzle #1132
+TD57 📋> 🧩 Puzzle #1132
+TD11 📋> ␅
+TD30 ␆🤔 12 guesses
+TD9 📋> 🤔 12 guesses
+TD7 📋> ␅
+TD15 ␆⏱️ 17s
+TD8 📋> ⏱️ 17s
+TD29 📋> ␅
+TD522746 ␆🔗 alphaguess.com/1132
+TD60 📋> 🔗 alphaguess.com/1132
+TD12 📋> ␅
+TD271186 ␄
+TD98 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1132\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/1132"}
+TD60 result: "\ud83e\udde9 Puzzle #1132\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 17s\n\ud83d\udd17 alphaguess.com/1132"
+TD12 result puzzle: 1132
+TD8 result guesses: 12
+TD8 result time: 17s
+TD7 result link: alphaguess.com/1132
+TD58 📆 2026-08-29 ? ␅
+TD965693 ␆
+TD61 📆 2026-08-29 ? 
