@@ -1,0 +1,139 @@
+T44849.659552066005 now: 2026-08-29T12:07:37EDT
+TD154 site: https://www.merriam-webster.com/games/quordle/#/
+TD39 wordlist: nwl2023.txt
+TD14 num_words: 4
+TD192  ...␅
+TD5542233 ␆
+TD64  ...
+TD562245 > ␅
+TD53 ␆
+TD4 > 
+TD77 > ␅
+TD935942 ␆*
+TD80 > *
+TD51006 ? ␅
+TD667111 ␆1
+TD59 ? 1
+TD86 questioning: carse
+TD197 Classic #1 _____? ␅
+TD7052931 ␆nnnnY
+TD53 Classic #1 _____? nnnnY
+TD214 attempt: 0 CARSE n n n n Y
+TD54 Classic #2 _____? ␅
+TD1410905 ␆nMnnn
+TD46 Classic #2 _____? nMnnn
+TD118 attempt: 1 CARSE n m n n n
+TD53 Classic #3 _____? ␅
+TD2049788 ␆MnnnY
+TD60 Classic #3 _____? MnnnY
+TD130 attempt: 2 CARSE m n n n Y
+TD69 Classic #4 _____? ␅
+TD1430420 ␆YYYnY
+TD59 Classic #4 _____? YYYnY
+TD110 attempt: 3 CARSE Y Y Y n Y
+TD473794 > ␅
+TD253329 ␆*
+TD80 > *
+TD333 ? ␅
+TD2723105 ␆3
+TD53 ? 3
+TD94 questioning: carve
+TD88 Classic #1 ____E -ACRS? ␅
+TD4109051 ␆nnnMY
+TD80 Classic #1 ____E -ACRS? nnnMY
+TD135 attempt: 0 CARVE n n n m Y
+TD72 Classic #2 _____ ~A -CERS? ␅
+TD1296573 ␆nMnnn
+TD200 Classic #2 _____ ~A -CERS? nMnnn
+TD363 attempt: 1 CARVE n m n n n
+TD82 Classic #3 ____E ~C -ARS? ␅
+TD1927147 ␆MnnMY
+TD78 Classic #3 ____E ~C -ARS? MnnMY
+TD127 attempt: 2 CARVE m n n m Y
+TD57 Classic #4 CAR_E -S? ␅
+TD1309713 ␆YYYYY
+TD52 Classic #4 CAR_E -S? YYYYY
+TD96 attempt: 3 CARVE Y Y Y Y Y
+TD387039 > ␅
+TD19037 ␆*
+TD49 > *
+TD168 questioning: voice
+TD60 Classic #1 ____E ~V -ACRS? ␅
+TD5644999 ␆MMYnY
+TD63 Classic #1 ____E ~V -ACRS? MMYnY
+TD141 attempt: 0 VOICE m m Y n Y
+TD79 Classic #2 _____ ~A -CERSV? ␅
+TD1191110 ␆nMnnn
+TD50 Classic #2 _____ ~A -CERSV? nMnnn
+TD114 attempt: 1 VOICE n m n n n
+TD56 Classic #3 ____E ~CV -ARS? ␅
+TD1474092 ␆YYYYY
+TD53 Classic #3 ____E ~CV -ARS? YYYYY
+TD97 attempt: 2 VOICE Y Y Y Y Y
+TD264292 > ␅
+TD707401 ␆*
+TD57 > *
+TD248 questioning: ovine
+TD97 Classic #1 __I_E ~OV -ACRS? ␅
+TD3093097 ␆YYYYY
+TD78 Classic #1 __I_E ~OV -ACRS? YYYYY
+TD207 attempt: 0 OVINE Y Y Y Y Y
+TD145 Classic #2 _____ ~AO -CEIRSV? ␅
+TD1806287 ␆Mnnnn
+TD62 Classic #2 _____ ~AO -CEIRSV? Mnnnn
+TD159 attempt: 1 OVINE m n n n n
+TD163299 > ␅
+TD864896 ␆*
+TD50 > *
+TD515 ? ␅
+TD1082396 ␆1
+TD48 ? 1
+TD86 questioning: altho
+TD75 Classic #2 _____ ~AO -CEINRSV? ␅
+TD3339930 ␆YYnnM
+TD53 Classic #2 _____ ~AO -CEINRSV? YYnnM
+TD133 attempt: 1 ALTHO Y Y n n m
+TD125468 > ␅
+TD668114 ␆*
+TD55 > *
+TD301 ? ␅
+TD28746786 ␄
+TD61 <EOF>
+TD118001 > ␅
+TD1996721 ␆tried wyled
+TD57 > tried wyled
+TD184 questioning: WYLED
+TD90 Classic #2 AL___ ~O -CEHINRSTV? ␅
+TD2828987 ␆nMYnn
+TD51 Classic #2 AL___ ~O -CEHINRSTV? nMYnn
+TD122 attempt: 1 WYLED n m Y n n
+TD132517 > ␅
+TD705245 ␆*
+TD94 > *
+TD306 questioning: alloy
+TD105 Classic #2 ALL__ ~OY -CDEHINRSTVW? ␅
+TD3143378 ␆YYYYY
+TD60 Classic #2 ALL__ ~OY -CDEHINRSTVW? YYYYY
+TD100 attempt: 1 ALLOY Y Y Y Y Y
+TD52 📋> ␅
+TD5741110 ␆🙂 Daily Quordle 1678
+TD64 📋> 🙂 Daily Quordle 1678
+TD6 📋> ␅
+TD43 ␆4️⃣7️⃣
+TD4 📋> 4️⃣7️⃣
+TD3 📋> ␅
+TD7 ␆3️⃣2️⃣
+TD4 📋> 3️⃣2️⃣
+TD2 📋> ␅
+TD7 ␆m-w.com/games/quordle/
+TD3 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD629341 ␆
+TD52 📋> 
+TD8 📋> ␅
+TD271427 ␄
+TD85 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1678\n4\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e32\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD844 result: "\ud83d\ude42 Daily Quordle 1678\n4\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e32\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD57 📆 2026-08-29 ? ␅
+TD293875 ␆
+TD63 📆 2026-08-29 ? 
