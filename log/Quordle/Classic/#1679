@@ -1,0 +1,242 @@
+T2346.3018286820006 now: 2026-08-30T07:34:54EDT
+TD231 site: https://www.merriam-webster.com/games/quordle/#/
+TD46 wordlist: nwl2023.txt
+TD15 num_words: 4
+TD234  ...␅
+TD152330 ␆
+TD305  ...
+TD515815 > ␅
+TD6927876 ␆*
+TD93 > *
+TD54509 ? ␅
+TD523283 ␆1
+TD138 ? 1
+TD243 questioning: earns
+TD203 Classic #1 _____? ␅
+TD2431043 ␆nnnYM
+TD69 Classic #1 _____? nnnYM
+TD357 attempt: 0 EARNS n n n Y m
+TD88 Classic #2 _____? ␅
+TD1865715 ␆nnYnM
+TD277 Classic #2 _____? nnYnM
+TD395 attempt: 1 EARNS n n Y n m
+TD180 Classic #3 _____? ␅
+TD1678068 ␆Mnnnn
+TD95 Classic #3 _____? Mnnnn
+TD287 attempt: 2 EARNS m n n n n
+TD137 Classic #4 _____? ␅
+TD1628444 ␆MnMnn
+TD106 Classic #4 _____? MnMnn
+TD338 attempt: 3 EARNS m n m n n
+TD491265 > ␅
+TD594797 ␆*
+TD106 > *
+TD9146 ? ␅
+TD747170 ␆1
+TD97 ? 1
+TD222 questioning: oiled
+T5.251796483004 now: 2026-08-30T07:35:23EDT
+TD86 questioning: oiled
+TD98 Classic #1 ___N_ ~S -AER? ␅
+TD2126927 ␆nMnnn
+TD49 Classic #1 ___N_ ~S -AER? nMnnn
+TD199 attempt: 0 OILED n m n n n
+TD65 Classic #2 __R__ ~S -AEN? ␅
+TD1242354 ␆Mnnnn
+TD107 Classic #2 __R__ ~S -AEN? Mnnnn
+TD205 attempt: 1 OILED m n n n n
+TD97 Classic #3 _____ ~E -ANRS? ␅
+TD1473026 ␆nYYYn
+TD144 Classic #3 _____ ~E -ANRS? nYYYn
+TD638 attempt: 2 OILED n Y Y Y n
+TD255 Classic #4 _____ ~ER -ANS? ␅
+TD1302703 ␆nYnYn
+TD97 Classic #4 _____ ~ER -ANS? nYnYn
+TD246 attempt: 3 OILED n Y n Y n
+TD492390 > ␅
+TD693425 ␆*
+TD87 > *
+TD986 ? ␅
+TD1713004 ␄
+TD174 <EOF>
+TD458773 > ␅
+TD1185188 ␆* 4
+TD102 > * 4
+TD109876 ? ␅
+TD5875203 ␆6
+TD137 ? 6
+TD204 questioning: viper
+TD222 Classic #1 ___N_ ~IS -ADELOR? ␅
+TD3656086 ␆nMnnn
+TD96 Classic #1 ___N_ ~IS -ADELOR? nMnnn
+TD315 attempt: 0 VIPER n m n n n
+TD147 Classic #2 __R__ ~OS -ADEILN? ␅
+TD1591710 ␆nnnnM
+TD76 Classic #2 __R__ ~OS -ADEILN? nnnnM
+TD219 attempt: 1 VIPER n n n n m
+TD120 Classic #3 _ILE_ -ADNORS? ␅
+TD1375462 ␆nYnYn
+TD96 Classic #3 _ILE_ -ADNORS? nYnYn
+TD264 attempt: 2 VIPER n Y n Y n
+TD147 Classic #4 _I_E_ ~R -ADLNOS? ␅
+TD1040594 ␆nYYYY
+TD83 Classic #4 _I_E_ ~R -ADLNOS? nYYYY
+TD235 attempt: 3 VIPER n Y Y Y Y
+TD438504 > ␅
+TD541711 ␆*
+TD110 > *
+TD609 questioning: filet
+TD263 Classic #1 ___N_ ~IS -ADELOPRV? ␅
+TD2440363 ␆nMnnn
+TD98 Classic #1 ___N_ ~IS -ADELOPRV? nMnnn
+TD179 attempt: 0 FILET n m n n n
+TD113 Classic #2 __R__ ~OS -ADEILNPV? ␅
+TD862297 ␆nnnnnn
+TD62 Classic #2 __R__ ~OS -ADEILNPV? nnnnnn
+TD178 attempt: 1 FILET n n n n n
+TD104 Classic #3 _ILE_ -ADNOPRSV? ␅
+TD2962121 ␆YYYYY
+TD125 Classic #3 _ILE_ -ADNOPRSV? YYYYY
+TD332 attempt: 2 FILET Y Y Y Y Y
+TD185 Classic #4 _IPER -ADLNOSV? ␅
+TD1636875 ␆nYnYn
+TD56 Classic #4 _IPER -ADLNOSV? nYnYn
+TD137 attempt: 3 FILET n Y n Y n
+TD343751 > ␅
+TD752869 ␆'*
+TD115 > '*
+TD210 > ␅
+TD2461698 ␆
+TD91 > 
+TD502 > ␅
+TD590098 ␆*
+TD84 > *
+TD360 ? ␅
+TD6196309 ␄
+TD118 <EOF>
+TD369141 > ␅
+TD1330085 ␆* 1
+TD99 > * 1
+TD123405 ? ␅
+TD3370277 ␄
+TD132 <EOF>
+TD356393 > ␅
+TD1223833 ␆* 2
+TD137 > * 2
+TD120931 ? ␅
+TD10050415 ␄
+TD143 <EOF>
+TD344986 > ␅
+TD575229 ␆*
+TD92 > *
+TD533 ? ␅
+TD1254851 ␆1
+TD111 ? 1
+TD186 questioning: wiper
+TD212 Classic #1 ___N_ ~IS -ADEFLOPRTV? ␅
+TD3712523 ␆nMnnn
+TD85 Classic #1 ___N_ ~IS -ADEFLOPRTV? nMnnn
+TD237 attempt: 0 WIPER n m n n n
+TD120 Classic #2 __R__ ~OS -ADEFILNPTV? ␅
+TD2156552 ␆nnnnM
+TD121 Classic #2 __R__ ~OS -ADEFILNPTV? nnnnM
+TD382 attempt: 1 WIPER n n n n m
+TD194 Classic #4 _IPER -ADFLNOSTV? ␅
+TD1310896 ␆nYYYY
+TD54 Classic #4 _IPER -ADFLNOSTV? nYYYY
+TD92 attempt: 3 WIPER n Y Y Y Y
+TD328795 > ␅
+TD745442 ␆*
+TD130 > *
+TD596 ? ␅
+TD511290 ␄
+TD138 <EOF>
+TD342261 > ␅
+TD2232690 ␆* 2
+TD64 > * 2
+TD125703 ? ␅
+TD6321259 ␆3
+TD66 ? 3
+TD86 questioning: scrob
+TD99 Classic #1 ___N_ ~IS -ADEFLOPRTVW? ␅
+TD3424801 ␆Mnnnn
+TD56 Classic #1 ___N_ ~IS -ADEFLOPRTVW? Mnnnn
+TD147 attempt: 0 SCROB m n n n n
+TD79 Classic #2 __R__ ~OS -ADEFILNPTVW? ␅
+TD2850930 ␆YnYMn
+TD145 Classic #2 __R__ ~OS -ADEFILNPTVW? YnYMn
+TD384 attempt: 1 SCROB Y n Y m n
+TD241 Classic #4 _IPER -ADFLNOSTVW? ␅
+TD1795318 ␆nnMnn
+TD90 Classic #4 _IPER -ADFLNOSTVW? nnMnn
+TD296 attempt: 3 SCROB n n m n n
+TD333190 > ␅
+TD1031075 ␆*
+TD82 > *
+TD394 questioning: using
+TD162 Classic #1 ___N_ ~IS -ABCDEFLOPRTVW? ␅
+TD3971506 ␆YYYYY
+TD98 Classic #1 ___N_ ~IS -ABCDEFLOPRTVW? YYYYY
+TD253 attempt: 0 USING Y Y Y Y Y
+TD131 Classic #2 S_R__ ~O -ABCDEFILNPTVW? ␅
+TD1507931 ␆nMnnn
+TD114 Classic #2 S_R__ ~O -ABCDEFILNPTVW? nMnnn
+TD344 attempt: 1 USING n m n n n
+TD192 Classic #4 _IPER -ABCDFLNOSTVW? ␅
+TD2601564 ␆nnMnn
+TD115 Classic #4 _IPER -ABCDFLNOSTVW? nnMnn
+TD393 attempt: 3 USING n n m n n
+TD247866 > ␅
+TD683554 ␆*
+TD103 > *
+TD547 questioning: sorry
+TD170 Classic #2 S_R__ ~O -ABCDEFGILNPTUVW? ␅
+TD2834041 ␆YYYYY
+TD84 Classic #2 S_R__ ~O -ABCDEFGILNPTUVW? YYYYY
+TD205 attempt: 1 SORRY Y Y Y Y Y
+TD117 Classic #4 _IPER -ABCDFGLNOSTUVW? ␅
+TD1736922 ␆nnMnn
+TD137 Classic #4 _IPER -ABCDFGLNOSTUVW? nnMnn
+TD407 attempt: 3 SORRY n n m n n
+TD106534 > ␅
+TD437567 ␆*
+TD83 > *
+TD524 ? ␅
+TD4274871 ␆2
+TD91 ? 2
+TD176 questioning: riper
+TD197 Classic #4 _IPER -ABCDFGLNOSTUVWY R:1? ␅
+TD4593216 ␆nYYYY
+TD73 Classic #4 _IPER -ABCDFGLNOSTUVWY R:1? nYYYY
+TD197 attempt: 3 RIPER n Y Y Y Y
+TD102841 > ␅
+TD5768805 ␆/res
+TD143 > /res
+TD308 📋> ␅
+TD1303178 ␆🙂 Daily Quordle 1679
+TD134 📋> 🙂 Daily Quordle 1679
+TD21 📋> ␅
+TD56 ␆7️⃣8️⃣
+TD10 📋> 7️⃣8️⃣
+TD9 📋> ␅
+TD22 ␆4️⃣🟥
+TD13 📋> 4️⃣🟥
+TD11 📋> ␅
+TD27 ␆m-w.com/games/quordle/
+TD9 📋> m-w.com/games/quordle/
+TD8 📋> ␅
+TD205602 ␆
+TD71 📋> 
+TD12 📋> ␅
+TD406190 ␄
+TD237 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1679\n7\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TD3489 result: "\ud83d\ude42 Daily Quordle 1679\n7\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TD107480 > ␅
+TD278211 ␆
+TD45 > 
+TD76 > ␅
+TD1433040 ␆/store
+TD107 > /store
+TD298 📆 2026-08-30 ? ␅
+TD542574 ␆
+TD111 📆 2026-08-30 ? 
