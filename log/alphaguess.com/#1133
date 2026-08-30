@@ -1,0 +1,85 @@
+T1885.29206213 now: 2026-08-30T07:27:13EDT
+TD224 site: alphaguess.com
+TD166624 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof c239cb8c5244d657bc1f18c499e61e7fe829a598
+TD81  ...␅
+TD547560 ␆
+TD98  ...
+TD185 [0 : 98147 : 196518] mac? ␅
+TD5135122 ␆
+TD47 [0 : 98147 : 196518] mac? 
+TD52 [0 : 98147 : 196518] mac? ␅
+TD1732525 ␆b
+TD72 [0 : 98147 : 196518] mac? b
+TD82 progress: -1 98147 mac
+TD92 [0 : 47378 : 98147] dis? ␅
+TD1364966 ␆a
+TD55 [0 : 47378 : 98147] dis? a
+TD58 progress: 1 47378 dis
+TD67 [47379 : 72662 : 98147] green? ␅
+TD3229655 ␆b
+TD100 [47379 : 72662 : 98147] green? b
+TD110 progress: -1 72662 green
+TD246 [47379 : 60017 : 72662] eyewitness? ␅
+TD1443130 ␆a
+TD107 [47379 : 60017 : 72662] eyewitness? a
+TD135 progress: 1 60017 eyewitness
+TD191 [60018 : 66309 : 72662] free? ␅
+TD2043517 ␆a
+TD89 [60018 : 66309 : 72662] free? a
+TD101 progress: 1 66309 free
+TD120 [66310 : 69482 : 72662] geode? ␅
+TD1508162 ␆a
+TD131 [66310 : 69482 : 72662] geode? a
+TD137 progress: 1 69482 geode
+TD1407 [69483 : 71072 : 72662] glyceraldehydes? ␅
+TD2775580 ␆b
+TD56 [69483 : 71072 : 72662] glyceraldehydes? b
+TD59 progress: -1 71072 glyceraldehydes
+TD61 [69483 : 69920 : 71072] gi? ␅
+TD1593135 ␆a
+TD143 [69483 : 69920 : 71072] gi? a
+TD189 progress: 1 69920 gi
+TD177 [69921 : 70493 : 71072] glass? ␅
+TD1454114 ␆a
+TD88 [69921 : 70493 : 71072] glass? a
+TD115 progress: 1 70493 glass
+TD122 [70494 : 70741 : 71072] glob? ␅
+TD1441113 ␆a
+TD250 [70494 : 70741 : 71072] glob? a
+TD237 progress: 1 70741 glob
+TD241 [70742 : 70867 : 71072] gloss? ␅
+TD1733183 ␆b
+TD91 [70742 : 70867 : 71072] gloss? b
+TD109 progress: -1 70867 gloss
+TD329 [70742 : 70804 : 70867] glockenspiels? ␅
+TD3193695 ␆b
+TD120 [70742 : 70804 : 70867] glockenspiels? b
+TD129 progress: -1 70804 glockenspiels
+TD136 [70742 : 70765 : 70804] globe? ␅
+TD2810252 ␆it
+TD156 [70742 : 70765 : 70804] globe? it
+TD161 progress: 0 70765 globe
+TD61 [70742 : 70765 : 70804] <Done>.
+TD190 📋> ␅
+TD5293444 ␆🧩 Puzzle #1133
+TD107 📋> 🧩 Puzzle #1133
+TD29 📋> ␅
+TD74 ␆🤔 13 guesses
+TD27 📋> 🤔 13 guesses
+TD21 📋> ␅
+TD45 ␆⏱️ 23s
+TD25 📋> ⏱️ 23s
+TD21 📋> ␅
+TD386872 ␆🔗 alphaguess.com/1133
+TD129 📋> 🔗 alphaguess.com/1133
+TD34 📋> ␅
+TD353180 ␄
+TD135 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1133\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/1133"}
+TD98 result: "\ud83e\udde9 Puzzle #1133\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/1133"
+TD26 result puzzle: 1133
+TD18 result guesses: 13
+TD15 result time: 23s
+TD14 result link: alphaguess.com/1133
+TD93 📆 2026-08-30 ? ␅
+TD465153 ␆
+TD53 📆 2026-08-30 ? 
