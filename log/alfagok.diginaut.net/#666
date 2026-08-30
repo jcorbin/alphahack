@@ -1,0 +1,85 @@
+T1837.9820372839968 now: 2026-08-30T07:26:26EDT
+TD113 site: alfagok.diginaut.net
+TD471885 loaded 399480 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1372 words excluded) asof c239cb8c5244d657bc1f18c499e61e7fe829a598
+TD103  ...␅
+TD23 ␆
+TD3  ...
+TD80 [0 : 199647 : 399480] lijk? ␅
+TD4129645 ␆
+TD83 [0 : 199647 : 399480] lijk? 
+TD120 [0 : 199647 : 399480] lijk? ␅
+TD6348272 ␆a
+TD104 [0 : 199647 : 399480] lijk? a
+TD470 progress: 1 199647 lijk
+TD164 [199648 : 299551 : 399480] schroot? ␅
+TD1460842 ␆a
+TD147 [199648 : 299551 : 399480] schroot? a
+TD187 progress: 1 299551 schroot
+TD188 [299552 : 349336 : 399480] vakantie? ␅
+TD2027935 ␆b
+TD125 [299552 : 349336 : 399480] vakantie? b
+TD341 progress: -1 349336 vakantie
+TD217 [299552 : 324136 : 349336] sub? ␅
+TD1590016 ␆a
+TD117 [299552 : 324136 : 349336] sub? a
+TD150 progress: 1 324136 sub
+TD186 [324137 : 336729 : 349336] toetsing? ␅
+TD1963694 ␆b
+TD150 [324137 : 336729 : 349336] toetsing? b
+TD186 progress: -1 336729 toetsing
+TD204 [324137 : 330319 : 336729] televisie? ␅
+TD1648267 ␆a
+TD89 [324137 : 330319 : 336729] televisie? a
+TD108 progress: 1 330319 televisie
+TD734 [330320 : 333525 : 336729] thesis? ␅
+TD1872751 ␆b
+TD148 [330320 : 333525 : 336729] thesis? b
+TD265 progress: -1 333525 thesis
+TD243 [330320 : 331714 : 333525] terug? ␅
+TD1737140 ␆b
+TD110 [330320 : 331714 : 333525] terug? b
+TD129 progress: -1 331714 terug
+TD132 [330320 : 331006 : 331714] tennist? ␅
+TD2827058 ␆b
+TD129 [330320 : 331006 : 331714] tennist? b
+TD163 progress: -1 331006 tennist
+TD171 [330320 : 330660 : 331006] temp? ␅
+TD1650847 ␆a
+TD144 [330320 : 330660 : 331006] temp? a
+TD197 progress: 1 330660 temp
+TD574 [330661 : 330833 : 331006] tempte? ␅
+TD1470367 ␆a
+TD95 [330661 : 330833 : 331006] tempte? a
+TD121 progress: 1 330833 tempte
+TD133 [330834 : 330845 : 331006] ten? ␅
+TD1508471 ␆a
+TD195 [330834 : 330845 : 331006] ten? a
+TD203 progress: 1 330845 ten
+TD191 [330846 : 330919 : 331006] tennis? ␅
+TD1998964 ␆it
+TD104 [330846 : 330919 : 331006] tennis? it
+TD132 progress: 0 330919 tennis
+TD49 [330846 : 330919 : 331006] <Done>.
+TD142 📋> ␅
+TD5181067 ␆🧩 Puzzel #666
+TD110 📋> 🧩 Puzzel #666
+TD26 📋> ␅
+TD61 ␆🤔 13 gokken
+TD21 📋> 🤔 13 gokken
+TD18 📋> ␅
+TD35 ␆⏱️ 22s
+TD20 📋> ⏱️ 22s
+TD18 📋> ␅
+TD629866 ␆🔗 alfagok.diginaut.net
+TD95 📋> 🔗 alfagok.diginaut.net
+TD28 📋> ␅
+TD370490 ␄
+TD118 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #666\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD652 result: "\ud83e\udde9 Puzzel #666\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 22s\n\ud83d\udd17 alfagok.diginaut.net"
+TD25 result puzzle: 666
+TD13 result guesses: 13
+TD10 result time: 22s
+TD9 result link: alfagok.diginaut.net
+TD65 📆 2026-08-30 ? ␅
+TD297431 ␆
+TD202 📆 2026-08-30 ? 
