@@ -1,0 +1,99 @@
+T515.0681255119998 now: 2026-08-31T09:38:01EDT
+TD80 site: alfagok.diginaut.net
+TD595176 loaded 399480 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1372 words excluded) asof 714cf951750e81b935ee57d337a33d8f528009bb
+TD109  ...␅
+TD16014209 ␆
+TD57  ...
+TD132 [0 : 199647 : 399480] lijk? ␅
+TD862909931 ␆
+TD125 [0 : 199647 : 399480] lijk? 
+TD151 [0 : 199647 : 399480] lijk? ␅
+TD2975530 ␆b
+TD99 [0 : 199647 : 399480] lijk? b
+TD359 progress: -1 199647 lijk
+TD134 [0 : 99688 : 199647] ex? ␅
+TD1672038 ␆b
+TD139 [0 : 99688 : 199647] ex? b
+TD198 progress: -1 99688 ex
+TD169 [0 : 49808 : 99688] boks? ␅
+TD1748444 ␆b
+TD68 [0 : 49808 : 99688] boks? b
+TD73 progress: -1 49808 boks
+TD81 [0 : 24880 : 49808] bad? ␅
+TD1816175 ␆a
+TD72 [0 : 24880 : 49808] bad? a
+TD89 progress: 1 24880 bad
+TD91 [24881 : 37341 : 49808] beschermen? ␅
+TD1754401 ␆b
+TD94 [24881 : 37341 : 49808] beschermen? b
+TD111 progress: -1 37341 beschermen
+TD159 [24881 : 31106 : 37341] begeleiding? ␅
+TD1647063 ␆b
+TD135 [24881 : 31106 : 37341] begeleiding? b
+TD153 progress: -1 31106 begeleiding
+TD196 [24881 : 27572 : 31106] basis? ␅
+TD1627153 ␆a
+TD82 [24881 : 27572 : 31106] basis? a
+TD97 progress: 1 27572 basis
+TD125 [27573 : 28931 : 31106] bed? ␅
+TD2291669 ␆a
+TD89 [27573 : 28931 : 31106] bed? a
+TD102 progress: 1 28931 bed
+TD159 [28932 : 29443 : 31106] bedrijf? ␅
+TD1819442 ␆b
+TD94 [28932 : 29443 : 31106] bedrijf? b
+TD104 progress: -1 29443 bedrijf
+TD117 [28932 : 29169 : 29443] bedevaart? ␅
+TD1731433 ␆a
+TD95 [28932 : 29169 : 29443] bedevaart? a
+TD112 progress: 1 29169 bedevaart
+TD223 [29170 : 29292 : 29443] bedil? ␅
+TD1730069 ␆a
+TD115 [29170 : 29292 : 29443] bedil? a
+TD155 progress: 1 29292 bedil
+TD290 [29293 : 29368 : 29443] bedonder? ␅
+TD1554512 ␆a
+TD122 [29293 : 29368 : 29443] bedonder? a
+TD107 progress: 1 29368 bedonder
+TD217 [29369 : 29400 : 29443] bedrag? ␅
+TD1550775 ␆a
+TD73 [29369 : 29400 : 29443] bedrag? a
+TD84 progress: 1 29400 bedrag
+TD235 [29401 : 29409 : 29443] bedreig? ␅
+TD1548716 ␆a
+TD149 [29401 : 29409 : 29443] bedreig? a
+TD195 progress: 1 29409 bedreig
+TD514 [29410 : 29424 : 29443] bedreven? ␅
+TD1903746 ␆it
+TD104 [29410 : 29424 : 29443] bedreven? it
+TD151 progress: 0 29424 bedreven
+TD228 [29410 : 29424 : 29443] <Done>.
+TD206 📋> ␅
+TD3575905 ␄
+TD155 pasted: {"subject": "share result", "method": "read:must:stdin", "content": ""}
+TD474 📋> ␅
+TD1141127 ␆
+TD91 📋> 
+TD19 📋> ␅
+TD1449329 ␆🧩 Puzzel #667
+TD99 📋> 🧩 Puzzel #667
+TD17 📋> ␅
+TD56 ␆🤔 15 gokken
+TD9 📋> 🤔 15 gokken
+TD8 📋> ␅
+TD20 ␆⏱️ 24s
+TD9 📋> ⏱️ 24s
+TD7 📋> ␅
+TD189222 ␆🔗 alfagok.diginaut.net
+TD107 📋> 🔗 alfagok.diginaut.net
+TD18 📋> ␅
+TD344345 ␄
+TD147 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\n\ud83e\udde9 Puzzel #667\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD115 result: "\n\ud83e\udde9 Puzzel #667\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TD21 result puzzle: 667
+TD11 result guesses: 15
+TD8 result time: 24s
+TD7 result link: alfagok.diginaut.net
+TD89 📆 2026-08-31 ? ␅
+TD458171 ␆
+TD88 📆 2026-08-31 ? 
