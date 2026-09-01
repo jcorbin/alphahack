@@ -1,0 +1,233 @@
+T1386.7954232380143 now: 2026-09-01T08:27:32EDT
+TD161 site: https://wordgrid.clevergoat.com/
+TD30 wordlist: nwl2023.txt
+TD1303 > ␅
+TD5766248 ␆col 1 ![CIT]
+TD50 > col 1 ![CIT]
+TD512 rule col: 1 ![CIT]
+TD74 > ␅
+TD3450006 ␆col 2 ![RU]
+TD103 > col 2 ![RU]
+TD427 rule col: 2 ![RU]
+TD121 > ␅
+TD2372990 ␆col 3 x2
+TD163 > col 3 x2
+TD894 rule col: 3 x2
+TD223 > ␅
+TD2876037 ␆row 1 ~EG
+TD128 > row 1 ~EG
+TD482 rule row: 1 ~EG
+TD182 > ␅
+TD4034433 ␆row 2 ~ON$$
+TD69 > row 2 ~ON$$
+TD255 rule row: 2 ~ON$$
+TD94 > ␅
+TD2824086 ␆row 2 ~ON$
+TD141 > row 2 ~ON$
+TD530 rule row: 2 ~ON$
+TD271 > ␅
+TD2165465 ␆row 2 ~EB
+TD175 > row 2 ~EB
+TD969 rule row: 2 ~EB
+TD345 > ␅
+TD226793 ␆
+TD101 > 
+TD276 > ␅
+TD4150998 ␆row 2 ~ON$
+TD163 > row 2 ~ON$
+TD362 rule row: 2 ~ON$
+TD454 > ␅
+TD3299763 ␆row 3 ~ EB
+TD143 > row 3 ~ EB
+TD626 > ␅
+TD3334370 ␆row 3 ~EB
+TD68 > row 3 ~EB
+TD139 rule row: 3 ~EB
+TD78 > ␅
+TD767641 ␆*
+TD74 > *
+TD262002 ? ␅
+TD3760638 ␆3
+TD120 ? 3
+TD245 questioning: 0 beglads
+TD103 🌡️ beglads 📋 ? ␅
+TD2742929 ␆0
+TD274 🌡️ beglads 📋 ? 0
+TD432 word: 0 beglads 0.0
+TD39 questioning: -1 
+TD131 > ␅
+TD3058155 ␆*
+TD121 > *
+TD261904 ? ␅
+TD2345956 ␆4
+TD84 ? 4
+TD130 questioning: 1 legation
+TD47 🌡️ legation 📋 ? ␅
+TD3529791 ␆.14
+TD122 🌡️ legation 📋 ? .14
+TD136 word: 1 legation 0.14
+TD36 questioning: -1 
+TD155 > ␅
+TD3751777 ␆* 2 1
+TD41 > * 2 1
+TD252217 ? ␅
+TD1696279 ␆9
+TD94 ? 9
+TD145 questioning: 1 megabits
+TD53 🌡️ megabits 📋 ? ␅
+TD3096846 ␆.16
+TD83 🌡️ megabits 📋 ? .16
+TD82 word: 1 megabits 0.16
+TD21 questioning: -1 
+TD105 > ␅
+TD1443590 ␆* 2 1
+TD72 > * 2 1
+TD257914 ? ␅
+TD2933655 ␆3
+TD130 ? 3
+TD211 questioning: 1 segno
+TD66 🌡️ segno 📋 ? ␅
+TD4052084 ␆.04
+TD126 🌡️ segno 📋 ? .04
+TD134 word: 1 segno 0.04
+TD36 questioning: -1 
+TD160 > ␅
+TD444140 ␆*
+TD44 > *
+TD815486 ? ␅
+TD1090497 ␆1
+TD49 ? 1
+TD71 questioning: 2 collegian
+TD36 🌡️ collegian 📋 ? ␅
+TD2702448 ␆.04
+TD107 🌡️ collegian 📋 ? .04
+TD92 word: 2 collegian 0.04
+TD20 questioning: -1 
+TD99 > ␅
+TD350786 ␆*
+TD92 > *
+TD256171 ? ␅
+TD2137858 ␆3
+TD128 ? 3
+TD237 questioning: 3 megaron
+TD77 🌡️ megaron 📋 ? ␅
+TD3643025 ␆.08
+TD189 🌡️ megaron 📋 ? .08
+TD142 word: 3 megaron 0.08
+TD34 questioning: -1 
+TD163 > ␅
+TD410125 ␆*
+TD124 > *
+TD280450 ? ␅
+TD1761809 ␆10
+TD98 ? 10
+TD177 questioning: 4 eikon
+TD72 🌡️ eikon 📋 ? ␅
+TD2576579 ␆.05
+TD109 🌡️ eikon 📋 ? .05
+TD119 word: 4 eikon 0.05
+TD32 questioning: -1 
+TD137 > ␅
+TD362706 ␆*
+TD66 > *
+TD824069 ? ␅
+TD2846718 ␆3
+TD120 ? 3
+TD190 questioning: 5 crampoon
+TD70 🌡️ crampoon 📋 ? ␅
+TD2482566 ␆0
+TD99 🌡️ crampoon 📋 ? 0
+TD113 word: 5 crampoon 0.0
+TD38 questioning: -1 
+TD187 > ␅
+TD752156 ␆*
+TD97 > *
+TD255410 ? ␅
+TD2208019 ␆4
+TD88 ? 4
+TD136 questioning: 6 rebs
+TD49 🌡️ rebs 📋 ? ␅
+TD3001304 ␆.17
+TD98 🌡️ rebs 📋 ? .17
+TD103 word: 6 rebs 0.17
+TD25 questioning: -1 
+TD143 > ␅
+TD1292730 ␆* 1 3
+TD124 > * 1 3
+TD256721 ? ␅
+TD1623208 ␆10
+TD97 ? 10
+TD331 questioning: 6 keblah
+TD85 🌡️ keblah 📋 ? ␅
+TD2821307 ␆.4
+TD151 🌡️ keblah 📋 ? .04
+TD289 word: 6 keblah 0.04
+TD59 questioning: -1 
+T11.774054517998593 now: 2026-09-01T08:29:30EDT
+TD108 > ␅
+TD938481 ␆*
+TD135 > *
+TD298553 ? ␅
+TD3350391 ␆2
+TD55 ? 2
+TD83 questioning: 7 piebald
+TD33 🌡️ piebald 📋 ? ␅
+TD2996968 ␆.12
+TD87 🌡️ piebald 📋 ? .12
+TD317 word: 7 piebald 0.12
+TD31 questioning: -1 
+TD114 > ␅
+TD2179715 ␆* 2 3
+TD104 > * 2 3
+TD276358 ? ␅
+TD2968163 ␆5
+TD128 ? 5
+TD227 questioning: 7 manebs
+TD93 🌡️ manebs 📋 ? ␅
+TD2882629 ␆0
+TD120 🌡️ manebs 📋 ? 0
+TD131 word: 7 manebs 0.0
+TD42 questioning: -1 
+TD218 > ␅
+TD443556 ␆*
+TD68 > *
+TD839003 ? ␅
+TD6046502 ␆1
+TD159 ? 1
+TD499 questioning: 8 saddlebow
+TD179 🌡️ saddlebow 📋 ? ␅
+TD3396374 ␆.05
+TD96 🌡️ saddlebow 📋 ? .05
+TD85 word: 8 saddlebow 0.05
+TD23 questioning: -1 
+TD117 > ␅
+TD3097274 ␆/res
+TD128 > /res
+TD349 📋> ␅
+TD1130656 ␆Word Grid #823
+TD102 📋> Word Grid #823
+TD38 📋> ␅
+TD57 ␆🦄🌌🌌
+TD13 📋> 🦄🌌🌌
+TD10 📋> ␅
+TD29 ␆🌌🌌🦄
+TD11 📋> 🌌🌌🦄
+TD10 📋> ␅
+TD22 ␆🌌🦄🌌
+TD11 📋> 🌌🦄🌌
+TD11 📋> ␅
+TD20 ␆Rarity: 0.31
+TD12 📋> Rarity: 0.31
+TD10 📋> ␅
+TD126499 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD125 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD23 📋> ␅
+TD280675 ␄
+TD142 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #823\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83c\udf0c\ud83e\udd84\ud83c\udf0c\nRarity: 0.31\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD560 result: "Word Grid #823\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83c\udf0c\ud83e\udd84\ud83c\udf0c\nRarity: 0.31\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD108 > ␅
+TD985217 ␆/store
+TD54 > /store
+TD131 📆 2026-09-01 ? ␅
+TD354600 ␆
+TD57 📆 2026-09-01 ? 
