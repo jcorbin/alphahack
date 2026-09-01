@@ -1,0 +1,90 @@
+T233.98813764500665 now: 2026-09-01T07:43:11EDT
+TD189 site: alphaguess.com
+TD165402 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 714cf951750e81b935ee57d337a33d8f528009bb
+TD82  ...␅
+TD478587 ␆
+TD115  ...
+TD219 [0 : 98147 : 196518] mac? ␅
+TD6735862 ␆a
+TD77 [0 : 98147 : 196518] mac? a
+TD96 progress: 1 98147 mac
+TD93 [98148 : 147311 : 196518] rho? ␅
+TD2593631 ␆a
+TD105 [98148 : 147311 : 196518] rho? a
+TD121 progress: 1 147311 rho
+TD121 [147312 : 171911 : 196518] tag? ␅
+TD1509605 ␆b
+TD105 [147312 : 171911 : 196518] tag? b
+TD129 progress: -1 171911 tag
+TD260 [147312 : 159593 : 171911] slug? ␅
+TD1843556 ␆a
+TD70 [147312 : 159593 : 171911] slug? a
+TD59 progress: 1 159593 slug
+TD143 [159594 : 165747 : 171911] stint? ␅
+TD1648089 ␆a
+TD104 [159594 : 165747 : 171911] stint? a
+TD129 progress: 1 165747 stint
+TD137 [165748 : 168797 : 171911] sulfur? ␅
+TD3019614 ␆b
+TD78 [165748 : 168797 : 171911] sulfur? b
+TD100 progress: -1 168797 sulfur
+TD224 [165748 : 167271 : 168797] sub? ␅
+TD1566250 ␆b
+TD136 [165748 : 167271 : 168797] sub? b
+TD166 progress: -1 167271 sub
+TD181 [165748 : 166506 : 167271] streak? ␅
+TD1495736 ␆b
+TD174 [165748 : 166506 : 167271] streak? b
+TD198 progress: -1 166506 streak
+TD246 [165748 : 166103 : 166506] stop? ␅
+TD1436411 ␆a
+TD46 [165748 : 166103 : 166506] stop? a
+TD48 progress: 1 166103 stop
+TD49 [166104 : 166301 : 166506] straight? ␅
+TD1360664 ␆b
+TD78 [166104 : 166301 : 166506] straight? b
+TD71 progress: -1 166301 straight
+TD78 [166104 : 166192 : 166301] story? ␅
+TD1604439 ␆b
+TD143 [166104 : 166192 : 166301] story? b
+TD128 progress: -1 166192 story
+TD508 [166104 : 166148 : 166192] storax? ␅
+TD1959545 ␆a
+TD49 [166104 : 166148 : 166192] storax? a
+TD53 progress: 1 166148 storax
+TD74 [166149 : 166150 : 166192] store? ␅
+TD1597624 ␆a
+TD85 [166149 : 166150 : 166192] store? a
+TD97 progress: 1 166150 store
+TD195 [166151 : 166168 : 166192] storey? ␅
+TD1922624 ␆a
+TD101 [166151 : 166168 : 166192] storey? a
+TD116 progress: 1 166168 storey
+TD150 [166169 : 166178 : 166192] storm? ␅
+TD2918759 ␆it
+TD107 [166169 : 166178 : 166192] storm? it
+TD123 progress: 0 166178 storm
+TD42 [166169 : 166178 : 166192] <Done>.
+TD110 📋> ␅
+TD4101255 ␆🧩 Puzzle #1135
+TD113 📋> 🧩 Puzzle #1135
+TD19 📋> ␅
+TD93 ␆🤔 15 guesses
+TD13 📋> 🤔 15 guesses
+TD10 📋> ␅
+TD22 ␆⏱️ 25s
+TD12 📋> ⏱️ 25s
+TD9 📋> ␅
+TD156588 ␆🔗 alphaguess.com/1135
+TD62 📋> 🔗 alphaguess.com/1135
+TD10 📋> ␅
+TD583251 ␄
+TD339 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1135\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1135"}
+TD109 result: "\ud83e\udde9 Puzzle #1135\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1135"
+TD20 result puzzle: 1135
+TD10 result guesses: 15
+TD9 result time: 25s
+TD8 result link: alphaguess.com/1135
+TD97 📆 2026-09-01 ? ␅
+TD284155 ␆
+TD74 📆 2026-09-01 ? 
