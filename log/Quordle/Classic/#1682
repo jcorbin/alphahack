@@ -1,0 +1,184 @@
+T552.2767420009914 now: 2026-09-02T08:01:43EDT
+TD222 site: https://www.merriam-webster.com/games/quordle/#/
+TD40 wordlist: nwl2023.txt
+TD14 num_words: 4
+TD261  ...␅
+TD207207 ␆
+TD150  ...
+TD486929 > ␅
+TD8378158 ␆*
+TD108 > *
+TD53723 ? ␅
+TD200633 ␆1
+TD129 ? 1
+TD166 questioning: osier
+TD188 Classic #1 _____? ␅
+TD3071972 ␆nnMnY
+TD109 Classic #1 _____? nnMnY
+TD650 attempt: 0 OSIER n n m n Y
+TD162 Classic #2 _____? ␅
+TD1236260 ␆nnnMn
+TD109 Classic #2 _____? nnnMn
+TD369 attempt: 1 OSIER n n n m n
+TD156 Classic #3 _____? ␅
+TD1560264 ␆nnMnn
+TD65 Classic #3 _____? nnMnn
+TD121 attempt: 2 OSIER n n m n n
+TD59 Classic #4 _____? ␅
+TD1582095 ␆MnnMM
+TD84 Classic #4 _____? MnnMM
+TD234 attempt: 3 OSIER m n n m m
+TD501098 > ␅
+TD598906 ␆
+TD87 > 
+TD157 > ␅
+TD577253 ␆*
+TD62 > *
+TD3763 ? ␅
+TD887232 ␆1
+TD103 ? 1
+TD231 questioning: leant
+TD226 Classic #1 ____R ~I -EOS? ␅
+TD2601156 ␆nnnMn
+TD133 Classic #1 ____R ~I -EOS? nnnMn
+TD312 attempt: 0 LEANT n n n m n
+TD187 Classic #2 _____ ~E -IORS? ␅
+TD4628485 ␆MYMnn
+TD86 Classic #2 _____ ~E -IORS? MYMnn
+TD243 attempt: 1 LEANT m Y m n n
+TD138 Classic #3 _____ ~I -EORS? ␅
+TD6079198 ␆nnMMM
+TD124 Classic #3 _____ ~I -EORS? nnMMM
+TD360 attempt: 2 LEANT n n m m m
+TD178 Classic #4 _____ ~EOR -IS? ␅
+TD1625483 ␆nMnnn
+TD164 Classic #4 _____ ~EOR -IS? nMnnn
+TD264 attempt: 3 LEANT n m n n n
+TD577239 > ␅
+TD820814 ␆*
+TD99 > *
+TD462 questioning: incur
+TD162 Classic #1 ____R ~IN -AELOST? ␅
+TD3695097 ␆YYYYY
+TD78 Classic #1 ____R ~IN -AELOST? YYYYY
+TD197 attempt: 0 INCUR Y Y Y Y Y
+TD126 Classic #2 _E___ ~AL -INORST? ␅
+TD1367387 ␆nnnnn
+TD81 Classic #2 _E___ ~AL -INORST? nnnnn
+TD219 attempt: 1 INCUR n n n n n
+TD117 Classic #3 _____ ~AINT -ELORS? ␅
+TD1387876 ␆MMnnn
+TD139 Classic #3 _____ ~AINT -ELORS? MMnnn
+TD419 attempt: 2 INCUR m m n n n
+TD217 Classic #4 _____ ~EOR -AILNST? ␅
+TD1323649 ␆nnnnM
+TD93 Classic #4 _____ ~EOR -AILNST? nnnnM
+TD264 attempt: 3 INCUR n n n n m
+TD399869 > ␅
+TD794392 ␆*
+TD83 > *
+TD974 ? ␅
+TD1150809 ␆1
+TD95 ? 1
+TD185 questioning: grope
+TD239 Classic #2 _E___ ~AL -CINORSTU? ␅
+TD2856500 ␆nnnnM
+TD84 Classic #2 _E___ ~AL -CINORSTU? nnnnM
+TD257 attempt: 1 GROPE n n n n m
+TD134 Classic #3 _____ ~AINT -CELORSU? ␅
+TD1266719 ␆nnnnn
+TD129 Classic #3 _____ ~AINT -CELORSU? nnnnn
+TD297 attempt: 2 GROPE n n n n n
+TD160 Classic #4 _____ ~EOR -ACILNSTU? ␅
+TD1493936 ␆nYYnUY
+TD102 Classic #4 _____ ~EOR -ACILNSTU? nYYnUY
+TD255 Classic #4 _____ ~EOR -ACILNSTU? ␅
+TD3219049 ␆nYYnY
+TD108 Classic #4 _____ ~EOR -ACILNSTU? nYYnY
+TD340 attempt: 3 GROPE n Y Y n Y
+TD386474 > ␅
+TD835164 ␆*
+TD113 > *
+TD721 ? ␅
+TD63926620 ␄
+TD78 <EOF>
+TD400919 > ␅
+TD867061 ␆
+TD83 > 
+TD140 > ␅
+TD6956369 ␆tried zombi
+TD99 > tried zombi
+TD418 questioning: ZOMBI
+TD213 Classic #2 _E___ ~AL -CGINOPRSTU? ␅
+TD2188509 ␆nnnnn
+TD158 Classic #2 _E___ ~AL -CGINOPRSTU? nnnnn
+TD358 attempt: 1 ZOMBI n n n n n
+TD233 Classic #3 _____ ~AINT -CEGLOPRSU? ␅
+TD1391112 ␆nnnnM
+TD62 Classic #3 _____ ~AINT -CEGLOPRSU? nnnnM
+TD175 attempt: 2 ZOMBI n n n n m
+TD98 Classic #4 _RO_E -ACGILNPSTU? ␅
+TD1489400 ␆MMnnn
+TD100 Classic #4 _RO_E -ACGILNPSTU? MMnnn
+TD304 attempt: 3 ZOMBI m m n n n
+TD352692 > ␅
+TD747770 ␆*
+TD117 > *
+TD520 questioning: froze
+TD210 Classic #2 _E___ ~AL -BCGIMNOPRSTUZ? ␅
+TD3371522 ␆YnnnM
+TD63 Classic #2 _E___ ~AL -BCGIMNOPRSTUZ? YnnnM
+TD137 attempt: 1 FROZE Y n n n m
+TD81 Classic #3 _____ ~AINT -BCEGLMOPRSUZ? ␅
+TD1324042 ␆nnnnn
+TD108 Classic #3 _____ ~AINT -BCEGLMOPRSUZ? nnnnn
+TD305 attempt: 2 FROZE n n n n n
+TD426 Classic #4 _RO_E ~Z -ABCGILMNPSTU? ␅
+TD1160072 ␆YYYYY
+TD61 Classic #4 _RO_E ~Z -ABCGILMNPSTU? YYYYY
+TD157 attempt: 3 FROZE Y Y Y Y Y
+TD246544 > ␅
+TD604842 ␆*
+TD81 > *
+TD295 questioning: fella
+TD120 Classic #2 FE___ ~AL -BCGIMNOPRSTUZ? ␅
+TD2961424 ␆YYYYY
+TD96 Classic #2 FE___ ~AL -BCGIMNOPRSTUZ? YYYYY
+TD259 attempt: 1 FELLA Y Y Y Y Y
+TD135 Classic #3 _____ ~AINT -BCEFGLMOPRSUZ? ␅
+TD1206645 ␆nnnnM
+TD110 Classic #3 _____ ~AINT -BCEFGLMOPRSUZ? nnnnM
+TD355 attempt: 2 FELLA n n n n m
+TD133158 > ␅
+TD904752 ␆*
+TD144 > *
+TD748 ? ␅
+TD5276141 ␆3
+TD97 ? 3
+TD180 questioning: titan
+TD201 Classic #3 _____ ~AINT -BCEFGLMOPRSUZ? ␅
+TD2702667 ␆YYYYY
+TD105 Classic #3 _____ ~AINT -BCEFGLMOPRSUZ? YYYYY
+TD256 attempt: 2 TITAN Y Y Y Y Y
+TD144 📋> ␅
+TD5896003 ␆🙂 Daily Quordle 1682
+TD95 📋> 🙂 Daily Quordle 1682
+TD17 📋> ␅
+TD59 ␆3️⃣7️⃣
+TD11 📋> 3️⃣7️⃣
+TD9 📋> ␅
+TD19 ␆8️⃣6️⃣
+TD8 📋> 8️⃣6️⃣
+TD8 📋> ␅
+TD17 ␆m-w.com/games/quordle/
+TD8 📋> m-w.com/games/quordle/
+TD8 📋> ␅
+TD114881 ␆
+TD44 📋> 
+TD6 📋> ␅
+TD212847 ␄
+TD142 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1682\n3\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2305 result: "\ud83d\ude42 Daily Quordle 1682\n3\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD99 📆 2026-09-02 ? ␅
+TD239685 ␆
+TD94 📆 2026-09-02 ? 
