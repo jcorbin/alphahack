@@ -1,0 +1,149 @@
+T30653.550769822992 now: 2026-09-03T07:20:48EDT
+TD197 site: https://www.merriam-webster.com/games/quordle/#/
+TD33 wordlist: nwl2023.txt
+TD11 num_words: 4
+TD170  ...␅
+TD198727 ␆
+TD120  ...
+TD506818 > ␅
+TD8544023 ␆*
+TD56 > *
+TD63348 ? ␅
+TD727503 ␆1
+TD85 ? 1
+TD196 questioning: saner
+TD219 Classic #1 _____? ␅
+TD6165621 ␆YMnnn
+TD79 Classic #1 _____? YMnnn
+TD416 attempt: 0 SANER Y m n n n
+TD102 Classic #2 _____? ␅
+TD1785879 ␆MMnMn
+TD88 Classic #2 _____? MMnMn
+TD222 attempt: 1 SANER m m n m n
+TD104 Classic #3 _____? ␅
+TD1366972 ␆nnnMM
+TD66 Classic #3 _____? nnnMM
+TD173 attempt: 2 SANER n n n m m
+TD83 Classic #4 _____? ␅
+TD1179275 ␆nMnnn
+TD51 Classic #4 _____? nMnnn
+TD112 attempt: 3 SANER n m n n n
+TD521482 > ␅
+TD658380 ␆*
+TD76 > *
+TD3665 ? ␅
+TD805840 ␆1
+TD160 ? 1
+TD265 questioning: tidal
+TD188 Classic #1 S____ ~A -ENR? ␅
+TD3210699 ␆nYnMn
+TD75 Classic #1 S____ ~A -ENR? nYnMn
+TD184 attempt: 0 TIDAL n Y n m n
+TD92 Classic #2 _____ ~AES -NR? ␅
+TD1084074 ␆nnnYn
+TD80 Classic #2 _____ ~AES -NR? nnnYn
+TD208 attempt: 1 TIDAL n n n Y n
+TD113 Classic #3 _____ ~ER -ANS? ␅
+TD1079954 ␆nnnnn
+TD77 Classic #3 _____ ~ER -ANS? nnnnn
+TD245 attempt: 2 TIDAL n n n n n
+TD267 Classic #4 _____ ~A -ENRS? ␅
+TD1186983 ␆nnnMM
+TD92 Classic #4 _____ ~A -ENRS? nnnMM
+TD274 attempt: 3 TIDAL n n n m m
+TD489501 > ␅
+TD681343 ␆*
+TD46 > *
+TD192 questioning: sigma
+TD71 Classic #1 SI___ ~A -DELNRT? ␅
+TD3455788 ␆YYYYY
+TD109 Classic #1 SI___ ~A -DELNRT? YYYYY
+TD276 attempt: 0 SIGMA Y Y Y Y Y
+TD150 Classic #2 ___A_ ~ES -DILNRT? ␅
+TD1634045 ␆MnnnM
+TD91 Classic #2 ___A_ ~ES -DILNRT? MnnnM
+TD270 attempt: 1 SIGMA m n n n m
+TD146 Classic #3 _____ ~ER -ADILNST? ␅
+TD1482386 ␆nnnMn
+TD92 Classic #3 _____ ~ER -ADILNST? nnnMn
+TD273 attempt: 2 SIGMA n n n m n
+TD127 Classic #4 _____ ~AL -DEINRST? ␅
+TD1226326 ␆nnnYY
+TD84 Classic #4 _____ ~AL -DEINRST? nnnYY
+TD216 attempt: 3 SIGMA n n n Y Y
+TD394420 > ␅
+TD745124 ␆*
+TD83 > *
+TD603 ? ␅
+TD4380193 ␆3
+TD142 ? 3
+TD205 questioning: llama
+TD165 Classic #2 ___A_ ~ES -DGILMNRT? ␅
+TD6212574 ␆nnMnn
+TD72 Classic #2 ___A_ ~ES -DGILMNRT? nnMnn
+TD166 attempt: 1 LLAMA n n m n n
+TD92 Classic #3 _____ ~EMR -ADGILNST? ␅
+TD1287401 ␆nnnMn
+TD117 Classic #3 _____ ~EMR -ADGILNST? nnnMn
+TD337 attempt: 2 LLAMA n n n m n
+TD215 Classic #4 ___MA ~L -DEGINRST? ␅
+TD1115579 ␆YYYYY
+TD85 Classic #4 ___MA ~L -DEGINRST? YYYYY
+TD240 attempt: 3 LLAMA Y Y Y Y Y
+TD285949 > ␅
+TD744486 ␆*
+TD44 > *
+TD305 ? ␅
+TD1946491 ␆1
+TD153 ? 1
+TD168 questioning: mercy
+TD209 Classic #2 ___A_ ~ES -DGILMNRT A:1? ␅
+TD3700131 ␆nMnnY
+TD93 Classic #2 ___A_ ~ES -DGILMNRT A:1? nMnnY
+TD251 attempt: 1 MERCY n m n n Y
+TD138 Classic #3 _____ ~EMR -ADGILNST? ␅
+TD2012114 ␆YYYnY
+TD64 Classic #3 _____ ~EMR -ADGILNST? YYYnY
+TD183 attempt: 2 MERCY Y Y Y n Y
+TD213221 > ␅
+TD687760 ␆*
+TD80 > *
+TD292 questioning: essay
+TD121 Classic #2 ___AY ~ES -CDGILMNRT A:1? ␅
+TD3546120 ␆YYYYY
+TD61 Classic #2 ___AY ~ES -CDGILMNRT A:1? YYYYY
+TD115 attempt: 1 ESSAY Y Y Y Y Y
+TD62 Classic #3 MER_Y -ACDGILNST? ␅
+TD1253262 ␆MnnnY
+TD116 Classic #3 MER_Y -ACDGILNST? MnnnY
+TD282 attempt: 2 ESSAY m n n n Y
+TD114671 > ␅
+TD261531 ␆*
+TD87 > *
+TD391 questioning: merry
+TD154 Classic #3 MER_Y -ACDGILNST? ␅
+TD3268637 ␆YYYYY
+TD108 Classic #3 MER_Y -ACDGILNST? YYYYY
+TD191 attempt: 2 MERRY Y Y Y Y Y
+TD87 📋> ␅
+TD5563596 ␆🙂 Daily Quordle 1683
+TD123 📋> 🙂 Daily Quordle 1683
+TD19 📋> ␅
+TD66 ␆3️⃣6️⃣
+TD18 📋> 3️⃣6️⃣
+TD10 📋> ␅
+TD23 ␆7️⃣4️⃣
+TD14 📋> 7️⃣4️⃣
+TD9 📋> ␅
+TD22 ␆m-w.com/games/quordle/
+TD15 📋> m-w.com/games/quordle/
+TD9 📋> ␅
+TD96637 ␆
+TD46 📋> 
+TD7 📋> ␅
+TD435647 ␄
+TD175 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1683\n3\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2645 result: "\ud83d\ude42 Daily Quordle 1683\n3\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD89 📆 2026-09-03 ? ␅
+TD320079 ␆
+TD137 📆 2026-09-03 ? 
