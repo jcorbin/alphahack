@@ -1,0 +1,136 @@
+T28699.249545189 now: 2026-09-03T06:48:13EDT
+TD152 site: alfagok.diginaut.net
+TD427492 loaded 399480 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1372 words excluded) asof c111ffe5806e6d77c0794f440507ec8c3956bd44
+TD101  ...␅
+TD22 ␆
+TD3  ...
+TD64 [0 : 199647 : 399480] lijk? ␅
+TD1412408 ␆
+TD156 [0 : 199647 : 399480] lijk? 
+TD186 [0 : 199647 : 399480] lijk? ␅
+TD4583265 ␆
+TD65 [0 : 199647 : 399480] lijk? 
+TD129 [0 : 199647 : 399480] lijk? ␅
+TD2825005 ␆b
+TD118 [0 : 199647 : 399480] lijk? b
+TD474 progress: -1 199647 lijk
+TD201 [0 : 99688 : 199647] ex? ␅
+TD1985204 ␆b
+TD124 [0 : 99688 : 199647] ex? b
+TD141 progress: -1 99688 ex
+TD146 [0 : 49808 : 99688] boks? ␅
+TD1791223 ␆a
+TD110 [0 : 49808 : 99688] boks? a
+TD140 progress: 1 49808 boks
+TD200 [49809 : 74711 : 99688] dc? ␅
+TD2072280 ␆b
+TD125 [49809 : 74711 : 99688] dc? b
+TD179 progress: -1 74711 dc
+TD154 [49809 : 62247 : 74711] cement? ␅
+TD1837522 ␆a
+TD87 [49809 : 62247 : 74711] cement? a
+TD103 progress: 1 62247 cement
+TD593 [62248 : 68479 : 74711] connaisseurs? ␅
+TD1842393 ␆a
+TD105 [62248 : 68479 : 74711] connaisseurs? a
+TD107 progress: 1 68479 connaisseurs
+TD117 [68480 : 71552 : 74711] cru? ␅
+TD1966859 ␆a
+TD193 [68480 : 71552 : 74711] cru? a
+TD150 progress: 1 71552 cru
+TD179 [71553 : 72842 : 74711] dag? ␅
+TD2128054 ␆b
+TD91 [71553 : 72842 : 74711] dag? b
+TD105 progress: -1 72842 dag
+TD203 [71553 : 72195 : 72842] curie? ␅
+TD2389310 ␆b
+TD109 [71553 : 72195 : 72842] curie? b
+TD137 progress: -1 72195 curie
+TD147 [71553 : 71764 : 72195] cultuur? ␅
+TD2213749 ␆b
+TD98 [71553 : 71764 : 72195] cultuur? b
+TD112 progress: -1 71764 cultuur
+TD210 [71553 : 71654 : 71764] cuba? ␅
+TD3324261 ␆!
+TD92 [71553 : 71654 : 71764] cuba? !
+TD1166 [71553 : 71658 : 71763] cubapolitiek? ␅
+TD2259192 ␆!
+TD105 [71553 : 71658 : 71763] cubapolitiek? !
+TD1458 [71553 : 71659 : 71762] cue? ␅
+TD2481676 ␆a
+TD105 [71553 : 71659 : 71762] cue? a
+TD226 progress: 1 71659 cue
+TD382 [71660 : 71699 : 71762] cult? ␅
+TD1934274 ␆a
+TD40 [71660 : 71699 : 71762] cult? a
+TD44 progress: 1 71699 cult
+TD144 [71700 : 71731 : 71762] cultivéparel? ␅
+TD1816120 ␆a
+TD92 [71700 : 71731 : 71762] cultivéparel? a
+TD108 progress: 1 71731 cultivéparel
+TD113 [71732 : 71740 : 71762] culture? ␅
+TD1903764 ␆a
+TD47 [71732 : 71740 : 71762] culture? a
+TD48 progress: 1 71740 culture
+TD97 [71741 : 71751 : 71762] culturen? ␅
+TD2084915 ␆b
+TD79 [71741 : 71751 : 71762] culturen? b
+TD91 progress: -1 71751 culturen
+TD266 [71741 : 71746 : 71751] cultureel-politiek? ␅
+TD1861287 ␆!
+TD95 [71741 : 71746 : 71751] cultureel-politiek? !
+TD953 [71741 : 71746 : 71750] cultureel-politieke? ␅
+TD2759558 ␆!
+TD85 [71741 : 71746 : 71750] cultureel-politieke? !
+TD882 [71741 : 71746 : 71749] cultureels? ␅
+TD2080341 ␆b
+TD103 [71741 : 71746 : 71749] cultureels? b
+TD123 progress: -1 71746 cultureels
+TD336 [71741 : 71743 : 71746] cultureel-historische? ␅
+TD2278677 ␆!
+TD140 [71741 : 71743 : 71746] cultureel-historische? !
+TD1422 [71741 : 71743 : 71745] cultureel-maatschappelijk? ␅
+TD2144144 ␆!
+TD103 [71741 : 71743 : 71745] cultureel-maatschappelijk? !
+TD1278 [71741 : 71743 : 71744] cultureel-maatschappelijke? ␅
+TD2015492 ␆!
+TD121 [71741 : 71743 : 71744] cultureel-maatschappelijke? !
+TD1043 [71741 : 71743 : 71743] cultureels? ␅
+TD7357216 ␆.
+TD109 [71741 : 71743 : 71743] cultureels? .
+TD738 viewing: @71743 C3 [ 71740 71746 ] search: [ 71741 71743 ]
+TD37 > ␅
+TD30581988 ␆@-2
+TD124 > @-2
+TD1547 viewing: @71741 C3 [ 71738 71744 ] search: [ 71741 71743 ]
+TD49 > ␅
+TD1674646 ␆
+TD107 > 
+TD147 [71741 : 71741 : 71743] cultureel? ␅
+TD2650125 ␆it
+TD142 [71741 : 71741 : 71743] cultureel? it
+TD133 progress: 0 71741 cultureel
+TD46 [71741 : 71741 : 71743] <Done>.
+TD148 📋> ␅
+TD3776338 ␆🧩 Puzzel #670
+TD125 📋> 🧩 Puzzel #670
+TD32 📋> ␅
+TD94 ␆🤔 17 gokken
+TD53 📋> 🤔 17 gokken
+TD27 📋> ␅
+TD55 ␆⏱️ 1m 30s
+TD28 📋> ⏱️ 1m 30s
+TD24 📋> ␅
+TD131446 ␆🔗 alfagok.diginaut.net
+TD99 📋> 🔗 alfagok.diginaut.net
+TD51 📋> ␅
+TD351220 ␄
+TD319 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #670\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 1m 30s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1837 result: "\ud83e\udde9 Puzzel #670\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 1m 30s\n\ud83d\udd17 alfagok.diginaut.net"
+TD119 result puzzle: 670
+TD17 result guesses: 17
+TD11 result time: 1m 30s
+TD9 result link: alfagok.diginaut.net
+TD123 📆 2026-09-03 ? ␅
+TD811892 ␆
+TD108 📆 2026-09-03 ? 
