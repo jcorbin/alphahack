@@ -1,0 +1,109 @@
+T30336.617697398004 now: 2026-09-03T07:15:31EDT
+TD293 site: alphaguess.com
+TD160271 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof c111ffe5806e6d77c0794f440507ec8c3956bd44
+TD69  ...␅
+TD27501 ␆
+TD82  ...
+TD148 [0 : 98147 : 196518] mac? ␅
+TD1772597 ␆
+TD84 [0 : 98147 : 196518] mac? 
+TD105 [0 : 98147 : 196518] mac? ␅
+TD12736484 ␆b
+TD102 [0 : 98147 : 196518] mac? b
+TD123 progress: -1 98147 mac
+TD144 [0 : 47378 : 98147] dis? ␅
+TD5430084 ␆b
+TD95 [0 : 47378 : 98147] dis? b
+TD104 progress: -1 47378 dis
+TD123 [0 : 23680 : 47378] camp? ␅
+TD1777765 ␆b
+TD45 [0 : 23680 : 47378] camp? b
+TD47 progress: -1 23680 camp
+TD49 [0 : 11763 : 23680] back? ␅
+TD1586267 ␆a
+TD144 [0 : 11763 : 23680] back? a
+TD153 progress: 1 11763 back
+TD151 [11764 : 17714 : 23680] blind? ␅
+TD1578408 ␆a
+TD53 [11764 : 17714 : 23680] blind? a
+TD73 progress: 1 17714 blind
+TD80 [17715 : 20685 : 23680] brill? ␅
+TD3417465 ␆b
+TD185 [17715 : 20685 : 23680] brill? b
+TD253 progress: -1 20685 brill
+TD246 [17715 : 19159 : 20685] boot? ␅
+TD2083337 ␆b
+TD95 [17715 : 19159 : 20685] boot? b
+TD67 progress: -1 19159 boot
+TD163 [17715 : 18426 : 19159] bobs? ␅
+TD1508459 ␆a
+TD80 [17715 : 18426 : 19159] bobs? a
+TD75 progress: 1 18426 bobs
+TD74 [18427 : 18790 : 19159] bombe? ␅
+TD1398263 ␆a
+TD58 [18427 : 18790 : 19159] bombe? a
+TD69 progress: 1 18790 bombe
+TD65 [18791 : 18969 : 19159] boob? ␅
+TD1604261 ␆a
+TD88 [18791 : 18969 : 19159] boob? a
+TD101 progress: 1 18969 boob
+TD110 [18970 : 19025 : 19159] book? ␅
+TD1419743 ␆a
+TD158 [18970 : 19025 : 19159] book? a
+TD168 progress: 1 19025 book
+TD175 [19026 : 19086 : 19159] books? ␅
+TD1479045 ␆a
+TD235 [19026 : 19086 : 19159] books? a
+TD175 progress: 1 19086 books
+TD176 [19087 : 19105 : 19159] boom? ␅
+TD1579777 ␆a
+TD111 [19087 : 19105 : 19159] boom? a
+TD124 progress: 1 19105 boom
+TD147 [19106 : 19129 : 19159] boon? ␅
+TD1601121 ␆a
+TD76 [19106 : 19129 : 19159] boon? a
+TD86 progress: 1 19129 boon
+TD155 [19130 : 19143 : 19159] boor? ␅
+TD1500842 ␆a
+TD112 [19130 : 19143 : 19159] boor? a
+TD95 progress: 1 19143 boor
+TD112 [19144 : 19149 : 19159] boos? ␅
+TD1473678 ␆a
+TD132 [19144 : 19149 : 19159] boos? a
+TD110 progress: 1 19149 boos
+TD173 [19150 : 19152 : 19159] booster? ␅
+TD2024781 ␆b
+TD68 [19150 : 19152 : 19159] booster? b
+TD59 progress: -1 19152 booster
+TD158 [19150 : 19151 : 19152] boosted? ␅
+TD1859157 ␆b
+TD88 [19150 : 19151 : 19152] boosted? b
+TD112 progress: -1 19151 boosted
+TD262 [19150 : 19150 : 19151] boost? ␅
+TD2684617 ␆it
+TD63 [19150 : 19150 : 19151] boost? it
+TD69 progress: 0 19150 boost
+TD19 [19150 : 19150 : 19151] <Done>.
+TD70 📋> ␅
+TD3582254 ␆🧩 Puzzle #1137
+TD100 📋> 🧩 Puzzle #1137
+TD20 📋> ␅
+TD62 ␆🤔 19 guesses
+TD14 📋> 🤔 19 guesses
+TD12 📋> ␅
+TD27 ␆⏱️ 35s
+TD14 📋> ⏱️ 35s
+TD12 📋> ␅
+TD120314 ␆🔗 alphaguess.com/1137
+TD48 📋> 🔗 alphaguess.com/1137
+TD6 📋> ␅
+TD628835 ␄
+TD212 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1137\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 35s\n\ud83d\udd17 alphaguess.com/1137"}
+TD114 result: "\ud83e\udde9 Puzzle #1137\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 35s\n\ud83d\udd17 alphaguess.com/1137"
+TD33 result puzzle: 1137
+TD12 result guesses: 19
+TD8 result time: 35s
+TD8 result link: alphaguess.com/1137
+TD91 📆 2026-09-03 ? ␅
+TD315104 ␆
+TD94 📆 2026-09-03 ? 
