@@ -1,0 +1,252 @@
+T1674.5225852829753 now: 2026-09-04T08:23:52EDT
+TD194 site: squareword.org
+TD53 wordlist: nwl2023.txt
+TD75  ...␅
+TD163873 ␆
+TD227  ...
+TD38 🧩  ? ␅
+TD9085112 ␆#1677
+TD172 🧩  ? #1677
+TD589 puzzle_id: #1677
+TD684 > ␅
+TD717994 ␆*
+TD119 > *
+TD270266 try? ␅
+TD604625 ␆1
+TD140 try? 1
+TD490 questioning: ["raise", "#5"]
+TD780 #1 <IndexError>  📋 "raise" ? ␅
+TD5119558 ␆_____ ~ RS
+TD166 #1 <IndexError>  📋 "raise" ? _____ ~ RS
+TD1506 attempt 0 RAISE m n n m n
+TD215 #2 <IndexError>  📋 "raise" ? ␅
+TD2843604 ␆___SE ~ RAE
+TD79 #2 <IndexError>  📋 "raise" ? ___SE ~ RAE
+TD273 attempt 1 RAISE m m n Y Y
+TD147 #3 <IndexError>  📋 "raise" ? ␅
+TD2431587 ␆_A___ ~ A
+TD163 #3 <IndexError>  📋 "raise" ? _A___ ~ A
+TD544 attempt 2 RAISE n Y n n n
+TD251 #4 <IndexError>  📋 "raise" ? ␅
+TD2381519 ␆____E ~ AI
+TD120 #4 <IndexError>  📋 "raise" ? ____E ~ AI
+TD367 attempt 3 RAISE n m m n Y
+TD187 #5 <IndexError>  📋 "raise" ? ␅
+TD2623413 ␆_____ ~ ASE
+TD342 #5 <IndexError>  📋 "raise" ? _____ ~ ASE
+TD496 attempt 4 RAISE n m n m m
+TD823 ? ␅
+TD428586 ␆
+TD141 ? 
+TD228 question done
+TD696 > ␅
+TD3526559 ␆* 1
+TD144 > * 1
+TD437141 try? ␅
+TD3053215 ␄
+TD201 <EOF>
+TD740 > ␅
+TD634904 ␆*
+TD126 > *
+TD479813 try? ␅
+TD512737 ␄
+TD231 <EOF>
+TD654 > ␅
+TD898846 ␆* 1
+TD159 > * 1
+TD6792 try? ␅
+TD3770406 ␆8
+TD159 try? 8
+TD604 questioning: ["hurts", "#1"]
+TD741 #1 _____ ~RS -AEI  📋 "hurts" ? ␅
+TD6137742 ␆__R__ ~ SUT
+TD80 #1 _____ ~RS -AEI  📋 "hurts" ? __R__ ~ SUT
+TD243 attempt 0 HURTS n m Y m m
+TD135 #2 ___SE ~AR -I  📋 "hurts" ? ␅
+TD4246019 ␆___SE ~ RAE
+TD147 #2 ___SE ~AR -I  📋 "hurts" ? ___SE ~ RAE
+TD376 attempt 1 HURTS n n m n n
+TD212 #3 _A___ -EIRS  📋 "hurts" ? ␅
+TD3728177 ␆_A___ ~ A
+TD181 #3 _A___ -EIRS  📋 "hurts" ? _A___ ~ A
+TD641 attempt 2 HURTS n n n n n
+TD563 #4 ____E ~AI -RS  📋 "hurts" ? ␅
+TD5852782 ␆.
+TD200 #4 ____E ~AI -RS  📋 "hurts" ? .
+TD485 attempt 3 HURTS n n n n n
+TD185 #5 _____ ~AES -IR  📋 "hurts" ? ␅
+TD3081456 ␆_____ ~ ASET
+TD73 #5 _____ ~AES -IR  📋 "hurts" ? _____ ~ ASET
+TD237 attempt 4 HURTS n n n m m
+TD426 ? ␅
+TD220168 ␆
+TD94 ? 
+TD143 question done
+TD508 > ␅
+TD411887 ␆*
+TD113 > *
+TD673975 try? ␅
+TD2470097 ␆1
+TD114 try? 1
+TD360 questioning: ["strum", "#1"]
+TD523 #1 __R__ ~STU -AEHI  📋 "strum" ? ␅
+TD5490404 ␆STRU_ ~ T
+TD160 #1 __R__ ~STU -AEHI  📋 "strum" ? STRU_ ~ T
+TD497 attempt 0 STRUM Y Y Y Y n
+TD270 #2 ___SE ~AR -HISTU  📋 "strum" ? ␅
+TD4061693 ␆___SE ~ RAE
+TD94 #2 ___SE ~AR -HISTU  📋 "strum" ? ___SE ~ RAE
+TD292 attempt 1 STRUM n n m n n
+TD162 #3 _A___ -EHIRSTU  📋 "strum" ? ␅
+TD2622650 ␆_A___ ~ A
+TD93 #3 _A___ -EHIRSTU  📋 "strum" ? _A___ ~ A
+TD302 attempt 2 STRUM n n n n n
+TD196 #4 ____E ~AI -HRSTU  📋 "strum" ? ␅
+TD3516723 ␆____E ~ AIM
+TD132 #4 ____E ~AI -HRSTU  📋 "strum" ? ____E ~ AIM
+TD437 attempt 3 STRUM n n n n m
+TD250 #5 _____ ~AEST -HIRU  📋 "strum" ? ␅
+TD1644912 ␆.
+TD129 #5 _____ ~AEST -HIRU  📋 "strum" ? .
+TD421 attempt 4 STRUM m m n n n
+TD514 ? ␅
+TD144006 ␆
+TD122 ? 
+TD152 question done
+TD525 > ␅
+TD355721 ␆*
+TD112 > *
+TD809101 questioning: ["strut", "#1"]
+TD296 #1 STRU_ -AEHIM  📋 "strut" ? ␅
+TD3324702 ␆/it
+TD85 #1 STRU_ -AEHIM  📋 "strut" ? /it
+TD246 attempt 0 STRUT Y Y Y Y Y
+TD106 #2 ___SE ~AR -HIMSTU  📋 "strut" ? ␅
+TD7252109 ␆___SE ~ RAE
+TD154 #2 ___SE ~AR -HIMSTU  📋 "strut" ? ___SE ~ RAE
+TD524 attempt 1 STRUT n n m n n
+TD274 #3 _A___ -EHIMRSTU  📋 "strut" ? ␅
+TD2236361 ␆_A___ ~ A
+TD125 #3 _A___ -EHIMRSTU  📋 "strut" ? _A___ ~ A
+TD342 attempt 2 STRUT n n n n n
+TD219 #4 ____E ~AIM -HRSTU  📋 "strut" ? ␅
+TD2123255 ␆.
+TD121 #4 ____E ~AIM -HRSTU  📋 "strut" ? .
+TD298 attempt 3 STRUT n n n n n
+TD113 #5 _____ ~AEST -HIMRU  📋 "strut" ? ␅
+TD4438722 ␆____T ~ ASE
+TD137 #5 _____ ~AEST -HIMRU  📋 "strut" ? ____T ~ ASE
+TD402 attempt 4 STRUT m n n n Y
+TD651 ? ␅
+TD569839 ␆
+TD139 ? 
+TD184 question done
+TD641 > ␅
+TD455127 ␆*
+TD117 > *
+TD218697 questioning: ["asset", "#5"]
+TD166 #2 ___SE ~AR -HIMSTU  📋 "asset" ? ␅
+TD10239904 ␆___SE ~ RAE
+TD110 #2 ___SE ~AR -HIMSTU  📋 "asset" ? ___SE ~ RAE
+TD283 attempt 1 ASSET m n n m n
+TD172 #3 _A___ -EHIMRSTU  📋 "asset" ? ␅
+TD2807159 ␆_A___ ~ A
+TD78 #3 _A___ -EHIMRSTU  📋 "asset" ? _A___ ~ A
+TD173 attempt 2 ASSET m n n n n
+TD118 #4 ____E ~AIM -HRSTU  📋 "asset" ? ␅
+TD1953528 ␆.
+TD98 #4 ____E ~AIM -HRSTU  📋 "asset" ? .
+TD354 attempt 3 ASSET m n n n n
+TD122 #5 ____T ~AES -HIMRU  📋 "asset" ? ␅
+TD597176 ␆/it
+TD146 #5 ____T ~AES -HIMRU  📋 "asset" ? /it
+TD498 attempt 4 ASSET Y Y Y Y Y
+TD605 ? ␅
+TD167649 ␆
+TD109 ? 
+TD139 question done
+TD564 > ␅
+TD549895 ␆*
+TD77 > *
+TD1826043 questioning: ["image", "#4"]
+TD216 #2 ___SE ~AR -HIMSTU  📋 "image" ? ␅
+TD6327905 ␆__ASE ~ RE
+TD98 #2 ___SE ~AR -HIMSTU  📋 "image" ? __ASE ~ RE
+TD277 attempt 1 IMAGE n n Y n Y
+TD160 #3 _A___ -EHIMRSTU  📋 "image" ? ␅
+TD2448789 ␆_A___ ~ AG
+TD61 #3 _A___ -EHIMRSTU  📋 "image" ? _A___ ~ AG
+TD163 attempt 2 IMAGE n n m m n
+TD117 #4 ____E ~AIM -EHRSTU  📋 "image" ? ␅
+TD964206 ␆/it
+TD153 #4 ____E ~AIM -EHRSTU  📋 "image" ? /it
+TD440 attempt 3 IMAGE Y Y Y Y Y
+TD1396 ? ␅
+TD183679 ␆
+TD233 ? 
+TD242 question done
+TD1039 > ␅
+TD592542 ␆*
+TD84 > *
+TD1619784 questioning: ["erase", "#2"]
+TD219 #2 __ASE ~R -GHIMSTU  📋 "erase" ? ␅
+TD2715794 ␆/it
+TD146 #2 __ASE ~R -GHIMSTU  📋 "erase" ? /it
+TD325 attempt 1 ERASE Y Y Y Y Y
+TD138 #3 _A___ ~G -EHIMRSTU  📋 "erase" ? ␅
+TD3911799 ␆_A___ ~ AG
+TD81 #3 _A___ ~G -EHIMRSTU  📋 "erase" ? _A___ ~ AG
+TD299 attempt 2 ERASE n n m n n
+TD475 ? ␅
+TD329339 ␆
+TD128 ? 
+TD172 question done
+TD608 > ␅
+TD542558 ␆*
+TD57 > *
+TD1086103 questioning: ["pagan", "#3"]
+TD198 #3 _A___ ~G -EHIMRSTU  📋 "pagan" ? ␅
+TD2345053 ␆/it
+TD132 #3 _A___ ~G -EHIMRSTU  📋 "pagan" ? /it
+TD327 attempt 2 PAGAN Y Y Y Y Y
+TD513 ? ␅
+TD172287 ␆
+TD97 ? 
+TD126 question done
+TD33466 📋> ␅
+TD7364928 ␆squareword.org 1677: 8 guesses
+TD84 📋> squareword.org 1677: 8 guesses
+TD15 📋> ␅
+TD76 ␆
+TD9 📋> 
+TD7 📋> ␅
+TD28 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD25 ␆🟨🟨🟨🟩🟩
+TD6 📋> 🟨🟨🟨🟩🟩
+TD6 📋> ␅
+TD24 ␆🟨🟩🟨🟨🟨
+TD7 📋> 🟨🟩🟨🟨🟨
+TD6 📋> ␅
+TD23 ␆🟨🟨🟨🟨🟩
+TD6 📋> 🟨🟨🟨🟨🟩
+TD6 📋> ␅
+TD24 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD22 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD24 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD135181 ␆#squareword #squareword1677
+TD57 📋> #squareword #squareword1677
+TD9 📋> ␅
+TD188280 ␄
+TD220 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1677: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1677"}
+TD2687 result: "squareword.org 1677: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1677"
+TD200 📆 2026-09-04 ? ␅
+TD401960 ␆
+TD122 📆 2026-09-04 ? 
