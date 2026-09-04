@@ -1,0 +1,105 @@
+T158.74753497599158 now: 2026-09-04T07:58:37EDT
+TD259 site: alfagok.diginaut.net
+TD486886 loaded 399480 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1372 words excluded) asof 195b9a38d226c09f7fb18b5c269a13934815be61
+TD122  ...␅
+TD885158 ␆
+TD71  ...
+TD190 [0 : 199647 : 399480] lijk? ␅
+TD7254389 ␆
+TD65 [0 : 199647 : 399480] lijk? 
+TD95 [0 : 199647 : 399480] lijk? ␅
+TD2347813 ␆b
+TD134 [0 : 199647 : 399480] lijk? b
+TD461 progress: -1 199647 lijk
+TD201 [0 : 99688 : 199647] ex? ␅
+TD1439493 ␆b
+TD119 [0 : 99688 : 199647] ex? b
+TD158 progress: -1 99688 ex
+TD153 [0 : 49808 : 99688] boks? ␅
+TD1543945 ␆b
+TD128 [0 : 49808 : 99688] boks? b
+TD196 progress: -1 49808 boks
+TD182 [0 : 24880 : 49808] bad? ␅
+TD1507866 ␆a
+TD186 [0 : 24880 : 49808] bad? a
+TD251 progress: 1 24880 bad
+TD235 [24881 : 37341 : 49808] beschermen? ␅
+TD1884569 ␆b
+TD125 [24881 : 37341 : 49808] beschermen? b
+TD153 progress: -1 37341 beschermen
+TD185 [24881 : 31106 : 37341] begeleiding? ␅
+TD1562029 ␆a
+TD117 [24881 : 31106 : 37341] begeleiding? a
+TD177 progress: 1 31106 begeleiding
+TD168 [31107 : 33979 : 37341] beleid? ␅
+TD1523205 ␆b
+TD113 [31107 : 33979 : 37341] beleid? b
+TD158 progress: -1 33979 beleid
+TD157 [31107 : 32524 : 33979] bejaarden? ␅
+TD1598020 ␆b
+TD138 [31107 : 32524 : 33979] bejaarden? b
+TD151 progress: -1 32524 bejaarden
+TD155 [31107 : 31812 : 32524] behandeld? ␅
+TD1879645 ␆b
+TD132 [31107 : 31812 : 32524] behandeld? b
+TD156 progress: -1 31812 behandeld
+TD156 [31107 : 31453 : 31812] begrafenis? ␅
+TD1595420 ␆a
+TD216 [31107 : 31453 : 31812] begrafenis? a
+TD464 progress: 1 31453 begrafenis
+TD312 [31454 : 31604 : 31812] begroting? ␅
+TD1430337 ␆a
+TD110 [31454 : 31604 : 31812] begroting? a
+TD125 progress: 1 31604 begroting
+TD467 [31605 : 31708 : 31812] begrotingssanering? ␅
+TD1554607 ␆a
+TD173 [31605 : 31708 : 31812] begrotingssanering? a
+TD185 progress: 1 31708 begrotingssanering
+TD236 [31709 : 31757 : 31812] behaaglijk? ␅
+TD1527362 ␆a
+TD120 [31709 : 31757 : 31812] behaaglijk? a
+TD141 progress: 1 31757 behaaglijk
+TD339 [31758 : 31784 : 31812] behagen? ␅
+TD1940261 ␆a
+TD149 [31758 : 31784 : 31812] behagen? a
+TD169 progress: 1 31784 behagen
+TD174 [31785 : 31791 : 31812] behandel? ␅
+TD1699075 ␆b
+TD149 [31785 : 31791 : 31812] behandel? b
+TD143 progress: -1 31791 behandel
+TD317 [31785 : 31787 : 31791] behalen? ␅
+TD1611605 ␆a
+TD180 [31785 : 31787 : 31791] behalen? a
+TD236 progress: 1 31787 behalen
+TD830 [31788 : 31789 : 31791] behalende? ␅
+TD1481426 ␆a
+TD107 [31788 : 31789 : 31791] behalende? a
+TD158 progress: 1 31789 behalende
+TD309 [31790 : 31790 : 31791] behalve? ␅
+TD1769376 ␆it
+TD180 [31790 : 31790 : 31791] behalve? it
+TD233 progress: 0 31790 behalve
+TD81 [31790 : 31790 : 31791] <Done>.
+TD222 📋> ␅
+TD3055538 ␆🧩 Puzzel #671
+TD278 📋> 🧩 Puzzel #671
+TD39 📋> ␅
+TD72 ␆🤔 18 gokken
+TD11 📋> 🤔 18 gokken
+TD8 📋> ␅
+TD20 ␆⏱️ 27s
+TD9 📋> ⏱️ 27s
+TD8 📋> ␅
+TD97305 ␆🔗 alfagok.diginaut.net
+TD53 📋> 🔗 alfagok.diginaut.net
+TD7 📋> ␅
+TD378478 ␄
+TD217 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #671\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 27s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD947 result: "\ud83e\udde9 Puzzel #671\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 27s\n\ud83d\udd17 alfagok.diginaut.net"
+TD31 result puzzle: 671
+TD12 result guesses: 18
+TD8 result time: 27s
+TD8 result link: alfagok.diginaut.net
+TD106 📆 2026-09-04 ? ␅
+TD337913 ␆
+TD166 📆 2026-09-04 ? 
