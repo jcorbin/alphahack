@@ -1,0 +1,89 @@
+T117.8602199449997 now: 2026-09-05T09:45:32EDT
+TD516 site: alphaguess.com
+TD181273 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 4e906fcd5fae8e20b194202260bb7ee258f1c3ee
+TD111  ...␅
+TD91106 ␆
+TD105  ...
+TD199 [0 : 98147 : 196518] mac? ␅
+TD4285824 ␆
+TD53 [0 : 98147 : 196518] mac? 
+TD62 [0 : 98147 : 196518] mac? ␅
+TD1831905 ␆b
+TD164 [0 : 98147 : 196518] mac? b
+TD187 progress: -1 98147 mac
+TD207 [0 : 47378 : 98147] dis? ␅
+TD1410208 ␆b
+TD154 [0 : 47378 : 98147] dis? b
+TD158 progress: -1 47378 dis
+TD193 [0 : 23680 : 47378] camp? ␅
+TD1523347 ␆a
+TD124 [0 : 23680 : 47378] camp? a
+TD130 progress: 1 23680 camp
+TD141 [23681 : 35522 : 47378] convention? ␅
+TD1443516 ␆a
+TD115 [23681 : 35522 : 47378] convention? a
+TD164 progress: 1 35522 convention
+TD167 [35523 : 40838 : 47378] da? ␅
+TD1293830 ␆a
+TD136 [35523 : 40838 : 47378] da? a
+TD149 progress: 1 40838 da
+TD162 [40839 : 44070 : 47378] den? ␅
+TD1803171 ␆b
+TD127 [40839 : 44070 : 47378] den? b
+TD177 progress: -1 44070 den
+TD201 [40839 : 42373 : 44070] deco? ␅
+TD1444462 ␆b
+TD102 [40839 : 42373 : 44070] deco? b
+TD120 progress: -1 42373 deco
+TD360 [40839 : 41548 : 42373] day? ␅
+TD1478370 ␆b
+TD237 [40839 : 41548 : 42373] day? b
+TD164 progress: -1 41548 day
+TD167 [40839 : 41163 : 41548] dan? ␅
+TD1432942 ␆a
+TD132 [40839 : 41163 : 41548] dan? a
+TD114 progress: 1 41163 dan
+TD125 [41164 : 41346 : 41548] darn? ␅
+TD2760703 ␆a
+TD87 [41164 : 41346 : 41548] darn? a
+TD103 progress: 1 41346 darn
+TD419 [41347 : 41448 : 41548] dative? ␅
+TD1413339 ␆a
+TD112 [41347 : 41448 : 41548] dative? a
+TD136 progress: 1 41448 dative
+TD171 [41449 : 41490 : 41548] daunt? ␅
+TD1473430 ␆b
+TD128 [41449 : 41490 : 41548] daunt? b
+TD142 progress: -1 41490 daunt
+TD151 [41449 : 41460 : 41490] daub? ␅
+TD1483280 ␆a
+TD155 [41449 : 41460 : 41490] daub? a
+TD212 progress: 1 41460 daub
+TD410 [41461 : 41476 : 41490] daughter? ␅
+TD2869174 ␆it
+TD164 [41461 : 41476 : 41490] daughter? it
+TD230 progress: 0 41476 daughter
+TD60 [41461 : 41476 : 41490] <Done>.
+TD187 📋> ␅
+TD3543574 ␆🧩 Puzzle #1139
+TD146 📋> 🧩 Puzzle #1139
+TD30 📋> ␅
+TD74 ␆🤔 14 guesses
+TD24 📋> 🤔 14 guesses
+TD21 📋> ␅
+TD40 ␆⏱️ 20s
+TD23 📋> ⏱️ 20s
+TD19 📋> ␅
+TD54012 ␆🔗 alphaguess.com/1139
+TD65 📋> 🔗 alphaguess.com/1139
+TD15 📋> ␅
+TD944690 ␄
+TD249 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1139\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1139"}
+TD169 result: "\ud83e\udde9 Puzzle #1139\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1139"
+TD42 result puzzle: 1139
+TD28 result guesses: 14
+TD24 result time: 20s
+TD23 result link: alphaguess.com/1139
+TD145 📆 2026-09-05 ? ␅
+TD464768 ␆
+TD98 📆 2026-09-05 ? 
