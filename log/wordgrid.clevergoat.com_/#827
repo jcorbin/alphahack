@@ -1,0 +1,201 @@
+T2276.368825882999 now: 2026-09-05T10:26:01EDT
+TD226 site: https://wordgrid.clevergoat.com/
+TD42 wordlist: nwl2023.txt
+TD118 > ␅
+TD7596031 ␆col 1 ~ OM
+TD109 > col 1 ~ OM
+TD1078 > ␅
+TD2242365 ␆col 1 ~OM
+TD129 > col 1 ~OM
+TD427 rule col: 1 ~OM
+TD144 > ␅
+TD5113536 ␆coil 2 ~^BE
+TD95 > coil 2 ~^BE
+TD229 > ␅
+TD3493717 ␆col 2 ~^BE
+TD42 > col 2 ~^BE
+TD160 rule col: 2 ~^BE
+TD46 > ␅
+TD6293903 ␆col 3 ~^LO
+TD71 > col 3 ~^LO
+TD213 rule col: 3 ~^LO
+TD71 > ␅
+TD6597634 ␆row 1 #1-6
+TD91 > row 1 #1-6
+TD358 rule row: 1 #1-6
+TD121 > ␅
+TD5298094 ␆row 2 ![CRU]
+TD55 > row 2 ![CRU]
+TD175 rule row: 2 ![CRU]
+TD45 > ␅
+TD5965615 ␆row 3 ![IPU]
+TD52 > row 3 ![IPU]
+TD294 rule row: 3 ![IPU]
+TD43 > ␅
+TD923808 ␆*
+TD103 > *
+TD266981 ? ␅
+TD6509999 ␆2
+TD148 ? 2
+TD238 questioning: 0 soma
+TD80 🌡️ soma 📋 ? ␅
+TD3366285 ␆.24
+TD79 🌡️ soma 📋 ? .24
+TD321 word: 0 soma 0.24
+TD30 questioning: -1 
+TD99 > ␅
+TD465624 ␆*
+TD96 > *
+TD246211 ? ␅
+TD3409785 ␆7
+TD100 ? 7
+TD179 questioning: 1 benday
+TD59 🌡️ benday 📋 ? ␅
+TD2502600 ␆
+TD147 🌡️ benday 📋 ? 
+TD104 questioning: -1 
+TD188 > ␅
+TD7976025 ␆* 2 1 benday
+TD120 > * 2 1 benday
+TD1283 questioning: 1 benday
+TD96 🌡️ benday 📋 ? ␅
+TD729446 ␆0
+TD133 🌡️ benday 📋 ? 0
+TD165 word: 1 benday 0.0
+TD70 questioning: -1 
+TD211 > ␅
+TD4997609 ␆* 1 1 -bot 10
+TD84 > * 1 1 -bot 10
+TD248754 ? ␅
+TD4287077 ␆9
+TD87 ? 9
+TD150 questioning: 0 duomo
+TD54 🌡️ duomo 📋 ? ␅
+TD3316724 ␆.04
+TD48 🌡️ duomo 📋 ? .04
+TD51 word: 0 duomo 0.04
+TD11 questioning: -1 
+TD53 > ␅
+TD2582822 ␆*
+TD150 > *
+TD243142 ? ␅
+TD3755258 ␆2
+TD96 ? 2
+TD167 questioning: 2 lowse
+TD72 🌡️ lowse 📋 ? ␅
+TD4091322 ␆.07
+TD140 🌡️ lowse 📋 ? .07
+TD140 word: 2 lowse 0.07
+TD47 questioning: -1 
+TD222 > ␅
+TD443045 ␆
+TD142 > 
+TD410 > ␅
+TD946155 ␆*
+TD114 > *
+TD265978 ? ␅
+TD3390438 ␆7
+TD105 ? 7
+TD201 questioning: 3 stomal
+TD58 🌡️ stomal 📋 ? ␅
+TD3097077 ␆0
+TD106 🌡️ stomal 📋 ? 0
+TD97 word: 3 stomal 0.0
+TD32 questioning: -1 
+TD120 > ␅
+TD1661571 ␆
+TD97 > 
+TD248 > ␅
+TD506373 ␆*
+TD126 > *
+TD249966 ? ␅
+TD5246944 ␆8
+TD139 ? 8
+TD209 questioning: 4 betons
+TD96 🌡️ betons 📋 ? ␅
+TD3031730 ␆.08
+TD108 🌡️ betons 📋 ? .08
+TD112 word: 4 betons 0.08
+TD22 questioning: -1 
+TD118 > ␅
+TD432881 ␆*
+TD235 > *
+TD253847 ? ␅
+TD3947900 ␆6
+TD130 ? 6
+TD215 questioning: 5 lobefin
+TD71 🌡️ lobefin 📋 ? ␅
+TD2511036 ␆0
+TD49 🌡️ lobefin 📋 ? 0
+TD47 word: 5 lobefin 0.0
+TD10 questioning: -1 
+TD59 > ␅
+TD408088 ␆*
+TD97 > *
+TD284589 ? ␅
+TD2556362 ␆10
+TD154 ? 10
+TD242 questioning: 6 scleroma
+TD92 🌡️ scleroma 📋 ? ␅
+TD2495005 ␆0
+TD118 🌡️ scleroma 📋 ? 0
+TD142 word: 6 scleroma 0.0
+TD48 questioning: -1 
+TD409 > ␅
+TD1602932 ␆*
+TD75 > *
+TD242680 ? ␅
+TD1800221 ␆7
+TD107 ? 7
+TD171 questioning: 7 bergamots
+TD61 🌡️ bergamots 📋 ? ␅
+TD3080628 ␆.07
+TD98 🌡️ bergamots 📋 ? .07
+TD97 word: 7 bergamots 0.07
+TD25 questioning: -1 
+TD135 > ␅
+TD598562 ␆*
+TD87 > *
+TD250727 ? ␅
+TD2468659 ␆3
+TD176 ? 3
+TD550 questioning: 8 lodgments
+TD262 🌡️ lodgments 📋 ? ␅
+TD3088749 ␆.03
+TD267 🌡️ lodgments 📋 ? .03
+TD293 word: 8 lodgments 0.03
+TD49 questioning: -1 
+TD220 > ␅
+TD6412200 ␆/res
+TD67 > /res
+TD130 📋> ␅
+TD1940038 ␆Word Grid #827
+TD53 📋> Word Grid #827
+TD5 📋> ␅
+TD25 ␆🌌🦄🌌
+TD4 📋> 🌌🦄🌌
+TD2 📋> ␅
+TD6 ␆🦄🌌🦄
+TD3 📋> 🦄🌌🦄
+TD2 📋> ␅
+TD5 ␆🦄🌌🌌
+TD3 📋> 🦄🌌🌌
+TD2 📋> ␅
+TD8 ␆Rarity: 0.28
+TD2 📋> Rarity: 0.28
+TD2 📋> ␅
+TD281749 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD68 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD11 📋> ␅
+TD403912 ␄
+TD98 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #827\n\ud83c\udf0c\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83e\udd84\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\nRarity: 0.28\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD463 result: "Word Grid #827\n\ud83c\udf0c\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83e\udd84\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\nRarity: 0.28\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD161 > ␅
+TD677480 ␆
+TD66 > 
+TD298 > ␅
+TD1838566 ␆/store
+TD56 > /store
+TD192 📆 2026-09-05 ? ␅
+TD600747 ␆
+TD64 📆 2026-09-05 ? 
