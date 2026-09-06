@@ -1,0 +1,176 @@
+T1101.377907119997 now: 2026-09-06T08:40:36EDT
+TD302 site: https://www.merriam-webster.com/games/quordle/#/
+TD54 wordlist: nwl2023.txt
+TD25 num_words: 4
+TD263  ...␅
+TD136554 ␆
+TD264  ...
+TD416919 > ␅
+TD6883171 ␆*
+TD93 > *
+TD50429 ? ␅
+TD773432 ␆1
+TD52 ? 1
+TD101 questioning: rased
+TD106 Classic #1 _____? ␅
+TD3580069 ␆nnnnn
+TD79 Classic #1 _____? nnnnn
+TD451 attempt: 0 RASED n n n n n
+TD115 Classic #2 _____? ␅
+TD1993099 ␆Mnnnn
+TD99 Classic #2 _____? Mnnnn
+TD282 attempt: 1 RASED m n n n n
+TD124 Classic #3 _____? ␅
+TD1541869 ␆nnnYn
+TD72 Classic #3 _____? nnnYn
+TD204 attempt: 2 RASED n n n Y n
+TD87 Classic #4 _____? ␅
+TD1553310 ␆nYnnn
+TD51 Classic #4 _____? nYnnn
+TD129 attempt: 3 RASED n Y n n n
+TD401920 > ␅
+TD675218 ␆*
+TD77 > *
+TD7218 ? ␅
+TD869472 ␆1
+TD103 ? 1
+TD197 questioning: pinot
+TD245 Classic #1 _____ -ADERS? ␅
+TD4958807 ␆YYnYY
+TD120 Classic #1 _____ -ADERS? YYnYY
+TD254 attempt: 0 PINOT Y Y n Y Y
+TD138 Classic #2 _____ ~R -ADES? ␅
+TD1986874 ␆nnYYn
+TD81 Classic #2 _____ ~R -ADES? nnYYn
+TD215 attempt: 1 PINOT n n Y Y n
+TD120 Classic #3 ___E_ -ADRS? ␅
+TD1547804 ␆nnnMn
+TD54 Classic #3 ___E_ -ADRS? nnnMn
+TD131 attempt: 2 PINOT n n n m n
+TD59 Classic #4 _A___ -DERS? ␅
+TD1557858 ␆nnMnY
+TD101 Classic #4 _A___ -DERS? nnMnY
+TD284 attempt: 3 PINOT n n m n Y
+TD421387 > ␅
+TD2504451 ␆*
+TD81 > *
+TD376 questioning: honor
+TD152 Classic #1 PI_OT -ADENRS? ␅
+TD3663281 ␆nnnYn
+TD110 Classic #1 PI_OT -ADENRS? nnnYn
+TD266 attempt: 0 HONOR n n n Y n
+TD139 Classic #2 __NO_ ~R -ADEIPST? ␅
+TD1918291 ␆YYYYY
+TD123 Classic #2 __NO_ ~R -ADEIPST? YYYYY
+TD542 attempt: 1 HONOR Y Y Y Y Y
+TD282 Classic #3 ___E_ ~O -ADINPRST? ␅
+TD1541293 ␆nYnnn
+TD81 Classic #3 ___E_ ~O -ADINPRST? nYnnn
+TD236 attempt: 2 HONOR n Y n n n
+TD139 Classic #4 _A__T ~N -DEIOPRS? ␅
+TD1435482 ␆nnMnn
+TD198 Classic #4 _A__T ~N -DEIOPRS? nnMnn
+TD747 attempt: 3 HONOR n n m n n
+TD313262 > ␅
+TD1889935 ␆*
+TD73 > *
+TD780 ? ␅
+TD3821455 ␄
+TD129 <EOF>
+TD301641 > ␅
+TD816108 ␆* 1
+TD91 > * 1
+TD102888 ? ␅
+TD4642704 ␄
+TD106 <EOF>
+TD306121 > ␅
+TD842394 ␆*
+TD85 > *
+TD1074 ? ␅
+TD7097202 ␆1
+TD95 ? 1
+TD220 questioning: lovey
+TD433 Classic #1 PI_OT -ADEHNRS? ␅
+TD3203131 ␆MMnnn
+TD95 Classic #1 PI_OT -ADEHNRS? MMnnn
+TD664 attempt: 0 LOVEY m m n n n
+TD154 Classic #3 _O_E_ -ADHINPRST? ␅
+TD2659081 ␆MYnYn
+TD147 Classic #3 _O_E_ -ADHINPRST? MYnYn
+TD665 attempt: 2 LOVEY m Y n Y n
+TD301 Classic #4 _A__T ~N -DEHIOPRS? ␅
+TD1137637 ␆nnnnn
+TD57 Classic #4 _A__T ~N -DEHIOPRS? nnnnn
+TD159 attempt: 3 LOVEY n n n n n
+TD302330 > ␅
+TD751326 ␆*
+TD80 > *
+TD370 questioning: pilot
+TD148 Classic #1 PI_OT ~L -ADEHNRSVY? ␅
+TD3165991 ␆YYYYY
+TD91 Classic #1 PI_OT ~L -ADEHNRSVY? YYYYY
+TD262 attempt: 0 PILOT Y Y Y Y Y
+TD145 Classic #3 _O_E_ ~L -ADHINPRSTVY? ␅
+TD1372240 ␆nnMMn
+TD91 Classic #3 _O_E_ ~L -ADHINPRSTVY? nnMMn
+TD259 attempt: 2 PILOT n n m m n
+TD161 Classic #4 _A__T ~N -DEHILOPRSVY? ␅
+TD1406452 ␆nnnnY
+TD87 Classic #4 _A__T ~N -DEHILOPRSVY? nnnnY
+TD239 attempt: 3 PILOT n n n n Y
+TD201082 > ␅
+TD725825 ␆*
+TD95 > *
+TD459 questioning: bowel
+TD184 Classic #3 _O_E_ ~L -ADHINPRSTVY? ␅
+TD3044581 ␆YYYYY
+TD107 Classic #3 _O_E_ ~L -ADHINPRSTVY? YYYYY
+TD261 attempt: 2 BOWEL Y Y Y Y Y
+TD150 Classic #4 _A__T ~N -DEHILOPRSVY? ␅
+TD1275149 ␆nnnnn
+TD119 Classic #4 _A__T ~N -DEHILOPRSVY? nnnnn
+TD355 attempt: 3 BOWEL n n n n n
+TD113202 > ␅
+TD978639 ␆*
+TD99 > *
+TD639 ? ␅
+TD45780640 ␄
+TD124 <EOF>
+TD105827 > ␅
+TD2381834 ␆tried jager
+TD91 > tried jager
+TD413 questioning: JAGER
+TD248 Classic #4 _A__T ~N -BDEHILOPRSVWY? ␅
+TD1867742 ␆nYnnn
+TD88 Classic #4 _A__T ~N -BDEHILOPRSVWY? nYnnn
+TD269 attempt: 3 JAGER n Y n n n
+TD105929 > ␅
+TD664325 ␆*
+TD100 > *
+TD540 questioning: taunt
+TD283 Classic #4 _A__T ~N -BDEGHIJLOPRSVWY? ␅
+TD3424311 ␆YYYYY
+TD103 Classic #4 _A__T ~N -BDEGHIJLOPRSVWY? YYYYY
+TD301 attempt: 3 TAUNT Y Y Y Y Y
+TD164 📋> ␅
+TD4480035 ␆🙂 Daily Quordle 1686
+TD82 📋> 🙂 Daily Quordle 1686
+TD15 📋> ␅
+TD58 ␆5️⃣3️⃣
+TD10 📋> 5️⃣3️⃣
+TD7 📋> ␅
+TD17 ␆6️⃣8️⃣
+TD23 📋> 6️⃣8️⃣
+TD18 📋> ␅
+TD18 ␆m-w.com/games/quordle/
+TD7 📋> m-w.com/games/quordle/
+TD8 📋> ␅
+TD1939114 ␆
+TD100 📋> 
+TD18 📋> ␅
+TD433477 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1686\n5\ufe0f\u20e33\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2490 result: "\ud83d\ude42 Daily Quordle 1686\n5\ufe0f\u20e33\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD122 📆 2026-09-06 ? ␅
+TD710928 ␆
+TD253 📆 2026-09-06 ? 
