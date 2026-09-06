@@ -1,0 +1,224 @@
+T1679.7800943160037 now: 2026-09-06T08:50:15EDT
+TD251 site: squareword.org
+TD61 wordlist: nwl2023.txt
+TD103  ...␅
+TD541485 ␆
+TD129  ...
+TD97 🧩  ? ␅
+TD11361325 ␆#1679
+TD115 🧩  ? #1679
+TD353 puzzle_id: #1679
+TD555 > ␅
+TD4572008 ␆*
+TD96 > *
+TD262037 try? ␅
+TD1381046 ␆1
+TD107 try? 1
+TD391 questioning: ["arose", "#5"]
+TD403 #1 <IndexError>  📋 "arose" ? ␅
+TD7403668 ␆_____ ~ ARSE
+TD158 #1 <IndexError>  📋 "arose" ? _____ ~ ARSE
+TD1387 attempt 0 AROSE m m n m m
+TD211 #2 <IndexError>  📋 "arose" ? ␅
+TD4288837 ␆A____ ~ O
+TD174 #2 <IndexError>  📋 "arose" ? A____ ~ O
+TD440 attempt 1 AROSE Y n m n n
+TD186 #3 <IndexError>  📋 "arose" ? ␅
+TD2154395 ␆____E
+TD95 #3 <IndexError>  📋 "arose" ? ____E
+TD261 attempt 2 AROSE n n n n Y
+TD116 #4 <IndexError>  📋 "arose" ? ␅
+TD3921132 ␆_____ ~ E
+TD118 #4 <IndexError>  📋 "arose" ? _____ ~ E
+TD327 attempt 3 AROSE n n n n m
+TD141 #5 <IndexError>  📋 "arose" ? ␅
+TD3029105 ␆___SE ~ E
+TD192 #5 <IndexError>  📋 "arose" ? ___SE ~ E
+TD686 attempt 4 AROSE n n n Y Y
+TD1084 ? ␅
+TD2265240 ␆
+TD130 ? 
+TD233 question done
+TD689 > ␅
+TD2259008 ␆* 4
+TD102 > * 4
+TD390889 try? ␅
+TD883839 ␆1
+TD84 try? 1
+TD294 questioning: ["flied", "#4"]
+TD346 #1 _____ ~AERS -O  📋 "flied" ? ␅
+TD5716989 ␆.
+TD119 #1 _____ ~AERS -O  📋 "flied" ? .
+TD323 attempt 0 FLIED n n n m n
+TD123 #2 A____ ~O -ERS  📋 "flied" ? ␅
+TD4139540 ␆AL___ ~ OL
+TD114 #2 A____ ~O -ERS  📋 "flied" ? AL___ ~ OL
+TD317 attempt 1 FLIED n Y n n n
+TD182 #3 ____E -AORS  📋 "flied" ? ␅
+TD4681493 ␆__I_E ~ D
+TD163 #3 ____E -AORS  📋 "flied" ? __I_E ~ D
+TD567 attempt 2 FLIED n n Y n m
+TD286 #4 _____ ~E -AORS  📋 "flied" ? ␅
+TD3187152 ␆___ED ~ ED
+TD123 #4 _____ ~E -AORS  📋 "flied" ? ___ED ~ ED
+TD358 attempt 3 FLIED n n n Y Y
+TD188 #5 ___SE -AOR  📋 "flied" ? ␅
+TD3467308 ␆___SE ~ ED
+TD102 #5 ___SE -AOR  📋 "flied" ? ___SE ~ ED
+TD295 attempt 4 FLIED n n n m m
+TD494 ? ␅
+TD248390 ␆
+TD118 ? 
+TD201 question done
+TD493 > ␅
+TD833094 ␆*
+TD115 > *
+TD893665 questioning: ["allow", "#2"]
+TD182 #1 _____ ~AERS -DFILO  📋 "allow" ? ␅
+TD4408461 ␆.
+TD94 #1 _____ ~AERS -DFILO  📋 "allow" ? .
+TD269 attempt 0 ALLOW m n n n n
+TD109 #2 AL___ ~O -DEFIRS  📋 "allow" ? ␅
+TD838835 ␆/it
+TD96 #2 AL___ ~O -DEFIRS  📋 "allow" ? /it
+TD292 attempt 1 ALLOW Y Y Y Y Y
+TD127 #3 __I_E ~D -AEFLORS  📋 "allow" ? ␅
+TD1860677 ␆.
+TD115 #3 __I_E ~D -AEFLORS  📋 "allow" ? .
+TD401 attempt 2 ALLOW n n n n n
+TD145 #4 ___ED -AFILORS  📋 "allow" ? ␅
+TD3895890 ␆___ED ~ ED
+TD116 #4 ___ED -AFILORS  📋 "allow" ? ___ED ~ ED
+TD340 attempt 3 ALLOW n n n n n
+TD209 #5 ___SE ~D -AFILOR  📋 "allow" ? ␅
+TD4256402 ␆___SE ~ ED
+TD115 #5 ___SE ~D -AFILOR  📋 "allow" ? ___SE ~ ED
+TD306 attempt 4 ALLOW n n n n n
+TD525 ? ␅
+TD274874 ␆
+TD87 ? 
+TD122 question done
+TD350 > ␅
+TD660936 ␆*
+TD119 > *
+TD739675 questioning: ["dense", "#5"]
+TD172 #1 _____ ~AERS -DFILOW  📋 "dense" ? ␅
+TD8242757 ␆_E___ ~ ARS
+TD110 #1 _____ ~AERS -DFILOW  📋 "dense" ? _E___ ~ ARS
+TD270 attempt 0 DENSE n Y n m n
+TD166 #3 __I_E ~D -AEFLORSW  📋 "dense" ? ␅
+TD2542695 ␆.
+TD169 #3 __I_E ~D -AEFLORSW  📋 "dense" ? .
+TD580 attempt 2 DENSE m n n n Y
+TD197 #4 ___ED -AFILORSW  📋 "dense" ? ␅
+TD3913721 ␆___ED ~ ED
+TD58 #4 ___ED -AFILORSW  📋 "dense" ? ___ED ~ ED
+TD118 attempt 3 DENSE m m n n m
+TD87 #5 ___SE ~D -AFILORW  📋 "dense" ? ␅
+TD781664 ␆/it
+TD104 #5 ___SE ~D -AFILORW  📋 "dense" ? /it
+TD294 attempt 4 DENSE Y Y Y Y Y
+TD454 ? ␅
+TD264597 ␆
+TD100 ? 
+TD123 question done
+TD447 > ␅
+TD689802 ␆*
+TD111 > *
+TD854931 questioning: ["guide", "#3"]
+TD233 #1 _E___ ~ARS -DFILNOW  📋 "guide" ? ␅
+TD4007262 ␆.
+TD99 #1 _E___ ~ARS -DFILNOW  📋 "guide" ? .
+TD342 attempt 0 GUIDE n n n n n
+TD129 #3 __I_E ~D -AFLNORSW  📋 "guide" ? ␅
+TD953031 ␆/it
+TD131 #3 __I_E ~D -AFLNORSW  📋 "guide" ? /it
+TD372 attempt 2 GUIDE Y Y Y Y Y
+TD151 #4 ___ED -AFILNORSW  📋 "guide" ? ␅
+TD4943195 ␆___ED ~ EDG
+TD75 #4 ___ED -AFILNORSW  📋 "guide" ? ___ED ~ EDG
+TD215 attempt 3 GUIDE m n n m m
+TD370 ? ␅
+TD283660 ␆
+TD92 ? 
+TD122 question done
+TD419 > ␅
+TD624768 ␆*
+TD114 > *
+TD1394967 questioning: ["edged", "#4"]
+TD190 #1 _E___ ~ARS -DEFGILNOUW  📋 "edged" ? ␅
+TD6633887 ␆.
+TD101 #1 _E___ ~ARS -DEFGILNOUW  📋 "edged" ? .
+TD218 attempt 0 EDGED n n n n n
+TD88 #4 ___ED ~G -AFILNORSUW  📋 "edged" ? ␅
+TD730399 ␆/it
+TD116 #4 ___ED ~G -AFILNORSUW  📋 "edged" ? /it
+TD367 attempt 3 EDGED Y Y Y Y Y
+TD458 ? ␅
+TD167913 ␆
+TD110 ? 
+TD131 question done
+TD446 > ␅
+TD631377 ␆*
+TD107 > *
+TD1128645 try? ␅
+TD4346259 ␆1
+TD85 try? 1
+TD284 questioning: ["pears", "#1"]
+TD452 #1 _E___ ~ARS -DEFGILNOUW  📋 "pears" ? ␅
+TD6937936 ␆_EA_S ~ R
+TD155 #1 _E___ ~ARS -DEFGILNOUW  📋 "pears" ? _EA_S ~ R
+TD506 attempt 0 PEARS n Y Y m Y
+TD744 ? ␅
+TD336994 ␆
+TD144 ? 
+TD153 question done
+TD438 > ␅
+TD985729 ␆*
+TD96 > *
+TD1065501 questioning: ["reams", "#1"]
+TD205 #1 _EA_S ~R -DFGILNOPUW  📋 "reams" ? ␅
+TD2999427 ␆/it
+TD100 #1 _EA_S ~R -DFGILNOPUW  📋 "reams" ? /it
+TD302 attempt 0 REAMS Y Y Y Y Y
+TD459 ? ␅
+TD399539 ␆
+TD122 ? 
+TD119 question done
+TD33866 📋> ␅
+TD6993018 ␆squareword.org 1679: 8 guesses
+TD110 📋> squareword.org 1679: 8 guesses
+TD21 📋> ␅
+TD117 ␆
+TD12 📋> 
+TD10 📋> ␅
+TD44 ␆🟨🟩🟨🟨🟨
+TD9 📋> 🟨🟩🟨🟨🟨
+TD8 📋> ␅
+TD30 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD30 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD28 ␆🟨🟨🟨🟩🟩
+TD8 📋> 🟨🟨🟨🟩🟩
+TD8 📋> ␅
+TD29 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD29 ␆
+TD8 📋> 
+TD8 📋> ␅
+TD30 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> ␅
+TD939841 ␆#squareword #squareword1679
+TD130 📋> #squareword #squareword1679
+TD22 📋> ␅
+TD922295 ␄
+TD197 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1679: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1679"}
+TD1803 result: "squareword.org 1679: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1679"
+TD118 📆 2026-09-06 ? ␅
+TD912894 ␆
+TD136 📆 2026-09-06 ? 
