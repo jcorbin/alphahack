@@ -1,0 +1,68 @@
+T591.9074752239976 now: 2026-09-06T08:32:07EDT
+TD184 site: alfagok.diginaut.net
+TD400841 loaded 399473 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1379 words excluded) asof 195ffc63dadd9876cb11d7230aa4d738c6a314ee
+TD80  ...␅
+TD19 ␆
+TD2  ...
+TD92 [0 : 199640 : 399473] lijk? ␅
+TD678024 ␆
+TD136 [0 : 199640 : 399473] lijk? 
+TD238 [0 : 199640 : 399473] lijk? ␅
+TD8450404 ␆
+TD92 [0 : 199640 : 399473] lijk? 
+TD170 [0 : 199640 : 399473] lijk? ␅
+TD3698632 ␆a
+TD52 [0 : 199640 : 399473] lijk? a
+TD201 progress: 1 199640 lijk
+TD64 [199641 : 299544 : 399473] schroot? ␅
+TD1715616 ␆b
+TD89 [199641 : 299544 : 399473] schroot? b
+TD123 progress: -1 299544 schroot
+TD118 [199641 : 249561 : 299544] opinie? ␅
+TD1585203 ␆b
+TD92 [199641 : 249561 : 299544] opinie? b
+TD130 progress: -1 249561 opinie
+TD126 [199641 : 224537 : 249561] moord? ␅
+TD2159549 ␆a
+TD176 [199641 : 224537 : 249561] moord? a
+TD257 progress: 1 224537 moord
+TD203 [224538 : 237027 : 249561] om? ␅
+TD1575041 ␆b
+TD135 [224538 : 237027 : 249561] om? b
+TD141 progress: -1 237027 om
+TD167 [224538 : 230458 : 237027] neer? ␅
+TD1568112 ␆a
+TD115 [224538 : 230458 : 237027] neer? a
+TD130 progress: 1 230458 neer
+TD137 [230459 : 233683 : 237027] nood? ␅
+TD1630860 ␆a
+TD98 [230459 : 233683 : 237027] nood? a
+TD116 progress: 1 233683 nood
+TD125 [233684 : 235346 : 237027] oceaan? ␅
+TD2228920 ␆it
+TD115 [233684 : 235346 : 237027] oceaan? it
+TD135 progress: 0 235346 oceaan
+TD40 [233684 : 235346 : 237027] <Done>.
+TD131 📋> ␅
+TD3379679 ␆🧩 Puzzel #673
+TD83 📋> 🧩 Puzzel #673
+TD16 📋> ␅
+TD50 ␆🤔 8 gokken
+TD14 📋> 🤔 8 gokken
+TD12 📋> ␅
+TD21 ␆⏱️ 12s
+TD13 📋> ⏱️ 12s
+TD7 📋> ␅
+TD502580 ␆🔗 alfagok.diginaut.net
+TD105 📋> 🔗 alfagok.diginaut.net
+TD17 📋> ␅
+TD382232 ␄
+TD253 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #673\n\ud83e\udd14 8 gokken\n\u23f1\ufe0f 12s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD1207 result: "\ud83e\udde9 Puzzel #673\n\ud83e\udd14 8 gokken\n\u23f1\ufe0f 12s\n\ud83d\udd17 alfagok.diginaut.net"
+TD37 result puzzle: 673
+TD18 result guesses: 8
+TD12 result time: 12s
+TD10 result link: alfagok.diginaut.net
+TD124 📆 2026-09-06 ? ␅
+TD591656 ␆
+TD108 📆 2026-09-06 ? 
