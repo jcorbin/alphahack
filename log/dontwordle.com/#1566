@@ -1,0 +1,188 @@
+T735.0061325019997 now: 2026-09-06T08:34:30EDT
+TD142 site: dontwordle.com
+TD25 wordlist: nwl2023.txt
+TD51  ...␅
+TD992880 ␆
+TD108  ...
+TD126 1> ␅
+TD7819147 ␆* -bot 10
+TD122 1> * -bot 10
+TD197655 ? ␅
+TD779621 ␆1
+TD150 ? 1
+TD307 📋 "arose" ? ␅
+TD4907155 ␆MnnnY
+TD128 📋 "arose" ? MnnnY
+TD882 tried: AROSE m n n n Y
+TD315 2> ␅
+TD836836 ␆undo
+TD89 2> undo
+TD138 undo
+TD163 1> ␅
+TD3001777 ␆*
+TD109 1> *
+TD116497 ? ␅
+TD361494 ␆1
+TD122 ? 1
+TD209 📋 "hollo" ? ␅
+TD4941755 ␆nnnYn
+TD100 📋 "hollo" ? nnnYn
+TD242 tried: HOLLO n n n Y n
+TD231 2> ␅
+TD778450 ␆undo
+TD134 2> undo
+TD203 undo
+TD211 1> ␅
+TD2589049 ␆*
+TD96 1> *
+TD99790 ? ␅
+TD485105 ␆1
+TD131 ? 1
+TD392 📋 "minim" ? ␅
+TD4223828 ␆nnnnn
+TD79 📋 "minim" ? nnnnn
+TD110 tried: MINIM n n n n n
+TD88 2> ␅
+TD943581 ␆*
+TD115 2> *
+TD105603 ? ␅
+TD259446 ␆1
+TD75 ? 1
+TD205 📋 "tooth" ? ␅
+TD5837016 ␆nnnnn
+TD136 📋 "tooth" ? nnnnn
+TD289 tried: TOOTH n n n n n
+TD284 3> ␅
+TD18097621 ␆* :v [arosehl] -bot 10
+TD76 3> * :v [arosehl] -bot 10
+TD95520 ? ␅
+TD1873903 ␆1
+TD101 ? 1
+TD251 📋 "fudgy" ? ␅
+TD7760486 ␆Ynnnn
+TD108 📋 "fudgy" ? Ynnnn
+TD206 tried: FUDGY Y n n n n
+TD233 4> ␅
+TD690858 ␆undo
+TD116 4> undo
+TD182 undo
+TD349 3> ␅
+TD3093850 ␆*
+TD134 3> *
+TD93801 ? ␅
+TD456386 ␆1
+TD44 ? 1
+TD111 📋 "vuggs" ? ␅
+TD5251934 ␆nnnnn
+TD93 📋 "vuggs" ? nnnnn
+TD207 tried: VUGGS n n n n n
+TD237 4> ␅
+TD1115603 ␆*
+TD108 4> *
+TD199539 ? ␅
+TD46420 ␆1
+TD91 ? 1
+TD246 📋 "dryly" ? ␅
+TD14627944 ␆nnnYn
+TD83 📋 "dryly" ? nnnYn
+TD196 tried: DRYLY n n n Y n
+TD186 5> ␅
+TD852590 ␆*
+TD154 5> *
+TD190320 📋 "belle" ? ␅
+TD4814202 ␆MnnYY
+TD188 📋 "belle" ? MnnYY
+TD419 tried: BELLE m n n Y Y
+TD518 6> ␅
+TD5365488 ␆undo
+TD135 6> undo
+TD213 undo
+TD1360 5> ␅
+TD558344 ␆*
+TD111 5> *
+TD199200 ? ␅
+TD4431888 ␆1
+TD84 ? 1
+TD221 📋 "calla" ? ␅
+TD5904673 ␆nYnYn
+TD100 📋 "calla" ? nYnYn
+TD219 tried: CALLA n Y n Y n
+TD267 6> ␅
+TD9664457 ␆undo
+TD115 6> undo
+TD176 undo
+TD492 5> ␅
+TD2865120 ␆* 
+TD130 5> * 
+TD197455 ? ␅
+TD488052 ␄
+TD164 <EOF>
+TD269 5> ␅
+TD1576949 ␆* -sans
+TD95 5> * -sans
+TD90284 ? ␅
+TD19189700 ␆8
+TD142 ? 8
+TD336 📋 "apple" ? ␅
+TD5302110 ␆MnnYY
+TD97 📋 "apple" ? MnnYY
+TD204 tried: APPLE m n n Y Y
+TD253 6> ␅
+TD474366 ␆*
+TD117 6> *
+TD180346 📋 "cable" ? ␅
+TD4007973 ␆nYYYY
+TD94 📋 "cable" ? nYYYY
+TD192 tried: CABLE n Y Y Y Y
+TD271 📋> ␅
+TD4307802 ␆Don't Wordle 1566 - SURVIVED
+TD99 📋> Don't Wordle 1566 - SURVIVED
+TD17 📋> ␅
+TD53 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD34 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD10 📋> ␅
+TD20 ␆⬜⬜⬜⬜⬜6310
+TD9 📋> ⬜⬜⬜⬜⬜6310
+TD8 📋> ␅
+TD19 ␆⬜⬜⬜⬜⬜2558
+TD7 📋> ⬜⬜⬜⬜⬜2558
+TD7 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜651
+TD7 📋> ⬜⬜⬜⬜⬜651
+TD7 📋> ␅
+TD18 ␆⬜⬜⬜🟩⬜14
+TD8 📋> ⬜⬜⬜🟩⬜14
+TD7 📋> ␅
+TD17 ␆🟨⬜⬜🟩🟩2
+TD7 📋> 🟨⬜⬜🟩🟩2
+TD7 📋> ␅
+TD18 ␆⬜🟩🟩🟩🟩1
+TD7 📋> ⬜🟩🟩🟩🟩1
+TD7 📋> ␅
+TD15 ␆Undos used: 5
+TD8 📋> Undos used: 5
+TD8 📋> ␅
+TD17 ␆
+TD7 📋> 
+TD7 📋> ␅
+TD17 ␆  1 words remaining
+TD8 📋>   1 words remaining
+TD7 📋> ␅
+TD15 ␆x 7 unused letters
+TD8 📋> x 7 unused letters
+TD7 📋> ␅
+TD20 ␆= 7 total score
+TD7 📋> = 7 total score
+TD7 📋> ␅
+TD16 ␆
+TD7 📋> 
+TD7 📋> ␅
+TD533850 ␆https://dontwordle.com
+TD91 📋> https://dontwordle.com
+TD17 📋> ␅
+TD698648 ␄
+TD191 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1566 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6310\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2558\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c651\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c14\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe92\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe91\nUndos used: 5\n\n  1 words remaining\nx 7 unused letters\n= 7 total score\n\nhttps://dontwordle.com"}
+TD2456 result: "Don't Wordle 1566 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6310\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2558\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c651\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c14\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe92\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe91\nUndos used: 5\n\n  1 words remaining\nx 7 unused letters\n= 7 total score\n\nhttps://dontwordle.com"
+TD138 📆 2026-09-06 ? ␅
+TD501576 ␆
+TD152 📆 2026-09-06 ? 
