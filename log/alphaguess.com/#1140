@@ -1,0 +1,85 @@
+T659.3135643369969 now: 2026-09-06T08:33:14EDT
+TD121 site: alphaguess.com
+TD159161 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 195ffc63dadd9876cb11d7230aa4d738c6a314ee
+TD76  ...␅
+TD428738 ␆
+TD105  ...
+TD212 [0 : 98147 : 196518] mac? ␅
+TD5873245 ␆
+TD104 [0 : 98147 : 196518] mac? 
+TD148 [0 : 98147 : 196518] mac? ␅
+TD2818305 ␆b
+TD73 [0 : 98147 : 196518] mac? b
+TD83 progress: -1 98147 mac
+TD97 [0 : 47378 : 98147] dis? ␅
+TD2232078 ␆b
+TD107 [0 : 47378 : 98147] dis? b
+TD127 progress: -1 47378 dis
+TD151 [0 : 23680 : 47378] camp? ␅
+TD2462222 ␆b
+TD105 [0 : 23680 : 47378] camp? b
+TD119 progress: -1 23680 camp
+TD145 [0 : 11763 : 23680] back? ␅
+TD1756525 ␆a
+TD92 [0 : 11763 : 23680] back? a
+TD107 progress: 1 11763 back
+TD112 [11764 : 17714 : 23680] blind? ␅
+TD1514843 ␆a
+TD106 [11764 : 17714 : 23680] blind? a
+TD144 progress: 1 17714 blind
+TD356 [17715 : 20685 : 23680] brill? ␅
+TD1789518 ␆b
+TD49 [17715 : 20685 : 23680] brill? b
+TD56 progress: -1 20685 brill
+TD78 [17715 : 19159 : 20685] boot? ␅
+TD1521778 ␆a
+TD116 [17715 : 19159 : 20685] boot? a
+TD161 progress: 1 19159 boot
+TD158 [19160 : 19873 : 20685] bra? ␅
+TD1734025 ␆b
+TD112 [19160 : 19873 : 20685] bra? b
+TD141 progress: -1 19873 bra
+TD216 [19160 : 19408 : 19873] bot? ␅
+TD1992287 ␆a
+TD49 [19160 : 19408 : 19873] bot? a
+TD61 progress: 1 19408 bot
+TD72 [19409 : 19631 : 19873] bourg? ␅
+TD3998274 ␆b
+TD135 [19409 : 19631 : 19873] bourg? b
+TD156 progress: -1 19631 bourg
+TD441 [19409 : 19520 : 19631] boubous? ␅
+TD1761547 ␆a
+TD96 [19409 : 19520 : 19631] boubous? a
+TD121 progress: 1 19520 boubous
+TD296 [19521 : 19575 : 19631] boult? ␅
+TD1882154 ␆a
+TD121 [19521 : 19575 : 19631] boult? a
+TD130 progress: 1 19575 boult
+TD145 [19576 : 19592 : 19631] bound? ␅
+TD3538239 ␆it
+TD109 [19576 : 19592 : 19631] bound? it
+TD139 progress: 0 19592 bound
+TD52 [19576 : 19592 : 19631] <Done>.
+TD147 📋> ␅
+TD3212627 ␆🧩 Puzzle #1140
+TD90 📋> 🧩 Puzzle #1140
+TD24 📋> ␅
+TD60 ␆🤔 13 guesses
+TD20 📋> 🤔 13 guesses
+TD17 📋> ␅
+TD34 ␆⏱️ 24s
+TD19 📋> ⏱️ 24s
+TD17 📋> ␅
+TD756639 ␆🔗 alphaguess.com/1140
+TD100 📋> 🔗 alphaguess.com/1140
+TD26 📋> ␅
+TD632087 ␄
+TD145 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1140\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/1140"}
+TD105 result: "\ud83e\udde9 Puzzle #1140\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/1140"
+TD27 result puzzle: 1140
+TD19 result guesses: 13
+TD16 result time: 24s
+TD15 result link: alphaguess.com/1140
+TD97 📆 2026-09-06 ? ␅
+TD401352 ␆
+TD268 📆 2026-09-06 ? 
