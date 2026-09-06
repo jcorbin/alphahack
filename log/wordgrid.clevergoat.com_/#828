@@ -1,0 +1,259 @@
+T704.4084016179986 now: 2026-09-06T09:37:13EDT
+TD187 site: https://wordgrid.clevergoat.com/
+TD32 wordlist: nwl2023.txt
+TD84 > ␅
+TD8636838 ␆col 1 ~OR
+TD100 > col 1 ~OR
+TD898 rule col: 1 ~OR
+TD119 > ␅
+TD9403437 ␆col 2 ~^RE
+TD118 > col 2 ~^RE
+TD403 rule col: 2 ~^RE
+TD136 > ␅
+TD8205600 ␆col 3 ~^DI
+TD98 > col 3 ~^DI
+TD358 rule col: 3 ~^DI
+TD114 > ␅
+TD5960599 ␆row 1 ~ES$
+TD113 > row 1 ~ES$
+TD372 rule row: 1 ~ES$
+TD111 > ␅
+TD8752428 ␆row 2 ![NTU]
+TD129 > row 2 ![NTU]
+TD688 rule row: 2 ![NTU]
+TD146 > ␅
+TD9547953 ␆row 3 &FI
+TD98 > row 3 &FI
+TD428 rule row: 3 &FI
+TD137 > ␅
+TD12016120 ␆*
+TD60 > *
+TD277919 ? ␅
+TD1414052 ␆1
+TD99 ? 1
+TD160 questioning: 0 phorates
+TD71 🌡️ phorates 📋 ? ␅
+TD3445681 ␆0
+TD90 🌡️ phorates 📋 ? 0
+TD358 word: 0 phorates 0.0
+TD32 questioning: -1 
+TD116 > ␅
+TD706132 ␆*
+TD83 > *
+TD254190 ? ␅
+TD7678328 ␆6
+TD99 ? 6
+TD182 questioning: 1 reticules
+TD96 🌡️ reticules 📋 ? ␅
+TD4755779 ␆.09
+TD73 🌡️ reticules 📋 ? .09
+TD74 word: 1 reticules 0.09
+TD19 questioning: -1 
+TD94 > ␅
+TD675042 ␆*
+TD97 > *
+TD254442 ? ␅
+TD4156606 ␆8
+TD133 ? 8
+TD219 questioning: 2 dianthuses
+TD90 🌡️ dianthuses 📋 ? ␅
+TD3582144 ␆.07
+TD104 🌡️ dianthuses 📋 ? .07
+TD143 word: 2 dianthuses 0.07
+TD41 questioning: -1 
+TD193 > ␅
+TD630444 ␆*
+TD106 > *
+TD278841 ? ␅
+TD3125556 ␆4
+TD163 ? 4
+TD287 questioning: 3 orphical
+TD101 🌡️ orphical 📋 ? ␅
+TD3023038 ␆0
+TD93 🌡️ orphical 📋 ? 0
+TD108 word: 3 orphical 0.0
+TD22 questioning: -1 
+TD112 > ␅
+TD707501 ␆*
+TD102 > *
+TD254285 ? ␅
+TD7380680 ␆7
+TD99 ? 7
+TD203 questioning: 4 redip
+TD61 🌡️ redip 📋 ? ␅
+TD2732170 ␆0
+TD172 🌡️ redip 📋 ? 0
+TD126 word: 4 redip 0.0
+TD24 questioning: -1 
+TD126 > ␅
+TD563381 ␆*
+TD150 > *
+TD243789 ? ␅
+TD5415991 ␆9
+TD101 ? 9
+TD176 questioning: 5 diram
+TD64 🌡️ diram 📋 ? ␅
+TD3216367 ␆0
+TD94 🌡️ diram 📋 ? 0
+TD100 word: 5 diram 0.0
+TD43 questioning: -1 
+TD136 > ␅
+TD6158608 ␆* 2 1 -bot 10
+TD100 > * 2 1 -bot 10
+TD256312 ? ␅
+TD11407134 ␆9
+TD105 ? 9
+TD161 questioning: 1 regressivities
+TD60 🌡️ regressivities 📋 ? ␅
+TD2857433 ␆0
+TD101 🌡️ regressivities 📋 ? 0
+TD103 word: 1 regressivities 0.0
+TD32 questioning: -1 
+TD128 > ␅
+TD3264025 ␆* 3 1 -bot 10
+TD103 > * 3 1 -bot 10
+TD259588 ? ␅
+TD3257554 ␆9
+TD81 ? 9
+TD149 questioning: 2 disaccharidases
+TD61 🌡️ disaccharidases 📋 ? ␅
+TD3375123 ␆.05
+TD105 🌡️ disaccharidases 📋 ? .05
+TD109 word: 2 disaccharidases 0.05
+TD28 questioning: -1 
+TD179 > ␅
+TD1965063 ␆* 3 1 -bot 10
+TD99 > * 3 1 -bot 10
+TD254465 ? ␅
+TD6574851 ␆9
+TD92 ? 9
+TD150 questioning: 2 dividednesses
+TD53 🌡️ dividednesses 📋 ? ␅
+TD3896063 ␆.04
+TD54 🌡️ dividednesses 📋 ? .04
+TD48 word: 2 dividednesses 0.04
+TD9 questioning: -1 
+TD65 > ␅
+TD2307748 ␆* 3 1 -bot 10
+TD114 > * 3 1 -bot 10
+TD240413 ? ␅
+TD5540661 ␆4
+TD57 ? 4
+TD132 questioning: 2 dieses
+TD56 🌡️ dieses 📋 ? ␅
+TD5839918 ␆.05
+TD49 🌡️ dieses 📋 ? .05
+TD88 word: 2 dieses 0.05
+TD18 questioning: -1 
+TD62 > ␅
+TD1688812 ␆* 3 1
+TD97 > * 3 1
+TD244093 ? ␅
+TD4499699 ␆2
+TD142 ? 2
+TD315 questioning: 2 dioptres
+TD98 🌡️ dioptres 📋 ? ␅
+TD2925969 ␆.07
+TD56 🌡️ dioptres 📋 ? .07
+TD61 word: 2 dioptres 0.07
+TD11 questioning: -1 
+TD92 > ␅
+TD2410319 ␆* 3 1
+TD45 > * 3 1
+TD237963 ? ␅
+TD6142660 ␆10
+TD151 ? 10
+TD256 questioning: 2 divulgates
+TD100 🌡️ divulgates 📋 ? ␅
+TD2891942 ␆.04
+TD96 🌡️ divulgates 📋 ? .04
+TD103 word: 2 divulgates 0.04
+TD54 questioning: -1 
+TD139 > ␅
+TD6085579 ␆*
+TD101 > *
+TD299307 ? ␅
+TD15744097 ␆5
+TD125 ? 5
+TD194 questioning: 6 dentiform
+TD79 🌡️ dentiform 📋 ? ␅
+TD3959223 ␆0
+TD138 🌡️ dentiform 📋 ? 0
+TD121 word: 6 dentiform 0.0
+TD28 questioning: -1 
+TD144 > ␅
+TD670151 ␆*
+TD155 > *
+TD298915 ? ␅
+TD2317165 ␆10
+TD129 ? 10
+TD245 questioning: 7 refugia
+TD81 🌡️ refugia 📋 ? ␅
+TD3943664 ␆.05
+TD114 🌡️ refugia 📋 ? .05
+TD146 word: 7 refugia 0.05
+TD32 questioning: -1 
+TD163 > ␅
+TD621673 ␆*
+TD163 > *
+TD281895 ? ␅
+TD6445762 ␆10
+TD104 ? 10
+TD190 questioning: 8 discomfiture
+TD64 🌡️ discomfiture 📋 ? ␅
+TD3740003 ␆.04
+TD152 🌡️ discomfiture 📋 ? .04
+TD158 word: 8 discomfiture 0.04
+TD41 questioning: -1 
+TD218 > ␅
+TD3019617 ␆Word Grid #828
+TD51 > Word Grid #828
+TD135 > ␅
+TD24 ␆🦄🦄🌌
+TD3 > 🦄🦄🌌
+TD211 > ␅
+TD9 ␆🦄🦄🦄
+TD3 > 🦄🦄🦄
+TD100 > ␅
+TD8 ␆🦄🌌🌌
+TD2 > 🦄🌌🌌
+TD94 > ␅
+TD7 ␆Rarity: 0.14
+TD9 > Rarity: 0.14
+TD101 > ␅
+TD2813563 ␆wordgrid.clevergoat.com?ref=shared 🐐/res
+TD52 > wordgrid.clevergoat.com?ref=shared 🐐/res
+TD220 > ␅
+TD1810742 ␆/res
+TD51 > /res
+TD110 📋> ␅
+TD1401216 ␆Word Grid #828
+TD64 📋> Word Grid #828
+TD18 📋> ␅
+TD36 ␆🦄🦄🌌
+TD10 📋> 🦄🦄🌌
+TD8 📋> ␅
+TD17 ␆🦄🦄🦄
+TD8 📋> 🦄🦄🦄
+TD8 📋> ␅
+TD16 ␆🦄🌌🌌
+TD8 📋> 🦄🌌🌌
+TD7 📋> ␅
+TD16 ␆Rarity: 0.14
+TD8 📋> Rarity: 0.14
+TD8 📋> ␅
+TD444624 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD80 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD19 📋> ␅
+TD804830 ␄
+TD104 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #828\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\nRarity: 0.14\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD476 result: "Word Grid #828\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\nRarity: 0.14\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD93 > ␅
+TD658296 ␆
+TD59 > 
+TD172 > ␅
+TD902899 ␆/store
+TD69 > /store
+TD160 📆 2026-09-06 ? ␅
+TD6442769 ␆2026-09-06
+TD94 📆 2026-09-06 ? 2026-09-06
