@@ -1,0 +1,279 @@
+T1132.5142327170033 now: 2026-09-07T08:45:12EDT
+TD135 site: squareword.org
+TD36 wordlist: nwl2023.txt
+TD43  ...␅
+TD217887 ␆
+TD111  ...
+TD93 🧩  ? ␅
+TD10583114 ␆#1680
+TD92 🧩  ? #1680
+TD292 puzzle_id: #1680
+TD386 > ␅
+TD885179 ␆*
+TD89 > *
+TD237076 try? ␅
+TD690813 ␆1
+TD140 try? 1
+TD407 questioning: ["acres", "#5"]
+TD544 #1 <IndexError>  📋 "acres" ? ␅
+TD4352778 ␆_C___ ~ ARS
+TD105 #1 <IndexError>  📋 "acres" ? _C___ ~ ARS
+TD870 attempt 0 ACRES m Y m n m
+TD159 #2 <IndexError>  📋 "acres" ? ␅
+TD2126140 ␆___E_ ~ RE
+TD80 #2 <IndexError>  📋 "acres" ? ___E_ ~ RE
+TD250 attempt 1 ACRES n n m Y n
+TD106 #3 <IndexError>  📋 "acres" ? ␅
+TD2321297 ␆_____ ~ E
+TD101 #3 <IndexError>  📋 "acres" ? _____ ~ E
+TD319 attempt 2 ACRES n n n m n
+TD158 #4 <IndexError>  📋 "acres" ? ␅
+TD1811716 ␆A____ 
+TD112 #4 <IndexError>  📋 "acres" ? A____ 
+TD318 attempt 3 ACRES Y n n n n
+TD152 #5 <IndexError>  📋 "acres" ? ␅
+TD2247573 ␆____S ~ E
+TD142 #5 <IndexError>  📋 "acres" ? ____S ~ E
+TD357 attempt 4 ACRES n n n m Y
+TD541 ? ␅
+TD282451 ␆
+TD74 ? 
+TD116 question done
+TD291 > ␅
+TD418400 ␆*
+TD101 > *
+TD892400 try? ␅
+TD1565344 ␄
+TD136 <EOF>
+TD530 > ␅
+TD4861610 ␆* 3
+TD70 > * 3
+TD7636 try? ␅
+TD894402 ␆1
+TD135 try? 1
+TD337 questioning: ["legit", "#3"]
+TD441 #1 _C___ ~ARS -E  📋 "legit" ? ␅
+TD3530784 ␆.
+TD47 #1 _C___ ~ARS -E  📋 "legit" ? .
+TD133 attempt 0 LEGIT n n n n n
+TD44 #2 ___E_ ~R -ACS  📋 "legit" ? ␅
+TD3438074 ␆___E_ ~ REL
+TD51 #2 ___E_ ~R -ACS  📋 "legit" ? ___E_ ~ REL
+TD133 attempt 1 LEGIT m m n n n
+TD81 #3 _____ ~E -ACRS  📋 "legit" ? ␅
+TD2285590 ␆_____ ~ EI
+TD94 #3 _____ ~E -ACRS  📋 "legit" ? _____ ~ EI
+TD290 attempt 2 LEGIT n m n m n
+TD156 #4 A____ -CERS  📋 "legit" ? ␅
+TD1979133 ␆A__IT
+TD56 #4 A____ -CERS  📋 "legit" ? A__IT
+TD132 attempt 3 LEGIT n n n Y Y
+TD77 #5 ____S ~E -ACR  📋 "legit" ? ␅
+TD2031959 ␆_E__S ~ E
+TD85 #5 ____S ~E -ACR  📋 "legit" ? _E__S ~ E
+TD303 attempt 4 LEGIT n Y n n n
+TD460 ? ␅
+TD266055 ␆
+TD163 ? 
+TD227 question done
+TD604 > ␅
+TD454730 ␆*
+TD85 > *
+TD798155 try? ␅
+TD2078890 ␆1
+TD98 try? 1
+TD319 questioning: ["admit", "#4"]
+TD556 #1 _C___ ~ARS -EGILT  📋 "admit" ? ␅
+TD4976694 ␆.
+TD59 #1 _C___ ~ARS -EGILT  📋 "admit" ? .
+TD142 attempt 0 ADMIT m n n n n
+TD48 #2 ___E_ ~LR -ACGIST  📋 "admit" ? ␅
+TD3662537 ␆___E_ ~ RELD
+TD111 #2 ___E_ ~LR -ACGIST  📋 "admit" ? ___E_ ~ RELD
+TD337 attempt 1 ADMIT n m n n n
+TD168 #3 _____ ~EI -ACGLRST  📋 "admit" ? ␅
+TD2506632 ␆_____ ~ EID
+TD112 #3 _____ ~EI -ACGLRST  📋 "admit" ? _____ ~ EID
+TD334 attempt 2 ADMIT n m n m n
+TD180 #4 A__IT -CEGLRS  📋 "admit" ? ␅
+TD2521436 ␆A__IT ~ M
+TD107 #4 A__IT -CEGLRS  📋 "admit" ? A__IT ~ M
+TD284 attempt 3 ADMIT Y n m Y Y
+TD164 #5 _E__S -ACGILRT  📋 "admit" ? ␅
+TD3256113 ␆_E__S ~ ED
+TD105 #5 _E__S -ACGILRT  📋 "admit" ? _E__S ~ ED
+TD314 attempt 4 ADMIT n m n n n
+TD440 ? ␅
+TD297711 ␆
+TD57 ? 
+TD83 question done
+TD169 > ␅
+TD412010 ␆*
+TD105 > *
+TD527288 questioning: ["ambit", "#4"]
+TD167 #1 _C___ ~ARS -DEGILMT  📋 "ambit" ? ␅
+TD4224073 ␆.
+TD145 #1 _C___ ~ARS -DEGILMT  📋 "ambit" ? .
+TD522 attempt 0 AMBIT m n n n n
+TD183 #2 ___E_ ~DLR -ACGIMST  📋 "ambit" ? ␅
+TD6556210 ␆___E_ ~ RELD
+TD154 #2 ___E_ ~DLR -ACGIMST  📋 "ambit" ? ___E_ ~ RELD
+TD507 attempt 1 AMBIT n n n n n
+TD257 #3 _____ ~DEI -ACGLMRST  📋 "ambit" ? ␅
+TD1348342 ␆.
+TD53 #3 _____ ~DEI -ACGLMRST  📋 "ambit" ? .
+TD137 attempt 2 AMBIT n n n m n
+TD48 #4 A__IT ~M -CDEGLRS  📋 "ambit" ? ␅
+TD887771 ␆/it
+TD181 #4 A__IT ~M -CDEGLRS  📋 "ambit" ? /it
+TD488 attempt 3 AMBIT Y Y Y Y Y
+TD166 #5 _E__S ~D -ACGILMRT  📋 "ambit" ? ␅
+TD3433980 ␆_E__S ~ ED
+TD101 #5 _E__S ~D -ACGILMRT  📋 "ambit" ? _E__S ~ ED
+TD291 attempt 4 AMBIT n n n n n
+TD476 ? ␅
+TD174847 ␆
+TD62 ? 
+TD62 question done
+TD140 > ␅
+TD478381 ␆*
+TD141 > *
+TD1558273 try? ␅
+TD2020491 ␆1
+TD46 try? 1
+TD126 questioning: ["older", "#2"]
+TD199 #1 _C___ ~ARS -BDEGILMT  📋 "older" ? ␅
+TD3807623 ␆.
+TD119 #1 _C___ ~ARS -BDEGILMT  📋 "older" ? .
+TD397 attempt 0 OLDER n n n n m
+TD144 #2 ___E_ ~DLR -ABCGIMST  📋 "older" ? ␅
+TD2457124 ␆_LDER ~ E
+TD99 #2 ___E_ ~DLR -ABCGIMST  📋 "older" ? _LDER ~ E
+TD270 attempt 1 OLDER n Y Y Y Y
+TD177 #3 _____ ~DEI -ABCGLMRST  📋 "older" ? ␅
+TD8465503 ␆_____ ~ EIDO
+TD131 #3 _____ ~DEI -ABCGLMRST  📋 "older" ? _____ ~ EIDO
+TD396 attempt 2 OLDER m n m m n
+TD207 #5 _E__S ~D -ABCGILMRT  📋 "older" ? ␅
+TD4044389 ␆_E__S ~ ED
+TD132 #5 _E__S ~D -ABCGILMRT  📋 "older" ? _E__S ~ ED
+TD381 attempt 4 OLDER n n m m n
+TD550 ? ␅
+TD278071 ␆
+TD212 ? 
+TD216 question done
+TD588 > ␅
+TD455984 ␆
+TD89 > 
+TD507 > ␅
+TD664380 ␆*
+TD57 > *
+TD2772680 questioning: ["elder", "#2"]
+TD211 #1 _C___ ~ARS -BDEGILMOT  📋 "elder" ? ␅
+TD3664544 ␆.
+TD102 #1 _C___ ~ARS -BDEGILMOT  📋 "elder" ? .
+TD306 attempt 0 ELDER n n n n m
+TD122 #2 _LDER -ABCGIMOST  📋 "elder" ? ␅
+TD744782 ␆/it
+TD95 #2 _LDER -ABCGIMOST  📋 "elder" ? /it
+TD297 attempt 1 ELDER Y Y Y Y Y
+TD121 #3 _____ ~DEIO -ABCGLMRST  📋 "elder" ? ␅
+TD1365950 ␆.
+TD91 #3 _____ ~DEIO -ABCGLMRST  📋 "elder" ? .
+TD280 attempt 2 ELDER m n m m n
+TD114 #5 _E__S ~D -ABCGILMORT  📋 "elder" ? ␅
+TD3633301 ␆_E__S ~ ED
+TD117 #5 _E__S ~D -ABCGILMORT  📋 "elder" ? _E__S ~ ED
+TD273 attempt 4 ELDER m n m m n
+TD532 ? ␅
+TD212349 ␆
+TD95 ? 
+TD128 question done
+TD391 > ␅
+TD430178 ␆*
+TD68 > *
+TD2220909 questioning: ["diode", "#3"]
+TD197 #1 _C___ ~ARS -BDEGILMOT  📋 "diode" ? ␅
+TD4247719 ␆.
+TD104 #1 _C___ ~ARS -BDEGILMOT  📋 "diode" ? .
+TD276 attempt 0 DIODE n n n n n
+TD110 #3 _____ ~DEIO -ABCGLMRST  📋 "diode" ? ␅
+TD538102 ␆/it
+TD75 #3 _____ ~DEIO -ABCGLMRST  📋 "diode" ? /it
+TD220 attempt 2 DIODE Y Y Y Y Y
+TD93 #5 _E__S ~D -ABCGILMORT  📋 "diode" ? ␅
+TD135092 ␆
+TD120 #5 _E__S ~D -ABCGILMORT  📋 "diode" ? 
+TD300 #5 _E__S ~D -ABCGILMORT  ? ␅
+TD4241361 ␆_E_DS ~ E
+TD92 #5 _E__S ~D -ABCGILMORT  ? _E_DS ~ E
+TD266 attempt 4 DIODE n n n Y m
+TD381 ? ␅
+TD131594 ␆
+TD93 ? 
+TD110 question done
+TD350 > ␅
+TD434160 ␆*
+TD117 > *
+TD1654203 questioning: ["scarf", "#1"]
+TD187 #1 _C___ ~ARS -BDEGILMOT  📋 "scarf" ? ␅
+TD2694269 ␆/it
+TD80 #1 _C___ ~ARS -BDEGILMOT  📋 "scarf" ? /it
+TD238 attempt 0 SCARF Y Y Y Y Y
+TD114 #5 _E_DS -ABCGILMORT  📋 "scarf" ? ␅
+TD4360530 ␆_E_DS ~ E
+TD176 #5 _E_DS -ABCGILMORT  📋 "scarf" ? _E_DS ~ E
+TD927 attempt 4 SCARF n n n n n
+TD1249 ? ␅
+TD247126 ␆
+TD292 ? 
+TD198 question done
+TD386 > ␅
+TD458252 ␆*
+TD54 > *
+TD1092052 questioning: ["needs", "#5"]
+TD238 #5 _E_DS -ABCFGILMORST  📋 "needs" ? ␅
+TD2989344 ␆/it
+TD80 #5 _E_DS -ABCFGILMORST  📋 "needs" ? /it
+TD205 attempt 4 NEEDS Y Y Y Y Y
+TD241 ? ␅
+TD441069 ␆
+TD131 ? 
+TD169 question done
+TD33031 📋> ␅
+TD4650137 ␆squareword.org 1680: 9 guesses
+TD118 📋> squareword.org 1680: 9 guesses
+TD67 📋> ␅
+TD57 ␆
+TD9 📋> 
+TD20 📋> ␅
+TD24 ␆🟨🟩🟨🟨🟨
+TD8 📋> 🟨🟩🟨🟨🟨
+TD17 📋> ␅
+TD19 ␆🟨🟩🟩🟩🟩
+TD8 📋> 🟨🟩🟩🟩🟩
+TD15 📋> ␅
+TD19 ␆🟨🟨🟨🟨🟨
+TD7 📋> 🟨🟨🟨🟨🟨
+TD15 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD15 📋> ␅
+TD18 ␆🟨🟩🟨🟨🟩
+TD7 📋> 🟨🟩🟨🟨🟩
+TD15 📋> ␅
+TD16 ␆
+TD7 📋> 
+TD15 📋> ␅
+TD20 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD16 📋> ␅
+TD301070 ␆#squareword #squareword1680
+TD106 📋> #squareword #squareword1680
+TD83 📋> ␅
+TD160356 ␄
+TD250 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1680: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1680"}
+TD1158 result: "squareword.org 1680: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1680"
+TD113 📆 2026-09-07 ? ␅
+TD235151 ␆
+TD131 📆 2026-09-07 ? 
