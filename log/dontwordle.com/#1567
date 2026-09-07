@@ -1,0 +1,181 @@
+T139.52269917000376 now: 2026-09-07T08:28:39EDT
+TD165 site: dontwordle.com
+TD28 wordlist: nwl2023.txt
+TD52  ...␅
+TD306367 ␆
+TD100  ...
+TD128 1> ␅
+TD7469520 ␆* -bot 10
+TD133 1> * -bot 10
+TD197690 ? ␅
+TD1229838 ␆1
+TD92 ? 1
+TD249 📋 "reais" ? ␅
+TD4286594 ␆nnMnn
+TD73 📋 "reais" ? nnMnn
+TD614 tried: REAIS n n m n n
+TD232 2> ␅
+TD713334 ␆undo
+TD130 2> undo
+TD168 undo
+TD170 1> ␅
+TD9162670 ␆* :v [reais] -bot 10
+TD73 1> * :v [reais] -bot 10
+TD139164 ? ␅
+TD3668828 ␆6
+TD102 ? 6
+TD258 📋 "clown" ? ␅
+TD9959762 ␆YYYnn
+TD143 📋 "clown" ? YYYnn
+TD346 tried: CLOWN Y Y Y n n
+TD363 2> ␅
+TD1793452 ␆undo
+TD125 2> undo
+TD173 undo
+TD219 1> ␅
+TD2829732 ␆*
+TD128 1> *
+TD106160 ? ␅
+TD646022 ␆1
+TD124 ? 1
+TD275 📋 "feeze" ? ␅
+TD4456287 ␆nnnnn
+TD101 📋 "feeze" ? nnnnn
+TD218 tried: FEEZE n n n n n
+TD208 2> ␅
+TD411144 ␆*
+TD108 2> *
+TD100606 ? ␅
+TD612312 ␆1
+TD96 ? 1
+TD274 📋 "jinni" ? ␅
+TD4185155 ␆nnnnn
+TD91 📋 "jinni" ? nnnnn
+TD195 tried: JINNI n n n n n
+TD168 3> ␅
+TD548445 ␆*
+TD110 3> *
+TD97117 ? ␅
+TD7921537 ␆nnMnn
+TD100 ? nnMnn
+TD613 ? ␅
+TD756110 ␆undo
+TD83 ? undo
+TD562 ? ␅
+TD2271147 ␆1
+TD102 ? 1
+TD276 📋 "yukky" ? ␅
+TD1505912 ␆nnMnn
+TD150 📋 "yukky" ? nnMnn
+TD235 tried: YUKKY n n m n n
+TD261 4> ␅
+TD935228 ␆undo
+TD108 4> undo
+TD183 undo
+TD295 3> ␅
+TD2908920 ␆
+TD79 3> 
+TD108 3> ␅
+TD593608 ␆*
+TD120 3> *
+TD97054 ? ␅
+TD654077 ␆1
+TD91 ? 1
+TD221 📋 "wushu" ? ␅
+TD4168937 ␆nnnnn
+TD80 📋 "wushu" ? nnnnn
+TD177 tried: WUSHU n n n n n
+TD202 4> ␅
+TD1370657 ␆*
+TD58 4> *
+TD94004 📋 "pygmy" ? ␅
+TD3825367 ␆nnnnn
+TD93 📋 "pygmy" ? nnnnn
+TD205 tried: PYGMY n n n n n
+TD237 5> ␅
+TD732316 ␆*
+TD107 5> *
+TD202671 ? ␅
+TD1309452 ␆1
+TD51 ? 1
+TD121 📋 "addax" ? ␅
+TD5583786 ␆nnnYn
+TD70 📋 "addax" ? nnnYn
+TD127 tried: ADDAX n n n Y n
+TD133 6> ␅
+TD451486 ␆*
+TD106 6> *
+TD192261 ? ␅
+TD7283132 ␆1
+TD90 ? 1
+TD234 📋 "rabat" ? ␅
+TD3469681 ␄
+TD88 <EOF>
+TD123 6> ␅
+TD1217064 ␆* -sans
+TD98 6> * -sans
+TD93069 ? ␅
+TD7112046 ␄
+TD159 <EOF>
+TD221 6> ␅
+TD5153379 ␆* -sans :v A.*A
+TD103 6> * -sans :v A.*A
+TD98504 ? ␅
+TD5407702 ␆1
+TD99 ? 1
+TD259 📋 "bloat" ? ␅
+TD4231896 ␆nYYYn
+TD124 📋 "bloat" ? nYYYn
+TD270 tried: BLOAT n Y Y Y n
+TD357 📋> ␅
+TD4414946 ␆Don't Wordle 1567 - SURVIVED
+TD74 📋> Don't Wordle 1567 - SURVIVED
+TD13 📋> ␅
+TD40 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD8 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD6 📋> ␅
+TD16 ␆⬜⬜⬜⬜⬜6482
+TD7 📋> ⬜⬜⬜⬜⬜6482
+TD6 📋> ␅
+TD13 ␆⬜⬜⬜⬜⬜3273
+TD6 📋> ⬜⬜⬜⬜⬜3273
+TD6 📋> ␅
+TD12 ␆⬜⬜⬜⬜⬜685
+TD5 📋> ⬜⬜⬜⬜⬜685
+TD6 📋> ␅
+TD14 ␆⬜⬜⬜⬜⬜186
+TD5 📋> ⬜⬜⬜⬜⬜186
+TD6 📋> ␅
+TD13 ␆⬜⬜⬜🟩⬜27
+TD6 📋> ⬜⬜⬜🟩⬜27
+TD6 📋> ␅
+TD13 ␆⬜🟩🟩🟩⬜1
+TD6 📋> ⬜🟩🟩🟩⬜1
+TD5 📋> ␅
+TD13 ␆Undos used: 3
+TD6 📋> Undos used: 3
+TD6 📋> ␅
+TD13 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD13 ␆  1 words remaining
+TD6 📋>   1 words remaining
+TD6 📋> ␅
+TD12 ␆x 5 unused letters
+TD6 📋> x 5 unused letters
+TD5 📋> ␅
+TD12 ␆= 5 total score
+TD6 📋> = 5 total score
+TD5 📋> ␅
+TD13 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD354313 ␆https://dontwordle.com
+TD84 📋> https://dontwordle.com
+TD15 📋> ␅
+TD421427 ␄
+TD242 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1567 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6482\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3273\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c685\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c186\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c27\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 5 unused letters\n= 5 total score\n\nhttps://dontwordle.com"}
+TD2169 result: "Don't Wordle 1567 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6482\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3273\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c685\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c186\n\u2b1c\u2b1c\u2b1c\ud83d\udfe9\u2b1c27\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 5 unused letters\n= 5 total score\n\nhttps://dontwordle.com"
+TD150 📆 2026-09-07 ? ␅
+TD295599 ␆
+TD95 📆 2026-09-07 ? 
