@@ -1,0 +1,246 @@
+T439.48533030100225 now: 2026-09-08T10:50:56EDT
+TD165 site: squareword.org
+TD34 wordlist: nwl2023.txt
+TD44  ...␅
+TD538630 ␆
+TD155  ...
+TD93 🧩  ? ␅
+TD10001955 ␆#1681
+TD93 🧩  ? #1681
+TD268 puzzle_id: #1681
+TD330 > ␅
+TD1103460 ␆*
+TD82 > *
+TD242157 try? ␅
+TD654088 ␆1
+TD102 try? 1
+TD382 questioning: ["serai", "#5"]
+TD455 #1 <IndexError>  📋 "serai" ? ␅
+TD4699833 ␆S____ ~ SA
+TD101 #1 <IndexError>  📋 "serai" ? S____ ~ SA
+TD853 attempt 0 SERAI Y n n m n
+TD128 #2 <IndexError>  📋 "serai" ? ␅
+TD3080872 ␆_____ ~ I
+TD117 #2 <IndexError>  📋 "serai" ? _____ ~ I
+TD338 attempt 1 SERAI n n n n m
+TD157 #3 <IndexError>  📋 "serai" ? ␅
+TD2482289 ␆_____ ~ RA
+TD119 #3 <IndexError>  📋 "serai" ? _____ ~ RA
+TD344 attempt 2 SERAI n n m m n
+TD165 #4 <IndexError>  📋 "serai" ? ␅
+TD1917930 ␆_____ ~ EI
+TD94 #4 <IndexError>  📋 "serai" ? _____ ~ EI
+TD294 attempt 3 SERAI n m n n m
+TD135 #5 <IndexError>  📋 "serai" ? ␅
+TD2109470 ␆S____ ~ E
+TD94 #5 <IndexError>  📋 "serai" ? S____ ~ E
+TD292 attempt 4 SERAI Y m n n n
+TD404 ? ␅
+TD266478 ␆
+TD95 ? 
+TD149 question done
+TD350 > ␅
+TD439821 ␆*
+TD80 > *
+TD639332 try? ␅
+TD901879 ␆1
+TD87 try? 1
+TD356 questioning: ["stone", "#5"]
+TD535 #1 S____ ~A -EIR  📋 "stone" ? ␅
+TD8938741 ␆S____ ~ SA
+TD106 #1 S____ ~A -EIR  📋 "stone" ? S____ ~ SA
+TD281 attempt 0 STONE Y n n n n
+TD160 #2 _____ ~I -AERS  📋 "stone" ? ␅
+TD3307142 ␆_____ ~ ITO
+TD92 #2 _____ ~I -AERS  📋 "stone" ? _____ ~ ITO
+TD251 attempt 1 STONE n m m n n
+TD168 #3 _____ ~AR -EIS  📋 "stone" ? ␅
+TD6076425 ␆__O__ ~ RA
+TD116 #3 _____ ~AR -EIS  📋 "stone" ? __O__ ~ RA
+TD283 attempt 2 STONE n n Y n n
+TD155 #4 _____ ~EI -ARS  📋 "stone" ? ␅
+TD3208724 ␆____E ~ ITN
+TD147 #4 _____ ~EI -ARS  📋 "stone" ? ____E ~ ITN
+TD344 attempt 3 STONE n m n m Y
+TD240 #5 S____ ~E -AIR  📋 "stone" ? ␅
+TD2348756 ␆ST___ ~ E
+TD117 #5 S____ ~E -AIR  📋 "stone" ? ST___ ~ E
+TD385 attempt 4 STONE Y Y n n m
+TD489 ? ␅
+TD247195 ␆
+TD122 ? 
+TD173 question done
+TD438 > ␅
+TD1638976 ␆*
+TD90 > *
+TD829418 try? ␅
+TD2566501 ␄
+TD111 <EOF>
+TD421 > ␅
+TD970442 ␆* 2
+TD92 > * 2
+TD5007 try? ␅
+TD1767822 ␆1
+TD55 try? 1
+TD192 questioning: ["topic", "#2"]
+TD312 #1 S____ ~A -EINORT  📋 "topic" ? ␅
+TD4989270 ␆S____ ~ SA
+TD98 #1 S____ ~A -EINORT  📋 "topic" ? S____ ~ SA
+TD288 attempt 0 TOPIC n n n n n
+TD207 #2 _____ ~IOT -AENRS  📋 "topic" ? ␅
+TD2892922 ␆_____ ~ ITOP
+TD99 #2 _____ ~IOT -AENRS  📋 "topic" ? _____ ~ ITOP
+TD230 attempt 1 TOPIC m m m m n
+TD127 #3 __O__ ~AR -EINST  📋 "topic" ? ␅
+TD2331750 ␆.
+TD90 #3 __O__ ~AR -EINST  📋 "topic" ? .
+TD279 attempt 2 TOPIC n n n n n
+TD98 #4 ____E ~INT -AORS  📋 "topic" ? ␅
+TD2761052 ␆T___E ~ IN
+TD109 #4 ____E ~INT -AORS  📋 "topic" ? T___E ~ IN
+TD366 attempt 3 TOPIC Y n n m n
+TD189 #5 ST___ ~E -AINOR  📋 "topic" ? ␅
+TD3288557 ␆ST___ ~ EP
+TD103 #5 ST___ ~E -AINOR  📋 "topic" ? ST___ ~ EP
+TD244 attempt 4 TOPIC n n m n n
+TD367 ? ␅
+TD156426 ␆
+TD127 ? 
+TD180 question done
+TD501 > ␅
+TD418400 ␆*
+TD93 > *
+TD624158 questioning: ["tinge", "#4"]
+TD160 #1 S____ ~A -CEINOPRT  📋 "tinge" ? ␅
+TD6567380 ␆S__G_ ~ SA
+TD56 #1 S____ ~A -CEINOPRT  📋 "tinge" ? S__G_ ~ SA
+TD140 attempt 0 TINGE n n n Y n
+TD82 #2 _____ ~IOPT -ACENRS  📋 "tinge" ? ␅
+TD3020548 ␆_I___ ~ TOP
+TD116 #2 _____ ~IOPT -ACENRS  📋 "tinge" ? _I___ ~ TOP
+TD271 attempt 1 TINGE m Y n n n
+TD148 #3 __O__ ~AR -CEINOPST  📋 "tinge" ? ␅
+TD2539483 ␆.
+TD114 #3 __O__ ~AR -CEINOPST  📋 "tinge" ? .
+TD264 attempt 2 TINGE n n n n n
+TD90 #4 T___E ~IN -ACOPRS  📋 "tinge" ? ␅
+TD905906 ␆/it
+TD134 #4 T___E ~IN -ACOPRS  📋 "tinge" ? /it
+TD411 attempt 3 TINGE Y Y Y Y Y
+TD217 #5 ST___ ~EP -ACINORT  📋 "tinge" ? ␅
+TD1722654 ␆.
+TD96 #5 ST___ ~EP -ACINORT  📋 "tinge" ? .
+TD335 attempt 4 TINGE n n n n m
+TD382 ? ␅
+TD161974 ␆
+TD102 ? 
+TD128 question done
+TD441 > ␅
+TD369494 ␆*
+TD93 > *
+TD1194182 questioning: ["slags", "#1"]
+TD204 #1 S__G_ ~A -CEINOPRT  📋 "slags" ? ␅
+TD2499651 ␆/it
+TD98 #1 S__G_ ~A -CEINOPRT  📋 "slags" ? /it
+TD349 attempt 0 SLAGS Y Y Y Y Y
+TD131 #2 _I___ ~OPT -ACEGNRS  📋 "slags" ? ␅
+TD3670946 ␆_I___ ~ TOPL
+TD73 #2 _I___ ~OPT -ACEGNRS  📋 "slags" ? _I___ ~ TOPL
+TD194 attempt 1 SLAGS n m n n n
+TD119 #3 __O__ ~AR -CEGINOPST  📋 "slags" ? ␅
+TD1837434 ␆.
+TD94 #3 __O__ ~AR -CEGINOPST  📋 "slags" ? .
+TD288 attempt 2 SLAGS n n m n n
+TD116 #5 ST___ ~EP -ACGINORT  📋 "slags" ? ␅
+TD1232479 ␆.
+TD105 #5 ST___ ~EP -ACGINORT  📋 "slags" ? .
+TD304 attempt 4 SLAGS Y n n n n
+TD503 ? ␅
+TD162668 ␆
+TD118 ? 
+TD146 question done
+TD518 > ␅
+TD410449 ␆*
+TD92 > *
+TD2076611 questioning: ["pilot", "#2"]
+TD170 #2 _I___ ~LOPT -ACEGNRS  📋 "pilot" ? ␅
+TD3188255 ␆/it
+TD104 #2 _I___ ~LOPT -ACEGNRS  📋 "pilot" ? /it
+TD329 attempt 1 PILOT Y Y Y Y Y
+TD138 #3 __O__ ~AR -CEGILNOPST  📋 "pilot" ? ␅
+TD1289704 ␆.
+TD91 #3 __O__ ~AR -CEGILNOPST  📋 "pilot" ? .
+TD293 attempt 2 PILOT n n n n n
+TD122 #5 ST___ ~EP -ACGILNORT  📋 "pilot" ? ␅
+TD922873 ␆.
+TD93 #5 ST___ ~EP -ACGILNORT  📋 "pilot" ? .
+TD319 attempt 4 PILOT m n n n n
+TD400 ? ␅
+TD156971 ␆
+TD120 ? 
+TD142 question done
+TD545 > ␅
+TD404488 ␆*
+TD87 > *
+TD1616948 questioning: ["amour", "#3"]
+TD193 #3 __O__ ~AR -CEGILNOPST  📋 "amour" ? ␅
+TD2903042 ␆/it
+TD127 #3 __O__ ~AR -CEGILNOPST  📋 "amour" ? /it
+TD369 attempt 2 AMOUR Y Y Y Y Y
+TD157 #5 ST___ ~EP -ACGILNORT  📋 "amour" ? ␅
+TD769874 ␆.
+TD122 #5 ST___ ~EP -ACGILNORT  📋 "amour" ? .
+TD395 attempt 4 AMOUR n n n n n
+TD540 ? ␅
+TD149118 ␆
+TD110 ? 
+TD160 question done
+TD439 > ␅
+TD426932 ␆*
+TD78 > *
+TD1049424 questioning: ["steep", "#5"]
+TD176 #5 ST___ ~EP -ACGILMNORTU  📋 "steep" ? ␅
+TD10978194 ␆/it
+TD98 #5 ST___ ~EP -ACGILMNORTU  📋 "steep" ? /it
+TD283 attempt 4 STEEP Y Y Y Y Y
+TD384 ? ␅
+TD436919 ␆
+TD51 ? 
+TD57 question done
+TD31316 📋> ␅
+TD9438960 ␆squareword.org 1681: 8 guesses
+TD132 📋> squareword.org 1681: 8 guesses
+TD24 📋> ␅
+TD136 ␆
+TD13 📋> 
+TD11 📋> ␅
+TD49 ␆🟩🟩🟩🟩🟩
+TD12 📋> 🟩🟩🟩🟩🟩
+TD11 📋> ␅
+TD34 ␆🟨🟩🟨🟨🟨
+TD10 📋> 🟨🟩🟨🟨🟨
+TD10 📋> ␅
+TD38 ␆🟨🟨🟩🟨🟨
+TD10 📋> 🟨🟨🟩🟨🟨
+TD10 📋> ␅
+TD35 ␆🟩🟩🟩🟩🟩
+TD11 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD61 ␆🟩🟩🟨🟨🟨
+TD10 📋> 🟩🟩🟨🟨🟨
+TD9 📋> ␅
+TD31 ␆
+TD10 📋> 
+TD9 📋> ␅
+TD32 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> ␅
+TD225548 ␆#squareword #squareword1681
+TD103 📋> #squareword #squareword1681
+TD22 📋> ␅
+TD160301 ␄
+TD184 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1681: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1681"}
+TD1463 result: "squareword.org 1681: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1681"
+TD115 📆 2026-09-08 ? ␅
+TD357647 ␆
+TD51 📆 2026-09-08 ? 
