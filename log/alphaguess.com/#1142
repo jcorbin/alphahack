@@ -1,0 +1,92 @@
+T147.13249119800457 now: 2026-09-08T10:27:24EDT
+TD181 site: alphaguess.com
+TD155835 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof b86bd69cf2b67b7d0d9354aff73eeeb5426fc562
+TD94  ...␅
+TD57774 ␆
+TD105  ...
+TD198 [0 : 98147 : 196518] mac? ␅
+TD4923213 ␆
+TD55 [0 : 98147 : 196518] mac? 
+TD72 [0 : 98147 : 196518] mac? ␅
+TD1285801 ␆
+TD59 [0 : 98147 : 196518] mac? 
+TD86 [0 : 98147 : 196518] mac? ␅
+TD729976 ␆a
+TD79 [0 : 98147 : 196518] mac? a
+TD95 progress: 1 98147 mac
+TD97 [98148 : 147311 : 196518] rho? ␅
+TD1668510 ␆b
+TD101 [98148 : 147311 : 196518] rho? b
+TD135 progress: -1 147311 rho
+TD121 [98148 : 122724 : 147311] parol? ␅
+TD1716159 ␆a
+TD92 [98148 : 122724 : 147311] parol? a
+TD112 progress: 1 122724 parol
+TD112 [122725 : 135004 : 147311] prop? ␅
+TD1867297 ␆a
+TD221 [122725 : 135004 : 147311] prop? a
+TD240 progress: 1 135004 prop
+TD287 [135005 : 141017 : 147311] recon? ␅
+TD1452590 ␆a
+TD96 [135005 : 141017 : 147311] recon? a
+TD148 progress: 1 141017 recon
+TD140 [141018 : 144150 : 147311] rend? ␅
+TD1589261 ␆b
+TD98 [141018 : 144150 : 147311] rend? b
+TD103 progress: -1 144150 rend
+TD122 [141018 : 142208 : 144150] ref? ␅
+TD1689787 ␆b
+TD118 [141018 : 142208 : 144150] ref? b
+TD160 progress: -1 142208 ref
+TD175 [141018 : 141425 : 142208] red? ␅
+TD1720636 ␆b
+TD116 [141018 : 141425 : 142208] red? b
+TD144 progress: -1 141425 red
+TD194 [141018 : 141219 : 141425] recount? ␅
+TD1610381 ␆b
+TD93 [141018 : 141219 : 141425] recount? b
+TD119 progress: -1 141219 recount
+TD128 [141018 : 141103 : 141219] recons? ␅
+TD1596604 ␆a
+TD103 [141018 : 141103 : 141219] recons? a
+TD112 progress: 1 141103 recons
+TD227 [141104 : 141159 : 141219] recontour? ␅
+TD1783657 ␆b
+TD82 [141104 : 141159 : 141219] recontour? b
+TD109 progress: -1 141159 recontour
+TD524 [141104 : 141128 : 141159] reconstitute? ␅
+TD1554797 ␆b
+TD99 [141104 : 141128 : 141159] reconstitute? b
+TD131 progress: -1 141128 reconstitute
+TD317 [141104 : 141115 : 141128] reconsign? ␅
+TD1462962 ␆b
+TD142 [141104 : 141115 : 141128] reconsign? b
+TD183 progress: -1 141115 reconsign
+TD562 [141104 : 141110 : 141115] reconsider? ␅
+TD3339563 ␆it
+TD106 [141104 : 141110 : 141115] reconsider? it
+TD128 progress: 0 141110 reconsider
+TD47 [141104 : 141110 : 141115] <Done>.
+TD140 📋> ␅
+TD3014181 ␆🧩 Puzzle #1142
+TD104 📋> 🧩 Puzzle #1142
+TD25 📋> ␅
+TD63 ␆🤔 14 guesses
+TD19 📋> 🤔 14 guesses
+TD17 📋> ␅
+TD32 ␆⏱️ 21s
+TD18 📋> ⏱️ 21s
+TD16 📋> ␅
+TD450783 ␆🔗 alphaguess.com/1142
+TD53 📋> 🔗 alphaguess.com/1142
+TD11 📋> ␅
+TD315041 ␄
+TD91 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1142\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/1142"}
+TD59 result: "\ud83e\udde9 Puzzle #1142\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 21s\n\ud83d\udd17 alphaguess.com/1142"
+TD14 result puzzle: 1142
+TD9 result guesses: 14
+TD8 result time: 21s
+TD7 result link: alphaguess.com/1142
+TD53 📆 2026-09-08 ? ␅
+TD303286 ␆
+TD83 📆 2026-09-08 ? 
