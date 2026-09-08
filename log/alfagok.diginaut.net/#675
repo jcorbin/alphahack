@@ -1,0 +1,96 @@
+T100.15841015700425 now: 2026-09-08T10:26:37EDT
+TD167 site: alfagok.diginaut.net
+TD415657 loaded 399473 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1379 words excluded) asof b86bd69cf2b67b7d0d9354aff73eeeb5426fc562
+TD73  ...␅
+TD180911 ␆
+TD103  ...
+TD287 [0 : 199640 : 399473] lijk? ␅
+TD7878960 ␆
+TD96 [0 : 199640 : 399473] lijk? 
+TD141 [0 : 199640 : 399473] lijk? ␅
+TD2702352 ␆a
+TD77 [0 : 199640 : 399473] lijk? a
+TD314 progress: 1 199640 lijk
+TD104 [199641 : 299544 : 399473] schroot? ␅
+TD1644100 ␆a
+TD113 [199641 : 299544 : 399473] schroot? a
+TD161 progress: 1 299544 schroot
+TD144 [299545 : 349329 : 399473] vakantie? ␅
+TD2275358 ␆a
+TD74 [299545 : 349329 : 399473] vakantie? a
+TD89 progress: 1 349329 vakantie
+TD104 [349330 : 374068 : 399473] vrij? ␅
+TD1633186 ␆b
+TD100 [349330 : 374068 : 399473] vrij? b
+TD121 progress: -1 374068 vrij
+TD153 [349330 : 352897 : 374068] ver? ␅
+TD1581600 ␆b
+TD96 [349330 : 352897 : 374068] ver? b
+TD118 progress: -1 352897 ver
+TD121 [349330 : 351088 : 352897] vecht? ␅
+TD2701692 ␆a
+TD72 [349330 : 351088 : 352897] vecht? a
+TD82 progress: 1 351088 vecht
+TD108 [351089 : 351846 : 352897] veiligheid? ␅
+TD1633802 ␆b
+TD78 [351089 : 351846 : 352897] veiligheid? b
+TD93 progress: -1 351846 veiligheid
+TD100 [351089 : 351463 : 351846] veen? ␅
+TD1502596 ␆a
+TD90 [351089 : 351463 : 351846] veen? a
+TD108 progress: 1 351463 veen
+TD115 [351464 : 351649 : 351846] veers? ␅
+TD2027366 ␆!
+TD118 [351464 : 351649 : 351846] veers? !
+TD406 [351464 : 351593 : 351845] veer? ␅
+TD2114472 ␆a
+TD49 [351464 : 351593 : 351845] veer? a
+TD55 progress: 1 351593 veer
+TD74 [351594 : 351711 : 351845] veest? ␅
+TD1723755 ␆a
+TD37 [351594 : 351711 : 351845] veest? a
+TD55 progress: 1 351711 veest
+TD46 [351712 : 351769 : 351845] vege? ␅
+TD2491880 ␆a
+TD63 [351712 : 351769 : 351845] vege? a
+TD55 progress: 1 351769 vege
+TD85 [351770 : 351805 : 351845] vegeteer? ␅
+TD2142626 ␆a
+TD75 [351770 : 351805 : 351845] vegeteer? a
+TD91 progress: 1 351805 vegeteer
+TD119 [351806 : 351823 : 351845] vei? ␅
+TD2135167 ␆a
+TD118 [351806 : 351823 : 351845] vei? a
+TD112 progress: 1 351823 vei
+TD120 [351824 : 351826 : 351845] veil? ␅
+TD1597468 ␆a
+TD48 [351824 : 351826 : 351845] veil? a
+TD51 progress: 1 351826 veil
+TD85 [351827 : 351836 : 351845] veilig? ␅
+TD2149990 ␆it
+TD99 [351827 : 351836 : 351845] veilig? it
+TD99 progress: 0 351836 veilig
+TD26 [351827 : 351836 : 351845] <Done>.
+TD94 📋> ␅
+TD3251687 ␆🧩 Puzzel #675
+TD109 📋> 🧩 Puzzel #675
+TD20 📋> ␅
+TD53 ␆🤔 15 gokken
+TD10 📋> 🤔 15 gokken
+TD9 📋> ␅
+TD23 ␆⏱️ 29s
+TD8 📋> ⏱️ 29s
+TD7 📋> ␅
+TD758930 ␆🔗 alfagok.diginaut.net
+TD77 📋> 🔗 alfagok.diginaut.net
+TD13 📋> ␅
+TD494854 ␄
+TD154 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #675\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD685 result: "\ud83e\udde9 Puzzel #675\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"
+TD21 result puzzle: 675
+TD10 result guesses: 15
+TD7 result time: 29s
+TD6 result link: alfagok.diginaut.net
+TD104 📆 2026-09-08 ? ␅
+TD305856 ␆
+TD51 📆 2026-09-08 ? 
