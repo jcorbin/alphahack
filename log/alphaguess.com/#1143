@@ -1,0 +1,116 @@
+T216.75503056199523 now: 2026-09-09T08:37:33EDT
+TD114 site: alphaguess.com
+TD149856 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 3064a0a30c637ee2ec30499776ab5f69ba8162f7
+TD111  ...␅
+TD14982 ␆
+TD49  ...
+TD83 [0 : 98147 : 196518] mac? ␅
+TD500093 ␆
+TD99 [0 : 98147 : 196518] mac? 
+TD98 [0 : 98147 : 196518] mac? ␅
+TD7882237 ␆
+TD125 [0 : 98147 : 196518] mac? 
+TD193 [0 : 98147 : 196518] mac? ␅
+TD1887448 ␆a
+TD85 [0 : 98147 : 196518] mac? a
+TD97 progress: 1 98147 mac
+TD105 [98148 : 147311 : 196518] rho? ␅
+TD1419979 ␆a
+TD68 [98148 : 147311 : 196518] rho? a
+TD45 progress: 1 147311 rho
+TD45 [147312 : 171911 : 196518] tag? ␅
+TD1334369 ␆a
+TD146 [147312 : 171911 : 196518] tag? a
+TD139 progress: 1 171911 tag
+TD161 [171912 : 181996 : 196518] un? ␅
+TD1347986 ␆a
+TD136 [171912 : 181996 : 196518] un? a
+TD170 progress: 1 181996 un
+TD783 [181997 : 189258 : 196518] vicar? ␅
+TD1248728 ␆a
+TD91 [181997 : 189258 : 196518] vicar? a
+TD108 progress: 1 189258 vicar
+TD143 [189259 : 192862 : 196518] whir? ␅
+TD1236594 ␆a
+TD141 [189259 : 192862 : 196518] whir? a
+TD153 progress: 1 192862 whir
+TD154 [192863 : 194686 : 196518] worship? ␅
+TD1232995 ␆b
+TD87 [192863 : 194686 : 196518] worship? b
+TD101 progress: -1 194686 worship
+TD107 [192863 : 193477 : 194686] win? ␅
+TD1230608 ␆a
+TD93 [192863 : 193477 : 194686] win? a
+TD118 progress: 1 193477 win
+TD131 [193478 : 194057 : 194686] wo? ␅
+TD1328270 ␆b
+TD80 [193478 : 194057 : 194686] wo? b
+TD99 progress: -1 194057 wo
+TD292 [193478 : 193732 : 194057] winter? ␅
+TD1297295 ␆b
+TD320 [193478 : 193732 : 194057] winter? b
+TD338 progress: -1 193732 winter
+TD150 [193478 : 193602 : 193732] windsurf? ␅
+TD1282465 ␆a
+TD91 [193478 : 193602 : 193732] windsurf? a
+TD94 progress: 1 193602 windsurf
+TD105 [193603 : 193648 : 193732] wing? ␅
+TD1206266 ␆a
+TD91 [193603 : 193648 : 193732] wing? a
+TD107 progress: 1 193648 wing
+TD279 [193649 : 193690 : 193732] wining? ␅
+TD2442940 ␆a
+TD141 [193649 : 193690 : 193732] wining? a
+TD145 progress: 1 193690 wining
+TD334 [193691 : 193710 : 193732] winning? ␅
+TD1274673 ␆b
+TD74 [193691 : 193710 : 193732] winning? b
+TD89 progress: -1 193710 winning
+TD91 [193691 : 193692 : 193710] wink? ␅
+TD1333624 ␆a
+TD114 [193691 : 193692 : 193710] wink? a
+TD132 progress: 1 193692 wink
+TD190 [193693 : 193698 : 193710] winkle? ␅
+TD1188841 ␆a
+TD106 [193693 : 193698 : 193710] winkle? a
+TD109 progress: 1 193698 winkle
+TD264 [193699 : 193704 : 193710] winks? ␅
+TD1196554 ␆a
+TD86 [193699 : 193704 : 193710] winks? a
+TD99 progress: 1 193704 winks
+TD291 [193705 : 193707 : 193710] winned? ␅
+TD1249750 ␆a
+TD82 [193705 : 193707 : 193710] winned? a
+TD109 progress: 1 193707 winned
+TD221 [193708 : 193709 : 193710] winners? ␅
+TD1314459 ␆b
+TD85 [193708 : 193709 : 193710] winners? b
+TD94 progress: -1 193709 winners
+TD224 [193708 : 193708 : 193709] winner? ␅
+TD2664240 ␆it
+TD94 [193708 : 193708 : 193709] winner? it
+TD110 progress: 0 193708 winner
+TD32 [193708 : 193708 : 193709] <Done>.
+TD113 📋> ␅
+TD2326760 ␆🧩 Puzzle #1143
+TD87 📋> 🧩 Puzzle #1143
+TD14 📋> ␅
+TD44 ␆🤔 20 guesses
+TD8 📋> 🤔 20 guesses
+TD8 📋> ␅
+TD16 ␆⏱️ 25s
+TD8 📋> ⏱️ 25s
+TD7 📋> ␅
+TD165533 ␆🔗 alphaguess.com/1143
+TD92 📋> 🔗 alphaguess.com/1143
+TD15 📋> ␅
+TD106885 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1143\n\ud83e\udd14 20 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1143"}
+TD118 result: "\ud83e\udde9 Puzzle #1143\n\ud83e\udd14 20 guesses\n\u23f1\ufe0f 25s\n\ud83d\udd17 alphaguess.com/1143"
+TD21 result puzzle: 1143
+TD11 result guesses: 20
+TD9 result time: 25s
+TD9 result link: alphaguess.com/1143
+TD102 📆 2026-09-09 ? ␅
+TD147703 ␆
+TD135 📆 2026-09-09 ? 
