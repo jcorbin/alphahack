@@ -1,0 +1,170 @@
+T776.0198301500059 now: 2026-09-09T08:46:52EDT
+TD182 site: https://www.merriam-webster.com/games/quordle/#/
+TD35 wordlist: nwl2023.txt
+TD12 num_words: 4
+TD220  ...␅
+TD6636750 ␆
+TD135  ...
+TD406677 > ␅
+TD6745743 ␆*
+TD124 > *
+TD54364 ? ␅
+TD606229 ␆1
+TD67 ? 1
+TD98 questioning: stoae
+TD105 Classic #1 _____? ␅
+TD2767207 ␆nnnMn
+TD99 Classic #1 _____? nnnMn
+TD506 attempt: 0 STOAE n n n m n
+TD126 Classic #2 _____? ␅
+TD1238950 ␆nnMnM
+TD116 Classic #2 _____? nnMnM
+TD345 attempt: 1 STOAE n n m n m
+TD155 Classic #3 _____? ␅
+TD2676520 ␆YnnMn
+TD103 Classic #3 _____? YnnMn
+TD266 attempt: 2 STOAE Y n n m n
+TD129 Classic #4 _____? ␅
+TD1659363 ␆nMMnn
+TD77 Classic #4 _____? nMMnn
+TD202 attempt: 3 STOAE n m m n n
+TD455159 > ␅
+TD2656393 ␆*
+TD112 > *
+TD7831 ? ␅
+TD624913 ␆1
+TD109 ? 1
+TD214 questioning: amnic
+TD189 Classic #1 _____ ~A -EOST? ␅
+TD2918873 ␆Mnnnn
+TD74 Classic #1 _____ ~A -EOST? Mnnnn
+TD231 attempt: 0 AMNIC m n n n n
+TD109 Classic #2 _____ ~EO -AST? ␅
+TD1146485 ␆nnYnn
+TD87 Classic #2 _____ ~EO -AST? nnYnn
+TD233 attempt: 1 AMNIC n n Y n n
+TD128 Classic #3 S____ ~A -EOT? ␅
+TD1625769 ␆MYnnM
+TD101 Classic #3 S____ ~A -EOT? MYnnM
+TD225 attempt: 2 AMNIC m Y n n m
+TD116 Classic #4 _____ ~OT -AES? ␅
+TD1267059 ␆nMnYn
+TD94 Classic #4 _____ ~OT -AES? nMnYn
+TD270 attempt: 3 AMNIC n m n Y n
+TD420393 > ␅
+TD640373 ␆*
+TD168 > *
+TD411 questioning: smack
+TD172 Classic #1 _____ ~A -CEIMNOST? ␅
+TD2720892 ␆nnMnn
+TD113 Classic #1 _____ ~A -CEIMNOST? nnMnn
+TD354 attempt: 0 SMACK n n m n n
+TD168 Classic #2 __N__ ~EO -ACIMST? ␅
+TD963945 ␆nnnnn
+TD93 Classic #2 __N__ ~EO -ACIMST? nnnnn
+TD232 attempt: 1 SMACK n n n n n
+TD123 Classic #3 SM___ ~AC -EINOT? ␅
+TD1237654 ␆YYYYY
+TD100 Classic #3 SM___ ~AC -EINOT? YYYYY
+TD254 attempt: 2 SMACK Y Y Y Y Y
+TD143 Classic #4 ___I_ ~MOT -ACENS? ␅
+TD1116630 ␆nMnnn
+TD110 Classic #4 ___I_ ~MOT -ACENS? nMnnn
+TD291 attempt: 3 SMACK n m n n n
+TD322904 > ␅
+TD842695 ␆*
+TD100 > *
+TD618 ? ␅
+TD1048223 ␆1
+TD44 ? 1
+TD73 questioning: motif
+TD92 Classic #1 _____ ~A -CEIKMNOST? ␅
+TD4049503 ␆nnnnn
+TD134 Classic #1 _____ ~A -CEIKMNOST? nnnnn
+TD345 attempt: 0 MOTIF n n n n n
+TD194 Classic #2 __N__ ~EO -ACIKMST? ␅
+TD1223965 ␆nYnnn
+TD98 Classic #2 __N__ ~EO -ACIKMST? nYnnn
+TD295 attempt: 1 MOTIF n Y n n n
+TD141 Classic #4 ___I_ ~MOT -ACEKNS? ␅
+TD1594776 ␆YYYY
+TD90 Classic #4 ___I_ ~MOT -ACEKNS? YYYY
+TD251 Classic #4 ___I_ ~MOT -ACEKNS? ␅
+TD1608263 ␆YYYYY
+TD110 Classic #4 ___I_ ~MOT -ACEKNS? YYYYY
+TD246 attempt: 3 MOTIF Y Y Y Y Y
+TD196572 > ␅
+TD727093 ␆*
+TD109 > *
+TD1875 ? ␅
+TD858364 ␆1
+TD89 ? 1
+TD85 questioning: baldy
+TD98 Classic #1 _____ ~A -CEFIKMNOST? ␅
+TD3640133 ␆nYnnY
+TD104 Classic #1 _____ ~A -CEFIKMNOST? nYnnY
+TD285 attempt: 0 BALDY n Y n n Y
+TD157 Classic #2 _ON__ ~E -ACFIKMST? ␅
+TD1576699 ␆nnnnn
+TD62 Classic #2 _ON__ ~E -ACFIKMST? nnnnn
+TD151 attempt: 1 BALDY n n n n n
+TD189957 > ␅
+TD736147 ␆*
+TD98 > *
+TD570 ? ␅
+TD12812484 ␄
+TD60 <EOF>
+TD200492 > ␅
+TD1596152 ␆tried ghazi
+TD98 > tried ghazi
+TD413 questioning: GHAZI
+TD225 Classic #1 _A__Y -BCDEFIKLMNOST? ␅
+TD4045265 ␆nMMnn
+TD48 Classic #1 _A__Y -BCDEFIKLMNOST? nMMnn
+TD133 attempt: 0 GHAZI n m m n n
+TD67 Classic #2 _ON__ ~E -ABCDFIKLMSTY? ␅
+TD1266811 ␆Ynnnn
+TD115 Classic #2 _ON__ ~E -ABCDFIKLMSTY? Ynnnn
+TD248 attempt: 1 GHAZI Y n n n n
+TD197555 > ␅
+TD733313 ␆*
+TD76 > *
+TD308 questioning: goner
+TD121 Classic #1 _A__Y ~H -BCDEFGIKLMNOSTZ? ␅
+TD2768672 ␆nnnnn
+TD76 Classic #1 _A__Y ~H -BCDEFGIKLMNOSTZ? nnnnn
+TD199 attempt: 0 GONER n n n n n
+TD113 Classic #2 GON__ ~E -ABCDFHIKLMSTYZ? ␅
+TD966938 ␆YYYYY
+TD97 Classic #2 GON__ ~E -ABCDFHIKLMSTYZ? YYYYY
+TD292 attempt: 1 GONER Y Y Y Y Y
+TD104343 > ␅
+TD305100 ␆*
+TD127 > *
+TD637 questioning: happy
+TD295 Classic #1 _A__Y ~H -BCDEFGIKLMNORSTZ? ␅
+TD3882402 ␆YYYYY
+TD132 Classic #1 _A__Y ~H -BCDEFGIKLMNORSTZ? YYYYY
+TD312 attempt: 0 HAPPY Y Y Y Y Y
+TD160 📋> ␅
+TD3912793 ␆🙂 Daily Quordle 1689
+TD114 📋> 🙂 Daily Quordle 1689
+TD33 📋> ␅
+TD81 ␆8️⃣7️⃣
+TD29 📋> 8️⃣7️⃣
+TD24 📋> ␅
+TD83 ␆3️⃣4️⃣
+TD51 📋> 3️⃣4️⃣
+TD23 📋> ␅
+TD45 ␆m-w.com/games/quordle/
+TD24 📋> m-w.com/games/quordle/
+TD22 📋> ␅
+TD242079 ␆
+TD214 📋> 
+TD40 📋> ␅
+TD153394 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1689\n8\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2606 result: "\ud83d\ude42 Daily Quordle 1689\n8\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD126 📆 2026-09-09 ? ␅
+TD187867 ␆
+TD72 📆 2026-09-09 ? 
