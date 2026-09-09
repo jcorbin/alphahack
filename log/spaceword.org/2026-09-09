@@ -1,0 +1,37 @@
+T6967.5358673599985 now: 2026-09-09T10:30:04EDT
+TD160 site: spaceword.org
+TD39 wordlist: nwl2023.txt
+TD56  ...␅
+TD463405 ␆
+TD135  ...
+TD92 🧩  ? ␅
+TD4067827 ␆daily 2026-09-09
+TD93 🧩  ? daily 2026-09-09
+TD7433 puzzle_id: 2026-09-09
+TD42 num letters (default: 21) ? ␅
+TD350207 ␆
+TD61 num letters (default: 21) ? 
+TD26 num_letters: 21
+TD81 letters? ␅
+TD5790358 ␆aeeeeeg
+TD101 letters? aeeeeeg
+TD177 letters: |AEEEEEG|
+TD169 letters? ␅
+TD2258912 ␆iijklmn
+TD197 letters? iijklmn
+TD249 letters: |AEEEEEGIIJKLMN|
+TD206 letters? ␅
+TD2126834 ␆orrsuyz
+TD96 letters? orrsuyz
+TD164 letters: |AEEEEEGIIJKLMNORRSUYZ|
+TD152 letters. ␅
+TD294769 ␆
+TD70 letters. 
+TD57628 [doit:100]> ␅
+TD2139343 ␆/sea -cap 512
+TD127 [doit:100]> /sea -cap 512
+TD76716836 search bf6865 [ 512 cap:512 may:48048 prune:26 ]> ␅
+TD1689924 ␄
+TD27701 [doit:100]> ␅
+TD1743625 ␆/store
+TD96 [doit:100]> /store
