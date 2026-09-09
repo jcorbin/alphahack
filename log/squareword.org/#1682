@@ -1,0 +1,246 @@
+T1190.259447731005 now: 2026-09-09T08:53:47EDT
+TD137 site: squareword.org
+TD35 wordlist: nwl2023.txt
+TD51  ...␅
+TD441521 ␆
+TD96  ...
+TD97 🧩  ? ␅
+TD12548015 ␆#1682
+TD133 🧩  ? #1682
+TD355 puzzle_id: #1682
+TD441 > ␅
+TD2243190 ␆*
+TD113 > *
+TD250939 try? ␅
+TD539637 ␆1
+TD118 try? 1
+TD437 questioning: ["arise", "#5"]
+TD462 #1 <IndexError>  📋 "arise" ? ␅
+TD3212759 ␆___S_ ~ S
+TD107 #1 <IndexError>  📋 "arise" ? ___S_ ~ S
+TD1014 attempt 0 ARISE n n n Y n
+TD145 #2 <IndexError>  📋 "arise" ? ␅
+TD2742995 ␆_____ ~ I
+TD166 #2 <IndexError>  📋 "arise" ? _____ ~ I
+TD557 attempt 1 ARISE n n m n n
+TD204 #3 <IndexError>  📋 "arise" ? ␅
+TD2675137 ␆A_I__ ~ A
+TD94 #3 <IndexError>  📋 "arise" ? A_I__ ~ A
+TD248 attempt 2 ARISE Y n Y n n
+TD116 #4 <IndexError>  📋 "arise" ? ␅
+TD2022196 ␆____E ~ E
+TD95 #4 <IndexError>  📋 "arise" ? ____E ~ E
+TD292 attempt 3 ARISE n n n n Y
+TD128 #5 <IndexError>  📋 "arise" ? ␅
+TD1773811 ␆_R___ ~ E
+TD89 #5 <IndexError>  📋 "arise" ? _R___ ~ E
+TD163 attempt 4 ARISE n Y n n m
+TD220 ? ␅
+TD320029 ␆
+TD129 ? 
+TD197 question done
+TD536 > ␅
+TD1192962 ␆* 2
+TD117 > * 2
+TD563217 try? ␅
+TD535350 ␆1
+TD120 try? 1
+TD350 questioning: ["tonic", "#2"]
+TD576 #1 ___S_ -AEIR  📋 "tonic" ? ␅
+TD4876819 ␆___S_ ~ SO
+TD88 #1 ___S_ -AEIR  📋 "tonic" ? ___S_ ~ SO
+TD156 attempt 0 TONIC n m n n n
+TD85 #2 _____ ~I -AERS  📋 "tonic" ? ␅
+TD2290989 ␆_____ ~ IO
+TD151 #2 _____ ~I -AERS  📋 "tonic" ? _____ ~ IO
+TD427 attempt 1 TONIC n m n m n
+TD237 #3 A_I__ -ERS  📋 "tonic" ? ␅
+TD3000715 ␆A_I__ ~ AN
+TD186 #3 A_I__ -ERS  📋 "tonic" ? A_I__ ~ AN
+TD605 attempt 2 TONIC n n m n n
+TD289 #4 ____E -AIRS  📋 "tonic" ? ␅
+TD4798841 ␆__N_E ~ EC
+TD179 #4 ____E -AIRS  📋 "tonic" ? __N_E ~ EC
+TD606 attempt 3 TONIC n n Y n m
+TD318 #5 _R___ ~E -AIS  📋 "tonic" ? ␅
+TD2829967 ␆TR___ ~ E
+TD101 #5 _R___ ~E -AIS  📋 "tonic" ? TR___ ~ E
+TD317 attempt 4 TONIC Y n n n n
+TD432 ? ␅
+TD291667 ␆
+TD125 ? 
+TD170 question done
+TD401 > ␅
+TD927894 ␆*
+TD110 > *
+TD650902 try? ␅
+TD3397799 ␄
+TD162 <EOF>
+TD619 > ␅
+TD1199399 ␆* 2
+TD92 > * 2
+TD3015 try? ␅
+TD2040619 ␆1
+TD57 try? 1
+TD158 questioning: ["bipod", "#2"]
+TD254 #1 ___S_ ~O -ACEINRT  📋 "bipod" ? ␅
+TD6880135 ␆___S_ ~ SO
+TD159 #1 ___S_ ~O -ACEINRT  📋 "bipod" ? ___S_ ~ SO
+TD391 attempt 0 BIPOD n n n m n
+TD236 #2 _____ ~IO -ACENRST  📋 "bipod" ? ␅
+TD2993823 ␆_IP__ ~ OP
+TD114 #2 _____ ~IO -ACENRST  📋 "bipod" ? _IP__ ~ OP
+TD579 attempt 1 BIPOD n Y Y m n
+TD259 #3 A_I__ ~N -CEIORST  📋 "bipod" ? ␅
+TD3442814 ␆A_I__ ~ AN
+TD81 #3 A_I__ ~N -CEIORST  📋 "bipod" ? A_I__ ~ AN
+TD224 attempt 2 BIPOD n n n n n
+TD135 #4 __N_E ~C -AIORST  📋 "bipod" ? ␅
+TD5531670 ␆__N_E ~ EC
+TD104 #4 __N_E ~C -AIORST  📋 "bipod" ? __N_E ~ EC
+TD322 attempt 3 BIPOD n n n n n
+TD185 #5 TR___ ~E -ACINOS  📋 "bipod" ? ␅
+TD2324597 ␆TR__D ~ E
+TD114 #5 TR___ ~E -ACINOS  📋 "bipod" ? TR__D ~ E
+TD360 attempt 4 BIPOD n n n n Y
+TD556 ? ␅
+TD291798 ␆
+TD106 ? 
+TD147 question done
+TD465 > ␅
+TD419460 ␆*
+TD94 > *
+TD750011 questioning: ["hippo", "#2"]
+TD159 #1 ___S_ ~O -ABCDEINPRT  📋 "hippo" ? ␅
+TD4385650 ␆___S_ ~ SOH
+TD68 #1 ___S_ ~O -ABCDEINPRT  📋 "hippo" ? ___S_ ~ SOH
+TD226 attempt 0 HIPPO m n n n m
+TD126 #2 _IP__ ~O -ABCDENRST  📋 "hippo" ? ␅
+TD727393 ␆/it
+TD98 #2 _IP__ ~O -ABCDENRST  📋 "hippo" ? /it
+TD288 attempt 1 HIPPO Y Y Y Y Y
+TD150 #3 A_I__ ~N -BCDEIOPRST  📋 "hippo" ? ␅
+TD3730448 ␆A_I__ ~ AN
+TD94 #3 A_I__ ~N -BCDEIOPRST  📋 "hippo" ? A_I__ ~ AN
+TD254 attempt 2 HIPPO n n n n n
+TD197 #4 __N_E ~C -ABDIOPRST  📋 "hippo" ? ␅
+TD4535412 ␆__N_E ~ EC
+TD93 #4 __N_E ~C -ABDIOPRST  📋 "hippo" ? __N_E ~ EC
+TD260 attempt 3 HIPPO n n n n n
+TD199 #5 TR__D ~E -ABCINOPS  📋 "hippo" ? ␅
+TD2109156 ␆.
+TD100 #5 TR__D ~E -ABCINOPS  📋 "hippo" ? .
+TD283 attempt 4 HIPPO n n n n n
+TD440 ? ␅
+TD216480 ␆
+TD140 ? 
+TD178 question done
+TD683 > ␅
+TD468571 ␆*
+TD45 > *
+TD1506213 questioning: ["avian", "#3"]
+TD163 #1 ___S_ ~HO -ABCDEINPRT  📋 "avian" ? ␅
+TD6047723 ␆___S_ ~ SOH
+TD104 #1 ___S_ ~HO -ABCDEINPRT  📋 "avian" ? ___S_ ~ SOH
+TD281 attempt 0 AVIAN n n n n n
+TD197 #3 A_I__ ~N -BCDEHIOPRST  📋 "avian" ? ␅
+TD1270704 ␆/it
+TD134 #3 A_I__ ~N -BCDEHIOPRST  📋 "avian" ? /it
+TD397 attempt 2 AVIAN Y Y Y Y Y
+TD150 #4 __N_E ~C -ABDHIOPRST  📋 "avian" ? ␅
+TD2782992 ␆__N_E ~ EC
+TD132 #4 __N_E ~C -ABDHIOPRST  📋 "avian" ? __N_E ~ EC
+TD278 attempt 3 AVIAN n n n n n
+TD175 #5 TR__D ~E -ABCHINOPS  📋 "avian" ? ␅
+TD2316125 ␆.
+TD123 #5 TR__D ~E -ABCHINOPS  📋 "avian" ? .
+TD296 attempt 4 AVIAN n n n n n
+TD384 ? ␅
+TD146653 ␆
+TD102 ? 
+TD119 question done
+TD426 > ␅
+TD372057 ␆*
+TD108 > *
+TD2138595 questioning: ["slosh", "#1"]
+TD232 #1 ___S_ ~HO -ABCDEINPRTV  📋 "slosh" ? ␅
+TD2943384 ␆/it
+TD110 #1 ___S_ ~HO -ABCDEINPRTV  📋 "slosh" ? /it
+TD326 attempt 0 SLOSH Y Y Y Y Y
+TD179 #4 __N_E ~C -ABDHINOPRSTV  📋 "slosh" ? ␅
+TD3882548 ␆__N_E ~ EC
+TD140 #4 __N_E ~C -ABDHINOPRSTV  📋 "slosh" ? __N_E ~ EC
+TD867 attempt 3 SLOSH n n n n n
+TD215 #5 TR__D ~E -ABCHINOPSV  📋 "slosh" ? ␅
+TD1379823 ␆.
+TD146 #5 TR__D ~E -ABCHINOPSV  📋 "slosh" ? .
+TD506 attempt 4 SLOSH n n n n n
+TD624 ? ␅
+TD131036 ␆
+TD172 ? 
+TD160 question done
+TD474 > ␅
+TD393181 ␆*
+TD199 > *
+TD1653441 questioning: ["fence", "#4"]
+TD185 #4 __N_E ~C -ABDHILNOPRSTV  📋 "fence" ? ␅
+TD2515958 ␆/it
+TD81 #4 __N_E ~C -ABDHILNOPRSTV  📋 "fence" ? /it
+TD234 attempt 3 FENCE Y Y Y Y Y
+TD98 #5 TR__D ~E -ABCHILNOPSV  📋 "fence" ? ␅
+TD903350 ␆.
+TD96 #5 TR__D ~E -ABCHILNOPSV  📋 "fence" ? .
+TD266 attempt 4 FENCE n m n n m
+TD396 ? ␅
+TD131877 ␆
+TD85 ? 
+TD104 question done
+TD368 > ␅
+TD365473 ␆*
+TD81 > *
+TD1060022 questioning: ["treed", "#5"]
+TD187 #5 TR__D ~E -ABCFHILNOPSV  📋 "treed" ? ␅
+TD4335955 ␆/it
+TD93 #5 TR__D ~E -ABCFHILNOPSV  📋 "treed" ? /it
+TD238 attempt 4 TREED Y Y Y Y Y
+TD378 ? ␅
+TD335661 ␆
+TD48 ? 
+TD46 question done
+TD30780 📋> ␅
+TD4713242 ␆squareword.org 1682: 8 guesses
+TD102 📋> squareword.org 1682: 8 guesses
+TD39 📋> ␅
+TD112 ␆
+TD11 📋> 
+TD9 📋> ␅
+TD38 ␆🟨🟨🟨🟩🟨
+TD10 📋> 🟨🟨🟨🟩🟨
+TD8 📋> ␅
+TD36 ␆🟩🟩🟩🟩🟩
+TD13 📋> 🟩🟩🟩🟩🟩
+TD13 📋> ␅
+TD34 ␆🟩🟩🟩🟩🟩
+TD13 📋> 🟩🟩🟩🟩🟩
+TD8 📋> ␅
+TD32 ␆🟨🟨🟩🟨🟩
+TD13 📋> 🟨🟨🟩🟨🟩
+TD8 📋> ␅
+TD34 ␆🟩🟩🟨🟨🟩
+TD9 📋> 🟩🟩🟨🟨🟩
+TD8 📋> ␅
+TD33 ␆
+TD14 📋> 
+TD8 📋> ␅
+TD40 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD9 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> ␅
+TD213875 ␆#squareword #squareword1682
+TD64 📋> #squareword #squareword1682
+TD7 📋> ␅
+TD128912 ␄
+TD87 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1682: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1682"}
+TD572 result: "squareword.org 1682: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1682"
+TD59 📆 2026-09-09 ? ␅
+TD159214 ␆
+TD55 📆 2026-09-09 ? 
