@@ -1,0 +1,156 @@
+T420.79209956699924 now: 2026-09-10T08:11:58EDT
+TD91 site: https://www.merriam-webster.com/games/quordle/#/
+TD18 wordlist: nwl2023.txt
+TD6 num_words: 4
+TD110  ...␅
+TD185982 ␆
+TD124  ...
+TD471731 > ␅
+TD22243002 ␆*
+TD50 > *
+TD44855 ? ␅
+TD835484 ␆1
+TD106 ? 1
+TD260 questioning: tares
+TD236 Classic #1 _____? ␅
+TD3015971 ␆MMnMn
+TD129 Classic #1 _____? MMnMn
+TD735 attempt: 0 TARES m m n m n
+TD185 Classic #2 _____? ␅
+TD1700082 ␆nnnMn
+TD115 Classic #2 _____? nnnMn
+TD351 attempt: 1 TARES n n n m n
+TD192 Classic #3 _____? ␅
+TD1352579 ␆YMnnn
+TD101 Classic #3 _____? YMnnn
+TD261 attempt: 2 TARES Y m n n n
+TD127 Classic #4 _____? ␅
+TD1512624 ␆nnMYn
+TD124 Classic #4 _____? nnMYn
+TD360 attempt: 3 TARES n n m Y n
+TD466287 > ␅
+TD818953 ␆*
+TD132 > *
+TD6536 ? ␅
+TD1018488 ␆1
+TD143 ? 1
+TD308 questioning: olive
+TD273 Classic #1 _____ ~AET -RS? ␅
+TD2671296 ␆nnnnM
+TD120 Classic #1 _____ ~AET -RS? nnnnM
+TD326 attempt: 0 OLIVE n n n n m
+TD141 Classic #2 _____ ~E -ARST? ␅
+TD2183586 ␆nMYnY
+TD114 Classic #2 _____ ~E -ARST? nMYnY
+TD327 attempt: 1 OLIVE n m Y n Y
+TD175 Classic #3 T____ ~A -ERS? ␅
+TD1735973 ␆nnMnn
+TD86 Classic #3 T____ ~A -ERS? nnMnn
+TD232 attempt: 2 OLIVE n n m n n
+TD121 Classic #4 ___E_ ~R -AST? ␅
+TD1110436 ␆nnnnY
+TD52 Classic #4 ___E_ ~R -AST? nnnnY
+TD139 attempt: 3 OLIVE n n n n Y
+TD427413 > ␅
+TD609360 ␆*
+TD68 > *
+TD298 questioning: rupee
+TD115 Classic #1 _____ ~AET -ILORSV? ␅
+TD2839681 ␆nnnMn
+TD47 Classic #1 _____ ~AET -ILORSV? nnnMn
+TD113 attempt: 0 RUPEE n n n m n
+TD60 Classic #2 __I_E ~L -AORSTV? ␅
+TD1709631 ␆nnnMY
+TD111 Classic #2 __I_E ~L -AORSTV? nnnMY
+TD335 attempt: 1 RUPEE n n n m Y
+TD189 Classic #3 T____ ~AI -ELORSV? ␅
+TD1142494 ␆nnnnn
+TD108 Classic #3 T____ ~AI -ELORSV? nnnnn
+TD281 attempt: 2 RUPEE n n n n n
+TD195 Classic #4 ___EE ~R -AILOSTV? ␅
+TD1089271 ␆YYYYY
+TD96 Classic #4 ___EE ~R -AILOSTV? YYYYY
+TD236 attempt: 3 RUPEE Y Y Y Y Y
+TD332526 > ␅
+TD734503 ␆*
+TD95 > *
+TD1162 ? ␅
+TD1151704 ␆1
+TD94 ? 1
+TD182 questioning: neath
+TD213 Classic #1 _____ ~AET -ILOPRSUV E:1? ␅
+TD3265701 ␆MMMMn
+TD78 Classic #1 _____ ~AET -ILOPRSUV E:1? MMMMn
+TD233 attempt: 0 NEATH m m m m n
+TD127 Classic #2 __I_E ~L -AOPRSTUV? ␅
+TD1406333 ␆nMnnn
+TD120 Classic #2 __I_E ~L -AOPRSTUV? nMnnn
+TD359 attempt: 1 NEATH n m n n n
+TD165 Classic #3 T____ ~AI -ELOPRSUV? ␅
+TD1871172 ␆MnMMn
+TD109 Classic #3 T____ ~AI -ELOPRSUV? MnMMn
+TD348 attempt: 2 NEATH m n m m n
+TD324652 > ␅
+TD691679 ␆*
+TD86 > *
+TD420 questioning: titan
+TD194 Classic #1 _____ ~AENT -HILOPRSUV E:1? ␅
+TD3314018 ␆MnnMM
+TD177 Classic #1 _____ ~AENT -HILOPRSUV E:1? MnnMM
+TD349 attempt: 0 TITAN m n n m m
+TD207 Classic #2 __I_E ~L -AHNOPRSTUV? ␅
+TD1201334 ␆nMnnn
+TD92 Classic #2 __I_E ~L -AHNOPRSTUV? nMnnn
+TD215 attempt: 1 TITAN n m n n n
+TD142 Classic #3 T____ ~AIN -EHLOPRSUV? ␅
+TD1117636 ␆YYYYY
+TD109 Classic #3 T____ ~AIN -EHLOPRSUV? YYYYY
+TD285 attempt: 2 TITAN Y Y Y Y Y
+TD205030 > ␅
+TD862042 ␆*
+TD116 > *
+TD824 ? ␅
+TD2399040 ␆2
+TD129 ? 2
+TD245 questioning: exile
+TD320 Classic #1 _____ ~AENT -HILOPRSUV E:1 T:1? ␅
+TD2850344 ␆Mnnnn
+TD107 Classic #1 _____ ~AENT -HILOPRSUV E:1 T:1? Mnnnn
+TD254 attempt: 0 EXILE m n n n n
+TD167 Classic #2 __I_E ~L -AHNOPRSTUV? ␅
+TD1175708 ␆YYYYY
+TD146 Classic #2 __I_E ~L -AHNOPRSTUV? YYYYY
+TD412 attempt: 1 EXILE Y Y Y Y Y
+TD110961 > ␅
+TD689465 ␆*
+TD85 > *
+TD881 ? ␅
+TD1494313 ␆1
+TD105 ? 1
+TD194 questioning: agent
+TD241 Classic #1 _____ ~AENT -HILOPRSUVX E:1 T:1? ␅
+TD4112302 ␆YYYYY
+TD46 Classic #1 _____ ~AENT -HILOPRSUVX E:1 T:1? YYYYY
+TD114 attempt: 0 AGENT Y Y Y Y Y
+TD45 📋> ␅
+TD3154354 ␆🙂 Daily Quordle 1690
+TD97 📋> 🙂 Daily Quordle 1690
+TD18 📋> ␅
+TD63 ␆7️⃣6️⃣
+TD12 📋> 7️⃣6️⃣
+TD9 📋> ␅
+TD20 ␆5️⃣3️⃣
+TD9 📋> 5️⃣3️⃣
+TD8 📋> ␅
+TD19 ␆m-w.com/games/quordle/
+TD8 📋> m-w.com/games/quordle/
+TD8 📋> ␅
+TD199760 ␆
+TD46 📋> 
+TD6 📋> ␅
+TD154874 ␄
+TD240 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1690\n7\ufe0f\u20e36\ufe0f\u20e3\n5\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD3249 result: "\ud83d\ude42 Daily Quordle 1690\n7\ufe0f\u20e36\ufe0f\u20e3\n5\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD595 📆 2026-09-10 ? ␅
+TD194740 ␆
+TD149 📆 2026-09-10 ? 
