@@ -1,0 +1,91 @@
+T112.04498430300737 now: 2026-09-10T08:06:49EDT
+TD168 site: alphaguess.com
+TD154922 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof d540c2cb937e43233434f2d66e2a7c784165f975
+TD87  ...␅
+TD157632 ␆
+TD192  ...
+TD308 [0 : 98147 : 196518] mac? ␅
+TD4396895 ␆
+TD134 [0 : 98147 : 196518] mac? 
+TD179 [0 : 98147 : 196518] mac? ␅
+TD1477388 ␆a
+TD80 [0 : 98147 : 196518] mac? a
+TD93 progress: 1 98147 mac
+TD95 [98148 : 147311 : 196518] rho? ␅
+TD1364488 ␆b
+TD92 [98148 : 147311 : 196518] rho? b
+TD132 progress: -1 147311 rho
+TD122 [98148 : 122724 : 147311] parol? ␅
+TD1318022 ␆
+TD49 [98148 : 122724 : 147311] parol? 
+TD45 [98148 : 122724 : 147311] parol? ␅
+TD721677 ␆A
+TD194 [98148 : 122724 : 147311] parol? A
+TD389 [98148 : 122724 : 147311] parol? ␅
+TD3395113 ␆a
+TD169 [98148 : 122724 : 147311] parol? a
+TD218 progress: 1 122724 parol
+TD267 [122725 : 135004 : 147311] prop? ␅
+TD1555797 ␆a
+TD373 [122725 : 135004 : 147311] prop? a
+TD196 progress: 1 135004 prop
+TD185 [135005 : 141017 : 147311] recon? ␅
+TD1362155 ␆b
+TD121 [135005 : 141017 : 147311] recon? b
+TD130 progress: -1 141017 recon
+TD555 [135005 : 138010 : 141017] quetzal? ␅
+TD1386090 ␆b
+TD172 [135005 : 138010 : 141017] quetzal? b
+TD165 progress: -1 138010 quetzal
+TD166 [135005 : 136423 : 138010] pul? ␅
+TD1448372 ␆a
+TD106 [135005 : 136423 : 138010] pul? a
+TD145 progress: 1 136423 pul
+TD464 [136424 : 137217 : 138010] pyjamas? ␅
+TD2630769 ␆b
+TD45 [136424 : 137217 : 138010] pyjamas? b
+TD61 progress: -1 137217 pyjamas
+TD49 [136424 : 136807 : 137217] pur? ␅
+TD1592799 ␆a
+TD118 [136424 : 136807 : 137217] pur? a
+TD141 progress: 1 136807 pur
+TD149 [136808 : 137009 : 137217] push? ␅
+TD1550452 ␆b
+TD144 [136808 : 137009 : 137217] push? b
+TD167 progress: -1 137009 push
+TD177 [136808 : 136894 : 137009] purl? ␅
+TD1581532 ␆b
+TD157 [136808 : 136894 : 137009] purl? b
+TD143 progress: -1 136894 purl
+TD681 [136808 : 136851 : 136894] purgatorial? ␅
+TD1406269 ␆b
+TD138 [136808 : 136851 : 136894] purgatorial? b
+TD162 progress: -1 136851 purgatorial
+TD168 [136808 : 136826 : 136851] pure? ␅
+TD2453695 ␆it
+TD94 [136808 : 136826 : 136851] pure? it
+TD111 progress: 0 136826 pure
+TD33 [136808 : 136826 : 136851] <Done>.
+TD101 📋> ␅
+TD2809222 ␆🧩 Puzzle #1144
+TD118 📋> 🧩 Puzzle #1144
+TD21 📋> ␅
+TD64 ␆🤔 13 guesses
+TD12 📋> 🤔 13 guesses
+TD9 📋> ␅
+TD25 ␆⏱️ 22s
+TD11 📋> ⏱️ 22s
+TD9 📋> ␅
+TD208151 ␆🔗 alphaguess.com/1144
+TD87 📋> 🔗 alphaguess.com/1144
+TD15 📋> ␅
+TD132919 ␄
+TD204 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1144\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1144"}
+TD135 result: "\ud83e\udde9 Puzzle #1144\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1144"
+TD22 result puzzle: 1144
+TD12 result guesses: 13
+TD10 result time: 22s
+TD9 result link: alphaguess.com/1144
+TD121 📆 2026-09-10 ? ␅
+TD158882 ␆
+TD78 📆 2026-09-10 ? 
