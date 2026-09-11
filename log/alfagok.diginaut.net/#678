@@ -1,0 +1,81 @@
+T22.566039118000845 now: 2026-09-11T09:37:46EDT
+TD218 site: alfagok.diginaut.net
+TD418567 loaded 399472 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1380 words excluded) asof 1e42ef0771d75fd0bfef97c326738bc67cb58580
+TD122  ...␅
+TD51111 ␆
+TD146  ...
+TD361 [0 : 199640 : 399472] lijk? ␅
+TD4977756 ␆
+TD85 [0 : 199640 : 399472] lijk? 
+TD144 [0 : 199640 : 399472] lijk? ␅
+TD3606198 ␆a
+TD131 [0 : 199640 : 399472] lijk? a
+TD481 progress: 1 199640 lijk
+TD175 [199641 : 299544 : 399472] schroot? ␅
+TD2728851 ␆a
+TD102 [199641 : 299544 : 399472] schroot? a
+TD141 progress: 1 299544 schroot
+TD193 [299545 : 349329 : 399472] vakantie? ␅
+TD1443937 ␆a
+TD129 [299545 : 349329 : 399472] vakantie? a
+TD138 progress: 1 349329 vakantie
+TD161 [349330 : 374067 : 399472] vrij? ␅
+TD1704912 ␆b
+TD51 [349330 : 374067 : 399472] vrij? b
+TD61 progress: -1 374067 vrij
+TD82 [349330 : 352896 : 374067] ver? ␅
+TD6472233 ␆a
+TD112 [349330 : 352896 : 374067] ver? a
+TD177 progress: 1 352896 ver
+TD556 [352897 : 363482 : 374067] verzout? ␅
+TD1715628 ␆a
+TD104 [352897 : 363482 : 374067] verzout? a
+TD132 progress: 1 363482 verzout
+TD143 [363483 : 368489 : 374067] voetbal? ␅
+TD1543434 ␆a
+TD258 [363483 : 368489 : 374067] voetbal? a
+TD157 progress: 1 368489 voetbal
+TD157 [368490 : 370338 : 374067] voor? ␅
+TD3291905 ␆b
+TD127 [368490 : 370338 : 374067] voor? b
+TD154 progress: -1 370338 voor
+TD145 [368490 : 369198 : 370338] vol? ␅
+TD1619901 ␆b
+TD71 [368490 : 369198 : 370338] vol? b
+TD98 progress: -1 369198 vol
+TD123 [368490 : 368842 : 369198] voeten? ␅
+TD1459067 ␆a
+TD108 [368490 : 368842 : 369198] voeten? a
+TD112 progress: 1 368842 voeten
+TD204 [368843 : 369017 : 369198] voetzool? ␅
+TD1391261 ␆a
+TD109 [368843 : 369017 : 369198] voetzool? a
+TD110 progress: 1 369017 voetzool
+TD130 [369018 : 369021 : 369198] vogel? ␅
+TD1650794 ␆it
+TD150 [369018 : 369021 : 369198] vogel? it
+TD181 progress: 0 369021 vogel
+TD58 [369018 : 369021 : 369198] <Done>.
+TD205 📋> ␅
+TD2298511 ␆🧩 Puzzel #678
+TD90 📋> 🧩 Puzzel #678
+TD20 📋> ␅
+TD57 ␆🤔 12 gokken
+TD10 📋> 🤔 12 gokken
+TD8 📋> ␅
+TD22 ␆⏱️ 25s
+TD9 📋> ⏱️ 25s
+TD8 📋> ␅
+TD235439 ␆🔗 alfagok.diginaut.net
+TD98 📋> 🔗 alfagok.diginaut.net
+TD17 📋> ␅
+TD178881 ␄
+TD207 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #678\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD803 result: "\ud83e\udde9 Puzzel #678\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 25s\n\ud83d\udd17 alfagok.diginaut.net"
+TD24 result puzzle: 678
+TD11 result guesses: 12
+TD8 result time: 25s
+TD8 result link: alfagok.diginaut.net
+TD91 📆 2026-09-11 ? ␅
+TD465093 ␆
+TD108 📆 2026-09-11 ? 
