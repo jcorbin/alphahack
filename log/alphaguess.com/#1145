@@ -1,0 +1,98 @@
+T67.29336063600022 now: 2026-09-11T09:38:31EDT
+TD170 site: alphaguess.com
+TD166844 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 1e42ef0771d75fd0bfef97c326738bc67cb58580
+TD90  ...␅
+TD35179 ␆
+TD97  ...
+TD213 [0 : 98147 : 196518] mac? ␅
+TD6017413 ␆b
+TD118 [0 : 98147 : 196518] mac? b
+TD130 progress: -1 98147 mac
+TD175 [0 : 47378 : 98147] dis? ␅
+TD1461790 ␆b
+TD100 [0 : 47378 : 98147] dis? b
+TD138 progress: -1 47378 dis
+TD134 [0 : 23680 : 47378] camp? ␅
+TD1293376 ␆a
+TD59 [0 : 23680 : 47378] camp? a
+TD64 progress: 1 23680 camp
+TD69 [23681 : 35522 : 47378] convention? ␅
+TD1375203 ␆a
+TD104 [23681 : 35522 : 47378] convention? a
+TD101 progress: 1 35522 convention
+TD115 [35523 : 40838 : 47378] da? ␅
+TD1344379 ␆a
+TD84 [35523 : 40838 : 47378] da? a
+TD97 progress: 1 40838 da
+TD119 [40839 : 44070 : 47378] den? ␅
+TD1556380 ␆b
+TD78 [40839 : 44070 : 47378] den? b
+TD91 progress: -1 44070 den
+TD119 [40839 : 42373 : 44070] deco? ␅
+TD1621412 ␆b
+TD91 [40839 : 42373 : 44070] deco? b
+TD106 progress: -1 42373 deco
+TD136 [40839 : 41548 : 42373] day? ␅
+TD1291961 ␆a
+TD78 [40839 : 41548 : 42373] day? a
+TD90 progress: 1 41548 day
+TD105 [41549 : 41833 : 42373] deb? ␅
+TD1470220 ␆b
+TD43 [41549 : 41833 : 42373] deb? b
+TD41 progress: -1 41833 deb
+TD43 [41549 : 41651 : 41833] dead? ␅
+TD1299200 ␆a
+TD116 [41549 : 41651 : 41833] dead? a
+TD128 progress: 1 41651 dead
+TD180 [41652 : 41740 : 41833] deal? ␅
+TD1416322 ␆b
+TD132 [41652 : 41740 : 41833] deal? b
+TD134 progress: -1 41740 deal
+TD266 [41652 : 41696 : 41740] deadname? ␅
+TD2238047 ␆!
+TD99 [41652 : 41696 : 41740] deadname? !
+TD679 [41652 : 41696 : 41739] deadnamed? ␅
+TD1406094 ␆!
+TD95 [41652 : 41696 : 41739] deadnamed? !
+TD811 [41652 : 41696 : 41738] deadnames? ␅
+TD2021350 ␆!
+TD84 [41652 : 41696 : 41738] deadnames? !
+TD460 [41652 : 41696 : 41737] deadnaming? ␅
+TD1736773 ␆!
+TD118 [41652 : 41696 : 41737] deadnaming? !
+TD653 [41652 : 41696 : 41736] deadness? ␅
+TD1744482 ␆a
+TD69 [41652 : 41696 : 41736] deadness? a
+TD75 progress: 1 41696 deadness
+TD415 [41697 : 41716 : 41736] deaerations? ␅
+TD1437934 ␆a
+TD93 [41697 : 41716 : 41736] deaerations? a
+TD107 progress: 1 41716 deaerations
+TD137 [41717 : 41719 : 41736] deaf? ␅
+TD2646470 ␆it
+TD149 [41717 : 41719 : 41736] deaf? it
+TD194 progress: 0 41719 deaf
+TD60 [41717 : 41719 : 41736] <Done>.
+TD233 📋> ␅
+TD2532095 ␆🧩 Puzzle #1145
+TD91 📋> 🧩 Puzzle #1145
+TD17 📋> ␅
+TD54 ␆🤔 14 guesses
+TD10 📋> 🤔 14 guesses
+TD8 📋> ␅
+TD18 ␆⏱️ 26s
+TD9 📋> ⏱️ 26s
+TD8 📋> ␅
+TD186764 ␆🔗 alphaguess.com/1145
+TD102 📋> 🔗 alphaguess.com/1145
+TD18 📋> ␅
+TD122714 ␄
+TD157 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1145\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 26s\n\ud83d\udd17 alphaguess.com/1145"}
+TD100 result: "\ud83e\udde9 Puzzle #1145\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 26s\n\ud83d\udd17 alphaguess.com/1145"
+TD17 result puzzle: 1145
+TD9 result guesses: 14
+TD8 result time: 26s
+TD7 result link: alphaguess.com/1145
+TD86 📆 2026-09-11 ? ␅
+TD116615 ␆
+TD112 📆 2026-09-11 ? 
