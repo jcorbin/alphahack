@@ -1,0 +1,209 @@
+T105.12563477299955 now: 2026-09-11T09:39:09EDT
+TD172 site: dontwordle.com
+TD30 wordlist: nwl2023.txt
+TD52  ...␅
+TD178398 ␆
+TD125  ...
+TD156 1> ␅
+TD5642352 ␆* -bot 10
+TD98 1> * -bot 10
+TD221136 ? ␅
+TD3158 ␆1
+TD68 ? 1
+TD235 📋 "aster" ? ␅
+TD4902424 ␆Mnnnn
+TD96 📋 "aster" ? Mnnnn
+TD696 tried: ASTER m n n n n
+TD329 2> ␅
+TD1532191 ␆undo
+TD110 2> undo
+TD164 undo
+TD185 1> ␅
+TD4556222 ␆* :v [aster] -bot 10
+TD127 1> * :v [aster] -bot 10
+TD135472 ? ␅
+TD312563 ␆1
+TD93 ? 1
+TD239 📋 "odium" ? ␅
+TD5200727 ␆nnnnM
+TD119 📋 "odium" ? nnnnM
+TD277 tried: ODIUM n n n n m
+TD319 2> ␅
+TD610919 ␆undo
+TD108 2> undo
+TD167 undo
+TD165 1> ␅
+TD2216330 ␆*
+TD84 1> *
+TD121800 ? ␅
+TD28500 ␆1
+TD53 ? 1
+TD124 📋 "yukky" ? ␅
+TD4560289 ␆nnnnY
+TD85 📋 "yukky" ? nnnnY
+TD192 tried: YUKKY n n n n Y
+TD182 2> ␅
+TD579849 ␆undo
+TD135 2> undo
+TD205 undo
+TD171 1> ␅
+TD2266538 ␆*
+TD113 1> *
+TD142963 ? ␅
+TD41999 ␆1
+TD85 ? 1
+TD229 📋 "heeze" ? ␅
+TD3962691 ␆nnnnn
+TD100 📋 "heeze" ? nnnnn
+TD239 tried: HEEZE n n n n n
+TD228 2> ␅
+TD372725 ␆*
+TD114 2> *
+TD104307 ? ␅
+TD72501 ␆1
+TD90 ? 1
+TD246 📋 "vivid" ? ␅
+TD3523784 ␆nnnnn
+TD118 📋 "vivid" ? nnnnn
+TD255 tried: VIVID n n n n n
+TD297 3> ␅
+TD603734 ␆*
+TD165 3> *
+TD109277 ? ␅
+TD66016 ␆1
+TD112 ? 1
+TD250 📋 "bubus" ? ␅
+TD4454842 ␆Ynnnn
+TD141 📋 "bubus" ? Ynnnn
+TD386 tried: BUBUS Y n n n n
+TD347 4> ␅
+TD634040 ␆undo
+TD92 4> undo
+TD137 undo
+TD307 3> ␅
+TD3155049 ␆*
+TD108 3> *
+TD100508 ? ␅
+TD128838 ␆
+TD104 ? 
+TD723 ? ␅
+TD539569 ␆1
+TD98 ? 1
+TD212 📋 "cocos" ? ␅
+TD6056001 ␆nnnnn
+TD99 📋 "cocos" ? nnnnn
+TD217 tried: COCOS n n n n n
+TD236 4> ␅
+TD442977 ␆*
+TD99 4> *
+TD100627 ? ␅
+TD108813 ␆1
+TD88 ? 1
+TD229 📋 "trull" ? ␅
+TD4932899 ␆nnnMn
+TD98 📋 "trull" ? nnnMn
+TD218 tried: TRULL n n n m n
+TD289 5> ␅
+TD661187 ␆ujndo
+TD94 5> ujndo
+TD169 5> ␅
+TD5007859 ␆undo
+TD138 5> undo
+TD177 undo
+TD422 4> ␅
+TD2723737 ␆*
+TD103 4> *
+TD97078 ? ␅
+TD796684 ␆1
+TD97 ? 1
+TD265 📋 "knurr" ? ␅
+TD3748263 ␆nnnnn
+TD98 📋 "knurr" ? nnnnn
+TD204 tried: KNURR n n n n n
+TD232 5> ␅
+TD464950 ␆*
+TD145 5> *
+TD188993 ? ␅
+TD31444 ␆1
+TD48 ? 1
+TD132 📋 "fatwa" ? ␅
+TD4975145 ␆nYnnn
+TD97 📋 "fatwa" ? nYnnn
+TD242 tried: FATWA n Y n n n
+TD291 6> ␅
+TD446092 ␆*
+TD93 6> *
+TD194644 📋 "qajaq" ? ␅
+TD6154656 ␄
+TD132 <EOF>
+TD170 6> ␅
+TD836560 ␆*
+TD93 6> *
+TD183957 📋 "qajaq" ? ␅
+TD685803 ␄
+TD141 <EOF>
+TD278 6> ␅
+TD991746 ␆* -SANS
+TD270 6> * -SANS
+TD1120 6> ␅
+TD2156208 ␆* -sans
+TD89 6> * -sans
+TD103402 ? ␅
+TD1939008 ␆2
+TD90 ? 2
+TD181 📋 "yabby" ? ␅
+TD4102988 ␆nYMnY
+TD107 📋 "yabby" ? nYMnY
+TD228 tried: YABBY n Y m n Y
+TD235 📋> ␅
+TD6646090 ␆Don't Wordle 1571 - SURVIVED
+TD90 📋> Don't Wordle 1571 - SURVIVED
+TD16 📋> ␅
+TD63 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD11 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD8 📋> ␅
+TD20 ␆⬜⬜⬜⬜⬜5957
+TD9 📋> ⬜⬜⬜⬜⬜5957
+TD7 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜3265
+TD12 📋> ⬜⬜⬜⬜⬜3265
+TD8 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜622
+TD13 📋> ⬜⬜⬜⬜⬜622
+TD7 📋> ␅
+TD18 ␆⬜⬜⬜⬜⬜117
+TD12 📋> ⬜⬜⬜⬜⬜117
+TD7 📋> ␅
+TD18 ␆⬜🟩⬜⬜⬜21
+TD12 📋> ⬜🟩⬜⬜⬜21
+TD7 📋> ␅
+TD17 ␆⬜🟩🟨⬜🟩3
+TD12 📋> ⬜🟩🟨⬜🟩3
+TD7 📋> ␅
+TD17 ␆Undos used: 5
+TD13 📋> Undos used: 5
+TD8 📋> ␅
+TD17 ␆
+TD11 📋> 
+TD8 📋> ␅
+TD17 ␆  3 words remaining
+TD10 📋>   3 words remaining
+TD7 📋> ␅
+TD16 ␆x 7 unused letters
+TD10 📋> x 7 unused letters
+TD7 📋> ␅
+TD16 ␆= 21 total score
+TD9 📋> = 21 total score
+TD7 📋> ␅
+TD17 ␆
+TD9 📋> 
+TD7 📋> ␅
+TD188014 ␆https://dontwordle.com
+TD87 📋> https://dontwordle.com
+TD15 📋> ␅
+TD132084 ␄
+TD164 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1571 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5957\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3265\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c622\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c117\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c21\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe93\nUndos used: 5\n\n  3 words remaining\nx 7 unused letters\n= 21 total score\n\nhttps://dontwordle.com"}
+TD1865 result: "Don't Wordle 1571 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5957\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3265\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c622\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c117\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c21\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe93\nUndos used: 5\n\n  3 words remaining\nx 7 unused letters\n= 21 total score\n\nhttps://dontwordle.com"
+TD95 📆 2026-09-11 ? ␅
+TD150279 ␆
+TD167 📆 2026-09-11 ? 
