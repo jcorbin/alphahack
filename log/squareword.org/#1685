@@ -1,0 +1,227 @@
+T18986.900779087 now: 2026-09-12T09:02:24EDT
+TD192 site: squareword.org
+TD47 wordlist: nwl2023.txt
+TD55  ...␅
+TD514135 ␆
+TD86  ...
+TD68 🧩  ? ␅
+TD17962700 ␆#1685
+TD101 🧩  ? #1685
+TD301 puzzle_id: #1685
+TD405 > ␅
+TD964757 ␆*
+TD141 > *
+TD251470 try? ␅
+TD531966 ␆1
+TD82 try? 1
+TD268 questioning: ["arise", "#5"]
+TD345 #1 <IndexError>  📋 "arise" ? ␅
+TD2996811 ␆_____ ~ E
+TD90 #1 <IndexError>  📋 "arise" ? _____ ~ E
+TD736 attempt 0 ARISE n n n n m
+TD116 #2 <IndexError>  📋 "arise" ? ␅
+TD2204718 ␆_____ ~ R
+TD123 #2 <IndexError>  📋 "arise" ? _____ ~ R
+TD360 attempt 1 ARISE n m n n n
+TD170 #3 <IndexError>  📋 "arise" ? ␅
+TD2012597 ␆A____ ~ I
+TD79 #3 <IndexError>  📋 "arise" ? A____ ~ I
+TD240 attempt 2 ARISE Y n m n n
+TD106 #4 <IndexError>  📋 "arise" ? ␅
+TD2073187 ␆__I__ ~ S
+TD171 #4 <IndexError>  📋 "arise" ? __I__ ~ S
+TD546 attempt 3 ARISE n n Y m n
+TD215 #5 <IndexError>  📋 "arise" ? ␅
+TD1908397 ␆_____ ~ SE
+TD113 #5 <IndexError>  📋 "arise" ? _____ ~ SE
+TD307 attempt 4 ARISE n n n m m
+TD542 ? ␅
+TD284887 ␆
+TD149 ? 
+TD249 question done
+TD887 > ␅
+TD478205 ␆*
+TD301 > *
+TD705309 try? ␅
+TD530782 ␄
+TD253 <EOF>
+TD890 > ␅
+TD4219043 ␆* 1
+TD100 > * 1
+TD9780 try? ␅
+TD1468029 ␄
+TD144 <EOF>
+TD480 > ␅
+TD748681 ␆* 2
+TD132 > * 2
+TD7945 try? ␅
+TD1135259 ␄
+TD156 <EOF>
+TD432 > ␅
+TD754188 ␆* 1
+TD167 > * 1
+TD9315 try? ␅
+TD1524731 ␆1
+TD96 try? 1
+TD308 questioning: ["toled", "#1"]
+TD418 #1 _____ ~E -AIRS  📋 "toled" ? ␅
+TD5332152 ␆___ED ~ L
+TD124 #1 _____ ~E -AIRS  📋 "toled" ? ___ED ~ L
+TD375 attempt 0 TOLED n n m Y Y
+TD211 #2 _____ ~R -AEIS  📋 "toled" ? ␅
+TD2790822 ␆_O___ ~ ROD
+TD160 #2 _____ ~R -AEIS  📋 "toled" ? _O___ ~ ROD
+TD433 attempt 1 TOLED n Y n n m
+TD226 #3 A____ ~I -ERS  📋 "toled" ? ␅
+TD2487255 ␆A____ ~ IT
+TD142 #3 A____ ~I -ERS  📋 "toled" ? A____ ~ IT
+TD375 attempt 2 TOLED m n n n n
+TD191 #4 __I__ ~S -AER  📋 "toled" ? ␅
+TD4035301 ␆__I__ ~ ST
+TD106 #4 __I__ ~S -AER  📋 "toled" ? __I__ ~ ST
+TD322 attempt 3 TOLED m n n n n
+TD165 #5 _____ ~ES -AIR  📋 "toled" ? ␅
+TD2858232 ␆_O___ ~ SET
+TD101 #5 _____ ~ES -AIR  📋 "toled" ? _O___ ~ SET
+TD279 attempt 4 TOLED m Y n m n
+TD436 ? ␅
+TD285960 ␆
+TD213 ? 
+TD344 question done
+TD949 > ␅
+TD675103 ␆*
+TD224 > *
+TD735150 questioning: ["poets", "#5"]
+TD224 #1 ___ED ~L -AIORST  📋 "poets" ? ␅
+TD4302554 ␆.
+TD104 #1 ___ED ~L -AIORST  📋 "poets" ? .
+TD317 attempt 0 POETS n n n n n
+TD124 #2 _O___ ~DR -AEILST  📋 "poets" ? ␅
+TD3233063 ␆_O___ ~ ROD
+TD155 #2 _O___ ~DR -AEILST  📋 "poets" ? _O___ ~ ROD
+TD464 attempt 1 POETS n Y n n n
+TD250 #3 A____ ~IT -DELORS  📋 "poets" ? ␅
+TD1532595 ␆.
+TD76 #3 A____ ~IT -DELORS  📋 "poets" ? .
+TD214 attempt 2 POETS n n n m n
+TD81 #4 __I__ ~ST -ADELOR  📋 "poets" ? ␅
+TD1817498 ␆.
+TD174 #4 __I__ ~ST -ADELOR  📋 "poets" ? .
+TD502 attempt 3 POETS n n n m m
+TD218 #5 _O___ ~EST -ADILR  📋 "poets" ? ␅
+TD1017917 ␆/it
+TD99 #5 _O___ ~EST -ADILR  📋 "poets" ? /it
+TD335 attempt 4 POETS Y Y Y Y Y
+TD427 ? ␅
+TD338403 ␆
+TD95 ? 
+TD112 question done
+TD365 > ␅
+TD1753583 ␆*
+TD179 > *
+TD751649 questioning: ["rondo", "#2"]
+TD172 #1 ___ED ~L -AEIOPRST  📋 "rondo" ? ␅
+TD3850907 ␆.
+TD98 #1 ___ED ~L -AEIOPRST  📋 "rondo" ? .
+TD305 attempt 0 RONDO n n n n n
+TD122 #2 _O___ ~DR -AEILPST  📋 "rondo" ? ␅
+TD676465 ␆/it
+TD94 #2 _O___ ~DR -AEILPST  📋 "rondo" ? /it
+TD278 attempt 1 RONDO Y Y Y Y Y
+TD124 #3 A____ ~IT -DELOPRS  📋 "rondo" ? ␅
+TD1566007 ␆.
+TD162 #3 A____ ~IT -DELOPRS  📋 "rondo" ? .
+TD446 attempt 2 RONDO n n n n n
+TD210 #4 __I__ ~ST -ADELOPR  📋 "rondo" ? ␅
+TD1334987 ␆.
+TD107 #4 __I__ ~ST -ADELOPR  📋 "rondo" ? .
+TD309 attempt 3 RONDO n n n n n
+TD459 ? ␅
+TD152865 ␆
+TD58 ? 
+TD53 question done
+TD148 > ␅
+TD356992 ␆*
+TD88 > *
+TD1929941 questioning: ["attic", "#3"]
+TD175 #1 ___ED ~L -ADEINOPRST  📋 "attic" ? ␅
+TD3675397 ␆.
+TD101 #1 ___ED ~L -ADEINOPRST  📋 "attic" ? .
+TD289 attempt 0 ATTIC n n n n n
+TD124 #3 A____ ~IT -DELNOPRS  📋 "attic" ? ␅
+TD617985 ␆/it
+TD143 #3 A____ ~IT -DELNOPRS  📋 "attic" ? /it
+TD598 attempt 2 ATTIC Y Y Y Y Y
+TD229 #4 __I__ ~ST -ADELNOPR  📋 "attic" ? ␅
+TD3823791 ␆_TI__ ~ SC
+TD144 #4 __I__ ~ST -ADELNOPR  📋 "attic" ? _TI__ ~ SC
+TD344 attempt 3 ATTIC n Y n n m
+TD575 ? ␅
+TD235077 ␆
+TD117 ? 
+TD148 question done
+TD514 > ␅
+TD393457 ␆*
+TD110 > *
+TD1574514 questioning: ["glued", "#1"]
+TD197 #1 ___ED ~L -ACDEINOPRST  📋 "glued" ? ␅
+TD2481467 ␆/it
+TD125 #1 ___ED ~L -ACDEINOPRST  📋 "glued" ? /it
+TD287 attempt 0 GLUED Y Y Y Y Y
+TD127 #4 _TI__ ~CS -ADEILNOPR  📋 "glued" ? ␅
+TD1919480 ␆.
+TD100 #4 _TI__ ~CS -ADEILNOPR  📋 "glued" ? .
+TD305 attempt 3 GLUED n n n n n
+TD434 ? ␅
+TD148457 ␆
+TD120 ? 
+TD136 question done
+TD495 > ␅
+TD389270 ␆*
+TD46 > *
+TD1043602 questioning: ["stick", "#4"]
+TD228 #4 _TI__ ~CS -ADEGILNOPRU  📋 "stick" ? ␅
+TD3221146 ␆/it
+TD81 #4 _TI__ ~CS -ADEGILNOPRU  📋 "stick" ? /it
+TD232 attempt 3 STICK Y Y Y Y Y
+TD353 ? ␅
+TD284383 ␆
+TD100 ? 
+TD134 question done
+TD30820 📋> ␅
+TD5348053 ␆squareword.org 1685: 7 guesses
+TD142 📋> squareword.org 1685: 7 guesses
+TD31 📋> ␅
+TD76 ␆
+TD14 📋> 
+TD11 📋> ␅
+TD30 ␆🟨🟨🟨🟩🟩
+TD11 📋> 🟨🟨🟨🟩🟩
+TD11 📋> ␅
+TD30 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD25 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD44 📋> ␅
+TD29 ␆🟨🟩🟩🟨🟨
+TD10 📋> 🟨🟩🟩🟨🟨
+TD10 📋> ␅
+TD25 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD10 📋> ␅
+TD23 ␆
+TD10 📋> 
+TD10 📋> ␅
+TD26 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> ␅
+TD227190 ␆#squareword #squareword1685
+TD105 📋> #squareword #squareword1685
+TD19 📋> ␅
+TD123125 ␄
+TD174 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1685: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1685"}
+TD1964 result: "squareword.org 1685: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1685"
+TD93 📆 2026-09-12 ? ␅
+TD126718 ␆
+TD88 📆 2026-09-12 ? 
