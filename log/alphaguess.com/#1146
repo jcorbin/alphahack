@@ -1,0 +1,81 @@
+T18363.829671483 now: 2026-09-12T08:52:01EDT
+TD165 site: alphaguess.com
+TD150397 loaded 196518 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (86 words excluded) asof 5a78eac264f87488cd1f765cba54b1d3676c2ec8
+TD74  ...␅
+TD36566 ␆
+TD106  ...
+TD176 [0 : 98147 : 196518] mac? ␅
+TD5259646 ␆
+TD118 [0 : 98147 : 196518] mac? 
+TD120 [0 : 98147 : 196518] mac? ␅
+TD1591340 ␆b
+TD94 [0 : 98147 : 196518] mac? b
+TD102 progress: -1 98147 mac
+TD123 [0 : 47378 : 98147] dis? ␅
+TD1343651 ␆a
+TD80 [0 : 47378 : 98147] dis? a
+TD95 progress: 1 47378 dis
+TD112 [47379 : 72662 : 98147] green? ␅
+TD1966825 ␆a
+TD84 [47379 : 72662 : 98147] green? a
+TD94 progress: 1 72662 green
+TD109 [72663 : 85397 : 98147] inocula? ␅
+TD1515614 ␆b
+TD90 [72663 : 85397 : 98147] inocula? b
+TD100 progress: -1 85397 inocula
+TD107 [72663 : 79019 : 85397] hone? ␅
+TD1394664 ␆a
+TD93 [72663 : 79019 : 85397] hone? a
+TD100 progress: 1 79019 hone
+TD294 [79020 : 82206 : 85397] imbitter? ␅
+TD1289967 ␆a
+TD123 [79020 : 82206 : 85397] imbitter? a
+TD109 progress: 1 82206 imbitter
+TD156 [82207 : 83234 : 85397] in? ␅
+TD1256496 ␆a
+TD89 [82207 : 83234 : 85397] in? a
+TD99 progress: 1 83234 in
+TD238 [83235 : 84311 : 85397] induce? ␅
+TD1281874 ␆a
+TD123 [83235 : 84311 : 85397] induce? a
+TD112 progress: 1 84311 induce
+TD116 [84312 : 84849 : 85397] info? ␅
+TD1472086 ␆b
+TD138 [84312 : 84849 : 85397] info? b
+TD157 progress: -1 84849 info
+TD451 [84312 : 84579 : 84849] infant? ␅
+TD1417463 ␆b
+TD96 [84312 : 84579 : 84849] infant? b
+TD109 progress: -1 84579 infant
+TD330 [84312 : 84442 : 84579] inefficient? ␅
+TD1656068 ␆a
+TD87 [84312 : 84442 : 84579] inefficient? a
+TD87 progress: 1 84442 inefficient
+TD326 [84443 : 84509 : 84579] inevitable? ␅
+TD2912170 ␆it
+TD70 [84443 : 84509 : 84579] inevitable? it
+TD77 progress: 0 84509 inevitable
+TD23 [84443 : 84509 : 84579] <Done>.
+TD69 📋> ␅
+TD2747995 ␆🧩 Puzzle #1146
+TD108 📋> 🧩 Puzzle #1146
+TD17 📋> ␅
+TD56 ␆🤔 12 guesses
+TD10 📋> 🤔 12 guesses
+TD8 📋> ␅
+TD20 ␆⏱️ 16s
+TD10 📋> ⏱️ 16s
+TD8 📋> ␅
+TD225341 ␆🔗 alphaguess.com/1146
+TD104 📋> 🔗 alphaguess.com/1146
+TD20 📋> ␅
+TD107505 ␄
+TD155 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1146\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1146"}
+TD100 result: "\ud83e\udde9 Puzzle #1146\n\ud83e\udd14 12 guesses\n\u23f1\ufe0f 16s\n\ud83d\udd17 alphaguess.com/1146"
+TD19 result puzzle: 1146
+TD10 result guesses: 12
+TD8 result time: 16s
+TD8 result link: alphaguess.com/1146
+TD89 📆 2026-09-12 ? ␅
+TD289066 ␆
+TD204 📆 2026-09-12 ? 
