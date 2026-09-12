@@ -1,0 +1,139 @@
+T18627.049006785 now: 2026-09-12T08:56:24EDT
+TD128 site: https://www.merriam-webster.com/games/quordle/#/
+TD24 wordlist: nwl2023.txt
+TD8 num_words: 4
+TD117  ...␅
+TD179784 ␆
+TD84  ...
+TD448848 > ␅
+TD6532763 ␆*
+TD141 > *
+TD52385 ? ␅
+TD568191 ␆1
+TD83 ? 1
+TD145 questioning: spare
+TD189 Classic #1 _____? ␅
+TD4623638 ␆YMnMM
+TD45 Classic #1 _____? YMnMM
+TD201 attempt: 0 SPARE Y m n m m
+TD49 Classic #2 _____? ␅
+TD2474744 ␆MnnMn
+TD102 Classic #2 _____? MnnMn
+TD287 attempt: 1 SPARE m n n m n
+TD122 Classic #3 _____? ␅
+TD1537068 ␆MnnMM
+TD85 Classic #3 _____? MnnMM
+TD221 attempt: 2 SPARE m n n m m
+TD124 Classic #4 _____? ␅
+TD1564754 ␆YnnMM
+TD97 Classic #4 _____? YnnMM
+TD280 attempt: 3 SPARE Y n n m m
+TD496775 > ␅
+TD672238 ␆*
+TD78 > *
+TD574 ? ␅
+TD2100285 ␆2
+TD88 ? 2
+TD188 questioning: super
+TD196 Classic #1 S____ ~EPR -A? ␅
+TD2710679 ␆YYYYY
+TD77 Classic #1 S____ ~EPR -A? YYYYY
+TD154 attempt: 0 SUPER Y Y Y Y Y
+TD81 Classic #2 _____ ~RS -AEP? ␅
+TD1699224 ␆MMnnM
+TD86 Classic #2 _____ ~RS -AEP? MMnnM
+TD205 attempt: 1 SUPER m m n n m
+TD105 Classic #3 _____ ~ERS -AP? ␅
+TD4031578 ␆MnnYM
+TD112 Classic #3 _____ ~ERS -AP? MnnYM
+TD241 attempt: 2 SUPER m n n Y m
+TD123 Classic #4 S____ ~ER -AP? ␅
+TD1843049 ␆YnnYY
+TD102 Classic #4 S____ ~ER -AP? YnnYY
+TD223 attempt: 3 SUPER Y n n Y Y
+TD404511 > ␅
+TD1946271 ␆*
+TD94 > *
+TD1660 ? ␅
+TD2262121 ␆1
+TD123 ? 1
+TD156 questioning: tores
+TD165 Classic #2 _____ ~RSU -AEP? ␅
+TD2941118 ␆nnMnM
+TD111 Classic #2 _____ ~RSU -AEP? nnMnM
+TD281 attempt: 1 TORES n n m n m
+TD159 Classic #3 ___E_ ~RS -APU? ␅
+TD2215836 ␆MnMYM
+TD98 Classic #3 ___E_ ~RS -APU? MnMYM
+TD225 attempt: 2 TORES m n m Y m
+TD126 Classic #4 S__ER -APU? ␅
+TD2264574 ␆nYMYM
+TD113 Classic #4 S__ER -APU? nYMYM
+TD243 attempt: 3 TORES n Y m Y m
+TD325201 > ␅
+TD649461 ␆*
+TD102 > *
+TD390 questioning: reset
+TD156 Classic #2 _____ ~RSU -AEOPT? ␅
+TD2796878 ␆MnMnn
+TD93 Classic #2 _____ ~RSU -AEOPT? MnMnn
+TD227 attempt: 1 RESET m n m n n
+TD132 Classic #3 ___E_ ~RST -AOPU? ␅
+TD1326955 ␆YYYYY
+TD112 Classic #3 ___E_ ~RST -AOPU? YYYYY
+TD230 attempt: 2 RESET Y Y Y Y Y
+TD135 Classic #4 SO_ER -APTU? ␅
+TD1932783 ␆MnMYn
+TD129 Classic #4 SO_ER -APTU? MnMYn
+TD246 attempt: 3 RESET m n m Y n
+TD206495 > ␅
+TD681832 ␆*
+TD80 > *
+TD475 ? ␅
+TD1820289 ␄
+TD111 <EOF>
+TD205421 > ␅
+TD937293 ␆* 2
+TD132 > * 2
+TD106727 ? ␅
+TD1693374 ␆1
+TD110 ? 1
+TD224 questioning: brush
+TD207 Classic #2 _____ ~RSU -AEOPT? ␅
+TD3409204 ␆YYYYY
+TD91 Classic #2 _____ ~RSU -AEOPT? YYYYY
+TD224 attempt: 1 BRUSH Y Y Y Y Y
+TD131 Classic #4 SO_ER -APTU? ␅
+TD1715423 ␆nMnMn
+TD93 Classic #4 SO_ER -APTU? nMnMn
+TD235 attempt: 3 BRUSH n m n m n
+TD100725 > ␅
+TD752055 ␆*
+TD127 > *
+TD584 questioning: sower
+TD237 Classic #4 SO_ER -ABHPTU? ␅
+TD3191383 ␆YYYYY
+TD68 Classic #4 SO_ER -ABHPTU? YYYYY
+TD132 attempt: 3 SOWER Y Y Y Y Y
+TD58 📋> ␅
+TD4812032 ␆🙂 Daily Quordle 1692
+TD87 📋> 🙂 Daily Quordle 1692
+TD16 📋> ␅
+TD51 ␆2️⃣5️⃣
+TD10 📋> 2️⃣5️⃣
+TD7 📋> ␅
+TD16 ␆4️⃣6️⃣
+TD7 📋> 4️⃣6️⃣
+TD7 📋> ␅
+TD14 ␆m-w.com/games/quordle/
+TD7 📋> m-w.com/games/quordle/
+TD7 📋> ␅
+TD198435 ␆
+TD141 📋> 
+TD26 📋> ␅
+TD147002 ␄
+TD76 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1692\n2\ufe0f\u20e35\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD788 result: "\ud83d\ude42 Daily Quordle 1692\n2\ufe0f\u20e35\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD39 📆 2026-09-12 ? ␅
+TD131677 ␆
+TD48 📆 2026-09-12 ? 
