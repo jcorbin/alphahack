@@ -1,3 +1,7 @@
+# 2026-09-13
+
+- 🔗 spaceword.org 🧩 2026-09-12 🏗️ score 2168 current ranking 64/166 ⏱️ 0:27:12.441646
+
 ## WIP
 
 - new puzzle: https://fubargames.se/squardle/
@@ -241,3 +245,21 @@
 
 
 
+
+# [spaceword.org](spaceword.org) 🧩 2026-09-12 🏗️ score 2168 current ranking 64/166 ⏱️ 0:27:12.441646
+
+📜 1 sessions
+- tiles: 21/21
+- score: 2168 bonus: +68
+- rank: 64/166
+
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ X I S _ _ _   
+      _ _ _ _ _ _ I _ _ _   
+      _ _ _ _ R E P _ _ _   
+      _ _ _ _ I _ I _ _ _   
+      _ _ _ F O I N _ _ _   
+      _ _ _ _ J _ G _ _ _   
+      _ _ _ T A O _ _ _ _   
+      _ _ _ _ S E Z _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
