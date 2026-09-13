@@ -683,8 +683,9 @@ def explanation(explain: Explainable):
 
 ThinkingValue = Literal['low', 'medium', 'high']|bool|None
 
-def parse_think(tokens: PromptUI.Tokens,
+def parse_think(stok: str|PromptUI.Tokens,
                 fallthru: Callable[[], Exception]|ThinkingValue=lambda: ValueError('invalid thinking value')):
+    tokens = PromptUI.Tokens(stok) if isinstance(stok, str) else stok
     if tokens.have(r'(?ix) - | none | null | na | def(a(u(lt?)?)?)?'):
         return None
     elif tokens.have(r'(?ix) yes? | on | t(r(ue?)?)? | 1'):
