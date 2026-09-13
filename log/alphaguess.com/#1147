@@ -1,0 +1,85 @@
+T40625.622277891 now: 2026-09-13T08:25:59EDT
+TD99 site: alphaguess.com
+TD173597 loaded 196514 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (90 words excluded) asof f9b8c1d6083878f876914ac7475ede21f7846a72
+TD84  ...␅
+TD85328 ␆
+TD59  ...
+TD86 [0 : 98143 : 196514] mac? ␅
+TD5239238 ␆a
+TD93 [0 : 98143 : 196514] mac? a
+TD122 progress: 1 98143 mac
+TD117 [98144 : 147307 : 196514] rho? ␅
+TD1567861 ␆a
+TD70 [98144 : 147307 : 196514] rho? a
+TD75 progress: 1 147307 rho
+TD83 [147308 : 171907 : 196514] tag? ␅
+TD1464053 ␆b
+TD113 [147308 : 171907 : 196514] tag? b
+TD124 progress: -1 171907 tag
+TD253 [147308 : 159589 : 171907] slug? ␅
+TD1461178 ␆b
+TD114 [147308 : 159589 : 171907] slug? b
+TD132 progress: -1 159589 slug
+TD138 [147308 : 153307 : 159589] sea? ␅
+TD1470077 ␆
+TD59 [147308 : 153307 : 159589] sea? 
+TD67 [147308 : 153307 : 159589] sea? ␅
+TD596535 ␆b
+TD111 [147308 : 153307 : 159589] sea? b
+TD137 progress: -1 153307 sea
+TD176 [147308 : 150203 : 153307] sal? ␅
+TD1404836 ␆a
+TD102 [147308 : 150203 : 153307] sal? a
+TD124 progress: 1 150203 sal
+TD134 [150204 : 151723 : 153307] scan? ␅
+TD1966634 ␆b
+TD80 [150204 : 151723 : 153307] scan? b
+TD119 progress: -1 151723 scan
+TD151 [150204 : 150917 : 151723] sap? ␅
+TD1502341 ␆a
+TD87 [150204 : 150917 : 151723] sap? a
+TD115 progress: 1 150917 sap
+TD152 [150918 : 151203 : 151723] sat? ␅
+TD1395569 ␆a
+TD143 [150918 : 151203 : 151723] sat? a
+TD191 progress: 1 151203 sat
+TD212 [151204 : 151457 : 151723] savor? ␅
+TD1474890 ␆b
+TD95 [151204 : 151457 : 151723] savor? b
+TD107 progress: -1 151457 savor
+TD309 [151204 : 151331 : 151457] satyr? ␅
+TD1568860 ␆a
+TD127 [151204 : 151331 : 151457] satyr? a
+TD198 progress: 1 151331 satyr
+TD220 [151332 : 151340 : 151457] sau? ␅
+TD1506358 ␆a
+TD54 [151332 : 151340 : 151457] sau? a
+TD59 progress: 1 151340 sau
+TD136 [151341 : 151399 : 151457] sausage? ␅
+TD3762982 ␆it
+TD133 [151341 : 151399 : 151457] sausage? it
+TD178 progress: 0 151399 sausage
+TD61 [151341 : 151399 : 151457] <Done>.
+TD216 📋> ␅
+TD2307734 ␆🧩 Puzzle #1147
+TD91 📋> 🧩 Puzzle #1147
+TD27 📋> ␅
+TD63 ␆🤔 13 guesses
+TD23 📋> 🤔 13 guesses
+TD19 📋> ␅
+TD39 ␆⏱️ 20s
+TD21 📋> ⏱️ 20s
+TD18 📋> ␅
+TD242999 ␆🔗 alphaguess.com/1147
+TD111 📋> 🔗 alphaguess.com/1147
+TD36 📋> ␅
+TD125671 ␄
+TD155 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1147\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1147"}
+TD109 result: "\ud83e\udde9 Puzzle #1147\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1147"
+TD26 result puzzle: 1147
+TD20 result guesses: 13
+TD18 result time: 20s
+TD17 result link: alphaguess.com/1147
+TD105 📆 2026-09-13 ? ␅
+TD196322 ␆
+TD88 📆 2026-09-13 ? 
