@@ -29,7 +29,7 @@ from ui import PromptUI
 _ = load_dotenv()
 
 def shorten_under(name: str, names: Sequence[str]):
-    for m in re.finditer(r'\w+', name):
+    for m in re.finditer(r'[\w\.]+', name):
         nom = name[:m.end()]
         if not any(
             n.startswith(nom)
