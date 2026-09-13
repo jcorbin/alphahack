@@ -1,0 +1,133 @@
+T40456.463672737 now: 2026-09-13T08:23:09EDT
+TD69 site: alfagok.diginaut.net
+TD432034 loaded 399471 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1381 words excluded) asof f9b8c1d6083878f876914ac7475ede21f7846a72
+TD87  ...␅
+TD3008115 ␆
+TD51  ...
+TD90 [0 : 199640 : 399471] lijk? ␅
+TD10358376 ␆
+TD81 [0 : 199640 : 399471] lijk? 
+TD97 [0 : 199640 : 399471] lijk? ␅
+TD5072466 ␆b
+TD79 [0 : 199640 : 399471] lijk? b
+TD103 progress: -1 199640 lijk
+TD105 [0 : 99681 : 199640] ex? ␅
+TD1670940 ␆b
+TD52 [0 : 99681 : 199640] ex? b
+TD73 progress: -1 99681 ex
+TD60 [0 : 49808 : 99681] boks? ␅
+TD1685348 ␆b
+TD93 [0 : 49808 : 99681] boks? b
+TD113 progress: -1 49808 boks
+TD122 [0 : 24880 : 49808] bad? ␅
+TD1701770 ␆b
+TD75 [0 : 24880 : 49808] bad? b
+TD79 progress: -1 24880 bad
+TD110 [0 : 8646 : 24880] af? ␅
+TD1463039 ␆a
+TD75 [0 : 8646 : 24880] af? a
+TD84 progress: 1 8646 af
+TD106 [8647 : 16147 : 24880] am? ␅
+TD2463705 ␆a
+TD103 [8647 : 16147 : 24880] am? a
+TD120 progress: 1 16147 am
+TD131 [16148 : 20499 : 24880] arg? ␅
+TD2138187 ␆b
+TD93 [16148 : 20499 : 24880] arg? b
+TD85 progress: -1 20499 arg
+TD102 [16148 : 18102 : 20499] anti? ␅
+TD1552481 ␆a
+TD53 [16148 : 18102 : 20499] anti? a
+TD60 progress: 1 18102 anti
+TD68 [18103 : 19100 : 20499] app? ␅
+TD1484213 ␆b
+TD76 [18103 : 19100 : 20499] app? b
+TD99 progress: -1 19100 app
+TD631 [18103 : 18602 : 19100] antithese? ␅
+TD1519168 ␆a
+TD113 [18103 : 18602 : 19100] antithese? a
+TD114 progress: 1 18602 antithese
+TD134 [18603 : 18842 : 19100] apartheid? ␅
+TD1935354 ␆b
+TD107 [18603 : 18842 : 19100] apartheid? b
+TD156 progress: -1 18842 apartheid
+TD329 [18603 : 18718 : 18842] antwerpse? ␅
+TD2098836 ␆!
+TD62 [18603 : 18718 : 18842] antwerpse? !
+TD584 [18603 : 18722 : 18841] antwoord? ␅
+TD1716871 ␆a
+TD70 [18603 : 18722 : 18841] antwoord? a
+TD83 progress: 1 18722 antwoord
+TD192 [18723 : 18781 : 18841] antwoordt? ␅
+TD2391887 ␆a
+TD94 [18723 : 18781 : 18841] antwoordt? a
+TD91 progress: 1 18781 antwoordt
+TD308 [18782 : 18812 : 18841] aov? ␅
+TD1784622 ␆!
+TD92 [18782 : 18812 : 18841] aov? !
+TD1126 [18782 : 18811 : 18840] aouragh? ␅
+TD2743776 ␆!
+TD169 [18782 : 18811 : 18840] aouragh? !
+TD1428 [18782 : 18811 : 18839] aov-uitkering? ␅
+TD1767365 ␆!
+TD72 [18782 : 18811 : 18839] aov-uitkering? !
+TD918 [18782 : 18812 : 18838] aow? ␅
+TD1858672 ␆!
+TD85 [18782 : 18812 : 18838] aow? !
+TD983 [18782 : 18811 : 18837] aov-uitkeringen? ␅
+TD1624968 ␆!
+TD82 [18782 : 18811 : 18837] aov-uitkeringen? !
+TD141 [18782 : 18811 : 18837] aov-uitkeringen? ␅
+TD1723939 ␆!
+TD104 [18782 : 18811 : 18837] aov-uitkeringen? !
+TD1003 [18782 : 18811 : 18836] aow-leeftijd? ␅
+TD2130017 ␆.
+TD101 [18782 : 18811 : 18836] aow-leeftijd? .
+TD626 viewing: @18811 C3 [ 18808 18814 ] search: [ 18782 18836 ]
+TD34 > ␅
+TD5778446 ␆@-1
+TD98 > @-1
+TD1240 viewing: @18810 C3 [ 18807 18813 ] search: [ 18782 18836 ]
+TD40 > ␅
+TD1222848 ␆
+TD55 > 
+TD67 [18782 : 18810 : 18836] aortaklep? ␅
+TD2253832 ␆a
+TD80 [18782 : 18810 : 18836] aortaklep? a
+TD88 progress: 1 18810 aortaklep
+TD86 [18811 : 18820 : 18836] apache? ␅
+TD1635722 ␆a
+TD81 [18811 : 18820 : 18836] apache? a
+TD86 progress: 1 18820 apache
+TD205 [18821 : 18828 : 18836] apaches? ␅
+TD1627617 ␆a
+TD57 [18821 : 18828 : 18836] apaches? a
+TD57 progress: 1 18828 apaches
+TD95 [18829 : 18832 : 18836] apart? ␅
+TD1772180 ␆it
+TD76 [18829 : 18832 : 18836] apart? it
+TD82 progress: 0 18832 apart
+TD22 [18829 : 18832 : 18836] <Done>.
+TD88 📋> ␅
+TD3935835 ␆🧩 Puzzel #680
+TD89 📋> 🧩 Puzzel #680
+TD33 📋> ␅
+TD49 ␆🤔 17 gokken
+TD9 📋> 🤔 17 gokken
+TD7 📋> ␅
+TD16 ␆⏱️ 53s
+TD8 📋> ⏱️ 53s
+TD7 📋> ␅
+TD274223 ␆🔗 alfagok.diginaut.net
+TD81 📋> 🔗 alfagok.diginaut.net
+TD15 📋> ␅
+TD192670 ␄
+TD65 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #680\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 53s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD48 result: "\ud83e\udde9 Puzzel #680\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 53s\n\ud83d\udd17 alfagok.diginaut.net"
+TD12 result puzzle: 680
+TD8 result guesses: 17
+TD2 result time: 53s
+TD2 result link: alfagok.diginaut.net
+TD37 📆 2026-09-13 ? ␅
+TD244481 ␆
+TD84 📆 2026-09-13 ? 
