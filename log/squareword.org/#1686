@@ -1,0 +1,276 @@
+T739.9259463569979 now: 2026-09-13T08:40:40EDT
+TD158 site: squareword.org
+TD39 wordlist: nwl2023.txt
+TD63  ...␅
+TD334165 ␆
+TD91  ...
+TD72 🧩  ? ␅
+TD8544993 ␆#1686
+TD101 🧩  ? #1686
+TD248 puzzle_id: #1686
+TD319 > ␅
+TD918052 ␆*
+TD78 > *
+TD237973 try? ␅
+TD516420 ␆1
+TD97 try? 1
+TD323 questioning: ["toeas", "#5"]
+TD433 #1 <IndexError>  📋 "toeas" ? ␅
+TD4392483 ␆____S ~ EA
+TD73 #1 <IndexError>  📋 "toeas" ? ____S ~ EA
+TD1665 attempt 0 TOEAS n n m m Y
+TD108 #2 <IndexError>  📋 "toeas" ? ␅
+TD2349874 ␆T____ 
+TD80 #2 <IndexError>  📋 "toeas" ? T____ 
+TD254 attempt 1 TOEAS Y n n n n
+T17.826855350002006 now: 2026-09-13T08:41:20EDT
+TD97 questioning: ["toeas", "#5"]
+TD160 #3 <IndexError>  📋 "toeas" ? ␅
+TD4225097 ␆_____ ~ O
+TD72 #3 <IndexError>  📋 "toeas" ? _____ ~ O
+TD754 attempt 2 TOEAS n m n n n
+TD145 #4 <IndexError>  📋 "toeas" ? ␅
+TD1989734 ␆_____ ~ EA
+TD46 #4 <IndexError>  📋 "toeas" ? _____ ~ EA
+TD130 attempt 3 TOEAS n n m m n
+TD60 #5 <IndexError>  📋 "toeas" ? ␅
+TD2243653 ␆_____ ~ EAS
+TD64 #5 <IndexError>  📋 "toeas" ? _____ ~ EAS
+TD163 attempt 4 TOEAS n n m m m
+TD247 ? ␅
+TD335437 ␆
+TD93 ? 
+TD138 question done
+TD415 > ␅
+TD683718 ␆*
+TD85 > *
+TD920540 try? ␅
+TD922542 ␆1
+TD69 try? 1
+TD264 questioning: ["arles", "#1"]
+TD328 #1 ____S ~AE -OT  📋 "arles" ? ␅
+TD2002927 ␄
+TD92 question done
+TD286 > ␅
+TD4842355 ␆* 3
+TD120 > * 3
+TD10096 try? ␅
+TD1433063 ␄
+TD117 <EOF>
+TD349 > ␅
+TD917542 ␆* 4
+TD96 > * 4
+TD12402 try? ␅
+TD3665344 ␆1
+TD66 try? 1
+TD209 questioning: ["glare", "#4"]
+TD308 #1 ____S ~AE -OT  📋 "glare" ? ␅
+TD5805013 ␆____S ~ EAR
+TD105 #1 ____S ~AE -OT  📋 "glare" ? ____S ~ EAR
+TD283 attempt 0 GLARE n n m m m
+TD160 #2 T____ -AEOS  📋 "glare" ? ␅
+TD1216974 ␆.
+TD61 #2 T____ -AEOS  📋 "glare" ? .
+TD194 attempt 1 GLARE n n n n n
+TD71 #3 _____ ~O -AEST  📋 "glare" ? ␅
+TD2338015 ␆_____ ~ OL
+TD76 #3 _____ ~O -AEST  📋 "glare" ? _____ ~ OL
+TD232 attempt 2 GLARE n m n n n
+TD127 #4 _____ ~AE -OST  📋 "glare" ? ␅
+TD2539442 ␆_____ ~ EAR
+TD72 #4 _____ ~AE -OST  📋 "glare" ? _____ ~ EAR
+TD211 attempt 3 GLARE n n m m m
+TD120 #5 _____ ~AES -OT  📋 "glare" ? ␅
+TD2066326 ␆__A_E ~ S
+TD78 #5 _____ ~AES -OT  📋 "glare" ? __A_E ~ S
+TD226 attempt 4 GLARE n n Y n Y
+TD350 ? ␅
+TD208503 ␆
+TD94 ? 
+TD139 question done
+TD396 > ␅
+TD459957 ␆*
+TD96 > *
+TD753731 try? ␅
+TD4333235 ␄
+TD156 <EOF>
+TD453 > ␅
+TD1263026 ␆* 4
+TD44 > * 4
+TD4944 try? ␅
+TD983076 ␄
+TD199 <EOF>
+TD580 > ␅
+TD799883 ␆* 3
+TD81 > * 3
+TD6676 try? ␅
+TD990016 ␄
+TD136 <EOF>
+TD475 > ␅
+TD664754 ␆* 4
+TD91 > * 4
+TD7755 try? ␅
+TD2485095 ␆1
+TD70 try? 1
+TD216 questioning: ["derma", "#4"]
+TD308 #1 ____S ~AER -GLOT  📋 "derma" ? ␅
+TD5757846 ␆__R_S ~ EA
+TD80 #1 ____S ~AER -GLOT  📋 "derma" ? __R_S ~ EA
+TD260 attempt 0 DERMA n m Y n m
+TD135 #2 T____ -AEGLORS  📋 "derma" ? ␅
+TD2475941 ␆T__M_ 
+TD73 #2 T____ -AEGLORS  📋 "derma" ? T__M_ 
+TD205 attempt 1 DERMA n n n Y n
+TD123 #3 _____ ~LO -AEGRST  📋 "derma" ? ␅
+TD2583142 ␆_____ ~ OLM
+TD78 #3 _____ ~LO -AEGRST  📋 "derma" ? _____ ~ OLM
+TD231 attempt 2 DERMA n n n m n
+TD131 #4 _____ ~AER -GLOST  📋 "derma" ? ␅
+TD2719932 ␆_____ ~ EARM
+TD76 #4 _____ ~AER -GLOST  📋 "derma" ? _____ ~ EARM
+TD219 attempt 3 DERMA n m m m m
+TD131 #5 __A_E ~S -GLORT  📋 "derma" ? ␅
+TD3154896 ␆__A_E ~ SD
+TD74 #5 __A_E ~S -GLORT  📋 "derma" ? __A_E ~ SD
+TD217 attempt 4 DERMA m n n n n
+TD376 ? ␅
+TD316689 ␆
+TD100 ? 
+TD174 question done
+TD454 > ␅
+TD429636 ␆*
+TD55 > *
+TD734195 questioning: ["thump", "#2"]
+TD182 #1 __R_S ~AE -DGLMOT  📋 "thump" ? ␅
+TD3440093 ␆.
+TD54 #1 __R_S ~AE -DGLMOT  📋 "thump" ? .
+TD173 attempt 0 THUMP n n n n n
+TD74 #2 T__M_ -ADEGLORS  📋 "thump" ? ␅
+TD568357 ␆/it
+TD72 #2 T__M_ -ADEGLORS  📋 "thump" ? /it
+TD214 attempt 1 THUMP Y Y Y Y Y
+TD86 #3 _____ ~LMO -ADEGRST  📋 "thump" ? ␅
+TD1007340 ␆.
+TD109 #3 _____ ~LMO -ADEGRST  📋 "thump" ? .
+TD348 attempt 2 THUMP n n n m n
+TD137 #4 _____ ~AEMR -DGLOST  📋 "thump" ? ␅
+TD851057 ␆.
+TD108 #4 _____ ~AEMR -DGLOST  📋 "thump" ? .
+TD360 attempt 3 THUMP n n n m n
+TD146 #5 __A_E ~DS -AEGLMORT  📋 "thump" ? ␅
+TD4769952 ␆__A_E ~ SDP
+TD73 #5 __A_E ~DS -AEGLMORT  📋 "thump" ? __A_E ~ SDP
+TD217 attempt 4 THUMP n n n n m
+TD338 ? ␅
+TD246490 ␆
+TD119 ? 
+TD187 question done
+TD767 > ␅
+TD404510 ␆*
+TD87 > *
+TD1687283 questioning: ["acres", "#1"]
+TD163 #1 __R_S ~AE -DGHLMOPTU  📋 "acres" ? ␅
+TD2701599 ␆/it
+TD58 #1 __R_S ~AE -DGHLMOPTU  📋 "acres" ? /it
+TD126 attempt 0 ACRES Y Y Y Y Y
+TD48 #3 _____ ~LMO -ADEGHPRSTU  📋 "acres" ? ␅
+TD1561304 ␆.
+TD73 #3 _____ ~LMO -ADEGHPRSTU  📋 "acres" ? .
+TD168 attempt 2 ACRES n n n n n
+TD92 #4 _____ ~AEMR -DGHLOPSTU  📋 "acres" ? ␅
+TD3462099 ␆A__E_ ~ RM
+TD87 #4 _____ ~AEMR -DGHLOPSTU  📋 "acres" ? A__E_ ~ RM
+TD293 attempt 3 ACRES Y n m Y n
+TD194 #5 __A_E ~DPS -AEGHLMORTU  📋 "acres" ? ␅
+TD1761884 ␆.
+TD122 #5 __A_E ~DPS -AEGHLMORTU  📋 "acres" ? .
+TD459 attempt 4 ACRES n n n n m
+TD854 ? ␅
+TD158236 ␆
+TD93 ? 
+TD117 question done
+TD517 > ␅
+TD369124 ␆*
+TD103 > *
+TD1767999 questioning: ["limbo", "#3"]
+TD229 #3 _____ ~LMO -ACDEGHPRSTU  📋 "limbo" ? ␅
+TD2809581 ␆/it
+TD62 #3 _____ ~LMO -ACDEGHPRSTU  📋 "limbo" ? /it
+TD169 attempt 2 LIMBO Y Y Y Y Y
+TD71 #4 A__E_ ~MR -CDGHLOPSTU  📋 "limbo" ? ␅
+TD3497856 ␆A__E_ ~ RMB
+TD92 #4 A__E_ ~MR -CDGHLOPSTU  📋 "limbo" ? A__E_ ~ RMB
+TD238 attempt 3 LIMBO n n m m n
+TD145 #5 __A_E ~DPS -ACEGHLMORTU  📋 "limbo" ? ␅
+TD1601417 ␆.
+TD72 #5 __A_E ~DPS -ACEGHLMORTU  📋 "limbo" ? .
+TD227 attempt 4 LIMBO n n n n n
+TD363 ? ␅
+TD144192 ␆
+TD121 ? 
+TD136 question done
+TD617 > ␅
+TD398106 ␆*
+TD123 > *
+TD1669649 questioning: ["amber", "#4"]
+TD179 #4 A__E_ ~BMR -CDGHILOPSTU  📋 "amber" ? ␅
+TD6693951 ␆/it
+TD74 #4 A__E_ ~BMR -CDGHILOPSTU  📋 "amber" ? /it
+TD253 attempt 3 AMBER Y Y Y Y Y
+TD98 #5 __A_E ~DPS -ABCEGHILMORTU  📋 "amber" ? ␅
+TD1630872 ␆.
+TD81 #5 __A_E ~DPS -ABCEGHILMORTU  📋 "amber" ? .
+TD241 attempt 4 AMBER n n n n n
+TD326 ? ␅
+TD194181 ␆
+TD89 ? 
+TD86 question done
+TD307 > ␅
+TD406312 ␆*
+TD84 > *
+TD1126910 questioning: ["spade", "#5"]
+TD167 #5 __A_E ~DPS -ABCEGHILMORTU  📋 "spade" ? ␅
+TD2862421 ␆/it
+TD149 #5 __A_E ~DPS -ABCEGHILMORTU  📋 "spade" ? /it
+TD446 attempt 4 SPADE Y Y Y Y Y
+TD680 ? ␅
+TD1627331 ␆
+TD58 ? 
+TD61 question done
+TD26454 📋> ␅
+TD3867431 ␆squareword.org 1686: 8 guesses
+TD93 📋> squareword.org 1686: 8 guesses
+TD17 📋> ␅
+TD72 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD25 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD20 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD19 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD19 ␆🟩🟨🟨🟩🟨
+TD5 📋> 🟩🟨🟨🟩🟨
+TD5 📋> ␅
+TD18 ␆🟨🟨🟩🟨🟩
+TD5 📋> 🟨🟨🟩🟨🟩
+TD5 📋> ␅
+TD19 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD20 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD261808 ␆#squareword #squareword1686
+TD79 📋> #squareword #squareword1686
+TD14 📋> ␅
+TD169342 ␄
+TD145 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1686: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1686"}
+TD1192 result: "squareword.org 1686: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1686"
+TD130 📆 2026-09-13 ? ␅
+TD174655 ␆
+TD152 📆 2026-09-13 ? 
