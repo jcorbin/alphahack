@@ -709,6 +709,7 @@ class Search(StoredLog):
     default_site: str = 'cemantle.certitudes.org'
     default_lang: str = ''
     default_chat_model: str = environ.get('OLLAMA_MODEL', 'llama')
+    default_llm_thinking: ThinkingValue = parse_think(environ.get('OLLAMA_THINK', ''), None)
     default_system_prompt: str = ' '.join([
         'You are a related word suggestion oracle.',
         'Give your responses as a simple numbered list of words, one per line.',
@@ -723,6 +724,7 @@ class Search(StoredLog):
         _ = parser.add_argument('--lang', default=self.lang)
         _ = parser.add_argument('--tz', default=self.pub_tzname)
         _ = parser.add_argument('--model', default=self.default_chat_model)
+        _ = parser.add_argument('--think', default=self.default_llm_thinking, type=parse_think)
         _ = parser.add_argument('--auto', action='store_true')
         _ = parser.add_argument('--no-auto', action='store_false', dest='auto')
 
@@ -736,6 +738,10 @@ class Search(StoredLog):
         if model:
             self.default_chat_model = model
             self.llm_model = model
+        think = cast(ThinkingValue, args.think)
+        if think:
+            self.default_llm_thinking = think
+            self.llm_thinking = think
         self.full_auto = cast(bool, args.auto)
 
     # TODO make this a thing in general for Meta's solver protocol?
@@ -752,6 +758,11 @@ class Search(StoredLog):
                 model = next(tokens)
                 self.default_chat_model = model
                 self.llm_model = model
+
+            if tokens.have(r'(?x) --? t (hink)? $'):
+                think = parse_think(next(tokens))
+                self.default_llm_thinking = think
+                self.llm_thinking = think
 
             _ = next(tokens)
 
@@ -799,7 +810,7 @@ class Search(StoredLog):
         self.llm_client = ollama.Client()
         self.llm_sel = self.ModelSelector(self.llm_client)
         self.llm_model: str = self.default_chat_model
-        self.llm_thinking: ThinkingValue = None
+        self.llm_thinking: ThinkingValue = self.default_llm_thinking
 
         self.abbr: dict[str, str] = dict(default_abbr)
         self.chat: list[ollama.Message] = []
