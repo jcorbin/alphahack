@@ -792,8 +792,8 @@ class Search(StoredLog):
         self.logged_cookies: dict[str, str] = {}
 
         self.llm_client = ollama.Client()
-        self.llm_model: str = self.default_chat_model
         self.llm_sel = self.ModelSelector(self.llm_client)
+        self.llm_model: str = self.default_chat_model
         self.llm_thinking: ThinkingValue = None
 
         self.abbr: dict[str, str] = dict(default_abbr)
