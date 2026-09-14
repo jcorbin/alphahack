@@ -1,0 +1,183 @@
+T238.03089788599755 now: 2026-09-14T08:08:08EDT
+TD190 site: dontwordle.com
+TD35 wordlist: nwl2023.txt
+TD64  ...␅
+TD153472 ␆
+TD197  ...
+TD234 1> ␅
+TD5819014 ␆
+TD64 1> 
+TD117 1> ␅
+TD5857490 ␆*
+TD163 1> *
+TD206530 ? ␅
+TD589395 ␄
+TD66 <EOF>
+TD54 1> ␅
+TD2486763 ␆* -bot 10
+TD103 1> * -bot 10
+TD146641 ? ␅
+TD1445207 ␆1
+TD91 ? 1
+TD275 📋 "aloes" ? ␅
+TD3814284 ␆MMnMn
+TD109 📋 "aloes" ? MMnMn
+TD717 tried: ALOES m m n m n
+TD301 2> ␅
+TD688734 ␆undo
+TD155 2> undo
+TD238 undo
+TD280 1> ␅
+TD2358093 ␆*
+TD143 1> *
+TD129515 ? ␅
+TD48668 ␆1
+TD87 ? 1
+TD243 📋 "vivid" ? ␅
+TD5444943 ␆nnnnn
+TD102 📋 "vivid" ? nnnnn
+TD481 tried: VIVID n n n n n
+TD310 2> ␅
+TD5686272 ␆* :v [aloes] -bot 10
+TD150 2> * :v [aloes] -bot 10
+TD104301 ? ␅
+TD589030 ␆1
+TD151 ? 1
+TD387 📋 "thump" ? ␅
+TD3970014 ␆nnnnn
+TD115 📋 "thump" ? nnnnn
+TD231 tried: THUMP n n n n n
+TD268 3> ␅
+TD839613 ␆undo
+TD118 3> undo
+TD179 undo
+TD261 2> ␅
+TD13451772 ␆* :v [aloesthump] -bot 10
+TD171 2> * :v [aloesthump] -bot 10
+TD115644 2> ␅
+TD2124960 ␆*
+TD93 2> *
+TD105894 ? ␅
+TD167197 ␆1
+TD115 ? 1
+TD299 📋 "kooky" ? ␅
+TD5664604 ␆nnnnY
+TD112 📋 "kooky" ? nnnnY
+TD237 tried: KOOKY n n n n Y
+TD290 3> ␅
+TD717581 ␆undo
+TD68 3> undo
+TD95 undo
+TD167 2> ␅
+TD2268875 ␆*
+TD48 2> *
+TD100931 ? ␅
+TD84179 ␆1
+TD117 ? 1
+TD270 📋 "kooks" ? ␅
+TD4571742 ␆nnnnn
+TD103 📋 "kooks" ? nnnnn
+TD188 tried: KOOKS n n n n n
+TD197 3> ␅
+TD410192 ␆*
+TD96 3> *
+TD98499 ? ␅
+TD655117 ␆1
+TD86 ? 1
+TD208 📋 "butut" ? ␅
+TD4202882 ␆nnnnn
+TD148 📋 "butut" ? nnnnn
+TD381 tried: BUTUT n n n n n
+TD348 4> ␅
+TD590539 ␆*
+TD168 4> *
+TD195209 📋 "grrrl" ? ␅
+TD34518 ␆1
+TD60 📋 "grrrl" ? 1
+TD164 📋 "grrrl" ? ␅
+TD8576940 ␆nnYnM
+TD115 📋 "grrrl" ? nnYnM
+TD259 tried: GRRRL n n Y n m
+TD303 5> ␅
+TD1229162 ␆undo
+TD96 5> undo
+TD139 undo
+TD287 4> ␅
+TD947327 ␆*
+TD153 4> *
+TD200476 ? ␅
+TD8273181 ␆2
+TD118 ? 2
+TD491 📋 "pygmy" ? ␅
+TD6176075 ␆nnnnY
+TD82 📋 "pygmy" ? nnnnY
+TD128 tried: PYGMY n n n n Y
+TD202 5> ␅
+TD434843 ␆*
+TD94 5> *
+TD190299 ? ␅
+TD918357 ␆1
+TD146 ? 1
+TD420 📋 "canny" ? ␅
+TD3625581 ␆nYnnY
+TD83 📋 "canny" ? nYnnY
+TD180 tried: CANNY n Y n n Y
+TD229 6> ␅
+TD414109 ␆*
+TD87 6> *
+TD95868 📋 "jazzy" ? ␅
+TD4297386 ␆nYnnY
+TD121 📋 "jazzy" ? nYnnY
+TD245 tried: JAZZY n Y n n Y
+TD307 📋> ␅
+TD2351191 ␆Don't Wordle 1574 - SURVIVED
+TD90 📋> Don't Wordle 1574 - SURVIVED
+TD24 📋> ␅
+TD60 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD21 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD17 📋> ␅
+TD36 ␆⬜⬜⬜⬜⬜7346
+TD18 📋> ⬜⬜⬜⬜⬜7346
+TD16 📋> ␅
+TD33 ␆⬜⬜⬜⬜⬜1934
+TD18 📋> ⬜⬜⬜⬜⬜1934
+TD16 📋> ␅
+TD31 ␆⬜⬜⬜⬜⬜775
+TD17 📋> ⬜⬜⬜⬜⬜775
+TD15 📋> ␅
+TD32 ␆⬜⬜⬜⬜🟩68
+TD17 📋> ⬜⬜⬜⬜🟩68
+TD16 📋> ␅
+TD32 ␆⬜🟩⬜⬜🟩9
+TD17 📋> ⬜🟩⬜⬜🟩9
+TD16 📋> ␅
+TD50 ␆⬜🟩⬜⬜🟩8
+TD17 📋> ⬜🟩⬜⬜🟩8
+TD16 📋> ␅
+TD30 ␆Undos used: 4
+TD17 📋> Undos used: 4
+TD17 📋> ␅
+TD30 ␆
+TD17 📋> 
+TD16 📋> ␅
+TD30 ␆  8 words remaining
+TD18 📋>   8 words remaining
+TD16 📋> ␅
+TD30 ␆x 8 unused letters
+TD17 📋> x 8 unused letters
+TD15 📋> ␅
+TD31 ␆= 64 total score
+TD17 📋> = 64 total score
+TD16 📋> ␅
+TD30 ␆
+TD17 📋> 
+TD16 📋> ␅
+TD241982 ␆https://dontwordle.com
+TD128 📋> https://dontwordle.com
+TD35 📋> ␅
+TD135426 ␄
+TD329 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1574 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7346\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1934\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c775\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe968\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe99\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe98\nUndos used: 4\n\n  8 words remaining\nx 8 unused letters\n= 64 total score\n\nhttps://dontwordle.com"}
+TD1664 result: "Don't Wordle 1574 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7346\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1934\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c775\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe968\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe99\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe98\nUndos used: 4\n\n  8 words remaining\nx 8 unused letters\n= 64 total score\n\nhttps://dontwordle.com"
+TD110 📆 2026-09-14 ? ␅
+TD130649 ␆
+TD86 📆 2026-09-14 ? 
