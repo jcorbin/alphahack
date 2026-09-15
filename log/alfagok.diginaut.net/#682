@@ -1,0 +1,90 @@
+T25068.66926860901 now: 2026-09-15T07:04:05EDT
+TD165 site: alfagok.diginaut.net
+TD379122 loaded 399465 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1387 words excluded) asof d76b53d8e1a84e3b05d955df0cad73fa8794eccf
+TD73  ...␅
+TD4073588 ␆
+TD95  ...
+TD227 [0 : 199531 : 399465] lij? ␅
+TD2705806 ␆a
+TD80 [0 : 199531 : 399465] lij? a
+TD285 progress: 1 199531 lij
+TD94 [199532 : 299485 : 399465] schrok? ␅
+TD1328346 ␆a
+TD77 [199532 : 299485 : 399465] schrok? a
+TD112 progress: 1 299485 schrok
+TD90 [299486 : 349471 : 399465] vakanties? ␅
+TD1371888 ␆a
+TD76 [299486 : 349471 : 399465] vakanties? a
+TD83 progress: 1 349471 vakanties
+TD91 [349472 : 374465 : 399465] vrijst? ␅
+TD1267111 ␆a
+TD99 [349472 : 374465 : 399465] vrijst? a
+TD103 progress: 1 374465 vrijst
+TD143 [374466 : 386849 : 399465] winkel? ␅
+TD1424546 ␆a
+TD89 [374466 : 386849 : 399465] winkel? a
+TD102 progress: 1 386849 winkel
+TD115 [386850 : 392850 : 399465] zelf? ␅
+TD1300905 ␆a
+TD70 [386850 : 392850 : 399465] zelf? a
+TD78 progress: 1 392850 zelf
+TD100 [392851 : 396154 : 399465] zonde? ␅
+TD1346006 ␆b
+TD85 [392851 : 396154 : 399465] zonde? b
+TD101 progress: -1 396154 zonde
+TD106 [392851 : 394386 : 396154] ziel? ␅
+TD1545891 ␆a
+TD58 [392851 : 394386 : 396154] ziel? a
+TD64 progress: 1 394386 ziel
+TD69 [394387 : 395265 : 396154] zit? ␅
+TD1407788 ␆a
+TD92 [394387 : 395265 : 396154] zit? a
+TD85 progress: 1 395265 zit
+TD98 [395266 : 395705 : 396154] zog? ␅
+TD1796820 ␆b
+TD137 [395266 : 395705 : 396154] zog? b
+TD165 progress: -1 395705 zog
+TD183 [395266 : 395402 : 395705] zoek? ␅
+TD1589728 ␆a
+TD95 [395266 : 395402 : 395705] zoek? a
+TD98 progress: 1 395402 zoek
+TD107 [395403 : 395551 : 395705] zoel? ␅
+TD1541635 ␆b
+TD103 [395403 : 395551 : 395705] zoel? b
+TD113 progress: -1 395551 zoel
+TD501 [395403 : 395477 : 395551] zoekopdrachten? ␅
+TD1579260 ␆b
+TD84 [395403 : 395477 : 395551] zoekopdrachten? b
+TD94 progress: -1 395477 zoekopdrachten
+TD287 [395403 : 395440 : 395477] zoekgigant? ␅
+TD1984044 ␆b
+TD139 [395403 : 395440 : 395477] zoekgigant? b
+TD123 progress: -1 395440 zoekgigant
+TD203 [395403 : 395418 : 395440] zoeken? ␅
+TD1838900 ␆it
+TD85 [395403 : 395418 : 395440] zoeken? it
+TD97 progress: 0 395418 zoeken
+TD29 [395403 : 395418 : 395440] <Done>.
+TD93 📋> ␅
+TD3431969 ␆🧩 Puzzel #682
+TD125 📋> 🧩 Puzzel #682
+TD31 📋> ␅
+TD77 ␆🤔 15 gokken
+TD16 📋> 🤔 15 gokken
+TD15 📋> ␅
+TD32 ␆⏱️ 21s
+TD16 📋> ⏱️ 21s
+TD15 📋> ␅
+TD232528 ␆🔗 alfagok.diginaut.net
+TD108 📋> 🔗 alfagok.diginaut.net
+TD22 📋> ␅
+TD120007 ␄
+TD173 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #682\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 21s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD836 result: "\ud83e\udde9 Puzzel #682\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 21s\n\ud83d\udd17 alfagok.diginaut.net"
+TD28 result puzzle: 682
+TD14 result guesses: 15
+TD8 result time: 21s
+TD8 result link: alfagok.diginaut.net
+TD87 📆 2026-09-15 ? ␅
+TD133637 ␆
+TD76 📆 2026-09-15 ? 
