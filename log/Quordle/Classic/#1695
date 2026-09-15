@@ -1,0 +1,200 @@
+T25422.035392849997 now: 2026-09-15T07:09:58EDT
+TD69 site: https://www.merriam-webster.com/games/quordle/#/
+TD12 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD57  ...␅
+TD221732 ␆
+TD47  ...
+TD513735 > ␅
+TD9878172 ␆*
+TD83 > *
+TD48436 ? ␅
+TD659737 ␆1
+TD94 ? 1
+TD177 questioning: raise
+TD184 Classic #1 _____? ␅
+TD2354913 ␆nnnYn
+TD86 Classic #1 _____? nnnYn
+TD274 attempt: 0 RAISE n n n Y n
+TD113 Classic #2 _____? ␅
+TD1506525 ␆nnMnY
+TD89 Classic #2 _____? nnMnY
+TD287 attempt: 1 RAISE n n m n Y
+TD120 Classic #3 _____? ␅
+TD1348403 ␆nMnnM
+TD59 Classic #3 _____? nMnnM
+TD141 attempt: 2 RAISE n m n n m
+TD82 Classic #4 _____? ␅
+TD1218112 ␆nnnnY
+TD111 Classic #4 _____? nnnnY
+TD285 attempt: 3 RAISE n n n n Y
+TD434664 > ␅
+TD717223 ␆*
+TD97 > *
+TD2868 ? ␅
+TD1554210 ␆2
+TD78 ? 2
+TD152 questioning: lunge
+TD179 Classic #1 ___S_ -AEIR? ␅
+TD2371270 ␆nMnnn
+TD79 Classic #1 ___S_ -AEIR? nMnnn
+TD209 attempt: 0 LUNGE n m n n n
+TD114 Classic #2 ____E ~I -ARS? ␅
+TD1522022 ␆YnnnY
+TD89 Classic #2 ____E ~I -ARS? YnnnY
+TD269 attempt: 1 LUNGE Y n n n Y
+TD141 Classic #3 _____ ~AE -IRS? ␅
+TD1552119 ␆MnnnM
+TD74 Classic #3 _____ ~AE -IRS? MnnnM
+TD198 attempt: 2 LUNGE m n n n m
+TD102 Classic #4 ____E -AIRS? ␅
+TD2261793 ␆MYnMY
+TD53 Classic #4 ____E -AIRS? MYnMY
+TD125 attempt: 3 LUNGE m Y n m Y
+TD467351 > ␅
+TD384528 ␆*
+TD112 > *
+TD891 ? ␅
+TD2690578 ␄
+TD107 <EOF>
+TD451548 > ␅
+TD1156045 ␆* 3
+TD82 > * 3
+TD178975 ? ␅
+TD5608062 ␄
+TD101 <EOF>
+TD476027 > ␅
+TD1281818 ␆* 1
+TD44 > * 1
+TD107066 ? ␅
+TD2056151 ␆2
+TD93 ? 2
+TD170 questioning: bousy
+TD188 Classic #1 ___S_ ~U -AEGILNR? ␅
+TD4159009 ␆nnYYn
+TD117 Classic #1 ___S_ ~U -AEGILNR? nnYYn
+TD358 attempt: 0 BOUSY n n Y Y n
+TD179 Classic #2 L___E ~I -AGNRSU? ␅
+TD1032733 ␆nnnnn
+TD74 Classic #2 L___E ~I -AGNRSU? nnnnn
+TD190 attempt: 1 BOUSY n n n n n
+TD105 Classic #3 _____ ~AEL -GINRSU? ␅
+TD1248469 ␆nnnnn
+TD82 Classic #3 _____ ~AEL -GINRSU? nnnnn
+TD267 attempt: 2 BOUSY n n n n n
+TD134 Classic #4 _U__E ~GL -AINRS? ␅
+TD3581754 ␆YnMnn
+TD124 Classic #4 _U__E ~GL -AINRS? YnMnn
+TD306 attempt: 3 BOUSY Y n m n n
+TD469226 > ␅
+TD677319 ␆*
+TD120 > *
+TD414 questioning: bugle
+TD176 Classic #1 __US_ -ABEGILNORY? ␅
+TD2603020 ␆nMnnn
+TD55 Classic #1 __US_ -ABEGILNORY? nMnnn
+TD139 attempt: 0 BUGLE n m n n n
+TD73 Classic #2 L___E ~I -ABGNORSUY? ␅
+TD1294189 ␆nnnMY
+TD87 Classic #2 L___E ~I -ABGNORSUY? nnnMY
+TD243 attempt: 1 BUGLE n n n m Y
+TD133 Classic #3 _____ ~AEL -BGINORSUY? ␅
+TD1331162 ␆nnnMM
+TD102 Classic #3 _____ ~AEL -BGINORSUY? nnnMM
+TD211 attempt: 2 BUGLE n n n m m
+TD120 Classic #4 BU__E ~GL -AINORSY? ␅
+TD1334445 ␆YYYYY
+TD110 Classic #4 BU__E ~GL -AINORSY? YYYYY
+TD278 attempt: 3 BUGLE Y Y Y Y Y
+TD332964 > ␅
+TD824624 ␆*
+TD79 > *
+TD462 ? ␅
+TD2035443 ␄
+TD140 <EOF>
+TD335387 > ␅
+TD1397728 ␆* 2
+TD104 > * 2
+TD102275 ? ␅
+TD1112174 ␄
+TD115 <EOF>
+TD332742 > ␅
+TD1465794 ␆* 3
+TD111 > * 3
+TD140243 ? ␅
+TD6822871 ␆1
+TD90 ? 1
+TD165 questioning: pleat
+TD195 Classic #1 __US_ -ABEGILNORY? ␅
+TD2964391 ␆nnnnn
+TD93 Classic #1 __US_ -ABEGILNORY? nnnnn
+TD243 attempt: 0 PLEAT n n n n n
+TD137 Classic #2 L___E ~I -ABGNORSUY? ␅
+TD1800098 ␆nMMnM
+TD68 Classic #2 L___E ~I -ABGNORSUY? nMMnM
+TD190 attempt: 1 PLEAT n m m n m
+TD100 Classic #3 _____ ~AEL -BGINORSUY? ␅
+TD1397088 ␆nMMMM
+TD96 Classic #3 _____ ~AEL -BGINORSUY? nMMMM
+TD253 attempt: 2 PLEAT n m m m m
+TD316015 > ␅
+TD582515 ␆*
+TD74 > *
+TD303 questioning: lithe
+TD125 Classic #1 __US_ -ABEGILNOPRTY? ␅
+TD2795217 ␆nnnMn
+TD102 Classic #1 __US_ -ABEGILNOPRTY? nnnMn
+TD221 attempt: 0 LITHE n n n m n
+TD127 Classic #2 L___E ~IT -ABGNOPRSUY? ␅
+TD1309087 ␆YYYYY
+TD88 Classic #2 L___E ~IT -ABGNOPRSUY? YYYYY
+TD270 attempt: 1 LITHE Y Y Y Y Y
+TD150 Classic #3 _____ ~AELT -BGINOPRSUY? ␅
+TD1678615 ␆MnMnM
+TD49 Classic #3 _____ ~AELT -BGINOPRSUY? MnMnM
+TD108 attempt: 2 LITHE m n m n m
+TD245647 > ␅
+TD699738 ␆*
+TD84 > *
+TD428 questioning: delta
+TD141 Classic #1 __US_ ~H -ABEGILNOPRTY? ␅
+TD3139876 ␆nnnnn
+TD112 Classic #1 __US_ ~H -ABEGILNOPRTY? nnnnn
+TD304 attempt: 0 DELTA n n n n n
+TD190 Classic #3 _____ ~AELT -BGHINOPRSUY? ␅
+TD1482720 ␆YYYYY
+TD166 Classic #3 _____ ~AELT -BGHINOPRSUY? YYYYY
+TD296 attempt: 2 DELTA Y Y Y Y Y
+TD114971 > ␅
+TD1905539 ␆*
+TD70 > *
+TD357 ? ␅
+TD4402588 ␆2
+TD162 ? 2
+TD219 questioning: shush
+TD188 Classic #1 __US_ ~H -ABDEGILNOPRTY? ␅
+TD3055306 ␆YYYYY
+TD87 Classic #1 __US_ ~H -ABDEGILNOPRTY? YYYYY
+TD219 attempt: 0 SHUSH Y Y Y Y Y
+TD96 📋> ␅
+TD5960330 ␆🙂 Daily Quordle 1695
+TD91 📋> 🙂 Daily Quordle 1695
+TD17 📋> ␅
+TD97 ␆8️⃣6️⃣
+TD15 📋> 8️⃣6️⃣
+TD9 📋> ␅
+TD36 ␆7️⃣4️⃣
+TD12 📋> 7️⃣4️⃣
+TD7 📋> ␅
+TD31 ␆m-w.com/games/quordle/
+TD12 📋> m-w.com/games/quordle/
+TD8 📋> ␅
+TD202044 ␆
+TD145 📋> 
+TD22 📋> ␅
+TD166812 ␄
+TD300 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1695\n8\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD377 result: "\ud83d\ude42 Daily Quordle 1695\n8\ufe0f\u20e36\ufe0f\u20e3\n7\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD150 📆 2026-09-15 ? ␅
+TD204670 ␆
+TD79 📆 2026-09-15 ? 
