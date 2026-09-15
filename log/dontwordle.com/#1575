@@ -1,0 +1,174 @@
+T25143.809022343004 now: 2026-09-15T07:05:20EDT
+TD453 site: dontwordle.com
+TD66 wordlist: nwl2023.txt
+TD112  ...␅
+TD197501 ␆
+TD130  ...
+TD158 1> ␅
+TD4683675 ␆* -bot 10
+TD99 1> * -bot 10
+TD202733 ? ␅
+TD598741 ␆1
+TD132 ? 1
+TD309 📋 "arles" ? ␅
+TD3475512 ␆nMnnn
+TD126 📋 "arles" ? nMnnn
+TD408 tried: ARLES n m n n n
+TD245 2> ␅
+TD988198 ␆undo
+TD141 2> undo
+TD213 undo
+TD275 1> ␅
+TD5921044 ␆* :v [arles] -bot 10
+TD68 1> * :v [arles] -bot 10
+TD139890 ? ␅
+TD518920 ␆1
+TD85 ? 1
+TD213 📋 "tondi" ? ␅
+TD4087720 ␆nnMnn
+TD77 📋 "tondi" ? nnMnn
+TD183 tried: TONDI n n m n n
+TD197 2> ␅
+TD632438 ␆undo
+TD363 2> undo
+TD211 undo
+TD237 1> ␅
+TD3243788 ␆*
+TD166 1> *
+TD133506 ? ␅
+TD109345 ␆1
+TD144 ? 1
+TD389 📋 "commo" ? ␅
+TD4283898 ␆Ynnnn
+TD61 📋 "commo" ? Ynnnn
+TD127 tried: COMMO Y n n n n
+TD124 2> ␅
+TD665654 ␆undo
+TD118 2> undo
+TD189 undo
+TD235 1> ␅
+TD2133040 ␆*
+TD50 1> *
+TD112546 ? ␅
+TD66524 ␆1
+TD92 ? 1
+TD269 📋 "queue" ? ␅
+TD5550023 ␆nMnnn
+TD91 📋 "queue" ? nMnnn
+TD171 tried: QUEUE n m n n n
+TD167 2> ␅
+TD822716 ␆undo
+TD104 2> undo
+TD154 undo
+TD157 1> ␅
+TD2480452 ␆*
+TD93 1> *
+TD119402 ? ␅
+TD440771 ␆1
+TD93 ? 1
+TD187 📋 "feeze" ? ␅
+TD2678785 ␆nnnnn
+TD95 📋 "feeze" ? nnnnn
+TD234 tried: FEEZE n n n n n
+TD262 2> ␅
+TD1281676 ␆*
+TD88 2> *
+TD98673 ? ␅
+TD213023 ␆1
+TD74 ? 1
+TD187 📋 "qajaq" ? ␅
+TD5032076 ␆nnnnn
+TD114 📋 "qajaq" ? nnnnn
+TD199 tried: QAJAQ n n n n n
+TD215 3> ␅
+TD413653 ␆*
+TD78 3> *
+TD98832 ? ␅
+TD655554 ␆1
+TD70 ? 1
+TD171 📋 "vivid" ? ␅
+TD3846894 ␆nnnnn
+TD75 📋 "vivid" ? nnnnn
+TD147 tried: VIVID n n n n n
+TD191 4> ␅
+TD920449 ␆*
+TD91 4> *
+TD94098 ? ␅
+TD513944 ␆1
+TD88 ? 1
+TD246 📋 "stoss" ? ␅
+TD3653241 ␆nnnnn
+TD74 📋 "stoss" ? nnnnn
+TD164 tried: STOSS n n n n n
+TD182 5> ␅
+TD491768 ␆*
+TD48 5> *
+TD91286 ? ␅
+TD605553 ␆1
+TD85 ? 1
+TD207 📋 "xylyl" ? ␅
+TD3681341 ␆nnnnn
+TD87 📋 "xylyl" ? nnnnn
+TD183 tried: XYLYL n n n n n
+TD197 6> ␅
+TD407031 ␆*
+TD110 6> *
+TD182299 ? ␅
+TD36268 ␆1
+TD62 ? 1
+TD153 📋 "bumph" ? ␅
+TD5189838 ␆nMnnM
+TD98 📋 "bumph" ? nMnnM
+TD199 tried: BUMPH n m n n m
+TD235 📋> ␅
+TD2622969 ␆Don't Wordle 1575 - SURVIVED
+TD128 📋> Don't Wordle 1575 - SURVIVED
+TD24 📋> ␅
+TD66 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD62 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD12 📋> ␅
+TD209 ␆⬜⬜⬜⬜⬜6482
+TD91 📋> ⬜⬜⬜⬜⬜6482
+TD21 📋> ␅
+TD61 ␆⬜⬜⬜⬜⬜3121
+TD12 📋> ⬜⬜⬜⬜⬜3121
+TD10 📋> ␅
+TD26 ␆⬜⬜⬜⬜⬜1541
+TD9 📋> ⬜⬜⬜⬜⬜1541
+TD9 📋> ␅
+TD21 ␆⬜⬜⬜⬜⬜133
+TD9 📋> ⬜⬜⬜⬜⬜133
+TD9 📋> ␅
+TD18 ␆⬜⬜⬜⬜⬜32
+TD9 📋> ⬜⬜⬜⬜⬜32
+TD9 📋> ␅
+TD19 ␆⬜🟨⬜⬜🟨5
+TD9 📋> ⬜🟨⬜⬜🟨5
+TD9 📋> ␅
+TD23 ␆Undos used: 4
+TD15 📋> Undos used: 4
+TD10 📋> ␅
+TD19 ␆
+TD9 📋> 
+TD9 📋> ␅
+TD17 ␆  5 words remaining
+TD10 📋>   5 words remaining
+TD10 📋> ␅
+TD17 ␆x 6 unused letters
+TD9 📋> x 6 unused letters
+TD9 📋> ␅
+TD19 ␆= 30 total score
+TD9 📋> = 30 total score
+TD9 📋> ␅
+TD19 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD193203 ␆https://dontwordle.com
+TD68 📋> https://dontwordle.com
+TD12 📋> ␅
+TD129333 ␄
+TD133 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1575 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6482\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3121\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1541\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c133\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c32\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe85\nUndos used: 4\n\n  5 words remaining\nx 6 unused letters\n= 30 total score\n\nhttps://dontwordle.com"}
+TD1833 result: "Don't Wordle 1575 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6482\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3121\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1541\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c133\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c32\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe85\nUndos used: 4\n\n  5 words remaining\nx 6 unused letters\n= 30 total score\n\nhttps://dontwordle.com"
+TD115 📆 2026-09-15 ? ␅
+TD149226 ␆
+TD79 📆 2026-09-15 ? 
