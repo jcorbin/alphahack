@@ -678,6 +678,18 @@ def main():
             carp(f'expected attempt <word> <feedback>: {err}')
         attempts.append(word.collect(at))
 
+    all_tokens = set(
+        str(line).upper().strip().partition(' ')[0]
+        for line in sys.stdin)
+    can_tokens = set(
+        token
+        for token in all_tokens
+        if len(token) == len(word))
+
+    if verbose:
+        print(f'- all tokens: {len(all_tokens)}', file=sys.stderr)
+        print(f'- can tokens: {len(can_tokens)}', file=sys.stderr)
+
     if verbose:
         for n, at in enumerate(attempts, 1):
             print(f'{n}. {at}', file=sys.stderr)
@@ -690,12 +702,10 @@ def main():
         print(pat, file=sys.stderr)
 
     found = False
-    for line in sys.stdin:
-        token, _ , _ = line.upper().strip().partition(' ')
-        if len(token) != len(word): continue
-        if not pat.match(token): continue
-        print(token)
-        found = True
+    for token in can_tokens:
+        if pat.match(token):
+            found = True
+            print(token)
 
     if not found:
         if may_gen:
