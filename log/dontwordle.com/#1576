@@ -1,0 +1,186 @@
+T106.9060519929044 now: 2026-09-16T07:55:00EDT
+TD63 site: dontwordle.com
+TD10 wordlist: nwl2023.txt
+TD19  ...␅
+TD542843 ␆
+TD83  ...
+TD99 1> ␅
+TD31656302 ␆* -bot 10
+TD66 1> * -bot 10
+TD140686 ? ␅
+TD979068 ␆1
+TD79 ? 1
+TD174 📋 "serai" ? ␅
+TD5727796 ␆nYnnn
+TD72 📋 "serai" ? nYnnn
+TD332 tried: SERAI n Y n n n
+TD109 2> ␅
+TD855430 ␆undo
+TD62 2> undo
+TD102 undo
+TD90 1> ␅
+TD6847869 ␆* :v [serai] -bot 10
+TD83 1> * :v [serai] -bot 10
+TD100819 ? ␅
+TD643108 ␆1
+TD80 ? 1
+TD214 📋 "knout" ? ␅
+TD4079821 ␆nnnnn
+TD81 📋 "knout" ? nnnnn
+TD181 tried: KNOUT n n n n n
+TD145 2> ␅
+TD623389 ␆undo
+TD81 2> undo
+TD132 undo
+TD140 1> ␅
+TD3535863 ␆* 
+TD76 1> * 
+TD85637 ? ␅
+TD210127 ␆1
+TD65 ? 1
+TD157 📋 "pupus" ? ␅
+TD4279935 ␆nnnnn
+TD71 📋 "pupus" ? nnnnn
+TD142 tried: PUPUS n n n n n
+TD96 2> ␅
+TD8695953 ␆* :v [seraiknout] -bot 10
+TD68 2> * :v [seraiknout] -bot 10
+TD106265 ? ␅
+TD12925728 ␆1
+TD69 ? 1
+TD154 📋 "flyby" ? ␅
+TD1712250 ␆nnnnY
+TD85 📋 "flyby" ? nnnnY
+TD164 tried: FLYBY n n n n Y
+TD149 3> ␅
+TD687510 ␆undo
+TD68 3> undo
+TD96 undo
+TD103 2> ␅
+TD2351288 ␆*
+TD83 2> *
+TD71005 ? ␅
+TD256921 ␆1
+TD74 ? 1
+TD161 📋 "kibbi" ? ␅
+TD3487887 ␆nnnnn
+TD83 📋 "kibbi" ? nnnnn
+TD165 tried: KIBBI n n n n n
+TD132 3> ␅
+TD767557 ␆*
+TD79 3> *
+TD79989 ? ␅
+TD144122 ␆1
+TD80 ? 1
+TD190 📋 "calla" ? ␅
+TD3991729 ␆nnnnn
+TD66 📋 "calla" ? nnnnn
+TD134 tried: CALLA n n n n n
+TD103 4> ␅
+TD559542 ␆*
+TD79 4> *
+TD66055 ? ␅
+TD158086 ␆1
+TD76 ? 1
+TD194 📋 "rotor" ? ␅
+TD4327746 ␆nnnnn
+TD76 📋 "rotor" ? nnnnn
+TD127 tried: ROTOR n n n n n
+TD112 5> ␅
+TD511491 ␆*
+TD72 5> *
+TD151109 ? ␅
+TD840791 ␆1
+TD66 ? 1
+TD153 📋 "dewed" ? ␅
+TD5104205 ␄
+TD94 <EOF>
+TD98 5> ␅
+TD8048129 ␆*
+TD141 5> *
+TD134558 ? ␅
+TD825186 ␆1
+TD74 ? 1
+TD162 📋 "dewed" ? ␅
+TD7295484 ␆MYMMn
+TD68 📋 "dewed" ? MYMMn
+TD128 tried: DEWED m Y m m n
+TD113 6> ␅
+TD855672 ␆undo
+TD69 6> undo
+TD94 undo
+TD141 5> ␅
+TD671650 ␆*
+TD71 5> *
+TD129490 ? ␅
+TD6230679 ␆nYYnn
+TD93 ? nYYnn
+TD356 ? ␅
+TD359364 ␆*
+TD70 ? *
+TD275 ? ␅
+TD1383654 ␆1
+TD73 ? 1
+TD160 📋 "feeze" ? ␅
+TD1719900 ␆nYYnn
+TD81 📋 "feeze" ? nYYnn
+TD163 tried: FEEZE n Y Y n n
+TD160 6> ␅
+TD543557 ␆*
+TD64 6> *
+TD129823 📋 "weeny" ? ␅
+TD4718231 ␆YYYnY
+TD70 📋 "weeny" ? YYYnY
+TD129 tried: WEENY Y Y Y n Y
+TD120 📋> ␅
+TD8112216 ␆Don't Wordle 1576 - SURVIVED
+TD73 📋> Don't Wordle 1576 - SURVIVED
+TD6 📋> ␅
+TD25 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD3 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD2 📋> ␅
+TD7 ␆⬜⬜⬜⬜⬜4885
+TD2 📋> ⬜⬜⬜⬜⬜4885
+TD1 📋> ␅
+TD4 ␆⬜⬜⬜⬜⬜2416
+TD1 📋> ⬜⬜⬜⬜⬜2416
+TD1 📋> ␅
+TD3 ␆⬜⬜⬜⬜⬜623
+TD1 📋> ⬜⬜⬜⬜⬜623
+TD1 📋> ␅
+TD4 ␆⬜⬜⬜⬜⬜73
+TD1 📋> ⬜⬜⬜⬜⬜73
+TD1 📋> ␅
+TD4 ␆⬜🟩🟩⬜⬜5
+TD1 📋> ⬜🟩🟩⬜⬜5
+TD1 📋> ␅
+TD4 ␆🟩🟩🟩⬜🟩1
+TD1 📋> 🟩🟩🟩⬜🟩1
+TD1 📋> ␅
+TD3 ␆Undos used: 4
+TD2 📋> Undos used: 4
+TD2 📋> ␅
+TD3 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD3 ␆  1 words remaining
+TD2 📋>   1 words remaining
+TD1 📋> ␅
+TD3 ␆x 8 unused letters
+TD1 📋> x 8 unused letters
+TD1 📋> ␅
+TD3 ␆= 8 total score
+TD1 📋> = 8 total score
+TD1 📋> ␅
+TD3 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD95285 ␆https://dontwordle.com
+TD71 📋> https://dontwordle.com
+TD6 📋> ␅
+TD335977 ␄
+TD136 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1576 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4885\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2416\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c623\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c73\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c5\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score\n\nhttps://dontwordle.com"}
+TD597 result: "Don't Wordle 1576 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4885\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2416\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c623\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c73\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c5\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score\n\nhttps://dontwordle.com"
+TD64 📆 2026-09-16 ? ␅
+TD399237 ␆
+TD75 📆 2026-09-16 ? 
