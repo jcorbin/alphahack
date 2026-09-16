@@ -618,6 +618,8 @@ def main():
         yield f''
         yield f'  -word ( _ | <LETTER> )... [~ MAY...] [- CANT...] [<LETTER>:<MAX>]'
         yield f''
+        yield f'  -probe <LETTERS>'
+        yield f''
         yield f'  -void <LETTER...>'
         yield f''
         yield f'  -gen -- No Matches? then generate all maybe strings'
@@ -629,6 +631,7 @@ def main():
     word = Word(size=5)
     verbose: int = 0
     void: set[str] = set()
+    probe_lets: set[str] = set()
 
     args = PeekStr(sys.argv[1:])
     while args:
@@ -654,6 +657,13 @@ def main():
                 if (attempts or word) and not args.have(r'-f'):
                     carp(f'{opt} given after prior word feedback ; give -f to force')
                 word = Word.parse(args)
+                continue
+
+            if name.lower() in ('p', 'probe'):
+                lets = args.have(r'[a-zA-Z]+', lambda m: m[0])
+                if not lets:
+                    carp('-probe requires a <LETTERS> argument')
+                probe_lets.update(lets.upper())
                 continue
 
             if name.lower() == 'v':
@@ -689,6 +699,35 @@ def main():
     if verbose:
         print(f'- all tokens: {len(all_tokens)}', file=sys.stderr)
         print(f'- can tokens: {len(can_tokens)}', file=sys.stderr)
+
+    # TODO probe_lets <- probe_words by frequency/entropy analysis
+    if probe_lets:
+        if verbose:
+            print(f'- probe: {' '.join(sorted(probe_lets))}', file=sys.stderr)
+
+        for elide in range(len(probe_lets)):
+            may_have = sorted(probe_lets)
+            for can_has in combinations(may_have, len(may_have) - elide):
+                can_word = Word(size=len(word))
+                can_word.may.update(can_has)
+                can_pat = can_word.pattern(void=void)
+                can_try = sorted(
+                    token
+                    for token in can_tokens
+                    if can_pat.match(token))
+                if verbose:
+                    print(f'? {can_word} {len(can_try)}', file=sys.stderr)
+                for token in can_try:
+                    if elide:
+                        print(f'{token} ~{"".join(can_has)}')
+                    else:
+                        print(f'{token}')
+                if can_try: return
+        # TODO use other aspects like word feedback and/or void to rank probe words?
+        # TODO rank probes by entropy reduction wrt word and/or void
+        # TODO generalize this probe logic out and up
+
+        return
 
     if verbose:
         for n, at in enumerate(attempts, 1):
