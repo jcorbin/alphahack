@@ -12,7 +12,7 @@ from sortem import DiagScores, Randomized
 from store import StoredLog, git_txn
 from strkit import spliterate
 from ui import PromptUI
-from wordlish import Attempt, Feedback, Question, Word
+from wordlish import Attempt, Feedback, Question, Word, do_probe
 from wordlist import WordList
 
 @final
@@ -62,6 +62,12 @@ class Search(StoredLog):
             'gen': self.do_gen,
             'fail': self.do_fail,
             'tried': self.do_tried,
+            'probe': PromptUI.pass_doc(do_probe.__doc__ or '', lambda ui: do_probe(
+                ui,
+                self.wordlist.words,
+                size=self.size,
+                for_word=self.word,
+            )),
             'word': self.do_word,
             '*': 'gen',
         })

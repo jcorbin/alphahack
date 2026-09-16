@@ -1440,6 +1440,11 @@ class Prompt(Dispatcher):
 @final
 class PromptUI:
     @staticmethod
+    def pass_doc[T, **P](doc: str, b: Callable[P, T]):
+        b.__doc__ = doc
+        return b
+
+    @staticmethod
     def then_eof(_ui: 'PromptUI'):
         raise EOFError()
 

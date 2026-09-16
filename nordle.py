@@ -11,7 +11,7 @@ from sortem import DiagScores, Randomized
 from store import StoredLog, matcher
 from strkit import MarkedSpec, consume_codes, spliterate
 from ui import PromptUI
-from wordlish import Attempt, Word, parse_feedback
+from wordlish import Attempt, Word, do_probe, parse_feedback
 from wordlist import WordList
 
 @final
@@ -69,6 +69,13 @@ class Nordle(StoredLog):
         self.last_word_i: list[int] = []
         self.last_word_pat: list[re.Pattern[str]] = []
         self.last_word_words: list[set[str]] = []
+        self.last_guess_i: int = -1
+
+        def get_word(n: int = 0, i: int = -1):
+            if n:
+                i = n - 1
+            if 0 <= i < len(self.words):
+                return self.words[i]
 
         self.play_prompt = self.std_prompt
         self.play_prompt.mess = self.play_prompt_mess
@@ -79,6 +86,13 @@ class Nordle(StoredLog):
             'audit': self.do_audit,
             'feedback': self.do_feedback,
             'guess': self.do_guess,
+            'probe': PromptUI.pass_doc(do_probe.__doc__ or '', lambda ui: do_probe(
+                ui,
+                self.wordlist.words,
+                size=self.size,
+                for_word=get_word(i=self.last_guess_i),
+                get_word=get_word,
+            )),
             'tried': self.do_tried,
             '*': 'guess',
         })
@@ -682,6 +696,7 @@ class Nordle(StoredLog):
         '''
         usage: `guess [<N>] [-v] [-jitter <prop>] [...chooser options...]`
         '''
+        self.last_guess_i = -1
 
         def select(words: Sequence[str]):
             diag = DiagScores(words)
@@ -740,11 +755,12 @@ class Nordle(StoredLog):
             ui.print(f'auto {reason} #{word_n} N:{len(words)}')
 
         pos = may_rand.choose(sorted(words))
-
         if not pos.data:
             ui.print(f'! no results for {pat.pattern} for #{word_n} {word}')
             # TODO maybe try harder?
             return
+
+        self.last_guess_i = word_i
 
         return ui.interact(pos.choose(
             then=lambda ch: lambda ui: self.question(ui, ch),
