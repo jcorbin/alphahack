@@ -601,6 +601,112 @@ def test_word_parse(spec: MarkedSpec):
         if key == 'str': assert f'{word}' == val
         else: raise NotImplementedError(f'unknown spec prop {key!r}')
 
+def do_probe(
+    ui: PromptUI,
+    tokens: Iterable[str],
+    for_word: Word|None = None,
+    get_word: Callable[[int], Word|None] = lambda n: None,
+    size: int = 5,
+    show_n: int = 10,
+    verbose: int = 0,
+):
+    '''
+    usage: `probe [-v] #<WORD-N> | <LETTERS>`
+    '''
+    letters: set[str] = set()
+    ui.print('?')
+    while ui.tokens:
+        vn = ui.tokens.have(r'-(v+)', lambda m: len(m[1]))
+        if vn:
+            verbose += vn
+            continue
+
+        wn = ui.tokens.have(r'#(\d+)', lambda m: int(m[1]))
+        if wn is not None:
+            for_word = get_word(wn)
+            continue
+
+        lets = ui.tokens.have(r'[a-zA-Z]+', lambda m: m[0])
+        if lets:
+            letters.update(lets.upper())
+            continue
+
+        ui.print(f'! invalid * arg {next(ui.tokens)!r}')
+        return
+
+    if not isinstance(tokens, tuple):
+        tokens = tuple(tokens)
+
+    if not letters and for_word is not None:
+        for_pat = for_word.pattern()
+        for_tokens = tuple(
+            token
+            for token in tokens
+            if len(token) == size
+            if for_pat.match(token))
+        if verbose:
+            ui.print(f'probe {len(for_tokens)} tokens for word {for_word}')
+
+        for_freq = Counter(
+            let
+            for token in for_tokens
+            for let in token.upper())
+        if verbose:
+            for c in range(1, size):
+                cs = sorted(
+                    l
+                    for l, n in for_freq.items()
+                    if n == c)
+                if cs:
+                    ui.print(f'... token letter freq {c} : {' '.join(cs)}')
+
+        letters.update(
+            let
+            for let, c in for_freq.items()
+            if c == 1)
+        if verbose and letters:
+            ui.print(f'... chose letters {' '.join(sorted(letters))}')
+
+    if not letters:
+        ui.print(f'! must have some probe <LETTERS>')
+        return
+
+    # TODO take for_word into account more ( rank diagnosticity wrt )
+    have = 0
+    for can_word, can_try in probes_for_letters(size, letters, tokens):
+        if verbose:
+            ui.print(f'? {can_word} {len(can_try)}')
+        for token in can_try:
+            if len(can_word.may) < len(letters):
+                print(f'{token} ~{"".join(can_word.may)}')
+            else:
+                print(f'{token}')
+            have += 1
+            if have >= show_n: break
+        if have >= show_n: break
+
+def probes_for_letters(
+    size: int,
+    letters: Iterable[str],
+    tokens: Iterable[str], # TODO better wordlist interface?
+    # TODO support void letters and/or other prior word hints?
+):
+    if not isinstance(tokens, tuple):
+        tokens = tuple(tokens)
+    lets = tuple(sorted(set(let.upper() for let in letters)))
+    for elide in range(len(lets)):
+        may_have = sorted(lets)
+        for can_has in combinations(may_have, len(may_have) - elide):
+            can_word = Word(size=size)
+            can_word.may.update(can_has)
+            can_pat = can_word.pattern()
+            can_try = sorted(
+                token
+                for token in tokens
+                if len(token) == size
+                if can_pat.match(token))
+            yield can_word, can_try
+
 def main():
     def carp(mess: str) -> Never:
         print(f'! {mess}', file=sys.stderr)
@@ -704,29 +810,15 @@ def main():
     if probe_lets:
         if verbose:
             print(f'- probe: {' '.join(sorted(probe_lets))}', file=sys.stderr)
-
-        for elide in range(len(probe_lets)):
-            may_have = sorted(probe_lets)
-            for can_has in combinations(may_have, len(may_have) - elide):
-                can_word = Word(size=len(word))
-                can_word.may.update(can_has)
-                can_pat = can_word.pattern(void=void)
-                can_try = sorted(
-                    token
-                    for token in can_tokens
-                    if can_pat.match(token))
-                if verbose:
-                    print(f'? {can_word} {len(can_try)}', file=sys.stderr)
-                for token in can_try:
-                    if elide:
-                        print(f'{token} ~{"".join(can_has)}')
-                    else:
-                        print(f'{token}')
-                if can_try: return
-        # TODO use other aspects like word feedback and/or void to rank probe words?
-        # TODO rank probes by entropy reduction wrt word and/or void
-        # TODO generalize this probe logic out and up
-
+        for can_word, can_try in probes_for_letters(len(word), probe_lets, can_tokens):
+            if verbose:
+                print(f'? {can_word} {len(can_try)}', file=sys.stderr)
+            for token in can_try:
+                if len(can_word.may) < len(probe_lets):
+                    print(f'{token} ~{"".join(can_word.may)}')
+                else:
+                    print(f'{token}')
+            if can_try: return
         return
 
     if verbose:
