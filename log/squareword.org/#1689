@@ -1,0 +1,267 @@
+T208.67651139106601 now: 2026-09-16T09:41:46EDT
+TD70 site: squareword.org
+TD19 wordlist: nwl2023.txt
+TD25  ...␅
+TD4695055 ␆
+TD71  ...
+TD52 🧩  ? ␅
+TD2024010 ␆#1689
+TD68 🧩  ? #1689
+TD221 puzzle_id: #1689
+TD214 > ␅
+TD743316 ␆
+TD66 > 
+TD229 > ␅
+TD815550 ␆*
+TD76 > *
+TD176293 try? ␅
+TD879687 ␆1
+TD75 try? 1
+TD263 questioning: ["reais", "#5"]
+TD206 #1 <IndexError>  📋 "reais" ? ␅
+TD4191578 ␄
+TD114 question done
+TD162 > ␅
+TD863735 ␆*
+TD88 > *
+TD81944 try? ␅
+TD1166017 ␆1
+TD71 try? 1
+TD208 questioning: ["sabre", "#5"]
+TD150 #1 <IndexError>  📋 "sabre" ? ␅
+TD3727617 ␆S___E 
+TD70 #1 <IndexError>  📋 "sabre" ? S___E 
+TD378 attempt 0 SABRE Y n n n Y
+TD73 #2 <IndexError>  📋 "sabre" ? ␅
+TD1824739 ␆___R_ 
+TD70 #2 <IndexError>  📋 "sabre" ? ___R_ 
+TD172 attempt 1 SABRE n n n Y n
+TD74 #3 <IndexError>  📋 "sabre" ? ␅
+TD2286367 ␆_____ ~ AR
+TD66 #3 <IndexError>  📋 "sabre" ? _____ ~ AR
+TD162 attempt 2 SABRE n m n m n
+TD74 #4 <IndexError>  📋 "sabre" ? ␅
+TD2048191 ␆_A___ ~ R
+TD117 #4 <IndexError>  📋 "sabre" ? _A___ ~ R
+TD215 attempt 3 SABRE n Y n m n
+TD94 #5 <IndexError>  📋 "sabre" ? ␅
+TD1799443 ␆_____ ~ R
+TD79 #5 <IndexError>  📋 "sabre" ? _____ ~ R
+TD210 attempt 4 SABRE n n n m n
+TD284 ? ␅
+TD831259 ␆
+TD81 ? 
+TD113 question done
+TD220 > ␅
+TD3335655 ␆* 3
+TD82 > * 3
+TD357170 try? ␅
+TD642592 ␄
+TD110 <EOF>
+TD191 > ␅
+TD720007 ␆* 5
+TD71 > * 5
+TD71646 try? ␅
+TD1304137 ␆1
+TD81 try? 1
+TD246 questioning: ["incur", "#5"]
+TD226 #1 S___E -ABR  📋 "incur" ? ␅
+TD3623678 ␆.
+TD87 #1 S___E -ABR  📋 "incur" ? .
+TD193 attempt 0 INCUR n n n n n
+TD60 #2 ___R_ -ABES  📋 "incur" ? ␅
+TD2743572 ␆___R_ ~ NU
+TD83 #2 ___R_ -ABES  📋 "incur" ? ___R_ ~ NU
+TD239 attempt 1 INCUR n m n m n
+TD128 #3 _____ ~AR -BES  📋 "incur" ? ␅
+TD2783444 ␆____R ~ A
+TD70 #3 _____ ~AR -BES  📋 "incur" ? ____R ~ A
+TD168 attempt 2 INCUR n n n n Y
+TD93 #4 _A___ ~R -BES  📋 "incur" ? ␅
+TD3079935 ␆_A___ ~ RI
+TD72 #4 _A___ ~R -BES  📋 "incur" ? _A___ ~ RI
+TD166 attempt 3 INCUR m n n n m
+TD87 #5 _____ ~R -ABES  📋 "incur" ? ␅
+TD1335500 ␆.
+TD71 #5 _____ ~R -ABES  📋 "incur" ? .
+TD182 attempt 4 INCUR n n n n m
+TD135 ? ␅
+TD167622 ␆
+TD76 ? 
+TD82 question done
+TD145 > ␅
+TD361499 ␆*
+TD68 > *
+TD412559 try? ␅
+TD1465566 ␄
+TD94 <EOF>
+TD302 > ␅
+TD5271632 ␆* 5
+TD79 > * 5
+TD2173 try? ␅
+TD2501758 ␄
+TD119 <EOF>
+TD233 > ␅
+TD543644 ␆*
+TD83 > *
+TD6523 try? ␅
+TD865885 ␆1
+TD77 try? 1
+TD247 questioning: ["mourn", "#2"]
+TD238 #1 S___E -ABCINRU  📋 "mourn" ? ␅
+TD8599201 ␆S___E ~ MO
+TD80 #1 S___E -ABCINRU  📋 "mourn" ? S___E ~ MO
+TD157 attempt 0 MOURN m m n n n
+TD89 #2 ___R_ ~NU -ABCEIRS  📋 "mourn" ? ␅
+TD711403 ␆/it
+TD77 #2 ___R_ ~NU -ABCEIRS  📋 "mourn" ? /it
+TD210 attempt 1 MOURN Y Y Y Y Y
+TD73 #3 ____R ~A -BCEINSU  📋 "mourn" ? ␅
+TD1648065 ␆.
+TD70 #3 ____R ~A -BCEINSU  📋 "mourn" ? .
+TD166 attempt 2 MOURN n n n n n
+TD57 #4 _A___ ~IR -BCENSU  📋 "mourn" ? ␅
+TD3887528 ␆_A___ ~ RIO
+TD71 #4 _A___ ~IR -BCENSU  📋 "mourn" ? _A___ ~ RIO
+TD161 attempt 3 MOURN n m n m n
+TD90 #5 _____ ~R -ABCEINSU  📋 "mourn" ? ␅
+TD2655813 ␆_____ ~ RO
+TD70 #5 _____ ~R -ABCEINSU  📋 "mourn" ? _____ ~ RO
+TD165 attempt 4 MOURN n m n m n
+TD164 ? ␅
+TD319355 ␆
+TD76 ? 
+TD86 question done
+TD150 > ␅
+TD407664 ␆*
+TD65 > *
+TD550679 try? ␅
+TD2178115 ␄
+TD104 <EOF>
+TD192 > ␅
+TD1526958 ␆* 5
+TD82 > * 5
+TD966 try? ␅
+TD2214998 ␄
+TD346 <EOF>
+TD180 > ␅
+TD2351403 ␆* 4
+TD70 > * 4
+TD663 try? ␅
+TD1367930 ␄
+TD107 <EOF>
+TD232 > ␅
+TD1071493 ␆Z* 3
+TD82 > Z* 3
+TD1051 > ␅
+TD798644 ␆* 3
+TD88 > * 3
+TD1189 try? ␅
+TD3166982 ␆1
+TD72 try? 1
+TD192 questioning: ["altar", "#3"]
+TD174 #1 S___E ~MO -ABCINRU  📋 "altar" ? ␅
+TD5191455 ␆S___E ~ MOT
+TD71 #1 S___E ~MO -ABCINRU  📋 "altar" ? S___E ~ MOT
+TD161 attempt 0 ALTAR n n m n n
+TD90 #3 ____R ~A -BCEIMNORSU  📋 "altar" ? ␅
+TD951286 ␆/it
+TD75 #3 ____R ~A -BCEIMNORSU  📋 "altar" ? /it
+TD166 attempt 2 ALTAR Y Y Y Y Y
+TD58 #4 _A___ ~IOR -BCEMNSU  📋 "altar" ? ␅
+TD2720068 ␆.
+TD80 #4 _A___ ~IOR -BCEMNSU  📋 "altar" ? .
+TD214 attempt 3 ALTAR n n n n m
+TD87 #5 _____ ~OR -ABCEIMNSU  📋 "altar" ? ␅
+TD2703774 ␆_____ ~ ROLT
+TD73 #5 _____ ~OR -ABCEIMNSU  📋 "altar" ? _____ ~ ROLT
+TD158 attempt 4 ALTAR n m m n m
+TD176 ? ␅
+TD239235 ␆
+TD72 ? 
+TD81 question done
+TD154 > ␅
+TD479990 ␆*
+TD72 > *
+TD893284 questioning: ["smote", "#1"]
+TD188 #1 S___E ~MOT -ABCILNRU  📋 "smote" ? ␅
+TD2418431 ␆/it
+TD74 #1 S___E ~MOT -ABCILNRU  📋 "smote" ? /it
+TD161 attempt 0 SMOTE Y Y Y Y Y
+TD60 #4 _A___ ~IOR -ABCELMNSTU  📋 "smote" ? ␅
+TD1839786 ␆.
+TD75 #4 _A___ ~IOR -ABCELMNSTU  📋 "smote" ? .
+TD214 attempt 3 SMOTE n n m n n
+TD84 #5 _____ ~LORT -ABCEIMNSU  📋 "smote" ? ␅
+TD3607450 ␆__O__ ~ RLT
+TD74 #5 _____ ~LORT -ABCEIMNSU  📋 "smote" ? __O__ ~ RLT
+TD163 attempt 4 SMOTE n n Y m n
+TD167 ? ␅
+TD215552 ␆
+TD84 ? 
+TD97 question done
+TD221 > ␅
+TD415412 ␆*
+TD80 > *
+TD948248 questioning: ["radio", "#4"]
+TD201 #4 _A___ ~IOR -ABCELMNSTU  📋 "radio" ? ␅
+TD2740053 ␆/it
+TD82 #4 _A___ ~IOR -ABCELMNSTU  📋 "radio" ? /it
+TD213 attempt 3 RADIO Y Y Y Y Y
+TD74 #5 __O__ ~LRT -ABCEIMNSU  📋 "radio" ? ␅
+TD1120080 ␆.
+TD67 #5 __O__ ~LRT -ABCEIMNSU  📋 "radio" ? .
+TD159 attempt 4 RADIO m n n n n
+TD161 ? ␅
+TD167685 ␆
+TD71 ? 
+TD80 question done
+TD205 > ␅
+TD367600 ␆*
+TD79 > *
+TD608538 questioning: ["troll", "#5"]
+TD190 #5 __O__ ~LRT -ABCDEIMNOSU  📋 "troll" ? ␅
+TD3214208 ␆/it
+TD70 #5 __O__ ~LRT -ABCDEIMNOSU  📋 "troll" ? /it
+TD157 attempt 4 TROLL Y Y Y Y Y
+TD166 ? ␅
+TD816141 ␆
+TD86 ? 
+TD86 question done
+TD16144 📋> ␅
+TD6063858 ␆squareword.org 1689: 7 guesses
+TD74 📋> squareword.org 1689: 7 guesses
+TD7 📋> ␅
+TD39 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD6 ␆🟨🟩🟨🟨🟨
+TD1 📋> 🟨🟩🟨🟨🟨
+TD1 📋> ␅
+TD6 ␆🟨🟨🟩🟨🟨
+TD2 📋> 🟨🟨🟩🟨🟨
+TD1 📋> ␅
+TD5 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD71326 ␆#squareword #squareword1689
+TD69 📋> #squareword #squareword1689
+TD6 📋> ␅
+TD351971 ␄
+TD125 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1689: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1689"}
+TD505 result: "squareword.org 1689: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1689"
+TD58 📆 2026-09-16 ? ␅
+TD439488 ␆
+TD70 📆 2026-09-16 ? 
