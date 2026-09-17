@@ -1,0 +1,242 @@
+T1155.4745238949981 now: 2026-09-17T10:10:58EDT
+TD86 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD23  ...␅
+TD534514 ␆
+TD64  ...
+TD51 🧩  ? ␅
+TD1840025 ␆
+TD130 🧩  ? 
+TD130  ...␅
+TD1487595 ␆copy
+TD78  ...copy
+TD85  ...␅
+TD3487892 ␆
+TD63  ...
+TD52 🧩  ? ␅
+TD2095907 ␆#1690
+TD63 🧩  ? #1690
+TD194 puzzle_id: #1690
+TD145 > ␅
+TD1663624 ␆*
+TD63 > *
+TD205488 try? ␅
+TD858331 ␆1
+TD62 try? 1
+TD223 questioning: ["males", "#5"]
+TD163 #1 <IndexError>  📋 "males" ? ␅
+TD5063676 ␆_A_E_
+TD62 #1 <IndexError>  📋 "males" ? _A_E_
+TD393 attempt 0 MALES n Y n Y n
+TD71 #2 <IndexError>  📋 "males" ? ␅
+TD1671477 ␆_____ ~ LE
+TD62 #2 <IndexError>  📋 "males" ? _____ ~ LE
+TD170 attempt 1 MALES n n m m n
+TD74 #3 <IndexError>  📋 "males" ? ␅
+TD2175929 ␆_____ ~ AL
+TD146 #3 <IndexError>  📋 "males" ? _____ ~ AL
+TD185 attempt 2 MALES n m m n n
+TD76 #4 <IndexError>  📋 "males" ? ␅
+TD2647523 ␆___ES ~ S
+TD60 #4 <IndexError>  📋 "males" ? ___ES ~ S
+TD148 attempt 3 MALES n n n Y Y
+TD71 #5 <IndexError>  📋 "males" ? ␅
+TD1839884 ␆_____ ~ ES
+TD90 #5 <IndexError>  📋 "males" ? _____ ~ ES
+TD195 attempt 4 MALES n n n m m
+TD193 ? ␅
+TD575507 ␆
+TD84 ? 
+TD117 question done
+TD209 > ␅
+TD711466 ␄
+TD97 <EOF>
+TD186 > ␅
+TD536277 ␄
+T1819.6279091809993 now: 2026-09-17T10:22:03EDT
+TD72  ...␅
+TD837217 ␆
+TD73  ...
+TD212 > ␅
+TD1967845 ␆*
+TD79 > *
+TD618371 try? ␅
+TD6117444 ␄
+TD112 <EOF>
+TD250 > ␅
+TD983709 ␆* 2
+TD77 > * 2
+TD2580 try? ␅
+TD1109393 ␄
+TD110 <EOF>
+TD246 > ␅
+TD583300 ␆* 4
+TD78 > * 4
+TD3296 try? ␅
+TD1429003 ␆1
+TD77 try? 1
+TD242 questioning: ["pries", "#4"]
+TD229 #1 _A_E_ -LMS  📋 "pries" ? ␅
+TD8767864 ␆_A_E_ ~ R
+TD88 #1 _A_E_ -LMS  📋 "pries" ? _A_E_ ~ R
+TD198 attempt 0 PRIES n m n Y n
+TD113 #2 _____ ~EL -AMS  📋 "pries" ? ␅
+TD1288328 ␆.
+TD80 #2 _____ ~EL -AMS  📋 "pries" ? .
+TD233 attempt 1 PRIES n n n m n
+TD70 #3 _____ ~AL -EMS  📋 "pries" ? ␅
+TD3238826 ␆__I__ ~ AL
+TD78 #3 _____ ~AL -EMS  📋 "pries" ? __I__ ~ AL
+TD212 attempt 2 PRIES n n Y n n
+TD111 #4 ___ES -ALM  📋 "pries" ? ␅
+TD2759674 ␆P__ES ~ S
+TD79 #4 ___ES -ALM  📋 "pries" ? P__ES ~ S
+TD171 attempt 3 PRIES Y n n Y Y
+TD91 #5 _____ ~ES -ALM  📋 "pries" ? ␅
+TD1183584 ␆.
+TD96 #5 _____ ~ES -ALM  📋 "pries" ? .
+TD219 attempt 4 PRIES n n n m m
+TD197 ? ␅
+TD175501 ␆
+TD88 ? 
+TD95 question done
+TD163 > ␅
+TD407323 ␆*
+TD59 > *
+TD536871 try? ␅
+TD5727152 ␆1
+TD63 try? 1
+TD191 questioning: ["align", "#3"]
+TD173 #1 _A_E_ ~R -ILMPS  📋 "align" ? ␅
+TD6215756 ␆_A_E_ ~ RG
+TD64 #1 _A_E_ ~R -ILMPS  📋 "align" ? _A_E_ ~ RG
+TD163 attempt 0 ALIGN n n n m n
+TD90 #2 _____ ~EL -AIMPRS  📋 "align" ? ␅
+TD2351734 ␆_L___ ~ E
+TD68 #2 _____ ~EL -AIMPRS  📋 "align" ? _L___ ~ E
+TD163 attempt 1 ALIGN n Y n n n
+TD96 #3 __I__ ~AL -EMPRS  📋 "align" ? ␅
+TD831488 ␆/it
+TD66 #3 __I__ ~AL -EMPRS  📋 "align" ? /it
+TD169 attempt 2 ALIGN Y Y Y Y Y
+TD67 #4 P__ES -AILMR  📋 "align" ? ␅
+TD4200007 ␆P__ES ~ S
+TD64 #4 P__ES -AILMR  📋 "align" ? P__ES ~ S
+TD157 attempt 3 ALIGN n n n n n
+TD102 #5 _____ ~ES -AILMPR  📋 "align" ? ␅
+TD2103607 ␆.
+TD84 #5 _____ ~ES -AILMPR  📋 "align" ? .
+TD171 attempt 4 ALIGN n n n n n
+TD142 ? ␅
+TD151345 ␆
+TD65 ? 
+TD77 question done
+TD172 > ␅
+TD375933 ␆*
+TD62 > *
+TD561815 questioning: ["elude", "#2"]
+TD186 #1 _A_E_ ~GR -AILMNPS  📋 "elude" ? ␅
+TD6950012 ␆_A_E_ ~ RGD
+TD63 #1 _A_E_ ~GR -AILMNPS  📋 "elude" ? _A_E_ ~ RGD
+TD163 attempt 0 ELUDE n n n m n
+TD98 #2 _L___ ~E -AGIMNPRS  📋 "elude" ? ␅
+TD975816 ␆/it
+TD83 #2 _L___ ~E -AGIMNPRS  📋 "elude" ? /it
+TD162 attempt 1 ELUDE Y Y Y Y Y
+TD60 #4 P__ES -AGILMNR  📋 "elude" ? ␅
+TD6871654 ␆P__ES ~ S
+TD73 #4 P__ES -AGILMNR  📋 "elude" ? P__ES ~ S
+TD151 attempt 3 ELUDE n n n n n
+TD91 #5 _____ ~ES -AGILMNPR  📋 "elude" ? ␅
+TD3063579 ␆___DE ~ ES
+TD68 #5 _____ ~ES -AGILMNPR  📋 "elude" ? ___DE ~ ES
+TD152 attempt 4 ELUDE m n n Y Y
+TD171 ? ␅
+TD455887 ␆
+TD69 ? 
+TD84 question done
+TD151 > ␅
+TD1671682 ␆*
+TD79 > *
+TD1342570 questioning: ["raged", "#1"]
+TD197 #1 _A_E_ ~DGR -AEILMNPSU  📋 "raged" ? ␅
+TD6969195 ␆/it
+TD87 #1 _A_E_ ~DGR -AEILMNPSU  📋 "raged" ? /it
+TD164 attempt 0 RAGED Y Y Y Y Y
+TD65 #4 P__ES -ADEGILMNRU  📋 "raged" ? ␅
+TD4791544 ␆P__ES ~ S
+TD81 #4 P__ES -ADEGILMNRU  📋 "raged" ? P__ES ~ S
+TD195 attempt 3 RAGED n n n Y n
+TD120 #5 ___DE ~ES -AGILMNPRU  📋 "raged" ? ␅
+TD1575718 ␆.
+TD73 #5 ___DE ~ES -AGILMNPRU  📋 "raged" ? .
+TD212 attempt 4 RAGED n n n m n
+TD208 ? ␅
+TD192436 ␆
+TD78 ? 
+TD94 question done
+TD215 > ␅
+TD431051 ␆*
+TD80 > *
+TD1104404 questioning: ["poses", "#4"]
+TD189 #4 P__ES -ADGILMNRU  📋 "poses" ? ␅
+TD6710951 ␆/it
+TD65 #4 P__ES -ADGILMNRU  📋 "poses" ? /it
+TD153 attempt 3 POSES Y Y Y Y Y
+TD57 #5 ___DE ~ES -ADGILMNPRU  📋 "poses" ? ␅
+TD1351855 ␆.
+TD78 #5 ___DE ~ES -ADGILMNPRU  📋 "poses" ? .
+TD168 attempt 4 POSES n n m m m
+TD138 ? ␅
+TD207688 ␆
+TD70 ? 
+TD73 question done
+TD202 > ␅
+TD391571 ␆*
+TD62 > *
+TD755061 questioning: ["swede", "#5"]
+TD193 #5 ___DE ~ES -ADGILMNOPRU  📋 "swede" ? ␅
+TD3492672 ␆/it
+TD79 #5 ___DE ~ES -ADGILMNOPRU  📋 "swede" ? /it
+TD191 attempt 4 SWEDE Y Y Y Y Y
+TD199 ? ␅
+TD743353 ␆
+TD80 ? 
+TD90 question done
+TD16129 📋> ␅
+TD5480494 ␆squareword.org 1690: 7 guesses
+TD79 📋> squareword.org 1690: 7 guesses
+TD8 📋> ␅
+TD33 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟨🟨🟩🟩
+TD2 📋> 🟩🟨🟨🟩🟩
+TD3 📋> ␅
+TD6 ␆🟨🟨🟨🟩🟩
+TD2 📋> 🟨🟨🟨🟩🟩
+TD3 📋> ␅
+TD6 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD423362 ␆#squareword #squareword1690
+TD72 📋> #squareword #squareword1690
+TD7 📋> ␅
+TD264428 ␄
+TD127 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1690: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1690"}
+TD394 result: "squareword.org 1690: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1690"
+TD56 📆 2026-09-17 ? ␅
+TD463133 ␆
+TD83 📆 2026-09-17 ? 
