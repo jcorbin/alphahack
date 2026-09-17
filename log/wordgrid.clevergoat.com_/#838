@@ -1,0 +1,398 @@
+T31130.527426560002 now: 2026-09-16T19:56:25EDT
+TD97 site: https://wordgrid.clevergoat.com/
+TD16 wordlist: nwl2023.txt
+TD41 > ␅
+TD7103541 ␆col 1 ![GTU]
+TD67 > col 1 ![GTU]
+TD581 rule col: 1 ![GTU]
+TD87 > ␅
+TD4139381 ␆col 2 ![ACL]
+TD71 > col 2 ![ACL]
+TD234 rule col: 2 ![ACL]
+TD48 > ␅
+TD3967751 ␆col 3 ~^P
+TD68 > col 3 ~^P
+TD205 rule col: 3 ~^P
+TD46 > ␅
+TD2818193 ␆row 1 #4
+TD72 > row 1 #4
+TD211 rule row: 1 #4
+TD45 > ␅
+TD2684729 ␆row 2 ~ID
+TD72 > row 2 ~ID
+TD234 rule row: 2 ~ID
+TD58 > ␅
+TD2045100 ␆row 3 ~EM
+TD84 > row 3 ~EM
+TD233 rule row: 3 ~EM
+TD68 > ␅
+TD714536 ␆*
+TD75 > *
+TD264152 ? ␅
+TD3643375 ␆4
+TD99 ? 4
+TD199 questioning: 0 sabe
+TD69 🌡️ sabe 📋 ? ␅
+TD3612275 ␆.01
+TD88 🌡️ sabe 📋 ? .01
+TD276 word: 0 sabe 0.01
+TD19 questioning: -1 
+TD66 > ␅
+TD523235 ␆*
+TD119 > *
+TD294386 ? ␅
+TD1089218 ␆1
+TD85 ? 1
+TD139 questioning: 1 desi
+TD43 🌡️ desi 📋 ? ␅
+TD2964518 ␆.03
+TD80 🌡️ desi 📋 ? .03
+TD87 word: 1 desi 0.03
+TD17 questioning: -1 
+TD75 > ␅
+TD466147 ␆*
+TD65 > *
+TD229621 ? ␅
+TD1210631 ␆1
+TD68 ? 1
+TD104 questioning: 2 peon
+TD34 🌡️ peon 📋 ? ␅
+TD2583599 ␆.022
+TD76 🌡️ peon 📋 ? .22
+TD65 word: 2 peon 0.22
+TD11 questioning: -1 
+TD57 > ␅
+TD2973761 <INT>
+TD86 <INT>
+TD14 <INT>
+T15.469142254001781 now: 2026-09-16T19:57:24EDT
+TD154 > ␅
+TD3397207 ␆* 3 1
+TD67 > * 3 1
+TD187975 ? ␅
+TD2669547 ␆4
+TD62 ? 4
+TD125 questioning: 2 peri
+TD44 🌡️ peri 📋 ? ␅
+TD3338815 ␆.14
+TD75 🌡️ peri 📋 ? .14
+TD364 word: 2 peri 0.14
+TD19 questioning: -1 
+TD53 > ␅
+TD791779 ␆*
+TD66 > *
+TD204075 ? ␅
+TD1844259 ␆10
+TD63 ? 10
+TD112 questioning: 3 halidom
+TD36 🌡️ halidom 📋 ? ␅
+TD2523434 ␆0
+TD68 🌡️ halidom 📋 ? 0
+TD67 word: 3 halidom 0.0
+TD14 questioning: -1 
+TD62 > ␅
+TD1694669 ␆* 3 1
+TD62 > * 3 1
+TD176352 ? ␅
+TD1601894 ␆3
+TD64 ? 3
+TD109 questioning: 2 prau
+TD31 🌡️ prau 📋 ? ␅
+TD3091908 ␆.07
+TD59 🌡️ prau 📋 ? .07
+TD70 word: 2 prau 0.07
+TD13 questioning: -1 
+TD62 > ␅
+TD551366 ␆*
+TD67 > *
+TD199374 ? ␅
+TD2676723 ␆9
+TD61 ? 9
+TD100 questioning: 4 euthyroids
+TD33 🌡️ euthyroids 📋 ? ␅
+TD2605845 ␆0
+TD74 🌡️ euthyroids 📋 ? 0
+TD75 word: 4 euthyroids 0.0
+TD15 questioning: -1 
+TD84 > ␅
+TD574073 ␆*
+TD62 > *
+TD182815 ? ␅
+TD1247979 ␆1
+TD68 ? 1
+TD104 questioning: 5 pyralid
+TD37 🌡️ pyralid 📋 ? ␅
+TD2859939 ␆.03
+TD60 🌡️ pyralid 📋 ? .03
+TD67 word: 5 pyralid 0.03
+TD13 questioning: -1 
+TD69 > ␅
+TD651834 ␆*
+TD70 > *
+TD191076 ? ␅
+TD4037515 ␆10
+TD61 ? 10
+TD109 questioning: 6 copremia
+TD33 🌡️ copremia 📋 ? ␅
+TD2600645 ␆0
+TD61 🌡️ copremia 📋 ? 0
+TD64 word: 6 copremia 0.0
+TD12 questioning: -1 
+TD68 > ␅
+TD4523674 ␆* 3 1 -bot 10
+TD61 > * 3 1 -bot 10
+TD146248 ? ␅
+TD1801258 ␆1
+TD84 ? 1
+TD124 questioning: 2 pfft
+TD38 🌡️ pfft 📋 ? ␅
+TD3376045 ␆.2
+TD68 🌡️ pfft 📋 ? .2
+TD71 word: 2 pfft 0.2
+TD12 questioning: -1 
+TD102 > ␅
+TD2345900 ␆* 3 1 -bot 10
+TD64 > * 3 1 -bot 10
+TD175200 ? ␅
+TD1746221 ␆7
+TD60 ? 7
+TD100 questioning: 2 pupu
+TD32 🌡️ pupu 📋 ? ␅
+TD3085736 ␆.08
+TD60 🌡️ pupu 📋 ? .08
+TD68 word: 2 pupu 0.08
+TD13 questioning: -1 
+TD67 > ␅
+TD1930733 ␆* 3 1 -bot 10
+TD61 > * 3 1 -bot 10
+TD160920 ? ␅
+TD2513152 ␆2
+TD65 ? 2
+TD113 questioning: 2 piki
+TD33 🌡️ piki 📋 ? ␅
+TD3620939 ␆.078
+TD67 🌡️ piki 📋 ? .07
+TD70 word: 2 piki 0.07
+TD14 questioning: -1 
+TD65 > ␅
+TD1456319 <INT>
+TD85 <INT>
+TD12 <INT>
+TD8 <INT>
+TD8 <INT>
+TD9 <INT>
+TD9 <INT>
+TD8 <INT>
+TD7 <INT>
+T1.0094700219997321 now: 2026-09-16T19:58:47EDT
+TD110 > ␅
+TD564877 ␆
+TD63 > 
+TD276 > ␅
+TD2594339 ␆* 3 1
+TD62 > * 3 1
+TD189944 ? ␅
+TD2759236 ␆7
+TD62 ? 7
+TD113 questioning: 2 proa
+TD46 🌡️ proa 📋 ? ␅
+TD3164364 ␆.1
+TD92 🌡️ proa 📋 ? .1
+TD253 word: 2 proa 0.1
+TD23 questioning: -1 
+TD57 > ␅
+TD1233234 ␆* 3 1
+TD79 > * 3 1
+TD132409 ? ␅
+TD4114727 ␆3
+TD67 ? 3
+TD127 questioning: 2 pyes
+TD37 🌡️ pyes 📋 ? ␅
+TD4741340 ␆.08
+TD77 🌡️ pyes 📋 ? .08
+TD84 word: 2 pyes 0.08
+TD18 questioning: -1 
+TD96 > ␅
+TD5778402 ␆* 3 1 -bot 10
+TD73 > * 3 1 -bot 10
+TD151545 ? ␅
+TD3112198 ␆9
+TD81 ? 9
+TD128 questioning: 2 pili
+TD41 🌡️ pili 📋 ? ␅
+TD3465264 ␆.12
+TD83 🌡️ pili 📋 ? .12
+TD85 word: 2 pili 0.12
+TD17 questioning: -1 
+TD92 > ␅
+TD4986554 ␆* 3 1 -bot 10
+TD84 > * 3 1 -bot 10
+TD130905 ? ␅
+TD5165416 ␆4
+TD77 ? 4
+TD133 questioning: 2 pudu
+TD41 🌡️ pudu 📋 ? ␅
+TD3138986 ␆.07
+TD64 🌡️ pudu 📋 ? .07
+TD71 word: 2 pudu 0.07
+TD13 questioning: -1 
+TD64 > ␅
+TD1291788 ␆* 3 1 
+TD71 > * 3 1 
+TD135207 ? ␅
+TD5020561 ␆9
+TD80 ? 9
+TD126 questioning: 2 pews
+TD41 🌡️ pews 📋 ? ␅
+TD2979976 ␆.73
+TD98 🌡️ pews 📋 ? .73
+TD84 word: 2 pews 0.73
+TD18 questioning: -1 
+TD88 > ␅
+TD1983218 ␆* 3 1 -bot 10
+TD78 > * 3 1 -bot 10
+TD136703 ? ␅
+TD3250019 ␆8
+TD66 ? 8
+TD100 questioning: 2 psst
+TD31 🌡️ psst 📋 ? ␅
+TD2844006 ␆.24
+TD81 🌡️ psst 📋 ? .24
+TD91 word: 2 psst 0.24
+TD17 questioning: -1 
+TD85 > ␅
+TD2073494 ␆* 3 1 
+TD73 > * 3 1 
+TD136381 ? ␅
+TD2156118 ␆9
+TD83 ? 9
+TD127 questioning: 2 paik
+TD41 🌡️ paik 📋 ? ␅
+TD2726897 ␆.13
+TD74 🌡️ paik 📋 ? .13
+TD83 word: 2 paik 0.13
+TD17 questioning: -1 
+TD85 > ␅
+TD1191852 ␆* 3 1
+TD76 > * 3 1
+TD138676 ? ␅
+TD5368958 ␆9
+TD88 ? 9
+TD127 questioning: 2 pash
+TD41 🌡️ pash 📋 ? ␅
+TD3433824 ␆.25
+TD80 🌡️ pash 📋 ? .25
+TD81 word: 2 pash 0.25
+TD16 questioning: -1 
+TD80 > ␅
+TD3154416 ␆* 3 1 -bot 10
+TD99 > * 3 1 -bot 10
+TD134869 ? ␅
+TD2153872 ␆8
+TD81 ? 8
+TD124 questioning: 2 paan
+TD51 🌡️ paan 📋 ? ␅
+TD3016628 ␆.1
+TD84 🌡️ paan 📋 ? .1
+TD86 word: 2 paan 0.1
+TD18 questioning: -1 
+TD91 > ␅
+TD2861200 ␆* 3 1 -bot 10
+TD82 > * 3 1 -bot 10
+TD142323 ? ␅
+TD3637985 ␆3
+TD81 ? 3
+TD153 questioning: 2 purr
+TD50 🌡️ purr 📋 ? ␅
+TD3447382 ␆.38
+TD70 🌡️ purr 📋 ? .38
+TD92 word: 2 purr 0.38
+TD16 questioning: -1 
+TD69 > ␅
+TD1582208 ␆* 3 1 -bot 10
+TD73 > * 3 1 -bot 10
+TD137228 ? ␅
+TD3329843 ␆4
+TD72 ? 4
+TD105 questioning: 2 pugh
+TD36 🌡️ pugh 📋 ? ␅
+TD3856685 ␆.16
+TD87 🌡️ pugh 📋 ? .16
+TD83 word: 2 pugh 0.16
+TD19 questioning: -1 
+TD110 > ␅
+TD1944577 ␆* 3 1 -bot 10
+TD73 > * 3 1 -bot 10
+TD132663 ? ␅
+TD4059593 ␆6\
+TD77 ? 6\
+TD127 questioning: 2 pipy
+TD38 🌡️ pipy 📋 ? ␅
+TD3681712 ␆.08
+TD71 🌡️ pipy 📋 ? .08
+TD88 word: 2 pipy 0.08
+TD18 questioning: -1 
+TD86 > ␅
+TD6186479 ␆* 3 1 pudu
+TD83 > * 3 1 pudu
+TD467 questioning: 2 pudu
+TD55 🌡️ pudu 📋 ? ␅
+TD5609127 ␆.07
+TD69 🌡️ pudu 📋 ? .07
+TD69 word: 2 pudu 0.07
+TD14 questioning: -1 
+TD65 > ␅
+TD705885 ␆*
+TD74 > *
+TD152400 ? ␅
+TD2185491 ␆5
+TD70 ? 5
+TD103 questioning: 7 demijohn
+TD33 🌡️ demijohn 📋 ? ␅
+TD3169215 ␆.05
+TD70 🌡️ demijohn 📋 ? .05
+TD78 word: 7 demijohn 0.05
+TD23 questioning: -1 
+TD140 > ␅
+TD569443 ␆*
+TD86 > *
+TD144303 ? ␅
+TD3571182 ␆10
+TD78 ? 10
+TD126 questioning: 8 proemial
+TD48 🌡️ proemial 📋 ? ␅
+TD3924139 ␆.05
+TD85 🌡️ proemial 📋 ? .05
+TD80 word: 8 proemial 0.05
+TD18 questioning: -1 
+TD92 > ␅
+TD3594074 ␆/res
+TD84 > /res
+TD237 📋> ␅
+TD539241 ␆Word Grid #838
+TD86 📋> Word Grid #838
+TD12 📋> ␅
+TD40 ␆🌌🌌🌌
+TD4 📋> 🌌🌌🌌
+TD3 📋> ␅
+TD8 ␆🦄🦄🌌
+TD2 📋> 🦄🦄🌌
+TD3 📋> ␅
+TD6 ␆🦄🌌🌌
+TD2 📋> 🦄🌌🌌
+TD3 📋> ␅
+TD6 ␆Rarity: 0.25
+TD3 📋> Rarity: 0.25
+TD3 📋> ␅
+TD245968 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD87 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD8 📋> ␅
+TD209511 ␄
+TD156 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #838\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\nRarity: 0.25\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD436 result: "Word Grid #838\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\nRarity: 0.25\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD88 > ␅
+TD1136661 ␆/store
+TD85 > /store
+TD177 📆 2026-09-16 ? ␅
+TD507695 ␆
+TD98 📆 2026-09-16 ? 
