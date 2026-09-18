@@ -1,0 +1,194 @@
+T5.895512521994533 now: 2026-09-18T09:32:35EDT
+TD189 site: https://www.merriam-webster.com/games/quordle/#/
+TD29 wordlist: nwl2023.txt
+TD9 num_words: 4
+TD152  ...␅
+TD502059 ␆
+TD109  ...
+TD881229 > ␅
+TD909867 ␆/site
+TD109 > /site
+TD605  ...␅
+TD1874174 ␆copy
+TD101  ...copy
+TD139  ...␅
+TD2189840 ␆
+TD110  ...
+TD805977 > ␅
+TD3481807 ␆*
+TD107 > *
+TD104100 ? ␅
+TD598283 ␆1
+TD109 ? 1
+TD320 questioning: arose
+TD304 Classic #1 _____? ␅
+TD2488862 ␆nnnMn
+TD113 Classic #1 _____? nnnMn
+TD814 attempt: 0 AROSE n n n m n
+TD116 Classic #2 _____? ␅
+TD1416070 ␆nMnnn
+TD120 Classic #2 _____? nMnnn
+TD303 attempt: 1 AROSE n m n n n
+TD135 Classic #3 _____? ␅
+TD1540198 ␆YnnnY
+TD110 Classic #3 _____? YnnnY
+TD271 attempt: 2 AROSE Y n n n Y
+TD139 Classic #4 _____? ␅
+TD1348868 ␆nnnnY
+TD114 Classic #4 _____? nnnnY
+TD274 attempt: 3 AROSE n n n n Y
+TD800949 > ␅
+TD800554 ␆*
+TD112 > *
+TD6378 ? ␅
+TD1694904 ␆1
+TD107 ? 1
+TD216 questioning: slink
+TD1648 Classic #1 _____ ~S -AEOR? ␅
+TD2640349 ␆Mnnnn
+TD108 Classic #1 _____ ~S -AEOR? Mnnnn
+TD264 attempt: 0 SLINK m n n n n
+TD136 Classic #2 _____ ~R -AEOS? ␅
+TD1197750 ␆nnMnn
+TD106 Classic #2 _____ ~R -AEOS? nnMnn
+TD275 attempt: 1 SLINK n n m n n
+TD134 Classic #3 A___E -ORS? ␅
+TD1847913 ␆nMnnn
+TD81 Classic #3 A___E -ORS? nMnnn
+TD187 attempt: 2 SLINK n m n n n
+TD83 Classic #4 ____E -AORS? ␅
+TD1204790 ␆nMMnn
+TD105 Classic #4 ____E -AORS? nMMnn
+TD307 attempt: 3 SLINK n m m n n
+TD838665 > ␅
+TD976724 ␆*
+TD110 > *
+TD1438 ? ␅
+TD969185 ␆1
+TD125 ? 1
+TD201 questioning: musty
+TD204 Classic #1 _____ ~S -AEIKLNOR? ␅
+TD3505815 ␆YYMnn
+TD103 Classic #1 _____ ~S -AEIKLNOR? YYMnn
+TD329 attempt: 0 MUSTY Y Y m n n
+TD163 Classic #2 _____ ~IR -AEKLNOS? ␅
+TD1643034 ␆YnnYn
+TD114 Classic #2 _____ ~IR -AEKLNOS? YnnYn
+TD275 attempt: 1 MUSTY Y n n Y n
+TD135 Classic #3 A___E ~L -IKNORS? ␅
+TD1169777 ␆nnnnn
+TD109 Classic #3 A___E ~L -IKNORS? nnnnn
+TD248 attempt: 2 MUSTY n n n n n
+TD124 Classic #4 ____E ~IL -AKNORS? ␅
+TD1706063 ␆nnnMn
+TD104 Classic #4 ____E ~IL -AKNORS? nnnMn
+TD318 attempt: 3 MUSTY n n n m n
+TD794734 > ␅
+TD944960 ␆*
+TD112 > *
+TD560 questioning: mirth
+TD185 Classic #1 MU___ ~S -AEIKLNORTY? ␅
+TD2917139 ␆Ynnnn
+TD132 Classic #1 MU___ ~S -AEIKLNORTY? Ynnnn
+TD287 attempt: 0 MIRTH Y n n n n
+TD145 Classic #2 M__T_ ~IR -AEKLNOSUY? ␅
+TD2386122 ␆YYYYY
+TD106 Classic #2 M__T_ ~IR -AEKLNOSUY? YYYYY
+TD310 attempt: 1 MIRTH Y Y Y Y Y
+TD145 Classic #3 A___E ~L -IKMNORSTUY? ␅
+TD7495474 ␆nnnnn
+TD108 Classic #3 A___E ~L -IKMNORSTUY? nnnnn
+TD372 attempt: 2 MIRTH n n n n n
+TD173 Classic #4 ____E ~ILT -AKMNORSUY? ␅
+TD1390444 ␆nYnMn
+TD104 Classic #4 ____E ~ILT -AKMNORSUY? nYnMn
+TD268 attempt: 3 MIRTH n Y n m n
+TD576375 > ␅
+TD2236790 ␆*
+TD110 > *
+TD680 ? ␅
+TD3444255 ␆1
+TD110 ? 1
+TD214 questioning: tilde
+TD213 Classic #1 MU___ ~S -AEHIKLNORTY? ␅
+TD3888023 ␆nnnnn
+TD124 Classic #1 MU___ ~S -AEHIKLNORTY? nnnnn
+TD313 attempt: 0 TILDE n n n n n
+TD295 Classic #3 A___E ~L -HIKMNORSTUY? ␅
+TD3458224 ␆nnMnY
+TD110 Classic #3 A___E ~L -HIKMNORSTUY? nnMnY
+TD290 attempt: 2 TILDE n n m n Y
+TD146 Classic #4 _I__E ~LT -AHKMNORSUY? ␅
+TD2489960 ␆YYYYY
+TD112 Classic #4 _I__E ~LT -AHKMNORSUY? YYYYY
+TD313 attempt: 3 TILDE Y Y Y Y Y
+TD394186 > ␅
+TD881126 ␆*
+TD117 > *
+TD615 ? ␅
+TD2090826 ␆2
+TD111 ? 2
+TD226 questioning: apple
+TD252 Classic #1 MU___ ~S -ADEHIKLNORTY? ␅
+TD3195123 ␆nnnnn
+TD106 Classic #1 MU___ ~S -ADEHIKLNORTY? nnnnn
+TD246 attempt: 0 APPLE n n n n n
+TD160 Classic #3 A___E ~L -DHIKMNORSTUY? ␅
+TD1020437 ␆YYYYY
+TD129 Classic #3 A___E ~L -DHIKMNORSTUY? YYYYY
+TD246 attempt: 2 APPLE Y Y Y Y Y
+TD189769 > ␅
+TD849495 ␆*
+TD115 > *
+TD1001 ? ␅
+TD1644400 ␄
+TD151 <EOF>
+TD191910 > ␅
+TD1881442 ␆probe 0v
+TD89 > probe 0v
+TD252150 > ␅
+TD2762269 ␆probe -v
+TD108 > probe -v
+TD362896 > ␅
+TD17403530 ␆probe CFG
+TD169 > probe CFG
+TD423660 > ␅
+TD7972293 ␆tried cafes
+TD108 > tried cafes
+TD417 questioning: CAFES
+T21.180296128994087 now: 2026-09-18T09:35:01EDT
+TD171 questioning: CAFES
+TD176 Classic #1 MU___ ~S -ADEHIKLNOPRTY? ␅
+TD3787955 ␆MnnnY
+TD90 Classic #1 MU___ ~S -ADEHIKLNOPRTY? MnnnY
+TD335 attempt: 0 CAFES m n n n Y
+TD164860 > ␅
+TD841464 ␆*
+TD114 > *
+TD951 questioning: mucus
+TD188 Classic #1 MU__S ~C -ADEFHIKLNOPRTY? ␅
+TD3822286 ␆YYYYY
+TD113 Classic #1 MU__S ~C -ADEFHIKLNOPRTY? YYYYY
+TD250 attempt: 0 MUCUS Y Y Y Y Y
+TD134 📋> ␅
+TD4091386 ␆🙂 Daily Quordle 1698
+TD109 📋> 🙂 Daily Quordle 1698
+TD19 📋> ␅
+TD77 ␆8️⃣4️⃣
+TD8 📋> 8️⃣4️⃣
+TD7 📋> ␅
+TD15 ␆6️⃣5️⃣
+TD6 📋> 6️⃣5️⃣
+TD6 📋> ␅
+TD12 ␆m-w.com/games/quordle/
+TD6 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD199932 ␆
+TD99 📋> 
+TD12 📋> ␅
+TD164667 ␄
+TD192 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1698\n8\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1751 result: "\ud83d\ude42 Daily Quordle 1698\n8\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD101 📆 2026-09-18 ? ␅
+TD231602 ␆
+TD96 📆 2026-09-18 ? 
