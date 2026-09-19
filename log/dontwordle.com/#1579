@@ -1,0 +1,192 @@
+T139.82126278200303 now: 2026-09-19T07:41:57EDT
+TD62 site: dontwordle.com
+TD10 wordlist: nwl2023.txt
+TD19  ...␅
+TD771523 ␆
+TD79  ...
+TD102 1> ␅
+TD1924850 ␆/site
+TD76 1> /site
+TD321  ...␅
+TD983246 ␆copy
+TD85  ...copy
+TD92  ...␅
+TD3316591 ␆
+TD81  ...
+TD95 1> ␅
+TD1811056 ␆* -bot 10
+TD85 1> * -bot 10
+TD160571 ? ␅
+TD634295 ␆1
+TD82 ? 1
+TD216 📋 "arles" ? ␅
+TD4400989 ␆nnnnn
+TD73 📋 "arles" ? nnnnn
+TD338 tried: ARLES n n n n n
+TD114 2> ␅
+TD3642466 ␆undo
+TD89 2> undo
+TD128 undo
+TD96 1> ␅
+TD3410031 ␆* :v [arles] -bot 10
+TD84 1> * :v [arles] -bot 10
+TD110103 ? ␅
+TD496459 ␆1
+TD86 ? 1
+TD217 📋 "onium" ? ␅
+TD5145076 ␆nnMnn
+TD82 📋 "onium" ? nnMnn
+TD171 tried: ONIUM n n m n n
+TD136 2> ␅
+TD1885737 ␆undo
+TD66 2> undo
+TD101 undo
+TD87 1> ␅
+TD9802628 ␆* :v [arlesonium] -bot 10
+TD85 1> * :v [arlesonium] -bot 10
+TD119911 📋 "phpht" ? ␅
+TD2576847 <INT>
+T1.8578113229887094 now: 2026-09-19T07:42:42EDT
+TD91 1> ␅
+TD1460723 ␆sol
+TD73 1> sol
+TD266 1> ␅
+TD1355526 ␆sol
+TD80 1> sol
+TD288 1> ␅
+TD354785 ␆*
+TD81 1> *
+TD125804 ? ␅
+TD425142 ␆1
+TD78 ? 1
+TD233 📋 "benne" ? ␅
+TD3837594 ␆nnnnn
+TD83 📋 "benne" ? nnnnn
+TD282 tried: BENNE n n n n n
+TD144 2> ␅
+TD403198 ␆*
+TD80 2> *
+TD74022 ? ␅
+TD131802 ␆1
+TD58 ? 1
+TD182 📋 "qajaq" ? ␅
+TD4150779 ␆nnnnn
+TD81 📋 "qajaq" ? nnnnn
+TD166 tried: QAJAQ n n n n n
+TD138 3> ␅
+TD405388 ␆*
+TD83 3> *
+TD67442 ? ␅
+TD157888 ␆1
+TD81 ? 1
+TD197 📋 "toots" ? ␅
+TD5453229 ␆MnnYn
+TD87 📋 "toots" ? MnnYn
+TD161 tried: TOOTS m n n Y n
+TD149 4> ␅
+TD639808 ␆undo
+TD71 4> undo
+TD105 undo
+TD163 3> ␅
+TD2425197 ␆*
+TD82 3> *
+TD66108 ? ␅
+TD178111 ␆1
+TD63 ? 1
+TD164 📋 "mosso" ? ␅
+TD5098568 ␆nnnnn
+TD83 📋 "mosso" ? nnnnn
+TD159 tried: MOSSO n n n n n
+TD137 4> ␅
+TD407910 ␆*
+TD82 4> *
+TD63109 ? ␅
+TD117394 ␆1
+TD80 ? 1
+TD162 📋 "yukky" ? ␅
+TD5137987 ␆nnnnY
+TD94 📋 "yukky" ? nnnnY
+TD169 tried: YUKKY n n n n Y
+TD156 5> ␅
+TD939492 ␆undo
+TD83 5> undo
+TD136 undo
+TD188 4> ␅
+TD2032734 ␆*
+TD83 4> *
+TD64300 ? ␅
+TD142250 ␆1
+TD40 ? 1
+TD162 📋 "kudzu" ? ␅
+TD4756310 ␆nnnnn
+TD87 📋 "kudzu" ? nnnnn
+TD168 tried: KUDZU n n n n n
+TD154 5> ␅
+TD399578 ␆*
+TD71 5> *
+TD65839 📋 "grrrl" ? ␅
+TD177160 ␆1
+TD74 📋 "grrrl" ? 1
+TD198 📋 "grrrl" ? ␅
+TD4497331 ␆nnnnn
+TD65 📋 "grrrl" ? nnnnn
+TD137 tried: GRRRL n n n n n
+TD114 6> ␅
+TD389440 ␆*
+TD83 6> *
+TD124268 📋 "phpht" ? ␅
+TD8717928 ␆nnnnM
+TD79 📋 "phpht" ? nnnnM
+TD166 tried: PHPHT n n n n m
+TD158 📋> ␅
+TD4911245 ␆Don't Wordle 1579 - SURVIVED
+TD81 📋> Don't Wordle 1579 - SURVIVED
+TD12 📋> ␅
+TD32 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD5 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD5 📋> ␅
+TD14 ␆⬜⬜⬜⬜⬜4801
+TD3 📋> ⬜⬜⬜⬜⬜4801
+TD3 📋> ␅
+TD7 ␆⬜⬜⬜⬜⬜2330
+TD3 📋> ⬜⬜⬜⬜⬜2330
+TD2 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜356
+TD3 📋> ⬜⬜⬜⬜⬜356
+TD2 📋> ␅
+TD7 ␆⬜⬜⬜⬜⬜136
+TD2 📋> ⬜⬜⬜⬜⬜136
+TD2 📋> ␅
+TD43 ␆⬜⬜⬜⬜⬜38
+TD15 📋> ⬜⬜⬜⬜⬜38
+TD3 📋> ␅
+TD6 ␆⬜⬜⬜⬜🟨5
+TD2 📋> ⬜⬜⬜⬜🟨5
+TD2 📋> ␅
+TD5 ␆Undos used: 4
+TD3 📋> Undos used: 4
+TD2 📋> ␅
+TD4 ␆
+TD2 📋> 
+TD1 📋> ␅
+TD4 ␆  5 words remaining
+TD2 📋>   5 words remaining
+TD1 📋> ␅
+TD3 ␆x 7 unused letters
+TD2 📋> x 7 unused letters
+TD1 📋> ␅
+TD3 ␆= 35 total score
+TD1 📋> = 35 total score
+TD3 📋> ␅
+TD3 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD479589 ␆https://dontwordle.com
+TD77 📋> https://dontwordle.com
+TD8 📋> ␅
+TD227453 ␄
+TD141 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1579 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4801\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2330\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c356\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c136\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c38\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe85\nUndos used: 4\n\n  5 words remaining\nx 7 unused letters\n= 35 total score\n\nhttps://dontwordle.com"}
+TD916 result: "Don't Wordle 1579 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4801\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2330\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c356\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c136\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c38\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe85\nUndos used: 4\n\n  5 words remaining\nx 7 unused letters\n= 35 total score\n\nhttps://dontwordle.com"
+TD89 📆 2026-09-19 ? ␅
+TD391932 ␆
+TD80 📆 2026-09-19 ? 
