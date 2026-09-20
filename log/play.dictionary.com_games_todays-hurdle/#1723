@@ -1,0 +1,233 @@
+T1751.5217378070229 now: 2026-09-20T12:18:44EDT
+TD69 site: https://play.dictionary.com/games/todays-hurdle
+TD11 wordlist: nwl2023.txt
+TD19  ...␅
+TD2205306 ␆copy
+TD86  ...copy
+TD85  ...␅
+TD5406858 ␆
+TD82  ...
+TD114 1.1> ␅
+TD23446221 ␆*
+TD86 1.1> *
+TD131522 1.1 ? ␅
+TD1313585 ␆1
+TD80 1.1 ? 1
+TD210 1.1 📋 "stale" ? ␅
+TD4733397 ␆MnYnn
+TD86 1.1 📋 "stale" ? MnYnn
+TD182 tried: STALE m n Y n n
+TD351 1.2> ␅
+TD436591 ␆*
+TD86 1.2> *
+TD67357 1.2 ? ␅
+TD4347053 ␆1
+TD85 1.2 ? 1
+TD203 1.2 📋 "roans" ? ␅
+TD3868692 ␆nMYnY
+TD73 1.2 📋 "roans" ? nMYnY
+TD151 tried: ROANS n m Y n Y
+TD185 1.3> ␅
+TD582147 ␆*
+TD85 1.3> *
+TD65978 1.3 ? ␅
+TD882231 ␆1
+TD69 1.3 ? 1
+TD156 1.3 📋 "chaos" ? ␅
+TD4180557 ␆YYYYY
+TD89 1.3 📋 "chaos" ? YYYYY
+TD176 tried: CHAOS Y Y Y Y Y
+TD308 2.1 📋 "chaos" ? ␅
+TD7709686 ␆Mnnnn
+TD86 2.1 📋 "chaos" ? Mnnnn
+TD178 tried: CHAOS m n n n n
+TD166 2.2> ␅
+TD776073 ␆*
+TD67 2.2> *
+TD68200 2.2 ? ␅
+TD791081 ␆1
+TD88 2.2 ? 1
+TD196 2.2 📋 "eruct" ? ␅
+TD4316090 ␆nYYYM
+TD93 2.2 📋 "eruct" ? nYYYM
+TD173 tried: ERUCT n Y Y Y m
+TD182 2.3> ␅
+TD448333 ␆*
+TD83 2.3> *
+TD63002 2.3 📋 "truck" ? ␅
+TD2958484 ␆YYYYY
+TD79 2.3 📋 "truck" ? YYYYY
+TD172 tried: TRUCK Y Y Y Y Y
+TD255 3.1 📋 "truck" ? ␅
+TD1019574 ␆*
+TD81 3.1 📋 "truck" ? *
+TD101272 3.1 ? ␅
+TD683688 ␄
+TD106 <EOF>
+TD241 3.1 📋 "truck" ? ␅
+TD8782601 ␆nnnnn
+TD77 3.1 📋 "truck" ? nnnnn
+TD189 tried: TRUCK n n n n n
+TD129 3.2> ␅
+TD1254729 ␆*
+TD88 3.2> *
+TD78786 3.2 ? ␅
+TD1337898 ␆1
+TD82 3.2 ? 1
+TD200 3.2 📋 "dales" ? ␅
+TD3669553 ␆nnMnM
+TD85 3.2 📋 "dales" ? nnMnM
+TD282 tried: DALES n n m n m
+TD295 3.3> ␅
+TD509226 ␆*
+TD82 3.3> *
+TD83664 3.3 ? ␅
+TD922624 ␆1
+TD78 3.3 ? 1
+TD208 3.3 📋 "shily" ? ␅
+TD4974654 ␆YnYYn
+TD85 3.3 📋 "shily" ? YnYYn
+TD171 tried: SHILY Y n Y Y n
+TD193 3.4> ␅
+TD416251 ␆*
+TD81 3.4> *
+TD65431 3.4 ? ␅
+TD831940 ␆1
+TD91 3.4 ? 1
+TD208 3.4 📋 "spill" ? ␅
+TD3367617 ␆YYYYY
+TD100 3.4 📋 "spill" ? YYYYY
+TD184 tried: SPILL Y Y Y Y Y
+TD236 4.1 📋 "spill" ? ␅
+TD7391258 ␆Mnnnn
+TD78 4.1 📋 "spill" ? Mnnnn
+TD171 tried: SPILL m n n n n
+TD158 4.2> ␅
+TD485046 ␆*
+TD82 4.2> *
+TD77592 4.2 ? ␅
+TD651155 ␆1
+TD73 4.2 ? 1
+TD167 4.2 📋 "arose" ? ␅
+TD3395998 ␆nnMMM
+TD73 4.2 📋 "arose" ? nnMMM
+TD138 tried: AROSE n n m m m
+TD276 4.3> ␅
+TD441963 ␆*
+TD83 4.3> *
+TD95690 4.3 ? ␅
+TD846875 ␆1
+TD75 4.3 ? 1
+TD200 4.3 📋 "omens" ? ␅
+TD4787634 ␆YnMMM
+TD83 4.3 📋 "omens" ? YnMMM
+TD170 tried: OMENS Y n m m m
+TD189 4.4> ␅
+TD1076622 ␆*
+TD85 4.4> *
+TD65553 4.4 ? ␅
+TD1927057 ␆1
+TD74 4.4 ? 1
+TD203 4.4 📋 "onset" ? ␅
+TD4084774 ␆YYYYY
+TD89 4.4 📋 "onset" ? YYYYY
+TD173 tried: ONSET Y Y Y Y Y
+TD244 5.1 📋 "chaos" ? ␅
+TD6866314 ␆nnnnn
+TD78 5.1 📋 "chaos" ? nnnnn
+TD140 tried: CHAOS n n n n n
+TD153 5.2 📋 "truck" ? ␅
+TD1314510 ␆nnnnM
+TD81 5.2 📋 "truck" ? nnnnM
+TD180 tried: TRUCK n n n n m
+TD201 5.3 📋 "spill" ? ␅
+TD1326466 ␆nMMnn
+TD84 5.3 📋 "spill" ? nMMnn
+TD171 tried: SPILL n m m n n
+TD171 5.4 📋 "onset" ? ␅
+TD1204431 ␆nMnnn
+TD73 5.4 📋 "onset" ? nMnnn
+TD172 tried: ONSET n m n n n
+TD147 5.5> ␅
+TD941740 ␆*
+TD90 5.5> *
+TD122159 5.5 📋 "pinky" ? ␅
+TD4575071 ␆YYYYY
+TD82 5.5 📋 "pinky" ? YYYYY
+TD175 tried: PINKY Y Y Y Y Y
+TD193 📋> ␅
+TD5170683 ␆Hurdle 1723
+TD84 📋> Hurdle 1723
+TD9 📋> ␅
+TD30 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD10 ␆3/6
+TD3 📋> 3/6
+TD3 📋> ␅
+TD8 ␆🟨⬜🟩⬜⬜
+TD3 📋> 🟨⬜🟩⬜⬜
+TD3 📋> ␅
+TD6 ␆⬜🟨🟩⬜🟩
+TD2 📋> ⬜🟨🟩⬜🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆3/6
+TD3 📋> 3/6
+TD2 📋> ␅
+TD6 ␆🟨⬜⬜⬜⬜
+TD2 📋> 🟨⬜⬜⬜⬜
+TD2 📋> ␅
+TD8 ␆⬜🟩🟩🟩🟨
+TD2 📋> ⬜🟩🟩🟩🟨
+TD3 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆4/6
+TD3 📋> 4/6
+TD2 📋> ␅
+TD7 ␆⬜⬜⬜⬜⬜
+TD3 📋> ⬜⬜⬜⬜⬜
+TD2 📋> ␅
+TD6 ␆⬜⬜🟨⬜🟨
+TD3 📋> ⬜⬜🟨⬜🟨
+TD2 📋> ␅
+TD18 ␆🟩⬜🟩🟩⬜
+TD15 📋> 🟩⬜🟩🟩⬜
+TD3 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆4/6
+TD3 📋> 4/6
+TD2 📋> ␅
+TD5 ␆🟨⬜⬜⬜⬜
+TD2 📋> 🟨⬜⬜⬜⬜
+TD2 📋> ␅
+TD6 ␆⬜⬜🟨🟨🟨
+TD3 📋> ⬜⬜🟨🟨🟨
+TD2 📋> ␅
+TD6 ␆🟩⬜🟨🟨🟨
+TD2 📋> 🟩⬜🟨🟨🟨
+TD2 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆Final 1/2
+TD3 📋> Final 1/2
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD293028 ␆score: 10,100
+TD81 📋> score: 10,100
+TD10 📋> ␅
+TD175426 ␄
+TD148 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1723\n\n3/6\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"}
+TD516 result: "Hurdle 1723\n\n3/6\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"
+TD69 📆 2026-09-20 ? ␅
+TD417299 ␆
+TD86 📆 2026-09-20 ? 
