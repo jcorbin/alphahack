@@ -1,0 +1,193 @@
+T206.14063933998113 now: 2026-09-20T12:37:02EDT
+TD60 site: https://wordgrid.clevergoat.com/
+TD11 wordlist: nwl2023.txt
+TD28 > ␅
+TD8580199 ␆col 1 ~^F
+TD70 > col 1 ~^F
+TD414 rule col: 1 ~^F
+TD67 > ␅
+TD2410136 ␆col 2 +C
+TD79 > col 2 +C
+TD363 rule col: 2 +C
+TD57 > ␅
+TD4431896 ␆col 3 ~^PO
+TD72 > col 3 ~^PO
+TD216 rule col: 3 ~^PO
+TD47 > ␅
+TD5115234 ␆row 1 #4-6
+TD78 > row 1 #4-6
+TD291 rule row: 1 #4-6
+TD67 > ␅
+TD5823224 ␆row 2 ![ADT]
+TD80 > row 2 ![ADT]
+TD305 rule row: 2 ![ADT]
+TD66 > ␅
+TD6324524 ␆row 3 ![RTU]
+TD82 > row 3 ![RTU]
+TD284 rule row: 3 ![RTU]
+TD59 > ␅
+TD7216480 ␆*
+TD96 > *
+TD214083 ? ␅
+TD3393266 ␆9
+TD84 ? 9
+TD138 questioning: 0 fardel
+TD57 🌡️ fardel 📋 ? ␅
+TD2967661 ␆0
+TD71 🌡️ fardel 📋 ? 0
+TD253 word: 0 fardel 0.0
+TD16 questioning: -1 
+TD54 > ␅
+TD593926 ␆*
+TD97 > *
+TD366791 ? ␅
+TD4057917 ␆3
+TD69 ? 3
+TD117 questioning: 1 corsac
+TD39 🌡️ corsac 📋 ? ␅
+TD3187887 ␆.01
+TD84 🌡️ corsac 📋 ? .01
+TD92 word: 1 corsac 0.01
+TD20 questioning: -1 
+TD87 > ␅
+TD499204 ␆*
+TD81 > *
+TD167170 ? ␅
+TD2715378 ␆10
+TD67 ? 10
+TD108 questioning: 2 podite
+TD35 🌡️ podite 📋 ? ␅
+TD3109060 ␆.08
+TD72 🌡️ podite 📋 ? .08
+TD69 word: 2 podite 0.08
+TD11 questioning: -1 
+TD96 > ␅
+TD565737 ␆*
+TD72 > *
+TD224874 ? ␅
+TD2138894 ␆5
+TD71 ? 5
+TD115 questioning: 3 feruling
+TD38 🌡️ feruling 📋 ? ␅
+TD3135102 ␆0
+TD81 🌡️ feruling 📋 ? 0
+TD81 word: 3 feruling 0.0
+TD17 questioning: -1 
+TD90 > ␅
+TD490428 ␆*
+TD80 > *
+TD372491 ? ␅
+TD4991425 ␆9
+TD77 ? 9
+TD125 questioning: 4 curch
+TD38 🌡️ curch 📋 ? ␅
+TD3271917 ␆.03
+TD71 🌡️ curch 📋 ? .03
+TD69 word: 4 curch 0.03
+TD12 questioning: -1 
+TD64 > ␅
+TD466983 ␆*
+TD67 > *
+TD187231 ? ␅
+TD2951283 ␆5
+TD68 ? 5
+TD111 questioning: 5 polyuric
+TD36 🌡️ polyuric 📋 ? ␅
+TD3358059 ␆.02
+TD68 🌡️ polyuric 📋 ? .02
+TD70 word: 5 polyuric 0.02
+TD12 questioning: -1 
+TD67 > ␅
+TD547255 ␆(*
+TD70 > (*
+TD168 > ␅
+TD785916 ␆*
+TD73 > *
+TD203790 ? ␅
+TD4538831 ␆7
+TD70 ? 7
+TD112 questioning: 6 fondles
+TD34 🌡️ fondles 📋 ? ␅
+TD2741943 ␆.12
+TD79 🌡️ fondles 📋 ? .12
+TD71 word: 6 fondles 0.12
+TD13 questioning: -1 
+TD72 > ␅
+TD441754 ␆*
+TD66 > *
+TD373392 ? ␅
+TD1688024 ␆9
+TD77 ? 9
+TD115 questioning: 7 cochineal
+TD38 🌡️ cochineal 📋 ? ␅
+TD2739643 ␆.34
+TD69 🌡️ cochineal 📋 ? .34
+TD71 word: 7 cochineal 0.34
+TD19 questioning: -1 
+TD72 > ␅
+TD2645014 ␆* 1 3 -bot 10
+TD99 > * 1 3 -bot 10
+TD170685 ? ␅
+TD4345277 ␆1
+TD109 ? 1
+TD137 questioning: 6 fencelessnesses
+TD42 🌡️ fencelessnesses 📋 ? ␅
+TD5436120 ␆.08
+TD83 🌡️ fencelessnesses 📋 ? .08
+TD84 word: 6 fencelessnesses 0.08
+TD16 questioning: -1 
+TD87 > ␅
+TD3945815 ␆* 2 3 -bot 10
+TD82 > * 2 3 -bot 10
+TD384556 ? ␅
+TD11458287 ␆6
+TD84 ? 6
+TD171 questioning: 7 condescendences
+TD54 🌡️ condescendences 📋 ? ␅
+TD3050277 ␆.04
+TD67 🌡️ condescendences 📋 ? .04
+TD93 word: 7 condescendences 0.04
+TD17 questioning: -1 
+TD75 > ␅
+TD840640 ␆*
+TD80 > *
+TD166839 ? ␅
+TD2825078 ␆6
+TD81 ? 6
+TD132 questioning: 8 polygenic
+TD43 🌡️ polygenic 📋 ? ␅
+TD4277249 ␆0
+TD83 🌡️ polygenic 📋 ? 0
+TD69 word: 8 polygenic 0.0
+TD11 questioning: -1 
+TD71 > ␅
+TD2889215 ␆/res
+TD76 > /res
+TD167 📋> ␅
+TD489617 ␆Word Grid #842
+TD79 📋> Word Grid #842
+TD9 📋> ␅
+TD42 ␆🦄🌌🌌
+TD4 📋> 🦄🌌🌌
+TD3 📋> ␅
+TD8 ␆🦄🌌🌌
+TD3 📋> 🦄🌌🌌
+TD2 📋> ␅
+TD6 ␆🌌🌌🦄
+TD3 📋> 🌌🌌🦄
+TD2 📋> ␅
+TD12 ␆Rarity: 0.27
+TD3 📋> Rarity: 0.27
+TD3 📋> ␅
+TD253771 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD80 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD9 📋> ␅
+TD138190 ␄
+TD150 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #842\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\nRarity: 0.27\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD431 result: "Word Grid #842\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\nRarity: 0.27\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD72 > ␅
+TD972722 ␆/store
+TD70 > /store
+TD157 📆 2026-09-20 ? ␅
+TD6255062 ␆
+TD84 📆 2026-09-20 ? 
