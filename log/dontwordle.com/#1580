@@ -1,0 +1,177 @@
+T127.2600396440248 now: 2026-09-20T11:51:39EDT
+TD86 site: dontwordle.com
+TD16 wordlist: nwl2023.txt
+TD33  ...␅
+TD556191 ␆
+TD83  ...
+TD104 1> ␅
+TD3010650 ␆/site
+TD81 1> /site
+TD309  ...␅
+TD895882 ␆copy
+TD80  ...copy
+TD85  ...␅
+TD10480609 ␆
+TD87  ...
+TD93 1> ␅
+TD4757795 ␆* -bot 10
+TD83 1> * -bot 10
+TD158629 ? ␅
+TD802864 ␆1
+TD83 ? 1
+TD217 📋 "resat" ? ␅
+TD5434589 ␆nnnnn
+TD79 📋 "resat" ? nnnnn
+TD439 tried: RESAT n n n n n
+TD146 2> ␅
+TD778541 ␆undo
+TD90 2> undo
+TD127 undo
+TD92 1> ␅
+TD13856392 ␆* :v [resat] -bot 10
+TD66 1> * :v [resat] -bot 10
+TD109368 ? ␅
+TD906484 ␆1
+TD99 ? 1
+TD219 📋 "indol" ? ␅
+TD4598681 ␆Mnnnn
+TD83 📋 "indol" ? Mnnnn
+TD179 tried: INDOL m n n n n
+TD157 2> ␅
+TD782586 ␆undo
+TD82 2> undo
+TD121 undo
+TD110 1> ␅
+TD2273085 ␆*
+TD83 1> *
+TD117252 ? ␅
+TD73477 ␆1
+TD77 ? 1
+TD173 📋 "yukky" ? ␅
+TD6189262 ␆nnnnY
+TD77 📋 "yukky" ? nnnnY
+TD168 tried: YUKKY n n n n Y
+TD142 2> ␅
+TD812908 ␆undo
+TD81 2> undo
+TD119 undo
+TD105 1> ␅
+TD2215488 ␆*
+TD79 1> *
+TD87159 ? ␅
+TD104093 ␆1
+TD83 ? 1
+TD199 📋 "zanza" ? ␅
+TD5313033 ␆nnnnn
+TD83 📋 "zanza" ? nnnnn
+TD166 tried: ZANZA n n n n n
+TD132 2> ␅
+TD478656 ␆*
+TD79 2> *
+TD73902 ? ␅
+TD1115021 ␆1
+TD81 ? 1
+TD202 📋 "esses" ? ␅
+TD4236923 ␆nnnnn
+TD74 📋 "esses" ? nnnnn
+TD175 tried: ESSES n n n n n
+TD136 3> ␅
+TD477784 ␆*
+TD82 3> *
+TD64918 ? ␅
+TD230859 ␆1
+TD81 ? 1
+TD196 📋 "fluff" ? ␅
+TD3935775 ␆nnnnn
+TD94 📋 "fluff" ? nnnnn
+TD164 tried: FLUFF n n n n n
+TD136 4> ␅
+TD498179 ␆*
+TD86 4> *
+TD65531 ? ␅
+TD746708 ␆1
+TD86 ? 1
+TD195 📋 "hooch" ? ␅
+TD4461034 ␆nnnnn
+TD84 📋 "hooch" ? nnnnn
+TD170 tried: HOOCH n n n n n
+TD156 5> ␅
+TD533464 ␆*
+TD89 5> *
+TD127306 📋 "pygmy" ? ␅
+TD8208436 ␆MnnMY
+TD80 📋 "pygmy" ? MnnMY
+TD164 tried: PYGMY m n n m Y
+TD155 6> ␅
+TD822283 ␆undo
+TD69 6> undo
+TD98 undo
+TD141 5> ␅
+TD594872 ␆*
+TD84 5> *
+TD126931 ? ␅
+TD931709 ␆1
+TD86 ? 1
+TD192 📋 "britt" ? ␅
+TD5706979 ␆nnMnn
+TD71 📋 "britt" ? nnMnn
+TD137 tried: BRITT n n m n n
+TD134 6> ␅
+TD994461 ␆*
+TD89 6> *
+TD136761 📋 "vivid" ? ␅
+TD5071747 ␆nYnnn
+TD87 📋 "vivid" ? nYnnn
+TD166 tried: VIVID n Y n n n
+TD176 📋> ␅
+TD5394944 ␆Don't Wordle 1580 - SURVIVED
+TD101 📋> Don't Wordle 1580 - SURVIVED
+TD10 📋> ␅
+TD31 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD6 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD2 📋> ␅
+TD7 ␆⬜⬜⬜⬜⬜5808
+TD2 📋> ⬜⬜⬜⬜⬜5808
+TD1 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜1158
+TD2 📋> ⬜⬜⬜⬜⬜1158
+TD1 📋> ␅
+TD3 ␆⬜⬜⬜⬜⬜452
+TD2 📋> ⬜⬜⬜⬜⬜452
+TD1 📋> ␅
+TD3 ␆⬜⬜⬜⬜⬜64
+TD1 📋> ⬜⬜⬜⬜⬜64
+TD1 📋> ␅
+TD4 ␆⬜⬜🟨⬜⬜21
+TD1 📋> ⬜⬜🟨⬜⬜21
+TD1 📋> ␅
+TD3 ␆⬜🟩⬜⬜⬜11
+TD1 📋> ⬜🟩⬜⬜⬜11
+TD1 📋> ␅
+TD4 ␆Undos used: 4
+TD2 📋> Undos used: 4
+TD2 📋> ␅
+TD3 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD3 ␆  11 words remaining
+TD2 📋>   11 words remaining
+TD1 📋> ␅
+TD3 ␆x 9 unused letters
+TD1 📋> x 9 unused letters
+TD1 📋> ␅
+TD3 ␆= 99 total score
+TD1 📋> = 99 total score
+TD1 📋> ␅
+TD4 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD465379 ␆https://dontwordle.com
+TD80 📋> https://dontwordle.com
+TD9 📋> ␅
+TD249882 ␄
+TD146 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1580 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5808\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1158\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c452\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c64\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c21\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c11\nUndos used: 4\n\n  11 words remaining\nx 9 unused letters\n= 99 total score\n\nhttps://dontwordle.com"}
+TD863 result: "Don't Wordle 1580 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5808\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1158\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c452\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c64\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c21\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c11\nUndos used: 4\n\n  11 words remaining\nx 9 unused letters\n= 99 total score\n\nhttps://dontwordle.com"
+TD64 📆 2026-09-20 ? ␅
+TD640826 ␆
+TD82 📆 2026-09-20 ? 
