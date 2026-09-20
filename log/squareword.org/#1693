@@ -1,0 +1,267 @@
+T2359.6607494599884 now: 2026-09-20T12:28:52EDT
+TD65 site: squareword.org
+TD13 wordlist: nwl2023.txt
+TD20  ...␅
+TD1631078 ␆ocpy
+TD103  ...ocpy
+TD72  ...␅
+TD2197284 ␆copy
+TD74  ...copy
+TD82  ...␅
+TD5592611 ␆
+TD87  ...
+TD65 🧩  ? ␅
+TD2829647 ␆#1693
+TD76 🧩  ? #1693
+TD197 puzzle_id: #1693
+TD164 > ␅
+TD537578 ␆
+TD73 > 
+TD244 > ␅
+TD631114 ␆*
+TD83 > *
+TD386414 try? ␅
+TD764667 ␆1
+TD77 try? 1
+TD242 questioning: ["lears", "#5"]
+TD218 #1 <IndexError>  📋 "lears" ? ␅
+TD3371917 ␆_E___ ~ E
+TD71 #1 <IndexError>  📋 "lears" ? _E___ ~ E
+TD406 attempt 0 LEARS n Y n n n
+TD74 #2 <IndexError>  📋 "lears" ? ␅
+TD1744395 ␆_____ ~ LA
+TD83 #2 <IndexError>  📋 "lears" ? _____ ~ LA
+TD221 attempt 1 LEARS m n m n n
+TD94 #3 <IndexError>  📋 "lears" ? ␅
+TD1677836 ␆_____ ~ ER
+TD83 #3 <IndexError>  📋 "lears" ? _____ ~ ER
+TD215 attempt 2 LEARS n m n m n
+TD103 #4 <IndexError>  📋 "lears" ? ␅
+TD2446686 ␆_____ ~ LES
+TD83 #4 <IndexError>  📋 "lears" ? _____ ~ LES
+TD172 attempt 3 LEARS m m n n m
+TD81 #5 <IndexError>  📋 "lears" ? ␅
+TD2105564 ␆_E__S ~ L
+TD77 #5 <IndexError>  📋 "lears" ? _E__S ~ L
+TD178 attempt 4 LEARS m Y n n Y
+TD177 ? ␅
+TD1156659 ␆
+TD69 ? 
+TD98 question done
+TD156 > ␅
+TD505979 ␆*
+TD70 > *
+TD581661 try? ␅
+TD1204234 ␆1
+TD65 try? 1
+TD198 questioning: ["spile", "#4"]
+TD171 #1 _E___ -ALRS  📋 "spile" ? ␅
+TD2846650 ␄
+TD87 question done
+TD162 > ␅
+TD3144701 ␆* 2
+TD69 > * 2
+TD4240 try? ␅
+TD821061 ␄
+TD97 <EOF>
+TD189 > ␅
+TD1067609 ␆* 3
+TD69 > * 3
+TD5226 try? ␅
+TD1253474 ␆1
+TD78 try? 1
+TD234 questioning: ["doper", "#3"]
+TD228 #1 _E___ -ALRS  📋 "doper" ? ␅
+TD5408298 ␆_E___ ~ E
+TD70 #1 _E___ -ALRS  📋 "doper" ? _E___ ~ E
+TD183 attempt 0 DOPER n n n m n
+TD99 #2 _____ ~AL -ERS  📋 "doper" ? ␅
+TD3596411 ␆_____ ~ LAO
+TD82 #2 _____ ~AL -ERS  📋 "doper" ? _____ ~ LAO
+TD204 attempt 1 DOPER n m n n n
+TD164 #3 _____ ~ER -ALS  📋 "doper" ? ␅
+TD2492659 ␆___ER ~ R
+TD75 #3 _____ ~ER -ALS  📋 "doper" ? ___ER ~ R
+TD172 attempt 2 DOPER n n n Y Y
+TD95 #4 _____ ~ELS -AR  📋 "doper" ? ␅
+TD3315128 ␆___E_ ~ LES
+TD78 #4 _____ ~ELS -AR  📋 "doper" ? ___E_ ~ LES
+TD205 attempt 3 DOPER n n n Y n
+TD108 #5 _E__S ~L -AR  📋 "doper" ? ␅
+TD4136497 ␆_E__S ~ LP
+TD72 #5 _E__S ~L -AR  📋 "doper" ? _E__S ~ LP
+TD206 attempt 4 DOPER n n m n n
+TD252 ? ␅
+TD267289 ␆
+TD84 ? 
+TD159 question done
+TD237 > ␅
+TD566995 ␆*
+TD87 > *
+TD531227 try? ␅
+TD5376839 ␆1
+TD72 try? 1
+TD202 questioning: ["helps", "#5"]
+TD229 #1 _E___ -ADLOPRS  📋 "helps" ? ␅
+TD5054297 ␆HE___ ~ E
+TD83 #1 _E___ -ADLOPRS  📋 "helps" ? HE___ ~ E
+TD208 attempt 0 HELPS Y Y n n n
+TD118 #2 _____ ~ALO -DEPRS  📋 "helps" ? ␅
+TD3038301 ␆_____ ~ LAOH
+TD85 #2 _____ ~ALO -DEPRS  📋 "helps" ? _____ ~ LAOH
+TD210 attempt 1 HELPS m n m n n
+TD114 #3 ___ER -ADLOPS  📋 "helps" ? ␅
+TD3246365 ␆___ER ~ R
+TD96 #3 ___ER -ADLOPS  📋 "helps" ? ___ER ~ R
+TD201 attempt 2 HELPS n n n n n
+TD115 #4 ___E_ ~LS -ADOPR  📋 "helps" ? ␅
+TD3442091 ␆___E_ ~ LES
+TD80 #4 ___E_ ~LS -ADOPR  📋 "helps" ? ___E_ ~ LES
+TD205 attempt 3 HELPS n m m n m
+TD114 #5 _E__S ~LP -ADEOR  📋 "helps" ? ␅
+TD1764477 ␆/it
+TD82 #5 _E__S ~LP -ADEOR  📋 "helps" ? /it
+TD229 attempt 4 HELPS Y Y Y Y Y
+TD213 ? ␅
+TD333208 ␆
+TD83 ? 
+TD93 question done
+TD239 > ␅
+TD577236 ␆*
+TD67 > *
+TD502272 try? ␅
+TD1762295 ␆1
+TD71 try? 1
+TD200 questioning: ["altho", "#2"]
+TD180 #1 HE___ -ADLOPRS  📋 "altho" ? ␅
+TD5115792 ␆HE___ ~ E
+TD84 #1 HE___ -ADLOPRS  📋 "altho" ? HE___ ~ E
+TD202 attempt 0 ALTHO n n n n n
+TD114 #2 _____ ~AHLO -DEPRS  📋 "altho" ? ␅
+TD2466871 ␆AL_H_ ~ AO
+TD70 #2 _____ ~AHLO -DEPRS  📋 "altho" ? AL_H_ ~ AO
+TD165 attempt 1 ALTHO Y Y n Y m
+TD96 #3 ___ER -ADEHLOPS  📋 "altho" ? ␅
+TD4462640 ␆___ER ~ R
+TD82 #3 ___ER -ADEHLOPS  📋 "altho" ? ___ER ~ R
+TD195 attempt 2 ALTHO n n n n n
+TD119 #4 ___E_ ~LS -ADHOPR  📋 "altho" ? ␅
+TD4467097 ␆___E_ ~ LEST
+TD74 #4 ___E_ ~LS -ADHOPR  📋 "altho" ? ___E_ ~ LEST
+TD158 attempt 3 ALTHO n m m n n
+TD176 ? ␅
+TD805963 ␆
+TD79 ? 
+TD93 question done
+TD171 > ␅
+TD1305456 ␆*
+TD70 > *
+TD1263372 questioning: ["hence", "#1"]
+TD185 #1 HE___ -ADHLOPRST  📋 "hence" ? ␅
+TD3539968 ␆/it
+TD84 #1 HE___ -ADHLOPRST  📋 "hence" ? /it
+TD210 attempt 0 HENCE Y Y Y Y Y
+TD83 #2 AL_H_ ~O -DEPRST  📋 "hence" ? ␅
+TD6422555 ␆AL_H_ ~ AO
+TD90 #2 AL_H_ ~O -DEPRST  📋 "hence" ? AL_H_ ~ AO
+TD413 attempt 1 HENCE n n n n n
+TD201 #3 ___ER -ADEHLOPST  📋 "hence" ? ␅
+TD4518108 ␆___ER ~ R
+TD64 #3 ___ER -ADEHLOPST  📋 "hence" ? ___ER ~ R
+TD157 attempt 2 HENCE n n n n n
+TD97 #4 ___E_ ~LST -ADHOPR  📋 "hence" ? ␅
+TD3818092 ␆___E_ ~ LEST
+TD79 #4 ___E_ ~LST -ADHOPR  📋 "hence" ? ___E_ ~ LEST
+TD166 attempt 3 HENCE n m n n m
+TD183 ? ␅
+TD367307 ␆
+TD69 ? 
+TD88 question done
+TD163 > ␅
+TD531373 ␆*
+TD67 > *
+TD1799117 questioning: ["aloha", "#2"]
+TD191 #2 AL_H_ ~O -CDEHNPRST  📋 "aloha" ? ␅
+TD5254211 ␆/it
+TD80 #2 AL_H_ ~O -CDEHNPRST  📋 "aloha" ? /it
+TD199 attempt 1 ALOHA Y Y Y Y Y
+TD72 #3 ___ER -ACDEHLNOPST  📋 "aloha" ? ␅
+TD2801832 ␆___ER ~ R
+TD86 #3 ___ER -ACDEHLNOPST  📋 "aloha" ? ___ER ~ R
+TD192 attempt 2 ALOHA n n n n n
+TD118 #4 ___E_ ~LST -ACDHNOPR  📋 "aloha" ? ␅
+TD3407394 ␆___E_ ~ LEST
+TD82 #4 ___E_ ~LST -ACDHNOPR  📋 "aloha" ? ___E_ ~ LEST
+TD211 attempt 3 ALOHA n m n n n
+TD251 ? ␅
+TD275175 ␆
+TD74 ? 
+TD114 question done
+TD218 > ␅
+TD512914 ␆(
+TD73 > (
+TD569 > ␅
+TD1145071 ␆*
+TD68 > *
+TD2154693 questioning: ["river", "#3"]
+TD330 #3 ___ER -ACDEHLNOPST  📋 "river" ? ␅
+TD2602597 ␆/it
+TD67 #3 ___ER -ACDEHLNOPST  📋 "river" ? /it
+TD159 attempt 2 RIVER Y Y Y Y Y
+TD59 #4 ___E_ ~LST -ACDHNOPR  📋 "river" ? ␅
+TD6746546 ␆___E_ ~ LEST
+TD71 #4 ___E_ ~LST -ACDHNOPR  📋 "river" ? ___E_ ~ LEST
+TD164 attempt 3 RIVER n n n Y n
+TD188 ? ␅
+TD297097 ␆
+TD82 ? 
+TD101 question done
+TD241 > ␅
+TD725975 ␆*
+TD78 > *
+TD858649 questioning: ["steel", "#4"]
+TD220 #4 ___E_ ~LST -ACDHINOPRV  📋 "steel" ? ␅
+TD3441867 ␆/it
+TD82 #4 ___E_ ~LST -ACDHINOPRV  📋 "steel" ? /it
+TD219 attempt 3 STEEL Y Y Y Y Y
+TD180 ? ␅
+TD602177 ␆
+TD98 ? 
+TD112 question done
+TD19580 📋> ␅
+TD5987769 ␆squareword.org 1693: 8 guesses
+TD67 📋> squareword.org 1693: 8 guesses
+TD23 📋> ␅
+TD26 ␆
+TD2 📋> 
+TD4 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD4 ␆🟩🟩🟨🟩🟨
+TD1 📋> 🟩🟩🟨🟩🟨
+TD3 📋> ␅
+TD4 ␆🟨🟨🟨🟩🟩
+TD1 📋> 🟨🟨🟨🟩🟩
+TD3 📋> ␅
+TD4 ␆🟨🟨🟨🟩🟨
+TD1 📋> 🟨🟨🟨🟩🟨
+TD3 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD5 ␆
+TD1 📋> 
+TD3 📋> ␅
+TD4 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> ␅
+TD244082 ␆#squareword #squareword1693
+TD69 📋> #squareword #squareword1693
+TD19 📋> ␅
+TD245380 ␄
+TD139 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1693: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1693"}
+TD432 result: "squareword.org 1693: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1693"
+TD56 📆 2026-09-20 ? ␅
+TD488030 ␆
+TD72 📆 2026-09-20 ? 
