@@ -1,0 +1,236 @@
+T1864.4667113089818 now: 2026-09-21T09:25:30EDT
+TD64 site: squareword.org
+TD14 wordlist: nwl2023.txt
+TD18  ...␅
+TD461070 ␆
+TD105  ...
+TD99 🧩  ? ␅
+TD1198640 ␆
+TD188 🧩  ? 
+TD106  ...␅
+TD1324151 ␆copy
+TD74  ...copy
+TD74  ...␅
+TD3033683 ␆
+TD83  ...
+TD58 🧩  ? ␅
+TD2330791 ␆#1694
+TD73 🧩  ? #1694
+TD184 puzzle_id: #1694
+TD154 > ␅
+TD1429817 ␆*
+TD81 > *
+TD179517 try? ␅
+TD645611 ␆1
+TD109 try? 1
+TD272 questioning: ["teals", "#5"]
+TD214 #1 <IndexError>  📋 "teals" ? ␅
+TD4913714 ␆_____ ~ T
+TD81 #1 <IndexError>  📋 "teals" ? _____ ~ T
+TD534 attempt 0 TEALS m n n n n
+TD94 #2 <IndexError>  📋 "teals" ? ␅
+TD2680260 ␆_____ ~ EA
+TD86 #2 <IndexError>  📋 "teals" ? _____ ~ EA
+TD227 attempt 1 TEALS n m m n n
+TD99 #3 <IndexError>  📋 "teals" ? ␅
+TD3294715 ␆_____ ~ TEA
+TD88 #3 <IndexError>  📋 "teals" ? _____ ~ TEA
+TD199 attempt 2 TEALS m m m n n
+TD101 #4 <IndexError>  📋 "teals" ? ␅
+TD2797763 ␆_____ ~ E
+TD88 #4 <IndexError>  📋 "teals" ? _____ ~ E
+TD202 attempt 3 TEALS n m n n n
+TD99 #5 <IndexError>  📋 "teals" ? ␅
+TD2026007 ␆_____ ~ ES
+TD209 #5 <IndexError>  📋 "teals" ? _____ ~ ES
+TD256 attempt 4 TEALS n m n n m
+TD246 ? ␅
+TD464459 ␆
+TD78 ? 
+TD121 question done
+TD263 > ␅
+TD728123 ␆* 4
+TD82 > * 4
+TD77334 try? ␅
+TD1031072 ␄
+TD116 <EOF>
+TD200 > ␅
+TD772534 ␆* 1
+TD82 > * 1
+TD79332 try? ␅
+TD1378140 ␄
+TD122 <EOF>
+TD254 > ␅
+TD1240033 ␆* 4
+TD81 > * 4
+TD7141 try? ␅
+TD2537653 ␆1
+TD80 try? 1
+TD258 questioning: ["drone", "#4"]
+TD234 #1 _____ ~T -AELS  📋 "drone" ? ␅
+TD6612677 ␆DR___ ~ T
+TD76 #1 _____ ~T -AELS  📋 "drone" ? DR___ ~ T
+TD172 attempt 0 DRONE Y Y n n n
+TD96 #2 _____ ~AE -LST  📋 "drone" ? ␅
+TD2648921 ␆_____ ~ EAR
+TD71 #2 _____ ~AE -LST  📋 "drone" ? _____ ~ EAR
+TD157 attempt 1 DRONE n m n n m
+TD89 #3 _____ ~AET -LS  📋 "drone" ? ␅
+TD4946978 ␆__ONE ~ TA
+TD100 #3 _____ ~AET -LS  📋 "drone" ? __ONE ~ TA
+TD278 attempt 2 DRONE n n Y Y Y
+TD134 #4 _____ ~E -ALST  📋 "drone" ? ␅
+TD2973443 ␆____E ~ N
+TD88 #4 _____ ~E -ALST  📋 "drone" ? ____E ~ N
+TD195 attempt 3 DRONE n n n m Y
+TD124 #5 _____ ~ES -ALT  📋 "drone" ? ␅
+TD3921304 ␆_____ ~ ESDON
+TD75 #5 _____ ~ES -ALT  📋 "drone" ? _____ ~ ESDON
+TD162 attempt 4 DRONE m n m m m
+TD174 ? ␅
+TD630237 ␆
+TD68 ? 
+TD102 question done
+TD157 > ␅
+TD926148 ␆*
+TD80 > *
+TD692387 questioning: ["atone", "#3"]
+TD183 #1 DR___ ~T -AELNOS  📋 "atone" ? ␅
+TD3996430 ␆.
+TD82 #1 DR___ ~T -AELNOS  📋 "atone" ? .
+TD209 attempt 0 ATONE n m n n n
+TD73 #2 _____ ~AER -DLNOST  📋 "atone" ? ␅
+TD1154596 ␆.
+TD86 #2 _____ ~AER -DLNOST  📋 "atone" ? .
+TD217 attempt 1 ATONE m n n n m
+TD76 #3 __ONE ~AT -DLRS  📋 "atone" ? ␅
+TD646505 ␆/it
+TD84 #3 __ONE ~AT -DLRS  📋 "atone" ? /it
+TD208 attempt 2 ATONE Y Y Y Y Y
+TD60 #4 ____E ~N -ADLORST  📋 "atone" ? ␅
+TD1299261 ␆.
+TD82 #4 ____E ~N -ADLORST  📋 "atone" ? .
+TD203 attempt 3 ATONE n n n m Y
+TD71 #5 _____ ~DENOS -ALRT  📋 "atone" ? ␅
+TD925541 ␆.
+TD94 #5 _____ ~DENOS -ALRT  📋 "atone" ? .
+TD210 attempt 4 ATONE n n m m m
+TD212 ? ␅
+TD146975 ␆
+TD79 ? 
+TD84 question done
+TD161 > ␅
+TD423983 ␆*
+TD83 > *
+TD221954 questioning: ["nosed", "#5"]
+TD175 #1 DR___ ~T -AELNOS  📋 "nosed" ? ␅
+TD5877801 ␆.
+TD65 #1 DR___ ~T -AELNOS  📋 "nosed" ? .
+TD163 attempt 0 NOSED n n n n n
+TD56 #2 _____ ~AER -DLNOST  📋 "nosed" ? ␅
+TD5082637 ␆___E_ ~ AR
+TD84 #2 _____ ~AER -DLNOST  📋 "nosed" ? ___E_ ~ AR
+TD216 attempt 1 NOSED n n n Y n
+TD123 #4 ____E ~N -ADLORST  📋 "nosed" ? ␅
+TD1892298 ␆.
+TD90 #4 ____E ~N -ADLORST  📋 "nosed" ? .
+TD289 attempt 3 NOSED m n n n n
+TD76 #5 _____ ~DENOS -ALRT  📋 "nosed" ? ␅
+TD573203 ␆/it
+TD126 #5 _____ ~DENOS -ALRT  📋 "nosed" ? /it
+TD340 attempt 4 NOSED Y Y Y Y Y
+TD228 ? ␅
+TD139408 ␆
+TD91 ? 
+TD106 question done
+TD236 > ␅
+TD458239 ␆*
+TD99 > *
+TD562713 questioning: ["wince", "#4"]
+TD220 #1 DR___ ~T -ADELNOS  📋 "wince" ? ␅
+TD5924616 ␆DR___ ~ TI
+TD87 #1 DR___ ~T -ADELNOS  📋 "wince" ? DR___ ~ TI
+TD200 attempt 0 WINCE n m n n n
+TD125 #2 ___E_ ~AR -DLNOST  📋 "wince" ? ␅
+TD3694764 ␆___E_ ~ ARC
+TD98 #2 ___E_ ~AR -DLNOST  📋 "wince" ? ___E_ ~ ARC
+TD202 attempt 1 WINCE n n n m n
+TD122 #4 ____E ~N -ADELORST  📋 "wince" ? ␅
+TD1064946 ␆/it
+TD84 #4 ____E ~N -ADELORST  📋 "wince" ? /it
+TD213 attempt 3 WINCE Y Y Y Y Y
+TD212 ? ␅
+TD262550 ␆
+TD78 ? 
+TD92 question done
+TD222 > ␅
+TD536784 ␆*
+TD86 > *
+TD968772 questioning: ["racer", "#2"]
+TD194 #1 DR___ ~IT -ACDELNOSW  📋 "racer" ? ␅
+TD3450834 ␆.
+TD84 #1 DR___ ~IT -ACDELNOSW  📋 "racer" ? .
+TD213 attempt 0 RACER n n n n n
+TD75 #2 ___E_ ~ACR -DEILNOSTW  📋 "racer" ? ␅
+TD594747 ␆/it
+TD84 #2 ___E_ ~ACR -DEILNOSTW  📋 "racer" ? /it
+TD201 attempt 1 RACER Y Y Y Y Y
+TD203 ? ␅
+TD245805 ␆
+TD77 ? 
+TD85 question done
+TD227 > ␅
+TD897035 ␆*
+TD123 > *
+TD754771 try? ␅
+TD3519354 ␆
+TD86 try? 
+TD259 try? ␅
+TD513326 ␆1
+TD98 try? 1
+TD246 questioning: ["drift", "#1"]
+TD236 #1 DR___ ~IT -ACDELNORSW  📋 "drift" ? ␅
+TD6993013 ␆/it
+TD88 #1 DR___ ~IT -ACDELNORSW  📋 "drift" ? /it
+TD216 attempt 0 DRIFT Y Y Y Y Y
+TD216 ? ␅
+TD340290 ␆
+TD88 ? 
+TD86 question done
+TD16746 📋> ␅
+TD3900136 ␆squareword.org 1694: 7 guesses
+TD84 📋> squareword.org 1694: 7 guesses
+TD9 📋> ␅
+TD35 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD11 ␆🟩🟩🟨🟨🟨
+TD3 📋> 🟩🟩🟨🟨🟨
+TD3 📋> ␅
+TD6 ␆🟨🟨🟨🟩🟨
+TD2 📋> 🟨🟨🟨🟩🟨
+TD2 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD38 📋> 🟩🟩🟩🟩🟩
+TD18 📋> ␅
+TD23 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD7 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD277132 ␆#squareword #squareword1694
+TD92 📋> #squareword #squareword1694
+TD8 📋> ␅
+TD253043 ␄
+TD157 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1694: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1694"}
+TD1108 result: "squareword.org 1694: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1694"
+TD59 📆 2026-09-21 ? ␅
+TD2839559 ␆
+TD83 📆 2026-09-21 ? 
