@@ -1,0 +1,554 @@
+T1.191436941997381 now: 2026-09-22T14:38:18EDT
+TD82 site: https://wordgrid.clevergoat.com/
+TD12 wordlist: nwl2023.txt
+TD34 > ␅
+TD5310473 ␆col 1 #1-6
+TD88 > col 1 #1-6
+TD461 rule col: 1 #1-6
+TD74 > ␅
+TD2640310 ␆col 2 +R
+TD80 > col 2 +R
+TD419 rule col: 2 +R
+TD50 > ␅
+TD4651041 ␆col 3 ~AT
+TD87 > col 3 ~AT
+TD272 rule col: 3 ~AT
+TD63 > ␅
+TD3841081 ␆row 1 ~^B
+TD68 > row 1 ~^B
+TD228 rule row: 1 ~^B
+TD51 > ␅
+TD3154253 ␆row 2 ~ER$
+TD86 > row 2 ~ER$
+TD276 rule row: 2 ~ER$
+TD65 > ␅
+TD4131392 ␆row 3 ~OR$
+TD85 > row 3 ~OR$
+TD266 rule row: 3 ~OR$
+TD70 > ␅
+TD1879457 ␆*
+TD85 > *
+TD197117 ? ␅
+TD6354840 ␆9
+TD97 ? 9
+TD151 questioning: 0 blae
+TD65 🌡️ blae 📋 ? ␅
+TD3062525 ␆0
+TD102 🌡️ blae 📋 ? 0
+TD267 word: 0 blae 0.0
+TD18 questioning: -1 
+TD65 > ␅
+TD465921 ␆*
+TD81 > *
+TD360712 ? ␅
+TD2543099 ␆6
+TD82 ? 6
+TD141 questioning: 1 borrelia
+TD52 🌡️ borrelia 📋 ? ␅
+TD3646113 ␆.03
+TD117 🌡️ borrelia 📋 ? .03
+TD98 word: 1 borrelia 0.03
+TD18 questioning: -1 
+TD84 > ␅
+TD1049064 ␆*
+TD85 > *
+TD152107 ? ␅
+TD8112433 ␆6
+TD98 ? 6
+TD139 questioning: 2 batgirls
+TD44 🌡️ batgirls 📋 ? ␅
+TD5963500 ␆.04
+TD84 🌡️ batgirls 📋 ? .04
+TD103 word: 2 batgirls 0.04
+TD18 questioning: -1 
+TD94 > ␅
+TD1092398 ␆*
+TD88 > *
+TD182651 ? ␅
+TD7982043 ␆5
+TD110 ? 5
+TD134 questioning: 3 dotier
+TD43 🌡️ dotier 📋 ? ␅
+TD5583576 ␆0
+TD100 🌡️ dotier 📋 ? 0
+TD83 word: 3 dotier 0.0
+TD15 questioning: -1 
+TD84 > ␅
+TD1264058 ␆*
+TD84 > *
+TD362348 ? ␅
+TD11262348 ␆9
+TD81 ? 9
+TD140 questioning: 4 draftier
+TD50 🌡️ draftier 📋 ? ␅
+TD5410745 ␆.03
+TD85 🌡️ draftier 📋 ? .03
+TD88 word: 4 draftier 0.03
+TD16 questioning: -1 
+TD88 > ␅
+TD763956 ␆*
+TD78 > *
+TD161489 ? ␅
+TD4406207 ␆8
+TD82 ? 8
+TD237 questioning: 5 batfowler
+TD45 🌡️ batfowler 📋 ? ␅
+TD3745047 ␆.02
+TD74 🌡️ batfowler 📋 ? .02
+TD76 word: 5 batfowler 0.02
+TD14 questioning: -1 
+TD75 > ␅
+TD1145217 ␆*
+TD87 > *
+TD152800 ? ␅
+TD3359485 ␆9
+TD106 ? 9
+TD132 questioning: 6 mahzor
+TD60 🌡️ mahzor 📋 ? ␅
+TD4132809 ␆.28
+TD96 🌡️ mahzor 📋 ? .28
+TD95 word: 6 mahzor 0.28
+TD16 questioning: -1 
+TD118 > ␅
+TD904802 ␆*
+TD90 > *
+TD334419 ? ␅
+TD8431623 ␆4
+TD83 ? 4
+TD135 questioning: 7 infractor
+TD50 🌡️ infractor 📋 ? ␅
+TD11633304 ␆* 1 3
+TD89 🌡️ infractor 📋 ? * 1 3
+TD110 🌡️ infractor 📋 ? ␅
+TD3988883 ␆.02
+TD84 🌡️ infractor 📋 ? .02
+TD81 word: 7 infractor 0.02
+TD12 questioning: -1 
+TD78 > ␅
+TD2228118 ␆* 1 3 -bot 10
+TD103 > * 1 3 -bot 10
+TD150778 ? ␅
+TD3144737 ␆4
+TD86 ? 4
+TD127 questioning: 6 kronor
+TD43 🌡️ kronor 📋 ? ␅
+TD5444070 ␆.26
+TD127 🌡️ kronor 📋 ? .26
+TD187 word: 6 kronor 0.26
+TD63 questioning: -1 
+TD99 > ␅
+TD3238390 ␆* 3 1 -bot 10
+TD83 > * 3 1 -bot 10
+TD152808 ? ␅
+TD16173871 ␆5
+TD77 ? 5
+TD170 questioning: 2 baggataway
+TD55 🌡️ baggataway 📋 ? ␅
+TD10065183 ␄
+TD148 <EOF>
+TD146 > ␅
+TD6362446 ␆* 1 3 -bot 3
+TD107 > * 1 3 -bot 3
+TD154342 ? ␅
+TD6617019 ␄
+TD136 <EOF>
+TD136 > ␅
+TD951012 ␆* 1 3
+TD85 > * 1 3
+TD161097 ? ␅
+TD2921230 ␆4
+TD86 ? 4
+TD178 questioning: 6 lictor
+TD63 🌡️ lictor 📋 ? ␅
+TD4116022 ␆.22
+TD94 🌡️ lictor 📋 ? .22
+TD167 word: 6 lictor 0.22
+TD25 questioning: -1 
+TD115 > ␅
+TD5253620 ␆* 1 3
+TD90 > * 1 3
+TD169879 ? ␅
+TD1867007 ␆9
+TD88 ? 9
+TD140 questioning: 6 senhor
+TD43 🌡️ senhor 📋 ? ␅
+TD3341445 ␆.14
+TD95 🌡️ senhor 📋 ? .14
+TD85 word: 6 senhor 0.14
+TD16 questioning: -1 
+TD90 > ␅
+TD1736391 ␆* 1 3
+TD91 > * 1 3
+TD167312 ? ␅
+TD6329155 ␆7
+TD90 ? 7
+TD146 questioning: 6 pavior
+TD45 🌡️ pavior 📋 ? ␅
+TD5383676 ␆.18
+TD90 🌡️ pavior 📋 ? .18
+TD97 word: 6 pavior 0.18
+TD16 questioning: -1 
+TD98 > ␅
+TD672918 ␆*
+TD88 > *
+TD177273 ? ␅
+TD3594127 ␆2
+TD89 ? 2
+TD127 questioning: 8 supinator
+TD43 🌡️ supinator 📋 ? ␅
+TD3976172 ␆.06
+TD83 🌡️ supinator 📋 ? .06
+TD87 word: 8 supinator 0.06
+TD15 questioning: -1 
+TD94 > ␅
+TD3352522 ␆* 1 3
+TD76 > * 1 3
+TD157663 ? ␅
+TD8514568 ␆9
+TD97 ? 9
+TD123 questioning: 6 stupor
+TD42 🌡️ stupor 📋 ? ␅
+TD4607160 ␆.75
+TD68 🌡️ stupor 📋 ? .75
+TD77 word: 6 stupor 0.75
+TD14 questioning: -1 
+TD73 > ␅
+TD1375729 ␆* 1 3
+TD85 > * 1 3
+TD154064 ? ␅
+TD8504599 ␆3
+TD87 ? 3
+TD134 questioning: 6 sapor
+TD45 🌡️ sapor 📋 ? ␅
+TD3402299 ␆.28
+TD83 🌡️ sapor 📋 ? .28
+TD85 word: 6 sapor 0.28
+TD16 questioning: -1 
+TD91 > ␅
+TD1368579 ␆* 1 3
+TD86 > * 1 3
+TD151972 ? ␅
+TD2122945 ␆2
+TD91 ? 2
+TD153 questioning: 6 viator
+TD50 🌡️ viator 📋 ? ␅
+TD3770380 ␆.23
+TD88 🌡️ viator 📋 ? .23
+TD90 word: 6 viator 0.23
+TD17 questioning: -1 
+TD101 > ␅
+TD156047734 ␆* 1 3 
+TD88 > * 1 3 
+TD151106 ? ␅
+TD9792490 ␆3
+TD88 ? 3
+TD132 questioning: 6 enamor
+TD49 🌡️ enamor 📋 ? ␅
+TD4213826 ␆.23
+TD100 🌡️ enamor 📋 ? .23
+TD106 word: 6 enamor 0.23
+TD18 questioning: -1 
+TD107 > ␅
+TD926923 ␆* 
+TD80 > * 
+TD242 > ␅
+TD1329366 ␆* 1 3
+TD87 > * 1 3
+TD170383 ? ␅
+TD4438565 ␆2
+TD83 ? 2
+TD131 questioning: 6 tabor
+TD43 🌡️ tabor 📋 ? ␅
+TD2984004 ␆.33
+TD88 🌡️ tabor 📋 ? .33
+TD88 word: 6 tabor 0.33
+TD16 questioning: -1 
+TD99 > ␅
+TD2337901 ␆* 1 3 -bot 10
+TD131 > * 1 3 -bot 10
+TD151255 ? ␅
+TD7147739 ␆7
+TD77 ? 7
+TD114 questioning: 6 connor
+TD40 🌡️ connor 📋 ? ␅
+TD2762088 ␆.11
+TD83 🌡️ connor 📋 ? .11
+TD84 word: 6 connor 0.11
+TD17 questioning: -1 
+TD101 > ␅
+TD3409463 ␆* 1 3 -bot 10
+TD90 > * 1 3 -bot 10
+TD150808 ? ␅
+TD7836536 ␆9
+TD86 ? 9
+TD131 questioning: 6 fervor
+TD44 🌡️ fervor 📋 ? ␅
+TD3636819 ␆.64
+TD76 🌡️ fervor 📋 ? .64
+TD88 word: 6 fervor 0.64
+TD17 questioning: -1 
+TD95 > ␅
+TD3216922 ␆* 1 3 
+TD82 > * 1 3 
+TD156901 ? ␅
+TD3710989 ␆2
+TD84 ? 2
+TD134 questioning: 6 castor
+TD45 🌡️ castor 📋 ? ␅
+TD3618030 ␆.51
+TD69 🌡️ castor 📋 ? .51
+TD72 word: 6 castor 0.51
+TD12 questioning: -1 
+TD70 > ␅
+TD1429151 ␆* 1 3
+TD85 > * 1 3
+TD155776 ? ␅
+TD13530887 ␄
+TD106 <EOF>
+TD108 > ␅
+TD1130650 ␆* 1 3
+TD86 > * 1 3
+TD161888 ? ␅
+TD2721240 ␆7
+TD78 ? 7
+TD107 questioning: 6 fetor
+TD36 🌡️ fetor 📋 ? ␅
+TD3398864 ␆.28
+TD84 🌡️ fetor 📋 ? .28
+TD88 word: 6 fetor 0.28
+TD16 questioning: -1 
+TD92 > ␅
+TD8300452 ␆* 1 3
+TD87 > * 1 3
+TD198121 ? ␅
+TD9478073 ␆9
+TD92 ? 9
+TD159 questioning: 6 chador
+TD48 🌡️ chador 📋 ? ␅
+TD5917536 ␆.31
+TD80 🌡️ chador 📋 ? .31
+TD85 word: 6 chador 0.31
+TD15 questioning: -1 
+TD89 > ␅
+TD653776 ␆*
+TD97 > *
+TD271 > ␅
+TD1270242 ␆* 1 3
+TD103 > * 1 3
+TD816876 ? ␅
+TD2424104 ␆9
+TD89 ? 9
+TD132 questioning: 6 seizor
+TD46 🌡️ seizor 📋 ? ␅
+TD5676792 ␆.23
+TD81 🌡️ seizor 📋 ? .23
+TD85 word: 6 seizor 0.23
+TD16 questioning: -1 
+TD93 > ␅
+TD1093951 ␆* 1 3
+TD106 > * 1 3
+TD167796 ? ␅
+TD20425537 ␄
+TD115 <EOF>
+TD138 > ␅
+TD1174761 ␆* 1 3
+TD85 > * 1 3
+TD146864 ? ␅
+TD4490312 ␆8
+TD82 ? 8
+TD131 questioning: 6 salvor
+TD44 🌡️ salvor 📋 ? ␅
+TD5270192 ␆.15
+TD86 🌡️ salvor 📋 ? .15
+TD83 word: 6 salvor 0.15
+TD15 questioning: -1 
+TD94 > ␅
+TD1219429 ␆* 1 3
+TD83 > * 1 3
+TD146397 ? ␅
+TD3739035 ␆2
+TD75 ? 2
+TD105 questioning: 6 nestor
+TD34 🌡️ nestor 📋 ? ␅
+TD2949067 ␆.13
+TD80 🌡️ nestor 📋 ? .13
+TD82 word: 6 nestor 0.13
+TD15 questioning: -1 
+TD87 > ␅
+TD1365390 ␆* 1 3
+TD85 > * 1 3
+TD146066 ? ␅
+TD8796531 ␆
+TD89 ? 
+TD295 ? ␅
+TD453292 ␆1
+TD172 ? 1
+TD246 questioning: 6 tor
+TD76 🌡️ tor 📋 ? ␅
+TD3887592 ␆1.91
+TD88 🌡️ tor 📋 ? 1.91
+TD84 word: 6 tor 1.91
+TD16 questioning: -1 
+TD94 > ␅
+TD1274041 ␆* 1 3
+TD84 > * 1 3
+TD143585 ? ␅
+TD5432170 ␄
+TD114 <EOF>
+TD131 > ␅
+TD1797806 ␆* 1 3 -bot 10
+TD89 > * 1 3 -bot 10
+TD147832 ? ␅
+TD4789793 ␆7
+TD86 ? 7
+TD132 questioning: 6 torpor
+TD44 🌡️ torpor 📋 ? ␅
+TD5983052 ␆.61
+TD175 🌡️ torpor 📋 ? .61
+TD158 word: 6 torpor 0.61
+TD24 questioning: -1 
+TD144 > ␅
+TD1475372 ␆* 1 3
+TD83 > * 1 3
+TD145968 ? ␅
+TD4974638 ␆1
+TD93 ? 1
+TD131 questioning: 6 cantor
+TD43 🌡️ cantor 📋 ? ␅
+TD3107102 ␆.62
+TD87 🌡️ cantor 📋 ? .62
+TD84 word: 6 cantor 0.62
+TD15 questioning: -1 
+TD90 > ␅
+TD1638879 ␆* 1 3
+TD88 > * 1 3
+TD150772 ? ␅
+TD9280583 ␄
+TD136 <EOF>
+TD133 > ␅
+TD2025461 ␆* 1 3 -bot 10
+TD84 > * 1 3 -bot 10
+TD142066 ? ␅
+TD4589488 ␆6
+TD80 ? 6
+TD105 questioning: 6 rigor
+TD36 🌡️ rigor 📋 ? ␅
+TD3592802 ␆.85
+TD82 🌡️ rigor 📋 ? .85
+TD84 word: 6 rigor 0.85
+TD18 questioning: -1 
+TD89 > ␅
+TD1956159 ␆* 1 3 -bot 10
+TD173 > * 1 3 -bot 10
+TD144902 ? ␅
+TD2178618 ␆6
+TD84 ? 6
+TD130 questioning: 6 sordor
+TD44 🌡️ sordor 📋 ? ␅
+TD3056358 ␆.19
+TD81 🌡️ sordor 📋 ? .19
+TD82 word: 6 sordor 0.19
+TD15 questioning: -1 
+TD89 > ␅
+TD2215447 ␆* 1 3 -bot 10
+TD85 > * 1 3 -bot 10
+TD147153 ? ␅
+TD3666740 ␆2
+TD88 ? 2
+TD131 questioning: 6 kor
+TD60 🌡️ kor 📋 ? ␅
+TD2866870 ␆.57
+TD104 🌡️ kor 📋 ? .57
+TD86 word: 6 kor 0.57
+TD12 questioning: -1 
+TD76 > ␅
+TD1149480 ␆* 1 13
+TD87 > * 1 13
+TD247 > ␅
+TD1446699 ␆* 1 3
+TD84 > * 1 3
+TD145344 ? ␅
+TD9486001 ␄
+TD112 <EOF>
+TD130 > ␅
+TD3003457 ␆* 1 3
+TD84 > * 1 3
+TD152412 ? ␅
+TD5789511 ␄
+TD117 <EOF>
+TD158 > ␅
+TD3497587 ␆* 1 3 -bot 10
+TD80 > * 1 3 -bot 10
+TD147136 ? ␅
+TD5996926 ␆5
+TD87 ? 5
+TD132 questioning: 6 gor
+TD43 🌡️ gor 📋 ? ␅
+TD3098560 ␆.82
+TD167 🌡️ gor 📋 ? .82
+TD171 word: 6 gor 0.82
+TD27 questioning: -1 
+TD160 > ␅
+TD1966985 ␆* 1 3 -bot 10
+TD87 > * 1 3 -bot 10
+TD147293 ? ␅
+TD7060085 ␆3
+TD85 ? 3
+TD133 questioning: 6 boor
+TD43 🌡️ boor 📋 ? ␅
+TD3909777 ␆1.56
+TD74 🌡️ boor 📋 ? 1.56
+TD76 word: 6 boor 1.56
+TD16 questioning: -1 
+TD91 > ␅
+TD1142915 ␆* 1 3
+TD84 > * 1 3
+TD147718 ? ␅
+TD5822712 ␆9
+TD85 ? 9
+TD125 questioning: 6 spinor
+TD44 🌡️ spinor 📋 ? ␅
+TD3043099 ␆.13
+TD85 🌡️ spinor 📋 ? .13
+TD83 word: 6 spinor 0.13
+TD16 questioning: -1 
+TD115 > ␅
+TD6946615 ␆* 1 3 connor
+TD92 > * 1 3 connor
+TD464 questioning: 6 connor
+TD42 🌡️ connor 📋 ? ␅
+TD3302140 ␆.11
+TD84 🌡️ connor 📋 ? .11
+TD83 word: 6 connor 0.11
+TD16 questioning: -1 
+TD90 > ␅
+TD1272710 ␆/res
+TD87 > /res
+TD170 📋> ␅
+TD3732721 ␆Word Grid #844
+TD75 📋> Word Grid #844
+TD9 📋> ␅
+TD58 ␆🦄🌌🌌
+TD2 📋> 🦄🌌🌌
+TD2 📋> ␅
+TD8 ␆🦄🌌🌌
+TD2 📋> 🦄🌌🌌
+TD1 📋> ␅
+TD7 ␆🟪🌌🌌
+TD1 📋> 🟪🌌🌌
+TD1 📋> ␅
+TD7 ␆Rarity: 0.31
+TD2 📋> Rarity: 0.31
+TD2 📋> ␅
+TD292003 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD75 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD8 📋> ␅
+TD151960 ␄
+TD168 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #844\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83d\udfea\ud83c\udf0c\ud83c\udf0c\nRarity: 0.31\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD575 result: "Word Grid #844\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83d\udfea\ud83c\udf0c\ud83c\udf0c\nRarity: 0.31\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD69 > ␅
+TD977802 ␆/store
+TD85 > /store
+TD193 📆 2026-09-22 ? ␅
+TD779914 ␆
+TD87 📆 2026-09-22 ? 
