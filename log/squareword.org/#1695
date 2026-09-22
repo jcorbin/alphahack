@@ -1,0 +1,279 @@
+T1454.4258651980053 now: 2026-09-22T09:36:33EDT
+TD87 site: squareword.org
+TD20 wordlist: nwl2023.txt
+TD28  ...␅
+TD1470976 ␆
+TD75  ...
+TD48 🧩  ? ␅
+TD1108466 ␆
+TD83 🧩  ? 
+TD125  ...␅
+TD2052660 ␆ocpy
+TD73  ...ocpy
+TD59  ...␅
+TD662067 ␆
+TD82  ...
+TD59 🧩  ? ␅
+TD1303425 ␆
+TD81 🧩  ? 
+TD128  ...␅
+TD687602 ␆copy
+TD88  ...copy
+TD83  ...␅
+TD4607118 ␆
+TD87  ...
+TD54 🧩  ? ␅
+TD2307191 ␆#1695
+TD76 🧩  ? #1695
+TD214 puzzle_id: #1695
+TD212 > ␅
+TD343365 ␆
+TD82 > 
+TD295 > ␅
+TD565096 ␆*
+TD81 > *
+TD168914 try? ␅
+TD527112 ␆1
+TD76 try? 1
+TD240 questioning: ["loser", "#5"]
+TD209 #1 <IndexError>  📋 "loser" ? ␅
+TD4176543 ␆_____ ~ SR
+TD74 #1 <IndexError>  📋 "loser" ? _____ ~ SR
+TD493 attempt 0 LOSER n n m n m
+TD82 #2 <IndexError>  📋 "loser" ? ␅
+TD2333598 ␆_____ ~ OER
+TD79 #2 <IndexError>  📋 "loser" ? _____ ~ OER
+TD208 attempt 1 LOSER n m n m m
+T16.131996979005635 now: 2026-09-22T09:37:19EDT
+TD87 questioning: ["loser", "#5"]
+TD125 #3 <IndexError>  📋 "loser" ? ␅
+TD3479598 ␆____R ~ OR
+TD73 #3 <IndexError>  📋 "loser" ? ____R ~ OR
+TD445 attempt 2 LOSER n m n n Y
+TD76 #4 <IndexError>  📋 "loser" ? ␅
+TD2019684 ␆_____
+TD85 #4 <IndexError>  📋 "loser" ? _____
+TD217 attempt 3 LOSER n n n n n
+TD102 #5 <IndexError>  📋 "loser" ? ␅
+TD3317845 ␆_____ ~ LSE
+TD71 #5 <IndexError>  📋 "loser" ? _____ ~ LSE
+TD155 attempt 4 LOSER m n m m n
+TD178 ? ␅
+TD552798 ␆
+TD76 ? 
+TD113 question done
+TD228 > ␅
+TD1205396 ␆* 4
+TD81 > * 4
+TD226599 try? ␅
+TD2526143 ␆2
+TD83 try? 2
+TD255 questioning: ["itchy", "#4"]
+TD226 #1 _____ ~RS -ELO  📋 "itchy" ? ␅
+TD6665376 ␆_____ ~ SRT
+TD85 #1 _____ ~RS -ELO  📋 "itchy" ? _____ ~ SRT
+TD232 attempt 0 ITCHY n m n n n
+TD104 #2 _____ ~EOR -LS  📋 "itchy" ? ␅
+TD3656737 ␆_____ ~ OERC
+TD87 #2 _____ ~EOR -LS  📋 "itchy" ? _____ ~ OERC
+TD207 attempt 1 ITCHY n n m n n
+TD117 #3 ____R ~O -ELS  📋 "itchy" ? ␅
+TD2771234 ␆____R ~ ORI
+TD111 #3 ____R ~O -ELS  📋 "itchy" ? ____R ~ ORI
+TD218 attempt 2 ITCHY m n n n n
+TD114 #4 _____ -ELORS  📋 "itchy" ? ␅
+TD2249611 ␆_____ ~ T
+TD119 #4 _____ -ELORS  📋 "itchy" ? _____ ~ T
+TD201 attempt 3 ITCHY n m n n n
+TD118 #5 _____ ~ELS -OR  📋 "itchy" ? ␅
+TD2618613 ␆_____ ~ LSET
+TD89 #5 _____ ~ELS -OR  📋 "itchy" ? _____ ~ LSET
+TD203 attempt 4 ITCHY n m n n n
+TD253 ? ␅
+TD311474 ␆
+TD87 ? 
+TD116 question done
+TD214 > ␅
+TD520460 ␆*
+TD90 > *
+TD494804 try? ␅
+TD2791427 ␄
+TD125 <EOF>
+TD264 > ␅
+TD861218 ␆* 4
+TD85 > * 4
+TD3703 try? ␅
+TD1443443 ␆1
+TD83 try? 1
+TD254 questioning: ["gaunt", "#4"]
+TD242 #1 _____ ~RST -CEHILOY  📋 "gaunt" ? ␅
+TD6640402 ␄
+TD127 question done
+TD241 > ␅
+TD1181055 ␆* 4
+TD87 > * 4
+TD3968 try? ␅
+TD10710349 ␆4
+TD74 try? 4
+TD244 questioning: ["bundt", "#4"]
+TD233 #1 _____ ~RST -CEHILOY  📋 "bundt" ? ␅
+TD7474689 ␆____T ~ SR
+TD83 #1 _____ ~RST -CEHILOY  📋 "bundt" ? ____T ~ SR
+TD206 attempt 0 BUNDT n n n n Y
+TD119 #2 _____ ~CEOR -HILSTY  📋 "bundt" ? ␅
+TD4033960 ␆___D_ ~ OERC
+TD84 #2 _____ ~CEOR -HILSTY  📋 "bundt" ? ___D_ ~ OERC
+TD197 attempt 1 BUNDT n n n Y n
+TD115 #3 ____R ~IO -CEHLSTY  📋 "bundt" ? ␅
+TD3310760 ␆____R ~ ORI
+TD85 #3 ____R ~IO -CEHLSTY  📋 "bundt" ? ____R ~ ORI
+TD202 attempt 2 BUNDT n n n n n
+TD135 #4 _____ ~T -CEHILORSY  📋 "bundt" ? ␅
+TD2927358 ␆____T ~ D
+TD71 #4 _____ ~T -CEHILORSY  📋 "bundt" ? ____T ~ D
+TD162 attempt 3 BUNDT n n n m Y
+TD90 #5 _____ ~ELST -CHIORY  📋 "bundt" ? ␅
+TD2837776 ␆_____ ~ LSET
+TD99 #5 _____ ~ELST -CHIORY  📋 "bundt" ? _____ ~ LSET
+TD196 attempt 4 BUNDT n n n n m
+TD245 ? ␅
+TD340202 ␆
+TD76 ? 
+TD96 question done
+TD159 > ␅
+TD625270 ␆*
+TD108 > *
+TD556122 questioning: ["sprat", "#1"]
+TD183 #1 ____T ~RS -BCDEHILNOUY  📋 "sprat" ? ␅
+TD4031265 ␆/it
+TD84 #1 ____T ~RS -BCDEHILNOUY  📋 "sprat" ? /it
+TD200 attempt 0 SPRAT Y Y Y Y Y
+TD75 #2 ___D_ ~CEOR -BHILNSTUY  📋 "sprat" ? ␅
+TD2077361 ␆.
+TD73 #2 ___D_ ~CEOR -BHILNSTUY  📋 "sprat" ? .
+TD214 attempt 1 SPRAT n n m n n
+TD74 #3 ____R ~IO -BCDEHLNSTUY  📋 "sprat" ? ␅
+TD2704277 ␆____R ~ ORI
+TD101 #3 ____R ~IO -BCDEHLNSTUY  📋 "sprat" ? ____R ~ ORI
+TD202 attempt 2 SPRAT n n m n n
+TD115 #4 ____T ~D -BCEHILNORSUY  📋 "sprat" ? ␅
+TD3652329 ␆____T ~ DPA
+TD84 #4 ____T ~D -BCEHILNORSUY  📋 "sprat" ? ____T ~ DPA
+TD199 attempt 3 SPRAT n m n m Y
+TD125 #5 _____ ~ELST -BCDHINORUY  📋 "sprat" ? ␅
+TD1121107 ␆.
+TD88 #5 _____ ~ELST -BCDHINORUY  📋 "sprat" ? .
+TD218 attempt 4 SPRAT m n n n m
+TD210 ? ␅
+TD133393 ␆
+TD88 ? 
+TD92 question done
+TD219 > ␅
+TD472148 ␆*
+TD88 > *
+TD543623 questioning: ["credo", "#2"]
+TD186 #2 ___D_ ~CEOR -ABHILNPSTUY  📋 "credo" ? ␅
+TD2882724 ␆/it
+TD87 #2 ___D_ ~CEOR -ABHILNPSTUY  📋 "credo" ? /it
+TD205 attempt 1 CREDO Y Y Y Y Y
+TD73 #3 ____R ~IO -ABCDEHLNPSTUY  📋 "credo" ? ␅
+TD3133035 ␆____R ~ ORI
+TD105 #3 ____R ~IO -ABCDEHLNPSTUY  📋 "credo" ? ____R ~ ORI
+TD208 attempt 2 CREDO n m n n m
+TD115 #4 ____T ~ADP -BCEHILNORSUY  📋 "credo" ? ␅
+TD1442838 ␆.
+TD91 #4 ____T ~ADP -BCEHILNORSUY  📋 "credo" ? .
+TD215 attempt 3 CREDO n n n m n
+TD74 #5 _____ ~ELST -ABCDHINOPRUY  📋 "credo" ? ␅
+TD835012 ␆.
+TD82 #5 _____ ~ELST -ABCDHINOPRUY  📋 "credo" ? .
+TD205 attempt 4 CREDO n n m n n
+TD203 ? ␅
+TD330266 ␆
+TD86 ? 
+TD95 question done
+TD220 > ␅
+TD470524 ␆*
+TD81 > *
+TD963925 questioning: ["rigor", "#3"]
+TD197 #3 ____R ~IO -ABCDEHLNPSTUY  📋 "rigor" ? ␅
+TD2929967 ␆/it
+TD90 #3 ____R ~IO -ABCDEHLNPSTUY  📋 "rigor" ? /it
+TD211 attempt 2 RIGOR Y Y Y Y Y
+TD80 #4 ____T ~ADP -BCEHILNORSUY  📋 "rigor" ? ␅
+TD1519780 ␆.
+TD84 #4 ____T ~ADP -BCEHILNORSUY  📋 "rigor" ? .
+TD213 attempt 3 RIGOR n n n n n
+TD81 #5 _____ ~ELST -ABCDHINOPRUY  📋 "rigor" ? ␅
+TD824305 ␆.
+TD93 #5 _____ ~ELST -ABCDHINOPRUY  📋 "rigor" ? .
+TD509 attempt 4 RIGOR n n n n n
+TD207 ? ␅
+TD132049 ␆
+TD87 ? 
+TD93 question done
+TD224 > ␅
+TD434773 ␆*
+TD72 > *
+TD1002697 questioning: ["adapt", "#4"]
+TD202 #4 ____T ~ADP -BCEGHILNORSUY  📋 "adapt" ? ␅
+TD2672890 ␆/it
+TD102 #4 ____T ~ADP -BCEGHILNORSUY  📋 "adapt" ? /it
+TD200 attempt 3 ADAPT Y Y Y Y Y
+TD74 #5 _____ ~ELST -ABCDGHINOPRUY  📋 "adapt" ? ␅
+TD1137246 ␆.
+TD71 #5 _____ ~ELST -ABCDGHINOPRUY  📋 "adapt" ? .
+TD247 attempt 4 ADAPT n n n n m
+TD228 ? ␅
+TD133108 ␆
+TD78 ? 
+TD75 question done
+TD180 > ␅
+TD416153 ␆*
+TD85 > *
+TD817223 questioning: ["melts", "#5"]
+TD194 #5 _____ ~ELST -ABCDGHINOPRUY  📋 "melts" ? ␅
+TD5026091 ␆/it
+TD86 #5 _____ ~ELST -ABCDGHINOPRUY  📋 "melts" ? /it
+TD206 attempt 4 MELTS Y Y Y Y Y
+TD197 ? ␅
+TD402644 ␆
+TD87 ? 
+TD89 question done
+TD16724 📋> ␅
+TD5044429 ␆squareword.org 1695: 8 guesses
+TD83 📋> squareword.org 1695: 8 guesses
+TD13 📋> ␅
+TD54 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD33 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD9 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD9 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD2 📋> ␅
+TD10 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD10 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD266194 ␆#squareword #squareword1695
+TD86 📋> #squareword #squareword1695
+TD9 📋> ␅
+TD96011 ␄
+TD156 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1695: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1695"}
+TD642 result: "squareword.org 1695: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1695"
+TD66 📆 2026-09-22 ? ␅
+TD264114 ␆
+TD84 📆 2026-09-22 ? 
