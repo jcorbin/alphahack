@@ -1,0 +1,104 @@
+T53.79668436900829 now: 2026-09-23T08:16:05EDT
+TD89 site: alfagok.diginaut.net
+TD331624 loaded 399464 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1388 words excluded) asof cd01b06dc4dfc199a2fcab5977bbc3e5704605fb
+TD130  ...␅
+TD9654164 ␆copy
+TD96  ...copy
+TD108  ...␅
+TD4791281 ␆
+TD91  ...
+TD187 [0 : 199531 : 399464] lij? ␅
+TD7036205 ␆
+TD97 [0 : 199531 : 399464] lij? 
+TD134 [0 : 199531 : 399464] lij? ␅
+TD2150972 ␆b
+TD88 [0 : 199531 : 399464] lij? b
+TD271 progress: -1 199531 lij
+TD93 [0 : 99675 : 199531] ex? ␅
+TD1663103 ␆a
+TD82 [0 : 99675 : 199531] ex? a
+TD91 progress: 1 99675 ex
+TD77 [99676 : 149570 : 199531] huishoud? ␅
+TD1553037 ␆b
+TD82 [99676 : 149570 : 199531] huishoud? b
+TD78 progress: -1 149570 huishoud
+TD81 [99676 : 124574 : 149570] gevoel? ␅
+TD3040909 ␆a
+TD123 [99676 : 124574 : 149570] gevoel? a
+TD108 progress: 1 124574 gevoel
+TD95 [124575 : 137060 : 149570] handt? ␅
+TD2591851 ␆b
+TD81 [124575 : 137060 : 149570] handt? b
+TD75 progress: -1 137060 handt
+TD73 [124575 : 130744 : 137060] gras? ␅
+TD2701791 ␆b
+TD94 [124575 : 130744 : 137060] gras? b
+TD95 progress: -1 130744 gras
+TD92 [124575 : 127652 : 130744] glamour? ␅
+TD1818925 ␆a
+TD89 [124575 : 127652 : 130744] glamour? a
+TD75 progress: 1 127652 glamour
+TD74 [127653 : 129140 : 130744] gok? ␅
+TD2042196 ␆b
+TD101 [127653 : 129140 : 130744] gok? b
+TD145 progress: -1 129140 gok
+TD163 [127653 : 128396 : 129140] go? ␅
+TD1710000 ␆b
+TD83 [127653 : 128396 : 129140] go? b
+TD85 progress: -1 128396 go
+TD88 [127653 : 128007 : 128396] gletsjer? ␅
+TD1996097 ␆a
+TD102 [127653 : 128007 : 128396] gletsjer? a
+TD104 progress: 1 128007 gletsjer
+TD112 [128008 : 128179 : 128396] gloei? ␅
+TD1742180 ␆b
+TD82 [128008 : 128179 : 128396] gloei? b
+TD102 progress: -1 128179 gloei
+TD101 [128008 : 128079 : 128179] glim? ␅
+TD2811332 ␆a
+TD89 [128008 : 128079 : 128179] glim? a
+TD96 progress: 1 128079 glim
+TD90 [128080 : 128126 : 128179] glit? ␅
+TD1827421 ␆b
+TD84 [128080 : 128126 : 128179] glit? b
+TD86 progress: -1 128126 glit
+TD136 [128080 : 128102 : 128126] glimworm? ␅
+TD1774839 ␆b
+TD85 [128080 : 128102 : 128126] glimworm? b
+TD95 progress: -1 128102 glimworm
+TD178 [128080 : 128089 : 128102] glimmen? ␅
+TD1960943 ␆b
+TD78 [128080 : 128089 : 128102] glimmen? b
+TD73 progress: -1 128089 glimmen
+TD102 [128080 : 128081 : 128089] glimlachen? ␅
+TD1773282 ␆b
+TD82 [128080 : 128081 : 128089] glimlachen? b
+TD124 progress: -1 128081 glimlachen
+TD122 [128080 : 128080 : 128081] glimlach? ␅
+TD1764716 ␆it
+TD79 [128080 : 128080 : 128081] glimlach? it
+TD87 progress: 0 128080 glimlach
+TD20 [128080 : 128080 : 128081] <Done>.
+TD82 📋> ␅
+TD2692136 ␆🧩 Puzzel #690
+TD94 📋> 🧩 Puzzel #690
+TD14 📋> ␅
+TD35 ␆🤔 17 gokken
+TD5 📋> 🤔 17 gokken
+TD3 📋> ␅
+TD8 ␆⏱️ 33s
+TD4 📋> ⏱️ 33s
+TD3 📋> ␅
+TD275081 ␆🔗 alfagok.diginaut.net
+TD73 📋> 🔗 alfagok.diginaut.net
+TD5 📋> ␅
+TD134161 ␄
+TD124 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #690\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD366 result: "\ud83e\udde9 Puzzel #690\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"
+TD8 result puzzle: 690
+TD3 result guesses: 17
+TD2 result time: 33s
+TD1 result link: alfagok.diginaut.net
+TD64 📆 2026-09-23 ? ␅
+TD304812 ␆
+TD76 📆 2026-09-23 ? 
