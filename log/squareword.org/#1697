@@ -1,0 +1,246 @@
+T350.7528453300183 now: 2026-09-24T10:25:37EDT
+TD147 site: squareword.org
+TD35 wordlist: nwl2023.txt
+TD51  ...␅
+TD1163488 ␆
+TD116  ...
+TD84 🧩  ? ␅
+TD1204723 ␆
+TD112 🧩  ? 
+TD190  ...␅
+TD1214008 ␆copy
+TD113  ...copy
+TD120  ...␅
+TD3222567 ␆copy
+TD121  ...copy
+TD136  ...␅
+TD6417180 ␆
+TD124  ...
+TD85 🧩  ? ␅
+TD5387867 ␆#1697
+TD126 🧩  ? #1697
+TD362 puzzle_id: #1697
+TD350 > ␅
+TD23758342 ␆*
+TD131 > *
+TD513079 try? ␅
+TD585458 ␆1
+TD96 try? 1
+TD458 questioning: ["tears", "#5"]
+TD472 #1 <IndexError>  📋 "tears" ? ␅
+TD4008767 ␆_____ ~ TAS
+TD106 #1 <IndexError>  📋 "tears" ? _____ ~ TAS
+TD817 attempt 0 TEARS m n m n m
+TD147 #2 <IndexError>  📋 "tears" ? ␅
+TD2978659 ␆_____ ~ EARS
+TD108 #2 <IndexError>  📋 "tears" ? _____ ~ EARS
+TD354 attempt 1 TEARS n m m m m
+TD149 #3 <IndexError>  📋 "tears" ? ␅
+TD2175936 ␆____S 
+TD106 #3 <IndexError>  📋 "tears" ? ____S 
+TD322 attempt 2 TEARS n n n n Y
+TD282 #4 <IndexError>  📋 "tears" ? ␅
+TD3063944 ␆_____ ~ TES
+TD123069 #4 <IndexError>  📋 "tears" ? _____ ~ TES
+TD358 attempt 3 TEARS m m n n m
+TD162 #5 <IndexError>  📋 "tears" ? ␅
+TD2034971 ␆_E___ ~ ES
+TD116 #5 <IndexError>  📋 "tears" ? _E___ ~ ES
+TD1321 attempt 4 TEARS n Y n n m
+TD379 ? ␅
+TD331215 ␆
+TD209 ? 
+TD363 question done
+TD561 > ␅
+TD764330 ␆*
+TD101 > *
+TD1939354 try? ␅
+TD1302716 ␆1
+TD106 try? 1
+TD356 questioning: ["spear", "#2"]
+TD368 #1 _____ ~AST -ER  📋 "spear" ? ␅
+TD1284549 ␄
+TD147 question done
+TD342 > ␅
+TD4521557 ␆* 4
+TD295 > * 4
+TD9407 try? ␅
+TD1092795 ␄
+TD143 <EOF>
+TD390 > ␅
+TD787909 ␆* 1
+TD99 > * 1
+TD8423 try? ␅
+TD1074735 ␄
+TD144 <EOF>
+TD381 > ␅
+TD2057085 ␆* 3
+TD112 > * 3
+TD15850 try? ␅
+TD3289032 ␆1
+TD157 try? 1
+TD374 questioning: ["milos", "#3"]
+TD379 #1 _____ ~AST -ER  📋 "milos" ? ␅
+TD6096651 ␆__L__ ~ TAS
+TD123 #1 _____ ~AST -ER  📋 "milos" ? __L__ ~ TAS
+TD328 attempt 0 MILOS n n Y n m
+TD204 #2 _____ ~AERS -T  📋 "milos" ? ␅
+TD4708421 ␆_____ ~ EARSO
+TD97 #2 _____ ~AERS -T  📋 "milos" ? _____ ~ EARSO
+TD512 attempt 1 MILOS n n n m m
+TD279 #3 ____S -AERT  📋 "milos" ? ␅
+TD2583989 ␆____S ~ O
+TD98 #3 ____S -AERT  📋 "milos" ? ____S ~ O
+TD251 attempt 2 MILOS n n n m Y
+TD573 #4 _____ ~EST -AR  📋 "milos" ? ␅
+TD2707901 ␆_____ ~ TESI
+TD108 #4 _____ ~EST -AR  📋 "milos" ? _____ ~ TESI
+TD288 attempt 3 MILOS n m n n m
+TD168 #5 _E___ ~S -ART  📋 "milos" ? ␅
+TD8200000 ␆_E___ ~ ES
+TD107 #5 _E___ ~S -ART  📋 "milos" ? _E___ ~ ES
+TD377 attempt 4 MILOS n n n n m
+TD447 ? ␅
+TD281897 ␆
+TD113 ? 
+TD177 question done
+TD523 > ␅
+TD450725 ␆*
+TD110 > *
+TD1495033 questioning: ["arose", "#2"]
+TD397 #1 __L__ ~AST -EIMOR  📋 "arose" ? ␅
+TD5879391 ␆.
+TD124 #1 __L__ ~AST -EIMOR  📋 "arose" ? .
+TD304 attempt 0 AROSE m n n m n
+TD109 #2 _____ ~AEORS -ILMT  📋 "arose" ? ␅
+TD728825 ␆/it
+TD138 #2 _____ ~AEORS -ILMT  📋 "arose" ? /it
+TD350 attempt 1 AROSE Y Y Y Y Y
+TD150 #3 ____S ~O -AEILMRT  📋 "arose" ? ␅
+TD2461555 ␆__O_S ~ O
+TD110 #3 ____S ~O -AEILMRT  📋 "arose" ? __O_S ~ O
+TD300 attempt 2 AROSE n n Y n n
+TD173 #4 _____ ~EIST -ALMOR  📋 "arose" ? ␅
+TD1516816 ␆.
+TD106 #4 _____ ~EIST -ALMOR  📋 "arose" ? .
+TD310 attempt 3 AROSE n n n m m
+TD113 #5 _E___ ~S -AILMORT  📋 "arose" ? ␅
+TD2978539 ␆_E___ ~ ES
+TD111 #5 _E___ ~S -AILMORT  📋 "arose" ? _E___ ~ ES
+TD296 attempt 4 AROSE n n n m m
+TD395 ? ␅
+TD242359 ␆
+TD105 ? 
+TD135 question done
+TD347 > ␅
+TD463531 ␆*
+TD104 > *
+TD2020447 try? ␅
+TD1977765 ␆1
+TD132 try? 1
+TD623 questioning: ["inset", "#4"]
+TD472 #1 __L__ ~AST -EIMOR  📋 "inset" ? ␅
+TD7546062 ␆__L_T ~ AS
+TD117 #1 __L__ ~AST -EIMOR  📋 "inset" ? __L_T ~ AS
+TD291 attempt 0 INSET n n m n Y
+TD204 #3 __O_S -AEILMRST  📋 "inset" ? ␅
+TD4628186 ␆__O_S ~ O
+TD120 #3 __O_S -AEILMRST  📋 "inset" ? __O_S ~ O
+TD295 attempt 2 INSET n n n n n
+TD169 #4 _____ ~EIST -ALMOR  📋 "inset" ? ␅
+TD712858 ␆/it
+TD109 #4 _____ ~EIST -ALMOR  📋 "inset" ? /it
+TD311 attempt 3 INSET Y Y Y Y Y
+TD118 #5 _E___ ~S -AILMORT  📋 "inset" ? ␅
+TD2324080 ␆_E___ ~ ES
+TD147 #5 _E___ ~S -AILMORT  📋 "inset" ? _E___ ~ ES
+TD321 attempt 4 INSET n n m m n
+TD414 ? ␅
+TD308844 ␆
+TD117 ? 
+TD142 question done
+TD379 > ␅
+TD425421 ␆*
+TD117 > *
+TD4408049 questioning: ["seedy", "#5"]
+TD428 #1 __L_T ~AS -EIMNOR  📋 "seedy" ? ␅
+TD11057200 ␆S_L_T ~ A
+TD133 #1 __L_T ~AS -EIMNOR  📋 "seedy" ? S_L_T ~ A
+TD272 attempt 0 SEEDY Y n n n n
+TD151 #3 __O_S -AEILMNRST  📋 "seedy" ? ␅
+TD2772128 ␆__O_S ~ O
+TD95 #3 __O_S -AEILMNRST  📋 "seedy" ? __O_S ~ O
+TD234 attempt 2 SEEDY n n n n n
+TD149 #5 _E___ ~S -AILMNORT  📋 "seedy" ? ␅
+TD588678 ␆/it
+TD155 #5 _E___ ~S -AILMNORT  📋 "seedy" ? /it
+TD330 attempt 4 SEEDY Y Y Y Y Y
+TD516 ? ␅
+TD192050 ␆
+TD134 ? 
+TD138 question done
+TD261 > ␅
+TD472777 ␆*
+TD106 > *
+TD1900648 questioning: ["kooks", "#3"]
+TD276 #1 S_L_T ~A -DEIMNORY  📋 "kooks" ? ␅
+TD5582930 ␆.
+TD106 #1 S_L_T ~A -DEIMNORY  📋 "kooks" ? .
+TD241 attempt 0 KOOKS n n n n n
+TD95 #3 __O_S -ADEILMNRSTY  📋 "kooks" ? ␅
+TD624133 ␆/it
+TD131 #3 __O_S -ADEILMNRSTY  📋 "kooks" ? /it
+TD277 attempt 2 KOOKS Y Y Y Y Y
+TD257 ? ␅
+TD133460 ␆
+TD121 ? 
+TD124 question done
+TD2364 > ␅
+TD373483 ␆*
+TD122 > *
+TD1288622 questioning: ["splat", "#1"]
+TD325 #1 S_L_T ~A -DEIKMNORSY  📋 "splat" ? ␅
+TD3616822 ␆/it
+TD110 #1 S_L_T ~A -DEIKMNORSY  📋 "splat" ? /it
+TD330 attempt 0 SPLAT Y Y Y Y Y
+TD361 ? ␅
+TD459244 ␆
+TD127 ? 
+TD115 question done
+TD38148 📋> ␅
+TD4796596 ␆squareword.org 1697: 7 guesses
+TD136 📋> squareword.org 1697: 7 guesses
+TD17 📋> ␅
+TD73 ␆
+TD8 📋> 
+TD7 📋> ␅
+TD25 ␆🟩🟨🟩🟨🟩
+TD6 📋> 🟩🟨🟩🟨🟩
+TD6 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD18 ␆🟨🟨🟩🟨🟩
+TD5 📋> 🟨🟨🟩🟨🟩
+TD6 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD17 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD19 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD247158 ␆#squareword #squareword1697
+TD131 📋> #squareword #squareword1697
+TD12 📋> ␅
+TD292484 ␄
+TD247 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1697: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1697"}
+TD1082 result: "squareword.org 1697: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1697"
+TD129 📆 2026-09-24 ? ␅
+TD3975050 ␆
+TD98 📆 2026-09-24 ? 
