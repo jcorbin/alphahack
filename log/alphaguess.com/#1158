@@ -1,0 +1,85 @@
+T448.25586961000226 now: 2026-09-24T08:42:44EDT
+TD210 site: alphaguess.com
+TD235673 loaded 196513 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (91 words excluded) asof 12667c6158cbdb0668d3da74a4d4b88b5024fe4a
+TD182  ...␅
+TD2276935 ␆copy
+TD137  ...copy
+TD149  ...␅
+TD3439367 ␆
+TD129  ...
+TD223 [0 : 98142 : 196513] mac? ␅
+TD1765271 ␆a
+TD124 [0 : 98142 : 196513] mac? a
+TD137 progress: 1 98142 mac
+TD141 [98143 : 147306 : 196513] rho? ␅
+TD1639537 ␆a
+TD132 [98143 : 147306 : 196513] rho? a
+TD134 progress: 1 147306 rho
+TD151 [147307 : 171906 : 196513] tag? ␅
+TD1578110 ␆b
+TD139 [147307 : 171906 : 196513] tag? b
+TD134 progress: -1 171906 tag
+TD274 [147307 : 159588 : 171906] slug? ␅
+TD1469542 ␆b
+TD148 [147307 : 159588 : 171906] slug? b
+TD146 progress: -1 159588 slug
+TD341 [147307 : 153306 : 159588] sea? ␅
+TD1484626 ␆b
+TD136 [147307 : 153306 : 159588] sea? b
+TD125 progress: -1 153306 sea
+TD126 [147307 : 150202 : 153306] sal? ␅
+TD2649397 ␆a
+TD130 [147307 : 150202 : 153306] sal? a
+TD143 progress: 1 150202 sal
+TD135 [150203 : 151722 : 153306] scan? ␅
+TD1258504 ␆a
+TD132 [150203 : 151722 : 153306] scan? a
+TD153 progress: 1 151722 scan
+TD398 [151723 : 152514 : 153306] scombrid? ␅
+TD1331278 ␆a
+TD169 [151723 : 152514 : 153306] scombrid? a
+TD172 progress: 1 152514 scombrid
+TD508 [152515 : 152910 : 153306] scried? ␅
+TD1244015 ␆a
+TD144 [152515 : 152910 : 153306] scried? a
+TD138 progress: 1 152910 scried
+TD337 [152911 : 153107 : 153306] scrutinize? ␅
+TD1332150 ␆b
+TD113 [152911 : 153107 : 153306] scrutinize? b
+TD139 progress: -1 153107 scrutinize
+TD366 [152911 : 153009 : 153107] scrotal? ␅
+TD1359375 ␆a
+TD159 [152911 : 153009 : 153107] scrotal? a
+TD138 progress: 1 153009 scrotal
+TD189 [153010 : 153052 : 153107] scrum? ␅
+TD7412764 ␆b
+TD129 [153010 : 153052 : 153107] scrum? b
+TD124 progress: -1 153052 scrum
+TD159 [153010 : 153026 : 153052] scrub? ␅
+TD3214539 ␆it
+TD194 [153010 : 153026 : 153052] scrub? it
+TD154 progress: 0 153026 scrub
+TD44 [153010 : 153026 : 153052] <Done>.
+TD119 📋> ␅
+TD2822499 ␆🧩 Puzzle #1158
+TD149 📋> 🧩 Puzzle #1158
+TD13 📋> ␅
+TD45 ␆🤔 13 guesses
+TD7 📋> 🤔 13 guesses
+TD5 📋> ␅
+TD13 ␆⏱️ 24s
+TD6 📋> ⏱️ 24s
+TD4 📋> ␅
+TD246478 ␆🔗 alphaguess.com/1158
+TD101 📋> 🔗 alphaguess.com/1158
+TD12 📋> ␅
+TD150084 ␄
+TD133 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1158\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/1158"}
+TD137 result: "\ud83e\udde9 Puzzle #1158\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 24s\n\ud83d\udd17 alphaguess.com/1158"
+TD16 result puzzle: 1158
+TD6 result guesses: 13
+TD5 result time: 24s
+TD4 result link: alphaguess.com/1158
+TD161 📆 2026-09-24 ? ␅
+TD279066 ␆
+TD169 📆 2026-09-24 ? 
