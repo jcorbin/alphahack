@@ -1,0 +1,195 @@
+T748.5236582109937 now: 2026-09-25T08:00:51EDT
+TD65 site: https://www.merriam-webster.com/games/quordle/#/
+TD12 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD71  ...␅
+TD527732 ␆
+TD74  ...
+TD293846 > ␅
+TD2025759 ␆/site
+TD76 > /site
+TD193  ...␅
+TD743614 ␆copy
+TD80  ...copy
+TD87  ...␅
+TD3344105 ␆
+TD76  ...
+TD344430 > ␅
+TD3519391 ␆*
+TD67 > *
+TD38658 ? ␅
+TD705448 ␆1
+TD70 ? 1
+TD148 questioning: etnas
+TD146 Classic #1 _____? ␅
+TD3399747 ␆MnnYM
+TD63 Classic #1 _____? MnnYM
+TD263 attempt: 0 ETNAS m n n Y m
+TD71 Classic #2 _____? ␅
+TD1335539 ␆nnnnn
+TD78 Classic #2 _____? nnnnn
+TD154 attempt: 1 ETNAS n n n n n
+TD62 Classic #3 _____? ␅
+TD1047628 ␆nnnnn
+TD70 Classic #3 _____? nnnnn
+TD141 attempt: 2 ETNAS n n n n n
+TD64 Classic #4 _____? ␅
+TD1359637 ␆nnMYn
+TD73 Classic #4 _____? nnMYn
+TD134 attempt: 3 ETNAS n n m Y n
+TD377474 > ␅
+TD758472 ␆*
+TD75 > *
+TD2904 ? ␅
+TD860874 ␆1
+TD63 ? 1
+TD120 questioning: lyric
+TD115 Classic #1 ___A_ ~ES -NT? ␅
+TD3423817 ␆nnMnn
+TD64 Classic #1 ___A_ ~ES -NT? nnMnn
+TD141 attempt: 0 LYRIC n n m n n
+TD65 Classic #2 _____ -AENST? ␅
+TD1927649 ␆Mnnnn
+TD63 Classic #2 _____ -AENST? Mnnnn
+TD141 attempt: 1 LYRIC m n n n n
+TD63 Classic #3 _____ -AENST? ␅
+TD1751745 ␆nMnnn
+TD62 Classic #3 _____ -AENST? nMnnn
+TD141 attempt: 2 LYRIC n m n n n
+TD63 Classic #4 ___A_ ~N -EST? ␅
+TD1199780 ␆nnMnn
+TD70 Classic #4 ___A_ ~N -EST? nnMnn
+TD170 attempt: 3 LYRIC n n m n n
+TD300868 > ␅
+TD1474972 ␆*
+TD64 > *
+TD622 ? ␅
+TD2191196 ␆1
+TD83 ? 1
+TD149 questioning: bumpy
+TD141 Classic #1 ___A_ ~ERS -CILNTY? ␅
+TD4120060 ␆nnnnn
+TD98 Classic #1 ___A_ ~ERS -CILNTY? nnnnn
+TD175 attempt: 0 BUMPY n n n n n
+TD87 Classic #2 _____ ~L -ACEINRSTY? ␅
+TD1247366 ␆nnnnn
+TD82 Classic #2 _____ ~L -ACEINRSTY? nnnnn
+TD171 attempt: 1 BUMPY n n n n n
+TD84 Classic #3 _____ ~Y -ACEILNRST? ␅
+TD2399759 ␆nYnYY
+TD71 Classic #3 _____ ~Y -ACEILNRST? nYnYY
+TD141 attempt: 2 BUMPY n Y n Y Y
+TD66 Classic #4 ___A_ ~NR -CEILSTY? ␅
+TD1127703 ␆nnnnn
+TD77 Classic #4 ___A_ ~NR -CEILSTY? nnnnn
+TD172 attempt: 3 BUMPY n n n n n
+TD290558 > ␅
+TD941222 ␆*
+TD82 > *
+TD408 ? ␅
+TD4431770 ␄
+TD99 <EOF>
+TD268722 > ␅
+TD1418816 ␆* 2
+TD70 > * 2
+TD68180 ? ␅
+TD4043712 ␆2
+TD69 ? 2
+TD118 questioning: flood
+TD112 Classic #1 ___A_ ~ERS -BCILMNPTUY? ␅
+TD3831936 ␆nnnnn
+TD71 Classic #1 ___A_ ~ERS -BCILMNPTUY? nnnnn
+TD131 attempt: 0 FLOOD n n n n n
+TD65 Classic #2 _____ ~L -ABCEIMNPRSTUY? ␅
+TD1191992 ␆YYYYY
+TD82 Classic #2 _____ ~L -ABCEIMNPRSTUY? YYYYY
+TD162 attempt: 1 FLOOD Y Y Y Y Y
+TD91 Classic #3 _U_PY -ABCEILMNRST? ␅
+TD2335726 ␆nnnnn
+TD90 Classic #3 _U_PY -ABCEILMNRST? nnnnn
+TD202 attempt: 2 FLOOD n n n n n
+TD91 Classic #4 ___A_ ~NR -BCEILMPSTUY? ␅
+TD1463498 ␆nnYnn
+TD81 Classic #4 ___A_ ~NR -BCEILMPSTUY? nnYnn
+TD171 attempt: 3 FLOOD n n Y n n
+TD211015 > ␅
+TD668836 ␆*
+TD69 > *
+TD253 questioning: groan
+TD167 Classic #1 ___A_ ~ERS -BCDFILMNOPTUY? ␅
+TD5183264 ␆nMnYn
+TD84 Classic #1 ___A_ ~ERS -BCDFILMNOPTUY? nMnYn
+TD172 attempt: 0 GROAN n m n Y n
+TD84 Classic #3 _U_PY -ABCDEFILMNORST? ␅
+TD1800257 ␆Ynnnn
+TD62 Classic #3 _U_PY -ABCDEFILMNORST? Ynnnn
+TD134 attempt: 2 GROAN Y n n n n
+TD65 Classic #4 __OA_ ~NR -BCDEFILMPSTUY? ␅
+TD1407272 ␆YYYYY
+TD69 Classic #4 __OA_ ~NR -BCDEFILMPSTUY? YYYYY
+TD127 attempt: 3 GROAN Y Y Y Y Y
+TD136420 > ␅
+TD807302 ␆*
+TD64 > *
+TD257 questioning: guppy
+TD89 Classic #1 ___A_ ~ERS -BCDFGILMNOPTUY? ␅
+TD2848097 ␆nnnnn
+TD72 Classic #1 ___A_ ~ERS -BCDFGILMNOPTUY? nnnnn
+TD140 attempt: 0 GUPPY n n n n n
+TD88 Classic #3 GU_PY -ABCDEFILMNORST? ␅
+TD1135295 ␆YYYYY
+TD69 Classic #3 GU_PY -ABCDEFILMNORST? YYYYY
+TD134 attempt: 2 GUPPY Y Y Y Y Y
+TD100006 > ␅
+TD811814 ␆*
+TD69 > *
+TD351 ? ␅
+TD1855673 ␄
+TD110 <EOF>
+TD157287 > ␅
+TD706361 ␆probe
+TD67 > probe
+TD156316 > ␅
+TD17940168 ␆probe whrs
+TD70 > probe whrs
+TD153640 > ␅
+TD8150155 ␆tried shrew
+TD90 > tried shrew
+TD245 questioning: SHREW
+TD107 Classic #1 ___A_ ~ERS -BCDFGILMNOPTUY? ␅
+TD1879583 ␆YnMMM
+TD68 Classic #1 ___A_ ~ERS -BCDFGILMNOPTUY? YnMMM
+TD138 attempt: 0 SHREW Y n m m m
+TD75588 > ␅
+TD780085 ␆*
+TD76 > *
+TD369 ? ␅
+TD2543670 ␆2
+TD69 ? 2
+TD123 questioning: swear
+TD117 Classic #1 S__A_ ~ERW -BCDFGHILMNOPTUY? ␅
+TD2967998 ␆YYYYY
+TD68 Classic #1 S__A_ ~ERW -BCDFGHILMNOPTUY? YYYYY
+TD129 attempt: 0 SWEAR Y Y Y Y Y
+TD57 📋> ␅
+TD4192398 ␆🙂 Daily Quordle 1705
+TD77 📋> 🙂 Daily Quordle 1705
+TD6 📋> ␅
+TD31 ␆8️⃣4️⃣
+TD4 📋> 8️⃣4️⃣
+TD4 📋> ␅
+TD8 ␆6️⃣5️⃣
+TD3 📋> 6️⃣5️⃣
+TD3 📋> ␅
+TD6 ␆m-w.com/games/quordle/
+TD3 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD288133 ␆
+TD83 📋> 
+TD9 📋> ␅
+TD191231 ␄
+TD139 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1705\n8\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1063 result: "\ud83d\ude42 Daily Quordle 1705\n8\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD81 📆 2026-09-25 ? ␅
+TD230575 ␆
+TD83 📆 2026-09-25 ? 
