@@ -1,0 +1,249 @@
+T366.2543934779824 now: 2026-09-26T07:49:41EDT
+TD98 site: https://play.dictionary.com/games/todays-hurdle
+TD15 wordlist: nwl2023.txt
+TD28  ...␅
+TD1870608 ␆copy
+TD82  ...copy
+TD87  ...␅
+TD9767873 ␆
+TD63  ...
+TD102 1.1> ␅
+TD34248250 ␆*
+TD69 1.1> *
+TD171415 1.1 ? ␅
+TD932550 ␆1
+TD69 1.1 ? 1
+TD164 1.1 📋 "osier" ? ␅
+TD3959820 ␆YnYnn
+TD72 1.1 📋 "osier" ? YnYnn
+TD140 tried: OSIER Y n Y n n
+TD361 1.2> ␅
+TD359390 ␆*
+TD69 1.2> *
+TD67133 1.2 ? ␅
+TD3860946 ␆1
+TD67 1.2 ? 1
+TD157 1.2 📋 "opium" ? ␅
+TD4287865 ␆YYYYY
+TD69 1.2 📋 "opium" ? YYYYY
+TD137 tried: OPIUM Y Y Y Y Y
+TD275 2.1 📋 "opium" ? ␅
+TD11015551 ␆nnnMn
+TD81 2.1 📋 "opium" ? nnnMn
+TD168 tried: OPIUM n n n m n
+TD168 2.2> ␅
+TD679642 ␆*
+TD70 2.2> *
+TD75611 2.2 ? ␅
+TD2500462 ␆4
+TD79 2.2 ? 4
+TD201 2.2 📋 "urges" ? ␅
+TD4183620 ␆MnnnM
+TD96 2.2 📋 "urges" ? MnnnM
+TD166 tried: URGES m n n n m
+TD188 2.3> ␅
+TD479588 ␆*
+TD82 2.3> *
+TD85205 2.3 ? ␅
+TD2098552 ␆1
+TD73 2.3 ? 1
+TD160 2.3 📋 "saucy" ? ␅
+TD3864083 ␆YnYYn
+TD83 2.3 📋 "saucy" ? YnYYn
+TD164 tried: SAUCY Y n Y Y n
+TD189 2.4> ␅
+TD399400 ␆*
+TD81 2.4> *
+TD74002 2.4 ? ␅
+TD2102293 ␄
+TD111 <EOF>
+TD156 2.4> ␅
+TD2663529 ␆probe
+TD73 2.4> probe
+TD68377 2.4> ␅
+TD8603641 ␆tried chant MnnnM
+TD71 2.4> tried chant MnnnM
+TD131 tried: CHANT m n n n m
+TD120 2.5> ␅
+TD440497 ␆*
+TD71 2.5> *
+TD63549 2.5 📋 "stuck" ? ␅
+TD3752086 ␆YYYYY
+TD70 2.5 📋 "stuck" ? YYYYY
+TD133 tried: STUCK Y Y Y Y Y
+TD193 3.1 📋 "stuck" ? ␅
+TD7535191 ␆Mnnnn
+TD78 3.1 📋 "stuck" ? Mnnnn
+TD168 tried: STUCK m n n n n
+TD149 3.2> ␅
+TD591815 ␆*
+TD68 3.2> *
+TD77887 3.2 ? ␅
+TD770005 ␆1
+TD71 3.2 ? 1
+TD184 3.2 📋 "nares" ? ␅
+TD3695585 ␆MnnMM
+TD82 3.2 📋 "nares" ? MnnMM
+TD218 tried: NARES m n n m m
+TD228 3.3> ␅
+TD439691 ␆*
+TD65 3.3> *
+TD95545 3.3 ? ␅
+TD3840475 ␄
+TD91 <EOF>
+TD115 3.3> ␅
+TD1167713 ␆probe
+TD70 3.3> probe
+TD127886 3.3> ␅
+TD5984170 ␆tried child nnnnM
+TD69 3.3> tried child nnnnM
+TD138 tried: CHILD n n n n m
+TD115 3.4> ␅
+TD655838 ␆*
+TD70 3.4> *
+TD100239 3.4 📋 "dense" ? ␅
+TD3451373 ␆YYYYY
+TD64 3.4 📋 "dense" ? YYYYY
+TD150 tried: DENSE Y Y Y Y Y
+TD203 4.1 📋 "dense" ? ␅
+TD8104012 ␆nnMnn
+TD80 4.1 📋 "dense" ? nnMnn
+TD155 tried: DENSE n n m n n
+TD125 4.2> ␅
+TD479613 ␆*
+TD71 4.2> *
+TD71325 4.2 ? ␅
+TD5216676 ␆6
+TD83 4.2 ? 6
+TD187 4.2 📋 "ingot" ? ␅
+TD3839891 ␆YYnnY
+TD78 4.2 📋 "ingot" ? YYnnY
+TD163 tried: INGOT Y Y n n Y
+TD232 4.3> ␅
+TD351323 ␆*
+TD69 4.3> *
+TD65042 4.3 ? ␅
+TD2063087 ␆2
+TD72 4.3 ? 2
+TD163 4.3 📋 "input" ? ␅
+TD3823722 ␆YYYYY
+TD72 4.3 📋 "input" ? YYYYY
+TD156 tried: INPUT Y Y Y Y Y
+TD195 5.1 📋 "opium" ? ␅
+TD8768033 ␆Mnnnn
+TD80 5.1 📋 "opium" ? Mnnnn
+TD144 tried: OPIUM m n n n n
+TD181 5.2 📋 "stuck" ? ␅
+TD1183298 ␆MMnnn
+TD71 5.2 📋 "stuck" ? MMnnn
+TD143 tried: STUCK m m n n n
+TD152 5.3 📋 "dense" ? ␅
+TD1559731 ␆nnnYn
+TD76 5.3 📋 "dense" ? nnnYn
+TD158 tried: DENSE n n n Y n
+TD178 5.4 📋 "input" ? ␅
+TD1575557 ␆nnnnY
+TD90 5.4 📋 "input" ? nnnnY
+TD177 tried: INPUT n n n n Y
+TD204 5.5> ␅
+TD751530 ␆*
+TD71 5.5> *
+TD63448 5.5 ? ␅
+TD1584181 ␄
+TD98 <EOF>
+TD117 5.5> ␅
+TD1495656 ␆probe
+TD65 5.5> probe
+TD73992 5.5> ␅
+TD17574546 ␆tried awful nnnnn
+TD92 5.5> tried awful nnnnn
+TD160 tried: AWFUL n n n n n
+TD152 5.6> ␅
+TD367566 ␆*
+TD69 5.6> *
+TD64136 5.6 ? ␅
+TD6159498 ␆4
+TD76 5.6 ? 4
+TD203 5.6 📋 "boost" ? ␅
+TD3552297 ␆YYYYY
+TD72 5.6 📋 "boost" ? YYYYY
+TD142 tried: BOOST Y Y Y Y Y
+TD185 📋> ␅
+TD4768409 ␆Hurdle 1729
+TD71 📋> Hurdle 1729
+TD6 📋> ␅
+TD22 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD4 ␆2/6
+TD2 📋> 2/6
+TD1 📋> ␅
+TD6 ␆🟩⬜🟩⬜⬜
+TD2 📋> 🟩⬜🟩⬜⬜
+TD1 📋> ␅
+TD3 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD3 ␆5/6
+TD2 📋> 5/6
+TD1 📋> ␅
+TD4 ␆⬜⬜⬜🟨⬜
+TD1 📋> ⬜⬜⬜🟨⬜
+TD1 📋> ␅
+TD3 ␆🟨⬜⬜⬜🟨
+TD1 📋> 🟨⬜⬜⬜🟨
+TD1 📋> ␅
+TD3 ␆🟩⬜🟩🟩⬜
+TD1 📋> 🟩⬜🟩🟩⬜
+TD2 📋> ␅
+TD3 ␆🟨⬜⬜⬜🟨
+TD2 📋> 🟨⬜⬜⬜🟨
+TD8 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD3 ␆4/6
+TD1 📋> 4/6
+TD1 📋> ␅
+TD3 ␆🟨⬜⬜⬜⬜
+TD1 📋> 🟨⬜⬜⬜⬜
+TD1 📋> ␅
+TD3 ␆🟨⬜⬜🟨🟨
+TD1 📋> 🟨⬜⬜🟨🟨
+TD1 📋> ␅
+TD3 ␆⬜⬜⬜⬜🟨
+TD1 📋> ⬜⬜⬜⬜🟨
+TD1 📋> ␅
+TD3 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD3 ␆3/6
+TD1 📋> 3/6
+TD1 📋> ␅
+TD3 ␆⬜⬜🟨⬜⬜
+TD1 📋> ⬜⬜🟨⬜⬜
+TD1 📋> ␅
+TD3 ␆🟩🟩⬜⬜🟩
+TD1 📋> 🟩🟩⬜⬜🟩
+TD1 📋> ␅
+TD3 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD3 ␆Final 2/2
+TD1 📋> Final 2/2
+TD1 📋> ␅
+TD3 ␆⬜⬜⬜⬜⬜
+TD1 📋> ⬜⬜⬜⬜⬜
+TD1 📋> ␅
+TD3 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD318928 ␆score: 10,000
+TD65 📋> score: 10,000
+TD6 📋> ␅
+TD159690 ␄
+TD126 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1729\n\n2/6\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"}
+TD373 result: "Hurdle 1729\n\n2/6\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 2/2\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"
+TD55 📆 2026-09-26 ? ␅
+TD295692 ␆
+TD67 📆 2026-09-26 ? 
