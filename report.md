@@ -1,9 +1,6 @@
 # 2026-09-27
 
 - 🔗 spaceword.org 🧩 2026-09-26 🏗️ score 2172 current ranking 31/177 ⏱️ 1:06:21.491764
-
-# 2026-09-26
-
 - 🔗 wordgrid 🧩 #848 🟪 rarity:0.18 ⏱️ 0:02:26.632903
 
 ## WIP
