@@ -1,0 +1,169 @@
+T202.8605617239955 now: 2026-09-26T07:46:58EDT
+TD68 site: dontwordle.com
+TD11 wordlist: nwl2023.txt
+TD21  ...␅
+TD2159092 ␆copy
+TD83  ...copy
+TD91  ...␅
+TD4496075 ␆copy
+TD85  ...copy
+TD89  ...␅
+TD6999128 ␆copy
+TD82  ...copy
+TD87  ...␅
+TD3943734 ␆
+TD70  ...
+TD85 1> ␅
+TD3007963 ␆* -bot 10
+TD97 1> * -bot 10
+TD156230 ? ␅
+TD819797 ␆1
+TD82 ? 1
+TD213 📋 "raise" ? ␅
+TD4095891 ␆MYnnn
+TD74 📋 "raise" ? MYnnn
+TD431 tried: RAISE m Y n n n
+TD151 2> ␅
+TD831431 ␆undo
+TD76 2> undo
+TD121 undo
+TD113 1> ␅
+TD8519991 ␆* :v [arise] -bot 10
+TD100 1> * :v [arise] -bot 10
+TD85198 ? ␅
+TD922154 ␆1
+TD83 ? 1
+TD208 📋 "donut" ? ␅
+TD4575703 ␆nnnnM
+TD74 📋 "donut" ? nnnnM
+TD147 tried: DONUT n n n n m
+TD122 2> ␅
+TD655717 ␆undo
+TD77 2> undo
+TD97 undo
+TD96 1> ␅
+TD2999780 ␆*
+TD74 1> *
+TD74710 ? ␅
+TD141052 ␆1
+TD68 ? 1
+TD164 📋 "jujus" ? ␅
+TD4375988 ␆nnnnn
+TD70 📋 "jujus" ? nnnnn
+TD130 tried: JUJUS n n n n n
+TD145 2> ␅
+TD415637 ␆*
+TD98 2> *
+TD67474 ? ␅
+TD148598 ␆1
+TD66 ? 1
+TD151 📋 "feoff" ? ␅
+TD4407984 ␆nnnnn
+TD62 📋 "feoff" ? nnnnn
+TD124 tried: FEOFF n n n n n
+TD164 3> ␅
+TD455626 ␆*
+TD81 3> *
+TD63072 ? ␅
+TD864611 ␆1
+TD82 ? 1
+TD214 📋 "phizz" ? ␅
+TD5375976 ␆nnnnn
+TD71 📋 "phizz" ? nnnnn
+TD132 tried: PHIZZ n n n n n
+TD115 4> ␅
+TD711471 ␆*
+TD77 4> *
+TD62675 📋 "xylyl" ? ␅
+TD7545613 ␆nMnnn
+TD89 📋 "xylyl" ? nMnnn
+TD130 tried: XYLYL n m n n n
+TD101 5> ␅
+TD863581 ␆undo
+TD69 5> undo
+TD91 undo
+TD135 4> ␅
+TD504313 ␆*
+TD86 4> *
+TD129623 📋 "grrrl" ? ␅
+TD7917478 ␆nnYnn
+TD80 📋 "grrrl" ? nnYnn
+TD164 tried: GRRRL n n Y n n
+TD150 5> ␅
+TD4551711 ␆*
+TD87 5> *
+TD125204 ? ␅
+TD962691 ␆1
+TD70 ? 1
+TD190 📋 "barca" ? ␅
+TD4168097 ␆nYMnn
+TD81 📋 "barca" ? nYMnn
+TD181 tried: BARCA n Y m n n
+TD152 6> ␅
+TD407322 ␆*
+TD81 6> *
+TD134007 📋 "karat" ? ␅
+TD4826230 ␄
+TD115 <EOF>
+TD128 6> ␅
+TD1439819 ␆* -sans
+TD81 6> * -sans
+TD62837 ? ␅
+TD6241251 ␆3
+TD98 ? 3
+TD191 📋 "marvy" ? ␅
+TD4471906 ␆nYYnY
+TD103 📋 "marvy" ? nYYnY
+TD168 tried: MARVY n Y Y n Y
+TD157 📋> ␅
+TD5168478 ␆Don't Wordle 1586 - SURVIVED
+TD83 📋> Don't Wordle 1586 - SURVIVED
+TD10 📋> ␅
+TD32 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD5 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜5557
+TD4 📋> ⬜⬜⬜⬜⬜5557
+TD3 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜1344
+TD3 📋> ⬜⬜⬜⬜⬜1344
+TD3 📋> ␅
+TD5 ␆⬜⬜⬜⬜⬜370
+TD3 📋> ⬜⬜⬜⬜⬜370
+TD2 📋> ␅
+TD6 ␆⬜⬜🟩⬜⬜34
+TD3 📋> ⬜⬜🟩⬜⬜34
+TD2 📋> ␅
+TD6 ␆⬜🟩🟩⬜⬜8
+TD3 📋> ⬜🟩🟩⬜⬜8
+TD2 📋> ␅
+TD6 ␆⬜🟩🟩⬜🟩5
+TD3 📋> ⬜🟩🟩⬜🟩5
+TD2 📋> ␅
+TD6 ␆Undos used: 3
+TD3 📋> Undos used: 3
+TD3 📋> ␅
+TD6 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD6 ␆  5 words remaining
+TD3 📋>   5 words remaining
+TD3 📋> ␅
+TD5 ␆x 7 unused letters
+TD2 📋> x 7 unused letters
+TD2 📋> ␅
+TD5 ␆= 35 total score
+TD4 📋> = 35 total score
+TD4 📋> ␅
+TD9 ␆
+TD3 📋> 
+TD4 📋> ␅
+TD342569 ␆https://dontwordle.com
+TD71 📋> https://dontwordle.com
+TD6 📋> ␅
+TD376030 ␄
+TD122 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1586 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5557\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1344\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c370\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c34\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe95\nUndos used: 3\n\n  5 words remaining\nx 7 unused letters\n= 35 total score\n\nhttps://dontwordle.com"}
+TD593 result: "Don't Wordle 1586 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5557\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1344\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c370\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c34\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe95\nUndos used: 3\n\n  5 words remaining\nx 7 unused letters\n= 35 total score\n\nhttps://dontwordle.com"
+TD64 📆 2026-09-26 ? ␅
+TD495269 ␆
+TD67 📆 2026-09-26 ? 
