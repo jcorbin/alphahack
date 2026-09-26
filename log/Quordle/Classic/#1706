@@ -1,0 +1,184 @@
+T603.7369682110148 now: 2026-09-26T07:53:39EDT
+TD88 site: https://www.merriam-webster.com/games/quordle/#/
+TD18 wordlist: nwl2023.txt
+TD5 num_words: 4
+TD93  ...␅
+TD1615325 ␆copy
+TD100  ...copy
+TD86  ...␅
+TD4439529 ␆copy
+TD80  ...copy
+TD84  ...␅
+TD4080626 ␆copy
+TD78  ...copy
+TD88  ...␅
+TD12095513 ␆
+TD71  ...
+TD359792 > ␅
+TD2447857 ␆*
+TD73 > *
+TD35598 ? ␅
+TD692192 ␆1
+TD67 ? 1
+TD128 questioning: seral
+TD129 Classic #1 _____? ␅
+TD2984084 ␆YnMnn
+TD70 Classic #1 _____? YnMnn
+TD293 attempt: 0 SERAL Y n m n n
+TD73 Classic #2 _____? ␅
+TD1327255 ␆nMnnM
+TD66 Classic #2 _____? nMnnM
+TD171 attempt: 1 SERAL n m n n m
+TD68 Classic #3 _____? ␅
+TD1479829 ␆MMnMM
+TD88 Classic #3 _____? MMnMM
+TD150 attempt: 2 SERAL m m n m m
+TD65 Classic #4 _____? ␅
+TD1239759 ␆nMMMn
+TD72 Classic #4 _____? nMMMn
+TD135 attempt: 3 SERAL n m m m n
+TD489687 > ␅
+TD1502020 ␆*
+TD74 > *
+TD1135 ? ␅
+TD1054894 ␆1
+TD72 ? 1
+TD125 questioning: oiled
+TD128 Classic #1 S____ ~R -AEL? ␅
+TD4167853 ␆Mnnnn
+TD69 Classic #1 S____ ~R -AEL? Mnnnn
+TD137 attempt: 0 OILED m n n n n
+TD66 Classic #2 _____ ~EL -ARS? ␅
+TD2223678 ␆nYMMn
+TD78 Classic #2 _____ ~EL -ARS? nYMMn
+TD178 attempt: 1 OILED n Y m m n
+TD181 Classic #3 _____ ~AELS -R? ␅
+TD1999446 ␆nnMMn
+TD67 Classic #3 _____ ~AELS -R? nnMMn
+TD136 attempt: 2 OILED n n m m n
+TD64 Classic #4 _____ ~AER -LS? ␅
+TD1607713 ␆nnnMn
+TD66 Classic #4 _____ ~AER -LS? nnnMn
+TD141 attempt: 3 OILED n n n m n
+TD409105 > ␅
+TD1630988 ␆*
+TD67 > *
+TD872 ? ␅
+TD5495541 ␆1
+TD78 ? 1
+TD164 questioning: crate
+TD169 Classic #1 S____ ~OR -ADEIL? ␅
+TD2855561 ␆nMnMn
+TD67 Classic #1 S____ ~OR -ADEIL? nMnMn
+TD138 attempt: 0 CRATE n m n m n
+TD67 Classic #2 _I___ ~EL -ADORS? ␅
+TD1495215 ␆nnnnY
+TD69 Classic #2 _I___ ~EL -ADORS? nnnnY
+TD140 attempt: 1 CRATE n n n n Y
+TD63 Classic #3 _____ ~AELS -DIOR? ␅
+TD2160553 ␆nnMnY
+TD77 Classic #3 _____ ~AELS -DIOR? nnMnY
+TD287 attempt: 2 CRATE n n m n Y
+TD90 Classic #4 _____ ~AER -DILOS? ␅
+TD1670968 ␆YYYnY
+TD69 Classic #4 _____ ~AER -DILOS? YYYnY
+TD158 attempt: 3 CRATE Y Y Y n Y
+TD325301 > ␅
+TD970309 ␆*
+TD93 > *
+TD279 questioning: lapse
+TD93 Classic #1 S____ ~ORT -ACDEIL? ␅
+TD2863549 ␆nnnMn
+TD68 Classic #1 S____ ~ORT -ACDEIL? nnnMn
+TD140 attempt: 0 LAPSE n n n m n
+TD68 Classic #2 _I__E ~L -ACDORST? ␅
+TD1680556 ␆MnnnY
+TD71 Classic #2 _I__E ~L -ACDORST? MnnnY
+TD146 attempt: 1 LAPSE m n n n Y
+TD67 Classic #3 ____E ~ALS -CDIORT? ␅
+TD1311157 ␆YYYYY
+TD317 Classic #3 ____E ~ALS -CDIORT? YYYYY
+TD142 attempt: 2 LAPSE Y Y Y Y Y
+TD64 Classic #4 CRA_E -DILOST? ␅
+TD1383418 ␆nMnnY
+TD68 Classic #4 CRA_E -DILOST? nMnnY
+TD168 attempt: 3 LAPSE n m n n Y
+TD241747 > ␅
+TD1422139 ␆*
+TD81 > *
+TD301 questioning: bible
+TD112 Classic #1 S____ ~ORT -ACDEILP? ␅
+TD2911377 ␆nnnnn
+TD67 Classic #1 S____ ~ORT -ACDEILP? nnnnn
+TD131 attempt: 0 BIBLE n n n n n
+TD67 Classic #2 _I__E ~L -ACDOPRST? ␅
+TD1960430 ␆YYYYY
+TD75 Classic #2 _I__E ~L -ACDOPRST? YYYYY
+TD172 attempt: 1 BIBLE Y Y Y Y Y
+TD86 Classic #4 CRA_E -DILOPST? ␅
+TD1647444 ␆nnnnY
+TD79 Classic #4 CRA_E -DILOPST? nnnnY
+TD174 attempt: 3 BIBLE n n n n Y
+TD132432 > ␅
+TD938964 ␆*
+TD85 > *
+TD477 ? ␅
+TD3120252 ␄
+TD119 <EOF>
+TD131403 > ␅
+TD851893 ␆probe
+TD88 > probe
+TD251621 > ␅
+TD5564056 ␆tried human
+TD70 > tried human
+TD241 questioning: HUMAN
+TD112 Classic #1 S____ ~ORT -ABCDEILP? ␅
+TD1887569 ␆nnnnM
+TD82 Classic #1 S____ ~ORT -ABCDEILP? nnnnM
+TD178 attempt: 0 HUMAN n n n n m
+TD92 Classic #4 CRA_E -BDILOPST? ␅
+TD1127776 ␆nnnMM
+TD78 Classic #4 CRA_E -BDILOPST? nnnMM
+TD188 attempt: 3 HUMAN n n n m m
+TD130405 > ␅
+TD661157 ␆*
+TD66 > *
+TD268 questioning: snort
+TD99 Classic #1 S____ ~NORT -ABCDEHILMPU? ␅
+TD3239633 ␆YYYYY
+TD92 Classic #1 S____ ~NORT -ABCDEHILMPU? YYYYY
+TD156 attempt: 0 SNORT Y Y Y Y Y
+TD136 Classic #4 CRA_E ~N -BDHILMOPSTU? ␅
+TD1839458 ␆nMnMn
+TD70 Classic #4 CRA_E ~N -BDHILMOPSTU? nMnMn
+TD154 attempt: 3 SNORT n m n m n
+TD62524 > ␅
+TD625184 ␆*
+TD68 > *
+TD250 questioning: crane
+TD86 Classic #4 CRA_E ~N -BDHILMOPSTU? ␅
+TD3031781 ␆YYYYY
+TD62 Classic #4 CRA_E ~N -BDHILMOPSTU? YYYYY
+TD139 attempt: 3 CRANE Y Y Y Y Y
+TD63 📋> ␅
+TD4512503 ␆🙂 Daily Quordle 1706
+TD77 📋> 🙂 Daily Quordle 1706
+TD10 📋> ␅
+TD34 ␆7️⃣5️⃣
+TD5 📋> 7️⃣5️⃣
+TD4 📋> ␅
+TD7 ␆4️⃣8️⃣
+TD3 📋> 4️⃣8️⃣
+TD3 📋> ␅
+TD6 ␆m-w.com/games/quordle/
+TD3 📋> m-w.com/games/quordle/
+TD3 📋> ␅
+TD735178 ␆
+TD81 📋> 
+TD9 📋> ␅
+TD175808 ␄
+TD143 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1706\n7\ufe0f\u20e35\ufe0f\u20e3\n4\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD931 result: "\ud83d\ude42 Daily Quordle 1706\n7\ufe0f\u20e35\ufe0f\u20e3\n4\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD58 📆 2026-09-26 ? ␅
+TD359044 ␆
+TD73 📆 2026-09-26 ? 
