@@ -1,0 +1,284 @@
+T96.45703731500544 now: 2026-09-26T08:04:51EDT
+TD65 site: squareword.org
+TD14 wordlist: nwl2023.txt
+TD21  ...␅
+TD2079467 ␆copy
+TD71  ...copy
+TD85  ...␅
+TD4680514 ␆copy
+TD85  ...copy
+TD93  ...␅
+TD6023072 ␆
+TD62  ...
+TD51 🧩  ? ␅
+TD2431797 ␆#1699
+TD67 🧩  ? #1699
+TD174 puzzle_id: #1699
+TD268 > ␅
+TD807587 ␆*
+TD67 > *
+TD194840 try? ␅
+TD788842 ␆1
+TD63 try? 1
+TD212 questioning: ["laser", "#5"]
+TD165 #1 <IndexError>  📋 "laser" ? ␅
+TD3951620 ␆_____ ~ AS
+TD65 #1 <IndexError>  📋 "laser" ? _____ ~ AS
+TD409 attempt 0 LASER n m m n n
+TD75 #2 <IndexError>  📋 "laser" ? ␅
+TD1679792 ␆_____ ~ A
+TD79 #2 <IndexError>  📋 "laser" ? _____ ~ A
+TD205 attempt 1 LASER n m n n n
+TD100 #3 <IndexError>  📋 "laser" ? ␅
+TD1927672 ␆_____ ~ SE
+TD77 #3 <IndexError>  📋 "laser" ? _____ ~ SE
+TD157 attempt 2 LASER n n m m n
+TD73 #4 <IndexError>  📋 "laser" ? ␅
+TD2383544 ␆_A___ ~ AR
+TD90 #4 <IndexError>  📋 "laser" ? _A___ ~ AR
+TD172 attempt 3 LASER n Y n n m
+TD81 #5 <IndexError>  📋 "laser" ? ␅
+TD3423847 ␆_____ ~ ASE
+TD67 #5 <IndexError>  📋 "laser" ? _____ ~ ASE
+TD164 attempt 4 LASER n m m m n
+TD191 ? ␅
+TD799464 ␆
+TD72 ? 
+TD94 question done
+TD153 > ␅
+TD1079791 ␆* 2
+TD68 > * 2
+TD197701 try? ␅
+TD1650030 ␆1
+TD72 try? 1
+TD211 questioning: ["giant", "#2"]
+TD166 #1 _____ ~AS -ELR  📋 "giant" ? ␅
+TD11519742 ␆G_A__ ~ ST
+TD71 #1 _____ ~AS -ELR  📋 "giant" ? G_A__ ~ ST
+TD198 attempt 0 GIANT Y n Y n m
+TD110 #2 _____ ~A -ELRS  📋 "giant" ? ␅
+TD2415696 ␆____T ~ AI
+TD68 #2 _____ ~A -ELRS  📋 "giant" ? ____T ~ AI
+TD156 attempt 1 GIANT n m m n Y
+TD87 #3 _____ ~ES -ALR  📋 "giant" ? ␅
+TD1527711 ␆.
+TD79 #3 _____ ~ES -ALR  📋 "giant" ? .
+TD210 attempt 2 GIANT n n n n n
+TD71 #4 _A___ ~R -ELS  📋 "giant" ? ␅
+TD2887746 ␆_A___ ~ AR
+TD74 #4 _A___ ~R -ELS  📋 "giant" ? _A___ ~ AR
+TD164 attempt 3 GIANT n n m n n
+TD92 #5 _____ ~AES -LR  📋 "giant" ? ␅
+TD4696604 ␆_____ ~ ASEN
+TD84 #5 _____ ~AES -LR  📋 "giant" ? _____ ~ ASEN
+TD196 attempt 4 GIANT n n m m n
+TD249 ? ␅
+TD270501 ␆
+TD128 ? 
+TD158 question done
+TD158 > ␅
+TD511511 ␆*
+TD65 > *
+TD587330 try? ␅
+TD1564621 ␆2
+TD67 try? 2
+TD179 questioning: ["goats", "#1"]
+TD166 #1 G_A__ ~ST -EILNR  📋 "goats" ? ␅
+TD5911705 ␆G_ATS
+TD64 #1 G_A__ ~ST -EILNR  📋 "goats" ? G_ATS
+TD152 attempt 0 GOATS Y n Y Y Y
+TD112 #2 ____T ~AI -EGLNRS  📋 "goats" ? ␅
+TD1456245 ␆.
+TD144 #2 ____T ~AI -EGLNRS  📋 "goats" ? .
+TD189 attempt 1 GOATS n n m n n
+TD56 #3 _____ ~ES -AGILNRT  📋 "goats" ? ␅
+TD3575028 ␆_____ ~ SEO
+TD82 #3 _____ ~ES -AGILNRT  📋 "goats" ? _____ ~ SEO
+TD193 attempt 2 GOATS n m n n m
+TD113 #4 _A___ ~R -EGILNST  📋 "goats" ? ␅
+TD3495996 ␆_A___ ~ AR
+TD84 #4 _A___ ~R -EGILNST  📋 "goats" ? _A___ ~ AR
+TD317 attempt 3 GOATS n n m n n
+TD168 #5 _____ ~AENS -GILRT  📋 "goats" ? ␅
+TD1847333 ␆.
+TD82 #5 _____ ~AENS -GILRT  📋 "goats" ? .
+TD184 attempt 4 GOATS n n m n m
+TD328 ? ␅
+TD183264 ␆
+TD87 ? 
+TD170 question done
+TD246 > ␅
+TD383530 ␆*
+TD71 > *
+TD576124 questioning: ["ghats", "#1"]
+TD184 #1 G_ATS -EILNOR  📋 "ghats" ? ␅
+TD815769 ␄
+TD98 question done
+TD237 > ␅
+TD1151295 ␆* 3
+TD67 > * 3
+TD915 try? ␅
+TD575131 ␄
+TD114 <EOF>
+TD261 > ␅
+TD1071538 ␆* 5
+TD69 > * 5
+TD1151 try? ␅
+TD607279 ␄
+TD117 <EOF>
+TD220 > ␅
+TD623731 ␆* 4
+TD86 > * 4
+TD1351 try? ␅
+TD622792 ␄
+TD113 <EOF>
+TD252 > ␅
+TD1647144 ␆* 2
+TD82 > * 2
+TD815 try? ␅
+TD7871614 ␆3
+TD81 try? 3
+TD243 questioning: ["audit", "#2"]
+TD250 #1 G_ATS -EILNOR  📋 "audit" ? ␅
+TD5159211 ␆.
+TD82 #1 G_ATS -EILNOR  📋 "audit" ? .
+TD206 attempt 0 AUDIT n n n n n
+TD78 #2 ____T ~AI -EGLNORST  📋 "audit" ? ␅
+TD655428 ␆/it
+TD71 #2 ____T ~AI -EGLNORST  📋 "audit" ? /it
+TD419 attempt 1 AUDIT Y Y Y Y Y
+TD62 #3 _____ ~EOS -AGILNRT  📋 "audit" ? ␅
+TD1143826 ␆.
+TD84 #3 _____ ~EOS -AGILNRT  📋 "audit" ? .
+TD206 attempt 2 AUDIT n n n n n
+TD77 #4 _A___ ~R -EGILNOST  📋 "audit" ? ␅
+TD2415483 ␆_A___ ~ AR
+TD68 #4 _A___ ~R -EGILNOST  📋 "audit" ? _A___ ~ AR
+TD180 attempt 3 AUDIT m n n n n
+TD101 #5 _____ ~AENS -GILORT  📋 "audit" ? ␅
+TD1447374 ␆.
+TD69 #5 _____ ~AENS -GILORT  📋 "audit" ? .
+TD168 attempt 4 AUDIT m n n n n
+TD148 ? ␅
+TD159810 ␆
+TD77 ? 
+TD147 question done
+TD206 > ␅
+TD1551220 ␆* 3
+TD70 > * 3
+TD350193 try? ␅
+TD6530107 ␆2
+TD109 try? 2
+TD237 questioning: ["smoke", "#3"]
+TD242 #1 G_ATS -ADEILNORTU  📋 "smoke" ? ␅
+TD3695658 ␆.
+TD74 #1 G_ATS -ADEILNORTU  📋 "smoke" ? .
+TD164 attempt 0 SMOKE n n n n n
+TD57 #3 _____ ~EOS -ADGILNRTU  📋 "smoke" ? ␅
+TD639152 ␆/it
+TD69 #3 _____ ~EOS -ADGILNRTU  📋 "smoke" ? /it
+TD168 attempt 2 SMOKE Y Y Y Y Y
+TD59 #4 _A___ ~R -DEGILNOSTU  📋 "smoke" ? ␅
+TD4816401 ␆_A_K_ ~ AR
+TD82 #4 _A___ ~R -DEGILNOSTU  📋 "smoke" ? _A_K_ ~ AR
+TD201 attempt 3 SMOKE n n n Y n
+TD126 #5 _____ ~AENS -DGILORTU  📋 "smoke" ? ␅
+TD4327891 ␆S____ ~ AENK
+TD77 #5 _____ ~AENS -DGILORTU  📋 "smoke" ? S____ ~ AENK
+TD264 attempt 4 SMOKE Y n n m m
+TD278 ? ␅
+TD519629 ␆
+TD94 ? 
+TD105 question done
+TD221 > ␅
+TD1487396 ␆* 5
+TD81 > * 5
+TD369010 questioning: ["sneak", "#5"]
+TD191 #1 G_ATS -ADEIKLMNORSTU  📋 "sneak" ? ␅
+TD5350771 ␆.
+TD82 #1 G_ATS -ADEIKLMNORSTU  📋 "sneak" ? .
+TD210 attempt 0 SNEAK n n n n n
+TD76 #4 _A_K_ ~R -DEGILMNOSTU  📋 "sneak" ? ␅
+TD8647093 ␆_A_K_ ~ AR
+TD72 #4 _A_K_ ~R -DEGILMNOSTU  📋 "sneak" ? _A_K_ ~ AR
+TD196 attempt 3 SNEAK n n n m n
+TD113 #5 S____ ~AEKN -DGILMORTU  📋 "sneak" ? ␅
+TD1063931 ␆/it
+TD78 #5 S____ ~AEKN -DGILMORTU  📋 "sneak" ? /it
+TD245 attempt 4 SNEAK Y Y Y Y Y
+TD206 ? ␅
+TD1143666 ␆
+TD84 ? 
+TD89 question done
+TD285 > ␅
+TD758995 ␆*
+TD66 > *
+TD1092806 questioning: ["ghats", "#1"]
+TD186 #1 G_ATS -ADEIKLMNORSTU  📋 "ghats" ? ␅
+TD1419380 ␄
+TD110 question done
+TD242 > ␅
+TD975549 ␆* 4
+TD79 > * 4
+TD375069 questioning: ["parka", "#4"]
+TD213 #1 G_ATS -ADEIKLMNORSTU  📋 "parka" ? ␅
+TD10280876 ␆.
+TD89 #1 G_ATS -ADEIKLMNORSTU  📋 "parka" ? .
+TD262 attempt 0 PARKA n n n n n
+TD117 #4 _A_K_ ~R -DEGIKLMNOSTU  📋 "parka" ? ␅
+TD742965 ␆/it
+TD74 #4 _A_K_ ~R -DEGIKLMNOSTU  📋 "parka" ? /it
+TD185 attempt 3 PARKA Y Y Y Y Y
+TD168 ? ␅
+TD1495845 ␆
+TD108 ? 
+TD118 question done
+TD212 > ␅
+TD927749 ␆*
+TD95 > *
+TD768960 questioning: ["ghats", "#1"]
+TD193 #1 G_ATS -ADEIKLMNOPRSTU  📋 "ghats" ? ␅
+TD3710545 ␆/it
+TD69 #1 G_ATS -ADEIKLMNOPRSTU  📋 "ghats" ? /it
+TD160 attempt 0 GHATS Y Y Y Y Y
+TD143 ? ␅
+TD584609 ␆
+TD73 ? 
+TD73 question done
+TD15759 📋> ␅
+TD4648858 ␆squareword.org 1699: 8 guesses
+TD70 📋> squareword.org 1699: 8 guesses
+TD6 📋> ␅
+TD27 ␆
+TD4 📋> 
+TD3 📋> ␅
+TD9 ␆🟩🟨🟩🟩🟩
+TD3 📋> 🟩🟨🟩🟩🟩
+TD3 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟨🟩🟨🟩🟨
+TD2 📋> 🟨🟩🟨🟩🟨
+TD2 📋> ␅
+TD6 ␆🟩🟨🟨🟨🟨
+TD2 📋> 🟩🟨🟨🟨🟨
+TD2 📋> ␅
+TD12 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD462517 ␆#squareword #squareword1699
+TD86 📋> #squareword #squareword1699
+TD8 📋> ␅
+TD216243 ␄
+TD146 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1699: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1699"}
+TD575 result: "squareword.org 1699: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1699"
+TD65 📆 2026-09-26 ? ␅
+TD342966 ␆
+TD82 📆 2026-09-26 ? 
