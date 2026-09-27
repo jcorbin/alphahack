@@ -1,0 +1,302 @@
+T278.1066218019696 now: 2026-09-27T08:23:14EDT
+TD55 site: squareword.org
+TD14 wordlist: nwl2023.txt
+TD22  ...␅
+TD1461968 ␆ocpy
+TD63  ...ocpy
+TD63  ...␅
+TD1375471 ␆copy
+TD59  ...copy
+TD74  ...␅
+TD7931935 ␆
+TD69  ...
+TD50 🧩  ? ␅
+TD1917423 ␆#1700
+TD61 🧩  ? #1700
+TD177 puzzle_id: #1700
+TD157 > ␅
+TD1075701 ␆*
+TD62 > *
+TD192760 try? ␅
+TD1173180 ␆1
+TD70 try? 1
+TD217 questioning: ["arles", "#5"]
+TD156 #1 <IndexError>  📋 "arles" ? ␅
+TD6075525 ␆_R___ ~ A
+TD63 #1 <IndexError>  📋 "arles" ? _R___ ~ A
+TD403 attempt 0 ARLES m Y n n n
+TD73 #2 <IndexError>  📋 "arles" ? ␅
+TD2255551 ␆___E_ ~ R
+TD59 #2 <IndexError>  📋 "arles" ? ___E_ ~ R
+TD166 attempt 1 ARLES n m n Y n
+TD70 #3 <IndexError>  📋 "arles" ? ␅
+TD2440335 ␆A____ ~ AE
+TD62 #3 <IndexError>  📋 "arles" ? A____ ~ AE
+TD173 attempt 2 ARLES Y n n m n
+TD77 #4 <IndexError>  📋 "arles" ? ␅
+TD2831869 ␆_____ ~ AE
+TD62 #4 <IndexError>  📋 "arles" ? _____ ~ AE
+TD156 attempt 3 ARLES m n n m n
+TD73 #5 <IndexError>  📋 "arles" ? ␅
+TD2736903 ␆____S ~ LE
+TD81 #5 <IndexError>  📋 "arles" ? ____S ~ LE
+TD195 attempt 4 ARLES n n m m Y
+TD206 ? ␅
+TD2050096 ␆
+TD78 ? 
+TD124 question done
+TD191 > ␅
+TD950330 ␆* 4
+TD136 > * 4
+TD475697 try? ␅
+TD4127423 ␄
+TD87 <EOF>
+TD221 > ␅
+TD1624100 ␆* 2
+TD60 > * 2
+TD91721 try? ␅
+TD10747693 ␆1
+TD62 try? 1
+TD210 questioning: ["doter", "#2"]
+TD174 #1 _R___ ~A -ELS  📋 "doter" ? ␅
+TD5005646 ␆_R___ ~ AT
+TD63 #1 _R___ ~A -ELS  📋 "doter" ? _R___ ~ AT
+TD158 attempt 0 DOTER n n m n n
+TD91 #2 ___E_ ~R -ALS  📋 "doter" ? ␅
+TD2239570 ␆_O_ER ~ R
+TD65 #2 ___E_ ~R -ALS  📋 "doter" ? _O_ER ~ R
+TD152 attempt 1 DOTER n Y n Y Y
+TD89 #3 A____ ~E -LRS  📋 "doter" ? ␅
+TD3394332 ␆A____ ~ AET
+TD68 #3 A____ ~E -LRS  📋 "doter" ? A____ ~ AET
+TD154 attempt 2 DOTER n n m m n
+TD89 #4 _____ ~AE -LRS  📋 "doter" ? ␅
+TD2328399 ␆.
+TD70 #4 _____ ~AE -LRS  📋 "doter" ? .
+TD169 attempt 3 DOTER n n n m n
+TD56 #5 ____S ~EL -AR  📋 "doter" ? ␅
+TD1376246 ␆.
+TD65 #5 ____S ~EL -AR  📋 "doter" ? .
+TD201 attempt 4 DOTER n n n m n
+TD152 ? ␅
+TD185662 ␆
+TD63 ? 
+TD85 question done
+TD269 > ␅
+TD386483 ␆*
+TD63 > *
+TD604776 try? ␅
+TD5374116 ␆1
+TD64 try? 1
+TD190 questioning: ["acute", "#3"]
+TD169 #1 _R___ ~AT -DELORS  📋 "acute" ? ␅
+TD6229067 ␆_R___ ~ AT
+TD65 #1 _R___ ~AT -DELORS  📋 "acute" ? _R___ ~ AT
+TD183 attempt 0 ACUTE m n n m n
+TD98 #2 _O_ER -ADLST  📋 "acute" ? ␅
+TD4157164 ␆_O_ER ~ R
+TD63 #2 _O_ER -ADLST  📋 "acute" ? _O_ER ~ R
+TD156 attempt 1 ACUTE n n n n n
+TD92 #3 A____ ~ET -DLORS  📋 "acute" ? ␅
+TD2676547 ␆A__TE ~ A
+TD63 #3 A____ ~ET -DLORS  📋 "acute" ? A__TE ~ A
+TD188 attempt 2 ACUTE Y n n Y Y
+TD123 #4 _____ ~AE -DLORST  📋 "acute" ? ␅
+TD4326939 ␆____E ~ AU
+TD63 #4 _____ ~AE -DLORST  📋 "acute" ? ____E ~ AU
+TD162 attempt 3 ACUTE m n m n Y
+TD89 #5 ____S ~EL -ADORT  📋 "acute" ? ␅
+TD1365979 ␆.
+TD64 #5 ____S ~EL -ADORT  📋 "acute" ? .
+TD175 attempt 4 ACUTE n n n n m
+TD132 ? ␅
+TD154989 ␆
+TD66 ? 
+TD85 question done
+TD162 > ␅
+TD525893 ␆*
+TD60 > *
+TD543391 try? ␅
+TD1613625 ␄
+TD112 <EOF>
+TD232 > ␅
+TD3299028 ␆* 5
+TD71 > * 5
+TD1525 try? ␅
+TD8451283 ␆10
+TD60 try? 10
+TD204 questioning: ["glens", "#5"]
+TD168 #1 _R___ ~AT -CDELORSU  📋 "glens" ? ␅
+TD5364285 ␆GR___ ~ AT
+TD64 #1 _R___ ~AT -CDELORSU  📋 "glens" ? GR___ ~ AT
+TD162 attempt 0 GLENS Y n n n n
+TD92 #2 _O_ER -ACDELSTU  📋 "glens" ? ␅
+TD3711266 ␆_O_ER ~ RG
+TD61 #2 _O_ER -ACDELSTU  📋 "glens" ? _O_ER ~ RG
+TD154 attempt 1 GLENS m n n n n
+TD92 #3 A__TE -CDLORSU  📋 "glens" ? ␅
+TD3926379 ␆A__TE ~ AG
+TD73 #3 A__TE -CDLORSU  📋 "glens" ? A__TE ~ AG
+TD164 attempt 2 GLENS m n n n n
+TD95 #4 ____E ~AU -CDLORST  📋 "glens" ? ␅
+TD1951882 ␆.
+TD79 #4 ____E ~AU -CDLORST  📋 "glens" ? .
+TD205 attempt 3 GLENS n n n n n
+TD73 #5 ____S ~EL -ACDORTU  📋 "glens" ? ␅
+TD2442224 ␆__E_S ~ LE
+TD84 #5 ____S ~EL -ACDORTU  📋 "glens" ? __E_S ~ LE
+TD215 attempt 4 GLENS n m Y n Y
+TD206 ? ␅
+TD206681 ␆
+TD123 ? 
+TD93 question done
+TD159 > ␅
+TD363358 ␆*
+TD77 > *
+TD926744 questioning: ["graft", "#1"]
+TD204 #1 GR___ ~AT -CDELNORSU  📋 "graft" ? ␅
+TD2701956 ␆/it
+TD78 #1 GR___ ~AT -CDELNORSU  📋 "graft" ? /it
+TD211 attempt 0 GRAFT Y Y Y Y Y
+TD77 #2 _O_ER ~G -ACDELNSTU  📋 "graft" ? ␅
+TD4216847 ␆_O_ER ~ RG
+TD70 #2 _O_ER ~G -ACDELNSTU  📋 "graft" ? _O_ER ~ RG
+TD164 attempt 1 GRAFT m m n n n
+TD104 #3 A__TE ~G -CDELNORSU  📋 "graft" ? ␅
+TD7064730 ␆A_ATE ~ G
+TD86 #3 A__TE ~G -CDELNORSU  📋 "graft" ? A_ATE ~ G
+TD219 attempt 2 GRAFT m n Y n n
+TD97 #4 ____E ~AU -CDEGLNORST  📋 "graft" ? ␅
+TD2603981 ␆.
+TD83 #4 ____E ~AU -CDEGLNORST  📋 "graft" ? .
+TD215 attempt 3 GRAFT n n m n n
+TD76 #5 __E_S ~L -ACDGNORTU  📋 "graft" ? ␅
+TD2939841 ␆__E_S ~ LE
+TD84 #5 __E_S ~L -ACDGNORTU  📋 "graft" ? __E_S ~ LE
+TD202 attempt 4 GRAFT n n n n n
+TD254 ? ␅
+TD168915 ␆
+TD90 ? 
+TD122 question done
+TD213 > ␅
+TD379948 ␆*
+TD79 > *
+TD1826993 questioning: ["roger", "#2"]
+TD190 #2 _O_ER ~G -ACDEFLNSTU  📋 "roger" ? ␅
+TD3658111 ␆/it
+TD84 #2 _O_ER ~G -ACDEFLNSTU  📋 "roger" ? /it
+TD201 attempt 1 ROGER Y Y Y Y Y
+TD75 #3 A_ATE ~G -CDEFLNORSTU  📋 "roger" ? ␅
+TD2812668 ␆A_ATE ~ G
+TD75 #3 A_ATE ~G -CDEFLNORSTU  📋 "roger" ? A_ATE ~ G
+TD151 attempt 2 ROGER n n m n n
+TD94 #4 ____E ~AU -CDEFGLNORST  📋 "roger" ? ␅
+TD1685926 ␆.
+TD131 #4 ____E ~AU -CDEFGLNORST  📋 "roger" ? .
+TD217 attempt 3 ROGER n n n n n
+TD77 #5 __E_S ~L -ACDFGNORTU  📋 "roger" ? ␅
+TD2905571 ␆__E_S ~ LE
+TD85 #5 __E_S ~L -ACDFGNORTU  📋 "roger" ? __E_S ~ LE
+TD201 attempt 4 ROGER n n n m n
+TD243 ? ␅
+TD506253 ␆
+TD84 ? 
+TD99 question done
+TD259 > ␅
+TD861245 ␆* 5
+TD86 > * 5
+TD370828 try? ␅
+TD900326 ␄
+TD114 <EOF>
+TD285 > ␅
+TD2147678 ␆*
+TD83 > *
+TD1496711 questioning: ["agate", "#3"]
+TD191 #3 A_ATE ~G -CDEFLNORSTU  📋 "agate" ? ␅
+TD729776 ␄
+TD113 question done
+TD235 > ␅
+TD825252 ␆* 4
+TD72 > * 4
+TD399680 questioning: ["pupae", "#4"]
+TD186 #3 A_ATE ~G -CDEFLNORSTU  📋 "pupae" ? ␅
+TD8522584 ␆.
+TD84 #3 A_ATE ~G -CDEFLNORSTU  📋 "pupae" ? .
+TD204 attempt 2 PUPAE n n n n Y
+TD76 #4 ____E ~AU -CDEFGLNORST  📋 "pupae" ? ␅
+TD692345 ␆/it
+TD79 #4 ____E ~AU -CDEFGLNORST  📋 "pupae" ? /it
+TD205 attempt 3 PUPAE Y Y Y Y Y
+TD79 #5 __E_S ~L -ACDFGNORTU  📋 "pupae" ? ␅
+TD2697727 ␆__E_S ~ LE
+TD83 #5 __E_S ~L -ACDFGNORTU  📋 "pupae" ? __E_S ~ LE
+TD203 attempt 4 PUPAE n n n n m
+TD251 ? ␅
+TD1279688 ␆
+TD84 ? 
+TD93 question done
+TD218 > ␅
+TD1660639 ␆* 5
+TD84 > * 5
+TD370279 questioning: ["heels", "#5"]
+TD211 #3 A_ATE ~G -ACDFLNOPRSTU  📋 "heels" ? ␅
+TD4912538 ␆.
+TD93 #3 A_ATE ~G -ACDFLNOPRSTU  📋 "heels" ? .
+TD245 attempt 2 HEELS n n n n n
+TD108 #5 __E_S ~L -ACDFGNOPRTU  📋 "heels" ? ␅
+TD1409794 ␆/it
+TD91 #5 __E_S ~L -ACDFGNOPRTU  📋 "heels" ? /it
+TD236 attempt 4 HEELS Y Y Y Y Y
+TD211 ? ␅
+TD182722 ␆
+TD60 ? 
+TD86 question done
+TD194 > ␅
+TD421973 ␆*
+TD99 > *
+TD797597 questioning: ["agate", "#3"]
+TD190 #3 A_ATE ~G -ACDEFHLNOPRSTU  📋 "agate" ? ␅
+TD1584449 ␆/it
+TD87 #3 A_ATE ~G -ACDEFHLNOPRSTU  📋 "agate" ? /it
+TD186 attempt 2 AGATE Y Y Y Y Y
+TD199 ? ␅
+TD1326222 ␆
+TD86 ? 
+TD90 question done
+TD15950 📋> ␅
+TD3599590 ␆squareword.org 1700: 9 guesses
+TD83 📋> squareword.org 1700: 9 guesses
+TD9 📋> ␅
+TD36 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD7 ␆🟨🟩🟨🟩🟩
+TD3 📋> 🟨🟩🟨🟩🟩
+TD2 📋> ␅
+TD7 ␆🟩🟨🟩🟩🟩
+TD2 📋> 🟩🟨🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD6 ␆🟨🟨🟩🟨🟩
+TD2 📋> 🟨🟨🟩🟨🟩
+TD2 📋> ␅
+TD6 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD8 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD417885 ␆#squareword #squareword1700
+TD87 📋> #squareword #squareword1700
+TD9 📋> ␅
+TD155922 ␄
+TD163 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1700: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1700"}
+TD586 result: "squareword.org 1700: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1700"
+TD90 📆 2026-09-27 ? ␅
+TD320843 ␆
+TD86 📆 2026-09-27 ? 
