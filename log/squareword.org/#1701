@@ -1,0 +1,239 @@
+T377.2612917390652 now: 2026-09-28T08:49:19EDT
+TD175 site: squareword.org
+TD44 wordlist: nwl2023.txt
+TD56  ...␅
+TD1118716 ␆copy
+TD120  ...copy
+TD131  ...␅
+TD6802374 ␆
+TD170  ...
+TD111 🧩  ? ␅
+TD3468213 ␆#1701
+TD152 🧩  ? #1701
+TD503 puzzle_id: #1701
+TD339 > ␅
+TD1235812 ␆*
+TD136 > *
+TD434832 try? ␅
+TD642350 ␆1
+TD110 try? 1
+TD486 questioning: ["antes", "#5"]
+TD441 #1 <IndexError>  📋 "antes" ? ␅
+TD5726239 ␆_____ ~ ATES
+TD104 #1 <IndexError>  📋 "antes" ? _____ ~ ATES
+TD685 attempt 0 ANTES m n m m m
+TD120 #2 <IndexError>  📋 "antes" ? ␅
+TD2580005 ␆_____ ~ NE
+TD149 #2 <IndexError>  📋 "antes" ? _____ ~ NE
+TD353 attempt 1 ANTES n m n m n
+TD172 #3 <IndexError>  📋 "antes" ? ␅
+TD2026635 ␆A____ ~ AT
+TD140 #3 <IndexError>  📋 "antes" ? A____ ~ AT
+TD300 attempt 2 ANTES Y n m n n
+TD130 #4 <IndexError>  📋 "antes" ? ␅
+TD2104017 ␆_____ ~ S
+TD175 #4 <IndexError>  📋 "antes" ? _____ ~ S
+TD326 attempt 3 ANTES n n n n m
+TD158 #5 <IndexError>  📋 "antes" ? ␅
+TD2077557 ␆_____ ~ ES
+TD141 #5 <IndexError>  📋 "antes" ? _____ ~ ES
+TD274 attempt 4 ANTES n n n m m
+TD404 ? ␅
+TD316005 ␆
+TD131 ? 
+TD204 question done
+TD321 > ␅
+TD1194080 ␆* 4
+TD118 > * 4
+TD311724 try? ␅
+TD1367510 ␄
+TD232 <EOF>
+TD454 > ␅
+TD1611779 ␆* 5
+TD263 > * 5
+TD114951 try? ␅
+TD933963 ␄
+TD196 <EOF>
+TD441 > ␅
+TD776954 ␆* 2
+TD145 > * 2
+TD190987 try? ␅
+TD1015794 ␄
+TD137 <EOF>
+TD387 > ␅
+TD647387 ␆* 1
+TD147 > * 1
+TD247780 try? ␅
+TD862589 ␄
+TD149 <EOF>
+TD281 > ␅
+TD1279105 ␆* 4
+TD159 > * 4
+TD11502 try? ␅
+TD11239395 ␆1
+TD139 try? 1
+TD361 questioning: ["prosy", "#4"]
+TD351 #1 _____ ~AEST -N  📋 "prosy" ? ␅
+TD3819505 ␆.
+TD129 #1 _____ ~AEST -N  📋 "prosy" ? .
+TD396 attempt 0 PROSY n n n m n
+TD117 #2 _____ ~EN -AST  📋 "prosy" ? ␅
+TD2411221 ␆PR___ ~ NE
+TD174 #2 _____ ~EN -AST  📋 "prosy" ? PR___ ~ NE
+TD333 attempt 1 PROSY Y Y n n n
+TD187 #3 A____ ~T -ENS  📋 "prosy" ? ␅
+TD4369151 ␆A____ ~ ATRO
+TD127 #3 A____ ~T -ENS  📋 "prosy" ? A____ ~ ATRO
+TD406 attempt 2 PROSY n m m n n
+TD235 #4 _____ ~S -AENT  📋 "prosy" ? ␅
+TD2901738 ␆__O__ ~ SP
+TD127 #4 _____ ~S -AENT  📋 "prosy" ? __O__ ~ SP
+TD317 attempt 3 PROSY m n Y m n
+TD188 #5 _____ ~ES -ANT  📋 "prosy" ? ␅
+TD5913467 ␆___SY ~ ES
+TD124 #5 _____ ~ES -ANT  📋 "prosy" ? ___SY ~ ES
+TD307 attempt 4 PROSY n n n Y Y
+TD379 ? ␅
+TD446645 ␆
+TD153 ? 
+TD201 question done
+TD348 > ␅
+TD928916 ␆*
+TD144 > *
+TD1586465 questioning: ["prune", "#2"]
+TD366 #1 _____ ~AEST -NOPRY  📋 "prune" ? ␅
+TD2985736 ␆.
+TD128 #1 _____ ~AEST -NOPRY  📋 "prune" ? .
+TD316 attempt 0 PRUNE n n n n m
+TD119 #2 PR___ ~EN -AOSTY  📋 "prune" ? ␅
+TD902724 ␆/it
+TD124 #2 PR___ ~EN -AOSTY  📋 "prune" ? /it
+TD325 attempt 1 PRUNE Y Y Y Y Y
+TD131 #3 A____ ~ORT -ENPSY  📋 "prune" ? ␅
+TD3923827 ␆A____ ~ ATRO
+TD143 #3 A____ ~ORT -ENPSY  📋 "prune" ? A____ ~ ATRO
+TD352 attempt 2 PRUNE n m n n n
+TD201 #4 __O__ ~PS -AENRTY  📋 "prune" ? ␅
+TD2678379 ␆.
+TD179 #4 __O__ ~PS -AENRTY  📋 "prune" ? .
+TD319 attempt 3 PRUNE m n n n n
+TD109 #5 ___SY ~E -ANOPRT  📋 "prune" ? ␅
+TD3779939 ␆___SY ~ ES
+TD149 #5 ___SY ~E -ANOPRT  📋 "prune" ? ___SY ~ ES
+TD378 attempt 4 PRUNE n n n n m
+TD492 ? ␅
+TD215749 ␆
+TD120 ? 
+TD169 question done
+TD363 > ␅
+TD1817228 ␆*
+TD119 > *
+TD941025 questioning: ["aorta", "#3"]
+TD363 #1 _____ ~AEST -NOPRUY  📋 "aorta" ? ␅
+TD4824663 ␆.
+TD120 #1 _____ ~AEST -NOPRUY  📋 "aorta" ? .
+TD325 attempt 0 AORTA m n n m m
+TD133 #3 A____ ~ORT -ENPSUY  📋 "aorta" ? ␅
+TD757465 ␆/it
+TD121 #3 A____ ~ORT -ENPSUY  📋 "aorta" ? /it
+TD341 attempt 2 AORTA Y Y Y Y Y
+TD119 #4 __O__ ~PS -AENRTUY  📋 "aorta" ? ␅
+TD1644740 ␆.
+TD129 #4 __O__ ~PS -AENRTUY  📋 "aorta" ? .
+TD365 attempt 3 AORTA n n n n n
+TD127 #5 ___SY ~E -ANOPRTU  📋 "aorta" ? ␅
+TD3074507 ␆___SY ~ ES
+TD135 #5 ___SY ~E -ANOPRTU  📋 "aorta" ? ___SY ~ ES
+TD313 attempt 4 AORTA n n n n n
+TD469 ? ␅
+TD358576 ␆
+TD121 ? 
+TD148 question done
+TD409 > ␅
+TD554346 ␆*
+TD173 > *
+TD2062146 questioning: ["spoil", "#4"]
+TD429 #1 _____ ~AEST -NOPRUY  📋 "spoil" ? ␅
+TD5301502 ␆S____ ~ ATE
+TD120 #1 _____ ~AEST -NOPRUY  📋 "spoil" ? S____ ~ ATE
+TD359 attempt 0 SPOIL Y n n n n
+TD230 #4 __O__ ~PS -AENORTUY  📋 "spoil" ? ␅
+TD10279360 ␆/it
+TD114 #4 __O__ ~PS -AENORTUY  📋 "spoil" ? /it
+TD309 attempt 3 SPOIL Y Y Y Y Y
+TD143 #5 ___SY ~E -ANOPRTU  📋 "spoil" ? ␅
+TD4382420 ␆___SY ~ ES
+TD170 #5 ___SY ~E -ANOPRTU  📋 "spoil" ? ___SY ~ ES
+TD372 attempt 4 SPOIL m n n n n
+TD448 ? ␅
+TD336875 ␆
+TD122 ? 
+TD139 question done
+TD290 > ␅
+TD540631 ␆(*
+TD126 > (*
+TD779 > ␅
+TD1173659 ␆*
+TD126 > *
+TD2344745 questioning: ["steam", "#1"]
+TD483 #1 S____ ~AET -ILNOPRUY  📋 "steam" ? ␅
+TD2574312 ␆/it
+TD93 #1 S____ ~AET -ILNOPRUY  📋 "steam" ? /it
+TD220 attempt 0 STEAM Y Y Y Y Y
+TD78 #5 ___SY ~E -AILNOPRTU  📋 "steam" ? ␅
+TD3871206 ␆___SY ~ ESM
+TD99 #5 ___SY ~E -AILNOPRTU  📋 "steam" ? ___SY ~ ESM
+TD232 attempt 4 STEAM m n m n m
+TD280 ? ␅
+TD305405 ␆
+TD109 ? 
+TD125 question done
+TD234 > ␅
+TD421792 ␆*
+TD86 > *
+TD1249362 questioning: ["messy", "#5"]
+TD291 #5 ___SY ~EM -AILNOPRTU  📋 "messy" ? ␅
+TD3819068 ␆/it
+TD120 #5 ___SY ~EM -AILNOPRTU  📋 "messy" ? /it
+TD315 attempt 4 MESSY Y Y Y Y Y
+TD364 ? ␅
+TD948424 ␆
+TD119 ? 
+TD128 question done
+TD32230 📋> ␅
+TD3965533 ␆squareword.org 1701: 7 guesses
+TD123 📋> squareword.org 1701: 7 guesses
+TD14 📋> ␅
+TD65 ␆
+TD7 📋> 
+TD7 📋> ␅
+TD18 ␆🟩🟨🟨🟨🟨
+TD6 📋> 🟩🟨🟨🟨🟨
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD10 ␆🟨🟨🟨🟩🟩
+TD5 📋> 🟨🟨🟨🟩🟩
+TD5 📋> ␅
+TD12 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD14 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD239436 ␆#squareword #squareword1701
+TD80 📋> #squareword #squareword1701
+TD9 📋> ␅
+TD221289 ␄
+TD232 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1701: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1701"}
+TD1344 result: "squareword.org 1701: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1701"
+TD143 📆 2026-09-28 ? ␅
+TD253428 ␆
+TD80 📆 2026-09-28 ? 
