@@ -1,0 +1,218 @@
+T1829.4247552769957 now: 2026-09-28T08:40:41EDT
+TD170 site: https://www.merriam-webster.com/games/quordle/#/
+TD29 wordlist: nwl2023.txt
+TD8 num_words: 4
+TD2896  ...␅
+TD1587088 ␆copy
+TD118  ...copy
+TD128  ...␅
+TD7888132 ␆
+TD138  ...
+TD431215 > ␅
+TD5261863 ␆*
+TD100 > *
+TD50383 ? ␅
+TD735173 ␆1
+TD111 ? 1
+TD222 questioning: lares
+TD383 Classic #1 _____? ␅
+TD2504742 ␆nnMnn
+TD139 Classic #1 _____? nnMnn
+TD367 attempt: 0 LARES n n m n n
+TD2826 Classic #2 _____? ␅
+TD1209737 ␆nnYnM
+TD133 Classic #2 _____? nnYnM
+TD328 attempt: 1 LARES n n Y n m
+TD126 Classic #3 _____? ␅
+TD1250519 ␆nnnMM
+TD116 Classic #3 _____? nnnMM
+TD262 attempt: 2 LARES n n n m m
+TD107 Classic #4 _____? ␅
+TD2860934 ␆nMnMn
+TD100 Classic #4 _____? nMnMn
+TD376 attempt: 3 LARES n m n m n
+TD563697 > ␅
+TD715265 ␆*
+TD110 > *
+TD4230 ? ␅
+TD823390 ␆1
+TD127 ? 1
+TD223 questioning: orcin
+TD450 Classic #1 _____ ~R -AELS? ␅
+TD3489045 ␆nYnnM
+TD80 Classic #1 _____ ~R -AELS? nYnnM
+TD167 attempt: 0 ORCIN n Y n n m
+TD78 Classic #2 __R__ ~S -AEL? ␅
+TD1004877 ␆MMnnn
+TD119 Classic #2 __R__ ~S -AEL? MMnnn
+TD276 attempt: 1 ORCIN m m n n n
+TD129 Classic #3 _____ ~ES -ALR? ␅
+TD1540950 ␆MnnnM
+TD119 Classic #3 _____ ~ES -ALR? MnnnM
+TD254 attempt: 2 ORCIN m n n n m
+TD120 Classic #4 _____ ~AE -LRS? ␅
+TD1268052 ␆nnnnn
+TD150 Classic #4 _____ ~AE -LRS? nnnnn
+TD359 attempt: 3 ORCIN n n n n n
+TD632846 > ␅
+TD1568110 ␆*
+TD119 > *
+TD1128 ? ␅
+TD1305798 ␄
+TD147 <EOF>
+TD629212 > ␅
+TD1177132 ␆probe
+TD112 > probe
+TD812114 > ␅
+TD8600678 ␆tried banjo
+TD126 > tried banjo
+TD312 questioning: BANJO
+TD142 Classic #1 _R___ ~N -ACEILOS? ␅
+TD3847462 ␆YnMnn
+TD195 Classic #1 _R___ ~N -ACEILOS? YnMnn
+TD273 attempt: 0 BANJO Y n m n n
+TD127 Classic #2 __R__ ~OS -ACEILN? ␅
+TD1923271 ␆nnnnY
+TD111 Classic #2 __R__ ~OS -ACEILN? nnnnY
+TD202 attempt: 1 BANJO n n n n Y
+TD87 Classic #3 _____ ~ENOS -ACILR? ␅
+TD1423058 ␆nnMnM
+TD103 Classic #3 _____ ~ENOS -ACILR? nnMnM
+TD252 attempt: 2 BANJO n n m n m
+TD131 Classic #4 _____ ~AE -CILNORS? ␅
+TD1071756 ␆nMnnn
+TD111 Classic #4 _____ ~AE -CILNORS? nMnnn
+TD303 attempt: 3 BANJO n m n n n
+TD531211 > ␅
+TD679117 ␆*
+TD154 > *
+TD709 ? ␅
+TD1670840 ␆1
+TD130 ? 1
+TD197 questioning: brung
+TD181 Classic #1 BR___ ~N -ACEIJLOS? ␅
+TD3551230 ␆YYYYn
+TD98 Classic #1 BR___ ~N -ACEIJLOS? YYYYn
+TD185 attempt: 0 BRUNG Y Y Y Y n
+TD88 Classic #2 __R_O ~S -ABCEIJLN? ␅
+TD1122181 ␆nMnnn
+TD81 Classic #2 __R_O ~S -ABCEIJLN? nMnnn
+TD210 attempt: 1 BRUNG n m n n n
+TD108 Classic #3 _____ ~ENOS -ABCIJLR? ␅
+TD1473311 ␆nnnYn
+TD1283 Classic #3 _____ ~ENOS -ABCIJLR? nnnYn
+TD341 attempt: 2 BRUNG n n n Y n
+TD1167 Classic #4 _____ ~AE -BCIJLNORS? ␅
+TD1675214 ␆nnnnn
+TD116 Classic #4 _____ ~AE -BCIJLNORS? nnnnn
+TD231 attempt: 3 BRUNG n n n n n
+TD652670 > ␅
+TD977614 ␆* 2
+TD127 > * 2
+TD154035 questioning: torso
+TD159 Classic #1 BRUN_ -ACEGIJLOS? ␅
+TD4197022 ␆MnMnn
+TD100 Classic #1 BRUN_ -ACEGIJLOS? MnMnn
+TD197 attempt: 0 TORSO m n m n n
+TD92 Classic #2 __R_O ~S -ABCEGIJLNU? ␅
+TD1557317 ␆YYYYY
+TD147 Classic #2 __R_O ~S -ABCEGIJLNU? YYYYY
+TD268 attempt: 1 TORSO Y Y Y Y Y
+TD148 Classic #3 ___N_ ~EOS -ABCGIJLRU? ␅
+TD2315285 ␆MMnMn
+TD153 Classic #3 ___N_ ~EOS -ABCGIJLRU? MMnMn
+TD274 attempt: 2 TORSO m m n m n
+TD142 Classic #4 _____ ~AE -BCGIJLNORSU? ␅
+TD2528393 ␆Mnnnn
+TD93 Classic #4 _____ ~AE -BCGIJLNORSU? Mnnnn
+TD207 attempt: 3 TORSO m n n n n
+TD494218 > ␅
+TD5560651 ␆* 3
+TD105 > * 3
+TD206433 questioning: stone
+TD213 Classic #1 BRUN_ ~T -ACEGIJLOS? ␅
+TD2959586 ␆nMnYn
+TD127 Classic #1 BRUN_ ~T -ACEGIJLOS? nMnYn
+TD247 attempt: 0 STONE n m n Y n
+TD1489 Classic #3 ___N_ ~EOST -ABCGIJLRU O:1? ␅
+TD1480060 ␆YYYYY
+TD122 Classic #3 ___N_ ~EOST -ABCGIJLRU O:1? YYYYY
+TD307 attempt: 2 STONE Y Y Y Y Y
+TD164 Classic #4 _____ ~AET -BCGIJLNORSU? ␅
+TD1348290 ␆nMnnM
+TD105 Classic #4 _____ ~AET -BCGIJLNORSU? nMnnM
+TD285 attempt: 3 STONE n m n n m
+TD281999 > ␅
+TD993206 ␆*
+TD105 > *
+TD533 questioning: brunt
+TD160 Classic #1 BRUN_ ~T -ACEGIJLOS? ␅
+TD2109272 ␄
+TD145 <EOF>
+TD319580 > ␅
+TD1564987 ␆* 4
+TD101 > * 4
+TD164069 ? ␅
+TD12081779 ␄
+TD193 <EOF>
+TD281060 > ␅
+TD1073363 ␆probe
+TD128 > probe
+TD495210 > ␅
+TD9187782 ␆* 4
+TD164 > * 4
+TD199967 ? ␅
+TD1157017 ␆4
+TD118 ? 4
+TD242 questioning: wheat
+TD211 Classic #1 BRUN_ ~T -ACEGIJLOS? ␅
+TD3551830 ␆nnnnY
+TD104 Classic #1 BRUN_ ~T -ACEGIJLOS? nnnnY
+TD244 attempt: 0 WHEAT n n n n Y
+TD124 Classic #4 _____ ~AET -BCGIJLNORSU? ␅
+TD3012549 ␆nMMMM
+TD115 Classic #4 _____ ~AET -BCGIJLNORSU? nMMMM
+TD228 attempt: 3 WHEAT n m m m m
+TD161072 > ␅
+TD793099 ␆*
+TD83 > *
+TD465 ? ␅
+TD3157845 ␆1
+TD121 ? 1
+TD193 questioning: death
+T10.784165758057497 now: 2026-09-28T08:43:13EDT
+TD1153 questioning: death
+TD1542 Classic #4 _____ ~AEHT -BCGIJLNORSUW? ␅
+TD3757151 ␆nYYYY
+TD134 Classic #4 _____ ~AEHT -BCGIJLNORSUW? nYYYY
+TD529 attempt: 3 DEATH n Y Y Y Y
+TD195388 > ␅
+TD683422 ␆*
+TD108 > *
+TD1043 questioning: heath
+TD158 Classic #4 _EATH -BCDGIJLNORSUW? ␅
+TD4053423 ␆YYYYY
+TD142 Classic #4 _EATH -BCDGIJLNORSUW? YYYYY
+TD290 attempt: 3 HEATH Y Y Y Y Y
+TD126 📋> ␅
+TD3961530 ␆🙂 Daily Quordle 1708
+TD124 📋> 🙂 Daily Quordle 1708
+TD18 📋> ␅
+TD50 ␆🟥5️⃣
+TD7 📋> 🟥5️⃣
+TD7 📋> ␅
+TD14 ␆6️⃣9️⃣
+TD7 📋> 6️⃣9️⃣
+TD6 📋> ␅
+TD12 ␆m-w.com/games/quordle/
+TD6 📋> m-w.com/games/quordle/
+TD6 📋> ␅
+TD275520 ␆
+TD132 📋> 
+TD15 📋> ␅
+TD229966 ␄
+TD263 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1708\n\ud83d\udfe55\ufe0f\u20e3\n6\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1284 result: "\ud83d\ude42 Daily Quordle 1708\n\ud83d\udfe55\ufe0f\u20e3\n6\ufe0f\u20e39\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD83 📆 2026-09-28 ? ␅
+TD618740 ␆
+TD148 📆 2026-09-28 ? 
