@@ -1,0 +1,174 @@
+T158.0941987039987 now: 2026-09-29T08:17:55EDT
+TD163 site: https://www.merriam-webster.com/games/quordle/#/
+TD28 wordlist: nwl2023.txt
+TD9 num_words: 4
+TD2564  ...␅
+TD170105 ␆
+TD169  ...
+TD555922 > ␅
+TD1751162 ␆/site
+TD137 > /site
+TD258  ...␅
+TD691206 ␆copy
+TD111  ...copy
+TD157  ...␅
+TD5845327 ␆
+TD113  ...
+TD502123 > ␅
+TD1664669 ␆*
+TD156 > *
+TD97997 ? ␅
+TD807175 ␆1
+TD99 ? 1
+TD174 questioning: serac
+TD158 Classic #1 _____? ␅
+TD3333424 ␆nMnnn
+TD145 Classic #1 _____? nMnnn
+TD529 attempt: 0 SERAC n m n n n
+TD131 Classic #2 _____? ␅
+TD1900463 ␆nYnYn
+TD137 Classic #2 _____? nYnYn
+TD345 attempt: 1 SERAC n Y n Y n
+TD127 Classic #3 _____? ␅
+TD1669469 ␆nMnnn
+TD123 Classic #3 _____? nMnnn
+TD284 attempt: 2 SERAC n m n n n
+TD114 Classic #4 _____? ␅
+TD1781376 ␆nnYnM
+TD115 Classic #4 _____? nnYnM
+TD255 attempt: 3 SERAC n n Y n m
+TD639144 > ␅
+TD672552 ␆*
+TD105 > *
+TD4499 ? ␅
+TD1083929 ␆1
+TD101 ? 1
+TD180 questioning: olden
+TD168 Classic #1 _____ ~E -ACRS? ␅
+TD3080924 ␆nMnMn
+TD103 Classic #1 _____ ~E -ACRS? nMnMn
+TD196 attempt: 0 OLDEN n m n m n
+TD93 Classic #2 _E_A_ -CRS? ␅
+TD1572630 ␆nMYMn
+TD126 Classic #2 _E_A_ -CRS? nMYMn
+TD266 attempt: 1 OLDEN n m Y m n
+TD119 Classic #3 _____ ~E -ACRS? ␅
+TD2051896 ␆MMYMn
+TD97 Classic #3 _____ ~E -ACRS? MMYMn
+TD215 attempt: 2 OLDEN m m Y m n
+TD100 Classic #4 __R__ ~C -AES? ␅
+TD1551711 ␆Mnnnn
+TD112 Classic #4 __R__ ~C -AES? Mnnnn
+TD241 attempt: 3 OLDEN m n n n n
+TD548796 > ␅
+TD621067 ␆*
+TD130 > *
+TD730 ? ␅
+TD1412445 ␆1
+TD140 ? 1
+TD214 questioning: lodge
+TD194 Classic #1 _____ ~EL -ACDNORS? ␅
+TD3244105 ␆MnnYY
+TD142 Classic #1 _____ ~EL -ACDNORS? MnnYY
+TD291 attempt: 0 LODGE m n n Y Y
+TD113 Classic #2 _EDA_ ~L -CNORS? ␅
+TD2355430 ␆MnYnM
+TD156 Classic #2 _EDA_ ~L -CNORS? MnYnM
+TD319 attempt: 1 LODGE m n Y n m
+TD148 Classic #3 __D__ ~ELO -ACNRS? ␅
+TD1351441 ␆YYYYY
+TD139 Classic #3 __D__ ~ELO -ACNRS? YYYYY
+TD325 attempt: 2 LODGE Y Y Y Y Y
+TD156 Classic #4 __R__ ~CO -ADELNS? ␅
+TD1201065 ␆nYnnn
+TD137 Classic #4 __R__ ~CO -ADELNS? nYnnn
+TD278 attempt: 3 LODGE n Y n n n
+TD480744 > ␅
+TD843630 ␆*
+TD144 > *
+TD648 ? ␅
+TD1647553 ␆2
+TD130 ? 2
+TD244 questioning: bulge
+TD218 Classic #1 ___GE ~L -ACDNORS? ␅
+TD4671020 ␆YnYYY
+TD130 Classic #1 ___GE ~L -ACDNORS? YnYYY
+TD281 attempt: 0 BULGE Y n Y Y Y
+TD157 Classic #2 _EDA_ ~L -CGNORS? ␅
+TD2036251 ␆nnMnM
+TD164 Classic #2 _EDA_ ~L -CGNORS? nnMnM
+TD288 attempt: 1 BULGE n n m n m
+TD142 Classic #4 _OR__ ~C -ADEGLNS? ␅
+TD1546035 ␆nnnnn
+TD117 Classic #4 _OR__ ~C -ADEGLNS? nnnnn
+TD262 attempt: 3 BULGE n n n n n
+TD461319 > ␅
+TD681024 ␆*
+TD145 > *
+TD440 questioning: bilge
+TD172 Classic #1 B_LGE -ACDNORSU? ␅
+TD3033264 ␆YYYYY
+TD114 Classic #1 B_LGE -ACDNORSU? YYYYY
+TD345 attempt: 0 BILGE Y Y Y Y Y
+TD169 Classic #2 _EDA_ ~L -BCGNORSU? ␅
+TD1815361 ␆nnMnM
+TD117 Classic #2 _EDA_ ~L -BCGNORSU? nnMnM
+TD223 attempt: 1 BILGE n n m n m
+TD97 Classic #4 _OR__ ~C -ABDEGLNSU? ␅
+TD1247240 ␆nnnnn
+TD143 Classic #4 _OR__ ~C -ABDEGLNSU? nnnnn
+TD271 attempt: 3 BILGE n n n n n
+TD261640 > ␅
+TD699374 ␆*
+TD120 > *
+TD635 ? ␅
+TD2354813 ␄
+TD161 <EOF>
+TD280158 > ␅
+TD4461584 ␆* 4
+TD132 > * 4
+TD131032 ? ␅
+TD1356921 ␆1
+TD141 ? 1
+TD261 questioning: porch
+TD261 Classic #2 _EDA_ ~L -BCGINORSU? ␅
+TD3863132 ␆nnnnn
+TD114 Classic #2 _EDA_ ~L -BCGINORSU? nnnnn
+TD216 attempt: 1 PORCH n n n n n
+TD109 Classic #4 _OR__ ~C -ABDEGILNSU? ␅
+TD1454662 ␆YYYYY
+TD119 Classic #4 _OR__ ~C -ABDEGILNSU? YYYYY
+TD266 attempt: 3 PORCH Y Y Y Y Y
+TD158006 > ␅
+TD620628 ␆*
+TD139 > *
+TD664 ? ␅
+TD1877664 ␆1
+TD124 ? 1
+TD214 questioning: medal
+TD205 Classic #2 _EDA_ ~L -BCGHINOPRSU? ␅
+TD2781371 ␆YYYYY
+TD158 Classic #2 _EDA_ ~L -BCGHINOPRSU? YYYYY
+TD302 attempt: 1 MEDAL Y Y Y Y Y
+TD117 📋> ␅
+TD4734266 ␆🙂 Daily Quordle 1709
+TD128 📋> 🙂 Daily Quordle 1709
+TD11 📋> ␅
+TD41 ␆5️⃣7️⃣
+TD7 📋> 5️⃣7️⃣
+TD6 📋> ␅
+TD11 ␆3️⃣6️⃣
+TD5 📋> 3️⃣6️⃣
+TD4 📋> ␅
+TD9 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD227115 ␆
+TD157 📋> 
+TD41 📋> ␅
+TD165700 ␄
+TD144 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1709\n5\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1721 result: "\ud83d\ude42 Daily Quordle 1709\n5\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD130 📆 2026-09-29 ? ␅
+TD212956 ␆
+TD122 📆 2026-09-29 ? 
