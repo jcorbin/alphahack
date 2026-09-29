@@ -1,0 +1,252 @@
+T618.8784108539985 now: 2026-09-29T08:25:35EDT
+TD159 site: squareword.org
+TD39 wordlist: nwl2023.txt
+TD51  ...␅
+TD2169280 ␆copy
+TD121  ...copy
+TD125  ...␅
+TD5416825 ␆
+TD110  ...
+TD81 🧩  ? ␅
+TD2862777 ␆#1702
+TD120 🧩  ? #1702
+TD324 puzzle_id: #1702
+TD374 > ␅
+TD710121 ␆
+TD86 > 
+TD294 > ␅
+TD868001 ␆*
+TD120 > *
+TD508839 try? ␅
+TD613460 ␆1
+TD97 try? 1
+TD362 questioning: ["rates", "#5"]
+TD347 #1 <IndexError>  📋 "rates" ? ␅
+TD3999593 ␆____S ~ R
+TD136 #1 <IndexError>  📋 "rates" ? ____S ~ R
+TD771 attempt 0 RATES m n n n Y
+TD129 #2 <IndexError>  📋 "rates" ? ␅
+TD1918134 ␆RA___ 
+TD120 #2 <IndexError>  📋 "rates" ? RA___ 
+TD316 attempt 1 RATES Y Y n n n
+TD124 #3 <IndexError>  📋 "rates" ? ␅
+TD2974805 ␆___E_ ~ R
+TD123 #3 <IndexError>  📋 "rates" ? ___E_ ~ R
+TD292 attempt 2 RATES m n n Y n
+TD129 #4 <IndexError>  📋 "rates" ? ␅
+TD1826807 ␆_____ ~ E
+TD169 #4 <IndexError>  📋 "rates" ? _____ ~ E
+TD307 attempt 3 RATES n n n m n
+TD137 #5 <IndexError>  📋 "rates" ? ␅
+TD2517819 ␆___E_ ~ S
+TD133 #5 <IndexError>  📋 "rates" ? ___E_ ~ S
+TD289 attempt 4 RATES n n n Y m
+TD423 ? ␅
+TD273919 ␆
+TD162 ? 
+TD219 question done
+TD369 > ␅
+TD516943 ␆*
+TD155 > *
+TD1391080 try? ␅
+TD1095472 ␆1
+TD124 try? 1
+TD356 questioning: ["rainy", "#2"]
+TD444 #1 ____S ~R -AET  📋 "rainy" ? ␅
+TD4965327 ␆__I_S ~ R
+TD126 #1 ____S ~R -AET  📋 "rainy" ? __I_S ~ R
+TD375 attempt 0 RAINY m n Y n n
+TD215 #2 RA___ -EST  📋 "rainy" ? ␅
+TD2773451 ␆RA___ ~ I
+TD150 #2 RA___ -EST  📋 "rainy" ? RA___ ~ I
+TD349 attempt 1 RAINY Y Y m n n
+TD187 #3 ___E_ ~R -AST  📋 "rainy" ? ␅
+TD2999907 ␆___E_ ~ RI
+TD97 #3 ___E_ ~R -AST  📋 "rainy" ? ___E_ ~ RI
+TD248 attempt 2 RAINY m n m n n
+TD148 #4 _____ ~E -ARST  📋 "rainy" ? ␅
+TD2292869 ␆_____ ~ EIN
+TD118 #4 _____ ~E -ARST  📋 "rainy" ? _____ ~ EIN
+TD311 attempt 3 RAINY n n m m n
+TD175 #5 ___E_ ~S -ART  📋 "rainy" ? ␅
+TD1913147 ␆___E_ ~ S
+TD156 #5 ___E_ ~S -ART  📋 "rainy" ? ___E_ ~ S
+TD305 attempt 4 RAINY n n n n n
+TD431 ? ␅
+TD229991 ␆
+TD140 ? 
+TD210 question done
+TD375 > ␅
+TD405498 ␆*
+TD162 > *
+TD991649 try? ␅
+TD2198572 ␆1
+TD112 try? 1
+TD328 questioning: ["radio", "#2"]
+TD304 #1 __I_S ~R -AENTY  📋 "radio" ? ␅
+TD7617599 ␆.
+TD144 #1 __I_S ~R -AENTY  📋 "radio" ? .
+TD347 attempt 0 RADIO m n n n n
+TD125 #2 RA___ ~I -ENSTY  📋 "radio" ? ␅
+TD5186034 ␆RADI_ ~ I
+TD144 #2 RA___ ~I -ENSTY  📋 "radio" ? RADI_ ~ I
+TD328 attempt 1 RADIO Y Y Y Y n
+TD209 #3 ___E_ ~IR -ANSTY  📋 "radio" ? ␅
+TD3247809 ␆___E_ ~ RID
+TD98 #3 ___E_ ~IR -ANSTY  📋 "radio" ? ___E_ ~ RID
+TD272 attempt 2 RADIO m n m m n
+TD162 #4 _____ ~EIN -ARSTY  📋 "radio" ? ␅
+TD1182466 ␆.
+TD128 #4 _____ ~EIN -ARSTY  📋 "radio" ? .
+TD354 attempt 3 RADIO n n n m n
+TD115 #5 ___E_ ~S -AINRTY  📋 "radio" ? ␅
+TD2601147 ␆___E_ ~ SDO
+TD110 #5 ___E_ ~S -AINRTY  📋 "radio" ? ___E_ ~ SDO
+TD325 attempt 4 RADIO n n m n m
+TD383 ? ␅
+TD148671 ␆
+TD118 ? 
+TD148 question done
+TD358 > ␅
+TD360802 ␆*
+TD68 > *
+TD913788 questioning: ["radii", "#2"]
+TD397 #1 __I_S ~R -ADEINOTY  📋 "radii" ? ␅
+TD3731493 ␆.
+TD161 #1 __I_S ~R -ADEINOTY  📋 "radii" ? .
+TD362 attempt 0 RADII m n n n n
+TD120 #2 RADI_ -ENOSTY  📋 "radii" ? ␅
+TD584869 ␆/it
+TD144 #2 RADI_ -ENOSTY  📋 "radii" ? /it
+TD315 attempt 1 RADII Y Y Y Y Y
+TD149 #3 ___E_ ~DIR -ANOSTY  📋 "radii" ? ␅
+TD2393905 ␆.
+TD111 #3 ___E_ ~DIR -ANOSTY  📋 "radii" ? .
+TD288 attempt 2 RADII m n m m m
+TD108 #4 _____ ~EIN -ADORSTY  📋 "radii" ? ␅
+TD775112 ␆.
+TD117 #4 _____ ~EIN -ADORSTY  📋 "radii" ? .
+TD268 attempt 3 RADII n n n m m
+TD137 #5 ___E_ ~DOS -AINRTY  📋 "radii" ? ␅
+TD1242316 ␆.
+TD105 #5 ___E_ ~DOS -AINRTY  📋 "radii" ? .
+TD349 attempt 4 RADII n n m n n
+TD321 ? ␅
+TD146711 ␆
+TD124 ? 
+TD129 question done
+TD312 > ␅
+TD418193 ␆*
+TD125 > *
+TD847889 questioning: ["idler", "#3"]
+TD260 #1 __I_S ~R -ADEINOTY  📋 "idler" ? ␅
+TD5412865 ␆.
+TD195 #1 __I_S ~R -ADEINOTY  📋 "idler" ? .
+TD402 attempt 0 IDLER n n n n m
+TD138 #3 ___E_ ~DIR -ANOSTY  📋 "idler" ? ␅
+TD569419 ␆/it
+TD143 #3 ___E_ ~DIR -ANOSTY  📋 "idler" ? /it
+TD360 attempt 2 IDLER Y Y Y Y Y
+TD122 #4 _____ ~EIN -ADORSTY  📋 "idler" ? ␅
+TD135146 ␆
+TD95 #4 _____ ~EIN -ADORSTY  📋 "idler" ? 
+TD360 #4 _____ ~EIN -ADORSTY  ? ␅
+TD2010603 ␆.
+TD121 #4 _____ ~EIN -ADORSTY  ? .
+TD387 attempt 3 IDLER m n n m n
+TD135 #5 ___E_ ~DOS -AINRTY  📋 "idler" ? ␅
+TD815153 ␆.
+TD128 #5 ___E_ ~DOS -AINRTY  📋 "idler" ? .
+TD370 attempt 4 IDLER n m n Y n
+TD442 ? ␅
+TD144664 ␆
+TD156 ? 
+TD143 question done
+TD320 > ␅
+TD371501 ␆*
+TD143 > *
+TD2771993 try? ␅
+TD3267504 ␆1
+TD146 try? 1
+TD570 questioning: ["niece", "#4"]
+TD530 #1 __I_S ~R -ADEILNOTY  📋 "niece" ? ␅
+TD3182464 ␆.
+TD99 #1 __I_S ~R -ADEILNOTY  📋 "niece" ? .
+TD229 attempt 0 NIECE n n n n n
+TD88 #4 _____ ~EIN -ADLORSTY  📋 "niece" ? ␅
+TD970459 ␆/it
+TD111 #4 _____ ~EIN -ADLORSTY  📋 "niece" ? /it
+TD291 attempt 3 NIECE Y Y Y Y Y
+TD126 #5 ___E_ ~DOS -AILNRTY  📋 "niece" ? ␅
+TD1552326 ␆.
+TD148 #5 ___E_ ~DOS -AILNRTY  📋 "niece" ? .
+TD361 attempt 4 NIECE n n n n n
+TD498 ? ␅
+TD164291 ␆
+TD17 ? 
+TD68 question done
+TD184 > ␅
+TD418024 ␆*
+TD114 > *
+TD2504359 questioning: ["grips", "#1"]
+TD314 #1 __I_S ~R -ACDEILNOTY  📋 "grips" ? ␅
+TD4844822 ␆/it
+TD125 #1 __I_S ~R -ACDEILNOTY  📋 "grips" ? /it
+TD348 attempt 0 GRIPS Y Y Y Y Y
+TD144 #5 ___E_ ~DOS -ACEILNRTY  📋 "grips" ? ␅
+TD1893957 ␆.
+TD122 #5 ___E_ ~DOS -ACEILNRTY  📋 "grips" ? .
+TD308 attempt 4 GRIPS n n n n m
+TD322 ? ␅
+TD148758 ␆
+TD93 ? 
+TD129 question done
+TD261 > ␅
+TD393172 ␆*
+TD126 > *
+TD1776372 questioning: ["dosed", "#5"]
+TD235 #5 ___E_ ~DOS -ACEGILNPRTY  📋 "dosed" ? ␅
+TD3793624 ␆/it
+TD98 #5 ___E_ ~DOS -ACEGILNPRTY  📋 "dosed" ? /it
+TD242 attempt 4 DOSED Y Y Y Y Y
+TD218 ? ␅
+TD637165 ␆
+TD148 ? 
+TD153 question done
+TD57229 📋> ␅
+TD3742150 ␆squareword.org 1702: 8 guesses
+TD124 📋> squareword.org 1702: 8 guesses
+TD18 📋> ␅
+TD65 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD18 ␆🟨🟨🟩🟨🟩
+TD5 📋> 🟨🟨🟩🟨🟩
+TD4 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟨
+TD3 📋> 🟨🟨🟨🟨🟨
+TD3 📋> ␅
+TD11 ␆🟨🟨🟨🟩🟨
+TD3 📋> 🟨🟨🟨🟩🟨
+TD3 📋> ␅
+TD11 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD14 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> ␅
+TD248762 ␆#squareword #squareword1702
+TD112 📋> #squareword #squareword1702
+TD15 📋> ␅
+TD137913 ␄
+TD332 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1702: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1702"}
+TD1616 result: "squareword.org 1702: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1702"
+TD163 📆 2026-09-29 ? ␅
+TD163156 ␆
+TD103 📆 2026-09-29 ? 
