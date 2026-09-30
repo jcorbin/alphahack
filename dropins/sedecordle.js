@@ -99,8 +99,8 @@
     if (m) return [+m[1], +m[2], +m[3]];
 
     // hsl(H, S%, L%) / hsla(H, S%, L%, a)
-    // TODO isn't the "%" unit optional? can't they be specified as unit-float?
-    m = s.match(/^hsla?\(\s*([\d.]+)\s*,\s*(\d+)%?\s*,\s*(\d+)%?/);
+    // S and L can be given with or without "%" and as decimals (e.g. hsl(120, 50.5, 33.3))
+    m = s.match(/^hsla?\(\s*([\d.]+)\s*,\s*([\d.]+)%?\s*,\s*([\d.]+)%?/);
     if (m) {
       const [r, g, b] = hslToRgb(+m[1], +m[2], +m[3]);
       return [Math.round(r), Math.round(g), Math.round(b)];
