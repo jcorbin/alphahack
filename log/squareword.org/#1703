@@ -1,0 +1,230 @@
+T3.721869188011624 now: 2026-09-30T10:55:59EDT
+TD119 site: squareword.org
+TD25 wordlist: nwl2023.txt
+TD31  ...␅
+TD1885522 ␆copy
+TD100  ...copy
+TD122  ...␅
+TD3651442 ␆
+TD148  ...
+TD124 🧩  ? ␅
+TD2488900 ␆#1703
+TD123 🧩  ? #1703
+TD298 puzzle_id: #1703
+TD381 > ␅
+TD1204318 ␆*
+TD121 > *
+TD309262 try? ␅
+TD795004 ␆1
+TD117 try? 1
+TD379 questioning: ["etnas", "#5"]
+TD318 #1 <IndexError>  📋 "etnas" ? ␅
+TD4395198 ␆____S ~ EA
+TD116 #1 <IndexError>  📋 "etnas" ? ____S ~ EA
+TD692 attempt 0 ETNAS m n n m Y
+TD110 #2 <IndexError>  📋 "etnas" ? ␅
+TD2514658 ␆_____ ~ EA
+TD120 #2 <IndexError>  📋 "etnas" ? _____ ~ EA
+TD289 attempt 1 ETNAS m n n m n
+TD133 #3 <IndexError>  📋 "etnas" ? ␅
+TD2065324 ␆_____ ~ EA
+TD103 #3 <IndexError>  📋 "etnas" ? _____ ~ EA
+TD260 attempt 2 ETNAS m n n m n
+TD126 #4 <IndexError>  📋 "etnas" ? ␅
+TD2015027 ␆_____ ~ NAS
+TD123 #4 <IndexError>  📋 "etnas" ? _____ ~ NAS
+TD306 attempt 3 ETNAS n n m m m
+TD131 #5 <IndexError>  📋 "etnas" ? ␅
+TD2232194 ␆_____ ~ ES
+TD82 #5 <IndexError>  📋 "etnas" ? _____ ~ ES
+TD215 attempt 4 ETNAS m n n n m
+TD325 ? ␅
+TD358434 ␆
+TD132 ? 
+TD207 question done
+TD780 > ␅
+TD545778 ␆*
+TD112 > *
+TD725621 try? ␅
+TD1651614 ␄
+TD166 <EOF>
+TD357 > ␅
+TD1003730 ␆* 5
+TD106 > * 5
+TD7618 try? ␅
+TD909168 ␄
+TD170 <EOF>
+TD419 > ␅
+TD970720 ␆* 3
+TD117 > * 3
+TD9352 try? ␅
+TD3057490 ␆1
+TD131 try? 1
+TD338 questioning: ["beard", "#3"]
+TD314 #1 ____S ~AE -NT  📋 "beard" ? ␅
+TD4607439 ␆____S ~ EAR
+TD116 #1 ____S ~AE -NT  📋 "beard" ? ____S ~ EAR
+TD278 attempt 0 BEARD n m m m n
+TD161 #2 _____ ~AE -NST  📋 "beard" ? ␅
+TD2173781 ␆_EA__ ~ E
+TD132 #2 _____ ~AE -NST  📋 "beard" ? _EA__ ~ E
+TD330 attempt 1 BEARD n Y Y n n
+TD334 #3 _____ ~AE -NST  📋 "beard" ? ␅
+TD2040476 ␆_____ ~ EARD
+TD131 #3 _____ ~AE -NST  📋 "beard" ? _____ ~ EARD
+TD322 attempt 2 BEARD n m m m m
+TD185 #4 _____ ~ANS -ET  📋 "beard" ? ␅
+TD2308047 ␆__A__ ~ NS
+TD131 #4 _____ ~ANS -ET  📋 "beard" ? __A__ ~ NS
+TD325 attempt 3 BEARD n n Y n n
+TD180 #5 _____ ~ES -ANT  📋 "beard" ? ␅
+TD2815629 ␆_____ ~ ESR
+TD116 #5 _____ ~ES -ANT  📋 "beard" ? _____ ~ ESR
+TD286 attempt 4 BEARD n m n m n
+TD459 ? ␅
+TD257770 ␆
+TD113 ? 
+TD169 question done
+TD507 > ␅
+TD420498 ␆*
+TD127 > *
+TD883491 try? ␅
+TD3749544 ␆1
+TD112 try? 1
+TD340 questioning: ["alder", "#3"]
+TD332 #1 ____S ~AER -BDNT  📋 "alder" ? ␅
+TD3495303 ␆A__ES ~ R
+TD117 #1 ____S ~AER -BDNT  📋 "alder" ? A__ES ~ R
+TD260 attempt 0 ALDER Y n n Y m
+TD150 #2 _EA__ -BDNRST  📋 "alder" ? ␅
+TD3074163 ␆_EA__ ~ E
+TD103 #2 _EA__ -BDNRST  📋 "alder" ? _EA__ ~ E
+TD267 attempt 1 ALDER n n n m n
+TD181 #3 _____ ~ADER -BNST  📋 "alder" ? ␅
+TD671784 ␆/it
+TD137 #3 _____ ~ADER -BNST  📋 "alder" ? /it
+TD271 attempt 2 ALDER Y Y Y Y Y
+TD82 #4 __A__ ~NS -BDERT  📋 "alder" ? ␅
+TD2491910 ␆_LA__ ~ NS
+TD101 #4 __A__ ~NS -BDERT  📋 "alder" ? _LA__ ~ NS
+TD223 attempt 3 ALDER n Y n n n
+TD138 #5 _____ ~ERS -ABDNT  📋 "alder" ? ␅
+TD1094884 ␆.
+TD113 #5 _____ ~ERS -ABDNT  📋 "alder" ? .
+TD320 attempt 4 ALDER n n n m m
+TD286 ? ␅
+TD155203 ␆
+TD110 ? 
+TD116 question done
+TD333 > ␅
+TD395414 ␆*
+TD121 > *
+TD1012887 questioning: ["acres", "#1"]
+TD224 #1 A__ES ~R -BDLNT  📋 "acres" ? ␅
+TD2600844 ␆/it
+TD110 #1 A__ES ~R -BDLNT  📋 "acres" ? /it
+TD284 attempt 0 ACRES Y Y Y Y Y
+TD106 #2 _EA__ -ABDLNRST  📋 "acres" ? ␅
+TD2860034 ␆_EA__ ~ E
+TD145 #2 _EA__ -ABDLNRST  📋 "acres" ? _EA__ ~ E
+TD315 attempt 1 ACRES n n n m n
+TD180 #4 _LA__ ~NS -ABDERT  📋 "acres" ? ␅
+TD2830151 ␆.
+TD241 #4 _LA__ ~NS -ABDERT  📋 "acres" ? .
+TD352 attempt 3 ACRES n n n n m
+TD120 #5 _____ ~ERS -ABDLNT  📋 "acres" ? ␅
+TD2801500 ␆__R__ ~ ES
+TD121 #5 _____ ~ERS -ABDLNT  📋 "acres" ? __R__ ~ ES
+TD282 attempt 4 ACRES n n Y m m
+TD361 ? ␅
+TD258702 ␆
+TD134 ? 
+TD156 question done
+TD339 > ␅
+TD439879 ␆*
+TD132 > *
+TD899852 try? ␅
+TD10079085 ␆1
+TD102 try? 1
+TD320 questioning: ["slang", "#4"]
+TD359 #2 _EA__ -ABCDLNRST  📋 "slang" ? ␅
+TD5888677 ␆_EA__ ~ E
+TD141 #2 _EA__ -ABCDLNRST  📋 "slang" ? _EA__ ~ E
+TD321 attempt 1 SLANG n n Y n n
+TD179 #4 _LA__ ~NS -ABCDERT  📋 "slang" ? ␅
+TD664699 ␆/it
+TD132 #4 _LA__ ~NS -ABCDERT  📋 "slang" ? /it
+TD329 attempt 3 SLANG Y Y Y Y Y
+TD89 #5 __R__ ~ES -ABCDLNT  📋 "slang" ? ␅
+TD1877806 ␆.
+TD113 #5 __R__ ~ES -ABCDLNT  📋 "slang" ? .
+TD303 attempt 4 SLANG m n n n n
+TD393 ? ␅
+TD141804 ␆
+TD117 ? 
+TD123 question done
+TD295 > ␅
+TD378832 ␆*
+TD113 > *
+TD1374270 questioning: ["weave", "#2"]
+TD218 #2 _EA__ -BCDGLNRST  📋 "weave" ? ␅
+TD2715531 ␆/it
+TD97 #2 _EA__ -BCDGLNRST  📋 "weave" ? /it
+TD265 attempt 1 WEAVE Y Y Y Y Y
+TD142 #5 __R__ ~ES -ABCDGLNT  📋 "weave" ? ␅
+TD3041363 ␆__R_E ~ S
+TD112 #5 __R__ ~ES -ABCDGLNT  📋 "weave" ? __R_E ~ S
+TD295 attempt 4 WEAVE n n n n Y
+TD454 ? ␅
+TD253315 ␆
+TD113 ? 
+TD122 question done
+TD490 > ␅
+TD477084 ␆*
+TD111 > *
+TD1155279 questioning: ["horse", "#5"]
+TD165 #5 __R_E ~S -ABCDGLNTVW  📋 "horse" ? ␅
+TD3564269 ␆/it
+TD106 #5 __R_E ~S -ABCDGLNTVW  📋 "horse" ? /it
+TD233 attempt 4 HORSE Y Y Y Y Y
+TD363 ? ␅
+TD337817 ␆
+TD124 ? 
+TD152 question done
+TD32106 📋> ␅
+TD4798545 ␆squareword.org 1703: 7 guesses
+TD116 📋> squareword.org 1703: 7 guesses
+TD17 📋> ␅
+TD56 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD26 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟩🟩🟨🟨
+TD5 📋> 🟨🟩🟩🟨🟨
+TD4 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD8 ␆🟨🟨🟩🟨🟨
+TD3 📋> 🟨🟨🟩🟨🟨
+TD4 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD17 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD283648 ␆#squareword #squareword1703
+TD116 📋> #squareword #squareword1703
+TD12 📋> ␅
+TD112220 ␄
+TD204 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1703: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1703"}
+TD927 result: "squareword.org 1703: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1703"
+TD89 📆 2026-09-30 ? ␅
+TD181826 ␆
+TD115 📆 2026-09-30 ? 
