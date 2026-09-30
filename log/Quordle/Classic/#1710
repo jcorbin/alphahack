@@ -1,0 +1,287 @@
+T454.22035660200345 now: 2026-09-30T08:05:12EDT
+TD91 site: https://www.merriam-webster.com/games/quordle/#/
+TD17 wordlist: nwl2023.txt
+TD5 num_words: 4
+TD95  ...␅
+TD1745426 ␆copy
+TD69  ...copy
+TD74  ...␅
+TD2393096 ␆
+TD89  ...
+TD304469 > ␅
+TD1035431 ␆*
+TD86 > *
+TD33546 ? ␅
+TD11123299 ␆1
+TD88 ? 1
+TD203 questioning: arise
+TD164 Classic #1 _____? ␅
+TD5093113 ␆nnnnY
+TD82 Classic #1 _____? nnnnY
+TD332 attempt: 0 ARISE n n n n Y
+TD78 Classic #2 _____? ␅
+TD1782588 ␆Mnnnn
+TD85 Classic #2 _____? Mnnnn
+TD189 attempt: 1 ARISE m n n n n
+TD77 Classic #3 _____? ␅
+TD1284516 ␆nnnYn
+TD82 Classic #3 _____? nnnYn
+TD174 attempt: 2 ARISE n n n Y n
+TD75 Classic #4 _____? ␅
+TD1681176 ␆MMnnM
+TD80 Classic #4 _____? MMnnM
+TD180 attempt: 3 ARISE m m n n m
+TD293479 > ␅
+TD3663974 ␆*
+TD81 > *
+TD2638 ? ␅
+TD3126250 ␆5
+TD89 ? 5
+TD150 questioning: toady
+TD140 Classic #1 ____E -AIRS? ␅
+TD3476296 ␆nMnnn
+TD72 Classic #1 ____E -AIRS? nMnnn
+TD153 attempt: 0 TOADY n m n n n
+TD69 Classic #2 _____ ~A -EIRS? ␅
+TD2030227 ␆MnMnn
+TD77 Classic #2 _____ ~A -EIRS? MnMnn
+TD188 attempt: 1 TOADY m n m n n
+TD88 Classic #3 ___S_ -AEIR? ␅
+TD1400199 ␆nYnnY
+TD67 Classic #3 ___S_ -AEIR? nYnnY
+TD140 attempt: 2 TOADY n Y n n Y
+TD67 Classic #4 _____ ~AER -IS? ␅
+TD1249200 ␆nnMnn
+TD65 Classic #4 _____ ~AER -IS? nnMnn
+TD147 attempt: 3 TOADY n n m n n
+TD342566 > ␅
+TD2583041 ␆*
+TD69 > *
+TD663 ? ␅
+TD4226686 ␆5
+TD80 ? 5
+TD144 questioning: clear
+TD446 Classic #1 ____E ~O -ADIRSTY? ␅
+TD3823588 ␆YnMnn
+TD83 Classic #1 ____E ~O -ADIRSTY? YnMnn
+TD181 attempt: 0 CLEAR Y n m n n
+TD87 Classic #2 _____ ~AT -DEIORSY? ␅
+TD1529591 ␆MnnMn
+TD83 Classic #2 _____ ~AT -DEIORSY? MnnMn
+TD179 attempt: 1 CLEAR m n n m n
+TD84 Classic #3 _O_SY -ADEIRT? ␅
+TD1940763 ␆nnnnn
+TD69 Classic #3 _O_SY -ADEIRT? nnnnn
+TD135 attempt: 2 CLEAR n n n n n
+TD70 Classic #4 _____ ~AER -DIOSTY? ␅
+TD1531722 ␆nnMMY
+TD75 Classic #4 _____ ~AER -DIOSTY? nnMMY
+TD289 attempt: 3 CLEAR n n m m Y
+TD265903 > ␅
+TD694419 ␆*
+TD66 > *
+TD258 questioning: choke
+TD83 Classic #1 C___E ~O -ADILRSTY? ␅
+TD2592255 ␆YYYYY
+TD69 Classic #1 C___E ~O -ADILRSTY? YYYYY
+TD127 attempt: 0 CHOKE Y Y Y Y Y
+TD69 Classic #2 _____ ~ACT -DEILORSY? ␅
+TD1866544 ␆MMnnn
+TD66 Classic #2 _____ ~ACT -DEILORSY? MMnnn
+TD140 attempt: 1 CHOKE m m n n n
+TD69 Classic #3 _O_SY -ACDEILRT? ␅
+TD1321517 ␆nnMnn
+TD78 Classic #3 _O_SY -ACDEILRT? nnMnn
+TD132 attempt: 2 CHOKE n n m n n
+TD62 Classic #4 ____R ~AE -CDILOSTY? ␅
+TD1343661 ␆nnnnM
+TD70 Classic #4 ____R ~AE -CDILOSTY? nnnnM
+TD137 attempt: 3 CHOKE n n n n m
+TD218815 > ␅
+TD923322 ␆*
+TD66 > *
+TD479 ? ␅
+TD3264375 ␆1
+TD87 ? 1
+TD131 questioning: pager
+TD118 Classic #2 _____ ~ACHT -DEIKLORSY? ␅
+TD2953162 ␆nYnnn
+TD84 Classic #2 _____ ~ACHT -DEIKLORSY? nYnnn
+TD165 attempt: 1 PAGER n Y n n n
+TD83 Classic #3 _O_SY -ACDEHIKLRT? ␅
+TD1647907 ␆nnnnn
+TD68 Classic #3 _O_SY -ACDEHIKLRT? nnnnn
+TD131 attempt: 2 PAGER n n n n n
+TD68 Classic #4 ____R ~AE -CDHIKLOSTY? ␅
+TD1892225 ␆nYYYY
+TD89 Classic #4 ____R ~AE -CDHIKLOSTY? nYYYY
+TD379 attempt: 3 PAGER n Y Y Y Y
+TD197270 > ␅
+TD1756691 ␆*
+TD68 > *
+TD344 ? ␅
+TD1623856 ␄
+TD111 <EOF>
+TD193956 > ␅
+TD2811257 ␆* 4
+TD68 > * 4
+TD64246 ? ␅
+TD1573318 ␄
+TD110 <EOF>
+TD203070 > ␅
+TD998578 ␆* 2
+TD82 > * 2
+TD72650 ? ␅
+TD1418492 ␄
+TD96 <EOF>
+TD201293 > ␅
+TD1088802 ␆probe
+TD82 > probe
+TD313413 > ␅
+TD10674851 ␆tried numbs
+TD118 > tried numbs
+TD320 questioning: NUMBS
+TD160 Classic #2 _A___ ~CHT -DEGIKLOPRSY? ␅
+TD1383784 ␆nnnMn
+TD68 Classic #2 _A___ ~CHT -DEGIKLOPRSY? nnnMn
+TD139 attempt: 1 NUMBS n n n m n
+TD69 Classic #3 _O_SY -ACDEGHIKLPRT? ␅
+TD1446434 ␆nnMnM
+TD67 Classic #3 _O_SY -ACDEGHIKLPRT? nnMnM
+TD132 attempt: 2 NUMBS n n m n m
+TD68 Classic #4 _AGER -CDHIKLOPSTY? ␅
+TD1080720 ␆nnnnn
+TD76 Classic #4 _AGER -CDHIKLOPSTY? nnnnn
+TD170 attempt: 3 NUMBS n n n n n
+TD198418 > ␅
+TD641856 ␆*
+TD66 > *
+TD247 questioning: batch
+TD96 Classic #2 _A___ ~BCHT -DEGIKLMNOPRSUY? ␅
+TD4169457 ␆YYYYY
+TD63 Classic #2 _A___ ~BCHT -DEGIKLMNOPRSUY? YYYYY
+TD127 attempt: 1 BATCH Y Y Y Y Y
+TD75 Classic #3 _O_SY ~M -ABCDEGHIKLNPRTU? ␅
+TD1491082 ␆nnnnn
+TD71 Classic #3 _O_SY ~M -ABCDEGHIKLNPRTU? nnnnn
+TD135 attempt: 2 BATCH n n n n n
+TD150 Classic #4 _AGER -BCDHIKLMNOPSTUY? ␅
+TD1434961 ␆nYnnn
+TD74 Classic #4 _AGER -BCDHIKLMNOPSTUY? nYnnn
+TD170 attempt: 3 BATCH n Y n n n
+TD128019 > ␅
+TD676985 ␆*
+TD80 > *
+TD295 questioning: mossy
+TD112 Classic #3 _O_SY ~M -ABCDEGHIKLNPRTU? ␅
+TD3232117 ␆YYYYY
+TD74 Classic #3 _O_SY ~M -ABCDEGHIKLNPRTU? YYYYY
+TD130 attempt: 2 MOSSY Y Y Y Y Y
+TD70 Classic #4 _AGER -BCDHIKLMNOPSTUY? ␅
+TD1205292 ␆nnnn
+TD72 Classic #4 _AGER -BCDHIKLMNOPSTUY? nnnn
+TD138 Classic #4 _AGER -BCDHIKLMNOPSTUY? ␅
+TD3761226 ␆nnnnn
+TD85 Classic #4 _AGER -BCDHIKLMNOPSTUY? nnnnn
+TD158 attempt: 3 MOSSY n n n n n
+TD64208 > ␅
+TD755240 ␆*
+TD85 > *
+TD449 ? ␅
+TD5792691 ␄
+TD141 <EOF>
+TD67763 > ␅
+TD993034 ␆probe
+TD84 > probe
+TD126830 > ␅
+TD13659397 ␆probe jwgr
+TD67 > probe jwgr
+TD166971 > ␅
+TD11359407 ␆probe jwg
+TD79 > probe jwg
+TD129149 > ␅
+TD9423087 ␆tried growl
+TD80 > tried growl
+TD142 questioning: GROWL
+TD143 Classic #4 _AGER -BCDHIKLMNOPSTUY? ␅
+TD4844288 ␆MMnnn
+TD80 Classic #4 _AGER -BCDHIKLMNOPSTUY? MMnnn
+TD167 attempt: 3 GROWL m m n n n
+TD63544 > ␅
+TD3861119 ␆/res
+TD87 > /res
+TD150 📋> ␅
+TD3711350 ␆🙂 Daily Quordle 1710
+TD70 📋> 🙂 Daily Quordle 1710
+TD7 📋> ␅
+TD59 ␆4️⃣7️⃣
+TD22 📋> 4️⃣7️⃣
+TD6 📋> ␅
+TD10 ␆8️⃣🟥
+TD4 📋> 8️⃣🟥
+TD3 📋> ␅
+TD7 ␆m-w.com/games/quordle/
+TD3 📋> m-w.com/games/quordle/
+TD3 📋> ␅
+TD254487 ␆
+TD85 📋> 
+TD9 📋> ␅
+TD208666 ␄
+TD115 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1710\n4\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TD751 result: "\ud83d\ude42 Daily Quordle 1710\n4\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TD60934 > ␅
+TD295618 ␆
+TD89 > 
+TD130 > ␅
+TD6134526 ␄
+TD92 <EOF>
+TD61 > ␅
+TD800369 ␄
+TD115 <EOF>
+TD79 > ␅
+TD330683 ␄
+TD113 <EOF>
+TD77 > ␅
+TD187348 ␄
+TD117 <EOF>
+TD80 > ␅
+TD180011 ␄
+TD116 <EOF>
+TD89 > ␅
+TD264039 ␄
+TD112 <EOF>
+TD88 > ␅
+TD90329 ␄
+TD42 <EOF>
+TD187 > ␅
+TD182964 ␄
+T642.1439311949944 now: 2026-09-30T08:08:20EDT
+TD52 questioning: GROWL
+TD87288 > ␅
+TD1706938 ␆/res
+TD114 > /res
+TD180 📋> ␅
+TD587443 ␆🙂 Daily Quordle 1710
+TD68 📋> 🙂 Daily Quordle 1710
+TD6 📋> ␅
+TD22 ␆4️⃣7️⃣
+TD3 📋> 4️⃣7️⃣
+TD2 📋> ␅
+TD5 ␆8️⃣🟥
+TD2 📋> 8️⃣🟥
+TD1 📋> ␅
+TD3 ␆m-w.com/games/quordle/
+TD2 📋> m-w.com/games/quordle/
+TD2 📋> ␅
+TD419380 ␆
+TD85 📋> 
+TD9 📋> ␅
+TD327458 ␄
+TD120 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1710\n4\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TD114 result: "\ud83d\ude42 Daily Quordle 1710\n4\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TD61784 > ␅
+TD1213893 ␆/store
+TD83 > /store
+TD188 📆 2026-09-30 ? ␅
+TD480926 ␆
+TD83 📆 2026-09-30 ? 
