@@ -219,9 +219,27 @@
 
   const knownCodes = new Map([
     ['Backspace', 0x08],
+    ['Tab', 0x09],
     ['Enter', 0x0D],
+    ['Shift', 0x10],
+    ['Control', 0x11],
+    ['Alt', 0x12],
+    ['CapsLock', 0x14],
     ['Escape', 0x1B],
-    // TODO fill in more standard key codes
+    ['Space', 0x20],
+    ['PageUp', 0x21],
+    ['PageDown', 0x22],
+    ['End', 0x23],
+    ['Home', 0x24],
+    ['ArrowLeft', 0x25],
+    ['ArrowUp', 0x26],
+    ['ArrowRight', 0x27],
+    ['ArrowDown', 0x28],
+    ['Insert', 0x2D],
+    ['Delete', 0x2E],
+    ...Array.from({ length: 12 },
+      /** @returns {[string, number]} */
+      (_, i) => [`F${i + 1}`, 0x70 + i]),
   ]);
 
   /** @param {string} key */
