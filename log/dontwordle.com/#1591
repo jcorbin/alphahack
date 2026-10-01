@@ -1,0 +1,169 @@
+T197.4440260400006 now: 2026-10-01T08:00:37EDT
+TD105 site: dontwordle.com
+TD17 wordlist: nwl2023.txt
+TD36  ...␅
+TD3033126 ␆copy
+TD111  ...copy
+TD108  ...␅
+TD3288306 ␆
+TD98  ...
+TD131 1> ␅
+TD2019452 ␆* -bot 10
+TD125 1> * -bot 10
+TD277001 ? ␅
+TD586090 ␆1
+TD183 ? 1
+TD295 📋 "serai" ? ␅
+TD3565000 ␆nMMnn
+TD108 📋 "serai" ? nMMnn
+TD687 tried: SERAI n m m n n
+TD215 2> ␅
+TD939011 ␆undo
+TD156 2> undo
+TD214 undo
+TD243 1> ␅
+TD4882273 ␆* :v [serai] -bot 10
+TD134 1> * :v [serai] -bot 10
+TD229541 ? ␅
+TD502251 ␆1
+TD30 ? 1
+TD195 📋 "pylon" ? ␅
+TD4097214 ␆YnnMn
+TD125 📋 "pylon" ? YnnMn
+TD273 tried: PYLON Y n n m n
+TD245 2> ␅
+TD1904724 ␆undo
+TD147 2> undo
+TD180 undo
+TD165 1> ␅
+TD1958375 ␆*
+TD188 1> *
+TD211516 ? ␅
+TD96 ␆1
+TD14 ? 1
+TD167 📋 "jinni" ? ␅
+TD6280299 ␆nnnnn
+TD93 📋 "jinni" ? nnnnn
+TD211 tried: JINNI n n n n n
+TD129 2> ␅
+TD407500 ␆*
+TD153 2> *
+TD171347 ? ␅
+TD6507 ␆1
+TD48 ? 1
+TD216 📋 "mamba" ? ␅
+TD4654546 ␆nnnYn
+TD142 📋 "mamba" ? nnnYn
+TD249 tried: MAMBA n n n Y n
+TD223 3> ␅
+TD642380 ␆undo
+TD109 3> undo
+TD143 undo
+TD189 2> ␅
+TD2175595 ␆*
+TD130 2> *
+TD96602 ? ␅
+TD37709 ␆1
+TD45 ? 1
+TD179 📋 "tazza" ? ␅
+TD3610953 ␆nnnnn
+TD83 📋 "tazza" ? nnnnn
+TD141 tried: TAZZA n n n n n
+TD111 3> ␅
+TD726119 ␆*
+TD87 3> *
+TD89961 ? ␅
+TD92599 ␆1
+TD89 ? 1
+TD211 📋 "sulus" ? ␅
+TD4355785 ␆nnnnn
+TD68 📋 "sulus" ? nnnnn
+TD131 tried: SULUS n n n n n
+TD98 4> ␅
+TD464173 ␆*
+TD68 4> *
+TD298179 📋 "pygmy" ? ␅
+TD45 ␆1
+TD4 📋 "pygmy" ? 1
+TD83 📋 "pygmy" ? ␅
+TD5451660 ␆Ynnnn
+TD91 📋 "pygmy" ? Ynnnn
+TD202 tried: PYGMY Y n n n n
+TD216 5> ␅
+TD418098 ␆*
+TD100 5> *
+TD139065 📋 "pooch" ? ␅
+TD188458 ␆1
+TD64 📋 "pooch" ? 1
+TD152 📋 "pooch" ? ␅
+TD4690159 ␆YnYnn
+TD93 📋 "pooch" ? YnYnn
+TD180 tried: POOCH Y n Y n n
+TD176 6> ␅
+TD367524 ␆*
+TD93 6> *
+TD603249 📋 "proof" ? ␅
+TD4987977 ␄
+TD141 <EOF>
+TD173 6> ␅
+TD1436101 ␆* -sans
+TD91 6> * -sans
+TD110461 ? ␅
+TD3147401 ␆3
+TD106 ? 3
+TD274 📋 "prove" ? ␅
+TD3591000 ␆YYYnY
+TD119 📋 "prove" ? YYYnY
+TD231 tried: PROVE Y Y Y n Y
+TD224 📋> ␅
+TD2877429 ␆Don't Wordle 1591 - SURVIVED
+TD109 📋> Don't Wordle 1591 - SURVIVED
+TD15 📋> ␅
+TD43 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD9 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD7 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜7302
+TD8 📋> ⬜⬜⬜⬜⬜7302
+TD5 📋> ␅
+TD12 ␆⬜⬜⬜⬜⬜2891
+TD5 📋> ⬜⬜⬜⬜⬜2891
+TD5 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜636
+TD5 📋> ⬜⬜⬜⬜⬜636
+TD5 📋> ␅
+TD12 ␆🟩⬜⬜⬜⬜33
+TD5 📋> 🟩⬜⬜⬜⬜33
+TD5 📋> ␅
+TD12 ␆🟩⬜🟩⬜⬜4
+TD5 📋> 🟩⬜🟩⬜⬜4
+TD5 📋> ␅
+TD12 ␆🟩🟩🟩⬜🟩3
+TD5 📋> 🟩🟩🟩⬜🟩3
+TD5 📋> ␅
+TD11 ␆Undos used: 3
+TD6 📋> Undos used: 3
+TD7 📋> ␅
+TD12 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD12 ␆  3 words remaining
+TD5 📋>   3 words remaining
+TD6 📋> ␅
+TD11 ␆x 7 unused letters
+TD5 📋> x 7 unused letters
+TD5 📋> ␅
+TD11 ␆= 21 total score
+TD5 📋> = 21 total score
+TD5 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD166857 ␆https://dontwordle.com
+TD84 📋> https://dontwordle.com
+TD14 📋> ␅
+TD118253 ␄
+TD154 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1591 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7302\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2891\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c636\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c33\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c4\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe93\nUndos used: 3\n\n  3 words remaining\nx 7 unused letters\n= 21 total score\n\nhttps://dontwordle.com"}
+TD1520 result: "Don't Wordle 1591 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7302\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2891\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c636\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\u2b1c33\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c4\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe93\nUndos used: 3\n\n  3 words remaining\nx 7 unused letters\n= 21 total score\n\nhttps://dontwordle.com"
+TD122 📆 2026-10-01 ? ␅
+TD132395 ␆
+TD113 📆 2026-10-01 ? 
