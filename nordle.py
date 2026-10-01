@@ -868,6 +868,18 @@ class Result:
                 continue
 
             m = re.match(r'''(?x)
+                (?P<kind> [^\s]+ ) ordle \s+
+                Daily \s+
+                [#]? (?P<id> [\d]+ )
+                # TODO scoring detail '19/21 🔥 1 day streak'
+            ''', line)
+            if m:
+                kind = m.group('kind').lstrip('#')
+                id_str = m.group('id')
+                if id_str: id = int(id_str)
+                continue
+
+            m = re.match(r'''(?x)
                 (?: (?P<mark> [^\s]+ ) \s+ )?
                 Daily
                 \s+ (?P<mode> [^\s]+ )
@@ -1050,6 +1062,20 @@ class Result:
     > #sedecordle
     - kind: Sedec
     - id: 1587
+
+    #sedecordle_new
+    > #Sedecordle Daily #1690 19/21 🔥 1 day streak
+    > 0️⃣4️⃣⬛0️⃣5️⃣
+    > 0️⃣7️⃣⬛0️⃣6️⃣
+    > 0️⃣8️⃣⬛0️⃣9️⃣
+    > 1️⃣0️⃣⬛1️⃣1️⃣
+    > 1️⃣2️⃣⬛1️⃣3️⃣
+    > 1️⃣4️⃣⬛1️⃣5️⃣
+    > 1️⃣9️⃣⬛1️⃣6️⃣
+    > 1️⃣7️⃣⬛1️⃣8️⃣
+    > sedecordle.com
+    - kind: Sedec
+    - id: 1690
 
 ''')
 def test_parse_result(spec: MarkedSpec):
