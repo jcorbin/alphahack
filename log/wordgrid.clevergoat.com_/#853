@@ -1,0 +1,401 @@
+T8356.845806494002 now: 2026-10-01T12:54:27EDT
+TD240 site: https://wordgrid.clevergoat.com/
+TD21 wordlist: nwl2023.txt
+TD209 > ␅
+TD5046074 ␆col 1 &FL
+TD122 > col 1 &FL
+TD1690 rule col: 1 &FL
+TD95 > ␅
+TD5861535 ␆col 2 ~^ST
+TD110 > col 2 ~^ST
+TD819 rule col: 2 ~^ST
+TD103 > ␅
+TD3872477 ␆col 3 &KN
+TD110 > col 3 &KN
+TD221 rule col: 3 &KN
+TD99 > ␅
+TD8310488 ␆row 1 +2
+TD113 > row 1 +2
+TD689 > ␅
+TD2966621 ␆row 1 x2
+TD104 > row 1 x2
+TD271 rule row: 1 x2
+TD104 > ␅
+TD3645177 ␆row 2 ~T$
+TD111 > row 2 ~T$
+TD461 rule row: 2 ~T$
+TD96 > ␅
+TD4605773 ␆row 3 #1-6
+TD109 > row 3 #1-6
+TD441 rule row: 3 #1-6
+TD97 > ␅
+TD1848106 ␆*
+TD110 > *
+TD1028916 ? ␅
+TD7255138 ␆5
+TD109 ? 5
+TD401 questioning: 0 snuffler
+TD108 🌡️ snuffler 📋 ? ␅
+TD2588098 ␆0
+TD106 🌡️ snuffler 📋 ? 0
+TD437 word: 0 snuffler 0.0
+TD28 questioning: -1 
+TD108 > ␅
+TD399614 ␆*
+TD108 > *
+TD879478 ? ␅
+TD2353755 ␆
+TD147 ? 
+TD755 ? ␅
+TD601084 ␆7
+TD109 ? 7
+TD204 questioning: 1 sterically
+TD63 🌡️ sterically 📋 ? ␅
+TD4184201 ␆.01
+TD107 🌡️ sterically 📋 ? .01
+TD117 word: 1 sterically 0.01
+TD24 questioning: -1 
+TD271 > ␅
+TD420273 ␆*
+TD101 > *
+TD925899 ? ␅
+TD1268818 ␆1
+TD106 ? 1
+TD194 questioning: 2 keelson
+TD63 🌡️ keelson 📋 ? ␅
+TD2720807 ␆.02
+TD75 🌡️ keelson 📋 ? .02
+TD81 word: 2 keelson 0.02
+TD18 questioning: -1 
+TD90 > ␅
+TD475753 ␆*
+TD109 > *
+TD420167 ? ␅
+TD2745174 ␆6
+TD104 ? 6
+TD169 questioning: 3 fleawort
+TD67 🌡️ fleawort 📋 ? ␅
+TD3765261 ␆g.02
+TD122 🌡️ fleawort 📋 ? g.02
+TD137 🌡️ fleawort 📋 ? ␅
+TD2868452 ␆.02
+TD106 🌡️ fleawort 📋 ? .02
+TD110 word: 3 fleawort 0.02
+TD21 questioning: -1 
+TD115 > ␅
+TD932214 ␆*
+TD98 > *
+TD346743 ? ␅
+TD10890807 ␆7
+TD113 ? 7
+TD176 questioning: 4 stinkpot
+TD55 🌡️ stinkpot 📋 ? ␅
+TD4116167 ␆.16
+TD125 🌡️ stinkpot 📋 ? .16
+TD123 word: 4 stinkpot 0.16
+TD26 questioning: -1 
+TD146 > ␅
+TD2577996 ␆* 2 2
+TD102 > * 2 2
+TD348310 ? ␅
+TD3647215 ␆6
+TD155 ? 6
+TD186 questioning: 4 stirabout
+TD59 🌡️ stirabout 📋 ? ␅
+TD3087754 ␆.09
+TD116 🌡️ stirabout 📋 ? .09
+TD112 word: 4 stirabout 0.09
+TD21 questioning: -1 
+TD239 > ␅
+TD516075 ␆*
+TD111 > *
+TD416208 ? ␅
+TD1408419 ␆1
+TD113 ? 1
+TD176 questioning: 5 beknot
+TD57 🌡️ beknot 📋 ? ␅
+TD2771918 ␆.14
+TD102 🌡️ beknot 📋 ? .14
+TD109 word: 5 beknot 0.14
+TD21 questioning: -1 
+TD116 > ␅
+TD1579062 ␆* 3 2
+TD118 > * 3 2
+TD409008 ? ␅
+TD4975890 ␆5
+TD122 ? 5
+TD167 questioning: 5 clonkiest
+TD57 🌡️ clonkiest 📋 ? ␅
+TD4103574 ␆0
+TD108 🌡️ clonkiest 📋 ? 0
+TD113 word: 5 clonkiest 0.0
+TD21 questioning: -1 
+TD115 > ␅
+TD3158987 ␆* 2 2 -bot 10
+TD100 > * 2 2 -bot 10
+TD347164 ? ␅
+TD1557723 ␆1
+TD107 ? 1
+TD165 questioning: 4 sternforemost
+TD55 🌡️ sternforemost 📋 ? ␅
+TD3395685 ␆.21
+TD104 🌡️ sternforemost 📋 ? .21
+TD104 word: 4 sternforemost 0.21
+TD22 questioning: -1 
+TD113 > ␅
+TD1709676 ␆* 2 2 -bot 10
+TD107 > * 2 2 -bot 10
+TD337782 ? ␅
+TD2643844 ␆3
+TD91 ? 3
+TD132 questioning: 4 stageworthiest
+TD44 🌡️ stageworthiest 📋 ? ␅
+TD4728129 ␄
+TD212 <EOF>
+TD201 > ␅
+TD4042745 ␆* 2 2 -bot 10
+TD96 > * 2 2 -bot 10
+TD320790 ? ␅
+TD4217853 ␆4
+TD106 ? 4
+TD178 questioning: 4 stigmatist
+TD126 🌡️ stigmatist 📋 ? ␅
+TD5081804 ␆.26
+TD112 🌡️ stigmatist 📋 ? .26
+TD110 word: 4 stigmatist 0.26
+TD22 questioning: -1 
+TD208 > ␅
+TD1015029 ␆* 2 2
+TD115 > * 2 2
+TD335630 ? ␅
+TD10286493 ␆8
+TD106 ? 8
+TD169 questioning: 4 stopt
+TD57 🌡️ stopt 📋 ? ␅
+TD2769021 ␆.44
+TD73 🌡️ stopt 📋 ? .44
+TD102 word: 4 stopt 0.44
+TD18 questioning: -1 
+TD98 > ␅
+TD1077303 ␆* 2 2 
+TD133 > * 2 2 
+TD339843 ? ␅
+TD2916273 ␆10
+TD86 ? 10
+TD122 questioning: 4 stringhalt
+TD42 🌡️ stringhalt 📋 ? ␅
+TD3274889 ␆.15
+TD105 🌡️ stringhalt 📋 ? .15
+TD107 word: 4 stringhalt 0.15
+TD24 questioning: -1 
+TD129 > ␅
+TD1817780 ␆* 2 2
+TD105 > * 2 2
+TD340879 ? ␅
+TD6823693 ␆7
+TD112 ? 7
+TD164 questioning: 4 strident
+TD57 🌡️ strident 📋 ? ␅
+TD4491949 ␆1.18
+TD109 🌡️ strident 📋 ? 1.18
+TD128 word: 4 strident 1.18
+TD36 questioning: -1 
+TD135 > ␅
+TD2731088 ␆* 2 2 -bot 10
+TD99 > * 2 2 -bot 10
+TD342368 ? ␅
+TD4194040 ␆6
+TD113 ? 6
+TD209 questioning: 4 stubbiest
+TD64 🌡️ stubbiest 📋 ? ␅
+TD3197964 ␆.3
+TD130 🌡️ stubbiest 📋 ? .3
+TD107 word: 4 stubbiest 0.3
+TD22 questioning: -1 
+TD117 > ␅
+TD1829153 ␆* 2 2 -bot 10
+TD111 > * 2 2 -bot 10
+TD338545 ? ␅
+TD7086137 ␆10
+TD122 ? 10
+TD245 questioning: 4 steepest
+TD54 🌡️ steepest 📋 ? ␅
+TD2826248 ␆.64
+TD113 🌡️ steepest 📋 ? .64
+TD110 word: 4 steepest 0.64
+TD23 questioning: -1 
+TD125 > ␅
+TD2798363 ␆* 2 2 -bot 10
+TD112 > * 2 2 -bot 10
+TD337899 ? ␅
+TD2312664 ␆1
+TD109 ? 1
+TD167 questioning: 4 stomatologist
+TD59 🌡️ stomatologist 📋 ? ␅
+TD2976945 ␆.23
+TD110 🌡️ stomatologist 📋 ? .23
+TD107 word: 4 stomatologist 0.23
+TD22 questioning: -1 
+TD148 > ␅
+TD1574209 ␆* 2 2 -bot 10
+TD112 > * 2 2 -bot 10
+TD339496 ? ␅
+TD3548055 ␆8
+TD200 ? 8
+TD166 questioning: 4 stinkiest
+TD59 🌡️ stinkiest 📋 ? ␅
+TD2586268 ␆.99
+TD105 🌡️ stinkiest 📋 ? .99
+TD106 word: 4 stinkiest 0.99
+TD23 questioning: -1 
+TD137 > ␅
+TD2031274 ␆* 2 2 -bot 10
+TD107 > * 2 2 -bot 10
+TD344551 ? ␅
+TD6196162 ␆3
+TD109 ? 3
+TD164 questioning: 4 stateliest
+TD55 🌡️ stateliest 📋 ? ␅
+TD2616874 ␆.18
+TD107 🌡️ stateliest 📋 ? .18
+TD109 word: 4 stateliest 0.18
+TD22 questioning: -1 
+TD126 > ␅
+TD914520 ␆* 2 2
+TD80 > * 2 2
+TD340769 ? ␅
+TD3821477 ␆8
+TD99 ? 8
+TD170 questioning: 4 stoat
+TD58 🌡️ stoat 📋 ? ␅
+TD4224576 ␆1.05
+TD114 🌡️ stoat 📋 ? 1.05
+TD107 word: 4 stoat 1.05
+TD22 questioning: -1 
+TD124 > ␅
+TD3517931 ␆* 2 2 -bot 10
+TD109 > * 2 2 -bot 10
+TD335870 ? ␅
+TD2334288 ␆2
+TD108 ? 2
+TD167 questioning: 4 statoblast
+TD55 🌡️ statoblast 📋 ? ␅
+TD3218962 ␆.29
+TD111 🌡️ statoblast 📋 ? .29
+TD108 word: 4 statoblast 0.29
+TD22 questioning: -1 
+TD121 > ␅
+TD3261968 ␆* 2 2 -bot 10
+TD107 > * 2 2 -bot 10
+TD348838 ? ␅
+TD8038840 ␆9
+TD106 ? 9
+TD173 questioning: 4 stepparent
+TD56 🌡️ stepparent 📋 ? ␅
+TD3262097 ␆.25
+TD82 🌡️ stepparent 📋 ? .25
+TD92 word: 4 stepparent 0.25
+TD18 questioning: -1 
+TD100 > ␅
+TD4299780 ␆* 2 2 -bot 10
+TD129 > * 2 2 -bot 10
+TD332805 ? ␅
+TD2580226 ␆7
+TD115 ? 7
+TD168 questioning: 4 sticktight
+TD56 🌡️ sticktight 📋 ? ␅
+TD4354293 ␆.12
+TD114 🌡️ sticktight 📋 ? .12
+TD178 word: 4 sticktight 0.12
+TD21 questioning: -1 
+TD116 > ␅
+TD1783684 ␆* 2 2 -bot 10
+TD107 > * 2 2 -bot 10
+TD334425 ? ␅
+TD2568174 ␆1
+TD112 ? 1
+TD245 questioning: 4 stemmiest
+TD65 🌡️ stemmiest 📋 ? ␅
+TD2869226 ␆.10
+TD77 🌡️ stemmiest 📋 ? .10
+TD104 🌡️ stemmiest 📋 ? ␅
+TD1970980 ␆.1
+TD107 🌡️ stemmiest 📋 ? .1
+TD106 word: 4 stemmiest 0.1
+TD21 questioning: -1 
+TD116 > ␅
+TD7401579 ␆* 2 2 stirabout
+TD111 > * 2 2 stirabout
+TD701 questioning: 4 stirabout
+TD59 🌡️ stirabout 📋 ? ␅
+TD4551227 ␆.09
+TD113 🌡️ stirabout 📋 ? .09
+TD112 word: 4 stirabout 0.09
+TD26 questioning: -1 
+TD130 > ␅
+TD902066 ␆*
+TD110 > *
+TD428341 ? ␅
+TD1627063 ␆8
+TD103 ? 8
+TD177 questioning: 6 lief
+TD54 🌡️ lief 📋 ? ␅
+TD3348164 ␆.06
+TD118 🌡️ lief 📋 ? .06
+TD111 word: 6 lief 0.06
+TD22 questioning: -1 
+TD128 > ␅
+TD2352062 ␆*
+TD177 > *
+TD342020 ? ␅
+TD6869167 ␆2
+TD108 ? 2
+TD167 questioning: 7 striae
+TD65 🌡️ striae 📋 ? ␅
+TD2732456 ␆.04
+TD106 🌡️ striae 📋 ? .04
+TD108 word: 7 striae 0.04
+TD22 questioning: -1 
+TD120 > ␅
+TD536708 ␆*
+TD115 > *
+TD414459 ? ␅
+TD2130155 ␆10
+TD105 ? 10
+TD175 questioning: 8 kinas
+TD60 🌡️ kinas 📋 ? ␅
+TD3756422 ␆.02
+TD106 🌡️ kinas 📋 ? .02
+TD106 word: 8 kinas 0.02
+TD21 questioning: -1 
+TD120 > ␅
+TD3438391 ␆/res
+TD108 > /res
+TD408 📋> ␅
+TD495023 ␆Word Grid #853
+TD85 📋> Word Grid #853
+TD15 📋> ␅
+TD50 ␆🦄🌌🌌
+TD7 📋> 🦄🌌🌌
+TD8 📋> ␅
+TD17 ␆🌌🌌🦄
+TD7 📋> 🌌🌌🦄
+TD4 📋> ␅
+TD11 ␆🌌🌌🌌
+TD4 📋> 🌌🌌🌌
+TD4 📋> ␅
+TD10 ␆Rarity: 0.26
+TD4 📋> Rarity: 0.26
+TD13 📋> ␅
+TD391972 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD107 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD11 📋> ␅
+TD218821 ␄
+TD2883 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #853\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\nRarity: 0.26\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD951 result: "Word Grid #853\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\nRarity: 0.26\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD174 > ␅
+TD866724 ␆/store
+TD113 > /store
+TD259 📆 2026-10-01 ? ␅
+TD4430274 ␆2026-10-02
+TD106 📆 2026-10-01 ? 2026-10-02
