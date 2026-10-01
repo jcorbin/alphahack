@@ -1,0 +1,191 @@
+T151.76596377299575 now: 2026-10-01T08:05:21EDT
+TD156 site: https://www.merriam-webster.com/games/quordle/#/
+TD30 wordlist: nwl2023.txt
+TD9 num_words: 4
+TD147  ...␅
+TD1781513 ␆copy
+TD118  ...copy
+TD140  ...␅
+TD3444234 ␆
+TD143  ...
+TD603261 > ␅
+TD2885478 ␆*
+TD111 > *
+TD78850 ? ␅
+TD993554 ␆1
+TD119 ? 1
+TD209 questioning: spear
+TD187 Classic #1 _____? ␅
+TD2568864 ␆nnMMn
+TD118 Classic #1 _____? nnMMn
+TD479 attempt: 0 SPEAR n n m m n
+TD123 Classic #2 _____? ␅
+TD1762585 ␆YnYnHY
+TD143 Classic #2 _____? YnYnHY
+TD279 Classic #2 _____? ␅
+TD2154875 ␆YnYnY
+TD126 Classic #2 _____? YnYnY
+TD277 attempt: 1 SPEAR Y n Y n Y
+TD112 Classic #3 _____? ␅
+TD2552416 ␆nnnnM
+TD117 Classic #3 _____? nnnnM
+TD222 attempt: 2 SPEAR n n n n m
+TD302 Classic #4 _____? ␅
+TD1371983 ␆nnnMn
+TD542 Classic #4 _____? nnnMn
+TD317 attempt: 3 SPEAR n n n m n
+TD694762 > ␅
+TD1263398 ␆*
+TD140 > *
+TD5872 ? ␅
+TD3634718 ␆5
+TD120 ? 5
+TD201 questioning: daily
+TD209 Classic #1 _____ ~AE -PRS? ␅
+TD3087102 ␆nYnMn
+TD159 Classic #1 _____ ~AE -PRS? nYnMn
+TD313 attempt: 0 DAILY n Y n m n
+TD141 Classic #2 S_E_R -AP? ␅
+TD1788685 ␆nnnnn
+TD137 Classic #2 S_E_R -AP? nnnnn
+TD274 attempt: 1 DAILY n n n n n
+TD138 Classic #3 _____ ~R -AEPS? ␅
+TD1206649 ␆nnMnn
+TD111 Classic #3 _____ ~R -AEPS? nnMnn
+TD248 attempt: 2 DAILY n n m n n
+TD112 Classic #4 _____ ~A -EPRS? ␅
+TD1608691 ␆nYnnY
+TD128 Classic #4 _____ ~A -EPRS? nYnnY
+TD307 attempt: 3 DAILY n Y n n Y
+TD527910 > ␅
+TD872161 ␆*
+TD157 > *
+TD2937 ? ␅
+TD6263028 ␆4
+TD139 ? 4
+TD229 questioning: mangy
+TD208 Classic #1 _A___ ~EL -DIPRSY? ␅
+TD2985361 ␆nYMnn
+TD111 Classic #1 _A___ ~EL -DIPRSY? nYMnn
+TD258 attempt: 0 MANGY n Y m n n
+TD109 Classic #2 S_E_R -ADILPY? ␅
+TD1488681 ␆nnnnn
+TD199 Classic #2 S_E_R -ADILPY? nnnnn
+TD239 attempt: 1 MANGY n n n n n
+TD99 Classic #3 _____ ~IR -ADELPSY? ␅
+TD1190596 ␆nnnnn
+TD105 Classic #3 _____ ~IR -ADELPSY? nnnnn
+TD247 attempt: 2 MANGY n n n n n
+TD118 Classic #4 _A__Y -DEILPRS? ␅
+TD1648475 ␆nYnnY
+TD122 Classic #4 _A__Y -DEILPRS? nYnnY
+TD264 attempt: 3 MANGY n Y n n Y
+TD533284 > ␅
+TD746901 ␆*
+TD115 > *
+TD430 ? ␅
+TD1788044 ␆2
+TD145 ? 2
+TD418 questioning: navel
+TD261 Classic #1 _A___ ~ELN -DGIMPRSY? ␅
+TD4257357 ␆YYYYY
+TD135 Classic #1 _A___ ~ELN -DGIMPRSY? YYYYY
+TD180 attempt: 0 NAVEL Y Y Y Y Y
+TD98 Classic #2 S_E_R -ADGILMNPY? ␅
+TD1212431 ␆nnnYn
+TD92 Classic #2 S_E_R -ADGILMNPY? nnnYn
+TD208 attempt: 1 NAVEL n n n Y n
+TD115 Classic #3 _____ ~IR -ADEGLMNPSY? ␅
+TD1218261 ␆nnnnn
+TD134 Classic #3 _____ ~IR -ADEGLMNPSY? nnnnn
+TD305 attempt: 2 NAVEL n n n n n
+TD156 Classic #4 _A__Y -DEGILMNPRS? ␅
+TD1725481 ␆nYnnn
+TD108 Classic #4 _A__Y -DEGILMNPRS? nYnnn
+TD249 attempt: 3 NAVEL n Y n n n
+TD435584 > ␅
+TD713827 ␆*
+TD132 > *
+TD543 ? ␅
+TD5338208 ␄
+TD148 <EOF>
+TD414380 > ␅
+TD1377543 ␆* 3
+TD145 > * 3
+TD171892 ? ␅
+TD3528777 ␆2
+TD119 ? 2
+TD190 questioning: orbit
+TD185 Classic #2 S_EER -ADGILMNPVY? ␅
+TD4400764 ␆nMnnn
+TD94 Classic #2 S_EER -ADGILMNPVY? nMnnn
+TD195 attempt: 1 ORBIT n m n n n
+TD91 Classic #3 _____ ~IR -ADEGLMNPSVY? ␅
+TD1931063 ␆nMMMM
+TD102 Classic #3 _____ ~IR -ADEGLMNPSVY? nMMMM
+TD266 attempt: 2 ORBIT n m m m m
+TD101 Classic #4 _A__Y -DEGILMNPRSV? ␅
+TD1964971 ␆nnnnM
+TD114 Classic #4 _A__Y -DEGILMNPRSV? nnnnM
+TD228 attempt: 3 ORBIT n n n n m
+TD585984 > ␅
+TD744180 ␆*
+TD112 > *
+TD1328 questioning: birth
+TD167 Classic #2 S_EER -ABDGILMNOPTVY? ␅
+TD3099185 ␆nnMnM
+TD98 Classic #2 S_EER -ABDGILMNOPTVY? nnMnM
+TD186 attempt: 1 BIRTH n n m n m
+TD98 Classic #3 _____ ~BIRT -ADEGLMNOPSVY? ␅
+TD1654968 ␆YYYYY
+TD129 Classic #3 _____ ~BIRT -ADEGLMNOPSVY? YYYYY
+TD204 attempt: 2 BIRTH Y Y Y Y Y
+TD98 Classic #4 _A__Y ~T -BDEGILMNOPRSV? ␅
+TD1531573 ␆nnnMn
+TD198 Classic #4 _A__Y ~T -BDEGILMNOPRSV? nnnMn
+TD199 attempt: 3 BIRTH n n n m n
+TD212252 > ␅
+TD750895 ␆*
+TD113 > *
+TD431 questioning: sheer
+TD133 Classic #2 S_EER ~H -ABDGILMNOPTVY? ␅
+TD4169224 ␆YYYYY
+TD83 Classic #2 S_EER ~H -ABDGILMNOPTVY? YYYYY
+TD302 attempt: 1 SHEER Y Y Y Y Y
+TD130 Classic #4 _A__Y ~T -BDEGHILMNOPRSV? ␅
+TD1954819 ␆nnnnn
+TD132 Classic #4 _A__Y ~T -BDEGHILMNOPRSV? nnnnn
+TD300 attempt: 3 SHEER n n n n n
+TD159601 > ␅
+TD612231 ␆*
+TD109 > *
+TD592 ? ␅
+TD1461407 ␆1
+TD114 ? 1
+TD188 questioning: tacky
+TD161 Classic #4 _A__Y ~T -BDEGHILMNOPRSV? ␅
+TD3073586 ␆YYYYY
+TD103 Classic #4 _A__Y ~T -BDEGHILMNOPRSV? YYYYY
+TD186 attempt: 3 TACKY Y Y Y Y Y
+TD90 📋> ␅
+TD3443218 ␆🙂 Daily Quordle 1711
+TD103 📋> 🙂 Daily Quordle 1711
+TD13 📋> ␅
+TD53 ␆4️⃣7️⃣
+TD8 📋> 4️⃣7️⃣
+TD6 📋> ␅
+TD16 ␆6️⃣8️⃣
+TD4 📋> 6️⃣8️⃣
+TD5 📋> ␅
+TD15 ␆m-w.com/games/quordle/
+TD11 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD163235 ␆
+TD109 📋> 
+TD11 📋> ␅
+TD153369 ␄
+TD204 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1711\n4\ufe0f\u20e37\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1831 result: "\ud83d\ude42 Daily Quordle 1711\n4\ufe0f\u20e37\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD125 📆 2026-10-01 ? ␅
+TD175827 ␆
+TD150 📆 2026-10-01 ? 
