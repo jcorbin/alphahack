@@ -1,0 +1,260 @@
+T116.91737411099894 now: 2026-10-02T18:45:55EDT
+TD221 site: https://wordgrid.clevergoat.com/
+TD28 wordlist: nwl2023.txt
+TD87 > ␅
+TD5587676 ␆col 1 +I
+TD127 > col 1 +I
+TD1007 rule col: 1 +I
+TD117 > ␅
+TD3882803 ␆col 2 x2
+TD98 > col 2 x2
+TD206 rule col: 2 x2
+TD101 > ␅
+TD3661452 ␆col 3 ~^R
+TD128 > col 3 ~^R
+TD418 rule col: 3 ~^R
+TD116 > ␅
+TD3621983 ␆row 1 #4-6
+TD207 > row 1 #4-6
+TD677 rule row: 1 #4-6
+TD147 > ␅
+TD3070675 ␆row 2 ~ON$
+TD113 > row 2 ~ON$
+TD351 rule row: 2 ~ON$
+TD90 > ␅
+TD4126466 ␆row 3 ~UN
+TD74 > row 3 ~UN
+TD247 rule row: 3 ~UN
+TD74 > ␅
+TD616076 ␆*
+TD117 > *
+TD680072 ? ␅
+TD1019444 ␆1
+TD116 ? 1
+TD199 questioning: 0 sileni
+TD60 🌡️ sileni 📋 ? ␅
+TD2609612 ␆0
+TD78 🌡️ sileni 📋 ? 0
+TD275 word: 0 sileni 0.0
+TD21 questioning: -1 
+TD80 > ␅
+TD376554 ␆*
+TD110 > *
+TD734690 ? ␅
+TD1092497 ␆1
+TD130 ? 1
+TD260 questioning: 1 allods
+TD82 🌡️ allods 📋 ? ␅
+TD2245493 ␆0
+TD115 🌡️ allods 📋 ? 0
+TD137 word: 1 allods 0.0
+TD37 questioning: -1 
+TD169 > ␅
+TD376292 ␆*
+TD80 > *
+TD369534 ? ␅
+TD1149331 ␆1
+TD202 ? 1
+TD299 questioning: 2 rais
+TD72 🌡️ rais 📋 ? ␅
+TD2612722 ␆.01
+TD110 🌡️ rais 📋 ? .01
+TD123 word: 2 rais 0.01
+TD23 questioning: -1 
+TD125 > ␅
+TD399807 ␆*
+TD81 > *
+TD638165 ? ␅
+TD72 ␆1
+TD3 ? 1
+TD48 questioning: 3 seriation
+TD19 🌡️ seriation 📋 ? ␅
+TD4193324 ␆
+TD86 🌡️ seriation 📋 ? 
+TD53 questioning: -1 
+TD104 > ␅
+TD12879935 ␆* 1 2 seriation
+TD107 > * 1 2 seriation
+TD1023 questioning: 3 seriation
+TD68 🌡️ seriation 📋 ? ␅
+TD1612063 ␆0
+TD78 🌡️ seriation 📋 ? 0
+TD82 word: 3 seriation 0.0
+TD19 questioning: -1 
+TD97 > ␅
+TD422669 ␆
+TD147 > 
+TD277 > ␅
+TD686257 ␆*
+TD104 > *
+TD861754 ? ␅
+TD4680101 ␆7
+TD119 ? 7
+TD193 questioning: 4 carillon
+TD59 🌡️ carillon 📋 ? ␅
+TD3536414 ␆.31
+TD119 🌡️ carillon 📋 ? .31
+TD117 word: 4 carillon 0.31
+TD24 questioning: -1 
+TD121 > ␅
+TD884763 ␆* 2 2
+TD110 > * 2 2
+TD826366 ? ␅
+TD1954821 ␆2
+TD93 ? 2
+TD149 questioning: 4 cupferron
+TD48 🌡️ cupferron 📋 ? ␅
+TD2699462 ␆.02
+TD119 🌡️ cupferron 📋 ? .02
+TD119 word: 4 cupferron 0.02
+TD25 questioning: -1 
+TD341 > ␅
+TD3397638 ␆*
+TD107 > *
+TD377213 ? ␅
+TD13084395 ␆2
+TD78 ? 2
+TD129 questioning: 5 replicon
+TD43 🌡️ replicon 📋 ? ␅
+TD2940198 ␆.11
+TD76 🌡️ replicon 📋 ? .11
+TD82 word: 5 replicon 0.11
+TD18 questioning: -1 
+TD99 > ␅
+TD2256549 ␆* 3 2
+TD97 > * 3 2
+TD349435 ? ␅
+TD3585907 ␆1
+TD141 ? 1
+TD224 questioning: 5 ruction
+TD81 🌡️ ruction 📋 ? ␅
+TD3471028 ␆.29
+TD109 🌡️ ruction 📋 ? .29
+TD124 word: 5 ruction 0.29
+TD22 questioning: -1 
+TD118 > ␅
+TD1752394 ␆* 3 2
+TD78 > * 3 2
+TD365527 ? ␅
+TD7246892 ␆1
+TD109 ? 1
+TD175 questioning: 5 retcon
+TD55 🌡️ retcon 📋 ? ␅
+TD4777151 ␆
+TD110 🌡️ retcon 📋 ? 
+TD73 questioning: -1 
+TD134 > ␅
+TD1529987 ␆* 3 2
+TD92 > * 3 2
+TD352828 ? ␅
+TD3516697 ␆9
+TD295 ? 9
+TD187 questioning: 5 ramson
+TD60 🌡️ ramson 📋 ? ␅
+TD2807884 ␆.13
+TD91 🌡️ ramson 📋 ? .13
+TD102 word: 5 ramson 0.13
+TD19 questioning: -1 
+TD104 > ␅
+TD3382885 ␆* 3 2
+TD87 > * 3 2
+TD347470 ? ␅
+TD4931116 ␆9
+TD76 ? 9
+TD133 questioning: 5 recursion
+TD44 🌡️ recursion 📋 ? ␅
+TD2471328 ␆.14
+TD106 🌡️ recursion 📋 ? .14
+TD110 word: 5 recursion 0.14
+TD20 questioning: -1 
+TD113 > ␅
+TD2485216 ␆* 3 2 -bot 10
+TD110 > * 3 2 -bot 10
+TD346177 ? ␅
+TD5428884 ␆6
+TD99 ? 6
+TD128 questioning: 5 retortion
+TD43 🌡️ retortion 📋 ? ␅
+TD3172395 ␆.08
+TD74 🌡️ retortion 📋 ? .08
+TD89 word: 5 retortion 0.08
+TD18 questioning: -1 
+TD94 > ␅
+TD2087821 ␆*
+TD83 > *
+TD805416 ? ␅
+TD4750460 ␆5
+TD80 ? 5
+TD142 questioning: 6 microfungi
+TD50 🌡️ microfungi 📋 ? ␅
+TD2625175 ␆0
+TD74 🌡️ microfungi 📋 ? 0
+TD77 word: 6 microfungi 0.0
+TD18 questioning: -1 
+TD95 > ␅
+TD466028 ␆*
+TD125 > *
+TD867299 ? ␅
+TD2219354 ␆7
+TD104 ? 7
+TD167 questioning: 7 scattergun
+TD62 🌡️ scattergun 📋 ? ␅
+TD2711126 ␆.1
+TD76 🌡️ scattergun 📋 ? .1
+TD108 word: 7 scattergun 0.1
+TD32 questioning: -1 
+TD112 > ␅
+TD534798 ␆*
+TD103 > *
+TD348338 ? ␅
+TD11535575 ␆9
+TD115 ? 9
+TD193 questioning: 8 romaunt
+TD123 🌡️ romaunt 📋 ? ␅
+TD3143192 ␆.07
+TD76 🌡️ romaunt 📋 ? .07
+TD79 word: 8 romaunt 0.07
+TD18 questioning: -1 
+TD98 > ␅
+TD2456730 ␆* 2 3
+TD80 > * 2 3
+TD911087 ? ␅
+TD3423835 ␆4
+TD74 ? 4
+TD125 questioning: 7 sunna
+TD42 🌡️ sunna 📋 ? ␅
+TD6244790 ␆.04
+TD76 🌡️ sunna 📋 ? .04
+TD78 word: 7 sunna 0.04
+TD17 questioning: -1 
+TD93 > ␅
+TD5460405 ␆/res
+TD72 > /res
+TD162 📋> ␅
+TD586045 ␆Word Grid #854
+TD74 📋> Word Grid #854
+TD13 📋> ␅
+TD47 ␆🦄🦄🌌
+TD6 📋> 🦄🦄🌌
+TD5 📋> ␅
+TD15 ␆🦄🌌🌌
+TD4 📋> 🦄🌌🌌
+TD4 📋> ␅
+TD11 ␆🦄🌌🌌
+TD4 📋> 🦄🌌🌌
+TD4 📋> ␅
+TD11 ␆Rarity: 0.21
+TD5 📋> Rarity: 0.21
+TD5 📋> ␅
+TD249521 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD83 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD10 📋> ␅
+TD155611 ␄
+TD148 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #854\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\nRarity: 0.21\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD547 result: "Word Grid #854\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\nRarity: 0.21\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD89 > ␅
+TD1127305 ␆/store
+TD74 > /store
+TD187 📆 2026-10-02 ? ␅
+TD1550037 ␆
+TD82 📆 2026-10-02 ? 
