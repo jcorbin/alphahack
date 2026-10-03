@@ -1,0 +1,86 @@
+T35.53262549400097 now: 2026-10-03T10:30:54EDT
+TD137 site: alphaguess.com
+TD262840 loaded 196512 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (92 words excluded) asof ef4c4cafd0608b415313574706c6689b58e1c73d
+TD139  ...␅
+TD4112580 ␆
+TD110  ...
+TD200 [0 : 98142 : 196512] mac? ␅
+TD2184936 ␆b
+TD113 [0 : 98142 : 196512] mac? b
+TD120 progress: -1 98142 mac
+TD122 [0 : 47374 : 98142] dis? ␅
+TD1602332 ␆b
+TD111 [0 : 47374 : 98142] dis? b
+TD113 progress: -1 47374 dis
+TD137 [0 : 23680 : 47374] camp? ␅
+TD1444773 ␆a
+TD73 [0 : 23680 : 47374] camp? a
+TD91 progress: 1 23680 camp
+TD86 [23681 : 35522 : 47374] convention? ␅
+TD1804394 ␆a
+TD111 [23681 : 35522 : 47374] convention? a
+TD109 progress: 1 35522 convention
+TD119 [35523 : 40838 : 47374] da? ␅
+TD1746789 ␆a
+TD112 [35523 : 40838 : 47374] da? a
+TD118 progress: 1 40838 da
+TD121 [40839 : 44066 : 47374] den? ␅
+TD2544830 ␆a
+TD110 [40839 : 44066 : 47374] den? a
+TD136 progress: 1 44066 den
+TD124 [44067 : 45658 : 47374] dev? ␅
+TD1586959 ␆a
+TD115 [44067 : 45658 : 47374] dev? a
+TD121 progress: 1 45658 dev
+TD112 [45659 : 46481 : 47374] did? ␅
+TD2282864 ␆b
+TD109 [45659 : 46481 : 47374] did? b
+TD110 progress: -1 46481 did
+TD118 [45659 : 46067 : 46481] diagram? ␅
+TD1507735 ␆a
+TD109 [45659 : 46067 : 46481] diagram? a
+TD112 progress: 1 46067 diagram
+TD366 [46068 : 46274 : 46481] diastrophism? ␅
+TD1649769 ␆b
+TD112 [46068 : 46274 : 46481] diastrophism? b
+TD138 progress: -1 46274 diastrophism
+TD223 [46068 : 46167 : 46274] diamin? ␅
+TD4174551 ␆a
+TD109 [46068 : 46167 : 46274] diamin? a
+TD133 progress: 1 46167 diamin
+TD163 [46168 : 46219 : 46274] diapir? ␅
+TD2975259 ␆b
+TD109 [46168 : 46219 : 46274] diapir? b
+TD111 progress: -1 46219 diapir
+TD186 [46168 : 46190 : 46219] diaper? ␅
+TD3703507 ␆b
+TD116 [46168 : 46190 : 46219] diaper? b
+TD116 progress: -1 46190 diaper
+TD179 [46168 : 46172 : 46190] diamond? ␅
+TD3772651 ␆it
+TD110 [46168 : 46172 : 46190] diamond? it
+TD118 progress: 0 46172 diamond
+TD28 [46168 : 46172 : 46190] <Done>.
+TD92 📋> ␅
+TD2773362 ␆🧩 Puzzle #1167
+TD106 📋> 🧩 Puzzle #1167
+TD12 📋> ␅
+TD49 ␆🤔 14 guesses
+TD6 📋> 🤔 14 guesses
+TD18 📋> ␅
+TD13 ␆⏱️ 28s
+TD5 📋> ⏱️ 28s
+TD4 📋> ␅
+TD283119 ␆🔗 alphaguess.com/1167
+TD104 📋> 🔗 alphaguess.com/1167
+TD12 📋> ␅
+TD148635 ␄
+TD207 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1167\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/1167"}
+TD112 result: "\ud83e\udde9 Puzzle #1167\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 28s\n\ud83d\udd17 alphaguess.com/1167"
+TD14 result puzzle: 1167
+TD7 result guesses: 14
+TD5 result time: 28s
+TD4 result link: alphaguess.com/1167
+TD101 📆 2026-10-03 ? ␅
+TD153770 ␆
+TD77 📆 2026-10-03 ? 
