@@ -1,0 +1,276 @@
+T189.376886869999 now: 2026-10-03T11:52:00EDT
+TD146 site: squareword.org
+TD34 wordlist: nwl2023.txt
+TD44  ...␅
+TD8630048 ␆
+TD91  ...
+TD63 🧩  ? ␅
+TD3183412 ␆#1706
+TD122 🧩  ? #1706
+TD296 puzzle_id: #1706
+TD307 > ␅
+TD1412565 ␆*
+TD133 > *
+TD417831 try? ␅
+TD964078 ␆1
+TD121 try? 1
+TD354 questioning: ["pares", "#5"]
+TD310 #1 <IndexError>  📋 "pares" ? ␅
+TD7623521 ␆_____ ~ AS
+TD133 #1 <IndexError>  📋 "pares" ? _____ ~ AS
+TD819 attempt 0 PARES n m n n m
+TD176 #2 <IndexError>  📋 "pares" ? ␅
+TD3224786 ␆_A_E_ ~ R
+TD135 #2 <IndexError>  📋 "pares" ? _A_E_ ~ R
+TD298 attempt 1 PARES n Y m Y n
+TD153 #3 <IndexError>  📋 "pares" ? ␅
+TD3153020 ␆_____ ~ AE
+TD155 #3 <IndexError>  📋 "pares" ? _____ ~ AE
+TD567 attempt 2 PARES n m n m n
+TD272 #4 <IndexError>  📋 "pares" ? ␅
+TD3032929 ␆_____ ~ A
+TD151 #4 <IndexError>  📋 "pares" ? _____ ~ A
+TD301 attempt 3 PARES n m n n n
+TD138 #5 <IndexError>  📋 "pares" ? ␅
+TD2595899 ␆___E_ ~ E
+TD131 #5 <IndexError>  📋 "pares" ? ___E_ ~ E
+TD274 attempt 4 PARES n n n Y n
+TD430 ? ␅
+TD388921 ␆
+TD133 ? 
+TD184 question done
+TD384 > ␅
+TD2852564 ␆* 4
+TD129 > * 4
+TD494890 try? ␅
+TD4186050 ␆4
+TD136 try? 4
+TD374 questioning: ["inlay", "#4"]
+TD345 #1 _____ ~AS -EPR  📋 "inlay" ? ␅
+TD5897349 ␆_____ ~ ASL
+TD122 #1 _____ ~AS -EPR  📋 "inlay" ? _____ ~ ASL
+TD272 attempt 0 INLAY n n m m n
+TD176 #2 _A_E_ ~R -PS  📋 "inlay" ? ␅
+TD4073431 ␆_A_E_ ~ Rl
+TD135 #2 _A_E_ ~R -PS  📋 "inlay" ? _A_E_ ~ Rl
+TD295 attempt 1 INLAY n n m n n
+TD161 #3 _____ ~AE -PRS  📋 "inlay" ? ␅
+TD4231539 ␆_N___ ~ AE
+TD136 #3 _____ ~AE -PRS  📋 "inlay" ? _N___ ~ AE
+TD272 attempt 2 INLAY n Y n m n
+TD174 #4 _____ ~A -EPRS  📋 "inlay" ? ␅
+TD3033314 ␆_____ ~ AN
+TD138 #4 _____ ~A -EPRS  📋 "inlay" ? _____ ~ AN
+TD269 attempt 3 INLAY n m n m n
+TD165 #5 ___E_ -APRS  📋 "inlay" ? ␅
+TD2905350 ␆___E_ ~ EY
+TD143 #5 ___E_ -APRS  📋 "inlay" ? ___E_ ~ EY
+TD276 attempt 4 INLAY n n n n m
+TD453 ? ␅
+TD542012 ␆
+TD132 ? 
+TD155 question done
+TD293 > ␅
+TD644675 ␆*
+TD129 > *
+TD1084447 try? ␅
+TD1351599 ␄
+TD179 <EOF>
+TD385 > ␅
+TD1949467 ␆* 4
+TD127 > * 4
+TD6523 try? ␅
+TD979191 ␄
+TD179 <EOF>
+TD405 > ␅
+TD1128828 ␆* 1
+TD129 > * 1
+TD6394 try? ␅
+TD915250 ␄
+TD155 <EOF>
+TD388 > ␅
+TD1220348 ␆* 3
+TD142 > * 3
+TD6257 try? ␅
+TD1816808 ␄
+TD156 <EOF>
+TD367 > ␅
+TD1024809 ␆* 5
+TD131 > * 5
+TD6265 try? ␅
+TD1058855 ␄
+TD171 <EOF>
+TD363 > ␅
+TD1095600 ␆* 2
+TD131 > * 2
+TD6223 try? ␅
+TD2386310 ␄
+TD164 <EOF>
+TD361 > ␅
+TD1220140 ␆* 1
+TD150 > * 1
+TD6556 try? ␅
+TD9065407 ␆1
+TD142 try? 1
+TD309 questioning: ["shalt", "#1"]
+TD329 #1 _____ ~ALS -EINPRY  📋 "shalt" ? ␅
+TD5394336 ␆S_AL_
+TD148 #1 _____ ~ALS -EINPRY  📋 "shalt" ? S_AL_
+TD271 attempt 0 SHALT Y n Y Y n
+TD161 #2 _A_E_ ~LR -AINPSY  📋 "shalt" ? ␅
+TD2425207 ␆.
+TD158 #2 _A_E_ ~LR -AINPSY  📋 "shalt" ? .
+TD294 attempt 1 SHALT n n n m n
+TD99 #3 _N___ ~AE -ILPRSY  📋 "shalt" ? ␅
+TD2120402 ␆.
+TD125 #3 _N___ ~AE -ILPRSY  📋 "shalt" ? .
+TD309 attempt 2 SHALT n n m n n
+TD117 #4 _____ ~AN -EILPRSY  📋 "shalt" ? ␅
+TD1652181 ␆.
+TD195 #4 _____ ~AN -EILPRSY  📋 "shalt" ? .
+TD375 attempt 3 SHALT n n m n n
+TD108 #5 ___E_ ~Y -AILNPRS  📋 "shalt" ? ␅
+TD3460112 ␆___E_ ~ EY
+TD132 #5 ___E_ ~Y -AILNPRS  📋 "shalt" ? ___E_ ~ EY
+TD271 attempt 4 SHALT n n n n n
+TD387 ? ␅
+TD309899 ␆
+TD137 ? 
+TD130 question done
+TD331 > ␅
+TD600071 ␆*
+TD127 > *
+TD1280513 questioning: ["anode", "#3"]
+TD384 #1 S_AL_ -EHINPRTY  📋 "anode" ? ␅
+TD6440310 ␆S_AL_ ~ D
+TD135 #1 S_AL_ -EHINPRTY  📋 "anode" ? S_AL_ ~ D
+TD271 attempt 0 ANODE n n n m n
+TD164 #2 _A_E_ ~LR -AHINPSTY  📋 "anode" ? ␅
+TD1250127 ␆.
+TD131 #2 _A_E_ ~LR -AHINPSTY  📋 "anode" ? .
+TD299 attempt 1 ANODE n n n n n
+TD102 #3 _N___ ~AE -HILPRSTY  📋 "anode" ? ␅
+TD700094 ␆/it
+TD132 #3 _N___ ~AE -HILPRSTY  📋 "anode" ? /it
+TD288 attempt 2 ANODE Y Y Y Y Y
+TD114 #4 _____ ~AN -EHILPRSTY  📋 "anode" ? ␅
+TD3483865 ␆_____ ~ ANO
+TD127 #4 _____ ~AN -EHILPRSTY  📋 "anode" ? _____ ~ ANO
+TD307 attempt 3 ANODE m m m n n
+TD186 #5 ___E_ ~Y -AHILNPRST  📋 "anode" ? ␅
+TD3026902 ␆___E_ ~ EYD
+TD121 #5 ___E_ ~Y -AHILNPRST  📋 "anode" ? ___E_ ~ EYD
+TD272 attempt 4 ANODE n n n m m
+TD433 ? ␅
+TD365357 ␆
+TD134 ? 
+TD135 question done
+TD341 > ␅
+TD3784735 ␆*
+TD136 > *
+TD1425812 questioning: ["conga", "#4"]
+TD400 #1 S_AL_ ~D -AEHINOPRTY  📋 "conga" ? ␅
+TD5524102 ␆S_AL_ ~ DC
+TD143 #1 S_AL_ ~D -AEHINOPRTY  📋 "conga" ? S_AL_ ~ DC
+TD283 attempt 0 CONGA m n n n n
+TD178 #2 _A_E_ ~LR -ADEHINOPSTY  📋 "conga" ? ␅
+TD4648610 ␆_A_E_ ~ RLG
+TD127 #2 _A_E_ ~LR -ADEHINOPSTY  📋 "conga" ? _A_E_ ~ RLG
+TD269 attempt 1 CONGA n n n m n
+TD184 #4 _____ ~ANO -DEHILPRSTY  📋 "conga" ? ␅
+TD744684 ␆/it
+TD113 #4 _____ ~ANO -DEHILPRSTY  📋 "conga" ? /it
+TD314 attempt 3 CONGA Y Y Y Y Y
+TD114 #5 ___E_ ~DY -AHILNOPRST  📋 "conga" ? ␅
+TD3879581 ␆___E_ ~ EYD
+TD168 #5 ___E_ ~DY -AHILNOPRST  📋 "conga" ? ___E_ ~ EYD
+TD278 attempt 4 CONGA n n n n n
+TD357 ? ␅
+TD636313 ␆
+TD134 ? 
+TD128 question done
+TD334 > ␅
+TD1768473 ␆*
+TD123 > *
+TD3682982 questioning: ["scald", "#1"]
+TD386 #1 S_AL_ ~CD -AEGHINOPRTY  📋 "scald" ? ␅
+TD3436672 ␆/it
+TD108 #1 S_AL_ ~CD -AEGHINOPRTY  📋 "scald" ? /it
+TD291 attempt 0 SCALD Y Y Y Y Y
+TD111 #2 _A_E_ ~GLR -ACDEHINOPSTY  📋 "scald" ? ␅
+TD12076144 ␆.
+TD172 #2 _A_E_ ~GLR -ACDEHINOPSTY  📋 "scald" ? .
+TD294 attempt 1 SCALD n n n m n
+TD118 #5 ___E_ ~DY -ACGHILNOPRST  📋 "scald" ? ␅
+TD5219264 ␆___ED ~ EY
+TD127 #5 ___E_ ~DY -ACGHILNOPRST  📋 "scald" ? ___ED ~ EY
+TD284 attempt 4 SCALD n n n n Y
+TD346 ? ␅
+TD2130748 ␆
+TD133 ? 
+TD151 question done
+TD316 > ␅
+TD1744453 ␆*
+TD125 > *
+TD2904964 questioning: ["lager", "#2"]
+TD394 #2 _A_E_ ~GLR -ACDEHINOPSTY  📋 "lager" ? ␅
+TD4555777 ␆/it
+TD119 #2 _A_E_ ~GLR -ACDEHINOPSTY  📋 "lager" ? /it
+TD275 attempt 1 LAGER Y Y Y Y Y
+TD202 #5 ___ED ~Y -ACGHILNOPRST  📋 "lager" ? ␅
+TD3823958 ␆___ED ~ EY
+TD127 #5 ___ED ~Y -ACGHILNOPRST  📋 "lager" ? ___ED ~ EY
+TD274 attempt 4 LAGER n n n Y n
+TD881 ? ␅
+TD1419075 ␆
+TD137 ? 
+TD130 question done
+TD333 > ␅
+TD680340 ␆*
+TD127 > *
+TD1836290 questioning: ["keyed", "#5"]
+TD413 #5 ___ED ~Y -ACGHILNOPRST  📋 "keyed" ? ␅
+TD3077469 ␆/it
+TD121 #5 ___ED ~Y -ACGHILNOPRST  📋 "keyed" ? /it
+TD421 attempt 4 KEYED Y Y Y Y Y
+TD416 ? ␅
+TD461198 ␆
+TD131 ? 
+TD123 question done
+TD39897 📋> ␅
+TD6094375 ␆squareword.org 1706: 8 guesses
+TD140 📋> squareword.org 1706: 8 guesses
+TD16 📋> ␅
+TD56 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD20 ␆🟩🟨🟩🟩🟨
+TD6 📋> 🟩🟨🟩🟩🟨
+TD5 📋> ␅
+TD12 ␆🟨🟩🟨🟩🟨
+TD4 📋> 🟨🟩🟨🟩🟨
+TD5 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆🟨🟨🟨🟩🟨
+TD5 📋> 🟨🟨🟨🟩🟨
+TD5 📋> ␅
+TD13 ␆
+TD5 📋> 
+TD6 📋> ␅
+TD13 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD231590 ␆#squareword #squareword1706
+TD132 📋> #squareword #squareword1706
+TD16 📋> ␅
+TD371529 ␄
+TD218 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1706: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1706"}
+TD820 result: "squareword.org 1706: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1706"
+TD124 📆 2026-10-03 ? ␅
+TD474981 ␆
+TD134 📆 2026-10-03 ? 
