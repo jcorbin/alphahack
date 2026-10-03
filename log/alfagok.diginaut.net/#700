@@ -1,0 +1,82 @@
+T24770.355660285 now: 2026-10-03T10:29:26EDT
+TD134 site: alfagok.diginaut.net
+TD688002 loaded 399458 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1394 words excluded) asof ef4c4cafd0608b415313574706c6689b58e1c73d
+TD137  ...␅
+TD6421847 ␆
+TD107  ...
+TD167 [0 : 199528 : 399458] lij? ␅
+TD4798967 ␆a
+TD112 [0 : 199528 : 399458] lij? a
+TD367 progress: 1 199528 lij
+TD122 [199529 : 299480 : 399458] schrok? ␅
+TD4173055 ␆a
+TD110 [199529 : 299480 : 399458] schrok? a
+TD130 progress: 1 299480 schrok
+TD106 [299481 : 349465 : 399458] vakanties? ␅
+TD2150285 ␆b
+TD112 [299481 : 349465 : 399458] vakanties? b
+TD108 progress: -1 349465 vakanties
+TD118 [299481 : 324116 : 349465] sub? ␅
+TD1962415 ␆b
+TD117 [299481 : 324116 : 349465] sub? b
+TD141 progress: -1 324116 sub
+TD136 [299481 : 311722 : 324116] spier? ␅
+TD16378517 ␆b
+TD130 [299481 : 311722 : 324116] spier? b
+TD108 progress: -1 311722 spier
+TD362 [299481 : 305602 : 311722] slijk? ␅
+TD8775925 ␆b
+TD108 [299481 : 305602 : 311722] slijk? b
+TD105 progress: -1 305602 slijk
+TD107 [299481 : 302527 : 305602] show? ␅
+TD1970063 ␆a
+TD107 [299481 : 302527 : 305602] show? a
+TD111 progress: 1 302527 show
+T11.08003435700084 now: 2026-10-03T10:30:29EDT
+TD211 [302528 : 304060 : 305602] skateboard? ␅
+TD1205083 ␆a
+TD110 [302528 : 304060 : 305602] skateboard? a
+TD378 progress: 1 304060 skateboard
+TD153 [304061 : 304674 : 305602] slag? ␅
+TD2618703 ␆a
+TD110 [304061 : 304674 : 305602] slag? a
+TD134 progress: 1 304674 slag
+TD372 [304675 : 305138 : 305602] slavischsprekend? ␅
+TD1987661 ␆!
+TD114 [304675 : 305138 : 305602] slavischsprekend? !
+TD619 [304675 : 305139 : 305601] slavist? ␅
+TD1818058 ␆a
+TD117 [304675 : 305139 : 305601] slavist? a
+TD115 progress: 1 305139 slavist
+TD121 [305140 : 305361 : 305601] slenter? ␅
+TD1969299 ␆a
+TD120 [305140 : 305361 : 305601] slenter? a
+TD122 progress: 1 305361 slenter
+TD125 [305362 : 305418 : 305601] sleutel? ␅
+TD1988574 ␆it
+TD110 [305362 : 305418 : 305601] sleutel? it
+TD131 progress: 0 305418 sleutel
+TD30 [305362 : 305418 : 305601] <Done>.
+TD113 📋> ␅
+TD3109341 ␆🧩 Puzzel #700
+TD105 📋> 🧩 Puzzel #700
+TD17 📋> ␅
+TD41 ␆🤔 12 gokken
+TD6 📋> 🤔 12 gokken
+TD5 📋> ␅
+TD12 ␆⏱️ 1m 5s
+TD5 📋> ⏱️ 1m 5s
+TD4 📋> ␅
+TD235940 ␆🔗 alfagok.diginaut.net
+TD116 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD118999 ␄
+TD247 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #700\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 1m 5s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD594 result: "\ud83e\udde9 Puzzel #700\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 1m 5s\n\ud83d\udd17 alfagok.diginaut.net"
+TD17 result puzzle: 700
+TD8 result guesses: 12
+TD5 result time: 1m 5s
+TD4 result link: alfagok.diginaut.net
+TD95 📆 2026-10-03 ? ␅
+TD215594 ␆
+TD115 📆 2026-10-03 ? 
