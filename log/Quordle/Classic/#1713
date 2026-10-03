@@ -1,0 +1,187 @@
+T352.57964594999794 now: 2026-10-03T10:38:36EDT
+TD139 site: https://www.merriam-webster.com/games/quordle/#/
+TD23 wordlist: nwl2023.txt
+TD7 num_words: 4
+TD134  ...␅
+TD10147474 ␆
+TD129  ...
+TD704517 > ␅
+TD580921 ␆*
+TD110 > *
+TD118897 ? ␅
+TD273243 ␆1
+TD106 ? 1
+TD201 questioning: laser
+TD231 Classic #1 _____? ␅
+TD2503928 ␆nnnMM
+TD116 Classic #1 _____? nnnMM
+TD419 attempt: 0 LASER n n n m m
+TD189 Classic #2 _____? ␅
+TD1418777 ␆MnnYY
+TD105 Classic #2 _____? MnnYY
+TD245 attempt: 1 LASER m n n Y Y
+TD98 Classic #3 _____? ␅
+TD2588967 ␆nnMnn
+TD110 Classic #3 _____? nnMnn
+TD264 attempt: 2 LASER n n m n n
+TD108 Classic #4 _____? ␅
+TD1220785 ␆nnMMM
+TD108 Classic #4 _____? nnMMM
+TD231 attempt: 3 LASER n n m m m
+TD810414 > ␅
+TD668949 ␆*
+TD75 > *
+TD5491 ? ␅
+TD317193 ␆1
+TD115 ? 1
+TD193 questioning: yonis
+TD211 Classic #1 _____ ~ER -ALS? ␅
+TD3342889 ␆nMnnn
+TD104 Classic #1 _____ ~ER -ALS? nMnnn
+TD274 attempt: 0 YONIS n m n n n
+TD139 Classic #2 ___ER ~L -AS? ␅
+TD1632546 ␆Mnnnn
+TD111 Classic #2 ___ER ~L -AS? Mnnnn
+TD432 attempt: 1 YONIS m n n n n
+TD446 Classic #3 _____ ~S -AELR? ␅
+TD1567280 ␆nnnMM
+TD101 Classic #3 _____ ~S -AELR? nnnMM
+TD225 attempt: 2 YONIS n n n m m
+TD106 Classic #4 _____ ~ERS -AL? ␅
+TD1221505 ␆nnnnM
+TD106 Classic #4 _____ ~ERS -AL? nnnnM
+TD231 attempt: 3 YONIS n n n n m
+TD830423 > ␅
+TD677162 ␆*
+TD80 > *
+TD490 ? ␅
+TD1453132 ␆1
+TD114 ? 1
+TD195 questioning: flyer
+TD199 Classic #1 _____ ~EOR -AILNSY? ␅
+TD2813327 ␆nnnMM
+TD109 Classic #1 _____ ~EOR -AILNSY? nnnMM
+TD254 attempt: 0 FLYER n n n m m
+TD164 Classic #2 ___ER ~LY -AINOS? ␅
+TD1156934 ␆YYYYY
+TD122 Classic #2 ___ER ~LY -AINOS? YYYYY
+TD229 attempt: 1 FLYER Y Y Y Y Y
+TD118 Classic #3 _____ ~IS -AELNORY? ␅
+TD1482648 ␆nnnnn
+TD102 Classic #3 _____ ~IS -AELNORY? nnnnn
+TD248 attempt: 2 FLYER n n n n n
+TD212 Classic #4 _____ ~ERS -AILNOY? ␅
+TD1128446 ␆nnnMM
+TD105 Classic #4 _____ ~ERS -AILNOY? nnnMM
+TD232 attempt: 3 FLYER n n n m m
+TD672173 > ␅
+TD741383 ␆*
+TD111 > *
+TD1078 ? ␅
+TD1954162 ␆1
+TD106 ? 1
+TD197 questioning: repot
+TD373 Classic #1 _____ ~EOR -AFILNSY? ␅
+TD3184226 ␆MMnMn
+TD145 Classic #1 _____ ~EOR -AFILNSY? MMnMn
+TD295 attempt: 0 REPOT m m n m n
+TD217 Classic #3 _____ ~IS -AEFLNORY? ␅
+TD1641154 ␆nnnnM
+TD125 Classic #3 _____ ~IS -AEFLNORY? nnnnM
+TD290 attempt: 2 REPOT n n n n m
+TD283 Classic #4 _____ ~ERS -AFILNOY? ␅
+TD1724335 ␆MMMnn
+TD123 Classic #4 _____ ~ERS -AFILNOY? MMMnn
+TD356 attempt: 3 REPOT m m m n n
+TD642940 > ␅
+TD1007510 ␆*
+TD81 > *
+TD840 ? ␅
+TD2474021 ␄
+TD104 <EOF>
+TD645904 > ␅
+TD969833 ␆* 4
+TD78 > * 4
+TD214502 ? ␅
+TD1815858 ␄
+TD146 <EOF>
+TD656910 > ␅
+TD1005040 ␆probe
+TD108 > probe
+TD809081 > ␅
+TD9428151 ␆* 
+TD118 > * 
+TD878 ? ␅
+TD8119597 ␆1
+TD122 ? 1
+TD199 questioning: credo
+TD337 Classic #1 _____ ~EOR -AFILNPSTY? ␅
+TD3187181 ␆YMMnM
+TD80 Classic #1 _____ ~EOR -AFILNPSTY? YMMnM
+TD193 attempt: 0 CREDO Y m m n m
+TD96 Classic #3 _____ ~IST -AEFLNOPRY? ␅
+TD1845689 ␆Mnnnn
+TD106 Classic #3 _____ ~IST -AEFLNOPRY? Mnnnn
+TD233 attempt: 2 CREDO m n n n n
+TD123 Classic #4 _____ ~EPRS -AFILNOTY? ␅
+TD2267736 ␆nMMnn
+TD105 Classic #4 _____ ~EPRS -AFILNOTY? nMMnn
+TD234 attempt: 3 CREDO n m m n n
+TD652658 > ␅
+TD651712 ␆*
+TD179 > *
+TD677 questioning: chore
+TD176 Classic #1 C____ ~EOR -ADFILNPSTY? ␅
+TD2430508 ␆YYYYY
+TD117 Classic #1 C____ ~EOR -ADFILNPSTY? YYYYY
+TD238 attempt: 0 CHORE Y Y Y Y Y
+TD117 Classic #3 _____ ~CIST -ADEFLNOPRY? ␅
+TD1385222 ␆Mnnnn
+TD102 Classic #3 _____ ~CIST -ADEFLNOPRY? Mnnnn
+TD232 attempt: 2 CHORE m n n n n
+TD126 Classic #4 _____ ~EPRS -ACDFILNOTY? ␅
+TD1448703 ␆nnnMY
+TD103 Classic #4 _____ ~EPRS -ACDFILNOTY? nnnMY
+TD254 attempt: 3 CHORE n n n m Y
+TD470228 > ␅
+TD507908 ␆*
+TD76 > *
+TD356 questioning: stick
+TD120 Classic #3 _____ ~CIST -ADEFHLNOPRY? ␅
+TD3968935 ␆YYYYY
+TD97 Classic #3 _____ ~CIST -ADEFHLNOPRY? YYYYY
+TD232 attempt: 2 STICK Y Y Y Y Y
+TD117 Classic #4 ____E ~PRS -ACDFHILNOTY? ␅
+TD1361871 ␆Mnnnn
+TD106 Classic #4 ____E ~PRS -ACDFHILNOTY? Mnnnn
+TD232 attempt: 3 STICK m n n n n
+TD160168 > ␅
+TD818369 ␆*
+TD125 > *
+TD392 questioning: purse
+TD222 Classic #4 ____E ~PRS -ACDFHIKLNOTY? ␅
+TD2701762 ␆YYYYY
+TD84 Classic #4 ____E ~PRS -ACDFHIKLNOTY? YYYYY
+TD616 attempt: 3 PURSE Y Y Y Y Y
+TD209 📋> ␅
+TD4082747 ␆🙂 Daily Quordle 1713
+TD111 📋> 🙂 Daily Quordle 1713
+TD12 📋> ␅
+TD52 ␆6️⃣3️⃣
+TD7 📋> 6️⃣3️⃣
+TD5 📋> ␅
+TD11 ␆7️⃣8️⃣
+TD4 📋> 7️⃣8️⃣
+TD4 📋> ␅
+TD10 ␆m-w.com/games/quordle/
+TD4 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD406229 ␆
+TD111 📋> 
+TD13 📋> ␅
+TD185097 ␄
+TD195 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1713\n6\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1662 result: "\ud83d\ude42 Daily Quordle 1713\n6\ufe0f\u20e33\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD100 📆 2026-10-03 ? ␅
+TD329189 ␆
+TD146 📆 2026-10-03 ? 
