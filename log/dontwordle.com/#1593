@@ -1,0 +1,173 @@
+T82.73662384400086 now: 2026-10-03T10:31:41EDT
+TD132 site: dontwordle.com
+TD21 wordlist: nwl2023.txt
+TD40  ...␅
+TD3914141 ␆
+TD77  ...
+TD101 1> ␅
+TD2801259 ␆* -bot 10
+TD98 1> * -bot 10
+TD353107 ? ␅
+TD3287972 ␆5
+TD117 ? 5
+TD285 📋 "anise" ? ␅
+TD4273784 ␆MYnnn
+TD113 📋 "anise" ? MYnnn
+TD605 tried: ANISE m Y n n n
+TD218 2> ␅
+TD2103408 ␆undo
+TD111 2> undo
+TD160 undo
+TD187 1> ␅
+TD7693269 ␆* :v [anise] -bot 10
+TD107 1> * :v [anise] -bot 10
+TD214478 ? ␅
+TD3127125 ␆4
+TD110 ? 4
+TD271 📋 "turbo" ? ␅
+TD7695071 ␆nnnnn
+TD107 📋 "turbo" ? nnnnn
+TD234 tried: TURBO n n n n n
+TD215 2> ␅
+TD810122 ␆undo
+TD107 2> undo
+TD157 undo
+TD146 1> ␅
+TD2696685 ␆*
+TD101 1> *
+TD199672 ? ␅
+TD190 ␆1
+TD7 ? 1
+TD311 📋 "tweet" ? ␅
+TD4576516 ␆nnnnn
+TD130 📋 "tweet" ? nnnnn
+TD213 tried: TWEET n n n n n
+TD181 2> ␅
+TD451567 ␆*
+TD108 2> *
+TD166636 ? ␅
+TD6299 ␆1
+TD42 ? 1
+TD190 📋 "mosso" ? ␅
+TD4502733 ␆nnnnn
+TD115 📋 "mosso" ? nnnnn
+TD213 tried: MOSSO n n n n n
+TD176 3> ␅
+TD972259 ␆*
+TD125 3> *
+TD157935 ? ␅
+TD1486311 ␆1
+TD115 ? 1
+TD258 📋 "hippy" ? ␅
+TD5570023 ␆nnnnn
+TD110 📋 "hippy" ? nnnnn
+TD233 tried: HIPPY n n n n n
+TD192 4> ␅
+T31.555591978991288 now: 2026-10-03T10:33:15EDT
+TD213 4> ␅
+TD1677877 ␆*
+TD134 4> *
+TD213904 ? ␅
+TD873380 ␆1
+TD115 ? 1
+TD320 📋 "fluff" ? ␅
+TD3725446 ␆nnnnn
+TD113 📋 "fluff" ? nnnnn
+TD377 tried: FLUFF n n n n n
+TD213 5> ␅
+TD466668 ␆*
+TD98 5> *
+TD300686 ? ␅
+TD833273 ␆1
+TD86 ? 1
+TD277 📋 "abaca" ? ␅
+TD6170873 ␆nnYYn
+TD129 📋 "abaca" ? nnYYn
+TD227 tried: ABACA n n Y Y n
+TD235 6> ␅
+TD793359 ␆undo
+TD112 6> undo
+TD275 undo
+TD317 5> ␅
+TD2802765 ␆*
+TD135 5> *
+TD301614 ? ␅
+TD1797326 ␆1
+TD112 ? 1
+TD264 📋 "abaka" ? ␅
+TD7478570 ␆nnYMn
+TD114 📋 "abaka" ? nnYMn
+TD219 tried: ABAKA n n Y m n
+TD209 6> ␅
+TD729776 ␆undo
+TD83 6> undo
+TD125 undo
+TD329 5> ␅
+TD2624861 ␆*
+TD124 5> *
+TD308066 ? ␅
+TD894461 ␆1
+TD111 ? 1
+TD297 📋 "addax" ? ␅
+TD4631362 ␆Mnnnn
+TD105 📋 "addax" ? Mnnnn
+TD222 tried: ADDAX m n n n n
+TD230 6> ␅
+TD460619 ␆*
+TD185 6> *
+TD310151 📋 "gnarr" ? ␅
+TD6742645 ␆nYYnn
+TD104 📋 "gnarr" ? nYYnn
+TD215 tried: GNARR n Y Y n n
+TD236 📋> ␅
+TD3918533 ␆Don't Wordle 1593 - SURVIVED
+TD115 📋> Don't Wordle 1593 - SURVIVED
+TD16 📋> ␅
+TD46 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD8 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD6 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜5004
+TD5 📋> ⬜⬜⬜⬜⬜5004
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜1208
+TD5 📋> ⬜⬜⬜⬜⬜1208
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜229
+TD5 📋> ⬜⬜⬜⬜⬜229
+TD20 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜60
+TD4 📋> ⬜⬜⬜⬜⬜60
+TD4 📋> ␅
+TD10 ␆🟨⬜⬜⬜⬜8
+TD4 📋> 🟨⬜⬜⬜⬜8
+TD4 📋> ␅
+TD10 ␆⬜🟩🟩⬜⬜1
+TD4 📋> ⬜🟩🟩⬜⬜1
+TD4 📋> ␅
+TD8 ␆Undos used: 4
+TD4 📋> Undos used: 4
+TD4 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD9 ␆  1 words remaining
+TD4 📋>   1 words remaining
+TD4 📋> ␅
+TD8 ␆x 7 unused letters
+TD4 📋> x 7 unused letters
+TD4 📋> ␅
+TD8 ␆= 7 total score
+TD4 📋> = 7 total score
+TD3 📋> ␅
+TD8 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD240279 ␆https://dontwordle.com
+TD114 📋> https://dontwordle.com
+TD12 📋> ␅
+TD168360 ␄
+TD217 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1593 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5004\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1208\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c229\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c60\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c1\nUndos used: 4\n\n  1 words remaining\nx 7 unused letters\n= 7 total score\n\nhttps://dontwordle.com"}
+TD1315 result: "Don't Wordle 1593 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c5004\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1208\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c229\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c60\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c1\nUndos used: 4\n\n  1 words remaining\nx 7 unused letters\n= 7 total score\n\nhttps://dontwordle.com"
+TD128 📆 2026-10-03 ? ␅
+TD190289 ␆
+TD113 📆 2026-10-03 ? 
