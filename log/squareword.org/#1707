@@ -1,0 +1,245 @@
+T29596.849676408994 now: 2026-10-04T12:16:11EDT
+TD134 site: squareword.org
+TD43 wordlist: nwl2023.txt
+TD72  ...␅
+TD525398 ␆
+TD129  ...
+TD75 🧩  ? ␅
+TD18345947 ␆#1707
+TD90 🧩  ? #1707
+TD222 puzzle_id: #1707
+TD256 > ␅
+TD2064288 ␆*
+TD135 > *
+TD462435 try? ␅
+TD894035 ␆1
+TD125 try? 1
+TD316 questioning: ["arles", "#5"]
+TD279 #1 <IndexError>  📋 "arles" ? ␅
+TD5022657 ␆____S ~ AS
+TD106 #1 <IndexError>  📋 "arles" ? ____S ~ AS
+TD717 attempt 0 ARLES m n n n Y
+TD119 #2 <IndexError>  📋 "arles" ? ␅
+TD3501939 ␆_____ ~ A
+TD136 #2 <IndexError>  📋 "arles" ? _____ ~ A
+TD285 attempt 1 ARLES m n n n n
+TD134 #3 <IndexError>  📋 "arles" ? ␅
+TD2979629 ␆A____ ~ LE
+TD137 #3 <IndexError>  📋 "arles" ? A____ ~ LE
+TD266 attempt 2 ARLES Y n m m n
+TD152 #4 <IndexError>  📋 "arles" ? ␅
+TD2266716 ␆_____ ~ RE
+TD135 #4 <IndexError>  📋 "arles" ? _____ ~ RE
+TD277 attempt 3 ARLES n m n m n
+TD136 #5 <IndexError>  📋 "arles" ? ␅
+TD2966570 ␆___E_ ~ RE
+TD200 #5 <IndexError>  📋 "arles" ? ___E_ ~ RE
+TD281 attempt 4 ARLES n m n Y n
+TD339 ? ␅
+TD564911 ␆
+TD132 ? 
+TD160 question done
+TD320 > ␅
+TD660368 ␆*
+TD129 > *
+TD1535882 try? ␅
+TD822713 ␆1
+TD163 try? 1
+TD328 questioning: ["anile", "#3"]
+TD338 #1 ____S ~A -ELR  📋 "anile" ? ␅
+TD7406195 ␆____S ~ AS
+TD132 #1 ____S ~A -ELR  📋 "anile" ? ____S ~ AS
+TD269 attempt 0 ANILE m n n n n
+TD157 #2 _____ ~A -ELRS  📋 "anile" ? ␅
+TD4256840 ␆_____ ~ ANI
+TD135 #2 _____ ~A -ELRS  📋 "anile" ? _____ ~ ANI
+TD275 attempt 1 ANILE m m m n n
+TD161 #3 A____ ~EL -RS  📋 "anile" ? ␅
+TD2940029 ␆A___E ~ LN
+TD124 #3 A____ ~EL -RS  📋 "anile" ? A___E ~ LN
+TD267 attempt 2 ANILE Y m n m Y
+TD157 #4 _____ ~ER -ALS  📋 "anile" ? ␅
+TD3458298 ␆____E ~ R
+TD121 #4 _____ ~ER -ALS  📋 "anile" ? ____E ~ R
+TD282 attempt 3 ANILE n n n n Y
+TD198 #5 ___E_ ~R -ALS  📋 "anile" ? ␅
+TD4192226 ␆_N_E_ ~ RE
+TD141 #5 ___E_ ~R -ALS  📋 "anile" ? _N_E_ ~ RE
+TD334 attempt 4 ANILE n Y n n m
+TD450 ? ␅
+TD260953 ␆
+TD162 ? 
+TD188 question done
+TD390 > ␅
+TD918001 ␆*
+TD139 > *
+TD1410165 try? ␅
+TD1621382 ␆
+TD116 try? 
+TD329 try? ␅
+TD532546 ␆1
+TD117 try? 1
+TD291 questioning: ["alone", "#3"]
+TD340 #1 ____S ~A -EILNR  📋 "alone" ? ␅
+TD5553155 ␆____S ~ AS
+TD139 #1 ____S ~A -EILNR  📋 "alone" ? ____S ~ AS
+TD268 attempt 0 ALONE m n n n n
+TD158 #2 _____ ~AIN -ELRS  📋 "alone" ? ␅
+TD1050880 ␆.
+TD127 #2 _____ ~AIN -ELRS  📋 "alone" ? .
+TD300 attempt 1 ALONE m n n m n
+TD105 #3 A___E ~LN -IRS  📋 "alone" ? ␅
+TD599893 ␆/it
+TD118 #3 A___E ~LN -IRS  📋 "alone" ? /it
+TD271 attempt 2 ALONE Y Y Y Y Y
+TD97 #4 ____E ~R -AILNS  📋 "alone" ? ␅
+TD4179880 ␆____E ~ RO
+TD108 #4 ____E ~R -AILNS  📋 "alone" ? ____E ~ RO
+TD255 attempt 3 ALONE n n m n Y
+TD160 #5 _N_E_ ~R -AILS  📋 "alone" ? ␅
+TD3623514 ␆_N_E_ ~ RE
+TD131 #5 _N_E_ ~R -AILS  📋 "alone" ? _N_E_ ~ RE
+TD269 attempt 4 ALONE n n n n m
+TD425 ? ␅
+TD278245 ␆
+TD131 ? 
+TD130 question done
+TD362 > ␅
+TD492460 ␆*
+TD134 > *
+TD1355763 try? ␅
+TD3138979 ␆1
+TD128 try? 1
+TD321 questioning: ["under", "#5"]
+TD356 #1 ____S ~A -EILNOR  📋 "under" ? ␅
+TD5954146 ␆____S ~ AS
+TD137 #1 ____S ~A -EILNOR  📋 "under" ? ____S ~ AS
+TD269 attempt 0 UNDER n n n n n
+TD185 #2 _____ ~AIN -ELORS  📋 "under" ? ␅
+TD1195408 ␆.
+TD145 #2 _____ ~AIN -ELORS  📋 "under" ? .
+TD368 attempt 1 UNDER n m n n n
+TD135 #4 ____E ~OR -AILNS  📋 "under" ? ␅
+TD4258317 ␆____E ~ ROU
+TD104 #4 ____E ~OR -AILNS  📋 "under" ? ____E ~ ROU
+TD267 attempt 3 UNDER m n n n m
+TD181 #5 _N_E_ ~R -AILNOS  📋 "under" ? ␅
+TD3107223 ␆_N_ER ~ E
+TD141 #5 _N_E_ ~R -AILNOS  📋 "under" ? _N_ER ~ E
+TD323 attempt 4 UNDER n Y n Y Y
+TD545 ? ␅
+TD307526 ␆
+TD151 ? 
+TD159 question done
+TD401 > ␅
+TD480548 ␆*
+TD143 > *
+TD2048171 questioning: ["enter", "#5"]
+TD336 #1 ____S ~A -DEILNORU  📋 "enter" ? ␅
+TD6303446 ␆____S ~ AST
+TD131 #1 ____S ~A -DEILNORU  📋 "enter" ? ____S ~ AST
+TD256 attempt 0 ENTER n n m n n
+TD156 #2 _____ ~AIN -DELORSU  📋 "enter" ? ␅
+TD1145699 ␆.
+TD141 #2 _____ ~AIN -DELORSU  📋 "enter" ? .
+TD299 attempt 1 ENTER n m n n n
+TD152 #4 ____E ~ORU -ADEILNS  📋 "enter" ? ␅
+TD2153110 ␆.
+TD119 #4 ____E ~ORU -ADEILNS  📋 "enter" ? .
+TD279 attempt 3 ENTER n n n n m
+TD108 #5 _N_ER -ADILOSU  📋 "enter" ? ␅
+TD621947 ␆/it
+TD131 #5 _N_ER -ADILOSU  📋 "enter" ? /it
+TD289 attempt 4 ENTER Y Y Y Y Y
+TD293 ? ␅
+TD231461 ␆
+TD119 ? 
+TD150 question done
+TD325 > ␅
+TD477190 ␆*
+TD127 > *
+TD3729682 questioning: ["rouge", "#4"]
+TD315 #1 ____S ~AT -DEILNORU  📋 "rouge" ? ␅
+TD10660666 ␆____S ~ AST
+TD140 #1 ____S ~AT -DEILNORU  📋 "rouge" ? ____S ~ AST
+TD260 attempt 0 ROUGE n n n n n
+TD305 #2 _____ ~AIN -DELORSTU  📋 "rouge" ? ␅
+TD1244203 ␆.
+TD123 #2 _____ ~AIN -DELORSTU  📋 "rouge" ? .
+TD286 attempt 1 ROUGE n n n n n
+TD115 #4 ____E ~ORU -ADEILNST  📋 "rouge" ? ␅
+TD624782 ␆/i
+TD120 #4 ____E ~ORU -ADEILNST  📋 "rouge" ? /i
+TD631 attempt 3 ROUGE Y Y Y Y Y
+TD263 ? ␅
+TD2630798 ␆/it
+TD117 ? /it
+TD434 ? ␅
+TD1818026 ␆
+TD148 ? 
+TD119 question done
+TD305 > ␅
+TD2367915 ␆*
+TD120 > *
+TD3360767 questioning: ["cabin", "#2"]
+TD327 #1 ____S ~AT -DEGILNORU  📋 "cabin" ? ␅
+TD7080933 ␆____S ~ AST
+TD126 #1 ____S ~AT -DEGILNORU  📋 "cabin" ? ____S ~ AST
+TD285 attempt 0 CABIN n m n n n
+TD186 #2 _____ ~AIN -DEGLORSTU  📋 "cabin" ? ␅
+TD990889 ␆/it
+TD135 #2 _____ ~AIN -DEGLORSTU  📋 "cabin" ? /it
+TD279 attempt 1 CABIN Y Y Y Y Y
+TD297 ? ␅
+TD313945 ␆
+TD137 ? 
+TD140 question done
+TD307 > ␅
+TD504932 ␆*
+TD151 > *
+TD2122900 questioning: ["stats", "#1"]
+TD322 #1 ____S ~AT -BCDEGILNORU  📋 "stats" ? ␅
+TD3804959 ␆/it
+TD84 #1 ____S ~AT -BCDEGILNORU  📋 "stats" ? /it
+TD199 attempt 0 STATS Y Y Y Y Y
+TD288 ? ␅
+TD530461 ␆
+TD114 ? 
+TD113 question done
+TD49141 📋> ␅
+TD6489810 ␆squareword.org 1707: 8 guesses
+TD128 📋> squareword.org 1707: 8 guesses
+TD15 📋> ␅
+TD73 ␆
+TD11 📋> 
+TD8 📋> ␅
+TD20 ␆🟨🟨🟨🟨🟩
+TD5 📋> 🟨🟨🟨🟨🟩
+TD5 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟩
+TD5 📋> 🟨🟨🟨🟨🟩
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆
+TD6 📋> 
+TD4 📋> ␅
+TD13 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD260414 ␆#squareword #squareword1707
+TD132 📋> #squareword #squareword1707
+TD15 📋> ␅
+TD547985 ␄
+TD221 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1707: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1707"}
+TD814 result: "squareword.org 1707: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1707"
+TD99 📆 2026-10-04 ? ␅
+TD508890 ␆
+TD129 📆 2026-10-04 ? 
