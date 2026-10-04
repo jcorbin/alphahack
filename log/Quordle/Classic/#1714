@@ -1,0 +1,151 @@
+T29047.705643201 now: 2026-10-04T12:07:02EDT
+TD131 site: https://www.merriam-webster.com/games/quordle/#/
+TD24 wordlist: nwl2023.txt
+TD10 num_words: 4
+TD141  ...␅
+TD12412183 ␆
+TD105  ...
+TD805646 > ␅
+TD1160034 ␆*
+TD119 > *
+TD90869 ? ␅
+TD781567 ␆1
+TD109 ? 1
+TD193 questioning: nares
+TD203 Classic #1 _____? ␅
+TD3981146 ␆MnMYn
+TD114 Classic #1 _____? MnMYn
+TD414 attempt: 0 NARES m n m Y n
+TD106 Classic #2 _____? ␅
+TD1501951 ␆MYMnn
+TD106 Classic #2 _____? MYMnn
+TD250 attempt: 1 NARES m Y m n n
+TD108 Classic #3 _____? ␅
+TD1264711 ␆Mnnnn
+TD114 Classic #3 _____? Mnnnn
+TD221 attempt: 2 NARES m n n n n
+TD98 Classic #4 _____? ␅
+TD1489666 ␆MMMMn
+TD84 Classic #4 _____? MMMMn
+TD174 attempt: 3 NARES m m m m n
+TD870452 > ␅
+TD782502 ␆*
+TD108 > *
+TD2886 ? ␅
+TD890152 ␆1
+TD111 ? 1
+TD192 questioning: unlit
+TD197 Classic #1 ___E_ ~NR -AS? ␅
+TD3109929 ␆nYnMn
+TD122 Classic #1 ___E_ ~NR -AS? nYnMn
+TD302 attempt: 0 UNLIT n Y n m n
+TD143 Classic #2 _A___ ~NR -ES? ␅
+TD1364569 ␆nMnMn
+TD114 Classic #2 _A___ ~NR -ES? nMnMn
+TD239 attempt: 1 UNLIT n m n m n
+TD113 Classic #3 _____ ~N -AERS? ␅
+TD1368211 ␆nMnMM
+TD121 Classic #3 _____ ~N -AERS? nMnMM
+TD230 attempt: 2 UNLIT n m n m m
+TD109 Classic #4 _____ ~AENR -S? ␅
+TD1248502 ␆nMnnn
+TD113 Classic #4 _____ ~AENR -S? nMnnn
+TD236 attempt: 3 UNLIT n m n n n
+TD911568 > ␅
+TD3613478 ␆*
+TD115 > *
+TD554 ? ␅
+TD3514025 ␆1
+TD116 ? 1
+TD188 questioning: infer
+TD171 Classic #1 _N_E_ ~IR -ALSTU? ␅
+TD3494056 ␆YYYYY
+TD111 Classic #1 _N_E_ ~IR -ALSTU? YYYYY
+TD218 attempt: 0 INFER Y Y Y Y Y
+TD108 Classic #2 _A___ ~INR -ELSTU? ␅
+TD2556863 ␆MMnnM
+TD116 Classic #2 _A___ ~INR -ELSTU? MMnnM
+TD326 attempt: 1 INFER m m n n m
+TD266 Classic #3 _____ ~INT -AELRSU? ␅
+TD1531050 ␆MMnnn
+TD80 Classic #3 _____ ~INT -AELRSU? MMnnn
+TD179 attempt: 2 INFER m m n n n
+TD88 Classic #4 _____ ~AENR -ILSTU? ␅
+TD1763122 ␆nMnMM
+TD115 Classic #4 _____ ~AENR -ILSTU? nMnMM
+TD235 attempt: 3 INFER n m n m m
+TD684463 > ␅
+TD719448 ␆*
+TD117 > *
+TD678 ? ␅
+TD2622898 ␆3
+TD117 ? 3
+TD210 questioning: rainy
+TD180 Classic #2 _A___ ~INR -EFLSTU? ␅
+TD3437653 ␆YYYYY
+TD81 Classic #2 _A___ ~INR -EFLSTU? YYYYY
+TD174 attempt: 1 RAINY Y Y Y Y Y
+TD90 Classic #3 _____ ~INT -AEFLRSU? ␅
+TD1838382 ␆nnYYn
+TD115 Classic #3 _____ ~INT -AEFLRSU? nnYYn
+TD256 attempt: 2 RAINY n n Y Y n
+TD115 Classic #4 _____ ~AENR -FILSTU? ␅
+TD1925227 ␆MMnYn
+TD109 Classic #4 _____ ~AENR -FILSTU? MMnYn
+TD223 attempt: 3 RAINY m m n Y n
+TD369747 > ␅
+TD690225 ␆*
+TD127 > *
+TD643 ? ␅
+TD2454916 ␆1
+TD115 ? 1
+TD186 questioning: thing
+TD855 Classic #3 __IN_ ~T -AEFLRSUY? ␅
+TD4208599 ␆YYYYY
+TD109 Classic #3 __IN_ ~T -AEFLRSUY? YYYYY
+TD225 attempt: 2 THING Y Y Y Y Y
+TD120 Classic #4 ___N_ ~AER -FILSTUY? ␅
+TD1625840 ␆nnnYn
+TD115 Classic #4 ___N_ ~AER -FILSTUY? nnnYn
+TD223 attempt: 3 THING n n n Y n
+TD189144 > ␅
+TD771869 ␆*
+TD111 > *
+TD535 ? ␅
+TD3224071 ␆1
+TD111 ? 1
+TD187 questioning: crane
+TD204 Classic #4 ___N_ ~AER -FGHILSTUY? ␅
+TD4312028 ␆nYMYM
+TD110 Classic #4 ___N_ ~AER -FGHILSTUY? nYMYM
+TD225 attempt: 3 CRANE n Y m Y m
+TD180799 > ␅
+TD313130 ␆*
+TD82 > *
+TD312 questioning: arena
+TD141 Classic #4 _R_N_ ~AE -CFGHILSTUY? ␅
+TD3621920 ␆YYYYY
+TD113 Classic #4 _R_N_ ~AE -CFGHILSTUY? YYYYY
+TD240 attempt: 3 ARENA Y Y Y Y Y
+TD95 📋> ␅
+TD4350945 ␆🙂 Daily Quordle 1714
+TD105 📋> 🙂 Daily Quordle 1714
+TD15 📋> ␅
+TD49 ␆3️⃣4️⃣
+TD10 📋> 3️⃣4️⃣
+TD8 📋> ␅
+TD17 ␆5️⃣7️⃣
+TD9 📋> 5️⃣7️⃣
+TD8 📋> ␅
+TD15 ␆m-w.com/games/quordle/
+TD7 📋> m-w.com/games/quordle/
+TD7 📋> ␅
+TD326446 ␆
+TD146 📋> 
+TD16 📋> ␅
+TD636966 ␄
+TD150 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1714\n3\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1549 result: "\ud83d\ude42 Daily Quordle 1714\n3\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD78 📆 2026-10-04 ? ␅
+TD952924 ␆
+TD130 📆 2026-10-04 ? 
