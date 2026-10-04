@@ -1,0 +1,85 @@
+T27967.870516238996 now: 2026-10-04T11:49:01EDT
+TD141 site: alphaguess.com
+TD281476 loaded 196512 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (92 words excluded) asof ead1f39418d3599f0c72908e226d1e2e80c0a07f
+TD130  ...␅
+TD602550 ␆
+TD149  ...
+TD180 [0 : 98142 : 196512] mac? ␅
+TD7910041 ␆
+TD83 [0 : 98142 : 196512] mac? 
+TD93 [0 : 98142 : 196512] mac? ␅
+TD2698699 ␆b
+TD127 [0 : 98142 : 196512] mac? b
+TD111 progress: -1 98142 mac
+TD118 [0 : 47374 : 98142] dis? ␅
+TD3367046 ␆a
+TD116 [0 : 47374 : 98142] dis? a
+TD108 progress: 1 47374 dis
+TD118 [47375 : 72657 : 98142] green? ␅
+TD1625053 ␆b
+TD138 [47375 : 72657 : 98142] green? b
+TD110 progress: -1 72657 green
+TD183 [47375 : 60013 : 72657] eyewitness? ␅
+TD2086228 ␆a
+TD130 [47375 : 60013 : 72657] eyewitness? a
+TD109 progress: 1 60013 eyewitness
+TD131 [60014 : 66305 : 72657] free? ␅
+TD2390441 ␆b
+TD152 [60014 : 66305 : 72657] free? b
+TD115 progress: -1 66305 free
+TD111 [60014 : 63147 : 66305] fix? ␅
+TD1575540 ␆a
+TD127 [60014 : 63147 : 66305] fix? a
+TD109 progress: 1 63147 fix
+TD112 [63148 : 64721 : 66305] fold? ␅
+TD1439912 ␆b
+TD124 [63148 : 64721 : 66305] fold? b
+TD105 progress: -1 64721 fold
+TD125 [63148 : 63925 : 64721] flirt? ␅
+TD1747990 ␆b
+TD126 [63148 : 63925 : 64721] flirt? b
+TD109 progress: -1 63925 flirt
+TD127 [63148 : 63472 : 63925] flat? ␅
+TD1442095 ␆a
+TD117 [63148 : 63472 : 63925] flat? a
+TD104 progress: 1 63472 flat
+TD117 [63473 : 63690 : 63925] flee? ␅
+TD1726939 ␆a
+TD129 [63473 : 63690 : 63925] flee? a
+TD128 progress: 1 63690 flee
+TD115 [63691 : 63781 : 63925] flex? ␅
+TD1435100 ␆b
+TD110 [63691 : 63781 : 63925] flex? b
+TD108 progress: -1 63781 flex
+TD166 [63691 : 63736 : 63781] flench? ␅
+TD1464166 ␆a
+TD127 [63691 : 63736 : 63781] flench? a
+TD123 progress: 1 63736 flench
+TD113 [63737 : 63748 : 63781] flesh? ␅
+TD2864195 ␆it
+TD105 [63737 : 63748 : 63781] flesh? it
+TD108 progress: 0 63748 flesh
+TD27 [63737 : 63748 : 63781] <Done>.
+TD90 📋> ␅
+TD2877801 ␆🧩 Puzzle #1168
+TD135 📋> 🧩 Puzzle #1168
+TD14 📋> ␅
+TD49 ␆🤔 13 guesses
+TD7 📋> 🤔 13 guesses
+TD6 📋> ␅
+TD10 ␆⏱️ 22s
+TD6 📋> ⏱️ 22s
+TD5 📋> ␅
+TD270922 ␆🔗 alphaguess.com/1168
+TD94 📋> 🔗 alphaguess.com/1168
+TD13 📋> ␅
+TD341289 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1168\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1168"}
+TD105 result: "\ud83e\udde9 Puzzle #1168\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1168"
+TD20 result puzzle: 1168
+TD11 result guesses: 13
+TD8 result time: 22s
+TD8 result link: alphaguess.com/1168
+TD93 📆 2026-10-04 ? ␅
+TD3427282 ␆
+TD152 📆 2026-10-04 ? 
