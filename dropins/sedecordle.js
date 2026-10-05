@@ -242,7 +242,7 @@
    *
    * @param {string|string[]} text
    * @param {ShowOpts} [opts]
-   * @returns {HTMLDialogElement}
+   * @returns {HTMLDivElement}
    */
   function showText(text, opts = {}) {
     const d = getDialog(opts.timeout ?? 0);
@@ -255,7 +255,7 @@
     el.textContent = flat;
     d.appendChild(el);
     d.showModal();
-    return d;
+    return el;
   }
 
   /**
@@ -429,11 +429,23 @@
   }
 
   /** @param {Iterable<string>} lines */
-  async function offerText(lines) {
-    const text = new Blob(Array.from(itMap(lines, line => `${line}\n`)));
-    const item = new ClipboardItem({ ['text/plain']: text });
-    await navigator.clipboard.write([item]);
-    showText(await text.text());
+  async function offerText(lines, settleEvery = 0, settleLimit = 0, settleMin = 0) {
+    let settleLeft = 0;
+    const el = showText('...');
+    for (; ;) {
+      const text = new Blob(Array.from(itMap(lines, line => `${line}\n`)));
+      const textContent = await text.text();
+      if (el.textContent !== textContent) {
+        el.textContent = textContent;
+        await navigator.clipboard.write([new ClipboardItem({ ['text/plain']: text })]);
+        settleLeft = settleMin;
+      }
+      if (settleLeft-- > 0 && settleEvery > 0 && settleLimit-- > 0) {
+        await after(settleEvery);
+        continue;
+      }
+      return;
+    }
   }
 
   async function copyAll() {
@@ -461,14 +473,16 @@
    * @param {Map<string, WordEnt[]>} [byWord]
    */
   async function copyWordRes(word, byWord = undefined) {
-    return offerText(function*() {
-      if (!byWord) ({ byWord } = readData());
-      const dat = byWord.get(word);
-      if (!dat) throw new Error(`no result for word ${JSON.stringify(word)}`);
-      for (const { board_n, resp } of dat) {
-        yield `#${board_n} ${resp}`;
+    return offerText({
+      *[Symbol.iterator]() {
+        if (!byWord) ({ byWord } = readData());
+        const dat = byWord.get(word);
+        if (!dat) throw new Error(`no result for word ${JSON.stringify(word)}`);
+        for (const { board_n, resp } of dat) {
+          yield `#${board_n} ${resp}`;
+        }
       }
-    }());
+    }, 200, 20, 3);
   }
 
   // ── Event listener (keymap-driven) ───────────────────────────────
