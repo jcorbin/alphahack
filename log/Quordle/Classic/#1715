@@ -1,0 +1,196 @@
+T923.6859612440167 now: 2026-10-05T09:11:33EDT
+TD135 site: https://www.merriam-webster.com/games/quordle/#/
+TD42 wordlist: nwl2023.txt
+TD11 num_words: 4
+TD166  ...␅
+TD20141137 ␆
+TD117  ...
+TD742226 > ␅
+TD605131 ␆*
+TD121 > *
+TD85322 ? ␅
+TD551989 ␆1
+TD125 ? 1
+TD207 questioning: serai
+TD211 Classic #1 _____? ␅
+TD5524957 ␆YnnnM
+TD117 Classic #1 _____? YnnnM
+TD430 attempt: 0 SERAI Y n n n m
+TD109 Classic #2 _____? ␅
+TD2133880 ␆YMnYn
+TD117 Classic #2 _____? YMnYn
+TD259 attempt: 1 SERAI Y m n Y n
+T22.721387332014274 now: 2026-10-05T09:12:33EDT
+TD166 questioning: serai
+TD147 Classic #3 _____? ␅
+TD2750048 ␆YYnYn
+TD114 Classic #3 _____? YYnYn
+TD442 attempt: 2 SERAI Y Y n Y n
+TD203 Classic #4 _____? ␅
+TD1723140 ␆MYnnM
+TD127 Classic #4 _____? MYnnM
+TD245 attempt: 3 SERAI m Y n n m
+TD769663 > ␅
+TD721506 ␆*
+TD112 > *
+TD2093 ? ␅
+TD3654543 ␆4
+TD122 ? 4
+TD237 questioning: slick
+TD197 Classic #1 S____ ~I -AER? ␅
+TD3013156 ␆YnMnn
+TD130 Classic #1 S____ ~I -AER? YnMnn
+TD235 attempt: 0 SLICK Y n m n n
+TD113 Classic #2 S__A_ ~E -IR? ␅
+TD2588335 ␆YnnnY
+TD123 Classic #2 S__A_ ~E -IR? YnnnY
+TD242 attempt: 1 SLICK Y n n n Y
+TD111 Classic #3 SE_A_ -IR? ␅
+TD1888454 ␆Ynnnn
+TD119 Classic #3 SE_A_ -IR? Ynnnn
+TD237 attempt: 2 SLICK Y n n n n
+TD104 Classic #4 _E___ ~IS -AR? ␅
+TD1715708 ␆MnYnnn
+TD126 Classic #4 _E___ ~IS -AR? MnYnnn
+TD241 attempt: 3 SLICK m n Y n n
+TD658095 > ␅
+TD220323 ␆*
+TD118 > *
+TD736 ? ␅
+TD4134092 ␄
+TD169 <EOF>
+TD660791 > ␅
+TD985928 ␆* 1
+TD123 > * 1
+TD168806 ? ␅
+TD2221325 ␆1
+TD119 ? 1
+TD273 questioning: situp
+TD304 Classic #1 S____ ~I -ACEKLR? ␅
+TD6242758 ␆YYMnn
+TD133 Classic #1 S____ ~I -ACEKLR? YYMnn
+TD238 attempt: 0 SITUP Y Y m n n
+TD113 Classic #2 S__AK ~E -CILR? ␅
+TD1698756 ␆YnnnM
+TD137 Classic #2 S__AK ~E -CILR? YnnnM
+TD285 attempt: 1 SITUP Y n n n m
+TD225 Classic #3 SE_A_ -CIKLR? ␅
+TD1795757 ␆Ynnnn
+TD121 Classic #3 SE_A_ -CIKLR? Ynnnn
+TD245 attempt: 2 SITUP Y n n n n
+TD193 Classic #4 _EI__ ~S -ACKLR? ␅
+TD1232074 ␆MMMnn
+TD118 Classic #4 _EI__ ~S -ACKLR? MMMnn
+TD238 attempt: 3 SITUP m m m n n
+TD668201 > ␅
+TD637027 ␆*
+TD110 > *
+TD433 questioning: speak
+TD211 Classic #1 SI___ ~T -ACEKLPRU? ␅
+TD3713517 ␆Ynnnn
+TD119 Classic #1 SI___ ~T -ACEKLPRU? Ynnnn
+TD243 attempt: 0 SPEAK Y n n n n
+TD127 Classic #2 S__AK ~EP -CILRTU? ␅
+TD1336196 ␆YYYYY
+TD112 Classic #2 S__AK ~EP -CILRTU? YYYYY
+TD225 attempt: 1 SPEAK Y Y Y Y Y
+TD117 Classic #3 SE_A_ -CIKLPRTU? ␅
+TD1598673 ␆YnMYn
+TD115 Classic #3 SE_A_ -CIKLPRTU? YnMYn
+TD250 attempt: 2 SPEAK Y n m Y n
+TD120 Classic #4 _EI__ ~ST -ACKLPRU? ␅
+TD1505739 ␆MnMnn
+TD127 Classic #4 _EI__ ~ST -ACKLPRU? MnMnn
+TD276 attempt: 3 SPEAK m n m n n
+TD521661 > ␅
+TD730162 ␆*
+TD120 > *
+TD530 ? ␅
+TD3134426 ␄
+TD161 <EOF>
+TD529397 > ␅
+TD1189061 ␆* 4
+TD132 > * 4
+TD172324 ? ␅
+TD4827792 ␆3
+TD117 ? 3
+TD191 questioning: deist
+TD283 Classic #1 SI___ ~T -ACEKLPRU? ␅
+TD4657443 ␆nnMMM
+TD104 Classic #1 SI___ ~T -ACEKLPRU? nnMMM
+TD230 attempt: 0 DEIST n n m m m
+TD121 Classic #3 SE_A_ -CIKLPRTU? ␅
+TD2516237 ␆MYnMn
+TD123 Classic #3 SE_A_ -CIKLPRTU? MYnMn
+TD232 attempt: 2 DEIST m Y n m n
+TD109 Classic #4 _EI__ ~ST -ACKLPRU? ␅
+TD1408293 ␆nYYYY
+TD110 Classic #4 _EI__ ~ST -ACKLPRU? nYYYY
+TD224 attempt: 3 DEIST n Y Y Y Y
+TD495749 > ␅
+TD634996 ␆*
+TD113 > *
+TD403 questioning: sedan
+TD225 Classic #1 SI___ ~T -ACDEKLPRU? ␅
+TD3139551 ␆Ynnnn
+TD114 Classic #1 SI___ ~T -ACDEKLPRU? Ynnnn
+TD242 attempt: 0 SEDAN Y n n n n
+TD220 Classic #3 SE_A_ ~D -CIKLPRTU? ␅
+TD1502196 ␆YYYYY
+TD111 Classic #3 SE_A_ ~D -CIKLPRTU? YYYYY
+TD230 attempt: 2 SEDAN Y Y Y Y Y
+TD111 Classic #4 _EIST -ACDKLPRU? ␅
+TD1514347 ␆MYnnn
+TD106 Classic #4 _EIST -ACDKLPRU? MYnnn
+TD226 attempt: 3 SEDAN m Y n n n
+TD312256 > ␅
+TD693580 ␆*
+TD115 > *
+TD504 ? ␅
+TD1258589 ␄
+TD158 <EOF>
+TD336546 > ␅
+TD1017935 ␆* 1
+TD117 > * 1
+TD165155 ? ␅
+TD3866576 ␆1
+TD118 ? 1
+TD206 questioning: sixth
+TD275 Classic #1 SI___ ~T -ACDEKLNPRU? ␅
+TD4474078 ␆YYYYY
+TD106 Classic #1 SI___ ~T -ACDEKLNPRU? YYYYY
+TD219 attempt: 0 SIXTH Y Y Y Y Y
+TD135 Classic #4 _EIST -ACDKLNPRU? ␅
+TD1695795 ␆MMnMM
+TD152 Classic #4 _EIST -ACDKLNPRU? MMnMM
+TD299 attempt: 3 SIXTH m m n m m
+TD169918 > ␅
+TD673351 ␆*
+TD112 > *
+TD424 questioning: heist
+TD228 Classic #4 _EIST ~H -ACDKLNPRUX? ␅
+TD4320932 ␆YYYYY
+TD122 Classic #4 _EIST ~H -ACDKLNPRUX? YYYYY
+TD230 attempt: 3 HEIST Y Y Y Y Y
+TD116 📋> ␅
+TD4497160 ␆🙂 Daily Quordle 1715
+TD161 📋> 🙂 Daily Quordle 1715
+TD19 📋> ␅
+TD54 ␆7️⃣4️⃣
+TD8 📋> 7️⃣4️⃣
+TD7 📋> ␅
+TD14 ␆6️⃣8️⃣
+TD5 📋> 6️⃣8️⃣
+TD5 📋> ␅
+TD13 ␆m-w.com/games/quordle/
+TD6 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD246152 ␆
+TD135 📋> 
+TD15 📋> ␅
+TD349087 ␄
+TD227 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1715\n7\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1649 result: "\ud83d\ude42 Daily Quordle 1715\n7\ufe0f\u20e34\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD100 📆 2026-10-05 ? ␅
+TD472635 ␆
+TD124 📆 2026-10-05 ? 
