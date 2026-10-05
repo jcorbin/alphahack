@@ -1,0 +1,241 @@
+T122.14315896198968 now: 2026-10-05T09:50:24EDT
+TD144 site: squareword.org
+TD42 wordlist: nwl2023.txt
+TD45  ...␅
+TD5394306 ␆
+TD108  ...
+TD78 🧩  ? ␅
+TD2343247 ␆#1708
+TD106 🧩  ? #1708
+TD295 puzzle_id: #1708
+TD289 > ␅
+TD4632771 ␆*
+TD107 > *
+TD425114 try? ␅
+TD958050 ␆1
+TD98 try? 1
+TD365 questioning: ["laser", "#5"]
+TD287 #1 <IndexError>  📋 "laser" ? ␅
+TD4287787 ␆_____ ~ SER
+TD114 #1 <IndexError>  📋 "laser" ? _____ ~ SER
+TD725 attempt 0 LASER n n m m m
+TD149 #2 <IndexError>  📋 "laser" ? ␅
+TD2796392 ␆_____ ~ LAE
+TD108 #2 <IndexError>  📋 "laser" ? _____ ~ LAE
+TD274 attempt 1 LASER m m n m n
+TD124 #3 <IndexError>  📋 "laser" ? ␅
+TD2264548 ␆_____ ~ AR
+TD104 #3 <IndexError>  📋 "laser" ? _____ ~ AR
+TD262 attempt 2 LASER n m n n m
+TD134 #4 <IndexError>  📋 "laser" ? ␅
+TD3030517 ␆___E_ ~ ER
+TD104 #4 <IndexError>  📋 "laser" ? ___E_ ~ ER
+TD271 attempt 3 LASER n n n Y m
+TD136 #5 <IndexError>  📋 "laser" ? ␅
+TD2437202 ␆_A___ ~ SR
+TD102 #5 <IndexError>  📋 "laser" ? _A___ ~ SR
+TD264 attempt 4 LASER n Y m n m
+TD331 ? ␅
+TD368509 ␆
+TD104 ? 
+TD159 question done
+TD300 > ␅
+TD610984 ␆*
+TD105 > *
+TD1094631 try? ␅
+TD1088277 ␆1
+TD109 try? 1
+TD330 questioning: ["delta", "#2"]
+TD298 #1 _____ ~ERS -AL  📋 "delta" ? ␅
+TD4870585 ␆_E___ ~ SR
+TD91 #1 _____ ~ERS -AL  📋 "delta" ? _E___ ~ SR
+TD217 attempt 0 DELTA n Y n n n
+TD121 #2 _____ ~AEL -RS  📋 "delta" ? ␅
+TD2459223 ␆_____ ~ LAET
+TD107 #2 _____ ~AEL -RS  📋 "delta" ? _____ ~ LAET
+TD258 attempt 1 DELTA n m m m m
+TD154 #3 _____ ~AR -ELS  📋 "delta" ? ␅
+TD3236142 ␆____A ~ ART
+TD109 #3 _____ ~AR -ELS  📋 "delta" ? ____A ~ ART
+TD282 attempt 2 DELTA n n n m Y
+TD153 #4 ___E_ ~R -ALS  📋 "delta" ? ␅
+TD2828481 ␆___E_ ~ ER
+TD102 #4 ___E_ ~R -ALS  📋 "delta" ? ___E_ ~ ER
+TD275 attempt 3 DELTA n m n n n
+TD147 #5 _A___ ~RS -EL  📋 "delta" ? ␅
+TD1986045 ␆.
+TD107 #5 _A___ ~RS -EL  📋 "delta" ? .
+TD294 attempt 4 DELTA n n n n n
+TD256 ? ␅
+TD164370 ␆
+TD83 ? 
+TD106 question done
+TD288 > ␅
+TD405383 ␆*
+TD109 > *
+TD1082088 questioning: ["exalt", "#2"]
+TD205 #1 _E___ ~RS -ADLT  📋 "exalt" ? ␅
+TD4396053 ␆.
+TD107 #1 _E___ ~RS -ADLT  📋 "exalt" ? .
+TD291 attempt 0 EXALT n n n n n
+TD96 #2 _____ ~AELT -DRS  📋 "exalt" ? ␅
+TD610168 ␆/it
+TD104 #2 _____ ~AELT -DRS  📋 "exalt" ? /it
+TD273 attempt 1 EXALT Y Y Y Y Y
+TD96 #3 ____A ~RT -DELS  📋 "exalt" ? ␅
+TD7509740 ␆____A ~ ART
+TD131 #3 ____A ~RT -DELS  📋 "exalt" ? ____A ~ ART
+TD342 attempt 2 EXALT n n m n m
+TD327 #4 ___E_ ~R -ADLST  📋 "exalt" ? ␅
+TD3844977 ␆___E_ ~ ER
+TD128 #4 ___E_ ~R -ADLST  📋 "exalt" ? ___E_ ~ ER
+TD339 attempt 3 EXALT m n n n n
+TD208 #5 _A___ ~RS -ADELT  📋 "exalt" ? ␅
+TD1201826 ␆.
+TD127 #5 _A___ ~RS -ADELT  📋 "exalt" ? .
+TD398 attempt 4 EXALT n n n n n
+TD656 ? ␅
+TD144161 ␆
+TD93 ? 
+TD120 question done
+TD293 > ␅
+TD452948 ␆*
+TD102 > *
+TD1275987 questioning: ["atria", "#3"]
+TD221 #1 _E___ ~RS -ADELTX  📋 "atria" ? ␅
+TD5828222 ␆_ER__ ~ S
+TD76 #1 _E___ ~RS -ADELTX  📋 "atria" ? _ER__ ~ S
+TD201 attempt 0 ATRIA n n Y n n
+TD124 #3 ____A ~RT -DELSX  📋 "atria" ? ␅
+TD1118415 ␆/it
+TD116 #3 ____A ~RT -DELSX  📋 "atria" ? /it
+TD271 attempt 2 ATRIA Y Y Y Y Y
+TD100 #4 ___E_ ~R -ADLSTX  📋 "atria" ? ␅
+TD2454225 ␆___E_ ~ ER
+TD106 #4 ___E_ ~R -ADLSTX  📋 "atria" ? ___E_ ~ ER
+TD270 attempt 3 ATRIA n n m n n
+TD161 #5 _A___ ~RS -ADELTX  📋 "atria" ? ␅
+TD2338376 ␆_AR__ ~ S
+TD100 #5 _A___ ~RS -ADELTX  📋 "atria" ? _AR__ ~ S
+TD261 attempt 4 ATRIA n n Y n n
+TD347 ? ␅
+TD300681 ␆
+TD28 ? 
+TD81 question done
+TD218 > ␅
+TD431109 ␆(*
+TD98 > (*
+TD677 > ␅
+TD1207969 ␆*
+TD110 > *
+TD1971992 try? ␅
+TD2130094 ␄
+TD159 <EOF>
+TD369 > ␅
+TD14157432 ␆*
+TD104 > *
+TD2063468 try? ␅
+TD1457213 ␆2
+TD125 try? 2
+TD325 questioning: ["marsh", "#5"]
+TD327 #1 _ER__ ~S -ADEILTX  📋 "marsh" ? ␅
+TD6943660 ␆.
+TD105 #1 _ER__ ~S -ADEILTX  📋 "marsh" ? .
+TD296 attempt 0 MARSH n n Y m n
+TD118 #4 ___E_ ~R -ADILSTX  📋 "marsh" ? ␅
+TD2474185 ␆___E_ ~ ER
+TD105 #4 ___E_ ~R -ADILSTX  📋 "marsh" ? ___E_ ~ ER
+TD287 attempt 3 MARSH n n m n n
+TD165 #5 _AR__ ~S -ADEILTX  📋 "marsh" ? ␅
+TD3125102 ␆_ARSH ~ H
+TD113 #5 _AR__ ~S -ADEILTX  📋 "marsh" ? _ARSH ~ H
+TD267 attempt 4 MARSH n Y Y Y Y
+TD344 ? ␅
+TD438969 ␆
+TD119 ? 
+TD137 question done
+TD519 > ␅
+TD452601 ␆*
+TD115 > *
+TD2274450 questioning: ["harsh", "#5"]
+TD166 #1 _ER__ ~S -ADEHILMTX  📋 "harsh" ? ␅
+TD5619473 ␆.
+TD105 #1 _ER__ ~S -ADEHILMTX  📋 "harsh" ? .
+TD276 attempt 0 HARSH n n Y m n
+TD107 #4 ___E_ ~R -ADHILMSTX  📋 "harsh" ? ␅
+TD2791670 ␆___E_ ~ ER
+TD110 #4 ___E_ ~R -ADHILMSTX  📋 "harsh" ? ___E_ ~ ER
+TD264 attempt 3 HARSH n n m n n
+TD170 #5 _ARSH -DEILMTX  📋 "harsh" ? ␅
+TD535686 ␆/it
+TD106 #5 _ARSH -DEILMTX  📋 "harsh" ? /it
+TD263 attempt 4 HARSH Y Y Y Y Y
+TD296 ? ␅
+TD121634 ␆
+TD29 ? 
+TD49 question done
+TD220 > ␅
+TD410144 ␆*
+TD106 > *
+TD1870063 questioning: ["perps", "#1"]
+TD157 #1 _ER__ ~S -ADEHILMTX  📋 "perps" ? ␅
+TD2747821 ␆/it
+TD107 #1 _ER__ ~S -ADEHILMTX  📋 "perps" ? /it
+TD271 attempt 0 PERPS Y Y Y Y Y
+TD107 #4 ___E_ ~R -ADHILMSTX  📋 "perps" ? ␅
+TD2989289 ␆___E_ ~ ERP
+TD104 #4 ___E_ ~R -ADHILMSTX  📋 "perps" ? ___E_ ~ ERP
+TD252 attempt 3 PERPS m m m m n
+TD350 ? ␅
+TD233355 ␆
+TD90 ? 
+TD116 question done
+TD277 > ␅
+TD437881 ␆*
+TD107 > *
+TD1496218 questioning: ["creep", "#4"]
+TD171 #4 ___E_ ~PR -ADHILMSTX  📋 "creep" ? ␅
+TD5114255 ␆/it
+TD100 #4 ___E_ ~PR -ADHILMSTX  📋 "creep" ? /it
+TD264 attempt 3 CREEP Y Y Y Y Y
+TD283 ? ␅
+TD419644 ␆
+TD110 ? 
+TD112 question done
+TD38005 📋> ␅
+TD9750541 ␆squareword.org 1708: 8 guesses
+TD107 📋> squareword.org 1708: 8 guesses
+TD12 📋> ␅
+TD45 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD15 ␆🟨🟩🟩🟨🟨
+TD5 📋> 🟨🟩🟩🟨🟨
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD9 ␆🟨🟨🟨🟩🟨
+TD4 📋> 🟨🟨🟨🟩🟨
+TD3 📋> ␅
+TD9 ␆🟨🟩🟩🟩🟩
+TD3 📋> 🟨🟩🟩🟩🟩
+TD3 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD10 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD233791 ␆#squareword #squareword1708
+TD97 📋> #squareword #squareword1708
+TD11 📋> ␅
+TD235858 ␄
+TD129 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1708: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1708"}
+TD798 result: "squareword.org 1708: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1708"
+TD100 📆 2026-10-05 ? ␅
+TD163959 ␆
+TD65 📆 2026-10-05 ? 
