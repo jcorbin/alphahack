@@ -1,0 +1,189 @@
+T14394.727297568024 now: 2026-10-06T10:08:08EDT
+TD155 site: https://www.merriam-webster.com/games/quordle/#/
+TD23 wordlist: nwl2023.txt
+TD9 num_words: 4
+TD130  ...␅
+TD605164 ␆
+TD126  ...
+TD876762 > ␅
+TD14690317 ␆*
+TD115 > *
+TD92455 ? ␅
+TD563225 ␆1
+TD142 ? 1
+TD241 questioning: taser
+TD219 Classic #1 _____? ␅
+TD3889820 ␆nnMMM
+TD115 Classic #1 _____? nnMMM
+TD430 attempt: 0 TASER n n m m m
+TD213 Classic #2 _____? ␅
+TD1334989 ␆nnMnn
+TD114 Classic #2 _____? nnMnn
+TD241 attempt: 1 TASER n n m n n
+TD96 Classic #3 _____? ␅
+TD2095737 ␆MYnnn
+TD116 Classic #3 _____? MYnnn
+TD277 attempt: 2 TASER m Y n n n
+TD127 Classic #4 _____? ␅
+TD1448202 ␆nnYMn
+TD137 Classic #4 _____? nnYMn
+TD243 attempt: 3 TASER n n Y m n
+TD954106 > ␅
+TD630022 ␆*
+TD109 > *
+TD8215 ? ␅
+TD928414 ␆1
+TD114 ? 1
+TD188 questioning: moils
+TD196 Classic #1 _____ ~ERS -AT? ␅
+TD3379619 ␆nnnnM
+TD137 Classic #1 _____ ~ERS -AT? nnnnM
+TD237 attempt: 0 MOILS n n n n m
+TD114 Classic #2 _____ ~S -AERT? ␅
+TD1590796 ␆nnnYM
+TD113 Classic #2 _____ ~S -AERT? nnnYM
+TD431 attempt: 1 MOILS n n n Y m
+TD258 Classic #3 _A___ ~T -ERS? ␅
+TD1361442 ␆nnnnn
+TD127 Classic #3 _A___ ~T -ERS? nnnnn
+TD221 attempt: 2 MOILS n n n n n
+TD117 Classic #4 __S__ ~E -ART? ␅
+TD1126224 ␆nnnnM
+TD110 Classic #4 __S__ ~E -ART? nnnnM
+TD216 attempt: 3 MOILS n n n n m
+TD851280 > ␅
+TD802194 ␆*
+TD116 > *
+TD1000 ? ␅
+TD1161782 ␆1
+TD115 ? 1
+TD183 questioning: yacht
+TD177 Classic #1 _____ ~ERS -AILMOT? ␅
+TD2839352 ␆nnnMn
+TD118 Classic #1 _____ ~ERS -AILMOT? nnnMn
+TD234 attempt: 0 YACHT n n n m n
+TD120 Classic #2 ___L_ ~S -AEIMORT? ␅
+TD1164866 ␆nnnnn
+TD114 Classic #2 ___L_ ~S -AEIMORT? nnnnn
+TD231 attempt: 1 YACHT n n n n n
+TD114 Classic #3 _A___ ~T -EILMORS? ␅
+TD1782300 ␆nYMMM
+TD119 Classic #3 _A___ ~T -EILMORS? nYMMM
+TD225 attempt: 2 YACHT n Y m m m
+TD112 Classic #4 __S__ ~E -AILMORT? ␅
+TD1168668 ␆nnnnn
+TD119 Classic #4 __S__ ~E -AILMORT? nnnnn
+TD219 attempt: 3 YACHT n n n n n
+TD951098 > ␅
+TD805182 ␆*
+TD129 > *
+TD517 ? ␅
+TD2499980 ␆1
+TD117 ? 1
+TD193 questioning: fresh
+TD264 Classic #1 _____ ~EHRS -ACILMOTY? ␅
+TD4105968 ␆YYYYY
+TD115 Classic #1 _____ ~EHRS -ACILMOTY? YYYYY
+TD226 attempt: 0 FRESH Y Y Y Y Y
+TD203 Classic #2 ___L_ ~S -ACEHIMORTY? ␅
+TD1615208 ␆nnnMn
+TD114 Classic #2 ___L_ ~S -ACEHIMORTY? nnnMn
+TD244 attempt: 1 FRESH n n n m n
+TD123 Classic #3 _A___ ~CHT -EILMORSY? ␅
+TD2128756 ␆nnnnY
+TD118 Classic #3 _A___ ~CHT -EILMORSY? nnnnY
+TD226 attempt: 2 FRESH n n n n Y
+TD113 Classic #4 __S__ ~E -ACHILMORTY? ␅
+TD1516175 ␆nnMMn
+TD116 Classic #4 __S__ ~E -ACHILMORTY? nnMMn
+TD233 attempt: 3 FRESH n n m m n
+TD602674 > ␅
+TD756608 ␆*
+TD116 > *
+TD419 questioning: ensue
+TD213 Classic #2 ___L_ ~S -ACEFHIMORTY? ␅
+TD3747582 ␆nnMMn
+TD133 Classic #2 ___L_ ~S -ACEFHIMORTY? nnMMn
+TD235 attempt: 1 ENSUE n n m m n
+TD120 Classic #3 _A__H ~CT -EFILMORSY? ␅
+TD1444688 ␆nnnnn
+TD128 Classic #3 _A__H ~CT -EFILMORSY? nnnnn
+TD220 attempt: 2 ENSUE n n n n n
+TD121 Classic #4 __S__ ~E -ACFHILMORTY? ␅
+TD1718909 ␆YYYYY
+TD132 Classic #4 __S__ ~E -ACFHILMORTY? YYYYY
+TD217 attempt: 3 ENSUE Y Y Y Y Y
+TD442027 > ␅
+TD825123 ␆*
+TD116 > *
+TD531 ? ␅
+TD5623727 ␆2
+TD118 ? 2
+TD189 questioning: skull
+TD188 Classic #2 ___L_ ~SU -ACEFHIMNORTY? ␅
+TD3437664 ␆YYYYn
+TD192 Classic #2 ___L_ ~SU -ACEFHIMNORTY? YYYYn
+TD235 attempt: 1 SKULL Y Y Y Y n
+TD128 Classic #3 _A__H ~CT -EFILMNORSUY? ␅
+TD1230718 ␆nnnnn
+TD116 Classic #3 _A__H ~CT -EFILMNORSUY? nnnnn
+TD224 attempt: 2 SKULL n n n n n
+TD406843 > ␅
+TD736046 ␆*
+TD114 > *
+TD412 questioning: skulk
+TD151 Classic #2 SKUL_ -ACEFHIMNORTY? ␅
+TD3834325 ␆YYYYY
+TD87 Classic #2 SKUL_ -ACEFHIMNORTY? YYYYY
+TD173 attempt: 1 SKULK Y Y Y Y Y
+TD103 Classic #3 _A__H ~CT -EFIKLMNORSUY? ␅
+TD1328705 ␆nnnnn
+TD126 Classic #3 _A__H ~CT -EFIKLMNORSUY? nnnnn
+TD216 attempt: 2 SKULK n n n n n
+TD225938 > ␅
+TD291602 ␆*
+TD117 > *
+TD809 ? ␅
+TD1629327 ␄
+TD157 <EOF>
+TD199133 > ␅
+TD523080 ␆probe
+TD115 > probe
+TD641396 > ␅
+TD8365291 ␆tried upbow 
+TD132 > tried upbow 
+TD388 questioning: UPBOW
+TD259 Classic #3 _A__H ~CT -EFIKLMNORSUY? ␅
+TD2383134 ␆nnMnn
+TD126 Classic #3 _A__H ~CT -EFIKLMNORSUY? nnMnn
+TD228 attempt: 2 UPBOW n n m n n
+TD200166 > ␅
+TD782364 ␆*
+TD114 > *
+TD683 questioning: batch
+TD251 Classic #3 _A__H ~BCT -EFIKLMNOPRSUWY? ␅
+TD3276914 ␆YYYYY
+TD155 Classic #3 _A__H ~BCT -EFIKLMNOPRSUWY? YYYYY
+TD220 attempt: 2 BATCH Y Y Y Y Y
+TD105 📋> ␅
+TD4449229 ␆🙂 Daily Quordle 1716
+TD115 📋> 🙂 Daily Quordle 1716
+TD13 📋> ␅
+TD48 ␆4️⃣7️⃣
+TD7 📋> 4️⃣7️⃣
+TD7 📋> ␅
+TD16 ␆9️⃣5️⃣
+TD7 📋> 9️⃣5️⃣
+TD5 📋> ␅
+TD14 ␆m-w.com/games/quordle/
+TD6 📋> m-w.com/games/quordle/
+TD5 📋> ␅
+TD290991 ␆
+TD147 📋> 
+TD18 📋> ␅
+TD455867 ␄
+TD376 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1716\n4\ufe0f\u20e37\ufe0f\u20e3\n9\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2372 result: "\ud83d\ude42 Daily Quordle 1716\n4\ufe0f\u20e37\ufe0f\u20e3\n9\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD176 📆 2026-10-06 ? ␅
+TD331029 ␆
+TD154 📆 2026-10-06 ? 
