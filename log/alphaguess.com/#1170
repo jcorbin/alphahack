@@ -1,0 +1,86 @@
+T13157.495307670004 now: 2026-10-06T09:27:34EDT
+TD127 site: alphaguess.com
+TD250850 loaded 196512 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (92 words excluded) asof 8abb4fecb88323d109cfec2e5f59edfac685aa54
+TD131  ...␅
+TD837338 ␆
+TD109  ...
+TD176 [0 : 98142 : 196512] mac? ␅
+TD10023301 ␆b
+TD101 [0 : 98142 : 196512] mac? b
+TD112 progress: -1 98142 mac
+TD117 [0 : 47374 : 98142] dis? ␅
+TD2180947 ␆b
+TD112 [0 : 47374 : 98142] dis? b
+TD106 progress: -1 47374 dis
+TD133 [0 : 23680 : 47374] camp? ␅
+TD2464698 ␆b
+TD116 [0 : 23680 : 47374] camp? b
+TD118 progress: -1 23680 camp
+TD115 [0 : 11763 : 23680] back? ␅
+TD1600748 ␆a
+TD122 [0 : 11763 : 23680] back? a
+TD105 progress: 1 11763 back
+TD113 [11764 : 17714 : 23680] blind? ␅
+TD2005695 ␆b
+TD120 [11764 : 17714 : 23680] blind? b
+TD106 progress: -1 17714 blind
+TD123 [11764 : 13801 : 17714] be? ␅
+TD1815821 ␆a
+TD107 [11764 : 13801 : 17714] be? a
+TD107 progress: 1 13801 be
+TD170 [13802 : 15757 : 17714] bewrap? ␅
+TD3639478 ␆a
+TD122 [13802 : 15757 : 17714] bewrap? a
+TD103 progress: 1 15757 bewrap
+TD108 [15758 : 16727 : 17714] bios? ␅
+TD1859935 ␆a
+TD116 [15758 : 16727 : 17714] bios? a
+TD104 progress: 1 16727 bios
+TD203 [16728 : 17209 : 17714] blab? ␅
+TD1801600 ␆a
+TD108 [16728 : 17209 : 17714] blab? a
+TD134 progress: 1 17209 blab
+TD178 [17210 : 17458 : 17714] blarney? ␅
+TD1796264 ␆b
+TD115 [17210 : 17458 : 17714] blarney? b
+TD104 progress: -1 17458 blarney
+TD110 [17210 : 17222 : 17458] black? ␅
+TD2364929 ␆a
+TD110 [17210 : 17222 : 17458] black? a
+TD107 progress: 1 17222 black
+TD254 [17223 : 17341 : 17458] blacktop? ␅
+TD1768980 ␆a
+TD115 [17223 : 17341 : 17458] blacktop? a
+TD108 progress: 1 17341 blacktop
+TD110 [17342 : 17391 : 17458] blame? ␅
+TD1657315 ␆b
+TD105 [17342 : 17391 : 17458] blame? b
+TD107 progress: -1 17391 blame
+TD187 [17342 : 17359 : 17391] blade? ␅
+TD3879168 ␆it
+TD158 [17342 : 17359 : 17391] blade? it
+TD146 progress: 0 17359 blade
+TD36 [17342 : 17359 : 17391] <Done>.
+TD116 📋> ␅
+TD2742224 ␆🧩 Puzzle #1170
+TD134 📋> 🧩 Puzzle #1170
+TD18 📋> ␅
+TD55 ␆🤔 14 guesses
+TD11 📋> 🤔 14 guesses
+TD7 📋> ␅
+TD21 ␆⏱️ 27s
+TD11 📋> ⏱️ 27s
+TD7 📋> ␅
+TD253938 ␆🔗 alphaguess.com/1170
+TD133 📋> 🔗 alphaguess.com/1170
+TD13 📋> ␅
+TD152942 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1170\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 27s\n\ud83d\udd17 alphaguess.com/1170"}
+TD106 result: "\ud83e\udde9 Puzzle #1170\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 27s\n\ud83d\udd17 alphaguess.com/1170"
+TD17 result puzzle: 1170
+TD7 result guesses: 14
+TD5 result time: 27s
+TD5 result link: alphaguess.com/1170
+TD102 📆 2026-10-06 ? ␅
+TD215368 ␆
+TD100 📆 2026-10-06 ? 
