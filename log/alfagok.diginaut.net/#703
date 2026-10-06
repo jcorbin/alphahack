@@ -1,0 +1,62 @@
+T12802.339025402005 now: 2026-10-06T09:21:39EDT
+TD118 site: alfagok.diginaut.net
+TD682529 loaded 399457 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1395 words excluded) asof 8abb4fecb88323d109cfec2e5f59edfac685aa54
+TD143  ...␅
+TD6816885 ␆
+TD84  ...
+TD187 [0 : 199528 : 399457] lij? ␅
+TD2411364 ␆a
+TD118 [0 : 199528 : 399457] lij? a
+TD363 progress: 1 199528 lij
+TD130 [199529 : 299480 : 399457] schrok? ␅
+TD1683516 ␆a
+TD83 [199529 : 299480 : 399457] schrok? a
+TD96 progress: 1 299480 schrok
+TD85 [299481 : 349464 : 399457] vakanties? ␅
+TD1822630 ␆a
+TD113 [299481 : 349464 : 399457] vakanties? a
+TD109 progress: 1 349464 vakanties
+TD113 [349465 : 374458 : 399457] vrijsta? ␅
+TD2071993 ␆b
+TD101 [349465 : 374458 : 399457] vrijsta? b
+TD117 progress: -1 374458 vrijsta
+TD110 [349465 : 361903 : 374458] vervolg? ␅
+TD1691490 ␆a
+TD110 [349465 : 361903 : 374458] vervolg? a
+TD106 progress: 1 361903 vervolg
+TD109 [361904 : 368149 : 374458] voedsel? ␅
+TD1590771 ␆b
+TD121 [361904 : 368149 : 374458] voedsel? b
+TD111 progress: -1 368149 voedsel
+TD125 [361904 : 365008 : 368149] vind? ␅
+TD2584490 ␆a
+TD114 [361904 : 365008 : 368149] vind? a
+TD107 progress: 1 365008 vind
+TD109 [365009 : 366408 : 368149] vlees? ␅
+TD2701669 ␆it
+TD109 [365009 : 366408 : 368149] vlees? it
+TD112 progress: 0 366408 vlees
+TD27 [365009 : 366408 : 368149] <Done>.
+TD101 📋> ␅
+TD2705496 ␆🧩 Puzzel #703
+TD115 📋> 🧩 Puzzel #703
+TD14 📋> ␅
+TD44 ␆🤔 8 gokken
+TD7 📋> 🤔 8 gokken
+TD5 📋> ␅
+TD14 ␆⏱️ 14s
+TD7 📋> ⏱️ 14s
+TD6 📋> ␅
+TD251488 ␆🔗 alfagok.diginaut.net
+TD129 📋> 🔗 alfagok.diginaut.net
+TD16 📋> ␅
+TD627209 ␄
+TD194 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #703\n\ud83e\udd14 8 gokken\n\u23f1\ufe0f 14s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD767 result: "\ud83e\udde9 Puzzel #703\n\ud83e\udd14 8 gokken\n\u23f1\ufe0f 14s\n\ud83d\udd17 alfagok.diginaut.net"
+TD49 result puzzle: 703
+TD11 result guesses: 8
+TD7 result time: 14s
+TD7 result link: alfagok.diginaut.net
+TD97 📆 2026-10-06 ? ␅
+TD430065 ␆
+TD111 📆 2026-10-06 ? 
