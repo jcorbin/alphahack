@@ -1,0 +1,296 @@
+T215.9815225060156 now: 2026-10-07T09:41:53EDT
+TD57 site: squareword.org
+TD13 wordlist: nwl2023.txt
+TD18  ...␅
+TD5056092 ␆
+TD57  ...
+TD41 🧩  ? ␅
+TD4197994 ␆#1710
+TD127 🧩  ? #1710
+TD313 puzzle_id: #1710
+TD294 > ␅
+TD734920 ␆*
+TD130 > *
+TD172836 try? ␅
+TD573406 ␆1
+TD130 try? 1
+TD364 questioning: ["lares", "#5"]
+TD233 #1 <IndexError>  📋 "lares" ? ␅
+TD3769403 ␆_A_E_ 
+TD122 #1 <IndexError>  📋 "lares" ? _A_E_ 
+TD695 attempt 0 LARES n Y n Y n
+TD89 #2 <IndexError>  📋 "lares" ? ␅
+TD2116546 ␆_____ ~ LE
+TD89 #2 <IndexError>  📋 "lares" ? _____ ~ LE
+TD178 attempt 1 LARES m n n m n
+TD80 #3 <IndexError>  📋 "lares" ? ␅
+TD1813841 ␆_____ ~ A
+TD58 #3 <IndexError>  📋 "lares" ? _____ ~ A
+TD128 attempt 2 LARES n m n n n
+TD61 #4 <IndexError>  📋 "lares" ? ␅
+TD2669111 ␆___E_ ~ RES
+TD129 #4 <IndexError>  📋 "lares" ? ___E_ ~ RES
+TD305 attempt 3 LARES n n m Y m
+TD136 #5 <IndexError>  📋 "lares" ? ␅
+TD1956925 ␆_AR_S 
+TD115 #5 <IndexError>  📋 "lares" ? _AR_S 
+TD257 attempt 4 LARES n Y Y n Y
+TD334 ? ␅
+TD314039 ␆
+TD128 ? 
+TD162 question done
+TD299 > ␅
+TD1930959 ␆* 3
+TD85 > * 3
+TD345219 try? ␅
+TD2428789 ␄
+TD195 <EOF>
+TD364 > ␅
+TD1013988 ␆* 2
+TD135 > * 2
+TD98352 try? ␅
+TD1525983 ␄
+TD185 <EOF>
+TD358 > ␅
+TD1986237 ␆* 1
+TD146 > * 1
+TD66479 try? ␅
+TD789811 ␄
+TD168 <EOF>
+TD362 > ␅
+TD685172 ␆* 2
+TD127 > * 2
+TD2862 try? ␅
+TD5304959 ␆7
+TD154 try? 7
+TD355 questioning: ["inkle", "#2"]
+TD305 #1 _A_E_ -LRS  📋 "inkle" ? ␅
+TD5150266 ␆_A_E_ ~ N
+TD134 #1 _A_E_ -LRS  📋 "inkle" ? _A_E_ ~ N
+TD290 attempt 0 INKLE n m n n n
+TD151 #2 _____ ~EL -ARS  📋 "inkle" ? ␅
+TD2565058 ␆____E ~ LEI
+TD134 #2 _____ ~EL -ARS  📋 "inkle" ? ____E ~ LEI
+TD343 attempt 1 INKLE m n n m Y
+TD184 #3 _____ ~A -ELRS  📋 "inkle" ? ␅
+TD2551458 ␆_____ ~ AN
+TD138 #3 _____ ~A -ELRS  📋 "inkle" ? _____ ~ AN
+TD283 attempt 2 INKLE n m n n n
+TD184 #4 ___E_ ~RS -AL  📋 "inkle" ? ␅
+TD5920137 ␆___E_ ~ RES
+TD116 #4 ___E_ ~RS -AL  📋 "inkle" ? ___E_ ~ RES
+TD191 attempt 3 INKLE n n n n m
+TD109 #5 _AR_S -EL  📋 "inkle" ? ␅
+TD1990017 ␆.
+TD132 #5 _AR_S -EL  📋 "inkle" ? .
+TD315 attempt 4 INKLE n n n n n
+TD320 ? ␅
+TD199727 ␆
+TD150 ? 
+TD126 question done
+TD300 > ␅
+TD448630 ␆*
+TD122 > *
+TD431405 try? ␅
+TD804277 ␄
+TD172 <EOF>
+TD357 > ␅
+TD1764739 ␆* 3
+TD126 > * 3
+TD3309 try? ␅
+TD7704721 ␆2
+TD153 try? 2
+TD332 questioning: ["tonga", "#3"]
+TD321 #1 _A_E_ ~N -EIKLRS  📋 "tonga" ? ␅
+TD4381621 ␆.
+TD149 #1 _A_E_ ~N -EIKLRS  📋 "tonga" ? .
+TD288 attempt 0 TONGA n n m n n
+TD107 #2 ____E ~IL -AKNRS  📋 "tonga" ? ␅
+TD3736004 ␆____E ~ LEI
+TD131 #2 ____E ~IL -AKNRS  📋 "tonga" ? ____E ~ LEI
+TD449 attempt 1 TONGA n n n n n
+TD314 #3 _____ ~AN -EIKLRS  📋 "tonga" ? ␅
+TD1459586 ␆_ONGA
+TD91 #3 _____ ~AN -EIKLRS  📋 "tonga" ? _ONGA
+TD221 attempt 2 TONGA n Y Y Y Y
+TD139 #4 ___E_ ~RS -AIKLN  📋 "tonga" ? ␅
+TD3824610 ␆___E_ ~ RES
+TD90 #4 ___E_ ~RS -AIKLN  📋 "tonga" ? ___E_ ~ RES
+TD211 attempt 3 TONGA n n n n n
+TD129 #5 _AR_S -EIKLN  📋 "tonga" ? ␅
+TD1466296 ␆.
+TD125 #5 _AR_S -EIKLN  📋 "tonga" ? .
+TD304 attempt 4 TONGA n n n n n
+TD275 ? ␅
+TD163741 ␆
+TD109 ? 
+TD98 question done
+TD212 > ␅
+TD410291 ␆*
+TD144 > *
+TD603521 questioning: ["elide", "#2"]
+TD157 #1 _A_E_ ~N -AEGIKLORST  📋 "elide" ? ␅
+TD5092123 ␆_A_E_ ~ ND
+TD208 #1 _A_E_ ~N -AEGIKLORST  📋 "elide" ? _A_E_ ~ ND
+TD262 attempt 0 ELIDE n n n m n
+TD165 #2 ____E ~IL -AGKNORST  📋 "elide" ? ␅
+TD920813 ␆/it
+TD127 #2 ____E ~IL -AGKNORST  📋 "elide" ? /it
+TD279 attempt 1 ELIDE Y Y Y Y Y
+TD106 #3 _ONGA -EIKLRST  📋 "elide" ? ␅
+TD1724015 ␆.
+TD86 #3 _ONGA -EIKLRST  📋 "elide" ? .
+TD239 attempt 2 ELIDE n n n n n
+TD96 #4 ___E_ ~RS -AGIKLNOT  📋 "elide" ? ␅
+TD3119894 ␆___E_ ~ RES
+TD124 #4 ___E_ ~RS -AGIKLNOT  📋 "elide" ? ___E_ ~ RES
+TD268 attempt 3 ELIDE m n n n m
+TD155 #5 _AR_S -AEGIKLNOT  📋 "elide" ? ␅
+TD2603720 ␆_ARDS
+TD132 #5 _AR_S -AEGIKLNOT  📋 "elide" ? _ARDS
+TD266 attempt 4 ELIDE n n n Y n
+TD384 ? ␅
+TD306104 ␆
+TD121 ? 
+TD139 question done
+TD296 > ␅
+TD442950 ␆*
+TD184 > *
+TD1499656 questioning: ["named", "#1"]
+TD175 #1 _A_E_ ~DN -AEGIKLORST  📋 "named" ? ␅
+TD2703475 ␆/it
+TD114 #1 _A_E_ ~DN -AEGIKLORST  📋 "named" ? /it
+TD291 attempt 0 NAMED Y Y Y Y Y
+TD107 #3 _ONGA -DEIKLRST  📋 "named" ? ␅
+TD1352347 ␆.
+TD136 #3 _ONGA -DEIKLRST  📋 "named" ? .
+TD283 attempt 2 NAMED n n n n n
+TD107 #4 ___E_ ~RS -ADGIKLNOT  📋 "named" ? ␅
+TD3254240 ␆___E_ ~ RES
+TD131 #4 ___E_ ~RS -ADGIKLNOT  📋 "named" ? ___E_ ~ RES
+TD273 attempt 3 NAMED n n n Y n
+TD170 #5 _ARDS -AEGIKLNOT  📋 "named" ? ␅
+TD869975 ␆.
+TD122 #5 _ARDS -AEGIKLNOT  📋 "named" ? .
+TD300 attempt 4 NAMED n Y n n n
+TD309 ? ␅
+TD162838 ␆
+TD128 ? 
+TD124 question done
+TD336 > ␅
+TD397825 ␆*
+TD132 > *
+TD1534239 questioning: ["conga", "#3"]
+TD165 #3 _ONGA -ADEIKLMNRST  📋 "conga" ? ␅
+TD16803011 ␆.
+TD119 #3 _ONGA -ADEIKLMNRST  📋 "conga" ? .
+TD29426 attempt 2 CONGA n Y Y Y Y
+TD78 #4 ___E_ ~RS -ADGIKLMNOT  📋 "conga" ? ␅
+TD6633367 ␆___E_ ~ RES
+TD149 #4 ___E_ ~RS -ADGIKLMNOT  📋 "conga" ? ___E_ ~ RES
+TD279 attempt 3 CONGA n n n n n
+TD162 #5 _ARDS -DEGIKLMNOT  📋 "conga" ? ␅
+TD1367500 ␆.
+TD112 #5 _ARDS -DEGIKLMNOT  📋 "conga" ? .
+TD292 attempt 4 CONGA n n n n n
+TD340 ? ␅
+TD242247 ␆
+TD128 ? 
+TD129 question done
+TD306 > ␅
+TD437860 ␆*
+TD128 > *
+TD1554660 questioning: ["sheer", "#4"]
+TD178 #3 _ONGA -CDEIKLMRST  📋 "sheer" ? ␅
+TD4342154 ␆.
+TD115 #3 _ONGA -CDEIKLMRST  📋 "sheer" ? .
+TD297 attempt 2 SHEER n n n n n
+TD117 #4 ___E_ ~RS -ACDGIKLMNOT  📋 "sheer" ? ␅
+TD744274 ␆/it
+TD139 #4 ___E_ ~RS -ACDGIKLMNOT  📋 "sheer" ? /it
+TD278 attempt 3 SHEER Y Y Y Y Y
+TD127 #5 _ARDS -ACDEGIKLMNOT  📋 "sheer" ? ␅
+TD961373 ␆.
+TD124 #5 _ARDS -ACDEGIKLMNOT  📋 "sheer" ? .
+TD293 attempt 4 SHEER n n n n n
+TD371 ? ␅
+TD175158 ␆
+TD122 ? 
+TD121 question done
+TD285 > ␅
+TD413165 ␆*
+TD135 > *
+TD1175700 questioning: ["yards", "#5"]
+TD189 #3 _ONGA -CDEHIKLMRST  📋 "yards" ? ␅
+TD3042248 ␆.
+TD122 #3 _ONGA -CDEHIKLMRST  📋 "yards" ? .
+TD286 attempt 2 YARDS n n n n n
+TD107 #5 _ARDS -ACDEGHIKLMNORST  📋 "yards" ? ␅
+TD1122577 ␆/it
+TD133 #5 _ARDS -ACDEGHIKLMNORST  📋 "yards" ? /it
+TD273 attempt 4 YARDS Y Y Y Y Y
+TD317 ? ␅
+TD481422 ␆
+TD132 ? 
+TD122 question done
+TD333 > ␅
+TD659979 ␆*
+TD134 > *
+TD381719 > ␅
+TD7688534 ␆?
+TD133 > ?
+TD679 > ␅
+TD5567707 ␆/man 
+TD133 > /man 
+TD480 > ␅
+TD5092880 ␆/man 3 _ONGA
+TD128 > /man 3 _ONGA
+TD385646 > ␅
+TD45563374 ␆wonga
+TD142 > wonga
+TD516 questioning: ["wonga", "entered"]
+TD325 #3 _ONGA -ACDEHIKLMRSTY  📋 "wonga" ? ␅
+TD1370833 ␆/it
+TD129 #3 _ONGA -ACDEHIKLMRSTY  📋 "wonga" ? /it
+TD275 attempt 2 WONGA Y Y Y Y Y
+TD411 ? ␅
+TD1218153 ␆
+TD129 ? 
+TD124 question done
+TD18949 📋> ␅
+TD4653515 ␆squareword.org 1710: 11 guesses
+TD141 📋> squareword.org 1710: 11 guesses
+TD14 📋> ␅
+TD52 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD14 ␆🟧🟩🟩🟩🟩
+TD10 📋> 🟧🟩🟩🟩🟩
+TD8 📋> ␅
+TD18 ␆🟨🟨🟨🟩🟨
+TD6 📋> 🟨🟨🟨🟩🟨
+TD4 📋> ␅
+TD12 ␆🟨🟩🟩🟩🟩
+TD5 📋> 🟨🟩🟩🟩🟩
+TD5 📋> ␅
+TD13 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD380425 ␆#squareword #squareword1710
+TD139 📋> #squareword #squareword1710
+TD15 📋> ␅
+TD230972 ␄
+TD220 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1710: 11 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1710"}
+TD997 result: "squareword.org 1710: 11 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe7\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1710"
+TD175 📆 2026-10-07 ? ␅
+TD946720 ␆
+TD135 📆 2026-10-07 ? 
