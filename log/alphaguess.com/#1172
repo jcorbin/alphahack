@@ -1,0 +1,86 @@
+T165.75088311799936 now: 2026-10-08T09:44:43EDT
+TD84 site: alphaguess.com
+TD109960 loaded 196512 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (92 words excluded) asof cf7318f54fa978b39ebf55cfb79deebd1fa48427
+TD81  ...␅
+TD4222333 ␆
+TD84  ...
+TD149 [0 : 98142 : 196512] mac? ␅
+TD2126003 ␆b
+TD131 [0 : 98142 : 196512] mac? b
+TD110 progress: -1 98142 mac
+TD121 [0 : 47374 : 98142] dis? ␅
+TD1472685 ␆a
+TD109 [0 : 47374 : 98142] dis? a
+TD112 progress: 1 47374 dis
+TD120 [47375 : 72657 : 98142] green? ␅
+TD1637087 ␆b
+TD110 [47375 : 72657 : 98142] green? b
+TD111 progress: -1 72657 green
+TD221 [47375 : 60013 : 72657] eyewitness? ␅
+TD1352091 ␆a
+TD106 [47375 : 60013 : 72657] eyewitness? a
+TD111 progress: 1 60013 eyewitness
+TD110 [60014 : 66305 : 72657] free? ␅
+TD1408235 ␆b
+TD108 [60014 : 66305 : 72657] free? b
+TD128 progress: -1 66305 free
+TD114 [60014 : 63147 : 66305] fix? ␅
+TD1357192 ␆a
+TD110 [60014 : 63147 : 66305] fix? a
+TD111 progress: 1 63147 fix
+TD113 [63148 : 64721 : 66305] fold? ␅
+TD1392059 ␆b
+TD113 [63148 : 64721 : 66305] fold? b
+TD108 progress: -1 64721 fold
+TD133 [63148 : 63925 : 64721] flirt? ␅
+TD1479664 ␆b
+TD112 [63148 : 63925 : 64721] flirt? b
+TD116 progress: -1 63925 flirt
+TD149 [63148 : 63472 : 63925] flat? ␅
+TD1572243 ␆a
+TD82 [63148 : 63472 : 63925] flat? a
+TD89 progress: 1 63472 flat
+TD95 [63473 : 63690 : 63925] flee? ␅
+TD1239847 ␆a
+TD97 [63473 : 63690 : 63925] flee? a
+TD92 progress: 1 63690 flee
+TD88 [63691 : 63781 : 63925] flex? ␅
+TD1333836 ␆a
+TD111 [63691 : 63781 : 63925] flex? a
+TD112 progress: 1 63781 flex
+TD114 [63782 : 63845 : 63925] flight? ␅
+TD1246450 ␆b
+TD76 [63782 : 63845 : 63925] flight? b
+TD92 progress: -1 63845 flight
+TD201 [63782 : 63813 : 63845] flexures? ␅
+TD1311087 ␆a
+TD110 [63782 : 63813 : 63845] flexures? a
+TD133 progress: 1 63813 flexures
+TD151 [63814 : 63826 : 63845] flick? ␅
+TD2737997 ␆it
+TD76 [63814 : 63826 : 63845] flick? it
+TD88 progress: 0 63826 flick
+TD23 [63814 : 63826 : 63845] <Done>.
+TD71 📋> ␅
+TD2724782 ␆🧩 Puzzle #1172
+TD93 📋> 🧩 Puzzle #1172
+TD8 📋> ␅
+TD34 ␆🤔 14 guesses
+TD4 📋> 🤔 14 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 18s
+TD3 📋> ⏱️ 18s
+TD2 📋> ␅
+TD212542 ␆🔗 alphaguess.com/1172
+TD102 📋> 🔗 alphaguess.com/1172
+TD9 📋> ␅
+TD122314 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1172\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1172"}
+TD86 result: "\ud83e\udde9 Puzzle #1172\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1172"
+TD10 result puzzle: 1172
+TD4 result guesses: 14
+TD3 result time: 18s
+TD2 result link: alphaguess.com/1172
+TD82 📆 2026-10-08 ? ␅
+TD152094 ␆
+TD111 📆 2026-10-08 ? 
