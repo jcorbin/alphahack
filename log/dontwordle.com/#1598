@@ -1,0 +1,172 @@
+T242.82700460599972 now: 2026-10-08T09:46:00EDT
+TD128 site: dontwordle.com
+TD21 wordlist: nwl2023.txt
+TD40  ...␅
+TD3996160 ␆
+TD137  ...
+TD132 1> ␅
+TD1613444 ␆*
+TD109 1> *
+TD144518 ? ␅
+TD538841 ␄
+TD146 <EOF>
+TD121 1> ␅
+TD1779385 ␆* -bot 10
+TD109 1> * -bot 10
+TD101902 ? ␅
+TD1091090 ␆1
+TD111 ? 1
+TD197 📋 "toeas" ? ␅
+TD4739518 ␆YnYnn
+TD110 📋 "toeas" ? YnYnn
+TD671 tried: TOEAS Y n Y n n
+TD239 2> ␅
+TD749416 ␆undo
+TD108 2> undo
+TD155 undo
+TD147 1> ␅
+TD2562461 ␆*
+TD107 1> *
+TD113204 ? ␅
+TD68541 ␆1
+TD47 ? 1
+TD161 📋 "bobby" ? ␅
+TD4279042 ␆nnnnn
+TD115 📋 "bobby" ? nnnnn
+TD224 tried: BOBBY n n n n n
+TD188 2> ␅
+TD9579114 ␆* :v [toeas] -bot 10
+TD128 2> * :v [toeas] -bot 10
+TD74012 ? ␅
+TD2500939 ␆3
+TD131 ? 3
+TD349 📋 "cumin" ? ␅
+TD4306719 ␆nnnnn
+TD115 📋 "cumin" ? nnnnn
+TD220 tried: CUMIN n n n n n
+TD193 3> ␅
+TD734027 ␆undo
+TD117 3> undo
+TD169 undo
+TD231 2> ␅
+TD9126089 ␆* :v [toeascumin] -bot 10
+TD107 2> * :v [toeascumin] -bot 10
+TD72481 📋 "grrrl" ? ␅
+TD1311916 ␄
+TD158 <EOF>
+TD173 2> ␅
+TD834727 ␆*
+TD108 2> *
+TD71133 ? ␅
+TD120524 ␆1
+TD112 ? 1
+TD263 📋 "mamma" ? ␅
+TD5728712 ␆nnnnn
+TD115 📋 "mamma" ? nnnnn
+TD237 tried: MAMMA n n n n n
+TD284 3> ␅
+TD433765 ␆*
+TD113 3> *
+TD67347 ? ␅
+TD115797 ␆1
+TD114 ? 1
+TD256 📋 "vivid" ? ␅
+TD3647503 ␆nnnnn
+TD113 📋 "vivid" ? nnnnn
+TD222 tried: VIVID n n n n n
+TD183 4> ␅
+TD411857 ␆*
+TD86 4> *
+TD70172 ? ␅
+TD94678 ␆1
+TD103 ? 1
+TD258 📋 "lulus" ? ␅
+TD4223735 ␆nnnnn
+TD89 📋 "lulus" ? nnnnn
+TD169 tried: LULUS n n n n n
+TD196 5> ␅
+TD426811 ␆*
+TD116 5> *
+TD128794 ? ␅
+TD39520 ␆1
+TD111 ? 1
+TD248 📋 "crwth" ? ␅
+TD6963806 ␆nnnYY
+TD113 📋 "crwth" ? nnnYY
+TD213 tried: CRWTH n n n Y Y
+TD209 6> ␅
+TD765178 ␆undo
+TD107 6> undo
+TD151 undo
+TD273 5> ␅
+TD417290 ␆*
+TD97 5> *
+TD130347 ? ␅
+TD853075 ␆1
+TD110 ? 1
+TD251 📋 "creek" ? ␅
+TD8002544 ␆nnYMn
+TD109 📋 "creek" ? nnYMn
+TD213 tried: CREEK n n Y m n
+TD226 6> ␅
+TD502309 ␆*
+TD107 6> *
+TD125797 ? ␅
+TD1076274 ␆1
+TD110 ? 1
+TD246 📋 "feeze" ? ␅
+TD3804687 ␆nYYnn
+TD80 📋 "feeze" ? nYYnn
+TD152 tried: FEEZE n Y Y n n
+TD126 📋> ␅
+TD2639847 ␆Don't Wordle 1598 - SURVIVED
+TD51 📋> Don't Wordle 1598 - SURVIVED
+TD5 📋> ␅
+TD21 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD3 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD2 📋> ␅
+TD6 ␆⬜⬜⬜⬜⬜6682
+TD2 📋> ⬜⬜⬜⬜⬜6682
+TD1 📋> ␅
+TD4 ␆⬜⬜⬜⬜⬜2783
+TD1 📋> ⬜⬜⬜⬜⬜2783
+TD1 📋> ␅
+TD3 ␆⬜⬜⬜⬜⬜1028
+TD1 📋> ⬜⬜⬜⬜⬜1028
+TD1 📋> ␅
+TD3 ␆⬜⬜⬜⬜⬜131
+TD1 📋> ⬜⬜⬜⬜⬜131
+TD1 📋> ␅
+TD4 ␆⬜⬜🟩🟨⬜10
+TD2 📋> ⬜⬜🟩🟨⬜10
+TD1 📋> ␅
+TD3 ␆⬜🟩🟩⬜⬜1
+TD1 📋> ⬜🟩🟩⬜⬜1
+TD1 📋> ␅
+TD4 ␆Undos used: 3
+TD1 📋> Undos used: 3
+TD2 📋> ␅
+TD3 ␆
+TD2 📋> 
+TD1 📋> ␅
+TD3 ␆  1 words remaining
+TD1 📋>   1 words remaining
+TD1 📋> ␅
+TD3 ␆x 9 unused letters
+TD1 📋> x 9 unused letters
+TD1 📋> ␅
+TD3 ␆= 9 total score
+TD1 📋> = 9 total score
+TD1 📋> ␅
+TD3 ␆
+TD1 📋> 
+TD1 📋> ␅
+TD272223 ␆https://dontwordle.com
+TD95 📋> https://dontwordle.com
+TD13 📋> ␅
+TD161361 ␄
+TD189 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1598 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6682\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2783\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1028\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c131\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c10\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 9 unused letters\n= 9 total score\n\nhttps://dontwordle.com"}
+TD1151 result: "Don't Wordle 1598 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6682\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2783\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1028\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c131\n\u2b1c\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c10\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 9 unused letters\n= 9 total score\n\nhttps://dontwordle.com"
+TD78 📆 2026-10-08 ? ␅
+TD238584 ␆
+TD113 📆 2026-10-08 ? 
