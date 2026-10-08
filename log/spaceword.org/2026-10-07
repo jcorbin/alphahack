@@ -5561,3 +5561,7 @@ TD13 📋> ␅
 TD197119 ␄
 TD150 pasted: {"subject": "final share result", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-10-07 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Final Rank: 39/317 \ud83c\udf8a\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"}
 TD173 result: "\u2728 Spaceword.org Daily 2026-10-07 \u2728\n\n\ud83c\udfc6 Score: 2173\n\ud83c\udfc5 Final Rank: 39/317 \ud83c\udf8a\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +73\n\n\nPlay at https://spaceword.org\n#spaceword"
+T22.54335835099937 now: 2026-10-08T09:42:20EDT
+TD435 [f]inalize, [a]rchive, [r]emove, or [c]ontinue? ␅
+TD594072 ␆fin
+TD114 [f]inalize, [a]rchive, [r]emove, or [c]ontinue? fin
