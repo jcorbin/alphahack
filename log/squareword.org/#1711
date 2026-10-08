@@ -1,0 +1,234 @@
+T344.4364214289999 now: 2026-10-08T09:58:22EDT
+TD94 site: squareword.org
+TD18 wordlist: nwl2023.txt
+TD23  ...␅
+TD4553235 ␆
+TD88  ...
+TD55 🧩  ? ␅
+TD2100243 ␆#1711
+TD117 🧩  ? #1711
+TD324 puzzle_id: #1711
+TD181 > ␅
+TD661706 ␆
+TD112 > 
+TD405 > ␅
+TD1789524 ␆*
+TD141 > *
+TD165797 try? ␅
+TD964746 ␆1
+TD163 try? 1
+TD369 questioning: ["snare", "#5"]
+TD323 #1 <IndexError>  📋 "snare" ? ␅
+TD3748807 ␆S__RE
+TD111 #1 <IndexError>  📋 "snare" ? S__RE
+TD705 attempt 0 SNARE Y n n Y Y
+TD126 #2 <IndexError>  📋 "snare" ? ␅
+TD2131331 ␆_____ ~ NA
+TD112 #2 <IndexError>  📋 "snare" ? _____ ~ NA
+TD346 attempt 1 SNARE n m m n n
+TD143 #3 <IndexError>  📋 "snare" ? ␅
+TD1848296 ␆_____ ~ NE
+TD107 #3 <IndexError>  📋 "snare" ? _____ ~ NE
+TD297 attempt 2 SNARE n m n n m
+TD143 #4 <IndexError>  📋 "snare" ? ␅
+TD5559244 ␆____E ~ AR
+TD113 #4 <IndexError>  📋 "snare" ? ____E ~ AR
+TD263 attempt 3 SNARE n n m m Y
+TD129 #5 <IndexError>  📋 "snare" ? ␅
+TD2612485 ␆_____ ~ SARE
+TD77 #5 <IndexError>  📋 "snare" ? _____ ~ SARE
+TD204 attempt 4 SNARE m n m m m
+TD275 ? ␅
+TD552678 ␆
+TD112 ? 
+TD179 question done
+TD338 > ␅
+TD671036 ␆*
+TD116 > *
+TD617142 try? ␅
+TD1598109 ␄
+TD153 <EOF>
+TD381 > ␅
+TD1106905 ␆* 2
+TD109 > * 2
+TD4853 try? ␅
+TD1108963 ␄
+TD144 <EOF>
+TD372 > ␅
+TD673636 ␆* 3
+TD111 > * 3
+TD4409 try? ␅
+TD3983788 ␆2
+TD118 try? 2
+TD324 questioning: ["ident", "#3"]
+TD370 #1 S__RE -AN  📋 "ident" ? ␅
+TD5584097 ␄
+TD109 question done
+TD264 > ␅
+TD880123 ␆* 3
+TD124 > * 3
+TD4185 try? ␅
+TD4626228 ␆3
+TD111 try? 3
+TD333 questioning: ["pined", "#3"]
+TD336 #1 S__RE -AN  📋 "pined" ? ␅
+TD5733901 ␆S__RE ~ PI
+TD107 #1 S__RE -AN  📋 "pined" ? S__RE ~ PI
+TD274 attempt 0 PINED m m n n n
+TD160 #2 _____ ~AN -ERS  📋 "pined" ? ␅
+TD2454804 ␆__N__ ~ A
+TD114 #2 _____ ~AN -ERS  📋 "pined" ? __N__ ~ A
+TD263 attempt 1 PINED n n Y n n
+TD179 #3 _____ ~EN -ARS  📋 "pined" ? ␅
+TD3432850 ␆____D ~ NEP
+TD131 #3 _____ ~EN -ARS  📋 "pined" ? ____D ~ NEP
+TD262 attempt 2 PINED m n m m Y
+TD159 #4 ____E ~AR -NS  📋 "pined" ? ␅
+TD2570782 ␆.
+TD106 #4 ____E ~AR -NS  📋 "pined" ? .
+TD301 attempt 3 PINED n n n n n
+TD103 #5 _____ ~AERS -N  📋 "pined" ? ␅
+TD3324496 ␆___E_ ~ SAR
+TD98 #5 _____ ~AERS -N  📋 "pined" ? ___E_ ~ SAR
+TD269 attempt 4 PINED n n n Y n
+TD350 ? ␅
+TD439715 ␆
+TD112 ? 
+TD128 question done
+TD313 > ␅
+TD494479 ␆*
+TD111 > *
+TD536038 questioning: ["spire", "#1"]
+TD171 #1 S__RE ~IP -ADEN  📋 "spire" ? ␅
+TD2961516 ␆/it
+TD119 #1 S__RE ~IP -ADEN  📋 "spire" ? /it
+TD275 attempt 0 SPIRE Y Y Y Y Y
+TD201 #2 __N__ ~A -DEIPRS  📋 "spire" ? ␅
+TD1768217 ␆.
+TD111 #2 __N__ ~A -DEIPRS  📋 "spire" ? .
+TD283 attempt 1 SPIRE n n n n n
+TD100 #3 ____D ~ENP -AIRS  📋 "spire" ? ␅
+TD2984508 ␆_P__D ~ NE
+TD115 #3 ____D ~ENP -AIRS  📋 "spire" ? _P__D ~ NE
+TD273 attempt 2 SPIRE n Y n n m
+TD167 #4 ____E ~AR -DEINPS  📋 "spire" ? ␅
+TD1605439 ␆.
+TD114 #4 ____E ~AR -DEINPS  📋 "spire" ? .
+TD285 attempt 3 SPIRE n n n m Y
+TD99 #5 ___E_ ~ARS -DINP  📋 "spire" ? ␅
+TD1778033 ␆.
+TD139 #5 ___E_ ~ARS -DINP  📋 "spire" ? .
+TD275 attempt 4 SPIRE m n n m n
+TD276 ? ␅
+TD206645 ␆
+TD118 ? 
+TD121 question done
+TD293 > ␅
+TD441590 ␆*
+TD106 > *
+TD274468 questioning: ["upend", "#3"]
+TD206 #2 __N__ ~A -DEIPRS  📋 "upend" ? ␅
+TD4294358 ␆.
+TD106 #2 __N__ ~A -DEIPRS  📋 "upend" ? .
+TD285 attempt 1 UPEND n n n n n
+TD132 #3 _P__D ~EN -AIRS  📋 "upend" ? ␅
+TD1387703 ␆/it
+TD107 #3 _P__D ~EN -AIRS  📋 "upend" ? /it
+TD245 attempt 2 UPEND Y Y Y Y Y
+TD71 #4 ____E ~AR -DINPS  📋 "upend" ? ␅
+TD1607053 ␆.
+TD107 #4 ____E ~AR -DINPS  📋 "upend" ? .
+TD281 attempt 3 UPEND n n n n n
+TD112 #5 ___E_ ~ARS -DEINP  📋 "upend" ? ␅
+TD1506486 ␆.
+TD110 #5 ___E_ ~ARS -DEINP  📋 "upend" ? .
+TD267 attempt 4 UPEND n n n n n
+TD288 ? ␅
+TD172716 ␆
+TD130 ? 
+TD121 question done
+TD233 > ␅
+TD505073 ␆*
+TD112 > *
+TD613178 questioning: ["aster", "#5"]
+TD161 #2 __N__ ~A -DEINPRSU  📋 "aster" ? ␅
+TD4054184 ␆.
+TD107 #2 __N__ ~A -DEINPRSU  📋 "aster" ? .
+TD319 attempt 1 ASTER m n n n n
+TD117 #4 ____E ~AR -DEINPSU  📋 "aster" ? ␅
+TD1750501 ␆.
+TD106 #4 ____E ~AR -DEINPSU  📋 "aster" ? .
+TD268 attempt 3 ASTER m n n n m
+TD101 #5 ___E_ ~ARS -DEINPU  📋 "aster" ? ␅
+TD612623 ␆/it
+TD99 #5 ___E_ ~ARS -DEINPU  📋 "aster" ? /it
+TD178 attempt 4 ASTER Y Y Y Y Y
+TD148 ? ␅
+TD139425 ␆
+TD109 ? 
+TD128 question done
+TD301 > ␅
+TD381205 ␆*
+TD109 > *
+TD1140427 questioning: ["canal", "#2"]
+TD182 #2 __N__ ~A -DEINPRSTU  📋 "canal" ? ␅
+TD2970434 ␆/it
+TD108 #2 __N__ ~A -DEINPRSTU  📋 "canal" ? /it
+TD285 attempt 1 CANAL Y Y Y Y Y
+TD213 #4 ____E ~AR -DEINPSTU  📋 "canal" ? ␅
+TD2381893 ␆_A__E ~ R
+TD119 #4 ____E ~AR -DEINPSTU  📋 "canal" ? _A__E ~ R
+TD268 attempt 3 CANAL n Y n n n
+TD228 ? ␅
+TD159868 ␆
+TD114 ? 
+TD126 question done
+TD330 > ␅
+TD376856 ␆*
+TD113 > *
+TD751615 questioning: ["barge", "#4"]
+TD160 #4 _A__E ~R -CDEILNPSTU  📋 "barge" ? ␅
+TD2375061 ␆/it
+TD106 #4 _A__E ~R -CDEILNPSTU  📋 "barge" ? /it
+TD269 attempt 3 BARGE Y Y Y Y Y
+TD373 ? ␅
+TD154739 ␆
+TD93 ? 
+TD107 question done
+TD17456 📋> ␅
+TD7437913 ␆squareword.org 1711: 7 guesses
+TD115 📋> squareword.org 1711: 7 guesses
+TD12 📋> ␅
+TD55 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD21 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD12 ␆🟨🟨🟩🟨🟨
+TD4 📋> 🟨🟨🟩🟨🟨
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD247115 ␆#squareword #squareword1711
+TD113 📋> #squareword #squareword1711
+TD12 📋> ␅
+TD179971 ␄
+TD194 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1711: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1711"}
+TD696 result: "squareword.org 1711: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1711"
+TD66 📆 2026-10-08 ? ␅
+TD303423 ␆
+TD113 📆 2026-10-08 ? 
