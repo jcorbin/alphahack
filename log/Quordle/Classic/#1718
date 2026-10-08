@@ -1,0 +1,239 @@
+T525.6646503869997 now: 2026-10-08T09:50:43EDT
+TD68 site: https://www.merriam-webster.com/games/quordle/#/
+TD11 wordlist: nwl2023.txt
+TD3 num_words: 4
+TD73  ...␅
+TD558916 ␆
+TD107  ...
+TD289736 > ␅
+TD8298239 ␆*
+TD103 > *
+TD34244 ? ␅
+TD663346 ␆1
+TD51 ? 1
+TD92 questioning: osier
+TD87 Classic #1 _____? ␅
+TD2993592 ␆nnMnn
+TD124 Classic #1 _____? nnMnn
+TD487 attempt: 0 OSIER n n m n n
+TD91 Classic #2 _____? ␅
+TD3045095 ␆MnnYY
+TD105 Classic #2 _____? MnnYY
+TD266 attempt: 1 OSIER m n n Y Y
+TD109 Classic #3 _____? ␅
+TD4337031 ␆MnnnM
+TD78 Classic #3 _____? MnnnM
+TD152 attempt: 2 OSIER m n n n m
+TD67 Classic #4 _____? ␅
+TD1578450 ␆nMnYM
+TD55 Classic #4 _____? nMnYM
+TD110 attempt: 3 OSIER n m n Y m
+TD298842 > ␅
+TD739384 ␆*
+TD72 > *
+TD2013 ? ␅
+TD3326173 ␆5
+TD81 ? 5
+TD144 questioning: kinda
+TD145 Classic #1 _____ ~I -EORS? ␅
+TD2935294 ␆nYYnn
+TD83 Classic #1 _____ ~I -EORS? nYYnn
+TD157 attempt: 0 KINDA n Y Y n n
+TD73 Classic #2 ___ER ~O -IS? ␅
+TD1505399 ␆nnnnn
+TD87 Classic #2 ___ER ~O -IS? nnnnn
+TD153 attempt: 1 KINDA n n n n n
+TD75 Classic #3 _____ ~OR -EIS? ␅
+TD1607046 ␆nnnMn
+TD77 Classic #3 _____ ~OR -EIS? nnnMn
+TD153 attempt: 2 KINDA n n n m n
+TD75 Classic #4 ___E_ ~RS -IO? ␅
+TD1046306 ␆nnnnn
+TD84 Classic #4 ___E_ ~RS -IO? nnnnn
+TD150 attempt: 3 KINDA n n n n n
+TD302985 > ␅
+TD786947 ␆*
+TD84 > *
+TD1004 ? ␅
+TD3482053 ␆6
+TD91 ? 6
+TD138 questioning: urges
+TD120 Classic #1 _IN__ -ADEKORS? ␅
+TD4003823 ␆nnnnn
+TD91 Classic #1 _IN__ -ADEKORS? nnnnn
+TD152 attempt: 0 URGES n n n n n
+TD73 Classic #2 ___ER ~O -ADIKNS? ␅
+TD1528449 ␆nMnYn
+TD51 Classic #2 ___ER ~O -ADIKNS? nMnYn
+TD107 attempt: 1 URGES n m n Y n
+TD51 Classic #3 _____ ~DOR -AEIKNS? ␅
+TD1635434 ␆nYnnn
+TD115 Classic #3 _____ ~DOR -AEIKNS? nYnnn
+TD255 attempt: 2 URGES n Y n n n
+TD120 Classic #4 ___E_ ~RS -ADIKNO? ␅
+TD1745453 ␆nMnYM
+TD85 Classic #4 ___E_ ~RS -ADIKNO? nMnYM
+TD170 attempt: 3 URGES n m n Y m
+TD272774 > ␅
+TD636438 ␆*
+TD82 > *
+TD676 ? ␅
+TD1617760 ␄
+TD106 <EOF>
+TD275626 > ␅
+TD1390186 ␆probe
+TD81 > probe
+TD339700 > ␅
+TD10816842 ␆tried forex
+TD82 > tried forex
+TD265 questioning: FOREX
+TD267 Classic #1 _IN__ -ADEGKORSU? ␅
+TD3429981 ␆nnnnn
+TD80 Classic #1 _IN__ -ADEGKORSU? nnnnn
+TD174 attempt: 0 FOREX n n n n n
+TD88 Classic #2 ___ER ~O -ADGIKNSU? ␅
+TD1747562 ␆nYMYn
+TD113 Classic #2 ___ER ~O -ADGIKNSU? nYMYn
+TD187 attempt: 1 FOREX n Y m Y n
+TD87 Classic #3 _R___ ~DO -AEGIKNSU? ␅
+TD1437856 ␆nMMnn
+TD144 Classic #3 _R___ ~DO -AEGIKNSU? nMMnn
+TD293 attempt: 2 FOREX n m m n n
+TD374 Classic #4 ___E_ ~RS -ADGIKNOU? ␅
+TD1556434 ␆nnMYn
+TD83 Classic #4 ___E_ ~RS -ADGIKNOU? nnMYn
+TD154 attempt: 3 FOREX n n m Y n
+TD267148 > ␅
+TD776284 ␆*
+TD49 > *
+TD283 ? ␅
+TD3319318 ␆1
+TD84 ? 1
+TD136 questioning: reset
+TD140 Classic #1 _IN__ -ADEFGKORSUX? ␅
+TD5032227 ␆nnnnM
+TD76 Classic #1 _IN__ -ADEFGKORSUX? nnnnM
+TD192 attempt: 0 RESET n n n n m
+TD100 Classic #2 _O_ER -ADFGIKNSUX? ␅
+TD1522577 ␆YnnYn
+TD80 Classic #2 _O_ER -ADFGIKNSUX? YnnYn
+TD153 attempt: 1 RESET Y n n Y n
+TD78 Classic #3 _R___ ~DO -AEFGIKNSUX? ␅
+TD1456593 ␆Mnnnn
+TD51 Classic #3 _R___ ~DO -AEFGIKNSUX? Mnnnn
+TD105 attempt: 2 RESET m n n n n
+TD53 Classic #4 ___E_ ~RS -ADFGIKNOUX? ␅
+TD1181806 ␆YYYYY
+TD81 Classic #4 ___E_ ~RS -ADFGIKNOUX? YYYYY
+TD151 attempt: 3 RESET Y Y Y Y Y
+TD212899 > ␅
+TD652585 ␆*
+TD129 > *
+TD637 ? ␅
+TD4285644 ␄
+TD150 <EOF>
+TD206697 > ␅
+TD942677 ␆probe
+TD94 > probe
+TD285582 > ␅
+TD7201911 ␆tried paver
+TD82 > tried paver
+TD137 questioning: PAVER
+TD143 Classic #1 _IN__ ~T -ADEFGKORSUX? ␅
+TD3569559 ␆nnnnn
+TD54 Classic #1 _IN__ ~T -ADEFGKORSUX? nnnnn
+TD112 attempt: 0 PAVER n n n n n
+TD56 Classic #2 RO_ER -ADFGIKNSTUX? ␅
+TD1412608 ␆nnnYY
+TD79 Classic #2 RO_ER -ADFGIKNSTUX? nnnYY
+TD202 attempt: 1 PAVER n n n Y Y
+TD105 Classic #3 _R___ ~DO -AEFGIKNSTUX? ␅
+TD1346537 ␆nnnnM
+TD87 Classic #3 _R___ ~DO -AEFGIKNSTUX? nnnnM
+TD156 attempt: 2 PAVER n n n n m
+TD207988 > ␅
+TD658569 ␆*
+TD113 > *
+TD300 questioning: rower
+TD107 Classic #1 _IN__ ~T -ADEFGKOPRSUVX? ␅
+TD3093201 ␆nnnnn
+TD124 Classic #1 _IN__ ~T -ADEFGKOPRSUVX? nnnnn
+TD254 attempt: 0 ROWER n n n n n
+T10.236568558000727 now: 2026-10-08T09:52:48EDT
+TD58 questioning: rower
+TD61 Classic #2 RO_ER -ADFGIKNPSTUVX? ␅
+TD1964984 ␆YYYYY
+TD83 Classic #2 RO_ER -ADFGIKNPSTUVX? YYYYY
+TD274 attempt: 1 ROWER Y Y Y Y Y
+TD88 Classic #3 _R___ ~DO -AEFGIKNPSTUVX? ␅
+TD2034049 ␆MMnnn
+TD87 Classic #3 _R___ ~DO -AEFGIKNPSTUVX? MMnnn
+TD172 attempt: 2 ROWER m m n n n
+TD160912 > ␅
+TD782685 ␆*
+TD82 > *
+TD772 ? ␅
+TD11826077 ␄
+TD158 <EOF>
+TD135805 > ␅
+TD1860106 ␆* 1
+TD86 > * 1
+TD66424 ? ␅
+TD7745601 ␆1
+TD111 ? 1
+TD220 questioning: linty
+TD223 Classic #1 _IN__ ~T -ADEFGKOPRSUVWX? ␅
+TD5691534 ␆nYYYY
+TD112 Classic #1 _IN__ ~T -ADEFGKOPRSUVWX? nYYYY
+TD250 attempt: 0 LINTY n Y Y Y Y
+TD214 Classic #3 _R___ ~DO -AEFGIKNPSTUVWX R:1? ␅
+TD2345173 ␆nnnnn
+TD108 Classic #3 _R___ ~DO -AEFGIKNPSTUVWX R:1? nnnnn
+TD249 attempt: 2 LINTY n n n n n
+TD138788 > ␅
+TD876558 ␆*
+TD83 > *
+TD481 questioning: minty
+TD178 Classic #1 _INTY -ADEFGKLOPRSUVWX? ␅
+TD1187464 ␄
+TD154 <EOF>
+TD137282 > ␅
+TD1695568 ␆* 3
+TD137 > * 3
+TD69822 questioning: brood
+TD80 Classic #1 _INTY -ADEFGKLOPRSUVWX? ␅
+TD3897570 ␆nnnnn
+TD103 Classic #1 _INTY -ADEFGKLOPRSUVWX? nnnnn
+TD232 attempt: 0 BROOD n n n n n
+TD218 Classic #3 _R___ ~DO -AEFGIKLNPSTUVWXY R:1? ␅
+TD1357752 ␆YYYYY
+TD86 Classic #3 _R___ ~DO -AEFGIKLNPSTUVWXY R:1? YYYYY
+TD164 attempt: 2 BROOD Y Y Y Y Y
+TD64147 > ␅
+TD5083470 ␆/res
+TD111 > /res
+TD249 📋> ␅
+TD684849 ␆🙂 Daily Quordle 1718
+TD108 📋> 🙂 Daily Quordle 1718
+TD16 📋> ␅
+TD53 ␆🟥7️⃣
+TD6 📋> 🟥7️⃣
+TD5 📋> ␅
+TD11 ␆9️⃣5️⃣
+TD5 📋> 9️⃣5️⃣
+TD4 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD268684 ␆
+TD111 📋> 
+TD13 📋> ␅
+TD211807 ␄
+TD215 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1718\n\ud83d\udfe57\ufe0f\u20e3\n9\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1291 result: "\ud83d\ude42 Daily Quordle 1718\n\ud83d\udfe57\ufe0f\u20e3\n9\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD64318 > ␅
+TD1156081 ␆/store
+TD114 > /store
+TD267 📆 2026-10-08 ? ␅
+TD535725 ␆
+TD116 📆 2026-10-08 ? 
