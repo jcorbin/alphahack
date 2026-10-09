@@ -1,0 +1,236 @@
+T1025.245188375 now: 2026-10-09T09:15:13EDT
+TD215 site: squareword.org
+TD42 wordlist: nwl2023.txt
+TD23  ...␅
+TD17595074 ␆
+TD109  ...
+TD78 🧩  ? ␅
+TD3639268 ␆#1712
+TD109 🧩  ? #1712
+TD287 puzzle_id: #1712
+TD298 > ␅
+TD1086652 ␆*
+TD130 > *
+TD208989 try? ␅
+TD792562 ␆1
+TD109 try? 1
+TD491 questioning: ["rales", "#5"]
+TD307 #1 <IndexError>  📋 "rales" ? ␅
+TD9752380 ␆____S ~ E
+TD112 #1 <IndexError>  📋 "rales" ? ____S ~ E
+TD718 attempt 0 RALES n n n m Y
+TD127 #2 <IndexError>  📋 "rales" ? ␅
+TD2406084 ␆___E_ ~ A
+TD130 #2 <IndexError>  📋 "rales" ? ___E_ ~ A
+TD301 attempt 1 RALES n m n Y n
+TD133 #3 <IndexError>  📋 "rales" ? ␅
+TD3130508 ␆R____ ~ ALE
+TD134 #3 <IndexError>  📋 "rales" ? R____ ~ ALE
+TD280 attempt 2 RALES Y m m m n
+TD134 #4 <IndexError>  📋 "rales" ? ␅
+TD5417014 ␆_____ ~ LES
+TD126 #4 <IndexError>  📋 "rales" ? _____ ~ LES
+TD280 attempt 3 RALES n n m m m
+TD190 #5 <IndexError>  📋 "rales" ? ␅
+TD1927600 ␆_A___ ~ S
+TD112 #5 <IndexError>  📋 "rales" ? _A___ ~ S
+TD302 attempt 4 RALES n Y n n m
+TD281 ? ␅
+TD1198851 ␆
+TD111 ? 
+TD155 question done
+TD294 > ␅
+TD48248122 ␆* 4
+TD152 > * 4
+TD373163 try? ␅
+TD1403074 ␄
+TD114 <EOF>
+TD210 > ␅
+TD1638917 ␆* 5
+TD111 > * 5
+TD71426 try? ␅
+TD1328048 ␄
+TD150 <EOF>
+TD362 > ␅
+TD980648 ␆* 2
+TD107 > * 2
+TD71864 try? ␅
+TD755129 ␄
+TD154 <EOF>
+TD355 > ␅
+TD851486 ␆* 1
+TD108 > * 1
+TD71866 try? ␅
+TD1478754 ␆1
+TD110 try? 1
+TD318 questioning: ["hents", "#1"]
+TD339 #1 ____S ~E -ALR  📋 "hents" ? ␅
+TD5163237 ␆_EN_S
+TD112 #1 ____S ~E -ALR  📋 "hents" ? _EN_S
+TD256 attempt 0 HENTS n Y Y n Y
+TD269 #2 ___E_ ~A -LRS  📋 "hents" ? ␅
+TD1719627 ␆.
+TD110 #2 ___E_ ~A -LRS  📋 "hents" ? .
+TD285 attempt 1 HENTS n n n n n
+TD103 #3 R____ ~AEL -S  📋 "hents" ? ␅
+TD2325566 ␆REN__ ~ AL
+TD77 #3 R____ ~AEL -S  📋 "hents" ? REN__ ~ AL
+TD210 attempt 2 HENTS n Y Y n n
+TD121 #4 _____ ~ELS -AR  📋 "hents" ? ␅
+TD1299867 ␆.
+TD105 #4 _____ ~ELS -AR  📋 "hents" ? .
+TD307 attempt 3 HENTS n m n n m
+TD220 #5 _A___ ~S -ELR  📋 "hents" ? ␅
+TD2537267 ␆HA_T_ ~ S
+TD124 #5 _A___ ~S -ELR  📋 "hents" ? HA_T_ ~ S
+TD302 attempt 4 HENTS Y n n Y m
+TD210 ? ␅
+TD213637 ␆
+TD129 ? 
+TD139 question done
+TD362 > ␅
+TD21836422 ␆*
+TD130 > *
+TD631927 questioning: ["adieu", "#2"]
+TD149 #1 _EN_S -AHLRT  📋 "adieu" ? ␅
+TD8105325 ␆_EN_S ~ D
+TD110 #1 _EN_S -AHLRT  📋 "adieu" ? _EN_S ~ D
+TD273 attempt 0 ADIEU n m n n n
+TD181 #2 ___E_ ~A -EHLNRST  📋 "adieu" ? ␅
+TD714764 ␆/it
+TD103 #2 ___E_ ~A -EHLNRST  📋 "adieu" ? /it
+TD287 attempt 1 ADIEU Y Y Y Y Y
+TD111 #3 REN__ ~AL -HST  📋 "adieu" ? ␅
+TD1469343 ␆.
+TD113 #3 REN__ ~AL -HST  📋 "adieu" ? .
+TD312 attempt 2 ADIEU m n n n n
+TD105 #4 _____ ~ELS -AHNRT  📋 "adieu" ? ␅
+TD1237022 ␆.
+TD117 #4 _____ ~ELS -AHNRT  📋 "adieu" ? .
+TD285 attempt 3 ADIEU n n n m n
+TD103 #5 HA_T_ ~S -ELNR  📋 "adieu" ? ␅
+TD1507513 ␆.
+TD114 #5 HA_T_ ~S -ELNR  📋 "adieu" ? .
+TD288 attempt 4 ADIEU n n n n n
+TD296 ? ␅
+TD150281 ␆
+TD117 ? 
+TD120 question done
+TD311 > ␅
+TD438713 ␆*
+TD116 > *
+TD490819 questioning: ["renal", "#3"]
+TD148 #1 _EN_S ~D -AEHILRTU  📋 "renal" ? ␅
+TD3974767 ␆.
+TD113 #1 _EN_S ~D -AEHILRTU  📋 "renal" ? .
+TD287 attempt 0 RENAL n Y Y n n
+TD113 #3 REN__ ~AL -DEHISTU  📋 "renal" ? ␅
+TD732575 ␆/it
+TD111 #3 REN__ ~AL -DEHISTU  📋 "renal" ? /it
+TD278 attempt 2 RENAL Y Y Y Y Y
+TD114 #4 _____ ~ELS -ADHINRTU  📋 "renal" ? ␅
+TD3157999 ␆____L ~ LES
+TD108 #4 _____ ~ELS -ADHINRTU  📋 "renal" ? ____L ~ LES
+TD276 attempt 3 RENAL n m n n Y
+TD164 #5 HA_T_ ~S -ADEILNRU  📋 "renal" ? ␅
+TD1654784 ␆.
+TD216 #5 HA_T_ ~S -ADEILNRU  📋 "renal" ? .
+TD306 attempt 4 RENAL n n n n n
+TD290 ? ␅
+TD161479 ␆
+TD111 ? 
+TD124 question done
+TD295 > ␅
+TD428183 ␆*
+TD111 > *
+TD710548 questioning: ["smell", "#4"]
+TD167 #1 _EN_S ~D -AHILRTU  📋 "smell" ? ␅
+TD5783062 ␆_EN_S ~ DM
+TD143 #1 _EN_S ~D -AHILRTU  📋 "smell" ? _EN_S ~ DM
+TD176 attempt 0 SMELL n m n n n
+TD113 #4 ____L ~ES -ADHINRTU  📋 "smell" ? ␅
+TD1322694 ␆/it
+TD115 #4 ____L ~ES -ADHINRTU  📋 "smell" ? /it
+TD297 attempt 3 SMELL Y Y Y Y Y
+TD128 #5 HA_T_ ~S -ADEILNRU  📋 "smell" ? ␅
+TD3470884 ␆
+TD109 #5 HA_T_ ~S -ADEILNRU  📋 "smell" ? 
+TD342 #5 HA_T_ ~S -ADEILNRU  ? ␅
+TD284215 ␆
+TD112 #5 HA_T_ ~S -ADEILNRU  ? 
+TD657 #5 HA_T_ ~S -ADEILNRU  ? ␅
+TD1410982 ␆.
+TD97 #5 HA_T_ ~S -ADEILNRU  ? .
+TD219 attempt 4 SMELL m n n n n
+TD218 ? ␅
+TD742454 ␆
+TD110 ? 
+TD120 question done
+TD314 > ␅
+TD478550 ␆*(
+TD99 > *(
+TD534 > ␅
+TD1007839 ␆*
+TD109 > *
+TD1030499 questioning: ["mends", "#1"]
+TD158 #1 _EN_S ~DM -AEHILRSTU  📋 "mends" ? ␅
+TD2687024 ␆/it
+TD106 #1 _EN_S ~DM -AEHILRSTU  📋 "mends" ? /it
+TD279 attempt 0 MENDS Y Y Y Y Y
+TD132 #5 HA_T_ ~S -ADEILMNRU  📋 "mends" ? ␅
+TD2018562 ␆.
+TD117 #5 HA_T_ ~S -ADEILMNRU  📋 "mends" ? .
+TD304 attempt 4 MENDS n n n n m
+TD294 ? ␅
+TD177922 ␆
+TD113 ? 
+TD120 question done
+TD304 > ␅
+TD429527 ␆*
+TD89 > *
+TD589114 questioning: ["hasty", "#5"]
+TD159 #5 HA_T_ ~S -ADEILMNRU  📋 "hasty" ? ␅
+TD4722663 ␆/it
+TD110 #5 HA_T_ ~S -ADEILMNRU  📋 "hasty" ? /it
+TD283 attempt 4 HASTY Y Y Y Y Y
+TD371 ? ␅
+TD1124003 ␆
+TD113 ? 
+TD121 question done
+TD35877 📋> ␅
+TD3503774 ␆squareword.org 1712: 7 guesses
+TD84 📋> squareword.org 1712: 7 guesses
+TD11 📋> ␅
+TD43 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD14 ␆🟨🟩🟩🟨🟩
+TD5 📋> 🟨🟩🟩🟨🟩
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆🟩🟩🟨🟩🟨
+TD4 📋> 🟩🟩🟨🟩🟨
+TD4 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD231741 ␆#squareword #squareword1712
+TD107 📋> #squareword #squareword1712
+TD13 📋> ␅
+TD144665 ␄
+TD232 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1712: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1712"}
+TD775 result: "squareword.org 1712: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1712"
+TD68 📆 2026-10-09 ? ␅
+TD212906 ␆
+TD114 📆 2026-10-09 ? 
