@@ -1,0 +1,82 @@
+T161.85135494699898 now: 2026-10-09T09:00:50EDT
+TD143 site: alphaguess.com
+TD115761 loaded 196512 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (92 words excluded) asof e6797413893550d9cbfd7ce0855ec5b122ce705f
+TD81  ...␅
+TD6360578 ␆
+TD109  ...
+TD193 [0 : 98142 : 196512] mac? ␅
+TD2141896 ␆a
+TD113 [0 : 98142 : 196512] mac? a
+TD113 progress: 1 98142 mac
+TD124 [98143 : 147305 : 196512] rho? ␅
+TD2576079 ␆b
+TD84 [98143 : 147305 : 196512] rho? b
+TD82 progress: -1 147305 rho
+TD81 [98143 : 122089 : 147305] par? ␅
+TD1400402 ␆a
+TD120 [98143 : 122089 : 147305] par? a
+TD153 progress: 1 122089 par
+TD127 [122090 : 134684 : 147305] progress? ␅
+TD1869398 ␆a
+TD111 [122090 : 134684 : 147305] progress? a
+TD113 progress: 1 134684 progress
+TD128 [134685 : 140506 : 147305] rec? ␅
+TD1377798 ␆a
+TD109 [134685 : 140506 : 147305] rec? a
+TD111 progress: 1 140506 rec
+TD145 [140507 : 143769 : 147305] rem? ␅
+TD1251526 ␆a
+TD113 [140507 : 143769 : 147305] rem? a
+TD110 progress: 1 143769 rem
+TD117 [143770 : 145182 : 147305] res? ␅
+TD1499963 ␆b
+TD113 [143770 : 145182 : 147305] res? b
+TD115 progress: -1 145182 res
+TD131 [143770 : 144402 : 145182] rep? ␅
+TD1375952 ␆b
+TD111 [143770 : 144402 : 145182] rep? b
+TD121 progress: -1 144402 rep
+TD420 [143770 : 144086 : 144402] removal? ␅
+TD1348608 ␆b
+TD112 [143770 : 144086 : 144402] removal? b
+TD118 progress: -1 144086 removal
+TD528 [143770 : 143926 : 144086] remineralize? ␅
+TD1374988 ␆b
+TD108 [143770 : 143926 : 144086] remineralize? b
+TD114 progress: -1 143926 remineralize
+TD169 [143770 : 143842 : 143926] remate? ␅
+TD1341980 ␆b
+TD111 [143770 : 143842 : 143926] remate? b
+TD113 progress: -1 143842 remate
+TD191 [143770 : 143791 : 143842] reman? ␅
+TD1369738 ␆b
+TD108 [143770 : 143791 : 143842] reman? b
+TD125 progress: -1 143791 reman
+TD147 [143770 : 143778 : 143791] remain? ␅
+TD3013003 ␆it
+TD85 [143770 : 143778 : 143791] remain? it
+TD83 progress: 0 143778 remain
+TD17 [143770 : 143778 : 143791] <Done>.
+TD61 📋> ␅
+TD2309700 ␆🧩 Puzzle #1173
+TD112 📋> 🧩 Puzzle #1173
+TD12 📋> ␅
+TD54 ␆🤔 13 guesses
+TD6 📋> 🤔 13 guesses
+TD5 📋> ␅
+TD10 ␆⏱️ 18s
+TD5 📋> ⏱️ 18s
+TD4 📋> ␅
+TD192477 ␆🔗 alphaguess.com/1173
+TD122 📋> 🔗 alphaguess.com/1173
+TD11 📋> ␅
+TD163046 ␄
+TD221 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1173\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1173"}
+TD110 result: "\ud83e\udde9 Puzzle #1173\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 18s\n\ud83d\udd17 alphaguess.com/1173"
+TD17 result puzzle: 1173
+TD7 result guesses: 13
+TD5 result time: 18s
+TD4 result link: alphaguess.com/1173
+TD99 📆 2026-10-09 ? ␅
+TD82682 ␆
+TD116 📆 2026-10-09 ? 
