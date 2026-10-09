@@ -1,0 +1,184 @@
+T552.7819764099986 now: 2026-10-09T09:07:20EDT
+TD53 site: https://www.merriam-webster.com/games/quordle/#/
+TD9 wordlist: nwl2023.txt
+TD2 num_words: 4
+TD56  ...␅
+TD517360 ␆
+TD89  ...
+TD293479 > ␅
+TD4760238 ␆
+TD88 > 
+TD135 > ␅
+TD601291 ␆*
+TD103 > *
+TD34304 ? ␅
+TD398320 ␆1
+TD59 ? 1
+TD111 questioning: tears
+TD104 Classic #1 _____? ␅
+TD2584871 ␆nMnnn
+TD103 Classic #1 _____? nMnnn
+TD432 attempt: 0 TEARS n m n n n
+TD166 Classic #2 _____? ␅
+TD2913868 ␆nMnnn
+TD91 Classic #2 _____? nMnnn
+TD199 attempt: 1 TEARS n m n n n
+TD91 Classic #3 _____? ␅
+TD2693729 ␆MnYnM
+TD189 Classic #3 _____? MnYnM
+TD232 attempt: 2 TEARS m n Y n m
+TD78 Classic #4 _____? ␅
+TD1063205 ␆nnnnn
+TD82 Classic #4 _____? nnnnn
+TD159 attempt: 3 TEARS n n n n n
+TD293935 > ␅
+TD674709 ␆*
+TD83 > *
+TD3444 ? ␅
+TD483260 ␆1
+TD82 ? 1
+TD144 questioning: onium
+TD122 Classic #1 _____ ~E -ARST? ␅
+TD3867659 ␆YMnnn
+TD59 Classic #1 _____ ~E -ARST? YMnnn
+TD131 attempt: 0 ONIUM Y m n n n
+TD61 Classic #2 _____ ~E -ARST? ␅
+TD1451314 ␆nMnMn
+TD78 Classic #2 _____ ~E -ARST? nMnMn
+TD160 attempt: 1 ONIUM n m n m n
+TD73 Classic #3 __A__ ~ST -ER? ␅
+TD1198659 ␆nnnnn
+TD103 Classic #3 __A__ ~ST -ER? nnnnn
+TD169 attempt: 2 ONIUM n n n n n
+TD72 Classic #4 _____ -AERST? ␅
+TD1260540 ␆nnMnn
+TD86 Classic #4 _____ -AERST? nnMnn
+TD153 attempt: 3 ONIUM n n m n n
+TD315603 > ␅
+TD1993943 ␆*
+TD107 > *
+TD1189 ? ␅
+TD1206586 ␆1
+TD106 ? 1
+TD193 questioning: dicky
+TD273 Classic #1 O____ ~EN -AIMRSTU? ␅
+TD3398347 ␆Mnnnn
+TD53 Classic #1 O____ ~EN -AIMRSTU? Mnnnn
+TD110 attempt: 0 DICKY m n n n n
+TD61 Classic #2 _____ ~ENU -AIMORST? ␅
+TD2033980 ␆YnMnn
+TD76 Classic #2 _____ ~ENU -AIMORST? YnMnn
+TD158 attempt: 1 DICKY Y n m n n
+TD73 Classic #3 __A__ ~ST -EIMNORU? ␅
+TD1101379 ␆nnnnn
+TD78 Classic #3 __A__ ~ST -EIMNORU? nnnnn
+TD146 attempt: 2 DICKY n n n n n
+TD70 Classic #4 _____ ~I -AEMNORSTU? ␅
+TD1805807 ␆nYnnY
+TD84 Classic #4 _____ ~I -AEMNORSTU? nYnnY
+TD155 attempt: 3 DICKY n Y n n Y
+TD270228 > ␅
+TD646272 ␆*
+TD53 > *
+TD189 questioning: dunce
+TD66 Classic #1 O____ ~DEN -ACIKMRSTUY? ␅
+TD4293686 ␆MnMnM
+TD105 Classic #1 O____ ~DEN -ACIKMRSTUY? MnMnM
+TD233 attempt: 0 DUNCE m n m n m
+TD128 Classic #2 D____ ~CENU -AIKMORSTY? ␅
+TD1340583 ␆YYYYY
+TD83 Classic #2 D____ ~CENU -AIKMORSTY? YYYYY
+TD145 attempt: 1 DUNCE Y Y Y Y Y
+TD75 Classic #3 __A__ ~ST -CDEIKMNORUY? ␅
+TD1229534 ␆nnnnn
+TD54 Classic #3 __A__ ~ST -CDEIKMNORUY? nnnnn
+TD113 attempt: 2 DUNCE n n n n n
+TD56 Classic #4 _I__Y -ACDEKMNORSTU? ␅
+TD1078062 ␆nnnnn
+TD85 Classic #4 _I__Y -ACDEKMNORSTU? nnnnn
+TD144 attempt: 3 DUNCE n n n n n
+TD212345 > ␅
+TD1141490 ␆*
+TD81 > *
+TD351 ? ␅
+TD1522163 ␆1
+TD83 ? 1
+TD138 questioning: olden
+TD126 Classic #1 O____ ~DEN -ACIKMRSTUY? ␅
+TD2704645 ␆YYYYY
+TD54 Classic #1 O____ ~DEN -ACIKMRSTUY? YYYYY
+TD113 attempt: 0 OLDEN Y Y Y Y Y
+TD58 Classic #3 __A__ ~ST -CDEIKMNORUY? ␅
+TD1707783 ␆nnnnn
+TD83 Classic #3 __A__ ~ST -CDEIKMNORUY? nnnnn
+TD154 attempt: 2 OLDEN n n n n n
+TD82 Classic #4 _I__Y -ACDEKMNORSTU? ␅
+TD1178544 ␆nMnnn
+TD82 Classic #4 _I__Y -ACDEKMNORSTU? nMnnn
+TD149 attempt: 3 OLDEN n m n n n
+TD145609 > ␅
+TD706580 ␆*
+TD86 > *
+TD569 ? ␅
+TD1398469 ␄
+TD109 <EOF>
+TD144007 > ␅
+TD518381 ␆probe
+TD81 > probe
+TD207915 > ␅
+TD3980394 ␆tried awful
+TD81 > tried awful
+TD261 questioning: AWFUL
+TD121 Classic #3 __A__ ~ST -CDEIKLMNORUY? ␅
+TD2149688 ␆MYnnn
+TD81 Classic #3 __A__ ~ST -CDEIKLMNORUY? MYnnn
+TD150 attempt: 2 AWFUL m Y n n n
+TD70 Classic #4 _I__Y ~L -ACDEKMNORSTU? ␅
+TD1448406 ␆nnnnM
+TD116 Classic #4 _I__Y ~L -ACDEKMNORSTU? nnnnM
+TD264 attempt: 3 AWFUL n n n n m
+TD135502 > ␅
+TD632049 ␆*
+TD88 > *
+TD292 questioning: swath
+TD222 Classic #3 _WA__ ~ST -CDEFIKLMNORUY? ␅
+TD3071480 ␆YYYYY
+TD75 Classic #3 _WA__ ~ST -CDEFIKLMNORUY? YYYYY
+TD150 attempt: 2 SWATH Y Y Y Y Y
+TD79 Classic #4 _I__Y ~L -ACDEFKMNORSTUW? ␅
+TD1448816 ␆nnnnM
+TD70 Classic #4 _I__Y ~L -ACDEFKMNORSTUW? nnnnM
+TD213 attempt: 3 SWATH n n n n m
+TD69158 > ␅
+TD677155 ␆*
+TD109 > *
+TD602 ? ␅
+TD2800867 ␆2
+TD81 ? 2
+TD145 questioning: hilly
+TD219 Classic #4 _I__Y ~HL -ACDEFKMNORSTUW? ␅
+TD3702105 ␆YYYYY
+TD58 Classic #4 _I__Y ~HL -ACDEFKMNORSTUW? YYYYY
+TD113 attempt: 3 HILLY Y Y Y Y Y
+TD47 📋> ␅
+TD3282383 ␆🙂 Daily Quordle 1719
+TD111 📋> 🙂 Daily Quordle 1719
+TD12 📋> ␅
+TD55 ␆5️⃣4️⃣
+TD8 📋> 5️⃣4️⃣
+TD5 📋> ␅
+TD11 ␆7️⃣8️⃣
+TD6 📋> 7️⃣8️⃣
+TD4 📋> ␅
+TD12 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD278800 ␆
+TD113 📋> 
+TD12 📋> ␅
+TD139776 ␄
+TD194 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1719\n5\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1052 result: "\ud83d\ude42 Daily Quordle 1719\n5\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD64 📆 2026-10-09 ? ␅
+TD222668 ␆
+TD113 📆 2026-10-09 ? 
