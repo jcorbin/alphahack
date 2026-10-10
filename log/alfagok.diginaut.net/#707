@@ -1,0 +1,98 @@
+T10896.641138029 now: 2026-10-10T09:19:52EDT
+TD169 site: alfagok.diginaut.net
+TD801744 loaded 399456 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1396 words excluded) asof 5bceee601fd925a2b801fa8ea9643314589a6f93
+TD139  ...␅
+TD6892636 ␆
+TD107  ...
+TD217 [0 : 199528 : 399456] lij? ␅
+TD5958298 ␆b
+TD108 [0 : 199528 : 399456] lij? b
+TD370 progress: -1 199528 lij
+TD122 [0 : 99672 : 199528] ex? ␅
+TD3019546 ␆a
+TD123 [0 : 99672 : 199528] ex? a
+TD131 progress: 1 99672 ex
+TD109 [99673 : 149567 : 199528] huishoud? ␅
+TD1909898 ␆b
+TD109 [99673 : 149567 : 199528] huishoud? b
+TD107 progress: -1 149567 huishoud
+TD114 [99673 : 124571 : 149567] gevoel? ␅
+TD1705971 ␆b
+TD110 [99673 : 124571 : 149567] gevoel? b
+TD107 progress: -1 124571 gevoel
+TD131 [99673 : 111327 : 124571] ge? ␅
+TD1729203 ␆a
+TD102 [99673 : 111327 : 124571] ge? a
+TD111 progress: 1 111327 ge
+TD124 [111328 : 116733 : 124571] gel? ␅
+TD1652621 ␆a
+TD166 [111328 : 116733 : 124571] gel? a
+TD108 progress: 1 116733 gel
+TD343 [116734 : 120650 : 124571] geprepareerd? ␅
+TD1699311 ␆a
+TD133 [116734 : 120650 : 124571] geprepareerd? a
+TD105 progress: 1 120650 geprepareerd
+TD125 [120651 : 121854 : 124571] ges? ␅
+TD1730335 ␆a
+TD112 [120651 : 121854 : 124571] ges? a
+TD115 progress: 1 121854 ges
+TD460 [121855 : 123211 : 124571] gestrand? ␅
+TD1758477 ␆b
+TD108 [121855 : 123211 : 124571] gestrand? b
+TD146 progress: -1 123211 gestrand
+TD346 [121855 : 122533 : 123211] gesleutel? ␅
+TD1786219 ␆a
+TD110 [121855 : 122533 : 123211] gesleutel? a
+TD105 progress: 1 122533 gesleutel
+TD119 [122534 : 122857 : 123211] gesprek? ␅
+TD1840263 ␆a
+TD108 [122534 : 122857 : 123211] gesprek? a
+TD105 progress: 1 122857 gesprek
+TD208 [122858 : 123034 : 123211] geste? ␅
+TD2109454 ␆b
+TD126 [122858 : 123034 : 123211] geste? b
+TD110 progress: -1 123034 geste
+TD235 [122858 : 122946 : 123034] gesprongen? ␅
+TD2199292 ␆a
+TD105 [122858 : 122946 : 123034] gesprongen? a
+TD123 progress: 1 122946 gesprongen
+TD345 [122947 : 122990 : 123034] gestagneerd? ␅
+TD1777798 ␆a
+TD110 [122947 : 122990 : 123034] gestagneerd? a
+TD106 progress: 1 122990 gestagneerd
+TD142 [122991 : 123010 : 123034] gestand? ␅
+TD1988358 ␆b
+TD140 [122991 : 123010 : 123034] gestand? b
+TD112 progress: -1 123010 gestand
+TD226 [122991 : 123000 : 123010] gestalttherapie? ␅
+TD3544671 ␆b
+TD97 [122991 : 123000 : 123010] gestalttherapie? b
+TD104 progress: -1 123000 gestalttherapie
+TD233 [122991 : 122996 : 123000] gestalte? ␅
+TD7862135 ␆it
+TD114 [122991 : 122996 : 123000] gestalte? it
+TD111 progress: 0 122996 gestalte
+TD26 [122991 : 122996 : 123000] <Done>.
+TD129 📋> ␅
+TD3628326 ␆🧩 Puzzel #707
+TD109 📋> 🧩 Puzzel #707
+TD11 📋> ␅
+TD52 ␆🤔 17 gokken
+TD6 📋> 🤔 17 gokken
+TD6 📋> ␅
+TD16 ␆⏱️ 33s
+TD5 📋> ⏱️ 33s
+TD4 📋> ␅
+TD224361 ␆🔗 alfagok.diginaut.net
+TD125 📋> 🔗 alfagok.diginaut.net
+TD11 📋> ␅
+TD125759 ␄
+TD213 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #707\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD592 result: "\ud83e\udde9 Puzzel #707\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"
+TD18 result puzzle: 707
+TD8 result guesses: 17
+TD5 result time: 33s
+TD4 result link: alfagok.diginaut.net
+TD94 📆 2026-10-10 ? ␅
+TD211623 ␆
+TD107 📆 2026-10-10 ? 
