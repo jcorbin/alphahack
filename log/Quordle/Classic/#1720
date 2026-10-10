@@ -1,0 +1,181 @@
+T11509.796273733 now: 2026-10-10T09:30:05EDT
+TD137 site: https://www.merriam-webster.com/games/quordle/#/
+TD23 wordlist: nwl2023.txt
+TD7 num_words: 4
+TD129  ...␅
+TD613478 ␆
+TD111  ...
+TD803685 > ␅
+TD10108199 ␆*
+TD106 > *
+TD90684 ? ␅
+TD9040171 ␆1
+TD111 ? 1
+TD191 questioning: arles
+TD183 Classic #1 _____? ␅
+TD3064329 ␆MnnMM
+TD101 Classic #1 _____? MnnMM
+TD407 attempt: 0 ARLES m n n m m
+TD104 Classic #2 _____? ␅
+TD1815861 ␆nMnnn
+TD102 Classic #2 _____? nMnnn
+TD234 attempt: 1 ARLES n m n n n
+TD112 Classic #3 _____? ␅
+TD1384357 ␆MMMnn
+TD102 Classic #3 _____? MMMnn
+TD248 attempt: 2 ARLES m m m n n
+TD118 Classic #4 _____? ␅
+TD1513407 ␆MnMnM
+TD105 Classic #4 _____? MnMnM
+TD227 attempt: 3 ARLES m n m n m
+TD1101152 > ␅
+TD620160 ␆*
+TD130 > *
+TD2290 ? ␅
+TD2236716 ␆4
+TD112 ? 4
+TD180 questioning: unrip
+TD191 Classic #1 _____ ~AES -LR? ␅
+TD2720122 ␆nnnnn
+TD108 Classic #1 _____ ~AES -LR? nnnnn
+TD238 attempt: 0 UNRIP n n n n n
+TD110 Classic #2 _____ ~R -AELS? ␅
+TD1360697 ␆nnMMn
+TD101 Classic #2 _____ ~R -AELS? nnMMn
+TD231 attempt: 1 UNRIP n n m m n
+TD106 Classic #3 _____ ~ALR -ES? ␅
+TD14162101 ␆MnYnn
+TD127 Classic #3 _____ ~ALR -ES? MnYnn
+TD229 attempt: 2 UNRIP m n Y n n
+TD108 Classic #4 _____ ~ALS -ER? ␅
+TD1318936 ␆nnnnY
+TD126 Classic #4 _____ ~ALS -ER? nnnnY
+TD295 attempt: 3 UNRIP n n n n Y
+TD924154 > ␅
+TD835973 ␆*
+TD106 > *
+TD519 ? ␅
+TD3408623 ␆1
+TD107 ? 1
+TD182 questioning: clasp
+TD194 Classic #1 _____ ~AES -ILNPRU? ␅
+TD3445948 ␆nnMMn
+TD111 Classic #1 _____ ~AES -ILNPRU? nnMMn
+TD224 attempt: 0 CLASP n n m m n
+TD119 Classic #2 _____ ~IR -AELNPSU? ␅
+TD1307244 ␆nnnnn
+TD111 Classic #2 _____ ~IR -AELNPSU? nnnnn
+TD244 attempt: 1 CLASP n n n n n
+TD126 Classic #3 __R__ ~ALU -EINPS? ␅
+TD1481762 ␆nMMnn
+TD117 Classic #3 __R__ ~ALU -EINPS? nMMnn
+TD219 attempt: 2 CLASP n m m n n
+TD129 Classic #4 ____P ~ALS -EINRU? ␅
+TD2385510 ␆YYYYY
+TD116 Classic #4 ____P ~ALS -EINRU? YYYYY
+TD214 attempt: 3 CLASP Y Y Y Y Y
+TD650976 > ␅
+TD8828152 ␆*
+TD111 > *
+TD804 ? ␅
+TD2921146 ␆3
+TD113 ? 3
+TD180 questioning: haste
+TD190 Classic #1 _____ ~AES -CILNPRU? ␅
+TD5587987 ␆nMMMM
+TD114 Classic #1 _____ ~AES -CILNPRU? nMMMM
+TD228 attempt: 0 HASTE n m m m m
+TD117 Classic #2 _____ ~IR -ACELNPSU? ␅
+TD1573646 ␆MnnMn
+TD108 Classic #2 _____ ~IR -ACELNPSU? MnnMn
+TD223 attempt: 1 HASTE m n n m n
+TD117 Classic #3 __R__ ~ALU -CEINPS? ␅
+TD3870045 ␆nMnnn
+TD108 Classic #3 __R__ ~ALU -CEINPS? nMnnn
+TD236 attempt: 2 HASTE n m n n n
+TD709751 > ␅
+TD1152509 ␄
+TD146 <EOF>
+TD728358 > ␅
+TD109873 <INT>
+TD145 <INT>
+TD29 <INT>
+T433.9560366789992 now: 2026-10-10T09:38:53EDT
+TD150 questioning: haste
+TD691490 > ␅
+TD1962847 ␆*
+TD130 > *
+TD1131 ? ␅
+TD1590264 ␆1
+TD118 ? 1
+TD296 questioning: right
+TD233 Classic #1 _____ ~AEST -CHILNPRU? ␅
+TD3888203 ␆nnnnY
+TD109 Classic #1 _____ ~AEST -CHILNPRU? nnnnY
+TD439 attempt: 0 RIGHT n n n n Y
+TD132 Classic #2 _____ ~HIRT -ACELNPSU? ␅
+TD1804163 ␆MMnMM
+TD120 Classic #2 _____ ~HIRT -ACELNPSU? MMnMM
+TD243 attempt: 1 RIGHT m m n m m
+TD142 Classic #3 __R__ ~ALU -CEHINPST? ␅
+TD1332247 ␆Ynnnn
+TD111 Classic #3 __R__ ~ALU -CEHINPST? Ynnnn
+TD225 attempt: 2 RIGHT Y n n n n
+TD529264 > ␅
+TD912912 ␆*
+TD107 > *
+TD474 questioning: sweat
+TD221 Classic #1 ____T ~AES -CGHILNPRU? ␅
+TD2657590 ␆YYYYY
+TD106 Classic #1 ____T ~AES -CGHILNPRU? YYYYY
+TD224 attempt: 0 SWEAT Y Y Y Y Y
+TD124 Classic #2 _____ ~HIRT -ACEGLNPSU? ␅
+TD1131230 ␆nnnnM
+TD116 Classic #2 _____ ~HIRT -ACEGLNPSU? nnnnM
+TD225 attempt: 1 SWEAT n n n n m
+TD121 Classic #3 R_R__ ~ALU -CEGHINPST? ␅
+TD1943850 ␆nnnYn
+TD111 Classic #3 R_R__ ~ALU -CEGHINPST? nnnYn
+TD229 attempt: 2 SWEAT n n n Y n
+TD340350 > ␅
+TD917301 ␆*
+TD106 > *
+TD391 questioning: third
+TD217 Classic #2 _____ ~HIRT -ACEGLNPSUW? ␅
+TD21395448 ␆YYYYY
+TD135 Classic #2 _____ ~HIRT -ACEGLNPSUW? YYYYY
+TD215 attempt: 1 THIRD Y Y Y Y Y
+TD117 Classic #3 R_RA_ ~LU -CEGHINPSTW? ␅
+TD2496819 ␆nnnMn
+TD105 Classic #3 R_RA_ ~LU -CEGHINPSTW? nnnMn
+TD239 attempt: 2 THIRD n n n m n
+TD169352 > ␅
+TD786775 ␆*
+TD103 > *
+TD385 questioning: rural
+TD188 Classic #3 R_RA_ ~LU -CDEGHINPSTW? ␅
+TD2835041 ␆YYYYY
+TD102 Classic #3 R_RA_ ~LU -CDEGHINPSTW? YYYYY
+TD228 attempt: 2 RURAL Y Y Y Y Y
+TD106 📋> ␅
+TD4512043 ␆🙂 Daily Quordle 1720
+TD111 📋> 🙂 Daily Quordle 1720
+TD17 📋> ␅
+TD47 ␆6️⃣7️⃣
+TD7 📋> 6️⃣7️⃣
+TD6 📋> ␅
+TD11 ␆8️⃣3️⃣
+TD4 📋> 8️⃣3️⃣
+TD4 📋> ␅
+TD9 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD207434 ␆
+TD123 📋> 
+TD15 📋> ␅
+TD129669 ␄
+TD270 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1720\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2229 result: "\ud83d\ude42 Daily Quordle 1720\n6\ufe0f\u20e37\ufe0f\u20e3\n8\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD121 📆 2026-10-10 ? ␅
+TD168930 ␆
+TD130 📆 2026-10-10 ? 
