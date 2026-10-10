@@ -1,0 +1,93 @@
+T10968.039072702 now: 2026-10-10T09:21:04EDT
+TD141 site: alphaguess.com
+TD248493 loaded 196512 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (92 words excluded) asof 5bceee601fd925a2b801fa8ea9643314589a6f93
+TD178  ...␅
+TD6137439 ␆
+TD104  ...
+TD167 [0 : 98142 : 196512] mac? ␅
+TD2316898 ␆a
+TD107 [0 : 98142 : 196512] mac? a
+TD128 progress: 1 98142 mac
+TD123 [98143 : 147305 : 196512] rho? ␅
+TD2149294 ␆b
+TD109 [98143 : 147305 : 196512] rho? b
+TD106 progress: -1 147305 rho
+TD115 [98143 : 122089 : 147305] par? ␅
+TD1526742 ␆a
+TD108 [98143 : 122089 : 147305] par? a
+TD112 progress: 1 122089 par
+TD122 [122090 : 134684 : 147305] progress? ␅
+TD1767459 ␆b
+TD108 [122090 : 134684 : 147305] progress? b
+TD104 progress: -1 134684 progress
+TD298 [122090 : 128387 : 134684] placid? ␅
+TD1549627 ␆a
+TD110 [122090 : 128387 : 134684] placid? a
+TD110 progress: 1 128387 placid
+TD119 [128388 : 129516 : 134684] po? ␅
+TD1459958 ␆a
+TD76 [128388 : 129516 : 134684] po? a
+TD79 progress: 1 129516 po
+TD172 [129517 : 132098 : 134684] precept? ␅
+TD1842084 ␆a
+TD111 [129517 : 132098 : 134684] precept? a
+TD107 progress: 1 132098 precept
+TD110 [132099 : 133344 : 134684] prese? ␅
+TD2165816 ␆b
+TD110 [132099 : 133344 : 134684] prese? b
+TD105 progress: -1 133344 prese
+TD366 [132099 : 132721 : 133344] prehension? ␅
+TD1876687 ␆b
+TD93 [132099 : 132721 : 133344] prehension? b
+TD108 progress: -1 132721 prehension
+TD109 [132099 : 132403 : 132721] predict? ␅
+TD8246859 ␆b
+TD109 [132099 : 132403 : 132721] predict? b
+TD104 progress: -1 132403 predict
+TD260 [132099 : 132249 : 132403] preconcert? ␅
+TD7967107 ␆b
+TD112 [132099 : 132249 : 132403] preconcert? b
+TD105 progress: -1 132249 preconcert
+TD121 [132099 : 132144 : 132249] precip? ␅
+TD3629350 ␆!
+TD124 [132099 : 132144 : 132249] precip? !
+TD423 [132099 : 132172 : 132248] precipitous? ␅
+TD3313226 ␆b
+TD107 [132099 : 132172 : 132248] precipitous? b
+TD125 progress: -1 132172 precipitous
+TD223 [132099 : 132135 : 132172] precinct? ␅
+TD1909799 ␆a
+TD112 [132099 : 132135 : 132172] precinct? a
+TD107 progress: 1 132135 precinct
+TD316 [132136 : 132153 : 132172] precipitant? ␅
+TD2375684 ␆b
+TD106 [132136 : 132153 : 132172] precipitant? b
+TD105 progress: -1 132153 precipitant
+TD166 [132136 : 132139 : 132153] precious? ␅
+TD3054651 ␆it
+TD108 [132136 : 132139 : 132153] precious? it
+TD109 progress: 0 132139 precious
+TD27 [132136 : 132139 : 132153] <Done>.
+TD83 📋> ␅
+TD3442802 ␆🧩 Puzzle #1174
+TD81 📋> 🧩 Puzzle #1174
+TD10 📋> ␅
+TD33 ␆🤔 15 guesses
+TD6 📋> 🤔 15 guesses
+TD5 📋> ␅
+TD11 ␆⏱️ 43s
+TD5 📋> ⏱️ 43s
+TD4 📋> ␅
+TD255308 ␆🔗 alphaguess.com/1174
+TD131 📋> 🔗 alphaguess.com/1174
+TD11 📋> ␅
+TD188420 ␄
+TD134 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1174\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 43s\n\ud83d\udd17 alphaguess.com/1174"}
+TD78 result: "\ud83e\udde9 Puzzle #1174\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 43s\n\ud83d\udd17 alphaguess.com/1174"
+TD13 result puzzle: 1174
+TD6 result guesses: 15
+TD5 result time: 43s
+TD4 result link: alphaguess.com/1174
+TD73 📆 2026-10-10 ? ␅
+TD191930 ␆
+TD116 📆 2026-10-10 ? 
