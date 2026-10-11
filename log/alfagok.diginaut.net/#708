@@ -1,0 +1,107 @@
+T75.19298710599833 now: 2026-10-11T09:56:25EDT
+TD131 site: alfagok.diginaut.net
+TD757509 loaded 399456 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1396 words excluded) asof 5bceee601fd925a2b801fa8ea9643314589a6f93
+TD192  ...␅
+TD11526401 ␆
+TD109  ...
+TD257 [0 : 199528 : 399456] lij? ␅
+TD4859127 ␆a
+TD108 [0 : 199528 : 399456] lij? a
+TD353 progress: 1 199528 lij
+TD119 [199529 : 299479 : 399456] schrok? ␅
+TD3888698 ␆a
+TD107 [199529 : 299479 : 399456] schrok? a
+TD129 progress: 1 299479 schrok
+TD109 [299480 : 349463 : 399456] vakanties? ␅
+TD2429259 ␆a
+TD104 [299480 : 349463 : 399456] vakanties? a
+TD113 progress: 1 349463 vakanties
+TD111 [349464 : 374457 : 399456] vrijsta? ␅
+TD2190164 ␆b
+TD130 [349464 : 374457 : 399456] vrijsta? b
+TD121 progress: -1 374457 vrijsta
+TD115 [349464 : 361902 : 374457] vervolg? ␅
+TD2449300 ␆b
+TD106 [349464 : 361902 : 374457] vervolg? b
+TD120 progress: -1 361902 vervolg
+TD112 [349464 : 355667 : 361902] verhaal? ␅
+TD4619980 ␆b
+TD127 [349464 : 355667 : 361902] verhaal? b
+TD127 progress: -1 355667 verhaal
+TD109 [349464 : 352231 : 355667] vel? ␅
+TD3604098 ␆b
+TD243 [349464 : 352231 : 355667] vel? b
+TD237 progress: -1 352231 vel
+TD163 [349464 : 350583 : 352231] vast? ␅
+TD4143422 ␆b
+TD89 [349464 : 350583 : 352231] vast? b
+TD107 progress: -1 350583 vast
+TD110 [349464 : 349986 : 350583] vals? ␅
+TD3500920 ␆a
+TD127 [349464 : 349986 : 350583] vals? a
+TD139 progress: 1 349986 vals
+TD137 [349987 : 350124 : 350583] van? ␅
+TD2700295 ␆a
+TD126 [349987 : 350124 : 350583] van? a
+TD135 progress: 1 350124 van
+TD141 [350125 : 350351 : 350583] varia? ␅
+TD2334761 ␆b
+TD131 [350125 : 350351 : 350583] varia? b
+TD139 progress: -1 350351 varia
+TD142 [350125 : 350235 : 350351] vangst? ␅
+TD3078645 ␆b
+TD127 [350125 : 350235 : 350351] vangst? b
+TD135 progress: -1 350235 vangst
+TD409 [350125 : 350180 : 350235] vandewalle? ␅
+TD2854914 ␆!
+TD128 [350125 : 350180 : 350235] vandewalle? !
+TD549 [350125 : 350180 : 350234] vandewiele? ␅
+TD6157147 ␆!
+TD125 [350125 : 350180 : 350234] vandewiele? !
+TD484 [350125 : 350180 : 350233] vandoen? ␅
+TD4557709 ␆b
+TD171 [350125 : 350180 : 350233] vandoen? b
+TD137 progress: -1 350180 vandoen
+TD273 [350125 : 350147 : 350180] vandalisme? ␅
+TD4473326 ␆b
+TD134 [350125 : 350147 : 350180] vandalisme? b
+TD138 progress: -1 350147 vandalisme
+TD228 [350125 : 350133 : 350147] vancomycine? ␅
+TD4082639 ␆a
+TD128 [350125 : 350133 : 350147] vancomycine? a
+TD138 progress: 1 350133 vancomycine
+TD280 [350134 : 350137 : 350147] vandaal? ␅
+TD3464566 ␆b
+TD123 [350134 : 350137 : 350147] vandaal? b
+TD139 progress: -1 350137 vandaal
+TD269 [350134 : 350135 : 350137] vancomycine-resistente? ␅
+TD2909947 ␆!
+TD126 [350134 : 350135 : 350137] vancomycine-resistente? !
+TD473 [350134 : 350135 : 350136] vandaag? ␅
+TD5525422 ␆it
+TD125 [350134 : 350135 : 350136] vandaag? it
+TD139 progress: 0 350135 vandaag
+TD34 [350134 : 350135 : 350136] <Done>.
+TD132 📋> ␅
+TD4835160 ␆🧩 Puzzel #708
+TD131 📋> 🧩 Puzzel #708
+TD16 📋> ␅
+TD59 ␆🤔 17 gokken
+TD8 📋> 🤔 17 gokken
+TD8 📋> ␅
+TD14 ␆⏱️ 1m 9s
+TD8 📋> ⏱️ 1m 9s
+TD6 📋> ␅
+TD294852 ␆🔗 alfagok.diginaut.net
+TD124 📋> 🔗 alfagok.diginaut.net
+TD15 📋> ␅
+TD217641 ␄
+TD242 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #708\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 1m 9s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD780 result: "\ud83e\udde9 Puzzel #708\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 1m 9s\n\ud83d\udd17 alfagok.diginaut.net"
+TD25 result puzzle: 708
+TD10 result guesses: 17
+TD7 result time: 1m 9s
+TD6 result link: alfagok.diginaut.net
+TD120 📆 2026-10-11 ? ␅
+TD438383 ␆
+TD130 📆 2026-10-11 ? 
