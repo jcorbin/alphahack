@@ -1,0 +1,172 @@
+T260.37894660400343 now: 2026-10-11T09:59:30EDT
+TD149 site: dontwordle.com
+TD26 wordlist: nwl2023.txt
+TD64  ...␅
+TD1594423 ␆
+TD111  ...
+TD136 1> ␅
+TD15396048 ␆* -bot 10
+TD110 1> * -bot 10
+TD355537 ? ␅
+TD1302693 ␆1
+TD111 ? 1
+TD287 📋 "aster" ? ␅
+TD6206604 ␆nnnnn
+TD171 📋 "aster" ? nnnnn
+TD617 tried: ASTER n n n n n
+TD204 2> ␅
+TD728597 ␆undo
+TD130 2> undo
+TD194 undo
+TD144 1> ␅
+TD6200843 ␆* :v [aster] -bot 10
+TD124 1> * :v [aster] -bot 10
+TD357712 ? ␅
+TD916527 ␆1
+TD110 ? 1
+TD253 📋 "onium" ? ␅
+TD4601333 ␆nnYnn
+TD127 📋 "onium" ? nnYnn
+TD254 tried: ONIUM n n Y n n
+TD195 2> ␅
+TD659483 ␆undo
+TD111 2> undo
+TD171 undo
+TD148 1> ␅
+TD10245747 ␆* :v [asteronium] -bot 10
+TD133 1> * :v [asteronium] -bot 10
+TD288313 ? ␅
+TD3513545 ␆4
+TD130 ? 4
+TD246 📋 "glyph" ? ␅
+TD4673601 ␆nMMnn
+TD136 📋 "glyph" ? nMMnn
+TD217 tried: GLYPH n m m n n
+TD198 2> ␅
+TD945183 ␆undo
+TD109 2> undo
+TD149 undo
+TD143 1> ␅
+TD2428334 ␆*
+TD110 1> *
+TD196677 ? ␅
+TD187 ␆1
+TD6 ? 1
+TD266 📋 "ebbet" ? ␅
+TD4151540 ␆nnnnn
+TD110 📋 "ebbet" ? nnnnn
+TD214 tried: EBBET n n n n n
+TD179 2> ␅
+TD741283 ␆*
+TD120 2> *
+TD182064 ? ␅
+TD657559 ␆1
+TD113 ? 1
+TD261 📋 "zanza" ? ␅
+TD4055591 ␆nnnnn
+TD130 📋 "zanza" ? nnnnn
+TD242 tried: ZANZA n n n n n
+TD189 3> ␅
+TD905458 ␆*
+TD110 3> *
+TD165827 ? ␅
+TD1469767 ␆1
+TD115 ? 1
+TD256 📋 "woofs" ? ␅
+TD6047325 ␆nnnnn
+TD111 📋 "woofs" ? nnnnn
+TD215 tried: WOOFS n n n n n
+TD240 4> ␅
+TD983423 ␆*
+TD112 4> *
+TD153760 ? ␅
+TD938456 ␆1
+TD113 ? 1
+TD248 📋 "cruck" ? ␅
+TD7451322 ␆Mnnnn
+TD112 📋 "cruck" ? Mnnnn
+TD215 tried: CRUCK m n n n n
+TD224 5> ␅
+TD766365 ␆undo
+TD109 5> undo
+TD153 undo
+TD249 4> ␅
+TD903332 ␆*
+TD113 4> *
+TD177600 ? ␅
+TD1024789 ␆1
+TD112 ? 1
+TD246 📋 "durum" ? ␅
+TD5945332 ␆nnnnn
+TD110 📋 "durum" ? nnnnn
+TD211 tried: DURUM n n n n n
+TD208 5> ␅
+TD646440 ␆*
+TD106 5> *
+TD304317 ? ␅
+TD5903361 ␆2
+TD126 ? 2
+TD264 📋 "civic" ? ␅
+TD6066891 ␆MMnMn
+TD109 📋 "civic" ? MMnMn
+TD215 tried: CIVIC m m n m n
+TD220 6> ␅
+TD742227 ␆undo
+TD103 6> undo
+TD153 undo
+TD355 5> ␅
+TD1985052 ␆*
+TD108 5> *
+TD306480 ? ␅
+TD9016184 ␆MnYnn
+TD105 ? MnYnn
+TD425 ? ␅
+TD2355911 ␆1
+TD105 ? 1
+TD262 📋 "chick" ? ␅
+TD2221201 ␆MnYnn
+TD110 📋 "chick" ? MnYnn
+TD213 tried: CHICK m n Y n n
+TD218 6> ␅
+TD3593485 ␆/res
+TD113 6> /res
+TD203 📋> ␅
+TD1581585 ␆Don't Wordle 1601 - ELIMINATED
+TD110 📋> Don't Wordle 1601 - ELIMINATED
+TD13 📋> ␅
+TD50 ␆Well technically I didn't Wordle!
+TD7 📋> Well technically I didn't Wordle!
+TD5 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜4685
+TD6 📋> ⬜⬜⬜⬜⬜4685
+TD4 📋> ␅
+TD13 ␆⬜⬜⬜⬜⬜1624
+TD4 📋> ⬜⬜⬜⬜⬜1624
+TD4 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜240
+TD4 📋> ⬜⬜⬜⬜⬜240
+TD4 📋> ␅
+TD8 ␆⬜⬜⬜⬜⬜42
+TD5 📋> ⬜⬜⬜⬜⬜42
+TD4 📋> ␅
+TD11 ␆🟨⬜🟩⬜⬜1
+TD5 📋> 🟨⬜🟩⬜⬜1
+TD4 📋> ␅
+TD9 ␆⬛⬛⬛⬛⬛
+TD4 📋> ⬛⬛⬛⬛⬛
+TD4 📋> ␅
+TD10 ␆Undos used: 5
+TD4 📋> Undos used: 5
+TD5 📋> ␅
+TD12 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD354704 ␆https://dontwordle.com
+TD115 📋> https://dontwordle.com
+TD12 📋> ␅
+TD403558 ␄
+TD203 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Don't Wordle 1601 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4685\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1624\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c240\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c42\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c1\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5\n\nhttps://dontwordle.com"}
+TD1315 result: "Don't Wordle 1601 - ELIMINATED\nWell technically I didn't Wordle!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4685\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1624\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c240\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c42\n\ud83d\udfe8\u2b1c\ud83d\udfe9\u2b1c\u2b1c1\n\u2b1b\u2b1b\u2b1b\u2b1b\u2b1b\nUndos used: 5\n\nhttps://dontwordle.com"
+TD131 📆 2026-10-11 ? ␅
+TD1797623 ␆
+TD113 📆 2026-10-11 ? 
