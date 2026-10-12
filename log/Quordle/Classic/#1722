@@ -1,0 +1,155 @@
+T6050.628862079 now: 2026-10-12T16:53:12EDT
+TD159 site: https://www.merriam-webster.com/games/quordle/#/
+TD23 wordlist: nwl2023.txt
+TD7 num_words: 4
+TD559  ...␅
+TD11414550 ␆
+TD78  ...
+TD823043 > ␅
+TD605264 ␆*
+TD77 > *
+TD111598 ? ␅
+TD577464 ␆1
+TD109 ? 1
+TD238 questioning: taser
+TD702 Classic #1 _____? ␅
+TD3034528 ␆nnnMn
+TD105 Classic #1 _____? nnnMn
+TD570 attempt: 0 TASER n n n m n
+TD112 Classic #2 _____? ␅
+TD2523656 ␆nnnMn
+TD80 Classic #2 _____? nnnMn
+TD196 attempt: 1 TASER n n n m n
+TD82 Classic #3 _____? ␅
+TD1531005 ␆MnnnM
+TD109 Classic #3 _____? MnnnM
+TD232 attempt: 2 TASER m n n n m
+TD110 Classic #4 _____? ␅
+TD1688274 ␆MMMnn
+TD112 Classic #4 _____? MMMnn
+TD235 attempt: 3 TASER m m m n n
+TD800293 > ␅
+TD695471 ␆*
+TD105 > *
+TD4614 ? ␅
+TD752110 ␆1
+TD105 ? 1
+TD196 questioning: belon
+TD212 Classic #1 _____ ~E -ARST? ␅
+TD2984592 ␆nYYMn
+TD77 Classic #1 _____ ~E -ARST? nYYMn
+TD191 attempt: 0 BELON n Y Y m n
+TD104 Classic #2 _____ ~E -ARST? ␅
+TD1715347 ␆YYYYn
+TD71 Classic #2 _____ ~E -ARST? YYYYn
+TD182 attempt: 1 BELON Y Y Y Y n
+TD91 Classic #3 _____ ~RT -AES? ␅
+TD1315741 ␆nnnnn
+TD102 Classic #3 _____ ~RT -AES? nnnnn
+TD259 attempt: 2 BELON n n n n n
+TD113 Classic #4 _____ ~AST -ER? ␅
+TD1411768 ␆nnMnM
+TD109 Classic #4 _____ ~AST -ER? nnMnM
+TD237 attempt: 3 BELON n n m n m
+TD757553 > ␅
+TD565793 ␆*
+TD113 > *
+TD415 questioning: below
+TD147 Classic #1 _EL__ ~O -ABNRST? ␅
+TD5396854 ␆nYYMn
+TD108 Classic #1 _EL__ ~O -ABNRST? nYYMn
+TD244 attempt: 0 BELOW n Y Y m n
+TD116 Classic #2 BELO_ -ANRST? ␅
+TD1518197 ␆YYYYY
+TD111 Classic #2 BELO_ -ANRST? YYYYY
+TD223 attempt: 1 BELOW Y Y Y Y Y
+TD123 Classic #3 _____ ~RT -ABELNOS? ␅
+TD1294096 ␆nnnnn
+TD150 Classic #3 _____ ~RT -ABELNOS? nnnnn
+TD233 attempt: 2 BELOW n n n n n
+TD126 Classic #4 _____ ~ALNST -BEOR? ␅
+TD1552784 ␆nnMnn
+TD105 Classic #4 _____ ~ALNST -BEOR? nnMnn
+TD229 attempt: 3 BELOW n n m n n
+TD590865 > ␅
+TD627638 ␆*
+TD109 > *
+TD411 questioning: slant
+TD220 Classic #1 _EL__ ~O -ABNRSTW? ␅
+TD4053939 ␆nMnnn
+TD80 Classic #1 _EL__ ~O -ABNRSTW? nMnnn
+TD189 attempt: 0 SLANT n m n n n
+TD105 Classic #3 _____ ~RT -ABELNOSW? ␅
+TD1421054 ␆nnnnY
+TD110 Classic #3 _____ ~RT -ABELNOSW? nnnnY
+TD257 attempt: 2 SLANT n n n n Y
+TD121 Classic #4 _____ ~ALNST -BEORW? ␅
+TD1115969 ␆YYYYY
+TD82 Classic #4 _____ ~ALNST -BEORW? YYYYY
+TD183 attempt: 3 SLANT Y Y Y Y Y
+TD330813 > ␅
+TD938920 ␆*
+TD101 > *
+TD794 ? ␅
+TD1717175 ␄
+TD150 <EOF>
+TD308397 > ␅
+TD474071 ␆probe
+TD77 > probe
+TD525834 > ␅
+TD2608485 ␆*
+TD101 > *
+TD837 ? ␅
+TD2197006 ␆1
+TD116 ? 1
+TD200 questioning: cruft
+TD237 Classic #1 _EL__ ~O -ABNRSTW? ␅
+TD3072079 ␆nnnnn
+TD131 Classic #1 _EL__ ~O -ABNRSTW? nnnnn
+TD228 attempt: 0 CRUFT n n n n n
+TD158 Classic #3 ____T ~R -ABELNOSW? ␅
+TD1533710 ␆nMnnY
+TD110 Classic #3 ____T ~R -ABELNOSW? nMnnY
+TD232 attempt: 2 CRUFT n m n n Y
+TD309960 > ␅
+TD691268 ␆*
+TD107 > *
+TD477 questioning: right
+TD206 Classic #1 _EL__ ~O -ABCFNRSTUW? ␅
+TD3046039 ␆nnnMn
+TD81 Classic #1 _EL__ ~O -ABCFNRSTUW? nnnMn
+TD288 attempt: 0 RIGHT n n n m n
+TD134 Classic #3 ____T ~R -ABCEFLNOSUW? ␅
+TD1681712 ␆YYYYY
+TD106 Classic #3 ____T ~R -ABCEFLNOSUW? YYYYY
+TD231 attempt: 2 RIGHT Y Y Y Y Y
+TD156421 > ␅
+TD841495 ␆*
+TD77 > *
+TD314 questioning: hello
+TD152 Classic #1 _EL__ ~HO -ABCFGINRSTUW? ␅
+TD3308258 ␆YYYYY
+TD103 Classic #1 _EL__ ~HO -ABCFGINRSTUW? YYYYY
+TD217 attempt: 0 HELLO Y Y Y Y Y
+TD222 📋> ␅
+TD6707403 ␆🙂 Daily Quordle 1722
+TD113 📋> 🙂 Daily Quordle 1722
+TD12 📋> ␅
+TD51 ␆7️⃣3️⃣
+TD6 📋> 7️⃣3️⃣
+TD5 📋> ␅
+TD11 ␆6️⃣4️⃣
+TD4 📋> 6️⃣4️⃣
+TD4 📋> ␅
+TD10 ␆m-w.com/games/quordle/
+TD4 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD244249 ␆
+TD113 📋> 
+TD12 📋> ␅
+TD483575 ␄
+TD190 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1722\n7\ufe0f\u20e33\ufe0f\u20e3\n6\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2121 result: "\ud83d\ude42 Daily Quordle 1722\n7\ufe0f\u20e33\ufe0f\u20e3\n6\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD131 📆 2026-10-12 ? ␅
+TD328680 ␆
+TD117 📆 2026-10-12 ? 
