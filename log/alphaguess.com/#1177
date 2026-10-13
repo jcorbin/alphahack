@@ -1,0 +1,82 @@
+T1235.7728338720044 now: 2026-10-13T09:03:03EDT
+TD141 site: alphaguess.com
+TD258079 loaded 196511 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (93 words excluded) asof 52687cd9a16980dd41269889fde632f9e0cc31a8
+TD193  ...␅
+TD4621277 ␆
+TD140  ...
+TD205 [0 : 98142 : 196511] mac? ␅
+TD2740203 ␆b
+TD109 [0 : 98142 : 196511] mac? b
+TD118 progress: -1 98142 mac
+TD122 [0 : 47374 : 98142] dis? ␅
+TD1526936 ␆b
+TD111 [0 : 47374 : 98142] dis? b
+TD114 progress: -1 47374 dis
+TD142 [0 : 23680 : 47374] camp? ␅
+TD1543556 ␆a
+TD108 [0 : 23680 : 47374] camp? a
+TD110 progress: 1 23680 camp
+TD113 [23681 : 35522 : 47374] convention? ␅
+TD1802939 ␆a
+TD138 [23681 : 35522 : 47374] convention? a
+TD117 progress: 1 35522 convention
+TD120 [35523 : 40838 : 47374] da? ␅
+TD1561570 ␆b
+TD110 [35523 : 40838 : 47374] da? b
+TD147 progress: -1 40838 da
+TD504 [35523 : 38181 : 40838] crazy? ␅
+TD1487208 ␆b
+TD111 [35523 : 38181 : 40838] crazy? b
+TD137 progress: -1 38181 crazy
+TD114 [35523 : 36723 : 38181] cos? ␅
+TD1455964 ␆a
+TD114 [35523 : 36723 : 38181] cos? a
+TD122 progress: 1 36723 cos
+TD114 [36724 : 37449 : 38181] courant? ␅
+TD1432772 ␆a
+TD113 [36724 : 37449 : 38181] courant? a
+TD111 progress: 1 37449 courant
+TD113 [37450 : 37801 : 38181] coz? ␅
+TD1352172 ␆a
+TD111 [37450 : 37801 : 38181] coz? a
+TD138 progress: 1 37801 coz
+TD256 [37802 : 37987 : 38181] crane? ␅
+TD1373859 ␆a
+TD103 [37802 : 37987 : 38181] crane? a
+TD109 progress: 1 37987 crane
+TD132 [37988 : 38078 : 38181] crash? ␅
+TD3711224 ␆a
+TD181 [37988 : 38078 : 38181] crash? a
+TD137 progress: 1 38078 crash
+TD124 [38079 : 38125 : 38181] craven? ␅
+TD1732233 ␆a
+TD107 [38079 : 38125 : 38181] craven? a
+TD115 progress: 1 38125 craven
+TD115 [38126 : 38148 : 38181] crawl? ␅
+TD18556835 ␆it
+TD128 [38126 : 38148 : 38181] crawl? it
+TD128 progress: 0 38148 crawl
+TD26 [38126 : 38148 : 38181] <Done>.
+TD93 📋> ␅
+TD2969337 ␆🧩 Puzzle #1177
+TD109 📋> 🧩 Puzzle #1177
+TD12 📋> ␅
+TD49 ␆🤔 13 guesses
+TD6 📋> 🤔 13 guesses
+TD5 📋> ␅
+TD11 ␆⏱️ 20s
+TD5 📋> ⏱️ 20s
+TD4 📋> ␅
+TD254705 ␆🔗 alphaguess.com/1177
+TD109 📋> 🔗 alphaguess.com/1177
+TD12 📋> ␅
+TD227766 ␄
+TD193 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1177\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1177"}
+TD115 result: "\ud83e\udde9 Puzzle #1177\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 20s\n\ud83d\udd17 alphaguess.com/1177"
+TD16 result puzzle: 1177
+TD8 result guesses: 13
+TD5 result time: 20s
+TD5 result link: alphaguess.com/1177
+TD108 📆 2026-10-13 ? ␅
+TD399295 ␆
+TD119 📆 2026-10-13 ? 
