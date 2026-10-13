@@ -1,0 +1,98 @@
+T959.9655102840043 now: 2026-10-13T08:58:27EDT
+TD166 site: alfagok.diginaut.net
+TD714047 loaded 399453 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1399 words excluded) asof 52687cd9a16980dd41269889fde632f9e0cc31a8
+TD174  ...␅
+TD4437368 ␆
+TD112  ...
+TD235 [0 : 199631 : 399453] lijk? ␅
+TD2408315 ␆a
+TD114 [0 : 199631 : 399453] lijk? a
+TD359 progress: 1 199631 lijk
+TD132 [199632 : 299532 : 399453] schroot? ␅
+TD1643751 ␆a
+TD112 [199632 : 299532 : 399453] schroot? a
+TD136 progress: 1 299532 schroot
+TD165 [299533 : 349314 : 399453] vakantie? ␅
+TD1452975 ␆a
+TD120 [299533 : 349314 : 399453] vakantie? a
+TD115 progress: 1 349314 vakantie
+TD111 [349315 : 374048 : 399453] vrij? ␅
+TD1527704 ␆b
+TD118 [349315 : 374048 : 399453] vrij? b
+TD119 progress: -1 374048 vrij
+TD142 [349315 : 352878 : 374048] ver? ␅
+TD1525207 ␆a
+TD112 [349315 : 352878 : 374048] ver? a
+TD117 progress: 1 352878 ver
+TD449 [352879 : 363463 : 374048] verzout? ␅
+TD1759948 ␆b
+TD114 [352879 : 363463 : 374048] verzout? b
+TD121 progress: -1 363463 verzout
+TD415 [352879 : 358171 : 363463] verluiert? ␅
+TD1718294 ␆a
+TD111 [352879 : 358171 : 363463] verluiert? a
+TD113 progress: 1 358171 verluiert
+TD129 [358172 : 360483 : 363463] verst? ␅
+TD1703642 ␆b
+TD111 [358172 : 360483 : 363463] verst? b
+TD115 progress: -1 360483 verst
+TD172 [358172 : 359322 : 360483] verpot? ␅
+TD1655456 ␆b
+TD111 [358172 : 359322 : 360483] verpot? b
+TD113 progress: -1 359322 verpot
+TD116 [358172 : 358744 : 359322] vernietig? ␅
+TD1697422 ␆b
+TD111 [358172 : 358744 : 359322] vernietig? b
+TD127 progress: -1 358744 vernietig
+TD114 [358172 : 358454 : 358744] vermoed? ␅
+TD1618191 ␆b
+TD112 [358172 : 358454 : 358744] vermoed? b
+TD116 progress: -1 358454 vermoed
+TD378 [358172 : 358300 : 358454] vermeerder? ␅
+TD1678786 ␆a
+TD111 [358172 : 358300 : 358454] vermeerder? a
+TD136 progress: 1 358300 vermeerder
+TD201 [358301 : 358363 : 358454] vermenigvuldig? ␅
+TD1632317 ␆b
+TD111 [358301 : 358363 : 358454] vermenigvuldig? b
+TD114 progress: -1 358363 vermenigvuldig
+TD139 [358301 : 358324 : 358363] vermei? ␅
+TD1657110 ␆a
+TD140 [358301 : 358324 : 358363] vermei? a
+TD123 progress: 1 358324 vermei
+TD117 [358325 : 358334 : 358363] vermeld? ␅
+TD1796259 ␆a
+TD128 [358325 : 358334 : 358363] vermeld? a
+TD116 progress: 1 358334 vermeld
+TD230 [358335 : 358349 : 358363] vermemeld? ␅
+TD2078777 ␆b
+TD127 [358335 : 358349 : 358363] vermemeld? b
+TD111 progress: -1 358349 vermemeld
+TD124 [358335 : 358338 : 358349] vermelden? ␅
+TD1779341 ␆it
+TD109 [358335 : 358338 : 358349] vermelden? it
+TD119 progress: 0 358338 vermelden
+TD27 [358335 : 358338 : 358349] <Done>.
+TD144 📋> ␅
+TD2702257 ␆🧩 Puzzel #710
+TD115 📋> 🧩 Puzzel #710
+TD23 📋> ␅
+TD57 ␆🤔 17 gokken
+TD6 📋> 🤔 17 gokken
+TD5 📋> ␅
+TD13 ␆⏱️ 27s
+TD5 📋> ⏱️ 27s
+TD4 📋> ␅
+TD2226331 ␆🔗 alfagok.diginaut.net
+TD108 📋> 🔗 alfagok.diginaut.net
+TD24 📋> ␅
+TD509704 ␄
+TD203 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #710\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 27s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD599 result: "\ud83e\udde9 Puzzel #710\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 27s\n\ud83d\udd17 alfagok.diginaut.net"
+TD18 result puzzle: 710
+TD7 result guesses: 17
+TD5 result time: 27s
+TD4 result link: alfagok.diginaut.net
+TD101 📆 2026-10-13 ? ␅
+TD459797 ␆
+TD113 📆 2026-10-13 ? 
