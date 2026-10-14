@@ -1,0 +1,82 @@
+T29500.345048018004 now: 2026-10-14T09:50:07EDT
+TD107 site: alfagok.diginaut.net
+TD391065 loaded 399453 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1399 words excluded) asof d537e5b0995571ed9396f6fe1b57a18c7ce8c5db
+TD98  ...␅
+TD6714714 ␆
+TD111  ...
+TD185 [0 : 199631 : 399453] lijk? ␅
+TD3092251 ␆a
+TD122 [0 : 199631 : 399453] lijk? a
+TD336 progress: 1 199631 lijk
+TD100 [199632 : 299532 : 399453] schroot? ␅
+TD1661014 ␆a
+TD108 [199632 : 299532 : 399453] schroot? a
+TD106 progress: 1 299532 schroot
+TD129 [299533 : 349314 : 399453] vakantie? ␅
+TD1428687 ␆a
+TD110 [299533 : 349314 : 399453] vakantie? a
+TD110 progress: 1 349314 vakantie
+TD108 [349315 : 374048 : 399453] vrij? ␅
+TD1621485 ␆a
+TD113 [349315 : 374048 : 399453] vrij? a
+TD107 progress: 1 374048 vrij
+TD126 [374049 : 386583 : 399453] wind? ␅
+TD1428898 ␆a
+TD111 [374049 : 386583 : 399453] wind? a
+TD110 progress: 1 386583 wind
+TD112 [386584 : 393000 : 399453] zelfmoord? ␅
+TD1752612 ␆b
+TD108 [386584 : 393000 : 399453] zelfmoord? b
+TD112 progress: -1 393000 zelfmoord
+TD302 [386584 : 389792 : 393000] wrik? ␅
+TD1624764 ␆b
+TD112 [386584 : 389792 : 393000] wrik? b
+TD123 progress: -1 389792 wrik
+TD111 [386584 : 388173 : 389792] woest? ␅
+TD1655571 ␆a
+TD107 [386584 : 388173 : 389792] woest? a
+TD109 progress: 1 388173 woest
+TD143 [388174 : 388845 : 389792] woon? ␅
+TD1572331 ␆a
+TD110 [388174 : 388845 : 389792] woon? a
+TD110 progress: 1 388845 woon
+TD108 [388846 : 389153 : 389792] woord? ␅
+TD1609313 ␆a
+TD107 [388846 : 389153 : 389792] woord? a
+TD108 progress: 1 389153 woord
+TD203 [389154 : 389473 : 389792] wort? ␅
+TD1716240 ␆a
+TD112 [389154 : 389473 : 389792] wort? a
+TD106 progress: 1 389473 wort
+TD121 [389474 : 389625 : 389792] wraak? ␅
+TD3169684 ␆a
+TD109 [389474 : 389625 : 389792] wraak? a
+TD121 progress: 1 389625 wraak
+TD217 [389626 : 389709 : 389792] wreed? ␅
+TD1909582 ␆it
+TD113 [389626 : 389709 : 389792] wreed? it
+TD120 progress: 0 389709 wreed
+TD23 [389626 : 389709 : 389792] <Done>.
+TD85 📋> ␅
+TD2931293 ␆🧩 Puzzel #711
+TD109 📋> 🧩 Puzzel #711
+TD12 📋> ␅
+TD42 ␆🤔 13 gokken
+TD6 📋> 🤔 13 gokken
+TD6 📋> ␅
+TD12 ␆⏱️ 21s
+TD6 📋> ⏱️ 21s
+TD4 📋> ␅
+TD236835 ␆🔗 alfagok.diginaut.net
+TD108 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD151849 ␄
+TD188 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #711\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 21s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD581 result: "\ud83e\udde9 Puzzel #711\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 21s\n\ud83d\udd17 alfagok.diginaut.net"
+TD15 result puzzle: 711
+TD6 result guesses: 13
+TD5 result time: 21s
+TD4 result link: alfagok.diginaut.net
+TD92 📆 2026-10-14 ? ␅
+TD296526 ␆
+TD129 📆 2026-10-14 ? 
