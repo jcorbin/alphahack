@@ -1,0 +1,264 @@
+T5696.111559655998 now: 2026-10-14T11:36:16EDT
+TD142 site: https://wordgrid.clevergoat.com/
+TD42 wordlist: nwl2023.txt
+TD124 > ␅
+TD4823268 ␆col 1 ~SH
+TD114 > col 1 ~SH
+TD1154 rule col: 1 ~SH
+TD76 > ␅
+TD2099374 ␆col 2 x2
+TD117 > col 2 x2
+TD851 rule col: 2 x2
+TD95 > ␅
+TD3607600 ␆col 3 !AEI
+TD119 > col 3 !AEI
+TD364 rule col: 3 !AEI
+TD75 > ␅
+TD3400038 ␆row 1 #1-6
+TD97 > row 1 #1-6
+TD401 rule row: 1 #1-6
+TD71 > ␅
+TD3399184 ␆row 2 ~H$
+TD140 > row 2 ~H$
+TD655 rule row: 2 ~H$
+TD183 > ␅
+TD9465825 ␆row 3 ![EIO]
+TD110 > row 3 ![EIO]
+TD1100 rule row: 3 ![EIO]
+TD139 > ␅
+TD3807740 ␆col 3 ![AEI]
+TD53 > col 3 ![AEI]
+TD250 rule col: 3 ![AEI]
+TD38 > ␅
+TD1209844 ␆*
+TD112 > *
+TD202626 ? ␅
+TD571896 ␆1
+TD120 ? 1
+TD174 questioning: 0 sha
+TD118 🌡️ sha 📋 ? ␅
+TD4314710 ␆.11
+TD111 🌡️ sha 📋 ? .11
+TD489 word: 0 sha 0.11
+TD36 questioning: -1 
+TD202 > ␅
+TD456067 ␆*
+TD98 > *
+TD535949 ? ␅
+TD949057 ␆1
+TD111 ? 1
+TD184 questioning: 1 loess
+TD58 🌡️ loess 📋 ? ␅
+TD2652146 ␆.02
+TD61 🌡️ loess 📋 ? .02
+TD56 word: 1 loess 0.02
+TD11 questioning: -1 
+TD55 > ␅
+TD1198789 ␆* 1 1
+TD132 > * 1 1
+TD160902 ? ␅
+TD1625094 ␆10
+TD76 ? 10
+TD133 questioning: 0 shero
+TD45 🌡️ shero 📋 ? ␅
+TD3163862 ␆0
+TD75 🌡️ shero 📋 ? 0
+TD76 word: 0 shero 0.0
+TD12 questioning: -1 
+TD69 > ␅
+TD403262 ␆*
+TD78 > *
+TD167716 ? ␅
+TD4166259 ␆6
+TD80 ? 6
+TD126 questioning: 2 tups
+TD39 🌡️ tups 📋 ? ␅
+TD2704040 ␆.02
+TD101 🌡️ tups 📋 ? .02
+TD108 word: 2 tups 0.02
+TD23 questioning: -1 
+TD116 > ␅
+TD471384 ␆*
+TD82 > *
+TD164623 ? ␅
+TD2167451 ␆3
+TD82 ? 3
+TD123 questioning: 3 oarfish
+TD39 🌡️ oarfish 📋 ? ␅
+TD2535034 ␆.03
+TD86 🌡️ oarfish 📋 ? .03
+TD79 word: 3 oarfish 0.03
+TD13 questioning: -1 
+TD75 > ␅
+TD417205 ␆*
+TD92 > *
+TD528668 ? ␅
+TD3455459 ␆1
+TD79 ? 1
+TD121 questioning: 4 fellah
+TD39 🌡️ fellah 📋 ? ␅
+TD2773002 ␆.08
+TD104 🌡️ fellah 📋 ? .08
+TD111 word: 4 fellah 0.08
+TD25 questioning: -1 
+TD119 > ␅
+TD442502 ␆*
+TD103 > *
+TD157713 ? ␅
+TD5890016 ␆10
+TD97 ? 10
+TD128 questioning: 5 lych
+TD38 🌡️ lych 📋 ? ␅
+TD2869866 ␆.07
+TD108 🌡️ lych 📋 ? .07
+TD117 word: 5 lych 0.07
+TD23 questioning: -1 
+TD125 > ␅
+TD432801 ␆*
+TD108 > *
+TD163346 ? ␅
+TD1674367 ␆2
+TD77 ? 2
+TD121 questioning: 6 shul
+TD37 🌡️ shul 📋 ? ␅
+TD6078767 ␄
+TD113 <EOF>
+TD225 > ␅
+TD3092927 ␆row 3 ![EIO]
+TD107 > row 3 ![EIO]
+TD208 rule row: 3 ![EIO]
+TD164 > ␅
+TD626603 ␆*
+TD70 > *
+TD161599 ? ␅
+TD3079401 ␆5
+TD85 ? 5
+TD128 questioning: 6 kurbash
+TD39 🌡️ kurbash 📋 ? ␅
+TD30380393 ␄
+TD153 <EOF>
+TD202 > ␅
+TD3564921 ␆row 3 ![EIU]
+TD107 > row 3 ![EIU]
+TD705 rule row: 3 ![EIU]
+TD126 > ␅
+TD4931775 ␆*
+TD83 > *
+TD164222 ? ␅
+TD2265937 ␆2
+TD115 ? 2
+TD179 questioning: 6 shoat
+TD59 🌡️ shoat 📋 ? ␅
+TD3662964 ␆.16
+TD122 🌡️ shoat 📋 ? .16
+TD115 word: 6 shoat 0.16
+TD24 questioning: -1 
+TD124 > ␅
+TD500766 ␆*
+TD104 > *
+TD546661 ? ␅
+TD1367737 ␆1
+TD104 ? 1
+TD170 questioning: 7 torr
+TD57 🌡️ torr 📋 ? ␅
+TD2964492 ␆.05
+TD83 🌡️ torr 📋 ? .05
+TD76 word: 7 torr 0.05
+TD13 questioning: -1 
+TD72 > ␅
+TD485932 ␆*
+TD117 > *
+TD170065 ? ␅
+TD1027250 ␆1
+TD108 ? 1
+TD182 questioning: 8 rotl
+TD62 🌡️ rotl 📋 ? ␅
+TD2261850 ␆0
+TD116 🌡️ rotl 📋 ? 0
+TD145 word: 8 rotl 0.0
+TD64 questioning: -1 
+TD132 > ␅
+TD2904873 ␆* 1 3
+TD110 > * 1 3
+TD189555 ? ␅
+TD2113981 ␆2
+TD51 ? 2
+TD82 questioning: 6 potash
+TD24 🌡️ potash 📋 ? ␅
+TD2809121 ␆.33
+TD119 🌡️ potash 📋 ? .33
+TD114 word: 6 potash 0.33
+TD25 questioning: -1 
+TD141 > ␅
+TD901837 ␆* 1 3
+TD110 > * 1 3
+TD166721 ? ␅
+TD2664691 ␆3
+TD80 ? 3
+TD126 questioning: 6 dosh
+TD37 🌡️ dosh 📋 ? ␅
+TD2878744 ␆.41
+TD81 🌡️ dosh 📋 ? .41
+TD78 word: 6 dosh 0.41
+TD13 questioning: -1 
+TD80 > ␅
+TD1270951 ␆* 1 3
+TD106 > * 1 3
+TD166440 ? ␅
+TD6109753 ␆10
+TD107 ? 10
+TD188 questioning: 6 poshly
+TD58 🌡️ poshly 📋 ? ␅
+TD4033129 ␆* 1 3 -bot 10
+TD77 🌡️ poshly 📋 ? * 1 3 -bot 10
+TD97 🌡️ poshly 📋 ? ␅
+TD2288944 ␆.34
+TD119 🌡️ poshly 📋 ? .34
+TD112 word: 6 poshly 0.34
+TD26 questioning: -1 
+TD139 > ␅
+TD1841474 ␆* 1 3 -bot 10
+TD107 > * 1 3 -bot 10
+TD170531 ? ␅
+TD2003467 ␆10
+TD78 ? 10
+TD135 questioning: 6 shahadahs
+TD48 🌡️ shahadahs 📋 ? ␅
+TD3160968 ␆.01
+TD82 🌡️ shahadahs 📋 ? .01
+TD79 word: 6 shahadahs 0.01
+TD13 questioning: -1 
+TD79 > ␅
+TD1560239 ␆/res
+TD113 > /res
+TD220 📋> ␅
+TD3571332 ␆Word Grid #866
+TD55 📋> Word Grid #866
+TD6 📋> ␅
+TD26 ␆🦄🌌🌌
+TD2 📋> 🦄🌌🌌
+TD2 📋> ␅
+TD5 ␆🌌🌌🌌
+TD2 📋> 🌌🌌🌌
+TD1 📋> ␅
+TD5 ␆🌌🌌🦄
+TD1 📋> 🌌🌌🦄
+TD1 📋> ␅
+TD4 ␆Rarity: 0.28
+TD2 📋> Rarity: 0.28
+TD2 📋> ␅
+TD203158 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD84 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD8 📋> ␅
+TD165601 ␄
+TD148 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #866\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\nRarity: 0.28\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD676 result: "Word Grid #866\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\nRarity: 0.28\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD95 > ␅
+TD195796 ␆
+TD54 > 
+TD122 > ␅
+TD1025405 ␆/store
+TD89 > /store
+TD193 📆 2026-10-14 ? ␅
+TD495725 ␆
+TD55 📆 2026-10-14 ? 
