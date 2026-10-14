@@ -1,0 +1,82 @@
+T29572.744088378007 now: 2026-10-14T09:51:19EDT
+TD81 site: alphaguess.com
+TD118965 loaded 196511 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (93 words excluded) asof d537e5b0995571ed9396f6fe1b57a18c7ce8c5db
+TD94  ...␅
+TD4418872 ␆
+TD81  ...
+TD136 [0 : 98142 : 196511] mac? ␅
+TD2231378 ␆b
+TD114 [0 : 98142 : 196511] mac? b
+TD114 progress: -1 98142 mac
+TD120 [0 : 47374 : 98142] dis? ␅
+TD1514690 ␆b
+TD92 [0 : 47374 : 98142] dis? b
+TD89 progress: -1 47374 dis
+TD94 [0 : 23680 : 47374] camp? ␅
+TD1716832 ␆a
+TD118 [0 : 23680 : 47374] camp? a
+TD109 progress: 1 23680 camp
+TD109 [23681 : 35522 : 47374] convention? ␅
+TD1524111 ␆a
+TD113 [23681 : 35522 : 47374] convention? a
+TD110 progress: 1 35522 convention
+TD128 [35523 : 40838 : 47374] da? ␅
+TD1505412 ␆a
+TD92 [35523 : 40838 : 47374] da? a
+TD88 progress: 1 40838 da
+TD92 [40839 : 44066 : 47374] den? ␅
+TD4176211 ␆b
+TD125 [40839 : 44066 : 47374] den? b
+TD107 progress: -1 44066 den
+TD121 [40839 : 42369 : 44066] deco? ␅
+TD1768579 ␆b
+TD107 [40839 : 42369 : 44066] deco? b
+TD116 progress: -1 42369 deco
+TD110 [40839 : 41548 : 42369] day? ␅
+TD1585126 ␆b
+TD108 [40839 : 41548 : 42369] day? b
+TD105 progress: -1 41548 day
+TD200 [40839 : 41163 : 41548] dan? ␅
+TD1638757 ␆a
+TD97 [40839 : 41163 : 41548] dan? a
+TD91 progress: 1 41163 dan
+TD98 [41164 : 41346 : 41548] darn? ␅
+TD1584764 ␆a
+TD106 [41164 : 41346 : 41548] darn? a
+TD107 progress: 1 41346 darn
+TD316 [41347 : 41448 : 41548] dative? ␅
+TD2454281 ␆b
+TD110 [41347 : 41448 : 41548] dative? b
+TD111 progress: -1 41448 dative
+TD109 [41347 : 41393 : 41448] dashi? ␅
+TD1851669 ␆a
+TD104 [41347 : 41393 : 41448] dashi? a
+TD114 progress: 1 41393 dashi
+TD127 [41394 : 41415 : 41448] data? ␅
+TD3188237 ␆it
+TD132 [41394 : 41415 : 41448] data? it
+TD113 progress: 0 41415 data
+TD24 [41394 : 41415 : 41448] <Done>.
+TD86 📋> ␅
+TD3523917 ␆🧩 Puzzle #1178
+TD104 📋> 🧩 Puzzle #1178
+TD12 📋> ␅
+TD42 ␆🤔 13 guesses
+TD6 📋> 🤔 13 guesses
+TD5 📋> ␅
+TD11 ␆⏱️ 22s
+TD5 📋> ⏱️ 22s
+TD4 📋> ␅
+TD235938 ␆🔗 alphaguess.com/1178
+TD110 📋> 🔗 alphaguess.com/1178
+TD12 📋> ␅
+TD139570 ␄
+TD279 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1178\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1178"}
+TD198 result: "\ud83e\udde9 Puzzle #1178\n\ud83e\udd14 13 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1178"
+TD16 result puzzle: 1178
+TD7 result guesses: 13
+TD5 result time: 22s
+TD4 result link: alphaguess.com/1178
+TD102 📆 2026-10-14 ? ␅
+TD259296 ␆
+TD115 📆 2026-10-14 ? 
