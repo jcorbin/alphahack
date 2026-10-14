@@ -1,0 +1,265 @@
+T511.64286957800505 now: 2026-10-14T10:09:51EDT
+TD152 site: squareword.org
+TD35 wordlist: nwl2023.txt
+TD47  ...␅
+TD8346279 ␆
+TD117  ...
+TD80 🧩  ? ␅
+TD2106586 ␆#1717
+TD110 🧩  ? #1717
+TD310 puzzle_id: #1717
+TD325 > ␅
+TD2357648 ␆*
+TD111 > *
+TD171613 try? ␅
+TD761901 ␆1
+TD111 try? 1
+TD332 questioning: ["sorel", "#5"]
+TD397 #1 <IndexError>  📋 "sorel" ? ␅
+TD4555171 ␆_____ ~ O
+TD111 #1 <IndexError>  📋 "sorel" ? _____ ~ O
+TD740 attempt 0 SOREL n m n n n
+TD133 #2 <IndexError>  📋 "sorel" ? ␅
+TD2048110 ␆_____ ~ OR
+TD110 #2 <IndexError>  📋 "sorel" ? _____ ~ OR
+TD287 attempt 1 SOREL n m m n n
+TD127 #3 <IndexError>  📋 "sorel" ? ␅
+TD2163062 ␆S____ ~ E
+TD301 #3 <IndexError>  📋 "sorel" ? S____ ~ E
+TD278 attempt 2 SOREL Y n n m n
+TD124 #4 <IndexError>  📋 "sorel" ? ␅
+TD2527183 ␆___E_ ~ SL
+TD110 #4 <IndexError>  📋 "sorel" ? ___E_ ~ SL
+TD348 attempt 3 SOREL m n n Y m
+TD138 #5 <IndexError>  📋 "sorel" ? ␅
+TD2110768 ␆S____ ~ R
+TD115 #5 <IndexError>  📋 "sorel" ? S____ ~ R
+TD271 attempt 4 SOREL Y n m n n
+TD418 ? ␅
+TD372118 ␆
+TD113 ? 
+TD162 question done
+TD314 > ␅
+TD1253022 ␆*
+TD88 > *
+TD845830 try? ␅
+TD10012495 ␄
+TD171 <EOF>
+TD359 > ␅
+TD1386742 ␆* 1
+TD118 > * 1
+TD4529 try? ␅
+TD1555380 ␆1
+TD90 try? 1
+TD227 questioning: ["amnio", "#1"]
+TD187 #1 _____ ~O -ELRS  📋 "amnio" ? ␅
+TD7157365 ␆_____ ~ OA
+TD114 #1 _____ ~O -ELRS  📋 "amnio" ? _____ ~ OA
+TD276 attempt 0 AMNIO m n n n m
+TD161 #2 _____ ~OR -ELS  📋 "amnio" ? ␅
+TD1737477 ␆.
+TD110 #2 _____ ~OR -ELS  📋 "amnio" ? .
+TD288 attempt 1 AMNIO n n n n m
+TD179 #3 S____ ~E -LOR  📋 "amnio" ? ␅
+TD3821155 ␆SM___ ~ EI
+TD118 #3 S____ ~E -LOR  📋 "amnio" ? SM___ ~ EI
+TD269 attempt 2 AMNIO n Y n m n
+TD158 #4 ___E_ ~LS -OR  📋 "amnio" ? ␅
+TD3747700 ␆___E_ ~ SLI
+TD81 #4 ___E_ ~LS -OR  📋 "amnio" ? ___E_ ~ SLI
+TD179 attempt 3 AMNIO n n n m n
+TD100 #5 S____ ~R -ELO  📋 "amnio" ? ␅
+TD3091795 ␆S____ ~ RA
+TD76 #5 S____ ~R -ELO  📋 "amnio" ? S____ ~ RA
+TD223 attempt 4 AMNIO m n n n n
+TD298 ? ␅
+TD230449 ␆
+TD116 ? 
+TD147 question done
+TD328 > ␅
+TD466799 ␆*
+TD138 > *
+TD446279 questioning: ["smite", "#3"]
+TD161 #1 _____ ~AO -EILMNRS  📋 "smite" ? ␅
+TD3978933 ␆.
+TD126 #1 _____ ~AO -EILMNRS  📋 "smite" ? .
+TD287 attempt 0 SMITE n n n n n
+TD103 #2 _____ ~OR -AEILMNS  📋 "smite" ? ␅
+TD953856 ␆.
+TD92 #2 _____ ~OR -AEILMNS  📋 "smite" ? .
+TD211 attempt 1 SMITE n n n n n
+TD69 #3 SM___ ~EI -ALNOR  📋 "smite" ? ␅
+TD649353 ␆/it
+TD114 #3 SM___ ~EI -ALNOR  📋 "smite" ? /it
+TD296 attempt 2 SMITE Y Y Y Y Y
+TD146 #4 ___E_ ~ILS -AMNOR  📋 "smite" ? ␅
+TD3897481 ␆___E_ ~ SLIT
+TD133 #4 ___E_ ~ILS -AMNOR  📋 "smite" ? ___E_ ~ SLIT
+TD289 attempt 3 SMITE m n m m n
+TD171 #5 S____ ~AR -EILMNO  📋 "smite" ? ␅
+TD3350855 ␆S____ ~ RAT
+TD77 #5 S____ ~AR -EILMNO  📋 "smite" ? S____ ~ RAT
+TD180 attempt 4 SMITE Y n n m n
+TD203 ? ␅
+TD218081 ␆
+TD87 ? 
+TD96 question done
+TD175 > ␅
+TD454714 ␆*
+TD108 > *
+TD505386 try? ␅
+TD2854632 ␆1
+TD159 try? 1
+TD336 questioning: ["islet", "#4"]
+TD356 #1 _____ ~AO -EILMNRST  📋 "islet" ? ␅
+TD4253964 ␆.
+TD114 #1 _____ ~AO -EILMNRST  📋 "islet" ? .
+TD384 attempt 0 ISLET n n n n n
+TD112 #2 _____ ~OR -AEILMNST  📋 "islet" ? ␅
+TD1057337 ␆.
+TD111 #2 _____ ~OR -AEILMNST  📋 "islet" ? .
+TD292 attempt 1 ISLET n n n n n
+TD135 #4 ___E_ ~ILST -AEMNOR  📋 "islet" ? ␅
+TD2738373 ␆__LE_ ~ SIT
+TD85 #4 ___E_ ~ILST -AEMNOR  📋 "islet" ? __LE_ ~ SIT
+TD185 attempt 3 ISLET m m Y Y m
+TD109 #5 S____ ~ART -EILMNO  📋 "islet" ? ␅
+TD3997396 ␆S___T ~ RAT
+TD108 #5 S____ ~ART -EILMNO  📋 "islet" ? S___T ~ RAT
+TD298 attempt 4 ISLET n n n n Y
+TD467 ? ␅
+TD257750 ␆
+TD118 ? 
+TD174 question done
+TD197 > ␅
+TD424453 ␆*
+TD141 > *
+TD264146 questioning: ["tiles", "#4"]
+TD152 #1 _____ ~AO -EILMNRST  📋 "tiles" ? ␅
+TD3883214 ␆.
+TD108 #1 _____ ~AO -EILMNRST  📋 "tiles" ? .
+TD268 attempt 0 TILES n n n n n
+TD107 #2 _____ ~OR -AEILMNST  📋 "tiles" ? ␅
+TD856418 ␆.
+TD86 #2 _____ ~OR -AEILMNST  📋 "tiles" ? .
+TD196 attempt 1 TILES n n n n n
+TD86 #4 __LE_ ~IST -AMNOR  📋 "tiles" ? ␅
+TD704545 ␆/it
+TD108 #4 __LE_ ~IST -AMNOR  📋 "tiles" ? /it
+TD275 attempt 3 TILES Y Y Y Y Y
+TD108 #5 S___T ~AR -EILMNOS  📋 "tiles" ? ␅
+TD5175501 ␆S___T ~ RAT
+TD122 #5 S___T ~AR -EILMNOS  📋 "tiles" ? S___T ~ RAT
+TD268 attempt 4 TILES m n n n n
+TD375 ? ␅
+TD156253 ␆
+TD113 ? 
+TD131 question done
+TD309 > ␅
+TD464177 ␆*
+TD83 > *
+TD463842 try? ␅
+TD3268707 ␆2
+TD112 try? 2
+TD346 questioning: ["occur", "#2"]
+TD262 #1 _____ ~AO -EILMNRST  📋 "occur" ? ␅
+TD8048148 ␆_____ ~ OAC
+TD111 #1 _____ ~AO -EILMNRST  📋 "occur" ? _____ ~ OAC
+TD262 attempt 0 OCCUR m m m n n
+TD180 #2 _____ ~OR -AEILMNST  📋 "occur" ? ␅
+TD3361333 ␆O__UR ~ O
+TD113 #2 _____ ~OR -AEILMNST  📋 "occur" ? O__UR ~ O
+TD299 attempt 1 OCCUR Y n n Y Y
+TD179 #5 S___T ~AR -EILMNOS  📋 "occur" ? ␅
+TD3797147 ␆S___T ~ RAT
+TD101 #5 S___T ~AR -EILMNOS  📋 "occur" ? S___T ~ RAT
+TD199 attempt 4 OCCUR n n n n m
+TD208 ? ␅
+TD259033 ␆
+TD113 ? 
+TD139 question done
+TD344 > ␅
+TD514936 ␆*
+TD123 > *
+TD1169782 questioning: ["odour", "#2"]
+TD173 #1 _____ ~ACO -EILMNRSTU  📋 "odour" ? ␅
+TD4794504 ␆.
+TD105 #1 _____ ~ACO -EILMNRSTU  📋 "odour" ? .
+TD286 attempt 0 ODOUR m n m n n
+TD104 #2 O__UR -ACEILMNST  📋 "odour" ? ␅
+TD889265 ␆/it
+TD116 #2 O__UR -ACEILMNST  📋 "odour" ? /it
+TD263 attempt 1 ODOUR Y Y Y Y Y
+TD137 #5 S___T ~AR -CEILMNOSU  📋 "odour" ? ␅
+TD3890969 ␆S___T ~ RAT
+TD115 #5 S___T ~AR -CEILMNOSU  📋 "odour" ? S___T ~ RAT
+TD262 attempt 4 ODOUR n n n n m
+TD341 ? ␅
+TD275062 ␆
+TD112 ? 
+TD176 question done
+TD235 > ␅
+TD482046 ␆*
+TD109 > *
+TD972363 questioning: ["havoc", "#1"]
+TD168 #1 _____ ~ACO -DEILMNRSTU  📋 "havoc" ? ␅
+TD3455769 ␆/it
+TD106 #1 _____ ~ACO -DEILMNRSTU  📋 "havoc" ? /it
+TD308 attempt 0 HAVOC Y Y Y Y Y
+TD98 #5 S___T ~AR -CDEILMNOSU  📋 "havoc" ? ␅
+TD4273335 ␆S___T ~ RAT
+TD79 #5 S___T ~AR -CDEILMNOSU  📋 "havoc" ? S___T ~ RAT
+TD258 attempt 4 HAVOC n m n n n
+TD349 ? ␅
+TD314817 ␆
+TD113 ? 
+TD130 question done
+TD344 > ␅
+TD482649 ␆*
+TD82 > *
+TD777066 questioning: ["start", "#5"]
+TD171 #5 S___T ~AR -CDEHILMNOSUV  📋 "start" ? ␅
+TD3648240 ␆/it
+TD66 #5 S___T ~AR -CDEHILMNOSUV  📋 "start" ? /it
+TD132 attempt 4 START Y Y Y Y Y
+TD128 ? ␅
+TD606003 ␆
+TD103 ? 
+TD125 question done
+TD16745 📋> ␅
+TD12698334 ␆squareword.org 1717: 9 guesses
+TD112 📋> squareword.org 1717: 9 guesses
+TD14 📋> ␅
+TD59 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD18 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD11 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD8 ␆🟩🟨🟨🟨🟩
+TD3 📋> 🟩🟨🟨🟨🟩
+TD4 📋> ␅
+TD11 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD10 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD271625 ␆#squareword #squareword1717
+TD110 📋> #squareword #squareword1717
+TD13 📋> ␅
+TD242055 ␄
+TD199 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1717: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1717"}
+TD762 result: "squareword.org 1717: 9 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1717"
+TD69 📆 2026-10-14 ? ␅
+TD368993 ␆
+TD126 📆 2026-10-14 ? 
