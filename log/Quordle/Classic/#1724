@@ -1,0 +1,209 @@
+T30051.832840204996 now: 2026-10-14T09:59:18EDT
+TD89 site: https://www.merriam-webster.com/games/quordle/#/
+TD12 wordlist: nwl2023.txt
+TD2 num_words: 4
+TD99  ...␅
+TD429660 ␆
+TD84  ...
+TD358797 > ␅
+TD7068417 ␆*
+TD117 > *
+TD241344 ? ␅
+TD686828 ␆1
+TD120 ? 1
+TD209 questioning: lares
+TD136 Classic #1 _____? ␅
+TD2437791 ␆nnnnn
+TD186 Classic #1 _____? nnnnn
+TD507 attempt: 0 LARES n n n n n
+TD187 Classic #2 _____? ␅
+TD1732672 ␆nnMnn
+TD109 Classic #2 _____? nnMnn
+TD235 attempt: 1 LARES n n m n n
+TD110 Classic #3 _____? ␅
+TD1695221 ␆MnMnn
+TD96 Classic #3 _____? MnMnn
+TD193 attempt: 2 LARES m n m n n
+TD84 Classic #4 _____? ␅
+TD1540373 ␆nnMMn
+TD120 Classic #4 _____? nnMMn
+TD145 attempt: 3 LARES n n m m n
+TD397346 > ␅
+TD586316 ␆*
+TD77 > *
+TD4191 ? ␅
+TD666193 ␆1
+TD105 ? 1
+TD199 questioning: unify
+TD179 Classic #1 _____ -AELRS? ␅
+TD2677326 ␆nnMnn
+TD94 Classic #1 _____ -AELRS? nnMnn
+TD176 attempt: 0 UNIFY n n m n n
+TD72 Classic #2 _____ ~R -AELS? ␅
+TD1759207 ␆Mnnnn
+TD104 Classic #2 _____ ~R -AELS? Mnnnn
+TD295 attempt: 1 UNIFY m n n n n
+TD211 Classic #3 _____ ~LR -AES? ␅
+TD1325822 ␆nnYnn
+TD108 Classic #3 _____ ~LR -AES? nnYnn
+TD244 attempt: 2 UNIFY n n Y n n
+TD182 Classic #4 _____ ~ER -ALS? ␅
+TD1261204 ␆nnnnY
+TD107 Classic #4 _____ ~ER -ALS? nnnnY
+TD244 attempt: 3 UNIFY n n n n Y
+TD359460 > ␅
+TD625532 ␆*(
+TD105 > *(
+TD185 > ␅
+TD854098 ␆*
+TD71 > *
+TD1122 ? ␅
+TD889958 ␆1
+TD104 ? 1
+TD214 questioning: ohmic
+TD288 Classic #1 _____ ~I -AEFLNRSUY? ␅
+TD3025790 ␆nnYYn
+TD91 Classic #1 _____ ~I -AEFLNRSUY? nnYYn
+TD153 attempt: 0 OHMIC n n Y Y n
+TD73 Classic #2 _____ ~RU -AEFILNSY? ␅
+TD1365881 ␆Mnnnn
+TD99 Classic #2 _____ ~RU -AEFILNSY? Mnnnn
+TD154 attempt: 1 OHMIC m n n n n
+TD73 Classic #3 __I__ ~LR -AEFNSUY? ␅
+TD1388187 ␆nnnMn
+TD98 Classic #3 __I__ ~LR -AEFNSUY? nnnMn
+TD247 attempt: 2 OHMIC n n n m n
+TD118 Classic #4 ____Y ~ER -AFILNSU? ␅
+TD1070584 ␆nnnnn
+TD72 Classic #4 ____Y ~ER -AFILNSU? nnnnn
+TD151 attempt: 3 OHMIC n n n n n
+TD382465 > ␅
+TD680981 ␆*
+TD90 > *
+TD508 ? ␅
+TD1556199 ␆
+TD85 ? 
+TD230 ? ␅
+TD507792 ␆1
+TD104 ? 1
+TD183 questioning: timid
+TD188 Classic #1 __MI_ -ACEFHLNORSUY? ␅
+TD3323277 ␆YYYYY
+TD78 Classic #1 __MI_ -ACEFHLNORSUY? YYYYY
+TD139 attempt: 0 TIMID Y Y Y Y Y
+TD78 Classic #2 _____ ~ORU -ACEFHILMNSY? ␅
+TD1626651 ␆nnnnn
+TD83 Classic #2 _____ ~ORU -ACEFHILMNSY? nnnnn
+TD145 attempt: 1 TIMID n n n n n
+TD80 Classic #3 __I__ ~LR -ACEFHMNOSUY? ␅
+TD1466897 ␆nMnnn
+TD80 Classic #3 __I__ ~LR -ACEFHMNOSUY? nMnnn
+TD149 attempt: 2 TIMID n m n n n
+TD77 Classic #4 ____Y ~ER -ACFHILMNOSU? ␅
+TD1154486 ␆nnnnn
+TD91 Classic #4 ____Y ~ER -ACFHILMNOSU? nnnnn
+TD193 attempt: 3 TIMID n n n n n
+TD292181 > ␅
+TD794318 ␆*
+TD104 > *
+TD560 ? ␅
+TD1685452 ␆2
+TD95 ? 2
+TD190 questioning: group
+TD189 Classic #2 _____ ~ORU -ACDEFHILMNSTY? ␅
+TD3138142 ␆YYYYY
+TD62 Classic #2 _____ ~ORU -ACDEFHILMNSTY? YYYYY
+TD129 attempt: 1 GROUP Y Y Y Y Y
+TD91 Classic #3 __I__ ~LR -ACDEFHMNOSTUY I:1? ␅
+TD1683637 ␆YYnnn
+TD84 Classic #3 __I__ ~LR -ACDEFHMNOSTUY I:1? YYnnn
+TD148 attempt: 2 GROUP Y Y n n n
+TD82 Classic #4 ____Y ~ER -ACDFHILMNOSTU? ␅
+TD2637405 ␆nMnnn
+TD59 Classic #4 ____Y ~ER -ACDFHILMNOSTU? nMnnn
+TD111 attempt: 3 GROUP n m n n n
+TD183437 > ␅
+TD756144 ␆*
+TD80 > *
+TD342 questioning: grill
+TD75 Classic #3 GRI__ ~L -ACDEFHMNOPSTUY I:1? ␅
+TD3544026 ␆YYYYY
+TD99 Classic #3 GRI__ ~L -ACDEFHMNOPSTUY I:1? YYYYY
+TD236 attempt: 2 GRILL Y Y Y Y Y
+TD156 Classic #4 ____Y ~ER -ACDFGHILMNOPSTU? ␅
+TD1218689 ␆nMnnn
+TD106 Classic #4 ____Y ~ER -ACDFGHILMNOPSTU? nMnnn
+TD375 attempt: 3 GRILL n m n n n
+TD93258 > ␅
+TD989188 ␆*
+TD89 > *
+TD436 ? ␅
+TD1661016 ␄
+TD67 <EOF>
+TD84562 > ␅
+TD1070553 ␆probe
+TD85 > probe
+TD171093 > ␅
+TD2116702 ␆*
+TD107 > *
+TD640 ? ␅
+TD4298184 ␆
+TD92 ? 
+TD231 ? ␅
+TD796862 ␄
+TD110 <EOF>
+TD86823 > ␅
+TD11177022 ␆probe  vbker
+TD54 > probe  vbker
+TD218061 > ␅
+TD15064685 ␆probe vbke
+TD52 > probe vbke
+TD188234 > ␅
+TD3609899 ␆probe vbkr
+TD61 > probe vbkr
+TD200053 > ␅
+TD4392051 ␆probe vbker
+TD77 > probe vbker
+TD199563 > ␅
+TD4991187 ␆tried baker
+TD52 > tried baker
+TD178 questioning: BAKER
+T12.6396520039998 now: 2026-10-14T10:01:32EDT
+TD63 questioning: BAKER
+TD61 Classic #4 ____Y ~ER -ACDFGHILMNOPSTU? ␅
+TD2671443 ␆nnnMM
+TD91 Classic #4 ____Y ~ER -ACDFGHILMNOPSTU? nnnMM
+TD274 attempt: 3 BAKER n n n m m
+TD94050 > ␅
+TD1089090 ␆*
+TD87 > *
+TD780 ? ␅
+TD1133994 ␆1
+TD107 ? 1
+TD240 questioning: every
+TD301 Classic #4 ____Y ~ER -ABCDFGHIKLMNOPSTU? ␅
+TD2633081 ␆YYYYY
+TD52 Classic #4 ____Y ~ER -ABCDFGHIKLMNOPSTU? YYYYY
+TD106 attempt: 3 EVERY Y Y Y Y Y
+TD49 📋> ␅
+TD5799037 ␆🙂 Daily Quordle 1724
+TD115 📋> 🙂 Daily Quordle 1724
+TD16 📋> ␅
+TD52 ␆4️⃣5️⃣
+TD7 📋> 4️⃣5️⃣
+TD6 📋> ␅
+TD13 ␆6️⃣8️⃣
+TD4 📋> 6️⃣8️⃣
+TD4 📋> ␅
+TD14 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD261752 ␆
+TD116 📋> 
+TD13 📋> ␅
+TD589698 ␄
+TD205 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1724\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1038 result: "\ud83d\ude42 Daily Quordle 1724\n4\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD69 📆 2026-10-14 ? ␅
+TD409633 ␆
+TD110 📆 2026-10-14 ? 
