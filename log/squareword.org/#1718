@@ -1,0 +1,236 @@
+T53175.91268600899 now: 2026-10-15T09:54:00EDT
+TD124 site: squareword.org
+TD30 wordlist: nwl2023.txt
+TD40  ...␅
+TD536812 ␆
+TD114  ...
+TD79 🧩  ? ␅
+TD11213125 ␆#1718
+TD75 🧩  ? #1718
+TD223 puzzle_id: #1718
+TD207 > ␅
+TD1609283 ␆*
+TD106 > *
+TD207098 try? ␅
+TD1617105 ␆1
+TD110 try? 1
+TD300 questioning: ["races", "#5"]
+TD261 #1 <IndexError>  📋 "races" ? ␅
+TD10482421 ␆_____ ~ ES
+TD111 #1 <IndexError>  📋 "races" ? _____ ~ ES
+TD685 attempt 0 RACES n n n m m
+TD114 #2 <IndexError>  📋 "races" ? ␅
+TD4766576 ␆_____ ~ RC
+TD76 #2 <IndexError>  📋 "races" ? _____ ~ RC
+TD210 attempt 1 RACES m n m n n
+TD100 #3 <IndexError>  📋 "races" ? ␅
+TD4046335 ␆_____ ~ RA
+TD134 #3 <IndexError>  📋 "races" ? _____ ~ RA
+TD251 attempt 2 RACES m m n n n
+TD144 #4 <IndexError>  📋 "races" ? ␅
+TD4018459 ␆R____ ~ E
+TD108 #4 <IndexError>  📋 "races" ? R____ ~ E
+TD253 attempt 3 RACES Y n n m n
+TD125 #5 <IndexError>  📋 "races" ? ␅
+TD3835278 ␆____S ~ RE
+TD77 #5 <IndexError>  📋 "races" ? ____S ~ RE
+TD207 attempt 4 RACES m n n m Y
+TD290 ? ␅
+TD321743 ␆
+TD110 ? 
+TD140 question done
+TD313 > ␅
+TD5035839 ␆* 1
+TD143 > * 1
+TD846574 try? ␅
+TD934469 ␄
+TD154 <EOF>
+TD358 > ␅
+TD1270226 ␆* 3
+TD135 > * 3
+TD790812 try? ␅
+TD1040837 ␄
+TD139 <EOF>
+TD371 > ␅
+TD836555 ␆* 2
+TD112 > * 2
+TD760675 try? ␅
+TD629303 ␄
+TD152 <EOF>
+TD354 > ␅
+TD671472 ␆* 3
+TD108 > * 3
+TD766812 try? ␅
+TD880957 ␆1
+TD108 try? 1
+TD317 questioning: ["argot", "#3"]
+TD324 #1 _____ ~ES -ACR  📋 "argot" ? ␅
+TD6277509 ␆.
+TD120 #1 _____ ~ES -ACR  📋 "argot" ? .
+TD263 attempt 0 ARGOT n n n n n
+TD95 #2 _____ ~CR -AES  📋 "argot" ? ␅
+TD5818992 ␆_____ ~ RCO
+TD133 #2 _____ ~CR -AES  📋 "argot" ? _____ ~ RCO
+TD256 attempt 1 ARGOT n m n m n
+TD152 #3 _____ ~AR -CES  📋 "argot" ? ␅
+TD5090763 ␆AR___ ~ AO
+TD105 #3 _____ ~AR -CES  📋 "argot" ? AR___ ~ AO
+TD261 attempt 2 ARGOT Y Y n m n
+TD152 #4 R____ ~E -ACS  📋 "argot" ? ␅
+TD3036569 ␆.
+TD109 #4 R____ ~E -ACS  📋 "argot" ? .
+TD294 attempt 3 ARGOT n n n n n
+TD96 #5 ____S ~ER -AC  📋 "argot" ? ␅
+TD4733801 ␆_R__S ~ ET
+TD141 #5 ____S ~ER -AC  📋 "argot" ? _R__S ~ ET
+TD264 attempt 4 ARGOT n Y n n m
+TD326 ? ␅
+TD576634 ␆
+TD112 ? 
+TD123 question done
+TD316 > ␅
+TD1857706 ␆*
+TD111 > *
+TD3216591 try? ␅
+TD2649060 ␆2
+TD98 try? 2
+TD299 questioning: ["aroma", "#3"]
+TD412 #1 _____ ~ES -ACGORT  📋 "aroma" ? ␅
+TD5573900 ␆.
+TD107 #1 _____ ~ES -ACGORT  📋 "aroma" ? .
+TD264 attempt 0 AROMA n n n n n
+TD101 #2 _____ ~COR -AEGST  📋 "aroma" ? ␅
+TD2440637 ␆.
+TD111 #2 _____ ~COR -AEGST  📋 "aroma" ? .
+TD260 attempt 1 AROMA n m m n n
+TD104 #3 AR___ ~O -CEGST  📋 "aroma" ? ␅
+TD2386829 ␆/it
+TD125 #3 AR___ ~O -CEGST  📋 "aroma" ? /it
+TD276 attempt 2 AROMA Y Y Y Y Y
+TD103 #4 R____ ~E -ACGORST  📋 "aroma" ? ␅
+TD2837234 ␆.
+TD114 #4 R____ ~E -ACGORST  📋 "aroma" ? .
+TD259 attempt 3 AROMA n n n n n
+TD99 #5 _R__S ~ET -ACGO  📋 "aroma" ? ␅
+TD2133121 ␆.
+TD136 #5 _R__S ~ET -ACGO  📋 "aroma" ? .
+TD261 attempt 4 AROMA n Y n n n
+TD284 ? ␅
+TD797687 ␆
+TD114 ? 
+TD117 question done
+TD310 > ␅
+TD1940867 ␆*
+TD111 > *
+TD2916903 try? ␅
+TD9452501 ␆1
+TD108 try? 1
+TD299 questioning: ["frets", "#5"]
+TD442 #1 _____ ~ES -ACGMORT  📋 "frets" ? ␅
+TD7963138 ␆__E__ ~ S
+TD109 #1 _____ ~ES -ACGMORT  📋 "frets" ? __E__ ~ S
+TD262 attempt 0 FRETS n n Y n m
+TD176 #2 _____ ~COR -AEGMST  📋 "frets" ? ␅
+TD5274164 ␆.
+TD176 #2 _____ ~COR -AEGMST  📋 "frets" ? .
+TD274 attempt 1 FRETS n m n n n
+TD107 #4 R____ ~E -ACGMORST  📋 "frets" ? ␅
+TD1795443 ␆.
+TD124 #4 R____ ~E -ACGMORST  📋 "frets" ? .
+TD287 attempt 3 FRETS n n m n n
+TD99 #5 _R__S ~ET -ACGMO  📋 "frets" ? ␅
+TD1574376 ␆/it
+TD111 #5 _R__S ~ET -ACGMO  📋 "frets" ? /it
+TD284 attempt 4 FRETS Y Y Y Y Y
+TD282 ? ␅
+TD1182174 ␆
+TD112 ? 
+TD123 question done
+TD325 > ␅
+TD54499778 ␆*
+TD91 > *
+TD2765500 try? ␅
+TD4340857 ␆3
+TD113 try? 3
+TD297 questioning: ["curio", "#2"]
+TD344 #1 __E__ ~S -ACFGMORT  📋 "curio" ? ␅
+TD5993791 ␆.
+TD114 #1 __E__ ~S -ACFGMORT  📋 "curio" ? .
+TD298 attempt 0 CURIO n n n n n
+TD118 #2 _____ ~COR -AEFGMST  📋 "curio" ? ␅
+TD1674577 ␆/it
+TD109 #2 _____ ~COR -AEFGMST  📋 "curio" ? /it
+TD316 attempt 1 CURIO Y Y Y Y Y
+TD140 #4 R____ ~E -ACFGMORST  📋 "curio" ? ␅
+TD5215517 ␆R__I_ ~ E
+TD115 #4 R____ ~E -ACFGMORST  📋 "curio" ? R__I_ ~ E
+TD253 attempt 3 CURIO n n n Y n
+TD342 ? ␅
+TD275967 ␆
+TD127 ? 
+TD126 question done
+TD309 > ␅
+TD706965 ␆*
+TD110 > *
+TD2247702 questioning: ["spell", "#1"]
+TD168 #1 __E__ ~S -ACFGIMORTU  📋 "spell" ? ␅
+TD4757008 ␆/it
+TD118 #1 __E__ ~S -ACFGIMORTU  📋 "spell" ? /it
+TD293 attempt 0 SPELL Y Y Y Y Y
+TD108 #4 R__I_ ~E -ACFGMORSTU  📋 "spell" ? ␅
+TD1573878 ␆.
+TD115 #4 R__I_ ~E -ACFGMORSTU  📋 "spell" ? .
+TD316 attempt 3 SPELL n n m n n
+TD321 ? ␅
+TD406579 ␆
+TD109 ? 
+TD113 question done
+TD305 > ␅
+TD1652699 ␆*
+TD118 > *
+TD1745431 questioning: ["redid", "#4"]
+TD171 #4 R__I_ ~E -ACFGLMOPRSTU  📋 "redid" ? ␅
+TD6003415 ␆/it
+TD105 #4 R__I_ ~E -ACFGLMOPRSTU  📋 "redid" ? /it
+TD247 attempt 3 REDID Y Y Y Y Y
+TD285 ? ␅
+TD325886 ␆
+TD102 ? 
+TD111 question done
+TD49001 📋> ␅
+TD6853604 ␆squareword.org 1718: 7 guesses
+TD103 📋> squareword.org 1718: 7 guesses
+TD12 📋> ␅
+TD58 ␆
+TD8 📋> 
+TD67 📋> ␅
+TD40 ␆🟨🟨🟩🟨🟨
+TD7 📋> 🟨🟨🟩🟨🟨
+TD5 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD9 ␆🟩🟨🟨🟩🟨
+TD4 📋> 🟩🟨🟨🟩🟨
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD694226 ␆#squareword #squareword1718
+TD109 📋> #squareword #squareword1718
+TD12 📋> ␅
+TD415317 ␄
+TD199 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1718: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1718"}
+TD882 result: "squareword.org 1718: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1718"
+TD98 📆 2026-10-15 ? ␅
+TD373611 ␆
+TD103 📆 2026-10-15 ? 
