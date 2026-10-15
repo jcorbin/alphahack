@@ -1,0 +1,190 @@
+T52589.69531278801 now: 2026-10-15T09:44:13EDT
+TD142 site: https://www.merriam-webster.com/games/quordle/#/
+TD23 wordlist: nwl2023.txt
+TD6 num_words: 4
+TD152  ...␅
+TD285804 ␆
+TD110  ...
+TD762436 > ␅
+TD7153324 ␆*
+TD105 > *
+TD87815 ? ␅
+TD636138 ␆1
+TD106 ? 1
+TD182 questioning: serai
+TD1289 Classic #1 _____? ␅
+TD4404870 ␆YMnMn
+TD114 Classic #1 _____? YMnMn
+TD423 attempt: 0 SERAI Y m n m n
+TD117 Classic #2 _____? ␅
+TD1462719 ␆nMnnn
+TD106 Classic #2 _____? nMnnn
+TD232 attempt: 1 SERAI n m n n n
+TD102 Classic #3 _____? ␅
+TD1319087 ␆nnnMM
+TD109 Classic #3 _____? nnnMM
+TD232 attempt: 2 SERAI n n n m m
+TD105 Classic #4 _____? ␅
+TD1784991 ␆nnYnn
+TD208 Classic #4 _____? nnYnn
+TD266 attempt: 3 SERAI n n Y n n
+TD776536 > ␅
+TD793438 ␆*
+TD115 > *
+TD4188 ? ␅
+TD1023528 ␆1
+TD106 ? 1
+TD189 questioning: luted
+TD177 Classic #1 S____ ~AE -IR? ␅
+TD3402380 ␆MnMMn
+TD103 Classic #1 S____ ~AE -IR? MnMMn
+TD227 attempt: 0 LUTED m n m m n
+TD102 Classic #2 _____ ~E -AIRS? ␅
+TD1299392 ␆nnnMn
+TD106 Classic #2 _____ ~E -AIRS? nnnMn
+TD224 attempt: 1 LUTED n n n m n
+TD109 Classic #3 _____ ~AI -ERS? ␅
+TD1197223 ␆nnnnn
+TD123 Classic #3 _____ ~AI -ERS? nnnnn
+TD289 attempt: 2 LUTED n n n n n
+TD143 Classic #4 __R__ -AEIS? ␅
+TD1071190 ␆nnnnn
+TD122 Classic #4 __R__ -AEIS? nnnnn
+TD284 attempt: 3 LUTED n n n n n
+TD749036 > ␅
+TD735538 ␆*
+TD105 > *
+TD685 ? ␅
+TD1121130 ␆1
+TD80 ? 1
+TD142 questioning: slate
+TD142 Classic #1 S____ ~AELT -DIRU? ␅
+TD5341341 ␆YMYMY
+TD85 Classic #1 S____ ~AELT -DIRU? YMYMY
+TD181 attempt: 0 SLATE Y m Y m Y
+TD92 Classic #2 _____ ~E -ADILRSTU? ␅
+TD1277339 ␆nnnnM
+TD128 Classic #2 _____ ~E -ADILRSTU? nnnnM
+TD275 attempt: 1 SLATE n n n n m
+TD119 Classic #3 _____ ~AI -DELRSTU? ␅
+TD1643224 ␆nnYnn
+TD100 Classic #3 _____ ~AI -DELRSTU? nnYnn
+TD230 attempt: 2 SLATE n n Y n n
+TD117 Classic #4 __R__ -ADEILSTU? ␅
+TD1123111 ␆nnnnn
+TD78 Classic #4 __R__ -ADEILSTU? nnnnn
+TD181 attempt: 3 SLATE n n n n n
+TD712911 > ␅
+TD691054 ␆*
+TD106 > *
+TD395 questioning: stale
+TD226 Classic #1 S_A_E ~LT -DIRU? ␅
+TD3099353 ␆YYYYY
+TD77 Classic #1 S_A_E ~LT -DIRU? YYYYY
+TD173 attempt: 0 STALE Y Y Y Y Y
+TD91 Classic #2 _____ ~E -ADILRSTU? ␅
+TD1545101 ␆nnnnM
+TD109 Classic #2 _____ ~E -ADILRSTU? nnnnM
+TD223 attempt: 1 STALE n n n n m
+TD111 Classic #3 __A__ ~I -DELRSTU? ␅
+TD1422417 ␆nnYnn
+TD78 Classic #3 __A__ ~I -DELRSTU? nnYnn
+TD216 attempt: 2 STALE n n Y n n
+TD105 Classic #4 __R__ -ADEILSTU? ␅
+TD1451581 ␆nnnnn
+TD108 Classic #4 __R__ -ADEILSTU? nnnnn
+TD237 attempt: 3 STALE n n n n n
+TD526058 > ␅
+TD712109 ␆*
+TD104 > *
+TD936 ? ␅
+TD4145212 ␄
+TD148 <EOF>
+TD535483 > ␅
+TD1746595 ␆* 4
+TD107 > * 4
+TD177025 ? ␅
+TD2230416 ␄
+TD133 <EOF>
+TD521948 > ␅
+TD837944 ␆* 3
+TD106 > * 3
+TD184440 ? ␅
+TD1762803 ␆4
+TD108 ? 4
+TD190 questioning: piano
+TD179 Classic #2 _____ ~E -ADILRSTU? ␅
+TD4112537 ␆MnnnM
+TD99 Classic #2 _____ ~E -ADILRSTU? MnnnM
+TD242 attempt: 1 PIANO m n n n m
+TD111 Classic #3 __A__ ~I -DELRSTU? ␅
+TD1513606 ␆YYYYY
+TD117 Classic #3 __A__ ~I -DELRSTU? YYYYY
+TD246 attempt: 2 PIANO Y Y Y Y Y
+TD116 Classic #4 __R__ -ADEILSTU? ␅
+TD1972395 ␆nnnYM
+TD102 Classic #4 __R__ -ADEILSTU? nnnYM
+TD236 attempt: 3 PIANO n n n Y m
+TD396024 > ␅
+TD704594 ␆*
+TD102 > *
+TD583 ? ␅
+TD6436446 ␄
+TD146 <EOF>
+TD381512 > ␅
+TD1459010 ␆* 4
+TD97 > * 4
+TD174764 ? ␅
+TD3514074 ␆2
+TD110 ? 2
+TD184 questioning: horny
+TD195 Classic #2 _____ ~EOP -ADILNRSTU? ␅
+TD3836701 ␆MMnnn
+TD107 Classic #2 _____ ~EOP -ADILNRSTU? MMnnn
+TD222 attempt: 1 HORNY m m n n n
+TD124 Classic #4 __RN_ ~O -ADEILPSTU? ␅
+TD1880065 ␆nYYYY
+TD105 Classic #4 __RN_ ~O -ADEILPSTU? nYYYY
+TD220 attempt: 3 HORNY n Y Y Y Y
+TD395822 > ␅
+TD632317 ␆*
+TD77 > *
+TD309 questioning: epoch
+TD123 Classic #2 _____ ~EHOP -ADILNRSTUY? ␅
+TD2730249 ␆YYYYY
+TD79 Classic #2 _____ ~EHOP -ADILNRSTUY? YYYYY
+TD178 attempt: 1 EPOCH Y Y Y Y Y
+TD95 Classic #4 _ORNY -ADEHILPSTU? ␅
+TD1730464 ␆nnMMn
+TD75 Classic #4 _ORNY -ADEHILPSTU? nnMMn
+TD181 attempt: 3 EPOCH n n m m n
+TD168810 > ␅
+TD686094 ␆*
+TD111 > *
+TD382 questioning: corny
+TD146 Classic #4 _ORNY ~C -ADEHILPSTU? ␅
+TD3058644 ␆YYYYY
+TD81 Classic #4 _ORNY ~C -ADEHILPSTU? YYYYY
+TD177 attempt: 3 CORNY Y Y Y Y Y
+TD77 📋> ␅
+TD4425675 ␆🙂 Daily Quordle 1725
+TD108 📋> 🙂 Daily Quordle 1725
+TD14 📋> ␅
+TD51 ␆4️⃣7️⃣
+TD7 📋> 4️⃣7️⃣
+TD5 📋> ␅
+TD11 ␆5️⃣8️⃣
+TD4 📋> 5️⃣8️⃣
+TD4 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD281567 ␆
+TD109 📋> 
+TD13 📋> ␅
+TD278535 ␄
+TD144 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1725\n4\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1568 result: "\ud83d\ude42 Daily Quordle 1725\n4\ufe0f\u20e37\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD77 📆 2026-10-15 ? ␅
+TD315645 ␆
+TD113 📆 2026-10-15 ? 
