@@ -1,0 +1,66 @@
+T50546.303924134 now: 2026-10-15T09:10:10EDT
+TD188 site: alfagok.diginaut.net
+TD738321 loaded 399453 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1399 words excluded) asof e07e2bc48fa606989bb935d75af62b68ae020da4
+TD132  ...␅
+TD5575191 ␆
+TD113  ...
+TD232 [0 : 199631 : 399453] lijk? ␅
+TD2853516 ␆a
+TD114 [0 : 199631 : 399453] lijk? a
+TD389 progress: 1 199631 lijk
+TD111 [199632 : 299532 : 399453] schroot? ␅
+TD1598121 ␆a
+TD112 [199632 : 299532 : 399453] schroot? a
+TD124 progress: 1 299532 schroot
+TD127 [299533 : 349314 : 399453] vakantie? ␅
+TD1699326 ␆a
+TD109 [299533 : 349314 : 399453] vakantie? a
+TD105 progress: 1 349314 vakantie
+TD109 [349315 : 374048 : 399453] vrij? ␅
+TD2124262 ␆b
+TD114 [349315 : 374048 : 399453] vrij? b
+TD109 progress: -1 374048 vrij
+TD152 [349315 : 352878 : 374048] ver? ␅
+TD2016289 ␆a
+TD109 [349315 : 352878 : 374048] ver? a
+TD109 progress: 1 352878 ver
+TD248 [352879 : 363463 : 374048] verzout? ␅
+TD1792480 ␆a
+TD125 [352879 : 363463 : 374048] verzout? a
+TD130 progress: 1 363463 verzout
+TD120 [363464 : 368470 : 374048] voetbal? ␅
+TD2255564 ␆b
+TD112 [363464 : 368470 : 374048] voetbal? b
+TD112 progress: -1 368470 voetbal
+TD114 [363464 : 365397 : 368470] vis? ␅
+TD1804059 ␆a
+TD107 [363464 : 365397 : 368470] vis? a
+TD108 progress: 1 365397 vis
+TD109 [365398 : 366749 : 368470] vlieg? ␅
+TD2021231 ␆it
+TD108 [365398 : 366749 : 368470] vlieg? it
+TD112 progress: 0 366749 vlieg
+TD25 [365398 : 366749 : 368470] <Done>.
+TD86 📋> ␅
+TD2714334 ␆🧩 Puzzel #712
+TD145 📋> 🧩 Puzzel #712
+TD13 📋> ␅
+TD45 ␆🤔 9 gokken
+TD6 📋> 🤔 9 gokken
+TD5 📋> ␅
+TD15 ␆⏱️ 15s
+TD5 📋> ⏱️ 15s
+TD4 📋> ␅
+TD250329 ␆🔗 alfagok.diginaut.net
+TD115 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD201918 ␄
+TD194 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #712\n\ud83e\udd14 9 gokken\n\u23f1\ufe0f 15s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD627 result: "\ud83e\udde9 Puzzel #712\n\ud83e\udd14 9 gokken\n\u23f1\ufe0f 15s\n\ud83d\udd17 alfagok.diginaut.net"
+TD20 result puzzle: 712
+TD8 result guesses: 9
+TD5 result time: 15s
+TD4 result link: alfagok.diginaut.net
+TD90 📆 2026-10-15 ? ␅
+TD258440 ␆
+TD127 📆 2026-10-15 ? 
