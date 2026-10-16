@@ -1,0 +1,274 @@
+T24559.281846234982 now: 2026-10-16T09:05:13EDT
+TD127 site: https://play.dictionary.com/games/todays-hurdle
+TD24 wordlist: nwl2023.txt
+TD42  ...␅
+TD12174720 ␆
+TD93  ...
+TD142 1.1> ␅
+TD646107 ␆*
+TD109 1.1> *
+TD350939 1.1 ? ␅
+TD594625 ␆1
+TD113 1.1 ? 1
+TD243 1.1 📋 "lears" ? ␅
+TD3470027 ␆nYYYn
+TD103 1.1 📋 "lears" ? nYYYn
+TD214 tried: LEARS n Y Y Y n
+TD594 1.2> ␅
+TD407210 ␆*
+TD99 1.2> *
+TD179217 1.2 ? ␅
+TD1052559 ␆1
+TD106 1.2 ? 1
+TD252 1.2 📋 "deary" ? ␅
+TD3982470 ␆nYYYnn
+TD182 1.2 📋 "deary" ? nYYYnn
+TD492 1.2 📋 "deary" ? ␅
+TD3762638 ␆nYYYn
+TD104 1.2 📋 "deary" ? nYYYn
+TD241 tried: DEARY n Y Y Y n
+TD246 1.3> ␅
+TD771777 ␆*
+TD110 1.3> *
+TD176530 1.3 ? ␅
+TD1272676 ␆1
+TD107 1.3 ? 1
+TD246 1.3 📋 "heart" ? ␅
+TD5320732 ␆YYYYY
+TD105 1.3 📋 "heart" ? YYYYY
+TD213 tried: HEART Y Y Y Y Y
+TD638 2.1 📋 "heart" ? ␅
+TD8472180 ␆nnnnn
+TD120 2.1 📋 "heart" ? nnnnn
+TD208 tried: HEART n n n n n
+TD305 2.2> ␅
+TD497326 ␆*
+TD106 2.2> *
+TD195632 2.2 ? ␅
+TD813110 ␆1
+TD166 2.2 ? 1
+TD250 2.2 📋 "noils" ? ␅
+TD4188596 ␆MnMnn
+TD104 2.2 📋 "noils" ? MnMnn
+TD211 tried: NOILS m n m n n
+TD501 2.3> ␅
+TD496196 ␆*
+TD97 2.3> *
+TD231957 2.3 ? ␅
+TD1627036 ␆1
+TD76 2.3 ? 1
+TD196 2.3 📋 "mincy" ? ␅
+TD3765697 ␆nYYnY
+TD104 2.3 📋 "mincy" ? nYYnY
+TD203 tried: MINCY n Y Y n Y
+TD248 2.4> ␅
+TD462745 ␆*
+TD104 2.4> *
+TD171199 2.4 ? ␅
+TD2767793 ␄
+TD349 <EOF>
+TD193 2.4> ␅
+TD1132832 ␆probe
+TD108 2.4> probe
+TD171166 2.4> ␅
+TD10258114 ␆probe dpwkg
+TD102 2.4> probe dpwkg
+TD487146 2.4> ␅
+TD9982768 ␆tried gaped nnnnM
+TD118 2.4> tried gaped nnnnM
+TD624 tried: GAPED n n n n m
+TD347 2.5> ␅
+TD934921 ␆*
+TD139 2.5> *
+TD182919 2.5 ? ␅
+TD3830859 ␆2
+TD104 2.5 ? 2
+TD254 2.5 📋 "windy" ? ␅
+TD4730930 ␆YYYYY
+TD122 2.5 📋 "windy" ? YYYYY
+TD201 tried: WINDY Y Y Y Y Y
+TD341 3.1 📋 "windy" ? ␅
+TD5860614 ␆nnnnn
+TD104 3.1 📋 "windy" ? nnnnn
+TD211 tried: WINDY n n n n n
+TD216 3.2> ␅
+TD580296 ␆*
+TD103 3.2> *
+TD203805 3.2 ? ␅
+TD710297 ␆1
+TD103 3.2 ? 1
+TD253 3.2 📋 "loser" ? ␅
+TD3779592 ␆nMnnY
+TD105 3.2 📋 "loser" ? nMnnY
+TD212 tried: LOSER n m n n Y
+TD329 3.3> ␅
+TD462453 ␆*
+TD101 3.3> *
+TD180140 3.3 ? ␅
+TD1651588 ␆1
+TD72 3.3 ? 1
+TD182 3.3 📋 "tumor" ? ␅
+TD6298573 ␆nYnYY
+TD87 3.3 📋 "tumor" ? nYnYY
+TD160 tried: TUMOR n Y n Y Y
+TD205 3.4> ␅
+TD475502 ␆*
+TD114 3.4> *
+TD172570 3.4 ? ␅
+TD2212795 ␆2
+TD124 3.4 ? 2
+TD251 3.4 📋 "juror" ? ␅
+TD2896790 ␆YYYYY
+TD103 3.4 📋 "juror" ? YYYYY
+TD200 tried: JUROR Y Y Y Y Y
+TD338 4.1 📋 "juror" ? ␅
+TD8054763 ␆nnnnn
+TD122 4.1 📋 "juror" ? nnnnn
+TD334 tried: JUROR n n n n n
+TD206 4.2> ␅
+TD621367 ␆*
+TD103 4.2> *
+TD210708 4.2 ? ␅
+TD688527 ␆1
+TD99 4.2 ? 1
+TD283 4.2 📋 "aisle" ? ␅
+TD4048855 ␆nYnnM
+TD106 4.2 📋 "aisle" ? nYnnM
+TD207 tried: AISLE n Y n n m
+TD429 4.3> ␅
+TD643715 ␆*
+TD104 4.3> *
+TD190979 4.3 ? ␅
+TD2967908 ␄
+TD214 <EOF>
+TD199 4.3> ␅
+TD932363 ␆probe
+TD101 4.3> probe
+TD158883 4.3> ␅
+TD7810753 ␆*
+TD103 4.3> *
+TD185539 4.3 ? ␅
+TD542920 ␆1
+TD84 4.3 ? 1
+TD199 4.3 📋 "widen" ? ␅
+TD3826063 ␆nYYYn
+TD116 4.3 📋 "widen" ? nYYYn
+TD206 tried: WIDEN n Y Y Y n
+TD296 4.4> ␅
+TD490725 ␆*
+TD110 4.4> *
+TD176580 4.4 ? ␅
+TD4229269 ␆1
+TD103 4.4 ? 1
+TD260 4.4 📋 "bidet" ? ␅
+TD4172692 ␆YYYYY
+TD104 4.4 📋 "bidet" ? YYYYY
+TD220 tried: BIDET Y Y Y Y Y
+TD426 5.1 📋 "heart" ? ␅
+TD9026232 ␆nMMnY
+TD96 5.1 📋 "heart" ? nMMnY
+TD219 tried: HEART n m m n Y
+TD250 5.2 📋 "windy" ? ␅
+TD1416773 ␆nnnnn
+TD75 5.2 📋 "windy" ? nnnnn
+TD164 tried: WINDY n n n n n
+TD215 5.3 📋 "juror" ? ␅
+TD1315126 ␆nnnnn
+TD102 5.3 📋 "juror" ? nnnnn
+TD220 tried: JUROR n n n n n
+TD313 5.4 📋 "bidet" ? ␅
+TD1691106 ␆YnnMY
+TD103 5.4 📋 "bidet" ? YnnMY
+TD213 tried: BIDET Y n n m Y
+TD299 5.5> ␅
+TD439054 ␆
+TD101 5.5> 
+TD155 5.5> ␅
+TD714065 ␆*
+TD96 5.5> *
+TD180778 5.5 📋 "bleat" ? ␅
+TD3404884 ␆YYYYY
+TD102 5.5 📋 "bleat" ? YYYYY
+TD215 tried: BLEAT Y Y Y Y Y
+TD239 📋> ␅
+TD6088775 ␆Hurdle 1749
+TD114 📋> Hurdle 1749
+TD13 📋> ␅
+TD47 ␆
+TD9 📋> 
+TD5 📋> ␅
+TD11 ␆3/6
+TD5 📋> 3/6
+TD4 📋> ␅
+TD17 ␆⬜🟩🟩🟩⬜
+TD5 📋> ⬜🟩🟩🟩⬜
+TD4 📋> ␅
+TD9 ␆⬜🟩🟩🟩⬜
+TD4 📋> ⬜🟩🟩🟩⬜
+TD4 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆5/6
+TD4 📋> 5/6
+TD3 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜
+TD4 📋> ⬜⬜⬜⬜⬜
+TD4 📋> ␅
+TD9 ␆🟨⬜🟨⬜⬜
+TD4 📋> 🟨⬜🟨⬜⬜
+TD5 📋> ␅
+TD8 ␆⬜🟩🟩⬜🟩
+TD4 📋> ⬜🟩🟩⬜🟩
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜🟨
+TD4 📋> ⬜⬜⬜⬜🟨
+TD4 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD8 ␆4/6
+TD4 📋> 4/6
+TD4 📋> ␅
+TD8 ␆⬜⬜⬜⬜⬜
+TD4 📋> ⬜⬜⬜⬜⬜
+TD3 📋> ␅
+TD15 ␆⬜🟨⬜⬜🟩
+TD4 📋> ⬜🟨⬜⬜🟩
+TD4 📋> ␅
+TD10 ␆⬜🟩⬜🟩🟩
+TD5 📋> ⬜🟩⬜🟩🟩
+TD4 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆4/6
+TD5 📋> 4/6
+TD4 📋> ␅
+TD8 ␆⬜⬜⬜⬜⬜
+TD5 📋> ⬜⬜⬜⬜⬜
+TD4 📋> ␅
+TD8 ␆⬜🟩⬜⬜🟨
+TD5 📋> ⬜🟩⬜⬜🟨
+TD4 📋> ␅
+TD8 ␆⬜🟩🟩🟩⬜
+TD5 📋> ⬜🟩🟩🟩⬜
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD13 ␆Final 1/2
+TD4 📋> Final 1/2
+TD4 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD257405 ␆score: 9,900
+TD99 📋> score: 9,900
+TD15 📋> ␅
+TD286789 ␄
+TD196 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1749\n\n3/6\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"}
+TD733 result: "Hurdle 1749\n\n3/6\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe8\n\u2b1c\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 9,900"
+TD99 📆 2026-10-16 ? ␅
+TD262860 ␆
+TD100 📆 2026-10-16 ? 
