@@ -1,0 +1,264 @@
+T1022.777421139006 now: 2026-10-17T09:20:27EDT
+TD141 site: squareword.org
+TD32 wordlist: nwl2023.txt
+TD42  ...␅
+TD3289338 ␆
+TD77  ...
+TD59 🧩  ? ␅
+TD2171571 ␆#1720
+TD109 🧩  ? #1720
+TD290 puzzle_id: #1720
+TD348 > ␅
+TD713609 ␆*
+TD116 > *
+TD467875 try? ␅
+TD574464 ␆1
+TD108 try? 1
+TD339 questioning: ["mares", "#5"]
+TD299 #1 <IndexError>  📋 "mares" ? ␅
+TD4420530 ␆_____ ~ E
+TD113 #1 <IndexError>  📋 "mares" ? _____ ~ E
+TD816 attempt 0 MARES n n n m n
+TD134 #2 <IndexError>  📋 "mares" ? ␅
+TD2205318 ␆_A_E_ ~ R
+TD113 #2 <IndexError>  📋 "mares" ? _A_E_ ~ R
+TD304 attempt 1 MARES n Y m Y n
+TD163 #3 <IndexError>  📋 "mares" ? ␅
+TD2128401 ␆_____ ~ AE
+TD114 #3 <IndexError>  📋 "mares" ? _____ ~ AE
+TD275 attempt 2 MARES n m n m n
+TD132 #4 <IndexError>  📋 "mares" ? ␅
+TD2576953 ␆__R__ ~ E
+TD150 #4 <IndexError>  📋 "mares" ? __R__ ~ E
+TD271 attempt 3 MARES n n Y m n
+TD127 #5 <IndexError>  📋 "mares" ? ␅
+TD2443869 ␆___E_ ~ R
+TD111 #5 <IndexError>  📋 "mares" ? ___E_ ~ R
+TD276 attempt 4 MARES n n m Y n
+TD364 ? ␅
+TD275947 ␆
+TD83 ? 
+TD130 question done
+TD278 > ␅
+TD544740 ␆(*
+TD107 > (*
+TD721 > ␅
+TD708254 ␆*
+TD106 > *
+TD1174146 try? ␅
+TD884384 ␆1
+TD109 try? 1
+TD327 questioning: ["nervy", "#4"]
+TD312 #1 _____ ~E -AMRS  📋 "nervy" ? ␅
+TD2055189 ␄
+TD188 question done
+TD324 > ␅
+TD5597951 ␆* 1
+TD155 > * 1
+TD8929 try? ␅
+TD817919 ␄
+TD152 <EOF>
+TD355 > ␅
+TD825005 ␆* 3\
+TD138 > * 3\
+TD662 > ␅
+TD1138960 ␆* 3
+TD114 > * 3
+TD7887 try? ␅
+TD1132962 ␄
+TD150 <EOF>
+TD412 > ␅
+TD739205 ␆* 1
+TD111 > * 1
+TD8680 try? ␅
+TD3847557 ␆4
+TD130 try? 4
+TD328 questioning: ["tilde", "#1"]
+TD307 #1 _____ ~E -AMRS  📋 "tilde" ? ␅
+TD4355527 ␆____E ~ L
+TD117 #1 _____ ~E -AMRS  📋 "tilde" ? ____E ~ L
+TD268 attempt 0 TILDE n n m n Y
+TD149 #2 _A_E_ ~R -MS  📋 "tilde" ? ␅
+TD1646862 ␆.
+TD110 #2 _A_E_ ~R -MS  📋 "tilde" ? .
+TD283 attempt 1 TILDE n n n n n
+TD96 #3 _____ ~AE -MRS  📋 "tilde" ? ␅
+TD3101227 ␆_____ ~ AETL
+TD108 #3 _____ ~AE -MRS  📋 "tilde" ? _____ ~ AETL
+TD264 attempt 2 TILDE m n m n m
+TD153 #4 __R__ ~E -AMS  📋 "tilde" ? ␅
+TD3545527 ␆__R_E ~ EI
+TD118 #4 __R__ ~E -AMS  📋 "tilde" ? __R_E ~ EI
+TD273 attempt 3 TILDE n m n n Y
+TD157 #5 ___E_ ~R -AMS  📋 "tilde" ? ␅
+TD3734932 ␆___E_ ~ RD
+TD107 #5 ___E_ ~R -AMS  📋 "tilde" ? ___E_ ~ RD
+TD289 attempt 4 TILDE n n n m n
+TD450 ? ␅
+TD218060 ␆
+TD118 ? 
+TD141 question done
+TD318 > ␅
+TD689684 ␆*
+TD154 > *
+TD1056013 try? ␅
+TD2227521 ␄
+TD145 <EOF>
+TD365 > ␅
+TD862985 ␆* 3
+TD115 > * 3
+TD3986 try? ␅
+TD7026814 ␄
+TD144 <EOF>
+TD352 > ␅
+TD1004669 ␆* 1
+TD100 > * 1
+TD3953 try? ␅
+TD3397836 ␄
+TD165 <EOF>
+TD355 > ␅
+TD910400 ␆* 5
+TD120 > * 5
+TD3534 try? ␅
+TD726192 ␄
+TD142 <EOF>
+TD355 > ␅
+TD641705 ␆* 1
+TD106 > * 1
+TD4326 try? ␅
+TD3134015 ␆5
+TD102 try? 5
+TD300 questioning: ["globe", "#1"]
+TD321 #1 ____E ~L -ADIMRST  📋 "globe" ? ␅
+TD2815731 ␆/it
+TD129 #1 ____E ~L -ADIMRST  📋 "globe" ? /it
+TD270 attempt 0 GLOBE Y Y Y Y Y
+TD101 #2 _A_E_ ~R -DEILMST  📋 "globe" ? ␅
+TD2359600 ␆.
+TD112 #2 _A_E_ ~R -DEILMST  📋 "globe" ? .
+TD296 attempt 1 GLOBE n n n n n
+TD106 #3 _____ ~AELT -DIMRS  📋 "globe" ? ␅
+TD1394255 ␆.
+TD106 #3 _____ ~AELT -DIMRS  📋 "globe" ? .
+TD300 attempt 2 GLOBE n m n n m
+TD102 #4 __R_E ~I -ADLMST  📋 "globe" ? ␅
+TD4810547 ␆__R_E ~ EI
+TD122 #4 __R_E ~I -ADLMST  📋 "globe" ? __R_E ~ EI
+TD333 attempt 3 GLOBE n n n n Y
+TD207 #5 ___E_ ~DR -AEILMST  📋 "globe" ? ␅
+TD2388259 ␆.
+TD106 #5 ___E_ ~DR -AEILMST  📋 "globe" ? .
+TD298 attempt 4 GLOBE n n n n n
+TD296 ? ␅
+TD175320 ␆
+TD70 ? 
+TD94 question done
+TD281 > ␅
+TD490077 ␆*
+TD104 > *
+TD1203574 questioning: ["dryer", "#5"]
+TD149 #2 _A_E_ ~R -BDEGILMOST  📋 "dryer" ? ␅
+TD4327257 ␆.
+TD110 #2 _A_E_ ~R -BDEGILMOST  📋 "dryer" ? .
+TD288 attempt 1 DRYER n m n Y m
+TD103 #3 _____ ~AELT -BDGIMORS  📋 "dryer" ? ␅
+TD989743 ␆.
+TD112 #3 _____ ~AELT -BDGIMORS  📋 "dryer" ? .
+TD306 attempt 2 DRYER n n n m n
+TD107 #4 __R_E ~I -ABDGLMOST  📋 "dryer" ? ␅
+TD3110791 ␆__R_E ~ EI
+TD258 #4 __R_E ~I -ABDGLMOST  📋 "dryer" ? __R_E ~ EI
+TD385 attempt 3 DRYER n n n m n
+TD210 #5 ___E_ ~DR -ABEGILMOST  📋 "dryer" ? ␅
+TD583270 ␆/it
+TD111 #5 ___E_ ~DR -ABEGILMOST  📋 "dryer" ? /it
+TD280 attempt 4 DRYER Y Y Y Y Y
+TD355 ? ␅
+TD171686 ␆
+TD118 ? 
+TD123 question done
+TD316 > ␅
+TD598614 ␆*
+TD76 > *
+TD1965167 questioning: ["raven", "#2"]
+TD164 #2 _A_E_ ~R -BDGILMOSTY  📋 "raven" ? ␅
+TD2678527 ␆/it
+TD74 #2 _A_E_ ~R -BDGILMOSTY  📋 "raven" ? /it
+TD217 attempt 1 RAVEN Y Y Y Y Y
+TD95 #3 _____ ~AELT -BDGIMORSY  📋 "raven" ? ␅
+TD1814213 ␆.
+TD107 #3 _____ ~AELT -BDGIMORSY  📋 "raven" ? .
+TD275 attempt 2 RAVEN n m n m n
+TD98 #4 __R_E ~I -ABDGLMORSTY  📋 "raven" ? ␅
+TD3399942 ␆__R_E ~ EI
+TD106 #4 __R_E ~I -ABDGLMORSTY  📋 "raven" ? __R_E ~ EI
+TD300 attempt 3 RAVEN n n n m n
+TD344 ? ␅
+TD188829 ␆
+TD105 ? 
+TD133 question done
+TD305 > ␅
+TD460449 ␆*
+TD113 > *
+TD1934520 questioning: ["exalt", "#3"]
+TD175 #3 _____ ~AELT -BDGIMNORSVY  📋 "exalt" ? ␅
+TD3986229 ␆/it
+TD105 #3 _____ ~AELT -BDGIMNORSVY  📋 "exalt" ? /it
+TD267 attempt 2 EXALT Y Y Y Y Y
+TD105 #4 __R_E ~I -ABDGLMNORSTVY  📋 "exalt" ? ␅
+TD2590706 ␆E_R_E ~ EI
+TD107 #4 __R_E ~I -ABDGLMNORSTVY  📋 "exalt" ? E_R_E ~ EI
+TD270 attempt 3 EXALT Y n n n n
+TD335 ? ␅
+TD195596 ␆
+TD55 ? 
+TD88 question done
+TD260 > ␅
+TD383429 ␆*
+TD72 > *
+TD1468326 questioning: ["eerie", "#4"]
+TD156 #4 E_R_E ~I -ABDGLMNORSTVXY  📋 "eerie" ? ␅
+TD3788861 ␆/it
+TD113 #4 E_R_E ~I -ABDGLMNORSTVXY  📋 "eerie" ? /it
+TD271 attempt 3 EERIE Y Y Y Y Y
+TD325 ? ␅
+TD567913 ␆
+TD467 ? 
+TD296 question done
+TD41528 📋> ␅
+TD5538058 ␆squareword.org 1720: 7 guesses
+TD111 📋> squareword.org 1720: 7 guesses
+TD14 📋> ␅
+TD42 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD9 ␆🟨🟨🟩🟨🟩
+TD3 📋> 🟨🟨🟩🟨🟩
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD10 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD244204 ␆#squareword #squareword1720
+TD100 📋> #squareword #squareword1720
+TD13 📋> ␅
+TD212161 ␄
+TD140 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1720: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1720"}
+TD707 result: "squareword.org 1720: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1720"
+TD76 📆 2026-10-17 ? ␅
+TD295882 ␆
+TD111 📆 2026-10-17 ? 
