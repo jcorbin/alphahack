@@ -1,0 +1,155 @@
+T620.5129580489884 now: 2026-10-17T09:13:42EDT
+TD130 site: https://www.merriam-webster.com/games/quordle/#/
+TD23 wordlist: nwl2023.txt
+TD7 num_words: 4
+TD139  ...␅
+TD612396 ␆
+TD149  ...
+TD710562 > ␅
+TD6170056 ␆*
+TD109 > *
+TD79406 ? ␅
+TD649412 ␆1
+TD73 ? 1
+TD144 questioning: apres
+TD167 Classic #1 _____? ␅
+TD3029575 ␆MnMnn
+TD107 Classic #1 _____? MnMnn
+TD438 attempt: 0 APRES m n m n n
+TD107 Classic #2 _____? ␅
+TD1282949 ␆nnnMn
+TD194 Classic #2 _____? nnnMn
+TD281 attempt: 1 APRES n n n m n
+TD112 Classic #3 _____? ␅
+TD1772607 ␆MYnnM
+TD113 Classic #3 _____? MYnnM
+TD241 attempt: 2 APRES m Y n n m
+TD101 Classic #4 _____? ␅
+TD1038271 ␆nnnnn
+TD76 Classic #4 _____? nnnnn
+TD184 attempt: 3 APRES n n n n n
+TD730721 > ␅
+TD782046 ␆*
+TD76 > *
+TD7171 ? ␅
+TD878056 ␆1
+TD102 ? 1
+TD190 questioning: nicol
+TD188 Classic #1 _____ ~AR -EPS? ␅
+TD3750448 ␆nnnnn
+TD106 Classic #1 _____ ~AR -EPS? nnnnn
+TD235 attempt: 0 NICOL n n n n n
+TD110 Classic #2 _____ ~E -APRS? ␅
+TD1515939 ␆Mnnnn
+TD106 Classic #2 _____ ~E -APRS? Mnnnn
+TD273 attempt: 1 NICOL m n n n n
+TD160 Classic #3 _P___ ~AS -ER? ␅
+TD1345484 ␆nnnnn
+TD104 Classic #3 _P___ ~AS -ER? nnnnn
+TD233 attempt: 2 NICOL n n n n n
+TD108 Classic #4 _____ -AEPRS? ␅
+TD1760664 ␆nnMMM
+TD116 Classic #4 _____ -AEPRS? nnMMM
+TD244 attempt: 3 NICOL n n m m m
+TD803245 > ␅
+TD1440322 ␆*
+TD76 > *
+TD529 ? ␅
+TD3433591 ␆3
+TD106 ? 3
+TD185 questioning: spasm
+TD183 Classic #1 _____ ~AR -CEILNOPS? ␅
+TD3770477 ␆nnYnn
+TD79 Classic #1 _____ ~AR -CEILNOPS? nnYnn
+TD194 attempt: 0 SPASM n n Y n n
+TD98 Classic #2 _____ ~EN -ACILOPRS? ␅
+TD1761661 ␆nnnnM
+TD118 Classic #2 _____ ~EN -ACILOPRS? nnnnM
+TD245 attempt: 1 SPASM n n n n m
+TD120 Classic #3 _P___ ~AS -CEILNOR? ␅
+TD1642747 ␆YYYYY
+TD96 Classic #3 _P___ ~AS -CEILNOR? YYYYY
+TD235 attempt: 2 SPASM Y Y Y Y Y
+TD126 Classic #4 _____ ~CLO -AEINPRS? ␅
+TD1225640 ␆nnnnn
+TD133 Classic #4 _____ ~CLO -AEINPRS? nnnnn
+TD271 attempt: 3 SPASM n n n n n
+TD652073 > ␅
+TD717696 ␆*
+TD106 > *
+TD647 ? ␅
+TD1581209 ␆2
+TD103 ? 2
+TD190 questioning: enemy
+TD199 Classic #1 __A__ ~R -CEILMNOPS? ␅
+TD3300256 ␆nnnnn
+TD106 Classic #1 __A__ ~R -CEILMNOPS? nnnnn
+TD226 attempt: 0 ENEMY n n n n n
+TD113 Classic #2 _____ ~EMN -ACILOPRS? ␅
+TD1840399 ␆YYYYY
+TD104 Classic #2 _____ ~EMN -ACILOPRS? YYYYY
+TD219 attempt: 1 ENEMY Y Y Y Y Y
+TD114 Classic #4 _____ ~CLO -AEIMNPRS? ␅
+TD2170524 ␆nnnnn
+TD104 Classic #4 _____ ~CLO -AEIMNPRS? nnnnn
+TD221 attempt: 3 ENEMY n n n n n
+TD401717 > ␅
+TD831222 ␆*
+TD105 > *
+TD896 ? ␅
+TD1098935 ␆1
+TD108 ? 1
+TD181 questioning: draft
+TD178 Classic #1 __A__ ~R -CEILMNOPSY? ␅
+TD3218352 ␆nMYnn
+TD77 Classic #1 __A__ ~R -CEILMNOPSY? nMYnn
+TD190 attempt: 0 DRAFT n m Y n n
+TD90 Classic #4 _____ ~CLO -AEIMNPRSY? ␅
+TD1109480 ␆nnnnn
+TD120 Classic #4 _____ ~CLO -AEIMNPRSY? nnnnn
+TD244 attempt: 3 DRAFT n n n n n
+TD389611 > ␅
+TD760323 ␆*
+TD110 > *
+TD519 questioning: quark
+TD208 Classic #1 __A__ ~R -CDEFILMNOPSTY? ␅
+TD3169614 ␆YYYYY
+TD105 Classic #1 __A__ ~R -CDEFILMNOPSTY? YYYYY
+TD229 attempt: 0 QUARK Y Y Y Y Y
+TD117 Classic #4 _____ ~CLO -ADEFIMNPRSTY? ␅
+TD1517558 ␆nnnnY
+TD105 Classic #4 _____ ~CLO -ADEFIMNPRSTY? nnnnY
+TD253 attempt: 3 QUARK n n n n Y
+TD187644 > ␅
+TD728502 ␆*
+TD106 > *
+TD629 ? ␅
+TD2416012 ␆1
+TD85 ? 1
+TD139 questioning: block
+TD142 Classic #4 ____K ~CLO -ADEFIMNPQRSTUY? ␅
+TD4720982 ␆YYYYY
+TD88 Classic #4 ____K ~CLO -ADEFIMNPQRSTUY? YYYYY
+TD177 attempt: 3 BLOCK Y Y Y Y Y
+TD76 📋> ␅
+TD3448954 ␆🙂 Daily Quordle 1727
+TD105 📋> 🙂 Daily Quordle 1727
+TD12 📋> ␅
+TD46 ␆6️⃣4️⃣
+TD7 📋> 6️⃣4️⃣
+TD5 📋> ␅
+TD10 ␆3️⃣7️⃣
+TD4 📋> 3️⃣7️⃣
+TD4 📋> ␅
+TD9 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD273520 ␆
+TD122 📋> 
+TD12 📋> ␅
+TD214839 ␄
+TD138 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1727\n6\ufe0f\u20e34\ufe0f\u20e3\n3\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1624 result: "\ud83d\ude42 Daily Quordle 1727\n6\ufe0f\u20e34\ufe0f\u20e3\n3\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD94 📆 2026-10-17 ? ␅
+TD316171 ␆
+TD115 📆 2026-10-17 ? 
