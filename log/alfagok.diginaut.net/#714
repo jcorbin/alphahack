@@ -1,0 +1,94 @@
+T158.45438470999943 now: 2026-10-17T09:06:00EDT
+TD176 site: alfagok.diginaut.net
+TD656266 loaded 399453 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1399 words excluded) asof 7f84f73edcab5ea663aa0f2bd6722fb7b91237a3
+TD136  ...␅
+TD4476878 ␆
+TD107  ...
+TD235 [0 : 199631 : 399453] lijk? ␅
+TD3667657 ␆a
+TD105 [0 : 199631 : 399453] lijk? a
+TD356 progress: 1 199631 lijk
+TD127 [199632 : 299532 : 399453] schroot? ␅
+TD3240957 ␆a
+TD102 [199632 : 299532 : 399453] schroot? a
+TD126 progress: 1 299532 schroot
+TD137 [299533 : 349314 : 399453] vakantie? ␅
+TD3644349 ␆b
+TD104 [299533 : 349314 : 399453] vakantie? b
+TD111 progress: -1 349314 vakantie
+TD128 [299533 : 324114 : 349314] sub? ␅
+TD1787318 ␆b
+TD107 [299533 : 324114 : 349314] sub? b
+TD113 progress: -1 324114 sub
+TD113 [299533 : 311818 : 324114] spiert? ␅
+TD1920001 ␆a
+TD103 [299533 : 311818 : 324114] spiert? a
+TD113 progress: 1 311818 spiert
+TD112 [311819 : 317912 : 324114] stem? ␅
+TD3421159 ␆b
+TD111 [311819 : 317912 : 324114] stem? b
+TD111 progress: -1 317912 stem
+TD120 [311819 : 314713 : 317912] staats? ␅
+TD1885095 ␆a
+TD106 [311819 : 314713 : 317912] staats? a
+TD108 progress: 1 314713 staats
+TD118 [314714 : 316201 : 317912] standaard? ␅
+TD2297943 ␆b
+TD106 [314714 : 316201 : 317912] standaard? b
+TD109 progress: -1 316201 standaard
+TD112 [314714 : 315209 : 316201] stads? ␅
+TD1956736 ␆b
+TD107 [314714 : 315209 : 316201] stads? b
+TD111 progress: -1 315209 stads
+TD221 [314714 : 314962 : 315209] staatsolie? ␅
+TD2091968 ␆a
+TD111 [314714 : 314962 : 315209] staatsolie? a
+TD112 progress: 1 314962 staatsolie
+TD229 [314963 : 315086 : 315209] staatswinkels? ␅
+TD1895590 ␆a
+TD109 [314963 : 315086 : 315209] staatswinkels? a
+TD112 progress: 1 315086 staatswinkels
+TD108 [315087 : 315144 : 315209] stad? ␅
+TD2237268 ␆a
+TD107 [315087 : 315144 : 315209] stad? a
+TD112 progress: 1 315144 stad
+TD122 [315145 : 315169 : 315209] stadhuis? ␅
+TD3672340 ␆a
+TD114 [315145 : 315169 : 315209] stadhuis? a
+TD117 progress: 1 315169 stadhuis
+TD212 [315170 : 315189 : 315209] stadion? ␅
+TD1625064 ␆a
+TD146 [315170 : 315189 : 315209] stadion? a
+TD132 progress: 1 315189 stadion
+TD252 [315190 : 315199 : 315209] stadionterrein? ␅
+TD1618235 ␆a
+TD108 [315190 : 315199 : 315209] stadionterrein? a
+TD111 progress: 1 315199 stadionterrein
+TD205 [315200 : 315204 : 315209] stadium? ␅
+TD1801504 ␆it
+TD107 [315200 : 315204 : 315209] stadium? it
+TD112 progress: 0 315204 stadium
+TD26 [315200 : 315204 : 315209] <Done>.
+TD98 📋> ␅
+TD3169184 ␆🧩 Puzzel #714
+TD75 📋> 🧩 Puzzel #714
+TD10 📋> ␅
+TD31 ␆🤔 16 gokken
+TD5 📋> 🤔 16 gokken
+TD5 📋> ␅
+TD11 ␆⏱️ 35s
+TD5 📋> ⏱️ 35s
+TD4 📋> ␅
+TD239239 ␆🔗 alfagok.diginaut.net
+TD114 📋> 🔗 alfagok.diginaut.net
+TD11 📋> ␅
+TD198049 ␄
+TD190 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #714\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD604 result: "\ud83e\udde9 Puzzel #714\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 35s\n\ud83d\udd17 alfagok.diginaut.net"
+TD19 result puzzle: 714
+TD8 result guesses: 16
+TD5 result time: 35s
+TD4 result link: alfagok.diginaut.net
+TD96 📆 2026-10-17 ? ␅
+TD518996 ␆
+TD109 📆 2026-10-17 ? 
