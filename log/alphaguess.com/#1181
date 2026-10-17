@@ -1,0 +1,61 @@
+T208.88623506200383 now: 2026-10-17T09:06:51EDT
+TD133 site: alphaguess.com
+TD261236 loaded 196511 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (93 words excluded) asof 7f84f73edcab5ea663aa0f2bd6722fb7b91237a3
+TD143  ...␅
+TD203402 ␆
+TD116  ...
+TD183 [0 : 98142 : 196511] mac? ␅
+TD3721487 ␆
+TD79 [0 : 98142 : 196511] mac? 
+TD100 [0 : 98142 : 196511] mac? ␅
+TD1835233 ␆a
+TD110 [0 : 98142 : 196511] mac? a
+TD115 progress: 1 98142 mac
+TD119 [98143 : 147304 : 196511] rho? ␅
+TD1905607 ␆b
+TD113 [98143 : 147304 : 196511] rho? b
+TD114 progress: -1 147304 rho
+TD112 [98143 : 122718 : 147304] parol? ␅
+TD1678741 ␆a
+TD109 [98143 : 122718 : 147304] parol? a
+TD111 progress: 1 122718 parol
+TD154 [122719 : 134997 : 147304] prop? ␅
+TD2149199 ␆a
+TD110 [122719 : 134997 : 147304] prop? a
+TD111 progress: 1 134997 prop
+TD119 [134998 : 141010 : 147304] recon? ␅
+TD2204611 ␆b
+TD120 [134998 : 141010 : 147304] recon? b
+TD120 progress: -1 141010 recon
+TD303 [134998 : 138003 : 141010] quetzal? ␅
+TD1440602 ␆a
+TD110 [134998 : 138003 : 141010] quetzal? a
+TD117 progress: 1 138003 quetzal
+TD115 [138004 : 139503 : 141010] rate? ␅
+TD3104753 ␆it
+TD112 [138004 : 139503 : 141010] rate? it
+TD115 progress: 0 139503 rate
+TD27 [138004 : 139503 : 141010] <Done>.
+TD94 📋> ␅
+TD3016262 ␆🧩 Puzzle #1181
+TD108 📋> 🧩 Puzzle #1181
+TD11 📋> ␅
+TD47 ␆🤔 7 guesses
+TD5 📋> 🤔 7 guesses
+TD5 📋> ␅
+TD11 ␆⏱️ 10s
+TD5 📋> ⏱️ 10s
+TD4 📋> ␅
+TD232433 ␆🔗 alphaguess.com/1181
+TD106 📋> 🔗 alphaguess.com/1181
+TD12 📋> ␅
+TD142458 ␄
+TD136 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1181\n\ud83e\udd14 7 guesses\n\u23f1\ufe0f 10s\n\ud83d\udd17 alphaguess.com/1181"}
+TD81 result: "\ud83e\udde9 Puzzle #1181\n\ud83e\udd14 7 guesses\n\u23f1\ufe0f 10s\n\ud83d\udd17 alphaguess.com/1181"
+TD14 result puzzle: 1181
+TD6 result guesses: 7
+TD5 result time: 10s
+TD4 result link: alphaguess.com/1181
+TD75 📆 2026-10-17 ? ␅
+TD366441 ␆
+TD119 📆 2026-10-17 ? 
