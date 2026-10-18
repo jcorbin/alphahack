@@ -1,0 +1,175 @@
+T92.40167167200707 now: 2026-10-18T10:46:22EDT
+TD186 site: dontwordle.com
+TD25 wordlist: nwl2023.txt
+TD51  ...␅
+TD23349936 ␆
+TD105  ...
+TD125 1> ␅
+TD786653 ␆*
+TD135 1> *
+TD369325 ? ␅
+TD857585 ␆1
+TD130 ? 1
+TD313 📋 "wanna" ? ␅
+TD1202038 ␄
+TD145 <EOF>
+TD113 1> ␅
+TD1734830 ␆* -bot 10
+TD104 1> * -bot 10
+TD249373 ? ␅
+TD2020478 ␆10
+TD103 ? 10
+TD265 📋 "stale" ? ␅
+TD4022866 ␆nMnnn
+TD123 📋 "stale" ? nMnnn
+TD609 tried: STALE n m n n n
+TD201 2> ␅
+TD742665 ␆undo
+TD105 2> undo
+TD156 undo
+TD148 1> ␅
+TD4919905 ␆* :v [stale] -bot 10
+TD114 1> * :v [stale] -bot 10
+TD287475 ? ␅
+TD4583271 ␆7
+TD120 ? 7
+TD246 📋 "covid" ? ␅
+TD4263403 ␄
+TD157 <EOF>
+TD142 1> ␅
+TD2923264 ␆* :v [stale] -bot 10
+TD101 1> * :v [stale] -bot 10
+TD246447 ? ␅
+TD2056839 ␆2
+TD120 ? 2
+TD269 📋 "groin" ? ␅
+TD4019130 ␆nMMnn
+TD106 📋 "groin" ? nMMnn
+TD253 tried: GROIN n m m n n
+TD189 2> ␅
+TD826594 ␆undo
+TD117 2> undo
+TD164 undo
+TD144 1> ␅
+TD1861049 ␆*
+TD80 1> *
+TD190145 ? ␅
+TD56 ␆1
+TD7 ? 1
+TD120 📋 "mamma" ? ␅
+TD3388084 ␆nnnnn
+TD111 📋 "mamma" ? nnnnn
+TD231 tried: MAMMA n n n n n
+TD163 2> ␅
+TD438546 ␆*
+TD140 2> *
+TD170590 ? ␅
+TD323608 ␆1
+TD143 ? 1
+TD278 📋 "ceded" ? ␅
+TD4375266 ␆nnnnn
+TD135 📋 "ceded" ? nnnnn
+TD218 tried: CEDED n n n n n
+TD194 3> ␅
+TD446247 ␆*
+TD112 3> *
+TD156308 ? ␅
+TD88830 ␆1
+TD142 ? 1
+TD269 📋 "lusus" ? ␅
+TD4992112 ␆nnnnn
+TD134 📋 "lusus" ? nnnnn
+TD217 tried: LUSUS n n n n n
+TD211 4> ␅
+TD483302 ␆*
+TD113 4> *
+TD150228 ? ␅
+TD686361 ␆1
+TD106 ? 1
+TD250 📋 "kibbi" ? ␅
+TD3334347 ␆nnnnn
+TD119 📋 "kibbi" ? nnnnn
+TD246 tried: KIBBI n n n n n
+TD192 5> ␅
+TD657520 ␆*
+TD108 5> *
+TD312260 📋 "phpht" ? ␅
+TD6823941 ␆nYnnM
+TD110 📋 "phpht" ? nYnnM
+TD210 tried: PHPHT n Y n n m
+TD204 6> ␅
+TD716782 ␆undo
+TD110 6> undo
+TD160 undo
+TD290 5> ␅
+TD484689 ␆*
+TD109 5> *
+TD310883 ? ␅
+TD773357 ␆1
+TD116 ? 1
+TD257 📋 "foggy" ? ␅
+TD4968150 ␆nMnnn
+TD113 📋 "foggy" ? nMnnn
+TD220 tried: FOGGY n m n n n
+TD237 6> ␅
+TD465580 ␆*
+TD108 6> *
+TD335107 ? ␅
+TD1353481 ␆1
+TD111 ? 1
+TD245 📋 "phono" ? ␅
+TD3878734 ␆nYMnn
+TD80 📋 "phono" ? nYMnn
+TD168 tried: PHONO n Y m n n
+TD177 📋> ␅
+TD2592077 ␆Don't Wordle 1608 - SURVIVED
+TD76 📋> Don't Wordle 1608 - SURVIVED
+TD12 📋> ␅
+TD33 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD7 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD5 📋> ␅
+TD14 ␆⬜⬜⬜⬜⬜6571
+TD5 📋> ⬜⬜⬜⬜⬜6571
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜2074
+TD4 📋> ⬜⬜⬜⬜⬜2074
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜373
+TD4 📋> ⬜⬜⬜⬜⬜373
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜110
+TD4 📋> ⬜⬜⬜⬜⬜110
+TD4 📋> ␅
+TD10 ␆⬜🟨⬜⬜⬜16
+TD4 📋> ⬜🟨⬜⬜⬜16
+TD4 📋> ␅
+TD9 ␆⬜🟩🟨⬜⬜1
+TD4 📋> ⬜🟩🟨⬜⬜1
+TD4 📋> ␅
+TD9 ␆Undos used: 3
+TD4 📋> Undos used: 3
+TD4 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD9 ␆  1 words remaining
+TD4 📋>   1 words remaining
+TD4 📋> ␅
+TD9 ␆x 8 unused letters
+TD4 📋> x 8 unused letters
+TD4 📋> ␅
+TD8 ␆= 8 total score
+TD4 📋> = 8 total score
+TD4 📋> ␅
+TD8 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD238010 ␆https://dontwordle.com
+TD109 📋> https://dontwordle.com
+TD12 📋> ␅
+TD166125 ␄
+TD201 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1608 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6571\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2074\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c373\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c110\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c16\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 8 unused letters\n= 8 total score\n\nhttps://dontwordle.com"}
+TD1352 result: "Don't Wordle 1608 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6571\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2074\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c373\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c110\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c16\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c1\nUndos used: 3\n\n  1 words remaining\nx 8 unused letters\n= 8 total score\n\nhttps://dontwordle.com"
+TD116 📆 2026-10-18 ? ␅
+TD196212 ␆
+TD107 📆 2026-10-18 ? 
