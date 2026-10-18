@@ -1,0 +1,224 @@
+T200.9005652879714 now: 2026-10-18T10:48:10EDT
+TD151 site: https://play.dictionary.com/games/todays-hurdle
+TD21 wordlist: nwl2023.txt
+TD41  ...␅
+TD395726 ␆
+TD78  ...
+TD113 1.1> ␅
+TD9569958 ␆
+TD110 1.1> 
+TD196 1.1> ␅
+TD593221 ␆*
+TD76 1.1> *
+TD314271 1.1 ? ␅
+TD608274 ␆1
+TD129 1.1 ? 1
+TD271 1.1 📋 "aeons" ? ␅
+TD4110300 ␆YMnMn
+TD103 1.1 📋 "aeons" ? YMnMn
+TD221 tried: AEONS Y m n m n
+TD620 1.2> ␅
+TD1370978 ␆*
+TD110 1.2> *
+TD160447 1.2 ? ␅
+TD857189 ␆1
+TD111 1.2 ? 1
+TD261 1.2 📋 "angle" ? ␅
+TD4700585 ␆YMnnM
+TD75 1.2 📋 "angle" ? YMnnM
+TD173 tried: ANGLE Y m n n m
+TD206 1.3> ␅
+TD435969 ␆*
+TD103 1.3> *
+TD154010 1.3 ? ␅
+TD6348781 ␆6
+TD77 1.3 ? 6
+TD195 1.3 📋 "apnea" ? ␅
+TD3686086 ␆YYYYY
+TD122 1.3 📋 "apnea" ? YYYYY
+TD228 tried: APNEA Y Y Y Y Y
+TD629 2.1 📋 "apnea" ? ␅
+TD8127041 ␆YnMYn
+TD107 2.1 📋 "apnea" ? YnMYn
+TD174 tried: APNEA Y n m Y n
+TD175 2.2> ␅
+TD461385 ␆*
+TD81 2.2> *
+TD155370 2.2 ? ␅
+TD1603637 ␆2
+TD115 2.2 ? 2
+TD252 2.2 📋 "angel" ? ␅
+TD3940418 ␆YMnYM
+TD120 2.2 📋 "angel" ? YMnYM
+TD227 tried: ANGEL Y m n Y m
+TD357 2.3> ␅
+TD481829 ␆*
+TD106 2.3> *
+TD154020 2.3 📋 "alien" ? ␅
+TD3737304 ␆YYYYY
+TD106 2.3 📋 "alien" ? YYYYY
+TD218 tried: ALIEN Y Y Y Y Y
+TD443 3.1 📋 "alien" ? ␅
+TD8485407 ␆nnnnn
+TD105 3.1 📋 "alien" ? nnnnn
+TD228 tried: ALIEN n n n n n
+TD213 3.2> ␅
+TD453623 ␆*
+TD137 3.2> *
+TD177296 3.2 ? ␅
+TD4382213 ␆6
+TD102 3.2 ? 6
+TD255 3.2 📋 "truck" ? ␅
+TD4008661 ␆Mnnnn
+TD106 3.2 📋 "truck" ? Mnnnn
+TD308 tried: TRUCK m n n n n
+TD407 3.3> ␅
+TD457384 ␆*
+TD100 3.3> *
+TD178181 3.3 ? ␅
+TD5416188 ␆2
+TD102 3.3 ? 2
+TD252 3.3 📋 "myths" ? ␅
+TD3993838 ␆nnMMn
+TD117 3.3 📋 "myths" ? nnMMn
+TD214 tried: MYTHS n n m m n
+TD254 3.4> ␅
+TD438378 ␆*
+TD104 3.4> *
+TD190772 3.4 ? ␅
+TD2374277 ␆3
+TD111 3.4 ? 3
+TD277 3.4 📋 "photo" ? ␅
+TD2928334 ␆YYYYY
+TD104 3.4 📋 "photo" ? YYYYY
+TD214 tried: PHOTO Y Y Y Y Y
+TD383 4.1 📋 "photo" ? ␅
+TD7729229 ␆MnnMn
+TD146 4.1 📋 "photo" ? MnnMn
+TD389 tried: PHOTO m n n m n
+TD211 4.2> ␅
+TD580659 ␆*
+TD107 4.2> *
+TD224706 4.2 ? ␅
+TD2041723 ␆3
+TD80 4.2 ? 3
+TD202 4.2 📋 "setup" ? ␅
+TD3483396 ␆YnMnM
+TD110 4.2 📋 "setup" ? YnMnM
+TD211 tried: SETUP Y n m n m
+TD245 4.3> ␅
+TD457780 ␆*
+TD106 4.3> *
+TD159133 4.3 ? ␅
+TD6743776 ␆4
+TD89 4.3 ? 4
+TD222 4.3 📋 "split" ? ␅
+TD4204892 ␆YYMMY
+TD123 4.3 📋 "split" ? YYMMY
+TD218 tried: SPLIT Y Y m m Y
+TD367 4.4> ␅
+TD437458 ␆*
+TD78 4.4> *
+TD156324 4.4 📋 "spilt" ? ␅
+TD3687307 ␆YYYYY
+TD106 4.4 📋 "spilt" ? YYYYY
+TD220 tried: SPILT Y Y Y Y Y
+TD401 5.1 📋 "apnea" ? ␅
+TD7634097 ␆nMnMn
+TD108 5.1 📋 "apnea" ? nMnMn
+TD221 tried: APNEA n m n m n
+TD358 5.2 📋 "alien" ? ␅
+TD1607400 ␆nnnMn
+TD81 5.2 📋 "alien" ? nnnMn
+TD182 tried: ALIEN n n n m n
+TD243 5.3 📋 "photo" ? ␅
+TD1643603 ␆MnYnn
+TD106 5.3 📋 "photo" ? MnYnn
+TD220 tried: PHOTO m n Y n n
+TD373 5.4 📋 "spilt" ? ␅
+TD1699159 ␆YMnnn
+TD109 5.4 📋 "spilt" ? YMnnn
+TD213 tried: SPILT Y m n n n
+TD230 5.5> ␅
+TD1016374 ␆*
+TD76 5.5> *
+TD159766 5.5 📋 "scope" ? ␅
+TD2854644 ␆YYYYY
+TD102 5.5 📋 "scope" ? YYYYY
+TD224 tried: SCOPE Y Y Y Y Y
+TD431 📋> ␅
+TD5914287 ␆Hurdle 1751
+TD100 📋> Hurdle 1751
+TD13 📋> ␅
+TD45 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD11 ␆3/6
+TD4 📋> 3/6
+TD5 📋> ␅
+TD15 ␆🟩🟨⬜🟨⬜
+TD4 📋> 🟩🟨⬜🟨⬜
+TD4 📋> ␅
+TD9 ␆🟩🟨⬜⬜🟨
+TD12 📋> 🟩🟨⬜⬜🟨
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆3/6
+TD4 📋> 3/6
+TD4 📋> ␅
+TD9 ␆🟩⬜🟨🟩⬜
+TD4 📋> 🟩⬜🟨🟩⬜
+TD4 📋> ␅
+TD8 ␆🟩🟨⬜🟩🟨
+TD4 📋> 🟩🟨⬜🟩🟨
+TD5 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD8 ␆4/6
+TD4 📋> 4/6
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜
+TD4 📋> ⬜⬜⬜⬜⬜
+TD4 📋> ␅
+TD8 ␆🟨⬜⬜⬜⬜
+TD4 📋> 🟨⬜⬜⬜⬜
+TD4 📋> ␅
+TD9 ␆⬜⬜🟨🟨⬜
+TD4 📋> ⬜⬜🟨🟨⬜
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD15 📋> ␅
+TD17 ␆4/6
+TD4 📋> 4/6
+TD4 📋> ␅
+TD8 ␆🟨⬜⬜🟨⬜
+TD3 📋> 🟨⬜⬜🟨⬜
+TD4 📋> ␅
+TD8 ␆🟩⬜🟨⬜🟨
+TD4 📋> 🟩⬜🟨⬜🟨
+TD4 📋> ␅
+TD8 ␆🟩🟩🟨🟨🟩
+TD3 📋> 🟩🟩🟨🟨🟩
+TD4 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD8 ␆Final 1/2
+TD4 📋> Final 1/2
+TD4 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD253861 ␆score: 10,100
+TD98 📋> score: 10,100
+TD12 📋> ␅
+TD148955 ␄
+TD179 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1751\n\n3/6\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"}
+TD760 result: "Hurdle 1751\n\n3/6\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\u2b1c\n\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,100"
+TD98 📆 2026-10-18 ? ␅
+TD223751 ␆
+TD85 📆 2026-10-18 ? 
