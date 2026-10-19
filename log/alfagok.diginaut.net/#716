@@ -1,0 +1,103 @@
+T36580.21209932101 now: 2026-10-19T08:00:04EDT
+TD124 site: alfagok.diginaut.net
+TD771928 loaded 399453 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1399 words excluded) asof 97fcf50ab2448d5514ac4b9469b21f1082c6ed72
+TD148  ...␅
+TD7386230 ␆
+TD116  ...
+TD216 [0 : 199631 : 399453] lijk? ␅
+TD3801038 ␆a
+TD114 [0 : 199631 : 399453] lijk? a
+TD373 progress: 1 199631 lijk
+TD159 [199632 : 299532 : 399453] schroot? ␅
+TD1678425 ␆b
+TD111 [199632 : 299532 : 399453] schroot? b
+TD133 progress: -1 299532 schroot
+TD130 [199632 : 249545 : 299532] opi? ␅
+TD2663230 ␆a
+TD117 [199632 : 249545 : 299532] opi? a
+TD116 progress: 1 249545 opi
+TD115 [249546 : 274461 : 299532] prop? ␅
+TD1708935 ␆a
+TD115 [249546 : 274461 : 299532] prop? a
+TD118 progress: 1 274461 prop
+TD135 [274462 : 286975 : 299532] riool? ␅
+TD2086077 ␆a
+TD114 [274462 : 286975 : 299532] riool? a
+TD156 progress: 1 286975 riool
+TD139 [286976 : 293182 : 299532] san? ␅
+TD2665481 ␆!
+TD113 [286976 : 293182 : 299532] san? !
+TD387 [286976 : 291990 : 299531] sa? ␅
+TD2345680 ␆b
+TD118 [286976 : 291990 : 299531] sa? b
+TD113 progress: -1 291990 sa
+TD125 [286976 : 289410 : 291990] rood? ␅
+TD1774644 ␆a
+TD83 [286976 : 289410 : 291990] rood? a
+TD102 progress: 1 289410 rood
+TD94 [289411 : 290632 : 291990] rozen? ␅
+TD1963613 ␆b
+TD110 [289411 : 290632 : 291990] rozen? b
+TD139 progress: -1 290632 rozen
+TD117 [289411 : 289966 : 290632] ros? ␅
+TD2831718 ␆a
+TD133 [289411 : 289966 : 290632] ros? a
+TD121 progress: 1 289966 ros
+TD117 [289967 : 290278 : 290632] rott? ␅
+TD2762823 ␆!
+TD110 [289967 : 290278 : 290632] rott? !
+TD359 [289967 : 290065 : 290631] rot? ␅
+TD2336218 ␆a
+TD125 [289967 : 290065 : 290631] rot? a
+TD129 progress: 1 290065 rot
+TD324 [290066 : 290344 : 290631] rouleer? ␅
+TD2563954 ␆a
+TD128 [290066 : 290344 : 290631] rouleer? a
+TD136 progress: 1 290344 rouleer
+TD154 [290345 : 290432 : 290631] rouw? ␅
+TD2734035 ␆a
+TD129 [290345 : 290432 : 290631] rouw? a
+TD157 progress: 1 290432 rouw
+TD365 [290433 : 290532 : 290631] rouwstoeten? ␅
+TD1621919 ␆a
+TD219 [290433 : 290532 : 290631] rouwstoeten? a
+TD210 progress: 1 290532 rouwstoeten
+TD123 [290533 : 290577 : 290631] roy? ␅
+TD1805523 ␆!
+TD115 [290533 : 290577 : 290631] roy? !
+TD570 [290533 : 290579 : 290630] royale? ␅
+TD1746180 ␆a
+TD115 [290533 : 290579 : 290630] royale? a
+TD120 progress: 1 290579 royale
+TD232 [290580 : 290599 : 290630] royeer? ␅
+TD2101253 ␆a
+TD200 [290580 : 290599 : 290630] royeer? a
+TD130 progress: 1 290599 royeer
+TD162 [290600 : 290614 : 290630] roze? ␅
+TD2236273 ␆it
+TD75 [290600 : 290614 : 290630] roze? it
+TD86 progress: 0 290614 roze
+TD22 [290600 : 290614 : 290630] <Done>.
+TD133 📋> ␅
+TD3146580 ␆🧩 Puzzel #716
+TD112 📋> 🧩 Puzzel #716
+TD11 📋> ␅
+TD53 ␆🤔 16 gokken
+TD6 📋> 🤔 16 gokken
+TD6 📋> ␅
+TD11 ␆⏱️ 40s
+TD5 📋> ⏱️ 40s
+TD4 📋> ␅
+TD242872 ␆🔗 alfagok.diginaut.net
+TD95 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD185206 ␄
+TD199 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #716\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 40s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD599 result: "\ud83e\udde9 Puzzel #716\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 40s\n\ud83d\udd17 alfagok.diginaut.net"
+TD18 result puzzle: 716
+TD8 result guesses: 16
+TD5 result time: 40s
+TD4 result link: alfagok.diginaut.net
+TD102 📆 2026-10-19 ? ␅
+TD272771 ␆
+TD99 📆 2026-10-19 ? 
