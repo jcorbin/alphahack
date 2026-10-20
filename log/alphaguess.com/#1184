@@ -1,0 +1,110 @@
+T6886.516236066003 now: 2026-10-20T09:32:49EDT
+TD131 site: alphaguess.com
+TD262029 loaded 196511 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (93 words excluded) asof 97fcf50ab2448d5514ac4b9469b21f1082c6ed72
+TD136  ...␅
+TD14731472 ␆
+TD76  ...
+TD137 [0 : 98142 : 196511] mac? ␅
+TD2249178 ␆b
+TD113 [0 : 98142 : 196511] mac? b
+TD118 progress: -1 98142 mac
+TD120 [0 : 47374 : 98142] dis? ␅
+TD1529573 ␆a
+TD113 [0 : 47374 : 98142] dis? a
+TD107 progress: 1 47374 dis
+TD114 [47375 : 72657 : 98142] green? ␅
+TD3797050 ␆b
+TD101 [47375 : 72657 : 98142] green? b
+TD105 progress: -1 72657 green
+TD194 [47375 : 60013 : 72657] eyewitness? ␅
+TD1833856 ␆a
+TD106 [47375 : 60013 : 72657] eyewitness? a
+TD114 progress: 1 60013 eyewitness
+TD107 [60014 : 66305 : 72657] free? ␅
+TD2022001 ␆a
+TD109 [60014 : 66305 : 72657] free? a
+TD108 progress: 1 66305 free
+TD107 [66306 : 69477 : 72657] geode? ␅
+TD2245709 ␆b
+TD108 [66306 : 69477 : 72657] geode? b
+TD110 progress: -1 69477 geode
+TD109 [66306 : 67879 : 69477] gain? ␅
+TD1767842 ␆a
+TD105 [66306 : 67879 : 69477] gain? a
+TD109 progress: 1 67879 gain
+TD108 [67880 : 68607 : 69477] gas? ␅
+TD1936002 ␆a
+TD80 [67880 : 68607 : 69477] gas? a
+TD82 progress: 1 68607 gas
+TD242 [68608 : 69043 : 69477] gee? ␅
+TD1757947 ␆a
+TD112 [68608 : 69043 : 69477] gee? a
+TD115 progress: 1 69043 gee
+TD119 [69044 : 69228 : 69477] genera? ␅
+TD2127879 ␆a
+TD102 [69044 : 69228 : 69477] genera? a
+TD105 progress: 1 69228 genera
+TD250 [69229 : 69353 : 69477] genoise? ␅
+TD1741460 ␆a
+TD106 [69229 : 69353 : 69477] genoise? a
+TD111 progress: 1 69353 genoise
+TD118 [69354 : 69378 : 69477] gent? ␅
+TD1834252 ␆a
+TD107 [69354 : 69378 : 69477] gent? a
+TD135 progress: 1 69378 gent
+TD442 [69379 : 69428 : 69477] gentrifiers? ␅
+TD1825227 ␆b
+TD110 [69379 : 69428 : 69477] gentrifiers? b
+TD111 progress: -1 69428 gentrifiers
+TD130 [69379 : 69399 : 69428] gentle? ␅
+TD1801544 ␆a
+TD101 [69379 : 69399 : 69428] gentle? a
+TD106 progress: 1 69399 gentle
+TD207 [69400 : 69414 : 69428] gentlest? ␅
+TD2180857 ␆b
+TD113 [69400 : 69414 : 69428] gentlest? b
+TD109 progress: -1 69414 gentlest
+TD176 [69400 : 69403 : 69414] gentleman? ␅
+TD1527494 ␆a
+TD118 [69400 : 69403 : 69414] gentleman? a
+TD123 progress: 1 69403 gentleman
+TD182 [69404 : 69409 : 69414] gentlenesses? ␅
+TD1703702 ␆b
+TD128 [69404 : 69409 : 69414] gentlenesses? b
+TD108 progress: -1 69409 gentlenesses
+TD188 [69404 : 69406 : 69409] gentlemanly? ␅
+TD1669781 ␆a
+TD111 [69404 : 69406 : 69409] gentlemanly? a
+TD113 progress: 1 69406 gentlemanly
+TD300 [69407 : 69408 : 69409] gentleness? ␅
+TD3080854 ␆b
+TD111 [69407 : 69408 : 69409] gentleness? b
+TD110 progress: -1 69408 gentleness
+TD186 [69407 : 69407 : 69408] gentlemen? ␅
+TD3213925 ␆it
+TD104 [69407 : 69407 : 69408] gentlemen? it
+TD142 progress: 0 69407 gentlemen
+TD27 [69407 : 69407 : 69408] <Done>.
+TD84 📋> ␅
+TD2900325 ␆🧩 Puzzle #1184
+TD102 📋> 🧩 Puzzle #1184
+TD11 📋> ␅
+TD38 ␆🤔 20 guesses
+TD6 📋> 🤔 20 guesses
+TD5 📋> ␅
+TD15 ␆⏱️ 38s
+TD5 📋> ⏱️ 38s
+TD4 📋> ␅
+TD248433 ␆🔗 alphaguess.com/1184
+TD101 📋> 🔗 alphaguess.com/1184
+TD12 📋> ␅
+TD208621 ␄
+TD203 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1184\n\ud83e\udd14 20 guesses\n\u23f1\ufe0f 38s\n\ud83d\udd17 alphaguess.com/1184"}
+TD104 result: "\ud83e\udde9 Puzzle #1184\n\ud83e\udd14 20 guesses\n\u23f1\ufe0f 38s\n\ud83d\udd17 alphaguess.com/1184"
+TD14 result puzzle: 1184
+TD6 result guesses: 20
+TD5 result time: 38s
+TD4 result link: alphaguess.com/1184
+TD97 📆 2026-10-20 ? ␅
+TD289183 ␆
+TD118 📆 2026-10-20 ? 
