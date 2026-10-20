@@ -1,0 +1,184 @@
+T7270.434295262035 now: 2026-10-20T09:39:13EDT
+TD133 site: https://www.merriam-webster.com/games/quordle/#/
+TD23 wordlist: nwl2023.txt
+TD7 num_words: 4
+TD130  ...␅
+TD15823022 ␆
+TD85  ...
+TD716479 > ␅
+TD1450812 ␆*
+TD81 > *
+TD84868 ? ␅
+TD581340 ␆1
+TD108 ? 1
+TD185 questioning: raise
+TD176 Classic #1 _____? ␅
+TD2548043 ␆nnnnn
+TD114 Classic #1 _____? nnnnn
+TD458 attempt: 0 RAISE n n n n n
+TD193 Classic #2 _____? ␅
+TD1523889 ␆nYnMn
+TD106 Classic #2 _____? nYnMn
+TD247 attempt: 1 RAISE n Y n m n
+TD101 Classic #3 _____? ␅
+TD2127078 ␆MMYnn
+TD128 Classic #3 _____? MMYnn
+TD235 attempt: 2 RAISE m m Y n n
+TD104 Classic #4 _____? ␅
+TD1806168 ␆YYnMn
+TD75 Classic #4 _____? YYnMn
+TD186 attempt: 3 RAISE Y Y n m n
+TD656322 > ␅
+TD1215836 ␆*
+TD124 > *
+TD4353 ? ␅
+TD906977 ␆1
+TD75 ? 1
+TD143 questioning: lumpy
+TD144 Classic #1 _____ -AEIRS? ␅
+TD4422775 ␆MnnnY
+TD126 Classic #1 _____ -AEIRS? MnnnY
+TD243 attempt: 0 LUMPY m n n n Y
+TD119 Classic #2 _A___ ~S -EIR? ␅
+TD1323255 ␆nMnnn
+TD110 Classic #2 _A___ ~S -EIR? nMnnn
+TD253 attempt: 1 LUMPY n m n n n
+TD107 Classic #3 __I__ ~AR -ES? ␅
+TD1449373 ␆Mnnnn
+TD105 Classic #3 __I__ ~AR -ES? Mnnnn
+TD227 attempt: 2 LUMPY m n n n n
+TD112 Classic #4 RA___ ~S -EI? ␅
+TD1205217 ␆nnnYY
+TD90 Classic #4 RA___ ~S -EI? nnnYY
+TD244 attempt: 3 LUMPY n n n Y Y
+TD679123 > ␅
+TD771057 ␆*
+TD87 > *
+TD328 questioning: trial
+TD112 Classic #1 ____Y ~L -AEIMPRSU? ␅
+TD3068316 ␆nnnnM
+TD129 Classic #1 ____Y ~L -AEIMPRSU? nnnnM
+TD407 attempt: 0 TRIAL n n n n m
+TD400 Classic #2 _A___ ~SU -EILMPRY? ␅
+TD1128023 ␆nnnMn
+TD76 Classic #2 _A___ ~SU -EILMPRY? nnnMn
+TD184 attempt: 1 TRIAL n n n m n
+TD173 Classic #3 __I__ ~ALR -EMPSUY? ␅
+TD1250090 ␆YYYYY
+TD106 Classic #3 __I__ ~ALR -EMPSUY? YYYYY
+TD228 attempt: 2 TRIAL Y Y Y Y Y
+TD129 Classic #4 RA_PY ~S -EILMU? ␅
+TD1292927 ␆nMnMn
+TD78 Classic #4 RA_PY ~S -EILMU? nMnMn
+TD182 attempt: 3 TRIAL n m n m n
+TD498677 > ␅
+TD1065744 ␆*
+TD103 > *
+TD408 questioning: raspy
+TD220 Classic #1 ____Y ~L -AEIMPRSTU? ␅
+TD6329829 ␆nnnnY
+TD104 Classic #1 ____Y ~L -AEIMPRSTU? nnnnY
+TD221 attempt: 0 RASPY n n n n Y
+TD114 Classic #2 _A___ ~SU -EILMPRTY? ␅
+TD3404315 ␆nYMnn
+TD78 Classic #2 _A___ ~SU -EILMPRTY? nYMnn
+TD185 attempt: 1 RASPY n Y m n n
+TD93 Classic #4 RA_PY ~S -EILMTU? ␅
+TD1280219 ␆YYYYY
+TD102 Classic #4 RA_PY ~S -EILMTU? YYYYY
+TD217 attempt: 3 RASPY Y Y Y Y Y
+TD340985 > ␅
+TD1026342 ␆*
+TD133 > *
+TD949 ? ␅
+TD2147836 ␆1
+TD78 ? 1
+TD143 questioning: godly
+TD145 Classic #1 ____Y ~L -AEIMPRSTU? ␅
+TD3406798 ␆nYnYY
+TD120 Classic #1 ____Y ~L -AEIMPRSTU? nYnYY
+TD224 attempt: 0 GODLY n Y n Y Y
+TD116 Classic #2 _A___ ~SU -EILMPRTY? ␅
+TD1651662 ␆nnnnn
+TD103 Classic #2 _A___ ~SU -EILMPRTY? nnnnn
+TD216 attempt: 1 GODLY n n n n n
+TD335483 > ␅
+TD1132339 ␆*
+TD120 > *
+TD963 ? ␅
+TD1169392 ␄
+TD127 <EOF>
+TD332650 > ␅
+TD1363473 ␆
+TD124 > 
+TD184 > ␅
+TD1551244 ␆probe
+TD76 > probe
+TD537328 > ␅
+TD2073278 ␆*
+TD111 > *
+TD823 ? ␅
+TD1075715 ␄
+TD143 <EOF>
+TD333366 > ␅
+TD4460854 ␆probe jhcfn
+TD150 > probe jhcfn
+T11.751728695002384 now: 2026-10-20T09:40:57EDT
+TD133 questioning: godly
+TD411193 > ␅
+TD2464814 ␆tried finch
+TD109 > tried finch
+TD678 questioning: FINCH
+TD266 Classic #1 _O_LY -ADEGIMPRSTU? ␅
+TD2293523 ␆nnnMn
+TD82 Classic #1 _O_LY -ADEGIMPRSTU? nnnMn
+TD361 attempt: 0 FINCH n n n m n
+TD105 Classic #2 _A___ ~SU -DEGILMOPRTY? ␅
+TD1306907 ␆nnMnn
+TD107 Classic #2 _A___ ~SU -DEGILMOPRTY? nnMnn
+TD245 attempt: 1 FINCH n n m n n
+TD369838 > ␅
+TD1145170 ␆*
+TD107 > *
+TD754 questioning: sauna
+TD187 Classic #1 _O_LY ~C -ADEFGHIMNPRSTU? ␅
+TD3452760 ␆nnnnn
+TD79 Classic #1 _O_LY ~C -ADEFGHIMNPRSTU? nnnnn
+TD218 attempt: 0 SAUNA n n n n n
+TD126 Classic #2 _A___ ~NSU -CDEFGHILMOPRTY? ␅
+TD1593583 ␆YYYYY
+TD113 Classic #2 _A___ ~NSU -CDEFGHILMOPRTY? YYYYY
+TD370 attempt: 1 SAUNA Y Y Y Y Y
+TD168624 > ␅
+TD631245 ␆*
+TD116 > *
+TD772 ? ␅
+TD3935454 ␆3
+TD110 ? 3
+TD250 questioning: coyly
+TD311 Classic #1 _O_LY ~C -ADEFGHIMNPRSTU? ␅
+TD4921403 ␆YYYYY
+TD99 Classic #1 _O_LY ~C -ADEFGHIMNPRSTU? YYYYY
+TD193 attempt: 0 COYLY Y Y Y Y Y
+TD199 📋> ␅
+TD7603176 ␆🙂 Daily Quordle 1730
+TD116 📋> 🙂 Daily Quordle 1730
+TD16 📋> ␅
+TD55 ␆8️⃣7️⃣
+TD9 📋> 8️⃣7️⃣
+TD6 📋> ␅
+TD14 ␆3️⃣4️⃣
+TD4 📋> 3️⃣4️⃣
+TD4 📋> ␅
+TD10 ␆m-w.com/games/quordle/
+TD4 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD348020 ␆
+TD110 📋> 
+TD13 📋> ␅
+TD267804 ␄
+TD141 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1730\n8\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1630 result: "\ud83d\ude42 Daily Quordle 1730\n8\ufe0f\u20e37\ufe0f\u20e3\n3\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD86 📆 2026-10-20 ? ␅
+TD1299551 ␆
+TD126 📆 2026-10-20 ? 
