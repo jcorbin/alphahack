@@ -1,0 +1,174 @@
+T675.1014685640112 now: 2026-10-21T09:27:04EDT
+TD88 site: https://www.merriam-webster.com/games/quordle/#/
+TD14 wordlist: nwl2023.txt
+TD4 num_words: 4
+TD87  ...␅
+TD6877714 ␆
+TD59  ...
+TD463578 > ␅
+TD741395 ␆*
+TD88 > *
+TD46262 ? ␅
+TD740345 ␆1
+TD61 ? 1
+TD107 questioning: scare
+TD105 Classic #1 _____? ␅
+TD2457412 ␆Mnnnn
+TD88 Classic #1 _____? Mnnnn
+TD359 attempt: 0 SCARE m n n n n
+TD79 Classic #2 _____? ␅
+TD1255041 ␆nnMnY
+TD65 Classic #2 _____? nnMnY
+TD156 attempt: 1 SCARE n n m n Y
+TD63 Classic #3 _____? ␅
+TD2002077 ␆MnnMY
+TD104 Classic #3 _____? MnnMY
+TD164 attempt: 2 SCARE m n n m Y
+TD76 Classic #4 _____? ␅
+TD1178430 ␆nnnMn
+TD63 Classic #4 _____? nnnMn
+TD125 attempt: 3 SCARE n n n m n
+TD416599 > ␅
+TD602502 ␆*
+TD85 > *
+TD3522 ? ␅
+TD874090 ␆1
+TD58 ? 1
+TD105 questioning: idols
+TD101 Classic #1 _____ ~S -ACER? ␅
+TD3236687 ␆MnMnM
+TD61 Classic #1 _____ ~S -ACER? MnMnM
+TD123 attempt: 0 IDOLS m n m n m
+TD57 Classic #2 ____E ~A -CRS? ␅
+TD1151389 ␆nnnMn
+TD58 Classic #2 ____E ~A -CRS? nnnMn
+TD218 attempt: 1 IDOLS n n n m n
+TD58 Classic #3 ____E ~RS -AC? ␅
+TD1315312 ␆nnnnM
+TD60 Classic #3 ____E ~RS -AC? nnnnM
+TD127 attempt: 2 IDOLS n n n n m
+TD63 Classic #4 _____ ~R -ACES? ␅
+TD1447846 ␆nnMnn
+TD60 Classic #4 _____ ~R -ACES? nnMnn
+TD124 attempt: 3 IDOLS n n m n n
+TD495216 > ␅
+TD647294 ␆*
+TD58 > *
+TD517 ? ␅
+TD1198316 ␆1
+TD62 ? 1
+TD107 questioning: tumor
+TD100 Classic #1 _____ ~IOS -ACDELR? ␅
+TD4111446 ␆MnMMn
+TD64 Classic #1 _____ ~IOS -ACDELR? MnMMn
+TD125 attempt: 0 TUMOR m n m m n
+TD61 Classic #2 ____E ~AL -CDIORS? ␅
+TD1183824 ␆nnnnn
+TD58 Classic #2 ____E ~AL -CDIORS? nnnnn
+TD130 attempt: 1 TUMOR n n n n n
+TD59 Classic #3 ____E ~RS -ACDILO? ␅
+TD1531882 ␆nnnnM
+TD56 Classic #3 ____E ~RS -ACDILO? nnnnM
+TD121 attempt: 2 TUMOR n n n n m
+TD59 Classic #4 _____ ~OR -ACDEILS? ␅
+TD1569704 ␆MnnMM
+TD88 Classic #4 _____ ~OR -ACDEILS? MnnMM
+TD229 attempt: 3 TUMOR m n n m m
+TD449771 > ␅
+TD612071 ␆*
+TD62 > *
+TD230 questioning: moist
+TD79 Classic #1 _____ ~IMOST -ACDELRU? ␅
+TD3661180 ␆YYYYY
+TD69 Classic #1 _____ ~IMOST -ACDELRU? YYYYY
+TD114 attempt: 0 MOIST Y Y Y Y Y
+TD61 Classic #2 ____E ~AL -CDIMORSTU? ␅
+TD2367078 ␆nnnnn
+TD58 Classic #2 ____E ~AL -CDIMORSTU? nnnnn
+TD118 attempt: 1 MOIST n n n n n
+TD58 Classic #3 ____E ~RS -ACDILMOTU? ␅
+TD1436990 ␆nnnYn
+TD57 Classic #3 ____E ~RS -ACDILMOTU? nnnYn
+TD116 attempt: 2 MOIST n n n Y n
+TD59 Classic #4 _____ ~ORT -ACDEILMSU? ␅
+TD1884102 ␆nYnnM
+TD100 Classic #4 _____ ~ORT -ACDEILMSU? nYnnM
+TD265 attempt: 3 MOIST n Y n n m
+TD310021 > ␅
+TD6450419 ␆*
+TD61 > *
+TD303 ? ␅
+TD2627130 ␆4
+TD58 ? 4
+TD193 ? ␅
+TD1287768 ␆3
+TD56 ? 3
+TD125 questioning: verse
+TD103 Classic #2 ____E ~AL -CDIMORSTU? ␅
+TD16439084 ␆YnnnY
+TD64 Classic #2 ____E ~AL -CDIMORSTU? YnnnY
+TD118 attempt: 1 VERSE Y n n n Y
+TD59 Classic #3 ___SE ~R -ACDILMOTU? ␅
+TD2978671 ␆YYYYY
+TD102 Classic #3 ___SE ~R -ACDILMOTU? YYYYY
+TD238 attempt: 2 VERSE Y Y Y Y Y
+TD145 Classic #4 _O___ ~RT -ACDEILMSU? ␅
+TD2468278 ␆nnYnn
+TD124 Classic #4 _O___ ~RT -ACDEILMSU? nnYnn
+TD138 attempt: 3 VERSE n n Y n n
+TD204960 > ␅
+TD869030 ␆*
+TD54 > *
+TD214 questioning: valve
+TD84 Classic #2 V___E ~AL -CDIMORSTU? ␅
+TD3219025 ␆YYYYY
+TD56 Classic #2 V___E ~AL -CDIMORSTU? YYYYY
+TD122 attempt: 1 VALVE Y Y Y Y Y
+TD60 Classic #4 _OR__ ~T -ACDEILMSUV? ␅
+TD1224554 ␆nnnnn
+TD81 Classic #4 _OR__ ~T -ACDEILMSUV? nnnnn
+TD151 attempt: 3 VALVE n n n n n
+TD93208 > ␅
+TD6383177 ␆*
+TD55 > *
+TD310 ? ␅
+TD1512701 ␆1
+TD60 ? 1
+TD100 questioning: forth
+TD93 Classic #4 _OR__ ~T -ACDEILMSUV? ␅
+TD2742292 ␆nYYYY
+TD55 Classic #4 _OR__ ~T -ACDEILMSUV? nYYYY
+TD128 attempt: 3 FORTH n Y Y Y Y
+TD118136 > ␅
+TD781944 ␆*
+TD127 > *
+TD797 ? ␅
+TD1951505 ␆1
+TD96 ? 1
+TD185 questioning: north
+TD194 Classic #4 _ORTH -ACDEFILMSUV? ␅
+TD2518891 ␆YYYYY
+TD101 Classic #4 _ORTH -ACDEFILMSUV? YYYYY
+TD242 attempt: 3 NORTH Y Y Y Y Y
+TD105 📋> ␅
+TD7767902 ␆🙂 Daily Quordle 1731
+TD143 📋> 🙂 Daily Quordle 1731
+TD17 📋> ␅
+TD63 ␆4️⃣6️⃣
+TD10 📋> 4️⃣6️⃣
+TD7 📋> ␅
+TD37 ␆5️⃣8️⃣
+TD10 📋> 5️⃣8️⃣
+TD6 📋> ␅
+TD16 ␆m-w.com/games/quordle/
+TD6 📋> m-w.com/games/quordle/
+TD6 📋> ␅
+TD292569 ␆
+TD127 📋> 
+TD17 📋> ␅
+TD162711 ␄
+TD237 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1731\n4\ufe0f\u20e36\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2300 result: "\ud83d\ude42 Daily Quordle 1731\n4\ufe0f\u20e36\ufe0f\u20e3\n5\ufe0f\u20e38\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD117 📆 2026-10-21 ? ␅
+TD330151 ␆
+TD64 📆 2026-10-21 ? 
