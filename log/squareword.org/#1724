@@ -1,0 +1,222 @@
+T116.39867183601018 now: 2026-10-21T09:41:45EDT
+TD152 site: squareword.org
+TD37 wordlist: nwl2023.txt
+TD55  ...␅
+TD5013047 ␆
+TD97  ...
+TD79 🧩  ? ␅
+TD1907762 ␆#1724
+TD124 🧩  ? #1724
+TD372 puzzle_id: #1724
+TD478 > ␅
+TD800543 ␆*
+TD122 > *
+TD239392 try? ␅
+TD703094 ␆1
+TD89 try? 1
+TD394 questioning: ["reais", "#5"]
+TD465 #1 <IndexError>  📋 "reais" ? ␅
+TD3569592 ␄
+TD313 question done
+TD187 > ␅
+TD469238 ␆*
+TD97 > *
+TD108102 try? ␅
+TD1896681 ␆3
+TD64 try? 3
+TD194 questioning: ["poser", "#5"]
+TD153 #1 <IndexError>  📋 "poser" ? ␅
+TD3969611 ␆__S__ ~ E
+TD89 #1 <IndexError>  📋 "poser" ? __S__ ~ E
+TD462 attempt 0 POSER n n Y m n
+TD160 #2 <IndexError>  📋 "poser" ? ␅
+TD3047921 ␆_____ ~ POER
+TD109 #2 <IndexError>  📋 "poser" ? _____ ~ POER
+TD318 attempt 1 POSER m m n m m
+TD251 #3 <IndexError>  📋 "poser" ? ␅
+TD2393403 ␆_____ ~ PSR
+TD84 #3 <IndexError>  📋 "poser" ? _____ ~ PSR
+TD196 attempt 2 POSER m n m n m
+TD95 #4 <IndexError>  📋 "poser" ? ␅
+TD2050452 ␆_____ ~ E
+TD58 #4 <IndexError>  📋 "poser" ? _____ ~ E
+TD137 attempt 3 POSER n n n m n
+TD66 #5 <IndexError>  📋 "poser" ? ␅
+TD1968961 ␆___ER ~ E
+TD115 #5 <IndexError>  📋 "poser" ? ___ER ~ E
+TD320 attempt 4 POSER n n n Y Y
+TD487 ? ␅
+TD208259 ␆
+TD83 ? 
+TD135 question done
+TD342 > ␅
+TD1867413 ␆* 4
+TD91 > * 4
+TD382833 try? ␅
+TD1766168 ␆1
+TD171 try? 1
+TD399 questioning: ["anime", "#4"]
+TD501 #1 __S__ ~E -OPR  📋 "anime" ? ␅
+TD5160013 ␆__S_E ~ A
+TD108 #1 __S__ ~E -OPR  📋 "anime" ? __S_E ~ A
+TD282 attempt 0 ANIME m n n n Y
+TD162 #2 _____ ~EOPR -S  📋 "anime" ? ␅
+TD3394708 ␆_____ ~ POERA
+TD125 #2 _____ ~EOPR -S  📋 "anime" ? _____ ~ POERA
+TD341 attempt 1 ANIME m n n n m
+TD288 #3 _____ ~PRS -EO  📋 "anime" ? ␅
+TD3859776 ␆_____ ~ PSRA
+TD145 #3 _____ ~PRS -EO  📋 "anime" ? _____ ~ PSRA
+TD364 attempt 2 ANIME m n n n n
+TD274 #4 _____ ~E -OPRS  📋 "anime" ? ␅
+TD2872926 ␆__I_E ~ E
+TD126 #4 _____ ~E -OPRS  📋 "anime" ? __I_E ~ E
+TD335 attempt 3 ANIME n n Y n Y
+TD298 #5 ___ER -OPS  📋 "anime" ? ␅
+TD4673767 ␆___ER ~ E
+TD103 #5 ___ER -OPS  📋 "anime" ? ___ER ~ E
+TD281 attempt 4 ANIME n n n n m
+TD423 ? ␅
+TD240392 ␆
+TD144 ? 
+TD186 question done
+TD470 > ␅
+TD2293130 ␆*
+TD126 > *
+TD744500 questioning: ["opera", "#2"]
+TD191 #1 __S_E ~A -IMNOPR  📋 "opera" ? ␅
+TD5369524 ␆.
+TD97 #1 __S_E ~A -IMNOPR  📋 "opera" ? .
+TD205 attempt 0 OPERA n n n n m
+TD65 #2 _____ ~AEOPR -IMNS  📋 "opera" ? ␅
+TD607263 ␆/it
+TD59 #2 _____ ~AEOPR -IMNS  📋 "opera" ? /it
+TD144 attempt 1 OPERA Y Y Y Y Y
+TD51 #3 _____ ~APRS -EIMNO  📋 "opera" ? ␅
+TD4471096 ␆_P___ ~ SRA
+TD103 #3 _____ ~APRS -EIMNO  📋 "opera" ? _P___ ~ SRA
+TD222 attempt 2 OPERA n Y n m m
+TD120 #4 __I_E -AMNOPRS  📋 "opera" ? ␅
+TD3822790 ␆__I_E ~ E
+TD110 #4 __I_E -AMNOPRS  📋 "opera" ? __I_E ~ E
+TD315 attempt 3 OPERA n n m n n
+TD179 #5 ___ER -AIMNOPS  📋 "opera" ? ␅
+TD2229692 ␆___ER ~ E
+TD87 #5 ___ER -AIMNOPS  📋 "opera" ? ___ER ~ E
+TD185 attempt 4 OPERA n n m n n
+TD204 ? ␅
+TD201580 ␆
+TD79 ? 
+TD126 question done
+TD355 > ␅
+TD438676 ␆*
+TD54 > *
+TD695567 try? ␅
+TD3038598 ␆2
+TD69 try? 2
+TD168 questioning: ["sprat", "#3"]
+TD174 #1 __S_E ~A -EIMNOPR  📋 "sprat" ? ␅
+TD5401618 ␆__S_E ~ AT
+TD86 #1 __S_E ~A -EIMNOPR  📋 "sprat" ? __S_E ~ AT
+TD186 attempt 0 SPRAT n n n m m
+TD107 #3 _P___ ~ARS -EIMNO  📋 "sprat" ? ␅
+TD2827623 ␆/it
+TD126 #3 _P___ ~ARS -EIMNO  📋 "sprat" ? /it
+TD360 attempt 2 SPRAT Y Y Y Y Y
+TD200 #4 __I_E -AMNOPRS  📋 "sprat" ? ␅
+TD4190300 ␆__I_E ~ E
+TD124 #4 __I_E -AMNOPRS  📋 "sprat" ? __I_E ~ E
+TD341 attempt 3 SPRAT n n n n n
+TD285 #5 ___ER -AIMNOPRS  📋 "sprat" ? ␅
+TD2452833 ␆___ER ~ E
+TD210 #5 ___ER -AIMNOPRS  📋 "sprat" ? ___ER ~ E
+TD346 attempt 4 SPRAT n n n n n
+TD258 ? ␅
+TD233461 ␆
+TD115 ? 
+TD151 question done
+TD384 > ␅
+TD561543 ␆*
+TD78 > *
+TD844401 questioning: ["elide", "#4"]
+TD198 #1 __S_E ~AT -EIMNOPRS  📋 "elide" ? ␅
+TD4291154 ␆.
+TD88 #1 __S_E ~AT -EIMNOPRS  📋 "elide" ? .
+TD224 attempt 0 ELIDE n n n n Y
+TD74 #4 __I_E -AMNOPRST  📋 "elide" ? ␅
+TD881754 ␆/it
+TD94 #4 __I_E -AMNOPRST  📋 "elide" ? /it
+TD191 attempt 3 ELIDE Y Y Y Y Y
+TD74 #5 ___ER -AIMNOPRST  📋 "elide" ? ␅
+TD4965755 ␆___ER ~ ED
+TD83 #5 ___ER -AIMNOPRST  📋 "elide" ? ___ER ~ ED
+TD231 attempt 4 ELIDE m n n m m
+TD454 ? ␅
+TD204185 ␆
+TD81 ? 
+TD89 question done
+TD173 > ␅
+TD530217 ␆*
+TD93 > *
+TD1287995 questioning: ["defer", "#5"]
+TD207 #1 __S_E ~AT -DILMNOPRS  📋 "defer" ? ␅
+TD5619688 ␆.
+TD86 #1 __S_E ~AT -DILMNOPRS  📋 "defer" ? .
+TD192 attempt 0 DEFER n n n n n
+TD75 #5 ___ER ~D -AILMNOPRST  📋 "defer" ? ␅
+TD611052 ␆/it
+TD86 #5 ___ER ~D -AILMNOPRST  📋 "defer" ? /it
+TD191 attempt 4 DEFER Y Y Y Y Y
+TD194 ? ␅
+TD151528 ␆
+TD92 ? 
+TD83 question done
+TD183 > ␅
+TD456589 ␆*
+TD80 > *
+TD1044998 questioning: ["haste", "#1"]
+TD200 #1 __S_E ~AT -DEFILMNOPRS  📋 "haste" ? ␅
+TD4192574 ␆/it
+TD61 #1 __S_E ~AT -DEFILMNOPRS  📋 "haste" ? /it
+TD293 attempt 0 HASTE Y Y Y Y Y
+TD149 ? ␅
+TD653171 ␆
+TD96 ? 
+TD118 question done
+TD19904 📋> ␅
+TD6309938 ␆squareword.org 1724: 7 guesses
+TD85 📋> squareword.org 1724: 7 guesses
+TD8 📋> ␅
+TD38 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD8 ␆🟨🟨🟩🟨🟩
+TD3 📋> 🟨🟨🟩🟨🟩
+TD2 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD1 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD5 ␆🟨🟨🟨🟩🟩
+TD1 📋> 🟨🟨🟨🟩🟩
+TD1 📋> ␅
+TD9 ␆
+TD2 📋> 
+TD1 📋> ␅
+TD7 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD3 📋> ␅
+TD255718 ␆#squareword #squareword1724
+TD82 📋> #squareword #squareword1724
+TD8 📋> ␅
+TD132009 ␄
+TD201 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1724: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1724"}
+TD544 result: "squareword.org 1724: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1724"
+TD89 📆 2026-10-21 ? ␅
+TD204027 ␆
+TD79 📆 2026-10-21 ? 
