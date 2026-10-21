@@ -1,0 +1,86 @@
+T110.18573204101995 now: 2026-10-21T09:17:38EDT
+TD73 site: alphaguess.com
+TD180014 loaded 196511 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (93 words excluded) asof eb6208f08b27289b997578bc54257a21884d12c2
+TD100  ...␅
+TD4326987 ␆
+TD57  ...
+TD105 [0 : 98142 : 196511] mac? ␅
+TD2164191 ␆b
+TD55 [0 : 98142 : 196511] mac? b
+TD54 progress: -1 98142 mac
+TD61 [0 : 47374 : 98142] dis? ␅
+TD1654695 ␆a
+TD87 [0 : 47374 : 98142] dis? a
+TD83 progress: 1 47374 dis
+TD82 [47375 : 72657 : 98142] green? ␅
+TD1549988 ␆b
+TD77 [47375 : 72657 : 98142] green? b
+TD87 progress: -1 72657 green
+TD118 [47375 : 60013 : 72657] eyewitness? ␅
+TD1524351 ␆b
+TD58 [47375 : 60013 : 72657] eyewitness? b
+TD57 progress: -1 60013 eyewitness
+TD64 [47375 : 53390 : 60013] el? ␅
+TD1673638 ␆b
+TD125 [47375 : 53390 : 60013] el? b
+TD128 progress: -1 53390 el
+TD176 [47375 : 49421 : 53390] do? ␅
+TD1388359 ␆a
+TD60 [47375 : 49421 : 53390] do? a
+TD60 progress: 1 49421 do
+TD138 [49422 : 51395 : 53390] drunk? ␅
+TD1451861 ␆a
+TD102 [49422 : 51395 : 53390] drunk? a
+TD85 progress: 1 51395 drunk
+TD80 [51396 : 52388 : 53390] earth? ␅
+TD1405305 ␆a
+TD79 [51396 : 52388 : 53390] earth? a
+TD86 progress: 1 52388 earth
+TD87 [52389 : 52868 : 53390] ed? ␅
+TD1590885 ␆b
+TD55 [52389 : 52868 : 53390] ed? b
+TD58 progress: -1 52868 ed
+TD77 [52389 : 52626 : 52868] echo? ␅
+TD1550724 ␆b
+TD55 [52389 : 52626 : 52868] echo? b
+TD59 progress: -1 52626 echo
+TD82 [52389 : 52507 : 52626] eave? ␅
+TD3819947 ␆b
+TD109 [52389 : 52507 : 52626] eave? b
+TD138 progress: -1 52507 eave
+TD232 [52389 : 52446 : 52507] earwig? ␅
+TD1794378 ␆a
+TD54 [52389 : 52446 : 52507] earwig? a
+TD56 progress: 1 52446 earwig
+TD55 [52447 : 52473 : 52507] east? ␅
+TD1996547 ␆b
+TD94 [52447 : 52473 : 52507] east? b
+TD84 progress: -1 52473 east
+TD86 [52447 : 52454 : 52473] ease? ␅
+TD3074376 ␆it
+TD89 [52447 : 52454 : 52473] ease? it
+TD79 progress: 0 52454 ease
+TD15 [52447 : 52454 : 52473] <Done>.
+TD60 📋> ␅
+TD2605493 ␆🧩 Puzzle #1185
+TD53 📋> 🧩 Puzzle #1185
+TD6 📋> ␅
+TD23 ␆🤔 14 guesses
+TD3 📋> 🤔 14 guesses
+TD2 📋> ␅
+TD5 ␆⏱️ 23s
+TD2 📋> ⏱️ 23s
+TD2 📋> ␅
+TD228566 ␆🔗 alphaguess.com/1185
+TD89 📋> 🔗 alphaguess.com/1185
+TD13 📋> ␅
+TD131102 ␄
+TD232 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1185\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/1185"}
+TD130 result: "\ud83e\udde9 Puzzle #1185\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 23s\n\ud83d\udd17 alphaguess.com/1185"
+TD17 result puzzle: 1185
+TD9 result guesses: 14
+TD7 result time: 23s
+TD6 result link: alphaguess.com/1185
+TD123 📆 2026-10-21 ? ␅
+TD376266 ␆
+TD123 📆 2026-10-21 ? 
