@@ -1,0 +1,171 @@
+T322.1863422289971 now: 2026-10-22T08:28:46EDT
+TD137 site: dontwordle.com
+TD22 wordlist: nwl2023.txt
+TD44  ...␅
+TD4385847 ␆
+TD88  ...
+TD101 1> ␅
+TD3895427 ␆* -bot 10
+TD123 1> * -bot 10
+TD348321 ? ␅
+TD847714 ␆1
+TD120 ? 1
+TD297 📋 "reals" ? ␅
+TD4472096 ␆Mnnnn
+TD90 📋 "reals" ? Mnnnn
+TD499 tried: REALS m n n n n
+TD178 2> ␅
+TD706660 ␆undo
+TD123 2> undo
+TD165 undo
+TD163 1> ␅
+TD6936748 ␆* :v [reals] -bot 10
+TD126 1> * :v [reals] -bot 10
+TD236810 ? ␅
+TD1845113 ␆2
+TD124 ? 2
+TD281 📋 "chino" ? ␅
+TD4811153 ␆nnnnM
+TD120 📋 "chino" ? nnnnM
+TD233 tried: CHINO n n n n m
+TD213 2> ␅
+TD711983 ␆undo
+TD119 2> undo
+TD167 undo
+TD183 1> ␅
+TD9357769 ␆* :v [realschino] -bot 10
+TD169 1> * :v [realschino] -bot 10
+TD243166 ? ␅
+TD894490 ␆1
+TD117 ? 1
+TD273 📋 "dumpy" ? ␅
+TD4638660 ␆nnnMn
+TD117 📋 "dumpy" ? nnnMn
+TD255 tried: DUMPY n n n m n
+TD229 2> ␅
+TD747298 ␆undo
+TD115 2> undo
+TD155 undo
+TD154 1> ␅
+TD3749103 ␆* 1
+TD125 1> * 1
+TD190528 📋 "massa" ? ␅
+TD4650189 ␆nnnnn
+TD126 📋 "massa" ? nnnnn
+TD221 tried: MASSA n n n n n
+TD186 2> ␅
+TD501690 ␆*
+TD117 2> *
+TD169434 ? ␅
+TD635219 ␆1
+TD85 ? 1
+TD195 📋 "deked" ? ␅
+TD3524760 ␆nnnnn
+TD125 📋 "deked" ? nnnnn
+TD216 tried: DEKED n n n n n
+TD191 3> ␅
+TD433014 ␆*
+TD115 3> *
+TD161420 ? ␅
+TD108660 ␆1
+TD107 ? 1
+TD272 📋 "ictic" ? ␅
+TD4925042 ␆nnMnn
+TD115 📋 "ictic" ? nnMnn
+TD221 tried: ICTIC n n m n n
+TD202 4> ␅
+TD729723 ␆*
+TD118 4> *
+TD169297 ? ␅
+TD979875 ␄
+TD171 <EOF>
+TD165 4> ␅
+TD2739393 ␆undo
+TD122 4> undo
+TD155 undo
+TD280 3> ␅
+TD2973328 ␆* 1
+TD141 3> * 1
+TD156243 📋 "xylyl" ? ␅
+TD4924512 ␆nnnnn
+TD119 📋 "xylyl" ? nnnnn
+TD224 tried: XYLYL n n n n n
+TD204 4> ␅
+TD608205 ␆*
+TD122 4> *
+TD153862 ? ␅
+TD603072 ␆1
+TD119 ? 1
+TD255 📋 "civic" ? ␅
+TD3577162 ␆nnnnn
+TD121 📋 "civic" ? nnnnn
+TD261 tried: CIVIC n n n n n
+TD205 5> ␅
+TD432406 ␆*
+TD122 5> *
+TD309316 📋 "butut" ? ␅
+TD4595461 ␆nnMnn
+TD120 📋 "butut" ? nnMnn
+TD215 tried: BUTUT n n m n n
+TD223 6> ␅
+TD414329 ␆*
+TD116 6> *
+TD323118 📋 "thong" ? ␅
+TD4692018 ␆YnYnn
+TD113 📋 "thong" ? YnYnn
+TD228 tried: THONG Y n Y n n
+TD238 📋> ␅
+TD2808966 ␄
+TD145 pasted: {"subject": "share result", "method": "read:must:stdin", "content": ""}
+TD1123 📋> ␅
+TD1638290 ␆Don't Wordle 1612 - SURVIVED
+TD87 📋> Don't Wordle 1612 - SURVIVED
+TD11 📋> ␅
+TD43 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD7 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD17 📋> ␅
+TD15 ␆⬜⬜⬜⬜⬜3350
+TD5 📋> ⬜⬜⬜⬜⬜3350
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜988
+TD4 📋> ⬜⬜⬜⬜⬜988
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜439
+TD4 📋> ⬜⬜⬜⬜⬜439
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜124
+TD4 📋> ⬜⬜⬜⬜⬜124
+TD4 📋> ␅
+TD11 ␆⬜⬜🟨⬜⬜17
+TD4 📋> ⬜⬜🟨⬜⬜17
+TD4 📋> ␅
+TD10 ␆🟩⬜🟩⬜⬜2
+TD4 📋> 🟩⬜🟩⬜⬜2
+TD4 📋> ␅
+TD9 ␆Undos used: 4
+TD4 📋> Undos used: 4
+TD5 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD9 ␆  2 words remaining
+TD4 📋>   2 words remaining
+TD4 📋> ␅
+TD9 ␆x 7 unused letters
+TD4 📋> x 7 unused letters
+TD4 📋> ␅
+TD9 ␆= 14 total score
+TD4 📋> = 14 total score
+TD4 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD125091 ␆https://dontwordle.com
+TD224 📋> https://dontwordle.com
+TD11 📋> ␅
+TD397714 ␄
+TD212 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1612 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3350\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c988\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c439\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c124\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c17\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c2\nUndos used: 4\n\n  2 words remaining\nx 7 unused letters\n= 14 total score\n\nhttps://dontwordle.com"}
+TD253 result: "Don't Wordle 1612 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3350\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c988\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c439\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c124\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c17\n\ud83d\udfe9\u2b1c\ud83d\udfe9\u2b1c\u2b1c2\nUndos used: 4\n\n  2 words remaining\nx 7 unused letters\n= 14 total score\n\nhttps://dontwordle.com"
+TD127 📆 2026-10-22 ? ␅
+TD368665 ␆
+TD118 📆 2026-10-22 ? 
