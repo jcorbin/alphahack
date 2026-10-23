@@ -1,0 +1,214 @@
+T28652.55538776399 now: 2026-10-22T20:49:46EDT
+TD142 site: https://wordgrid.clevergoat.com/
+TD22 wordlist: nwl2023.txt
+TD64 > ␅
+TD7534109 ␆col 1 &NP
+TD132 > col 1 &NP
+TD642 rule col: 1 &NP
+TD89 > ␅
+TD2871505 ␆col 2 ~^P
+TD119 > col 2 ~^P
+TD349 rule col: 2 ~^P
+TD93 > ␅
+TD2591499 ␆col 3 ~AN
+TD118 > col 3 ~AN
+TD320 rule col: 3 ~AN
+TD87 > ␅
+TD5881548 ␆row 1 #1-6
+TD116 > row 1 #1-6
+TD358 rule row: 1 #1-6
+TD99 > ␅
+TD7552446 ␆row 2 ~AS$
+TD131 > row 2 ~AS$
+TD424 rule row: 2 ~AS$
+TD118 > ␅
+TD2997131 ␆row 3 ~N$
+TD133 > row 3 ~N$
+TD390 rule row: 3 ~N$
+TD113 > ␅
+TD5834812 ␆*
+TD135 > *
+TD579394 ? ␅
+TD5047196 ␆1
+TD141 ? 1
+TD180 questioning: 0 pian
+TD64 🌡️ pian 📋 ? ␅
+TD3557339 ␆.02
+TD114 🌡️ pian 📋 ? .02
+TD358 word: 0 pian 0.02
+TD25 questioning: -1 
+TD100 > ␅
+TD536904 ␆*
+TD81 > *
+TD428617 ? ␅
+TD4547853 ␆6
+TD114 ? 6
+TD191 questioning: 1 pardie
+TD60 🌡️ pardie 📋 ? ␅
+TD3131280 ␆.02
+TD113 🌡️ pardie 📋 ? .02
+TD126 word: 1 pardie 0.02
+TD24 questioning: -1 
+TD111 > ␅
+TD976739 ␆*
+TD131 > *
+TD437173 ? ␅
+TD5037403 ␆7
+TD116 ? 7
+TD173 questioning: 2 lemans
+TD65 🌡️ lemans 📋 ? ␅
+TD2594614 ␆0
+TD115 🌡️ lemans 📋 ? 0
+TD100 word: 2 lemans 0.0
+TD21 questioning: -1 
+TD127 > ␅
+TD412014 ␆*
+TD116 > *
+TD518598 ? ␅
+TD4113384 ␆9
+TD105 ? 9
+TD164 questioning: 3 penultimas
+TD56 🌡️ penultimas 📋 ? ␅
+TD3114389 ␆.13
+TD119 🌡️ penultimas 📋 ? .13
+TD115 word: 3 penultimas 0.13
+TD21 questioning: -1 
+TD108 > ␅
+TD434547 ␆*
+TD111 > *
+TD420468 ? ␅
+TD1952590 ␆3
+TD194 ? 3
+TD189 questioning: 4 polentas
+TD55 🌡️ polentas 📋 ? ␅
+TD2759904 ␆.47
+TD120 🌡️ polentas 📋 ? .47
+TD111 word: 4 polentas 0.47
+TD21 questioning: -1 
+TD130 > ␅
+TD2547580 ␆* 1 2
+TD120 > * 1 2
+TD511348 ? ␅
+TD2438877 ␆9
+TD115 ? 9
+TD173 questioning: 3 hypopneas
+TD55 🌡️ hypopneas 📋 ? ␅
+TD3010837 ␆.11
+TD119 🌡️ hypopneas 📋 ? .11
+TD122 word: 3 hypopneas 0.11
+TD22 questioning: -1 
+TD120 > ␅
+TD962135 ␆* 2 2
+TD114 > * 2 2
+TD417083 ? ␅
+TD2916898 ␆8
+TD115 ? 8
+TD167 questioning: 4 plumerias
+TD55 🌡️ plumerias 📋 ? ␅
+TD4261487 ␆.16
+TD91 🌡️ plumerias 📋 ? .16
+TD86 word: 4 plumerias 0.16
+TD19 questioning: -1 
+TD110 > ␅
+TD1875948 ␆* 1 2
+TD114 > * 1 2
+TD510898 ? ␅
+TD2494886 ␆2
+TD120 ? 2
+TD169 questioning: 3 pembinas
+TD54 🌡️ pembinas 📋 ? ␅
+TD3060175 ␆.03
+TD131 🌡️ pembinas 📋 ? .03
+TD105 word: 3 pembinas 0.03
+TD22 questioning: -1 
+TD113 > ␅
+TD1448583 ␆* 2 2
+TD118 > * 2 2
+TD421707 ? ␅
+TD2885954 ␆4
+TD402 ? 4
+TD172 questioning: 4 polyurias
+TD56 🌡️ polyurias 📋 ? ␅
+TD3991062 ␆.03
+TD120 🌡️ polyurias 📋 ? .03
+TD108 word: 4 polyurias 0.03
+TD20 questioning: -1 
+TD128 > ␅
+TD440341 ␆*
+TD115 > *
+TD432424 ? ␅
+TD1390844 ␆8
+TD131 ? 8
+TD165 questioning: 5 angiomas
+TD54 🌡️ angiomas 📋 ? ␅
+TD2988141 ␆.09
+TD130 🌡️ angiomas 📋 ? .09
+TD105 word: 5 angiomas 0.09
+TD22 questioning: -1 
+TD119 > ␅
+TD489313 ␆*
+TD176 > *
+TD805439 ? ␅
+TD3651118 ␆4
+TD120 ? 4
+TD206 questioning: 6 sulphation
+TD57 🌡️ sulphation 📋 ? ␅
+TD2699550 ␆0
+TD156 🌡️ sulphation 📋 ? 0
+TD117 word: 6 sulphation 0.0
+TD22 questioning: -1 
+TD129 > ␅
+TD425146 ␆*
+TD80 > *
+TD418776 ? ␅
+TD1183485 ␆1
+TD118 ? 1
+TD169 questioning: 7 plastron
+TD57 🌡️ plastron 📋 ? ␅
+TD2961188 ␆.02
+TD80 🌡️ plastron 📋 ? .02
+TD77 word: 7 plastron 0.02
+TD17 questioning: -1 
+TD113 > ␅
+TD410932 ␆*
+TD106 > *
+TD449758 ? ␅
+TD1030493 ␆1
+TD113 ? 1
+TD194 questioning: 8 storeman
+TD54 🌡️ storeman 📋 ? ␅
+TD3535524 ␆.02
+TD93 🌡️ storeman 📋 ? .02
+TD77 word: 8 storeman 0.02
+TD18 questioning: -1 
+TD103 > ␅
+TD4400019 ␆/res
+TD98 > /res
+TD153 📋> ␅
+TD1169816 ␆Word Grid #874
+TD81 📋> Word Grid #874
+TD11 📋> ␅
+TD45 ␆🌌🌌🦄
+TD6 📋> 🌌🌌🦄
+TD5 📋> ␅
+TD12 ␆🌌🌌🌌
+TD4 📋> 🌌🌌🌌
+TD4 📋> ␅
+TD10 ␆🦄🌌🌌
+TD4 📋> 🦄🌌🌌
+TD4 📋> ␅
+TD10 ␆Rarity: 0.24
+TD4 📋> Rarity: 0.24
+TD4 📋> ␅
+TD191939 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD97 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD23 📋> ␅
+TD235668 ␄
+TD146 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #874\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\nRarity: 0.24\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD605 result: "Word Grid #874\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\nRarity: 0.24\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD98 > ␅
+TD1298607 ␆/store
+TD88 > /store
+TD178 📆 2026-10-22 ? ␅
+TD568541 ␆
+TD106 📆 2026-10-22 ? 
