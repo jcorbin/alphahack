@@ -1,0 +1,89 @@
+T55.05735507600184 now: 2026-10-23T07:53:55EDT
+TD157 site: alfagok.diginaut.net
+TD695442 loaded 399450 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1402 words excluded) asof 75d73e0bc0547e6b7ca520c9c49ab68c77cc1454
+TD155  ...␅
+TD7133888 ␆
+TD94  ...
+TD188 [0 : 199631 : 399450] lijk? ␅
+TD4093065 ␆a
+TD122 [0 : 199631 : 399450] lijk? a
+TD366 progress: 1 199631 lijk
+TD124 [199632 : 299529 : 399450] schroot? ␅
+TD2028019 ␆b
+TD492 [199632 : 299529 : 399450] schroot? b
+TD346 progress: -1 299529 schroot
+TD256 [199632 : 249549 : 299529] opinie? ␅
+TD2320181 ␆b
+TD88 [199632 : 249549 : 299529] opinie? b
+TD93 progress: -1 249549 opinie
+TD97 [199632 : 224526 : 249549] moord? ␅
+TD5035443 ␆a
+TD127 [199632 : 224526 : 249549] moord? a
+TD116 progress: 1 224526 moord
+TD115 [224527 : 237015 : 249549] om? ␅
+TD1746559 ␆b
+TD129 [224527 : 237015 : 249549] om? b
+TD135 progress: -1 237015 om
+TD123 [224527 : 230447 : 237015] neer? ␅
+TD1630032 ␆b
+TD121 [224527 : 230447 : 237015] neer? b
+TD116 progress: -1 230447 neer
+TD319 [224527 : 227487 : 230447] myra? ␅
+TD2131081 ␆!
+TD148 [224527 : 227487 : 230447] myra? !
+TD628 [224527 : 227487 : 230446] myriade? ␅
+TD1882474 ␆b
+TD120 [224527 : 227487 : 230446] myriade? b
+TD115 progress: -1 227487 myriade
+TD118 [224527 : 225994 : 227487] mui? ␅
+TD2322820 ␆b
+TD134 [224527 : 225994 : 227487] mui? b
+TD116 progress: -1 225994 mui
+TD115 [224527 : 225243 : 225994] mossel? ␅
+TD1745135 ␆b
+TD115 [224527 : 225243 : 225994] mossel? b
+TD140 progress: -1 225243 mossel
+TD122 [224527 : 224693 : 225243] mor? ␅
+TD1659270 ␆b
+TD141 [224527 : 224693 : 225243] mor? b
+TD140 progress: -1 224693 mor
+TD283 [224527 : 224610 : 224693] moordwapen? ␅
+TD1666802 ␆b
+TD149 [224527 : 224610 : 224693] moordwapen? b
+TD262 progress: -1 224610 moordwapen
+TD270 [224527 : 224568 : 224610] moordgeval? ␅
+TD1540127 ␆b
+TD136 [224527 : 224568 : 224610] moordgeval? b
+TD136 progress: -1 224568 moordgeval
+TD280 [224527 : 224541 : 224568] moorddadig? ␅
+TD2110293 ␆a
+TD97 [224527 : 224541 : 224568] moorddadig? a
+TD111 progress: 1 224541 moorddadig
+TD144 [224542 : 224550 : 224568] moorden? ␅
+TD1933849 ␆it
+TD155 [224542 : 224550 : 224568] moorden? it
+TD189 progress: 0 224550 moorden
+TD36 [224542 : 224550 : 224568] <Done>.
+TD155 📋> ␅
+TD5383292 ␆🧩 Puzzel #720
+TD135 📋> 🧩 Puzzel #720
+TD22 📋> ␅
+TD52 ␆🤔 14 gokken
+TD9 📋> 🤔 14 gokken
+TD7 📋> ␅
+TD17 ␆⏱️ 30s
+TD8 📋> ⏱️ 30s
+TD6 📋> ␅
+TD123724 ␆🔗 alfagok.diginaut.net
+TD121 📋> 🔗 alfagok.diginaut.net
+TD13 📋> ␅
+TD233418 ␄
+TD245 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #720\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 30s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD788 result: "\ud83e\udde9 Puzzel #720\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 30s\n\ud83d\udd17 alfagok.diginaut.net"
+TD26 result puzzle: 720
+TD11 result guesses: 14
+TD7 result time: 30s
+TD7 result link: alfagok.diginaut.net
+TD116 📆 2026-10-23 ? ␅
+TD416575 ␆
+TD149 📆 2026-10-23 ? 
