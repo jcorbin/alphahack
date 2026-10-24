@@ -1,0 +1,82 @@
+T25.04844541499915 now: 2026-10-24T08:57:44EDT
+TD116 site: alfagok.diginaut.net
+TD674304 loaded 399450 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1402 words excluded) asof 18caf2927afe415b35a91b19c9cf71f903556b28
+TD165  ...␅
+TD3895657 ␆
+TD86  ...
+TD188 [0 : 199631 : 399450] lijk? ␅
+TD3454724 ␆b
+TD90 [0 : 199631 : 399450] lijk? b
+TD284 progress: -1 199631 lijk
+TD115 [0 : 99672 : 199631] ex? ␅
+TD1494835 ␆b
+TD271 [0 : 99672 : 199631] ex? b
+TD254 progress: -1 99672 ex
+TD216 [0 : 49802 : 99672] boks? ␅
+TD1468646 ␆b
+TD79 [0 : 49802 : 99672] boks? b
+TD83 progress: -1 49802 boks
+TD86 [0 : 24874 : 49802] bad? ␅
+TD1530631 ␆b
+TD89 [0 : 24874 : 49802] bad? b
+TD90 progress: -1 24874 bad
+TD118 [0 : 8646 : 24874] af? ␅
+TD1570354 ␆b
+TD99 [0 : 8646 : 24874] af? b
+TD107 progress: -1 8646 af
+TD123 [0 : 786 : 8646] aan? ␅
+TD1518294 ␆a
+TD101 [0 : 786 : 8646] aan? a
+TD125 progress: 1 786 aan
+TD116 [787 : 4713 : 8646] aardappelschil? ␅
+TD1437638 ␆a
+TD99 [787 : 4713 : 8646] aardappelschil? a
+TD130 progress: 1 4713 aardappelschil
+TD144 [4714 : 6207 : 8646] achter? ␅
+TD1496832 ␆b
+TD109 [4714 : 6207 : 8646] achter? b
+TD113 progress: -1 6207 achter
+TD337 [4714 : 5457 : 6207] ablatie? ␅
+TD1472089 ␆b
+TD101 [4714 : 5457 : 6207] ablatie? b
+TD114 progress: -1 5457 ablatie
+TD133 [4714 : 5078 : 5457] aardst? ␅
+TD1514149 ␆b
+TD97 [4714 : 5078 : 5457] aardst? b
+TD110 progress: -1 5078 aardst
+TD115 [4714 : 4868 : 5078] aardgas? ␅
+TD1558111 ␆b
+TD93 [4714 : 4868 : 5078] aardgas? b
+TD106 progress: -1 4868 aardgas
+TD327 [4714 : 4791 : 4868] aardbeving? ␅
+TD1720760 ␆a
+TD116 [4714 : 4791 : 4868] aardbeving? a
+TD126 progress: 1 4791 aardbeving
+TD168 [4792 : 4828 : 4868] aarde? ␅
+TD1868280 ␆it
+TD75 [4792 : 4828 : 4868] aarde? it
+TD85 progress: 0 4828 aarde
+TD21 [4792 : 4828 : 4868] <Done>.
+TD106 📋> ␅
+TD5024659 ␆🧩 Puzzel #721
+TD88 📋> 🧩 Puzzel #721
+TD14 📋> ␅
+TD33 ␆🤔 13 gokken
+TD5 📋> 🤔 13 gokken
+TD5 📋> ␅
+TD11 ␆⏱️ 19s
+TD5 📋> ⏱️ 19s
+TD4 📋> ␅
+TD125003 ␆🔗 alfagok.diginaut.net
+TD162 📋> 🔗 alfagok.diginaut.net
+TD17 📋> ␅
+TD224956 ␄
+TD197 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #721\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 19s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD704 result: "\ud83e\udde9 Puzzel #721\n\ud83e\udd14 13 gokken\n\u23f1\ufe0f 19s\n\ud83d\udd17 alfagok.diginaut.net"
+TD21 result puzzle: 721
+TD10 result guesses: 13
+TD7 result time: 19s
+TD7 result link: alfagok.diginaut.net
+TD94 📆 2026-10-24 ? ␅
+TD413628 ␆
+TD105 📆 2026-10-24 ? 
