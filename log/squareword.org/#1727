@@ -1,0 +1,236 @@
+T251.365802954002 now: 2026-10-24T09:22:08EDT
+TD120 site: squareword.org
+TD27 wordlist: nwl2023.txt
+TD39  ...␅
+TD4148793 ␆
+TD77  ...
+TD60 🧩  ? ␅
+TD2956475 ␆#1727
+TD86 🧩  ? #1727
+TD250 puzzle_id: #1727
+TD260 > ␅
+TD2509866 ␆*
+TD76 > *
+TD419418 try? ␅
+TD715450 ␆1
+TD74 try? 1
+TD251 questioning: ["stade", "#5"]
+TD259 #1 <IndexError>  📋 "stade" ? ␅
+TD7002128 ␆_____ ~ STE
+TD106 #1 <IndexError>  📋 "stade" ? _____ ~ STE
+TD589 attempt 0 STADE m m n n m
+TD104 #2 <IndexError>  📋 "stade" ? ␅
+TD2884339 ␆_____ ~ TAE
+TD91 #2 <IndexError>  📋 "stade" ? _____ ~ TAE
+TD245 attempt 1 STADE n m m n m
+TD108 #3 <IndexError>  📋 "stade" ? ␅
+TD2508889 ␆_____ ~ A
+TD76 #3 <IndexError>  📋 "stade" ? _____ ~ A
+TD218 attempt 2 STADE n n m n n
+TD100 #4 <IndexError>  📋 "stade" ? ␅
+TD3040843 ␆__A__ ~ TAD
+TD195 #4 <IndexError>  📋 "stade" ? __A__ ~ TAD
+TD421 attempt 3 STADE n m Y m n
+TD144 #5 <IndexError>  📋 "stade" ? ␅
+TD2132096 ␆_____ ~ SE
+TD117 #5 <IndexError>  📋 "stade" ? _____ ~ SE
+TD283 attempt 4 STADE m n n n m
+TD409 ? ␅
+TD478551 ␆
+TD86 ? 
+TD128 question done
+TD260 > ␅
+TD702149 ␆*
+TD116 > *
+TD1336366 try? ␅
+TD3249848 ␆1
+TD102 try? 1
+TD249 questioning: ["draft", "#4"]
+TD336 #1 _____ ~EST -AD  📋 "draft" ? ␅
+TD7439986 ␆_____ ~ STER
+TD105 #1 _____ ~EST -AD  📋 "draft" ? _____ ~ STER
+TD254 attempt 0 DRAFT n m n n m
+TD142 #2 _____ ~AET -DS  📋 "draft" ? ␅
+TD3385236 ␆_____ ~ TAER
+TD71 #2 _____ ~AET -DS  📋 "draft" ? _____ ~ TAER
+TD196 attempt 1 DRAFT n m m n m
+TD124 #3 _____ ~A -DEST  📋 "draft" ? ␅
+TD3616336 ␆_____ ~ AR
+TD77 #3 _____ ~A -DEST  📋 "draft" ? _____ ~ AR
+TD205 attempt 2 DRAFT n m m n n
+TD117 #4 __A__ ~DT -ES  📋 "draft" ? ␅
+TD3111026 ␆__A_T ~ AD
+TD75 #4 __A__ ~DT -ES  📋 "draft" ? __A_T ~ AD
+TD219 attempt 3 DRAFT m n Y n Y
+TD119 #5 _____ ~ES -ADT  📋 "draft" ? ␅
+TD968597 ␆.
+TD78 #5 _____ ~ES -ADT  📋 "draft" ? .
+TD234 attempt 4 DRAFT n n n n n
+TD232 ? ␅
+TD168869 ␆
+TD97 ? 
+TD98 question done
+TD253 > ␅
+TD452565 ␆*
+TD86 > *
+TD1257723 questioning: ["adapt", "#4"]
+TD297 #1 _____ ~ERST -ADF  📋 "adapt" ? ␅
+TD4797630 ␆.
+TD93 #1 _____ ~ERST -ADF  📋 "adapt" ? .
+TD232 attempt 0 ADAPT n n n n m
+TD81 #2 _____ ~AERT -DFS  📋 "adapt" ? ␅
+TD797491 ␆.
+TD163 #2 _____ ~AERT -DFS  📋 "adapt" ? .
+TD576 attempt 1 ADAPT m n m n m
+TD178 #3 _____ ~AR -DEFST  📋 "adapt" ? ␅
+TD873085 ␆.
+TD136 #3 _____ ~AR -DEFST  📋 "adapt" ? .
+TD321 attempt 2 ADAPT m n m n n
+TD105 #4 __A_T ~D -EFRS  📋 "adapt" ? ␅
+TD649390 ␆/it
+TD215 #4 __A_T ~D -EFRS  📋 "adapt" ? /it
+TD446 attempt 3 ADAPT Y Y Y Y Y
+TD184 #5 _____ ~ES -ADFRT  📋 "adapt" ? ␅
+TD640459 ␆.
+TD98 #5 _____ ~ES -ADFRT  📋 "adapt" ? .
+TD289 attempt 4 ADAPT n n n n n
+TD361 ? ␅
+TD188796 ␆
+TD93 ? 
+TD114 question done
+TD356 > ␅
+TD364198 ␆*
+TD94 > *
+TD1207262 try? ␅
+TD1355132 ␆1
+TD123 try? 1
+TD324 questioning: ["rents", "#1"]
+TD318 #1 _____ ~ERST -ADFP  📋 "rents" ? ␅
+TD5294431 ␆RE_TS ~ S
+TD78 #1 _____ ~ERST -ADFP  📋 "rents" ? RE_TS ~ S
+TD211 attempt 0 RENTS Y Y n Y Y
+TD124 #2 _____ ~AERT -DFPS  📋 "rents" ? ␅
+TD3764793 ␆.
+TD100 #2 _____ ~AERT -DFPS  📋 "rents" ? .
+TD263 attempt 1 RENTS m m n m n
+TD90 #3 _____ ~AR -DEFPST  📋 "rents" ? ␅
+TD4649308 ␆R____ ~ AR
+TD102 #3 _____ ~AR -DEFPST  📋 "rents" ? R____ ~ AR
+TD234 attempt 2 RENTS Y n n n n
+TD123 #5 _____ ~ES -ADFPRT  📋 "rents" ? ␅
+TD2756307 ␆_E___ ~ SN
+TD110 #5 _____ ~ES -ADFPRT  📋 "rents" ? _E___ ~ SN
+TD286 attempt 4 RENTS n Y m n m
+TD336 ? ␅
+TD232942 ␆
+TD220 ? 
+TD233 question done
+TD328 > ␅
+TD748383 ␆*
+TD82 > *
+TD1804530 questioning: ["rests", "#1"]
+TD329 #1 RE_TS -ADFNP  📋 "rests" ? ␅
+TD5082203 ␆/it
+TD79 #1 RE_TS -ADFNP  📋 "rests" ? /it
+TD218 attempt 0 RESTS Y Y Y Y Y
+TD83 #2 _____ ~AERT -DFNPS  📋 "rests" ? ␅
+TD1230111 ␆.
+TD71 #2 _____ ~AERT -DFNPS  📋 "rests" ? .
+TD208 attempt 1 RESTS m m n m n
+TD83 #3 R____ ~A -DEFNPST  📋 "rests" ? ␅
+TD7590510 ␆R____ ~ AR
+TD108 #3 R____ ~A -DEFNPST  📋 "rests" ? R____ ~ AR
+TD239 attempt 2 RESTS Y n n n n
+TD162 #5 _E___ ~NS -ADFPRT  📋 "rests" ? ␅
+TD2419191 ␆.
+TD77 #5 _E___ ~NS -ADFPRT  📋 "rests" ? .
+TD207 attempt 4 RESTS n Y m n m
+TD252 ? ␅
+TD142902 ␆
+TD90 ? 
+TD106 question done
+TD280 > ␅
+TD415326 ␆*
+TD82 > *
+TD1448097 questioning: ["extra", "#2"]
+TD371 #2 _____ ~AERT -DFNPS  📋 "extra" ? ␅
+TD3366078 ␆/it
+TD76 #2 _____ ~AERT -DFNPS  📋 "extra" ? /it
+TD231 attempt 1 EXTRA Y Y Y Y Y
+TD93 #3 R____ ~A -DEFNPST  📋 "extra" ? ␅
+TD4628515 ␆R____ ~ AR
+TD82 #3 R____ ~A -DEFNPST  📋 "extra" ? R____ ~ AR
+TD222 attempt 2 EXTRA n n n m m
+TD126 #5 _E___ ~NS -ADFPRT  📋 "extra" ? ␅
+TD2583167 ␆.
+TD74 #5 _E___ ~NS -ADFPRT  📋 "extra" ? .
+TD220 attempt 4 EXTRA n n n n n
+TD253 ? ␅
+TD223834 ␆
+TD78 ? 
+TD90 question done
+TD269 > ␅
+TD445568 ␆*
+TD125 > *
+TD2928968 questioning: ["rural", "#3"]
+TD319 #3 R____ ~A -DEFNPSTX  📋 "rural" ? ␅
+TD4135718 ␆/it
+TD78 #3 R____ ~A -DEFNPSTX  📋 "rural" ? /it
+TD214 attempt 2 RURAL Y Y Y Y Y
+TD85 #5 _E___ ~NS -ADEFPRTX  📋 "rural" ? ␅
+TD1725108 ␆.
+TD77 #5 _E___ ~NS -ADEFPRTX  📋 "rural" ? .
+TD212 attempt 4 RURAL n n n n n
+TD257 ? ␅
+TD161582 ␆
+TD87 ? 
+TD98 question done
+TD342 > ␅
+TD430271 ␆*
+TD102 > *
+TD1950586 questioning: ["newsy", "#5"]
+TD328 #5 _E___ ~NS -ADEFLPRTUX  📋 "newsy" ? ␅
+TD8030648 ␆/it
+TD110 #5 _E___ ~NS -ADEFLPRTUX  📋 "newsy" ? /it
+TD302 attempt 4 NEWSY Y Y Y Y Y
+TD398 ? ␅
+TD420722 ␆
+TD90 ? 
+TD105 question done
+TD41250 📋> ␅
+TD8557053 ␆squareword.org 1727: 8 guesses
+TD96 📋> squareword.org 1727: 8 guesses
+TD11 📋> ␅
+TD40 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟨🟨🟨🟨🟨
+TD4 📋> 🟨🟨🟨🟨🟨
+TD4 📋> ␅
+TD9 ␆🟩🟨🟨🟨🟨
+TD4 📋> 🟩🟨🟨🟨🟨
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆🟨🟩🟨🟨🟨
+TD4 📋> 🟨🟩🟨🟨🟨
+TD3 📋> ␅
+TD8 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD10 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> ␅
+TD120725 ␆#squareword #squareword1727
+TD93 📋> #squareword #squareword1727
+TD11 📋> ␅
+TD229423 ␄
+TD141 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1727: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1727"}
+TD714 result: "squareword.org 1727: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1727"
+TD80 📆 2026-10-24 ? ␅
+TD408838 ␆
+TD76 📆 2026-10-24 ? 
