@@ -1,0 +1,245 @@
+T632.9750855149978 now: 2026-10-24T09:07:52EDT
+TD106 site: https://www.merriam-webster.com/games/quordle/#/
+TD19 wordlist: nwl2023.txt
+TD6 num_words: 4
+TD119  ...␅
+TD706150 ␆
+TD79  ...
+TD720054 > ␅
+TD16919808 ␆*
+TD77 > *
+TD80680 ? ␅
+TD635638 ␆1
+TD78 ? 1
+TD156 questioning: toeas
+TD176 Classic #1 _____? ␅
+TD2989541 ␆YYnnn
+TD97 Classic #1 _____? YYnnn
+TD395 attempt: 0 TOEAS Y Y n n n
+TD99 Classic #2 _____? ␅
+TD1485498 ␆MnnMM
+TD75 Classic #2 _____? MnnMM
+TD193 attempt: 1 TOEAS m n n m m
+TD83 Classic #3 _____? ␅
+TD2996753 ␆nYMnM
+TD100 Classic #3 _____? nYMnM
+TD313 attempt: 2 TOEAS n Y m n m
+TD93 Classic #4 _____? ␅
+TD2431362 ␆MnMnM
+TD82 Classic #4 _____? MnMnM
+TD193 attempt: 3 TOEAS m n m n m
+TD899441 > ␅
+TD2282368 ␆*
+TD78 > *
+TD1084 ? ␅
+TD1879545 ␆1
+TD112 ? 1
+TD172 questioning: saint
+TD165 Classic #1 TO___ -AES? ␅
+TD4578508 ␆nnMMM
+TD97 Classic #1 TO___ -AES? nnMMM
+TD261 attempt: 0 SAINT n n m m m
+TD121 Classic #2 _____ ~AST -EO? ␅
+TD2858022 ␆YMnnY
+TD99 Classic #2 _____ ~AST -EO? YMnnY
+TD257 attempt: 1 SAINT Y m n n Y
+TD118 Classic #3 _O___ ~ES -AT? ␅
+TD1492738 ␆Mnnnn
+TD120 Classic #3 _O___ ~ES -AT? Mnnnn
+TD394 attempt: 2 SAINT m n n n n
+TD183 Classic #4 _____ ~EST -AO? ␅
+TD1865768 ␆YnnnM
+TD100 Classic #4 _____ ~EST -AO? YnnnM
+TD276 attempt: 3 SAINT Y n n n m
+TD697014 > ␅
+TD9169214 ␆*
+TD80 > *
+TD507 ? ␅
+TD6824167 ␄
+TD109 <EOF>
+TD690045 > ␅
+TD1182434 ␆* 3
+TD81 > * 3
+TD174743 ? ␅
+TD5182752 ␆1
+TD89 ? 1
+TD143 questioning: doser
+TD147 Classic #1 TO___ ~IN -AES? ␅
+TD3399030 ␆nYnnn
+TD160 Classic #1 TO___ ~IN -AES? nYnnn
+TD243 attempt: 0 DOSER n Y n n n
+TD100 Classic #2 S___T ~A -EINO? ␅
+TD2769846 ␆nnMnM
+TD91 Classic #2 S___T ~A -EINO? nnMnM
+TD231 attempt: 1 DOSER n n m n m
+TD99 Classic #3 _O___ ~ES -AINT? ␅
+TD1605536 ␆nYMMn
+TD80 Classic #3 _O___ ~ES -AINT? nYMMn
+TD196 attempt: 2 DOSER n Y m m n
+TD92 Classic #4 S____ ~ET -AINO? ␅
+TD2219553 ␆nnMMn
+TD77 Classic #4 S____ ~ET -AINO? nnMMn
+TD188 attempt: 3 DOSER n n m m n
+TD683124 > ␅
+TD1902969 ␆*
+TD77 > *
+TD443 ? ␅
+TD7190610 ␄
+TD110 <EOF>
+TD690226 > ␅
+TD1042454 ␆* 3
+TD92 > * 3
+TD181971 ? ␅
+TD5024847 ␆10
+TD81 ? 10
+TD145 questioning: copse
+TD158 Classic #1 TO___ ~IN -ADERS? ␅
+TD3101544 ␆nYnnn
+TD81 Classic #1 TO___ ~IN -ADERS? nYnnn
+TD189 attempt: 0 COPSE n Y n n n
+TD98 Classic #2 S___T ~AR -DEINO? ␅
+TD1539169 ␆nnnMn
+TD96 Classic #2 S___T ~AR -DEINO? nnnMn
+TD207 attempt: 1 COPSE n n n m n
+TD121 Classic #3 _O___ ~ES -ADINRT? ␅
+TD1693429 ␆nYnYY
+TD74 Classic #3 _O___ ~ES -ADINRT? nYnYY
+TD193 attempt: 2 COPSE n Y n Y Y
+TD95 Classic #4 S____ ~ET -ADINOR? ␅
+TD1624767 ␆nnnMY
+TD114 Classic #4 S____ ~ET -ADINOR? nnnMY
+TD282 attempt: 3 COPSE n n n m Y
+TD719182 > ␅
+TD783901 ␆*
+TD77 > *
+TD315 questioning: toxin
+TD123 Classic #1 TO___ ~IN -ACDEPRS? ␅
+TD2811537 ␆YYYYY
+TD93 Classic #1 TO___ ~IN -ACDEPRS? YYYYY
+TD236 attempt: 0 TOXIN Y Y Y Y Y
+TD131 Classic #2 S___T ~AR -CDEINOP? ␅
+TD1536662 ␆Mnnnn
+TD97 Classic #2 S___T ~AR -CDEINOP? Mnnnn
+TD247 attempt: 1 TOXIN m n n n n
+TD133 Classic #3 _O_SE -ACDINPRT? ␅
+TD1533498 ␆nYnnn
+TD95 Classic #3 _O_SE -ACDINPRT? nYnnn
+TD247 attempt: 2 TOXIN n Y n n n
+TD129 Classic #4 S___E ~T -ACDINOPR? ␅
+TD1427168 ␆Mnnnn
+TD98 Classic #4 S___E ~T -ACDINOPR? Mnnnn
+TD252 attempt: 3 TOXIN m n n n n
+TD572954 > ␅
+TD2189228 ␆*
+TD80 > *
+TD469 ? ␅
+TD7463123 ␄
+TD129 <EOF>
+TD511913 > ␅
+TD1704953 ␆* 3
+TD122 > * 3
+TD169433 ? ␅
+TD3729744 ␆1
+TD105 ? 1
+TD183 questioning: louse
+TD203 Classic #2 S___T ~AR -CDEINOPX? ␅
+TD3431962 ␆nnnMn
+TD93 Classic #2 S___T ~AR -CDEINOPX? nnnMn
+TD194 attempt: 1 LOUSE n n n m n
+TD99 Classic #3 _O_SE -ACDINPRTX? ␅
+TD1636039 ␆nYYYY
+TD77 Classic #3 _O_SE -ACDINPRTX? nYYYY
+TD184 attempt: 2 LOUSE n Y Y Y Y
+TD100 Classic #4 S___E ~T -ACDINOPRX? ␅
+TD1917530 ␆MnnMY
+TD76 Classic #4 S___E ~T -ACDINOPRX? MnnMY
+TD189 attempt: 3 LOUSE m n n m Y
+TD515094 > ␅
+TD1042188 ␆*
+TD100 > *
+TD336 questioning: style
+TD131 Classic #2 S___T ~AR -CDEILNOPUX? ␅
+TD3309959 ␆YMnnn
+TD75 Classic #2 S___T ~AR -CDEILNOPUX? YMnnn
+TD183 attempt: 1 STYLE Y m n n n
+TD113 Classic #3 _OUSE -ACDILNPRTX? ␅
+TD1797518 ␆MnnnY
+TD77 Classic #3 _OUSE -ACDILNPRTX? MnnnY
+TD184 attempt: 2 STYLE m n n n Y
+TD99 Classic #4 S___E ~LT -ACDINOPRUX? ␅
+TD1356546 ␆YYYY
+TD87 Classic #4 S___E ~LT -ACDINOPRUX? YYYY
+TD282 Classic #4 S___E ~LT -ACDINOPRUX? ␅
+TD1528136 ␆YYYYY
+TD77 Classic #4 S___E ~LT -ACDINOPRUX? YYYYY
+TD190 attempt: 3 STYLE Y Y Y Y Y
+TD328354 > ␅
+TD1025801 ␆*
+TD72 > *
+TD1597 ? ␅
+TD2697675 ␄
+TD113 <EOF>
+TD318284 > ␅
+TD1085826 ␆* 3
+TD80 > * 3
+TD155534 ? ␅
+TD1915518 ␆2
+TD91 ? 2
+TD143 questioning: house
+TD153 Classic #2 S___T ~AR -CDEILNOPUXY? ␅
+TD2709113 ␆nnnMn
+TD75 Classic #2 S___T ~AR -CDEILNOPUXY? nnnMn
+TD184 attempt: 1 HOUSE n n n m n
+TD98 Classic #3 _OUSE -ACDILNPRTXY? ␅
+TD1472290 ␆nYYYY
+TD100 Classic #3 _OUSE -ACDILNPRTXY? nYYYY
+TD213 attempt: 2 HOUSE n Y Y Y Y
+TD325296 > ␅
+TD1457940 ␆*
+TD100 > *
+TD577 ? ␅
+TD4870405 ␆YYYYY
+TD77 ? YYYYY
+TD289 ? ␅
+TD5162238 ␆MMnnn
+TD73 ? MMnnn
+TD281 ? ␅
+TD3684435 ␆1
+TD80 ? 1
+TD138 questioning: smart
+TD158 Classic #2 S___T ~AR -CDEHILNOPUXY? ␅
+TD2105234 ␆YYYYY
+TD74 Classic #2 S___T ~AR -CDEHILNOPUXY? YYYYY
+TD199 attempt: 1 SMART Y Y Y Y Y
+TD101 Classic #3 _OUSE -ACDHILNPRTXY? ␅
+TD1776342 ␆MMnnn
+TD77 Classic #3 _OUSE -ACDHILNPRTXY? MMnnn
+TD190 attempt: 2 SMART m m n n n
+TD157047 > ␅
+TD3907454 ␆/res
+TD95 > /res
+TD173 📋> ␅
+TD2245232 ␆🙂 Daily Quordle 1734
+TD85 📋> 🙂 Daily Quordle 1734
+TD11 📋> ␅
+TD38 ␆5️⃣9️⃣
+TD6 📋> 5️⃣9️⃣
+TD5 📋> ␅
+TD11 ␆🟥7️⃣
+TD4 📋> 🟥7️⃣
+TD4 📋> ␅
+TD10 ␆m-w.com/games/quordle/
+TD4 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD92959 ␆
+TD80 📋> 
+TD12 📋> ␅
+TD234351 ␄
+TD141 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1734\n5\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udfe57\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1575 result: "\ud83d\ude42 Daily Quordle 1734\n5\ufe0f\u20e39\ufe0f\u20e3\n\ud83d\udfe57\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD168419 > ␅
+TD1839851 ␆/store
+TD126 > /store
+TD289 📆 2026-10-24 ? ␅
+TD458488 ␆
+TD97 📆 2026-10-24 ? 
