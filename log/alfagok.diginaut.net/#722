@@ -1,0 +1,101 @@
+T99.20260060299915 now: 2026-10-25T12:25:57EDT
+TD169 site: alfagok.diginaut.net
+TD734341 loaded 399450 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1402 words excluded) asof 18caf2927afe415b35a91b19c9cf71f903556b28
+TD180  ...␅
+TD11824256 ␆
+TD76  ...
+TD225 [0 : 199631 : 399450] lijk? ␅
+TD4509917 ␆b
+TD97 [0 : 199631 : 399450] lijk? b
+TD236 progress: -1 199631 lijk
+TD153 [0 : 99672 : 199631] ex? ␅
+TD1858037 ␆a
+TD119 [0 : 99672 : 199631] ex? a
+TD143 progress: 1 99672 ex
+TD113 [99673 : 149358 : 199631] huis? ␅
+TD2430622 ␆b
+TD88 [99673 : 149358 : 199631] huis? b
+TD85 progress: -1 149358 huis
+TD107 [99673 : 111327 : 149358] ge? ␅
+TD1521980 ␆a
+TD120 [99673 : 111327 : 149358] ge? a
+TD121 progress: 1 111327 ge
+TD369 [111328 : 130307 : 149358] gracht? ␅
+TD1461756 ␆a
+TD110 [111328 : 130307 : 149358] gracht? a
+TD116 progress: 1 130307 gracht
+TD125 [130308 : 139695 : 149358] hei? ␅
+TD1548925 ␆b
+TD117 [130308 : 139695 : 149358] hei? b
+TD121 progress: -1 139695 hei
+TD116 [130308 : 134991 : 139695] haast? ␅
+TD1538411 ␆a
+TD115 [130308 : 134991 : 139695] haast? a
+TD115 progress: 1 134991 haast
+TD116 [134992 : 137227 : 139695] hang? ␅
+TD1635816 ␆b
+TD111 [134992 : 137227 : 139695] hang? b
+TD114 progress: -1 137227 hang
+TD117 [134992 : 136086 : 137227] handbal? ␅
+TD1579169 ␆a
+TD90 [134992 : 136086 : 137227] handbal? a
+TD95 progress: 1 136086 handbal
+TD96 [136087 : 136288 : 137227] handels? ␅
+TD1964231 ␆a
+TD117 [136087 : 136288 : 137227] handels? a
+TD120 progress: 1 136288 handels
+TD190 [136289 : 136756 : 137227] handelt? ␅
+TD1389809 ␆a
+TD113 [136289 : 136756 : 137227] handelt? a
+TD112 progress: 1 136756 handelt
+TD256 [136757 : 136992 : 137227] handreiking? ␅
+TD1831747 ␆b
+TD111 [136757 : 136992 : 137227] handreiking? b
+TD121 progress: -1 136992 handreiking
+TD124 [136757 : 136847 : 136992] handhaving? ␅
+TD1535834 ␆b
+TD108 [136757 : 136847 : 136992] handhaving? b
+TD158 progress: -1 136847 handhaving
+TD343 [136757 : 136803 : 136847] handgel? ␅
+TD1781646 ␆a
+TD101 [136757 : 136803 : 136847] handgel? a
+TD119 progress: 1 136803 handgel
+TD227 [136804 : 136825 : 136847] handgewricht? ␅
+TD1471716 ␆a
+TD86 [136804 : 136825 : 136847] handgewricht? a
+TD85 progress: 1 136825 handgewricht
+TD95 [136826 : 136835 : 136847] handhaaf? ␅
+TD1564171 ␆
+TD79 [136826 : 136835 : 136847] handhaaf? 
+TD162 [136826 : 136835 : 136847] handhaaf? ␅
+TD507998 ␆a
+TD115 [136826 : 136835 : 136847] handhaaf? a
+TD173 progress: 1 136835 handhaaf
+TD320 [136836 : 136842 : 136847] handhaven? ␅
+TD1935080 ␆it
+TD73 [136836 : 136842 : 136847] handhaven? it
+TD85 progress: 0 136842 handhaven
+TD22 [136836 : 136842 : 136847] <Done>.
+TD97 📋> ␅
+TD4334034 ␆🧩 Puzzel #722
+TD113 📋> 🧩 Puzzel #722
+TD16 📋> ␅
+TD45 ␆🤔 17 gokken
+TD6 📋> 🤔 17 gokken
+TD6 📋> ␅
+TD12 ␆⏱️ 27s
+TD6 📋> ⏱️ 27s
+TD4 📋> ␅
+TD115475 ␆🔗 alfagok.diginaut.net
+TD60 📋> 🔗 alfagok.diginaut.net
+TD6 📋> ␅
+TD460669 ␄
+TD172 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #722\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 27s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD445 result: "\ud83e\udde9 Puzzel #722\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 27s\n\ud83d\udd17 alfagok.diginaut.net"
+TD16 result puzzle: 722
+TD4 result guesses: 17
+TD3 result time: 27s
+TD2 result link: alfagok.diginaut.net
+TD90 📆 2026-10-25 ? ␅
+TD1057147 ␆
+TD114 📆 2026-10-25 ? 
