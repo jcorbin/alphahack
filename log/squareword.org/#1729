@@ -1,0 +1,257 @@
+T535.0486845729902 now: 2026-10-26T11:08:55EDT
+TD142 site: squareword.org
+TD36 wordlist: nwl2023.txt
+TD44  ...␅
+TD592509 ␆
+TD102  ...
+TD73 🧩  ? ␅
+TD6256890 ␆#1729
+TD91 🧩  ? #1729
+TD279 puzzle_id: #1729
+TD235 > ␅
+TD748813 ␆*
+TD93 > *
+TD243670 try? ␅
+TD800661 ␆1
+TD124 try? 1
+TD414 questioning: ["setal", "#5"]
+TD241 #1 <IndexError>  📋 "setal" ? ␅
+TD4932242 ␆S____ ~ AL
+TD96 #1 <IndexError>  📋 "setal" ? S____ ~ AL
+TD682 attempt 0 SETAL Y n n m m
+TD124 #2 <IndexError>  📋 "setal" ? ␅
+TD4613123 ␆_____ ~ EA
+TD96 #2 <IndexError>  📋 "setal" ? _____ ~ EA
+TD223 attempt 1 SETAL n m n m n
+TD112 #3 <IndexError>  📋 "setal" ? ␅
+TD2868086 ␆___A_ 
+TD102 #3 <IndexError>  📋 "setal" ? ___A_ 
+TD201 attempt 2 SETAL n n n Y n
+TD101 #4 <IndexError>  📋 "setal" ? ␅
+TD2224479 ␆_____ ~ SE
+TD106 #4 <IndexError>  📋 "setal" ? _____ ~ SE
+TD282 attempt 3 SETAL m m n n n
+TD132 #5 <IndexError>  📋 "setal" ? ␅
+TD2145794 ␆_E___ ~ SET
+TD80 #5 <IndexError>  📋 "setal" ? _E___ ~ SET
+TD216 attempt 4 SETAL m Y m n n
+TD232 ? ␅
+TD337951 ␆
+TD110 ? 
+TD166 question done
+TD320 > ␅
+TD970016 ␆*
+TD96 > *
+TD804515 try? ␅
+TD3707349 ␄
+TD147 <EOF>
+TD349 > ␅
+TD5060198 ␆* 
+TD124 > * 
+TD17918 try? ␅
+TD803189 ␄
+TD150 <EOF>
+TD378 > ␅
+TD629307 ␆* 2
+TD131 > * 2
+TD5583 try? ␅
+TD724240 ␄
+TD157 <EOF>
+TD388 > ␅
+TD917343 ␆* 4
+TD105 > * 4
+TD6564 try? ␅
+TD1229505 ␆1
+TD117 try? 1
+TD353 questioning: ["mores", "#4"]
+TD383 #1 S____ ~AL -ET  📋 "mores" ? ␅
+TD5352009 ␆.
+TD137 #1 S____ ~AL -ET  📋 "mores" ? .
+TD298 attempt 0 MORES n n n n n
+TD84 #2 _____ ~AE -LST  📋 "mores" ? ␅
+TD2783265 ␆_____ ~ EAO
+TD119 #2 _____ ~AE -LST  📋 "mores" ? _____ ~ EAO
+TD303 attempt 1 MORES n m n m n
+TD169 #3 ___A_ -ELST  📋 "mores" ? ␅
+TD3085264 ␆___A_ ~ OR
+TD95 #3 ___A_ -ELST  📋 "mores" ? ___A_ ~ OR
+TD218 attempt 2 MORES n m m n n
+TD337 #4 _____ ~ES -ALT  📋 "mores" ? ␅
+TD2432785 ␆____S ~ EO
+TD62 #4 _____ ~ES -ALT  📋 "mores" ? ____S ~ EO
+TD157 attempt 3 MORES n m n m Y
+TD86 #5 _E___ ~ST -AL  📋 "mores" ? ␅
+TD2301425 ␆_ER__ ~ SET
+TD119 #5 _E___ ~ST -AL  📋 "mores" ? _ER__ ~ SET
+TD216 attempt 4 MORES n n Y m m
+TD248 ? ␅
+TD259267 ␆
+TD147 ? 
+TD176 question done
+TD328 > ␅
+TD449054 ␆*
+TD90 > *
+TD664852 try? ␅
+TD1822794 ␆2
+TD96 try? 2
+TD249 questioning: ["terse", "#5"]
+TD231 #1 S____ ~AL -EMORST  📋 "terse" ? ␅
+TD4266204 ␆.
+TD121 #1 S____ ~AL -EMORST  📋 "terse" ? .
+TD296 attempt 0 TERSE n n n n n
+TD110 #2 _____ ~AEO -LMRST  📋 "terse" ? ␅
+TD2957311 ␆____E ~ AO
+TD92 #2 _____ ~AEO -LMRST  📋 "terse" ? ____E ~ AO
+TD207 attempt 1 TERSE n n n n Y
+TD119 #3 ___A_ ~OR -ELMST  📋 "terse" ? ␅
+TD1540954 ␆.
+TD116 #3 ___A_ ~OR -ELMST  📋 "terse" ? .
+TD281 attempt 2 TERSE n n m n n
+TD104 #4 ____S ~EO -ALMRT  📋 "terse" ? ␅
+TD819785 ␆.
+TD128 #4 ____S ~EO -ALMRT  📋 "terse" ? .
+TD368 attempt 3 TERSE n m n n m
+TD171 #5 _ER__ ~ST -ALMO  📋 "terse" ? ␅
+TD647231 ␆/it
+TD120 #5 _ER__ ~ST -ALMO  📋 "terse" ? /it
+TD276 attempt 4 TERSE Y Y Y Y Y
+TD315 ? ␅
+TD151312 ␆
+TD110 ? 
+TD123 question done
+TD331 > ␅
+TD423208 ␆*
+TD91 > *
+TD484670 try? ␅
+TD1810549 ␆1
+TD107 try? 1
+TD258 questioning: ["groan", "#3"]
+TD249 #1 S____ ~AL -EMORST  📋 "groan" ? ␅
+TD3847602 ␆.
+TD107 #1 S____ ~AL -EMORST  📋 "groan" ? .
+TD228 attempt 0 GROAN n n n m n
+TD77 #2 ____E ~AO -LMRST  📋 "groan" ? ␅
+TD4510425 ␆____E ~ AON
+TD82 #2 ____E ~AO -LMRST  📋 "groan" ? ____E ~ AON
+TD202 attempt 1 GROAN n n m m m
+TD117 #3 ___A_ ~OR -ELMST  📋 "groan" ? ␅
+TD2315167 ␆_R_AN ~ OG
+TD92 #3 ___A_ ~OR -ELMST  📋 "groan" ? _R_AN ~ OG
+TD205 attempt 2 GROAN m Y m Y Y
+TD118 #4 ____S ~EO -ALMRST  📋 "groan" ? ␅
+TD3729095 ␆____S ~ EON
+TD68 #4 ____S ~EO -ALMRST  📋 "groan" ? ____S ~ EON
+TD166 attempt 3 GROAN n n m n m
+TD313 ? ␅
+TD263803 ␆
+TD142 ? 
+TD143 question done
+TD344 > ␅
+TD443065 ␆*
+TD92 > *
+TD801528 questioning: ["canoe", "#2"]
+TD167 #1 S____ ~AL -EGMNORST  📋 "canoe" ? ␅
+TD5518954 ␆S____ ~ ALC
+TD106 #1 S____ ~AL -EGMNORST  📋 "canoe" ? S____ ~ ALC
+TD306 attempt 0 CANOE m m n n n
+TD203 #2 ____E ~ANO -GLMRST  📋 "canoe" ? ␅
+TD665297 ␆/it
+TD111 #2 ____E ~ANO -GLMRST  📋 "canoe" ? /it
+TD297 attempt 1 CANOE Y Y Y Y Y
+TD106 #3 _R_AN ~GO -ELMST  📋 "canoe" ? ␅
+TD2182712 ␆.
+TD116 #3 _R_AN ~GO -ELMST  📋 "canoe" ? .
+TD358 attempt 2 CANOE n n n m n
+TD112 #4 ____S ~ENO -AGLMRST  📋 "canoe" ? ␅
+TD1371284 ␆.
+TD118 #4 ____S ~ENO -AGLMRST  📋 "canoe" ? .
+TD287 attempt 3 CANOE n n m m m
+TD326 ? ␅
+TD159181 ␆
+TD110 ? 
+TD119 question done
+TD311 > ␅
+TD434957 ␆*
+TD111 > *
+TD1362105 questioning: ["scald", "#1"]
+TD165 #1 S____ ~ACL -EGMNORST  📋 "scald" ? ␅
+TD4045319 ␆/it
+TD113 #1 S____ ~ACL -EGMNORST  📋 "scald" ? /it
+TD268 attempt 0 SCALD Y Y Y Y Y
+TD115 #3 _R_AN ~GO -ACELMNST  📋 "scald" ? ␅
+TD2569145 ␆.
+TD110 #3 _R_AN ~GO -ACELMNST  📋 "scald" ? .
+TD290 attempt 2 SCALD n n n n n
+TD107 #4 ____S ~ENO -ACGLMRST  📋 "scald" ? ␅
+TD1066275 ␆.
+TD104 #4 ____S ~ENO -ACGLMRST  📋 "scald" ? .
+TD241 attempt 3 SCALD n n n n n
+TD205 ? ␅
+TD581957 ␆
+TD97 ? 
+TD241 question done
+TD444 > ␅
+TD770543 ␆* 4
+TD79 > * 4
+TD466191 questioning: ["ovens", "#4"]
+TD210 #3 _R_AN ~GO -ACDELMNST  📋 "ovens" ? ␅
+TD6847085 ␆OR_AN ~ G
+TD107 #3 _R_AN ~GO -ACDELMNST  📋 "ovens" ? OR_AN ~ G
+TD280 attempt 2 OVENS Y n n n n
+TD161 #4 ____S ~ENO -ACDGLMRST  📋 "ovens" ? ␅
+TD1004829 ␆/it
+TD48 #4 ____S ~ENO -ACDGLMRST  📋 "ovens" ? /it
+TD138 attempt 3 OVENS Y Y Y Y Y
+TD217 ? ␅
+TD186463 ␆
+TD110 ? 
+TD116 question done
+TD879 > ␅
+TD799746 ␆*
+TD117 > *
+TD967414 questioning: ["organ", "#3"]
+TD182 #3 OR_AN ~G -ACDELMNSTV  📋 "organ" ? ␅
+TD5187647 ␆/it
+TD109 #3 OR_AN ~G -ACDELMNSTV  📋 "organ" ? /it
+TD289 attempt 2 ORGAN Y Y Y Y Y
+TD307 ? ␅
+TD516314 ␆
+TD110 ? 
+TD128 question done
+TD23533 📋> ␅
+TD3112624 ␆squareword.org 1729: 8 guesses
+TD61 📋> squareword.org 1729: 8 guesses
+TD6 📋> ␅
+TD28 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD9 ␆🟩🟨🟨🟨🟨
+TD2 📋> 🟩🟨🟨🟨🟨
+TD2 📋> ␅
+TD7 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆🟨🟩🟨🟩🟩
+TD2 📋> 🟨🟩🟨🟩🟩
+TD2 📋> ␅
+TD5 ␆🟨🟨🟨🟨🟩
+TD2 📋> 🟨🟨🟨🟨🟩
+TD2 📋> ␅
+TD6 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD6 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD6 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> ␅
+TD140240 ␆#squareword #squareword1729
+TD75 📋> #squareword #squareword1729
+TD11 📋> ␅
+TD294081 ␄
+TD227 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1729: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1729"}
+TD917 result: "squareword.org 1729: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1729"
+TD119 📆 2026-10-26 ? ␅
+TD448697 ␆
+TD121 📆 2026-10-26 ? 
