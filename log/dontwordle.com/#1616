@@ -1,0 +1,179 @@
+T8925.664414485 now: 2026-10-26T10:57:59EDT
+TD68 site: dontwordle.com
+TD11 wordlist: nwl2023.txt
+TD20  ...␅
+TD498157 ␆
+TD199  ...
+TD153 1> ␅
+TD5389036 ␆* -bot 10
+TD119 1> * -bot 10
+TD157204 ? ␅
+TD282584 ␆1
+TD83 ? 1
+TD250 📋 "resat" ? ␅
+TD3890665 ␆Mnnnn
+TD119 📋 "resat" ? Mnnnn
+TD596 tried: RESAT m n n n n
+TD202 2> ␅
+TD710243 ␆undo
+TD85 2> undo
+TD111 undo
+TD106 1> ␅
+TD5841064 ␆* :v [resat] -bot 10
+TD80 1> * :v [resat] -bot 10
+TD103292 ? ␅
+TD521149 ␆1
+TD112 ? 1
+TD285 📋 "nicol" ? ␅
+TD3609671 ␆nnnMn
+TD111 📋 "nicol" ? nnnMn
+TD243 tried: NICOL n n n m n
+TD212 2> ␅
+TD690706 ␆undo
+TD111 2> undo
+TD165 undo
+TD152 1> ␅
+TD3918385 ␆* 
+TD102 1> * 
+TD107753 ? ␅
+TD223862 ␆1
+TD116 ? 1
+TD262 📋 "buzzy" ? ␅
+TD3873780 ␆nnnnn
+TD88 📋 "buzzy" ? nnnnn
+TD152 tried: BUZZY n n n n n
+TD120 2> ␅
+TD445084 ␆*(
+TD112 2> *(
+TD236 2> ␅
+TD177527 ␆1
+TD119 2> 1
+TD404 2> ␅
+TD1750614 ␆* 1
+TD110 2> * 1
+TD78516 📋 "dagga" ? ␅
+TD3852647 ␆nnnnn
+TD127 📋 "dagga" ? nnnnn
+TD227 tried: DAGGA n n n n n
+TD211 3> ␅
+TD986240 ␆* 1
+TD99 3> * 1
+TD74025 📋 "jefes" ? ␅
+TD3798506 ␆nnnnn
+TD124 📋 "jefes" ? nnnnn
+TD226 tried: JEFES n n n n n
+TD213 4> ␅
+TD687993 ␆* 1
+TD110 4> * 1
+TD67528 📋 "immix" ? ␅
+TD3807329 ␆nMnnn
+TD110 📋 "immix" ? nMnnn
+TD222 tried: IMMIX n m n n n
+TD214 5> ␅
+TD743643 ␆undo
+TD107 5> undo
+TD147 undo
+TD279 4> ␅
+TD3005750 ␆*
+TD86 4> *
+TD66499 ? ␅
+TD554262 ␆1
+TD107 ? 1
+TD269 📋 "pipit" ? ␅
+TD3721009 ␆Mnnnn
+TD87 📋 "pipit" ? Mnnnn
+TD145 tried: PIPIT m n n n n
+TD119 5> ␅
+TD987907 ␆undo
+TD86 5> undo
+TD108 undo
+TD143 4> ␅
+TD793632 ␆* 1
+TD112 4> * 1
+TD65543 📋 "civic" ? ␅
+TD5742336 ␆nnnnn
+TD110 📋 "civic" ? nnnnn
+TD226 tried: CIVIC n n n n n
+TD211 5> ␅
+TD453536 ␆*
+TD112 5> *
+TD135481 📋 "phpht" ? ␅
+TD78461 ␆1
+TD57 📋 "phpht" ? 1
+TD219 📋 "phpht" ? ␅
+TD5290907 ␆MMnnn
+TD133 📋 "phpht" ? MMnnn
+TD235 tried: PHPHT m m n n n
+TD227 6> ␅
+TD1429596 ␆undo
+TD106 6> undo
+TD153 undo
+TD279 5> ␅
+TD630721 ␆*
+TD109 5> *
+TD134138 ? ␅
+TD1171067 ␆1
+TD78 ? 1
+TD197 📋 "knoll" ? ␅
+TD6848783 ␆nnMnn
+TD86 📋 "knoll" ? nnMnn
+TD149 tried: KNOLL n n m n n
+TD121 6> ␅
+TD485681 ␆*
+TD107 6> *
+TD140891 📋 "potto" ? ␅
+TD6169898 ␆MYnnn
+TD110 📋 "potto" ? MYnnn
+TD220 tried: POTTO m Y n n n
+TD239 📋> ␅
+TD4000433 ␆Don't Wordle 1616 - SURVIVED
+TD110 📋> Don't Wordle 1616 - SURVIVED
+TD13 📋> ␅
+TD48 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD8 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD6 📋> ␅
+TD17 ␆⬜⬜⬜⬜⬜7558
+TD6 📋> ⬜⬜⬜⬜⬜7558
+TD5 📋> ␅
+TD12 ␆⬜⬜⬜⬜⬜2841
+TD5 📋> ⬜⬜⬜⬜⬜2841
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜309
+TD5 📋> ⬜⬜⬜⬜⬜309
+TD4 📋> ␅
+TD12 ␆⬜⬜⬜⬜⬜60
+TD5 📋> ⬜⬜⬜⬜⬜60
+TD4 📋> ␅
+TD11 ␆⬜⬜🟨⬜⬜13
+TD5 📋> ⬜⬜🟨⬜⬜13
+TD4 📋> ␅
+TD12 ␆🟨🟩⬜⬜⬜1
+TD4 📋> 🟨🟩⬜⬜⬜1
+TD4 📋> ␅
+TD10 ␆Undos used: 5
+TD5 📋> Undos used: 5
+TD5 📋> ␅
+TD9 ␆
+TD5 📋> 
+TD5 📋> ␅
+TD11 ␆  1 words remaining
+TD5 📋>   1 words remaining
+TD5 📋> ␅
+TD11 ␆x 6 unused letters
+TD4 📋> x 6 unused letters
+TD4 📋> ␅
+TD11 ␆= 6 total score
+TD4 📋> = 6 total score
+TD4 📋> ␅
+TD10 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD115128 ␆https://dontwordle.com
+TD57 📋> https://dontwordle.com
+TD10 📋> ␅
+TD328193 ␄
+TD198 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1616 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7558\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2841\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c309\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c60\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c13\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\u2b1c1\nUndos used: 5\n\n  1 words remaining\nx 6 unused letters\n= 6 total score\n\nhttps://dontwordle.com"}
+TD946 result: "Don't Wordle 1616 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7558\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2841\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c309\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c60\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c13\n\ud83d\udfe8\ud83d\udfe9\u2b1c\u2b1c\u2b1c1\nUndos used: 5\n\n  1 words remaining\nx 6 unused letters\n= 6 total score\n\nhttps://dontwordle.com"
+TD74 📆 2026-10-26 ? ␅
+TD399010 ␆
+TD122 📆 2026-10-26 ? 
