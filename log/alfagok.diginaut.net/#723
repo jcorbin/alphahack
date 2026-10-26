@@ -1,0 +1,78 @@
+T8843.495271841006 now: 2026-10-26T10:56:36EDT
+TD169 site: alfagok.diginaut.net
+TD724280 loaded 399449 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1403 words excluded) asof edcbded6e7892ffc46ffccff501e5ae3e6ded958
+TD131  ...␅
+TD32 ␆
+TD6  ...
+TD125 [0 : 199631 : 399449] lijk? ␅
+TD11229194 ␆a
+TD58 [0 : 199631 : 399449] lijk? a
+TD240 progress: 1 199631 lijk
+TD79 [199632 : 299528 : 399449] schroot? ␅
+TD1914408 ␆a
+TD103 [199632 : 299528 : 399449] schroot? a
+TD116 progress: 1 299528 schroot
+TD126 [299529 : 349310 : 399449] vakantie? ␅
+TD1835311 ␆a
+TD75 [299529 : 349310 : 399449] vakantie? a
+TD78 progress: 1 349310 vakantie
+TD85 [349311 : 374044 : 399449] vrij? ␅
+TD2076831 ␆a
+TD128 [349311 : 374044 : 399449] vrij? a
+TD297 progress: 1 374044 vrij
+TD246 [374045 : 386579 : 399449] wind? ␅
+TD1912025 ␆b
+TD133 [374045 : 386579 : 399449] wind? b
+TD127 progress: -1 386579 wind
+TD132 [374045 : 380254 : 386579] weer? ␅
+TD1595923 ␆b
+TD123 [374045 : 380254 : 386579] weer? b
+TD130 progress: -1 380254 weer
+TD140 [374045 : 377105 : 380254] wandel? ␅
+TD1503252 ␆b
+TD137 [374045 : 377105 : 380254] wandel? b
+TD128 progress: -1 377105 wandel
+TD167 [374045 : 375487 : 377105] vuur? ␅
+TD1576142 ␆b
+TD127 [374045 : 375487 : 377105] vuur? b
+TD140 progress: -1 375487 vuur
+TD165 [374045 : 374733 : 375487] vrouwen? ␅
+TD1595235 ␆b
+TD130 [374045 : 374733 : 375487] vrouwen? b
+TD134 progress: -1 374733 vrouwen
+TD301 [374045 : 374387 : 374733] vrijmacht? ␅
+TD1576842 ␆a
+TD125 [374045 : 374387 : 374733] vrijmacht? a
+TD132 progress: 1 374387 vrijmacht
+TD153 [374388 : 374528 : 374733] vrijwilligers? ␅
+TD1479450 ␆a
+TD131 [374388 : 374528 : 374733] vrijwilligers? a
+TD131 progress: 1 374528 vrijwilligers
+TD139 [374529 : 374608 : 374733] vroeg? ␅
+TD1774540 ␆it
+TD81 [374529 : 374608 : 374733] vroeg? it
+TD80 progress: 0 374608 vroeg
+TD22 [374529 : 374608 : 374733] <Done>.
+TD75 📋> ␅
+TD2653812 ␆🧩 Puzzel #723
+TD98 📋> 🧩 Puzzel #723
+TD9 📋> ␅
+TD43 ␆🤔 12 gokken
+TD5 📋> 🤔 12 gokken
+TD5 📋> ␅
+TD12 ␆⏱️ 19s
+TD5 📋> ⏱️ 19s
+TD3 📋> ␅
+TD102552 ␆🔗 alfagok.diginaut.net
+TD120 📋> 🔗 alfagok.diginaut.net
+TD18 📋> ␅
+TD157855 ␄
+TD184 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #723\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 19s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD596 result: "\ud83e\udde9 Puzzel #723\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 19s\n\ud83d\udd17 alfagok.diginaut.net"
+TD19 result puzzle: 723
+TD8 result guesses: 12
+TD5 result time: 19s
+TD4 result link: alfagok.diginaut.net
+TD90 📆 2026-10-26 ? ␅
+TD424871 ␆
+TD83 📆 2026-10-26 ? 
