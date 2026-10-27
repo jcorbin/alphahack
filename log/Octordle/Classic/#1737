@@ -1,0 +1,437 @@
+T469.88512006199744 now: 2026-10-27T09:21:27EDT
+TD74 site: https://www.merriam-webster.com/games/octordle/daily
+TD13 wordlist: nwl2023.txt
+TD4 num_words: 8
+TD84  ...␅
+TD552454 ␆
+TD115  ...
+TD720432 > ␅
+TD7600501 ␆/drop
+TD57 > /drop
+TD2274 📋> ␅
+TD6150816 ␆🤖 octordle dropin online
+TD111 📋> 🤖 octordle dropin online
+TD13 📋> ␅
+TD109990 ␆
+TD24 📋> 
+TD5 📋> ␅
+TD244965 ␄
+TD155 pasted: {"subject": "\ud83d\udccb\ud83c\udf10 Dropin 8726 bytes", "method": "read:must:stdin", "content": "\ud83e\udd16 octordle dropin online\n"}
+TD696564 💧> ␅
+TD2305600 ␆*
+TD133 💧> *
+TD51456 ? ␅
+TD579631 ␆1
+TD112 ? 1
+TD198 questioning: elans
+TD158 📋> ␅
+TD3874552 ␆#1 MnYnM
+TD102 📋> #1 MnYnM
+TD13 📋> ␅
+TD44 ␆#2 MnnMn
+TD7 📋> #2 MnnMn
+TD6 📋> ␅
+TD13 ␆#3 nYnnn
+TD5 📋> #3 nYnnn
+TD4 📋> ␅
+TD11 ␆#4 nYnnM
+TD4 📋> #4 nYnnM
+TD4 📋> ␅
+TD9 ␆#5 nnMnn
+TD4 📋> #5 nnMnn
+TD4 📋> ␅
+TD10 ␆#6 nnMYn
+TD4 📋> #6 nnMYn
+TD4 📋> ␅
+TD10 ␆#7 MMnnn
+TD4 📋> #7 MMnnn
+TD4 📋> ␅
+TD10 ␆#8 nnMnn
+TD4 📋> #8 nnMnn
+TD4 📋> ␅
+TD146292 ␆
+TD95 📋> 
+TD9 📋> ␅
+TD188038 ␄
+TD102 pasted: {"subject": "Scrape wrt 'elans'", "method": "read:must:stdin", "content": "#1 MnYnM\n#2 MnnMn\n#3 nYnnn\n#4 nYnnM\n#5 nnMnn\n#6 nnMYn\n#7 MMnnn\n#8 nnMnn\n"}
+TD154 attempt: 0 elans m n Y n m
+TD55 attempt: 1 elans m n n m n
+TD41 attempt: 2 elans n Y n n n
+TD38 attempt: 3 elans n Y n n m
+TD36 attempt: 4 elans n n m n n
+TD36 attempt: 5 elans n n m Y n
+TD35 attempt: 6 elans m m n n n
+TD34 attempt: 7 elans n n m n n
+TD747713 💧> ␅
+TD1924397 ␆*
+TD135 💧> *
+TD3215 ? ␅
+TD857695 ␆1
+TD102 ? 1
+TD162 questioning: ratio
+TD129 📋> ␅
+TD3849354 ␆#1 nMnnn
+TD94 📋> #1 nMnnn
+TD9 📋> ␅
+TD33 ␆#2 nnnMn
+TD3 📋> #2 nnnMn
+TD3 📋> ␅
+TD5 ␆#3 nnnYn
+TD2 📋> #3 nnnYn
+TD2 📋> ␅
+TD5 ␆#4 nnnnn
+TD2 📋> #4 nnnnn
+TD2 📋> ␅
+TD5 ␆#5 nMMnM
+TD3 📋> #5 nMMnM
+TD2 📋> ␅
+TD5 ␆#6 nYMnn
+TD2 📋> #6 nYMnn
+TD2 📋> ␅
+TD5 ␆#7 MnnMn
+TD2 📋> #7 MnnMn
+TD2 📋> ␅
+TD5 ␆#8 YYnYn
+TD2 📋> #8 YYnYn
+TD2 📋> ␅
+TD78195 ␆
+TD41 📋> 
+TD7 📋> ␅
+TD255596 ␄
+TD188 pasted: {"subject": "Scrape wrt 'ratio'", "method": "read:must:stdin", "content": "#1 nMnnn\n#2 nnnMn\n#3 nnnYn\n#4 nnnnn\n#5 nMMnM\n#6 nYMnn\n#7 MnnMn\n#8 YYnYn\n"}
+TD281 attempt: 0 ratio n m n n n
+TD111 attempt: 1 ratio n n n m n
+TD82 attempt: 2 ratio n n n Y n
+TD73 attempt: 3 ratio n n n n n
+TD69 attempt: 4 ratio n m m n m
+TD74 attempt: 5 ratio n Y m n n
+TD70 attempt: 6 ratio m n n m n
+TD65 attempt: 7 ratio Y Y n Y n
+TD812212 💧> ␅
+TD3602998 ␆*
+TD112 💧> *
+TD428 questioning: fluid
+TD125 📋> ␅
+TD5958299 ␆#1 nnnnM
+TD122 📋> #1 nnnnM
+TD13 📋> ␅
+TD43 ␆#2 nnnMn
+TD8 📋> #2 nnnMn
+TD6 📋> ␅
+TD12 ␆#3 YYYYY
+TD5 📋> #3 YYYYY
+TD4 📋> ␅
+TD11 ␆#4 nYYnn
+TD5 📋> #4 nYYnn
+TD4 📋> ␅
+TD10 ␆#5 nnnnM
+TD5 📋> #5 nnnnM
+TD4 📋> ␅
+TD10 ␆#6 nnYnn
+TD5 📋> #6 nnYnn
+TD4 📋> ␅
+TD10 ␆#7 YMnMn
+TD5 📋> #7 YMnMn
+TD4 📋> ␅
+TD9 ␆#8 nnnYY
+TD6 📋> #8 nnnYY
+TD6 📋> ␅
+TD117172 ␆
+TD76 📋> 
+TD12 📋> ␅
+TD185552 ␄
+TD188 pasted: {"subject": "Scrape wrt 'fluid'", "method": "read:must:stdin", "content": "#1 nnnnM\n#2 nnnMn\n#3 YYYYY\n#4 nYYnn\n#5 nnnnM\n#6 nnYnn\n#7 YMnMn\n#8 nnnYY\n"}
+TD291 attempt: 0 fluid n n n n m
+TD100 attempt: 1 fluid n n n m n
+TD81 attempt: 2 fluid Y Y Y Y Y
+TD75 attempt: 3 fluid n Y Y n n
+TD50 attempt: 4 fluid n n n n m
+TD40 attempt: 5 fluid n n Y n n
+TD38 attempt: 6 fluid Y m n m n
+TD38 attempt: 7 fluid n n n Y Y
+TD693896 💧> ␅
+TD4327626 ␆*
+TD120 💧> *
+TD337 questioning: filer
+TD99 📋> ␅
+TD3939521 ␆#1 nnnMn
+TD80 📋> #1 nnnMn
+TD12 📋> ␅
+TD35 ␆#2 nYnMn
+TD6 📋> #2 nYnMn
+TD5 📋> ␅
+TD11 ␆#4 nnMnn
+TD5 📋> #4 nnMnn
+TD4 📋> ␅
+TD9 ␆#5 nnnnn
+TD5 📋> #5 nnnnn
+TD4 📋> ␅
+TD9 ␆#6 nnnnn
+TD5 📋> #6 nnnnn
+TD4 📋> ␅
+TD9 ␆#7 YYYYY
+TD5 📋> #7 YYYYY
+TD4 📋> ␅
+TD9 ␆#8 nMnnM
+TD5 📋> #8 nMnnM
+TD4 📋> ␅
+TD131784 ␆
+TD55 📋> 
+TD7 📋> ␅
+TD218779 ␄
+TD204 pasted: {"subject": "Scrape wrt 'filer'", "method": "read:must:stdin", "content": "#1 nnnMn\n#2 nYnMn\n#4 nnMnn\n#5 nnnnn\n#6 nnnnn\n#7 YYYYY\n#8 nMnnM\n"}
+TD308 attempt: 0 filer n n n m n
+TD109 attempt: 1 filer n Y n m n
+TD74 attempt: 3 filer n n m n n
+TD66 attempt: 4 filer n n n n n
+TD79 attempt: 5 filer n n n n n
+TD60 attempt: 6 filer Y Y Y Y Y
+TD64 attempt: 7 filer n m n n m
+TD559154 💧> ␅
+TD1125997 ␆*
+TD112 💧> *
+TD545 ? ␅
+TD2280116 ␆
+TD114 ? 
+TD375 ? ␅
+TD513039 ␆2
+TD94 ? 2
+TD159 questioning: rapid
+TD126 📋> ␅
+TD3010175 ␆#1 nMnnM
+TD113 📋> #1 nMnnM
+TD14 📋> ␅
+TD48 ␆#2 nnnMn
+TD7 📋> #2 nnnMn
+TD5 📋> ␅
+TD13 ␆#4 nnMnn
+TD5 📋> #4 nnMnn
+TD5 📋> ␅
+TD18 ␆#5 nMnnM
+TD8 📋> #5 nMnnM
+TD4 📋> ␅
+TD9 ␆#6 nYnnn
+TD4 📋> #6 nYnnn
+TD3 📋> ␅
+TD11 ␆#8 YYnYY
+TD4 📋> #8 YYnYY
+TD4 📋> ␅
+TD107289 ␆
+TD104 📋> 
+TD9 📋> ␅
+TD211026 ␄
+TD167 pasted: {"subject": "Scrape wrt 'rapid'", "method": "read:must:stdin", "content": "#1 nMnnM\n#2 nnnMn\n#4 nnMnn\n#5 nMnnM\n#6 nYnnn\n#8 YYnYY\n"}
+TD205 attempt: 0 rapid n m n n m
+TD59 attempt: 1 rapid n n n m n
+TD49 attempt: 3 rapid n n m n n
+TD43 attempt: 4 rapid n m n n m
+TD44 attempt: 5 rapid n Y n n n
+TD39 attempt: 7 rapid Y Y n Y Y
+TD572850 💧> ␅
+TD1115578 ␆*
+TD62 💧> *
+TD236 questioning: rabid
+TD72 📋> ␅
+TD2834791 ␆#1 nMnnM
+TD115 📋> #1 nMnnM
+TD13 📋> ␅
+TD51 ␆#2 nnnMn
+TD7 📋> #2 nnnMn
+TD5 📋> ␅
+TD13 ␆#4 nnnnn
+TD5 📋> #4 nnnnn
+TD4 📋> ␅
+TD11 ␆#5 nMnnM
+TD5 📋> #5 nMnnM
+TD4 📋> ␅
+TD11 ␆#6 nYnnn
+TD4 📋> #6 nYnnn
+TD4 📋> ␅
+TD10 ␆#8 YYYYY
+TD4 📋> #8 YYYYY
+TD4 📋> ␅
+TD82517 ␆
+TD88 📋> 
+TD9 📋> ␅
+TD204011 ␄
+TD192 pasted: {"subject": "Scrape wrt 'rabid'", "method": "read:must:stdin", "content": "#1 nMnnM\n#2 nnnMn\n#4 nnnnn\n#5 nMnnM\n#6 nYnnn\n#8 YYYYY\n"}
+TD275 attempt: 0 rabid n m n n m
+TD99 attempt: 1 rabid n n n m n
+TD78 attempt: 3 rabid n n n n n
+TD71 attempt: 4 rabid n m n n m
+TD42 attempt: 5 rabid n Y n n n
+TD38 attempt: 7 rabid Y Y Y Y Y
+TD497760 💧> ␅
+TD1645046 ␆*
+TD118 💧> *
+TD445 questioning: today
+TD121 📋> ␅
+TD3270856 ␆#1 nnMMn
+TD121 📋> #1 nnMMn
+TD12 📋> ␅
+TD64 ␆#2 nnnnn
+TD7 📋> #2 nnnnn
+TD5 📋> ␅
+TD13 ␆#4 nnnnn
+TD4 📋> #4 nnnnn
+TD4 📋> ␅
+TD11 ␆#5 YYYYY
+TD4 📋> #5 YYYYY
+TD4 📋> ␅
+TD8 ␆#6 MnnMn
+TD4 📋> #6 MnnMn
+TD4 📋> ␅
+TD129811 ␆
+TD112 📋> 
+TD14 📋> ␅
+TD175883 ␄
+TD208 pasted: {"subject": "Scrape wrt 'today'", "method": "read:must:stdin", "content": "#1 nnMMn\n#2 nnnnn\n#4 nnnnn\n#5 YYYYY\n#6 MnnMn\n"}
+TD261 attempt: 0 today n n m m n
+TD89 attempt: 1 today n n n n n
+TD70 attempt: 3 today n n n n n
+TD67 attempt: 4 today Y Y Y Y Y
+TD67 attempt: 5 today m n n m n
+TD388232 💧> ␅
+TD5589906 ␆*
+TD100 💧> *
+TD411 ? ␅
+TD1506950 ␆2
+TD109 ? 2
+TD194 questioning: shade
+TD163 📋> ␅
+TD3663241 ␆#1 YYYYY
+TD114 📋> #1 YYYYY
+TD15 📋> ␅
+TD46 ␆#2 nnnnY
+TD7 📋> #2 nnnnY
+TD5 📋> ␅
+TD13 ␆#4 MMnnn
+TD5 📋> #4 MMnnn
+TD4 📋> ␅
+TD11 ␆#6 nnMnn
+TD5 📋> #6 nnMnn
+TD5 📋> ␅
+TD121477 ␆
+TD62 📋> 
+TD7 📋> ␅
+TD196514 ␄
+TD191 pasted: {"subject": "Scrape wrt 'shade'", "method": "read:must:stdin", "content": "#1 YYYYY\n#2 nnnnY\n#4 MMnnn\n#6 nnMnn\n"}
+TD197 attempt: 0 shade Y Y Y Y Y
+TD69 attempt: 1 shade n n n n Y
+TD49 attempt: 3 shade m m n n n
+TD38 attempt: 5 shade n n m n n
+TD277520 💧> ␅
+TD2147596 ␆*
+TD97 💧> *
+TD318 questioning: plush
+TD91 📋> ␅
+TD3349951 ␆#2 nnnnn
+TD107 📋> #2 nnnnn
+TD13 📋> ␅
+TD47 ␆#4 YYYYY
+TD7 📋> #4 YYYYY
+TD6 📋> ␅
+TD14 ␆#6 nnYnn
+TD6 📋> #6 nnYnn
+TD5 📋> ␅
+TD140175 ␆
+TD80 📋> 
+TD13 📋> ␅
+TD182946 ␄
+TD194 pasted: {"subject": "Scrape wrt 'plush'", "method": "read:must:stdin", "content": "#2 nnnnn\n#4 YYYYY\n#6 nnYnn\n"}
+TD284 attempt: 1 plush n n n n n
+TD109 attempt: 3 plush Y Y Y Y Y
+TD85 attempt: 5 plush n n Y n n
+TD181070 💧> ␅
+TD3201059 ␆*
+TD140 💧> *
+TD583 ? ␅
+TD4715135 ␄
+TD125 <EOF>
+TD180673 💧> ␅
+TD1215055 ␆* 2
+TD56 💧> * 2
+TD89402 ? ␅
+TD10366036 ␄
+TD172 <EOF>
+TD177541 💧> ␅
+TD8294893 ␆probe gjvmw
+TD101 💧> probe gjvmw
+TD478325 💧> ␅
+TD5553993 ␆tried jugum
+TD98 💧> tried jugum
+TD308 questioning: JUGUM
+TD153 📋> ␅
+TD2329185 ␆#2 nnnnM
+TD93 📋> #2 nnnnM
+TD8 📋> ␅
+TD39 ␆#6 YMnnn
+TD4 📋> #6 YMnnn
+TD3 📋> ␅
+TD125293 ␆
+TD65 📋> 
+TD7 📋> ␅
+TD537454 ␄
+TD167 pasted: {"subject": "Scrape wrt 'JUGUM'", "method": "read:must:stdin", "content": "#2 nnnnM\n#6 YMnnn\n"}
+TD202 attempt: 1 JUGUM n n n n m
+TD62 attempt: 5 JUGUM Y m n n n
+TD186855 💧> ␅
+TD704541 ␆*
+TD106 💧> *
+TD417 questioning: jaunt
+TD111 📋> ␅
+TD3177880 ␆#2 nnnMn
+TD83 📋> #2 nnnMn
+TD9 📋> ␅
+TD37 ␆#6 YYYYY
+TD4 📋> #6 YYYYY
+TD3 📋> ␅
+TD110640 ␆
+TD63 📋> 
+TD10 📋> ␅
+TD219750 ␄
+TD272 pasted: {"subject": "Scrape wrt 'jaunt'", "method": "read:must:stdin", "content": "#2 nnnMn\n#6 YYYYY\n"}
+TD314 attempt: 1 jaunt n n n m n
+TD125 attempt: 5 jaunt Y Y Y Y Y
+TD97764 💧> ␅
+TD943213 ␆*
+TD64 💧> *
+TD304 ? ␅
+TD1301337 ␆1
+TD58 ? 1
+TD99 questioning: mince
+TD72 📋> ␅
+TD3252154 ␆#2 YYYYY
+TD67 📋> #2 YYYYY
+TD7 📋> ␅
+TD95818 ␆
+TD85 📋> 
+TD14 📋> ␅
+TD246324 ␄
+TD112 pasted: {"subject": "Scrape wrt 'mince'", "method": "read:must:stdin", "content": "#2 YYYYY\n"}
+TD177 attempt: 1 mince Y Y Y Y Y
+TD54 📋> ␅
+TD6025109 ␆Daily Octordle #1737
+TD117 📋> Daily Octordle #1737
+TD14 📋> ␅
+TD57 ␆8️⃣🕛
+TD7 📋> 8️⃣🕛
+TD6 📋> ␅
+TD14 ␆3️⃣9️⃣
+TD6 📋> 3️⃣9️⃣
+TD5 📋> ␅
+TD12 ␆7️⃣🕚
+TD5 📋> 7️⃣🕚
+TD5 📋> ␅
+TD12 ␆4️⃣6️⃣
+TD5 📋> 4️⃣6️⃣
+TD5 📋> ␅
+TD124657 ␆Score: 60
+TD67 📋> Score: 60
+TD7 📋> ␅
+TD241827 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Daily Octordle #1737\n8\ufe0f\u20e3\ud83d\udd5b\n3\ufe0f\u20e39\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd5a\n4\ufe0f\u20e36\ufe0f\u20e3\nScore: 60"}
+TD164 result: "Daily Octordle #1737\n8\ufe0f\u20e3\ud83d\udd5b\n3\ufe0f\u20e39\ufe0f\u20e3\n7\ufe0f\u20e3\ud83d\udd5a\n4\ufe0f\u20e36\ufe0f\u20e3\nScore: 60"
+TD81 📆 2026-10-27 ? ␅
+TD1977941 ␆
+TD120 📆 2026-10-27 ? 
