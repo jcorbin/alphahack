@@ -1,17 +1,17 @@
-# 2026-10-27
+# 2026-10-28
 
-- 🔗 spaceword.org 🧩 2026-10-26 🏁 score 2168 ranked 48.4% 151/312 ⏱️ 3:15:55.960031
-- 🔗 alfagok.diginaut.net 🧩 #724 🥳 26 ⏱️ 0:00:32.878972
-- 🔗 alphaguess.com 🧩 #1191 🥳 30 ⏱️ 0:00:38.871802
-- 🔗 dontwordle.com 🧩 #1617 🥳 6 ⏱️ 0:01:30.518562
-- 🔗 dictionary.com hurdle 🧩 #1760 🥳 17 ⏱️ 0:02:46.394278
-- 🔗 Quordle Classic 🧩 #1737 🥳 score:21 ⏱️ 0:01:20.333704
-- 🔗 Octordle Classic 🧩 #1737 🥳 score:60 ⏱️ 0:02:23.001755
-- 🔗 Sedecordle Classic 🧩 #1717 🥳 score:36 ⏱️ 0:03:01.545737
-- 🔗 squareword.org 🧩 #1730 🥳 8 ⏱️ 0:02:29.027596
-- 🔗 cemantle.certitudes.org 🧩 #1667 🥳 136 ⏱️ 0:09:42.715900
-- 🔗 cemantix.certitudes.org 🧩 #1700 🥳 223 ⏱️ 1:27:25.814678
-- 🔗 wordgrid 🧩 #878 🟪 rarity:0.25 ⏱️ 0:03:01.763621
+- 🔗 spaceword.org 🧩 2026-10-27 🏁 score 2165 ranked 50.8% 155/305 ⏱️ 1:37:05.336958
+- 🔗 wordgrid 🧩 #879 🟪 rarity:0.19 ⏱️ 0:02:00.186836
+- 🔗 alfagok.diginaut.net 🧩 #725 🥳 34 ⏱️ 0:00:42.538284
+- 🔗 alphaguess.com 🧩 #1192 🥳 24 ⏱️ 0:00:41.345312
+- 🔗 dontwordle.com 🧩 #1618 🥳 6 ⏱️ 0:01:53.860818
+- 🔗 dictionary.com hurdle 🧩 #1761 🥳 15 ⏱️ 0:02:37.117046
+- 🔗 Quordle Classic 🧩 #1738 🥳 score:24 ⏱️ 0:01:51.915235
+- 🔗 Octordle Classic 🧩 #1738 🥳 score:60 ⏱️ 0:02:20.832802
+- 🔗 Sedecordle Classic 🧩 #1718 🥳 score:49 ⏱️ 0:03:34.641946
+- 🔗 squareword.org 🧩 #1731 🥳 8 ⏱️ 0:03:05.422935
+- 🔗 cemantle.certitudes.org 🧩 #1668 🥳 191 ⏱️ 0:09:22.572161
+- 🔗 cemantix.certitudes.org 🧩 #1701 🥳 69 ⏱️ 0:03:51.861302
 
 ## WIP
 
@@ -268,273 +268,272 @@
 
 
 
-# [wordgrid](https://wordgrid.clevergoat.com/) 🧩 #878 🟪 rarity:0.25 ⏱️ 0:03:01.763621
 
-📜 3 sessions
+# [spaceword.org](spaceword.org) 🧩 2026-10-27 🏁 score 2165 ranked 50.8% 155/305 ⏱️ 1:37:05.336958
+
+📜 5 sessions
+- tiles: 21/21
+- score: 2165 bonus: +65
+- rank: 155/305
+
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ A G E _ _ _ _   
+      _ _ _ M O N D E _ _   
+      _ _ _ _ _ T O _ _ _   
+      _ _ _ _ _ W O _ _ _   
+      _ _ _ Q U I Z _ _ _   
+      _ _ _ _ _ N E _ _ _   
+      _ _ _ _ H E R _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+
+# [wordgrid](https://wordgrid.clevergoat.com/) 🧩 2026-10-27 🤔 rarity:nan ⏱️ 0:01:43.563056
+
+📜 1 sessions
+🌌 🌌 🦄
 🌌 🌌 🌌
 🦄 🦄 🦄
-🌌 🦄 🌌
-Rarity: 0.25 🟪
 
-# [spaceword.org](spaceword.org) 🧩 2026-10-26 🏁 score 2168 ranked 48.4% 151/312 ⏱️ 3:15:55.960031
+# [wordgrid](https://wordgrid.clevergoat.com/) 🧩 #879 🟪 rarity:0.19 ⏱️ 0:02:00.186836
 
 📜 3 sessions
-- tiles: 21/21
-- score: 2168 bonus: +68
-- rank: 151/312
-
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ Y _ E _ _   
-      _ P _ S Q U I R M _   
-      _ A _ U _ K _ A I _   
-      _ T O N I E R _ X _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
+🌌 🌌 🦄
+🌌 🌌 🌌
+🦄 🦄 🦄
+Rarity: 0.19 🟪
 
 
+# [alfagok.diginaut.net](alfagok.diginaut.net) 🧩 #725 🥳 34 ⏱️ 0:00:42.538284
 
-
-# [alfagok.diginaut.net](alfagok.diginaut.net) 🧩 #724 🥳 26 ⏱️ 0:00:32.878972
-
-🤔 26 attempts
+🤔 34 attempts
 📜 1 sessions
 
-    @        [     0] &-teken   
-    @+1      [     1] &-tekens  
-    @+2      [     2] -cijferig 
-    @+3      [     3] -e-mail   
-    @+49802  [ 49802] boks      q4  ? ␅
-    @+49802  [ 49802] boks      q5  ? after
-    @+50498  [ 50498] bonnen    q16 ? ␅
-    @+50498  [ 50498] bonnen    q17 ? after
-    @+50598  [ 50598] bonus     q20 ? ␅
-    @+50598  [ 50598] bonus     q21 ? after
-    @+50656  [ 50656] boodschap q22 ? ␅
-    @+50656  [ 50656] boodschap q23 ? after
-    @+50694  [ 50694] boog      q24 ? ␅
-    @+50694  [ 50694] boog      q25 ? it
-    @+50694  [ 50694] boog      done. it
-    @+50780  [ 50780] boom      q18 ? ␅
-    @+50780  [ 50780] boom      q19 ? before
-    @+51209  [ 51209] boots     q14 ? ␅
-    @+51209  [ 51209] boots     q15 ? before
-    @+52644  [ 52644] bouw      q12 ? ␅
-    @+52644  [ 52644] bouw      q13 ? before
-    @+55894  [ 55894] bron      q10 ? ␅
-    @+55894  [ 55894] bron      q11 ? before
-    @+62241  [ 62241] cement    q8  ? ␅
-    @+62241  [ 62241] cement    q9  ? before
-    @+74698  [ 74698] dc        q6  ? ␅
-    @+74698  [ 74698] dc        q7  ? before
-    @+99672  [ 99672] ex        q2  ? ␅
-    @+99672  [ 99672] ex        q3  ? before
-    @+199631 [199631] lijk      q0  ? ␅
-    @+199631 [199631] lijk      q1  ? before
+    @        [     0] &-teken          
+    @+199631 [199631] lijk             q0  ? ␅
+    @+199631 [199631] lijk             q1  ? after
+    @+299528 [299528] schroot          q2  ? ␅
+    @+299528 [299528] schroot          q3  ? after
+    @+324110 [324110] sub              q6  ? ␅
+    @+324110 [324110] sub              q7  ? after
+    @+330293 [330293] televisie        q10 ? ␅
+    @+330293 [330293] televisie        q11 ? after
+    @+333499 [333499] thesis           q12 ? ␅
+    @+333499 [333499] thesis           q13 ? after
+    @+333905 [333905] ti               q14 ? ␅
+    @+333905 [333905] ti               q15 ? after
+    @+335303 [335303] tjingel          q16 ? ␅
+    @+335303 [335303] tjingel          q17 ? after
+    @+335949 [335949] toekomst         q18 ? ␅
+    @+335949 [335949] toekomst         q19 ? after
+    @+335963 [335963] toekomstgericht  q28 ? ␅
+    @+335963 [335963] toekomstgericht  q29 ? after
+    @+335968 [335968] toekomstig       q32 ? ␅
+    @+335968 [335968] toekomstig       q33 ? it
+    @+335968 [335968] toekomstig       done. it
+    @+335972 [335972] toekomstmodellen q30 ? ␅
+    @+335972 [335972] toekomstmodellen q31 ? before
+    @+335981 [335981] toekomstplannen  q26 ? ␅
+    @+335981 [335981] toekomstplannen  q27 ? before
+    @+336013 [336013] toekunnen        q24 ? ␅
+    @+336013 [336013] toekunnen        q25 ? before
+    @+336077 [336077] toeleverancier   q22 ? ␅
+    @+336077 [336077] toeleverancier   q23 ? before
+    @+336204 [336204] toer             q21 ? before
 
-# [alphaguess.com](alphaguess.com) 🧩 #1191 🥳 30 ⏱️ 0:00:38.871802
+# [alphaguess.com](alphaguess.com) 🧩 #1192 🥳 24 ⏱️ 0:00:41.345312
 
-🤔 30 attempts
+🤔 24 attempts
 📜 1 sessions
 
-    @        [     0] aa             
-    @+98142  [ 98142] mac            q0  ? ␅
-    @+98142  [ 98142] mac            q1  ? after
-    @+122089 [122089] par            q6  ? ␅
-    @+122089 [122089] par            q7  ? after
-    @+128395 [128395] plack          q10 ? ␅
-    @+128395 [128395] plack          q11 ? after
-    @+129516 [129516] po             q12 ? ␅
-    @+129516 [129516] po             q13 ? after
-    @+132109 [132109] precess        q14 ? ␅
-    @+132109 [132109] precess        q15 ? after
-    @+133343 [133343] prese          q16 ? ␅
-    @+133343 [133343] prese          q17 ? after
-    @+133645 [133645] pretension     q20 ? ␅
-    @+133645 [133645] pretension     q21 ? after
-    @+133802 [133802] prevision      q22 ? ␅
-    @+133802 [133802] prevision      q23 ? after
-    @+133875 [133875] price          q24 ? ␅
-    @+133875 [133875] price          q25 ? after
-    @+133912 [133912] pride          q26 ? ␅
-    @+133912 [133912] pride          q27 ? after
-    @+133927 [133927] priest         q28 ? ␅
-    @+133927 [133927] priest         q29 ? it
-    @+133927 [133927] priest         done. it
-    @+133959 [133959] prim           q18 ? ␅
-    @+133959 [133959] prim           q19 ? before
-    @+134703 [134703] prohibit       q8  ? ␅
-    @+134703 [134703] prohibit       q9  ? before
-    @+147304 [147304] rho            q2  ? ␅
-    @+147304 [147304] rho            q3  ? b b
-    @+147327 [147327] rhombencephala q5  ? before
+    @       [    0] aa        
+    @+1     [    1] aah       
+    @+2     [    2] aahed     
+    @+3     [    3] aahing    
+    @+24517 [24517] car       q4  ? ␅
+    @+24517 [24517] car       q5  ? after
+    @+30620 [30620] clitoric  q10 ? ␅
+    @+30620 [30620] clitoric  q11 ? after
+    @+33648 [33648] computer  q12 ? ␅
+    @+33648 [33648] computer  q13 ? after
+    @+33696 [33696] con       q18 ? ␅
+    @+33696 [33696] con       q19 ? after
+    @+34047 [34047] condition q20 ? ␅
+    @+34047 [34047] condition q21 ? after
+    @+34214 [34214] confess   q22 ? ␅
+    @+34214 [34214] confess   q23 ? it
+    @+34214 [34214] confess   done. it
+    @+34401 [34401] conge     q16 ? ␅
+    @+34401 [34401] conge     q17 ? before
+    @+35182 [35182] content   q14 ? ␅
+    @+35182 [35182] content   q15 ? before
+    @+36722 [36722] cos       q6  ? ␅
+    @+36722 [36722] cos       q7  ? before
+    @+49066 [49066] disturb   q2  ? ␅
+    @+49066 [49066] disturb   q3  ? before
+    @+98139 [98139] mac       q0  ? ␅
+    @+98139 [98139] mac       q1  ? before
 
-# [dontwordle.com](dontwordle.com) 🧩 #1617 🥳 6 ⏱️ 0:01:30.518562
+# [dontwordle.com](dontwordle.com) 🧩 #1618 🥳 6 ⏱️ 0:01:53.860818
 
-📜 1 sessions
-💰 score: 12
+📜 2 sessions
+💰 score: 72
 
 SURVIVED
 > Hooray! I didn't Wordle today! I didn't even use a hint!
 
-    ⬜⬜⬜⬜⬜ tried:PEEVE n n n n n remain:5924
-    ⬜⬜⬜⬜⬜ tried:KLOOF n n n n n remain:2015
-    ⬜⬜⬜⬜⬜ tried:MUMUS n n n n n remain:494
-    ⬜🟨⬜⬜⬜ tried:BIDDY n m n n n remain:85
-    ⬜⬜🟨⬜⬜ tried:WHIRR n n m n n remain:13
-    🟨⬜⬜🟨⬜ tried:AGAIN m n n m n remain:2
+    ⬜⬜⬜⬜⬜ tried:PENNE n n n n n remain:4618
+    ⬜⬜⬜⬜⬜ tried:JUJUS n n n n n remain:1583
+    ⬜⬜⬜⬜⬜ tried:DOGGO n n n n n remain:606
+    ⬜⬜⬜⬜⬜ tried:VILLI n n n n n remain:161
+    ⬜🟨⬜⬜⬜ tried:MYRRH n m n n n remain:24
+    🟨⬜⬜🟨⬜ tried:ABAYA m n n m n remain:9
 
-    Undos used: 3
+    Undos used: 5
 
-      2 words remaining
-    x 6 unused letters
-    = 12 total score
+      9 words remaining
+    x 8 unused letters
+    = 72 total score
 
-# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1760 🥳 17 ⏱️ 0:02:46.394278
+# [dictionary.com hurdle](https://play.dictionary.com/games/todays-hurdle) 🧩 #1761 🥳 15 ⏱️ 0:02:37.117046
 
 📜 1 sessions
-💰 score: 9900
+💰 score: 10100
 
     4/6
-    TOEAS 🟨🟨⬜⬜⬜
-    PINOT ⬜🟩⬜🟩🟩
-    BIGOT ⬜🟩⬜🟩🟩
-    DIVOT 🟩🟩🟩🟩🟩
-    4/6
-    DIVOT 🟨⬜⬜⬜⬜
-    MAUDS 🟨⬜⬜🟨⬜
-    EMBED 🟩🟩⬜🟨🟩
-    EMEND 🟩🟩🟩🟩🟩
-    4/6
-    EMEND ⬜⬜🟩⬜🟩
-    TREAD ⬜🟩🟩🟩🟩
-    BREAD ⬜🟩🟩🟩🟩
-    DREAD 🟩🟩🟩🟩🟩
+    TESLA ⬜🟨⬜⬜🟨
+    DRAKE ⬜🟩🟩⬜🟩
+    GRACE ⬜🟩🟩🟩🟩
+    BRACE 🟩🟩🟩🟩🟩
     3/6
-    DREAD ⬜⬜⬜⬜⬜
-    NICOL 🟨⬜🟨⬜🟨
-    LUNCH 🟩🟩🟩🟩🟩
-    Final 2/2
-    PASTY ⬜⬜🟩🟩🟩
-    MUSTY 🟩🟩🟩🟩🟩
+    BRACE ⬜⬜⬜⬜⬜
+    DINTS 🟩⬜⬜⬜⬜
+    DOUGH 🟩🟩🟩🟩🟩
+    3/6
+    DOUGH 🟩⬜⬜⬜⬜
+    DAISY 🟩⬜🟩⬜🟩
+    DEIFY 🟩🟩🟩🟩🟩
+    4/6
+    DEIFY ⬜🟨⬜⬜⬜
+    PASTE 🟩⬜🟨⬜🟩
+    PULSE 🟩⬜⬜🟩🟩
+    PROSE 🟩🟩🟩🟩🟩
+    Final 1/2
+    BLACK 🟩🟩🟩🟩🟩
 
-# [Quordle Classic](https://www.merriam-webster.com/games/quordle/#/) 🧩 #1737 🥳 score:21 ⏱️ 0:01:20.333704
+# [Quordle Classic](https://www.merriam-webster.com/games/quordle/#/) 🧩 #1738 🥳 score:24 ⏱️ 0:01:51.915235
 
 📜 1 sessions
 
 Quordle Classic m-w.com/games/quordle/
 
-1. ANKLE attempts:3 score:3
-2. HAVOC attempts:6 score:6
-3. SULKY attempts:5 score:5
-4. WHITE attempts:7 score:7
+1. DEALT attempts:4 score:4
+2. FLUME attempts:8 score:8
+3. SLEEK attempts:7 score:7
+4. RELIC attempts:5 score:5
 
-# [Octordle Classic](https://www.merriam-webster.com/games/octordle/daily) 🧩 #1737 🥳 score:60 ⏱️ 0:02:23.001755
+# [Octordle Classic](https://www.merriam-webster.com/games/octordle/daily) 🧩 #1738 🥳 score:60 ⏱️ 0:02:20.832802
 
 📜 1 sessions
 
 Octordle Classic
 
-1. SHADE attempts:8 score:8
-2. MINCE attempts:12 score:12
-3. FLUID attempts:3 score:3
-4. PLUSH attempts:9 score:9
-5. TODAY attempts:7 score:7
-6. JAUNT attempts:11 score:11
-7. FILER attempts:4 score:4
-8. RABID attempts:6 score:6
+1. STASH attempts:10 score:10
+2. EVOKE attempts:4 score:4
+3. GRILL attempts:6 score:6
+4. PRIDE attempts:5 score:5
+5. BARON attempts:8 score:8
+6. BLEEP attempts:7 score:7
+7. FUNKY attempts:11 score:11
+8. THEME attempts:9 score:9
 
-# [Sedecordle Classic](https://www.sedecordle.com/?mode=daily) 🧩 #1717 🥳 score:36 ⏱️ 0:03:01.545737
+# [Sedecordle Classic](https://www.sedecordle.com/?mode=daily) 🧩 #1718 🥳 score:49 ⏱️ 0:03:34.641946
 
 📜 1 sessions
 
 Sedecordle Classic sedecordle.com
 
-1. AGAPE attempts:16 score:1
-2. ICILY attempts:12 score:6
-3. STIFF attempts:20 score:2
-4. FRILL attempts:17 score:0
-5. CANNY attempts:13 score:1
-6. SNOOP attempts:9 score:3
-7. PRICK attempts:15 score:1
-8. SCRUM attempts:8 score:5
-9. MORPH attempts:10 score:1
-10. SPILL attempts:7 score:0
-11. QUEUE attempts:18 score:1
-12. TUMOR attempts:4 score:8
-13. ERROR attempts:11 score:1
-14. BUILD attempts:5 score:1
-15. PORCH attempts:14 score:1
-16. CRUMP attempts:6 score:4
+1. BROWN attempts:18 score:1
+2. STONY attempts:8 score:8
+3. SHOUT attempts:12 score:1
+4. MORPH attempts:4 score:2
+5. SUITE attempts:11 score:1
+6. FOCAL attempts:15 score:1
+7. TRACT attempts:19 score:1
+8. CHIME attempts:5 score:9
+9. DISCO attempts:6 score:0
+10. HILLY attempts:7 score:6
+11. FOLLY attempts:19 score:2
+12. SCOUT attempts:13 score:0
+13. HARPY attempts:9 score:0
+14. FLICK attempts:16 score:9
+15. VIPER attempts:17 score:1
+16. RHYME attempts:10 score:7
 
-# [squareword.org](squareword.org) 🧩 #1730 🥳 8 ⏱️ 0:02:29.027596
+# [squareword.org](squareword.org) 🧩 #1731 🥳 8 ⏱️ 0:03:05.422935
 
 📜 1 sessions
 
 Guesses:
 
 Score Heatmap:
-    🟩 🟨 🟨 🟨 🟨
+    🟨 🟨 🟨 🟩 🟩
+    🟨 🟩 🟨 🟨 🟨
     🟩 🟩 🟩 🟩 🟩
+    🟩 🟩 🟨 🟨 🟩
     🟩 🟩 🟩 🟩 🟩
-    🟨 🟨 🟨 🟩 🟨
-    🟨 🟨 🟩 🟩 🟩
     🟩:<6 🟨:<11 🟧:<16 🟥:16+
 
 Solution:
-    S P E A R
-    T I L D E
-    R A D O N
-    I N E R T
-    P O R E S
+    S O L E S
+    P L E A T
+    A D A G E
+    R I F L E
+    K E Y E D
 
-# [cemantle.certitudes.org](cemantle.certitudes.org) 🧩 #1667 🥳 136 ⏱️ 0:09:42.715900
+# [cemantle.certitudes.org](cemantle.certitudes.org) 🧩 #1668 🥳 191 ⏱️ 0:09:22.572161
 
-🤔 137 attempts
+🤔 192 attempts
 📜 1 sessions
-🫧 6 chat sessions
-⁉️ 24 chat prompts
-🤖 24 dolphin3:latest replies
-😱   1 🔥   2 🥵   7 😎   9 🥶 114 🧊   3
+🫧 5 chat sessions
+⁉️ 26 chat prompts
+🤖 26 gemma4:12b replies
+🔥   3 🥵  10 😎  42 🥶 115 🧊  21
 
-      $1 #137 dad            100.00°C 🥳 1000‰ ~134 used:0  [133]  source:dolphin3
-      $2 #131 father          80.41°C 😱  999‰   ~1 used:5  [0]    source:dolphin3
-      $3 #129 uncle           70.80°C 🔥  993‰   ~2 used:6  [1]    source:dolphin3
-      $4 #130 brother         69.92°C 🔥  992‰   ~3 used:7  [2]    source:dolphin3
-      $5 #126 nephew          62.03°C 🥵  981‰   ~4 used:1  [3]    source:dolphin3
-      $6 #123 aunt            57.97°C 🥵  976‰   ~5 used:0  [4]    source:dolphin3
-      $7 #124 cousin          57.35°C 🥵  972‰   ~6 used:0  [5]    source:dolphin3
-      $8 #127 niece           55.31°C 🥵  969‰   ~7 used:0  [6]    source:dolphin3
-      $9  #47 family          48.74°C 🥵  943‰  ~14 used:20 [13]   source:dolphin3
-     $10 #125 grandparent     44.37°C 🥵  924‰   ~8 used:0  [7]    source:dolphin3
-     $11 #122 sibling         41.51°C 🥵  903‰   ~9 used:1  [8]    source:dolphin3
-     $12  #50 love            39.72°C 😎  882‰  ~19 used:7  [18]   source:dolphin3
-     $21 #107 joy             26.09°C 🥶        ~23 used:0  [22]   source:dolphin3
-    $135  #56 belonging       -0.25°C 🧊       ~135 used:0  [134]  source:dolphin3
+      $1 #192 reporting       100.00°C 🥳 1000‰ ~171 used:0  [170]  source:gemma4
+      $2 #128 report           42.60°C 🔥  994‰   ~3 used:10 [2]    source:gemma4
+      $3 #190 monitoring       39.09°C 🔥  991‰   ~1 used:0  [0]    source:gemma4
+      $4 #151 forecasting      38.98°C 🔥  990‰   ~2 used:8  [1]    source:gemma4
+      $5  #89 analysis         35.61°C 🥵  985‰  ~13 used:8  [12]   source:gemma4
+      $6 #111 verification     34.74°C 🥵  980‰  ~12 used:5  [11]   source:gemma4
+      $7 #135 audit            30.43°C 🥵  958‰   ~4 used:1  [3]    source:gemma4
+      $8  #98 documentation    30.03°C 🥵  952‰  ~10 used:3  [9]    source:gemma4
+      $9 #187 assessment       29.39°C 🥵  947‰   ~5 used:0  [4]    source:gemma4
+     $10 #118 filing           28.75°C 🥵  942‰   ~6 used:0  [5]    source:gemma4
+     $11  #85 data             28.02°C 🥵  929‰  ~11 used:4  [10]   source:gemma4
+     $15  #81 statistics       26.23°C 😎  898‰  ~14 used:1  [13]   source:gemma4
+     $57 #170 digest           16.12°C 🥶        ~64 used:0  [63]   source:gemma4
+    $172  #21 dynamics         -0.40°C 🧊       ~172 used:0  [171]  source:gemma4
 
-# [cemantix.certitudes.org](cemantix.certitudes.org) 🧩 #1700 🥳 223 ⏱️ 1:27:25.814678
+# [cemantix.certitudes.org](cemantix.certitudes.org) 🧩 #1701 🥳 69 ⏱️ 0:03:51.861302
 
-🤔 224 attempts
+🤔 70 attempts
 📜 1 sessions
-🫧 14 chat sessions
-⁉️ 70 chat prompts
-🤖 7 gemma4:12b replies
-🤖 63 dolphin3:latest replies
-🔥   1 🥵   7 😎  32 🥶 103 🧊  80
+🫧 3 chat sessions
+⁉️ 12 chat prompts
+🤖 12 gemma4:12b replies
+🥵  4 😎  9 🥶 48 🧊  8
 
-      $1 #224 forum           100.00°C 🥳 1000‰ ~144 used:0  [143]  source:gemma4  
-      $2 #184 discussion       55.87°C 🔥  998‰   ~1 used:27 [0]    source:dolphin3
-      $3 #160 sujet            42.83°C 🥵  985‰  ~21 used:20 [20]   source:dolphin3
-      $4 #164 thème            33.78°C 🥵  936‰  ~19 used:14 [18]   source:dolphin3
-      $5 #101 participant      33.69°C 🥵  935‰  ~32 used:23 [31]   source:dolphin3
-      $6 #110 contributeur     33.65°C 🥵  934‰  ~20 used:15 [19]   source:dolphin3
-      $7 #125 membre           33.24°C 🥵  931‰  ~18 used:11 [17]   source:dolphin3
-      $8  #24 concours         31.24°C 🥵  908‰  ~34 used:29 [33]   source:dolphin3
-      $9  #62 liste            31.12°C 🥵  906‰  ~33 used:24 [32]   source:dolphin3
-     $10 #188 débat            29.87°C 😎  894‰  ~22 used:2  [21]   source:dolphin3
-     $11  #91 réponse          29.32°C 😎  889‰  ~35 used:3  [34]   source:dolphin3
-     $12  #89 question         29.14°C 😎  887‰  ~36 used:3  [35]   source:dolphin3
-     $42 #216 parole           14.53°C 🥶        ~45 used:0  [44]   source:gemma4  
-    $145 #103 engagement       -0.03°C 🧊       ~145 used:0  [144]  source:dolphin3
+     $1 #70 barrage        100.00°C 🥳 1000‰ ~62 used:0 [61]  source:gemma4
+     $2 #58 rivière         42.01°C 🥵  982‰  ~4 used:4 [3]   source:gemma4
+     $3 #62 fleuve          38.95°C 🥵  968‰  ~3 used:3 [2]   source:gemma4
+     $4 #63 affluent        36.58°C 🥵  957‰  ~1 used:1 [0]   source:gemma4
+     $5 #61 eau             36.54°C 🥵  956‰  ~2 used:1 [1]   source:gemma4
+     $6 #64 bassin          29.35°C 😎  854‰  ~5 used:0 [4]   source:gemma4
+     $7 #68 ruisseau        28.08°C 😎  826‰  ~6 used:0 [5]   source:gemma4
+     $8 #65 débit           26.36°C 😎  757‰  ~7 used:0 [6]   source:gemma4
+     $9 #67 nappe           25.07°C 😎  696‰  ~8 used:0 [7]   source:gemma4
+    $10 #21 vallée          24.63°C 😎  656‰ ~13 used:5 [12]  source:gemma4
+    $11 #66 estuaire        20.67°C 😎  304‰  ~9 used:0 [8]   source:gemma4
+    $12 #52 tourbière       20.17°C 😎  225‰ ~10 used:0 [9]   source:gemma4
+    $15 #38 montagneux      18.45°C 🥶       ~17 used:2 [16]  source:gemma4
+    $63 #24 décor           -0.62°C 🧊       ~63 used:0 [62]  source:gemma4
