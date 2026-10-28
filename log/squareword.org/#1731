@@ -1,0 +1,282 @@
+T902.5777490799992 now: 2026-10-28T09:20:07EDT
+TD90 site: squareword.org
+TD22 wordlist: nwl2023.txt
+TD27  ...␅
+TD5736925 ␆
+TD71  ...
+TD53 🧩  ? ␅
+TD2769379 ␆#1731
+TD126 🧩  ? #1731
+TD256 puzzle_id: #1731
+TD242 > ␅
+TD1823138 ␆*
+TD121 > *
+TD283275 try? ␅
+TD638320 ␆1
+TD79 try? 1
+TD269 questioning: ["rates", "#5"]
+TD278 #1 <IndexError>  📋 "rates" ? ␅
+TD3764730 ␆___ES ~ S
+TD104 #1 <IndexError>  📋 "rates" ? ___ES ~ S
+TD648 attempt 0 RATES n n n Y Y
+TD114 #2 <IndexError>  📋 "rates" ? ␅
+TD2207513 ␆_____ ~ ATE
+TD140 #2 <IndexError>  📋 "rates" ? _____ ~ ATE
+TD324 attempt 1 RATES n m m m n
+TD136 #3 <IndexError>  📋 "rates" ? ␅
+TD2003951 ␆_____ ~ AE
+TD63 #3 <IndexError>  📋 "rates" ? _____ ~ AE
+TD154 attempt 2 RATES n m n m n
+TD74 #4 <IndexError>  📋 "rates" ? ␅
+TD2395126 ␆R____ ~ E
+TD58 #4 <IndexError>  📋 "rates" ? R____ ~ E
+TD149 attempt 3 RATES Y n n m n
+TD75 #5 <IndexError>  📋 "rates" ? ␅
+TD2203808 ␆___E_ ~ E
+TD99 #5 <IndexError>  📋 "rates" ? ___E_ ~ E
+TD223 attempt 4 RATES n n n Y n
+TD235 ? ␅
+TD448540 ␆
+TD121 ? 
+TD160 question done
+TD314 > ␅
+TD5302975 ␆* 3
+TD112 > * 3
+TD398829 try? ␅
+TD1267611 ␄
+TD81 <EOF>
+TD196 > ␅
+TD2688945 ␆* 5
+TD113 > * 5
+TD99203 try? ␅
+TD1530893 ␆1
+TD110 try? 1
+TD314 questioning: ["olden", "#5"]
+TD264 #1 ___ES -ART  📋 "olden" ? ␅
+TD5857537 ␆___ES ~ SOL
+TD134 #1 ___ES -ART  📋 "olden" ? ___ES ~ SOL
+TD302 attempt 0 OLDEN m m n Y n
+TD153 #2 _____ ~AET -RS  📋 "olden" ? ␅
+TD3669094 ␆_L___ ~ ATE
+TD94 #2 _____ ~AET -RS  📋 "olden" ? _L___ ~ ATE
+TD209 attempt 1 OLDEN n Y n m n
+TD117 #3 _____ ~AE -RST  📋 "olden" ? ␅
+TD4453404 ␆_____ ~ AED
+TD111 #3 _____ ~AE -RST  📋 "olden" ? _____ ~ AED
+TD261 attempt 2 OLDEN n n m m n
+TD117 #4 R____ ~E -AST  📋 "olden" ? ␅
+TD5361338 ␆R____ ~ EL
+TD106 #4 R____ ~E -AST  📋 "olden" ? R____ ~ EL
+TD249 attempt 3 OLDEN n m n m n
+TD140 #5 ___E_ -ARST  📋 "olden" ? ␅
+TD3667567 ␆___E_ ~ ED
+TD106 #5 ___E_ -ARST  📋 "olden" ? ___E_ ~ ED
+TD740 attempt 4 OLDEN n n m Y n
+TD302 ? ␅
+TD358489 ␆
+TD108 ? 
+TD160 question done
+TD293 > ␅
+TD575843 ␆*
+TD66 > *
+TD608531 try? ␅
+TD3611254 ␄
+TD109 <EOF>
+TD262 > ␅
+TD4166490 ␆* 5
+TD74 > * 5
+TD2370 try? ␅
+TD1020009 ␄
+TD156 <EOF>
+TD379 > ␅
+TD1345798 ␆* 3
+TD111 > * 3
+TD3282 try? ␅
+TD1302466 ␄
+TD155 <EOF>
+TD405 > ␅
+TD1075992 ␆* 2
+TD172 > * 2
+TD2412 try? ␅
+TD1641642 ␄
+TD148 <EOF>
+TD365 > ␅
+TD1224531 ␆* 1
+TD77 > * 1
+TD2056 try? ␅
+TD1142491 ␄
+TD173 <EOF>
+TD375 > ␅
+TD1812093 ␆* 3
+TD109 > * 3
+TD2755 try? ␅
+TD740250 ␄
+TD151 <EOF>
+TD421 > ␅
+TD1732683 ␆* 5
+TD160 > * 5
+TD3498 try? ␅
+TD2932826 ␆3
+TD117 try? 3
+TD315 questioning: ["biked", "#5"]
+TD361 #1 ___ES ~LO -ADNRT  📋 "biked" ? ␅
+TD10765349 ␆___ES ~ SOL
+TD109 #1 ___ES ~LO -ADNRT  📋 "biked" ? ___ES ~ SOL
+TD287 attempt 0 BIKED n n n Y n
+TD155 #2 _L___ ~AET -DNORS  📋 "biked" ? ␅
+TD3033195 ␆.
+TD115 #2 _L___ ~AET -DNORS  📋 "biked" ? .
+TD292 attempt 1 BIKED n n n m n
+TD105 #3 _____ ~ADE -LNORST  📋 "biked" ? ␅
+TD1818329 ␆.
+TD64 #3 _____ ~ADE -LNORST  📋 "biked" ? .
+TD157 attempt 2 BIKED n n n m m
+TD56 #4 R____ ~EL -ADNOST  📋 "biked" ? ␅
+TD2448124 ␆RI___ ~ EL
+TD106 #4 R____ ~EL -ADNOST  📋 "biked" ? RI___ ~ EL
+TD301 attempt 3 BIKED n Y n m n
+TD169 #5 ___E_ ~D -ALNORST  📋 "biked" ? ␅
+TD3051265 ␆___ED ~ EK
+TD129 #5 ___E_ ~D -ALNORST  📋 "biked" ? ___ED ~ EK
+TD288 attempt 4 BIKED n n m Y Y
+TD264 ? ␅
+TD249033 ␆
+TD98 ? 
+TD106 question done
+TD227 > ␅
+TD577433 ␆*
+TD106 > *
+TD672767 questioning: ["keyed", "#5"]
+TD157 #1 ___ES ~LO -ABDIKNRT  📋 "keyed" ? ␅
+TD6629048 ␆___ES ~ SOL
+TD123 #1 ___ES ~LO -ABDIKNRT  📋 "keyed" ? ___ES ~ SOL
+TD268 attempt 0 KEYED n n n Y n
+TD157 #2 _L___ ~AET -BDIKNORS  📋 "keyed" ? ␅
+TD1462625 ␆.
+TD114 #2 _L___ ~AET -BDIKNORS  📋 "keyed" ? .
+TD296 attempt 1 KEYED n m n m n
+TD82 #3 _____ ~ADE -BIKLNORST  📋 "keyed" ? ␅
+TD1121275 ␆.
+TD107 #3 _____ ~ADE -BIKLNORST  📋 "keyed" ? .
+TD273 attempt 2 KEYED n m n m m
+TD105 #4 RI___ ~EL -ABDKNOST  📋 "keyed" ? ␅
+TD1245524 ␆.
+TD123 #4 RI___ ~EL -ABDKNOST  📋 "keyed" ? .
+TD274 attempt 3 KEYED n m n m n
+TD102 #5 ___ED ~K -ABILNORST  📋 "keyed" ? ␅
+TD616640 ␆/it
+TD108 #5 ___ED ~K -ABILNORST  📋 "keyed" ? /it
+TD268 attempt 4 KEYED Y Y Y Y Y
+TD206 ? ␅
+TD124031 ␆
+TD119 ? 
+TD136 question done
+TD327 > ␅
+TD450881 ␆*
+TD128 > *
+TD738720 questioning: ["adage", "#3"]
+TD174 #1 ___ES ~LO -ABDIKNRTY  📋 "adage" ? ␅
+TD6945988 ␆___ES ~ SOL
+TD111 #1 ___ES ~LO -ABDIKNRTY  📋 "adage" ? ___ES ~ SOL
+TD269 attempt 0 ADAGE n n n n n
+TD169 #2 _L___ ~AET -BDIKNORSY  📋 "adage" ? ␅
+TD16059921 ␆.
+TD109 #2 _L___ ~AET -BDIKNORSY  📋 "adage" ? .
+TD301 attempt 1 ADAGE m n m n m
+TD111 #3 _____ ~ADE -BIKLNORSTY  📋 "adage" ? ␅
+TD739899 ␆/it
+TD105 #3 _____ ~ADE -BIKLNORSTY  📋 "adage" ? /it
+TD263 attempt 2 ADAGE Y Y Y Y Y
+TD100 #4 RI___ ~EL -ABDKNOSTY  📋 "adage" ? ␅
+TD3994756 ␆RI__E ~ L
+TD107 #4 RI___ ~EL -ABDKNOSTY  📋 "adage" ? RI__E ~ L
+TD250 attempt 3 ADAGE n n n n Y
+TD322 ? ␅
+TD221754 ␆
+TD109 ? 
+TD130 question done
+TD286 > ␅
+TD837294 ␆*
+TD105 > *
+TD1799827 questioning: ["pleat", "#2"]
+TD168 #1 ___ES ~LO -ABDEGIKNRTY  📋 "pleat" ? ␅
+TD10795388 ␆___ES ~ SOL
+TD92 #1 ___ES ~LO -ABDEGIKNRTY  📋 "pleat" ? ___ES ~ SOL
+TD207 attempt 0 PLEAT n m n n n
+TD131 #2 _L___ ~AET -BDGIKNORSY  📋 "pleat" ? ␅
+TD1206033 ␆/it
+TD59 #2 _L___ ~AET -BDGIKNORSY  📋 "pleat" ? /it
+TD151 attempt 1 PLEAT Y Y Y Y Y
+TD58 #4 RI__E ~L -ABDGKNOSTY  📋 "pleat" ? ␅
+TD3686571 ␆.
+TD108 #4 RI__E ~L -ABDGKNOSTY  📋 "pleat" ? .
+TD290 attempt 3 PLEAT n m n n n
+TD226 ? ␅
+TD163205 ␆
+TD113 ? 
+TD130 question done
+TD312 > ␅
+TD523651 ␆*
+TD112 > *
+TD1366832 questioning: ["soles", "#1"]
+TD172 #1 ___ES ~LO -ABDEGIKNPRTY  📋 "soles" ? ␅
+TD3705095 ␆/it
+TD91 #1 ___ES ~LO -ABDEGIKNPRTY  📋 "soles" ? /it
+TD220 attempt 0 SOLES Y Y Y Y Y
+TD82 #4 RI__E ~L -ABDEGKNOPSTY  📋 "soles" ? ␅
+TD2329215 ␆.
+TD112 #4 RI__E ~L -ABDEGKNOPSTY  📋 "soles" ? .
+TD289 attempt 3 SOLES n n m n n
+TD353 ? ␅
+TD171119 ␆
+TD49 ? 
+TD82 question done
+TD335 > ␅
+TD477159 ␆*
+TD120 > *
+TD956762 questioning: ["rifle", "#4"]
+TD162 #4 RI__E ~L -ABDEGKNOPSTY  📋 "rifle" ? ␅
+TD4363956 ␆/it
+TD110 #4 RI__E ~L -ABDEGKNOPSTY  📋 "rifle" ? /it
+TD289 attempt 3 RIFLE Y Y Y Y Y
+TD312 ? ␅
+TD297021 ␆
+TD93 ? 
+TD92 question done
+TD24473 📋> ␅
+TD5135038 ␆squareword.org 1731: 8 guesses
+TD115 📋> squareword.org 1731: 8 guesses
+TD13 📋> ␅
+TD62 ␆
+TD7 📋> 
+TD5 📋> ␅
+TD15 ␆🟨🟨🟨🟩🟩
+TD5 📋> 🟨🟨🟨🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟩🟨🟨🟨
+TD4 📋> 🟨🟩🟨🟨🟨
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟩🟩🟨🟨🟩
+TD4 📋> 🟩🟩🟨🟨🟩
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD11 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD131912 ␆#squareword #squareword1731
+TD107 📋> #squareword #squareword1731
+TD29 📋> ␅
+TD234629 ␄
+TD213 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1731: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1731"}
+TD860 result: "squareword.org 1731: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1731"
+TD118 📆 2026-10-28 ? ␅
+TD340394 ␆
+TD152 📆 2026-10-28 ? 
