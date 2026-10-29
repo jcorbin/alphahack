@@ -1,0 +1,163 @@
+T368.7706054090013 now: 2026-10-29T09:11:42EDT
+TD128 site: https://www.merriam-webster.com/games/quordle/#/
+TD23 wordlist: nwl2023.txt
+TD7 num_words: 4
+TD121  ...␅
+TD505546 ␆
+TD106  ...
+TD296956 > ␅
+TD6757573 ␆*
+TD94 > *
+TD33347 ? ␅
+TD530881 ␆1
+TD92 ? 1
+TD147 questioning: reals
+TD210 Classic #1 _____? ␅
+TD2942727 ␆MMnnn
+TD54 Classic #1 _____? MMnnn
+TD193 attempt: 0 REALS m m n n n
+TD51 Classic #2 _____? ␅
+TD1397860 ␆nnnnY
+TD53 Classic #2 _____? nnnnY
+TD115 attempt: 1 REALS n n n n Y
+TD49 Classic #3 _____? ␅
+TD1391396 ␆nnMnM
+TD106 Classic #3 _____? nnMnM
+TD236 attempt: 2 REALS n n m n m
+TD101 Classic #4 _____? ␅
+TD1503089 ␆MMnnM
+TD108 Classic #4 _____? MMnnM
+TD246 attempt: 3 REALS m m n n m
+TD374264 > ␅
+TD605325 ␆*
+TD64 > *
+TD2278 ? ␅
+TD700969 ␆1
+TD111 ? 1
+TD208 questioning: infos
+TD209 Classic #1 _____ ~ER -ALS? ␅
+TD2960387 ␆nnnnn
+TD114 Classic #1 _____ ~ER -ALS? nnnnn
+TD238 attempt: 0 INFOS n n n n n
+TD116 Classic #2 ____S -AELR? ␅
+TD1472497 ␆MMnnY
+TD88 Classic #2 ____S -AELR? MMnnY
+TD152 attempt: 1 INFOS m m n n Y
+TD72 Classic #3 _____ ~AS -ELR? ␅
+TD1644067 ␆nnnYM
+TD110 Classic #3 _____ ~AS -ELR? nnnYM
+TD344 attempt: 2 INFOS n n n Y m
+TD111 Classic #4 _____ ~ERS -AL? ␅
+TD1353800 ␆nnnnM
+TD54 Classic #4 _____ ~ERS -AL? nnnnM
+TD102 attempt: 3 INFOS n n n n m
+TD363152 > ␅
+TD730334 ␆*
+TD84 > *
+TD800 ? ␅
+TD3578589 ␆7
+TD83 ? 7
+TD145 questioning: prude
+TD128 Classic #1 _____ ~ER -AFILNOS? ␅
+TD3758564 ␆YYYYY
+TD107 Classic #1 _____ ~ER -AFILNOS? YYYYY
+TD244 attempt: 0 PRUDE Y Y Y Y Y
+TD120 Classic #2 ____S ~IN -AEFLOR? ␅
+TD1410702 ␆nnMnn
+TD51 Classic #2 ____S ~IN -AEFLOR? nnMnn
+TD109 attempt: 1 PRUDE n n m n n
+TD52 Classic #3 ___O_ ~AS -EFILNR? ␅
+TD2024310 ␆nnnnn
+TD104 Classic #3 ___O_ ~AS -EFILNR? nnnnn
+TD240 attempt: 2 PRUDE n n n n n
+TD123 Classic #4 _____ ~ERS -AFILNO? ␅
+TD1403400 ␆nMMnM
+TD88 Classic #4 _____ ~ERS -AFILNO? nMMnM
+TD155 attempt: 3 PRUDE n m m n m
+TD252708 > ␅
+TD623326 ␆*
+TD123 > *
+TD615 ? ␅
+TD5195944 ␄
+TD146 <EOF>
+TD246638 > ␅
+TD1214614 ␆* 2
+TD106 > * 2
+TD76723 ? ␅
+TD1689819 ␆1
+TD46 ? 1
+TD92 questioning: minus
+TD88 Classic #2 ____S ~INU -ADEFLOPR? ␅
+TD3636974 ␆YYYYY
+TD56 Classic #2 ____S ~INU -ADEFLOPR? YYYYY
+TD105 attempt: 1 MINUS Y Y Y Y Y
+TD55 Classic #3 ___O_ ~AS -DEFILNPRU? ␅
+TD1473270 ␆nnnnM
+TD118 Classic #3 ___O_ ~AS -DEFILNPRU? nnnnM
+TD238 attempt: 2 MINUS n n n n m
+TD91 Classic #4 _____ ~ERSU -ADFILNOP? ␅
+TD3877532 ␆nnnMM
+TD110 Classic #4 _____ ~ERSU -ADFILNOP? nnnMM
+TD163 attempt: 3 MINUS n n n m m
+TD166022 > ␅
+TD677259 ␆*
+TD85 > *
+TD366 ? ␅
+TD2544538 ␄
+TD132 <EOF>
+TD187361 > ␅
+TD1377581 ␆* 4
+TD109 > * 4
+TD88514 ? ␅
+TD2478944 ␆2
+TD86 ? 2
+TD138 questioning: usher
+TD127 Classic #3 ___O_ ~AS -DEFILMNPRU? ␅
+TD3206314 ␆nMnnn
+TD114 Classic #3 ___O_ ~AS -DEFILMNPRU? nMnnn
+TD253 attempt: 2 USHER n m n n n
+TD123 Classic #4 _____ ~ERSU -ADFILMNOP? ␅
+TD1320439 ␆YYYYY
+TD109 Classic #4 _____ ~ERSU -ADFILMNOP? YYYYY
+TD268 attempt: 3 USHER Y Y Y Y Y
+TD71169 > ␅
+TD669150 ␆*
+TD106 > *
+TD604 ? ␅
+TD3297049 ␆1
+TD95 ? 1
+TD139 questioning: sabot
+TD125 Classic #3 ___O_ ~AS -DEFHILMNPRU? ␅
+TD3423374 ␆YYnYn
+TD114 Classic #3 ___O_ ~AS -DEFHILMNPRU? YYnYn
+TD246 attempt: 2 SABOT Y Y n Y n
+TD78712 > ␅
+TD632490 ␆*
+TD82 > *
+TD280 questioning: savoy
+TD91 Classic #3 SA_O_ -BDEFHILMNPRTU? ␅
+TD3286712 ␆YYYYY
+TD79 Classic #3 SA_O_ -BDEFHILMNPRTU? YYYYY
+TD185 attempt: 2 SAVOY Y Y Y Y Y
+TD94 📋> ␅
+TD5167065 ␆🙂 Daily Quordle 1739
+TD52 📋> 🙂 Daily Quordle 1739
+TD5 📋> ␅
+TD23 ␆3️⃣4️⃣
+TD2 📋> 3️⃣4️⃣
+TD2 📋> ␅
+TD3 ␆7️⃣5️⃣
+TD1 📋> 7️⃣5️⃣
+TD1 📋> ␅
+TD4 ␆m-w.com/games/quordle/
+TD1 📋> m-w.com/games/quordle/
+TD1 📋> ␅
+TD122479 ␆
+TD80 📋> 
+TD11 📋> ␅
+TD208619 ␄
+TD195 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1739\n3\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1041 result: "\ud83d\ude42 Daily Quordle 1739\n3\ufe0f\u20e34\ufe0f\u20e3\n7\ufe0f\u20e35\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD76 📆 2026-10-29 ? ␅
+TD316539 ␆
+TD77 📆 2026-10-29 ? 
