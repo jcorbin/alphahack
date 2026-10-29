@@ -1,0 +1,101 @@
+T18.428998716000933 now: 2026-10-29T09:05:52EDT
+TD83 site: alfagok.diginaut.net
+TD322489 loaded 399449 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1403 words excluded) asof 4700508d76e80c35cb9237890188afb83f28c81e
+TD94  ...␅
+TD3652033 ␆
+TD76  ...
+TD210 [0 : 199631 : 399449] lijk? ␅
+TD3348729 ␆b
+TD112 [0 : 199631 : 399449] lijk? b
+TD394 progress: -1 199631 lijk
+TD159 [0 : 99672 : 199631] ex? ␅
+TD2021544 ␆a
+TD73 [0 : 99672 : 199631] ex? a
+TD115 progress: 1 99672 ex
+TD93 [99673 : 149358 : 199631] huis? ␅
+TD1783567 ␆b
+TD115 [99673 : 149358 : 199631] huis? b
+TD118 progress: -1 149358 huis
+TD170 [99673 : 111327 : 149358] ge? ␅
+TD1560917 ␆a
+TD111 [99673 : 111327 : 149358] ge? a
+TD115 progress: 1 111327 ge
+TD342 [111328 : 130307 : 149358] gracht? ␅
+TD1615574 ␆b
+TD117 [111328 : 130307 : 149358] gracht? b
+TD113 progress: -1 130307 gracht
+TD318 [111328 : 120817 : 130307] gepunt? ␅
+TD1725687 ␆b
+TD112 [111328 : 120817 : 130307] gepunt? b
+TD112 progress: -1 120817 gepunt
+TD118 [111328 : 115965 : 120817] gek? ␅
+TD1499849 ␆b
+TD112 [111328 : 115965 : 120817] gek? b
+TD119 progress: -1 115965 gek
+TD330 [111328 : 113644 : 115965] gedierte? ␅
+TD1575604 ␆a
+TD113 [111328 : 113644 : 115965] gedierte? a
+TD114 progress: 1 113644 gedierte
+TD425 [113645 : 114805 : 115965] gegalmd? ␅
+TD1480390 ␆a
+TD111 [113645 : 114805 : 115965] gegalmd? a
+TD124 progress: 1 114805 gegalmd
+TD422 [114806 : 115385 : 115965] gehergroepeerd? ␅
+TD2497303 ␆b
+TD214 [114806 : 115385 : 115965] gehergroepeerd? b
+TD209 progress: -1 115385 gehergroepeerd
+TD340 [114806 : 115095 : 115385] gegrint? ␅
+TD1651221 ␆vb
+TD114 [114806 : 115095 : 115385] gegrint? vb
+TD211 [114806 : 115095 : 115385] gegrint? ␅
+TD750586 ␆b
+TD115 [114806 : 115095 : 115385] gegrint? b
+TD116 progress: -1 115095 gegrint
+TD247 [114806 : 114950 : 115095] gegidste? ␅
+TD1901014 ␆b
+TD91 [114806 : 114950 : 115095] gegidste? b
+TD83 progress: -1 114950 gegidste
+TD81 [114806 : 114862 : 114950] gegevens? ␅
+TD1579169 ␆b
+TD111 [114806 : 114862 : 114950] gegevens? b
+TD117 progress: -1 114862 gegevens
+TD307 [114806 : 114834 : 114862] gegeeuwd? ␅
+TD1865706 ␆a
+TD78 [114806 : 114834 : 114862] gegeeuwd? a
+TD83 progress: 1 114834 gegeeuwd
+TD162 [114835 : 114845 : 114862] gegenereerd? ␅
+TD1492796 ␆a
+TD124 [114835 : 114845 : 114862] gegenereerd? a
+TD115 progress: 1 114845 gegenereerd
+TD249 [114846 : 114854 : 114862] gegespte? ␅
+TD1500489 ␆a
+TD118 [114846 : 114854 : 114862] gegespte? a
+TD112 progress: 1 114854 gegespte
+TD241 [114855 : 114858 : 114862] gegeven? ␅
+TD1740032 ␆it
+TD76 [114855 : 114858 : 114862] gegeven? it
+TD86 progress: 0 114858 gegeven
+TD22 [114855 : 114858 : 114862] <Done>.
+TD89 📋> ␅
+TD3607844 ␆🧩 Puzzel #726
+TD113 📋> 🧩 Puzzel #726
+TD15 📋> ␅
+TD51 ␆🤔 17 gokken
+TD7 📋> 🤔 17 gokken
+TD5 📋> ␅
+TD14 ␆⏱️ 29s
+TD6 📋> ⏱️ 29s
+TD5 📋> ␅
+TD128700 ␆🔗 alfagok.diginaut.net
+TD97 📋> 🔗 alfagok.diginaut.net
+TD10 📋> ␅
+TD197043 ␄
+TD196 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #726\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD604 result: "\ud83e\udde9 Puzzel #726\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 29s\n\ud83d\udd17 alfagok.diginaut.net"
+TD18 result puzzle: 726
+TD8 result guesses: 17
+TD5 result time: 29s
+TD4 result link: alfagok.diginaut.net
+TD92 📆 2026-10-29 ? ␅
+TD291168 ␆
+TD113 📆 2026-10-29 ? 
