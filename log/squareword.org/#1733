@@ -1,0 +1,246 @@
+T749.7609634830005 now: 2026-10-30T12:31:24EDT
+TD104 site: squareword.org
+TD26 wordlist: nwl2023.txt
+TD35  ...␅
+TD373036 ␆
+TD114  ...
+TD81 🧩  ? ␅
+TD7367166 ␆#1733
+TD110 🧩  ? #1733
+TD299 puzzle_id: #1733
+TD311 > ␅
+TD874111 ␆*
+TD134 > *
+TD455514 try? ␅
+TD883828 ␆1
+TD74 try? 1
+TD251 questioning: ["saice", "#5"]
+TD252 #1 <IndexError>  📋 "saice" ? ␅
+TD4818747 ␆_____ ~ C
+TD110 #1 <IndexError>  📋 "saice" ? _____ ~ C
+TD722 attempt 0 SAICE n n n m n
+TD118 #2 <IndexError>  📋 "saice" ? ␅
+TD2196504 ␆_____ ~ SIE
+TD78 #2 <IndexError>  📋 "saice" ? _____ ~ SIE
+TD257 attempt 1 SAICE m n m n m
+TD102 #3 <IndexError>  📋 "saice" ? ␅
+TD2331035 ␆__I_E ~ A
+TD117 #3 <IndexError>  📋 "saice" ? __I_E ~ A
+TD287 attempt 2 SAICE n m Y n Y
+TD134 #4 <IndexError>  📋 "saice" ? ␅
+TD3074264 ␆____E ~ E
+TD115 #4 <IndexError>  📋 "saice" ? ____E ~ E
+TD264 attempt 3 SAICE n n n n Y
+TD132 #5 <IndexError>  📋 "saice" ? ␅
+TD1943698 ␆_____ ~ E
+TD115 #5 <IndexError>  📋 "saice" ? _____ ~ E
+TD272 attempt 4 SAICE n n n n m
+TD328 ? ␅
+TD322845 ␆
+TD115 ? 
+TD182 question done
+TD291 > ␅
+TD1555495 ␆* 5
+TD136 > * 5
+TD519459 try? ␅
+TD1678877 ␆1
+TD117 try? 1
+TD350 questioning: ["moped", "#5"]
+TD339 #1 _____ ~C -AEIS  📋 "moped" ? ␅
+TD5550755 ␆_O___ ~ C
+TD114 #1 _____ ~C -AEIS  📋 "moped" ? _O___ ~ C
+TD307 attempt 0 MOPED n Y n n n
+TD159 #2 _____ ~EIS -AC  📋 "moped" ? ␅
+TD3418575 ␆___E_ ~ SI
+TD115 #2 _____ ~EIS -AC  📋 "moped" ? ___E_ ~ SI
+TD271 attempt 1 MOPED n n n Y n
+TD157 #3 __I_E ~A -CS  📋 "moped" ? ␅
+TD1457753 ␆.
+TD80 #3 __I_E ~A -CS  📋 "moped" ? .
+TD230 attempt 2 MOPED n n n n n
+TD78 #4 ____E -ACIS  📋 "moped" ? ␅
+TD2897370 ␆____E ~ E
+TD116 #4 ____E -ACIS  📋 "moped" ? ____E ~ E
+TD268 attempt 3 MOPED n n n m n
+TD156 #5 _____ ~E -ACIS  📋 "moped" ? ␅
+TD3291820 ␆___ED ~ ED
+TD147 #5 _____ ~E -ACIS  📋 "moped" ? ___ED ~ ED
+TD326 attempt 4 MOPED n n n Y Y
+TD448 ? ␅
+TD294801 ␆
+TD126 ? 
+TD170 question done
+TD386 > ␅
+TD452984 ␆*
+TD132 > *
+TD1266721 try? ␅
+TD5454002 ␄
+TD153 <EOF>
+TD434 > ␅
+TD1100195 ␆* 4
+TD76 > * 4
+TD3377 try? ␅
+TD2048935 ␆1
+TD111 try? 1
+TD313 questioning: ["brute", "#4"]
+TD318 #1 _O___ ~C -ADEIMPS  📋 "brute" ? ␅
+TD5396186 ␆_OU__ ~ CRT
+TD115 #1 _O___ ~C -ADEIMPS  📋 "brute" ? _OU__ ~ CRT
+TD301 attempt 0 BRUTE n m Y m n
+TD166 #2 ___E_ ~IS -ACDMOP  📋 "brute" ? ␅
+TD3276327 ␆___E_ ~ SIR
+TD79 #2 ___E_ ~IS -ACDMOP  📋 "brute" ? ___E_ ~ SIR
+TD211 attempt 1 BRUTE n m n n n
+TD165 #3 __I_E ~A -CDEMOPS  📋 "brute" ? ␅
+TD2708813 ␆.
+TD137 #3 __I_E ~A -CDEMOPS  📋 "brute" ? .
+TD315 attempt 2 BRUTE n n n n Y
+TD101 #4 ____E -ACDIMOPS  📋 "brute" ? ␅
+TD3040349 ␆____E ~ EU
+TD115 #4 ____E -ACDIMOPS  📋 "brute" ? ____E ~ EU
+TD294 attempt 3 BRUTE n n m n Y
+TD155 #5 ___ED -ACIMOPS  📋 "brute" ? ␅
+TD3540180 ␆___ED ~ ED
+TD112 #5 ___ED -ACIMOPS  📋 "brute" ? ___ED ~ ED
+TD287 attempt 4 BRUTE n n n n m
+TD341 ? ␅
+TD415325 ␆
+TD116 ? 
+TD129 question done
+TD329 > ␅
+TD852784 ␆*
+TD114 > *
+TD1026220 questioning: ["court", "#1"]
+TD357 #1 _OU__ ~CRT -ABDEIMPS  📋 "court" ? ␅
+TD2379045 ␆/it
+TD110 #1 _OU__ ~CRT -ABDEIMPS  📋 "court" ? /it
+TD298 attempt 0 COURT Y Y Y Y Y
+TD109 #2 ___E_ ~IRS -ABCDEMOPTU  📋 "court" ? ␅
+TD1759943 ␆.
+TD112 #2 ___E_ ~IRS -ABCDEMOPTU  📋 "court" ? .
+TD289 attempt 1 COURT n n n m n
+TD108 #3 __I_E ~A -BCDMOPRSTU  📋 "court" ? ␅
+TD1417092 ␆.
+TD112 #3 __I_E ~A -BCDMOPRSTU  📋 "court" ? .
+TD293 attempt 2 COURT n n n n n
+TD103 #4 ____E ~U -ABCDIMOPRST  📋 "court" ? ␅
+TD2848573 ␆____E ~ EU
+TD132 #4 ____E ~U -ABCDIMOPRST  📋 "court" ? ____E ~ EU
+TD280 attempt 3 COURT n n m n n
+TD160 #5 ___ED -ABCIMOPRSTU  📋 "court" ? ␅
+TD2631609 ␆___ED ~ ED
+TD134 #5 ___ED -ABCIMOPRSTU  📋 "court" ? ___ED ~ ED
+TD320 attempt 4 COURT n n n n n
+TD439 ? ␅
+TD268446 ␆
+TD94 ? 
+TD126 question done
+TD362 > ␅
+TD432662 ␆*
+TD129 > *
+TD486366 questioning: ["riser", "#2"]
+TD355 #2 ___E_ ~IRS -ABCDEMOPTU  📋 "riser" ? ␅
+TD2807518 ␆/it
+TD91 #2 ___E_ ~IRS -ABCDEMOPTU  📋 "riser" ? /it
+TD277 attempt 1 RISER Y Y Y Y Y
+TD121 #3 __I_E ~A -BCDMOPRSTU  📋 "riser" ? ␅
+TD1503142 ␆.
+TD115 #3 __I_E ~A -BCDMOPRSTU  📋 "riser" ? .
+TD297 attempt 2 RISER n n n n n
+TD109 #4 ____E ~U -ABCDIMOPRST  📋 "riser" ? ␅
+TD3404828 ␆____E ~ EU
+TD115 #4 ____E ~U -ABCDIMOPRST  📋 "riser" ? ____E ~ EU
+TD263 attempt 3 RISER n n n m n
+TD155 #5 ___ED -ABCIMOPRSTU  📋 "riser" ? ␅
+TD3287176 ␆___ED ~ ED
+TD112 #5 ___ED -ABCIMOPRSTU  📋 "riser" ? ___ED ~ ED
+TD280 attempt 4 RISER n n n Y n
+TD346 ? ␅
+TD166966 ␆
+TD113 ? 
+TD132 question done
+TD332 > ␅
+TD411486 ␆*
+TD114 > *
+TD1268140 questioning: ["venue", "#4"]
+TD228 #3 __I_E ~A -BCDEIMOPRSTU  📋 "venue" ? ␅
+TD6272854 ␆__I_E ~ AV
+TD134 #3 __I_E ~A -BCDEIMOPRSTU  📋 "venue" ? __I_E ~ AV
+TD261 attempt 2 VENUE m n n n Y
+TD162 #4 ____E ~U -ABCDIMOPRST  📋 "venue" ? ␅
+TD756195 ␆/it
+TD112 #4 ____E ~U -ABCDIMOPRST  📋 "venue" ? /it
+TD298 attempt 3 VENUE Y Y Y Y Y
+TD106 #5 ___ED -ABCIMOPRSTU  📋 "venue" ? ␅
+TD3009242 ␆___ED ~ ED
+TD114 #5 ___ED -ABCIMOPRSTU  📋 "venue" ? ___ED ~ ED
+TD261 attempt 4 VENUE n m n n m
+TD365 ? ␅
+TD281473 ␆
+TD117 ? 
+TD127 question done
+TD335 > ␅
+TD464476 ␆*
+TD113 > *
+TD1781831 questioning: ["alive", "#3"]
+TD161 #3 __I_E ~AV -BCDIMNOPRSTU  📋 "alive" ? ␅
+TD2541538 ␆/it
+TD108 #3 __I_E ~AV -BCDIMNOPRSTU  📋 "alive" ? /it
+TD273 attempt 2 ALIVE Y Y Y Y Y
+TD103 #5 ___ED -ABCIMNOPRSTUV  📋 "alive" ? ␅
+TD2812057 ␆___ED ~ ED
+TD107 #5 ___ED -ABCIMNOPRSTUV  📋 "alive" ? ___ED ~ ED
+TD287 attempt 4 ALIVE n n n n m
+TD335 ? ␅
+TD292214 ␆
+TD112 ? 
+TD141 question done
+TD297 > ␅
+TD461055 ␆*
+TD112 > *
+TD1533152 questioning: ["edged", "#5"]
+TD162 #5 ___ED -ABCILMNOPRSTUV  📋 "edged" ? ␅
+TD3605656 ␆/it
+TD107 #5 ___ED -ABCILMNOPRSTUV  📋 "edged" ? /it
+TD255 attempt 4 EDGED Y Y Y Y Y
+TD282 ? ␅
+TD172023 ␆
+TD109 ? 
+TD114 question done
+TD50802 📋> ␅
+TD5580165 ␆squareword.org 1733: 8 guesses
+TD75 📋> squareword.org 1733: 8 guesses
+TD10 📋> ␅
+TD37 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆🟨🟨🟩🟨🟩
+TD4 📋> 🟨🟨🟩🟨🟩
+TD4 📋> ␅
+TD10 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD4 📋> ␅
+TD9 ␆🟨🟨🟨🟩🟩
+TD4 📋> 🟨🟨🟨🟩🟩
+TD4 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD10 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> ␅
+TD101054 ␆#squareword #squareword1733
+TD291 📋> #squareword #squareword1733
+TD22 📋> ␅
+TD342483 ␄
+TD199 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1733: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1733"}
+TD803 result: "squareword.org 1733: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1733"
+TD100 📆 2026-10-30 ? ␅
+TD494336 ␆
+TD76 📆 2026-10-30 ? 
