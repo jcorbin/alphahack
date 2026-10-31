@@ -1,0 +1,658 @@
+T2.0875783360097557 now: 2026-10-31T12:18:35EDT
+TD96 site: spaceword.org
+TD17 wordlist: nwl2023.txt
+TD25  ...␅
+TD2956432 ␆
+TD112  ...
+TD88 🧩  ? ␅
+TD4970197 ␆daily 2026-10-31
+TD111 🧩  ? daily 2026-10-31
+TD445 puzzle_id: 2026-10-31
+TD32 num letters (default: 21) ? ␅
+TD870150 ␆
+TD84 num letters (default: 21) ? 
+TD56 num_letters: 21
+TD185 letters? ␅
+TD4227969 ␆aaaceee
+TD80 letters? aaaceee
+TD304 letters: |AAACEEE|
+TD115 letters? ␅
+TD2390371 ␆hiijlss
+TD81 letters? hiijlss
+TD123 letters: |AAACEEEHIIJLSS|
+TD94 letters? ␅
+TD1647029 ␆ttuuvxy
+TD70 letters? ttuuvxy
+TD110 letters: |AAACEEEHIIJLSSTTUUVXY|
+TD88 letters. ␅
+TD498686 ␆
+TD110 letters. 
+TD67407 [doit:100]> ␅
+TD1436975 ␆/sa -cap 512
+TD76 [doit:100]> /sa -cap 512
+TD23166 [doit:100]> ␅
+TD4467458 ␆/sea -cap 512
+TD112 [doit:100]> /sea -cap 512
+TD38775889 search 5312b2 [ 512 cap:512 may:4260 prune:36 done:6 dead:7 ]> ␅
+TD558767966 ␆show done
+TD79 search 5312b2 [ 512 cap:512 may:4260 prune:36 done:6 dead:7 ]> show done
+TD1334 search 5312b2 [ 512 cap:512 may:4260 prune:36 done:6 dead:7 ]> ␅
+TD3845834 ␆show 2
+TD94 search 5312b2 [ 512 cap:512 may:4260 prune:36 done:6 dead:7 ]> show 2
+TD777 search 5312b2 [ 512 cap:512 may:4260 prune:36 done:6 dead:7 ]> ␅
+TD442505 ␆ret
+TD120 search 5312b2 [ 512 cap:512 may:4260 prune:36 done:6 dead:7 ]> ret
+TD322 change: 13 J
+TD8 change: 14 U
+TD3 change: 15 S
+TD2 change: 16 T
+TD2 change: 17 L
+TD2 change: 18 E
+TD2 change: 27 E
+TD2 change: 35 S
+TD2 change: 36 A
+TD3 change: 37 X
+TD2 change: 45 U
+TD2 change: 47 I
+TD2 change: 55 A
+TD2 change: 57 C
+TD2 change: 65 V
+TD2 change: 67 A
+TD2 change: 75 I
+TD2 change: 83 H
+TD2 change: 84 E
+TD2 change: 85 T
+TD2 change: 95 Y
+TD25806 [doit:2146]> ␅
+TD1724866 ␆/sea -cap 1024
+TD62 [doit:2146]> /sea -cap 1024
+TD10864717 Z c$_Lq%}Px!Q7Fz#u`)I{H#baFNXpMkwK6oYQa}P;p}`?Ot}q^q5$qTNWrZquLRpRq&QMmEf+Lg#lk;#5ftwhKY&<Fe00030{{
+TD323 Z Dx#y46ck`i@^HoDBme*a0RR6
+TD32 Z !s{dtEKYKzhLiAy5&!@I|Nj
+TD23 Z qE;wD9pvl?w?7Q7o5Y9%00030{{
+TD23 Z BIG29PsxioGMxkf00960
+TD20 Z A}*BZn!W)500960
+TD5480803 Z qG$3ZGRFY`00960
+TD94 Z 8iY9x00030{{
+TD28 Z 8iY9x00030{{
+TD19 Z 8iY9x00030{{
+TD17 Z 8iY9x00030{{
+TD17 Z A~MGz0nE|}R#bqpL71m&F!n_4=<FI2>4VEuBme*a0RR6
+TD31 Z 8ia)a00030{{
+TD3257704 Z BJ3nYB>)Z;FL*e)!otbX)!EY#;{RX@ibxm$00030{{
+TD106 Z 8ieH%00030{{
+TD25 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD21 Z qH?+90n2;X(v-7j2;2-jX$k-U0RR6
+TD38 Z BH$!Mx^#r+^iYU-$j<aoKxBQGGsECcafR1=h~fed00000|Nj
+TD42 Z 8ib`c00030{{
+TD20 Z 8ib`c00030{{
+TD20 Z qHZW5BF4ir46YuYmK=#Hp8x;=0RR6
+TD25 Z qLq`J9WkBc;YpN}00000|Nj
+TD24 Z BIqPcQ$itbLP_3^_>woGSw~dz1^@s6|Nj
+TD36 Z BH$$CoD2(qU@SS#5f&t&a3_V3o8tfg00960
+TD26 Z qI2o(0n>}8Tmk?90RR6
+TD22 Z qJxt>JmETtN=pC$00960
+TD47768 search 37771a [ 1023 cap:1024 may:3964 prune:362 dead:44 reject:14 done:5 ]> ␅
+TD23471122 ␆show done
+TD132 search 37771a [ 1023 cap:1024 may:3964 prune:362 dead:44 reject:14 done:5 ]> show done
+TD2252 search 37771a [ 1023 cap:1024 may:3964 prune:362 dead:44 reject:14 done:5 ]> ␅
+TD1542293 ␆show 3
+TD58 search 37771a [ 1023 cap:1024 may:3964 prune:362 dead:44 reject:14 done:5 ]> show 3
+TD838 search 37771a [ 1023 cap:1024 may:3964 prune:362 dead:44 reject:14 done:5 ]> ␅
+TD458654 ␆ret
+TD72 search 37771a [ 1023 cap:1024 may:3964 prune:362 dead:44 reject:14 done:5 ]> ret
+TD285 change: 25 
+TD15 change: 13 
+TD8 change: 25 
+TD8 change: 14 
+TD6 change: 25 
+TD6 change: 15 
+TD7 change: 25 S
+TD6 change: 16 
+TD5 change: 26 
+TD6 change: 17 
+TD5 change: 26 
+TD5 change: 18 
+TD6 change: 37 
+TD7 change: 27 X
+TD5 change: 35 U
+TD4 change: 36 E
+TD4 change: 37 
+TD5 change: 37 
+TD4 change: 45 A
+TD5 change: 26 
+TD5 change: 47 
+TD6 change: 65 I
+TD7 change: 55 V
+TD4 change: 57 E
+TD5 change: 26 A
+TD5 change: 67 
+TD4 change: 75 T
+TD5 change: 33 C
+TD5 change: 83 
+TD5 change: 34 L
+TD5 change: 84 
+TD5 change: 95 
+TD6 change: 85 Y
+TD4 change: 95 
+TD6 change: 95 
+TD3 change: 53 J
+TD3 change: 54 U
+TD3 change: 56 I
+TD3 change: 72 T
+TD3 change: 73 H
+TD3 change: 74 E
+TD3 change: 76 A
+TD3 change: 77 S
+TD31202 [doit:2158]> ␅
+TD1489121 ␆/sea -cap 1024
+TD64 [doit:2158]> /sea -cap 1024
+TD1633249 Z LUNL!X_8TjDZ%y<+$GLFp>VrU8ce8x6XM|-;s{M?#54pH00000|Nj
+TD116 Z qP>$qu7Wrz1aH3^4gdfE0RR6
+TD2054777 Z BFaf#p~w{rrjtD2PI6U%IVqUbem5Kd00030{{
+TD110 Z 8iWxC00030{{
+TD23 Z BGO4Aj$Tj}qErkfGQ3C~rvLx|0RR6
+TD26 Z BGyT87ImED<%l~90RR91|Nj
+TD23 Z 8idIk00030{{
+TD22 Z qP>%XUE#HDhzBvr8vp<R|Nj
+TD21 Z qP>$`9fL`85&!@I|Nj
+TD19 Z qP>$m9N~SY;1FU$2><{9|Nj
+TD20 Z qJxtV5l5Vp00000|Nj
+TD20 Z qC>fa<Rqff5&!@I|Nj
+TD19 Z qC<`ghB=AI3IzZF0RR6
+TD30 Z qDPJkfsZZYDUA>S00030{{
+TD20 Z BF0IerU{$_A9z-9#o{<b*Ghrx(i;E(0RR6
+TD24 Z BDUIvwJzx3Bme*a0RR6
+TD20 Z BDq4LB$SZ7hC2!Y00030{{
+TD20 Z qNkHk5&&)|0RR91|Nj
+TD19 Z A~`L=Q#65=6ZvTg00030{{
+TD20 Z A~`M5-bnxe00960
+TD19 Z B01tHaT0N92><{9|Nj
+TD19 Z qNkIHOiKU&00960
+TD18 Z qH<9QcZi3h7ka}jIMkJ>Y8L<i0RR6
+TD22 Z qOOxXTpdB9%n&CaMHgHzF{L*E00960
+TD21 Z qERS$xdw+K1|>+VPyhe`0RR6
+TD32162 search 15b2d5 [ 1023 cap:1024 may:1788 prune:780 dead:61 reject:23 done:2 ]> ␅
+TD4405304 ␆show 1
+TD62 search 15b2d5 [ 1023 cap:1024 may:1788 prune:780 dead:61 reject:23 done:2 ]> show 1
+TD1096 search 15b2d5 [ 1023 cap:1024 may:1788 prune:780 dead:61 reject:23 done:2 ]> ␅
+TD1291226 ␆show done
+TD54 search 15b2d5 [ 1023 cap:1024 may:1788 prune:780 dead:61 reject:23 done:2 ]> show done
+TD424 search 15b2d5 [ 1023 cap:1024 may:1788 prune:780 dead:61 reject:23 done:2 ]> ␅
+TD1139645 ␆show 1
+TD62 search 15b2d5 [ 1023 cap:1024 may:1788 prune:780 dead:61 reject:23 done:2 ]> show 1
+TD466 search 15b2d5 [ 1023 cap:1024 may:1788 prune:780 dead:61 reject:23 done:2 ]> ␅
+TD416671 ␆ret
+TD69 search 15b2d5 [ 1023 cap:1024 may:1788 prune:780 dead:61 reject:23 done:2 ]> ret
+TD239 change: 83 
+TD15 change: 72 
+TD9 change: 74 
+TD9 change: 73 E
+TD7 change: 76 H
+TD6 change: 74 A
+TD5 change: 83 
+TD7 change: 77 
+TD4 change: 83 S
+TD3 change: 84 T
+TD26158 [doit:2165]> ␅
+TD1410754 ␆/sea -cap 1024
+TD58 [doit:2165]> /sea -cap 1024
+TD873651 Z LUNL&rJ04H8TG4OSH}=&VMbiz1ONa4|Nj
+TD89 Z qP>$yZZ81<00960
+TD1038111 Z 8ib()00030{{
+TD82 Z 8ib()00030{{
+TD21 Z qQFTC9>hePvk$2aT>t<80RR6
+TD28 Z BHl^x`j(934bw?fxdZ?J0RR6
+TD1360654 Z 8iZ*H00030{{
+TD84 Z 8iZ*H00030{{
+TD21 Z 8iZ*H00030{{
+TD18 Z qQptgSke-f;ci$_=@Uv^S^@w70RR6
+TD27 Z BIqQ<)F*7rgj^>Po4f%400960
+TD24 Z A|aIM<v0KU00960
+TD19 Z 8ia)a00030{{
+TD1228362 Z 8ia)a00030{{
+TD85 Z 8ia)a00030{{
+TD21 Z 8iZ*H00030{{
+TD19 Z qNkIHY^DGJ00960
+TD22 Z 8iYk900030{{
+TD19 Z 8iYk900030{{
+TD17 Z 8iYk900030{{
+TD17 Z qP>$yZs-C400960
+TD1137000 Z 8ieH%00030{{
+TD78 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD16 Z 8ieH%00030{{
+TD16 Z 8ieH%00030{{
+TD16 Z 8ieH%00030{{
+TD996265 Z 8ieH%00030{{
+TD88 Z 8ieH%00030{{
+TD24 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1281155 Z 8ieH%00030{{
+TD88 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1285697 Z 8ieH%00030{{
+TD110 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1282120 Z 8ieH%00030{{
+TD78 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1312176 Z 8ieH%00030{{
+TD84 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1325640 Z 8ieH%00030{{
+TD84 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1295922 Z 8ieH%00030{{
+TD112 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1334929 Z 8ieH%00030{{
+TD88 Z 8ieH%00030{{
+TD25 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD23 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD1351154 Z 8ieH%00030{{
+TD91 Z 8ieH%00030{{
+TD23 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1300945 Z 8ieH%00030{{
+TD82 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD23 Z 8ieH%00030{{
+TD24 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1284262 Z 8ieH%00030{{
+TD89 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1322531 Z 8ieH%00030{{
+TD88 Z 8ieH%00030{{
+TD23 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1317104 Z 8ieH%00030{{
+TD83 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD24 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1304811 Z 8ieH%00030{{
+TD88 Z 8ieH%00030{{
+TD25 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1275459 Z 8ieH%00030{{
+TD99 Z 8ieH%00030{{
+TD23 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1522410 Z 8ieH%00030{{
+TD83 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD16 Z 8ieH%00030{{
+TD16 Z 8ieH%00030{{
+TD15 Z 8ieH%00030{{
+TD15 Z 8ieH%00030{{
+TD15 Z 8ieH%00030{{
+TD1400969 Z 8ieH%00030{{
+TD89 Z 8ieH%00030{{
+TD23 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1404056 Z 8ieH%00030{{
+TD84 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1385814 Z 8ieH%00030{{
+TD82 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1348115 Z 8ieH%00030{{
+TD89 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1347749 Z 8ieH%00030{{
+TD86 Z 8ieH%00030{{
+TD24 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1336326 Z 8ieH%00030{{
+TD84 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1296871 Z 8ieH%00030{{
+TD84 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1292776 Z 8ieH%00030{{
+TD84 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1328365 Z 8ieH%00030{{
+TD90 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1514982 Z 8ieH%00030{{
+TD84 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD24 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD1421293 Z 8ieH%00030{{
+TD102 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1399871 Z 8ieH%00030{{
+TD84 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1338549 Z 8ieH%00030{{
+TD87 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1400027 Z 8ieH%00030{{
+TD104 Z 8ieH%00030{{
+TD24 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD1354468 Z 8ieH%00030{{
+TD86 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1328964 Z 8ieH%00030{{
+TD82 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1586762 Z 8ieH%00030{{
+TD78 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD16 Z 8ieH%00030{{
+TD16 Z 8ieH%00030{{
+TD16 Z 8ieH%00030{{
+TD1409204 Z 8ieH%00030{{
+TD100 Z 8ieH%00030{{
+TD25 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD26 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD1457262 Z 8ieH%00030{{
+TD80 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD23 Z 8ieH%00030{{
+TD24 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1374906 Z 8ieH%00030{{
+TD85 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1340841 Z 8ieH%00030{{
+TD82 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1303204 Z 8ieH%00030{{
+TD83 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1281169 Z 8ieH%00030{{
+TD81 Z 8ieH%00030{{
+TD23 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD1485250 Z 8ieH%00030{{
+TD83 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1363921 Z 8ieH%00030{{
+TD89 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1398133 Z 8ieH%00030{{
+TD82 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD16 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1347987 Z 8ieH%00030{{
+TD84 Z 8ieH%00030{{
+TD23 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD1295173 Z 8ieH%00030{{
+TD77 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1517803 Z 8ieH%00030{{
+TD84 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD20 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1420642 Z 8ieH%00030{{
+TD92 Z 8ieH%00030{{
+TD23 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD25 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1392143 Z 8ieH%00030{{
+TD79 Z 8ieH%00030{{
+TD22 Z 8ieH%00030{{
+TD19 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD1323228 Z 8ieH%00030{{
+TD83 Z 8ieH%00030{{
+TD21 Z 8ieH%00030{{
+TD18 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD17 Z 8ieH%00030{{
+TD34575 search 996816 [ 1024 cap:1024 prune:398 reject:8 dead:4 ]> ␅
+TD18357232 ␆
+TD57 search 996816 [ 1024 cap:1024 prune:398 reject:8 dead:4 ]> 
+TD471 search 996816 [ 1024 cap:1024 prune:398 reject:8 dead:4 ]> ␅
+TD331261 ␄
+TD23640 [doit:2165]> ␅
+TD5809368 ␆/res
+TD126 [doit:2165]> /res
+TD276 📋> ␅
+TD904292 ␆✨ Spaceword.org Daily 2026-10-31 ✨
+TD68 📋> ✨ Spaceword.org Daily 2026-10-31 ✨
+TD10 📋> ␅
+TD27 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD7 ␆🏆 Score: 2165
+TD3 📋> 🏆 Score: 2165
+TD2 📋> ␅
+TD7 ␆🏅 Rank: 70/176 👏
+TD2 📋> 🏅 Rank: 70/176 👏
+TD3 📋> ␅
+TD8 ␆🧩 Tiles: 21/21 ✅
+TD3 📋> 🧩 Tiles: 21/21 ✅
+TD3 📋> ␅
+TD90 ␆📏 Space Bonus: +65
+TD52 📋> 📏 Space Bonus: +65
+TD9 📋> ␅
+TD17 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD8 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD8 ␆Play at https://spaceword.org
+TD4 📋> Play at https://spaceword.org
+TD5 📋> ␅
+TD75816 ␆#spaceword
+TD72 📋> #spaceword
+TD10 📋> ␅
+TD171412 ␄
+TD131 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-10-31 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 70/176 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TD1184 result: "\u2728 Spaceword.org Daily 2026-10-31 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 70/176 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"
+TD26209 [prior:2165]> ␅
+TD830026 ␆/store
+TD61 [prior:2165]> /store
