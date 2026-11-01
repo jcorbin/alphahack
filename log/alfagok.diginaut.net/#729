@@ -1,0 +1,86 @@
+T29.851715241005877 now: 2026-11-01T08:52:07EST
+TD149 site: alfagok.diginaut.net
+TD548470 loaded 399449 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1403 words excluded) asof 9ed25cbec64d72eccf79edbac884122b20f06ed4
+TD110  ...␅
+TD4852280 ␆
+TD113  ...
+TD257 [0 : 199631 : 399449] lijk? ␅
+TD3281659 ␆a
+TD125 [0 : 199631 : 399449] lijk? a
+TD445 progress: 1 199631 lijk
+TD148 [199632 : 299528 : 399449] schroot? ␅
+TD1597775 ␆b
+TD102 [199632 : 299528 : 399449] schroot? b
+TD117 progress: -1 299528 schroot
+TD104 [199632 : 249544 : 299528] opi? ␅
+TD1554795 ␆a
+TD111 [199632 : 249544 : 299528] opi? a
+TD117 progress: 1 249544 opi
+TD113 [249545 : 274460 : 299528] prop? ␅
+TD1509100 ␆a
+TD213 [249545 : 274460 : 299528] prop? a
+TD229 progress: 1 274460 prop
+TD100 [274461 : 286974 : 299528] riool? ␅
+TD1597096 ␆b
+TD102 [274461 : 286974 : 299528] riool? b
+TD105 progress: -1 286974 riool
+TD119 [274461 : 280558 : 286974] red? ␅
+TD1678432 ␆b
+TD113 [274461 : 280558 : 286974] red? b
+TD121 progress: -1 280558 red
+TD128 [274461 : 277364 : 280558] radio? ␅
+TD1520217 ␆b
+TD100 [274461 : 277364 : 280558] radio? b
+TD136 progress: -1 277364 radio
+TD145 [274461 : 275906 : 277364] punt? ␅
+TD1534389 ␆a
+TD114 [274461 : 275906 : 277364] punt? a
+TD130 progress: 1 275906 punt
+TD110 [275907 : 276630 : 277364] quiz? ␅
+TD1462383 ␆a
+TD120 [275907 : 276630 : 277364] quiz? a
+TD136 progress: 1 276630 quiz
+TD135 [276631 : 276991 : 277364] raap? ␅
+TD1782972 ␆b
+TD112 [276631 : 276991 : 277364] raap? b
+TD120 progress: -1 276991 raap
+TD139 [276631 : 276720 : 276991] raad? ␅
+TD1533779 ␆a
+TD109 [276631 : 276720 : 276991] raad? a
+TD120 progress: 1 276720 raad
+TD144 [276721 : 276855 : 276991] raaf? ␅
+TD1518114 ␆a
+TD98 [276721 : 276855 : 276991] raaf? a
+TD102 progress: 1 276855 raaf
+TD98 [276856 : 276899 : 276991] raam? ␅
+TD2011257 ␆b
+TD142 [276856 : 276899 : 276991] raam? b
+TD131 progress: -1 276899 raam
+TD214 [276856 : 276877 : 276899] raak? ␅
+TD1919038 ␆it
+TD107 [276856 : 276877 : 276899] raak? it
+TD117 progress: 0 276877 raak
+TD26 [276856 : 276877 : 276899] <Done>.
+TD110 📋> ␅
+TD2603879 ␆🧩 Puzzel #729
+TD104 📋> 🧩 Puzzel #729
+TD16 📋> ␅
+TD47 ␆🤔 14 gokken
+TD7 📋> 🤔 14 gokken
+TD7 📋> ␅
+TD12 ␆⏱️ 21s
+TD6 📋> ⏱️ 21s
+TD4 📋> ␅
+TD127704 ␆🔗 alfagok.diginaut.net
+TD191 📋> 🔗 alfagok.diginaut.net
+TD15 📋> ␅
+TD205198 ␄
+TD236 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #729\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 21s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD731 result: "\ud83e\udde9 Puzzel #729\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 21s\n\ud83d\udd17 alfagok.diginaut.net"
+TD17 result puzzle: 729
+TD5 result guesses: 14
+TD4 result time: 21s
+TD3 result link: alfagok.diginaut.net
+TD186 📆 2026-11-01 ? ␅
+TD310987 ␆
+TD109 📆 2026-11-01 ? 
