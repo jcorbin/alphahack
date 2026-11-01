@@ -1,0 +1,193 @@
+T1842.7655805360118 now: 2026-11-01T09:22:20EST
+TD90 site: https://www.merriam-webster.com/games/quordle/#/
+TD16 wordlist: nwl2023.txt
+TD5 num_words: 4
+TD89  ...␅
+TD925831 ␆
+TD98  ...
+TD571804 > ␅
+TD14281408 ␆*
+TD83 > *
+TD56181 ? ␅
+TD686837 ␆1
+TD107 ? 1
+TD187 questioning: braes
+TD172 Classic #1 _____? ␅
+TD3529377 ␆nYnMn
+TD97 Classic #1 _____? nYnMn
+TD364 attempt: 0 BRAES n Y n m n
+TD94 Classic #2 _____? ␅
+TD1410166 ␆nYnYn
+TD113 Classic #2 _____? nYnYn
+TD308 attempt: 1 BRAES n Y n Y n
+TD123 Classic #3 _____? ␅
+TD1925268 ␆nnnMM
+TD98 Classic #3 _____? nnnMM
+TD188 attempt: 2 BRAES n n n m m
+TD87 Classic #4 _____? ␅
+TD2031002 ␆YnnMn
+TD65 Classic #4 _____? YnnMn
+TD149 attempt: 3 BRAES Y n n m n
+TD549407 > ␅
+TD722661 ␆*
+TD116 > *
+TD2398 ? ␅
+TD4116339 ␆8
+TD108 ? 8
+TD182 questioning: smite
+TD177 Classic #1 _R___ ~E -ABS? ␅
+TD2585882 ␆nnnnY
+TD118 Classic #1 _R___ ~E -ABS? nnnnY
+TD280 attempt: 0 SMITE n n n n Y
+TD112 Classic #2 _R_E_ -ABS? ␅
+TD1450763 ␆nnYnM
+TD99 Classic #2 _R_E_ -ABS? nnYnM
+TD186 attempt: 1 SMITE n n Y n m
+TD90 Classic #3 _____ ~ES -ABR? ␅
+TD1685612 ␆YnnnM
+TD114 Classic #3 _____ ~ES -ABR? YnnnM
+TD423 attempt: 2 SMITE Y n n n m
+TD123 Classic #4 B____ ~E -ARS? ␅
+TD1270095 ␆nnMnM
+TD182 Classic #4 B____ ~E -ARS? nnMnM
+TD219 attempt: 3 SMITE n n m n m
+TD512993 > ␅
+TD607417 ␆*
+TD103 > *
+TD648 ? ␅
+TD1069036 ␆1
+TD212 ? 1
+TD233 questioning: drone
+TD189 Classic #1 _R__E -ABIMST? ␅
+TD4279728 ␆YYYnY
+TD122 Classic #1 _R__E -ABIMST? YYYnY
+TD252 attempt: 0 DRONE Y Y Y n Y
+TD119 Classic #2 _RIE_ -ABMST? ␅
+TD2101722 ␆MYnnM
+TD114 Classic #2 _RIE_ -ABMST? MYnnM
+TD237 attempt: 1 DRONE m Y n n m
+TD128 Classic #3 S____ ~E -ABIMRT? ␅
+TD2432249 ␆nnnnM
+TD117 Classic #3 S____ ~E -ABIMRT? nnnnM
+TD239 attempt: 2 DRONE n n n n m
+TD121 Classic #4 B____ ~EI -AMRST? ␅
+TD1194073 ␆nnnMM
+TD127 Classic #4 B____ ~EI -AMRST? nnnMM
+TD254 attempt: 3 DRONE n n n m m
+TD509075 > ␅
+TD754319 ␆*
+TD96 > *
+TD358 questioning: begin
+TD115 Classic #1 DRO_E -ABIMNST? ␅
+TD3344241 ␆nMnnn
+TD102 Classic #1 DRO_E -ABIMNST? nMnnn
+TD269 attempt: 0 BEGIN n m n n n
+TD156 Classic #2 _RIE_ ~D -ABMNOST? ␅
+TD3155800 ␆nMnMn
+TD102 Classic #2 _RIE_ ~D -ABMNOST? nMnMn
+TD233 attempt: 1 BEGIN n m n m n
+TD142 Classic #3 S____ ~E -ABDIMNORT? ␅
+TD1922313 ␆nMnnn
+TD117 Classic #3 S____ ~E -ABDIMNORT? nMnnn
+TD248 attempt: 2 BEGIN n m n n n
+TD124 Classic #4 B____ ~EIN -ADMORST? ␅
+TD1074727 ␆YYYYY
+TD121 Classic #4 B____ ~EIN -ADMORST? YYYYY
+TD247 attempt: 3 BEGIN Y Y Y Y Y
+TD384635 > ␅
+TD842468 ␆*
+TD268 > *
+TD875 ? ␅
+TD2532072 ␆2
+TD94 ? 2
+TD159 questioning: drove
+TD163 Classic #1 DRO_E -ABGIMNST? ␅
+TD2977562 ␆YYYYY
+TD96 Classic #1 DRO_E -ABGIMNST? YYYYY
+TD175 attempt: 0 DROVE Y Y Y Y Y
+TD98 Classic #2 _RIE_ ~D -ABGMNOST? ␅
+TD1805215 ␆MYnnM
+TD104 Classic #2 _RIE_ ~D -ABGMNOST? MYnnM
+TD189 attempt: 1 DROVE m Y n n m
+TD110 Classic #3 S____ ~E -ABDGIMNORT? ␅
+TD1606502 ␆nnnnM
+TD159 Classic #3 S____ ~E -ABDGIMNORT? nnnnM
+TD306 attempt: 2 DROVE n n n n m
+TD255158 > ␅
+TD629171 ␆*
+TD101 > *
+TD618 ? ␅
+TD3169409 ␄
+TD179 <EOF>
+TD257742 > ␅
+TD8374566 ␆probe hkpwc
+TD112 > probe hkpwc
+TD536300 > ␅
+TD3988255 ␆tried whack
+TD162 > tried whack
+TD374 questioning: WHACK
+TD187 Classic #2 _RIE_ ~D -ABGMNOSTV? ␅
+TD2057850 ␆nnnnn
+TD120 Classic #2 _RIE_ ~D -ABGMNOSTV? nnnnn
+TD271 attempt: 1 WHACK n n n n n
+TD156 Classic #3 S____ ~E -ABDGIMNORTV? ␅
+TD1315278 ␆nYnnn
+TD108 Classic #3 S____ ~E -ABDGIMNORTV? nYnnn
+TD225 attempt: 2 WHACK n Y n n n
+TD246991 > ␅
+TD704397 ␆*
+TD125 > *
+TD630 ? ␅
+TD1710827 ␆1
+TD101 ? 1
+TD174 questioning: fried
+TD164 Classic #2 _RIE_ ~D -ABCGHKMNOSTVW? ␅
+TD2899651 ␆nYYYY
+TD112 Classic #2 _RIE_ ~D -ABCGHKMNOSTVW? nYYYY
+TD239 attempt: 1 FRIED n Y Y Y Y
+TD140 Classic #3 SH___ ~E -ABCDGIKMNORTVW? ␅
+TD1585268 ␆nnnMn
+TD107 Classic #3 SH___ ~E -ABCDGIKMNORTVW? nnnMn
+TD217 attempt: 2 FRIED n n n m n
+TD252604 > ␅
+TD713131 ␆*
+TD70 > *
+TD262 questioning: pried
+TD97 Classic #2 _RIED -ABCFGHKMNOSTVW? ␅
+TD2911466 ␆YYYYY
+TD130 Classic #2 _RIED -ABCFGHKMNOSTVW? YYYYY
+TD279 attempt: 1 PRIED Y Y Y Y Y
+TD172 Classic #3 SH___ ~E -ABCDFGIKMNORTVW? ␅
+TD1905216 ␆nnnMn
+TD119 Classic #3 SH___ ~E -ABCDFGIKMNORTVW? nnnMn
+TD273 attempt: 2 PRIED n n n m n
+TD125190 > ␅
+TD658516 ␆*
+TD92 > *
+TD323 questioning: shell
+TD126 Classic #3 SH___ ~E -ABCDFGIKMNOPRTVW? ␅
+TD3139027 ␆YYYYY
+TD127 Classic #3 SH___ ~E -ABCDFGIKMNOPRTVW? YYYYY
+TD255 attempt: 2 SHELL Y Y Y Y Y
+TD119 📋> ␅
+TD5565457 ␆🙂 Daily Quordle 1742
+TD128 📋> 🙂 Daily Quordle 1742
+TD16 📋> ␅
+TD62 ␆5️⃣8️⃣
+TD9 📋> 5️⃣8️⃣
+TD8 📋> ␅
+TD16 ␆9️⃣4️⃣
+TD6 📋> 9️⃣4️⃣
+TD6 📋> ␅
+TD15 ␆m-w.com/games/quordle/
+TD7 📋> m-w.com/games/quordle/
+TD6 📋> ␅
+TD250423 ␆
+TD129 📋> 
+TD19 📋> ␅
+TD315639 ␄
+TD198 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1742\n5\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1535 result: "\ud83d\ude42 Daily Quordle 1742\n5\ufe0f\u20e38\ufe0f\u20e3\n9\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD84 📆 2026-11-01 ? ␅
+TD337676 ␆
+TD108 📆 2026-11-01 ? 
