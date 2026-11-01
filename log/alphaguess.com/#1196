@@ -1,0 +1,106 @@
+T71.72131524601718 now: 2026-11-01T08:52:48EST
+TD118 site: alphaguess.com
+TD196582 loaded 196508 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (96 words excluded) asof 9ed25cbec64d72eccf79edbac884122b20f06ed4
+TD120  ...␅
+TD4959096 ␆
+TD93  ...
+TD177 [0 : 98139 : 196508] mac? ␅
+TD2481026 ␆a
+TD126 [0 : 98139 : 196508] mac? a
+TD118 progress: 1 98139 mac
+TD110 [98140 : 147301 : 196508] rho? ␅
+TD1457324 ␆b
+TD98 [98140 : 147301 : 196508] rho? b
+TD100 progress: -1 147301 rho
+TD92 [98140 : 122715 : 147301] parol? ␅
+TD1661918 ␆b
+TD115 [98140 : 122715 : 147301] parol? b
+TD115 progress: -1 122715 parol
+TD136 [98140 : 109921 : 122715] ne? ␅
+TD6210440 ␆b
+TD120 [98140 : 109921 : 122715] ne? b
+TD118 progress: -1 109921 ne
+TD129 [98140 : 104003 : 109921] minis? ␅
+TD1721828 ␆b
+TD118 [98140 : 104003 : 109921] minis? b
+TD115 progress: -1 104003 minis
+TD120 [98140 : 101034 : 104003] media? ␅
+TD1530773 ␆b
+TD123 [98140 : 101034 : 104003] media? b
+TD117 progress: -1 101034 media
+TD124 [98140 : 99563 : 101034] mans? ␅
+TD2429499 ␆a
+TD113 [98140 : 99563 : 101034] mans? a
+TD119 progress: 1 99563 mans
+TD115 [99564 : 100168 : 101034] mas? ␅
+TD1541788 ␆a
+TD142 [99564 : 100168 : 101034] mas? a
+TD134 progress: 1 100168 mas
+TD165 [100169 : 100398 : 101034] mat? ␅
+TD1527028 ␆a
+TD112 [100169 : 100398 : 101034] mat? a
+TD119 progress: 1 100398 mat
+TD125 [100399 : 100708 : 101034] maxim? ␅
+TD1600850 ␆b
+TD123 [100399 : 100708 : 101034] maxim? b
+TD129 progress: -1 100708 maxim
+TD259 [100399 : 100553 : 100708] matron? ␅
+TD1502876 ␆a
+TD134 [100399 : 100553 : 100708] matron? a
+TD133 progress: 1 100553 matron
+TD292 [100554 : 100631 : 100708] maul? ␅
+TD2130692 ␆b
+TD144 [100554 : 100631 : 100708] maul? b
+TD114 progress: -1 100631 maul
+TD140 [100554 : 100570 : 100631] matt? ␅
+TD1472372 ␆a
+TD132 [100554 : 100570 : 100631] matt? a
+TD143 progress: 1 100570 matt
+TD284 [100571 : 100601 : 100631] mature? ␅
+TD2042200 ␆b
+TD116 [100571 : 100601 : 100631] mature? b
+TD117 progress: -1 100601 mature
+TD214 [100571 : 100586 : 100601] mattocks? ␅
+TD2413174 ␆a
+TD92 [100571 : 100586 : 100601] mattocks? a
+TD105 progress: 1 100586 mattocks
+TD362 [100587 : 100594 : 100601] maturate? ␅
+TD1474801 ␆b
+TD120 [100587 : 100594 : 100601] maturate? b
+TD120 progress: -1 100594 maturate
+TD212 [100587 : 100590 : 100594] mattrasses? ␅
+TD1531580 ␆a
+TD172 [100587 : 100590 : 100594] mattrasses? a
+TD133 progress: 1 100590 mattrasses
+TD233 [100591 : 100592 : 100594] mattresses? ␅
+TD1468953 ␆b
+TD140 [100591 : 100592 : 100594] mattresses? b
+TD131 progress: -1 100592 mattresses
+TD258 [100591 : 100591 : 100592] mattress? ␅
+TD2695915 ␆it
+TD100 [100591 : 100591 : 100592] mattress? it
+TD101 progress: 0 100591 mattress
+TD22 [100591 : 100591 : 100592] <Done>.
+TD83 📋> ␅
+TD2472697 ␆🧩 Puzzle #1196
+TD101 📋> 🧩 Puzzle #1196
+TD10 📋> ␅
+TD40 ␆🤔 19 guesses
+TD5 📋> 🤔 19 guesses
+TD3 📋> ␅
+TD7 ␆⏱️ 35s
+TD4 📋> ⏱️ 35s
+TD3 📋> ␅
+TD134072 ␆🔗 alphaguess.com/1196
+TD106 📋> 🔗 alphaguess.com/1196
+TD11 📋> ␅
+TD342827 ␄
+TD183 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1196\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 35s\n\ud83d\udd17 alphaguess.com/1196"}
+TD89 result: "\ud83e\udde9 Puzzle #1196\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 35s\n\ud83d\udd17 alphaguess.com/1196"
+TD10 result puzzle: 1196
+TD5 result guesses: 19
+TD3 result time: 35s
+TD3 result link: alphaguess.com/1196
+TD87 📆 2026-11-01 ? ␅
+TD418007 ␆
+TD121 📆 2026-11-01 ? 
