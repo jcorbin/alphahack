@@ -1,0 +1,284 @@
+T12262.793198424013 now: 2026-11-01T13:47:25EST
+TD72 site: https://wordgrid.clevergoat.com/
+TD12 wordlist: nwl2023.txt
+TD32 > ␅
+TD7618872 ␆col 1 #1-6
+TD99 > col 1 #1-6
+TD588 rule col: 1 #1-6
+TD91 > ␅
+TD8855244 ␆col 2 ![CLU]
+TD124 > col 2 ![CLU]
+TD442 rule col: 2 ![CLU]
+TD75 > ␅
+TD4510370 ␆col 3 &AE
+TD113 > col 3 &AE
+TD415 rule col: 3 &AE
+TD105 > ␅
+TD3358245 ␆row 1 ~AN$
+TD127 > row 1 ~AN$
+TD333 rule row: 1 ~AN$
+TD77 > ␅
+TD1816082 ␆row 2 ~K$
+TD108 > row 2 ~K$
+TD547 rule row: 2 ~K$
+TD180 > ␅
+TD2267998 ␆row 3 ET$
+TD100 > row 3 ET$
+TD657 > ␅
+TD4715274 ␆row 3 ~ET$
+TD117 > row 3 ~ET$
+TD382 rule row: 3 ~ET$
+TD181 > ␅
+TD2843921 ␆sol
+TD93 > sol
+TD179 > ␅
+TD778079 ␆*
+TD90 > *
+TD293146 ? ␅
+TD3370673 ␆7
+TD95 ? 7
+TD155 questioning: 0 teopan
+TD50 🌡️ teopan 📋 ? ␅
+TD4354745 ␆.01
+TD132 🌡️ teopan 📋 ? .01
+TD277 word: 0 teopan 0.01
+TD19 questioning: -1 
+TD75 > ␅
+TD588933 ␆*
+TD115 > *
+TD281814 ? ␅
+TD6463460 ␆10
+TD97 ? 10
+TD139 questioning: 1 seitan
+TD51 🌡️ seitan 📋 ? ␅
+TD3884321 ␆.19
+TD114 🌡️ seitan 📋 ? .19
+TD96 word: 1 seitan 0.19
+TD17 questioning: -1 
+TD89 > ␅
+TD510014 ␆*
+TD108 > *
+TD314460 ? ␅
+TD2393864 ␆1
+TD84 ? 1
+TD131 questioning: 2 mesian
+TD42 🌡️ mesian 📋 ? ␅
+TD3537268 ␆.03
+TD56 🌡️ mesian 📋 ? .03
+TD58 word: 2 mesian 0.03
+TD12 questioning: -1 
+TD62 > ␅
+TD2131720 ␆* 2 1
+TD61 > * 2 1
+TD275838 ? ␅
+TD2722067 ␆4
+TD100 ? 4
+TD137 questioning: 1 sokeman
+TD41 🌡️ sokeman 📋 ? ␅
+TD2698174 ␆-0
+TD92 🌡️ sokeman 📋 ? -0
+TD109 🌡️ sokeman 📋 ? ␅
+TD865382 ␆0
+TD95 🌡️ sokeman 📋 ? 0
+TD83 word: 1 sokeman 0.0
+TD16 questioning: -1 
+TD89 > ␅
+TD524802 ␆*
+TD88 > *
+TD256975 ? ␅
+TD4436916 ␆8
+TD63 ? 8
+TD90 questioning: 3 auk
+TD30 🌡️ auk 📋 ? ␅
+TD4567838 ␆.16
+TD78 🌡️ auk 📋 ? .16
+TD107 word: 3 auk 0.16
+TD20 questioning: -1 
+TD98 > ␅
+TD571287 ␆*
+TD94 > *
+TD280228 ? ␅
+TD4998262 ␆7
+TD60 ? 7
+TD90 questioning: 4 tinwork
+TD29 🌡️ tinwork 📋 ? ␅
+TD2869819 ␆0
+TD62 🌡️ tinwork 📋 ? 0
+TD55 word: 4 tinwork 0.0
+TD13 questioning: -1 
+TD68 > ␅
+TD1212170 ␆*
+TD94 > *
+TD304074 ? ␅
+TD2727162 ␆5
+TD96 ? 5
+TD135 questioning: 5 alpenstock
+TD42 🌡️ alpenstock 📋 ? ␅
+TD4066402 ␆.13
+TD149 🌡️ alpenstock 📋 ? .13
+TD131 word: 5 alpenstock 0.13
+TD16 questioning: -1 
+TD84 > ␅
+TD2337670 ␆* 1 2
+TD96 > * 1 2
+TD268921 ? ␅
+TD2676856 ␆6
+TD93 ? 6
+TD135 questioning: 3 haick
+TD52 🌡️ haick 📋 ? ␅
+TD4332360 ␆.01
+TD156 🌡️ haick 📋 ? .01
+TD100 word: 3 haick 0.01
+TD16 questioning: -1 
+TD95 > ␅
+TD1986297 ␆* 3 2
+TD84 > * 3 2
+TD308141 ? ␅
+TD6414153 ␆4
+TD88 ? 4
+TD89 questioning: 5 silverback
+TD29 🌡️ silverback 📋 ? ␅
+TD3142565 ␆.24
+TD91 🌡️ silverback 📋 ? .24
+TD87 word: 5 silverback 0.24
+TD17 questioning: -1 
+TD89 > ␅
+TD2319920 ␆* 3 2 -bot 10
+TD90 > * 3 2 -bot 10
+TD313760 ? ␅
+TD4239696 ␆2
+TD75 ? 2
+TD101 questioning: 5 sheepshank
+TD36 🌡️ sheepshank 📋 ? ␅
+TD4527966 ␆.08
+TD90 🌡️ sheepshank 📋 ? .08
+TD83 word: 5 sheepshank 0.08
+TD16 questioning: -1 
+TD87 > ␅
+TD622927 ␆*
+TD59 > *
+TD266580 ? ␅
+TD5130005 ␆6
+TD96 ? 6
+TD174 questioning: 6 labret
+TD101 🌡️ labret 📋 ? ␅
+TD3638826 ␆.05
+TD121 🌡️ labret 📋 ? .05
+TD106 word: 6 labret 0.05
+TD114 questioning: -1 
+TD180 > ␅
+TD684776 ␆*
+TD94 > *
+TD277976 ? ␅
+TD1527608 ␆9
+TD95 ? 9
+TD133 questioning: 7 baronet
+TD44 🌡️ baronet 📋 ? ␅
+TD3064479 ␆.42
+TD113 🌡️ baronet 📋 ? .42
+TD86 word: 7 baronet 0.42
+TD16 questioning: -1 
+TD93 > ␅
+TD1834242 ␆* 2 3
+TD62 > * 2 3
+TD279214 ? ␅
+TD2427280 ␆1
+TD56 ? 1
+TD86 questioning: 7 aigret
+TD31 🌡️ aigret 📋 ? ␅
+TD4411339 ␆.12
+TD94 🌡️ aigret 📋 ? .12
+TD85 word: 7 aigret 0.12
+TD17 questioning: -1 
+TD98 > ␅
+TD7176892 ␆* 2 3 -bot 10
+TD104 > * 2 3 -bot 10
+TD268500 ? ␅
+TD4104341 ␆4
+TD55 ? 4
+TD91 questioning: 7 antiferromagnet
+TD29 🌡️ antiferromagnet 📋 ? ␅
+TD4494883 ␆.21
+TD121 🌡️ antiferromagnet 📋 ? .21
+TD103 word: 7 antiferromagnet 0.21
+TD19 questioning: -1 
+TD130 > ␅
+TD2910931 ␆* 2 3 -bot 10
+TD77 > * 2 3 -bot 10
+TD277999 ? ␅
+TD7226316 ␆8
+TD97 ? 8
+TD134 questioning: 7 overinterpret
+TD98 🌡️ overinterpret 📋 ? ␅
+TD5277009 ␄
+TD122 <EOF>
+TD152 > ␅
+TD1584725 ␆* 2 3
+TD87 > * 2 3
+TD263678 ? ␅
+TD3728665 ␆\3
+TD110 ? \3
+TD475 ? ␅
+TD1635303 ␆3
+TD91 ? 3
+TD131 questioning: 7 imaret
+TD42 🌡️ imaret 📋 ? ␅
+TD2699306 ␆.04
+TD79 🌡️ imaret 📋 ? .04
+TD82 word: 7 imaret 0.04
+TD21 questioning: -1 
+TD101 > ␅
+TD421342 ␆*
+TD91 > *
+TD305787 ? ␅
+TD2643843 ␆7
+TD95 ? 7
+TD141 questioning: 8 minaret
+TD44 🌡️ minaret 📋 ? ␅
+TD2814611 ␆.54
+TD244 🌡️ minaret 📋 ? .54
+TD183 word: 8 minaret 0.54
+TD18 questioning: -1 
+TD88 > ␅
+TD934865 ␆* 3 3
+TD76 > * 3 3
+TD322563 ? ␅
+TD4584087 ␆4
+TD118 ? 4
+TD264 questioning: 8 haslet
+TD41 🌡️ haslet 📋 ? ␅
+TD3273531 ␆.08
+TD59 🌡️ haslet 📋 ? .08
+TD57 word: 8 haslet 0.08
+TD13 questioning: -1 
+TD66 > ␅
+TD4752447 ␆/res
+TD59 > /res
+TD108 📋> ␅
+TD899449 ␆Word Grid #884
+TD89 📋> Word Grid #884
+TD10 📋> ␅
+TD46 ␆🌌🦄🌌
+TD3 📋> 🌌🦄🌌
+TD3 📋> ␅
+TD7 ␆🌌🦄🌌
+TD2 📋> 🌌🦄🌌
+TD2 📋> ␅
+TD6 ␆🌌🌌🌌
+TD2 📋> 🌌🌌🌌
+TD2 📋> ␅
+TD5 ␆Rarity: 0.31
+TD2 📋> Rarity: 0.31
+TD3 📋> ␅
+TD175761 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD58 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD6 📋> ␅
+TD224919 ␄
+TD105 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #884\n\ud83c\udf0c\ud83e\udd84\ud83c\udf0c\n\ud83c\udf0c\ud83e\udd84\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\nRarity: 0.31\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD340 result: "Word Grid #884\n\ud83c\udf0c\ud83e\udd84\ud83c\udf0c\n\ud83c\udf0c\ud83e\udd84\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\nRarity: 0.31\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD63 > ␅
+TD1056476 ␆/store
+TD74 > /store
+TD172 📆 2026-11-01 ? ␅
+TD333742 ␆
+TD71 📆 2026-11-01 ? 
