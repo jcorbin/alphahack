@@ -1,0 +1,211 @@
+T2291.3009099710034 now: 2026-11-01T09:29:48EST
+TD131 site: squareword.org
+TD26 wordlist: nwl2023.txt
+TD35  ...␅
+TD682551 ␆
+TD91  ...
+TD70 🧩  ? ␅
+TD8696220 ␆#1735
+TD115 🧩  ? #1735
+TD283 puzzle_id: #1735
+TD341 > ␅
+TD708249 ␆
+TD91 > 
+TD415 > ␅
+TD576728 ␆*
+TD107 > *
+TD317459 try? ␅
+TD1092286 ␆1
+TD172 try? 1
+TD381 questioning: ["acnes", "#5"]
+TD229 #1 <IndexError>  📋 "acnes" ? ␅
+TD4183802 ␆___E_ ~ S
+TD100 #1 <IndexError>  📋 "acnes" ? ___E_ ~ S
+TD880 attempt 0 ACNES n n n Y m
+TD150 #2 <IndexError>  📋 "acnes" ? ␅
+TD2497681 ␆_____ ~ AE
+TD115 #2 <IndexError>  📋 "acnes" ? _____ ~ AE
+TD292 attempt 1 ACNES m n n m n
+TD146 #3 <IndexError>  📋 "acnes" ? ␅
+TD2391987 ␆_____ ~ NE
+TD115 #3 <IndexError>  📋 "acnes" ? _____ ~ NE
+TD271 attempt 2 ACNES n n m m n
+TD141 #4 <IndexError>  📋 "acnes" ? ␅
+TD3502948 ␆_____ ~ ACNS
+TD116 #4 <IndexError>  📋 "acnes" ? _____ ~ ACNS
+TD271 attempt 3 ACNES m m m n m
+TD172 #5 <IndexError>  📋 "acnes" ? ␅
+TD1989241 ␆____S ~ A
+TD117 #5 <IndexError>  📋 "acnes" ? ____S ~ A
+TD275 attempt 4 ACNES m n n n Y
+TD391 ? ␅
+TD288151 ␆
+TD112 ? 
+TD158 question done
+TD295 > ␅
+TD476237 ␆*
+TD125 > *
+TD998191 questioning: ["snack", "#4"]
+TD166 #1 ___E_ ~S -ACN  📋 "snack" ? ␅
+TD4557274 ␆S__E_ 
+TD103 #1 ___E_ ~S -ACN  📋 "snack" ? S__E_ 
+TD243 attempt 0 SNACK Y n n n n
+TD133 #2 _____ ~AE -CNS  📋 "snack" ? ␅
+TD2401930 ␆__A__ ~ E
+TD98 #2 _____ ~AE -CNS  📋 "snack" ? __A__ ~ E
+TD218 attempt 1 SNACK n n Y n n
+TD128 #3 _____ ~EN -ACS  📋 "snack" ? ␅
+TD4394565 ␆_N___ ~ E
+TD130 #3 _____ ~EN -ACS  📋 "snack" ? _N___ ~ E
+TD260 attempt 2 SNACK n Y n n n
+TD163 #4 _____ ~ACNS -E  📋 "snack" ? ␅
+TD1001971 ␆/it
+TD122 #4 _____ ~ACNS -E  📋 "snack" ? /it
+TD380 attempt 3 SNACK Y Y Y Y Y
+TD137 #5 ____S ~A -CEN  📋 "snack" ? ␅
+TD1665868 ␆.
+TD120 #5 ____S ~A -CEN  📋 "snack" ? .
+TD341 attempt 4 SNACK n n m n n
+TD404 ? ␅
+TD168340 ␆
+TD123 ? 
+TD123 question done
+TD336 > ␅
+TD436368 ␆*
+TD112 > *
+TD1050391 try? ␅
+TD4489336 ␆2
+TD109 try? 2
+TD298 questioning: ["untie", "#3"]
+TD338 #1 S__E_ -ACKN  📋 "untie" ? ␅
+TD4904331 ␆.
+TD116 #1 S__E_ -ACKN  📋 "untie" ? .
+TD290 attempt 0 UNTIE n n n n n
+TD103 #2 __A__ ~E -CKNS  📋 "untie" ? ␅
+TD4967365 ␆__A_E ~ E
+TD84 #2 __A__ ~E -CKNS  📋 "untie" ? __A_E ~ E
+TD225 attempt 1 UNTIE n n n n Y
+TD127 #3 _N___ ~E -ACKS  📋 "untie" ? ␅
+TD3109370 ␆_N_IE ~ I
+TD112 #3 _N___ ~E -ACKS  📋 "untie" ? _N_IE ~ I
+TD269 attempt 2 UNTIE n Y n Y Y
+TD163 #5 ____S ~A -CEKNS  📋 "untie" ? ␅
+TD3739207 ␆____S ~ AT
+TD120 #5 ____S ~A -CEKNS  📋 "untie" ? ____S ~ AT
+TD387 attempt 4 UNTIE n n m n n
+TD332 ? ␅
+TD417598 ␆
+TD113 ? 
+TD142 question done
+TD297 > ␅
+TD612823 ␆*
+TD216 > *
+TD782958 questioning: ["indie", "#3"]
+TD313 #1 S__E_ -ACEIKNTU  📋 "indie" ? ␅
+TD3906978 ␆.
+TD132 #1 S__E_ -ACEIKNTU  📋 "indie" ? .
+TD266 attempt 0 INDIE n n n n n
+TD86 #2 __A_E -CIKNSTU  📋 "indie" ? ␅
+TD3842690 ␆__A_E ~ E
+TD102 #2 __A_E -CIKNSTU  📋 "indie" ? __A_E ~ E
+TD230 attempt 1 INDIE n n n n Y
+TD137 #3 _N_IE -ACKSTU  📋 "indie" ? ␅
+TD839695 ␆/it
+TD120 #3 _N_IE -ACKSTU  📋 "indie" ? /it
+TD262 attempt 2 INDIE Y Y Y Y Y
+TD90 #5 ____S ~AT -CEIKNSU  📋 "indie" ? ␅
+TD397488 ␆
+TD116 #5 ____S ~AT -CEIKNSU  📋 "indie" ? 
+TD335 #5 ____S ~AT -CEIKNSU  ? ␅
+TD2515108 ␆.
+TD106 #5 ____S ~AT -CEIKNSU  ? .
+TD227 attempt 4 INDIE n n n n n
+TD221 ? ␅
+TD244117 ␆
+TD113 ? 
+TD122 question done
+TD382 > ␅
+TD593910 ␆*
+TD111 > *
+TD1287239 questioning: ["shrew", "#1"]
+TD165 #1 S__E_ -ACDEIKNTU  📋 "shrew" ? ␅
+TD3104716 ␆/it
+TD126 #1 S__E_ -ACDEIKNTU  📋 "shrew" ? /it
+TD424 attempt 0 SHREW Y Y Y Y Y
+TD126 #2 __A_E -CDIKNSTU  📋 "shrew" ? ␅
+TD5119771 ␆__A_E ~ EW
+TD128 #2 __A_E -CDIKNSTU  📋 "shrew" ? __A_E ~ EW
+TD347 attempt 1 SHREW n n n m m
+TD198 #5 ____S ~AT -CDEIKNSU  📋 "shrew" ? ␅
+TD3088540 ␆__R_S ~ ATH
+TD110 #5 ____S ~AT -CDEIKNSU  📋 "shrew" ? __R_S ~ ATH
+TD261 attempt 4 SHREW n m Y n n
+TD354 ? ␅
+TD281064 ␆
+TD103 ? 
+TD126 question done
+TD246 > ␅
+TD461722 ␆*
+TD121 > *
+TD1671580 questioning: ["weave", "#2"]
+TD231 #2 __A_E ~W -CDHIKNRSTU  📋 "weave" ? ␅
+TD2957810 ␆/it
+TD101 #2 __A_E ~W -CDHIKNRSTU  📋 "weave" ? /it
+TD244 attempt 1 WEAVE Y Y Y Y Y
+TD204 #5 __R_S ~AHT -CDEIKNSUW  📋 "weave" ? ␅
+TD2087162 ␆.
+TD115 #5 __R_S ~AHT -CDEIKNSUW  📋 "weave" ? .
+TD265 attempt 4 WEAVE n n m n n
+TD305 ? ␅
+TD177520 ␆
+TD110 ? 
+TD123 question done
+TD332 > ␅
+TD423809 ␆*
+TD119 > *
+TD1280035 questioning: ["harts", "#5"]
+TD182 #5 __R_S ~AHT -CDEIKNSUVW  📋 "harts" ? ␅
+TD2716136 ␆/it
+TD109 #5 __R_S ~AHT -CDEIKNSUVW  📋 "harts" ? /it
+TD221 attempt 4 HARTS Y Y Y Y Y
+TD227 ? ␅
+TD470503 ␆
+TD191 ? 
+TD118 question done
+TD42685 📋> ␅
+TD6595235 ␆squareword.org 1735: 7 guesses
+TD109 📋> squareword.org 1735: 7 guesses
+TD13 📋> ␅
+TD58 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD12 ␆🟨🟨🟩🟨🟩
+TD4 📋> 🟨🟨🟩🟨🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟨🟨🟩🟨🟩
+TD4 📋> 🟨🟨🟩🟨🟩
+TD4 📋> ␅
+TD10 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD12 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD224135 ␆#squareword #squareword1735
+TD117 📋> #squareword #squareword1735
+TD11 📋> ␅
+TD229335 ␄
+TD204 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1735: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1735"}
+TD936 result: "squareword.org 1735: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1735"
+TD128 📆 2026-11-01 ? ␅
+TD367522 ␆
+TD116 📆 2026-11-01 ? 
