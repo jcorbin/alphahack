@@ -1,0 +1,234 @@
+T244.47343348999857 now: 2026-11-02T09:06:57EST
+TD79 site: https://play.dictionary.com/games/todays-hurdle
+TD11 wordlist: nwl2023.txt
+TD23  ...␅
+TD484030 ␆
+TD71  ...
+TD82 1.1> ␅
+TD11756363 ␆*
+TD59 1.1> *
+TD217878 1.1 ? ␅
+TD707900 ␆1
+TD59 1.1 ? 1
+TD144 1.1 📋 "stare" ? ␅
+TD3713250 ␆nMnnn
+TD60 1.1 📋 "stare" ? nMnnn
+TD124 tried: STARE n m n n n
+TD322 1.2> ␅
+TD468255 ␆*
+TD58 1.2> *
+TD114249 1.2 ? ␅
+TD898662 ␆1
+TD63 1.2 ? 1
+TD147 1.2 📋 "youth" ? ␅
+TD3753311 ␆nnMMn
+TD86 1.2 📋 "youth" ? nnMMn
+TD128 tried: YOUTH n n m m n
+TD141 1.3> ␅
+TD406076 ␆*
+TD64 1.3> *
+TD115752 1.3 ? ␅
+TD1611084 ␆1
+TD71 1.3 ? 1
+TD173 1.3 📋 "until" ? ␅
+TD3688315 ␆YYYYY
+TD72 1.3 📋 "until" ? YYYYY
+TD155 tried: UNTIL Y Y Y Y Y
+TD356 2.1 📋 "until" ? ␅
+TD65438819 ␆nnnnn
+TD81 2.1 📋 "until" ? nnnnn
+TD154 tried: UNTIL n n n n n
+TD165 2.2> ␅
+TD1154861 ␆*
+TD71 2.2> *
+TD119153 2.2 ? ␅
+TD1045262 ␆1
+TD97 2.2 ? 1
+TD238 2.2 📋 "orcas" ? ␅
+TD5273224 ␆nYMMn
+TD71 2.2 📋 "orcas" ? nYMMn
+TD150 tried: ORCAS n Y m m n
+TD228 2.3> ␅
+TD540868 ␆*
+TD79 2.3> *
+TD108152 2.3 ? ␅
+TD906833 ␆1
+TD57 2.3 ? 1
+TD136 2.3 📋 "crake" ? ␅
+TD5267172 ␆YYYnn
+TD66 2.3 📋 "crake" ? YYYnn
+TD125 tried: CRAKE Y Y Y n n
+TD140 2.4> ␅
+TD705339 ␆*
+TD72 2.4> *
+TD110799 2.4 ? ␅
+TD1446744 ␆1
+TD62 2.4 ? 1
+TD144 2.4 📋 "cramp" ? ␅
+TD3336824 ␆YYYYY
+TD58 2.4 📋 "cramp" ? YYYYY
+TD113 tried: CRAMP Y Y Y Y Y
+TD186 3.1 📋 "cramp" ? ␅
+TD7492928 ␆nnMnM
+TD77 3.1 📋 "cramp" ? nnMnM
+TD127 tried: CRAMP n n m n m
+TD124 3.2> ␅
+TD472846 ␆*
+TD64 3.2> *
+TD133231 3.2 ? ␅
+TD854012 ␆1
+TD59 3.2 ? 1
+TD141 3.2 📋 "sepal" ? ␅
+TD4451231 ␆nnMMn
+TD85 3.2 📋 "sepal" ? nnMMn
+TD157 tried: SEPAL n n m m n
+TD177 3.3> ␅
+TD470578 ␆*
+TD74 3.3> *
+TD108274 3.3 ? ␅
+TD1572623 ␆2
+TD65 3.3 ? 2
+TD148 3.3 📋 "paint" ? ␅
+TD3566895 ␆MMnnY
+TD90 3.3 📋 "paint" ? MMnnY
+TD173 tried: PAINT m m n n Y
+TD225 3.4> ␅
+TD451675 ␆*
+TD62 3.4> *
+TD96385 3.4 📋 "adopt" ? ␅
+TD3778453 ␆YYYYY
+TD62 3.4 📋 "adopt" ? YYYYY
+TD120 tried: ADOPT Y Y Y Y Y
+TD181 4.1 📋 "adopt" ? ␅
+TD8785949 ␆MnnMM
+TD59 4.1 📋 "adopt" ? MnnMM
+TD120 tried: ADOPT m n n m m
+TD117 4.2> ␅
+TD803565 ␆*
+TD58 4.2> *
+TD159934 4.2 ? ␅
+TD1136165 ␆1
+TD59 4.2 ? 1
+TD138 4.2 📋 "tapes" ? ␅
+TD3540562 ␆MMMnM
+TD130 4.2 📋 "tapes" ? MMMnM
+TD176 tried: TAPES m m m n m
+TD136 4.3> ␅
+TD509614 ␆*
+TD76 4.3> *
+TD152315 4.3 ? ␅
+TD1572731 ␆2
+TD61 4.3 ? 2
+TD139 4.3 📋 "stamp" ? ␅
+TD4460954 ␆YYMnY
+TD74 4.3 📋 "stamp" ? YYMnY
+TD128 tried: STAMP Y Y m n Y
+TD142 4.4> ␅
+TD406308 ␆*
+TD60 4.4> *
+TD95823 4.4 📋 "strap" ? ␅
+TD3039504 ␆YYYYY
+TD61 4.4 📋 "strap" ? YYYYY
+TD117 tried: STRAP Y Y Y Y Y
+TD172 5.1 📋 "until" ? ␅
+TD8529641 ␆MnnnY
+TD60 5.1 📋 "until" ? MnnnY
+TD116 tried: UNTIL m n n n Y
+TD143 5.2 📋 "cramp" ? ␅
+TD1643746 ␆nnMnn
+TD64 5.2 📋 "cramp" ? nnMnn
+TD127 tried: CRAMP n n m n n
+TD141 5.3 📋 "adopt" ? ␅
+TD1670346 ␆YnYnn
+TD60 5.3 📋 "adopt" ? YnYnn
+TD120 tried: ADOPT Y n Y n n
+TD146 5.4 📋 "strap" ? ␅
+TD1175117 ␆nnnMn
+TD81 5.4 📋 "strap" ? nnnMn
+TD165 tried: STRAP n n n m n
+TD196 5.5> ␅
+TD667191 ␆*
+TD72 5.5> *
+TD104320 5.5 📋 "afoul" ? ␅
+TD3977688 ␆YYYYY
+TD66 5.5 📋 "afoul" ? YYYYY
+TD136 tried: AFOUL Y Y Y Y Y
+TD161 📋> ␅
+TD9817594 ␆Hurdle 1766
+TD78 📋> Hurdle 1766
+TD8 📋> ␅
+TD23 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD5 ␆3/6
+TD2 📋> 3/6
+TD2 📋> ␅
+TD7 ␆⬜🟨⬜⬜⬜
+TD2 📋> ⬜🟨⬜⬜⬜
+TD2 📋> ␅
+TD5 ␆⬜⬜🟨🟨⬜
+TD2 📋> ⬜⬜🟨🟨⬜
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD5 ␆4/6
+TD2 📋> 4/6
+TD2 📋> ␅
+TD4 ␆⬜⬜⬜⬜⬜
+TD2 📋> ⬜⬜⬜⬜⬜
+TD2 📋> ␅
+TD4 ␆⬜🟩🟨🟨⬜
+TD2 📋> ⬜🟩🟨🟨⬜
+TD2 📋> ␅
+TD4 ␆🟩🟩🟩⬜⬜
+TD2 📋> 🟩🟩🟩⬜⬜
+TD2 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD4 ␆4/6
+TD2 📋> 4/6
+TD2 📋> ␅
+TD4 ␆⬜⬜🟨⬜🟨
+TD2 📋> ⬜⬜🟨⬜🟨
+TD2 📋> ␅
+TD4 ␆⬜⬜🟨🟨⬜
+TD8 📋> ⬜⬜🟨🟨⬜
+TD4 📋> ␅
+TD4 ␆🟨🟨⬜⬜🟩
+TD2 📋> 🟨🟨⬜⬜🟩
+TD2 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD4 ␆4/6
+TD2 📋> 4/6
+TD2 📋> ␅
+TD5 ␆🟨⬜⬜🟨🟨
+TD2 📋> 🟨⬜⬜🟨🟨
+TD2 📋> ␅
+TD4 ␆🟨🟨🟨⬜🟨
+TD2 📋> 🟨🟨🟨⬜🟨
+TD2 📋> ␅
+TD4 ␆🟩🟩🟨⬜🟩
+TD2 📋> 🟩🟩🟨⬜🟩
+TD2 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD4 ␆Final 1/2
+TD2 📋> Final 1/2
+TD2 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD2 📋> ␅
+TD190960 ␆score: 10,000
+TD59 📋> score: 10,000
+TD7 📋> ␅
+TD291418 ␄
+TD115 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1766\n\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"}
+TD426 result: "Hurdle 1766\n\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\ud83d\udfe8\n\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\u2b1c\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"
+TD56 📆 2026-11-02 ? ␅
+TD366450 ␆
+TD60 📆 2026-11-02 ? 
