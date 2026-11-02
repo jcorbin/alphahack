@@ -1,0 +1,205 @@
+T1151.1150943529792 now: 2026-11-02T09:42:48EST
+TD236 site: https://wordgrid.clevergoat.com/
+TD31 wordlist: nwl2023.txt
+TD79 > ␅
+TD25180382 ␆
+TD59 > 
+TD128 > ␅
+TD5697781 ␆col 1 &EI
+TD83 > col 1 &EI
+TD556 rule col: 1 &EI
+TD81 > ␅
+TD5152133 ␆col 2 ~^E
+TD78 > col 2 ~^E
+TD237 rule col: 2 ~^E
+TD65 > ␅
+TD2448837 ␆col 3 ~^S
+TD69 > col 3 ~^S
+TD234 rule col: 3 ~^S
+TD62 > ␅
+TD4986007 ␆row 1 #1-5
+TD73 > row 1 #1-5
+TD256 rule row: 1 #1-5
+TD66 > ␅
+TD3518338 ␆row 2 ~R$
+TD73 > row 2 ~R$
+TD236 rule row: 2 ~R$
+TD66 > ␅
+TD2308680 ␆row 3 ~EM
+TD73 > row 3 ~EM
+TD230 rule row: 3 ~EM
+TD66 > ␅
+TD355316 ␆
+TD72 > 
+TD153 > ␅
+TD3305116 ␆sol
+TD71 > sol
+TD300 > ␅
+TD257504 ␆
+TD71 > 
+TD302 > ␅
+TD874977 ␆*
+TD69 > *
+TD309918 ? ␅
+TD1387658 ␆1
+TD60 ? 1
+TD94 questioning: 0 sei
+TD32 🌡️ sei 📋 ? ␅
+TD4119540 ␆.09
+TD67 🌡️ sei 📋 ? .09
+TD195 word: 0 sei 0.09
+TD14 questioning: -1 
+TD52 > ␅
+TD20645172 ␆*
+TD79 > *
+TD218021 ? ␅
+TD9003589 ␆3
+TD62 ? 3
+TD98 questioning: 1 ergs
+TD31 🌡️ ergs 📋 ? ␅
+TD4768577 ␆.06
+TD67 🌡️ ergs 📋 ? .06
+TD65 word: 1 ergs 0.06
+TD14 questioning: -1 
+TD64 > ␅
+TD1078945 ␆*
+TD76 > *
+TD213805 ? ␅
+TD56399255 ␆2
+TD69 ? 2
+TD99 questioning: 2 spale
+TD32 🌡️ spale 📋 ? ␅
+TD3016755 ␆.032
+TD60 🌡️ spale 📋 ? .032
+TD60 word: 2 spale 0.032
+TD11 questioning: -1 
+TD61 > ␅
+TD1337521 ␆*
+TD61 > *
+TD299083 ? ␅
+TD6378969 ␆6
+TD75 ? 6
+TD131 questioning: 3 saltier
+TD45 🌡️ saltier 📋 ? ␅
+TD3030933 ␆0
+TD77 🌡️ saltier 📋 ? 0
+TD61 word: 3 saltier 0.0
+TD11 questioning: -1 
+TD62 > ␅
+TD400188 ␆*
+TD59 > *
+TD222287 ? ␅
+TD1681403 ␆1
+TD58 ? 1
+TD92 questioning: 4 epilator
+TD30 🌡️ epilator 📋 ? ␅
+TD3478117 ␆.38
+TD76 🌡️ epilator 📋 ? .38
+TD82 word: 4 epilator 0.38
+TD18 questioning: -1 
+TD98 > ␅
+TD885569 ␆*
+TD83 > *
+TD221366 ? ␅
+TD9055441 ␆4
+TD72 ? 4
+TD121 questioning: 5 shoalier
+TD40 🌡️ shoalier 📋 ? ␅
+TD4879856 ␆0
+TD81 🌡️ shoalier 📋 ? 0
+TD70 word: 5 shoalier 0.0
+TD16 questioning: -1 
+TD82 > ␅
+TD1101806 ␆* 2 2
+TD90 > * 2 2
+TD256441 ? ␅
+TD3723147 ␆3
+TD60 ? 3
+TD95 questioning: 4 espoir
+TD30 🌡️ espoir 📋 ? ␅
+TD3261241 ␆.07
+TD67 🌡️ espoir 📋 ? .07
+TD72 word: 4 espoir 0.07
+TD12 questioning: -1 
+TD127 > ␅
+TD502190 ␆*
+TD60 > *
+TD304687 ? ␅
+TD2430740 ␆1
+TD71 ? 1
+TD116 questioning: 6 proemial
+TD35 🌡️ proemial 📋 ? ␅
+TD2568628 ␆0
+TD59 🌡️ proemial 📋 ? 0
+TD59 word: 6 proemial 0.0
+TD13 questioning: -1 
+TD68 > ␅
+TD442946 ␆*
+TD82 > *
+TD224529 ? ␅
+TD4331722 ␆4
+TD79 ? 4
+TD115 questioning: 7 emboli
+TD62 🌡️ emboli 📋 ? ␅
+TD3129308 ␆.07
+TD75 🌡️ emboli 📋 ? .07
+TD77 word: 7 emboli 0.07
+TD16 questioning: -1 
+TD85 > ␅
+TD439369 ␆*
+TD80 > *
+TD220268 ? ␅
+TD1804135 ␆9
+TD60 ? 9
+TD98 questioning: 8 sachem
+TD31 🌡️ sachem 📋 ? ␅
+TD3595198 ␆.21
+TD72 🌡️ sachem 📋 ? .21
+TD74 word: 8 sachem 0.21
+TD16 questioning: -1 
+TD84 > ␅
+TD1347632 ␆* 3 3
+TD74 > * 3 3
+TD237503 ? ␅
+TD3713563 ␆6
+TD86 ? 6
+TD119 questioning: 8 sapremic
+TD39 🌡️ sapremic 📋 ? ␅
+TD3269432 ␆0
+TD70 🌡️ sapremic 📋 ? 0
+TD67 word: 8 sapremic 0.0
+TD16 questioning: -1 
+TD86 > ␅
+TD5028254 ␆/res
+TD75 > /res
+TD182 📋> ␅
+TD5390457 ␆Word Grid #885
+TD89 📋> Word Grid #885
+TD9 📋> ␅
+TD36 ␆🌌🌌🌌
+TD5 📋> 🌌🌌🌌
+TD4 📋> ␅
+TD9 ␆🦄🌌🦄
+TD4 📋> 🦄🌌🦄
+TD4 📋> ␅
+TD11 ␆🦄🌌🦄
+TD3 📋> 🦄🌌🦄
+TD3 📋> ␅
+TD8 ␆Rarity: 0.32
+TD4 📋> Rarity: 0.32
+TD3 📋> ␅
+TD110616 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD72 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD9 📋> ␅
+TD577329 ␄
+TD128 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #885\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83e\udd84\n\ud83e\udd84\ud83c\udf0c\ud83e\udd84\nRarity: 0.32\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD476 result: "Word Grid #885\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83e\udd84\n\ud83e\udd84\ud83c\udf0c\ud83e\udd84\nRarity: 0.32\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD96 > ␅
+TD747388 ␆
+TD75 > 
+TD169 > ␅
+TD1851019 ␆/store
+TD71 > /store
+TD171 📆 2026-11-02 ? ␅
+TD516745 ␆
+TD72 📆 2026-11-02 ? 
