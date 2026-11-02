@@ -1,0 +1,107 @@
+T28.79185420300928 now: 2026-11-02T09:03:21EST
+TD78 site: alfagok.diginaut.net
+TD435860 loaded 399446 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1406 words excluded) asof f64948ab0236f31c7de1cd20defba323084e40af
+TD109  ...␅
+TD10034851 ␆
+TD62  ...
+TD133 [0 : 199631 : 399446] lijk? ␅
+TD2756117 ␆a
+TD77 [0 : 199631 : 399446] lijk? a
+TD257 progress: 1 199631 lijk
+TD88 [199632 : 299525 : 399446] schroot? ␅
+TD1452039 ␆b
+TD73 [199632 : 299525 : 399446] schroot? b
+TD95 progress: -1 299525 schroot
+TD89 [199632 : 249541 : 299525] opi? ␅
+TD3715014 ␆a
+TD73 [199632 : 249541 : 299525] opi? a
+TD81 progress: 1 249541 opi
+TD78 [249542 : 274457 : 299525] prop? ␅
+TD1784757 ␆a
+TD76 [249542 : 274457 : 299525] prop? a
+TD79 progress: 1 274457 prop
+TD80 [274458 : 286971 : 299525] riool? ␅
+TD1650705 ␆b
+TD76 [274458 : 286971 : 299525] riool? b
+TD83 progress: -1 286971 riool
+TD92 [274458 : 280555 : 286971] red? ␅
+TD1643183 ␆a
+TD80 [274458 : 280555 : 286971] red? a
+TD79 progress: 1 280555 red
+TD87 [280556 : 283615 : 286971] rente? ␅
+TD1671782 ␆b
+TD73 [280556 : 283615 : 286971] rente? b
+TD77 progress: -1 283615 rente
+TD91 [280556 : 281837 : 283615] regi? ␅
+TD2156440 ␆!
+TD82 [280556 : 281837 : 283615] regi? !
+TD223 [280556 : 282082 : 283614] registreer? ␅
+TD2677287 ␆b
+TD76 [280556 : 282082 : 283614] registreer? b
+TD91 progress: -1 282082 registreer
+TD141 [280556 : 281263 : 282082] regel? ␅
+TD2304517 ␆b
+TD87 [280556 : 281263 : 282082] regel? b
+TD82 progress: -1 281263 regel
+TD188 [280556 : 280909 : 281263] redzaamheid? ␅
+TD2072915 ␆a
+TD80 [280556 : 280909 : 281263] redzaamheid? a
+TD79 progress: 1 280909 redzaamheid
+TD77 [280910 : 281032 : 281263] referentie? ␅
+TD2280747 ␆b
+TD80 [280910 : 281032 : 281263] referentie? b
+TD77 progress: -1 281032 referentie
+TD78 [280910 : 280912 : 281032] ree? ␅
+TD1704340 ␆a
+TD84 [280910 : 280912 : 281032] ree? a
+TD96 progress: 1 280912 ree
+TD174 [280913 : 280973 : 281032] rees? ␅
+TD1866902 ␆b
+TD70 [280913 : 280973 : 281032] rees? b
+TD78 progress: -1 280973 rees
+TD130 [280913 : 280943 : 280973] reek? ␅
+TD2350345 ␆b
+TD77 [280913 : 280943 : 280973] reek? b
+TD82 progress: -1 280943 reek
+TD111 [280913 : 280927 : 280943] reef? ␅
+TD2427458 ␆b
+TD76 [280913 : 280927 : 280943] reef? b
+TD80 progress: -1 280927 reef
+TD106 [280913 : 280919 : 280927] reed? ␅
+TD1725463 ␆a
+TD71 [280913 : 280919 : 280927] reed? a
+TD87 progress: 1 280919 reed
+TD139 [280920 : 280923 : 280927] reeder? ␅
+TD2087669 ␆!
+TD71 [280920 : 280923 : 280927] reeder? !
+TD274 [280920 : 280923 : 280926] reedijk? ␅
+TD2358619 ␆!
+TD72 [280920 : 280923 : 280926] reedijk? !
+TD263 [280920 : 280923 : 280925] reeds? ␅
+TD1985331 ␆it
+TD74 [280920 : 280923 : 280925] reeds? it
+TD79 progress: 0 280923 reeds
+TD19 [280920 : 280923 : 280925] <Done>.
+TD80 📋> ␅
+TD2474864 ␆🧩 Puzzel #730
+TD78 📋> 🧩 Puzzel #730
+TD13 📋> ␅
+TD35 ␆🤔 17 gokken
+TD5 📋> 🤔 17 gokken
+TD4 📋> ␅
+TD10 ␆⏱️ 40s
+TD4 📋> ⏱️ 40s
+TD4 📋> ␅
+TD154771 ␆🔗 alfagok.diginaut.net
+TD74 📋> 🔗 alfagok.diginaut.net
+TD9 📋> ␅
+TD1284008 ␄
+TD134 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #730\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 40s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD457 result: "\ud83e\udde9 Puzzel #730\n\ud83e\udd14 17 gokken\n\u23f1\ufe0f 40s\n\ud83d\udd17 alfagok.diginaut.net"
+TD14 result puzzle: 730
+TD6 result guesses: 17
+TD4 result time: 40s
+TD4 result link: alfagok.diginaut.net
+TD65 📆 2026-11-02 ? ␅
+TD214232 ␆
+TD69 📆 2026-11-02 ? 
