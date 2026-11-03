@@ -1,0 +1,183 @@
+T560.251480168954 now: 2026-11-03T08:18:02EST
+TD337 site: dontwordle.com
+TD35 wordlist: nwl2023.txt
+TD83  ...␅
+TD294044 ␆
+TD135  ...
+TD167 1> ␅
+TD818723 ␆
+TD137 1> 
+TD494 1> ␅
+TD10078396 ␆* -bot 10
+TD134 1> * -bot 10
+TD476778 ? ␅
+TD1093530 ␆1
+TD130 ? 1
+TD285 📋 "steal" ? ␅
+TD3588359 ␆nnnnn
+TD121 📋 "steal" ? nnnnn
+TD616 tried: STEAL n n n n n
+TD203 2> ␅
+TD643895 ␆undo
+TD139 2> undo
+TD213 undo
+TD169 1> ␅
+TD3045190 ␆* :v [steal] -bot 10
+TD115 1> * :v [steal] -bot 10
+TD299457 ? ␅
+TD1785023 ␆1
+TD119 ? 1
+TD287 📋 "rhino" ? ␅
+TD6015178 ␆nnnnn
+TD119 📋 "rhino" ? nnnnn
+TD229 tried: RHINO n n n n n
+TD187 2> ␅
+TD929002 ␆undo
+TD121 2> undo
+TD165 undo
+TD118 1> ␅
+TD4645790 ␆* :v [stealrhino]
+TD114 1> * :v [stealrhino]
+TD333406 ? ␅
+TD2017158 ␄
+TD205 <EOF>
+TD150 1> ␅
+TD6716236 ␆* :v [stealrhino] -bot 10
+TD133 1> * :v [stealrhino] -bot 10
+TD286640 ? ␅
+TD1696364 ␆1
+TD113 ? 1
+TD282 📋 "pudgy" ? ␅
+TD5975530 ␆nYnnY
+TD88 📋 "pudgy" ? nYnnY
+TD177 tried: PUDGY n Y n n Y
+TD170 2> ␅
+TD645359 ␆undo
+TD113 2> undo
+TD155 undo
+TD142 1> ␅
+TD2294995 ␆*
+TD113 1> *
+TD237616 ? ␅
+TD71820 ␆1
+TD116 ? 1
+TD264 📋 "esses" ? ␅
+TD4577434 ␆nnnnn
+TD113 📋 "esses" ? nnnnn
+TD220 tried: ESSES n n n n n
+TD181 2> ␅
+TD413268 ␆*
+TD115 2> *
+TD187303 ? ␅
+TD43717 ␆1
+TD89 ? 1
+TD198 📋 "zizit" ? ␅
+TD5066456 ␆MnYnn
+TD132 📋 "zizit" ? MnYnn
+TD239 tried: ZIZIT m n Y n n
+TD198 3> ␅
+TD661723 ␆undo
+TD140 3> undo
+TD194 undo
+TD246 2> ␅
+TD1976725 ␆*
+TD124 2> *
+TD205296 ? ␅
+TD54662 ␆1
+TD108 ? 1
+TD242 📋 "gabba" ? ␅
+TD4394837 ␆nnnnn
+TD119 📋 "gabba" ? nnnnn
+TD240 tried: GABBA n n n n n
+TD200 3> ␅
+TD399616 ␆*
+TD128 3> *
+TD182412 ? ␅
+TD141125 ␆1
+TD125 ? 1
+TD276 📋 "mimic" ? ␅
+TD4038122 ␆nnnnn
+TD260 📋 "mimic" ? nnnnn
+TD409 tried: MIMIC n n n n n
+TD252 4> ␅
+TD420765 ␆*
+TD117 4> *
+TD171650 ? ␅
+TD66704 ␆1
+TD119 ? 1
+TD254 📋 "porno" ? ␅
+TD4526384 ␆nnnnn
+TD120 📋 "porno" ? nnnnn
+TD215 tried: PORNO n n n n n
+TD200 5> ␅
+TD422884 ␆*
+TD136 5> *
+TD350135 📋 "xylyl" ? ␅
+TD99 ␆1
+TD8 📋 "xylyl" ? 1
+TD135 📋 "xylyl" ? ␅
+TD4578003 ␆nMnnn
+TD120 📋 "xylyl" ? nMnnn
+TD226 tried: XYLYL n m n n n
+TD214 6> ␅
+TD1302977 ␆*
+TD113 6> *
+TD343876 ? ␅
+TD799866 ␆1
+TD121 ? 1
+TD254 📋 "duddy" ? ␅
+TD4209187 ␆nYnnY
+TD112 📋 "duddy" ? nYnnY
+TD234 tried: DUDDY n Y n n Y
+TD225 📋> ␅
+TD3052954 ␆Don't Wordle 1624 - SURVIVED
+TD135 📋> Don't Wordle 1624 - SURVIVED
+TD17 📋> ␅
+TD57 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD11 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD8 📋> ␅
+TD29 ␆⬜⬜⬜⬜⬜3656
+TD9 📋> ⬜⬜⬜⬜⬜3656
+TD8 📋> ␅
+TD13 ␆⬜⬜⬜⬜⬜1178
+TD7 📋> ⬜⬜⬜⬜⬜1178
+TD6 📋> ␅
+TD12 ␆⬜⬜⬜⬜⬜364
+TD6 📋> ⬜⬜⬜⬜⬜364
+TD6 📋> ␅
+TD12 ␆⬜⬜⬜⬜⬜26
+TD8 📋> ⬜⬜⬜⬜⬜26
+TD6 📋> ␅
+TD14 ␆⬜🟨⬜⬜⬜11
+TD7 📋> ⬜🟨⬜⬜⬜11
+TD6 📋> ␅
+TD13 ␆⬜🟩⬜⬜🟩8
+TD6 📋> ⬜🟩⬜⬜🟩8
+TD6 📋> ␅
+TD12 ␆Undos used: 4
+TD7 📋> Undos used: 4
+TD9 📋> ␅
+TD12 ␆
+TD6 📋> 
+TD6 📋> ␅
+TD12 ␆  8 words remaining
+TD6 📋>   8 words remaining
+TD6 📋> ␅
+TD12 ␆x 9 unused letters
+TD6 📋> x 9 unused letters
+TD5 📋> ␅
+TD11 ␆= 72 total score
+TD6 📋> = 72 total score
+TD5 📋> ␅
+TD13 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD161615 ␆https://dontwordle.com
+TD131 📋> https://dontwordle.com
+TD17 📋> ␅
+TD204167 ␄
+TD273 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1624 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3656\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1178\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c364\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c26\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c11\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe98\nUndos used: 4\n\n  8 words remaining\nx 9 unused letters\n= 72 total score\n\nhttps://dontwordle.com"}
+TD1785 result: "Don't Wordle 1624 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c3656\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1178\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c364\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c26\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c11\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe98\nUndos used: 4\n\n  8 words remaining\nx 9 unused letters\n= 72 total score\n\nhttps://dontwordle.com"
+TD160 📆 2026-11-03 ? ␅
+TD309595 ␆
+TD135 📆 2026-11-03 ? 
