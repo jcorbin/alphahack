@@ -1,0 +1,203 @@
+T7196.454577388999 now: 2026-11-03T10:08:38EST
+TD194 site: https://www.merriam-webster.com/games/quordle/#/
+TD30 wordlist: nwl2023.txt
+TD9 num_words: 4
+TD129  ...␅
+TD8929758 ␆
+TD188  ...
+TD697017 > ␅
+TD828529 ␆*
+TD83 > *
+TD137112 ? ␅
+TD828673 ␆1
+TD85 ? 1
+TD150 questioning: agers
+TD189 Classic #1 _____? ␅
+TD4112730 ␆MnnMn
+TD78 Classic #1 _____? MnnMn
+TD347 attempt: 0 AGERS m n n m n
+TD87 Classic #2 _____? ␅
+TD1961256 ␆MnnnM
+TD80 Classic #2 _____? MnnnM
+TD203 attempt: 1 AGERS m n n n m
+TD96 Classic #3 _____? ␅
+TD1442458 ␆nnMnn
+TD77 Classic #3 _____? nnMnn
+TD181 attempt: 2 AGERS n n m n n
+TD81 Classic #4 _____? ␅
+TD1319859 ␆nnnnY
+TD82 Classic #4 _____? nnnnY
+TD187 attempt: 3 AGERS n n n n Y
+TD617065 > ␅
+TD1955449 ␆*
+TD88 > *
+TD6662 ? ␅
+TD1166556 ␆1
+TD84 ? 1
+TD159 questioning: yodle
+TD154 Classic #1 _____ ~AR -EGS? ␅
+TD3063462 ␆nnnMn
+TD80 Classic #1 _____ ~AR -EGS? nnnMn
+TD179 attempt: 0 YODLE n n n m n
+TD98 Classic #2 _____ ~AS -EGR? ␅
+TD2145803 ␆nnMnn
+TD76 Classic #2 _____ ~AS -EGR? nnMnn
+TD193 attempt: 1 YODLE n n m n n
+TD87 Classic #3 _____ ~E -AGRS? ␅
+TD1489072 ␆nnnMM
+TD83 Classic #3 _____ ~E -AGRS? nnnMM
+TD180 attempt: 2 YODLE n n n m m
+TD93 Classic #4 ____S -AEGR? ␅
+TD1225571 ␆nYnnn
+TD77 Classic #4 ____S -AEGR? nYnnn
+TD200 attempt: 3 YODLE n Y n n n
+TD669543 > ␅
+TD747742 ␆*
+TD80 > *
+TD1306 ? ␅
+TD1041344 ␆1
+TD80 ? 1
+TD147 questioning: mocks
+TD148 Classic #1 _____ ~ALR -DEGOSY? ␅
+TD2521610 ␆nnnnn
+TD100 Classic #1 _____ ~ALR -DEGOSY? nnnnn
+TD238 attempt: 0 MOCKS n n n n n
+TD121 Classic #2 _____ ~ADS -EGLORY? ␅
+TD1174233 ␆nnnnM
+TD95 Classic #2 _____ ~ADS -EGLORY? nnnnM
+TD263 attempt: 1 MOCKS n n n n m
+TD148 Classic #3 _____ ~EL -ADGORSY? ␅
+TD1311965 ␆nnnnn
+TD95 Classic #3 _____ ~EL -ADGORSY? nnnnn
+TD254 attempt: 2 MOCKS n n n n n
+TD128 Classic #4 _O__S -ADEGLRY? ␅
+TD1709624 ␆nYnnY
+TD99 Classic #4 _O__S -ADEGLRY? nYnnY
+TD245 attempt: 3 MOCKS n Y n n Y
+TD656323 > ␅
+TD605339 ␆*
+TD84 > *
+TD1039 ? ␅
+TD2723481 ␆3
+TD82 ? 3
+TD144 questioning: tonus
+TD164 Classic #1 _____ ~ALR -CDEGKMOSY? ␅
+TD2140677 ␄
+TD114 <EOF>
+TD629396 > ␅
+TD560591 ␆*
+TD79 > *
+TD958 ? ␅
+TD9476447 ␆9
+TD96 ? 9
+TD169 questioning: bonus
+TD155 Classic #1 _____ ~ALR -CDEGKMOSY? ␅
+TD4236039 ␆nnnnn
+TD80 Classic #1 _____ ~ALR -CDEGKMOSY? nnnnn
+TD175 attempt: 0 BONUS n n n n n
+TD91 Classic #2 _____ ~ADS -CEGKLMORY? ␅
+TD1185621 ␆nnnnM
+TD77 Classic #2 _____ ~ADS -CEGKLMORY? nnnnM
+TD178 attempt: 1 BONUS n n n n m
+TD93 Classic #3 _____ ~EL -ACDGKMORSY? ␅
+TD1319583 ␆nnnnn
+TD173 Classic #3 _____ ~EL -ACDGKMORSY? nnnnn
+TD327 attempt: 2 BONUS n n n n n
+TD141 Classic #4 _O__S -ACDEGKLMRY? ␅
+TD1197083 ␆YYYYY
+TD73 Classic #4 _O__S -ACDEGKLMRY? YYYYY
+TD163 attempt: 3 BONUS Y Y Y Y Y
+TD571274 > ␅
+TD911705 ␆*
+TD75 > *
+TD691 ? ␅
+TD1318581 ␆1
+TD165 ? 1
+TD232 questioning: trail
+TD191 Classic #1 _____ ~ALR -BCDEGKMNOSUY? ␅
+TD3264695 ␆YYMMY
+TD86 Classic #1 _____ ~ALR -BCDEGKMNOSUY? YYMMY
+TD179 attempt: 0 TRAIL Y Y m m Y
+TD96 Classic #2 _____ ~ADS -BCEGKLMNORUY? ␅
+TD2677267 ␆MnYYn
+TD90 Classic #2 _____ ~ADS -BCEGKLMNORUY? MnYYn
+TD184 attempt: 1 TRAIL m n Y Y n
+TD99 Classic #3 _____ ~EL -ABCDGKMNORSUY? ␅
+TD1295066 ␆nnnnY
+TD81 Classic #3 _____ ~EL -ABCDGKMNORSUY? nnnnY
+TD187 attempt: 2 TRAIL n n n n Y
+TD514208 > ␅
+TD685140 ␆*
+TD79 > *
+TD315 questioning: trial
+TD121 Classic #1 TR__L ~AI -BCDEGKMNOSUY? ␅
+TD3448842 ␆YYYYY
+TD80 Classic #1 TR__L ~AI -BCDEGKMNOSUY? YYYYY
+TD174 attempt: 0 TRIAL Y Y Y Y Y
+TD98 Classic #2 __AI_ ~DST -BCEGKLMNORUY? ␅
+TD2019038 ␆MnMMn
+TD79 Classic #2 __AI_ ~DST -BCEGKLMNORUY? MnMMn
+TD180 attempt: 1 TRIAL m n m m n
+TD98 Classic #3 ____L ~E -ABCDGIKMNORSTUY? ␅
+TD1335997 ␆nnnnY
+TD80 Classic #3 ____L ~E -ABCDGIKMNORSTUY? nnnnY
+TD195 attempt: 2 TRIAL n n n n Y
+TD326567 > ␅
+TD3523834 ␆*
+TD82 > *
+TD307 questioning: staid
+TD117 Classic #2 __AI_ ~DST -BCEGKLMNORUY? ␅
+TD3658603 ␆YYYYY
+TD76 Classic #2 __AI_ ~DST -BCEGKLMNORUY? YYYYY
+TD169 attempt: 1 STAID Y Y Y Y Y
+TD97 Classic #3 ____L ~E -ABCDGIKMNORSTUY? ␅
+TD1215841 ␆nnnnn
+TD124 Classic #3 ____L ~E -ABCDGIKMNORSTUY? nnnnn
+TD308 attempt: 2 STAID n n n n n
+TD183537 > ␅
+TD655328 ␆*
+TD80 > *
+TD426 ? ␅
+TD5290890 ␄
+TD109 <EOF>
+TD176989 > ␅
+TD8272861 ␆probe jxwv
+TD80 > probe jxwv
+TD418248 > ␅
+TD15341284 ␆tried jived
+TD83 > tried jived
+TD296 questioning: JIVED
+TD151 Classic #3 ____L ~E -ABCDGIKMNORSTUY? ␅
+TD1696297 ␆nnYYn
+TD77 Classic #3 ____L ~E -ABCDGIKMNORSTUY? nnYYn
+TD264 attempt: 2 JIVED n n Y Y n
+TD155161 > ␅
+TD620431 ␆*
+TD81 > *
+TD357 questioning: level
+TD125 Classic #3 __VEL -ABCDGIJKMNORSTUY? ␅
+TD2947952 ␆YYYYY
+TD98 Classic #3 __VEL -ABCDGIJKMNORSTUY? YYYYY
+TD214 attempt: 2 LEVEL Y Y Y Y Y
+TD98 📋> ␅
+TD4389579 ␆🙂 Daily Quordle 1744
+TD100 📋> 🙂 Daily Quordle 1744
+TD14 📋> ␅
+TD46 ␆6️⃣7️⃣
+TD9 📋> 6️⃣7️⃣
+TD7 📋> ␅
+TD15 ␆9️⃣4️⃣
+TD6 📋> 9️⃣4️⃣
+TD6 📋> ␅
+TD14 ␆m-w.com/games/quordle/
+TD7 📋> m-w.com/games/quordle/
+TD6 📋> ␅
+TD131768 ␆
+TD129 📋> 
+TD16 📋> ␅
+TD294923 ␄
+TD241 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1744\n6\ufe0f\u20e37\ufe0f\u20e3\n9\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD2342 result: "\ud83d\ude42 Daily Quordle 1744\n6\ufe0f\u20e37\ufe0f\u20e3\n9\ufe0f\u20e34\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD131 📆 2026-11-03 ? ␅
+TD401539 ␆
+TD99 📆 2026-11-03 ? 
