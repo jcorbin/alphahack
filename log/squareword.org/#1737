@@ -1,0 +1,256 @@
+T3.917760012031067 now: 2026-11-03T10:17:27EST
+TD166 site: squareword.org
+TD39 wordlist: nwl2023.txt
+TD48  ...␅
+TD454209 ␆
+TD77  ...
+TD57 🧩  ? ␅
+TD7118889 ␆
+TD79 🧩  ? 
+TD135  ...␅
+TD928110 ␆
+TD82  ...
+TD61 🧩  ? ␅
+TD1829219 ␆#1737
+TD79 🧩  ? #1737
+TD237 puzzle_id: #1737
+TD257 > ␅
+TD2204692 ␆*
+TD108 > *
+TD381980 try? ␅
+TD833825 ␆1
+TD102 try? 1
+TD284 questioning: ["arose", "#5"]
+TD287 #1 <IndexError>  📋 "arose" ? ␅
+TD4325520 ␆_____ ~ ARS
+TD113 #1 <IndexError>  📋 "arose" ? _____ ~ ARS
+TD756 attempt 0 AROSE m m n m n
+TD133 #2 <IndexError>  📋 "arose" ? ␅
+TD1964664 ␆A____ 
+TD113 #2 <IndexError>  📋 "arose" ? A____ 
+TD296 attempt 1 AROSE Y n n n n
+TD130 #3 <IndexError>  📋 "arose" ? ␅
+TD2303081 ␆____E ~ R
+TD112 #3 <IndexError>  📋 "arose" ? ____E ~ R
+TD269 attempt 2 AROSE n m n n Y
+TD125 #4 <IndexError>  📋 "arose" ? ␅
+TD2348603 ␆A____ ~ O
+TD114 #4 <IndexError>  📋 "arose" ? A____ ~ O
+TD270 attempt 3 AROSE Y n m n n
+TD143 #5 <IndexError>  📋 "arose" ? ␅
+TD2436438 ␆____E ~ ARS
+TD116 #5 <IndexError>  📋 "arose" ? ____E ~ ARS
+TD275 attempt 4 AROSE m m n m Y
+TD385 ? ␅
+TD386801 ␆
+TD83 ? 
+TD121 question done
+TD264 > ␅
+TD647058 ␆*
+TD117 > *
+TD914705 try? ␅
+TD2614108 ␆3
+TD85 try? 3
+TD282 questioning: ["scare", "#5"]
+TD403 #1 _____ ~ARS -EO  📋 "scare" ? ␅
+TD13636898 ␆__AR_ ~ S
+TD92 #1 _____ ~ARS -EO  📋 "scare" ? __AR_ ~ S
+TD223 attempt 0 SCARE m n Y Y n
+TD123 #2 A____ -EORS  📋 "scare" ? ␅
+TD2600530 ␆A____ ~ C
+TD79 #2 A____ -EORS  📋 "scare" ? A____ ~ C
+TD206 attempt 1 SCARE n m n n n
+TD120 #3 ____E ~R -AOS  📋 "scare" ? ␅
+TD2486112 ␆____E ~ R
+TD78 #3 ____E ~R -AOS  📋 "scare" ? ____E ~ R
+TD218 attempt 2 SCARE n n n m Y
+TD123 #4 A____ ~O -ERS  📋 "scare" ? ␅
+TD1622682 ␆.
+TD109 #4 A____ ~O -ERS  📋 "scare" ? .
+TD305 attempt 3 SCARE n n n n n
+TD98 #5 ____E ~ARS -O  📋 "scare" ? ␅
+TD1505296 ␆S_ARE
+TD80 #5 ____E ~ARS -O  📋 "scare" ? S_ARE
+TD204 attempt 4 SCARE Y n Y Y Y
+TD293 ? ␅
+TD266383 ␆
+TD126 ? 
+TD133 question done
+TD323 > ␅
+TD457713 ␆*
+TD89 > *
+TD951036 try? ␅
+TD2742376 ␄
+TD162 <EOF>
+TD355 > ␅
+TD1078951 ␆* 3
+TD119 > * 3
+TD3138 try? ␅
+TD2043703 ␆2
+TD158 try? 2
+TD538 questioning: ["purge", "#3"]
+TD458 #1 __AR_ ~S -CEO  📋 "purge" ? ␅
+TD4502561 ␆.
+TD82 #1 __AR_ ~S -CEO  📋 "purge" ? .
+TD226 attempt 0 PURGE n n n n n
+TD83 #2 A____ ~C -AEORS  📋 "purge" ? ␅
+TD1405584 ␆.
+TD108 #2 A____ ~C -AEORS  📋 "purge" ? .
+TD284 attempt 1 PURGE n n n n n
+TD108 #3 ____E ~R -ACOS  📋 "purge" ? ␅
+TD604646 ␆/it
+TD114 #3 ____E ~R -ACOS  📋 "purge" ? /it
+TD342 attempt 2 PURGE Y Y Y Y Y
+TD136 #4 A____ ~O -ACERS  📋 "purge" ? ␅
+TD970588 ␆.
+TD136 #4 A____ ~O -ACERS  📋 "purge" ? .
+TD267 attempt 3 PURGE n n n n n
+TD93 #5 S_ARE -CO  📋 "purge" ? ␅
+TD1303323 ␆.
+TD77 #5 S_ARE -CO  📋 "purge" ? .
+TD228 attempt 4 PURGE n n n n Y
+TD251 ? ␅
+TD189684 ␆
+TD85 ? 
+TD91 question done
+TD296 > ␅
+TD403485 ␆*
+TD126 > *
+TD991222 try? ␅
+TD3139831 ␆1
+TD108 try? 1
+TD313 questioning: ["antic", "#2"]
+TD338 #1 __AR_ ~S -CEGOPRU  📋 "antic" ? ␅
+TD10929964 ␆__AR_ ~ ST
+TD111 #1 __AR_ ~S -CEGOPRU  📋 "antic" ? __AR_ ~ ST
+TD289 attempt 0 ANTIC n n m n n
+TD163 #2 A____ ~C -AEGOPRSU  📋 "antic" ? ␅
+TD4016264 ␆A_TIC ~ T
+TD135 #2 A____ ~C -AEGOPRSU  📋 "antic" ? A_TIC ~ T
+TD343 attempt 1 ANTIC Y n Y Y Y
+TD236 #4 A____ ~O -ACEGPRSU  📋 "antic" ? ␅
+TD3213119 ␆AN___ ~ ONI
+TD136 #4 A____ ~O -ACEGPRSU  📋 "antic" ? AN___ ~ ONI
+TD351 attempt 3 ANTIC Y Y n m n
+TD216 #5 S_ARE -CGOPRU  📋 "antic" ? ␅
+TD5712802 ␆S_ARE ~ T
+TD252 #5 S_ARE -CGOPRU  📋 "antic" ? S_ARE ~ T
+TD320 attempt 4 ANTIC n n m n n
+TD394 ? ␅
+TD367805 ␆
+TD77 ? 
+TD111 question done
+TD290 > ␅
+TD1466722 ␆*
+TD117 > *
+TD2659716 questioning: ["tsars", "#1"]
+TD206 #1 __AR_ ~ST -ACEGINOPRU  📋 "tsars" ? ␅
+TD4200414 ␆/it
+TD82 #1 __AR_ ~ST -ACEGINOPRU  📋 "tsars" ? /it
+TD216 attempt 0 TSARS Y Y Y Y Y
+TD86 #2 A_TIC -EGNOPRSU  📋 "tsars" ? ␅
+TD6183234 ␆A_TIC ~ T
+TD87 #2 A_TIC -EGNOPRSU  📋 "tsars" ? A_TIC ~ T
+TD223 attempt 1 TSARS m n n n n
+TD145 #4 AN___ ~IO -CEGPRSTU  📋 "tsars" ? ␅
+TD4594786 ␆AN___ ~ ONI
+TD121 #4 AN___ ~IO -CEGPRSTU  📋 "tsars" ? AN___ ~ ONI
+TD269 attempt 3 TSARS n n n n n
+TD168 #5 S_ARE ~T -ACGINOPRU  📋 "tsars" ? ␅
+TD2924840 ␆S_ARE ~ T
+TD81 #5 S_ARE ~T -ACGINOPRU  📋 "tsars" ? S_ARE ~ T
+TD206 attempt 4 TSARS m n Y Y n
+TD318 ? ␅
+TD241324 ␆
+TD112 ? 
+TD141 question done
+TD313 > ␅
+TD451708 ␆*
+TD79 > *
+TD2272847 questioning: ["attic", "#2"]
+TD208 #2 A_TIC -AEGNOPRSU  📋 "attic" ? ␅
+TD4017385 ␆/it
+TD80 #2 A_TIC -AEGNOPRSU  📋 "attic" ? /it
+TD210 attempt 1 ATTIC Y Y Y Y Y
+TD88 #4 AN___ ~IO -ACEGPRSTU  📋 "attic" ? ␅
+TD6326762 ␆AN___ ~ ONI
+TD79 #4 AN___ ~IO -ACEGPRSTU  📋 "attic" ? AN___ ~ ONI
+TD204 attempt 3 ATTIC Y n n m n
+TD127 #5 S_ARE ~T -CGINOPSU  📋 "attic" ? ␅
+TD672043 ␆/it
+TD75 #5 S_ARE ~T -CGINOPSU  📋 "attic" ? /it
+TD200 attempt 4 ATTIC Y Y Y Y Y
+TD258 ? ␅
+TD166240 ␆
+TD114 ? 
+TD128 question done
+TD306 > ␅
+TD476796 ␆*
+TD110 > *
+TD816957 > ␅
+TD3755636 ␆*
+TD111 > *
+TD816646 > ␅
+TD3630578 ␆?
+TD111 > ?
+TD656 > ␅
+TD2229139 ␆/man 
+TD78 > /man 
+TD414 > ␅
+TD2707267 ␆/man 4
+TD113 > /man 4
+TD531 > ␅
+TD6638713 ␆/man 4 AN___ ~ONI
+TD83 > /man 4 AN___ ~ONI
+TD843602 > ␅
+TD88966264 ␆?
+TD92 > ?
+TD879 > ␅
+TD5919514 ␆anion
+TD119 > anion
+TD529 questioning: ["anion", "entered"]
+TD338 #4 AN___ ~IO -CEGPRSTU  📋 "anion" ? ␅
+TD1281048 ␆/it
+TD80 #4 AN___ ~IO -CEGPRSTU  📋 "anion" ? /it
+TD211 attempt 3 ANION Y Y Y Y Y
+TD283 ? ␅
+TD934066 ␆
+TD82 ? 
+TD89 question done
+TD36769 📋> ␅
+TD14882984 ␆squareword.org 1737: 7 guesses
+TD79 📋> squareword.org 1737: 7 guesses
+TD14 📋> ␅
+TD42 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟩🟨🟩🟩🟩
+TD4 📋> 🟩🟨🟩🟩🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆🟩🟩🟨🟨🟨
+TD4 📋> 🟩🟩🟨🟨🟨
+TD4 📋> ␅
+TD10 ␆🟩🟨🟩🟩🟩
+TD4 📋> 🟩🟨🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD128179 ␆#squareword #squareword1737
+TD78 📋> #squareword #squareword1737
+TD10 📋> ␅
+TD267110 ␄
+TD178 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1737: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1737"}
+TD1011 result: "squareword.org 1737: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1737"
+TD192 📆 2026-11-03 ? ␅
+TD487944 ␆
+TD108 📆 2026-11-03 ? 
