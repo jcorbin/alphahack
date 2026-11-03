@@ -1,0 +1,178 @@
+T8413.285297079012 now: 2026-11-03T12:57:53EST
+TD148 site: https://wordgrid.clevergoat.com/
+TD37 wordlist: nwl2023.txt
+TD182 > ␅
+TD5290669 ␆col 1 ~^G
+TD111 > col 1 ~^G
+TD961 rule col: 1 ~^G
+TD105 > ␅
+TD3663768 ␆col 2 ~^F
+TD112 > col 2 ~^F
+TD339 rule col: 2 ~^F
+TD95 > ␅
+TD3585589 ␆col 3 ~^H
+TD94 > col 3 ~^H
+TD416 rule col: 3 ~^H
+TD99 > ␅
+TD4238700 ␆row 1 #5
+TD135 > row 1 #5
+TD563 rule row: 1 #5
+TD127 > ␅
+TD5191613 ␆row 2 #6
+TD130 > row 2 #6
+TD531 rule row: 2 #6
+TD124 > ␅
+TD4002146 ␆row 3 ![DPU]
+TD146 > row 3 ![DPU]
+TD797 rule row: 3 ![DPU]
+TD157 > ␅
+TD1759563 ␆*
+TD133 > *
+TD482406 ? ␅
+TD912284 ␆1
+TD111 ? 1
+TD269 questioning: 0 gyres
+TD89 🌡️ gyres 📋 ? ␅
+TD3618563 ␆.09
+TD87 🌡️ gyres 📋 ? .09
+TD277 word: 0 gyres 0.09
+TD20 questioning: -1 
+TD81 > ␅
+TD624673 ␆*
+TD135 > *
+TD354807 ? ␅
+TD2411259 ␆2
+TD85 ? 2
+TD151 questioning: 1 farle
+TD48 🌡️ farle 📋 ? ␅
+TD3619437 ␆.06
+TD103 🌡️ farle 📋 ? .06
+TD118 word: 1 farle 0.06
+TD24 questioning: -1 
+TD117 > ␅
+TD1134522 ␆*
+TD105 > *
+TD345567 ? ␅
+TD1590603 ␆2
+TD70 ? 2
+TD129 questioning: 2 hosel
+TD43 🌡️ hosel 📋 ? ␅
+TD4275897 ␆.03
+TD142 🌡️ hosel 📋 ? .03
+TD133 word: 2 hosel 0.03
+TD28 questioning: -1 
+TD164 > ␅
+TD6469964 ␆*
+TD130 > *
+TD348356 ? ␅
+TD4488984 ␆5
+TD113 ? 5
+TD230 questioning: 3 gnarls
+TD92 🌡️ gnarls 📋 ? ␅
+TD3736611 ␆.11
+TD112 🌡️ gnarls 📋 ? .11
+TD121 word: 3 gnarls 0.11
+TD22 questioning: -1 
+TD114 > ␅
+TD938596 ␆*
+TD78 > *
+TD335977 ? ␅
+TD2517134 ␆9
+TD88 ? 9
+TD132 questioning: 4 frijol
+TD44 🌡️ frijol 📋 ? ␅
+TD3924430 ␆.05
+TD77 🌡️ frijol 📋 ? .05
+TD82 word: 4 frijol 0.05
+TD18 questioning: -1 
+TD94 > ␅
+TD1047235 ␆*
+TD76 > *
+TD341171 ? ␅
+TD1531409 ␆2
+TD82 ? 2
+TD151 questioning: 5 halids
+TD59 🌡️ halids 📋 ? ␅
+TD3651910 ␆.01
+TD78 🌡️ halids 📋 ? .01
+TD81 word: 5 halids 0.01
+TD18 questioning: -1 
+TD95 > ␅
+TD2238076 ␆* 1 2
+TD112 > * 1 2
+TD341474 ? ␅
+TD4139063 ␆10
+TD83 ? 10
+TD146 questioning: 3 granum
+TD44 🌡️ granum 📋 ? ␅
+TD2950930 ␆0
+TD111 🌡️ granum 📋 ? 0
+TD103 word: 3 granum 0.0
+TD21 questioning: -1 
+TD114 > ␅
+TD529748 ␆*
+TD116 > *
+TD390482 ? ␅
+TD5725811 ␆6
+TD114 ? 6
+TD183 questioning: 6 granoliths
+TD55 🌡️ granoliths 📋 ? ␅
+TD3081015 ␆0
+TD129 🌡️ granoliths 📋 ? 0
+TD116 word: 6 granoliths 0.0
+TD21 questioning: -1 
+TD130 > ␅
+TD1262706 ␆*
+TD113 > *
+TD520305 ? ␅
+TD2321337 ␆4
+TD129 ? 4
+TD184 questioning: 7 foaling
+TD58 🌡️ foaling 📋 ? ␅
+TD2563771 ␆0
+TD113 🌡️ foaling 📋 ? 0
+TD110 word: 7 foaling 0.0
+TD21 questioning: -1 
+TD120 > ␅
+TD450815 ␆*
+TD75 > *
+TD398060 ? ␅
+TD11464768 ␆10
+TD83 ? 10
+TD136 questioning: 8 hantles
+TD47 🌡️ hantles 📋 ? ␅
+TD3737770 ␆0
+TD76 🌡️ hantles 📋 ? 0
+TD75 word: 8 hantles 0.0
+TD18 questioning: -1 
+TD99 > ␅
+TD13073374 ␆/res
+TD101 > /res
+TD163 📋> ␅
+TD1181986 ␆Word Grid #886
+TD103 📋> Word Grid #886
+TD11 📋> ␅
+TD46 ␆🌌🌌🌌
+TD6 📋> 🌌🌌🌌
+TD5 📋> ␅
+TD12 ␆🦄🌌🌌
+TD4 📋> 🦄🌌🌌
+TD4 📋> ␅
+TD11 ␆🦄🦄🦄
+TD4 📋> 🦄🦄🦄
+TD4 📋> ␅
+TD10 ␆Rarity: 0.24
+TD5 📋> Rarity: 0.24
+TD5 📋> ␅
+TD223788 ␆wordgrid.clevergoat.com?ref=shared 🐐
+TD79 📋> wordgrid.clevergoat.com?ref=shared 🐐
+TD10 📋> ␅
+TD1411202 ␄
+TD151 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #886\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\nRarity: 0.24\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"}
+TD563 result: "Word Grid #886\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83c\udf0c\ud83c\udf0c\n\ud83e\udd84\ud83e\udd84\ud83e\udd84\nRarity: 0.24\nwordgrid.clevergoat.com?ref=shared \ud83d\udc10"
+TD98 > ␅
+TD920944 ␆/store
+TD99 > /store
+TD279 📆 2026-11-03 ? ␅
+TD524211 ␆
+TD236 📆 2026-11-03 ? 
