@@ -1,0 +1,193 @@
+T15027.388244186004 now: 2026-11-04T17:07:35EST
+TD77 site: spaceword.org
+TD15 wordlist: nwl2023.txt
+TD53  ...␅
+TD629630 ␆
+TD57  ...
+TD39 🧩  ? ␅
+TD3528524 ␆daily 2026-11-04
+TD81 🧩  ? daily 2026-11-04
+TD693 puzzle_id: 2026-11-04
+TD47 num letters (default: 21) ? ␅
+TD369428 ␆
+TD113 num letters (default: 21) ? 
+TD154 num_letters: 21
+TD388 letters? ␅
+TD4558949 ␆aadeegh
+TD100 letters? aadeegh
+TD157 letters: |AADEEGH|
+TD111 letters? ␅
+TD3765123 ␆ijllmoo
+TD71 letters? ijllmoo
+TD106 letters: |AADEEGHIJLLMOO|
+TD76 letters? ␅
+TD2178027 ␆oostuvx
+TD75 letters? oostuvx
+TD128 letters: |AADEEGHIJLLMOOOOSTUVX|
+TD103 letters. ␅
+TD189668 ␆
+TD111 letters. 
+TD46994 [doit:100]> ␅
+TD3843044 ␆/sea -cap 512
+TD75 [doit:100]> /sea -cap 512
+TD56561009 search 996aa8 [ 512 cap:512 may:3361 done:3 prune:56 dead:6 ]> ␅
+TD713672272 ␆show done
+TD147 search 996aa8 [ 512 cap:512 may:3361 done:3 prune:56 dead:6 ]> show done
+TD1505 search 996aa8 [ 512 cap:512 may:3361 done:3 prune:56 dead:6 ]> ␅
+TD1923144 ␆show 3
+TD98 search 996aa8 [ 512 cap:512 may:3361 done:3 prune:56 dead:6 ]> show 3
+TD742 search 996aa8 [ 512 cap:512 may:3361 done:3 prune:56 dead:6 ]> ␅
+TD449979 ␆retr
+TD74 search 996aa8 [ 512 cap:512 may:3361 done:3 prune:56 dead:6 ]> retr
+TD397 search 996aa8 [ 512 cap:512 may:3361 done:3 prune:56 dead:6 ]> ␅
+TD1233096 ␆ret
+TD93 search 996aa8 [ 512 cap:512 may:3361 done:3 prune:56 dead:6 ]> ret
+TD315 change: 12 E
+TD7 change: 22 X
+TD3 change: 26 V
+TD2 change: 32 O
+TD2 change: 35 H
+TD2 change: 36 O
+TD2 change: 42 D
+TD2 change: 44 J
+TD2 change: 45 O
+TD2 change: 46 G
+TD2 change: 52 U
+TD2 change: 55 L
+TD2 change: 56 I
+TD2 change: 62 S
+TD2 change: 63 A
+TD2 change: 64 M
+TD2 change: 65 L
+TD2 change: 66 E
+TD2 change: 67 T
+TD2 change: 75 O
+TD2 change: 85 A
+TD23596 [doit:2152]> ␅
+TD1482381 ␆/sea -cap 1024
+TD63 [doit:2152]> /sea -cap 1024
+TD2408967 Z c$_Lq%}Px!Q7Fz#u}U#9G%>bNNXpMkwK6oYQa}Q(a8`tZf<hRW<*%UN;SXlHD0un1gIS>p3O=4-R<NV5k82226GRyZI3k;h0{{R30RR6
+TD2038310 Z DjIxF0ssI2|Nj
+TD2077052 Z 8iY;)00030{{
+TD85 Z BF;%DAWT8Q7t8>~8#qqD@dk=gNW6h!C&bmq)g?5TjCfN300030{{
+TD35 Z BEw10v;=h%7{JmJ)J>p7<LmF^8myoY5*p#^LRwk^00030{{
+TD3013071 Z 8iWxC00030{{
+TD24077 search d41438 [ 1023 cap:1024 may:215 prune:535 reject:1 dead:9 done:5 ]> ␅
+TD40303903 ␆show done
+TD90 search d41438 [ 1023 cap:1024 may:215 prune:535 reject:1 dead:9 done:5 ]> show done
+TD948 search d41438 [ 1023 cap:1024 may:215 prune:535 reject:1 dead:9 done:5 ]> ␅
+TD2628196 ␆show 5
+TD94 search d41438 [ 1023 cap:1024 may:215 prune:535 reject:1 dead:9 done:5 ]> show 5
+TD1164 search d41438 [ 1023 cap:1024 may:215 prune:535 reject:1 dead:9 done:5 ]> ␅
+TD642086 ␆ret
+TD82 search d41438 [ 1023 cap:1024 may:215 prune:535 reject:1 dead:9 done:5 ]> ret
+TD339 change: 24 
+TD21 change: 12 
+TD10 change: 24 
+TD10 change: 22 
+TD8 change: 24 
+TD9 change: 32 
+TD7 change: 24 
+TD8 change: 42 
+TD7 change: 24 
+TD8 change: 52 
+TD6 change: 24 
+TD7 change: 62 
+TD8 change: 24 S
+TD8 change: 63 
+TD7 change: 34 O
+TD11 change: 64 
+TD5 change: 53 D
+TD5 change: 54 U
+TD5 change: 57 A
+TD2 change: 83 E
+TD2 change: 84 X
+TD2 change: 86 M
+TD22687 [doit:2165]> ␅
+TD1675567 ␆/sea -cap 1024
+TD108 [doit:2165]> /sea -cap 1024
+TD1007946 Z LUNLUxkaL-0l`oThKG_rW+=IY`gp=}6=sfejc|lSIbHw&00960
+TD667014 Z 8iY;)00030{{
+TD636003 Z 8iY;)00030{{
+TD649035 Z 8iY;)00030{{
+TD697250 Z 8iY;)00030{{
+TD723789 Z 8iY;)00030{{
+TD800289 Z 8iY;)00030{{
+TD764582 Z 8iY;)00030{{
+TD735595 Z 8iY;)00030{{
+TD725877 Z 8iY;)00030{{
+TD743871 Z 8iY;)00030{{
+TD708209 Z 8iY;)00030{{
+TD740501 Z 8iY;)00030{{
+TD818035 Z 8iY;)00030{{
+TD734596 Z 8iY;)00030{{
+TD736699 Z 8iY;)00030{{
+TD731165 Z 8iY;)00030{{
+TD695864 Z 8iY;)00030{{
+TD718926 Z 8iY;)00030{{
+TD665269 Z 8iY;)00030{{
+TD659257 Z 8iY;)00030{{
+TD662605 Z 8iY;)00030{{
+TD664374 Z 8iY;)00030{{
+TD654694 Z 8iY;)00030{{
+TD499191 Z 8iY;)00030{{
+TD572724 Z 8iY;)00030{{
+TD567131 Z 8iY;)00030{{
+TD571820 Z 8iY;)00030{{
+TD596730 Z 8iY;)00030{{
+TD580093 Z 8iY;)00030{{
+TD588603 Z 8iY;)00030{{
+TD600203 Z 8iY;)00030{{
+TD608654 Z 8iY;)00030{{
+TD610477 Z 8iY;)00030{{
+TD616190 Z 8iY;)00030{{
+TD624158 Z 8iY;)00030{{
+TD622398 Z 8iY;)00030{{
+TD648745 Z 8iY;)00030{{
+TD645692 Z 8iY;)00030{{
+TD639037 Z 8iY;)00030{{
+TD494987 Z 8iY;)00030{{
+TD566769 Z 8iY;)00030{{
+TD563883 Z 8iY;)00030{{
+TD15739 search 078a90 [ 1023 cap:1024 prune:213 dead:1 reject:1 ]> ␅
+TD32322073 ␄
+TD23003 [doit:2165]> ␅
+TD574099 ␆/res
+TD101 [doit:2165]> /res
+TD207 📋> ␅
+TD1513832 ␆✨ Spaceword.org Daily 2026-11-04 ✨
+TD59 📋> ✨ Spaceword.org Daily 2026-11-04 ✨
+TD7 📋> ␅
+TD24 ␆
+TD3 📋> 
+TD3 📋> ␅
+TD6 ␆🏆 Score: 2165
+TD3 📋> 🏆 Score: 2165
+TD2 📋> ␅
+TD6 ␆🏅 Rank: 134/269 🎈
+TD2 📋> 🏅 Rank: 134/269 🎈
+TD2 📋> ␅
+TD6 ␆🧩 Tiles: 21/21 ✅
+TD2 📋> 🧩 Tiles: 21/21 ✅
+TD2 📋> ␅
+TD9 ␆📏 Space Bonus: +65
+TD2 📋> 📏 Space Bonus: +65
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆
+TD2 📋> 
+TD2 📋> ␅
+TD5 ␆Play at https://spaceword.org
+TD2 📋> Play at https://spaceword.org
+TD2 📋> ␅
+TD183729 ␆#spaceword
+TD60 📋> #spaceword
+TD6 📋> ␅
+TD321628 ␄
+TD116 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-11-04 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 134/269 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TD907 result: "\u2728 Spaceword.org Daily 2026-11-04 \u2728\n\n\ud83c\udfc6 Score: 2165\n\ud83c\udfc5 Rank: 134/269 \ud83c\udf88\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +65\n\n\nPlay at https://spaceword.org\n#spaceword"
+TD23029 [prior:2165]> ␅
+TD2803682 ␆/store
+TD101 [prior:2165]> /store
