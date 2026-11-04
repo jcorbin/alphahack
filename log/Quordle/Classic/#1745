@@ -1,0 +1,187 @@
+T669.7325334399939 now: 2026-11-04T09:51:20EST
+TD138 site: https://www.merriam-webster.com/games/quordle/#/
+TD22 wordlist: nwl2023.txt
+TD7 num_words: 4
+TD129  ...␅
+TD5398802 ␆
+TD103  ...
+TD756545 > ␅
+TD2736763 ␆*
+TD136 > *
+TD86961 ? ␅
+TD677670 ␆1
+TD87 ? 1
+TD153 questioning: lanes
+TD156 Classic #1 _____? ␅
+TD3050299 ␆nnnnM
+TD72 Classic #1 _____? nnnnM
+TD343 attempt: 0 LANES n n n n m
+TD86 Classic #2 _____? ␅
+TD1049666 ␆nnnnn
+TD76 Classic #2 _____? nnnnn
+TD198 attempt: 1 LANES n n n n n
+TD82 Classic #3 _____? ␅
+TD1709850 ␆MMnMn
+TD108 Classic #3 _____? MMnMn
+TD224 attempt: 2 LANES m m n m n
+TD102 Classic #4 _____? ␅
+TD1232525 ␆Mnnnn
+TD121 Classic #4 _____? Mnnnn
+TD239 attempt: 3 LANES m n n n n
+TD856203 > ␅
+TD717993 ␆*
+TD73 > *
+TD5851 ? ␅
+TD2302880 ␆3
+TD78 ? 3
+TD149 questioning: yogic
+TD152 Classic #1 _____ ~S -AELN? ␅
+TD3703858 ␆nYnMn
+TD78 Classic #1 _____ ~S -AELN? nYnMn
+TD198 attempt: 0 YOGIC n Y n m n
+TD92 Classic #2 _____ -AELNS? ␅
+TD1610782 ␆nMnnM
+TD75 Classic #2 _____ -AELNS? nMnnM
+TD198 attempt: 1 YOGIC n m n n m
+TD91 Classic #3 _____ ~AEL -NS? ␅
+TD3926633 ␆Mnnnn
+TD81 Classic #3 _____ ~AEL -NS? Mnnnn
+TD212 attempt: 2 YOGIC m n n n n
+TD100 Classic #4 _____ ~L -AENS? ␅
+TD1907602 ␆MnnMM
+TD89 Classic #4 _____ ~L -AENS? MnnMM
+TD192 attempt: 3 YOGIC m n n m m
+TD978129 > ␅
+TD727627 ␆*
+TD109 > *
+TD431 questioning: icily
+TD153 Classic #1 _O___ ~IS -ACEGLNY? ␅
+TD3257902 ␆nnYnn
+TD123 Classic #1 _O___ ~IS -ACEGLNY? nnYnn
+TD242 attempt: 0 ICILY n n Y n n
+TD126 Classic #2 _____ ~CO -AEGILNSY? ␅
+TD1414098 ␆nMnnn
+TD84 Classic #2 _____ ~CO -AEGILNSY? nMnnn
+TD179 attempt: 1 ICILY n m n n n
+TD95 Classic #3 _____ ~AELY -CGINOS? ␅
+TD1472840 ␆nnnMY
+TD96 Classic #3 _____ ~AELY -CGINOS? nnnMY
+TD230 attempt: 2 ICILY n n n m Y
+TD117 Classic #4 _____ ~CILY -AEGNOS? ␅
+TD1048470 ␆YYYYY
+TD96 Classic #4 _____ ~CILY -AEGNOS? YYYYY
+TD224 attempt: 3 ICILY Y Y Y Y Y
+TD584171 > ␅
+TD77 ␆
+TD7 > 
+TD103 > ␅
+TD1079862 ␆*
+TD77 > *
+TD474 ? ␅
+TD2773383 ␄
+TD105 <EOF>
+TD502148 > ␅
+TD966537 ␆* 2
+TD75 > * 2
+TD182087 ? ␅
+TD3258503 ␆4
+TD80 ? 4
+TD149 questioning: brock
+TD149 Classic #1 _OI__ ~S -ACEGLNY? ␅
+TD2706549 ␆nnMnn
+TD92 Classic #1 _OI__ ~S -ACEGLNY? nnMnn
+TD184 attempt: 0 BROCK n n m n n
+TD92 Classic #2 _____ ~CO -AEGILNSY? ␅
+TD2005210 ␆nYYMY
+TD82 Classic #2 _____ ~CO -AEGILNSY? nYYMY
+TD216 attempt: 1 BROCK n Y Y m Y
+TD104 Classic #3 ____Y ~AEL -CGINOS? ␅
+TD1131206 ␆nnnnn
+TD83 Classic #3 ____Y ~AEL -CGINOS? nnnnn
+TD184 attempt: 2 BROCK n n n n n
+TD489515 > ␅
+TD681362 ␆*
+TD111 > *
+TD406 questioning: crook
+TD150 Classic #1 _OI__ ~S -ABCEGKLNRY? ␅
+TD2841322 ␆nnMnn
+TD76 Classic #1 _OI__ ~S -ABCEGKLNRY? nnMnn
+TD175 attempt: 0 CROOK n n m n n
+TD95 Classic #2 _RO_K ~C -ABEGILNSY? ␅
+TD1317990 ␆YYYYY
+TD110 Classic #2 _RO_K ~C -ABEGILNSY? YYYYY
+TD218 attempt: 1 CROOK Y Y Y Y Y
+TD130 Classic #3 ____Y ~AEL -BCGIKNORS? ␅
+TD1164868 ␆nnnnn
+TD99 Classic #3 ____Y ~AEL -BCGIKNORS? nnnnn
+TD177 attempt: 2 CROOK n n n n n
+TD330065 > ␅
+TD752211 ␆*
+TD76 > *
+TD310 questioning: delay
+TD132 Classic #1 _OI__ ~S -ABCEGKLNRY O:1? ␅
+TD3006720 ␆nnnnn
+TD80 Classic #1 _OI__ ~S -ABCEGKLNRY O:1? nnnnn
+TD191 attempt: 0 DELAY n n n n n
+TD100 Classic #3 ____Y ~AEL -BCGIKNORS? ␅
+TD1423286 ␆YYYYY
+TD78 Classic #3 ____Y ~AEL -BCGIKNORS? YYYYY
+TD174 attempt: 2 DELAY Y Y Y Y Y
+TD158026 > ␅
+TD1165926 ␆*
+TD80 > *
+TD528 ? ␅
+TD1956573 ␄
+TD105 <EOF>
+TD160719 > ␅
+TD4714249 ␆probe fhjm
+TD71 > probe fhjm
+TD468935 > ␅
+TD4779842 ␆tried chafe
+TD76 > tried chafe
+TD306 questioning: CHAFE
+TD153 Classic #1 _OI__ ~S -ABCDEGKLNRY O:1? ␅
+TD1352705 ␆nnnnn
+TD172 Classic #1 _OI__ ~S -ABCDEGKLNRY O:1? nnnnn
+TD238 attempt: 0 CHAFE n n n n n
+TD163548 > ␅
+TD755044 ␆*
+TD119 > *
+TD537 ? ␅
+TD1825142 ␆2
+TD78 ? 2
+TD143 questioning: moist
+TD160 Classic #1 _OI__ ~S -ABCDEFGHKLNRY O:1? ␅
+TD2423394 ␆nYYYY
+TD80 Classic #1 _OI__ ~S -ABCDEFGHKLNRY O:1? nYYYY
+TD195 attempt: 0 MOIST n Y Y Y Y
+TD163154 > ␅
+TD247303 ␆*
+TD80 > *
+TD317 questioning: joist
+TD123 Classic #1 _OIST -ABCDEFGHKLMNRY? ␅
+TD2684982 ␆YYYYY
+TD88 Classic #1 _OIST -ABCDEFGHKLMNRY? YYYYY
+TD178 attempt: 0 JOIST Y Y Y Y Y
+TD79 📋> ␅
+TD4625717 ␆🙂 Daily Quordle 1745
+TD81 📋> 🙂 Daily Quordle 1745
+TD11 📋> ␅
+TD44 ␆9️⃣5️⃣
+TD7 📋> 9️⃣5️⃣
+TD6 📋> ␅
+TD20 ␆6️⃣3️⃣
+TD4 📋> 6️⃣3️⃣
+TD4 📋> ␅
+TD10 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD149016 ␆
+TD83 📋> 
+TD11 📋> ␅
+TD172965 ␄
+TD199 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1745\n9\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1880 result: "\ud83d\ude42 Daily Quordle 1745\n9\ufe0f\u20e35\ufe0f\u20e3\n6\ufe0f\u20e33\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD122 📆 2026-11-04 ? ␅
+TD233833 ␆
+TD118 📆 2026-11-04 ? 
