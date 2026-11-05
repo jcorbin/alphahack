@@ -1,0 +1,74 @@
+T36.999191336974036 now: 2026-11-05T11:58:11EST
+TD111 site: alfagok.diginaut.net
+TD410697 loaded 399443 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1409 words excluded) asof 09f92c566b5cc0046cb06a0430c8dc77ecb615ed
+TD93  ...␅
+TD3671416 ␆
+TD62  ...
+TD133 [0 : 199631 : 399443] lijk? ␅
+TD3433475 ␆a
+TD94 [0 : 199631 : 399443] lijk? a
+TD276 progress: 1 199631 lijk
+TD98 [199632 : 299522 : 399443] schroot? ␅
+TD3647643 ␆a
+TD100 [199632 : 299522 : 399443] schroot? a
+TD106 progress: 1 299522 schroot
+TD104 [299523 : 349304 : 399443] vakantie? ␅
+TD1776282 ␆a
+TD63 [299523 : 349304 : 399443] vakantie? a
+TD60 progress: 1 349304 vakantie
+TD61 [349305 : 374038 : 399443] vrij? ␅
+TD1657304 ␆b
+TD64 [349305 : 374038 : 399443] vrij? b
+TD67 progress: -1 374038 vrij
+TD79 [349305 : 352868 : 374038] ver? ␅
+TD2089860 ␆a
+TD61 [349305 : 352868 : 374038] ver? a
+TD63 progress: 1 352868 ver
+TD146 [352869 : 363453 : 374038] verzout? ␅
+TD3343600 ␆b
+TD61 [352869 : 363453 : 374038] verzout? b
+TD62 progress: -1 363453 verzout
+TD222 [352869 : 358161 : 363453] verluiert? ␅
+TD2015413 ␆b
+TD120 [352869 : 358161 : 363453] verluiert? b
+TD97 progress: -1 358161 verluiert
+TD99 [352869 : 355048 : 358161] verg? ␅
+TD2407016 ␆b
+TD62 [352869 : 355048 : 358161] verg? b
+TD62 progress: -1 355048 verg
+TD63 [352869 : 353950 : 355048] verdeel? ␅
+TD1965184 ␆a
+TD80 [352869 : 353950 : 355048] verdeel? a
+TD114 progress: 1 353950 verdeel
+TD220 [353951 : 354499 : 355048] verduidelijk? ␅
+TD2423904 ␆a
+TD78 [353951 : 354499 : 355048] verduidelijk? a
+TD74 progress: 1 354499 verduidelijk
+TD84 [354500 : 354746 : 355048] vereniging? ␅
+TD2061542 ␆it
+TD76 [354500 : 354746 : 355048] vereniging? it
+TD77 progress: 0 354746 vereniging
+TD19 [354500 : 354746 : 355048] <Done>.
+TD77 📋> ␅
+TD2839348 ␆🧩 Puzzel #733
+TD132 📋> 🧩 Puzzel #733
+TD18 📋> ␅
+TD44 ␆🤔 11 gokken
+TD5 📋> 🤔 11 gokken
+TD5 📋> ␅
+TD10 ␆⏱️ 24s
+TD5 📋> ⏱️ 24s
+TD4 📋> ␅
+TD130413 ␆🔗 alfagok.diginaut.net
+TD83 📋> 🔗 alfagok.diginaut.net
+TD9 📋> ␅
+TD238405 ␄
+TD128 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #733\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD450 result: "\ud83e\udde9 Puzzel #733\n\ud83e\udd14 11 gokken\n\u23f1\ufe0f 24s\n\ud83d\udd17 alfagok.diginaut.net"
+TD13 result puzzle: 733
+TD6 result guesses: 11
+TD4 result time: 24s
+TD4 result link: alfagok.diginaut.net
+TD64 📆 2026-11-05 ? ␅
+TD302450 ␆
+TD104 📆 2026-11-05 ? 
