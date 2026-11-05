@@ -1,0 +1,252 @@
+T482.2882216949947 now: 2026-11-05T14:02:05EST
+TD158 site: squareword.org
+TD23 wordlist: nwl2023.txt
+TD32  ...␅
+TD1251655 ␆
+TD127  ...
+TD78 🧩  ? ␅
+TD6835674 ␆#1739
+TD114 🧩  ? #1739
+TD298 puzzle_id: #1739
+TD285 > ␅
+TD534102 ␆
+TD119 > 
+TD414 > ␅
+TD812467 ␆*
+TD119 > *
+TD481420 try? ␅
+TD635708 ␆1
+TD95 try? 1
+TD318 questioning: ["acres", "#5"]
+TD353 #1 <IndexError>  📋 "acres" ? ␅
+TD4507367 ␆_____ ~ AE
+TD113 #1 <IndexError>  📋 "acres" ? _____ ~ AE
+TD744 attempt 0 ACRES m n n m n
+TD131 #2 <IndexError>  📋 "acres" ? ␅
+TD1787529 ␆A____ 
+TD113 #2 <IndexError>  📋 "acres" ? A____ 
+TD288 attempt 1 ACRES Y n n n n
+TD137 #3 <IndexError>  📋 "acres" ? ␅
+TD2557644 ␆_____ ~ AE
+TD117 #3 <IndexError>  📋 "acres" ? _____ ~ AE
+TD276 attempt 2 ACRES m n n m n
+TD135 #4 <IndexError>  📋 "acres" ? ␅
+TD2419866 ␆A__E_ ~ R
+TD122 #4 <IndexError>  📋 "acres" ? A__E_ ~ R
+TD338 attempt 3 ACRES Y n m Y n
+TD160 #5 <IndexError>  📋 "acres" ? ␅
+TD2659925 ␆____S ~ AR
+TD88 #5 <IndexError>  📋 "acres" ? ____S ~ AR
+TD265 attempt 4 ACRES m n m n Y
+TD338 ? ␅
+TD282977 ␆
+TD138 ? 
+TD195 question done
+TD297 > ␅
+TD815961 ␆*
+TD120 > *
+TD837432 try? ␅
+TD1135622 ␆1
+TD105 try? 1
+TD372 questioning: ["armed", "#4"]
+TD437 #1 _____ ~AE -CRS  📋 "armed" ? ␅
+TD5456943 ␆_____ ~ AEM
+TD136 #1 _____ ~AE -CRS  📋 "armed" ? _____ ~ AEM
+TD348 attempt 0 ARMED m n m m n
+TD189 #2 A____ -CERS  📋 "armed" ? ␅
+TD1274765 ␆.
+TD109 #2 A____ -CERS  📋 "armed" ? .
+TD260 attempt 1 ARMED Y n n n n
+TD90 #3 _____ ~AE -CRS  📋 "armed" ? ␅
+TD1068943 ␆.
+TD102 #3 _____ ~AE -CRS  📋 "armed" ? .
+TD243 attempt 2 ARMED m n n m n
+TD85 #4 A__E_ ~R -CS  📋 "armed" ? ␅
+TD3160374 ␆A__E_ ~ RM
+TD119 #4 A__E_ ~R -CS  📋 "armed" ? A__E_ ~ RM
+TD333 attempt 3 ARMED Y m m Y n
+TD180 #5 ____S ~AR -CE  📋 "armed" ? ␅
+TD1596915 ␆.
+TD110 #5 ____S ~AR -CE  📋 "armed" ? .
+TD291 attempt 4 ARMED m m n n n
+TD289 ? ␅
+TD173874 ␆
+TD100 ? 
+TD109 question done
+TD240 > ␅
+TD577489 ␆*
+TD132 > *
+TD682183 try? ␅
+TD1176447 ␄
+TD167 <EOF>
+TD305 > ␅
+TD2227539 ␆* 3
+TD161 > * 3
+TD5277 try? ␅
+TD1142957 ␆1
+TD112 try? 1
+TD351 questioning: ["petal", "#3"]
+TD446 #1 _____ ~AEM -CDRS  📋 "petal" ? ␅
+TD5774810 ␆_____ ~ AEML
+TD117 #1 _____ ~AEM -CDRS  📋 "petal" ? _____ ~ AEML
+TD283 attempt 0 PETAL n m n m m
+TD171 #2 A____ -CDEMRS  📋 "petal" ? ␅
+TD2634805 ␆A____ ~ L
+TD129 #2 A____ -CDEMRS  📋 "petal" ? A____ ~ L
+TD331 attempt 1 PETAL n n n n m
+TD182 #3 _____ ~AE -CDMRS  📋 "petal" ? ␅
+TD1033869 ␆.
+TD95 #3 _____ ~AE -CDMRS  📋 "petal" ? .
+TD289 attempt 2 PETAL n m n m n
+TD109 #4 A__E_ ~MR -CDS  📋 "petal" ? ␅
+TD1553339 ␆.
+TD116 #4 A__E_ ~MR -CDS  📋 "petal" ? .
+TD308 attempt 3 PETAL n n n n n
+TD107 #5 ____S ~AR -CDEM  📋 "petal" ? ␅
+TD3362571 ␆____S ~ ARL
+TD124 #5 ____S ~AR -CDEM  📋 "petal" ? ____S ~ ARL
+TD296 attempt 4 PETAL n n n m m
+TD348 ? ␅
+TD388537 ␆
+TD97 ? 
+TD109 question done
+TD288 > ␅
+TD520082 ␆*
+TD114 > *
+TD636608 questioning: ["amber", "#4"]
+TD220 #1 _____ ~AELM -CDPRST  📋 "amber" ? ␅
+TD6685671 ␆_____ ~ AEMLB
+TD125 #1 _____ ~AELM -CDPRST  📋 "amber" ? _____ ~ AEMLB
+TD262 attempt 0 AMBER m m m m n
+TD167 #2 A____ ~L -ACDEMPRST  📋 "amber" ? ␅
+TD1209224 ␆.
+TD108 #2 A____ ~L -ACDEMPRST  📋 "amber" ? .
+TD294 attempt 1 AMBER Y n n n n
+TD106 #3 _____ ~AE -CDLMPRST  📋 "amber" ? ␅
+TD1255343 ␆.
+TD110 #3 _____ ~AE -CDLMPRST  📋 "amber" ? .
+TD280 attempt 2 AMBER m n n m n
+TD106 #4 A__E_ ~MR -ACDELPST  📋 "amber" ? ␅
+TD789549 ␆/it
+TD109 #4 A__E_ ~MR -ACDELPST  📋 "amber" ? /it
+TD273 attempt 3 AMBER Y Y Y Y Y
+TD102 #5 ____S ~ALR -CDEMPT  📋 "amber" ? ␅
+TD967429 ␆.
+TD112 #5 ____S ~ALR -CDEMPT  📋 "amber" ? .
+TD286 attempt 4 AMBER m n n n m
+TD284 ? ␅
+TD164829 ␆
+TD111 ? 
+TD120 question done
+TD317 > ␅
+TD417516 ␆*
+TD122 > *
+TD838895 questioning: ["blame", "#1"]
+TD169 #1 _____ ~ABELM -CDPRST  📋 "blame" ? ␅
+TD2676576 ␆/it
+TD182 #1 _____ ~ABELM -CDPRST  📋 "blame" ? /it
+TD426 attempt 0 BLAME Y Y Y Y Y
+TD137 #2 A____ ~L -BCDEMPRST  📋 "blame" ? ␅
+TD2939944 ␆AL___ ~ L
+TD108 #2 A____ ~L -BCDEMPRST  📋 "blame" ? AL___ ~ L
+TD232 attempt 1 BLAME n Y n n n
+TD164 #3 _____ ~AE -BCDLMPRST  📋 "blame" ? ␅
+TD4641327 ␆____E ~ A
+TD101 #3 _____ ~AE -BCDLMPRST  📋 "blame" ? ____E ~ A
+TD294 attempt 2 BLAME n n m n Y
+TD197 #5 ____S ~ALR -BCDEMPT  📋 "blame" ? ␅
+TD4467959 ␆.
+TD110 #5 ____S ~ALR -BCDEMPT  📋 "blame" ? .
+TD282 attempt 4 BLAME n m m n n
+TD441 ? ␅
+TD331073 ␆
+TD109 ? 
+TD121 question done
+TD306 > ␅
+TD1004826 ␆*
+TD109 > *
+TD2109139 questioning: ["naive", "#3"]
+TD181 #2 AL___ -ABCDEMPRST  📋 "naive" ? ␅
+TD6037980 ␆AL___ ~ L
+TD114 #2 AL___ -ABCDEMPRST  📋 "naive" ? AL___ ~ L
+TD274 attempt 1 NAIVE n n n n n
+TD166 #3 ____E ~A -BCDLMPRST  📋 "naive" ? ␅
+TD1278261 ␆/it
+TD138 #3 ____E ~A -BCDLMPRST  📋 "naive" ? /it
+TD328 attempt 2 NAIVE Y Y Y Y Y
+TD129 #5 ____S ~ALR -BCDEMPT  📋 "naive" ? ␅
+TD3497892 ␆_AI_S ~ RL
+TD126 #5 ____S ~ALR -BCDEMPT  📋 "naive" ? _AI_S ~ RL
+TD322 attempt 4 NAIVE n Y Y n n
+TD369 ? ␅
+TD324879 ␆
+TD112 ? 
+TD122 question done
+TD309 > ␅
+TD612298 ␆*
+TD113 > *
+TD1759010 questioning: ["lairs", "#5"]
+TD228 #2 AL___ -ABCDEIMNPRSTV  📋 "lairs" ? ␅
+TD5989657 ␆AL___ ~ L
+TD125 #2 AL___ -ABCDEIMNPRSTV  📋 "lairs" ? AL___ ~ L
+TD322 attempt 1 LAIRS m n n n n
+TD196 #5 _AI_S ~LR -BCDEMNPTV  📋 "lairs" ? ␅
+TD668127 ␆/it
+TD109 #5 _AI_S ~LR -BCDEMNPTV  📋 "lairs" ? /it
+TD280 attempt 4 LAIRS Y Y Y Y Y
+TD279 ? ␅
+TD434637 ␆
+TD117 ? 
+TD126 question done
+TD778 > ␅
+TD636157 ␆*
+TD118 > *
+TD1170033 try? ␅
+TD3160047 ␆1
+TD106 try? 1
+TD312 questioning: ["allow", "#2"]
+TD348 #2 AL___ -ABCDEIMNPRSTV  📋 "allow" ? ␅
+TD2146107 ␆/it
+TD127 #2 AL___ -ABCDEIMNPRSTV  📋 "allow" ? /it
+TD325 attempt 1 ALLOW Y Y Y Y Y
+TD257 ? ␅
+TD504859 ␆
+TD123 ? 
+TD118 question done
+TD32259 📋> ␅
+TD5148823 ␆squareword.org 1739: 8 guesses
+TD245 📋> squareword.org 1739: 8 guesses
+TD15 📋> ␅
+TD57 ␆
+TD9 📋> 
+TD7 📋> ␅
+TD22 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD14 ␆🟩🟩🟨🟨🟨
+TD5 📋> 🟩🟩🟨🟨🟨
+TD6 📋> ␅
+TD14 ␆🟨🟨🟨🟨🟩
+TD5 📋> 🟨🟨🟨🟨🟩
+TD5 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD13 ␆🟨🟨🟨🟨🟩
+TD5 📋> 🟨🟨🟨🟨🟩
+TD5 📋> ␅
+TD14 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD13 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD177422 ␆#squareword #squareword1739
+TD135 📋> #squareword #squareword1739
+TD16 📋> ␅
+TD170015 ␄
+TD201 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1739: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1739"}
+TD786 result: "squareword.org 1739: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1739"
+TD92 📆 2026-11-05 ? ␅
+TD392705 ␆
+TD136 📆 2026-11-05 ? 
