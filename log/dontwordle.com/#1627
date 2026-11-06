@@ -1,0 +1,168 @@
+T1720.0545379920513 now: 2026-11-06T09:47:41EST
+TD145 site: dontwordle.com
+TD27 wordlist: nwl2023.txt
+TD40  ...␅
+TD421560 ␆
+TD118  ...
+TD131 1> ␅
+TD21557173 ␆* -bot 10
+TD115 1> * -bot 10
+TD290031 ? ␅
+TD930419 ␆1
+TD122 ? 1
+TD309 📋 "earls" ? ␅
+TD4529225 ␆nnnMn
+TD119 📋 "earls" ? nnnMn
+TD589 tried: EARLS n n n m n
+TD187 2> ␅
+TD1486747 ␆undo
+TD112 2> undo
+TD158 undo
+TD158 1> ␅
+TD3425329 ␆*
+TD106 1> *
+TD171516 ? ␅
+TD1589692 ␆1
+TD109 ? 1
+TD236 📋 "kibbi" ? ␅
+TD3801724 ␆nnnnn
+TD136 📋 "kibbi" ? nnnnn
+TD227 tried: KIBBI n n n n n
+TD191 2> ␅
+TD8125426 ␆* :v [earls] -bot 10
+TD112 2> * :v [earls] -bot 10
+TD168984 ? ␅
+TD752935 ␆1
+TD113 ? 1
+TD251 📋 "mound" ? ␅
+TD11944143 ␆MnMnn
+TD120 📋 "mound" ? MnMnn
+TD232 tried: MOUND m n m n n
+TD215 3> ␅
+TD805121 ␆undo
+TD112 3> undo
+TD173 undo
+TD488 2> ␅
+TD2585090 ␆*
+TD121 2> *
+TD184751 ? ␅
+TD451825 ␆1
+TD113 ? 1
+TD253 📋 "peeve" ? ␅
+TD4227396 ␆Mnnnn
+TD124 📋 "peeve" ? Mnnnn
+TD267 tried: PEEVE m n n n n
+TD240 3> ␅
+TD785036 ␆undo
+TD115 3> undo
+TD162 undo
+TD275 2> ␅
+TD2514287 ␆*
+TD168 2> *
+TD160850 ? ␅
+TD673092 ␆1
+TD129 ? 1
+TD309 📋 "heeze" ? ␅
+TD3722380 ␆nnnnn
+TD115 📋 "heeze" ? nnnnn
+TD225 tried: HEEZE n n n n n
+TD222 3> ␅
+TD505698 ␆*
+TD103 3> *
+TD141240 ? ␅
+TD709636 ␆1
+TD115 ? 1
+TD274 📋 "wanna" ? ␅
+TD3717022 ␆nnnnn
+TD112 📋 "wanna" ? nnnnn
+TD225 tried: WANNA n n n n n
+TD236 4> ␅
+TD616732 ␆*
+TD115 4> *
+TD125324 ? ␅
+TD669920 ␆1
+TD109 ? 1
+TD234 📋 "toots" ? ␅
+TD3904387 ␆nnnnn
+TD107 📋 "toots" ? nnnnn
+TD216 tried: TOOTS n n n n n
+TD215 5> ␅
+TD584864 ␆*
+TD128 5> *
+TD260907 ? ␅
+TD486786 ␆1
+TD109 ? 1
+TD260 📋 "dryly" ? ␅
+TD11173773 ␆nnnMY
+TD123 📋 "dryly" ? nnnMY
+TD214 tried: DRYLY n n n m Y
+TD209 6> ␅
+TD2621885 ␆undo
+TD168 6> undo
+TD221 undo
+TD289 5> ␅
+TD1126762 ␆*
+TD136 5> *
+TD319469 📋 "grrrl" ? ␅
+TD8961445 ␆nnnnM
+TD107 📋 "grrrl" ? nnnnM
+TD224 tried: GRRRL n n n n m
+TD255 6> ␅
+TD524361 ␆*
+TD121 6> *
+TD266085 📋 "fluff" ? ␅
+TD6349657 ␆nMMnn
+TD121 📋 "fluff" ? nMMnn
+TD269 tried: FLUFF n m m n n
+TD244 📋> ␅
+TD3309003 ␆Don't Wordle 1627 - SURVIVED
+TD113 📋> Don't Wordle 1627 - SURVIVED
+TD13 📋> ␅
+TD54 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD8 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD6 📋> ␅
+TD18 ␆⬜⬜⬜⬜⬜7266
+TD5 📋> ⬜⬜⬜⬜⬜7266
+TD5 📋> ␅
+TD12 ␆⬜⬜⬜⬜⬜2896
+TD4 📋> ⬜⬜⬜⬜⬜2896
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜868
+TD4 📋> ⬜⬜⬜⬜⬜868
+TD4 📋> ␅
+TD11 ␆⬜⬜⬜⬜⬜79
+TD4 📋> ⬜⬜⬜⬜⬜79
+TD4 📋> ␅
+TD11 ␆⬜⬜⬜⬜🟨15
+TD4 📋> ⬜⬜⬜⬜🟨15
+TD4 📋> ␅
+TD12 ␆⬜🟨🟨⬜⬜8
+TD4 📋> ⬜🟨🟨⬜⬜8
+TD4 📋> ␅
+TD10 ␆Undos used: 4
+TD4 📋> Undos used: 4
+TD5 📋> ␅
+TD10 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD12 ␆  8 words remaining
+TD4 📋>   8 words remaining
+TD4 📋> ␅
+TD10 ␆x 9 unused letters
+TD4 📋> x 9 unused letters
+TD4 📋> ␅
+TD10 ␆= 72 total score
+TD4 📋> = 72 total score
+TD4 📋> ␅
+TD10 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD130531 ␆https://dontwordle.com
+TD126 📋> https://dontwordle.com
+TD16 📋> ␅
+TD240141 ␄
+TD215 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1627 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7266\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2896\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c868\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c79\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe815\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c8\nUndos used: 4\n\n  8 words remaining\nx 9 unused letters\n= 72 total score\n\nhttps://dontwordle.com"}
+TD1404 result: "Don't Wordle 1627 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c7266\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c2896\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c868\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c79\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe815\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\u2b1c8\nUndos used: 4\n\n  8 words remaining\nx 9 unused letters\n= 72 total score\n\nhttps://dontwordle.com"
+TD124 📆 2026-11-06 ? ␅
+TD325956 ␆
+TD117 📆 2026-11-06 ? 
