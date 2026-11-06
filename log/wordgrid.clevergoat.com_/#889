@@ -1,0 +1,392 @@
+T3.3172829910181463 now: 2026-11-06T10:25:47EST
+TD125 site: https://wordgrid.clevergoat.com/
+TD17 wordlist: nwl2023.txt
+TD47 > ␅
+TD4493530 ␆col 1 &DT
+TD109 > col 1 &DT
+TD689 rule col: 1 &DT
+TD90 > ␅
+TD3384698 ␆col 2 ~^RE
+TD107 > col 2 ~^RE
+TD368 rule col: 2 ~^RE
+TD101 > ␅
+TD3541997 ␆col 3 ~ON
+TD114 > col 3 ~ON
+TD342 rule col: 3 ~ON
+TD94 > ␅
+TD6428950 ␆row 1 #4-6
+TD117 > row 1 #4-6
+TD377 rule row: 1 #4-6
+TD93 > ␅
+TD4515374 ␆row 2 ![ACI]
+TD117 > row 2 ![ACI]
+TD560 rule row: 2 ![ACI]
+TD96 > ␅
+TD3097769 ␆row 3 ~ON$
+TD117 > row 3 ~ON$
+TD368 rule row: 3 ~ON$
+TD99 > ␅
+TD1885752 ␆*
+TD117 > *
+TD391512 ? ␅
+TD447049 ␆1
+TD115 ? 1
+TD182 questioning: 0 staid
+TD72 🌡️ staid 📋 ? ␅
+TD3435797 ␆.2
+TD132 🌡️ staid 📋 ? .2
+TD430 word: 0 staid 0.2
+TD29 questioning: -1 
+TD109 > ␅
+TD561658 ␆*
+TD116 > *
+TD293435 ? ␅
+TD554651 ␆1
+TD169 ? 1
+TD269 questioning: 1 resat
+TD101 🌡️ resat 📋 ? ␅
+TD3052424 ␆.11
+TD95 🌡️ resat 📋 ? .11
+TD76 word: 1 resat 0.11
+TD16 questioning: -1 
+TD71 > ␅
+TD1088399 ␆* 1
+TD114 > * 1
+TD335209 ? ␅
+TD1007234 ␆1
+TD136 ? 1
+TD175 questioning: 3 audist
+TD54 🌡️ audist 📋 ? ␅
+TD7622013 ␄
+TD176 <EOF>
+TD223 > ␅
+TD954513 ␆*
+TD121 > *
+TD299762 ? ␅
+TD2046429 ␆1
+TD112 ? 1
+TD178 questioning: 2 sone
+TD52 🌡️ sone 📋 ? ␅
+TD2667953 ␆.2
+TD109 🌡️ sone 📋 ? .2
+TD123 word: 2 sone 0.2
+TD26 questioning: -1 
+TD131 > ␅
+TD528148 ␆*
+TD114 > *
+TD350454 ? ␅
+TD1510310 ␆1
+TD108 ? 1
+TD197 questioning: 3 dunt
+TD64 🌡️ dunt 📋 ? ␅
+TD4654174 ␆.36
+TD114 🌡️ dunt 📋 ? .36
+TD108 word: 3 dunt 0.36
+TD21 questioning: -1 
+TD108 > ␅
+TD564003 ␆*
+TD113 > *
+TD278557 ? ␅
+TD790271 ␆1
+TD112 ? 1
+TD172 questioning: 4 repo
+TD55 🌡️ repo 📋 ? ␅
+TD2750225 ␆.49
+TD117 🌡️ repo 📋 ? .49
+TD124 word: 4 repo 0.49
+TD21 questioning: -1 
+TD113 > ␅
+TD446268 ␆*
+TD119 > *
+TD316333 ? ␅
+TD704394 ␆1
+TD87 ? 1
+TD152 questioning: 5 tonger
+TD53 🌡️ tonger 📋 ? ␅
+TD2916824 ␆.04
+TD122 🌡️ tonger 📋 ? .04
+TD110 word: 5 tonger 0.04
+TD22 questioning: -1 
+TD111 > ␅
+TD370113 ␆*
+TD105 > *
+TD340666 ? ␅
+TD569857 ␆1
+TD98 ? 1
+TD148 questioning: 6 detrusion
+TD46 🌡️ detrusion 📋 ? ␅
+TD3107870 ␆.04
+TD110 🌡️ detrusion 📋 ? .04
+TD109 word: 6 detrusion 0.04
+TD33 questioning: -1 
+TD120 > ␅
+TD2158295 ␆*
+TD81 > *
+TD292333 ? ␅
+TD689091 ␆1
+TD132 ? 1
+TD199 questioning: 7 recon
+TD64 🌡️ recon 📋 ? ␅
+TD4207099 ␆3.32
+TD108 🌡️ recon 📋 ? 3.32
+TD250 word: 7 recon 3.32
+TD109 questioning: -1 
+TD179 > ␅
+TD661091 ␆*
+TD128 > *
+TD331294 ? ␅
+TD811288 ␆1
+TD107 ? 1
+TD184 questioning: 8 suction
+TD53 🌡️ suction 📋 ? ␅
+TD2607421 ␆.04
+TD109 🌡️ suction 📋 ? .04
+TD100 word: 8 suction 0.04
+TD23 questioning: -1 
+TD134 > ␅
+TD3496939 ␆* 2 3
+TD176 > * 2 3
+TD284298 ? ␅
+TD539786 ␆1
+TD74 ? 1
+TD121 questioning: 7 retcon
+TD45 🌡️ retcon 📋 ? ␅
+TD4847977 ␆!
+TD122 🌡️ retcon 📋 ? !
+TD161 🌡️ retcon 📋 ? ␅
+TD804073 ␄
+TD161 <EOF>
+TD276 > ␅
+TD1819715 ␆* 2 3
+TD109 > * 2 3
+TD290312 ? ␅
+TD879136 ␆1
+TD131 ? 1
+TD609 questioning: 7 replicon
+TD465 🌡️ replicon 📋 ? ␅
+TD3740954 ␆.19
+TD129 🌡️ replicon 📋 ? .19
+TD111 word: 7 replicon 0.19
+TD21 questioning: -1 
+TD135 > ␅
+TD3096127 ␆* 2 2
+TD118 > * 2 2
+TD308107 ? ␅
+TD584935 ␆1
+TD161 ? 1
+TD193 questioning: 4 resod
+TD65 🌡️ resod 📋 ? ␅
+TD20076547 ␆* 1 2
+TD116 🌡️ resod 📋 ? * 1 2
+TD147 🌡️ resod 📋 ? ␅
+TD3197734 ␆.05
+TD95 🌡️ resod 📋 ? .05
+TD102 word: 4 resod 0.05
+TD23 questioning: -1 
+TD131 > ␅
+TD1417339 ␆* 1 2
+TD110 > * 1 2
+TD361456 ? ␅
+TD3336978 ␆5
+TD131 ? 5
+TD186 questioning: 3 spurted
+TD59 🌡️ spurted 📋 ? ␅
+TD3132309 ␆0
+TD117 🌡️ spurted 📋 ? 0
+TD109 word: 3 spurted 0.0
+TD22 questioning: -1 
+TD137 > ␅
+TD4506423 ␆* 1 1 
+TD124 > * 1 1 
+TD352171 ? ␅
+TD1463421 ␆5
+TD117 ? 5
+TD232 questioning: 0 tsadi
+TD64 🌡️ tsadi 📋 ? ␅
+TD2527216 ␆0
+TD120 🌡️ tsadi 📋 ? 0
+TD107 word: 0 tsadi 0.0
+TD24 questioning: -1 
+TD158 > ␅
+TD576334 ␆*
+TD275 > *
+TD515 > ␅
+TD3613786 ␆* 3 1
+TD113 > * 3 1
+TD305579 ? ␅
+TD2161140 ␆6
+TD119 ? 6
+TD182 questioning: 2 ascon
+TD62 🌡️ ascon 📋 ? ␅
+TD2312094 ␆0
+TD119 🌡️ ascon 📋 ? 0
+TD108 word: 2 ascon 0.0
+TD22 questioning: -1 
+TD126 > ␅
+TD4459281 ␆* 2 3
+TD81 > * 2 3
+TD280595 ? ␅
+TD3387132 ␆8
+TD108 ? 8
+TD166 questioning: 7 repulsion
+TD52 🌡️ repulsion 📋 ? ␅
+TD4102743 ␆.41
+TD122 🌡️ repulsion 📋 ? .41
+TD242 word: 7 repulsion 0.41
+TD27 questioning: -1 
+TD160 > ␅
+TD5122918 ␆* 3 2
+TD114 > * 3 2
+TD314130 ? ␅
+TD4889704 ␆3
+TD145 ? 3
+TD219 questioning: 5 tonsured
+TD69 🌡️ tonsured 📋 ? ␅
+TD2716522 ␆!
+TD134 🌡️ tonsured 📋 ? !
+TD151 🌡️ tonsured 📋 ? ␅
+TD408603 ␄
+TD149 <EOF>
+TD284 > ␅
+TD1399124 ␆* 3 2
+TD106 > * 3 2
+TD311812 ? ␅
+TD3504433 ␆8
+TD121 ? 8
+TD202 questioning: 5 strongyle
+TD63 🌡️ strongyle 📋 ? ␅
+TD5722503 ␄
+TD155 <EOF>
+TD302 > ␅
+TD2464948 ␆* 2 3
+TD109 > * 2 3
+TD299066 ? ␅
+TD8497880 ␆4
+TD132 ? 4
+TD192 questioning: 7 resumption
+TD73 🌡️ resumption 📋 ? ␅
+TD3011082 ␆.26
+TD119 🌡️ resumption 📋 ? .26
+TD126 word: 7 resumption 0.26
+TD26 questioning: -1 
+TD191 > ␅
+TD3475311 ␆* 2 3 -bot 10
+TD109 > * 2 3 -bot 10
+TD283505 ? ␅
+TD2807098 ␆6
+TD129 ? 6
+TD200 questioning: 7 reauthorization
+TD86 🌡️ reauthorization 📋 ? ␅
+TD2971407 ␆.07
+TD124 🌡️ reauthorization 📋 ? .07
+TD109 word: 7 reauthorization 0.07
+TD20 questioning: -1 
+TD124 > ␅
+TD6369034 ␆* 2 1 -bot 10
+TD154 > * 2 1 -bot 10
+TD296518 ? ␅
+TD1160883 ␆1
+TD96 ? 1
+TD260 questioning: 1 revere
+TD97 🌡️ revere 📋 ? ␅
+TD4464622 ␆.36
+TD137 🌡️ revere 📋 ? .36
+TD128 word: 1 revere 0.36
+TD21 questioning: -1 
+TD123 > ␅
+TD4329486 ␆* 2 1 -bot 10
+TD111 > * 2 1 -bot 10
+TD321313 ? ␅
+TD3008775 ␆2
+TD120 ? 2
+TD168 questioning: 1 rebbe
+TD56 🌡️ rebbe 📋 ? ␅
+TD2791332 ␆.03
+TD107 🌡️ rebbe 📋 ? .03
+TD80 word: 1 rebbe 0.03
+TD17 questioning: -1 
+TD109 > ␅
+TD4055090 ␆* 2 3
+TD111 > * 2 3
+TD280230 ? ␅
+TD2067058 ␄
+TD194 <EOF>
+TD396 > ␅
+TD3155646 ␆* 2 3 -bot 10
+TD124 > * 2 3 -bot 10
+TD284096 ? ␅
+TD8540951 ␆4
+TD144 ? 4
+TD194 questioning: 7 retheorization
+TD157 🌡️ retheorization 📋 ? ␅
+TD3256399 ␆.04
+TD122 🌡️ retheorization 📋 ? .04
+TD144 word: 7 retheorization 0.04
+TD30 questioning: -1 
+TD153 > ␅
+TD4044562 ␆* 2 2 -BOT 10
+TD109 > * 2 2 -BOT 10
+TD287343 ? ␅
+TD3822753 ␆3
+TD115 ? 3
+TD169 questioning: 4 repossessors
+TD54 🌡️ repossessors 📋 ? ␅
+TD5648349 ␆0
+TD97 🌡️ repossessors 📋 ? 0
+TD89 word: 4 repossessors 0.0
+TD18 questioning: -1 
+TD120 > ␅
+TD9464988 ␆/RES
+TD137 > /RES
+TD1111 > ␅
+TD2201462 ␆Word Grid #889
+TD68 > Word Grid #889
+TD483 > ␅
+TD70 ␆🦄🌌🦄
+TD10 > 🦄🌌🦄
+TD257 > ␅
+TD11 ␆🦄🦄🌌
+TD3 > 🦄🦄🌌
+TD116 > ␅
+TD8 ␆🌌🌌🌌
+TD3 > 🌌🌌🌌
+TD107 > ␅
+TD8 ␆Rarity: 0.20
+TD3 > Rarity: 0.20
+TD126 > ␅
+TD84953 ␆https://wordgrid.clevergoat.com/s/889-0.2-97-ufuuuffff?ref=shared
+TD319 > https://wordgrid.clevergoat.com/s/889-0.2-97-ufuuuffff?ref=shared
+TD608 > ␅
+TD181516 ␄
+TD199 <EOF>
+TD235 > ␅
+TD2073721 ␆/res
+TD96 > /res
+TD186 📋> ␅
+TD1213727 ␆Word Grid #889
+TD135 📋> Word Grid #889
+TD17 📋> ␅
+TD61 ␆🦄🌌🦄
+TD6 📋> 🦄🌌🦄
+TD6 📋> ␅
+TD13 ␆🦄🦄🌌
+TD5 📋> 🦄🦄🌌
+TD4 📋> ␅
+TD11 ␆🌌🌌🌌
+TD4 📋> 🌌🌌🌌
+TD4 📋> ␅
+TD11 ␆Rarity: 0.20
+TD5 📋> Rarity: 0.20
+TD5 📋> ␅
+TD81863 ␆https://wordgrid.clevergoat.com/s/889-0.2-97-ufuuuffff?ref=shared
+TD142 📋> https://wordgrid.clevergoat.com/s/889-0.2-97-ufuuuffff?ref=shared
+TD18 📋> ␅
+TD1447550 ␄
+TD242 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #889\n\ud83e\udd84\ud83c\udf0c\ud83e\udd84\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\nRarity: 0.20\nhttps://wordgrid.clevergoat.com/s/889-0.2-97-ufuuuffff?ref=shared"}
+TD799 result: "Word Grid #889\n\ud83e\udd84\ud83c\udf0c\ud83e\udd84\n\ud83e\udd84\ud83e\udd84\ud83c\udf0c\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\nRarity: 0.20\nhttps://wordgrid.clevergoat.com/s/889-0.2-97-ufuuuffff?ref=shared"
+TD210 > ␅
+TD877931 ␆/store
+TD114 > /store
+TD270 📆 2026-11-06 ? ␅
+TD447556 ␆
+TD125 📆 2026-11-06 ? 
