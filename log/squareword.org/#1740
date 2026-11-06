@@ -1,0 +1,212 @@
+T2518.6180018850137 now: 2026-11-06T10:01:00EST
+TD123 site: squareword.org
+TD28 wordlist: nwl2023.txt
+TD35  ...␅
+TD490100 ␆
+TD123  ...
+TD90 🧩  ? ␅
+TD7895855 ␆#1740
+TD122 🧩  ? #1740
+TD352 puzzle_id: #1740
+TD391 > ␅
+TD575142 ␆*
+TD142 > *
+TD347293 try? ␅
+TD739491 ␆1
+TD121 try? 1
+TD377 questioning: ["lears", "#5"]
+TD269 #1 <IndexError>  📋 "lears" ? ␅
+TD3012247 ␆_EAR_
+TD119 #1 <IndexError>  📋 "lears" ? _EAR_
+TD754 attempt 0 LEARS n Y Y Y n
+TD147 #2 <IndexError>  📋 "lears" ? ␅
+TD2325236 ␆_____ ~ EAR
+TD119 #2 <IndexError>  📋 "lears" ? _____ ~ EAR
+TD308 attempt 1 LEARS n m m m n
+TD135 #3 <IndexError>  📋 "lears" ? ␅
+TD1793896 ␆_____ ~ R
+TD114 #3 <IndexError>  📋 "lears" ? _____ ~ R
+TD291 attempt 2 LEARS n n n m n
+TD135 #4 <IndexError>  📋 "lears" ? ␅
+TD1839124 ␆_____ ~ LA
+TD130 #4 <IndexError>  📋 "lears" ? _____ ~ LA
+TD289 attempt 3 LEARS m n m n n
+TD149 #5 <IndexError>  📋 "lears" ? ␅
+TD1982415 ␆_____ ~ LS
+TD116 #5 <IndexError>  📋 "lears" ? _____ ~ LS
+TD284 attempt 4 LEARS m n n n m
+TD366 ? ␅
+TD2051413 ␆
+TD117 ? 
+TD165 question done
+TD313 > ␅
+TD703048 ␆* 3
+TD99 > * 3
+TD542943 try? ␅
+TD2771239 ␆1
+TD95 try? 1
+TD329 questioning: ["incur", "#3"]
+TD375 #1 _EAR_ -LS  📋 "incur" ? ␅
+TD4016254 ␆.
+TD127 #1 _EAR_ -LS  📋 "incur" ? .
+TD301 attempt 0 INCUR n n n n n
+TD98 #2 _____ ~AER -LS  📋 "incur" ? ␅
+TD4565863 ␆_N__R ~ EA
+TD142 #2 _____ ~AER -LS  📋 "incur" ? _N__R ~ EA
+TD335 attempt 1 INCUR n Y n n Y
+TD194 #3 _____ ~R -AELS  📋 "incur" ? ␅
+TD3335823 ␆I____ ~ RN
+TD87 #3 _____ ~R -AELS  📋 "incur" ? I____ ~ RN
+TD286 attempt 2 INCUR Y m n n m
+TD204 #4 _____ ~AL -ERS  📋 "incur" ? ␅
+TD3226825 ␆_____ ~ LAN
+TD136 #4 _____ ~AL -ERS  📋 "incur" ? _____ ~ LAN
+TD326 attempt 3 INCUR n m n n n
+TD190 #5 _____ ~LS -AER  📋 "incur" ? ␅
+TD1143179 ␆.
+TD110 #5 _____ ~LS -AER  📋 "incur" ? .
+TD312 attempt 4 INCUR n n n n n
+TD278 ? ␅
+TD195882 ␆
+TD114 ? 
+TD126 question done
+TD312 > ␅
+TD487862 ␆*
+TD116 > *
+TD1077890 try? ␅
+TD1587417 ␆1
+TD132 try? 1
+TD367 questioning: ["anger", "#2"]
+TD321 #1 _EAR_ -CILNRSU  📋 "anger" ? ␅
+TD2620178 ␆.
+TD112 #1 _EAR_ -CILNRSU  📋 "anger" ? .
+TD280 attempt 0 ANGER n n n n n
+TD102 #2 _N__R ~AE -CILSU  📋 "anger" ? ␅
+TD630192 ␆/it
+TD735 #2 _N__R ~AE -CILSU  📋 "anger" ? /it
+TD516 attempt 1 ANGER Y Y Y Y Y
+TD142 #3 I____ ~NR -ACELSU  📋 "anger" ? ␅
+TD1590205 ␆.
+TD107 #3 I____ ~NR -ACELSU  📋 "anger" ? .
+TD266 attempt 2 ANGER n m n n m
+TD88 #4 _____ ~ALN -CEIRSU  📋 "anger" ? ␅
+TD942609 ␆.
+TD111 #4 _____ ~ALN -CEIRSU  📋 "anger" ? .
+TD278 attempt 3 ANGER m m n n n
+TD133 #5 _____ ~LS -ACEINRU  📋 "anger" ? ␅
+TD631975 ␆.
+TD100 #5 _____ ~LS -ACEINRU  📋 "anger" ? .
+TD238 attempt 4 ANGER n n n n n
+TD206 ? ␅
+TD153738 ␆
+TD111 ? 
+TD121 question done
+TD337 > ␅
+TD397163 ␆*
+TD110 > *
+TD921223 questioning: ["irony", "#3"]
+TD214 #1 _EAR_ -ACEGILNRSU  📋 "irony" ? ␅
+TD3671489 ␆.
+TD124 #1 _EAR_ -ACEGILNRSU  📋 "irony" ? .
+TD336 attempt 0 IRONY n n n n n
+TD129 #3 I____ ~NR -ACEGLSU  📋 "irony" ? ␅
+TD591712 ␆/it
+TD94 #3 I____ ~NR -ACEGLSU  📋 "irony" ? /it
+TD283 attempt 2 IRONY Y Y Y Y Y
+TD113 #4 _____ ~ALN -CEGIRSU  📋 "irony" ? ␅
+TD4773581 ␆_____ ~ LANO
+TD113 #4 _____ ~ALN -CEGIRSU  📋 "irony" ? _____ ~ LANO
+TD276 attempt 3 IRONY n n m m n
+TD171 #5 _____ ~LS -ACEGINRU  📋 "irony" ? ␅
+TD2681601 ␆____Y ~ LSY
+TD127 #5 _____ ~LS -ACEGINRU  📋 "irony" ? ____Y ~ LSY
+TD279 attempt 4 IRONY n n n n Y
+TD360 ? ␅
+TD246135 ␆
+TD110 ? 
+TD131 question done
+TD290 > ␅
+TD408167 ␆*
+TD127 > *
+TD1111005 questioning: ["slyly", "#5"]
+TD163 #1 _EAR_ -ACEGILNORSUY  📋 "slyly" ? ␅
+TD4866265 ␆.
+TD279 #1 _EAR_ -ACEGILNORSUY  📋 "slyly" ? .
+TD686 attempt 0 SLYLY n n n n n
+TD237 #4 _____ ~ALNO -CEGIRSUY  📋 "slyly" ? ␅
+TD1872660 ␆.
+TD110 #4 _____ ~ALNO -CEGIRSUY  📋 "slyly" ? .
+TD335 attempt 3 SLYLY n m n m n
+TD132 #5 ____Y ~LS -ACEGINORU  📋 "slyly" ? ␅
+TD668978 ␆/it
+TD109 #5 ____Y ~LS -ACEGINORU  📋 "slyly" ? /it
+TD265 attempt 4 SLYLY Y Y Y Y Y
+TD308 ? ␅
+TD276180 ␆
+TD118 ? 
+TD123 question done
+TD325 > ␅
+TD492091 ␆*
+TD117 > *
+TD1279506 questioning: ["tonal", "#4"]
+TD223 #1 _EAR_ -ACEGILNORSUY  📋 "tonal" ? ␅
+TD4415614 ␆.
+TD110 #1 _EAR_ -ACEGILNORSUY  📋 "tonal" ? .
+TD278 attempt 0 TONAL n n n n n
+TD107 #4 _____ ~ALNO -CEGIRSUY  📋 "tonal" ? ␅
+TD624386 ␆/it
+TD112 #4 _____ ~ALNO -CEGIRSUY  📋 "tonal" ? /it
+TD272 attempt 3 TONAL Y Y Y Y Y
+TD286 ? ␅
+TD324210 ␆
+TD128 ? 
+TD140 question done
+TD383 > ␅
+TD748035 ␆*
+TD88 > *
+TD1171427 questioning: ["beard", "#1"]
+TD156 #1 _EAR_ -ACEGILNORSTUY  📋 "beard" ? ␅
+TD2930212 ␆/it
+TD109 #1 _EAR_ -ACEGILNORSTUY  📋 "beard" ? /it
+TD268 attempt 0 BEARD Y Y Y Y Y
+TD287 ? ␅
+TD233668 ␆
+TD126 ? 
+TD115 question done
+TD34558 📋> ␅
+TD6856835 ␆squareword.org 1740: 7 guesses
+TD120 📋> squareword.org 1740: 7 guesses
+TD16 📋> ␅
+TD59 ␆
+TD9 📋> 
+TD7 📋> ␅
+TD20 ␆🟨🟩🟩🟩🟨
+TD7 📋> 🟨🟩🟩🟩🟨
+TD6 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD13 ␆🟨🟨🟨🟨🟨
+TD5 📋> 🟨🟨🟨🟨🟨
+TD5 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD12 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD16 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD78892 ␆#squareword #squareword1740
+TD110 📋> #squareword #squareword1740
+TD10 📋> ␅
+TD192374 ␄
+TD223 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1740: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1740"}
+TD1044 result: "squareword.org 1740: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1740"
+TD120 📆 2026-11-06 ? ␅
+TD385003 ␆
+TD86 📆 2026-11-06 ? 
