@@ -1,0 +1,93 @@
+T207.26283793599578 now: 2026-11-08T08:18:27EST
+TD135 site: alphaguess.com
+TD259605 loaded 196507 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (97 words excluded) asof b2bba2703ec27f7ea55f9990f4c7b921f62a3ab2
+TD135  ...␅
+TD4929666 ␆
+TD79  ...
+TD147 [0 : 98139 : 196507] mac? ␅
+TD1814907 ␆a
+TD99 [0 : 98139 : 196507] mac? a
+TD115 progress: 1 98139 mac
+TD112 [98140 : 147300 : 196507] rho? ␅
+TD1438358 ␆a
+TD77 [98140 : 147300 : 196507] rho? a
+TD85 progress: 1 147300 rho
+TD84 [147301 : 171900 : 196507] tag? ␅
+TD1518114 ␆b
+TD114 [147301 : 171900 : 196507] tag? b
+TD116 progress: -1 171900 tag
+TD186 [147301 : 159582 : 171900] slug? ␅
+TD1516619 ␆a
+TD80 [147301 : 159582 : 171900] slug? a
+TD85 progress: 1 159582 slug
+TD192 [159583 : 165736 : 171900] stint? ␅
+TD2019498 ␆b
+TD101 [159583 : 165736 : 171900] stint? b
+TD115 progress: -1 165736 stint
+TD154 [159583 : 162615 : 165736] speed? ␅
+TD1647592 ␆b
+TD129 [159583 : 162615 : 165736] speed? b
+TD136 progress: -1 162615 speed
+TD137 [159583 : 161084 : 162615] sold? ␅
+TD1632004 ␆a
+TD107 [159583 : 161084 : 162615] sold? a
+TD106 progress: 1 161084 sold
+TD111 [161085 : 161847 : 162615] sound? ␅
+TD1288776 ␆a
+TD132 [161085 : 161847 : 162615] sound? a
+TD135 progress: 1 161847 sound
+TD137 [161848 : 162208 : 162615] span? ␅
+TD1791079 ␆a
+TD100 [161848 : 162208 : 162615] span? a
+TD118 progress: 1 162208 span
+TD166 [162209 : 162409 : 162615] spazz? ␅
+TD2156840 ␆a
+TD137 [162209 : 162409 : 162615] spazz? a
+TD154 progress: 1 162409 spazz
+TD147 [162410 : 162455 : 162615] spec? ␅
+TD1480556 ␆a
+TD137 [162410 : 162455 : 162615] spec? a
+TD158 progress: 1 162455 spec
+TD165 [162456 : 162533 : 162615] spect? ␅
+TD3262643 ␆!
+TD136 [162456 : 162533 : 162615] spect? !
+TD517 [162456 : 162533 : 162614] spectacle? ␅
+TD2780505 ␆b
+TD129 [162456 : 162533 : 162614] spectacle? b
+TD136 progress: -1 162533 spectacle
+TD214 [162456 : 162493 : 162533] specie? ␅
+TD3765025 ␆a
+TD122 [162456 : 162493 : 162533] specie? a
+TD109 progress: 1 162493 specie
+TD237 [162494 : 162513 : 162533] specimen? ␅
+TD2444581 ␆b
+TD132 [162494 : 162513 : 162533] specimen? b
+TD137 progress: -1 162513 specimen
+TD147 [162494 : 162500 : 162513] specific? ␅
+TD3601477 ␆it
+TD136 [162494 : 162500 : 162513] specific? it
+TD143 progress: 0 162500 specific
+TD37 [162494 : 162500 : 162513] <Done>.
+TD107 📋> ␅
+TD3352155 ␆🧩 Puzzle #1203
+TD109 📋> 🧩 Puzzle #1203
+TD15 📋> ␅
+TD48 ␆🤔 15 guesses
+TD9 📋> 🤔 15 guesses
+TD7 📋> ␅
+TD17 ␆⏱️ 30s
+TD8 📋> ⏱️ 30s
+TD6 📋> ␅
+TD165084 ␆🔗 alphaguess.com/1203
+TD96 📋> 🔗 alphaguess.com/1203
+TD15 📋> ␅
+TD224844 ␄
+TD183 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1203\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 30s\n\ud83d\udd17 alphaguess.com/1203"}
+TD107 result: "\ud83e\udde9 Puzzle #1203\n\ud83e\udd14 15 guesses\n\u23f1\ufe0f 30s\n\ud83d\udd17 alphaguess.com/1203"
+TD20 result puzzle: 1203
+TD9 result guesses: 15
+TD7 result time: 30s
+TD6 result link: alphaguess.com/1203
+TD98 📆 2026-11-08 ? ␅
+TD366590 ␆
+TD101 📆 2026-11-08 ? 
