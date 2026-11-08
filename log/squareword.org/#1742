@@ -1,0 +1,234 @@
+T37.17636286094785 now: 2026-11-08T08:35:37EST
+TD138 site: squareword.org
+TD27 wordlist: nwl2023.txt
+TD41  ...␅
+TD148196 ␆
+TD115  ...
+TD84 🧩  ? ␅
+TD10051279 ␆#1742
+TD125 🧩  ? #1742
+TD328 puzzle_id: #1742
+TD294 > ␅
+TD899196 ␆*
+TD126 > *
+TD418948 try? ␅
+TD1925198 ␆1
+TD82 try? 1
+TD292 questioning: ["elans", "#5"]
+TD272 #1 <IndexError>  📋 "elans" ? ␅
+TD4841982 ␆
+TD112 #1 <IndexError>  📋 "elans" ? 
+TD766 #1 <IndexError>  ? ␅
+TD2877906 ␆_____ ~ ELA
+TD115 #1 <IndexError>  ? _____ ~ ELA
+TD304 attempt 0 ELANS m m m n n
+TD134 #2 <IndexError>  📋 "elans" ? ␅
+TD2382047 ␆E____ ~ EA
+TD116 #2 <IndexError>  📋 "elans" ? E____ ~ EA
+TD305 attempt 1 ELANS Y n m n n
+TD136 #3 <IndexError>  📋 "elans" ? ␅
+TD2084337 ␆_____ ~ EA
+TD117 #3 <IndexError>  📋 "elans" ? _____ ~ EA
+TD290 attempt 2 ELANS m n m n n
+TD129 #4 <IndexError>  📋 "elans" ? ␅
+TD2121203 ␆___N_ ~ EA
+TD117 #4 <IndexError>  📋 "elans" ? ___N_ ~ EA
+TD400 attempt 3 ELANS m n m Y n
+TD175 #5 <IndexError>  📋 "elans" ? ␅
+TD2074546 ␆____S ~ EN
+TD130 #5 <IndexError>  📋 "elans" ? ____S ~ EN
+TD345 attempt 4 ELANS m n n m Y
+TD435 ? ␅
+TD391842 ␆
+TD135 ? 
+TD216 question done
+TD623 > ␅
+TD1278164 ␆* 3
+TD81 > * 3
+TD716319 try? ␅
+TD1496600 ␆1
+TD79 try? 1
+TD255 questioning: ["raced", "#3"]
+TD283 #1 _____ ~AEL -NS  📋 "raced" ? ␅
+TD4105824 ␆_A_ED ~ L
+TD131 #1 _____ ~AEL -NS  📋 "raced" ? _A_ED ~ L
+TD270 attempt 0 RACED n Y n Y Y
+TD151 #2 E____ ~A -LNS  📋 "raced" ? ␅
+TD3456234 ␆E____ ~ EAD
+TD115 #2 E____ ~A -LNS  📋 "raced" ? E____ ~ EAD
+TD287 attempt 1 RACED n m n m m
+TD155 #3 _____ ~AE -LNS  📋 "raced" ? ␅
+TD2909247 ␆_A_E_ ~ RC
+TD103 #3 _____ ~AE -LNS  📋 "raced" ? _A_E_ ~ RC
+TD283 attempt 2 RACED m Y m Y n
+TD154 #4 ___N_ ~AE -LS  📋 "raced" ? ␅
+TD880718 ␆
+TD132 #4 ___N_ ~AE -LS  📋 "raced" ? 
+TD347 #4 ___N_ ~AE -LS  ? ␅
+TD5795915 ␆.
+TD115 #4 ___N_ ~AE -LS  ? .
+TD287 attempt 3 RACED n m n m n
+TD97 #5 ____S ~EN -AL  📋 "raced" ? ␅
+TD5861677 ␆____S ~ ENRD
+TD134 #5 ____S ~EN -AL  📋 "raced" ? ____S ~ ENRD
+TD341 attempt 4 RACED m n n m m
+TD449 ? ␅
+TD586097 ␆
+TD145 ? 
+TD162 question done
+TD399 > ␅
+TD460157 ␆*
+TD134 > *
+TD1301240 questioning: ["edema", "#2"]
+TD356 #1 _A_ED ~L -CNRS  📋 "edema" ? ␅
+TD3507592 ␆.
+TD112 #1 _A_ED ~L -CNRS  📋 "edema" ? .
+TD288 attempt 0 EDEMA n n n n n
+TD102 #2 E____ ~AD -CLNRS  📋 "edema" ? ␅
+TD673894 ␆/it
+TD110 #2 E____ ~AD -CLNRS  📋 "edema" ? /it
+TD274 attempt 1 EDEMA Y Y Y Y Y
+TD101 #3 _A_E_ ~CR -DLNS  📋 "edema" ? ␅
+TD1771783 ␆.
+TD115 #3 _A_E_ ~CR -DLNS  📋 "edema" ? .
+TD287 attempt 2 EDEMA n n n n n
+TD105 #4 ___N_ ~AE -CDLRS  📋 "edema" ? ␅
+TD4021363 ␆__EN_ ~ A
+TD134 #4 ___N_ ~AE -CDLRS  📋 "edema" ? __EN_ ~ A
+TD271 attempt 3 EDEMA n n Y n m
+TD167 #5 ____S ~DENR -ACL  📋 "edema" ? ␅
+TD1503876 ␆.
+TD111 #5 ____S ~DENR -ACL  📋 "edema" ? .
+TD293 attempt 4 EDEMA m m m n n
+TD281 ? ␅
+TD154570 ␆
+TD89 ? 
+TD93 question done
+TD277 > ␅
+TD400560 ␆*
+TD122 > *
+TD1279584 questioning: ["nerds", "#5"]
+TD301 #1 _A_ED ~L -ACDEMNRS  📋 "nerds" ? ␅
+TD3837468 ␆.
+TD131 #1 _A_ED ~L -ACDEMNRS  📋 "nerds" ? .
+TD275 attempt 0 NERDS n n n n n
+TD105 #3 _A_E_ ~CR -ADELMNS  📋 "nerds" ? ␅
+TD1980735 ␆.
+TD116 #3 _A_E_ ~CR -ADELMNS  📋 "nerds" ? .
+TD296 attempt 2 NERDS n n m n n
+TD97 #4 __EN_ ~A -CDLMRS  📋 "nerds" ? ␅
+TD1260438 ␆.
+TD115 #4 __EN_ ~A -CDLMRS  📋 "nerds" ? .
+TD293 attempt 3 NERDS n n n n n
+TD104 #5 ____S ~DENR -ACLM  📋 "nerds" ? ␅
+TD580358 ␆/it
+TD124 #5 ____S ~DENR -ACLM  📋 "nerds" ? /it
+TD289 attempt 4 NERDS Y Y Y Y Y
+TD377 ? ␅
+TD150422 ␆
+TD140 ? 
+TD168 question done
+TD411 > ␅
+TD607909 ␆*
+TD132 > *
+TD1449045 questioning: ["agent", "#4"]
+TD383 #1 _A_ED ~L -ACDEMNRS  📋 "agent" ? ␅
+TD4927847 ␆.
+TD114 #1 _A_ED ~L -ACDEMNRS  📋 "agent" ? .
+TD277 attempt 0 AGENT n n n n n
+TD123 #3 _A_E_ ~CR -ADELMNS  📋 "agent" ? ␅
+TD2024583 ␆.
+TD115 #3 _A_E_ ~CR -ADELMNS  📋 "agent" ? .
+TD314 attempt 2 AGENT n n n n n
+TD98 #4 __EN_ ~A -CDELMNRS  📋 "agent" ? ␅
+TD631730 ␆/it
+TD110 #4 __EN_ ~A -CDELMNRS  📋 "agent" ? /it
+TD276 attempt 3 AGENT Y Y Y Y Y
+TD299 ? ␅
+TD160080 ␆
+TD122 ? 
+TD142 question done
+TD307 > ␅
+TD501566 ␆*
+TD108 > *
+TD2807393 try? ␅
+TD3927466 ␆2
+TD103 try? 2
+TD623 questioning: ["caper", "#3"]
+TD414 #1 _A_ED ~L -ACDEGMNRST  📋 "caper" ? ␅
+TD5779594 ␆_A_ED ~ LP
+TD140 #1 _A_ED ~L -ACDEGMNRST  📋 "caper" ? _A_ED ~ LP
+TD492 attempt 0 CAPER n Y m Y n
+TD251 #3 _A_E_ ~CR -ADEGLMNST  📋 "caper" ? ␅
+TD3810719 ␆CA_ER
+TD97 #3 _A_E_ ~CR -ADEGLMNST  📋 "caper" ? CA_ER
+TD257 attempt 2 CAPER Y Y n Y Y
+TD420 ? ␅
+TD236842 ␆
+TD139 ? 
+TD165 question done
+TD398 > ␅
+TD397430 ␆*
+TD123 > *
+TD2805974 questioning: ["paled", "#1"]
+TD383 #1 _A_ED ~LP -CDGMNRST  📋 "paled" ? ␅
+TD3361400 ␆/it
+TD123 #1 _A_ED ~LP -CDGMNRST  📋 "paled" ? /it
+TD266 attempt 0 PALED Y Y Y Y Y
+TD103 #3 CA_ER -DGLMNPST  📋 "paled" ? ␅
+TD1009179 ␆.
+TD113 #3 CA_ER -DGLMNPST  📋 "paled" ? .
+TD306 attempt 2 PALED n Y n Y n
+TD279 ? ␅
+TD153611 ␆
+TD122 ? 
+TD119 question done
+TD288 > ␅
+TD634893 ␆*
+TD111 > *
+TD1884409 questioning: ["caver", "#3"]
+TD339 #3 CA_ER -DGLMNPST  📋 "caver" ? ␅
+TD3724227 ␆/it
+TD79 #3 CA_ER -DGLMNPST  📋 "caver" ? /it
+TD207 attempt 2 CAVER Y Y Y Y Y
+TD251 ? ␅
+TD262426 ␆
+TD138 ? 
+TD117 question done
+TD47324 📋> ␅
+TD7321713 ␆squareword.org 1742: 8 guesses
+TD74 📋> squareword.org 1742: 8 guesses
+TD14 📋> ␅
+TD36 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD14 ␆🟨🟩🟨🟩🟩
+TD5 📋> 🟨🟩🟨🟩🟩
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD11 ␆🟨🟩🟨🟩🟨
+TD4 📋> 🟨🟩🟨🟩🟨
+TD4 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD10 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> ␅
+TD148541 ␆#squareword #squareword1742
+TD78 📋> #squareword #squareword1742
+TD11 📋> ␅
+TD199134 ␄
+TD193 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1742: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1742"}
+TD809 result: "squareword.org 1742: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1742"
+TD100 📆 2026-11-08 ? ␅
+TD347220 ␆
+TD110 📆 2026-11-08 ? 
