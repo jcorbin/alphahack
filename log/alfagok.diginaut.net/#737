@@ -1,0 +1,86 @@
+T42806.422230040946 now: 2026-11-09T08:50:04EST
+TD137 site: alfagok.diginaut.net
+TD767300 loaded 399443 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1409 words excluded) asof 0d91614334cfc2b0504e0c009f3265add98e60ef
+TD143  ...␅
+TD5311592 ␆
+TD113  ...
+TD229 [0 : 199631 : 399443] lijk? ␅
+TD2642876 ␆a
+TD87 [0 : 199631 : 399443] lijk? a
+TD277 progress: 1 199631 lijk
+TD74 [199632 : 299522 : 399443] schroot? ␅
+TD1638732 ␆a
+TD108 [199632 : 299522 : 399443] schroot? a
+TD122 progress: 1 299522 schroot
+TD124 [299523 : 349304 : 399443] vakantie? ␅
+TD1549630 ␆a
+TD91 [299523 : 349304 : 399443] vakantie? a
+TD102 progress: 1 349304 vakantie
+TD115 [349305 : 374038 : 399443] vrij? ␅
+TD1734020 ␆b
+TD107 [349305 : 374038 : 399443] vrij? b
+TD121 progress: -1 374038 vrij
+TD130 [349305 : 352868 : 374038] ver? ␅
+TD2108567 ␆a
+TD108 [349305 : 352868 : 374038] ver? a
+TD115 progress: 1 352868 ver
+TD321 [352869 : 363453 : 374038] verzout? ␅
+TD1539528 ␆b
+TD98 [352869 : 363453 : 374038] verzout? b
+TD111 progress: -1 363453 verzout
+TD523 [352869 : 358161 : 363453] verluiert? ␅
+TD1502539 ␆a
+TD98 [352869 : 358161 : 363453] verluiert? a
+TD109 progress: 1 358161 verluiert
+TD140 [358162 : 360473 : 363453] verst? ␅
+TD1962514 ␆b
+TD143 [358162 : 360473 : 363453] verst? b
+TD127 progress: -1 360473 verst
+TD438 [358162 : 359312 : 360473] verpot? ␅
+TD4460581 ␆a
+TD112 [358162 : 359312 : 360473] verpot? a
+TD121 progress: 1 359312 verpot
+TD133 [359313 : 359623 : 360473] vers? ␅
+TD2807775 ␆a
+TD107 [359313 : 359623 : 360473] vers? a
+TD105 progress: 1 359623 vers
+TD111 [359624 : 360023 : 360473] verslag? ␅
+TD2049030 ␆b
+TD151 [359624 : 360023 : 360473] verslag? b
+TD121 progress: -1 360023 verslag
+TD302 [359624 : 359821 : 360023] verschot? ␅
+TD1857545 ␆b
+TD81 [359624 : 359821 : 360023] verschot? b
+TD83 progress: -1 359821 verschot
+TD86 [359624 : 359716 : 359821] verscheur? ␅
+TD1929494 ␆a
+TD81 [359624 : 359716 : 359821] verscheur? a
+TD88 progress: 1 359716 verscheur
+TD103 [359717 : 359758 : 359821] verschil? ␅
+TD1940969 ␆it
+TD116 [359717 : 359758 : 359821] verschil? it
+TD116 progress: 0 359758 verschil
+TD27 [359717 : 359758 : 359821] <Done>.
+TD93 📋> ␅
+TD2697847 ␆🧩 Puzzel #737
+TD99 📋> 🧩 Puzzel #737
+TD13 📋> ␅
+TD41 ␆🤔 14 gokken
+TD6 📋> 🤔 14 gokken
+TD5 📋> ␅
+TD13 ␆⏱️ 27s
+TD5 📋> ⏱️ 27s
+TD4 📋> ␅
+TD183077 ␆🔗 alfagok.diginaut.net
+TD129 📋> 🔗 alfagok.diginaut.net
+TD12 📋> ␅
+TD262085 ␄
+TD191 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #737\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 27s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD591 result: "\ud83e\udde9 Puzzel #737\n\ud83e\udd14 14 gokken\n\u23f1\ufe0f 27s\n\ud83d\udd17 alfagok.diginaut.net"
+TD19 result puzzle: 737
+TD8 result guesses: 14
+TD5 result time: 27s
+TD5 result link: alfagok.diginaut.net
+TD118 📆 2026-11-09 ? ␅
+TD284684 ␆
+TD110 📆 2026-11-09 ? 
