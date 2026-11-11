@@ -1,0 +1,172 @@
+T47769.410977381 now: 2026-11-11T08:22:22EST
+TD150 site: dontwordle.com
+TD41 wordlist: nwl2023.txt
+TD71  ...␅
+TD3150849 ␆
+TD96  ...
+TD117 1> ␅
+TD4518088 ␆
+TD81 1> 
+TD130 1> ␅
+TD3380358 ␆* -bot -10
+TD130 1> * -bot -10
+TD1042 1> ␅
+TD4865977 ␆* -bot 10
+TD135 1> * -bot 10
+TD344293 ? ␅
+TD1002020 ␆1
+TD150 ? 1
+TD342 📋 "arise" ? ␅
+TD3821109 ␆Mnnnn
+TD131 📋 "arise" ? Mnnnn
+TD770 tried: ARISE m n n n n
+TD259 2> ␅
+TD897761 ␆undo
+TD125 2> undo
+TD189 undo
+TD208 1> ␅
+TD5711838 ␆* :v [arise] -bot 10
+TD127 1> * :v [arise] -bot 10
+TD226657 ? ␅
+TD3156570 ␆5
+TD270 ? 5
+TD524 📋 "phony" ? ␅
+TD4068763 ␆nMMnn
+TD130 📋 "phony" ? nMMnn
+TD234 tried: PHONY n m m n n
+TD208 2> ␅
+TD1321772 ␆undo
+TD115 2> undo
+TD152 undo
+TD151 1> ␅
+TD2043171 ␆*
+TD109 1> *
+TD187444 ? ␅
+TD66250 ␆1
+TD97 ? 1
+TD243 📋 "feeze" ? ␅
+TD4047848 ␆nnnnn
+TD111 📋 "feeze" ? nnnnn
+TD208 tried: FEEZE n n n n n
+TD203 2> ␅
+TD1111968 ␆* 1
+TD111 2> * 1
+TD163206 📋 "titis" ? ␅
+TD3801451 ␆nnnnn
+TD103 📋 "titis" ? nnnnn
+TD176 tried: TITIS n n n n n
+TD208 3> ␅
+TD712276 ␆* 1
+TD83 3> * 1
+TD163989 📋 "dully" ? ␅
+TD5772202 ␆nnnnn
+TD92 📋 "dully" ? nnnnn
+TD166 tried: DULLY n n n n n
+TD166 4> ␅
+TD851295 ␆* 1
+TD115 4> * 1
+TD327091 ? ␅
+TD1818121 ␆1
+TD109 ? 1
+TD244 📋 "bongo" ? ␅
+TD11756982 ␆nnnnY
+TD131 📋 "bongo" ? nnnnY
+TD215 tried: BONGO n n n n Y
+TD216 5> ␅
+TD3338186 ␆undo
+TD109 5> undo
+TD145 undo
+TD265 4> ␅
+TD1956078 ␆*
+TD111 4> *
+TD320098 ? ␅
+TD4551473 ␆3
+TD114 ? 3
+TD255 📋 "brock" ? ␅
+TD6302894 ␆nnMMn
+TD113 📋 "brock" ? nnMMn
+TD214 tried: BROCK n n m m n
+TD236 5> ␅
+TD746418 ␆undo
+TD113 5> undo
+TD143 undo
+TD263 4> ␅
+TD962336 ␆*
+TD113 4> *
+TD317093 ? ␅
+TD16198672 ␆11
+TD126 ? 11
+TD245 📋 "known" ? ␅
+TD4119203 ␆nnMnn
+TD116 📋 "known" ? nnMnn
+TD202 tried: KNOWN n n m n n
+TD199 5> ␅
+TD454938 ␆*
+TD74 5> *
+TD334787 ? ␅
+TD4897315 ␆2
+TD91 ? 2
+TD210 📋 "morro" ? ␅
+TD7276086 ␆YnnnY
+TD113 📋 "morro" ? YnnnY
+TD222 tried: MORRO Y n n n Y
+T7.439168206998147 now: 2026-11-11T08:24:37EST
+TD181 6> ␅
+TD709652 ␆*
+TD114 6> *
+TD367157 📋 "mambo" ? ␅
+TD4430155 ␆YYnnY
+TD128 📋 "mambo" ? YYnnY
+TD495 tried: MAMBO Y Y n n Y
+TD290 📋> ␅
+TD3016620 ␆Don't Wordle 1632 - SURVIVED
+TD110 📋> Don't Wordle 1632 - SURVIVED
+TD18 📋> ␅
+TD46 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD7 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD6 📋> ␅
+TD14 ␆⬜⬜⬜⬜⬜6482
+TD5 📋> ⬜⬜⬜⬜⬜6482
+TD5 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜1531
+TD5 📋> ⬜⬜⬜⬜⬜1531
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜360
+TD4 📋> ⬜⬜⬜⬜⬜360
+TD4 📋> ␅
+TD11 ␆⬜⬜🟨⬜⬜73
+TD5 📋> ⬜⬜🟨⬜⬜73
+TD4 📋> ␅
+TD11 ␆🟩⬜⬜⬜🟩2
+TD4 📋> 🟩⬜⬜⬜🟩2
+TD4 📋> ␅
+TD9 ␆🟩🟩⬜⬜🟩1
+TD4 📋> 🟩🟩⬜⬜🟩1
+TD4 📋> ␅
+TD15 ␆Undos used: 4
+TD8 📋> Undos used: 4
+TD19 📋> ␅
+TD10 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD11 ␆  1 words remaining
+TD11 📋>   1 words remaining
+TD6 📋> ␅
+TD9 ␆x 8 unused letters
+TD5 📋> x 8 unused letters
+TD4 📋> ␅
+TD8 ␆= 8 total score
+TD4 📋> = 8 total score
+TD4 📋> ␅
+TD8 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD151068 ␆https://dontwordle.com
+TD33 📋> https://dontwordle.com
+TD8 📋> ␅
+TD142283 ␄
+TD196 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1632 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6482\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1531\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c360\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c73\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score\n\nhttps://dontwordle.com"}
+TD1378 result: "Don't Wordle 1632 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c6482\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1531\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c360\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c73\n\ud83d\udfe9\u2b1c\u2b1c\u2b1c\ud83d\udfe92\n\ud83d\udfe9\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe91\nUndos used: 4\n\n  1 words remaining\nx 8 unused letters\n= 8 total score\n\nhttps://dontwordle.com"
+TD117 📆 2026-11-11 ? ␅
+TD301798 ␆
+TD126 📆 2026-11-11 ? 
