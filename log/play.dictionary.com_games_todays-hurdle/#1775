@@ -1,0 +1,257 @@
+T18.281091419994482 now: 2026-11-11T08:24:48EST
+TD151 site: https://play.dictionary.com/games/todays-hurdle
+TD23 wordlist: nwl2023.txt
+TD41  ...␅
+TD506546 ␆
+TD114  ...
+TD160 1.1> ␅
+TD536403 ␆
+TD115 1.1> 
+TD199 1.1> ␅
+TD13605756 ␆*
+TD75 1.1> *
+TD316954 1.1 ? ␅
+TD798200 ␆1
+TD73 1.1 ? 1
+TD223 1.1 📋 "stare" ? ␅
+TD4205099 ␆nnnMn
+TD96 1.1 📋 "stare" ? nnnMn
+TD250 tried: STARE n n n m n
+TD654 1.2> ␅
+TD412920 ␆*
+TD127 1.2> *
+TD181401 1.2 ? ␅
+TD519917 ␆1
+TD98 1.2 ? 1
+TD288 1.2 📋 "irony" ? ␅
+TD3693757 ␆nYnnn
+TD119 1.2 📋 "irony" ? nYnnn
+TD223 tried: IRONY n Y n n n
+TD369 1.3> ␅
+TD417549 ␆*
+TD122 1.3> *
+TD188419 1.3 ? ␅
+TD9370922 ␄
+TD116 <EOF>
+TD158 1.3> ␅
+TD3154047 ␆probe cfgbk
+TD80 1.3> probe cfgbk
+TD445260 1.3> ␅
+TD8007312 ␆tried black nnnnn
+TD75 1.3> tried black nnnnn
+TD206 tried: BLACK n n n n n
+TD226 1.4> ␅
+TD466499 ␆*
+TD96 1.4> *
+TD160866 1.4 ? ␅
+TD3789048 ␆2
+TD78 1.4 ? 2
+TD202 1.4 📋 "grump" ? ␅
+TD3528301 ␆YYYYY
+TD116 1.4 📋 "grump" ? YYYYY
+TD229 tried: GRUMP Y Y Y Y Y
+TD600 2.1 📋 "grump" ? ␅
+TD8800800 ␆nMnnn
+TD81 2.1 📋 "grump" ? nMnnn
+TD178 tried: GRUMP n m n n n
+TD184 2.2> ␅
+TD698213 ␆*
+TD74 2.2> *
+TD204275 2.2 ? ␅
+TD1865674 ␆2
+TD171 2.2 ? 2
+TD263 2.2 📋 "rakes" ? ␅
+TD3253777 ␆MnMMn
+TD227 2.2 📋 "rakes" ? MnMMn
+TD307 tried: RAKES m n m m n
+TD379 2.3> ␅
+TD398857 ␆*
+TD95 2.3> *
+TD241949 2.3 ? ␅
+TD1873992 ␆2
+TD124 2.3 ? 2
+TD365 2.3 📋 "jerky" ? ␅
+TD3306393 ␆YYYYY
+TD96 2.3 📋 "jerky" ? YYYYY
+TD208 tried: JERKY Y Y Y Y Y
+TD575 3.1 📋 "jerky" ? ␅
+TD443898 ␆*
+TD85 3.1 📋 "jerky" ? *
+TD255542 3.1 ? ␅
+TD1236847 ␄
+TD100 <EOF>
+TD279 3.1 📋 "jerky" ? ␅
+TD6384385 ␆nnnnn
+TD75 3.1 📋 "jerky" ? nnnnn
+TD171 tried: JERKY n n n n n
+TD204 3.2> ␅
+TD394244 ␆*
+TD74 3.2> *
+TD213341 3.2 ? ␅
+TD2487118 ␆5
+TD80 3.2 ? 5
+TD225 3.2 📋 "nails" ? ␅
+TD3467337 ␆MnnMn
+TD76 3.2 📋 "nails" ? MnnMn
+TD168 tried: NAILS m n n m n
+TD347 3.3> ␅
+TD380795 ␆*
+TD89 3.3> *
+TD224437 3.3 ? ␅
+TD4275977 ␆1
+TD112 3.3 ? 1
+TD238 3.3 📋 "clung" ? ␅
+TD4566282 ␆YYYYY
+TD126 3.3 📋 "clung" ? YYYYY
+TD231 tried: CLUNG Y Y Y Y Y
+TD510 4.1 📋 "clung" ? ␅
+TD6975861 ␆nnnMn
+TD108 4.1 📋 "clung" ? nnnMn
+TD236 tried: CLUNG n n n m n
+TD2461 4.2> ␅
+TD437877 ␆*
+TD94 4.2> *
+TD175997 4.2 ? ␅
+TD1303852 ␆1
+TD75 4.2 ? 1
+TD192 4.2 📋 "arson" ? ␅
+TD3648709 ␆nYnMY
+TD75 4.2 📋 "arson" ? nYnMY
+TD168 tried: ARSON n Y n m Y
+TD214 4.3> ␅
+TD444850 ␆*
+TD79 4.3> *
+TD158469 4.3 ? ␅
+TD2522987 ␆1
+TD83 4.3 ? 1
+TD220 4.3 📋 "brown" ? ␅
+TD5462137 ␆YYYYY
+TD126 4.3 📋 "brown" ? YYYYY
+TD282 tried: BROWN Y Y Y Y Y
+TD645 5.1 📋 "grump" ? ␅
+TD7506532 ␆nnnnn
+TD93 5.1 📋 "grump" ? nnnnn
+TD217 tried: GRUMP n n n n n
+TD328 5.2 📋 "jerky" ? ␅
+TD1610988 ␆nMnnn
+TD97 5.2 📋 "jerky" ? nMnnn
+TD230 tried: JERKY n m n n n
+TD313 5.3 📋 "clung" ? ␅
+TD3536149 ␆nnnMn
+TD149 5.3 📋 "clung" ? nnnMn
+TD668 tried: CLUNG n n n m n
+TD577 5.4 📋 "brown" ? ␅
+TD1417325 ␆nnnnY
+TD100 5.4 📋 "brown" ? nnnnY
+TD246 tried: BROWN n n n n Y
+TD356 5.5> ␅
+TD749994 ␆*
+TD132 5.5> *
+TD193058 5.5 ? ␅
+TD5039630 ␄
+TD155 <EOF>
+TD219 5.5> ␅
+TD1515851 ␆probe 
+TD117 5.5> probe 
+TD148280 5.5> ␅
+TD2968171 ␆*
+TD123 5.5> *
+TD170798 5.5 ? ␅
+TD473637 ␄
+TD147 <EOF>
+TD224 5.5> ␅
+TD32074246 ␆probe htdzv
+TD87 5.5> probe htdzv
+TD357514 5.5> ␅
+TD8681811 ␆tried death nMMnM
+TD118 5.5> tried death nMMnM
+TD260 tried: DEATH n m m n m
+TD404 5.6> ␅
+TD432592 ␆*
+TD129 5.6> *
+TD213984 5.6 ? ␅
+TD4813616 ␆1
+TD102 5.6 ? 1
+TD254 5.6 📋 "ashen" ? ␅
+TD20568249 ␆MnMYY
+TD124 5.6 📋 "ashen" ? MnMYY
+TD195 tried: ASHEN m n m Y Y
+TD248 5.7> ␅
+TD13379973 ␆/res
+TD105 5.7> /res
+TD232 📋> ␅
+TD962719 ␆Hurdle 1775
+TD80 📋> Hurdle 1775
+TD11 📋> ␅
+TD33 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD10 ␆4/6
+TD4 📋> 4/6
+TD4 📋> ␅
+TD14 ␆⬜⬜⬜🟨⬜
+TD4 📋> ⬜⬜⬜🟨⬜
+TD4 📋> ␅
+TD9 ␆⬜🟩⬜⬜⬜
+TD4 📋> ⬜🟩⬜⬜⬜
+TD4 📋> ␅
+TD9 ␆⬜⬜⬜⬜⬜
+TD4 📋> ⬜⬜⬜⬜⬜
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD16 📋> 🟩🟩🟩🟩🟩
+TD14 📋> ␅
+TD9 ␆3/6
+TD4 📋> 3/6
+TD3 📋> ␅
+TD11 ␆⬜🟨⬜⬜⬜
+TD4 📋> ⬜🟨⬜⬜⬜
+TD7 📋> ␅
+TD10 ␆🟨⬜🟨🟨⬜
+TD4 📋> 🟨⬜🟨🟨⬜
+TD4 📋> ␅
+TD8 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆3/6
+TD4 📋> 3/6
+TD4 📋> ␅
+TD8 ␆⬜⬜⬜⬜⬜
+TD4 📋> ⬜⬜⬜⬜⬜
+TD4 📋> ␅
+TD8 ␆🟨⬜⬜🟨⬜
+TD4 📋> 🟨⬜⬜🟨⬜
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD14 📋> ␅
+TD9 ␆3/6
+TD4 📋> 3/6
+TD3 📋> ␅
+TD10 ␆⬜⬜⬜🟨⬜
+TD4 📋> ⬜⬜⬜🟨⬜
+TD4 📋> ␅
+TD12 ␆⬜🟩⬜🟨🟩
+TD4 📋> ⬜🟩⬜🟨🟩
+TD4 📋> ␅
+TD10 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD10 ␆Final X/2
+TD4 📋> Final X/2
+TD4 📋> ␅
+TD9 ␆⬜🟨🟨⬜🟨
+TD4 📋> ⬜🟨🟨⬜🟨
+TD3 📋> ␅
+TD9 ␆🟨⬜🟨🟩🟩
+TD4 📋> 🟨⬜🟨🟩🟩
+TD3 📋> ␅
+TD65158 ␆score: 5,160
+TD42 📋> score: 5,160
+TD9 📋> ␅
+TD144596 ␄
+TD161 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Hurdle 1775\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\nscore: 5,160"}
+TD625 result: "Hurdle 1775\n\n4/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n3/6\n\u2b1c\u2b1c\u2b1c\ud83d\udfe8\u2b1c\n\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal X/2\n\u2b1c\ud83d\udfe8\ud83d\udfe8\u2b1c\ud83d\udfe8\n\ud83d\udfe8\u2b1c\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\nscore: 5,160"
+TD101 📆 2026-11-11 ? ␅
+TD255732 ␆
+TD76 📆 2026-11-11 ? 
