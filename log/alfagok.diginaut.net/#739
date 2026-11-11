@@ -1,0 +1,100 @@
+T47673.177782768 now: 2026-11-11T08:20:46EST
+TD199 site: alfagok.diginaut.net
+TD708477 loaded 399440 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1412 words excluded) asof 5f1582599b7e315583a9de9a0cd8319a616a2871
+TD156  ...␅
+TD12175302 ␆
+TD77  ...
+TD199 [0 : 199631 : 399440] lijk? ␅
+TD2514387 ␆b
+TD93 [0 : 199631 : 399440] lijk? b
+TD296 progress: -1 199631 lijk
+TD122 [0 : 99672 : 199631] ex? ␅
+TD3218925 ␆a
+TD118 [0 : 99672 : 199631] ex? a
+TD137 progress: 1 99672 ex
+TD123 [99673 : 149358 : 199631] huis? ␅
+TD1424499 ␆a
+TD80 [99673 : 149358 : 199631] huis? a
+TD89 progress: 1 149358 huis
+TD106 [149359 : 174465 : 199631] kind? ␅
+TD1418849 ␆a
+TD79 [149359 : 174465 : 199631] kind? a
+TD84 progress: 1 174465 kind
+TD126 [174466 : 187043 : 199631] krone? ␅
+TD3282757 ␆!
+TD76 [174466 : 187043 : 199631] krone? !
+TD341 [174466 : 187045 : 199630] kronen? ␅
+TD1930680 ␆b
+TD111 [174466 : 187045 : 199630] kronen? b
+TD120 progress: -1 187045 kronen
+TD119 [174466 : 180657 : 187045] koel? ␅
+TD1484054 ␆b
+TD84 [174466 : 180657 : 187045] koel? b
+TD84 progress: -1 180657 koel
+TD94 [174466 : 177544 : 180657] kleur? ␅
+TD1609048 ␆a
+TD89 [174466 : 177544 : 180657] kleur? a
+TD98 progress: 1 177544 kleur
+TD111 [177545 : 179075 : 180657] klu? ␅
+TD1985677 ␆!
+TD110 [177545 : 179075 : 180657] klu? !
+TD537 [177545 : 179100 : 180656] kluis? ␅
+TD2516206 ␆b
+TD124 [177545 : 179100 : 180656] kluis? b
+TD112 progress: -1 179100 kluis
+TD110 [177545 : 178168 : 179100] klimaat? ␅
+TD1505418 ␆a
+TD77 [177545 : 178168 : 179100] klimaat? a
+TD90 progress: 1 178168 klimaat
+TD95 [178169 : 178628 : 179100] klok? ␅
+TD1535770 ␆b
+TD74 [178169 : 178628 : 179100] klok? b
+TD91 progress: -1 178628 klok
+TD281 [178169 : 178398 : 178628] klimparcours? ␅
+TD1584846 ␆b
+TD93 [178169 : 178398 : 178628] klimparcours? b
+TD110 progress: -1 178398 klimparcours
+TD395 [178169 : 178283 : 178398] klimaatregime? ␅
+TD1955278 ␆a
+TD97 [178169 : 178283 : 178398] klimaatregime? a
+TD109 progress: 1 178283 klimaatregime
+TD346 [178284 : 178341 : 178398] klimatoloog? ␅
+TD1510206 ␆a
+TD110 [178284 : 178341 : 178398] klimatoloog? a
+TD140 progress: 1 178341 klimatoloog
+TD312 [178342 : 178370 : 178398] klimmast? ␅
+TD1448883 ␆a
+TD132 [178342 : 178370 : 178398] klimmast? a
+TD142 progress: 1 178370 klimmast
+TD259 [178371 : 178384 : 178398] klimmuur? ␅
+TD1585291 ␆b
+TD135 [178371 : 178384 : 178398] klimmuur? b
+TD110 progress: -1 178384 klimmuur
+TD286 [178371 : 178375 : 178384] klimmen? ␅
+TD1822773 ␆it
+TD97 [178371 : 178375 : 178384] klimmen? it
+TD109 progress: 0 178375 klimmen
+TD29 [178371 : 178375 : 178384] <Done>.
+TD96 📋> ␅
+TD3317301 ␆🧩 Puzzel #739
+TD139 📋> 🧩 Puzzel #739
+TD15 📋> ␅
+TD53 ␆🤔 16 gokken
+TD8 📋> 🤔 16 gokken
+TD8 📋> ␅
+TD18 ␆⏱️ 32s
+TD8 📋> ⏱️ 32s
+TD6 📋> ␅
+TD121318 ␆🔗 alfagok.diginaut.net
+TD94 📋> 🔗 alfagok.diginaut.net
+TD13 📋> ␅
+TD212130 ␄
+TD256 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #739\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD791 result: "\ud83e\udde9 Puzzel #739\n\ud83e\udd14 16 gokken\n\u23f1\ufe0f 32s\n\ud83d\udd17 alfagok.diginaut.net"
+TD26 result puzzle: 739
+TD11 result guesses: 16
+TD7 result time: 32s
+TD6 result link: alfagok.diginaut.net
+TD320 📆 2026-11-11 ? ␅
+TD299063 ␆
+TD107 📆 2026-11-11 ? 
