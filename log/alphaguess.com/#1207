@@ -1,0 +1,86 @@
+T12885.746664293998 now: 2026-11-12T08:49:06EST
+TD149 site: alphaguess.com
+TD278768 loaded 196506 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (98 words excluded) asof def8dfe729f506ac4d6cf9a5b373281549e49322
+TD201  ...␅
+TD6588063 ␆
+TD110  ...
+TD180 [0 : 98139 : 196506] mac? ␅
+TD3139917 ␆b
+TD109 [0 : 98139 : 196506] mac? b
+TD111 progress: -1 98139 mac
+TD120 [0 : 49066 : 98139] disturb? ␅
+TD1691504 ␆a
+TD126 [0 : 49066 : 98139] disturb? a
+TD131 progress: 1 49066 disturb
+TD132 [49067 : 73597 : 98139] guide? ␅
+TD1651668 ␆b
+TD114 [49067 : 73597 : 98139] guide? b
+TD115 progress: -1 73597 guide
+TD137 [49067 : 61317 : 73597] federal? ␅
+TD1659500 ␆a
+TD116 [49067 : 61317 : 73597] federal? a
+TD112 progress: 1 61317 federal
+TD114 [61318 : 67437 : 73597] fur? ␅
+TD1436272 ␆a
+TD112 [61318 : 67437 : 73597] fur? a
+TD115 progress: 1 67437 fur
+TD115 [67438 : 70485 : 73597] glass? ␅
+TD2310379 ␆a
+TD115 [67438 : 70485 : 73597] glass? a
+TD123 progress: 1 70485 glass
+TD139 [70486 : 72000 : 73597] grad? ␅
+TD1744352 ␆a
+TD83 [70486 : 72000 : 73597] grad? a
+TD85 progress: 1 72000 grad
+TD166 [72001 : 72797 : 73597] grew? ␅
+TD1905938 ␆a
+TD125 [72001 : 72797 : 73597] grew? a
+TD96 progress: 1 72797 grew
+TD83 [72798 : 73194 : 73597] grounds? ␅
+TD1873962 ␆b
+TD109 [72798 : 73194 : 73597] grounds? b
+TD110 progress: -1 73194 grounds
+TD340 [72798 : 72996 : 73194] grison? ␅
+TD1593902 ␆a
+TD113 [72798 : 72996 : 73194] grison? a
+TD108 progress: 1 72996 grison
+TD186 [72997 : 73093 : 73194] groove? ␅
+TD1387198 ␆a
+TD128 [72997 : 73093 : 73194] groove? a
+TD336 progress: 1 73093 groove
+TD149 [73094 : 73134 : 73194] grot? ␅
+TD1476132 ␆b
+TD118 [73094 : 73134 : 73194] grot? b
+TD142 progress: -1 73134 grot
+TD312 [73094 : 73114 : 73134] groschen? ␅
+TD1402270 ␆a
+TD95 [73094 : 73114 : 73134] groschen? a
+TD108 progress: 1 73114 groschen
+TD125 [73115 : 73117 : 73134] gross? ␅
+TD3077625 ␆it
+TD110 [73115 : 73117 : 73134] gross? it
+TD108 progress: 0 73117 gross
+TD30 [73115 : 73117 : 73134] <Done>.
+TD92 📋> ␅
+TD4018865 ␆🧩 Puzzle #1207
+TD141 📋> 🧩 Puzzle #1207
+TD15 📋> ␅
+TD52 ␆🤔 14 guesses
+TD9 📋> 🤔 14 guesses
+TD7 📋> ␅
+TD16 ␆⏱️ 22s
+TD8 📋> ⏱️ 22s
+TD6 📋> ␅
+TD145401 ␆🔗 alphaguess.com/1207
+TD129 📋> 🔗 alphaguess.com/1207
+TD14 📋> ␅
+TD191849 ␄
+TD171 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1207\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1207"}
+TD108 result: "\ud83e\udde9 Puzzle #1207\n\ud83e\udd14 14 guesses\n\u23f1\ufe0f 22s\n\ud83d\udd17 alphaguess.com/1207"
+TD19 result puzzle: 1207
+TD9 result guesses: 14
+TD7 result time: 22s
+TD6 result link: alphaguess.com/1207
+TD95 📆 2026-11-12 ? ␅
+TD361083 ␆
+TD131 📆 2026-11-12 ? 
