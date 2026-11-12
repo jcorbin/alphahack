@@ -1,0 +1,99 @@
+T12808.23660276401 now: 2026-11-12T08:47:48EST
+TD208 site: alfagok.diginaut.net
+TD764381 loaded 399440 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1412 words excluded) asof def8dfe729f506ac4d6cf9a5b373281549e49322
+TD136  ...␅
+TD1134144 ␆
+TD116  ...
+TD235 [0 : 199631 : 399440] lijk? ␅
+TD9368640 ␆b
+TD113 [0 : 199631 : 399440] lijk? b
+TD357 progress: -1 199631 lijk
+TD153 [0 : 99672 : 199631] ex? ␅
+TD1903160 ␆a
+TD111 [0 : 99672 : 199631] ex? a
+TD142 progress: 1 99672 ex
+TD114 [99673 : 149358 : 199631] huis? ␅
+TD2109073 ␆a
+TD78 [99673 : 149358 : 199631] huis? a
+TD86 progress: 1 149358 huis
+TD104 [149359 : 174465 : 199631] kind? ␅
+TD2001991 ␆a
+TD149 [149359 : 174465 : 199631] kind? a
+TD108 progress: 1 174465 kind
+TD159 [174466 : 187043 : 199631] krone? ␅
+TD3377608 ␆!
+TD137 [174466 : 187043 : 199631] krone? !
+TD741 [174466 : 187045 : 199630] kronen? ␅
+TD3783100 ␆a
+TD134 [174466 : 187045 : 199630] kronen? a
+TD145 progress: 1 187045 kronen
+TD179 [187046 : 190269 : 199630] la? ␅
+TD2675135 ␆a
+TD133 [187046 : 190269 : 199630] la? a
+TD135 progress: 1 190269 la
+TD142 [190270 : 194825 : 199630] lees? ␅
+TD1726327 ␆a
+TD146 [190270 : 194825 : 199630] lees? a
+TD137 progress: 1 194825 lees
+TD162 [194826 : 197005 : 199630] levens? ␅
+TD1801904 ␆b
+TD131 [194826 : 197005 : 199630] levens? b
+TD141 progress: -1 197005 levens
+TD307 [194826 : 195892 : 197005] lemm? ␅
+TD2353806 ␆!
+TD126 [194826 : 195892 : 197005] lemm? !
+TD759 [194826 : 195915 : 197004] lemoenappel? ␅
+TD5744391 ␆!
+TD155 [194826 : 195915 : 197004] lemoenappel? !
+TD826 [194826 : 195915 : 197003] lemsteraak? ␅
+TD2822804 ␆b
+TD134 [194826 : 195915 : 197003] lemsteraak? b
+TD143 progress: -1 195915 lemsteraak
+TD158 [194826 : 195241 : 195915] leger? ␅
+TD1792663 ␆a
+TD367 [194826 : 195241 : 195915] leger? a
+TD154 progress: 1 195241 leger
+TD219 [195242 : 195560 : 195915] leiders? ␅
+TD1913235 ␆a
+TD127 [195242 : 195560 : 195915] leiders? a
+TD145 progress: 1 195560 leiders
+TD143 [195561 : 195719 : 195915] leken? ␅
+TD1725799 ␆a
+TD147 [195561 : 195719 : 195915] leken? a
+TD153 progress: 1 195719 leken
+TD149 [195720 : 195813 : 195915] lel? ␅
+TD1719705 ␆b
+TD363 [195720 : 195813 : 195915] lel? b
+TD258 progress: -1 195813 lel
+TD246 [195720 : 195760 : 195813] lekke? ␅
+TD1660410 ␆a
+TD114 [195720 : 195760 : 195813] lekke? a
+TD136 progress: 1 195760 lekke
+TD270 [195761 : 195764 : 195813] lekker? ␅
+TD2020296 ␆it
+TD83 [195761 : 195764 : 195813] lekker? it
+TD91 progress: 0 195764 lekker
+TD22 [195761 : 195764 : 195813] <Done>.
+TD77 📋> ␅
+TD5602990 ␆🧩 Puzzel #740
+TD118 📋> 🧩 Puzzel #740
+TD15 📋> ␅
+TD51 ␆🤔 15 gokken
+TD6 📋> 🤔 15 gokken
+TD6 📋> ␅
+TD11 ␆⏱️ 42s
+TD6 📋> ⏱️ 42s
+TD4 📋> ␅
+TD131945 ␆🔗 alfagok.diginaut.net
+TD99 📋> 🔗 alfagok.diginaut.net
+TD10 📋> ␅
+TD271329 ␄
+TD197 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #740\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 42s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD602 result: "\ud83e\udde9 Puzzel #740\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 42s\n\ud83d\udd17 alfagok.diginaut.net"
+TD20 result puzzle: 740
+TD8 result guesses: 15
+TD5 result time: 42s
+TD5 result link: alfagok.diginaut.net
+TD113 📆 2026-11-12 ? ␅
+TD421825 ␆
+TD139 📆 2026-11-12 ? 
