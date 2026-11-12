@@ -1,0 +1,252 @@
+T284.2509392869979 now: 2026-11-12T09:44:17EST
+TD146 site: squareword.org
+TD28 wordlist: nwl2023.txt
+TD42  ...␅
+TD5241852 ␆
+TD77  ...
+TD59 🧩  ? ␅
+TD2801311 ␆#1746
+TD109 🧩  ? #1746
+TD300 puzzle_id: #1746
+TD293 > ␅
+TD2900768 ␆*
+TD122 > *
+TD439585 try? ␅
+TD11558207 ␆1
+TD116 try? 1
+TD331 questioning: ["tesla", "#5"]
+TD324 #1 <IndexError>  📋 "tesla" ? ␅
+TD6423574 ␆_E___ ~ SA
+TD120 #1 <IndexError>  📋 "tesla" ? _E___ ~ SA
+TD729 attempt 0 TESLA n Y m n m
+TD131 #2 <IndexError>  📋 "tesla" ? ␅
+TD5657498 ␆_____ ~ TEA
+TD137 #2 <IndexError>  📋 "tesla" ? _____ ~ TEA
+TD329 attempt 1 TESLA m m n n m
+TD153 #3 <IndexError>  📋 "tesla" ? ␅
+TD2626377 ␆_____ ~ ES
+TD123 #3 <IndexError>  📋 "tesla" ? _____ ~ ES
+TD284 attempt 2 TESLA n m m n n
+TD137 #4 <IndexError>  📋 "tesla" ? ␅
+TD3731028 ␆T__L_ ~ TE
+TD120 #4 <IndexError>  📋 "tesla" ? T__L_ ~ TE
+TD272 attempt 3 TESLA Y m n Y n
+TD127 #5 <IndexError>  📋 "tesla" ? ␅
+TD2958101 ␆___L_ ~ SA
+TD155 #5 <IndexError>  📋 "tesla" ? ___L_ ~ SA
+TD384 attempt 4 TESLA n n m Y m
+TD460 ? ␅
+TD3596347 ␆
+TD132 ? 
+TD212 question done
+TD389 > ␅
+TD1180932 ␆*
+TD131 > *
+TD1486136 try? ␅
+TD20284363 ␄
+TD169 <EOF>
+TD346 > ␅
+TD2594550 ␆* 3
+TD127 > * 3
+TD12264 try? ␅
+TD2100986 ␆1
+TD153 try? 1
+TD593 questioning: ["ripes", "#3"]
+TD631 #1 _E___ ~AS -LT  📋 "ripes" ? ␅
+TD6274534 ␆_E__S ~ AP
+TD107 #1 _E___ ~AS -LT  📋 "ripes" ? _E__S ~ AP
+TD309 attempt 0 RIPES n n m n Y
+TD190 #2 _____ ~AET -LS  📋 "ripes" ? ␅
+TD1486823 ␆.
+TD153 #2 _____ ~AET -LS  📋 "ripes" ? .
+TD368 attempt 1 RIPES n n n m n
+TD134 #3 _____ ~ES -ALT  📋 "ripes" ? ␅
+TD7178012 ␆___E_ ~ SR
+TD135 #3 _____ ~ES -ALT  📋 "ripes" ? ___E_ ~ SR
+TD379 attempt 2 RIPES m n n Y m
+TD231 #4 T__L_ ~E -AS  📋 "ripes" ? ␅
+TD3270729 ␆TI_L_ ~ TE
+TD144 #4 T__L_ ~E -AS  📋 "ripes" ? TI_L_ ~ TE
+TD356 attempt 3 RIPES n Y n m n
+TD203 #5 ___L_ ~AS -ET  📋 "ripes" ? ␅
+TD2424583 ␆.
+TD137 #5 ___L_ ~AS -ET  📋 "ripes" ? .
+TD373 attempt 4 RIPES n n n n m
+TD498 ? ␅
+TD232351 ␆
+TD133 ? 
+TD175 question done
+TD428 > ␅
+TD514389 ␆*
+TD140 > *
+TD1424062 questioning: ["peaks", "#1"]
+TD389 #1 _E__S ~AP -EILRT  📋 "peaks" ? ␅
+TD5895809 ␆/it
+TD125 #1 _E__S ~AP -EILRT  📋 "peaks" ? /it
+TD291 attempt 0 PEAKS Y Y Y Y Y
+TD184 #2 _____ ~AET -ILPRS  📋 "peaks" ? ␅
+TD1693477 ␆.
+TD135 #2 _____ ~AET -ILPRS  📋 "peaks" ? .
+TD328 attempt 1 PEAKS n m m n n
+TD106 #3 ___E_ ~RS -AILPT  📋 "peaks" ? ␅
+TD2139632 ␆.
+TD108 #3 ___E_ ~RS -AILPT  📋 "peaks" ? .
+TD285 attempt 2 PEAKS n n n n m
+TD175 #4 TI_L_ ~E -APRS  📋 "peaks" ? ␅
+TD5208104 ␆TI_L_ ~ TE
+TD117 #4 TI_L_ ~E -APRS  📋 "peaks" ? TI_L_ ~ TE
+TD277 attempt 3 PEAKS n m n n n
+TD168 #5 ___L_ ~AS -EIPRT  📋 "peaks" ? ␅
+TD3772110 ␆__AL_ ~ E
+TD122 #5 ___L_ ~AS -EIPRT  📋 "peaks" ? __AL_ ~ E
+TD284 attempt 4 PEAKS n m Y n n
+TD355 ? ␅
+TD2869837 ␆
+TD115 ? 
+TD131 question done
+TD333 > ␅
+TD3604878 ␆*
+TD122 > *
+TD1229770 questioning: ["title", "#4"]
+TD386 #2 _____ ~AET -IKLPRS  📋 "title" ? ␅
+TD6551129 ␆____E ~ TA
+TD107 #2 _____ ~AET -IKLPRS  📋 "title" ? ____E ~ TA
+TD266 attempt 1 TITLE m n m n Y
+TD162 #3 ___E_ ~RS -AEIKLPT  📋 "title" ? ␅
+TD2031115 ␆.
+TD318 #3 ___E_ ~RS -AEIKLPT  📋 "title" ? .
+TD334 attempt 2 TITLE n n n n n
+TD120 #4 TI_L_ ~E -AKPRS  📋 "title" ? ␅
+TD821136 ␆/it
+TD133 #4 TI_L_ ~E -AKPRS  📋 "title" ? /it
+TD308 attempt 3 TITLE Y Y Y Y Y
+TD116 #5 __AL_ ~E -EIKPRST  📋 "title" ? ␅
+TD11095395 ␆__AL_ ~ S
+TD139 #5 __AL_ ~E -EIKPRST  📋 "title" ? __AL_ ~ S
+TD266 attempt 4 TITLE n n n Y n
+TD361 ? ␅
+TD1841671 ␆
+TD113 ? 
+TD127 question done
+TD303 > ␅
+TD1891897 ␆*
+TD118 > *
+TD1722496 questioning: ["atone", "#2"]
+TD376 #2 ____E ~AT -IKLPRS  📋 "atone" ? ␅
+TD3828173 ␆/it
+TD122 #2 ____E ~AT -IKLPRS  📋 "atone" ? /it
+TD285 attempt 1 ATONE Y Y Y Y Y
+TD109 #3 ___E_ ~RS -AEIKLPT  📋 "atone" ? ␅
+TD1878177 ␆.
+TD127 #3 ___E_ ~RS -AEIKLPT  📋 "atone" ? .
+TD296 attempt 2 ATONE n n n n n
+TD105 #5 __AL_ -EIKPRST  📋 "atone" ? ␅
+TD3909951 ␆__AL_ ~ S
+TD130 #5 __AL_ -EIKPRST  📋 "atone" ? __AL_ ~ S
+TD277 attempt 4 ATONE n n n n n
+TD364 ? ␅
+TD353902 ␆
+TD111 ? 
+TD142 question done
+TD343 > ␅
+TD521441 ␆*
+TD110 > *
+TD2587620 try? ␅
+TD8331206 ␆1
+TD131 try? 1
+TD387 questioning: ["shred", "#3"]
+TD451 #3 ___E_ ~RS -AEIKLNOPT  📋 "shred" ? ␅
+TD8570917 ␆SHRE_
+TD117 #3 ___E_ ~RS -AEIKLNOPT  📋 "shred" ? SHRE_
+TD271 attempt 2 SHRED Y Y Y Y n
+TD159 #5 __AL_ -AEIKNOPRST  📋 "shred" ? ␅
+TD2264495 ␆S_ALD
+TD108 #5 __AL_ -AEIKNOPRST  📋 "shred" ? S_ALD
+TD273 attempt 4 SHRED Y n n n Y
+TD337 ? ␅
+TD1061258 ␆
+TD107 ? 
+TD132 question done
+TD312 > ␅
+TD1083222 ␆*
+TD108 > *
+TD3099247 questioning: ["shrew", "#3"]
+TD442 #3 SHRE_ -ADIKLNOPT  📋 "shrew" ? ␅
+TD3467713 ␆/it
+TD131 #3 SHRE_ -ADIKLNOPT  📋 "shrew" ? /it
+TD318 attempt 2 SHREW Y Y Y Y Y
+TD134 #5 S_ALD -AEHIKNOPRT  📋 "shrew" ? ␅
+TD1803937 ␆.
+TD122 #5 S_ALD -AEHIKNOPRT  📋 "shrew" ? .
+TD325 attempt 4 SHREW Y n n n n
+TD369 ? ␅
+TD208108 ␆
+TD118 ? 
+TD122 question done
+TD302 > ␅
+TD1634965 ␆*
+TD120 > *
+TD1938387 questioning: ["scald", "#5"]
+TD372 #5 S_ALD -AEHIKNOPRTW  📋 "scald" ? ␅
+TD4972285 ␆/it
+TD104 #5 S_ALD -AEHIKNOPRTW  📋 "scald" ? /it
+TD260 attempt 4 SCALD Y Y Y Y Y
+TD335 ? ␅
+TD2745530 ␆
+TD111 ? 
+TD115 question done
+TD36858 📋> ␅
+TD5825159 ␆
+TD112 📋> 
+TD13 📋> ␅
+TD6892988 ␆
+TD113 📋> 
+TD14 📋> ␅
+TD49245 ␆
+TD285 📋> 
+TD21 📋> ␅
+TD103676 ␆
+TD114 📋> 
+TD12 📋> ␅
+TD40272879 ␄
+TD232 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\n\n\n"}
+TD699 📋> ␅
+TD1858199 ␄
+TD246 pasted: {"subject": "share result", "method": "read:must:stdin", "content": ""}
+TD183 📋> ␅
+TD46658368 ␆squareword.org 1746: 8 guesses
+TD118 📋> squareword.org 1746: 8 guesses
+TD17 📋> ␅
+TD54 ␆
+TD12 📋> 
+TD10 📋> ␅
+TD28 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD13 ␆🟨🟨🟨🟩🟨
+TD6 📋> 🟨🟨🟨🟩🟨
+TD5 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD19 ␆🟨🟨🟩🟩🟨
+TD6 📋> 🟨🟨🟩🟩🟨
+TD5 📋> ␅
+TD13 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD282915 ␆#squareword #squareword1746
+TD127 📋> #squareword #squareword1746
+TD15 📋> ␅
+TD493228 ␄
+TD235 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1746: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1746"}
+TD933 result: "squareword.org 1746: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1746"
+TD150 📆 2026-11-12 ? ␅
+TD692524 ␆
+TD131 📆 2026-11-12 ? 
