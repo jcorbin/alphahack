@@ -1,0 +1,221 @@
+T2518.510748977991 now: 2026-11-12T09:33:04EST
+TD158 site: https://www.merriam-webster.com/games/quordle/#/
+TD24 wordlist: nwl2023.txt
+TD8 num_words: 4
+TD133  ...␅
+TD343191 ␆
+TD118  ...
+TD742650 > ␅
+TD8480888 ␆*
+TD107 > *
+TD120557 ? ␅
+TD703494 ␆1
+TD106 ? 1
+TD196 questioning: heals
+TD197 Classic #1 _____? ␅
+TD3143326 ␆nMnMn
+TD105 Classic #1 _____? nMnMn
+TD441 attempt: 0 HEALS n m n m n
+TD125 Classic #2 _____? ␅
+TD1423683 ␆nnMMn
+TD126 Classic #2 _____? nnMMn
+TD268 attempt: 1 HEALS n n m m n
+TD106 Classic #3 _____? ␅
+TD2006492 ␆Mnnnn
+TD72 Classic #3 _____? Mnnnn
+TD186 attempt: 2 HEALS m n n n n
+TD82 Classic #4 _____? ␅
+TD1356520 ␆nnYnn
+TD113 Classic #4 _____? nnYnn
+TD255 attempt: 3 HEALS n n Y n n
+TD831827 > ␅
+TD894448 ␆*
+TD107 > *
+TD2886 ? ␅
+TD4036860 ␆8
+TD110 ? 8
+TD208 questioning: viral
+TD207 Classic #1 _____ ~EL -AHS? ␅
+TD3272815 ␆nnnnM
+TD117 Classic #1 _____ ~EL -AHS? nnnnM
+TD237 attempt: 0 VIRAL n n n n m
+TD118 Classic #2 _____ ~AL -EHS? ␅
+TD1276008 ␆nnYYY
+TD104 Classic #2 _____ ~AL -EHS? nnYYY
+TD233 attempt: 1 VIRAL n n Y Y Y
+TD127 Classic #3 _____ ~H -AELS? ␅
+TD1368991 ␆nnYnn
+TD148 Classic #3 _____ ~H -AELS? nnYnn
+TD235 attempt: 2 VIRAL n n Y n n
+TD105 Classic #4 __A__ -EHLS? ␅
+TD1117419 ␆nnMMn
+TD123 Classic #4 __A__ -EHLS? nnMMn
+TD254 attempt: 3 VIRAL n n m m n
+TD700542 > ␅
+TD926269 ␆*
+TD235 > *
+TD1693 ? ␅
+TD4567632 ␆9
+TD105 ? 9
+TD188 questioning: olden
+TD186 Classic #1 _____ ~EL -AHIRSV? ␅
+TD4265778 ␆MYnMn
+TD311 Classic #1 _____ ~EL -AHIRSV? MYnMn
+TD243 attempt: 0 OLDEN m Y n m n
+TD114 Classic #2 __RAL -EHISV? ␅
+TD1166385 ␆nMnnn
+TD138 Classic #2 __RAL -EHISV? nMnnn
+TD287 attempt: 1 OLDEN n m n n n
+TD140 Classic #3 __R__ ~H -AEILSV? ␅
+TD1299334 ␆Mnnnn
+TD85 Classic #3 __R__ ~H -AEILSV? Mnnnn
+TD203 attempt: 2 OLDEN m n n n n
+TD95 Classic #4 __A__ ~R -EHILSV? ␅
+TD1123806 ␆nnnnM
+TD111 Classic #4 __A__ ~R -EHILSV? nnnnM
+TD237 attempt: 3 OLDEN n n n n m
+TD700776 > ␅
+TD763702 ␆*
+TD124 > *
+TD938 ? ␅
+TD2517213 ␆3
+TD112 ? 3
+TD195 questioning: prank
+TD199 Classic #1 _L___ ~EO -ADHINRSV? ␅
+TD3449710 ␆nnnnn
+TD110 Classic #1 _L___ ~EO -ADHINRSV? nnnnn
+TD228 attempt: 0 PRANK n n n n n
+TD114 Classic #2 __RAL -DEHINOSV? ␅
+TD1391216 ␆nMMnn
+TD113 Classic #2 __RAL -DEHINOSV? nMMnn
+TD266 attempt: 1 PRANK n m m n n
+TD133 Classic #3 __R__ ~HO -ADEILNSV? ␅
+TD1986867 ␆nMnnn
+TD125 Classic #3 __R__ ~HO -ADEILNSV? nMnnn
+TD322 attempt: 2 PRANK n m n n n
+TD165 Classic #4 __A__ ~NR -DEHILOSV? ␅
+TD1256460 ␆nYYYY
+TD93 Classic #4 __A__ ~NR -DEHILOSV? nYYYY
+TD234 attempt: 3 PRANK n Y Y Y Y
+TD765865 > ␅
+TD817209 ␆*
+TD109 > *
+TD591 ? ␅
+TD1255786 ␆1
+TD123 ? 1
+TD199 questioning: throw
+TD201 Classic #1 _L___ ~EO -ADHIKNPRSV? ␅
+TD3550664 ␆nnnMn
+TD124 Classic #1 _L___ ~EO -ADHIKNPRSV? nnnMn
+TD233 attempt: 0 THROW n n n m n
+TD133 Classic #2 __RAL -DEHIKNOPSV? ␅
+TD1349881 ␆nnYnn
+TD127 Classic #2 __RAL -DEHIKNOPSV? nnYnn
+TD232 attempt: 1 THROW n n Y n n
+TD120 Classic #3 __R__ ~HO -ADEIKLNPSV? ␅
+TD1878324 ␆MMYMM
+TD105 Classic #3 __R__ ~HO -ADEIKLNPSV? MMYMM
+TD239 attempt: 2 THROW m m Y m m
+TD111 Classic #4 _RANK -DEHILOPSV? ␅
+TD1433319 ␆nnMnn
+TD107 Classic #4 _RANK -DEHILOPSV? nnMnn
+TD234 attempt: 3 THROW n n m n n
+TD676912 > ␅
+TD631260 ␆*
+TD138 > *
+TD497 questioning: worth
+TD248 Classic #1 _L___ ~EO -ADHIKNPRSTVW? ␅
+TD2836789 ␆nMnnn
+TD260 Classic #1 _L___ ~EO -ADHIKNPRSTVW? nMnnn
+TD228 attempt: 0 WORTH n m n n n
+TD105 Classic #2 __RAL -DEHIKNOPSTVW? ␅
+TD1680688 ␆nnYnn
+TD111 Classic #2 __RAL -DEHIKNOPSTVW? nnYnn
+TD231 attempt: 1 WORTH n n Y n n
+TD124 Classic #3 __R__ ~HOTW -ADEIKLNPSV? ␅
+TD1732117 ␆YYYYY
+TD77 Classic #3 __R__ ~HOTW -ADEIKLNPSV? YYYYY
+TD187 attempt: 2 WORTH Y Y Y Y Y
+TD101 Classic #4 _RANK -DEHILOPSTVW? ␅
+TD1611787 ␆nnMnn
+TD127 Classic #4 _RANK -DEHILOPSTVW? nnMnn
+TD270 attempt: 3 WORTH n n m n n
+TD538196 > ␅
+TD657012 ␆*
+TD99 > *
+TD621 ? ␅
+TD5357395 ␆2
+TD140 ? 2
+TD234 questioning: globe
+TD548 Classic #1 _L___ ~EO -ADHIKNPRSTVW? ␅
+TD3601786 ␆YYYYY
+TD108 Classic #1 _L___ ~EO -ADHIKNPRSTVW? YYYYY
+TD244 attempt: 0 GLOBE Y Y Y Y Y
+TD134 Classic #2 __RAL -DEHIKNOPSTVW? ␅
+TD1571688 ␆nMnnn
+TD360 Classic #2 __RAL -DEHIKNOPSTVW? nMnnn
+TD534 attempt: 1 GLOBE n m n n n
+TD218 Classic #4 _RANK -DEHILOPSTVW? ␅
+TD1255918 ␆nnnnn
+TD138 Classic #4 _RANK -DEHILOPSTVW? nnnnn
+TD292 attempt: 3 GLOBE n n n n n
+TD355862 > ␅
+TD924179 ␆*
+TD104 > *
+TD558 ? ␅
+TD2243760 ␄
+TD150 <EOF>
+TD356668 > ␅
+TD1187242 ␆* 2
+TD104 > * 2
+TD191884 ? ␅
+TD7938957 ␆2
+TD114 ? 2
+TD203 questioning: mural
+TD194 Classic #2 __RAL -BDEGHIKNOPSTVW? ␅
+TD3658033 ␆YYYYY
+TD91 Classic #2 __RAL -BDEGHIKNOPSTVW? YYYYY
+TD236 attempt: 1 MURAL Y Y Y Y Y
+TD117 Classic #4 _RANK -BDEGHILOPSTVW? ␅
+TD2659854 ␆nnMMn
+TD108 Classic #4 _RANK -BDEGHILOPSTVW? nnMMn
+TD232 attempt: 3 MURAL n n m m n
+TD180534 > ␅
+TD484265 ␆*
+TD113 > *
+TD580 ? ␅
+TD1496120 ␆1
+TD106 ? 1
+TD187 questioning: crank
+TD198 Classic #4 _RANK -BDEGHILMOPSTUVW? ␅
+TD3791959 ␆nYYYY
+TD102 Classic #4 _RANK -BDEGHILMOPSTUVW? nYYYY
+TD237 attempt: 3 CRANK n Y Y Y Y
+TD159063 > ␅
+TD5973533 ␆/res
+TD114 > /res
+TD218 📋> ␅
+TD3656440 ␆🙂 Daily Quordle 1753
+TD109 📋> 🙂 Daily Quordle 1753
+TD12 📋> ␅
+TD57 ␆7️⃣8️⃣
+TD9 📋> 7️⃣8️⃣
+TD6 📋> ␅
+TD16 ␆6️⃣🟥
+TD6 📋> 6️⃣🟥
+TD4 📋> ␅
+TD14 ␆m-w.com/games/quordle/
+TD6 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD138286 ␆
+TD118 📋> 
+TD13 📋> ␅
+TD157163 ␄
+TD198 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1753\n7\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"}
+TD1830 result: "\ud83d\ude42 Daily Quordle 1753\n7\ufe0f\u20e38\ufe0f\u20e3\n6\ufe0f\u20e3\ud83d\udfe5\nm-w.com/games/quordle/\n"
+TD166736 > ␅
+TD5169076 ␆/store
+TD157 > /store
+TD341 📆 2026-11-12 ? ␅
+TD481425 ␆
+TD96 📆 2026-11-12 ? 
