@@ -1,0 +1,212 @@
+T262.42029367000214 now: 2026-11-13T14:58:15EST
+TD61 site: squareword.org
+TD13 wordlist: nwl2023.txt
+TD20  ...␅
+TD557246 ␆
+TD55  ...
+TD39 🧩  ? ␅
+TD6109742 ␆#1747
+TD130 🧩  ? #1747
+TD368 puzzle_id: #1747
+TD374 > ␅
+TD827518 ␆*
+TD85 > *
+TD175253 try? ␅
+TD676086 ␆1
+TD78 try? 1
+TD285 questioning: ["ursae", "#5"]
+TD307 #1 <IndexError>  📋 "ursae" ? ␅
+TD7858132 ␆_____ ~ RSE
+TD120 #1 <IndexError>  📋 "ursae" ? _____ ~ RSE
+TD657 attempt 0 URSAE n m m n m
+TD88 #2 <IndexError>  📋 "ursae" ? ␅
+TD2072790 ␆_R__E ~ A
+TD77 #2 <IndexError>  📋 "ursae" ? _R__E ~ A
+TD236 attempt 1 URSAE n Y n m Y
+TD101 #3 <IndexError>  📋 "ursae" ? ␅
+TD2330015 ␆U____ ~ RE
+TD115 #3 <IndexError>  📋 "ursae" ? U____ ~ RE
+TD272 attempt 2 URSAE Y m n n m
+TD133 #4 <IndexError>  📋 "ursae" ? ␅
+TD2019620 ␆_____ ~ E
+TD93 #4 <IndexError>  📋 "ursae" ? _____ ~ E
+TD178 attempt 3 URSAE n n n n m
+TD92 #5 <IndexError>  📋 "ursae" ? ␅
+TD2582114 ␆_R__E ~ SA
+TD58 #5 <IndexError>  📋 "ursae" ? _R__E ~ SA
+TD140 attempt 4 URSAE n Y m m Y
+TD152 ? ␅
+TD1337929 ␆
+TD110 ? 
+TD119 question done
+TD166 > ␅
+TD5397936 ␆* 4
+TD133 > * 4
+TD289182 try? ␅
+TD932015 ␆1
+TD136 try? 1
+TD420 questioning: ["holed", "#4"]
+TD233 #1 _____ ~ERS -AU  📋 "holed" ? ␅
+TD5560022 ␆_O_E_ ~ RS
+TD61 #1 _____ ~ERS -AU  📋 "holed" ? _O_E_ ~ RS
+TD129 attempt 0 HOLED n Y n Y n
+TD72 #2 _R__E ~A -SU  📋 "holed" ? ␅
+TD1237625 ␆.
+TD93 #2 _R__E ~A -SU  📋 "holed" ? .
+TD183 attempt 1 HOLED n n n n n
+TD50 #3 U____ ~ER -AS  📋 "holed" ? ␅
+TD4052958 ␆U__E_ ~ RD
+TD112 #3 U____ ~ER -AS  📋 "holed" ? U__E_ ~ RD
+TD288 attempt 2 HOLED n n n Y m
+TD160 #4 _____ ~E -ARSU  📋 "holed" ? ␅
+TD1530036 ␆.
+TD84 #4 _____ ~E -ARSU  📋 "holed" ? .
+TD188 attempt 3 HOLED n n n m n
+TD62 #5 _R__E ~AS -U  📋 "holed" ? ␅
+TD3148325 ␆_R__E ~ SA
+TD84 #5 _R__E ~AS -U  📋 "holed" ? _R__E ~ SA
+TD179 attempt 4 HOLED n n n n n
+TD179 ? ␅
+TD246837 ␆
+TD55 ? 
+TD60 question done
+TD125 > ␅
+TD525617 ␆*
+TD107 > *
+TD481944 questioning: ["udder", "#3"]
+TD222 #1 _O_E_ ~RS -ADHLU  📋 "udder" ? ␅
+TD4395835 ␆.
+TD117 #1 _O_E_ ~RS -ADHLU  📋 "udder" ? .
+TD290 attempt 0 UDDER n n n Y m
+TD110 #2 _R__E ~A -DEHLOSU  📋 "udder" ? ␅
+TD1285453 ␆.
+TD80 #2 _R__E ~A -DEHLOSU  📋 "udder" ? .
+TD212 attempt 1 UDDER n n n n n
+TD85 #3 U__E_ ~DR -AHLOS  📋 "udder" ? ␅
+TD1034171 ␆/it
+TD111 #3 U__E_ ~DR -AHLOS  📋 "udder" ? /it
+TD340 attempt 2 UDDER Y Y Y Y Y
+TD136 #4 _____ ~E -ADHLORSU  📋 "udder" ? ␅
+TD1031559 ␆.
+TD126 #4 _____ ~E -ADHLORSU  📋 "udder" ? .
+TD294 attempt 3 UDDER n n n m n
+TD110 #5 _R__E ~AS -DEHLOU  📋 "udder" ? ␅
+TD1058760 ␆.
+TD85 #5 _R__E ~AS -DEHLOU  📋 "udder" ? .
+TD265 attempt 4 UDDER n n n n n
+TD138 ? ␅
+TD172697 ␆
+TD114 ? 
+TD120 question done
+TD323 > ␅
+TD682503 ␆*
+TD110 > *
+TD426528 try? ␅
+TD3306734 ␆1
+TD76 try? 1
+TD267 questioning: ["being", "#4"]
+TD326 #1 _O_E_ ~RS -ADHLU  📋 "being" ? ␅
+TD4423431 ␆.
+TD116 #1 _O_E_ ~RS -ADHLU  📋 "being" ? .
+TD280 attempt 0 BEING n n n n n
+TD97 #2 _R__E ~A -DEHLORSU  📋 "being" ? ␅
+TD1422973 ␆.
+TD79 #2 _R__E ~A -DEHLORSU  📋 "being" ? .
+TD238 attempt 1 BEING n n n n n
+TD90 #4 _____ ~E -ADHLORSU  📋 "being" ? ␅
+TD759551 ␆/it
+TD94 #4 _____ ~E -ADHLORSU  📋 "being" ? /it
+TD225 attempt 3 BEING Y Y Y Y Y
+TD89 #5 _R__E ~AS -DEHLORU  📋 "being" ? ␅
+TD3439519 ␆_RI_E ~ SA
+TD52 #5 _R__E ~AS -DEHLORU  📋 "being" ? _RI_E ~ SA
+TD122 attempt 4 BEING n n Y n n
+TD144 ? ␅
+TD281353 ␆
+TD54 ? 
+TD59 question done
+TD124 > ␅
+TD578047 ␆*
+TD111 > *
+TD671076 questioning: ["arise", "#5"]
+TD223 #1 _O_E_ ~RS -ABDEGHILNU  📋 "arise" ? ␅
+TD4028314 ␆.
+TD81 #1 _O_E_ ~RS -ABDEGHILNU  📋 "arise" ? .
+TD226 attempt 0 ARISE n m n m n
+TD85 #2 _R__E ~A -BDEGHILNORSU  📋 "arise" ? ␅
+TD1198862 ␆.
+TD115 #2 _R__E ~A -BDEGHILNORSU  📋 "arise" ? .
+TD311 attempt 1 ARISE m Y n n Y
+TD116 #5 _RI_E ~AS -BDEGHLNORU  📋 "arise" ? ␅
+TD705955 ␆/it
+TD79 #5 _RI_E ~AS -BDEGHLNORU  📋 "arise" ? /it
+TD245 attempt 4 ARISE Y Y Y Y Y
+TD275 ? ␅
+TD250326 ␆
+TD84 ? 
+TD108 question done
+TD297 > ␅
+TD602030 ␆*
+TD117 > *
+TD454555 questioning: ["crave", "#2"]
+TD175 #1 _O_E_ ~RS -ABDEGHILNU  📋 "crave" ? ␅
+TD3704872 ␆.
+TD114 #1 _O_E_ ~RS -ABDEGHILNU  📋 "crave" ? .
+TD254 attempt 0 CRAVE n m n n n
+TD74 #2 _R__E ~A -BDGHILNOSU  📋 "crave" ? ␅
+TD679519 ␆/it
+TD86 #2 _R__E ~A -BDGHILNOSU  📋 "crave" ? /it
+TD230 attempt 1 CRAVE Y Y Y Y Y
+TD321 ? ␅
+TD329847 ␆
+TD77 ? 
+TD95 question done
+TD267 > ␅
+TD2409471 ␆*
+TD112 > *
+TD458933 questioning: ["sores", "#1"]
+TD158 #1 _O_E_ ~RS -ABCDEGHILNUV  📋 "sores" ? ␅
+TD2917721 ␆/it
+TD99 #1 _O_E_ ~RS -ABCDEGHILNUV  📋 "sores" ? /it
+TD177 attempt 0 SORES Y Y Y Y Y
+TD199 ? ␅
+TD434560 ␆
+TD119 ? 
+TD148 question done
+TD19897 📋> ␅
+TD6710248 ␆squareword.org 1747: 7 guesses
+TD121 📋> squareword.org 1747: 7 guesses
+TD13 📋> ␅
+TD56 ␆
+TD7 📋> 
+TD5 📋> ␅
+TD17 ␆🟨🟩🟨🟩🟨
+TD6 📋> 🟨🟩🟨🟩🟨
+TD4 📋> ␅
+TD19 ␆🟨🟩🟨🟨🟩
+TD7 📋> 🟨🟩🟨🟨🟩
+TD6 📋> ␅
+TD18 ␆🟩🟩🟩🟩🟩
+TD7 📋> 🟩🟩🟩🟩🟩
+TD18 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD9 📋> 🟩🟩🟩🟩🟩
+TD12 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD12 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD14 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> ␅
+TD121860 ␆#squareword #squareword1747
+TD61 📋> #squareword #squareword1747
+TD5 📋> ␅
+TD216579 ␄
+TD193 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1747: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1747"}
+TD858 result: "squareword.org 1747: 7 guesses\n\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1747"
+TD80 📆 2026-11-13 ? ␅
+TD788548 ␆
+TD89 📆 2026-11-13 ? 
