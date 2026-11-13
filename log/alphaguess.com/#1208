@@ -1,0 +1,98 @@
+T231.01401103899116 now: 2026-11-13T14:43:49EST
+TD136 site: alphaguess.com
+TD128431 loaded 196506 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (98 words excluded) asof def8dfe729f506ac4d6cf9a5b373281549e49322
+TD88  ...␅
+TD6095091 ␆
+TD113  ...
+TD181 [0 : 98139 : 196506] mac? ␅
+TD2003469 ␆a
+TD121 [0 : 98139 : 196506] mac? a
+TD125 progress: 1 98139 mac
+TD124 [98140 : 147300 : 196506] rho? ␅
+TD2612342 ␆a
+TD83 [98140 : 147300 : 196506] rho? a
+TD84 progress: 1 147300 rho
+TD84 [147301 : 171899 : 196506] tag? ␅
+TD1510561 ␆a
+TD110 [147301 : 171899 : 196506] tag? a
+TD115 progress: 1 171899 tag
+TD131 [171900 : 181984 : 196506] un? ␅
+TD1643048 ␆a
+TD98 [171900 : 181984 : 196506] un? a
+TD94 progress: 1 181984 un
+TD194 [181985 : 189246 : 196506] vicar? ␅
+TD1512180 ␆a
+TD115 [181985 : 189246 : 196506] vicar? a
+TD118 progress: 1 189246 vicar
+TD133 [189247 : 192850 : 196506] whir? ␅
+TD1426305 ␆a
+TD83 [189247 : 192850 : 196506] whir? a
+TD107 progress: 1 192850 whir
+TD108 [192851 : 194674 : 196506] worship? ␅
+TD1364692 ␆a
+TD56 [192851 : 194674 : 196506] worship? a
+TD52 progress: 1 194674 worship
+TD58 [194675 : 195588 : 196506] yo? ␅
+TD1376804 ␆a
+TD89 [194675 : 195588 : 196506] yo? a
+TD93 progress: 1 195588 yo
+TD192 [195589 : 196046 : 196506] zero? ␅
+TD1536891 ␆b
+TD65 [195589 : 196046 : 196506] zero? b
+TD55 progress: -1 196046 zero
+TD53 [195589 : 195812 : 196046] yup? ␅
+TD2269841 ␆b
+TD87 [195589 : 195812 : 196046] yup? b
+TD107 progress: -1 195812 yup
+TD329 [195589 : 195701 : 195812] you? ␅
+TD1437614 ␆a
+TD79 [195589 : 195701 : 195812] you? a
+TD93 progress: 1 195701 you
+TD452 [195702 : 195757 : 195812] ytterbias? ␅
+TD2097600 ␆a
+TD157 [195702 : 195757 : 195812] ytterbias? a
+TD116 progress: 1 195757 ytterbias
+TD266 [195758 : 195786 : 195812] yuk? ␅
+TD1708397 ␆a
+TD131 [195758 : 195786 : 195812] yuk? a
+TD115 progress: 1 195786 yuk
+TD126 [195787 : 195799 : 195812] yulan? ␅
+TD1665998 ␆a
+TD81 [195787 : 195799 : 195812] yulan? a
+TD88 progress: 1 195799 yulan
+TD121 [195800 : 195805 : 195812] yum? ␅
+TD1539717 ␆a
+TD131 [195800 : 195805 : 195812] yum? a
+TD122 progress: 1 195805 yum
+TD219 [195806 : 195809 : 195812] yumminess? ␅
+TD1438304 ␆a
+TD135 [195806 : 195809 : 195812] yumminess? a
+TD118 progress: 1 195809 yumminess
+TD164 [195810 : 195811 : 195812] yummy? ␅
+TD3259472 ␆it
+TD143 [195810 : 195811 : 195812] yummy? it
+TD128 progress: 0 195811 yummy
+TD29 [195810 : 195811 : 195812] <Done>.
+TD102 📋> ␅
+TD3676648 ␆🧩 Puzzle #1208
+TD77 📋> 🧩 Puzzle #1208
+TD10 📋> ␅
+TD34 ␆🤔 17 guesses
+TD6 📋> 🤔 17 guesses
+TD5 📋> ␅
+TD11 ␆⏱️ 26s
+TD5 📋> ⏱️ 26s
+TD4 📋> ␅
+TD250285 ␆🔗 alphaguess.com/1208
+TD119 📋> 🔗 alphaguess.com/1208
+TD12 📋> ␅
+TD210840 ␄
+TD199 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1208\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 26s\n\ud83d\udd17 alphaguess.com/1208"}
+TD110 result: "\ud83e\udde9 Puzzle #1208\n\ud83e\udd14 17 guesses\n\u23f1\ufe0f 26s\n\ud83d\udd17 alphaguess.com/1208"
+TD14 result puzzle: 1208
+TD7 result guesses: 17
+TD5 result time: 26s
+TD4 result link: alphaguess.com/1208
+TD99 📆 2026-11-13 ? ␅
+TD333626 ␆
+TD79 📆 2026-11-13 ? 
