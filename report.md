@@ -1,7 +1,7 @@
 # 2026-11-14
 
 - 🔗 wordgrid 🧩 #896 🟪 rarity:0.17 ⏱️ 0:02:09.070076
-- 🔗 spaceword.org 🧩 2026-11-13 🏗️ score 2172 current ranking 61/221 ⏱️ 0:09:59.041590
+- 🔗 spaceword.org 🧩 2026-11-13 🏗️ score 2173 current ranking 28/244 ⏱️ 1:41:08.032742
 
 ## WIP
 
@@ -284,20 +284,21 @@ Rarity: 0.32 🟪
 🌌 🌌 🌌
 Rarity: 0.17 🟪
 
-# [spaceword.org](spaceword.org) 🧩 2026-11-13 🏗️ score 2172 current ranking 61/221 ⏱️ 0:09:59.041590
+# [spaceword.org](spaceword.org) 🧩 2026-11-13 🏗️ score 2173 current ranking 28/244 ⏱️ 1:41:08.032742
 
-📜 1 sessions
+📜 2 sessions
 - tiles: 21/21
-- score: 2172 bonus: +72
-- rank: 61/221
+- score: 2173 bonus: +73
+- rank: 28/244
 
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ E _ O H _ _ _   
-      _ _ _ M A Z E _ _ _   
-      _ _ _ _ _ O X _ _ _   
-      _ _ _ _ _ N O _ _ _   
-      _ _ _ G R A N _ _ _   
-      _ _ _ _ _ T E _ _ _   
-      _ _ _ V E E S _ _ _   
       _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ V _ Z _ S _ _ O H   
+      _ O _ A N E M O N E   
+      _ E R G A T E _ E X   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+
