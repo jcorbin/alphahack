@@ -214,3 +214,480 @@ TD1705 result: "\u2728 Spaceword.org Daily 2026-11-14 \u2728\n\n\ud83c\udfc6 Sco
 TD45696 [prior:2160]> ␅
 TD947381 ␆/store
 TD141 [prior:2160]> /store
+T5143.5606489570055 now: 2026-11-14T10:59:10EST
+TD68023 [prior:2160]> ␅
+TD2891355 ␆/sea -cap 1024
+TD146 [prior:2160]> /sea -cap 1024
+TD14233854 Z LUK}?xus#6!N6C$00000|Nj
+TD10005673 Z 8iY;)00030{{
+TD581 Z BGO5))C(#hVdat^tXu*&P9S9jH5w-X00030{{
+TD10248108 Z BGO5qgaZSiuoMPQB#y9z<Lc?{4^35wGTR5L4qy5~1^@s60RR6
+TD205 Z BHBsFWhGka4X#jNjZgH_+sl>I3IzZF0RR6
+TD60 Z 8iZ*H00030{{
+TD42 Z A|aFzQ3y*}u(Sk<LP*HrkHScz8oB@g00960
+TD47 Z BFjm%t#$zb00960
+TD35 Z BGpNBXfFW(00960
+TD34 Z BFjm%ZRi3300960
+TD34 Z BHl@eeiN+9fXAR$sGlda4#b}INE)yJ00030{{
+TD46 Z A~lrg(5eIg00960
+TD34 Z BGO6pY@7f900960
+TD43 Z BFahhZJYoA00960
+TD38 Z 8lX_ZH@*Y_00960
+TD42 Z BFahhZ7%@;00960
+TD12859954 Z B0qUY67E_;0+`e~4gdfE|Nj
+TD201 Z BDQftokpcUEcWp%rceL?00960
+TD65 Z BGO4gaKk7_O2~scj<^?i00000|Nj
+TD48 Z B072d`#}5;3N5O1QE)b%00000|Nj
+TD42 Z A~r3NA9G0kBTtt|SdERR+Y0~y0RR6
+TD88 Z B0hP;tfDC9{Gm>A^AB>w6-)pC00960
+TD40 Z BGO4dj-FHqCE_|w00000|Nj
+TD36 Z 8iZ|c00000|Nj
+TD33 Z 8iZ|c00000|Nj
+TD31 Z BEd-%Cniv#2`ftQ3<>}M00960
+TD36 Z qIr(<_wgigOaK4?0RR6
+TD58 Z qJ1F%4<sLdL|KV%m;wL*0RR6
+TD38 Z qN9@(d^}y?Qx|x;nE(I)0RR6
+TD80 Z 8if5g00000|Nj
+TD31 Z 8if5g00000|Nj
+TD29 Z 8if5g00000|Nj
+TD30 Z 8if5g00000|Nj
+TD29 Z 8if5g00000|Nj
+TD29 Z qC-&`gj~r%DqA;CAKXm=00000|Nj
+TD37 Z qJxt_^M`0oLMcDd0RR91|Nj
+TD35 Z qP>$)i*IO?1lgJB00000|Nj
+TD34 Z qP>$)A_?Xs<j6z^00000|Nj
+TD35 Z qIKyF>Th9Pd4_wC5C8xG|Nj
+TD44 Z qGyFdWETYh00960
+TD33 Z BGyT6j-EkO=<UK9x(fb?WPlC;00030{{
+TD56952 search f791f0 [ 1023 cap:1024 may:1080 prune:103 reject:25 dead:48 done:5 ]> ␅
+TD362611151 ␆show done
+TD119 search f791f0 [ 1023 cap:1024 may:1080 prune:103 reject:25 dead:48 done:5 ]> show done
+TD2521 search f791f0 [ 1023 cap:1024 may:1080 prune:103 reject:25 dead:48 done:5 ]> ␅
+TD1613205 ␆show 1
+TD120 search f791f0 [ 1023 cap:1024 may:1080 prune:103 reject:25 dead:48 done:5 ]> show 1
+TD837 search f791f0 [ 1023 cap:1024 may:1080 prune:103 reject:25 dead:48 done:5 ]> ␅
+TD431473 ␆ret
+TD270 search f791f0 [ 1023 cap:1024 may:1080 prune:103 reject:25 dead:48 done:5 ]> ret
+TD563 change: 14 
+TD22 change: 13 
+TD29 change: 14 
+TD27 change: 23 
+TD7 change: 14 
+TD8 change: 25 
+TD7 change: 14 
+TD7 change: 27 
+TD9 change: 14 J
+TD8 change: 33 
+TD6 change: 15 
+TD6 change: 35 
+TD6 change: 15 
+TD6 change: 37 
+TD7 change: 15 A
+TD6 change: 43 
+TD6 change: 16 
+TD6 change: 45 
+TD6 change: 16 
+TD6 change: 47 
+TD6 change: 16 
+TD8 change: 53 
+TD6 change: 16 
+TD7 change: 55 
+TD6 change: 56 I
+TD6 change: 16 
+TD6 change: 57 
+TD6 change: 16 
+TD7 change: 63 
+TD5 change: 65 U
+TD6 change: 16 
+TD7 change: 67 
+TD5 change: 16 
+TD7 change: 73 
+TD4 change: 74 O
+TD6 change: 16 R
+TD12 change: 75 
+TD5 change: 85 Y
+TD4 change: 26 E
+TD4 change: 34 Q
+TD4 change: 36 K
+TD4 change: 44 U
+TD4 change: 46 N
+TD4 change: 54 O
+TD4 change: 64 M
+TD4 change: 66 T
+TD4 change: 83 I
+TD4 change: 84 D
+TD4 change: 86 L
+TD4 change: 93 F
+TD4 change: 94 O
+TD4 change: 95 O
+TD46261 [prior:2160 bet:2164]> ␅
+TD1940032 ␆/sea -cap 1024
+TD103 [prior:2160 bet:2164]> /sea -cap 1024
+TD3283396 Z LUK~7Wm2+<IW0p8(H+1yhXMcq0RR6
+TD26364800 Z BGyR?3NQ<hodk7=SEx5^<k=s-hQSwUB@uMYi8v<#00030{{
+TD255 Z 8ib()00030{{
+TD47 Z B0iL0F$f!#_jB|Nf`*MZJaVuN3J@DQFaQ7m0RR6
+TD60 Z BH2kn@Oc7P*gOGvA{7Gs;4T79Vvyw`1poj50RR6
+TD50 Z BGpOoK!Qv+Lu?0)oS+3#5ZQsG00000|Nj
+TD49 Z BGpNtJO*)-V`zwLC^#*H5;=651e~nFaYcT_0RR91|Nj
+TD53 Z !sjH!^b#yTfvtyzl6R0JG>$w`k`i1gxe*5d00960
+TD52 Z A|oxq+~kUgIhg&SeqN4HHzC{^LSpg;00030{{
+TD67 Z BIG2xl|~2v00030{{
+TD39 Z A|aGuwgy662X+x6zrzb{q=KA0Hvs?u0RR6
+TD42 Z BEd;8>jNQ<13L*8bV$q1;L`(eXOb9900000|Nj
+TD54 Z !s{gL=^IuqdBa6L;mO7omXs8N$WGn>00030{{
+TD22138088 Z A~|`3oP;fuU|~pkC;<Qf0RR6
+TD271 Z 8ids@00030{{
+TD83 Z 8ids@00030{{
+TD50 Z 8ids@00030{{
+TD45 Z 8ids@00030{{
+TD48 Z 8ids@00030{{
+TD44 Z BGO5SMbVD13MJGpBq$V;<GkRNhbI*(IRF3v0RR6
+TD82 Z 8ids@00030{{
+TD46 Z A}*9r%S`lEB`63Xp#%yvNLdLgrpRmx00000|Nj
+TD67 Z 8iXwY00000|Nj
+TD61 Z 8iXwY00000|Nj
+TD44 Z A~}@c%_XF^2|SL196fzq{h)OVxlK3#00030{{
+TD143 Z 8iXwY00000|Nj
+TD43 Z 8ieg700000|Nj
+TD45 Z 8ib7#00000|Nj
+TD22035559 Z 8ib7#00000|Nj
+TD169 Z 8iZ*H00030{{
+TD57 Z 8ieg700000|Nj
+TD42 Z A|aHZnLiZX?Dc~W7NWGSA!UG<Kdi+G??)&&`VzB)2mk;8|Nj
+TD79 Z A~h{JhG3RUo__E$$Q9nTB){zq00030{{
+TD50 Z BBKch>+OcZ22K><PVx+Kg*nNQ?4l9?00960
+TD45 Z BFagqLvXMjiYF`rL;XTvq2x`44mbb+0RR6
+TD47 Z A}*9d9N}$&P`HzV;QepJYIjd6I0*m%0RR6
+TD42 Z BC>G;AI3r&Uvi|8lK=n!0RR6
+TD39 Z A~h`qDR{#MbKo)Og%op$^i6iX3jhEB|Nj
+TD43 Z A~|`7D1<_qy<YyFe$dW#AiNX^g%3r5_B0{<0Rss4;syW!00960
+TD88 Z 8if5g00000|Nj
+TD33 Z BF0Hxu0hD%0em@*8be+H00030{{
+TD39 Z 8iZX-00000|Nj
+TD31 Z B6+OR(+{zS4|5GTmXRB;&=7dl0-9kWn4ACr00960
+TD46 Z BF;(vex9M2Imrv2Zs9{HScj6}u^#A%7}UcJ00000|Nj
+TD68 Z BBQqpbC@U0vLOFJXde?)d_l&(d>u(15QG5$00030{{
+TD46 Z BHu}%xPsIl5GR3b1;wc!xOosl`WPh)00000|Nj
+TD42 Z BGO5S0QZEaAV1eoc$C27GSnAdAClWc0RR91|Nj
+TD42 Z 8iXS!00000|Nj
+TD30 Z 8iXS!00000|Nj
+TD29 Z !s{fI@e){c!6VKKmi0qC5%bxuzVPyZ+=v4J00960
+TD44 Z A}*A$jOBnPPeUQO3o(U*)Py77NdN!<0RR6
+TD42 Z BE16+avmh#ff`2;w}dG8L&j7>U4vkCG1)l|00030{{
+TD51 Z BHc-#%!lqI(BvD{oCE*>0RR6
+TD37 Z 8ibQy00000|Nj
+TD79985 search e9bc47 [ 1023 cap:1024 may:1423 prune:134 reject:26 dead:109 done:2 ]> ␅
+TD470867043 ␆show done
+TD121 search e9bc47 [ 1023 cap:1024 may:1423 prune:134 reject:26 dead:109 done:2 ]> show done
+TD2074 search e9bc47 [ 1023 cap:1024 may:1423 prune:134 reject:26 dead:109 done:2 ]> ␅
+TD743781 ␆show 1
+TD114 search e9bc47 [ 1023 cap:1024 may:1423 prune:134 reject:26 dead:109 done:2 ]> show 1
+TD924 search e9bc47 [ 1023 cap:1024 may:1423 prune:134 reject:26 dead:109 done:2 ]> ␅
+TD419266 ␆ret
+TD153 search e9bc47 [ 1023 cap:1024 may:1423 prune:134 reject:26 dead:109 done:2 ]> ret
+TD447 change: 24 
+TD40 change: 14 
+TD14 change: 24 
+TD13 change: 15 
+TD7 change: 24 
+TD8 change: 16 
+TD7 change: 24 
+TD7 change: 26 
+TD7 change: 44 
+TD9 change: 34 U
+TD5 change: 44 
+TD6 change: 36 
+TD7 change: 54 
+TD6 change: 44 O
+TD5 change: 54 
+TD6 change: 46 
+TD6 change: 64 
+TD8 change: 54 M
+TD5 change: 56 N
+TD6 change: 74 
+TD5 change: 64 O
+TD6 change: 74 
+TD6 change: 65 
+TD6 change: 74 
+TD6 change: 66 
+TD7 change: 84 
+TD5 change: 74 D
+TD6 change: 93 
+TD7 change: 83 F
+TD6 change: 94 
+TD5 change: 84 O
+TD6 change: 95 
+TD7 change: 85 O
+TD5 change: 93 
+TD6 change: 86 
+TD5 change: 93 
+TD5 change: 93 
+TD5 change: 94 
+TD23 change: 94 
+TD43 change: 95 
+TD14 change: 95 
+TD6 change: 24 Q
+TD6 change: 27 J
+TD6 change: 33 R
+TD6 change: 35 T
+TD6 change: 37 U
+TD6 change: 47 K
+TD6 change: 53 A
+TD6 change: 55 I
+TD6 change: 57 E
+TD6 change: 73 I
+TD6 change: 75 Y
+TD5 change: 76 L
+TD46752 [prior:2160 bet:2165]> ␅
+TD2822052 ␆/sea -cap 1024
+TD109 [prior:2160 bet:2165]> /sea -cap 1024
+TD3997531 Z Lf)2cl5A*dNidWGVSyAB3TivSk_{xeIr@6~LF*QBQ?~*D00960
+TD261 Z qQFT=Jvz9P6rfHDaYST7QcH0F00030{{
+TD8536167 Z 8ib()00030{{
+TD181 Z BH2ms?f}w|7bwF)0Tp5n00030{{
+TD62 Z BH2mUx|Y;+5&!@I|Nj
+TD42 Z BGpNV8E`~O0wo-HVM=-W1^@s6|Nj
+TD51 Z 8idIk00030{{
+TD34 Z BFjk_i3zDUKzWV>00030{{
+TD50 Z BHc;&Ms%s-CIA2c0RR6
+TD39 Z BF{;nRvN@f(E7|D-pZpqEdc-k0RR6
+TD45 Z BF{<SdJfG=(8eU?P67Y`0RR6
+TD39 Z BF{;n;ycI@<RnD#O|?)000030{{
+TD39 Z BHu}fav;bN)Z0a^Q7EY700000|Nj
+TD40 Z qK1<o6&lr?1ONa4|Nj
+TD37 Z qK1>GT<-z^00960
+TD35 Z !s{f0OBbN&2QhFH<md}u3P^5K00000|Nj
+TD8015887 Z 8iXwY00000|Nj
+TD176 Z 8iaKm00030{{
+TD44 Z BFaffLzPIqU2i|gA}^E?H~5+p@*@ra00960
+TD66 Z A~KZVLwiWB!`~Gr-*Er{00960
+TD44 Z BGO6lgdPO#yMdE8eC=RJC}yH2JG=k@00960
+TD62 Z 8icJ%00000|Nj
+TD33 Z 8icJ%00000|Nj
+TD31 Z BHl^RG!zIcq`X4?yggmPiHw?wTR{N;00960
+TD57 Z A|aF@E&-(<u<K~%Bme*a0RR6
+TD41 Z 8iWm900000|Nj
+TD31 Z 8iWm900000|Nj
+TD3109480 Z 8iW-J00030{{
+TD167 Z BH2lxv;<C7ptR%)N%P1ZOG-y76%+sf00960
+TD95 Z BGO4A@S+gWCO}MsVI4>%yQl;J00960
+TD52 Z BF;&kh&qn;P67Y`0RR6
+TD42 Z 8iaKm00030{{
+TD33 Z BGpOoW*fl~aIzx~00030{{
+TD40 Z 8ids@00030{{
+TD32 Z BGpL>#I^*2$POg{00030{{
+TD39 Z BGpNLh~!NxCjkHe0RR6
+TD37 Z 8icJ%00000|Nj
+TD33 Z 8iZ|c00000|Nj
+TD32 Z BB%6*u5-cKIH7pDLO}rl00960
+TD41 Z BCA5d(>S4mlK=n!0RR6
+TD37 Z 8ieg700000|Nj
+TD42 Z qDp%y#NXQ$QZ`Vd-UR>v0RR6
+TD41 Z 8id^e00000|Nj
+TD31 Z 8id^e00000|Nj
+TD30 Z 8id^e00000|Nj
+TD2371274 Z 8icJ%00000|Nj
+TD155 Z 8icJ%00000|Nj
+TD40 Z 8icJ%00000|Nj
+TD32 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD40 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD2184393 Z 8icJ%00000|Nj
+TD228 Z 8icJ%00000|Nj
+TD63 Z 8icJ%00000|Nj
+TD49 Z 8icJ%00000|Nj
+TD46 Z 8icJ%00000|Nj
+TD46 Z 8icJ%00000|Nj
+TD47 Z 8icJ%00000|Nj
+TD45 Z 8icJ%00000|Nj
+TD44 Z 8icJ%00000|Nj
+TD44 Z 8icJ%00000|Nj
+TD43 Z 8icJ%00000|Nj
+TD45 Z 8icJ%00000|Nj
+TD45 Z 8icJ%00000|Nj
+TD42 Z 8icJ%00000|Nj
+TD58 Z 8icJ%00000|Nj
+TD50 Z 8icJ%00000|Nj
+TD42 Z 8icJ%00000|Nj
+TD43 Z 8icJ%00000|Nj
+TD2270548 Z 8icJ%00000|Nj
+TD163 Z 8icJ%00000|Nj
+TD40 Z 8icJ%00000|Nj
+TD33 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD35 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD40 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD2015746 Z 8icJ%00000|Nj
+TD160 Z 8icJ%00000|Nj
+TD40 Z 8icJ%00000|Nj
+TD32 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD41 Z 8icJ%00000|Nj
+TD37 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD2258463 Z 8icJ%00000|Nj
+TD160 Z 8icJ%00000|Nj
+TD40 Z 8icJ%00000|Nj
+TD33 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD41 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD2142131 Z 8icJ%00000|Nj
+TD163 Z 8icJ%00000|Nj
+TD40 Z 8icJ%00000|Nj
+TD32 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD41 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD2107482 Z 8icJ%00000|Nj
+TD171 Z 8icJ%00000|Nj
+TD42 Z 8icJ%00000|Nj
+TD34 Z 8icJ%00000|Nj
+TD35 Z 8icJ%00000|Nj
+TD48 Z 8icJ%00000|Nj
+TD48 Z 8icJ%00000|Nj
+TD32 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD35 Z 8icJ%00000|Nj
+TD37 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD42 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD2074045 Z 8icJ%00000|Nj
+TD173 Z 8icJ%00000|Nj
+TD41 Z 8icJ%00000|Nj
+TD33 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD41 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD29 Z 8icJ%00000|Nj
+TD2306402 Z 8icJ%00000|Nj
+TD170 Z 8icJ%00000|Nj
+TD40 Z 8icJ%00000|Nj
+TD33 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD31 Z 8icJ%00000|Nj
+TD42 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD30 Z 8icJ%00000|Nj
+TD1068042 search 74c159 [ 1023 cap:1024 may:0 prune:360 dead:25 reject:18 ]> ␅
+TD1012555 ␄
+TD44688 [prior:2160 bet:2165]> ␅
+TD829879 ␆/res
+TD119 [prior:2160 bet:2165]> /res
+TD403 📋> ␅
+TD3228381 ␆✨ Spaceword.org Daily 2026-11-14 ✨
+TD118 📋> ✨ Spaceword.org Daily 2026-11-14 ✨
+TD13 📋> ␅
+TD44 ␆
+TD18 📋> 
+TD6 📋> ␅
+TD14 ␆🏆 Score: 2160
+TD7 📋> 🏆 Score: 2160
+TD4 📋> ␅
+TD12 ␆🏅 Rank: 100/172 😀
+TD6 📋> 🏅 Rank: 100/172 😀
+TD4 📋> ␅
+TD11 ␆🧩 Tiles: 21/21 ✅
+TD6 📋> 🧩 Tiles: 21/21 ✅
+TD4 📋> ␅
+TD12 ␆📏 Space Bonus: +60
+TD5 📋> 📏 Space Bonus: +60
+TD4 📋> ␅
+TD12 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD38 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD9 ␆Play at https://spaceword.org
+TD8 📋> Play at https://spaceword.org
+TD18 📋> ␅
+TD145380 ␆#spaceword
+TD86 📋> #spaceword
+TD12 📋> ␅
+TD201866 ␄
+TD200 pasted: {"subject": "content", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-11-14 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 100/172 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TD1528 result: "\u2728 Spaceword.org Daily 2026-11-14 \u2728\n\n\ud83c\udfc6 Score: 2160\n\ud83c\udfc5 Rank: 100/172 \ud83d\ude00\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +60\n\n\nPlay at https://spaceword.org\n#spaceword"
+TD49043 [prior:2160 bet:2165]> ␅
+TD998934 ␆/store
+TD113 [prior:2160 bet:2165]> /store
