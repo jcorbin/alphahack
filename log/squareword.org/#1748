@@ -1,0 +1,264 @@
+T1051.290069879993 now: 2026-11-14T08:58:12EST
+TD130 site: squareword.org
+TD25 wordlist: nwl2023.txt
+TD38  ...␅
+TD12209712 ␆
+TD62  ...
+TD44 🧩  ? ␅
+TD3201845 ␆#1748
+TD81 🧩  ? #1748
+TD239 puzzle_id: #1748
+TD256 > ␅
+TD1323294 ␆*
+TD74 > *
+TD218591 try? ␅
+TD831522 ␆1
+TD79 try? 1
+TD276 questioning: ["lanes", "#5"]
+TD258 #1 <IndexError>  📋 "lanes" ? ␅
+TD4778492 ␆____S ~ AS
+TD95 #1 <IndexError>  📋 "lanes" ? ____S ~ AS
+TD603 attempt 0 LANES n m n n Y
+TD103 #2 <IndexError>  📋 "lanes" ? ␅
+TD4575955 ␆_____ ~ LA
+TD77 #2 <IndexError>  📋 "lanes" ? _____ ~ LA
+TD162 attempt 1 LANES m m n n n
+TD81 #3 <IndexError>  📋 "lanes" ? ␅
+TD2234267 ␆_____ ~ A
+TD65 #3 <IndexError>  📋 "lanes" ? _____ ~ A
+TD155 attempt 2 LANES n m n n n
+TD74 #4 <IndexError>  📋 "lanes" ? ␅
+TD3038391 ␆___E_ ~ E
+TD84 #4 <IndexError>  📋 "lanes" ? ___E_ ~ E
+TD224 attempt 3 LANES n n n Y n
+TD101 #5 <IndexError>  📋 "lanes" ? ␅
+TD3236783 ␆_____ ~ AES
+TD119 #5 <IndexError>  📋 "lanes" ? _____ ~ AES
+TD214 attempt 4 LANES n m n m m
+TD287 ? ␅
+TD367257 ␆
+TD86 ? 
+TD130 question done
+TD302 > ␅
+TD2293742 ␆* 3
+TD74 > * 3
+TD243287 try? ␅
+TD1537818 ␆1
+TD54 try? 1
+TD165 questioning: ["actor", "#3"]
+TD172 #1 ____S ~A -ELN  📋 "actor" ? ␅
+TD7202686 ␆____S ~ ASTR
+TD79 #1 ____S ~A -ELN  📋 "actor" ? ____S ~ ASTR
+TD211 attempt 0 ACTOR m n m n m
+TD156 #2 _____ ~AL -ENS  📋 "actor" ? ␅
+TD2616304 ␆A__O_ ~ LT
+TD68 #2 _____ ~AL -ENS  📋 "actor" ? A__O_ ~ LT
+TD191 attempt 1 ACTOR Y n m Y n
+TD94 #3 _____ ~A -ELNS  📋 "actor" ? ␅
+TD3823323 ␆_____ ~ AO
+TD80 #3 _____ ~A -ELNS  📋 "actor" ? _____ ~ AO
+TD204 attempt 2 ACTOR m n n m n
+TD119 #4 ___E_ -ALNS  📋 "actor" ? ␅
+TD2876470 ␆___ER ~ ET
+TD93 #4 ___E_ -ALNS  📋 "actor" ? ___ER ~ ET
+TD208 attempt 3 ACTOR n n m n Y
+TD120 #5 _____ ~AES -LN  📋 "actor" ? ␅
+TD1777753 ␆.
+TD78 #5 _____ ~AES -LN  📋 "actor" ? .
+TD245 attempt 4 ACTOR m n n n n
+TD250 ? ␅
+TD161951 ␆
+TD78 ? 
+TD91 question done
+TD279 > ␅
+TD614698 ␆*
+TD89 > *
+TD620832 questioning: ["allot", "#2"]
+TD150 #1 ____S ~ART -CELNO  📋 "allot" ? ␅
+TD7037043 ␆____S ~ ASTR
+TD58 #1 ____S ~ART -CELNO  📋 "allot" ? ____S ~ ASTR
+TD123 attempt 0 ALLOT m n n n m
+TD116 #2 A__O_ ~LT -CENRS  📋 "allot" ? ␅
+TD689072 ␆/it
+TD79 #2 A__O_ ~LT -CENRS  📋 "allot" ? /it
+TD185 attempt 1 ALLOT Y Y Y Y Y
+TD50 #3 _____ ~AO -CELNRST  📋 "allot" ? ␅
+TD1516194 ␆.
+TD52 #3 _____ ~AO -CELNRST  📋 "allot" ? .
+TD147 attempt 2 ALLOT m n n m n
+TD61 #4 ___ER ~T -ACLNOS  📋 "allot" ? ␅
+TD4356133 ␆___ER ~ ET
+TD66 #4 ___ER ~T -ACLNOS  📋 "allot" ? ___ER ~ ET
+TD116 attempt 3 ALLOT n n n n m
+TD68 #5 _____ ~AES -CLNORT  📋 "allot" ? ␅
+TD958645 ␆.
+TD46 #5 _____ ~AES -CLNORT  📋 "allot" ? .
+TD123 attempt 4 ALLOT m n n n n
+TD118 ? ␅
+TD168798 ␆
+TD84 ? 
+TD102 question done
+TD351 > ␅
+TD492465 ␆*
+TD74 > *
+TD149515 try? ␅
+TD6916219 ␆1
+TD63 try? 1
+TD190 questioning: ["tzars", "#1"]
+TD161 #1 ____S ~ART -CELNO  📋 "tzars" ? ␅
+TD5560555 ␆T_ARS ~ S
+TD119 #1 ____S ~ART -CELNO  📋 "tzars" ? T_ARS ~ S
+TD229 attempt 0 TZARS Y n Y Y Y
+TD180 #3 _____ ~AO -CELNRST  📋 "tzars" ? ␅
+TD1515774 ␆.
+TD78 #3 _____ ~AO -CELNRST  📋 "tzars" ? .
+TD221 attempt 2 TZARS n n m n n
+TD78 #4 ___ER ~T -ACLNOS  📋 "tzars" ? ␅
+TD4580239 ␆___ER ~ ET
+TD65 #4 ___ER ~T -ACLNOS  📋 "tzars" ? ___ER ~ ET
+TD171 attempt 3 TZARS m n n n n
+TD109 #5 _____ ~AES -CLNORT  📋 "tzars" ? ␅
+TD2715709 ␆__A__ ~ ES
+TD92 #5 _____ ~AES -CLNORT  📋 "tzars" ? __A__ ~ ES
+TD178 attempt 4 TZARS n n Y n m
+TD212 ? ␅
+TD444584 ␆
+TD63 ? 
+TD68 question done
+TD160 > ␅
+TD3191286 ␆* 5
+TD135 > * 5
+TD292298 try? ␅
+TD2351364 ␄
+TD76 <EOF>
+TD163 > ␅
+TD1297332 ␆* 4
+TD184 > * 4
+TD71378 try? ␅
+TD2158616 ␆2
+TD76 try? 2
+TD231 questioning: ["ether", "#4"]
+TD315 #1 T_ARS -CELNOZ  📋 "ether" ? ␅
+TD8165502 ␆T_ARS ~ S
+TD77 #1 T_ARS -CELNOZ  📋 "ether" ? T_ARS ~ S
+TD194 attempt 0 ETHER n n n n n
+TD126 #3 _____ ~AO -CELNRSTZ  📋 "ether" ? ␅
+TD1750718 ␆.
+TD80 #3 _____ ~AO -CELNRSTZ  📋 "ether" ? .
+TD228 attempt 2 ETHER n n n n n
+TD93 #4 ___ER ~T -ACLNORSZ  📋 "ether" ? ␅
+TD746424 ␆/it
+TD88 #4 ___ER ~T -ACLNORSZ  📋 "ether" ? /it
+TD247 attempt 3 ETHER Y Y Y Y Y
+TD86 #5 __A__ ~ES -CLNORTZ  📋 "ether" ? ␅
+TD4422797 ␆__A__ ~ ESH
+TD65 #5 __A__ ~ES -CLNORTZ  📋 "ether" ? __A__ ~ ESH
+TD151 attempt 4 ETHER m n m m n
+TD199 ? ␅
+TD849724 ␆
+TD65 ? 
+TD74 question done
+TD179 > ␅
+TD1474607 ␆* 5
+TD78 > * 5
+TD348211 questioning: ["shade", "#5"]
+TD289 #1 T_ARS -CEHLNORTZ  📋 "shade" ? ␅
+TD5210829 ␆T_ARS ~ S
+TD67 #1 T_ARS -CEHLNORTZ  📋 "shade" ? T_ARS ~ S
+TD158 attempt 0 SHADE m n Y n n
+TD90 #3 _____ ~AO -CEHLNRSTZ  📋 "shade" ? ␅
+TD1109378 ␆.
+TD119 #3 _____ ~AO -CEHLNRSTZ  📋 "shade" ? .
+TD290 attempt 2 SHADE n n m n n
+TD116 #5 __A__ ~EHS -CLNORTZ  📋 "shade" ? ␅
+TD714041 ␆/it
+TD67 #5 __A__ ~EHS -CLNORTZ  📋 "shade" ? /it
+TD183 attempt 4 SHADE Y Y Y Y Y
+TD264 ? ␅
+TD207426 ␆
+TD80 ? 
+TD87 question done
+TD207 > ␅
+TD2152838 ␆* 3
+TD77 > * 3
+TD366299 try? ␅
+TD5410579 ␆1
+TD99 try? 1
+TD213 questioning: ["koppa", "#3"]
+TD183 #1 T_ARS -CDEHLNORTZ  📋 "koppa" ? ␅
+TD7449504 ␆T_ARS ~ S
+TD73 #1 T_ARS -CDEHLNORTZ  📋 "koppa" ? T_ARS ~ S
+TD155 attempt 0 KOPPA n n n n n
+TD99 #3 _____ ~AO -CDEHLNRSTZ  📋 "koppa" ? ␅
+TD2629167 ␆_OPPA ~ P
+TD80 #3 _____ ~AO -CDEHLNRSTZ  📋 "koppa" ? _OPPA ~ P
+TD215 attempt 2 KOPPA n Y Y Y Y
+TD307 ? ␅
+TD270575 ␆
+TD69 ? 
+TD77 question done
+TD320 > ␅
+TD978079 ␆*
+TD77 > *
+TD1193619 questioning: ["tsars", "#1"]
+TD165 #1 T_ARS -ACDEHKLNOPRTZ  📋 "tsars" ? ␅
+TD3960315 ␆/it
+TD55 #1 T_ARS -ACDEHKLNOPRTZ  📋 "tsars" ? /it
+TD121 attempt 0 TSARS Y Y Y Y Y
+TD46 #3 _OPPA -CDEHKLNRSTZ  📋 "tsars" ? ␅
+TD3211567 ␆_OPPA ~ P
+TD86 #3 _OPPA -CDEHKLNRSTZ  📋 "tsars" ? _OPPA ~ P
+TD227 attempt 2 TSARS n n n n n
+TD350 ? ␅
+TD288382 ␆
+TD65 ? 
+TD77 question done
+TD175 > ␅
+TD1105852 ␆*
+TD83 > *
+TD777162 questioning: ["poppa", "#3"]
+TD174 #3 _OPPA -ACDEHKLNRSTZ  📋 "poppa" ? ␅
+TD3505670 ␆/it
+TD65 #3 _OPPA -ACDEHKLNRSTZ  📋 "poppa" ? /it
+TD159 attempt 2 POPPA Y Y Y Y Y
+TD198 ? ␅
+TD306289 ␆
+TD72 ? 
+TD94 question done
+TD19304 📋> ␅
+TD4956896 ␆squareword.org 1748: 9 guesses
+TD55 📋> squareword.org 1748: 9 guesses
+TD5 📋> ␅
+TD23 ␆
+TD3 📋> 
+TD2 📋> ␅
+TD7 ␆🟩🟨🟩🟩🟩
+TD2 📋> 🟩🟨🟩🟩🟩
+TD1 📋> ␅
+TD5 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD5 ␆🟨🟨🟨🟨🟨
+TD2 📋> 🟨🟨🟨🟨🟨
+TD1 📋> ␅
+TD4 ␆🟩🟩🟩🟩🟩
+TD2 📋> 🟩🟩🟩🟩🟩
+TD1 📋> ␅
+TD4 ␆🟨🟨🟩🟨🟨
+TD2 📋> 🟨🟨🟩🟨🟨
+TD1 📋> ␅
+TD4 ␆
+TD3 📋> 
+TD1 📋> ␅
+TD4 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD2 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD114888 ␆#squareword #squareword1748
+TD54 📋> #squareword #squareword1748
+TD5 📋> ␅
+TD157548 ␄
+TD155 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1748: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1748"}
+TD795 result: "squareword.org 1748: 9 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1748"
+TD90 📆 2026-11-14 ? ␅
+TD305916 ␆
+TD60 📆 2026-11-14 ? 
