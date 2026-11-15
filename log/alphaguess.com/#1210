@@ -1,0 +1,106 @@
+T109.6684755969909 now: 2026-11-15T08:17:49EST
+TD171 site: alphaguess.com
+TD266705 loaded 196505 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (99 words excluded) asof faa2c98bf58301c309b4ea4bf6bc67ed9de550e5
+TD138  ...␅
+TD18771261 ␆
+TD123  ...
+TD183 [0 : 98138 : 196505] mac? ␅
+TD3805907 ␆
+TD78 [0 : 98138 : 196505] mac? 
+TD94 [0 : 98138 : 196505] mac? ␅
+TD3441835 ␆a
+TD93 [0 : 98138 : 196505] mac? a
+TD104 progress: 1 98138 mac
+TD105 [98139 : 147299 : 196505] rho? ␅
+TD3359959 ␆a
+TD135 [98139 : 147299 : 196505] rho? a
+TD141 progress: 1 147299 rho
+TD167 [147300 : 171898 : 196505] tag? ␅
+TD2500893 ␆b
+TD146 [147300 : 171898 : 196505] tag? b
+TD148 progress: -1 171898 tag
+TD229 [147300 : 159581 : 171898] slug? ␅
+TD2615838 ␆a
+TD135 [147300 : 159581 : 171898] slug? a
+TD143 progress: 1 159581 slug
+TD394 [159582 : 165740 : 171898] stipe? ␅
+TD2195719 ␆a
+TD128 [159582 : 165740 : 171898] stipe? a
+TD138 progress: 1 165740 stipe
+TD141 [165741 : 168784 : 171898] sulfur? ␅
+TD2668631 ␆a
+TD131 [165741 : 168784 : 171898] sulfur? a
+TD136 progress: 1 168784 sulfur
+TD140 [168785 : 170338 : 171898] sustain? ␅
+TD2650864 ␆b
+TD130 [168785 : 170338 : 171898] sustain? b
+TD258 progress: -1 170338 sustain
+TD208 [168785 : 169210 : 170338] super? ␅
+TD1915529 ␆a
+TD87 [168785 : 169210 : 170338] super? a
+TD86 progress: 1 169210 super
+TD95 [169211 : 169685 : 170338] supers? ␅
+TD1775675 ␆a
+TD278 [169211 : 169685 : 170338] supers? a
+TD120 progress: 1 169685 supers
+TD525 [169686 : 170012 : 170338] suprematism? ␅
+TD1802643 ␆b
+TD113 [169686 : 170012 : 170338] suprematism? b
+TD118 progress: -1 170012 suprematism
+TD454 [169686 : 169849 : 170012] supervision? ␅
+TD1788100 ␆a
+TD156 [169686 : 169849 : 170012] supervision? a
+TD162 progress: 1 169849 supervision
+TD666 [169850 : 169928 : 170012] supplicate? ␅
+TD1501574 ␆a
+TD106 [169850 : 169928 : 170012] supplicate? a
+TD121 progress: 1 169928 supplicate
+TD388 [169929 : 169970 : 170012] supposititious? ␅
+TD1684388 ␆b
+TD75 [169929 : 169970 : 170012] supposititious? b
+TD91 progress: -1 169970 supposititious
+TD94 [169929 : 169942 : 169970] support? ␅
+TD1732121 ␆b
+TD81 [169929 : 169942 : 169970] support? b
+TD87 progress: -1 169942 support
+TD187 [169929 : 169935 : 169942] supplied? ␅
+TD1660705 ␆a
+TD108 [169929 : 169935 : 169942] supplied? a
+TD115 progress: 1 169935 supplied
+TD192 [169936 : 169939 : 169942] suppling? ␅
+TD1856666 ␆a
+TD121 [169936 : 169939 : 169942] suppling? a
+TD129 progress: 1 169939 suppling
+TD277 [169940 : 169941 : 169942] supplying? ␅
+TD2663738 ␆b
+TD106 [169940 : 169941 : 169942] supplying? b
+TD111 progress: -1 169941 supplying
+T10.375440814998 now: 2026-11-15T08:19:08EST
+TD299 [169940 : 169940 : 169941] supply? ␅
+TD2123162 ␆it
+TD78 [169940 : 169940 : 169941] supply? it
+TD357 progress: 0 169940 supply
+TD27 [169940 : 169940 : 169941] <Done>.
+TD105 📋> ␅
+TD8073045 ␆🧩 Puzzle #1210
+TD76 📋> 🧩 Puzzle #1210
+TD12 📋> ␅
+TD30 ␆🤔 18 guesses
+TD5 📋> 🤔 18 guesses
+TD5 📋> ␅
+TD11 ␆⏱️ 36s
+TD5 📋> ⏱️ 36s
+TD4 📋> ␅
+TD132809 ␆🔗 alphaguess.com/1210
+TD71 📋> 🔗 alphaguess.com/1210
+TD10 📋> ␅
+TD299752 ␄
+TD186 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1210\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 36s\n\ud83d\udd17 alphaguess.com/1210"}
+TD581 result: "\ud83e\udde9 Puzzle #1210\n\ud83e\udd14 18 guesses\n\u23f1\ufe0f 36s\n\ud83d\udd17 alphaguess.com/1210"
+TD17 result puzzle: 1210
+TD7 result guesses: 18
+TD5 result time: 36s
+TD4 result link: alphaguess.com/1210
+TD96 📆 2026-11-15 ? ␅
+TD360401 ␆
+TD81 📆 2026-11-15 ? 
