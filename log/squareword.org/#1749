@@ -1,0 +1,236 @@
+T1623.759789462958 now: 2026-11-15T08:46:03EST
+TD127 site: squareword.org
+TD29 wordlist: nwl2023.txt
+TD41  ...␅
+TD2420164 ␆
+TD122  ...
+TD87 🧩  ? ␅
+TD8197329 ␆#1749
+TD94 🧩  ? #1749
+TD291 puzzle_id: #1749
+TD327 > ␅
+TD420149 ␆
+TD92 > 
+TD422 > ␅
+TD1155454 ␆*
+TD95 > *
+TD439120 try? ␅
+TD717692 ␆1
+TD118 try? 1
+TD457 questioning: ["raise", "#5"]
+TD326 #1 <IndexError>  📋 "raise" ? ␅
+TD5323275 ␆_____ ~ AS
+TD82 #1 <IndexError>  📋 "raise" ? _____ ~ AS
+TD737 attempt 0 RAISE n m n m n
+TD113 #2 <IndexError>  📋 "raise" ? ␅
+TD2316551 ␆_A___ ~ R
+TD104 #2 <IndexError>  📋 "raise" ? _A___ ~ R
+TD277 attempt 1 RAISE m Y n n n
+TD189 #3 <IndexError>  📋 "raise" ? ␅
+TD3034933 ␆_____ ~ RAE
+TD84 #3 <IndexError>  📋 "raise" ? _____ ~ RAE
+TD216 attempt 2 RAISE m m n n m
+TD104 #4 <IndexError>  📋 "raise" ? ␅
+TD2106416 ␆_____ ~ RI
+TD109 #4 <IndexError>  📋 "raise" ? _____ ~ RI
+TD261 attempt 3 RAISE m n m n n
+TD144 #5 <IndexError>  📋 "raise" ? ␅
+TD3514585 ␆_____ ~ RA
+TD117 #5 <IndexError>  📋 "raise" ? _____ ~ RA
+TD265 attempt 4 RAISE m m n n n
+TD347 ? ␅
+TD586894 ␆
+TD109 ? 
+TD178 question done
+TD302 > ␅
+TD3801466 ␆* 2
+TD86 > * 2
+TD319154 try? ␅
+TD724024 ␄
+TD149 <EOF>
+TD366 > ␅
+TD1178753 ␆* 4
+TD142 > * 4
+TD216673 try? ␅
+TD988760 ␄
+TD101 <EOF>
+TD319 > ␅
+TD980454 ␆* 5
+TD120 > * 5
+TD222025 try? ␅
+TD2322852 ␄
+TD154 <EOF>
+TD340 > ␅
+TD981277 ␆* 1
+TD106 > * 1
+TD229262 try? ␅
+TD4547921 ␆1
+TD121 try? 1
+TD346 questioning: ["skoal", "#1"]
+TD417 #1 _____ ~AS -EIR  📋 "skoal" ? ␅
+TD5318859 ␆S____ ~ AS
+TD118 #1 _____ ~AS -EIR  📋 "skoal" ? S____ ~ AS
+TD307 attempt 0 SKOAL Y n n m n
+TD172 #2 _A___ ~R -EIS  📋 "skoal" ? ␅
+TD9829135 ␆_A___ ~ RO
+TD109 #2 _A___ ~R -EIS  📋 "skoal" ? _A___ ~ RO
+TD274 attempt 1 SKOAL n n m n n
+TD154 #3 _____ ~AER -IS  📋 "skoal" ? ␅
+TD5790855 ␆_____ ~ RAEO
+TD124 #3 _____ ~AER -IS  📋 "skoal" ? _____ ~ RAEO
+TD260 attempt 2 SKOAL n n m m n
+TD161 #4 _____ ~IR -AES  📋 "skoal" ? ␅
+TD3384866 ␆_____ ~ RIO
+TD78 #4 _____ ~IR -AES  📋 "skoal" ? _____ ~ RIO
+TD214 attempt 3 SKOAL n n m n n
+TD161 #5 _____ ~AR -EIS  📋 "skoal" ? ␅
+TD3360348 ␆_____ ~ RAK
+TD116 #5 _____ ~AR -EIS  📋 "skoal" ? _____ ~ RAK
+TD294 attempt 4 SKOAL n m n m n
+TD408 ? ␅
+TD5971449 ␆
+TD76 ? 
+TD112 question done
+TD260 > ␅
+TD7806796 ␆*
+TD125 > *
+TD1254206 try? ␅
+TD2607124 ␆2
+TD107 try? 2
+TD302 questioning: ["opera", "#3"]
+TD410 #1 S____ ~A -EIKLOR  📋 "opera" ? ␅
+TD7216609 ␆S____ ~ AS
+TD92 #1 S____ ~A -EIKLOR  📋 "opera" ? S____ ~ AS
+TD224 attempt 0 OPERA n n n n m
+TD125 #2 _A___ ~OR -AEIKLS  📋 "opera" ? ␅
+TD4208207 ␆.
+TD116 #2 _A___ ~OR -AEIKLS  📋 "opera" ? .
+TD282 attempt 1 OPERA m n n m n
+TD120 #3 _____ ~AEOR -IKLS  📋 "opera" ? ␅
+TD679249 ␆/it
+TD79 #3 _____ ~AEOR -IKLS  📋 "opera" ? /it
+TD229 attempt 2 OPERA Y Y Y Y Y
+TD80 #4 _____ ~IOR -AEKLS  📋 "opera" ? ␅
+TD1601822 ␆.
+TD101 #4 _____ ~IOR -AEKLS  📋 "opera" ? .
+TD266 attempt 3 OPERA m n n m n
+TD98 #5 _____ ~AKR -EILOS  📋 "opera" ? ␅
+TD4467318 ␆_____ ~ RAKP
+TD103 #5 _____ ~AKR -EILOS  📋 "opera" ? _____ ~ RAKP
+TD251 attempt 4 OPERA n m n m m
+TD389 ? ␅
+TD607120 ␆
+TD108 ? 
+TD123 question done
+TD379 > ␅
+TD2897412 ␆*
+TD74 > *
+TD1506440 questioning: ["prank", "#5"]
+TD171 #1 S____ ~A -EIKLOPR  📋 "prank" ? ␅
+TD8890493 ␆S_A__ ~ S
+TD82 #1 S____ ~A -EIKLOPR  📋 "prank" ? S_A__ ~ S
+TD243 attempt 0 PRANK n n Y n n
+TD148 #2 _A___ ~OR -AEIKLPS  📋 "prank" ? ␅
+TD1653099 ␆.
+TD129 #2 _A___ ~OR -AEIKLPS  📋 "prank" ? .
+TD286 attempt 1 PRANK n m n n n
+TD107 #4 _____ ~IOR -AEKLPS  📋 "prank" ? ␅
+TD7069909 ␆_____ ~ RION
+TD89 #4 _____ ~IOR -AEKLPS  📋 "prank" ? _____ ~ RION
+TD202 attempt 3 PRANK n m n m n
+TD125 #5 _____ ~AKPR -EILOS  📋 "prank" ? ␅
+TD899534 ␆/it
+TD117 #5 _____ ~AKPR -EILOS  📋 "prank" ? /it
+TD285 attempt 4 PRANK Y Y Y Y Y
+TD447 ? ␅
+TD295652 ␆
+TD110 ? 
+TD126 question done
+TD311 > ␅
+TD6856977 ␆*
+TD107 > *
+TD1780675 questioning: ["minor", "#4"]
+TD171 #1 S_A__ -EIKLNOPR  📋 "minor" ? ␅
+TD8206082 ␆S_A__ ~ S
+TD121 #1 S_A__ -EIKLNOPR  📋 "minor" ? S_A__ ~ S
+TD258 attempt 0 MINOR n n n n n
+TD154 #2 _A___ ~OR -AEIKLNPS  📋 "minor" ? ␅
+TD3046869 ␆_A_O_ ~ R
+TD110 #2 _A___ ~OR -AEIKLNPS  📋 "minor" ? _A_O_ ~ R
+TD277 attempt 1 MINOR n n n Y m
+TD175 #4 _____ ~INOR -AEKLPS  📋 "minor" ? ␅
+TD1504802 ␆/it
+TD116 #4 _____ ~INOR -AEKLPS  📋 "minor" ? /it
+TD267 attempt 3 MINOR Y Y Y Y Y
+TD306 ? ␅
+TD264719 ␆
+TD111 ? 
+TD206 question done
+TD349 > ␅
+TD700669 ␆*
+TD113 > *
+TD2165475 questioning: ["stabs", "#1"]
+TD493 #1 S_A__ -EIKLMNOPR  📋 "stabs" ? ␅
+TD3858241 ␆/it
+TD95 #1 S_A__ -EIKLMNOPR  📋 "stabs" ? /it
+TD262 attempt 0 STABS Y Y Y Y Y
+TD110 #2 _A_O_ ~R -AEIKLMNPS  📋 "stabs" ? ␅
+TD4691636 ␆_A_O_ ~ RT
+TD134 #2 _A_O_ ~R -AEIKLMNPS  📋 "stabs" ? _A_O_ ~ RT
+TD314 attempt 1 STABS n m n n n
+TD534 ? ␅
+TD345934 ␆
+TD97 ? 
+TD118 question done
+TD363 > ␅
+TD4240516 ␆/it
+TD97 > /it
+TD833 > ␅
+TD3850424 ␆*
+TD131 > *
+TD1492248 questioning: ["tarot", "#2"]
+TD166 #2 _A_O_ ~RT -ABEIKLMNPS  📋 "tarot" ? ␅
+TD5847461 ␆/it
+TD123 #2 _A_O_ ~RT -ABEIKLMNPS  📋 "tarot" ? /it
+TD318 attempt 1 TAROT Y Y Y Y Y
+TD328 ? ␅
+TD392833 ␆
+TD112 ? 
+TD105 question done
+TD62461 📋> ␅
+TD5747822 ␆squareword.org 1749: 7 guesses
+TD101 📋> squareword.org 1749: 7 guesses
+TD15 📋> ␅
+TD45 ␆
+TD8 📋> 
+TD7 📋> ␅
+TD31 ␆🟩🟨🟩🟨🟨
+TD7 📋> 🟩🟨🟩🟨🟨
+TD6 📋> ␅
+TD13 ␆🟨🟩🟨🟩🟨
+TD6 📋> 🟨🟩🟨🟩🟨
+TD6 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD19 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD10 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> ␅
+TD145744 ␆#squareword #squareword1749
+TD140 📋> #squareword #squareword1749
+TD16 📋> ␅
+TD311603 ␄
+TD179 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1749: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1749"}
+TD1069 result: "squareword.org 1749: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1749"
+TD111 📆 2026-11-15 ? ␅
+TD328830 ␆
+TD138 📆 2026-11-15 ? 
