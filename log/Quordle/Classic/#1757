@@ -1,0 +1,189 @@
+T261.7549546890077 now: 2026-11-16T08:40:42EST
+TD201 site: https://www.merriam-webster.com/games/quordle/#/
+TD39 wordlist: nwl2023.txt
+TD8 num_words: 4
+TD212  ...␅
+TD250535 ␆
+TD78  ...
+TD713890 > ␅
+TD101 ␆
+TD10 > 
+TD177 > ␅
+TD679935 ␆
+TD143 > 
+TD444 > ␅
+TD6744059 ␆
+TD114 > 
+TD461 > ␅
+TD3126220 ␆*
+TD120 > *
+TD123266 ? ␅
+TD454257 ␆1
+TD112 ? 1
+TD195 questioning: arles
+TD201 Classic #1 _____? ␅
+TD2895249 ␆MMnnn
+TD79 Classic #1 _____? MMnnn
+TD364 attempt: 0 ARLES m m n n n
+TD90 Classic #2 _____? ␅
+TD1166123 ␆nMnYn
+TD75 Classic #2 _____? nMnYn
+TD205 attempt: 1 ARLES n m n Y n
+TD82 Classic #3 _____? ␅
+TD1223104 ␆nnnnn
+TD123 Classic #3 _____? nnnnn
+TD237 attempt: 2 ARLES n n n n n
+TD106 Classic #4 _____? ␅
+TD2159986 ␆YnMnn
+TD79 Classic #4 _____? YnMnn
+TD197 attempt: 3 ARLES Y n m n n
+TD706745 > ␅
+TD737894 ␆*
+TD104 > *
+TD5758 ? ␅
+TD1177098 ␆1
+TD79 ? 1
+TD142 questioning: tonic
+TD148 Classic #1 _____ ~AR -ELS? ␅
+TD2740854 ␆nMnnn
+TD77 Classic #1 _____ ~AR -ELS? nMnnn
+TD182 attempt: 0 TONIC n m n n n
+TD88 Classic #2 ___E_ ~R -ALS? ␅
+TD1570281 ␆Ynnnn
+TD111 Classic #2 ___E_ ~R -ALS? Ynnnn
+TD232 attempt: 1 TONIC Y n n n n
+TD121 Classic #3 _____ -AELRS? ␅
+TD1746168 ␆MYnnn
+TD84 Classic #3 _____ -AELRS? MYnnn
+TD210 attempt: 2 TONIC m Y n n n
+TD171 Classic #4 A____ ~L -ERS? ␅
+TD1010826 ␆nMnnn
+TD100 Classic #4 A____ ~L -ERS? nMnnn
+TD218 attempt: 3 TONIC n m n n n
+TD693694 > ␅
+TD602805 ␆*
+TD111 > *
+TD850 ? ␅
+TD965664 ␆1
+TD112 ? 1
+TD189 questioning: youth
+TD209 Classic #1 _____ ~AOR -CEILNST? ␅
+TD2478401 ␆nMnnn
+TD109 Classic #1 _____ ~AOR -CEILNST? nMnnn
+TD237 attempt: 0 YOUTH n m n n n
+TD116 Classic #2 T__E_ ~R -ACILNOS? ␅
+TD3183794 ␆nnMMn
+TD130 Classic #2 T__E_ ~R -ACILNOS? nnMMn
+TD245 attempt: 1 YOUTH n n m m n
+TD119 Classic #3 _O___ ~T -ACEILNRS? ␅
+TD1298234 ␆nYYYY
+TD108 Classic #3 _O___ ~T -ACEILNRS? nYYYY
+TD230 attempt: 2 YOUTH n Y Y Y Y
+TD121 Classic #4 A____ ~LO -CEINRST? ␅
+TD1781939 ␆nMMnn
+TD79 Classic #4 A____ ~LO -CEINRST? nMMnn
+TD231 attempt: 3 YOUTH n m m n n
+TD708342 > ␅
+TD647834 ␆*
+TD116 > *
+TD456 questioning: tuber
+TD217 Classic #1 _____ ~AOR -CEHILNSTUY? ␅
+TD3018830 ␆nnnnY
+TD154 Classic #1 _____ ~AOR -CEHILNSTUY? nnnnY
+TD335 attempt: 0 TUBER n n n n Y
+TD158 Classic #2 T__E_ ~RU -ACHILNOSY? ␅
+TD1361733 ␆YYYYY
+TD129 Classic #2 T__E_ ~RU -ACHILNOSY? YYYYY
+TD272 attempt: 1 TUBER Y Y Y Y Y
+TD139 Classic #3 _OUTH -ACEILNRSY? ␅
+TD1875852 ␆MMnnn
+TD124 Classic #3 _OUTH -ACEILNRSY? MMnnn
+TD293 attempt: 2 TUBER m m n n n
+TD139 Classic #4 A____ ~LOU -CEHINRSTY? ␅
+TD1658423 ␆nMnnn
+TD129 Classic #4 A____ ~LOU -CEHINRSTY? nMnnn
+TD315 attempt: 3 TUBER n m n n n
+TD486102 > ␅
+TD648615 ␆*
+TD107 > *
+TD467 questioning: mouth
+TD237 Classic #1 ____R ~AO -BCEHILNSTUY? ␅
+TD2685266 ␆nMnnn
+TD123 Classic #1 ____R ~AO -BCEHILNSTUY? nMnnn
+TD230 attempt: 0 MOUTH n m n n n
+TD115 Classic #3 _OUTH -ABCEILNRSY? ␅
+TD1674892 ␆YYYYY
+TD107 Classic #3 _OUTH -ABCEILNRSY? YYYYY
+TD222 attempt: 2 MOUTH Y Y Y Y Y
+TD113 Classic #4 A____ ~LOU -BCEHINRSTY? ␅
+TD1538465 ␆nMMnn
+TD99 Classic #4 A____ ~LOU -BCEHINRSTY? nMMnn
+TD186 attempt: 3 MOUTH n m m n n
+TD318288 > ␅
+TD640644 ␆*
+TD117 > *
+TD630 ? ␅
+TD1760567 ␆1
+TD110 ? 1
+TD200 questioning: afoul
+TD187 Classic #1 ____R ~AO -BCEHILMNSTUY? ␅
+TD4357882 ␆MnMnn
+TD82 Classic #1 ____R ~AO -BCEHILMNSTUY? MnMnn
+TD189 attempt: 0 AFOUL m n m n n
+TD93 Classic #4 A____ ~LOU -BCEHIMNRSTY? ␅
+TD2075323 ␆YnYYM
+TD111 Classic #4 A____ ~LOU -BCEHIMNRSTY? YnYYM
+TD255 attempt: 3 AFOUL Y n Y Y m
+TD333102 > ␅
+TD640766 ␆*
+TD93 > *
+TD400 questioning: aloud
+TD153 Classic #1 ____R ~AO -BCEFHILMNSTUY? ␅
+TD3398540 ␆MnMnn
+TD106 Classic #1 ____R ~AO -BCEFHILMNSTUY? MnMnn
+TD242 attempt: 0 ALOUD m n m n n
+TD128 Classic #4 A_OU_ ~L -BCEFHIMNRSTY? ␅
+TD1729318 ␆YYYYY
+TD155 Classic #4 A_OU_ ~L -BCEFHIMNRSTY? YYYYY
+TD337 attempt: 3 ALOUD Y Y Y Y Y
+TD189090 > ␅
+TD721389 ␆*
+TD110 > *
+TD565 ? ␅
+TD2415691 ␆1
+TD76 ? 1
+TD140 questioning: vapor
+TD169 Classic #1 ____R ~AO -BCDEFHILMNSTUY? ␅
+TD3372723 ␆nYnYY
+TD117 Classic #1 ____R ~AO -BCDEFHILMNSTUY? nYnYY
+TD281 attempt: 0 VAPOR n Y n Y Y
+TD152697 > ␅
+TD252858 ␆*
+TD87 > *
+TD384 questioning: razor
+TD241 Classic #1 _A_OR -BCDEFHILMNPSTUVY? ␅
+TD3290977 ␆YYYYY
+TD72 Classic #1 _A_OR -BCDEFHILMNPSTUVY? YYYYY
+TD179 attempt: 0 RAZOR Y Y Y Y Y
+TD80 📋> ␅
+TD3750651 ␆🙂 Daily Quordle 1757
+TD112 📋> 🙂 Daily Quordle 1757
+TD12 📋> ␅
+TD49 ␆9️⃣4️⃣
+TD7 📋> 9️⃣4️⃣
+TD8 📋> ␅
+TD15 ␆5️⃣7️⃣
+TD8 📋> 5️⃣7️⃣
+TD7 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD5 📋> m-w.com/games/quordle/
+TD8 📋> ␅
+TD212338 ␆
+TD103 📋> 
+TD13 📋> ␅
+TD217990 ␄
+TD224 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1757\n9\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1759 result: "\ud83d\ude42 Daily Quordle 1757\n9\ufe0f\u20e34\ufe0f\u20e3\n5\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD111 📆 2026-11-16 ? ␅
+TD306615 ␆
+TD117 📆 2026-11-16 ? 
