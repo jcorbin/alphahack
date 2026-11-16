@@ -1,0 +1,105 @@
+T37043.36456352903 now: 2026-11-16T08:32:03EST
+TD245 site: alfagok.diginaut.net
+TD699621 loaded 399430 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1422 words excluded) asof 0eb7f7bb87ae91e24f7c1c86a0d3c66491a6a154
+TD142  ...␅
+TD35 ␆
+TD5  ...
+TD123 [0 : 199628 : 399430] lijk? ␅
+TD2228065 ␆
+TD107 [0 : 199628 : 399430] lijk? 
+TD142 [0 : 199628 : 399430] lijk? ␅
+TD6428522 ␆b
+TD122 [0 : 199628 : 399430] lijk? b
+TD484 progress: -1 199628 lijk
+TD176 [0 : 99672 : 199628] ex? ␅
+TD1624217 ␆a
+TD85 [0 : 99672 : 199628] ex? a
+TD113 progress: 1 99672 ex
+TD108 [99673 : 149358 : 199628] huis? ␅
+TD2306531 ␆a
+TD116 [99673 : 149358 : 199628] huis? a
+TD114 progress: 1 149358 huis
+TD127 [149359 : 174465 : 199628] kind? ␅
+TD2919562 ␆a
+TD131 [149359 : 174465 : 199628] kind? a
+TD143 progress: 1 174465 kind
+TD287 [174466 : 187045 : 199628] kronen? ␅
+TD1340122 ␆a
+TD132 [174466 : 187045 : 199628] kronen? a
+TD135 progress: 1 187045 kronen
+TD162 [187046 : 190269 : 199628] la? ␅
+TD1434520 ␆a
+TD126 [187046 : 190269 : 199628] la? a
+TD136 progress: 1 190269 la
+TD140 [190270 : 194825 : 199628] lees? ␅
+TD1382934 ␆a
+TD94 [190270 : 194825 : 199628] lees? a
+TD119 progress: 1 194825 lees
+TD131 [194826 : 197003 : 199628] levens? ␅
+TD1384164 ␆a
+TD132 [194826 : 197003 : 199628] levens? a
+TD136 progress: 1 197003 levens
+TD166 [197004 : 198171 : 199628] licht? ␅
+TD4958475 ␆a
+TD128 [197004 : 198171 : 199628] licht? a
+TD134 progress: 1 198171 licht
+TD154 [198172 : 198872 : 199628] liefdes? ␅
+TD1694793 ␆a
+TD128 [198172 : 198872 : 199628] liefdes? a
+TD133 progress: 1 198872 liefdes
+TD150 [198873 : 199183 : 199628] lieveling? ␅
+TD1475444 ␆a
+TD132 [198873 : 199183 : 199628] lieveling? a
+TD137 progress: 1 199183 lieveling
+TD143 [199184 : 199384 : 199628] lift? ␅
+TD1555604 ␆a
+TD150 [199184 : 199384 : 199628] lift? a
+TD162 progress: 1 199384 lift
+TD173 [199385 : 199429 : 199628] lig? ␅
+TD1589048 ␆a
+TD162 [199385 : 199429 : 199628] lig? a
+TD134 progress: 1 199429 lig
+TD140 [199430 : 199525 : 199628] lij? ␅
+TD2677861 ␆b
+TD132 [199430 : 199525 : 199628] lij? b
+TD141 progress: -1 199525 lij
+TD253 [199430 : 199477 : 199525] ligkuur? ␅
+TD1804526 ␆b
+TD126 [199430 : 199477 : 199525] ligkuur? b
+TD134 progress: -1 199477 ligkuur
+TD226 [199430 : 199452 : 199477] ligfiets? ␅
+TD1683702 ␆a
+TD126 [199430 : 199452 : 199477] ligfiets? a
+TD139 progress: 1 199452 ligfiets
+TD189 [199453 : 199462 : 199477] ligging? ␅
+TD1790721 ␆b
+TD131 [199453 : 199462 : 199477] ligging? b
+TD129 progress: -1 199462 ligging
+TD376 [199453 : 199457 : 199462] liggen? ␅
+TD1866244 ␆it
+TD136 [199453 : 199457 : 199462] liggen? it
+TD151 progress: 0 199457 liggen
+TD34 [199453 : 199457 : 199462] <Done>.
+TD125 📋> ␅
+TD3055649 ␆🧩 Puzzel #744
+TD98 📋> 🧩 Puzzel #744
+TD14 📋> ␅
+TD63 ␆🤔 18 gokken
+TD8 📋> 🤔 18 gokken
+TD6 📋> ␅
+TD36 ␆⏱️ 33s
+TD8 📋> ⏱️ 33s
+TD6 📋> ␅
+TD142296 ␆🔗 alfagok.diginaut.net
+TD129 📋> 🔗 alfagok.diginaut.net
+TD16 📋> ␅
+TD234644 ␄
+TD175 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #744\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD722 result: "\ud83e\udde9 Puzzel #744\n\ud83e\udd14 18 gokken\n\u23f1\ufe0f 33s\n\ud83d\udd17 alfagok.diginaut.net"
+TD23 result puzzle: 744
+TD11 result guesses: 18
+TD7 result time: 33s
+TD6 result link: alfagok.diginaut.net
+TD96 📆 2026-11-16 ? ␅
+TD314852 ␆
+TD134 📆 2026-11-16 ? 
