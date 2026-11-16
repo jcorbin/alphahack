@@ -1,0 +1,231 @@
+T895.6010232479894 now: 2026-11-16T08:51:16EST
+TD154 site: squareword.org
+TD34 wordlist: nwl2023.txt
+TD46  ...␅
+TD408033 ␆
+TD130  ...
+TD104 🧩  ? ␅
+TD7015429 ␆#1750
+TD78 🧩  ? #1750
+TD234 puzzle_id: #1750
+TD264 > ␅
+TD918591 ␆*
+TD129 > *
+TD479592 try? ␅
+TD693604 ␆1
+TD85 try? 1
+TD296 questioning: ["arose", "#5"]
+TD375 #1 <IndexError>  📋 "arose" ? ␅
+TD4353146 ␆_R__E ~ A
+TD110 #1 <IndexError>  📋 "arose" ? _R__E ~ A
+TD814 attempt 0 AROSE m Y n n Y
+TD162 #2 <IndexError>  📋 "arose" ? ␅
+TD2545685 ␆_____ ~ RE
+TD97 #2 <IndexError>  📋 "arose" ? _____ ~ RE
+TD315 attempt 1 AROSE n m n n m
+TD122 #3 <IndexError>  📋 "arose" ? ␅
+TD2096997 ␆A_O__ ~ R
+TD126 #3 <IndexError>  📋 "arose" ? A_O__ ~ R
+TD324 attempt 2 AROSE Y m Y n n
+TD161 #4 <IndexError>  📋 "arose" ? ␅
+TD4123402 ␆____E ~ RO
+TD113 #4 <IndexError>  📋 "arose" ? ____E ~ RO
+TD277 attempt 3 AROSE n m m n Y
+TD144 #5 <IndexError>  📋 "arose" ? ␅
+TD1895343 ␆_R___ ~ E
+TD404 #5 <IndexError>  📋 "arose" ? _R___ ~ E
+TD602 attempt 4 AROSE n Y n n m
+TD629 ? ␅
+TD274635 ␆
+TD116 ? 
+TD158 question done
+TD329 > ␅
+TD460595 ␆*
+TD120 > *
+TD1539250 try? ␅
+TD1749208 ␆2
+TD110 try? 2
+TD328 questioning: ["abort", "#3"]
+TD329 #1 _R__E ~A -OS  📋 "abort" ? ␅
+TD4624698 ␄
+TD187 question done
+TD318 > ␅
+TD7117479 ␆* 2
+TD119 > * 2
+TD7056 try? ␅
+TD1195320 ␄
+TD149 <EOF>
+TD339 > ␅
+TD765248 ␆* 5
+TD111 > * 5
+TD4004 try? ␅
+TD1083389 ␄
+TD149 <EOF>
+TD348 > ␅
+TD641745 ␆* 2
+TD118 > * 2
+TD5979 try? ␅
+TD2851329 ␆2
+TD75 try? 2
+TD234 questioning: ["filer", "#2"]
+TD322 #1 _R__E ~A -OS  📋 "filer" ? ␅
+TD5227438 ␆.
+TD116 #1 _R__E ~A -OS  📋 "filer" ? .
+TD299 attempt 0 FILER n n n n n
+TD98 #2 _____ ~ER -AOS  📋 "filer" ? ␅
+TD2511362 ␆___ER ~ R
+TD109 #2 _____ ~ER -AOS  📋 "filer" ? ___ER ~ R
+TD270 attempt 1 FILER n n n Y Y
+TD172 #3 A_O__ ~R -ES  📋 "filer" ? ␅
+TD2832983 ␆A_O_R 
+TD110 #3 A_O__ ~R -ES  📋 "filer" ? A_O_R 
+TD281 attempt 2 FILER n n n n Y
+TD222 #4 ____E ~OR -AS  📋 "filer" ? ␅
+TD2815900 ␆F___E ~ RO
+TD99 #4 ____E ~OR -AS  📋 "filer" ? F___E ~ RO
+TD272 attempt 3 FILER Y n n n m
+TD154 #5 _R___ ~E -AOS  📋 "filer" ? ␅
+TD3143632 ␆_R_E_ ~ E
+TD110 #5 _R___ ~E -AOS  📋 "filer" ? _R_E_ ~ E
+TD270 attempt 4 FILER n n n Y n
+TD355 ? ␅
+TD226967 ␆
+TD115 ? 
+TD146 question done
+TD302 > ␅
+TD466934 ␆*
+TD117 > *
+TD1340491 questioning: ["amour", "#3"]
+TD370 #1 _R__E ~A -EFILORS  📋 "amour" ? ␅
+TD3626312 ␆.
+TD120 #1 _R__E ~A -EFILORS  📋 "amour" ? .
+TD282 attempt 0 AMOUR m n n n n
+TD113 #2 ___ER -AFILOS  📋 "amour" ? ␅
+TD3871917 ␆___ER ~ RU
+TD78 #2 ___ER -AFILOS  📋 "amour" ? ___ER ~ RU
+TD214 attempt 1 AMOUR n n n m Y
+TD126 #3 A_O_R -EFILS  📋 "amour" ? ␅
+TD670805 ␆/it
+TD117 #3 A_O_R -EFILS  📋 "amour" ? /it
+TD308 attempt 2 AMOUR Y Y Y Y Y
+TD106 #4 F___E ~OR -AEILS  📋 "amour" ? ␅
+TD1286086 ␆.
+TD120 #4 F___E ~OR -AEILS  📋 "amour" ? .
+TD281 attempt 3 AMOUR n n m n m
+TD98 #5 _R_E_ -AFILORS  📋 "amour" ? ␅
+TD3098200 ␆_R_E_ ~ E
+TD133 #5 _R_E_ -AFILORS  📋 "amour" ? _R_E_ ~ E
+TD288 attempt 4 AMOUR n n n n n
+TD332 ? ␅
+TD331285 ␆
+TD112 ? 
+TD125 question done
+TD309 > ␅
+TD510425 ␆*
+TD85 > *
+TD959561 questioning: ["force", "#4"]
+TD347 #1 _R__E ~A -EFILMORSU  📋 "force" ? ␅
+TD3707331 ␆.
+TD73 #1 _R__E ~A -EFILMORSU  📋 "force" ? .
+TD226 attempt 0 FORCE n n n n Y
+TD83 #2 ___ER ~U -AFILMOS  📋 "force" ? ␅
+TD4315628 ␆___ER ~ RU
+TD116 #2 ___ER ~U -AFILMOS  📋 "force" ? ___ER ~ RU
+TD282 attempt 1 FORCE n n m n n
+TD167 #4 F___E ~OR -AEILMSU  📋 "force" ? ␅
+TD1529185 ␆/it
+TD110 #4 F___E ~OR -AEILMSU  📋 "force" ? /it
+TD300 attempt 3 FORCE Y Y Y Y Y
+TD104 #5 _R_E_ -AFILMORSU  📋 "force" ? ␅
+TD2358277 ␆_R_E_ ~ E
+TD127 #5 _R_E_ -AFILMORSU  📋 "force" ? _R_E_ ~ E
+TD298 attempt 4 FORCE n n n n m
+TD344 ? ␅
+TD152198 ␆
+TD113 ? 
+TD154 question done
+TD332 > ␅
+TD457977 ␆*
+TD111 > *
+TD2775851 questioning: ["grade", "#1"]
+TD405 #1 _R__E ~A -CFILMORSU  📋 "grade" ? ␅
+TD2887212 ␆/it
+TD132 #1 _R__E ~A -CFILMORSU  📋 "grade" ? /it
+TD245 attempt 0 GRADE Y Y Y Y Y
+TD93 #2 ___ER ~U -ACEFILMOS  📋 "grade" ? ␅
+TD3272648 ␆___ER ~ RUD
+TD123 #2 ___ER ~U -ACEFILMOS  📋 "grade" ? ___ER ~ RUD
+TD336 attempt 1 GRADE n m n m n
+TD193 #5 _R_E_ -ACFILMORSU  📋 "grade" ? ␅
+TD3420198 ␆_R_E_ ~ ED
+TD126 #5 _R_E_ -ACFILMORSU  📋 "grade" ? _R_E_ ~ ED
+TD282 attempt 4 GRADE n Y n m m
+TD346 ? ␅
+TD206515 ␆
+TD122 ? 
+TD138 question done
+TD351 > ␅
+TD430976 ␆*
+TD117 > *
+TD2407492 questioning: ["ruder", "#2"]
+TD323 #2 ___ER ~DU -ACEFGILMOS  📋 "ruder" ? ␅
+TD2629460 ␆/it
+TD108 #2 ___ER ~DU -ACEFGILMOS  📋 "ruder" ? /it
+TD268 attempt 1 RUDER Y Y Y Y Y
+TD106 #5 _R_E_ ~D -ACFGILMOSU  📋 "ruder" ? ␅
+TD3411098 ␆_R_E_ ~ ED
+TD106 #5 _R_E_ ~D -ACFGILMOSU  📋 "ruder" ? _R_E_ ~ ED
+TD265 attempt 4 RUDER n n m Y n
+TD436 ? ␅
+TD222608 ␆
+TD101 ? 
+TD132 question done
+TD344 > ␅
+TD414677 ␆*
+TD105 > *
+TD1927701 questioning: ["treed", "#5"]
+TD379 #5 _R_E_ ~D -ACFGILMORSU  📋 "treed" ? ␅
+TD3151126 ␆/it
+TD116 #5 _R_E_ ~D -ACFGILMORSU  📋 "treed" ? /it
+TD336 attempt 4 TREED Y Y Y Y Y
+TD468 ? ␅
+TD401210 ␆
+TD125 ? 
+TD120 question done
+TD43762 📋> ␅
+TD5279318 ␆squareword.org 1750: 7 guesses
+TD109 📋> squareword.org 1750: 7 guesses
+TD15 📋> ␅
+TD48 ␆
+TD7 📋> 
+TD6 📋> ␅
+TD17 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD11 ␆🟨🟨🟨🟩🟩
+TD6 📋> 🟨🟨🟨🟩🟩
+TD6 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD10 ␆🟨🟩🟨🟩🟨
+TD6 📋> 🟨🟩🟨🟩🟨
+TD4 📋> ␅
+TD11 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD16 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD5 📋> ␅
+TD184699 ␆#squareword #squareword1750
+TD109 📋> #squareword #squareword1750
+TD13 📋> ␅
+TD164933 ␄
+TD200 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1750: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1750"}
+TD1035 result: "squareword.org 1750: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1750"
+TD472 📆 2026-11-16 ? ␅
+TD214891 ␆
+TD135 📆 2026-11-16 ? 
