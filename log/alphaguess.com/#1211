@@ -1,0 +1,112 @@
+T37117.032305923 now: 2026-11-16T08:33:17EST
+TD167 site: alphaguess.com
+TD252610 loaded 196505 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (99 words excluded) asof 0eb7f7bb87ae91e24f7c1c86a0d3c66491a6a154
+TD175  ...␅
+TD134061 ␆
+TD114  ...
+TD200 [0 : 98138 : 196505] mac? ␅
+TD4416395 ␆
+TD98 [0 : 98138 : 196505] mac? 
+TD114 [0 : 98138 : 196505] mac? ␅
+TD2831618 ␆a
+TD133 [0 : 98138 : 196505] mac? a
+TD133 progress: 1 98138 mac
+TD135 [98139 : 147299 : 196505] rho? ␅
+TD1498969 ␆a
+TD137 [98139 : 147299 : 196505] rho? a
+TD163 progress: 1 147299 rho
+TD137 [147300 : 171898 : 196505] tag? ␅
+TD1384604 ␆a
+TD100 [147300 : 171898 : 196505] tag? a
+TD105 progress: 1 171898 tag
+TD143 [171899 : 181983 : 196505] un? ␅
+TD1555316 ␆b
+TD137 [171899 : 181983 : 196505] un? b
+TD131 progress: -1 181983 un
+TD142 [171899 : 176935 : 181983] tom? ␅
+TD1539409 ␆b
+TD135 [171899 : 176935 : 181983] tom? b
+TD132 progress: -1 176935 tom
+TD137 [171899 : 174384 : 176935] test? ␅
+TD1419062 ␆
+TD102 [171899 : 174384 : 176935] test? 
+TD112 [171899 : 174384 : 176935] test? ␅
+TD543452 ␆a
+TD97 [171899 : 174384 : 176935] test? a
+TD103 progress: 1 174384 test
+TD108 [174385 : 175596 : 176935] thro? ␅
+TD1618351 ␆b
+TD134 [174385 : 175596 : 176935] thro? b
+TD132 progress: -1 175596 thro
+TD155 [174385 : 174751 : 175596] the? ␅
+TD1653572 ␆a
+TD132 [174385 : 174751 : 175596] the? a
+TD239 progress: 1 174751 the
+TD148 [174752 : 175167 : 175596] thick? ␅
+TD2082854 ␆a
+TD135 [174752 : 175167 : 175596] thick? a
+TD132 progress: 1 175167 thick
+TD139 [175168 : 175362 : 175596] tho? ␅
+TD1881467 ␆a
+TD132 [175168 : 175362 : 175596] tho? a
+TD132 progress: 1 175362 tho
+TD134 [175363 : 175476 : 175596] thrash? ␅
+TD1674376 ␆b
+TD108 [175363 : 175476 : 175596] thrash? b
+TD103 progress: -1 175476 thrash
+TD236 [175363 : 175419 : 175476] thoro? ␅
+TD1495052 ␆a
+TD136 [175363 : 175419 : 175476] thoro? a
+TD130 progress: 1 175419 thoro
+TD203 [175420 : 175447 : 175476] thou? ␅
+TD3689657 ␆a
+TD97 [175420 : 175447 : 175476] thou? a
+TD102 progress: 1 175447 thou
+TD170 [175448 : 175461 : 175476] thous? ␅
+TD1578705 ␆a
+TD157 [175448 : 175461 : 175476] thous? a
+TD281 progress: 1 175461 thous
+TD325 [175462 : 175470 : 175476] thrall? ␅
+TD1564411 ␆b
+TD106 [175462 : 175470 : 175476] thrall? b
+TD105 progress: -1 175470 thrall
+TD225 [175462 : 175466 : 175470] thousandths? ␅
+TD1585372 ␆b
+TD130 [175462 : 175466 : 175470] thousandths? b
+TD135 progress: -1 175466 thousandths
+TD245 [175462 : 175464 : 175466] thousands? ␅
+TD1646555 ␆b
+TD138 [175462 : 175464 : 175466] thousands? b
+TD512 progress: -1 175464 thousands
+TD288 [175462 : 175463 : 175464] thousandfold? ␅
+TD2348017 ␆b
+TD117 [175462 : 175463 : 175464] thousandfold? b
+TD130 progress: -1 175463 thousandfold
+TD225 [175462 : 175462 : 175463] thousand? ␅
+TD2986077 ␆it
+TD94 [175462 : 175462 : 175463] thousand? it
+TD110 progress: 0 175462 thousand
+TD27 [175462 : 175462 : 175463] <Done>.
+TD86 📋> ␅
+TD3231214 ␆🧩 Puzzle #1211
+TD107 📋> 🧩 Puzzle #1211
+TD26 📋> ␅
+TD44 ␆🤔 19 guesses
+TD7 📋> 🤔 19 guesses
+TD5 📋> ␅
+TD13 ␆⏱️ 32s
+TD6 📋> ⏱️ 32s
+TD5 📋> ␅
+TD132456 ␆🔗 alphaguess.com/1211
+TD71 📋> 🔗 alphaguess.com/1211
+TD11 📋> ␅
+TD201961 ␄
+TD188 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1211\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 32s\n\ud83d\udd17 alphaguess.com/1211"}
+TD104 result: "\ud83e\udde9 Puzzle #1211\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 32s\n\ud83d\udd17 alphaguess.com/1211"
+TD16 result puzzle: 1211
+TD7 result guesses: 19
+TD5 result time: 32s
+TD4 result link: alphaguess.com/1211
+TD113 📆 2026-11-16 ? ␅
+TD307874 ␆
+TD140 📆 2026-11-16 ? 
