@@ -1,0 +1,96 @@
+T45113.30464963202 now: 2026-11-17T10:31:33EST
+TD146 site: alfagok.diginaut.net
+TD748148 loaded 399430 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1422 words excluded) asof f35a8b5716a916d74461376ec1c510ed264ba30a
+TD138  ...␅
+TD33 ␆
+TD5  ...
+TD124 [0 : 199628 : 399430] lijk? ␅
+TD803496 ␆
+TD115 [0 : 199628 : 399430] lijk? 
+TD146 [0 : 199628 : 399430] lijk? ␅
+TD5604229 ␆
+TD112 [0 : 199628 : 399430] lijk? 
+TD197 [0 : 199628 : 399430] lijk? ␅
+TD2691793 ␆a
+TD106 [0 : 199628 : 399430] lijk? a
+TD371 progress: 1 199628 lijk
+TD126 [199629 : 299320 : 399430] schro? ␅
+TD2539916 ␆b
+TD115 [199629 : 299320 : 399430] schro? b
+TD128 progress: -1 299320 schro
+TD137 [199629 : 249469 : 299320] ophits? ␅
+TD1887771 ␆b
+TD117 [199629 : 249469 : 299320] ophits? b
+TD140 progress: -1 249469 ophits
+TD124 [199629 : 224510 : 249469] moord? ␅
+TD2102080 ␆b
+TD125 [199629 : 224510 : 249469] moord? b
+TD110 progress: -1 224510 moord
+TD112 [199629 : 212011 : 224510] media? ␅
+TD1963897 ␆b
+TD110 [199629 : 212011 : 224510] media? b
+TD113 progress: -1 212011 media
+TD114 [199629 : 205792 : 212011] maatschappij? ␅
+TD1798624 ␆a
+TD100 [199629 : 205792 : 212011] maatschappij? a
+TD110 progress: 1 205792 maatschappij
+TD116 [205793 : 208843 : 212011] markt? ␅
+TD2369981 ␆b
+TD119 [205793 : 208843 : 212011] markt? b
+TD191 progress: -1 208843 markt
+TD118 [205793 : 207315 : 208843] mana? ␅
+TD2043905 ␆b
+TD76 [205793 : 207315 : 208843] mana? b
+TD81 progress: -1 207315 mana
+TD85 [205793 : 206548 : 207315] mager? ␅
+TD1983613 ␆a
+TD110 [205793 : 206548 : 207315] mager? a
+TD115 progress: 1 206548 mager
+TD282 [206549 : 206932 : 207315] majeure? ␅
+TD1768073 ␆a
+TD111 [206549 : 206932 : 207315] majeure? a
+TD109 progress: 1 206932 majeure
+TD107 [206933 : 207070 : 207315] mal? ␅
+TD1927918 ␆b
+TD111 [206933 : 207070 : 207315] mal? b
+TD124 progress: -1 207070 mal
+TD114 [206933 : 206994 : 207070] makelaars? ␅
+TD2466493 ␆a
+TD123 [206933 : 206994 : 207070] makelaars? a
+TD117 progress: 1 206994 makelaars
+TD202 [206995 : 207033 : 207070] makke? ␅
+TD2615233 ␆b
+TD99 [206995 : 207033 : 207070] makke? b
+TD113 progress: -1 207033 makke
+TD206 [206995 : 207014 : 207033] makelaren? ␅
+TD2137901 ␆a
+TD129 [206995 : 207014 : 207033] makelaren? a
+TD130 progress: 1 207014 makelaren
+TD236 [207015 : 207023 : 207033] maken? ␅
+TD2065889 ␆it
+TD133 [207015 : 207023 : 207033] maken? it
+TD143 progress: 0 207023 maken
+TD35 [207015 : 207023 : 207033] <Done>.
+TD114 📋> ␅
+TD3319208 ␆🧩 Puzzel #745
+TD101 📋> 🧩 Puzzel #745
+TD15 📋> ␅
+TD55 ␆🤔 15 gokken
+TD13 📋> 🤔 15 gokken
+TD11 📋> ␅
+TD27 ␆⏱️ 30s
+TD11 📋> ⏱️ 30s
+TD9 📋> ␅
+TD137744 ␆🔗 alfagok.diginaut.net
+TD132 📋> 🔗 alfagok.diginaut.net
+TD17 📋> ␅
+TD230045 ␄
+TD263 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #745\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 30s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD805 result: "\ud83e\udde9 Puzzel #745\n\ud83e\udd14 15 gokken\n\u23f1\ufe0f 30s\n\ud83d\udd17 alfagok.diginaut.net"
+TD37 result puzzle: 745
+TD12 result guesses: 15
+TD7 result time: 30s
+TD6 result link: alfagok.diginaut.net
+TD119 📆 2026-11-17 ? ␅
+TD400323 ␆
+TD124 📆 2026-11-17 ? 
