@@ -1,0 +1,265 @@
+T46361.12730538397 now: 2026-11-17T10:52:21EST
+TD150 site: squareword.org
+TD34 wordlist: nwl2023.txt
+TD69  ...␅
+TD1770895 ␆
+TD117  ...
+TD77 🧩  ? ␅
+TD5299451 ␆#1751
+TD341 🧩  ? #1751
+TD665 puzzle_id: #1751
+TD311 > ␅
+TD2791654 ␆*
+TD118 > *
+TD214319 try? ␅
+TD1942382 ␆2
+TD121 try? 2
+TD341 questioning: ["nares", "#5"]
+TD282 #1 <IndexError>  📋 "nares" ? ␅
+TD8561059 ␆_____ ~ AS
+TD117 #1 <IndexError>  📋 "nares" ? _____ ~ AS
+TD693 attempt 0 NARES n m n n m
+TD114 #2 <IndexError>  📋 "nares" ? ␅
+TD2125046 ␆_____ ~ E
+TD125 #2 <IndexError>  📋 "nares" ? _____ ~ E
+TD353 attempt 1 NARES n n n m n
+TD158 #3 <IndexError>  📋 "nares" ? ␅
+TD2060408 ␆_____ ~ AR
+TD113 #3 <IndexError>  📋 "nares" ? _____ ~ AR
+TD266 attempt 2 NARES n m m n n
+TD143 #4 <IndexError>  📋 "nares" ? ␅
+TD1943987 ␆___E_ ~ R
+TD77 #4 <IndexError>  📋 "nares" ? ___E_ ~ R
+TD208 attempt 3 NARES n n m Y n
+TD98 #5 <IndexError>  📋 "nares" ? ␅
+TD2882008 ␆____S ~ RE
+TD117 #5 <IndexError>  📋 "nares" ? ____S ~ RE
+TD298 attempt 4 NARES n n m m Y
+TD365 ? ␅
+TD305924 ␆
+TD117 ? 
+TD148 question done
+TD296 > ␅
+TD635024 ␆*
+TD133 > *
+TD4419647 try? ␅
+TD3451117 ␆1
+TD111 try? 1
+TD315 questioning: ["redos", "#5"]
+TD327 #1 _____ ~AS -ENR  📋 "redos" ? ␅
+TD3917622 ␄
+TD143 question done
+TD314 > ␅
+TD828971 ␆*
+TD111 > *
+TD4430044 try? ␅
+TD1824305 ␄
+TD126 <EOF>
+TD385 > ␅
+TD894846 ␆* 2
+TD113 > * 2
+TD751909 try? ␅
+TD1371417 ␆1
+TD99 try? 1
+TD317 questioning: ["blite", "#2"]
+TD395 #1 _____ ~AS -ENR  📋 "blite" ? ␅
+TD5390286 ␆.
+TD108 #1 _____ ~AS -ENR  📋 "blite" ? .
+TD293 attempt 0 BLITE n n n n n
+TD101 #2 _____ ~E -ANRS  📋 "blite" ? ␅
+TD2259294 ␆____E ~ IT
+TD119 #2 _____ ~E -ANRS  📋 "blite" ? ____E ~ IT
+TD364 attempt 1 BLITE n n m m Y
+TD151 #3 _____ ~AR -ENS  📋 "blite" ? ␅
+TD4055149 ␆_____ ~ ARIT
+TD77 #3 _____ ~AR -ENS  📋 "blite" ? _____ ~ ARIT
+TD209 attempt 2 BLITE n n m m n
+TD129 #4 ___E_ ~R -ANS  📋 "blite" ? ␅
+TD3219753 ␆___E_ ~ RT
+TD121 #4 ___E_ ~R -ANS  📋 "blite" ? ___E_ ~ RT
+TD268 attempt 3 BLITE n n n m n
+TD158 #5 ____S ~ER -AN  📋 "blite" ? ␅
+TD1318891 ␆.
+TD139 #5 ____S ~ER -AN  📋 "blite" ? .
+TD282 attempt 4 BLITE n n n n m
+TD271 ? ␅
+TD166724 ␆
+TD116 ? 
+TD122 question done
+TD511 > ␅
+TD387773 ␆*
+TD134 > *
+TD4597572 try? ␅
+TD2555750 ␄
+TD145 <EOF>
+TD367 > ␅
+TD1102556 ␆* 1
+TD113 > * 1
+TD822749 try? ␅
+TD3337453 ␆1
+TD112 try? 1
+TD329 questioning: ["chasm", "#1"]
+TD379 #1 _____ ~AS -BEILNRT  📋 "chasm" ? ␅
+TD3324804 ␆.
+TD111 #1 _____ ~AS -BEILNRT  📋 "chasm" ? .
+TD327 attempt 0 CHASM n n m m n
+TD137 #2 ____E ~IT -ABLNRS  📋 "chasm" ? ␅
+TD2889549 ␆C___E ~ IT
+TD75 #2 ____E ~IT -ABLNRS  📋 "chasm" ? C___E ~ IT
+TD205 attempt 1 CHASM Y n n n n
+TD121 #3 _____ ~AIRT -BELNS  📋 "chasm" ? ␅
+TD3801284 ␆__A__ ~ ARIT
+TD111 #3 _____ ~AIRT -BELNS  📋 "chasm" ? __A__ ~ ARIT
+TD272 attempt 2 CHASM n n Y n n
+TD154 #4 ___E_ ~RT -ABEILNS  📋 "chasm" ? ␅
+TD1938476 ␆.
+TD117 #4 ___E_ ~RT -ABEILNS  📋 "chasm" ? .
+TD285 attempt 3 CHASM n n n n n
+TD99 #5 ____S ~ER -ABILNT  📋 "chasm" ? ␅
+TD1272187 ␆.
+TD129 #5 ____S ~ER -ABILNT  📋 "chasm" ? .
+TD274 attempt 4 CHASM n n n n n
+TD287 ? ␅
+TD293763 ␆
+TD114 ? 
+TD115 question done
+TD305 > ␅
+TD632315 ␆*
+TD115 > *
+TD5843160 questioning: ["cutie", "#2"]
+TD322 #1 _____ ~AS -BCEHILMNRT  📋 "cutie" ? ␅
+TD4129983 ␆.
+TD135 #1 _____ ~AS -BCEHILMNRT  📋 "cutie" ? .
+TD391 attempt 0 CUTIE n n n n n
+TD134 #2 C___E ~IT -ABHLMNRS  📋 "cutie" ? ␅
+TD666964 ␆/it
+TD108 #2 C___E ~IT -ABHLMNRS  📋 "cutie" ? /it
+TD306 attempt 1 CUTIE Y Y Y Y Y
+TD207 #3 __A__ ~IRT -BCEHLMNS  📋 "cutie" ? ␅
+TD5106579 ␆__A__ ~ ARIT
+TD115 #3 __A__ ~IRT -BCEHLMNS  📋 "cutie" ? __A__ ~ ARIT
+TD286 attempt 2 CUTIE n n m m n
+TD167 #4 ___E_ ~RT -ABCEHILMNS  📋 "cutie" ? ␅
+TD4049167 ␆__TE_ ~ RT
+TD112 #4 ___E_ ~RT -ABCEHILMNS  📋 "cutie" ? __TE_ ~ RT
+TD269 attempt 3 CUTIE n n Y n n
+TD162 #5 ____S ~ER -ABCHILMNST  📋 "cutie" ? ␅
+TD3552493 ␆.
+TD80 #5 ____S ~ER -ABCHILMNST  📋 "cutie" ? .
+TD243 attempt 4 CUTIE n n n n m
+TD346 ? ␅
+TD441027 ␆
+TD86 ? 
+TD94 question done
+TD331 > ␅
+TD558120 ␆*
+TD111 > *
+TD4426827 questioning: ["assay", "#1"]
+TD328 #1 _____ ~AS -BCEHILMNRTU  📋 "assay" ? ␅
+TD5427069 ␆/it
+TD113 #1 _____ ~AS -BCEHILMNRTU  📋 "assay" ? /it
+TD272 attempt 0 ASSAY Y Y Y Y Y
+TD111 #3 __A__ ~IRT -BCEHLMNSU  📋 "assay" ? ␅
+TD3848399 ␆__A__ ~ ARIT
+TD115 #3 __A__ ~IRT -BCEHLMNSU  📋 "assay" ? __A__ ~ ARIT
+TD252 attempt 2 ASSAY m n n m n
+TD156 #4 __TE_ ~R -ABCEHILMNSU  📋 "assay" ? ␅
+TD5179786 ␆__TE_ ~ RT
+TD124 #4 __TE_ ~R -ABCEHILMNSU  📋 "assay" ? __TE_ ~ RT
+TD289 attempt 3 ASSAY n n n n n
+TD190 #5 ____S ~ER -ABCHILMNSTU  📋 "assay" ? ␅
+TD1226198 ␆.
+TD112 #5 ____S ~ER -ABCHILMNSTU  📋 "assay" ? .
+TD265 attempt 4 ASSAY n n n n n
+TD301 ? ␅
+TD176578 ␆
+TD119 ? 
+TD121 question done
+TD301 > ␅
+TD430006 ␆*
+TD115 > *
+TD4660126 questioning: ["tiara", "#3"]
+TD374 #3 __A__ ~IRT -BCEHLMNSUY  📋 "tiara" ? ␅
+TD4486205 ␆/it
+TD108 #3 __A__ ~IRT -BCEHLMNSUY  📋 "tiara" ? /it
+TD285 attempt 2 TIARA Y Y Y Y Y
+TD106 #4 __TE_ ~R -ABCEHILMNSUY  📋 "tiara" ? ␅
+TD3847827 ␆__TE_ ~ RT
+TD107 #4 __TE_ ~R -ABCEHILMNSUY  📋 "tiara" ? __TE_ ~ RT
+TD255 attempt 3 TIARA m n n m n
+TD185 #5 ____S ~ER -ABCHILMNSTUY  📋 "tiara" ? ␅
+TD840196 ␆.
+TD112 #5 ____S ~ER -ABCHILMNSTUY  📋 "tiara" ? .
+TD282 attempt 4 TIARA n n n m n
+TD307 ? ␅
+TD145127 ␆
+TD113 ? 
+TD113 question done
+TD406 > ␅
+TD415386 ␆*
+TD112 > *
+TD3148575 questioning: ["otter", "#4"]
+TD361 #4 __TE_ ~R -ABCEHILMNSUY  📋 "otter" ? ␅
+TD4058796 ␆/it
+TD109 #4 __TE_ ~R -ABCEHILMNSUY  📋 "otter" ? /it
+TD257 attempt 3 OTTER Y Y Y Y Y
+TD113 #5 ____S ~ER -ABCHILMNSTUY  📋 "otter" ? ␅
+TD1686663 ␆.[27;2;13~
+TD115 #5 ____S ~ER -ABCHILMNSTUY  📋 "otter" ? .[27;2;13~
+TD747 #5 ____S ~ER -ABCHILMNSTUY  ? ␅
+TD980645 ␆.
+TD83 #5 ____S ~ER -ABCHILMNSTUY  ? .
+TD212 attempt 4 OTTER n n n m m
+TD284 ? ␅
+TD671552 ␆
+TD76 ? 
+TD89 question done
+TD280 > ␅
+TD534382 ␆*
+TD110 > *
+TD2060849 questioning: ["reeds", "#5"]
+TD319 #5 ____S ~ER -ABCHILMNOSTUY  📋 "reeds" ? ␅
+TD6099407 ␆/it
+TD96 #5 ____S ~ER -ABCHILMNOSTUY  📋 "reeds" ? /it
+TD278 attempt 4 REEDS Y Y Y Y Y
+TD292 ? ␅
+TD382265 ␆
+TD105 ? 
+TD118 question done
+TD52085 📋> ␅
+TD6496775 ␆squareword.org 1751: 8 guesses
+TD115 📋> squareword.org 1751: 8 guesses
+TD14 📋> ␅
+TD58 ␆
+TD8 📋> 
+TD8 📋> ␅
+TD16 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD10 ␆🟨🟨🟩🟨🟨
+TD6 📋> 🟨🟨🟩🟨🟨
+TD7 📋> ␅
+TD9 ␆🟨🟨🟩🟩🟨
+TD6 📋> 🟨🟨🟩🟩🟨
+TD7 📋> ␅
+TD10 ␆🟨🟨🟨🟨🟩
+TD7 📋> 🟨🟨🟨🟨🟩
+TD5 📋> ␅
+TD9 ␆
+TD7 📋> 
+TD5 📋> ␅
+TD11 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD4 📋> ␅
+TD151359 ␆#squareword #squareword1751
+TD78 📋> #squareword #squareword1751
+TD11 📋> ␅
+TD189000 ␄
+TD219 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1751: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1751"}
+TD1052 result: "squareword.org 1751: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1751"
+TD139 📆 2026-11-17 ? ␅
+TD236798 ␆
+TD77 📆 2026-11-17 ? 
