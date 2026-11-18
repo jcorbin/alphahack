@@ -1343,3 +1343,41 @@ TD1798 result: "\u2728 Spaceword.org Daily 2026-11-17 \u2728\n\n\ud83c\udfc6 Sco
 TD41323 [prior:2170]> ␅
 TD946719 ␆/store
 TD108 [prior:2170]> /store
+T28750.093259632 now: 2026-11-18T08:44:12EST
+TD357 [f]inalize, [a]rchive, [r]emove, or [c]ontinue? ␅
+TD736898 ␆fin
+TD116 [f]inalize, [a]rchive, [r]emove, or [c]ontinue? fin
+TD237 📋> ␅
+TD3881087 ␆✨ Spaceword.org Daily 2026-11-17 ✨
+TD182 📋> ✨ Spaceword.org Daily 2026-11-17 ✨
+TD25 📋> ␅
+TD95 ␆
+TD8 📋> 
+TD6 📋> ␅
+TD16 ␆🏆 Score: 2170
+TD6 📋> 🏆 Score: 2170
+TD4 📋> ␅
+TD15 ␆🏅 Final Rank: 103/271 👏
+TD7 📋> 🏅 Final Rank: 103/271 👏
+TD6 📋> ␅
+TD13 ␆🧩 Tiles: 21/21 ✅
+TD5 📋> 🧩 Tiles: 21/21 ✅
+TD4 📋> ␅
+TD11 ␆📏 Space Bonus: +70
+TD4 📋> 📏 Space Bonus: +70
+TD4 📋> ␅
+TD10 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD14 ␆
+TD4 📋> 
+TD4 📋> ␅
+TD9 ␆Play at https://spaceword.org
+TD6 📋> Play at https://spaceword.org
+TD7 📋> ␅
+TD200982 ␆#spaceword
+TD113 📋> #spaceword
+TD11 📋> ␅
+TD221540 ␄
+TD190 pasted: {"subject": "final share result", "method": "read:must:stdin", "content": "\u2728 Spaceword.org Daily 2026-11-17 \u2728\n\n\ud83c\udfc6 Score: 2170\n\ud83c\udfc5 Final Rank: 103/271 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +70\n\n\nPlay at https://spaceword.org\n#spaceword"}
+TD242 result: "\u2728 Spaceword.org Daily 2026-11-17 \u2728\n\n\ud83c\udfc6 Score: 2170\n\ud83c\udfc5 Final Rank: 103/271 \ud83d\udc4f\n\ud83e\udde9 Tiles: 21/21 \u2705\n\ud83d\udccf Space Bonus: +70\n\n\nPlay at https://spaceword.org\n#spaceword"
