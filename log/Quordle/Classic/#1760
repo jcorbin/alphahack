@@ -1,0 +1,177 @@
+T511.0276425549964 now: 2026-11-19T08:32:05EST
+TD148 site: https://www.merriam-webster.com/games/quordle/#/
+TD24 wordlist: nwl2023.txt
+TD9 num_words: 4
+TD133  ...␅
+TD235232 ␆
+TD132  ...
+TD762840 > ␅
+TD9425758 ␆*
+TD98 > *
+TD89762 ? ␅
+TD655428 ␆1
+TD78 ? 1
+TD144 questioning: lares
+TD151 Classic #1 _____? ␅
+TD3002873 ␆nnMYn
+TD91 Classic #1 _____? nnMYn
+TD392 attempt: 0 LARES n n m Y n
+TD96 Classic #2 _____? ␅
+TD1366419 ␆nMnnn
+TD122 Classic #2 _____? nMnnn
+TD309 attempt: 1 LARES n m n n n
+TD145 Classic #3 _____? ␅
+TD1264631 ␆nnMnn
+TD84 Classic #3 _____? nnMnn
+TD188 attempt: 2 LARES n n m n n
+TD87 Classic #4 _____? ␅
+TD1341177 ␆MMnnn
+TD80 Classic #4 _____? MMnnn
+TD192 attempt: 3 LARES m m n n n
+TD761148 > ␅
+TD653130 ␆*
+TD75 > *
+TD3621 ? ␅
+TD2371699 ␆4
+TD110 ? 4
+TD194 questioning: human
+TD193 Classic #1 ___E_ ~R -ALS? ␅
+TD2784086 ␆nnnnY
+TD108 Classic #1 ___E_ ~R -ALS? nnnnY
+TD233 attempt: 0 HUMAN n n n n Y
+TD139 Classic #2 _____ ~A -ELRS? ␅
+TD1340421 ␆nnnMn
+TD115 Classic #2 _____ ~A -ELRS? nnnMn
+TD254 attempt: 1 HUMAN n n n m n
+TD140 Classic #3 _____ ~R -AELS? ␅
+TD1298277 ␆nnnnn
+TD111 Classic #3 _____ ~R -AELS? nnnnn
+TD256 attempt: 2 HUMAN n n n n n
+TD126 Classic #4 _____ ~AL -ERS? ␅
+TD1349785 ␆nnnMn
+TD135 Classic #4 _____ ~AL -ERS? nnnMn
+TD312 attempt: 3 HUMAN n n n m n
+TD737126 > ␅
+TD737434 ␆*
+TD108 > *
+TD1549 ? ␅
+TD1527647 ␆2
+TD188 ? 2
+TD271 questioning: drift
+TD208 Classic #1 ___EN ~R -AHLMSU? ␅
+TD4706379 ␆nYnnn
+TD105 Classic #1 ___EN ~R -AHLMSU? nYnnn
+TD195 attempt: 0 DRIFT n Y n n n
+TD151 Classic #2 _____ ~A -EHLMNRSU? ␅
+TD1276032 ␆nnnnn
+TD107 Classic #2 _____ ~A -EHLMNRSU? nnnnn
+TD270 attempt: 1 DRIFT n n n n n
+TD216 Classic #3 _____ ~R -AEHLMNSU? ␅
+TD1710324 ␆MMnnn
+TD78 Classic #3 _____ ~R -AEHLMNSU? MMnnn
+TD187 attempt: 2 DRIFT m m n n n
+TD94 Classic #4 _____ ~AL -EHMNRSU? ␅
+TD1382655 ␆nnYnn
+TD128 Classic #4 _____ ~AL -EHMNRSU? nnYnn
+TD296 attempt: 3 DRIFT n n Y n n
+TD706908 > ␅
+TD816181 ␆*
+TD113 > *
+TD454 questioning: rowdy
+TD153 Classic #1 _R_EN -ADFHILMSTU? ␅
+TD3652837 ␆Mnnnn
+TD123 Classic #1 _R_EN -ADFHILMSTU? Mnnnn
+TD280 attempt: 0 ROWDY m n n n n
+TD146 Classic #2 _____ ~A -DEFHILMNRSTU? ␅
+TD1521509 ␆nYnnn
+TD109 Classic #2 _____ ~A -DEFHILMNRSTU? nYnnn
+TD238 attempt: 1 ROWDY n Y n n n
+TD117 Classic #3 _____ ~DR -AEFHILMNSTU? ␅
+TD2328621 ␆YYYYY
+TD110 Classic #3 _____ ~DR -AEFHILMNSTU? YYYYY
+TD226 attempt: 2 ROWDY Y Y Y Y Y
+TD186 Classic #4 __I__ ~AL -DEFHMNRSTU? ␅
+TD1540944 ␆nnnnn
+TD77 Classic #4 __I__ ~AL -DEFHMNRSTU? nnnnn
+TD177 attempt: 3 ROWDY n n n n n
+TD538616 > ␅
+TD781791 ␆*
+TD110 > *
+TD563 ? ␅
+TD1533117 ␆1
+TD125 ? 1
+TD283 questioning: green
+TD276 Classic #1 _R_EN -ADFHILMOSTUWY? ␅
+TD3025159 ␆YYYYY
+TD112 Classic #1 _R_EN -ADFHILMOSTUWY? YYYYY
+TD230 attempt: 0 GREEN Y Y Y Y Y
+TD132 Classic #2 _O___ ~A -DEFHILMNRSTUWY? ␅
+TD1334510 ␆nnnnn
+TD114 Classic #2 _O___ ~A -DEFHILMNRSTUWY? nnnnn
+TD229 attempt: 1 GREEN n n n n n
+TD127 Classic #4 __I__ ~AL -DEFHMNORSTUWY? ␅
+TD1181067 ␆nnnnn
+TD114 Classic #4 __I__ ~AL -DEFHMNORSTUWY? nnnnn
+TD239 attempt: 3 GREEN n n n n n
+TD357837 > ␅
+TD698922 ␆*
+TD98 > *
+TD533 ? ␅
+TD2001820 ␆2
+TD91 ? 2
+TD163 questioning: alibi
+TD163 Classic #2 _O___ ~A -DEFGHILMNRSTUWY? ␅
+TD2954946 ␆Mnnnn
+TD125 Classic #2 _O___ ~A -DEFGHILMNRSTUWY? Mnnnn
+TD294 attempt: 1 ALIBI m n n n n
+TD147 Classic #4 __I__ ~AL -DEFGHMNORSTUWY? ␅
+TD1251779 ␆YYYYY
+TD126 Classic #4 __I__ ~AL -DEFGHMNORSTUWY? YYYYY
+TD271 attempt: 3 ALIBI Y Y Y Y Y
+TD176068 > ␅
+TD712817 ␆*
+TD125 > *
+TD690 ? ␅
+TD4029441 ␄
+TD148 <EOF>
+TD165087 > ␅
+TD9184799 ␆probe kcjp
+TD107 > probe kcjp
+TD451191 > ␅
+TD4916335 ␆tried jacks
+TD114 > tried jacks
+TD469 questioning: JACKS
+TD355 Classic #2 _O___ ~A -BDEFGHILMNRSTUWY? ␅
+TD2048037 ␆nMYnn
+TD88 Classic #2 _O___ ~A -BDEFGHILMNRSTUWY? nMYnn
+TD239 attempt: 1 JACKS n m Y n n
+TD174170 > ␅
+TD708667 ␆*
+TD111 > *
+TD422 questioning: cocoa
+TD228 Classic #2 _OC__ ~A -BDEFGHIJKLMNRSTUWY? ␅
+TD3287327 ␆YYYYY
+TD103 Classic #2 _OC__ ~A -BDEFGHIJKLMNRSTUWY? YYYYY
+TD228 attempt: 1 COCOA Y Y Y Y Y
+TD151 📋> ␅
+TD4757277 ␆🙂 Daily Quordle 1760
+TD116 📋> 🙂 Daily Quordle 1760
+TD12 📋> ␅
+TD114 ␆5️⃣8️⃣
+TD19 📋> 5️⃣8️⃣
+TD7 📋> ␅
+TD12 ␆4️⃣6️⃣
+TD6 📋> 4️⃣6️⃣
+TD5 📋> ␅
+TD11 ␆m-w.com/games/quordle/
+TD6 📋> m-w.com/games/quordle/
+TD4 📋> ␅
+TD88337 ␆
+TD150 📋> 
+TD33 📋> ␅
+TD169235 ␄
+TD195 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1760\n5\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1685 result: "\ud83d\ude42 Daily Quordle 1760\n5\ufe0f\u20e38\ufe0f\u20e3\n4\ufe0f\u20e36\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD101 📆 2026-11-19 ? ␅
+TD219742 ␆
+TD116 📆 2026-11-19 ? 
