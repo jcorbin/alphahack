@@ -1,0 +1,240 @@
+T329.5776939589996 now: 2026-11-19T08:29:04EST
+TD147 site: https://play.dictionary.com/games/todays-hurdle
+TD23 wordlist: nwl2023.txt
+TD57  ...␅
+TD876003 ␆
+TD115  ...
+TD157 1.1> ␅
+TD10704994 ␆*
+TD110 1.1> *
+TD346961 1.1 ? ␅
+TD511937 ␆1
+TD97 1.1 ? 1
+TD250 1.1 📋 "rates" ? ␅
+TD3576268 ␆nYMMM
+TD137 1.1 📋 "rates" ? nYMMM
+TD282 tried: RATES n Y m m m
+TD582 1.2> ␅
+TD913185 ␆*
+TD107 1.2> *
+TD206183 1.2 ? ␅
+TD1395810 ␆2
+TD81 1.2 ? 2
+TD197 1.2 📋 "waste" ? ␅
+TD3335854 ␆YYYYY
+TD109 1.2 📋 "waste" ? YYYYY
+TD235 tried: WASTE Y Y Y Y Y
+TD585 2.1 📋 "waste" ? ␅
+TD9393644 ␆nnYnn
+TD115 2.1 📋 "waste" ? nnYnn
+TD251 tried: WASTE n n Y n n
+TD332 2.2> ␅
+TD392227 ␆*
+TD76 2.2> *
+TD185764 2.2 ? ␅
+TD778489 ␆1
+TD127 2.2 ? 1
+TD260 2.2 📋 "husky" ? ␅
+TD5273929 ␆nnYnY
+TD125 2.2 📋 "husky" ? nnYnY
+TD223 tried: HUSKY n n Y n Y
+TD261 2.3> ␅
+TD453270 ␆*
+TD107 2.3> *
+TD173396 2.3 ? ␅
+TD9933340 ␄
+TD251 <EOF>
+TD201 2.3> ␅
+TD4340980 ␆probe mbclp
+TD191 2.3> probe mbclp
+TD390043 2.3> ␅
+TD6736683 ␆tried climb nnnnM
+TD109 2.3> tried climb nnnnM
+TD223 tried: CLIMB n n n n m
+TD219 2.4> ␅
+TD922388 ␆*
+TD73 2.4> *
+TD190205 2.4 📋 "bossy" ? ␅
+TD3433255 ␆YYYYY
+TD125 2.4 📋 "bossy" ? YYYYY
+TD283 tried: BOSSY Y Y Y Y Y
+TD562 3.1 📋 "bossy" ? ␅
+TD9481295 ␆nnMnn
+TD145 3.1 📋 "bossy" ? nnMnn
+TD261 tried: BOSSY n n m n n
+TD302 3.2> ␅
+TD636160 ␆*
+TD138 3.2> *
+TD213378 3.2 ? ␅
+TD814178 ␆1
+TD108 3.2 ? 1
+TD277 3.2 📋 "aster" ? ␅
+TD4277737 ␆MMMMn
+TD79 3.2 📋 "aster" ? MMMMn
+TD176 tried: ASTER m m m m n
+TD253 3.3> ␅
+TD462689 ␆*
+TD111 3.3> *
+TD248871 3.3 ? ␅
+TD1450312 ␆2
+TD122 3.3 ? 2
+TD388 3.3 📋 "stale" ? ␅
+TD5333800 ␆YMYMY
+TD95 3.3 📋 "stale" ? YMYMY
+TD210 tried: STALE Y m Y m Y
+TD315 3.4> ␅
+TD558557 ␆*
+TD94 3.4> *
+TD174621 3.4 📋 "slate" ? ␅
+TD2915383 ␆YYYYY
+TD121 3.4 📋 "slate" ? YYYYY
+TD234 tried: SLATE Y Y Y Y Y
+TD405 4.1 📋 "slate" ? ␅
+TD9331556 ␆nnnnY
+TD105 4.1 📋 "slate" ? nnnnY
+TD249 tried: SLATE n n n n Y
+TD233 4.2> ␅
+TD522943 ␆*
+TD124 4.2> *
+TD168204 4.2 ? ␅
+TD5295940 ␆1
+TD157 4.2 ? 1
+TD310 4.2 📋 "brine" ? ␅
+TD3593908 ␆nMnnY
+TD122 4.2 📋 "brine" ? nMnnY
+TD259 tried: BRINE n m n n Y
+TD442 4.3> ␅
+TD425848 ␆*
+TD94 4.3> *
+TD174009 4.3 ? ␅
+TD3438619 ␆6
+TD79 4.3 ? 6
+TD240 4.3 📋 "purge" ? ␅
+TD4011535 ␆nnYnY
+TD106 4.3 📋 "purge" ? nnYnY
+TD215 tried: PURGE n n Y n Y
+TD372 4.4> ␅
+TD548335 ␆*
+TD119 4.4> *
+TD168228 4.4 ? ␅
+TD1606662 ␄
+TD103 <EOF>
+TD165 4.4> ␅
+TD10049279 ␆probe mchdv
+TD81 4.4> probe mchdv
+TD370049 4.4> ␅
+TD9632574 ␆tried child nnnnn
+TD159 4.4> tried child nnnnn
+TD266 tried: CHILD n n n n n
+TD280 4.5> ␅
+TD423232 ␆*
+TD94 4.5> *
+TD174983 4.5 ? ␅
+TD2678305 ␆2
+TD106 4.5 ? 2
+TD255 4.5 📋 "verve" ? ␅
+TD6347927 ␆yyyyy
+TD75 4.5 📋 "verve" ? yyyyy
+TD159 tried: VERVE Y Y Y Y Y
+TD277 5.1 📋 "waste" ? ␅
+TD7705811 ␆nnMMM
+TD106 5.1 📋 "waste" ? nnMMM
+TD245 tried: WASTE n n m m m
+TD329 5.2 📋 "bossy" ? ␅
+TD1687656 ␆nnMnn
+TD117 5.2 📋 "bossy" ? nnMnn
+TD253 tried: BOSSY n n m n n
+TD398 5.3 📋 "slate" ? ␅
+TD1906378 ␆YnnMM
+TD110 5.3 📋 "slate" ? YnnMM
+TD228 tried: SLATE Y n n m m
+TD275 5.4 📋 "verve" ? ␅
+TD1462996 ␆nYnnn
+TD132 5.4 📋 "verve" ? nYnnn
+TD229 tried: VERVE n Y n n n
+TD237 5.5> ␅
+TD1005798 ␆*
+TD79 5.5> *
+TD168507 5.5 📋 "setup" ? ␅
+TD3446666 ␆YYYYY
+TD127 5.5 📋 "setup" ? YYYYY
+TD389 tried: SETUP Y Y Y Y Y
+TD486 📋> ␅
+TD6264258 ␆Hurdle 1783
+TD101 📋> Hurdle 1783
+TD16 📋> ␅
+TD47 ␆
+TD7 📋> 
+TD5 📋> ␅
+TD11 ␆2/6
+TD5 📋> 2/6
+TD4 📋> ␅
+TD13 ␆⬜🟩🟨🟨🟨
+TD6 📋> ⬜🟩🟨🟨🟨
+TD6 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD13 ␆4/6
+TD6 📋> 4/6
+TD6 📋> ␅
+TD14 ␆⬜⬜🟩⬜⬜
+TD5 📋> ⬜⬜🟩⬜⬜
+TD4 📋> ␅
+TD9 ␆⬜⬜🟩⬜🟩
+TD4 📋> ⬜⬜🟩⬜🟩
+TD5 📋> ␅
+TD13 ␆⬜⬜⬜⬜🟨
+TD6 📋> ⬜⬜⬜⬜🟨
+TD6 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD6 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD12 ␆4/6
+TD15 📋> 4/6
+TD7 📋> ␅
+TD9 ␆⬜⬜🟨⬜⬜
+TD4 📋> ⬜⬜🟨⬜⬜
+TD4 📋> ␅
+TD9 ␆🟨🟨🟨🟨⬜
+TD4 📋> 🟨🟨🟨🟨⬜
+TD4 📋> ␅
+TD9 ␆🟩🟨🟩🟨🟩
+TD4 📋> 🟩🟨🟩🟨🟩
+TD3 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆5/6
+TD4 📋> 5/6
+TD3 📋> ␅
+TD9 ␆⬜⬜⬜⬜🟩
+TD4 📋> ⬜⬜⬜⬜🟩
+TD4 📋> ␅
+TD9 ␆⬜🟨⬜⬜🟩
+TD4 📋> ⬜🟨⬜⬜🟩
+TD4 📋> ␅
+TD9 ␆⬜⬜🟩⬜🟩
+TD4 📋> ⬜⬜🟩⬜🟩
+TD4 📋> ␅
+TD10 ␆⬜⬜⬜⬜⬜
+TD4 📋> ⬜⬜⬜⬜⬜
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆Final 1/2
+TD4 📋> Final 1/2
+TD4 📋> ␅
+TD9 ␆🟩🟩🟩🟩🟩
+TD3 📋> 🟩🟩🟩🟩🟩
+TD3 📋> ␅
+TD178890 ␆score: 10,000
+TD78 📋> score: 10,000
+TD11 📋> ␅
+TD162385 ␄
+TD211 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Hurdle 1783\n\n2/6\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"}
+TD1116 result: "Hurdle 1783\n\n2/6\n\u2b1c\ud83d\udfe9\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\u2b1c\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n4/6\n\u2b1c\u2b1c\ud83d\udfe8\u2b1c\u2b1c\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\u2b1c\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n5/6\n\u2b1c\u2b1c\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\ud83d\udfe8\u2b1c\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\ud83d\udfe9\u2b1c\ud83d\udfe9\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nFinal 1/2\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\nscore: 10,000"
+TD172 📆 2026-11-19 ? ␅
+TD204068 ␆
+TD112 📆 2026-11-19 ? 
