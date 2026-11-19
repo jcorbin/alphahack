@@ -1,0 +1,112 @@
+T98.61342380299175 now: 2026-11-19T08:25:13EST
+TD150 site: alphaguess.com
+TD269294 loaded 196505 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (99 words excluded) asof a53a5c8ba221c0a24c52f1cd61590c65fa8868f8
+TD149  ...␅
+TD35 ␆
+TD6  ...
+TD104 [0 : 98138 : 196505] mac? ␅
+TD878878 ␆
+TD109 [0 : 98138 : 196505] mac? 
+TD127 [0 : 98138 : 196505] mac? ␅
+TD3320977 ␆
+TD113 [0 : 98138 : 196505] mac? 
+TD167 [0 : 98138 : 196505] mac? ␅
+TD1680721 ␆b
+TD125 [0 : 98138 : 196505] mac? b
+TD136 progress: -1 98138 mac
+TD145 [0 : 49065 : 98138] disturb? ␅
+TD1307997 ␆a
+TD112 [0 : 49065 : 98138] disturb? a
+TD120 progress: 1 49065 disturb
+TD120 [49066 : 73596 : 98138] guide? ␅
+TD1412168 ␆a
+TD90 [49066 : 73596 : 98138] guide? a
+TD99 progress: 1 73596 guide
+TD127 [73597 : 85489 : 98138] ins? ␅
+TD1452562 ␆a
+TD118 [73597 : 85489 : 98138] ins? a
+TD115 progress: 1 85489 ins
+TD117 [85490 : 91802 : 98138] knock? ␅
+TD1450439 ␆a
+TD77 [85490 : 91802 : 98138] knock? a
+TD85 progress: 1 91802 knock
+TD99 [91803 : 94965 : 98138] liberal? ␅
+TD1442706 ␆b
+TD127 [91803 : 94965 : 98138] liberal? b
+TD131 progress: -1 94965 liberal
+TD285 [91803 : 93253 : 94965] lar? ␅
+TD1396083 ␆a
+TD94 [91803 : 93253 : 94965] lar? a
+TD110 progress: 1 93253 lar
+TD147 [93254 : 93881 : 94965] lea? ␅
+TD1346691 ␆a
+TD130 [93254 : 93881 : 94965] lea? a
+TD113 progress: 1 93881 lea
+TD110 [93882 : 94415 : 94965] lek? ␅
+TD1315530 ␆a
+TD134 [93882 : 94415 : 94965] lek? a
+TD137 progress: 1 94415 lek
+TD154 [94416 : 94680 : 94965] leu? ␅
+TD1433889 ␆b
+TD99 [94416 : 94680 : 94965] leu? b
+TD109 progress: -1 94680 leu
+TD243 [94416 : 94544 : 94680] leopard? ␅
+TD1489167 ␆a
+TD94 [94416 : 94544 : 94680] leopard? a
+TD96 progress: 1 94544 leopard
+TD245 [94545 : 94613 : 94680] less? ␅
+TD1715610 ␆a
+TD121 [94545 : 94613 : 94680] less? a
+TD112 progress: 1 94613 less
+TD118 [94614 : 94630 : 94680] let? ␅
+TD3000483 ␆a
+TD113 [94614 : 94630 : 94680] let? a
+TD109 progress: 1 94630 let
+TD150 [94631 : 94653 : 94680] letter? ␅
+TD2099286 ␆a
+TD81 [94631 : 94653 : 94680] letter? a
+TD89 progress: 1 94653 letter
+TD259 [94654 : 94667 : 94680] letterings? ␅
+TD1642881 ␆a
+TD78 [94654 : 94667 : 94680] letterings? a
+TD82 progress: 1 94667 letterings
+TD150 [94668 : 94672 : 94680] letters? ␅
+TD1455877 ␆a
+TD115 [94668 : 94672 : 94680] letters? a
+TD116 progress: 1 94672 letters
+TD192 [94673 : 94676 : 94680] lettuce? ␅
+TD3056170 ␆b
+TD88 [94673 : 94676 : 94680] lettuce? b
+TD103 progress: -1 94676 lettuce
+TD227 [94673 : 94674 : 94676] letterspacings? ␅
+TD1994570 ␆a
+TD131 [94673 : 94674 : 94676] letterspacings? a
+TD135 progress: 1 94674 letterspacings
+TD193 [94675 : 94675 : 94676] letting? ␅
+TD3043570 ␆it
+TD124 [94675 : 94675 : 94676] letting? it
+TD146 progress: 0 94675 letting
+TD33 [94675 : 94675 : 94676] <Done>.
+TD107 📋> ␅
+TD2731133 ␆🧩 Puzzle #1214
+TD115 📋> 🧩 Puzzle #1214
+TD11 📋> ␅
+TD43 ␆🤔 19 guesses
+TD7 📋> 🤔 19 guesses
+TD5 📋> ␅
+TD14 ␆⏱️ 30s
+TD9 📋> ⏱️ 30s
+TD5 📋> ␅
+TD144837 ␆🔗 alphaguess.com/1214
+TD110 📋> 🔗 alphaguess.com/1214
+TD11 📋> ␅
+TD192616 ␄
+TD202 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1214\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 30s\n\ud83d\udd17 alphaguess.com/1214"}
+TD103 result: "\ud83e\udde9 Puzzle #1214\n\ud83e\udd14 19 guesses\n\u23f1\ufe0f 30s\n\ud83d\udd17 alphaguess.com/1214"
+TD15 result puzzle: 1214
+TD7 result guesses: 19
+TD5 result time: 30s
+TD5 result link: alphaguess.com/1214
+TD100 📆 2026-11-19 ? ␅
+TD175506 ␆
+TD116 📆 2026-11-19 ? 
