@@ -1,0 +1,260 @@
+T3506.0986634269975 now: 2026-11-20T13:48:53EST
+TD78 site: https://wordgrid.clevergoat.com/
+TD11 wordlist: nwl2023.txt
+TD27 > ␅
+TD1504271 ␆
+TD81 > 
+TD179 > ␅
+TD7177094 ␆col 1 ![AEO]
+TD112 > col 1 ![AEO]
+TD692 rule col: 1 ![AEO]
+TD65 > ␅
+TD3720964 ␆col 2 ~^U
+TD110 > col 2 ~^U
+TD398 rule col: 2 ~^U
+TD80 > ␅
+TD2579812 ␆col 3 x2
+TD117 > col 3 x2
+TD498 rule col: 3 x2
+TD53 > ␅
+TD9044640 ␆row 1 #1-6
+TD81 > row 1 #1-6
+TD285 rule row: 1 #1-6
+TD82 > ␅
+TD2973216 ␆row 2 ~IL
+TD147 > row 2 ~IL
+TD385 rule row: 2 ~IL
+TD48 > ␅
+TD2806171 ␆row 3 ~UL
+TD80 > row 3 ~UL
+TD291 rule row: 3 ~UL
+TD53 > ␅
+TD1779877 ␆*
+TD91 > *
+TD202965 ? ␅
+TD2947134 ␆4
+TD59 ? 4
+TD79 questioning: 0 lungs
+TD26 🌡️ lungs 📋 ? ␅
+TD2786328 ␄
+TD75 <EOF>
+TD110 > ␅
+TD577576 ␆*
+TD80 > *
+TD238934 ? ␅
+TD10752579 ␆7
+TD113 ? 7
+TD160 questioning: 0 gnus
+TD56 🌡️ gnus 📋 ? ␅
+TD3251086 ␆.01
+TD89 🌡️ gnus 📋 ? .01
+TD257 word: 0 gnus 0.01
+TD15 questioning: -1 
+TD58 > ␅
+TD628677 ␆*
+TD63 > *
+TD270496 ? ␅
+TD5114778 ␆6
+TD103 ? 6
+TD167 questioning: 1 unciae
+TD56 🌡️ unciae 📋 ? ␅
+TD3602517 ␆.01
+TD91 🌡️ unciae 📋 ? .01
+TD92 word: 1 unciae 0.01
+TD16 questioning: -1 
+TD88 > ␅
+TD618065 ␆*
+TD68 > *
+TD770844 ? ␅
+TD2820660 ␆3
+TD64 ? 3
+TD95 questioning: 2 oorali
+TD31 🌡️ oorali 📋 ? ␅
+TD5241581 ␆0
+TD135 🌡️ oorali 📋 ? 0
+TD130 word: 2 oorali 0.0
+TD25 questioning: -1 
+TD132 > ␅
+TD15104578 ␆sol
+TD140 > sol
+TD264 > ␅
+TD1018006 ␆
+TD106 > 
+TD263 > ␅
+TD1641683 ␆sol
+TD86 > sol
+TD266 > ␅
+TD519114 ␆*
+TD76 > *
+TD219447 ? ␅
+TD2986782 ␆3
+TD66 ? 3
+TD98 questioning: 3 fusil
+TD32 🌡️ fusil 📋 ? ␅
+TD3632724 ␆.04
+TD66 🌡️ fusil 📋 ? .04
+TD51 word: 3 fusil 0.04
+TD9 questioning: -1 
+TD52 > ␅
+TD520117 ␆*
+TD70 > *
+TD279952 ? ␅
+TD4781881 ␆5
+TD109 ? 5
+TD174 questioning: 4 unilobed
+TD58 🌡️ unilobed 📋 ? ␅
+TD2813022 ␆.12
+TD64 🌡️ unilobed 📋 ? .12
+TD58 word: 4 unilobed 0.12
+TD11 questioning: -1 
+TD63 > ␅
+TD740367 ␆*
+TD88 > *
+TD693843 ? ␅
+TD2946221 ␆3
+TD64 ? 3
+TD88 questioning: 5 oppilant
+TD27 🌡️ oppilant 📋 ? ␅
+TD3585750 ␆0
+TD108 🌡️ oppilant 📋 ? 0
+TD115 word: 5 oppilant 0.0
+TD21 questioning: -1 
+TD117 > ␅
+TD1675704 ␆* 2 2
+TD133 > * 2 2
+TD240173 ? ␅
+TD5640983 ␆9
+TD120 ? 9
+TD191 questioning: 4 upsilon
+TD66 🌡️ upsilon 📋 ? ␅
+TD2894408 ␆.18
+TD122 🌡️ upsilon 📋 ? .18
+TD121 word: 4 upsilon 0.18
+TD29 questioning: -1 
+TD202 > ␅
+TD1742750 ␆* 2 2 -bot 10
+TD85 > * 2 2 -bot 10
+TD218683 ? ␅
+TD3142430 ␆4
+TD72 ? 4
+TD86 questioning: 4 unfossiliferous
+TD27 🌡️ unfossiliferous 📋 ? ␅
+TD3182702 ␆.1
+TD84 🌡️ unfossiliferous 📋 ? .1
+TD80 word: 4 unfossiliferous 0.1
+TD12 questioning: -1 
+TD73 > ␅
+TD630200 ␆*
+TD59 > *
+TD231614 ? ␅
+TD4964092 ␆6
+TD64 ? 6
+TD99 questioning: 6 gul
+TD33 🌡️ gul 📋 ? ␅
+TD2693036 ␆.24
+TD60 🌡️ gul 📋 ? .24
+TD55 word: 6 gul 0.24
+TD10 questioning: -1 
+TD57 > ␅
+TD1907905 ␆* 2 2 -bot 10
+TD91 > * 2 2 -bot 10
+TD206768 ? ␅
+TD5747574 ␆2
+TD74 ? 2
+TD116 questioning: 4 ultrafiltration
+TD42 🌡️ ultrafiltration 📋 ? ␅
+TD3508742 ␆.19
+TD57 🌡️ ultrafiltration 📋 ? .19
+TD52 word: 4 ultrafiltration 0.19
+TD9 questioning: -1 
+TD58 > ␅
+TD1875165 ␆* 2 2 -bot 10
+TD89 > * 2 2 -bot 10
+TD227187 ? ␅
+TD8396856 ␆6
+TD85 ? 6
+TD116 questioning: 4 unilingualisms
+TD48 🌡️ unilingualisms 📋 ? ␅
+TD3447702 ␆.06
+TD60 🌡️ unilingualisms 📋 ? .06
+TD52 word: 4 unilingualisms 0.06
+TD10 questioning: -1 
+TD64 > ␅
+TD879412 ␆*
+TD112 > *
+TD216991 ? ␅
+TD2672293 ␆3
+TD66 ? 3
+TD97 questioning: 7 ulema
+TD30 🌡️ ulema 📋 ? ␅
+TD3106759 ␆.15
+TD68 🌡️ ulema 📋 ? .15
+TD63 word: 7 ulema 0.15
+TD12 questioning: -1 
+TD69 > ␅
+TD5447108 ␆* 1 3 -bot 10
+TD94 > * 1 3 -bot 10
+TD233406 ? ␅
+TD3810966 ␆6
+TD101 ? 6
+TD133 questioning: 6 citriculturist
+TD42 🌡️ citriculturist 📋 ? ␅
+TD3110098 ␆.02
+TD56 🌡️ citriculturist 📋 ? .02
+TD53 word: 6 citriculturist 0.02
+TD10 questioning: -1 
+TD68 > ␅
+TD5659512 ␆* 2 3 -bot 10
+TD97 > * 2 3 -bot 10
+TD245771 ? ␅
+TD2679346 ␆7
+TD61 ? 7
+TD88 questioning: 7 ultravirilities
+TD28 🌡️ ultravirilities 📋 ? ␅
+TD2829204 ␆.02
+TD56 🌡️ ultravirilities 📋 ? .02
+TD51 word: 7 ultravirilities 0.02
+TD9 questioning: -1 
+TD55 > ␅
+TD436518 ␆*
+TD71 > *
+TD745886 ? ␅
+TD2662591 ␆5
+TD60 ? 5
+TD86 questioning: 8 annuli
+TD29 🌡️ annuli 📋 ? ␅
+TD2919502 ␆.02
+TD84 🌡️ annuli 📋 ? .02
+TD93 word: 8 annuli 0.02
+TD21 questioning: -1 
+TD102 > ␅
+TD4505319 ␆/res
+TD61 > /res
+TD106 📋> ␅
+TD1237162 ␆Word Grid #903
+TD97 📋> Word Grid #903
+TD8 📋> ␅
+TD45 ␆🌌🌌🦄
+TD2 📋> 🌌🌌🦄
+TD2 📋> ␅
+TD5 ␆🌌🌌🦄
+TD2 📋> 🌌🌌🦄
+TD2 📋> ␅
+TD4 ␆🌌🌌🌌
+TD1 📋> 🌌🌌🌌
+TD1 📋> ␅
+TD5 ␆Rarity: 0.17
+TD2 📋> Rarity: 0.17
+TD2 📋> ␅
+TD111987 ␆https://wordgrid.clevergoat.com/s/903-0.17-97-ffuffufff?ref=shared
+TD88 📋> https://wordgrid.clevergoat.com/s/903-0.17-97-ffuffufff?ref=shared
+TD14 📋> ␅
+TD143057 ␄
+TD153 pasted: {"subject": "content", "method": "read:must:stdin", "content": "Word Grid #903\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\nRarity: 0.17\nhttps://wordgrid.clevergoat.com/s/903-0.17-97-ffuffufff?ref=shared"}
+TD393 result: "Word Grid #903\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83c\udf0c\ud83c\udf0c\ud83e\udd84\n\ud83c\udf0c\ud83c\udf0c\ud83c\udf0c\nRarity: 0.17\nhttps://wordgrid.clevergoat.com/s/903-0.17-97-ffuffufff?ref=shared"
+TD70 > ␅
+TD1144543 ␆/store
+TD88 > /store
+TD179 📆 2026-11-20 ? ␅
+TD594111 ␆
+TD86 📆 2026-11-20 ? 
