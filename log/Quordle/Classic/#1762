@@ -1,0 +1,202 @@
+T21.621574710996356 now: 2026-11-21T08:39:47EST
+TD190 site: https://www.merriam-webster.com/games/quordle/#/
+TD36 wordlist: nwl2023.txt
+TD12 num_words: 4
+TD187  ...␅
+TD411672 ␆
+TD126  ...
+TD379315 > ␅
+TD12739321 ␆*
+TD118 > *
+TD41194 ? ␅
+TD638151 ␆1
+TD57 ? 1
+TD103 questioning: earns
+TD96 Classic #1 _____? ␅
+TD2966069 ␆MnMnn
+TD59 Classic #1 _____? MnMnn
+TD216 attempt: 0 EARNS m n m n n
+TD65 Classic #2 _____? ␅
+TD1183899 ␆nnnnM
+TD63 Classic #2 _____? nnnnM
+TD405 attempt: 1 EARNS n n n n m
+TD51 Classic #3 _____? ␅
+TD1584331 ␆MMnnM
+TD95 Classic #3 _____? MMnnM
+TD255 attempt: 2 EARNS m m n n m
+TD116 Classic #4 _____? ␅
+TD1322190 ␆MnMnn
+TD93 Classic #4 _____? MnMnn
+TD248 attempt: 3 EARNS m n m n n
+TD451367 > ␅
+TD1639913 ␆*
+TD55 > *
+TD2370 ? ␅
+TD643306 ␆1
+TD56 ? 1
+TD102 questioning: relit
+TD98 Classic #1 _____ ~ER -ANS? ␅
+TD4758357 ␆MMnMn
+TD136 Classic #1 _____ ~ER -ANS? MMnMn
+TD119 attempt: 0 RELIT m m n m n
+TD55 Classic #2 _____ ~S -AENR? ␅
+TD1377628 ␆nnYYn
+TD59 Classic #2 _____ ~S -AENR? nnYYn
+TD139 attempt: 1 RELIT n n Y Y n
+TD59 Classic #3 _____ ~AES -NR? ␅
+TD1400563 ␆nMnnn
+TD89 Classic #3 _____ ~AES -NR? nMnnn
+TD152 attempt: 2 RELIT n m n n n
+TD82 Classic #4 _____ ~ER -ANS? ␅
+TD1388979 ␆MMMnn
+TD48 Classic #4 _____ ~ER -ANS? MMMnn
+TD102 attempt: 3 RELIT m m m n n
+TD407337 > ␅
+TD601061 ␆*
+TD54 > *
+TD186 questioning: solid
+TD84 Classic #1 _____ ~EIR -ALNST? ␅
+TD2875794 ␆nnnMn
+TD63 Classic #1 _____ ~EIR -ALNST? nnnMn
+TD126 attempt: 0 SOLID n n n m n
+TD68 Classic #2 __LI_ ~S -AENRT? ␅
+TD1385619 ␆YYYYY
+TD86 Classic #2 __LI_ ~S -AENRT? YYYYY
+TD196 attempt: 1 SOLID Y Y Y Y Y
+TD200 Classic #3 _____ ~AES -ILNRT? ␅
+TD1904672 ␆Ynnnn
+TD110 Classic #3 _____ ~AES -ILNRT? Ynnnn
+TD252 attempt: 2 SOLID Y n n n n
+TD134 Classic #4 _____ ~ELR -AINST? ␅
+TD1606086 ␆nnMnn
+TD76 Classic #4 _____ ~ELR -AINST? nnMnn
+TD205 attempt: 3 SOLID n n m n n
+TD356107 > ␅
+TD1817374 ␆*
+TD63 > *
+TD675 ? ␅
+TD2414475 ␆1
+TD118 ? 1
+TD181 questioning: fibre
+TD175 Classic #1 _____ ~EIR -ADLNOST? ␅
+TD5313192 ␆nMnMY
+TD57 Classic #1 _____ ~EIR -ADLNOST? nMnMY
+TD118 attempt: 0 FIBRE n m n m Y
+TD60 Classic #3 S____ ~AE -DILNORT? ␅
+TD2407042 ␆nnnnY
+TD74 Classic #3 S____ ~AE -DILNORT? nnnnY
+TD148 attempt: 2 FIBRE n n n n Y
+TD86 Classic #4 _____ ~ELR -ADINOST? ␅
+TD1798607 ␆nnnMM
+TD58 Classic #4 _____ ~ELR -ADINOST? nnnMM
+TD157 attempt: 3 FIBRE n n n m m
+TD285835 > ␅
+TD898071 ␆*
+TD56 > *
+TD362 ? ␅
+TD1479006 ␆1
+TD76 ? 1
+TD123 questioning: shape
+TD133 Classic #1 ____E ~IR -ABDFLNOST? ␅
+TD2856704 ␆nnnYY
+TD59 Classic #1 ____E ~IR -ABDFLNOST? nnnYY
+TD113 attempt: 0 SHAPE n n n Y Y
+TD56 Classic #3 S___E ~A -BDFILNORT? ␅
+TD1440885 ␆YYYnY
+TD63 Classic #3 S___E ~A -BDFILNORT? YYYnY
+TD123 attempt: 2 SHAPE Y Y Y n Y
+TD75 Classic #4 _____ ~ELR -ABDFINOST? ␅
+TD1169691 ␆nnnnM
+TD80 Classic #4 _____ ~ELR -ABDFINOST? nnnnM
+TD212 attempt: 3 SHAPE n n n n m
+TD282750 > ␅
+TD790258 ␆*
+TD52 > *
+TD232 ? ␅
+TD2018498 ␆2
+TD136 ? 2
+TD229 questioning: gripe
+TD216 Classic #1 ___PE ~IR -ABDFHLNOST? ␅
+TD2631248 ␆YYYYY
+TD63 Classic #1 ___PE ~IR -ABDFHLNOST? YYYYY
+TD124 attempt: 0 GRIPE Y Y Y Y Y
+TD61 Classic #3 SHA_E -BDFILNOPRT? ␅
+TD1530922 ␆nnnnY
+TD54 Classic #3 SHA_E -BDFILNOPRT? nnnnY
+TD102 attempt: 2 GRIPE n n n n Y
+TD52 Classic #4 _____ ~ELR -ABDFHINOPST? ␅
+TD1278641 ␆nYnnM
+TD60 Classic #4 _____ ~ELR -ABDFHINOPST? nYnnM
+TD111 attempt: 3 GRIPE n Y n n m
+TD186446 > ␅
+TD660498 ␆*
+TD55 > *
+TD253 ? ␅
+TD1749525 ␆2
+TD105 ? 2
+TD178 questioning: creel
+TD177 Classic #3 SHA_E -BDFGILNOPRT? ␅
+TD1095965 ␄
+TD93 <EOF>
+TD180334 > ␅
+TD582328 ␆*
+TD63 > *
+TD286 ? ␅
+TD653318 ␆1
+TD91 ? 1
+TD153 questioning: cruel
+TD145 Classic #3 SHA_E -BDFGILNOPRT? ␅
+TD3738534 ␆nnnMn
+TD65 Classic #3 SHA_E -BDFGILNOPRT? nnnMn
+TD120 attempt: 2 CRUEL n n n m n
+TD61 Classic #4 _R___ ~EL -ABDFGHINOPST? ␅
+TD1136978 ␆YYYYY
+TD60 Classic #4 _R___ ~EL -ABDFGHINOPST? YYYYY
+TD115 attempt: 3 CRUEL Y Y Y Y Y
+TD81345 > ␅
+TD693763 ␆*
+TD76 > *
+TD472 ? ␅
+TD3809400 ␄
+TD107 <EOF>
+TD78524 > ␅
+TD4414969 ␆probe kmv
+TD104 > probe kmv
+TD221374 > ␅
+TD8938867 ␆tried mikva
+TD76 > tried mikva
+TD293 questioning: MIKVA
+TD144 Classic #3 SHA_E -BCDFGILNOPRTU? ␅
+TD1436776 ␆MnnnM
+TD136 Classic #3 SHA_E -BCDFGILNOPRTU? MnnnM
+TD759 attempt: 2 MIKVA m n n n m
+TD96966 > ␅
+TD1449794 ␆*
+TD94 > *
+TD476 questioning: shame
+TD176 Classic #3 SHA_E ~M -BCDFGIKLNOPRTUV? ␅
+TD7670476 ␆YYYYY
+TD130 Classic #3 SHA_E ~M -BCDFGIKLNOPRTUV? YYYYY
+TD267 attempt: 2 SHAME Y Y Y Y Y
+TD141 📋> ␅
+TD3250962 ␆🙂 Daily Quordle 1762
+TD101 📋> 🙂 Daily Quordle 1762
+TD14 📋> ␅
+TD51 ␆6️⃣3️⃣
+TD9 📋> 6️⃣3️⃣
+TD7 📋> ␅
+TD16 ␆9️⃣7️⃣
+TD6 📋> 9️⃣7️⃣
+TD6 📋> ␅
+TD14 ␆m-w.com/games/quordle/
+TD6 📋> m-w.com/games/quordle/
+TD6 📋> ␅
+TD71078 ␆
+TD106 📋> 
+TD16 📋> ␅
+TD229435 ␄
+TD203 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83d\ude42 Daily Quordle 1762\n6\ufe0f\u20e33\ufe0f\u20e3\n9\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"}
+TD1763 result: "\ud83d\ude42 Daily Quordle 1762\n6\ufe0f\u20e33\ufe0f\u20e3\n9\ufe0f\u20e37\ufe0f\u20e3\nm-w.com/games/quordle/\n"
+TD272 📆 2026-11-21 ? ␅
+TD291209 ␆
+TD64 📆 2026-11-21 ? 
