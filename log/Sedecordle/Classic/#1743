@@ -1,0 +1,869 @@
+T177.55514302299707 now: 2026-11-22T10:26:24EST
+TD241 site: https://www.sedecordle.com/?mode=daily
+TD33 wordlist: nwl2023.txt
+TD8 num_words: 16
+TD3928  ...␅
+TD9225382 ␆
+TD132  ...
+TD2858760 > ␅
+TD730159 ␆/drop
+TD127 > /drop
+TD603 📋> ␅
+TD4873930 ␆🤖 sedecordle dropin online
+TD110 📋> 🤖 sedecordle dropin online
+TD11 📋> ␅
+TD138508 ␆
+TD112 📋> 
+TD13 📋> ␅
+TD129459 ␄
+TD143 pasted: {"subject": "\ud83d\udccb\ud83c\udf10 Dropin 15320 bytes", "method": "read:must:stdin", "content": "\ud83e\udd16 sedecordle dropin online\n"}
+TD2732194 💧> ␅
+TD983681 ␆*
+TD124 💧> *
+TD94773 ? ␅
+TD1863423 ␆1
+TD111 ? 1
+TD199 questioning: arles
+TD192 📋> ␅
+TD3977006 ␆#1 MMMnn
+TD199 📋> #1 MMMnn
+TD17 📋> ␅
+TD75 ␆#2 Mnnnn
+TD6 📋> #2 Mnnnn
+TD8 📋> ␅
+TD24 ␆#3 nMMnn
+TD7 📋> #3 nMMnn
+TD4 📋> ␅
+TD10 ␆#4 nMnMn
+TD4 📋> #4 nMnMn
+TD6 📋> ␅
+TD12 ␆#5 nnnnn
+TD6 📋> #5 nnnnn
+TD7 📋> ␅
+TD8 ␆#6 nnnnn
+TD6 📋> #6 nnnnn
+TD6 📋> ␅
+TD12 ␆#7 nMnMn
+TD6 📋> #7 nMnMn
+TD6 📋> ␅
+TD8 ␆#8 nMnMn
+TD7 📋> #8 nMnMn
+TD5 📋> ␅
+TD8 ␆#9 nnMMn
+TD6 📋> #9 nnMMn
+TD6 📋> ␅
+TD8 ␆#10 nnMYn
+TD8 📋> #10 nnMYn
+TD5 📋> ␅
+TD8 ␆#11 nnnnn
+TD6 📋> #11 nnnnn
+TD5 📋> ␅
+TD8 ␆#12 nMnnn
+TD6 📋> #12 nMnnn
+TD5 📋> ␅
+TD8 ␆#13 nnnnM
+TD6 📋> #13 nnnnM
+TD5 📋> ␅
+TD8 ␆#14 nnMMM
+TD6 📋> #14 nnMMM
+TD5 📋> ␅
+TD8 ␆#15 nnnMn
+TD7 📋> #15 nnnMn
+TD5 📋> ␅
+TD8 ␆#16 nnMnn
+TD6 📋> #16 nnMnn
+TD5 📋> ␅
+TD134046 ␆
+TD110 📋> 
+TD13 📋> ␅
+TD181878 ␄
+TD153 pasted: {"subject": "Scrape wrt 'arles'", "method": "read:must:stdin", "content": "#1 MMMnn\n#2 Mnnnn\n#3 nMMnn\n#4 nMnMn\n#5 nnnnn\n#6 nnnnn\n#7 nMnMn\n#8 nMnMn\n#9 nnMMn\n#10 nnMYn\n#11 nnnnn\n#12 nMnnn\n#13 nnnnM\n#14 nnMMM\n#15 nnnMn\n#16 nnMnn\n"}
+TD257 attempt: 0 arles m m m n n
+TD95 attempt: 1 arles m n n n n
+TD77 attempt: 2 arles n m m n n
+TD81 attempt: 3 arles n m n m n
+TD70 attempt: 4 arles n n n n n
+TD71 attempt: 5 arles n n n n n
+TD81 attempt: 6 arles n m n m n
+TD85 attempt: 7 arles n m n m n
+TD79 attempt: 8 arles n n m m n
+TD71 attempt: 9 arles n n m Y n
+TD69 attempt: 10 arles n n n n n
+TD67 attempt: 11 arles n m n n n
+TD85 attempt: 12 arles n n n n m
+TD64 attempt: 13 arles n n m m m
+TD65 attempt: 14 arles n n n m n
+TD65 attempt: 15 arles n n m n n
+TD3150009 💧> ␅
+TD836131 ␆*
+TD114 💧> *
+TD8361 ? ␅
+TD1241645 ␆1
+TD115 ? 1
+TD199 questioning: pinto
+TD296 📋> ␅
+TD3548211 ␆#1 nnnMn
+TD184 📋> #1 nnnMn
+TD29 📋> ␅
+TD50 ␆#2 nnnnn
+TD8 📋> #2 nnnnn
+TD8 📋> ␅
+TD15 ␆#3 nMnnn
+TD5 📋> #3 nMnnn
+TD4 📋> ␅
+TD10 ␆#4 nMMMn
+TD6 📋> #4 nMMMn
+TD7 📋> ␅
+TD9 ␆#5 nYnMn
+TD4 📋> #5 nYnMn
+TD4 📋> ␅
+TD12 ␆#6 nMnnn
+TD4 📋> #6 nMnnn
+TD5 📋> ␅
+TD13 ␆#7 nnMnn
+TD5 📋> #7 nnMnn
+TD6 📋> ␅
+TD10 ␆#8 nnnnn
+TD5 📋> #8 nnnnn
+TD7 📋> ␅
+TD9 ␆#9 nnnMM
+TD5 📋> #9 nnnMM
+TD7 📋> ␅
+TD9 ␆#10 nYnnn
+TD6 📋> #10 nYnnn
+TD5 📋> ␅
+TD9 ␆#11 nYYnn
+TD6 📋> #11 nYYnn
+TD5 📋> ␅
+TD9 ␆#12 nMnnY
+TD6 📋> #12 nMnnY
+TD5 📋> ␅
+TD9 ␆#13 nnnMM
+TD6 📋> #13 nnnMM
+TD9 📋> ␅
+TD11 ␆#14 MnnMn
+TD7 📋> #14 MnnMn
+TD8 📋> ␅
+TD12 ␆#15 MnnMY
+TD5 📋> #15 MnnMY
+TD7 📋> ␅
+TD11 ␆#16 nMMnM
+TD6 📋> #16 nMMnM
+TD6 📋> ␅
+TD130173 ␆
+TD216 📋> 
+TD25 📋> ␅
+TD185287 ␄
+TD213 pasted: {"subject": "Scrape wrt 'pinto'", "method": "read:must:stdin", "content": "#1 nnnMn\n#2 nnnnn\n#3 nMnnn\n#4 nMMMn\n#5 nYnMn\n#6 nMnnn\n#7 nnMnn\n#8 nnnnn\n#9 nnnMM\n#10 nYnnn\n#11 nYYnn\n#12 nMnnY\n#13 nnnMM\n#14 MnnMn\n#15 MnnMY\n#16 nMMnM\n"}
+TD391 attempt: 0 pinto n n n m n
+TD120 attempt: 1 pinto n n n n n
+TD87 attempt: 2 pinto n m n n n
+TD79 attempt: 3 pinto n m m m n
+TD91 attempt: 4 pinto n Y n m n
+TD75 attempt: 5 pinto n m n n n
+TD76 attempt: 6 pinto n n m n n
+TD74 attempt: 7 pinto n n n n n
+TD71 attempt: 8 pinto n n n m m
+TD74 attempt: 9 pinto n Y n n n
+TD70 attempt: 10 pinto n Y Y n n
+TD77 attempt: 11 pinto n m n n Y
+TD73 attempt: 12 pinto n n n m m
+TD71 attempt: 13 pinto m n n m n
+TD76 attempt: 14 pinto m n n m Y
+TD67 attempt: 15 pinto n m m n m
+TD3567249 💧> ␅
+TD799570 ␆*
+TD127 💧> *
+TD411 questioning: inert
+TD165 📋> ␅
+TD3877328 ␆#1 nnnYM
+TD130 📋> #1 nnnYM
+TD12 📋> ␅
+TD41 ␆#2 nnnnn
+TD6 📋> #2 nnnnn
+TD5 📋> ␅
+TD10 ␆#3 MnnMn
+TD4 📋> #3 MnnMn
+TD4 📋> ␅
+TD9 ␆#4 YYYYY
+TD4 📋> #4 YYYYY
+TD4 📋> ␅
+TD8 ␆#5 MnnnY
+TD4 📋> #5 MnnnY
+TD4 📋> ␅
+TD8 ␆#6 Mnnnn
+TD4 📋> #6 Mnnnn
+TD4 📋> ␅
+TD8 ␆#7 nMMMn
+TD4 📋> #7 nMMMn
+TD4 📋> ␅
+TD8 ␆#8 nnMMn
+TD4 📋> #8 nnMMn
+TD4 📋> ␅
+TD8 ␆#9 nnMnM
+TD4 📋> #9 nnMnM
+TD4 📋> ␅
+TD8 ␆#10 MnMnn
+TD4 📋> #10 MnMnn
+TD4 📋> ␅
+TD8 ␆#11 MMnnn
+TD4 📋> #11 MMnnn
+TD4 📋> ␅
+TD8 ␆#12 MnnMn
+TD4 📋> #12 MnnMn
+TD4 📋> ␅
+TD8 ␆#13 nnnnY
+TD4 📋> #13 nnnnY
+TD3 📋> ␅
+TD9 ␆#14 nnYnY
+TD4 📋> #14 nnYnY
+TD4 📋> ␅
+TD8 ␆#15 nnMnM
+TD4 📋> #15 nnMnM
+TD4 📋> ␅
+TD8 ␆#16 MMnnn
+TD4 📋> #16 MMnnn
+TD4 📋> ␅
+TD143684 ␆
+TD107 📋> 
+TD13 📋> ␅
+TD248346 ␄
+TD140 pasted: {"subject": "Scrape wrt 'inert'", "method": "read:must:stdin", "content": "#1 nnnYM\n#2 nnnnn\n#3 MnnMn\n#4 YYYYY\n#5 MnnnY\n#6 Mnnnn\n#7 nMMMn\n#8 nnMMn\n#9 nnMnM\n#10 MnMnn\n#11 MMnnn\n#12 MnnMn\n#13 nnnnY\n#14 nnYnY\n#15 nnMnM\n#16 MMnnn\n"}
+TD239 attempt: 0 inert n n n Y m
+TD98 attempt: 1 inert n n n n n
+TD69 attempt: 2 inert m n n m n
+TD61 attempt: 3 inert Y Y Y Y Y
+TD64 attempt: 4 inert m n n n Y
+TD63 attempt: 5 inert m n n n n
+TD59 attempt: 6 inert n m m m n
+TD59 attempt: 7 inert n n m m n
+TD58 attempt: 8 inert n n m n m
+TD58 attempt: 9 inert m n m n n
+TD58 attempt: 10 inert m m n n n
+TD55 attempt: 11 inert m n n m n
+TD55 attempt: 12 inert n n n n Y
+TD56 attempt: 13 inert n n Y n Y
+TD55 attempt: 14 inert n n m n m
+TD54 attempt: 15 inert m m n n n
+TD2779839 💧> ␅
+TD1822148 ␆* 12
+TD111 💧> * 12
+TD172275 questioning: curio
+TD265 📋> ␅
+TD3679118 ␆#1 nMMnn
+TD113 📋> #1 nMMnn
+TD11 📋> ␅
+TD41 ␆#2 Ynnnn
+TD9 📋> #2 Ynnnn
+TD8 📋> ␅
+TD10 ␆#3 MnYYn
+TD6 📋> #3 MnYYn
+TD7 📋> ␅
+TD9 ␆#5 nnnMn
+TD6 📋> #5 nnnMn
+TD7 📋> ␅
+TD8 ␆#6 MYnMn
+TD6 📋> #6 MYnMn
+TD6 📋> ␅
+TD8 ␆#7 nnYnn
+TD4 📋> #7 nnYnn
+TD4 📋> ␅
+TD8 ␆#8 nnYnn
+TD4 📋> #8 nnYnn
+TD4 📋> ␅
+TD8 ␆#9 nnnnM
+TD4 📋> #9 nnnnM
+TD4 📋> ␅
+TD11 ␆#10 nnnMn
+TD6 📋> #10 nnnMn
+TD5 📋> ␅
+TD8 ␆#11 nnnYn
+TD7 📋> #11 nnnYn
+TD5 📋> ␅
+TD8 ␆#12 YYYYY
+TD6 📋> #12 YYYYY
+TD5 📋> ␅
+TD8 ␆#13 MMnnM
+TD6 📋> #13 MMnnM
+TD22 📋> ␅
+TD8 ␆#14 nnnnn
+TD6 📋> #14 nnnnn
+TD6 📋> ␅
+TD8 ␆#15 nnnnY
+TD6 📋> #15 nnnnY
+TD5 📋> ␅
+TD8 ␆#16 nnnYM
+TD6 📋> #16 nnnYM
+TD4 📋> ␅
+TD138293 ␆
+TD116 📋> 
+TD12 📋> ␅
+TD184898 ␄
+TD190 pasted: {"subject": "Scrape wrt 'curio'", "method": "read:must:stdin", "content": "#1 nMMnn\n#2 Ynnnn\n#3 MnYYn\n#5 nnnMn\n#6 MYnMn\n#7 nnYnn\n#8 nnYnn\n#9 nnnnM\n#10 nnnMn\n#11 nnnYn\n#12 YYYYY\n#13 MMnnM\n#14 nnnnn\n#15 nnnnY\n#16 nnnYM\n"}
+TD269 attempt: 0 curio n m m n n
+TD94 attempt: 1 curio Y n n n n
+TD91 attempt: 2 curio m n Y Y n
+TD70 attempt: 4 curio n n n m n
+TD69 attempt: 5 curio m Y n m n
+TD69 attempt: 6 curio n n Y n n
+TD65 attempt: 7 curio n n Y n n
+TD83 attempt: 8 curio n n n n m
+TD76 attempt: 9 curio n n n m n
+TD304 attempt: 10 curio n n n Y n
+TD112 attempt: 11 curio Y Y Y Y Y
+TD132 attempt: 12 curio m m n n m
+TD97 attempt: 13 curio n n n n n
+TD95 attempt: 14 curio n n n n Y
+TD72 attempt: 15 curio n n n Y m
+TD2447884 💧> ␅
+TD3022507 ␆* 15
+TD128 💧> * 15
+TD182190 questioning: tempo
+TD194 📋> ␅
+TD3882358 ␆#1 Mnnnn
+TD204 📋> #1 Mnnnn
+TD18 📋> ␅
+TD79 ␆#2 nnnnn
+TD6 📋> #2 nnnnn
+TD6 📋> ␅
+TD10 ␆#3 nnnnn
+TD5 📋> #3 nnnnn
+TD4 📋> ␅
+TD10 ␆#5 Mnnnn
+TD4 📋> #5 Mnnnn
+TD4 📋> ␅
+TD9 ␆#6 nnnnn
+TD4 📋> #6 nnnnn
+TD4 📋> ␅
+TD9 ␆#7 nYnnn
+TD4 📋> #7 nYnnn
+TD4 📋> ␅
+TD9 ␆#8 nYMnn
+TD6 📋> #8 nYMnn
+TD6 📋> ␅
+TD13 ␆#9 MMnnM
+TD4 📋> #9 MMnnM
+TD5 📋> ␅
+TD33 ␆#10 nMnnn
+TD5 📋> #10 nMnnn
+TD7 📋> ␅
+TD11 ␆#11 nnMnn
+TD4 📋> #11 nnMnn
+TD7 📋> ␅
+TD13 ␆#13 MnnnM
+TD4 📋> #13 MnnnM
+TD6 📋> ␅
+TD11 ␆#14 MMnYn
+TD4 📋> #14 MMnYn
+TD6 📋> ␅
+TD34 ␆#15 YYYYY
+TD32 📋> #15 YYYYY
+TD4 📋> ␅
+TD9 ␆#16 nnnnM
+TD4 📋> #16 nnnnM
+TD6 📋> ␅
+TD132172 ␆
+TD119 📋> 
+TD12 📋> ␅
+TD209885 ␄
+TD215 pasted: {"subject": "Scrape wrt 'tempo'", "method": "read:must:stdin", "content": "#1 Mnnnn\n#2 nnnnn\n#3 nnnnn\n#5 Mnnnn\n#6 nnnnn\n#7 nYnnn\n#8 nYMnn\n#9 MMnnM\n#10 nMnnn\n#11 nnMnn\n#13 MnnnM\n#14 MMnYn\n#15 YYYYY\n#16 nnnnM\n"}
+TD275 attempt: 0 tempo m n n n n
+TD84 attempt: 1 tempo n n n n n
+TD81 attempt: 2 tempo n n n n n
+TD68 attempt: 4 tempo m n n n n
+TD91 attempt: 5 tempo n n n n n
+TD181 attempt: 6 tempo n Y n n n
+TD202 attempt: 7 tempo n Y m n n
+TD157 attempt: 8 tempo m m n n m
+TD109 attempt: 9 tempo n m n n n
+TD84 attempt: 10 tempo n n m n n
+TD68 attempt: 12 tempo m n n n m
+TD70 attempt: 13 tempo m m n Y n
+TD65 attempt: 14 tempo Y Y Y Y Y
+TD63 attempt: 15 tempo n n n n m
+TD2265299 💧> ␅
+TD2754028 ␆* 9
+TD115 💧> * 9
+TD200621 questioning: extol
+TD146 📋> ␅
+TD3680457 ␆#1 nnYnM
+TD212 📋> #1 nnYnM
+TD16 📋> ␅
+TD76 ␆#2 nnnnn
+TD7 📋> #2 nnnnn
+TD5 📋> ␅
+TD10 ␆#3 nnnnM
+TD5 📋> #3 nnnnM
+TD4 📋> ␅
+TD11 ␆#5 nnMnn
+TD4 📋> #5 nnMnn
+TD5 📋> ␅
+TD12 ␆#6 nnnnn
+TD6 📋> #6 nnnnn
+TD6 📋> ␅
+TD12 ␆#7 Mnnnn
+TD5 📋> #7 Mnnnn
+TD6 📋> ␅
+TD11 ␆#8 Mnnnn
+TD6 📋> #8 Mnnnn
+TD6 📋> ␅
+TD10 ␆#9 YYYYY
+TD6 📋> #9 YYYYY
+TD6 📋> ␅
+TD10 ␆#10 MnnnY
+TD6 📋> #10 MnnnY
+TD7 📋> ␅
+TD8 ␆#11 nnnnn
+TD7 📋> #11 nnnnn
+TD5 📋> ␅
+TD8 ␆#13 nnMMn
+TD7 📋> #13 nnMMn
+TD5 📋> ␅
+TD8 ␆#14 MnMnM
+TD7 📋> #14 MnMnM
+TD4 📋> ␅
+TD8 ␆#16 nnnMM
+TD6 📋> #16 nnnMM
+TD5 📋> ␅
+TD132123 ␆
+TD110 📋> 
+TD12 📋> ␅
+TD212322 ␄
+TD199 pasted: {"subject": "Scrape wrt 'extol'", "method": "read:must:stdin", "content": "#1 nnYnM\n#2 nnnnn\n#3 nnnnM\n#5 nnMnn\n#6 nnnnn\n#7 Mnnnn\n#8 Mnnnn\n#9 YYYYY\n#10 MnnnY\n#11 nnnnn\n#13 nnMMn\n#14 MnMnM\n#16 nnnMM\n"}
+TD283 attempt: 0 extol n n Y n m
+TD86 attempt: 1 extol n n n n n
+TD81 attempt: 2 extol n n n n m
+TD76 attempt: 4 extol n n m n n
+TD66 attempt: 5 extol n n n n n
+TD81 attempt: 6 extol m n n n n
+TD66 attempt: 7 extol m n n n n
+TD94 attempt: 8 extol Y Y Y Y Y
+TD91 attempt: 9 extol m n n n Y
+TD59 attempt: 10 extol n n n n n
+TD60 attempt: 12 extol n n m m n
+TD57 attempt: 13 extol m n m n m
+TD60 attempt: 15 extol n n n m m
+TD2001084 💧> ␅
+TD5685132 ␆* 11
+TD76 💧> * 11
+T113.10962563499925 now: 2026-11-22T10:31:47EST
+TD136 questioning: extol
+TD2061846 > ␅
+TD1469162 ␆?
+TD109 > ?
+TD1994036 > ␅
+TD2365720 ␆audit
+TD130 > audit
+TD331 📋> ␅
+TD5743069 ␆{"ARLES":{"board_n":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"resp":["MMMnn","Mnnnn","nMMnn","nMnMn","nnnnn","nnnnn","nMnMn","nMnMn","nnMMn","nnMYn","nnnnn","nMnnn","nnnnM","nnMMM","nnnMn","nnMnn"]},"PINTO":{"board_n":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],"resp":["nnnMn","nnnnn","nMnnn","nMMMn","nYnMn","nMnnn","nnMnn","nnnnn","nnnMM","nYnnn","nYYnn","nMnnY","nnnMM","MnnMn","MnnMY","nMMnM"]},"INERT":{"board_n":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],"resp":["nnnYM","nnnnn","MnnMn","YYYYY","MnnnY","Mnnnn","nMMMn","nnMMn","nnMnM","MnMnn","MMnnn","MnnMn","nnnnY","nnYnY","nnMnM","MMnnn"]},"CURIO":{"board_n":[1,2,3,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[4,4,4,4,4,4,4,4,4,4,4,4,4,4,4],"resp":["nMMnn","Ynnnn","MnYYn","nnnMn","MYnMn","nnYnn","nnYnn","nnnnM","nnnMn","nnnYn","YYYYY","MMnnM","nnnnn","nnnnY","nnnYM"]},"TEMPO":{"board_n":[1,2,3,5,6,7,8,9,10,11,13,14,15,16],"row_n":[5,5,5,5,5,5,5,5,5,5,5,5,5,5],"resp":["Mnnnn","nnnnn","nnnnn","Mnnnn","nnnnn","nYnnn","nYMnn","MMnnM","nMnnn","nnMnn","MnnnM","MMnYn","YYYYY","nnnnM"]},"EXTOL":{"board_n":[1,2,3,5,6,7,8,9,10,11,13,14,16],"row_n":[6,6,6,6,6,6,6,6,6,6,6,6,6],"resp":["nnYnM","nnnnn","nnnnM","nnMnn","nnnnn","Mnnnn","Mnnnn","YYYYY","MnnnY","nnnnn","nnMMn","MnMnM","nnnMM"]},"SLEPT":{"board_n":[1,2,3,5,6,7,8,10,11,13,14,16],"row_n":[7,7,7,7,7,7,7,7,7,7,7,7],"resp":["nYnnM","nnnnn","nMnnn","nnnnY","nnnnn","nnMnn","nnMnn","nMMnn","nnnnn","YnnnY","YYYYY","nMnnn"]},"LYRIC":{"board_n":[1,2,3,5,6,7,8,10,11,13,16],"row_n":[8,8,8,8,8,8,8,8,8,8,8],"resp":["MnMnn","nMnnM","YYYYY","nnnMn","nnnMM","nnYnn","nnYnn","YnnMn","nnnYn","nnnnM","YnnYn"]},"MINIM":{"board_n":[1,2,5,6,7,8,10,11,13,16],"row_n":[9,9,9,9,9,9,9,9,9,9],"resp":["nnnnn","nnnnn","nYnnn","nMnnn","nnMnn","Ynnnn","nYnnn","YYYYY","nnnnn","nnMYn"]},"W":{"board_n":[1,2,5,6,7,8,10,13,16],"row_n":[10,10,10,10,10,10,10,10,10],"resp":["n","n","n","n","n","n","n","n","n"]}}
+TD138 📋> {"ARLES":{"board_n":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"resp":["MMMnn","Mnnnn","nMMnn","nMnMn","nnnnn","nnnnn","nMnMn","nMnMn","nnMMn","nnMYn","nnnnn","nMnnn","nnnnM","nnMMM","nnnMn","nnMnn"]},"PINTO":{"board_n":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],"resp":["nnnMn","nnnnn","nMnnn","nMMMn","nYnMn","nMnnn","nnMnn","nnnnn","nnnMM","nYnnn","nYYnn","nMnnY","nnnMM","MnnMn","MnnMY","nMMnM"]},"INERT":{"board_n":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],"resp":["nnnYM","nnnnn","MnnMn","YYYYY","MnnnY","Mnnnn","nMMMn","nnMMn","nnMnM","MnMnn","MMnnn","MnnMn","nnnnY","nnYnY","nnMnM","MMnnn"]},"CURIO":{"board_n":[1,2,3,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[4,4,4,4,4,4,4,4,4,4,4,4,4,4,4],"resp":["nMMnn","Ynnnn","MnYYn","nnnMn","MYnMn","nnYnn","nnYnn","nnnnM","nnnMn","nnnYn","YYYYY","MMnnM","nnnnn","nnnnY","nnnYM"]},"TEMPO":{"board_n":[1,2,3,5,6,7,8,9,10,11,13,14,15,16],"row_n":[5,5,5,5,5,5,5,5,5,5,5,5,5,5],"resp":["Mnnnn","nnnnn","nnnnn","Mnnnn","nnnnn","nYnnn","nYMnn","MMnnM","nMnnn","nnMnn","MnnnM","MMnYn","YYYYY","nnnnM"]},"EXTOL":{"board_n":[1,2,3,5,6,7,8,9,10,11,13,14,16],"row_n":[6,6,6,6,6,6,6,6,6,6,6,6,6],"resp":["nnYnM","nnnnn","nnnnM","nnMnn","nnnnn","Mnnnn","Mnnnn","YYYYY","MnnnY","nnnnn","nnMMn","MnMnM","nnnMM"]},"SLEPT":{"board_n":[1,2,3,5,6,7,8,10,11,13,14,16],"row_n":[7,7,7,7,7,7,7,7,7,7,7,7],"resp":["nYnnM","nnnnn","nMnnn","nnnnY","nnnnn","nnMnn","nnMnn","nMMnn","nnnnn","YnnnY","YYYYY","nMnnn"]},"LYRIC":{"board_n":[1,2,3,5,6,7,8,10,11,13,16],"row_n":[8,8,8,8,8,8,8,8,8,8,8],"resp":["MnMnn","nMnnM","YYYYY","nnnMn","nnnMM","nnYnn","nnYnn","YnnMn","nnnYn","nnnnM","YnnYn"]},"MINIM":{"board_n":[1,2,5,6,7,8,10,11,13,16],"row_n":[9,9,9,9,9,9,9,9,9,9],"resp":["nnnnn","nnnnn","nYnnn","nMnnn","nnMnn","Ynnnn","nYnnn","YYYYY","nnnnn","nnMYn"]},"W":{"board_n":[1,2,5,6,7,8,10,13,16],"row_n":[10,10,10,10,10,10,10,10,10],"resp":["n","n","n","n","n","n","n","n","n"]}}
+TD36 📋> ␅
+TD140161 ␆
+TD128 📋> 
+TD17 📋> ␅
+TD668024 ␄
+TD358 pasted: {"subject": "\ud83d\udccb Copy All", "method": "read:must:stdin", "content": "{\"ARLES\":{\"board_n\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],\"row_n\":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],\"resp\":[\"MMMnn\",\"Mnnnn\",\"nMMnn\",\"nMnMn\",\"nnnnn\",\"nnnnn\",\"nMnMn\",\"nMnMn\",\"nnMMn\",\"nnMYn\",\"nnnnn\",\"nMnnn\",\"nnnnM\",\"nnMMM\",\"nnnMn\",\"nnMnn\"]},\"PINTO\":{\"board_n\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],\"row_n\":[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],\"resp\":[\"nnnMn\",\"nnnnn\",\"nMnnn\",\"nMMMn\",\"nYnMn\",\"nMnnn\",\"nnMnn\",\"nnnnn\",\"nnnMM\",\"nYnnn\",\"nYYnn\",\"nMnnY\",\"nnnMM\",\"MnnMn\",\"MnnMY\",\"nMMnM\"]},\"INERT\":{\"board_n\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],\"row_n\":[3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],\"resp\":[\"nnnYM\",\"nnnnn\",\"MnnMn\",\"YYYYY\",\"MnnnY\",\"Mnnnn\",\"nMMMn\",\"nnMMn\",\"nnMnM\",\"MnMnn\",\"MMnnn\",\"MnnMn\",\"nnnnY\",\"nnYnY\",\"nnMnM\",\"MMnnn\"]},\"CURIO\":{\"board_n\":[1,2,3,5,6,7,8,9,10,11,12,13,14,15,16],\"row_n\":[4,4,4,4,4,4,4,4,4,4,4,4,4,4,4],\"resp\":[\"nMMnn\",\"Ynnnn\",\"MnYYn\",\"nnnMn\",\"MYnMn\",\"nnYnn\",\"nnYnn\",\"nnnnM\",\"nnnMn\",\"nnnYn\",\"YYYYY\",\"MMnnM\",\"nnnnn\",\"nnnnY\",\"nnnYM\"]},\"TEMPO\":{\"board_n\":[1,2,3,5,6,7,8,9,10,11,13,14,15,16],\"row_n\":[5,5,5,5,5,5,5,5,5,5,5,5,5,5],\"resp\":[\"Mnnnn\",\"nnnnn\",\"nnnnn\",\"Mnnnn\",\"nnnnn\",\"nYnnn\",\"nYMnn\",\"MMnnM\",\"nMnnn\",\"nnMnn\",\"MnnnM\",\"MMnYn\",\"YYYYY\",\"nnnnM\"]},\"EXTOL\":{\"board_n\":[1,2,3,5,6,7,8,9,10,11,13,14,16],\"row_n\":[6,6,6,6,6,6,6,6,6,6,6,6,6],\"resp\":[\"nnYnM\",\"nnnnn\",\"nnnnM\",\"nnMnn\",\"nnnnn\",\"Mnnnn\",\"Mnnnn\",\"YYYYY\",\"MnnnY\",\"nnnnn\",\"nnMMn\",\"MnMnM\",\"nnnMM\"]},\"SLEPT\":{\"board_n\":[1,2,3,5,6,7,8,10,11,13,14,16],\"row_n\":[7,7,7,7,7,7,7,7,7,7,7,7],\"resp\":[\"nYnnM\",\"nnnnn\",\"nMnnn\",\"nnnnY\",\"nnnnn\",\"nnMnn\",\"nnMnn\",\"nMMnn\",\"nnnnn\",\"YnnnY\",\"YYYYY\",\"nMnnn\"]},\"LYRIC\":{\"board_n\":[1,2,3,5,6,7,8,10,11,13,16],\"row_n\":[8,8,8,8,8,8,8,8,8,8,8],\"resp\":[\"MnMnn\",\"nMnnM\",\"YYYYY\",\"nnnMn\",\"nnnMM\",\"nnYnn\",\"nnYnn\",\"YnnMn\",\"nnnYn\",\"nnnnM\",\"YnnYn\"]},\"MINIM\":{\"board_n\":[1,2,5,6,7,8,10,11,13,16],\"row_n\":[9,9,9,9,9,9,9,9,9,9],\"resp\":[\"nnnnn\",\"nnnnn\",\"nYnnn\",\"nMnnn\",\"nnMnn\",\"Ynnnn\",\"nYnnn\",\"YYYYY\",\"nnnnn\",\"nnMYn\"]},\"W\":{\"board_n\":[1,2,5,6,7,8,10,13,16],\"row_n\":[10,10,10,10,10,10,10,10,10],\"resp\":[\"n\",\"n\",\"n\",\"n\",\"n\",\"n\",\"n\",\"n\",\"n\"]}}\n"}
+TD1854 attempt: 0 SLEPT n Y n n m
+TD127 attempt: 1 SLEPT n n n n n
+TD83 attempt: 2 SLEPT n m n n n
+TD70 attempt: 4 SLEPT n n n n Y
+TD67 attempt: 5 SLEPT n n n n n
+TD68 attempt: 6 SLEPT n n m n n
+TD92 attempt: 7 SLEPT n n m n n
+TD83 attempt: 9 SLEPT n m m n n
+TD78 attempt: 10 SLEPT n n n n n
+TD93 attempt: 12 SLEPT Y n n n Y
+TD76 attempt: 13 SLEPT Y Y Y Y Y
+TD89 attempt: 15 SLEPT n m n n n
+TD71 attempt: 0 LYRIC m n m n n
+TD60 attempt: 1 LYRIC n m n n m
+TD65 attempt: 2 LYRIC Y Y Y Y Y
+TD77 attempt: 4 LYRIC n n n m n
+TD69 attempt: 5 LYRIC n n n m m
+TD64 attempt: 6 LYRIC n n Y n n
+TD65 attempt: 7 LYRIC n n Y n n
+TD65 attempt: 9 LYRIC Y n n m n
+TD69 attempt: 10 LYRIC n n n Y n
+TD59 attempt: 12 LYRIC n n n n m
+TD73 attempt: 15 LYRIC Y n n Y n
+TD73 attempt: 0 MINIM n n n n n
+TD63 attempt: 1 MINIM n n n n n
+TD56 attempt: 4 MINIM n Y n n n
+TD56 attempt: 5 MINIM n m n n n
+TD48 attempt: 6 MINIM n n m n n
+TD54 attempt: 7 MINIM Y n n n n
+TD50 attempt: 9 MINIM n Y n n n
+TD61 attempt: 10 MINIM Y Y Y Y Y
+TD75 attempt: 12 MINIM n n n n n
+TD66 attempt: 15 MINIM n n m Y n
+TD1485395 > ␅
+TD12611299 ␆* 6
+TD128 > * 6
+TD162187 questioning: quick
+TD274  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD5787709 ␆#1 nnnnn
+TD128  #1 _LTR_ ~AU -CEIMNOPSXY? #1 nnnnn
+TD420  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD46 ␆#2 nnnnn
+TD8  #1 _LTR_ ~AU -CEIMNOPSXY? #2 nnnnn
+TD68  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD16 ␆#5 nYnnn
+TD8  #1 _LTR_ ~AU -CEIMNOPSXY? #5 nYnnn
+TD39  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD11 ␆#6 nMnnn
+TD15  #1 _LTR_ ~AU -CEIMNOPSXY? #6 nMnnn
+TD42  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD17 ␆#7 nnMnn
+TD16  #1 _LTR_ ~AU -CEIMNOPSXY? #7 nnMnn
+TD86  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD23 ␆#8 Ynnnn
+TD13  #1 _LTR_ ~AU -CEIMNOPSXY? #8 Ynnnn
+TD43  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD20 ␆#10 nYnnn
+TD18  #1 _LTR_ ~AU -CEIMNOPSXY? #10 nYnnn
+TD93  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD76 ␆#11 YYYYY
+TD9  #1 _LTR_ ~AU -CEIMNOPSXY? #11 YYYYY
+TD147  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD84 ␆#13 nnnnn
+TD9  #1 _LTR_ ~AU -CEIMNOPSXY? #13 nnnnn
+TD99  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD21 ␆#16 nnMYn
+TD6  #1 _LTR_ ~AU -CEIMNOPSXY? #16 nnMYn
+TD57  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD739860 ␄
+TD141 <EOF>
+TD1460548 > ␅
+TD4833637 ␆* 6
+TD450 > * 6
+TD167764 questioning: quick
+TD270  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD5988082 ␆#1 nMnnn
+TD143  #1 _LTR_ ~AU -CEIMNOPSXY? #1 nMnnn
+TD292  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD58 ␆#2 nnnMn
+TD23  #1 _LTR_ ~AU -CEIMNOPSXY? #2 nnnMn
+TD64  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD15 ␆#5 nnMnn
+TD19  #1 _LTR_ ~AU -CEIMNOPSXY? #5 nnMnn
+TD72  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD43 ␆#6 YYYYY
+TD14  #1 _LTR_ ~AU -CEIMNOPSXY? #6 YYYYY
+TD44  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD12 ␆#7 nnnnn
+TD21  #1 _LTR_ ~AU -CEIMNOPSXY? #7 nnnnn
+TD38  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD22 ␆#8 nnnnn
+TD9  #1 _LTR_ ~AU -CEIMNOPSXY? #8 nnnnn
+TD32  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD18 ␆#10 nnMnn
+TD20  #1 _LTR_ ~AU -CEIMNOPSXY? #10 nnMnn
+TD38  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD11 ␆#13 nMnMn
+TD10  #1 _LTR_ ~AU -CEIMNOPSXY? #13 nMnMn
+TD53  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD11 ␆#16 nnMnn
+TD6  #1 _LTR_ ~AU -CEIMNOPSXY? #16 nnMnn
+TD27  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD206516 ␆
+TD285  #1 _LTR_ ~AU -CEIMNOPSXY? 
+TD361  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD261445 ␄
+TD293 <EOF>
+TD1478751 > ␅
+TD4467428 ␆* 13
+TD239 > * 13
+TD167014 questioning: scout
+TD269  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD4298308 ␆#1 nnnMM
+TD264  #1 _LTR_ ~AU -CEIMNOPSXY? #1 nnnMM
+TD952  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD143 ␆#2 nMnnn
+TD10  #1 _LTR_ ~AU -CEIMNOPSXY? #2 nMnnn
+TD174  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD29 ␆#5 nnnnY
+TD6  #1 _LTR_ ~AU -CEIMNOPSXY? #5 nnnnY
+TD37  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD11 ␆#7 nnnnn
+TD5  #1 _LTR_ ~AU -CEIMNOPSXY? #7 nnnnn
+TD31  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD13 ␆#8 nnnnn
+TD10  #1 _LTR_ ~AU -CEIMNOPSXY? #8 nnnnn
+TD45  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD15 ␆#10 nnnnn
+TD18  #1 _LTR_ ~AU -CEIMNOPSXY? #10 nnnnn
+TD41  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD29 ␆#13 YYYYY
+TD7  #1 _LTR_ ~AU -CEIMNOPSXY? #13 YYYYY
+TD40  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD21 ␆#16 nnMnn
+TD11  #1 _LTR_ ~AU -CEIMNOPSXY? #16 nnMnn
+TD46  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD123343 ␆
+TD95  #1 _LTR_ ~AU -CEIMNOPSXY? 
+TD211  #1 _LTR_ ~AU -CEIMNOPSXY? ␅
+TD246387 ␄
+TD329 <EOF>
+TD1473157 > ␅
+TD10614305 ␆audit
+TD87 > audit
+TD154 📋> ␅
+TD2703617 ␆{"ARLES":{"board_n":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"resp":["MMMnn","Mnnnn","nMMnn","nMnMn","nnnnn","nnnnn","nMnMn","nMnMn","nnMMn","nnMYn","nnnnn","nMnnn","nnnnM","nnMMM","nnnMn","nnMnn"]},"PINTO":{"board_n":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],"resp":["nnnMn","nnnnn","nMnnn","nMMMn","nYnMn","nMnnn","nnMnn","nnnnn","nnnMM","nYnnn","nYYnn","nMnnY","nnnMM","MnnMn","MnnMY","nMMnM"]},"INERT":{"board_n":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],"resp":["nnnYM","nnnnn","MnnMn","YYYYY","MnnnY","Mnnnn","nMMMn","nnMMn","nnMnM","MnMnn","MMnnn","MnnMn","nnnnY","nnYnY","nnMnM","MMnnn"]},"CURIO":{"board_n":[1,2,3,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[4,4,4,4,4,4,4,4,4,4,4,4,4,4,4],"resp":["nMMnn","Ynnnn","MnYYn","nnnMn","MYnMn","nnYnn","nnYnn","nnnnM","nnnMn","nnnYn","YYYYY","MMnnM","nnnnn","nnnnY","nnnYM"]},"TEMPO":{"board_n":[1,2,3,5,6,7,8,9,10,11,13,14,15,16],"row_n":[5,5,5,5,5,5,5,5,5,5,5,5,5,5],"resp":["Mnnnn","nnnnn","nnnnn","Mnnnn","nnnnn","nYnnn","nYMnn","MMnnM","nMnnn","nnMnn","MnnnM","MMnYn","YYYYY","nnnnM"]},"EXTOL":{"board_n":[1,2,3,5,6,7,8,9,10,11,13,14,16],"row_n":[6,6,6,6,6,6,6,6,6,6,6,6,6],"resp":["nnYnM","nnnnn","nnnnM","nnMnn","nnnnn","Mnnnn","Mnnnn","YYYYY","MnnnY","nnnnn","nnMMn","MnMnM","nnnMM"]},"SLEPT":{"board_n":[1,2,3,5,6,7,8,10,11,13,14,16],"row_n":[7,7,7,7,7,7,7,7,7,7,7,7],"resp":["nYnnM","nnnnn","nMnnn","nnnnY","nnnnn","nnMnn","nnMnn","nMMnn","nnnnn","YnnnY","YYYYY","nMnnn"]},"LYRIC":{"board_n":[1,2,3,5,6,7,8,10,11,13,16],"row_n":[8,8,8,8,8,8,8,8,8,8,8],"resp":["MnMnn","nMnnM","YYYYY","nnnMn","nnnMM","nnYnn","nnYnn","YnnMn","nnnYn","nnnnM","YnnYn"]},"MINIM":{"board_n":[1,2,5,6,7,8,10,11,13,16],"row_n":[9,9,9,9,9,9,9,9,9,9],"resp":["nnnnn","nnnnn","nYnnn","nMnnn","nnMnn","Ynnnn","nYnnn","YYYYY","nnnnn","nnMYn"]},"QUICK":{"board_n":[1,2,5,6,7,8,10,13,16],"row_n":[10,10,10,10,10,10,10,10,10],"resp":["nMnnn","nnnMn","nnMnn","YYYYY","nnnnn","nnnnn","nnMnn","nMnMn","nnMnn"]},"SCOUT":{"board_n":[1,2,5,7,8,10,13,16],"row_n":[11,11,11,11,11,11,11,11],"resp":["nnnMM","nMnnn","nnnnY","nnnnn","nnnnn","nnnnn","YYYYY","nnMnn"]},"W":{"board_n":[1,2,5,7,8,10,16],"row_n":[12,12,12,12,12,12,12],"resp":["n","n","n","n","n","n","n"]}}
+TD149 📋> {"ARLES":{"board_n":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],"resp":["MMMnn","Mnnnn","nMMnn","nMnMn","nnnnn","nnnnn","nMnMn","nMnMn","nnMMn","nnMYn","nnnnn","nMnnn","nnnnM","nnMMM","nnnMn","nnMnn"]},"PINTO":{"board_n":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],"resp":["nnnMn","nnnnn","nMnnn","nMMMn","nYnMn","nMnnn","nnMnn","nnnnn","nnnMM","nYnnn","nYYnn","nMnnY","nnnMM","MnnMn","MnnMY","nMMnM"]},"INERT":{"board_n":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],"resp":["nnnYM","nnnnn","MnnMn","YYYYY","MnnnY","Mnnnn","nMMMn","nnMMn","nnMnM","MnMnn","MMnnn","MnnMn","nnnnY","nnYnY","nnMnM","MMnnn"]},"CURIO":{"board_n":[1,2,3,5,6,7,8,9,10,11,12,13,14,15,16],"row_n":[4,4,4,4,4,4,4,4,4,4,4,4,4,4,4],"resp":["nMMnn","Ynnnn","MnYYn","nnnMn","MYnMn","nnYnn","nnYnn","nnnnM","nnnMn","nnnYn","YYYYY","MMnnM","nnnnn","nnnnY","nnnYM"]},"TEMPO":{"board_n":[1,2,3,5,6,7,8,9,10,11,13,14,15,16],"row_n":[5,5,5,5,5,5,5,5,5,5,5,5,5,5],"resp":["Mnnnn","nnnnn","nnnnn","Mnnnn","nnnnn","nYnnn","nYMnn","MMnnM","nMnnn","nnMnn","MnnnM","MMnYn","YYYYY","nnnnM"]},"EXTOL":{"board_n":[1,2,3,5,6,7,8,9,10,11,13,14,16],"row_n":[6,6,6,6,6,6,6,6,6,6,6,6,6],"resp":["nnYnM","nnnnn","nnnnM","nnMnn","nnnnn","Mnnnn","Mnnnn","YYYYY","MnnnY","nnnnn","nnMMn","MnMnM","nnnMM"]},"SLEPT":{"board_n":[1,2,3,5,6,7,8,10,11,13,14,16],"row_n":[7,7,7,7,7,7,7,7,7,7,7,7],"resp":["nYnnM","nnnnn","nMnnn","nnnnY","nnnnn","nnMnn","nnMnn","nMMnn","nnnnn","YnnnY","YYYYY","nMnnn"]},"LYRIC":{"board_n":[1,2,3,5,6,7,8,10,11,13,16],"row_n":[8,8,8,8,8,8,8,8,8,8,8],"resp":["MnMnn","nMnnM","YYYYY","nnnMn","nnnMM","nnYnn","nnYnn","YnnMn","nnnYn","nnnnM","YnnYn"]},"MINIM":{"board_n":[1,2,5,6,7,8,10,11,13,16],"row_n":[9,9,9,9,9,9,9,9,9,9],"resp":["nnnnn","nnnnn","nYnnn","nMnnn","nnMnn","Ynnnn","nYnnn","YYYYY","nnnnn","nnMYn"]},"QUICK":{"board_n":[1,2,5,6,7,8,10,13,16],"row_n":[10,10,10,10,10,10,10,10,10],"resp":["nMnnn","nnnMn","nnMnn","YYYYY","nnnnn","nnnnn","nnMnn","nMnMn","nnMnn"]},"SCOUT":{"board_n":[1,2,5,7,8,10,13,16],"row_n":[11,11,11,11,11,11,11,11],"resp":["nnnMM","nMnnn","nnnnY","nnnnn","nnnnn","nnnnn","YYYYY","nnMnn"]},"W":{"board_n":[1,2,5,7,8,10,16],"row_n":[12,12,12,12,12,12,12],"resp":["n","n","n","n","n","n","n"]}}
+TD39 📋> ␅
+TD137290 ␆
+TD216 📋> 
+TD20 📋> ␅
+TD254118 ␄
+TD210 pasted: {"subject": "\ud83d\udccb Copy All", "method": "read:must:stdin", "content": "{\"ARLES\":{\"board_n\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],\"row_n\":[1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1],\"resp\":[\"MMMnn\",\"Mnnnn\",\"nMMnn\",\"nMnMn\",\"nnnnn\",\"nnnnn\",\"nMnMn\",\"nMnMn\",\"nnMMn\",\"nnMYn\",\"nnnnn\",\"nMnnn\",\"nnnnM\",\"nnMMM\",\"nnnMn\",\"nnMnn\"]},\"PINTO\":{\"board_n\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],\"row_n\":[2,2,2,2,2,2,2,2,2,2,2,2,2,2,2,2],\"resp\":[\"nnnMn\",\"nnnnn\",\"nMnnn\",\"nMMMn\",\"nYnMn\",\"nMnnn\",\"nnMnn\",\"nnnnn\",\"nnnMM\",\"nYnnn\",\"nYYnn\",\"nMnnY\",\"nnnMM\",\"MnnMn\",\"MnnMY\",\"nMMnM\"]},\"INERT\":{\"board_n\":[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16],\"row_n\":[3,3,3,3,3,3,3,3,3,3,3,3,3,3,3,3],\"resp\":[\"nnnYM\",\"nnnnn\",\"MnnMn\",\"YYYYY\",\"MnnnY\",\"Mnnnn\",\"nMMMn\",\"nnMMn\",\"nnMnM\",\"MnMnn\",\"MMnnn\",\"MnnMn\",\"nnnnY\",\"nnYnY\",\"nnMnM\",\"MMnnn\"]},\"CURIO\":{\"board_n\":[1,2,3,5,6,7,8,9,10,11,12,13,14,15,16],\"row_n\":[4,4,4,4,4,4,4,4,4,4,4,4,4,4,4],\"resp\":[\"nMMnn\",\"Ynnnn\",\"MnYYn\",\"nnnMn\",\"MYnMn\",\"nnYnn\",\"nnYnn\",\"nnnnM\",\"nnnMn\",\"nnnYn\",\"YYYYY\",\"MMnnM\",\"nnnnn\",\"nnnnY\",\"nnnYM\"]},\"TEMPO\":{\"board_n\":[1,2,3,5,6,7,8,9,10,11,13,14,15,16],\"row_n\":[5,5,5,5,5,5,5,5,5,5,5,5,5,5],\"resp\":[\"Mnnnn\",\"nnnnn\",\"nnnnn\",\"Mnnnn\",\"nnnnn\",\"nYnnn\",\"nYMnn\",\"MMnnM\",\"nMnnn\",\"nnMnn\",\"MnnnM\",\"MMnYn\",\"YYYYY\",\"nnnnM\"]},\"EXTOL\":{\"board_n\":[1,2,3,5,6,7,8,9,10,11,13,14,16],\"row_n\":[6,6,6,6,6,6,6,6,6,6,6,6,6],\"resp\":[\"nnYnM\",\"nnnnn\",\"nnnnM\",\"nnMnn\",\"nnnnn\",\"Mnnnn\",\"Mnnnn\",\"YYYYY\",\"MnnnY\",\"nnnnn\",\"nnMMn\",\"MnMnM\",\"nnnMM\"]},\"SLEPT\":{\"board_n\":[1,2,3,5,6,7,8,10,11,13,14,16],\"row_n\":[7,7,7,7,7,7,7,7,7,7,7,7],\"resp\":[\"nYnnM\",\"nnnnn\",\"nMnnn\",\"nnnnY\",\"nnnnn\",\"nnMnn\",\"nnMnn\",\"nMMnn\",\"nnnnn\",\"YnnnY\",\"YYYYY\",\"nMnnn\"]},\"LYRIC\":{\"board_n\":[1,2,3,5,6,7,8,10,11,13,16],\"row_n\":[8,8,8,8,8,8,8,8,8,8,8],\"resp\":[\"MnMnn\",\"nMnnM\",\"YYYYY\",\"nnnMn\",\"nnnMM\",\"nnYnn\",\"nnYnn\",\"YnnMn\",\"nnnYn\",\"nnnnM\",\"YnnYn\"]},\"MINIM\":{\"board_n\":[1,2,5,6,7,8,10,11,13,16],\"row_n\":[9,9,9,9,9,9,9,9,9,9],\"resp\":[\"nnnnn\",\"nnnnn\",\"nYnnn\",\"nMnnn\",\"nnMnn\",\"Ynnnn\",\"nYnnn\",\"YYYYY\",\"nnnnn\",\"nnMYn\"]},\"QUICK\":{\"board_n\":[1,2,5,6,7,8,10,13,16],\"row_n\":[10,10,10,10,10,10,10,10,10],\"resp\":[\"nMnnn\",\"nnnMn\",\"nnMnn\",\"YYYYY\",\"nnnnn\",\"nnnnn\",\"nnMnn\",\"nMnMn\",\"nnMnn\"]},\"SCOUT\":{\"board_n\":[1,2,5,7,8,10,13,16],\"row_n\":[11,11,11,11,11,11,11,11],\"resp\":[\"nnnMM\",\"nMnnn\",\"nnnnY\",\"nnnnn\",\"nnnnn\",\"nnnnn\",\"YYYYY\",\"nnMnn\"]},\"W\":{\"board_n\":[1,2,5,7,8,10,16],\"row_n\":[12,12,12,12,12,12,12],\"resp\":[\"n\",\"n\",\"n\",\"n\",\"n\",\"n\",\"n\"]}}\n"}
+TD2788 attempt: 0 QUICK n m n n n
+TD115 attempt: 1 QUICK n n n m n
+TD85 attempt: 4 QUICK n n m n n
+TD94 attempt: 5 QUICK Y Y Y Y Y
+TD83 attempt: 6 QUICK n n n n n
+TD78 attempt: 7 QUICK n n n n n
+TD75 attempt: 9 QUICK n n m n n
+TD74 attempt: 12 QUICK n m n m n
+TD77 attempt: 15 QUICK n n m n n
+TD87 attempt: 0 SCOUT n n n m m
+TD80 attempt: 1 SCOUT n m n n n
+TD91 attempt: 4 SCOUT n n n n Y
+TD80 attempt: 6 SCOUT n n n n n
+TD80 attempt: 7 SCOUT n n n n n
+TD74 attempt: 9 SCOUT n n n n n
+TD74 attempt: 12 SCOUT Y Y Y Y Y
+TD76 attempt: 15 SCOUT n n m n n
+TD1160071 > ␅
+TD2386463 ␆/drop
+TD123 > /drop
+TD1196 📋> ␅
+TD2994012 ␆🤖 sedecordle dropin online
+TD239 📋> 🤖 sedecordle dropin online
+TD21 📋> ␅
+TD136676 ␆
+TD124 📋> 
+TD17 📋> ␅
+TD380667 ␄
+TD161 pasted: {"subject": "\ud83d\udccb\ud83c\udf10 Dropin 15320 bytes", "method": "read:must:stdin", "content": "\ud83e\udd16 sedecordle dropin online\n"}
+TD1160386 💧> ␅
+TD2774261 ␆* 7
+TD126 💧> * 7
+TD165135 questioning: nerve
+TD224 📋> ␅
+TD7658071 ␆#1 nnMnn
+TD229 📋> #1 nnMnn
+TD24 📋> ␅
+TD77 ␆#2 nnnnn
+TD10 📋> #2 nnnnn
+TD7 📋> ␅
+TD17 ␆#5 nnnnn
+TD8 📋> #5 nnnnn
+TD7 📋> ␅
+TD20 ␆#7 YYYYY
+TD7 📋> #7 YYYYY
+TD6 📋> ␅
+TD19 ␆#8 nYYnY
+TD6 📋> #8 nYYnY
+TD6 📋> ␅
+TD15 ␆#10 nMnnn
+TD6 📋> #10 nMnnn
+TD6 📋> ␅
+TD13 ␆#16 Mnnnn
+TD6 📋> #16 Mnnnn
+TD8 📋> ␅
+TD195809 ␆
+TD106 📋> 
+TD15 📋> ␅
+TD255466 ␄
+TD415 pasted: {"subject": "Scrape wrt 'nerve'", "method": "read:must:stdin", "content": "#1 nnMnn\n#2 nnnnn\n#5 nnnnn\n#7 YYYYY\n#8 nYYnY\n#10 nMnnn\n#16 Mnnnn\n"}
+TD743 attempt: 0 nerve n n m n n
+TD109 attempt: 1 nerve n n n n n
+TD74 attempt: 4 nerve n n n n n
+TD72 attempt: 6 nerve Y Y Y Y Y
+TD69 attempt: 7 nerve n Y Y n Y
+TD68 attempt: 9 nerve n m n n n
+TD67 attempt: 15 nerve m n n n n
+TD980332 💧> ␅
+TD2184730 ␆* 10
+TD164 💧> * 10
+TD164439 questioning: libel
+TD214 📋> ␅
+TD3891499 ␆#1 Mnnnn
+TD298 📋> #1 Mnnnn
+TD27 📋> ␅
+TD85 ␆#2 nnYnn
+TD11 📋> #2 nnYnn
+TD7 📋> ␅
+TD18 ␆#5 nYnnn
+TD6 📋> #5 nYnnn
+TD7 📋> ␅
+TD14 ␆#8 nnnMn
+TD7 📋> #8 nnnMn
+TD6 📋> ␅
+TD13 ␆#10 YYYYY
+TD6 📋> #10 YYYYY
+TD7 📋> ␅
+TD12 ␆#16 YMnnn
+TD7 📋> #16 YMnnn
+TD7 📋> ␅
+TD202548 ␆
+TD156 📋> 
+TD27 📋> ␅
+TD250889 ␄
+TD161 pasted: {"subject": "Scrape wrt 'libel'", "method": "read:must:stdin", "content": "#1 Mnnnn\n#2 nnYnn\n#5 nYnnn\n#8 nnnMn\n#10 YYYYY\n#16 YMnnn\n"}
+TD260 attempt: 0 libel m n n n n
+TD96 attempt: 1 libel n n Y n n
+TD83 attempt: 4 libel n Y n n n
+TD67 attempt: 7 libel n n n m n
+TD73 attempt: 9 libel Y Y Y Y Y
+TD63 attempt: 15 libel Y m n n n
+TD808979 💧> ␅
+TD2586046 ␆* 16
+TD154 💧> * 16
+TD161271 questioning: login
+TD160 📋> ␅
+TD3807672 ␆#1 Mnnnn
+TD230 📋> #1 Mnnnn
+TD25 📋> ␅
+TD82 ␆#2 nnnnn
+TD8 📋> #2 nnnnn
+TD9 📋> ␅
+TD13 ␆#5 nnYMn
+TD7 📋> #5 nnYMn
+TD6 📋> ␅
+TD17 ␆#8 nnMnn
+TD7 📋> #8 nnMnn
+TD7 📋> ␅
+TD13 ␆#16 YYYYY
+TD6 📋> #16 YYYYY
+TD4 📋> ␅
+TD131992 ␆
+TD133 📋> 
+TD15 📋> ␅
+TD128087 ␄
+TD204 pasted: {"subject": "Scrape wrt 'login'", "method": "read:must:stdin", "content": "#1 Mnnnn\n#2 nnnnn\n#5 nnYMn\n#8 nnMnn\n#16 YYYYY\n"}
+TD273 attempt: 0 login m n n n n
+TD97 attempt: 1 login n n n n n
+TD82 attempt: 4 login n n Y m n
+TD85 attempt: 7 login n n m n n
+TD102 attempt: 15 login Y Y Y Y Y
+TD663053 💧> ␅
+TD2824837 ␆* 8
+TD98 💧> * 8
+TD157343 questioning: merge
+TD213 📋> ␅
+TD4661477 ␆#1 nnMnn
+TD144 📋> #1 nnMnn
+TD19 📋> ␅
+TD58 ␆#2 nnnnn
+TD10 📋> #2 nnnnn
+TD5 📋> ␅
+TD12 ␆#5 nnnMn
+TD6 📋> #5 nnnMn
+TD5 📋> ␅
+TD9 ␆#8 YYYYY
+TD21 📋> #8 YYYYY
+TD27 📋> ␅
+TD127992 ␆
+TD128 📋> 
+TD14 📋> ␅
+TD182755 ␄
+TD208 pasted: {"subject": "Scrape wrt 'merge'", "method": "read:must:stdin", "content": "#1 nnMnn\n#2 nnnnn\n#5 nnnMn\n#8 YYYYY\n"}
+TD387 attempt: 0 merge n n m n n
+TD127 attempt: 1 merge n n n n n
+TD88 attempt: 4 merge n n n m n
+TD87 attempt: 7 merge Y Y Y Y Y
+TD506676 💧> ␅
+TD1599258 ␆*
+TD95 💧> *
+TD399 questioning: ultra
+TD4515 📋> ␅
+TD6221047 ␆#1 YYYYY
+TD275 📋> #1 YYYYY
+TD23 📋> ␅
+TD388 ␆#2 nnnnM
+TD78 📋> #2 nnnnM
+TD29 📋> ␅
+TD40 ␆#5 nnMnn
+TD9 📋> #5 nnMnn
+TD9 📋> ␅
+TD125416 ␆
+TD235 📋> 
+TD27 📋> ␅
+TD192560 ␄
+TD352 pasted: {"subject": "Scrape wrt 'ultra'", "method": "read:must:stdin", "content": "#1 YYYYY\n#2 nnnnM\n#5 nnMnn\n"}
+TD482 attempt: 0 ultra Y Y Y Y Y
+TD154 attempt: 1 ultra n n n n m
+TD107 attempt: 4 ultra n n m n n
+TD349978 💧> ␅
+TD1325098 ␆*
+TD130 💧> *
+TD442 questioning: cabby
+TD164 📋> ␅
+TD4430379 ␆#2 YYYYY
+TD116 📋> #2 YYYYY
+TD14 📋> ␅
+TD40 ␆#5 nnnnn
+TD7 📋> #5 nnnnn
+TD6 📋> ␅
+TD188694 ␆
+TD128 📋> 
+TD15 📋> ␅
+TD243550 ␄
+TD146 pasted: {"subject": "Scrape wrt 'cabby'", "method": "read:must:stdin", "content": "#2 YYYYY\n#5 nnnnn\n"}
+TD214 attempt: 1 cabby Y Y Y Y Y
+TD94 attempt: 4 cabby n n n n n
+TD161474 💧> ␅
+TD1164645 ␆*
+TD156 💧> *
+TD1236 ? ␅
+TD1971820 ␆2
+TD263 ? 2
+TD449 questioning: fight
+TD262 📋> ␅
+TD4400929 ␆#5 YYYYY
+TD240 📋> #5 YYYYY
+TD24 📋> ␅
+TD133558 ␆
+TD192 📋> 
+TD23 📋> ␅
+TD241345 ␄
+TD200 pasted: {"subject": "Scrape wrt 'fight'", "method": "read:must:stdin", "content": "#5 YYYYY\n"}
+TD264 attempt: 4 fight Y Y Y Y Y
+TD106 📋> ␅
+TD10865398 ␆#Sedecordle Daily #1743 18/21 🔥 12 day streak
+TD277 📋> #Sedecordle Daily #1743 18/21 🔥 12 day streak
+TD25 📋> ␅
+TD116 ␆1️⃣6️⃣⬛1️⃣7️⃣
+TD20 📋> 1️⃣6️⃣⬛1️⃣7️⃣
+TD11 📋> ␅
+TD21 ␆0️⃣8️⃣⬛0️⃣3️⃣
+TD6 📋> 0️⃣8️⃣⬛0️⃣3️⃣
+TD9 📋> ␅
+TD14 ␆1️⃣8️⃣⬛1️⃣0️⃣
+TD6 📋> 1️⃣8️⃣⬛1️⃣0️⃣
+TD7 📋> ␅
+TD14 ␆1️⃣2️⃣⬛1️⃣5️⃣
+TD7 📋> 1️⃣2️⃣⬛1️⃣5️⃣
+TD7 📋> ␅
+TD11 ␆0️⃣6️⃣⬛1️⃣3️⃣
+TD6 📋> 0️⃣6️⃣⬛1️⃣3️⃣
+TD7 📋> ␅
+TD12 ␆0️⃣9️⃣⬛0️⃣4️⃣
+TD30 📋> 0️⃣9️⃣⬛0️⃣4️⃣
+TD111 📋> ␅
+TD50 ␆1️⃣1️⃣⬛0️⃣7️⃣
+TD7 📋> 1️⃣1️⃣⬛0️⃣7️⃣
+TD16 📋> ␅
+TD13 ␆0️⃣5️⃣⬛1️⃣4️⃣
+TD6 📋> 0️⃣5️⃣⬛1️⃣4️⃣
+TD5 📋> ␅
+TD103347 ␆sedecordle.com
+TD100 📋> sedecordle.com
+TD14 📋> ␅
+TD231643 ␄
+TD390 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "#Sedecordle Daily #1743 18/21 \ud83d\udd25 12 day streak\n1\ufe0f\u20e36\ufe0f\u20e3\u2b1b1\ufe0f\u20e37\ufe0f\u20e3\n0\ufe0f\u20e38\ufe0f\u20e3\u2b1b0\ufe0f\u20e33\ufe0f\u20e3\n1\ufe0f\u20e38\ufe0f\u20e3\u2b1b1\ufe0f\u20e30\ufe0f\u20e3\n1\ufe0f\u20e32\ufe0f\u20e3\u2b1b1\ufe0f\u20e35\ufe0f\u20e3\n0\ufe0f\u20e36\ufe0f\u20e3\u2b1b1\ufe0f\u20e33\ufe0f\u20e3\n0\ufe0f\u20e39\ufe0f\u20e3\u2b1b0\ufe0f\u20e34\ufe0f\u20e3\n1\ufe0f\u20e31\ufe0f\u20e3\u2b1b0\ufe0f\u20e37\ufe0f\u20e3\n0\ufe0f\u20e35\ufe0f\u20e3\u2b1b1\ufe0f\u20e34\ufe0f\u20e3\nsedecordle.com"}
+TD2115 result: "#Sedecordle Daily #1743 18/21 \ud83d\udd25 12 day streak\n1\ufe0f\u20e36\ufe0f\u20e3\u2b1b1\ufe0f\u20e37\ufe0f\u20e3\n0\ufe0f\u20e38\ufe0f\u20e3\u2b1b0\ufe0f\u20e33\ufe0f\u20e3\n1\ufe0f\u20e38\ufe0f\u20e3\u2b1b1\ufe0f\u20e30\ufe0f\u20e3\n1\ufe0f\u20e32\ufe0f\u20e3\u2b1b1\ufe0f\u20e35\ufe0f\u20e3\n0\ufe0f\u20e36\ufe0f\u20e3\u2b1b1\ufe0f\u20e33\ufe0f\u20e3\n0\ufe0f\u20e39\ufe0f\u20e3\u2b1b0\ufe0f\u20e34\ufe0f\u20e3\n1\ufe0f\u20e31\ufe0f\u20e3\u2b1b0\ufe0f\u20e37\ufe0f\u20e3\n0\ufe0f\u20e35\ufe0f\u20e3\u2b1b1\ufe0f\u20e34\ufe0f\u20e3\nsedecordle.com"
+TD142 📆 2026-11-22 ? ␅
+TD528258 ␆
+TD96 📆 2026-11-22 ? 
