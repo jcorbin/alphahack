@@ -1,0 +1,119 @@
+T52.444661560992245 now: 2026-11-22T10:16:52EST
+TD140 site: alphaguess.com
+TD283391 loaded 196505 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (99 words excluded) asof b11f8efccd3b414a85701cf16bbac1ba445f7a87
+TD163  ...␅
+TD42 ␆
+TD8  ...
+TD119 [0 : 98138 : 196505] mac? ␅
+TD1364671 ␆
+TD114 [0 : 98138 : 196505] mac? 
+TD121 [0 : 98138 : 196505] mac? ␅
+TD3484913 ␆
+TD92 [0 : 98138 : 196505] mac? 
+TD156 [0 : 98138 : 196505] mac? ␅
+TD2267199 ␆a
+TD122 [0 : 98138 : 196505] mac? a
+TD121 progress: 1 98138 mac
+TD129 [98139 : 147299 : 196505] rho? ␅
+TD1572625 ␆a
+TD108 [98139 : 147299 : 196505] rho? a
+TD108 progress: 1 147299 rho
+TD120 [147300 : 171898 : 196505] tag? ␅
+TD1481005 ␆b
+TD122 [147300 : 171898 : 196505] tag? b
+TD115 progress: -1 171898 tag
+TD184 [147300 : 159581 : 171898] slug? ␅
+TD1562253 ␆a
+TD99 [147300 : 159581 : 171898] slug? a
+TD116 progress: 1 159581 slug
+TD501 [159582 : 165740 : 171898] stipe? ␅
+TD1531432 ␆b
+TD152 [159582 : 165740 : 171898] stipe? b
+TD148 progress: -1 165740 stipe
+TD655 [159582 : 162660 : 165740] speel? ␅
+TD1348194 ␆b
+TD301 [159582 : 162660 : 165740] speel? b
+TD395 progress: -1 162660 speel
+TD216 [159582 : 161109 : 162660] sole? ␅
+TD1388915 ␆bb
+TD112 [159582 : 161109 : 162660] sole? bb
+TD325 [159582 : 161109 : 162660] sole? ␅
+TD2179302 ␆b
+TD71 [159582 : 161109 : 162660] sole? b
+TD82 progress: -1 161109 sole
+TD222 [159582 : 160341 : 161109] sniggle? ␅
+TD1605058 ␆a
+TD87 [159582 : 160341 : 161109] sniggle? a
+TD102 progress: 1 160341 sniggle
+TD111 [160342 : 160705 : 161109] soap? ␅
+TD1608379 ␆a
+TD80 [160342 : 160705 : 161109] soap? a
+TD88 progress: 1 160705 soap
+TD88 [160706 : 160904 : 161109] sodden? ␅
+TD1361149 ␆a
+TD100 [160706 : 160904 : 161109] sodden? a
+TD85 progress: 1 160904 sodden
+TD85 [160905 : 161004 : 161109] soil? ␅
+TD1289478 ␆a
+TD128 [160905 : 161004 : 161109] soil? a
+TD123 progress: 1 161004 soil
+TD119 [161005 : 161033 : 161109] sola? ␅
+TD1392801 ␆a
+TD188 [161005 : 161033 : 161109] sola? a
+TD168 progress: 1 161033 sola
+TD193 [161034 : 161057 : 161109] solar? ␅
+TD1380108 ␆a
+TD203 [161034 : 161057 : 161109] solar? a
+TD215 progress: 1 161057 solar
+TD227 [161058 : 161083 : 161109] sold? ␅
+TD1343538 ␆a
+TD113 [161058 : 161083 : 161109] sold? a
+TD121 progress: 1 161083 sold
+TD333 [161084 : 161086 : 161109] solder? ␅
+TD1337818 ␆a
+TD183 [161084 : 161086 : 161109] solder? a
+TD220 progress: 1 161086 solder
+TD231 [161087 : 161097 : 161109] soldi? ␅
+TD3228630 ␆a
+TD128 [161087 : 161097 : 161109] soldi? a
+TD136 progress: 1 161097 soldi
+TD294 [161098 : 161104 : 161109] soldiers? ␅
+TD1894546 ␆b
+TD81 [161098 : 161104 : 161109] soldiers? b
+TD84 progress: -1 161104 soldiers
+TD205 [161098 : 161101 : 161104] soldiering? ␅
+TD1514408 ␆b
+TD114 [161098 : 161101 : 161104] soldiering? b
+TD110 progress: -1 161101 soldiering
+TD200 [161098 : 161099 : 161101] soldiered? ␅
+TD1537391 ␆b
+TD117 [161098 : 161099 : 161101] soldiered? b
+TD114 progress: -1 161099 soldiered
+TD190 [161098 : 161098 : 161099] soldier? ␅
+TD3098053 ␆it
+TD106 [161098 : 161098 : 161099] soldier? it
+TD114 progress: 0 161098 soldier
+TD36 [161098 : 161098 : 161099] <Done>.
+TD145 📋> ␅
+TD3423468 ␆🧩 Puzzle #1217
+TD215 📋> 🧩 Puzzle #1217
+TD19 📋> ␅
+TD76 ␆🤔 20 guesses
+TD11 📋> 🤔 20 guesses
+TD7 📋> ␅
+TD18 ␆⏱️ 32s
+TD8 📋> ⏱️ 32s
+TD7 📋> ␅
+TD129034 ␆🔗 alphaguess.com/1217
+TD112 📋> 🔗 alphaguess.com/1217
+TD24 📋> ␅
+TD565093 ␄
+TD367 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1217\n\ud83e\udd14 20 guesses\n\u23f1\ufe0f 32s\n\ud83d\udd17 alphaguess.com/1217"}
+TD181 result: "\ud83e\udde9 Puzzle #1217\n\ud83e\udd14 20 guesses\n\u23f1\ufe0f 32s\n\ud83d\udd17 alphaguess.com/1217"
+TD20 result puzzle: 1217
+TD8 result guesses: 20
+TD6 result time: 32s
+TD5 result link: alphaguess.com/1217
+TD190 📆 2026-11-22 ? ␅
+TD323149 ␆
+TD84 📆 2026-11-22 ? 
