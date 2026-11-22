@@ -1,0 +1,255 @@
+T318.6701581230009 now: 2026-11-22T10:35:13EST
+TD125 site: squareword.org
+TD29 wordlist: nwl2023.txt
+TD54  ...␅
+TD5537239 ␆
+TD92  ...
+TD65 🧩  ? ␅
+TD2496199 ␆#1756
+TD153 🧩  ? #1756
+TD320 puzzle_id: #1756
+TD425 > ␅
+TD839792 ␆*
+TD123 > *
+TD440609 try? ␅
+TD1056011 ␆1
+TD130 try? 1
+TD371 questioning: ["lares", "#5"]
+TD446 #1 <IndexError>  📋 "lares" ? ␅
+TD4705406 ␆_____ ~ AES
+TD129 #1 <IndexError>  📋 "lares" ? _____ ~ AES
+TD728 attempt 0 LARES n m n m m
+TD128 #2 <IndexError>  📋 "lares" ? ␅
+TD1987799 ␆_____ ~ RE
+TD128 #2 <IndexError>  📋 "lares" ? _____ ~ RE
+TD567 attempt 1 LARES n n m m n
+TD218 #3 <IndexError>  📋 "lares" ? ␅
+TD2956650 ␆_____ ~ RE
+TD129 #3 <IndexError>  📋 "lares" ? _____ ~ RE
+TD290 attempt 2 LARES n n m m n
+TD163 #4 <IndexError>  📋 "lares" ? ␅
+TD2250949 ␆___E_ ~ L
+TD110 #4 <IndexError>  📋 "lares" ? ___E_ ~ L
+TD313 attempt 3 LARES m n n Y n
+TD162 #5 <IndexError>  📋 "lares" ? ␅
+TD7267746 ␆____S ~ LAE
+TD96 #5 <IndexError>  📋 "lares" ? ____S ~ LAE
+TD214 attempt 4 LARES m m n m Y
+TD316 ? ␅
+TD994786 ␆
+TD212 ? 
+TD295 question done
+TD461 > ␅
+TD1288914 ␆* 3
+TD89 > * 3
+TD542079 try? ␅
+TD7842515 ␆5
+TD154 try? 5
+TD370 questioning: ["overt", "#3"]
+TD712 #1 _____ ~AES -LR  📋 "overt" ? ␅
+TD3516318 ␆.
+TD310 #1 _____ ~AES -LR  📋 "overt" ? .
+TD486 attempt 0 OVERT n n m n n
+TD100 #2 _____ ~ER -ALS  📋 "overt" ? ␅
+TD2883321 ␆_____ ~ REO
+TD130 #2 _____ ~ER -ALS  📋 "overt" ? _____ ~ REO
+TD328 attempt 1 OVERT m n m m n
+TD296 #3 _____ ~ER -ALS  📋 "overt" ? ␅
+TD2562431 ␆_____ ~ REO
+TD90 #3 _____ ~ER -ALS  📋 "overt" ? _____ ~ REO
+TD220 attempt 2 OVERT m n m m n
+TD144 #4 ___E_ ~L -ARS  📋 "overt" ? ␅
+TD2030978 ␆.
+TD84 #4 ___E_ ~L -ARS  📋 "overt" ? .
+TD224 attempt 3 OVERT n n n n n
+TD79 #5 ____S ~AEL -R  📋 "overt" ? ␅
+TD1309295 ␆.
+TD141 #5 ____S ~AEL -R  📋 "overt" ? .
+TD283 attempt 4 OVERT n n m n n
+TD287 ? ␅
+TD227387 ␆
+TD131 ? 
+TD130 question done
+TD339 > ␅
+TD485914 ␆*
+TD123 > *
+TD824863 try? ␅
+TD3693187 ␄
+TD160 <EOF>
+TD390 > ␅
+TD1768888 ␆* 2
+TD91 > * 2
+TD7594 try? ␅
+TD1356487 ␄
+TD163 <EOF>
+TD382 > ␅
+TD1849460 ␆* 1
+TD123 > * 1
+TD8153 try? ␅
+TD2047727 ␆1
+TD107 try? 1
+TD416 questioning: ["phase", "#1"]
+TD538 #1 _____ ~AES -LORTV  📋 "phase" ? ␅
+TD3604259 ␆.
+TD128 #1 _____ ~AES -LORTV  📋 "phase" ? .
+TD799 attempt 0 PHASE n n m m m
+TD399 #2 _____ ~EOR -ALSTV  📋 "phase" ? ␅
+TD3758547 ␆____E ~ RO
+TD156 #2 _____ ~EOR -ALSTV  📋 "phase" ? ____E ~ RO
+TD304 attempt 1 PHASE n n n n Y
+TD169 #3 _____ ~EOR -ALSTV  📋 "phase" ? ␅
+TD3143340 ␆____E ~ RO
+TD126 #3 _____ ~EOR -ALSTV  📋 "phase" ? ____E ~ RO
+TD341 attempt 2 PHASE n n n n Y
+TD255 #4 ___E_ ~L -AEORSTV  📋 "phase" ? ␅
+TD1696918 ␆.
+TD146 #4 ___E_ ~L -AEORSTV  📋 "phase" ? .
+TD305 attempt 3 PHASE n n n n n
+TD104 #5 ____S ~AEL -ORTV  📋 "phase" ? ␅
+TD3968890 ␆P_A_S ~ LE
+TD125 #5 ____S ~AEL -ORTV  📋 "phase" ? P_A_S ~ LE
+TD345 attempt 4 PHASE Y n Y n m
+TD502 ? ␅
+TD742413 ␆
+TD275 ? 
+TD233 question done
+TD460 > ␅
+TD664809 ␆*
+TD101 > *
+TD1157506 questioning: ["peals", "#5"]
+TD366 #1 _____ ~AES -HLOPRTV  📋 "peals" ? ␅
+TD4828646 ␆_E___ ~ AS
+TD92 #1 _____ ~AES -HLOPRTV  📋 "peals" ? _E___ ~ AS
+TD257 attempt 0 PEALS n Y m n m
+TD154 #2 ____E ~OR -AHLPSTV  📋 "peals" ? ␅
+TD1308397 ␆.
+TD136 #2 ____E ~OR -AHLPSTV  📋 "peals" ? .
+TD344 attempt 1 PEALS n n n n n
+TD324 #3 ____E ~OR -AHLPSTV  📋 "peals" ? ␅
+TD720289 ␆.
+TD120 #3 ____E ~OR -AHLPSTV  📋 "peals" ? .
+TD292 attempt 2 PEALS n n n n n
+TD113 #4 ___E_ ~L -AEHOPRSTV  📋 "peals" ? ␅
+TD1139983 ␆.
+TD174 #4 ___E_ ~L -AEHOPRSTV  📋 "peals" ? .
+TD360 attempt 3 PEALS n n n m n
+TD177 #5 P_A_S ~EL -HORSTV  📋 "peals" ? ␅
+TD804970 ␆/it
+TD121 #5 P_A_S ~EL -HORSTV  📋 "peals" ? /it
+TD291 attempt 4 PEALS Y Y Y Y Y
+TD348 ? ␅
+TD133002 ␆
+TD137 ? 
+TD234 question done
+TD491 > ␅
+TD440661 ␆*
+TD123 > *
+TD671530 try? ␅
+TD2227724 ␆1
+TD99 try? 1
+TD253 questioning: ["sedan", "#1"]
+TD331 #1 _E___ ~AS -HLOPRTV  📋 "sedan" ? ␅
+TD2271653 ␆/it
+TD102 #1 _E___ ~AS -HLOPRTV  📋 "sedan" ? /it
+TD220 attempt 0 SEDAN Y Y Y Y Y
+TD97 #2 ____E ~OR -AEHLPSTV  📋 "sedan" ? ␅
+TD3530836 ␆____E ~ RON
+TD138 #2 ____E ~OR -AEHLPSTV  📋 "sedan" ? ____E ~ RON
+TD289 attempt 1 SEDAN n n n n m
+TD164 #3 ____E ~OR -AEHLPSTV  📋 "sedan" ? ␅
+TD1745849 ␆.
+TD137 #3 ____E ~OR -AEHLPSTV  📋 "sedan" ? .
+TD296 attempt 2 SEDAN n n n n n
+TD112 #4 ___E_ ~L -AEHOPRSTV  📋 "sedan" ? ␅
+TD3622570 ␆___E_ ~ LD
+TD89 #4 ___E_ ~L -AEHOPRSTV  📋 "sedan" ? ___E_ ~ LD
+TD219 attempt 3 SEDAN n n m n n
+TD347 ? ␅
+TD262914 ␆
+TD133 ? 
+TD130 question done
+TD320 > ␅
+TD388150 ␆*
+TD124 > *
+TD1304068 questioning: ["rouge", "#3"]
+TD383 #2 ____E ~NOR -ADEHLPSTV  📋 "rouge" ? ␅
+TD4074734 ␆.
+TD128 #2 ____E ~NOR -ADEHLPSTV  📋 "rouge" ? .
+TD320 attempt 1 ROUGE m m n n Y
+TD174 #3 ____E ~OR -ADEHLNPSTV  📋 "rouge" ? ␅
+TD916619 ␆/it
+TD86 #3 ____E ~OR -ADEHLNPSTV  📋 "rouge" ? /it
+TD212 attempt 2 ROUGE Y Y Y Y Y
+TD87 #4 ___E_ ~DL -AEHNOPRSTV  📋 "rouge" ? ␅
+TD895188 ␆.
+TD129 #4 ___E_ ~DL -AEHNOPRSTV  📋 "rouge" ? .
+TD277 attempt 3 ROUGE n n n n n
+TD295 ? ␅
+TD134200 ␆
+TD83 ? 
+TD91 question done
+TD282 > ␅
+TD456346 ␆*
+TD122 > *
+TD2423386 questioning: ["idled", "#4"]
+TD398 #2 ____E ~NOR -ADGHLPSTUV  📋 "idled" ? ␅
+TD4759497 ␆.
+TD91 #2 ____E ~NOR -ADGHLPSTUV  📋 "idled" ? .
+TD673 attempt 1 IDLED n n n n n
+TD104 #4 ___E_ ~DL -AEGHNOPRSTUV  📋 "idled" ? ␅
+TD670676 ␆/it
+TD89 #4 ___E_ ~DL -AEGHNOPRSTUV  📋 "idled" ? /it
+TD266 attempt 3 IDLED Y Y Y Y Y
+TD302 ? ␅
+TD239811 ␆
+TD121 ? 
+TD122 question done
+TD373 > ␅
+TD399538 ␆*
+TD88 > *
+TD1909384 questioning: ["crone", "#2"]
+TD408 #2 ____E ~NOR -ADEGHILPSTUV  📋 "crone" ? ␅
+TD3155502 ␆/it
+TD92 #2 ____E ~NOR -ADEGHILPSTUV  📋 "crone" ? /it
+TD214 attempt 1 CRONE Y Y Y Y Y
+TD291 ? ␅
+TD272964 ␆
+TD88 ? 
+TD97 question done
+TD46627 📋> ␅
+TD7519818 ␆squareword.org 1756: 8 guesses
+TD463 📋> squareword.org 1756: 8 guesses
+TD38 📋> ␅
+TD124 ␆
+TD10 📋> 
+TD5 📋> ␅
+TD25 ␆🟩🟩🟩🟩🟩
+TD10 📋> 🟩🟩🟩🟩🟩
+TD9 📋> ␅
+TD12 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD4 📋> ␅
+TD14 ␆🟨🟨🟨🟨🟩
+TD4 📋> 🟨🟨🟨🟨🟩
+TD4 📋> ␅
+TD15 ␆🟨🟨🟨🟩🟨
+TD6 📋> 🟨🟨🟨🟩🟨
+TD6 📋> ␅
+TD12 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD4 📋> ␅
+TD9 ␆
+TD5 📋> 
+TD4 📋> ␅
+TD14 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD6 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD202424 ␆#squareword #squareword1756
+TD109 📋> #squareword #squareword1756
+TD16 📋> ␅
+TD183307 ␄
+TD237 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1756: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1756"}
+TD1111 result: "squareword.org 1756: 8 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1756"
+TD188 📆 2026-11-22 ? ␅
+TD776967 ␆
+TD161 📆 2026-11-22 ? 
