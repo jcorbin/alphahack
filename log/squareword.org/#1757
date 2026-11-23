@@ -1,0 +1,245 @@
+T940.4751967670163 now: 2026-11-23T10:59:29EST
+TD207 site: squareword.org
+TD70 wordlist: nwl2023.txt
+TD69  ...␅
+TD625071 ␆
+TD131  ...
+TD80 🧩  ? ␅
+TD15910943 ␆#1757
+TD117 🧩  ? #1757
+TD283 puzzle_id: #1757
+TD298 > ␅
+TD1751079 ␆*
+TD129 > *
+TD448765 try? ␅
+TD1148871 ␆1
+TD322 try? 1
+TD613 questioning: ["aeons", "#5"]
+TD281 #1 <IndexError>  📋 "aeons" ? ␅
+TD4990286 ␆___N_ ~ AE
+TD138 #1 <IndexError>  📋 "aeons" ? ___N_ ~ AE
+TD1707 attempt 0 AEONS m m n Y n
+TD345 #2 <IndexError>  📋 "aeons" ? ␅
+TD2587603 ␆_E___ ~ ON
+TD139 #2 <IndexError>  📋 "aeons" ? _E___ ~ ON
+TD355 attempt 1 AEONS n Y m m n
+TD220 #3 <IndexError>  📋 "aeons" ? ␅
+TD2272215 ␆A____ ~ O
+TD228 #3 <IndexError>  📋 "aeons" ? A____ ~ O
+TD285 attempt 2 AEONS Y n m n n
+TD223 #4 <IndexError>  📋 "aeons" ? ␅
+TD2218600 ␆_____ ~ AES
+TD506 #4 <IndexError>  📋 "aeons" ? _____ ~ AES
+TD707 attempt 3 AEONS m m n n m
+TD307 #5 <IndexError>  📋 "aeons" ? ␅
+TD1870636 ␆_____ ~ ENS
+TD122 #5 <IndexError>  📋 "aeons" ? _____ ~ ENS
+TD263 attempt 4 AEONS n m n m m
+TD418 ? ␅
+TD316011 ␆
+TD123 ? 
+TD156 question done
+TD361 > ␅
+TD572484 ␆*
+TD85 > *
+TD1602081 try? ␅
+TD1504049 ␄
+TD170 <EOF>
+TD395 > ␅
+TD1121572 ␆* 4
+TD134 > * 4
+TD7862 try? ␅
+TD1094690 ␄
+TD212 <EOF>
+TD513 > ␅
+TD857939 ␆* 5
+TD134 > * 5
+TD5961 try? ␅
+TD1203525 ␄
+TD162 <EOF>
+TD392 > ␅
+TD728126 ␆* 4
+TD144 > * 4
+TD8592 try? ␅
+TD669460 ␄
+TD162 <EOF>
+TD390 > ␅
+TD651413 ␆* 3
+TD225 > * 3
+TD8696 try? ␅
+TD865552 ␄
+TD296 <EOF>
+TD599 > ␅
+TD737138 ␆* 4
+TD157 > * 4
+TD10009 try? ␅
+TD2607376 ␆1
+TD263 try? 1
+TD611 questioning: ["spear", "#4"]
+TD743 #1 ___N_ ~AE -OS  📋 "spear" ? ␅
+TD6518426 ␆___N_ ~ AER
+TD128 #1 ___N_ ~AE -OS  📋 "spear" ? ___N_ ~ AER
+TD260 attempt 0 SPEAR n n m m m
+TD171 #2 _E___ ~NO -AS  📋 "spear" ? ␅
+TD3747972 ␆_E___ ~ ONR
+TD95 #2 _E___ ~NO -AS  📋 "spear" ? _E___ ~ ONR
+TD256 attempt 1 SPEAR n n n n m
+TD145 #3 A____ ~O -ENS  📋 "spear" ? ␅
+TD3989159 ␆A____ ~ OR
+TD126 #3 A____ ~O -ENS  📋 "spear" ? A____ ~ OR
+TD310 attempt 2 SPEAR n n n n m
+TD221 #4 _____ ~AES -NO  📋 "spear" ? ␅
+TD3356592 ␆_____ ~ AESP
+TD129 #4 _____ ~AES -NO  📋 "spear" ? _____ ~ AESP
+TD197 attempt 3 SPEAR m m m m n
+TD120 #5 _____ ~ENS -AO  📋 "spear" ? ␅
+TD2784555 ␆S_E_R ~ EN
+TD198 #5 _____ ~ENS -AO  📋 "spear" ? S_E_R ~ EN
+TD424 attempt 4 SPEAR Y n Y n Y
+TD494 ? ␅
+TD304509 ␆
+TD128 ? 
+TD167 question done
+TD355 > ␅
+TD830977 ␆
+TD125 > 
+TD428 > ␅
+TD550438 ␆*
+TD93 > *
+TD1407174 questioning: ["crane", "#1"]
+TD528 #1 ___N_ ~AER -OPS  📋 "crane" ? ␅
+TD3182327 ␆/it
+TD87 #1 ___N_ ~AER -OPS  📋 "crane" ? /it
+TD236 attempt 0 CRANE Y Y Y Y Y
+TD114 #2 _E___ ~NOR -AEPS  📋 "crane" ? ␅
+TD2610454 ␆.
+TD347 #2 _E___ ~NOR -AEPS  📋 "crane" ? .
+TD592 attempt 1 CRANE n m n m n
+TD200 #3 A____ ~OR -AENPS  📋 "crane" ? ␅
+TD3426989 ␆AR___ ~ O
+TD123 #3 A____ ~OR -AENPS  📋 "crane" ? AR___ ~ O
+TD259 attempt 2 CRANE n Y n n n
+TD149 #4 _____ ~AEPS -NOR  📋 "crane" ? ␅
+TD4439439 ␆____E ~ ASP
+TD118 #4 _____ ~AEPS -NOR  📋 "crane" ? ____E ~ ASP
+TD265 attempt 3 CRANE n n m n Y
+TD174 #5 S_E_R ~N -AOP  📋 "crane" ? ␅
+TD3853274 ␆S_E_R ~ EN
+TD84 #5 S_E_R ~N -AOP  📋 "crane" ? S_E_R ~ EN
+TD207 attempt 4 CRANE n n n m m
+TD312 ? ␅
+TD365754 ␆
+TD121 ? 
+TD149 question done
+TD319 > ␅
+TD724119 ␆*
+TD84 > *
+TD1306026 questioning: ["argot", "#3"]
+TD397 #2 _E___ ~NOR -ACEPS  📋 "argot" ? ␅
+TD6170382 ␆_E_O_ ~ NR
+TD132 #2 _E___ ~NOR -ACEPS  📋 "argot" ? _E_O_ ~ NR
+TD274 attempt 1 ARGOT n m n Y n
+TD162 #3 AR___ ~O -ACENPS  📋 "argot" ? ␅
+TD1198575 ␆/it
+TD129 #3 AR___ ~O -ACENPS  📋 "argot" ? /it
+TD323 attempt 2 ARGOT Y Y Y Y Y
+TD112 #4 ____E ~APS -CNOR  📋 "argot" ? ␅
+TD2478352 ␆.
+TD130 #4 ____E ~APS -CNOR  📋 "argot" ? .
+TD337 attempt 3 ARGOT m n n n n
+TD171 #5 S_E_R ~N -ACOPR  📋 "argot" ? ␅
+TD3184051 ␆S_E_R ~ EN
+TD128 #5 S_E_R ~N -ACOPR  📋 "argot" ? S_E_R ~ EN
+TD349 attempt 4 ARGOT n n n n n
+TD524 ? ␅
+TD496308 ␆
+TD145 ? 
+TD119 question done
+TD318 > ␅
+TD202338 ␆
+TD147 > 
+TD614 > ␅
+TD1016768 ␆*
+TD122 > *
+TD3249635 questioning: ["heron", "#2"]
+TD361 #2 _E_O_ ~NR -ACEGPST  📋 "heron" ? ␅
+TD3198960 ␆/it
+TD86 #2 _E_O_ ~NR -ACEGPST  📋 "heron" ? /it
+TD220 attempt 1 HERON Y Y Y Y Y
+TD85 #4 ____E ~APS -CGNORT  📋 "heron" ? ␅
+TD2880463 ␆.
+TD127 #4 ____E ~APS -CGNORT  📋 "heron" ? .
+TD288 attempt 3 HERON n n n n n
+TD133 #5 S_E_R ~N -ACGOPRT  📋 "heron" ? ␅
+TD4393198 ␆S_E_R ~ EN
+TD92 #5 S_E_R ~N -ACGOPRT  📋 "heron" ? S_E_R ~ EN
+TD357 attempt 4 HERON n m n n m
+TD325 ? ␅
+TD304414 ␆
+TD230 ? 
+TD265 question done
+TD430 > ␅
+TD501082 ␆*
+TD288 > *
+TD2842865 questioning: ["pause", "#4"]
+TD590 #4 ____E ~APS -CEGHNORT  📋 "pause" ? ␅
+TD3802040 ␆/it
+TD117 #4 ____E ~APS -CEGHNORT  📋 "pause" ? /it
+TD269 attempt 3 PAUSE Y Y Y Y Y
+TD111 #5 S_E_R ~N -ACGHOPRT  📋 "pause" ? ␅
+TD4361895 ␆S_E_R ~ EN
+TD121 #5 S_E_R ~N -ACGHOPRT  📋 "pause" ? S_E_R ~ EN
+TD327 attempt 4 PAUSE n n n n m
+TD457 ? ␅
+TD307383 ␆
+TD187 ? 
+TD126 question done
+TD425 > ␅
+TD463563 ␆*
+TD134 > *
+TD1902711 questioning: ["sneer", "#5"]
+TD383 #5 S_E_R ~N -ACGHOPRSTU  📋 "sneer" ? ␅
+TD2678657 ␆/it
+TD85 #5 S_E_R ~N -ACGHOPRSTU  📋 "sneer" ? /it
+TD212 attempt 4 SNEER Y Y Y Y Y
+TD274 ? ␅
+TD464155 ␆
+TD88 ? 
+TD92 question done
+TD45837 📋> ␅
+TD5520063 ␆squareword.org 1757: 7 guesses
+TD243 📋> squareword.org 1757: 7 guesses
+TD34 📋> ␅
+TD95 ␆
+TD10 📋> 
+TD6 📋> ␅
+TD24 ␆🟩🟩🟩🟩🟩
+TD8 📋> 🟩🟩🟩🟩🟩
+TD6 📋> ␅
+TD13 ␆🟩🟩🟩🟩🟩
+TD4 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD14 ␆🟩🟩🟩🟩🟩
+TD13 📋> 🟩🟩🟩🟩🟩
+TD5 📋> ␅
+TD17 ␆🟨🟨🟨🟨🟩
+TD6 📋> 🟨🟨🟨🟨🟩
+TD6 📋> ␅
+TD12 ␆🟩🟨🟩🟨🟩
+TD6 📋> 🟩🟨🟩🟨🟩
+TD6 📋> ␅
+TD12 ␆
+TD6 📋> 
+TD5 📋> ␅
+TD15 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD8 📋> ␅
+TD134812 ␆#squareword #squareword1757
+TD117 📋> #squareword #squareword1757
+TD16 📋> ␅
+TD189096 ␄
+TD219 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1757: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1757"}
+TD811 result: "squareword.org 1757: 7 guesses\n\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1757"
+TD98 📆 2026-11-23 ? ␅
+TD546106 ␆
+TD118 📆 2026-11-23 ? 
