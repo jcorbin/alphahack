@@ -1,0 +1,174 @@
+T305.2749163869885 now: 2026-11-24T12:06:30EST
+TD163 site: dontwordle.com
+TD28 wordlist: nwl2023.txt
+TD46  ...␅
+TD1370536 ␆
+TD195  ...
+TD187 1> ␅
+TD8516114 ␆* -bot 10
+TD166 1> * -bot 10
+TD353051 ? ␅
+TD1252205 ␆1
+TD86 ? 1
+TD222 📋 "arise" ? ␅
+TD4452452 ␆nnYnY
+TD122 📋 "arise" ? nnYnY
+TD613 tried: ARISE n n Y n Y
+TD205 2> ␅
+TD5551266 ␆undo
+TD93 2> undo
+TD194 undo
+TD163 1> ␅
+TD28922128 ␆* :v [arise] -bot 10
+TD133 1> * :v [arise] -bot 10
+TD225820 ? ␅
+TD1351399 ␆1
+TD87 ? 1
+TD206 📋 "moult" ? ␅
+TD4489835 ␆nnMnn
+TD136 📋 "moult" ? nnMnn
+TD292 tried: MOULT n n m n n
+TD267 2> ␅
+TD839314 ␆undo
+TD92 2> undo
+TD140 undo
+TD152 1> ␅
+TD7839109 ␆* 1
+TD115 1> * 1
+TD198062 📋 "kooks" ? ␅
+TD5049605 ␆nnnnn
+TD130 📋 "kooks" ? nnnnn
+TD224 tried: KOOKS n n n n n
+TD185 2> ␅
+TD21390247 ␄
+T412.34430149098625 now: 2026-11-24T12:08:17EST
+TD213 2> ␅
+TD1006027 ␆* 1
+TD86 2> * 1
+TD235024 📋 "fatwa" ? ␅
+TD9135472 ␆nnnnn
+TD124 📋 "fatwa" ? nnnnn
+TD223 tried: FATWA n n n n n
+TD198 3> ␅
+TD2161129 ␆* 1
+TD84 3> * 1
+TD179438 📋 "xylyl" ? ␅
+TD7331393 ␆nnnnn
+TD130 📋 "xylyl" ? nnnnn
+TD235 tried: XYLYL n n n n n
+TD200 4> ␅
+TD7610555 ␆*
+TD118 4> *
+TD387194 ? ␅
+TD3152782 ␆1
+TD127 ? 1
+TD252 📋 "brugh" ? ␅
+TD13907677 ␆nnMMn
+TD131 📋 "brugh" ? nnMMn
+TD236 tried: BRUGH n n m m n
+TD215 5> ␅
+TD1507685 ␆undo
+TD101 5> undo
+TD133 undo
+TD291 4> ␅
+TD3201818 ␆*
+TD167 4> *
+TD379596 ? ␅
+TD4530897 ␆1
+TD136 ? 1
+TD261 📋 "bumph" ? ␅
+TD6352328 ␆nYnnn
+TD146 📋 "bumph" ? nYnnn
+TD243 tried: BUMPH n Y n n n
+TD257 5> ␅
+TD1713062 ␆*
+TD119 5> *
+TD322859 📋 "runic" ? ␅
+TD16056800 ␆nYnMn
+TD138 📋 "runic" ? nYnMn
+TD283 tried: RUNIC n Y n m n
+TD927 6> ␅
+TD27986882 ␆undo
+TD135 6> undo
+TD157 undo
+TD526 5> ␅
+TD3585867 ␆*
+TD124 5> *
+TD334053 📋 "runic" ? ␅
+TD1743914 ␆n
+TD117 📋 "runic" ? n
+TD260 📋 "runic" ? ␅
+TD1230525 ␆* -sans
+TD120 📋 "runic" ? * -sans
+TD200 ? ␅
+TD2932925 ␄
+TD117 <EOF>
+TD131 5> ␅
+TD3157892 ␆* -sans
+TD89 5> * -sans
+TD172052 ? ␅
+TD20020356 ␆3
+TD94 ? 3
+TD189 📋 "queen" ? ␅
+TD2450176 ␆nYMnn
+TD84 📋 "queen" ? nYMnn
+TD170 tried: QUEEN n Y m n n
+TD189 6> ␅
+TD865652 ␆*
+TD89 6> *
+TD186216 📋 "curve" ? ␅
+TD5095946 ␆nYnnY
+TD116 📋 "curve" ? nYnnY
+TD212 tried: CURVE n Y n n Y
+TD227 📋> ␅
+TD4307718 ␆Don't Wordle 1645 - SURVIVED
+TD94 📋> Don't Wordle 1645 - SURVIVED
+TD15 📋> ␅
+TD39 ␆Hooray! I didn't Wordle today! I didn't even use a hint!
+TD10 📋> Hooray! I didn't Wordle today! I didn't even use a hint!
+TD8 📋> ␅
+TD19 ␆⬜⬜⬜⬜⬜4279
+TD10 📋> ⬜⬜⬜⬜⬜4279
+TD8 📋> ␅
+TD16 ␆⬜⬜⬜⬜⬜1209
+TD7 📋> ⬜⬜⬜⬜⬜1209
+TD9 📋> ␅
+TD14 ␆⬜⬜⬜⬜⬜548
+TD7 📋> ⬜⬜⬜⬜⬜548
+TD9 📋> ␅
+TD45 ␆⬜🟩⬜⬜⬜33
+TD7 📋> ⬜🟩⬜⬜⬜33
+TD8 📋> ␅
+TD15 ␆⬜🟩🟨⬜⬜8
+TD7 📋> ⬜🟩🟨⬜⬜8
+TD8 📋> ␅
+TD15 ␆⬜🟩⬜⬜🟩2
+TD8 📋> ⬜🟩⬜⬜🟩2
+TD8 📋> ␅
+TD14 ␆Undos used: 4
+TD7 📋> Undos used: 4
+TD7 📋> ␅
+TD16 ␆
+TD8 📋> 
+TD5 📋> ␅
+TD10 ␆  2 words remaining
+TD5 📋>   2 words remaining
+TD4 📋> ␅
+TD10 ␆x 5 unused letters
+TD5 📋> x 5 unused letters
+TD5 📋> ␅
+TD98 ␆= 10 total score
+TD35 📋> = 10 total score
+TD19 📋> ␅
+TD22 ␆
+TD26 📋> 
+TD12 📋> ␅
+TD93387 ␆https://dontwordle.com
+TD85 📋> https://dontwordle.com
+TD12 📋> ␅
+TD315756 ␄
+TD154 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "Don't Wordle 1645 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4279\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1209\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c548\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c33\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c8\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe92\nUndos used: 4\n\n  2 words remaining\nx 5 unused letters\n= 10 total score\n\nhttps://dontwordle.com"}
+TD1374 result: "Don't Wordle 1645 - SURVIVED\nHooray! I didn't Wordle today! I didn't even use a hint!\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c4279\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c1209\n\u2b1c\u2b1c\u2b1c\u2b1c\u2b1c548\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\u2b1c33\n\u2b1c\ud83d\udfe9\ud83d\udfe8\u2b1c\u2b1c8\n\u2b1c\ud83d\udfe9\u2b1c\u2b1c\ud83d\udfe92\nUndos used: 4\n\n  2 words remaining\nx 5 unused letters\n= 10 total score\n\nhttps://dontwordle.com"
+TD118 📆 2026-11-24 ? ␅
+TD498231 ␆
+TD87 📆 2026-11-24 ? 
