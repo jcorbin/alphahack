@@ -1,0 +1,258 @@
+T1645.3319405989896 now: 2026-11-24T12:28:50EST
+TD164 site: squareword.org
+TD64 wordlist: nwl2023.txt
+TD60  ...␅
+TD12918278 ␆
+TD92  ...
+TD64 🧩  ? ␅
+TD4005928 ␆#1758
+TD132 🧩  ? #1758
+TD394 puzzle_id: #1758
+TD539 > ␅
+TD8209626 ␆*
+TD122 > *
+TD489529 try? ␅
+TD729613 ␆1
+TD149 try? 1
+TD372 questioning: ["resat", "#5"]
+TD317 #1 <IndexError>  📋 "resat" ? ␅
+TD6488798 ␆_____ ~ A
+TD105 #1 <IndexError>  📋 "resat" ? _____ ~ A
+TD785 attempt 0 RESAT n n n m n
+TD136 #2 <IndexError>  📋 "resat" ? ␅
+TD4130529 ␆___A_ ~ ES
+TD100 #2 <IndexError>  📋 "resat" ? ___A_ ~ ES
+TD258 attempt 1 RESAT n m m Y n
+TD114 #3 <IndexError>  📋 "resat" ? ␅
+TD3400140 ␆_____ ~ SA
+TD139 #3 <IndexError>  📋 "resat" ? _____ ~ SA
+TD286 attempt 2 RESAT n n m m n
+TD138 #4 <IndexError>  📋 "resat" ? ␅
+TD2503437 ␆_E___ ~ EST
+TD110 #4 <IndexError>  📋 "resat" ? _E___ ~ EST
+TD274 attempt 3 RESAT n Y m n m
+TD136 #5 <IndexError>  📋 "resat" ? ␅
+TD2289635 ␆__S__ ~ RA
+TD108 #5 <IndexError>  📋 "resat" ? __S__ ~ RA
+TD282 attempt 4 RESAT m n Y m n
+TD433 ? ␅
+TD633814 ␆
+TD105 ? 
+TD159 question done
+TD346 > ␅
+TD3785444 ␆* 1
+TD109 > * 1
+TD747574 try? ␅
+TD3655803 ␆1
+TD83 try? 1
+TD247 questioning: ["lapin", "#1"]
+TD288 #1 _____ ~A -ERST  📋 "lapin" ? ␅
+TD7737486 ␆_____ ~ ALI
+TD159 #1 _____ ~A -ERST  📋 "lapin" ? _____ ~ ALI
+TD487 attempt 0 LAPIN m m n m n
+TD235 #2 ___A_ ~ES -RT  📋 "lapin" ? ␅
+TD6235901 ␆___A_ ~ ESI
+TD162 #2 ___A_ ~ES -RT  📋 "lapin" ? ___A_ ~ ESI
+TD538 attempt 1 LAPIN n n n m n
+TD246 #3 _____ ~AS -ERT  📋 "lapin" ? ␅
+TD3977866 ␆_____ ~ SAL
+TD114 #3 _____ ~AS -ERT  📋 "lapin" ? _____ ~ SAL
+TD291 attempt 2 LAPIN m m n n n
+TD196 #4 _E___ ~ST -AR  📋 "lapin" ? ␅
+TD4801424 ␆_E___ ~ ESTN
+TD165 #4 _E___ ~ST -AR  📋 "lapin" ? _E___ ~ ESTN
+TD374 attempt 3 LAPIN n n n n m
+TD206 #5 __S__ ~AR -ET  📋 "lapin" ? ␅
+TD3514146 ␆__S_N ~ RA
+TD137 #5 __S__ ~AR -ET  📋 "lapin" ? __S_N ~ RA
+TD344 attempt 4 LAPIN n m n n Y
+TD680 ? ␅
+TD2281037 ␆
+TD108 ? 
+TD151 question done
+TD376 > ␅
+TD10213695 ␆* 3
+TD117 > * 3
+TD466812 try? ␅
+TD1159209 ␄
+TD128 <EOF>
+TD319 > ␅
+TD1178310 ␆* 1
+TD119 > * 1
+TD258563 try? ␅
+TD1295946 ␄
+TD205 <EOF>
+TD480 > ␅
+TD3115880 ␆* 4
+TD129 > * 4
+TD220543 try? ␅
+TD831018 ␄
+TD111 <EOF>
+TD350 > ␅
+TD893081 ␆* 3
+TD88 > * 3
+TD6162 try? ␅
+TD3110342 ␆3
+TD151 try? 3
+TD565 questioning: ["clash", "#3"]
+TD656 #1 _____ ~AIL -ENPRST  📋 "clash" ? ␅
+TD4557036 ␆.
+TD189 #1 _____ ~AIL -ENPRST  📋 "clash" ? .
+TD652 attempt 0 CLASH n m m n n
+TD261 #2 ___A_ ~EIS -ALNPRT  📋 "clash" ? ␅
+TD1803328 ␆.
+TD105 #2 ___A_ ~EIS -ALNPRT  📋 "clash" ? .
+TD299 attempt 1 CLASH n n n m n
+TD154 #3 _____ ~ALS -EINPRT  📋 "clash" ? ␅
+TD1764272 ␆_LASH
+TD103 #3 _____ ~ALS -EINPRT  📋 "clash" ? _LASH
+TD273 attempt 2 CLASH n Y Y Y Y
+TD216 #4 _E___ ~NST -AILPR  📋 "clash" ? ␅
+TD5944283 ␆_E_S_ ~ ETN
+TD111 #4 _E___ ~NST -AILPR  📋 "clash" ? _E_S_ ~ ETN
+TD283 attempt 3 CLASH n n n Y n
+TD303 #5 __S_N ~AR -EILPT  📋 "clash" ? ␅
+TD11611660 ␆.
+TD182 #5 __S_N ~AR -EILPT  📋 "clash" ? .
+TD549 attempt 4 CLASH n n m n n
+TD374 ? ␅
+TD864267 ␆
+TD138 ? 
+TD131 question done
+TD457 > ␅
+TD47840734 ␆*
+TD134 > *
+TD1593158 questioning: ["ideas", "#2"]
+TD375 #1 _____ ~AIL -CEHNPRST  📋 "ideas" ? ␅
+TD4366534 ␆.
+TD116 #1 _____ ~AIL -CEHNPRST  📋 "ideas" ? .
+TD302 attempt 0 IDEAS m n n m n
+TD107 #2 ___A_ ~EIS -ACHLNPRT  📋 "ideas" ? ␅
+TD1227661 ␆/it
+TD88 #2 ___A_ ~EIS -ACHLNPRT  📋 "ideas" ? /it
+TD248 attempt 1 IDEAS Y Y Y Y Y
+TD92 #3 _LASH -CEINPRT  📋 "ideas" ? ␅
+TD6868295 ␆_LASH ~ S
+TD124 #3 _LASH -CEINPRT  📋 "ideas" ? _LASH ~ S
+TD277 attempt 2 IDEAS n n n n m
+TD379 #4 _E_S_ ~NT -ACHILPR  📋 "ideas" ? ␅
+TD5095451 ␆_E_S_ ~ ETN
+TD117 #4 _E_S_ ~NT -ACHILPR  📋 "ideas" ? _E_S_ ~ ETN
+TD277 attempt 3 IDEAS n n m n n
+TD160 #5 __S_N ~AR -CEHILPST  📋 "ideas" ? ␅
+TD1919150 ␆.
+TD132 #5 __S_N ~AR -CEHILPST  📋 "ideas" ? .
+TD519 attempt 4 IDEAS n n n m n
+TD614 ? ␅
+TD395024 ␆
+TD121 ? 
+TD139 question done
+TD320 > ␅
+TD793917 ␆*
+TD89 > *
+TD1506611 questioning: ["tense", "#4"]
+TD398 #1 _____ ~AIL -CDEHNPRST  📋 "tense" ? ␅
+TD16748995 ␆.
+TD88 #1 _____ ~AIL -CDEHNPRST  📋 "tense" ? .
+TD218 attempt 0 TENSE n n n n n
+TD87 #3 _LASH -ACDEINPRT  📋 "tense" ? ␅
+TD3941806 ␆_LASH ~ S
+TD136 #3 _LASH -ACDEINPRT  📋 "tense" ? _LASH ~ S
+TD331 attempt 2 TENSE n n n Y n
+TD351 #4 _E_S_ ~NT -ACDHILPRS  📋 "tense" ? ␅
+TD1217937 ␆/it
+TD120 #4 _E_S_ ~NT -ACDHILPRS  📋 "tense" ? /it
+TD277 attempt 3 TENSE Y Y Y Y Y
+TD202 #5 __S_N ~AR -CDEHILPST  📋 "tense" ? ␅
+TD3350821 ␆.
+TD117 #5 __S_N ~AR -CDEHILPST  📋 "tense" ? .
+TD960 attempt 4 TENSE n n n n n
+TD418 ? ␅
+TD208001 ␆
+TD111 ? 
+TD132 question done
+TD408 > ␅
+TD11795132 ␆*
+TD132 > *
+TD2566493 questioning: ["arson", "#5"]
+TD336 #1 _____ ~AIL -CDEHNPRST  📋 "arson" ? ␅
+TD15281025 ␆.
+TD86 #1 _____ ~AIL -CDEHNPRST  📋 "arson" ? .
+TD225 attempt 0 ARSON m n n n n
+TD91 #3 _LASH -ACDEINPRT  📋 "arson" ? ␅
+TD3889896 ␆_LASH ~ S
+TD138 #3 _LASH -ACDEINPRT  📋 "arson" ? _LASH ~ S
+TD347 attempt 2 ARSON n n m n n
+TD193 #5 __S_N ~AR -CDEHILNPST  📋 "arson" ? ␅
+TD9494964 ␆/it
+TD121 #5 __S_N ~AR -CDEHILNPST  📋 "arson" ? /it
+TD285 attempt 4 ARSON Y Y Y Y Y
+TD293 ? ␅
+TD6793838 ␆
+TD88 ? 
+TD91 question done
+TD268 > ␅
+TD5314543 ␆*
+TD118 > *
+TD2696767 questioning: ["villa", "#1"]
+TD355 #1 _____ ~AIL -CDEHNOPRST  📋 "villa" ? ␅
+TD3078702 ␆/it
+TD98 #1 _____ ~AIL -CDEHNOPRST  📋 "villa" ? /it
+TD211 attempt 0 VILLA Y Y Y Y Y
+TD90 #3 _LASH -ACDEINOPRT  📋 "villa" ? ␅
+TD3890943 ␆_LASH ~ S
+TD119 #3 _LASH -ACDEINOPRT  📋 "villa" ? _LASH ~ S
+TD271 attempt 2 VILLA n n n n n
+TD686 ? ␅
+TD1234328 ␆
+TD91 ? 
+TD101 question done
+TD258 > ␅
+TD2054404 ␆*
+TD121 > *
+TD1989373 questioning: ["slash", "#3"]
+TD356 #3 _LASH -ACDEILNOPRTV  📋 "slash" ? ␅
+TD2895998 ␆/it
+TD94 #3 _LASH -ACDEILNOPRTV  📋 "slash" ? /it
+TD211 attempt 2 SLASH Y Y Y Y Y
+TD333 ? ␅
+TD9589148 ␆
+TD136 ? 
+TD125 question done
+TD42455 📋> ␅
+TD6266963 ␆squareword.org 1758: 8 guesses
+TD99 📋> squareword.org 1758: 8 guesses
+TD15 📋> ␅
+TD47 ␆
+TD9 📋> 
+TD8 📋> ␅
+TD110 ␆🟨🟨🟨🟨🟨
+TD18 📋> 🟨🟨🟨🟨🟨
+TD10 📋> ␅
+TD15 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD15 ␆🟨🟩🟩🟩🟩
+TD5 📋> 🟨🟩🟩🟩🟩
+TD7 📋> ␅
+TD11 ␆🟩🟩🟩🟩🟩
+TD5 📋> 🟩🟩🟩🟩🟩
+TD7 📋> ␅
+TD12 ␆🟨🟨🟩🟨🟩
+TD6 📋> 🟨🟨🟩🟨🟩
+TD8 📋> ␅
+TD11 ␆
+TD9 📋> 
+TD9 📋> ␅
+TD18 ␆<6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD11 📋> <6:🟩 <11:🟨 <16:🟧 16+:🟥
+TD7 📋> ␅
+TD177841 ␆#squareword #squareword1758
+TD121 📋> #squareword #squareword1758
+TD14 📋> ␅
+TD240813 ␄
+TD155 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "squareword.org 1758: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1758"}
+TD783 result: "squareword.org 1758: 8 guesses\n\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\ud83d\udfe8\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\ud83d\udfe9\n\ud83d\udfe8\ud83d\udfe8\ud83d\udfe9\ud83d\udfe8\ud83d\udfe9\n\n<6:\ud83d\udfe9 <11:\ud83d\udfe8 <16:\ud83d\udfe7 16+:\ud83d\udfe5\n#squareword #squareword1758"
+TD92 📆 2026-11-24 ? ␅
+TD843503 ␆
+TD143 📆 2026-11-24 ? 
