@@ -1,0 +1,94 @@
+T48224.627949482994 now: 2026-11-26T13:56:45EST
+TD130 site: alphaguess.com
+TD156592 loaded 196503 words from nwl2023.txt e87b42510c42e2af20afbe8834ef16987ed8f87622796e0360decc56417059f3 (101 words excluded) asof acc1b04b06a480d3fa354ec7a068d37bc0a630dc
+TD99  ...␅
+TD12329850 ␆
+TD145  ...
+TD235 [0 : 98136 : 196503] mac? ␅
+TD2052815 ␆a
+TD65 [0 : 98136 : 196503] mac? a
+TD56 progress: 1 98136 mac
+TD54 [98137 : 147297 : 196503] rho? ␅
+TD2409297 ␆b
+TD187 [98137 : 147297 : 196503] rho? b
+TD147 progress: -1 147297 rho
+TD137 [98137 : 122712 : 147297] parol? ␅
+TD1721982 ␆a
+TD85 [98137 : 122712 : 147297] parol? a
+TD82 progress: 1 122712 parol
+TD124 [122713 : 134990 : 147297] prop? ␅
+TD1648381 ␆b
+TD86 [122713 : 134990 : 147297] prop? b
+TD83 progress: -1 134990 prop
+TD86 [122713 : 128830 : 134990] play? ␅
+TD1573824 ␆a
+TD84 [122713 : 128830 : 134990] play? a
+TD94 progress: 1 128830 play
+TD241 [128831 : 131910 : 134990] prealter? ␅
+TD1779610 ␆a
+TD58 [128831 : 131910 : 134990] prealter? a
+TD55 progress: 1 131910 prealter
+TD108 [131911 : 133449 : 134990] presift? ␅
+TD1501392 ␆a
+TD113 [131911 : 133449 : 134990] presift? a
+TD72 progress: 1 133449 presift
+TD210 [133450 : 134220 : 134990] privies? ␅
+TD1413507 ␆a
+TD79 [133450 : 134220 : 134990] privies? a
+TD67 progress: 1 134220 privies
+TD79 [134221 : 134509 : 134990] prof? ␅
+TD1508884 ␆b
+TD86 [134221 : 134509 : 134990] prof? b
+TD83 progress: -1 134509 prof
+TD106 [134221 : 134245 : 134509] pro? ␅
+TD2296899 ␆a
+TD79 [134221 : 134245 : 134509] pro? a
+TD65 progress: 1 134245 pro
+TD252 [134246 : 134377 : 134509] proclamations? ␅
+TD1571178 ␆b
+TD145 [134246 : 134377 : 134509] proclamations? b
+TD108 progress: -1 134377 proclamations
+TD121 [134246 : 134253 : 134377] prob? ␅
+TD1736708 ␆a
+TD83 [134246 : 134253 : 134377] prob? a
+TD82 progress: 1 134253 prob
+TD285 [134254 : 134315 : 134377] proboscis? ␅
+TD1521713 ␆a
+TD61 [134254 : 134315 : 134377] proboscis? a
+TD55 progress: 1 134315 proboscis
+TD146 [134316 : 134347 : 134377] process? ␅
+TD1863532 ␆b
+TD60 [134316 : 134347 : 134377] process? b
+TD51 progress: -1 134347 process
+TD127 [134316 : 134332 : 134347] procedural? ␅
+TD1738700 ␆a
+TD128 [134316 : 134332 : 134347] procedural? a
+TD92 progress: 1 134332 procedural
+TD78 [134333 : 134337 : 134347] proceed? ␅
+TD2778405 ␆it
+TD93 [134333 : 134337 : 134347] proceed? it
+TD104 progress: 0 134337 proceed
+TD32 [134333 : 134337 : 134347] <Done>.
+TD114 📋> ␅
+TD4160084 ␆🧩 Puzzle #1221
+TD70 📋> 🧩 Puzzle #1221
+TD6 📋> ␅
+TD20 ␆🤔 16 guesses
+TD3 📋> 🤔 16 guesses
+TD2 📋> ␅
+TD5 ␆⏱️ 26s
+TD3 📋> ⏱️ 26s
+TD2 📋> ␅
+TD4 ␆🔗 alphaguess.com/1221
+TD2 📋> 🔗 alphaguess.com/1221
+TD1 📋> ␅
+TD182523 ␄
+TD104 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzle #1221\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 26s\n\ud83d\udd17 alphaguess.com/1221"}
+TD54 result: "\ud83e\udde9 Puzzle #1221\n\ud83e\udd14 16 guesses\n\u23f1\ufe0f 26s\n\ud83d\udd17 alphaguess.com/1221"
+TD9 result puzzle: 1221
+TD3 result guesses: 16
+TD2 result time: 26s
+TD2 result link: alphaguess.com/1221
+TD49 📆 2026-11-26 ? ␅
+TD145830 ␆
+TD108 📆 2026-11-26 ? 
