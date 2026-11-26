@@ -1,3 +1,7 @@
+# 2026-11-27
+
+- 🔗 spaceword.org 🧩 2026-11-26 🏗️ score 2164 current ranking 131/245 ⏱️ 0:06:35.920408
+
 ## WIP
 
 - new puzzle: https://fubargames.se/squardle/
@@ -283,3 +287,21 @@ Rarity: 0.32 🟪
 
 
 
+
+# [spaceword.org](spaceword.org) 🧩 2026-11-26 🏗️ score 2164 current ranking 131/245 ⏱️ 0:06:35.920408
+
+📜 1 sessions
+- tiles: 21/21
+- score: 2164 bonus: +64
+- rank: 131/245
+
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ L U N _ _ N _ J _   
+      _ A M O E B A _ O _   
+      _ T _ T H I E V E _   
+      Q I _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
+      _ _ _ _ _ _ _ _ _ _   
