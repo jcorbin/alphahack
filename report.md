@@ -1,6 +1,7 @@
 # 2026-11-27
 
 - 🔗 spaceword.org 🧩 2026-11-26 🏗️ score 2164 current ranking 132/246 ⏱️ 0:22:31.784120
+- 🔗 wordgrid 🧩 #-1 🟪 rarity:0.25 ⏱️ 0:01:57.690113
 
 ## WIP
 
@@ -306,3 +307,11 @@ Rarity: 0.32 🟪
       _ _ _ _ _ _ _ _ _ _   
       _ _ _ _ _ _ _ _ _ _   
 
+
+# [wordgrid](https://wordgrid.clevergoat.com/) 🧩 #-1 🟪 rarity:0.25 ⏱️ 0:01:57.690113
+
+📜 1 sessions
+🦄 🌌 🌌
+🦄 🌌 🌌
+🦄 🌌 🌌
+Rarity: 0.25 🟪
