@@ -1,0 +1,84 @@
+T48183.25359383802 now: 2026-11-26T13:56:04EST
+TD103 site: alfagok.diginaut.net
+TD412720 loaded 399415 words from opentaal-wordlist.txt 12e5fb5e3c73840b583b30016926d1f63a75e9bf1652a3a6634b2ba7c49ad7be (1437 words excluded) asof acc1b04b06a480d3fa354ec7a068d37bc0a630dc
+TD145  ...␅
+TD30748 ␆
+TD75  ...
+TD126 [0 : 199628 : 399415] lijk? ␅
+TD8194066 ␆
+TD144 [0 : 199628 : 399415] lijk? 
+TD153 [0 : 199628 : 399415] lijk? ␅
+TD3545143 ␆a
+TD65 [0 : 199628 : 399415] lijk? a
+TD176 progress: 1 199628 lijk
+TD55 [199629 : 299315 : 399415] schro? ␅
+TD1592937 ␆a
+TD128 [199629 : 299315 : 399415] schro? a
+TD131 progress: 1 299315 schro
+TD137 [299316 : 349286 : 399415] vakantie? ␅
+TD1534890 ␆a
+TD143 [299316 : 349286 : 399415] vakantie? a
+TD126 progress: 1 349286 vakantie
+TD169 [349287 : 374020 : 399415] vrij? ␅
+TD1675903 ␆b
+TD121 [349287 : 374020 : 399415] vrij? b
+TD124 progress: -1 374020 vrij
+TD145 [349287 : 352850 : 374020] ver? ␅
+TD1479258 ␆a
+TD67 [349287 : 352850 : 374020] ver? a
+TD67 progress: 1 352850 ver
+TD198 [352851 : 363435 : 374020] verzout? ␅
+TD1525487 ␆a
+TD202 [352851 : 363435 : 374020] verzout? a
+TD106 progress: 1 363435 verzout
+TD96 [363436 : 368442 : 374020] voetbal? ␅
+TD1446526 ␆a
+TD119 [363436 : 368442 : 374020] voetbal? a
+TD107 progress: 1 368442 voetbal
+TD121 [368443 : 370291 : 374020] voor? ␅
+TD1513801 ␆a
+TD93 [368443 : 370291 : 374020] voor? a
+TD122 progress: 1 370291 voor
+TD129 [370292 : 372143 : 374020] voortplanting? ␅
+TD1453369 ␆a
+TD132 [370292 : 372143 : 374020] voortplanting? a
+TD122 progress: 1 372143 voortplanting
+TD125 [372144 : 373014 : 374020] vos? ␅
+TD1462181 ␆
+TD127 [372144 : 373014 : 374020] vos? 
+TD132 [372144 : 373014 : 374020] vos? ␅
+TD556347 ␆a
+TD102 [372144 : 373014 : 374020] vos? a
+TD94 progress: 1 373014 vos
+TD92 [373015 : 373482 : 374020] vredes? ␅
+TD2284993 ␆a
+TD84 [373015 : 373482 : 374020] vredes? a
+TD85 progress: 1 373482 vredes
+TD89 [373483 : 373683 : 374020] vreemd? ␅
+TD2139429 ␆it
+TD95 [373483 : 373683 : 374020] vreemd? it
+TD142 progress: 0 373683 vreemd
+TD53 [373483 : 373683 : 374020] <Done>.
+TD53 📋> ␅
+TD5500525 ␆🧩 Puzzel #754
+TD97 📋> 🧩 Puzzel #754
+TD8 📋> ␅
+TD35 ␆🤔 12 gokken
+TD4 📋> 🤔 12 gokken
+TD3 📋> ␅
+TD5 ␆⏱️ 19s
+TD3 📋> ⏱️ 19s
+TD2 📋> ␅
+TD105875 ␆🔗 alfagok.diginaut.net
+TD62 📋> 🔗 alfagok.diginaut.net
+TD7 📋> ␅
+TD722481 ␄
+TD189 pasted: {"subject": "share result", "method": "read:must:stdin", "content": "\ud83e\udde9 Puzzel #754\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 19s\n\ud83d\udd17 alfagok.diginaut.net"}
+TD595 result: "\ud83e\udde9 Puzzel #754\n\ud83e\udd14 12 gokken\n\u23f1\ufe0f 19s\n\ud83d\udd17 alfagok.diginaut.net"
+TD26 result puzzle: 754
+TD9 result guesses: 12
+TD8 result time: 19s
+TD6 result link: alfagok.diginaut.net
+TD97 📆 2026-11-26 ? ␅
+TD474216 ␆
+TD153 📆 2026-11-26 ? 
