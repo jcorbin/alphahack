@@ -1,6 +1,6 @@
 # 2026-11-27
 
-- 🔗 spaceword.org 🧩 2026-11-26 🏗️ score 2164 current ranking 132/246 ⏱️ 0:22:31.784120
+- 🔗 spaceword.org 🧩 2026-11-26 🏗️ score 2173 current ranking 9/267 ⏱️ 2:39:36.308997
 - 🔗 wordgrid 🧩 #-1 🟪 rarity:0.25 ⏱️ 0:01:57.690113
 
 ## WIP
@@ -289,24 +289,23 @@ Rarity: 0.32 🟪
 
 
 
-# [spaceword.org](spaceword.org) 🧩 2026-11-26 🏗️ score 2164 current ranking 132/246 ⏱️ 0:22:31.784120
+# [spaceword.org](spaceword.org) 🧩 2026-11-26 🏗️ score 2173 current ranking 9/267 ⏱️ 2:39:36.308997
 
-📜 2 sessions
+📜 3 sessions
 - tiles: 21/21
-- score: 2164 bonus: +64
-- rank: 132/246
+- score: 2173 bonus: +73
+- rank: 9/267
 
       _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ L U N _ _ N _ J _   
-      _ A M O E B A _ O _   
-      _ T _ T H I E V E _   
-      Q I _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-      _ _ _ _ _ _ _ _ _ _   
-
+      _ _ _ _ L I B _ _ _   
+      _ _ _ _ _ _ E _ _ _   
+      _ _ _ _ J A M _ _ _   
+      _ _ _ _ O N E _ _ _   
+      _ _ _ _ _ T A _ _ _   
+      _ _ _ _ V I N _ _ _   
+      _ _ _ _ _ Q _ _ _ _   
+      _ _ _ _ H U T _ _ _   
+      _ _ _ _ O E _ _ _ _   
 
 # [wordgrid](https://wordgrid.clevergoat.com/) 🧩 #-1 🟪 rarity:0.25 ⏱️ 0:01:57.690113
 
@@ -315,3 +314,4 @@ Rarity: 0.32 🟪
 🦄 🌌 🌌
 🦄 🌌 🌌
 Rarity: 0.25 🟪
+
